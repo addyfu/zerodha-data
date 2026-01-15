@@ -311,6 +311,49 @@ class CloudCollector:
         except Exception as e:
             logger.error(f"Telegram error: {e}")
     
+    async def send_telegram_file(self, file_path: str, caption: str = None):
+        """
+        Send file to Telegram.
+        
+        Limits:
+        - Max 50 MB via Bot API
+        - Max 2 GB via MTProto (not implemented)
+        """
+        if not self.telegram_token or not self.telegram_chat_id:
+            logger.warning("Telegram not configured")
+            return False
+        
+        try:
+            # Check file size
+            file_size = os.path.getsize(file_path)
+            file_size_mb = file_size / (1024 * 1024)
+            
+            if file_size_mb > 50:
+                logger.error(f"File too large for Telegram Bot API: {file_size_mb:.1f} MB (max 50 MB)")
+                return False
+            
+            url = f"https://api.telegram.org/bot{self.telegram_token}/sendDocument"
+            
+            with open(file_path, 'rb') as f:
+                files = {'document': (os.path.basename(file_path), f)}
+                data = {
+                    'chat_id': self.telegram_chat_id,
+                    'caption': caption or f"📊 Database backup ({file_size_mb:.1f} MB)"
+                }
+                
+                response = requests.post(url, files=files, data=data, timeout=120)
+                
+                if response.status_code == 200:
+                    logger.info(f"File sent to Telegram: {file_size_mb:.1f} MB")
+                    return True
+                else:
+                    logger.error(f"Telegram file upload failed: {response.text}")
+                    return False
+                    
+        except Exception as e:
+            logger.error(f"Telegram file error: {e}")
+            return False
+    
     def get_stats(self) -> dict:
         """Get database statistics."""
         cursor = self.db_conn.cursor()
@@ -338,7 +381,7 @@ class CloudCollector:
         if self.db_conn:
             self.db_conn.close()
     
-    def run(self, days: int = 1, historical: bool = False):
+    def run(self, days: int = 1, historical: bool = False, send_file: bool = True):
         """Main entry point."""
         start_time = datetime.now()
         
@@ -359,8 +402,10 @@ class CloudCollector:
         duration = (datetime.now() - start_time).seconds
         
         # Summary
+        date_str = datetime.now().strftime("%Y-%m-%d")
         summary = (
             f"{'📊' if results['total_candles'] > 0 else '⚠️'} <b>Collection Complete</b>\n\n"
+            f"📅 Date: {date_str}\n"
             f"✅ Stocks: {len(results['success'])}/{len(self.STOCKS)}\n"
             f"📈 New candles: {results['total_candles']:,}\n"
             f"💾 DB Size: {stats['db_size_mb']} MB\n"
@@ -376,6 +421,24 @@ class CloudCollector:
         # Send notification
         asyncio.run(self.send_telegram(summary))
         
+        # Send database file to Telegram (if enabled and file is under 50MB)
+        if send_file and stats['db_size_mb'] < 50:
+            self.close()  # Close DB connection before sending
+            
+            caption = (
+                f"📊 Zerodha Data - {date_str}\n"
+                f"📈 {stats['total_records']:,} candles | {len(results['success'])} stocks\n"
+                f"💾 {stats['db_size_mb']} MB"
+            )
+            
+            asyncio.run(self.send_telegram_file(str(DB_PATH), caption))
+            return True
+        elif stats['db_size_mb'] >= 50:
+            asyncio.run(self.send_telegram(
+                "⚠️ Database too large for Telegram (>50MB).\n"
+                "Download from GitHub Releases instead."
+            ))
+        
         self.close()
         return True
 
@@ -388,6 +451,7 @@ def main():
     parser.add_argument("--historical", action="store_true", help="Collect 60 days")
     parser.add_argument("--all-nse", action="store_true", help="Collect ALL NSE stocks (~2000)")
     parser.add_argument("--top", type=int, help="Collect top N stocks by market cap (e.g., 100, 200, 500)")
+    parser.add_argument("--no-file", action="store_true", help="Don't send database file to Telegram")
     
     args = parser.parse_args()
     
@@ -405,7 +469,8 @@ def main():
     
     logger.info(f"Will collect data for {len(collector.STOCKS)} stocks")
     
-    success = collector.run(args.days, args.historical)
+    send_file = not args.no_file
+    success = collector.run(args.days, args.historical, send_file)
     
     sys.exit(0 if success else 1)
 
