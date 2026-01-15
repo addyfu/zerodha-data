@@ -6202,3 +6202,975 @@ Let me know if you see any errors or when you get the Telegram message!
 
 ---
 
+_**User (2026-01-13 13:42Z)**_
+
+it's failing bro
+1s
+2s
+0s
+Installed versions
+  
+10s
+Run pip install requests pandas pyotp tqdm python-telegram-bot
+  
+Collecting requests
+  Downloading requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)
+Collecting pandas
+  Downloading pandas-2.3.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+Collecting pyotp
+  Downloading pyotp-2.9.0-py3-none-any.whl.metadata (9.8 kB)
+Collecting tqdm
+  Downloading tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+Collecting python-telegram-bot
+  Downloading python_telegram_bot-22.5-py3-none-any.whl.metadata (17 kB)
+Collecting charset_normalizer<4,>=2 (from requests)
+  Downloading charset_normalizer-3.4.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (37 kB)
+Collecting idna<4,>=2.5 (from requests)
+  Downloading idna-3.11-py3-none-any.whl.metadata (8.4 kB)
+Collecting urllib3<3,>=1.21.1 (from requests)
+  Downloading urllib3-2.6.3-py3-none-any.whl.metadata (6.9 kB)
+Collecting certifi>=2017.4.17 (from requests)
+  Downloading certifi-2026.1.4-py3-none-any.whl.metadata (2.5 kB)
+Collecting numpy>=1.23.2 (from pandas)
+  Downloading numpy-2.4.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting python-dateutil>=2.8.2 (from pandas)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas)
+  Downloading pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas)
+  Downloading tzdata-2025.3-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting httpx<0.29,>=0.27 (from python-telegram-bot)
+  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting anyio (from httpx<0.29,>=0.27->python-telegram-bot)
+  Downloading anyio-4.12.1-py3-none-any.whl.metadata (4.3 kB)
+Collecting httpcore==1.* (from httpx<0.29,>=0.27->python-telegram-bot)
+  Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx<0.29,>=0.27->python-telegram-bot)
+  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting typing_extensions>=4.5 (from anyio->httpx<0.29,>=0.27->python-telegram-bot)
+  Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading requests-2.32.5-py3-none-any.whl (64 kB)
+Downloading charset_normalizer-3.4.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (151 kB)
+Downloading idna-3.11-py3-none-any.whl (71 kB)
+Downloading urllib3-2.6.3-py3-none-any.whl (131 kB)
+Downloading pandas-2.3.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 143.1 MB/s  0:00:00
+Downloading pyotp-2.9.0-py3-none-any.whl (13 kB)
+Downloading tqdm-4.67.1-py3-none-any.whl (78 kB)
+Downloading python_telegram_bot-22.5-py3-none-any.whl (730 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 731.0/731.0 kB 112.0 MB/s  0:00:00
+Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+Downloading certifi-2026.1.4-py3-none-any.whl (152 kB)
+Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading numpy-2.4.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 221.4 MB/s  0:00:00
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading tzdata-2025.3-py2.py3-none-any.whl (348 kB)
+Downloading anyio-4.12.1-py3-none-any.whl (113 kB)
+Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Installing collected packages: pytz, urllib3, tzdata, typing_extensions, tqdm, six, pyotp, numpy, idna, h11, charset_normalizer, certifi, requests, python-dateutil, httpcore, anyio, pandas, httpx, python-telegram-bot
+Successfully installed anyio-4.12.1 certifi-2026.1.4 charset_normalizer-3.4.4 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.11 numpy-2.4.1 pandas-2.3.3 pyotp-2.9.0 python-dateutil-2.9.0.post0 python-telegram-bot-22.5 pytz-2025.2 requests-2.32.5 six-1.17.0 tqdm-4.67.1 typing_extensions-4.15.0 tzdata-2025.3 urllib3-2.6.3
+0s
+Run mkdir -p data
+  
+No existing database found, starting fresh
+17s
+Run if [ "false" == "true" ]; then
+  
+2026-01-15 16:16:36,270 - INFO - Database initialized: /home/runner/work/zerodha-data/zerodha-data/data/zerodha_data.db
+2026-01-15 16:16:36,275 - INFO - Attempting auto-login...
+2026-01-15 16:16:37,868 - INFO - Login successful!
+2026-01-15 16:16:37,868 - INFO - Collecting 1 day(s) of data...
+[1/3] Logging in as ***...
+[2/3] Submitting TOTP...
+[3/3] Extracting enctoken...
+✅ Login successful! Token length: 120
+Collecting:   0%|          | 0/50 [00:00<?, ?it/s]
+Collecting:   2%|▏         | 1/50 [00:01<00:49,  1.01s/it]
+Collecting:   4%|▍         | 2/50 [00:01<00:27,  1.74it/s]
+Collecting:   6%|▌         | 3/50 [00:01<00:20,  2.32it/s]
+Collecting:   8%|▊         | 4/50 [00:01<00:16,  2.75it/s]
+Collecting:  10%|█         | 5/50 [00:02<00:14,  3.08it/s]
+Collecting:  12%|█▏        | 6/50 [00:02<00:13,  3.28it/s]
+Collecting:  14%|█▍        | 7/50 [00:02<00:12,  3.43it/s]
+Collecting:  16%|█▌        | 8/50 [00:02<00:11,  3.52it/s]
+Collecting:  18%|█▊        | 9/50 [00:03<00:11,  3.62it/s]
+Collecting:  20%|██        | 10/50 [00:03<00:10,  3.67it/s]
+Collecting:  22%|██▏       | 11/50 [00:03<00:10,  3.76it/s]
+Collecting:  24%|██▍       | 12/50 [00:03<00:10,  3.76it/s]
+Collecting:  26%|██▌       | 13/50 [00:04<00:09,  3.80it/s]
+Collecting:  28%|██▊       | 14/50 [00:04<00:09,  3.78it/s]
+Collecting:  30%|███       | 15/50 [00:04<00:09,  3.73it/s]
+Collecting:  32%|███▏      | 16/50 [00:04<00:08,  3.78it/s]
+Collecting:  34%|███▍      | 17/50 [00:05<00:08,  3.74it/s]
+Collecting:  36%|███▌      | 18/50 [00:05<00:08,  3.77it/s]
+Collecting:  38%|███▊      | 19/50 [00:05<00:08,  3.80it/s]
+Collecting:  40%|████      | 20/50 [00:06<00:07,  3.81it/s]
+Collecting:  42%|████▏     | 21/50 [00:06<00:07,  3.82it/s]
+Collecting:  44%|████▍     | 22/50 [00:06<00:07,  3.81it/s]
+Collecting:  46%|████▌     | 23/50 [00:06<00:07,  3.82it/s]
+Collecting:  48%|████▊     | 24/50 [00:07<00:06,  3.79it/s]
+Collecting:  50%|█████     | 25/50 [00:07<00:06,  3.80it/s]
+Collecting:  52%|█████▏    | 26/50 [00:07<00:06,  3.86it/s]
+Collecting:  54%|█████▍    | 27/50 [00:07<00:05,  3.91it/s]
+Collecting:  56%|█████▌    | 28/50 [00:08<00:05,  3.91it/s]
+Collecting:  58%|█████▊    | 29/50 [00:08<00:05,  3.85it/s]
+Collecting:  60%|██████    | 30/50 [00:08<00:05,  3.86it/s]
+Collecting:  62%|██████▏   | 31/50 [00:08<00:04,  3.86it/s]
+Collecting:  64%|██████▍   | 32/50 [00:09<00:04,  3.92it/s]
+Collecting:  66%|██████▌   | 33/50 [00:09<00:04,  3.89it/s]
+Collecting:  68%|██████▊   | 34/50 [00:09<00:04,  3.82it/s]
+Collecting:  70%|███████   | 35/50 [00:09<00:03,  3.84it/s]
+Collecting:  72%|███████▏  | 36/50 [00:10<00:03,  3.86it/s]
+Collecting:  74%|███████▍  | 37/50 [00:10<00:03,  3.84it/s]
+Collecting:  76%|███████▌  | 38/50 [00:10<00:03,  3.84it/s]
+Collecting:  78%|███████▊  | 39/50 [00:10<00:02,  3.86it/s]
+Collecting:  80%|████████  | 40/50 [00:11<00:02,  3.88it/s]
+Collecting:  82%|████████▏ | 41/50 [00:11<00:02,  3.82it/s]
+Collecting:  84%|████████▍ | 42/50 [00:11<00:02,  3.83it/s]
+Collecting:  86%|████████▌ | 43/50 [00:11<00:01,  3.84it/s]
+Collecting:  88%|████████▊ | 44/50 [00:12<00:01,  3.87it/s]
+Collecting:  90%|█████████ | 45/50 [00:12<00:01,  3.87it/s]
+Collecting:  92%|█████████▏| 46/50 [00:12<00:01,  3.87it/s]
+Collecting:  94%|█████████▍| 47/50 [00:13<00:00,  3.83it/s]
+Collecting:  96%|█████████▌| 48/50 [00:13<00:00,  3.85it/s]
+Collecting:  98%|█████████▊| 49/50 [00:13<00:00,  3.88it/s]
+Collecting: 100%|██████████| 50/50 [00:13<00:00,  3.92it/s]
+Collecting: 100%|██████████| 50/50 [00:13<00:00,  3.63it/s]
+2026-01-15 16:16:51,714 - INFO - ⚠️ Collection Complete
+✅ Stocks: 0/50
+📈 New candles: 0
+💾 DB Size: 0.0 MB
+📁 Total records: 0
+⏱️ Duration: 15s
+⚠️ Failed: RELIANCE, TCS, HDFCBANK, INFY, ICICIBANK
+2026-01-15 16:16:52,500 - INFO - Telegram notification sent
+0s
+Run python -c "
+Records: 0
+Symbols: 0
+Size: 0.02 MB
+2s
+Run softprops/action-gh-release@v1
+  
+👩‍🏭 Creating new GitHub release for tag data-1...
+⚠️ GitHub release failed with status: 403
+undefined
+retrying... (2 retries remaining)
+👩‍🏭 Creating new GitHub release for tag data-1...
+⚠️ GitHub release failed with status: 403
+undefined
+retrying... (1 retries remaining)
+👩‍🏭 Creating new GitHub release for tag data-1...
+⚠️ GitHub release failed with status: 403
+undefined
+retrying... (0 retries remaining)
+❌ Too many retries. Aborting...
+Error: Too many retries.
+0s
+0s
+0s
+Post job cleanup.
+/usr/bin/git version
+git version 2.52.0
+Temporarily overriding HOME='/home/runner/work/_temp/051705de-280d-4fe0-ae71-9b980c30b0bb' before making global git config changes
+Adding repository directory to the temporary git global config as a safe directory
+/usr/bin/git config --global --add safe.directory /home/runner/work/zerodha-data/zerodha-data
+/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+http.https://github.com/.extraheader
+/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+
+---
+
+_**Agent (model claude-4.5-opus-high, mode Agent)**_
+
+I see two issues:
+
+1. **Data collection failed** - All 50 stocks failed (0 candles collected)
+2. **GitHub Release failed** - Permission issue (403 error)
+
+Let me fix both:
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file">
+<details><summary>Tool use: **read_file** • Read file: D:\study\kite\cloud_collector.py</summary>
+
+</details>
+</tool-use>
+
+---
+
+The login worked (Token length: 120), but data fetching failed. The issue is likely that **today is not a trading day** or the market data request format. Let me check and fix:
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file">
+<details><summary>Tool use: **read_file** • Read file: D:\study\kite\cloud_collector.py</summary>
+
+</details>
+</tool-use>
+
+---
+
+I see the issue! The problem is:
+1. **Today (Jan 15, 2026) might be after market hours** or a holiday
+2. **The fetch is failing silently** - we need better error logging
+3. **GitHub Release needs permissions**
+
+Let me fix both issues:
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="search_replace">
+
+<details><summary>Tool use: **search_replace** • Edit file: D:\study\kite\cloud_collector.py</summary>
+
+**Chunk 1**
+Lines added: 9, lines removed: undefined
+
+```diff
+@@ -150,13 +150,22 @@
+          try:
+              response = self.session.get(url, params=params, timeout=30)
++             
++             if response.status_code == 403:
++                 logger.error(f"Token {token}: 403 Forbidden - Session may have expired")
++                 return pd.DataFrame()
++             
+              if response.status_code != 200:
++                 logger.error(f"Token {token}: HTTP {response.status_code}")
+                  return pd.DataFrame()
+              
+              data = response.json()
++             
+              if data.get("status") != "success":
++                 logger.error(f"Token {token}: API error - {data.get('message', 'Unknown')}")
+                  return pd.DataFrame()
+              
+              candles = data.get("data", {}).get("candles", [])
+              if not candles:
++                 logger.warning(f"Token {token}: No candles returned (market closed or holiday?)")
+                  return pd.DataFrame()
+              
+```
+
+**Chunk 2**
+Lines added: 1, lines removed: 1
+
+```diff
+@@ -167,5 +176,5 @@
+              
+          except Exception as e:
+-             logger.error(f"Fetch error: {e}")
++             logger.error(f"Token {token}: Fetch error - {e}")
+              return pd.DataFrame()
+      
+```
+
+</details>
+
+</tool-use>
+
+---
+
+Now let me fix the GitHub workflow to add permissions and fetch more days (in case today has no data):
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="search_replace">
+
+<details><summary>Tool use: **search_replace** • Edit file: D:\study\kite\.github\workflows\collect_data.yml</summary>
+
+**Chunk 1**
+Lines added: 1, lines removed: 1
+
+```diff
+@@ -16,5 +16,5 @@
+          description: 'Days to collect (1-60)'
+          required: false
+-         default: '1'
++         default: '3'
+        historical:
+          description: 'Collect 60 days historical data'
+```
+
+**Chunk 2**
+Lines added: 4, lines removed: undefined
+
+```diff
+@@ -23,4 +23,8 @@
+          default: false
+  
++ # Required for creating releases
++ permissions:
++   contents: write
++ 
+  env:
+    ZERODHA_USER_ID: ${{ secrets.ZERODHA_USER_ID }}
+```
+
+</details>
+
+</tool-use>
+
+---
+
+Now let me push the fixes:
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **run_terminal_cmd** • Run command: cd D:\study\kite; git add .; git commit -m "Fix: Add better error logging and GitHub release permissions"; git push</summary>
+
+```bash
+cd D:\study\kite; git add .; git commit -m "Fix: Add better error logging and GitHub release permissions"; git push
+```
+
+```
+[main c0c5360] Fix: Add better error logging and GitHub release permissions
+ 3 files changed, 203 insertions(+), 2 deletions(-)
+To https://github.com/addyfu/zerodha-data.git
+   d9bfc6e..c0c5360  main -&gt; main
+
+```
+</details>
+</tool-use>
+
+---
+
+Good, I pushed the fixes. But wait - I see the real issue now!
+
+## 🔍 The Problem
+
+Looking at the logs more carefully:
+```
+✅ Login successful! Token length: 120
+```
+
+The login worked! But then:
+```
+✅ Stocks: 0/50
+📈 New candles: 0
+```
+
+**All 50 stocks returned no data.** This means either:
+1. **Today is a market holiday** (Jan 15 might be a holiday in India)
+2. **The market hasn't opened yet** (GitHub runs in UTC timezone)
+3. **There's an issue with the API request**
+
+Let me check what day it is and run with more days to get historical data:
+
+## ✅ Try Again - Run with Historical Data
+
+1. Go to **Actions** tab
+2. Click **"Daily Data Collection"**
+3. Click **"Run workflow"**
+4. **Change "Days to collect" to `7`** (or check "Collect 60 days historical data")
+5. Click **"Run workflow"**
+
+This will fetch the **last 7 days** of data, so even if today is a holiday, you'll get data from previous trading days.
+
+---
+
+Also, I noticed **January 15 is Makar Sankranti** - it might be a market holiday! That's why no data was returned.
+
+Try running with **7 days** or **historical mode** and let me know what happens! 🚀
+
+---
+
+_**User (2026-01-13 13:42Z)**_
+
+2026-01-15T16:19:10.9071293Z Current runner version: '2.331.0'
+2026-01-15T16:19:10.9109078Z ##[group]Runner Image Provisioner
+2026-01-15T16:19:10.9110985Z Hosted Compute Agent
+2026-01-15T16:19:10.9111980Z Version: 20251211.462
+2026-01-15T16:19:10.9113231Z Commit: 6cbad8c2bb55d58165063d031ccabf57e2d2db61
+2026-01-15T16:19:10.9114592Z Build Date: 2025-12-11T16:28:49Z
+2026-01-15T16:19:10.9115858Z Worker ID: {b34329a8-2662-4bff-8104-fd13ecf48fd9}
+2026-01-15T16:19:10.9117252Z ##[endgroup]
+2026-01-15T16:19:10.9118246Z ##[group]Operating System
+2026-01-15T16:19:10.9119279Z Ubuntu
+2026-01-15T16:19:10.9120309Z 24.04.3
+2026-01-15T16:19:10.9121518Z LTS
+2026-01-15T16:19:10.9122322Z ##[endgroup]
+2026-01-15T16:19:10.9123426Z ##[group]Runner Image
+2026-01-15T16:19:10.9124509Z Image: ubuntu-24.04
+2026-01-15T16:19:10.9125562Z Version: 20260105.202.1
+2026-01-15T16:19:10.9127445Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260105.202/images/ubuntu/Ubuntu2404-Readme.md
+2026-01-15T16:19:10.9130342Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260105.202
+2026-01-15T16:19:10.9132503Z ##[endgroup]
+2026-01-15T16:19:10.9134559Z ##[group]GITHUB_TOKEN Permissions
+2026-01-15T16:19:10.9137456Z Contents: write
+2026-01-15T16:19:10.9138403Z Metadata: read
+2026-01-15T16:19:10.9139501Z ##[endgroup]
+2026-01-15T16:19:10.9142993Z Secret source: Actions
+2026-01-15T16:19:10.9144278Z Prepare workflow directory
+2026-01-15T16:19:11.0157614Z Prepare all required actions
+2026-01-15T16:19:11.0272207Z Getting action download info
+2026-01-15T16:19:11.6093932Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-01-15T16:19:11.7245046Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+2026-01-15T16:19:12.2741365Z Download action repository 'softprops/action-gh-release@v1' (SHA:de2c0eb89ae2a093876385947365aca7b0e5f844)
+2026-01-15T16:19:12.7170160Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-01-15T16:19:13.1267160Z Complete job name: collect
+2026-01-15T16:19:13.2087783Z ##[group]Run actions/checkout@v4
+2026-01-15T16:19:13.2088899Z with:
+2026-01-15T16:19:13.2089455Z   repository: addyfu/zerodha-data
+2026-01-15T16:19:13.2090563Z   token: ***
+2026-01-15T16:19:13.2091270Z   ssh-strict: true
+2026-01-15T16:19:13.2091897Z   ssh-user: git
+2026-01-15T16:19:13.2092456Z   persist-credentials: true
+2026-01-15T16:19:13.2093103Z   clean: true
+2026-01-15T16:19:13.2093656Z   sparse-checkout-cone-mode: true
+2026-01-15T16:19:13.2094384Z   fetch-depth: 1
+2026-01-15T16:19:13.2094927Z   fetch-tags: false
+2026-01-15T16:19:13.2095514Z   show-progress: true
+2026-01-15T16:19:13.2096092Z   lfs: false
+2026-01-15T16:19:13.2096593Z   submodules: false
+2026-01-15T16:19:13.2097179Z   set-safe-directory: true
+2026-01-15T16:19:13.2098055Z env:
+2026-01-15T16:19:13.2098609Z   ZERODHA_USER_ID: ***
+2026-01-15T16:19:13.2099246Z   ZERODHA_PASSWORD: ***
+2026-01-15T16:19:13.2100061Z   ZERODHA_TOTP_SECRET: ***
+2026-01-15T16:19:13.2101501Z   TELEGRAM_BOT_TOKEN: ***
+2026-01-15T16:19:13.2102231Z   TELEGRAM_CHAT_ID: ***
+2026-01-15T16:19:13.2102820Z ##[endgroup]
+2026-01-15T16:19:13.3306862Z Syncing repository: addyfu/zerodha-data
+2026-01-15T16:19:13.3309062Z ##[group]Getting Git version info
+2026-01-15T16:19:13.3310221Z Working directory is '/home/runner/work/zerodha-data/zerodha-data'
+2026-01-15T16:19:13.3312012Z [command]/usr/bin/git version
+2026-01-15T16:19:13.7705465Z git version 2.52.0
+2026-01-15T16:19:13.7738786Z ##[endgroup]
+2026-01-15T16:19:13.7759526Z Temporarily overriding HOME='/home/runner/work/_temp/d995f146-3245-459f-8d8c-0933af8542a3' before making global git config changes
+2026-01-15T16:19:13.7774378Z Adding repository directory to the temporary git global config as a safe directory
+2026-01-15T16:19:13.7778044Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/zerodha-data/zerodha-data
+2026-01-15T16:19:13.7842761Z Deleting the contents of '/home/runner/work/zerodha-data/zerodha-data'
+2026-01-15T16:19:13.7849047Z ##[group]Initializing the repository
+2026-01-15T16:19:13.7856521Z [command]/usr/bin/git init /home/runner/work/zerodha-data/zerodha-data
+2026-01-15T16:19:13.8009913Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-01-15T16:19:13.8021281Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-01-15T16:19:13.8024382Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-01-15T16:19:13.8026734Z hint: call:
+2026-01-15T16:19:13.8028159Z hint:
+2026-01-15T16:19:13.8030045Z hint: 	git config --global init.defaultBranch <name>
+2026-01-15T16:19:13.8043118Z hint:
+2026-01-15T16:19:13.8045477Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-01-15T16:19:13.8048880Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-01-15T16:19:13.8051750Z hint:
+2026-01-15T16:19:13.8053221Z hint: 	git branch -m <name>
+2026-01-15T16:19:13.8054818Z hint:
+2026-01-15T16:19:13.8056878Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-01-15T16:19:13.8060467Z Initialized empty Git repository in /home/runner/work/zerodha-data/zerodha-data/.git/
+2026-01-15T16:19:13.8067141Z [command]/usr/bin/git remote add origin https://github.com/addyfu/zerodha-data
+2026-01-15T16:19:13.8109570Z ##[endgroup]
+2026-01-15T16:19:13.8112804Z ##[group]Disabling automatic garbage collection
+2026-01-15T16:19:13.8115214Z [command]/usr/bin/git config --local gc.auto 0
+2026-01-15T16:19:13.8154771Z ##[endgroup]
+2026-01-15T16:19:13.8157961Z ##[group]Setting up auth
+2026-01-15T16:19:13.8165126Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-01-15T16:19:13.8216822Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-01-15T16:19:13.8722630Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-01-15T16:19:13.8787902Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-01-15T16:19:13.9110927Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-01-15T16:19:13.9159733Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-01-15T16:19:13.9454580Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-01-15T16:19:13.9498528Z ##[endgroup]
+2026-01-15T16:19:13.9503464Z ##[group]Fetching the repository
+2026-01-15T16:19:13.9512715Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +c0c5360c89ad2905b400fc7f5cf007e8a7a2f4e3:refs/remotes/origin/main
+2026-01-15T16:19:14.7917943Z From https://github.com/addyfu/zerodha-data
+2026-01-15T16:19:14.7920332Z  * [new ref]         c0c5360c89ad2905b400fc7f5cf007e8a7a2f4e3 -> origin/main
+2026-01-15T16:19:14.7925737Z ##[endgroup]
+2026-01-15T16:19:14.7927960Z ##[group]Determining the checkout info
+2026-01-15T16:19:14.7930318Z ##[endgroup]
+2026-01-15T16:19:14.7932023Z [command]/usr/bin/git sparse-checkout disable
+2026-01-15T16:19:14.7935695Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-01-15T16:19:14.7939995Z ##[group]Checking out the ref
+2026-01-15T16:19:14.7942332Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-01-15T16:19:14.8246448Z Switched to a new branch 'main'
+2026-01-15T16:19:14.8248117Z branch 'main' set up to track 'origin/main'.
+2026-01-15T16:19:14.8262263Z ##[endgroup]
+2026-01-15T16:19:14.8313806Z [command]/usr/bin/git log -1 --format=%H
+2026-01-15T16:19:14.8353295Z c0c5360c89ad2905b400fc7f5cf007e8a7a2f4e3
+2026-01-15T16:19:14.8691895Z ##[group]Run actions/setup-python@v5
+2026-01-15T16:19:14.8693221Z with:
+2026-01-15T16:19:14.8693971Z   python-version: 3.11
+2026-01-15T16:19:14.8694781Z   check-latest: false
+2026-01-15T16:19:14.8695860Z   token: ***
+2026-01-15T16:19:14.8696645Z   update-environment: true
+2026-01-15T16:19:14.8697479Z   allow-prereleases: false
+2026-01-15T16:19:14.8698301Z   freethreaded: false
+2026-01-15T16:19:14.8699062Z env:
+2026-01-15T16:19:14.8699848Z   ZERODHA_USER_ID: ***
+2026-01-15T16:19:14.8700667Z   ZERODHA_PASSWORD: ***
+2026-01-15T16:19:14.8702027Z   ZERODHA_TOTP_SECRET: ***
+2026-01-15T16:19:14.8703006Z   TELEGRAM_BOT_TOKEN: ***
+2026-01-15T16:19:14.8703830Z   TELEGRAM_CHAT_ID: ***
+2026-01-15T16:19:14.8704609Z ##[endgroup]
+2026-01-15T16:19:15.0790469Z ##[group]Installed versions
+2026-01-15T16:19:15.0996608Z Successfully set up CPython (3.11.14)
+2026-01-15T16:19:15.1005281Z ##[endgroup]
+2026-01-15T16:19:15.1144008Z ##[group]Run pip install requests pandas pyotp tqdm python-telegram-bot
+2026-01-15T16:19:15.1145277Z [36;1mpip install requests pandas pyotp tqdm python-telegram-bot[0m
+2026-01-15T16:19:15.1195745Z shell: /usr/bin/bash -e {0}
+2026-01-15T16:19:15.1196614Z env:
+2026-01-15T16:19:15.1197585Z   ZERODHA_USER_ID: ***
+2026-01-15T16:19:15.1198416Z   ZERODHA_PASSWORD: ***
+2026-01-15T16:19:15.1199331Z   ZERODHA_TOTP_SECRET: ***
+2026-01-15T16:19:15.1200314Z   TELEGRAM_BOT_TOKEN: ***
+2026-01-15T16:19:15.1201390Z   TELEGRAM_CHAT_ID: ***
+2026-01-15T16:19:15.1202295Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:19:15.1203417Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-15T16:19:15.1204535Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:19:15.1205584Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:19:15.1206597Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:19:15.1207696Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-15T16:19:15.1208631Z ##[endgroup]
+2026-01-15T16:19:18.0332966Z Collecting requests
+2026-01-15T16:19:18.0933169Z   Downloading requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)
+2026-01-15T16:19:18.2552149Z Collecting pandas
+2026-01-15T16:19:18.2590635Z   Downloading pandas-2.3.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+2026-01-15T16:19:18.3354073Z Collecting pyotp
+2026-01-15T16:19:18.3395260Z   Downloading pyotp-2.9.0-py3-none-any.whl.metadata (9.8 kB)
+2026-01-15T16:19:18.3854426Z Collecting tqdm
+2026-01-15T16:19:18.3891580Z   Downloading tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+2026-01-15T16:19:18.4347360Z Collecting python-telegram-bot
+2026-01-15T16:19:18.4378638Z   Downloading python_telegram_bot-22.5-py3-none-any.whl.metadata (17 kB)
+2026-01-15T16:19:18.5356331Z Collecting charset_normalizer<4,>=2 (from requests)
+2026-01-15T16:19:18.5387720Z   Downloading charset_normalizer-3.4.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (37 kB)
+2026-01-15T16:19:18.5668105Z Collecting idna<4,>=2.5 (from requests)
+2026-01-15T16:19:18.5702555Z   Downloading idna-3.11-py3-none-any.whl.metadata (8.4 kB)
+2026-01-15T16:19:18.6124730Z Collecting urllib3<3,>=1.21.1 (from requests)
+2026-01-15T16:19:18.6162475Z   Downloading urllib3-2.6.3-py3-none-any.whl.metadata (6.9 kB)
+2026-01-15T16:19:18.6514461Z Collecting certifi>=2017.4.17 (from requests)
+2026-01-15T16:19:18.6558435Z   Downloading certifi-2026.1.4-py3-none-any.whl.metadata (2.5 kB)
+2026-01-15T16:19:18.8985471Z Collecting numpy>=1.23.2 (from pandas)
+2026-01-15T16:19:18.9019939Z   Downloading numpy-2.4.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+2026-01-15T16:19:18.9298375Z Collecting python-dateutil>=2.8.2 (from pandas)
+2026-01-15T16:19:18.9331637Z   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+2026-01-15T16:19:19.0151896Z Collecting pytz>=2020.1 (from pandas)
+2026-01-15T16:19:19.0183755Z   Downloading pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+2026-01-15T16:19:19.0456896Z Collecting tzdata>=2022.7 (from pandas)
+2026-01-15T16:19:19.0485748Z   Downloading tzdata-2025.3-py2.py3-none-any.whl.metadata (1.4 kB)
+2026-01-15T16:19:19.0868416Z Collecting httpx<0.29,>=0.27 (from python-telegram-bot)
+2026-01-15T16:19:19.0900614Z   Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+2026-01-15T16:19:19.1227421Z Collecting anyio (from httpx<0.29,>=0.27->python-telegram-bot)
+2026-01-15T16:19:19.1261871Z   Downloading anyio-4.12.1-py3-none-any.whl.metadata (4.3 kB)
+2026-01-15T16:19:19.1688806Z Collecting httpcore==1.* (from httpx<0.29,>=0.27->python-telegram-bot)
+2026-01-15T16:19:19.1733331Z   Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+2026-01-15T16:19:19.1981093Z Collecting h11>=0.16 (from httpcore==1.*->httpx<0.29,>=0.27->python-telegram-bot)
+2026-01-15T16:19:19.2020545Z   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+2026-01-15T16:19:19.2287858Z Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+2026-01-15T16:19:19.2322060Z   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+2026-01-15T16:19:19.2687208Z Collecting typing_extensions>=4.5 (from anyio->httpx<0.29,>=0.27->python-telegram-bot)
+2026-01-15T16:19:19.2721924Z   Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+2026-01-15T16:19:19.2846198Z Downloading requests-2.32.5-py3-none-any.whl (64 kB)
+2026-01-15T16:19:19.2937174Z Downloading charset_normalizer-3.4.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (151 kB)
+2026-01-15T16:19:19.2996053Z Downloading idna-3.11-py3-none-any.whl (71 kB)
+2026-01-15T16:19:19.3050938Z Downloading urllib3-2.6.3-py3-none-any.whl (131 kB)
+2026-01-15T16:19:19.3111871Z Downloading pandas-2.3.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.8 MB)
+2026-01-15T16:19:19.3739707Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 213.1 MB/s  0:00:00
+2026-01-15T16:19:19.3780866Z Downloading pyotp-2.9.0-py3-none-any.whl (13 kB)
+2026-01-15T16:19:19.3835337Z Downloading tqdm-4.67.1-py3-none-any.whl (78 kB)
+2026-01-15T16:19:19.3962885Z Downloading python_telegram_bot-22.5-py3-none-any.whl (730 kB)
+2026-01-15T16:19:19.4047673Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 731.0/731.0 kB 86.8 MB/s  0:00:00
+2026-01-15T16:19:19.4082711Z Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+2026-01-15T16:19:19.4140441Z Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+2026-01-15T16:19:19.4195730Z Downloading certifi-2026.1.4-py3-none-any.whl (152 kB)
+2026-01-15T16:19:19.4256167Z Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+2026-01-15T16:19:19.4307526Z Downloading numpy-2.4.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+2026-01-15T16:19:19.5097479Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 222.6 MB/s  0:00:00
+2026-01-15T16:19:19.5132512Z Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+2026-01-15T16:19:19.5197655Z Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+2026-01-15T16:19:19.5274029Z Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+2026-01-15T16:19:19.5326088Z Downloading tzdata-2025.3-py2.py3-none-any.whl (348 kB)
+2026-01-15T16:19:19.5395862Z Downloading anyio-4.12.1-py3-none-any.whl (113 kB)
+2026-01-15T16:19:19.5454589Z Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+2026-01-15T16:19:19.6957202Z Installing collected packages: pytz, urllib3, tzdata, typing_extensions, tqdm, six, pyotp, numpy, idna, h11, charset_normalizer, certifi, requests, python-dateutil, httpcore, anyio, pandas, httpx, python-telegram-bot
+2026-01-15T16:19:28.2571997Z 
+2026-01-15T16:19:28.2590005Z Successfully installed anyio-4.12.1 certifi-2026.1.4 charset_normalizer-3.4.4 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.11 numpy-2.4.1 pandas-2.3.3 pyotp-2.9.0 python-dateutil-2.9.0.post0 python-telegram-bot-22.5 pytz-2025.2 requests-2.32.5 six-1.17.0 tqdm-4.67.1 typing_extensions-4.15.0 tzdata-2025.3 urllib3-2.6.3
+2026-01-15T16:19:28.5011139Z ##[group]Run mkdir -p data
+2026-01-15T16:19:28.5011486Z [36;1mmkdir -p data[0m
+2026-01-15T16:19:28.5011956Z [36;1m# Try to download from latest release[0m
+2026-01-15T16:19:28.5012692Z [36;1mLATEST_RELEASE=$(curl -s https://api.github.com/repos/addyfu/zerodha-data/releases/latest | grep "browser_download_url.*zerodha_data.db" | cut -d '"' -f 4)[0m
+2026-01-15T16:19:28.5013393Z [36;1mif [ -n "$LATEST_RELEASE" ]; then[0m
+2026-01-15T16:19:28.5013693Z [36;1m  echo "Downloading existing database..."[0m
+2026-01-15T16:19:28.5014039Z [36;1m  curl -L -o data/zerodha_data.db "$LATEST_RELEASE"[0m
+2026-01-15T16:19:28.5014377Z [36;1m  echo "Database downloaded!"[0m
+2026-01-15T16:19:28.5014626Z [36;1melse[0m
+2026-01-15T16:19:28.5014874Z [36;1m  echo "No existing database found, starting fresh"[0m
+2026-01-15T16:19:28.5015167Z [36;1mfi[0m
+2026-01-15T16:19:28.5047787Z shell: /usr/bin/bash -e {0}
+2026-01-15T16:19:28.5048038Z env:
+2026-01-15T16:19:28.5048561Z   ZERODHA_USER_ID: ***
+2026-01-15T16:19:28.5048817Z   ZERODHA_PASSWORD: ***
+2026-01-15T16:19:28.5049118Z   ZERODHA_TOTP_SECRET: ***
+2026-01-15T16:19:28.5049464Z   TELEGRAM_BOT_TOKEN: ***
+2026-01-15T16:19:28.5049701Z   TELEGRAM_CHAT_ID: ***
+2026-01-15T16:19:28.5049976Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:19:28.5050407Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-15T16:19:28.5051045Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:19:28.5051410Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:19:28.5051775Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:19:28.5052149Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-15T16:19:28.5052461Z ##[endgroup]
+2026-01-15T16:19:28.6922260Z No existing database found, starting fresh
+2026-01-15T16:19:28.6952356Z ##[group]Run if [ "false" == "true" ]; then
+2026-01-15T16:19:28.6952694Z [36;1mif [ "false" == "true" ]; then[0m
+2026-01-15T16:19:28.6952995Z [36;1m  python cloud_collector.py --historical[0m
+2026-01-15T16:19:28.6953280Z [36;1melse[0m
+2026-01-15T16:19:28.6953511Z [36;1m  python cloud_collector.py --days 3[0m
+2026-01-15T16:19:28.6953778Z [36;1mfi[0m
+2026-01-15T16:19:28.6997668Z shell: /usr/bin/bash -e {0}
+2026-01-15T16:19:28.6998086Z env:
+2026-01-15T16:19:28.6998523Z   ZERODHA_USER_ID: ***
+2026-01-15T16:19:28.6998924Z   ZERODHA_PASSWORD: ***
+2026-01-15T16:19:28.6999422Z   ZERODHA_TOTP_SECRET: ***
+2026-01-15T16:19:28.7000016Z   TELEGRAM_BOT_TOKEN: ***
+2026-01-15T16:19:28.7000425Z   TELEGRAM_CHAT_ID: ***
+2026-01-15T16:19:28.7001221Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:19:28.7001981Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-15T16:19:28.7002776Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:19:28.7003535Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:19:28.7004219Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:19:28.7004947Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-15T16:19:28.7005524Z ##[endgroup]
+2026-01-15T16:19:29.4529378Z 2026-01-15 16:19:29,452 - INFO - Database initialized: /home/runner/work/zerodha-data/zerodha-data/data/zerodha_data.db
+2026-01-15T16:19:29.4562600Z 2026-01-15 16:19:29,456 - INFO - Attempting auto-login...
+2026-01-15T16:19:31.0665726Z 2026-01-15 16:19:31,066 - INFO - Login successful!
+2026-01-15T16:19:31.0667823Z 2026-01-15 16:19:31,066 - INFO - Collecting 3 day(s) of data...
+2026-01-15T16:19:31.1463753Z 
+2026-01-15T16:19:31.1464409Z [1/3] Logging in as ***...
+2026-01-15T16:19:31.1465348Z [2/3] Submitting TOTP...
+2026-01-15T16:19:31.1466057Z [3/3] Extracting enctoken...
+2026-01-15T16:19:31.1466994Z ✅ Login successful! Token length: 120
+2026-01-15T16:19:31.5457837Z Collecting:   0%|          | 0/50 [00:00<?, ?it/s]2026-01-15 16:19:31,545 - INFO - RELIANCE: +750
+2026-01-15T16:19:31.8461329Z 
+2026-01-15T16:19:32.1956734Z Collecting:   2%|▏         | 1/50 [00:00<00:34,  1.43it/s]2026-01-15 16:19:32,195 - INFO - TCS: +750
+2026-01-15T16:19:32.4959264Z 
+2026-01-15T16:19:32.8371025Z Collecting:   4%|▍         | 2/50 [00:01<00:32,  1.49it/s]2026-01-15 16:19:32,836 - INFO - HDFCBANK: +750
+2026-01-15T16:19:33.1372789Z 
+2026-01-15T16:19:33.4530239Z Collecting:   6%|▌         | 3/50 [00:01<00:30,  1.52it/s]2026-01-15 16:19:33,452 - INFO - INFY: +750
+2026-01-15T16:19:33.7535030Z 
+2026-01-15T16:19:34.0929540Z Collecting:   8%|▊         | 4/50 [00:02<00:29,  1.56it/s]2026-01-15 16:19:34,092 - INFO - ICICIBANK: +750
+2026-01-15T16:19:34.3932670Z 
+2026-01-15T16:19:34.7407074Z Collecting:  10%|█         | 5/50 [00:03<00:28,  1.56it/s]2026-01-15 16:19:34,740 - INFO - HINDUNILVR: +750
+2026-01-15T16:19:35.0410436Z 
+2026-01-15T16:19:36.5997720Z Collecting:  12%|█▏        | 6/50 [00:03<00:28,  1.56it/s]2026-01-15 16:19:36,599 - INFO - SBIN: +750
+2026-01-15T16:19:36.9001631Z 
+2026-01-15T16:19:37.2407844Z Collecting:  14%|█▍        | 7/50 [00:05<00:44,  1.04s/it]2026-01-15 16:19:37,240 - INFO - BHARTIARTL: +750
+2026-01-15T16:19:37.5414934Z 
+2026-01-15T16:19:37.8710634Z Collecting:  16%|█▌        | 8/50 [00:06<00:38,  1.09it/s]2026-01-15 16:19:37,870 - INFO - KOTAKBANK: +750
+2026-01-15T16:19:38.1716134Z 
+2026-01-15T16:19:38.5235307Z Collecting:  18%|█▊        | 9/50 [00:07<00:33,  1.21it/s]2026-01-15 16:19:38,523 - INFO - ITC: +750
+2026-01-15T16:19:38.8239647Z 
+2026-01-15T16:19:39.1846639Z Collecting:  20%|██        | 10/50 [00:07<00:30,  1.30it/s]2026-01-15 16:19:39,184 - INFO - LT: +750
+2026-01-15T16:19:39.4849071Z 
+2026-01-15T16:19:39.8251506Z Collecting:  22%|██▏       | 11/50 [00:08<00:28,  1.36it/s]2026-01-15 16:19:39,824 - INFO - AXISBANK: +750
+2026-01-15T16:19:40.1254267Z 
+2026-01-15T16:19:40.4585203Z Collecting:  24%|██▍       | 12/50 [00:08<00:26,  1.41it/s]2026-01-15 16:19:40,458 - INFO - ASIANPAINT: +750
+2026-01-15T16:19:40.7588527Z 
+2026-01-15T16:19:41.1049014Z Collecting:  26%|██▌       | 13/50 [00:09<00:25,  1.46it/s]2026-01-15 16:19:41,104 - INFO - MARUTI: +750
+2026-01-15T16:19:41.4052042Z 
+2026-01-15T16:19:41.7416130Z Collecting:  28%|██▊       | 14/50 [00:10<00:24,  1.48it/s]2026-01-15 16:19:41,741 - INFO - BAJFINANCE: +750
+2026-01-15T16:19:42.0417578Z 
+2026-01-15T16:19:42.3639209Z Collecting:  30%|███       | 15/50 [00:10<00:23,  1.51it/s]2026-01-15 16:19:42,363 - INFO - HCLTECH: +750
+2026-01-15T16:19:42.6642319Z 
+2026-01-15T16:19:42.9950134Z Collecting:  32%|███▏      | 16/50 [00:11<00:22,  1.54it/s]2026-01-15 16:19:42,994 - INFO - TITAN: +750
+2026-01-15T16:19:43.2951625Z 
+2026-01-15T16:19:43.6383429Z Collecting:  34%|███▍      | 17/50 [00:12<00:21,  1.55it/s]2026-01-15 16:19:43,638 - INFO - SUNPHARMA: +750
+2026-01-15T16:19:43.9385330Z 
+2026-01-15T16:19:44.2797087Z Collecting:  36%|███▌      | 18/50 [00:12<00:20,  1.55it/s]2026-01-15 16:19:44,279 - INFO - WIPRO: +750
+2026-01-15T16:19:44.5800505Z 
+2026-01-15T16:19:44.9181597Z Collecting:  38%|███▊      | 19/50 [00:13<00:19,  1.55it/s]2026-01-15 16:19:44,917 - INFO - ULTRACEMCO: +750
+2026-01-15T16:19:45.2184045Z 
+2026-01-15T16:19:45.5491318Z Collecting:  40%|████      | 20/50 [00:14<00:19,  1.56it/s]2026-01-15 16:19:45,548 - INFO - NESTLEIND: +750
+2026-01-15T16:19:45.8495244Z 
+2026-01-15T16:19:46.2009082Z Collecting:  42%|████▏     | 21/50 [00:14<00:18,  1.57it/s]2026-01-15 16:19:46,200 - INFO - TECHM: +750
+2026-01-15T16:19:46.5016187Z 
+2026-01-15T16:19:46.8279727Z Collecting:  44%|████▍     | 22/50 [00:15<00:17,  1.56it/s]2026-01-15 16:19:46,827 - INFO - POWERGRID: +750
+2026-01-15T16:19:47.1285986Z 
+2026-01-15T16:19:47.4627971Z Collecting:  46%|████▌     | 23/50 [00:15<00:17,  1.57it/s]2026-01-15 16:19:47,462 - INFO - NTPC: +750
+2026-01-15T16:19:47.7637131Z 
+2026-01-15T16:19:48.1091173Z Collecting:  48%|████▊     | 24/50 [00:16<00:16,  1.57it/s]2026-01-15 16:19:48,108 - INFO - M&M: +750
+2026-01-15T16:19:48.4096550Z 
+2026-01-15T16:19:48.7395342Z Collecting:  50%|█████     | 25/50 [00:17<00:15,  1.56it/s]2026-01-15 16:19:48,739 - INFO - TATAMOTORS: +750
+2026-01-15T16:19:49.0402714Z 
+2026-01-15T16:19:49.3791237Z Collecting:  52%|█████▏    | 26/50 [00:17<00:15,  1.57it/s]2026-01-15 16:19:49,378 - INFO - ONGC: +750
+2026-01-15T16:19:49.6797752Z 
+2026-01-15T16:19:50.0155261Z Collecting:  54%|█████▍    | 27/50 [00:18<00:14,  1.57it/s]2026-01-15 16:19:50,015 - INFO - TATASTEEL: +750
+2026-01-15T16:19:50.3157218Z 
+2026-01-15T16:19:50.6767837Z Collecting:  56%|█████▌    | 28/50 [00:19<00:14,  1.57it/s]2026-01-15 16:19:50,676 - INFO - JSWSTEEL: +750
+2026-01-15T16:19:50.9769683Z 
+2026-01-15T16:19:51.3018930Z Collecting:  58%|█████▊    | 29/50 [00:19<00:13,  1.55it/s]2026-01-15 16:19:51,301 - INFO - COALINDIA: +750
+2026-01-15T16:19:51.6021824Z 
+2026-01-15T16:19:51.9324464Z Collecting:  60%|██████    | 30/50 [00:20<00:12,  1.57it/s]2026-01-15 16:19:51,932 - INFO - BAJAJFINSV: +750
+2026-01-15T16:19:52.2327750Z 
+2026-01-15T16:19:52.5794258Z Collecting:  62%|██████▏   | 31/50 [00:21<00:12,  1.57it/s]2026-01-15 16:19:52,579 - INFO - ADANIPORTS: +750
+2026-01-15T16:19:52.8797378Z 
+2026-01-15T16:19:53.2151365Z Collecting:  64%|██████▍   | 32/50 [00:21<00:11,  1.56it/s]2026-01-15 16:19:53,214 - INFO - GRASIM: +750
+2026-01-15T16:19:53.5154716Z 
+2026-01-15T16:19:53.9781575Z Collecting:  66%|██████▌   | 33/50 [00:22<00:10,  1.57it/s]2026-01-15 16:19:53,976 - INFO - DIVISLAB: +750
+2026-01-15T16:19:54.2769264Z 
+2026-01-15T16:19:54.6099737Z Collecting:  68%|██████▊   | 34/50 [00:23<00:10,  1.48it/s]2026-01-15 16:19:54,609 - INFO - DRREDDY: +750
+2026-01-15T16:19:54.9103353Z 
+2026-01-15T16:19:55.2418584Z Collecting:  70%|███████   | 35/50 [00:23<00:09,  1.51it/s]2026-01-15 16:19:55,241 - INFO - CIPLA: +750
+2026-01-15T16:19:55.5421265Z 
+2026-01-15T16:19:55.8762063Z Collecting:  72%|███████▏  | 36/50 [00:24<00:09,  1.53it/s]2026-01-15 16:19:55,875 - INFO - EICHERMOT: +750
+2026-01-15T16:19:56.1764123Z 
+2026-01-15T16:19:56.5009724Z Collecting:  74%|███████▍  | 37/50 [00:25<00:08,  1.54it/s]2026-01-15 16:19:56,500 - INFO - BRITANNIA: +750
+2026-01-15T16:19:56.8013524Z 
+2026-01-15T16:19:57.1376864Z Collecting:  76%|███████▌  | 38/50 [00:25<00:07,  1.56it/s]2026-01-15 16:19:57,137 - INFO - APOLLOHOSP: +750
+2026-01-15T16:19:57.4382908Z 
+2026-01-15T16:19:57.7678213Z Collecting:  78%|███████▊  | 39/50 [00:26<00:07,  1.56it/s]2026-01-15 16:19:57,767 - INFO - HINDALCO: +750
+2026-01-15T16:19:58.0685136Z 
+2026-01-15T16:19:58.3926502Z Collecting:  80%|████████  | 40/50 [00:26<00:06,  1.57it/s]2026-01-15 16:19:58,392 - INFO - INDUSINDBK: +750
+2026-01-15T16:19:58.6933549Z 
+2026-01-15T16:19:59.0391001Z Collecting:  82%|████████▏ | 41/50 [00:27<00:05,  1.58it/s]2026-01-15 16:19:59,038 - INFO - HDFCLIFE: +750
+2026-01-15T16:19:59.3396475Z 
+2026-01-15T16:19:59.6583526Z Collecting:  84%|████████▍ | 42/50 [00:28<00:05,  1.57it/s]2026-01-15 16:19:59,658 - INFO - BAJAJ-AUTO: +750
+2026-01-15T16:19:59.9591983Z 
+2026-01-15T16:20:00.2761653Z Collecting:  86%|████████▌ | 43/50 [00:28<00:04,  1.58it/s]2026-01-15 16:20:00,275 - INFO - BPCL: +750
+2026-01-15T16:20:00.5764110Z 
+2026-01-15T16:20:00.9286775Z Collecting:  88%|████████▊ | 44/50 [00:29<00:03,  1.59it/s]2026-01-15 16:20:00,928 - INFO - TATACONSUM: +750
+2026-01-15T16:20:01.2289971Z 
+2026-01-15T16:20:01.5763534Z Collecting:  90%|█████████ | 45/50 [00:30<00:03,  1.57it/s]2026-01-15 16:20:01,576 - INFO - HEROMOTOCO: +750
+2026-01-15T16:20:01.8767804Z 
+2026-01-15T16:20:02.2009315Z Collecting:  92%|█████████▏| 46/50 [00:30<00:02,  1.57it/s]2026-01-15 16:20:02,200 - INFO - UPL: +750
+2026-01-15T16:20:02.5011860Z 
+2026-01-15T16:20:02.8286957Z Collecting:  94%|█████████▍| 47/50 [00:31<00:01,  1.58it/s]2026-01-15 16:20:02,828 - INFO - SHREECEM: +750
+2026-01-15T16:20:03.1288949Z 
+2026-01-15T16:20:03.4510293Z Collecting:  96%|█████████▌| 48/50 [00:31<00:01,  1.58it/s]2026-01-15 16:20:03,450 - INFO - NIFTY 50: +750
+2026-01-15T16:20:03.7513810Z 
+2026-01-15T16:20:04.0858271Z Collecting:  98%|█████████▊| 49/50 [00:32<00:00,  1.59it/s]2026-01-15 16:20:04,085 - INFO - NIFTY BANK: +750
+2026-01-15T16:20:04.3860605Z 
+2026-01-15T16:20:04.3862221Z Collecting: 100%|██████████| 50/50 [00:33<00:00,  1.58it/s]
+2026-01-15T16:20:04.3864595Z Collecting: 100%|██████████| 50/50 [00:33<00:00,  1.50it/s]
+2026-01-15T16:20:04.3927004Z 2026-01-15 16:20:04,392 - INFO - 📊 Collection Complete
+2026-01-15T16:20:04.3928254Z 
+2026-01-15T16:20:04.3928659Z ✅ Stocks: 50/50
+2026-01-15T16:20:04.3929577Z 📈 New candles: 37,500
+2026-01-15T16:20:04.3930303Z 💾 DB Size: 5.73 MB
+2026-01-15T16:20:04.3939217Z 📁 Total records: 37,500
+2026-01-15T16:20:04.3939690Z ⏱️ Duration: 34s
+2026-01-15T16:20:05.1205662Z 2026-01-15 16:20:05,120 - INFO - Telegram notification sent
+2026-01-15T16:20:05.2209930Z ##[group]Run python -c "
+2026-01-15T16:20:05.2210407Z [36;1mpython -c "[0m
+2026-01-15T16:20:05.2211060Z [36;1mimport sqlite3[0m
+2026-01-15T16:20:05.2211428Z [36;1mimport os[0m
+2026-01-15T16:20:05.2211861Z [36;1mdb = sqlite3.connect('data/zerodha_data.db')[0m
+2026-01-15T16:20:05.2212382Z [36;1mcur = db.cursor()[0m
+2026-01-15T16:20:05.2212834Z [36;1mcur.execute('SELECT COUNT(*) FROM ohlcv')[0m
+2026-01-15T16:20:05.2213361Z [36;1mtotal = cur.fetchone()[0][0m
+2026-01-15T16:20:05.2213937Z [36;1mcur.execute('SELECT COUNT(DISTINCT symbol) FROM ohlcv')[0m
+2026-01-15T16:20:05.2214536Z [36;1msymbols = cur.fetchone()[0][0m
+2026-01-15T16:20:05.2215158Z [36;1msize = os.path.getsize('data/zerodha_data.db') / (1024*1024)[0m
+2026-01-15T16:20:05.2215765Z [36;1mprint(f'Records: {total:,}')[0m
+2026-01-15T16:20:05.2216224Z [36;1mprint(f'Symbols: {symbols}')[0m
+2026-01-15T16:20:05.2216681Z [36;1mprint(f'Size: {size:.2f} MB')[0m
+2026-01-15T16:20:05.2217143Z [36;1m"[0m
+2026-01-15T16:20:05.2252138Z shell: /usr/bin/bash -e {0}
+2026-01-15T16:20:05.2252401Z env:
+2026-01-15T16:20:05.2252702Z   ZERODHA_USER_ID: ***
+2026-01-15T16:20:05.2252949Z   ZERODHA_PASSWORD: ***
+2026-01-15T16:20:05.2253238Z   ZERODHA_TOTP_SECRET: ***
+2026-01-15T16:20:05.2253598Z   TELEGRAM_BOT_TOKEN: ***
+2026-01-15T16:20:05.2253829Z   TELEGRAM_CHAT_ID: ***
+2026-01-15T16:20:05.2254111Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:20:05.2254529Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-15T16:20:05.2254938Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:20:05.2255313Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:20:05.2255695Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:20:05.2256069Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-15T16:20:05.2256387Z ##[endgroup]
+2026-01-15T16:20:05.2495108Z Records: 37,500
+2026-01-15T16:20:05.2498862Z Symbols: 50
+2026-01-15T16:20:05.2499185Z Size: 6.81 MB
+2026-01-15T16:20:05.2602398Z ##[group]Run softprops/action-gh-release@v1
+2026-01-15T16:20:05.2602930Z with:
+2026-01-15T16:20:05.2603148Z   tag_name: data-2
+2026-01-15T16:20:05.2603356Z   name: Data Update 2
+2026-01-15T16:20:05.2603637Z   body: Automated data collection
+Date: 2026-01-15T16:18:19Z
+
+2026-01-15T16:20:05.2603961Z   files: data/zerodha_data.db
+
+2026-01-15T16:20:05.2604294Z   token: ***
+2026-01-15T16:20:05.2604477Z env:
+2026-01-15T16:20:05.2604666Z   ZERODHA_USER_ID: ***
+2026-01-15T16:20:05.2604896Z   ZERODHA_PASSWORD: ***
+2026-01-15T16:20:05.2605192Z   ZERODHA_TOTP_SECRET: ***
+2026-01-15T16:20:05.2605534Z   TELEGRAM_BOT_TOKEN: ***
+2026-01-15T16:20:05.2605761Z   TELEGRAM_CHAT_ID: ***
+2026-01-15T16:20:05.2606023Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:20:05.2606439Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-15T16:20:05.2606858Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:20:05.2607281Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:20:05.2607651Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:20:05.2608026Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-15T16:20:05.2608428Z   GITHUB_TOKEN: ***
+2026-01-15T16:20:05.2608628Z ##[endgroup]
+2026-01-15T16:20:05.6103711Z 👩‍🏭 Creating new GitHub release for tag data-2...
+2026-01-15T16:20:06.2765984Z ⬆️ Uploading zerodha_data.db...
+2026-01-15T16:20:07.7503806Z 🎉 Release ready at https://github.com/addyfu/zerodha-data/releases/tag/data-2
+2026-01-15T16:20:07.7644119Z ##[group]Run actions/upload-artifact@v4
+2026-01-15T16:20:07.7644423Z with:
+2026-01-15T16:20:07.7644669Z   name: zerodha-data-2
+2026-01-15T16:20:07.7644900Z   path: data/zerodha_data.db
+2026-01-15T16:20:07.7645136Z   retention-days: 30
+2026-01-15T16:20:07.7645355Z   if-no-files-found: warn
+2026-01-15T16:20:07.7645587Z   compression-level: 6
+2026-01-15T16:20:07.7645795Z   overwrite: false
+2026-01-15T16:20:07.7646002Z   include-hidden-files: false
+2026-01-15T16:20:07.7646229Z env:
+2026-01-15T16:20:07.7646497Z   ZERODHA_USER_ID: ***
+2026-01-15T16:20:07.7646725Z   ZERODHA_PASSWORD: ***
+2026-01-15T16:20:07.7646997Z   ZERODHA_TOTP_SECRET: ***
+2026-01-15T16:20:07.7647317Z   TELEGRAM_BOT_TOKEN: ***
+2026-01-15T16:20:07.7647585Z   TELEGRAM_CHAT_ID: ***
+2026-01-15T16:20:07.7647862Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:20:07.7648280Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-15T16:20:07.7648726Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:20:07.7649113Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:20:07.7649491Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-15T16:20:07.7649892Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-15T16:20:07.7650201Z ##[endgroup]
+2026-01-15T16:20:08.0352997Z With the provided path, there will be 1 file uploaded
+2026-01-15T16:20:08.0354472Z Artifact name is valid!
+2026-01-15T16:20:08.0355179Z Root directory input is valid!
+2026-01-15T16:20:08.3439010Z Beginning upload of artifact content to blob storage
+2026-01-15T16:20:09.2825561Z Uploaded bytes 1239228
+2026-01-15T16:20:09.3638353Z Finished uploading artifact content to blob storage!
+2026-01-15T16:20:09.3642695Z SHA256 digest of uploaded artifact zip is d746bbad61536329c11bab33349954af76f10d5718735d2fdbb9e9ea6c13fcdc
+2026-01-15T16:20:09.3644302Z Finalizing artifact upload
+2026-01-15T16:20:09.5558657Z Artifact zerodha-data-2.zip successfully finalized. Artifact ID 5142931228
+2026-01-15T16:20:09.5559963Z Artifact zerodha-data-2 has been successfully uploaded! Final size is 1239228 bytes. Artifact ID is 5142931228
+2026-01-15T16:20:09.5561619Z Artifact download URL: https://github.com/addyfu/zerodha-data/actions/runs/21038288304/artifacts/5142931228
+2026-01-15T16:20:09.5705765Z Post job cleanup.
+2026-01-15T16:20:09.7663157Z Post job cleanup.
+2026-01-15T16:20:09.8854183Z [command]/usr/bin/git version
+2026-01-15T16:20:09.8911278Z git version 2.52.0
+2026-01-15T16:20:09.8966412Z Temporarily overriding HOME='/home/runner/work/_temp/e3610b4a-9f62-4835-90fd-7b60ab602234' before making global git config changes
+2026-01-15T16:20:09.8969468Z Adding repository directory to the temporary git global config as a safe directory
+2026-01-15T16:20:09.8975840Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/zerodha-data/zerodha-data
+2026-01-15T16:20:09.9042824Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-01-15T16:20:09.9097700Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-01-15T16:20:09.9403448Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-01-15T16:20:09.9436224Z http.https://github.com/.extraheader
+2026-01-15T16:20:09.9454442Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-01-15T16:20:09.9505091Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-01-15T16:20:09.9899840Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-01-15T16:20:09.9970150Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-01-15T16:20:10.0415608Z Cleaning up orphan processes
+
+---
+
+_**Agent (model claude-4.5-opus-high, mode Agent)**_
+
+# 🎉 IT WORKED PERFECTLY!!!
+
+Look at this beautiful output:
+
+```
+✅ Stocks: 50/50
+📈 New candles: 37,500
+💾 DB Size: 5.73 MB
+📁 Total records: 37,500
+⏱️ Duration: 34s
+```
+
+```
+🎉 Release ready at https://github.com/addyfu/zerodha-data/releases/tag/data-2
+```
+
+```
+Telegram notification sent
+```
+
+---
+
+## ✅ Everything is Working!
+
+| Step | Status |
+|------|--------|
+| Auto-login to Zerodha | ✅ Success |
+| Collect data (50 stocks) | ✅ 37,500 candles |
+| Save to database | ✅ 6.81 MB |
+| Upload to GitHub Releases | ✅ Done |
+| Send Telegram notification | ✅ Sent |
+
+---
+
+## 🎊 You're All Set!
+
+**From now on:**
+- ✅ Every weekday at **4 PM IST**, GitHub will automatically:
+  1. Login to your Zerodha account
+  2. Download 1-minute data for all 50 stocks
+  3. Save to database
+  4. Upload to GitHub Releases
+  5. Send you a Telegram message
+
+- ✅ **You don't need to do anything!** Even if your PC is off, it runs in the cloud.
+
+- ✅ **Check your Telegram** - you should have received a notification!
+
+---
+
+## 📥 To Download Your Data
+
+Go to: **https://github.com/addyfu/zerodha-data/releases**
+
+Download `zerodha_data.db` - it contains all your 1-minute data!
+
+---
+
+## 🚀 Want More Historical Data?
+
+Run the workflow again with **"Collect 60 days historical data"** checked to get 60 days of history for all stocks.
+
+---
+
+**Congratulations bro! You now have a fully automated, FREE, cloud-based stock data collection system!** 🎉📈
+
+---
+
+_**User (2026-01-13 13:42Z)**_
+
+No, but will the like the releases will be like per day data, right? Not the accumulated data till now. Or how are we storing the data? Can you please explain me that? And one more thing is can we do it for all the stocks like not just for the NIFTY 50 that we are doing? Can we do it for all the stocks listed in NSE?
+
+---
+
+_**Agent (model claude-4.5-opus-high, mode Agent)**_
+
+Great questions! Let me explain both:
+
+## 📊 How Data Storage Works Currently
+
+**Current behavior:** Each release contains **ALL accumulated data**, not just that day's data.
+
+```
+Day 1: Collect 3 days → Database has 37,500 candles → Upload
+Day 2: Download Day 1's DB → Add new data → Now 50,000 candles → Upload
+Day 3: Download Day 2's DB → Add new data → Now 62,500 candles → Upload
+... and so on
+```
+
+The workflow:
+1. **Downloads the previous database** from the last release
+2. **Adds new data** (duplicates are automatically ignored)
+3. **Uploads the updated database** with ALL historical data
+
+So over time, your database **grows and accumulates** all the data! 🎉
+
+---
+

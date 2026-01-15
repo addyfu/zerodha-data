@@ -21,6 +21,17 @@ on:
         required: false
         type: boolean
         default: false
+      stock_set:
+        description: 'Which stocks to collect'
+        required: false
+        type: choice
+        default: 'nifty50'
+        options:
+          - nifty50
+          - top100
+          - top200
+          - top500
+          - all_nse
 
 # Required for creating releases
 permissions:
@@ -66,11 +77,38 @@ jobs:
       
       - name: Collect data
         run: |
-          if [ "${{ github.event.inputs.historical }}" == "true" ]; then
-            python cloud_collector.py --historical
-          else
-            python cloud_collector.py --days ${{ github.event.inputs.days || '1' }}
+          STOCK_SET="${{ github.event.inputs.stock_set || 'nifty50' }}"
+          DAYS="${{ github.event.inputs.days || '3' }}"
+          HISTORICAL="${{ github.event.inputs.historical }}"
+          
+          # Build command
+          CMD="python cloud_collector.py --days $DAYS"
+          
+          if [ "$HISTORICAL" == "true" ]; then
+            CMD="$CMD --historical"
           fi
+          
+          # Stock set options
+          case $STOCK_SET in
+            "all_nse")
+              CMD="$CMD --all-nse"
+              ;;
+            "top100")
+              CMD="$CMD --top 100"
+              ;;
+            "top200")
+              CMD="$CMD --top 200"
+              ;;
+            "top500")
+              CMD="$CMD --top 500"
+              ;;
+            *)
+              # Default: nifty50 (no extra flag needed)
+              ;;
+          esac
+          
+          echo "Running: $CMD"
+          $CMD
       
       - name: Get database stats
         run: |

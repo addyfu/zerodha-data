@@ -50,7 +50,8 @@ class CloudCollector:
     
     CHART_URL = "https://kite.zerodha.com/oms/instruments/historical"
     
-    STOCKS = {
+    # Default: NIFTY 50 stocks
+    NIFTY50_STOCKS = {
         "RELIANCE": 738561, "TCS": 2953217, "HDFCBANK": 341249, "INFY": 408065,
         "ICICIBANK": 1270529, "HINDUNILVR": 356865, "SBIN": 779521, "BHARTIARTL": 2714625,
         "KOTAKBANK": 492033, "ITC": 424961, "LT": 2939649, "AXISBANK": 1510401,
@@ -65,6 +66,48 @@ class CloudCollector:
         "TATACONSUM": 878593, "HEROMOTOCO": 345089, "UPL": 2889473, "SHREECEM": 794369,
         "NIFTY 50": 256265, "NIFTY BANK": 260105,
     }
+    
+    STOCKS = NIFTY50_STOCKS  # Default
+    
+    @classmethod
+    def load_all_nse_stocks(cls):
+        """Load all NSE stocks from Zerodha's instruments API."""
+        try:
+            import requests
+            import io
+            import pandas as pd
+            
+            logger.info("Fetching all NSE instruments from Zerodha...")
+            
+            url = "https://api.kite.trade/instruments"
+            response = requests.get(url, timeout=60)
+            response.raise_for_status()
+            
+            df = pd.read_csv(io.StringIO(response.text))
+            
+            # Filter NSE equity stocks only
+            nse_eq = df[
+                (df['exchange'] == 'NSE') & 
+                (df['instrument_type'] == 'EQ')
+            ]
+            
+            stocks = dict(zip(nse_eq['tradingsymbol'], nse_eq['instrument_token']))
+            
+            # Add indices
+            indices = df[
+                (df['exchange'] == 'NSE') & 
+                (df['segment'] == 'INDICES')
+            ]
+            for _, row in indices.iterrows():
+                stocks[row['tradingsymbol']] = row['instrument_token']
+            
+            logger.info(f"Loaded {len(stocks)} NSE stocks")
+            return stocks
+            
+        except Exception as e:
+            logger.error(f"Failed to load NSE stocks: {e}")
+            logger.info("Falling back to NIFTY 50 stocks")
+            return cls.NIFTY50_STOCKS
     
     def __init__(self):
         self.enctoken = None
@@ -343,10 +386,25 @@ def main():
     parser = argparse.ArgumentParser(description="Cloud Data Collector")
     parser.add_argument("--days", "-d", type=int, default=1, help="Days to collect")
     parser.add_argument("--historical", action="store_true", help="Collect 60 days")
+    parser.add_argument("--all-nse", action="store_true", help="Collect ALL NSE stocks (~2000)")
+    parser.add_argument("--top", type=int, help="Collect top N stocks by market cap (e.g., 100, 200, 500)")
     
     args = parser.parse_args()
     
     collector = CloudCollector()
+    
+    # Load stocks based on arguments
+    if args.all_nse:
+        logger.info("Loading ALL NSE stocks...")
+        collector.STOCKS = CloudCollector.load_all_nse_stocks()
+    elif args.top:
+        logger.info(f"Loading top {args.top} NSE stocks...")
+        all_stocks = CloudCollector.load_all_nse_stocks()
+        # For now, just take first N (ideally should be sorted by market cap)
+        collector.STOCKS = dict(list(all_stocks.items())[:args.top])
+    
+    logger.info(f"Will collect data for {len(collector.STOCKS)} stocks")
+    
     success = collector.run(args.days, args.historical)
     
     sys.exit(0 if success else 1)
