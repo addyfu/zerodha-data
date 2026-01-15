@@ -15,12 +15,16 @@ on:
       days:
         description: 'Days to collect (1-60)'
         required: false
-        default: '1'
+        default: '3'
       historical:
         description: 'Collect 60 days historical data'
         required: false
         type: boolean
         default: false
+
+# Required for creating releases
+permissions:
+  contents: write
 
 env:
   ZERODHA_USER_ID: ${{ secrets.ZERODHA_USER_ID }}

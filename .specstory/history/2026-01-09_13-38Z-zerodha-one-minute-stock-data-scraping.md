@@ -6014,3 +6014,191 @@ Then share the secret key with me (or save it in `secrets.py`) and we're good to
 
 ---
 
+_**User (2026-01-13 13:42Z)**_
+
+Okay bro, I have the TOTP setup now. I also have a bot token for Telegram and I have created this Git repo. Can you push our code there? Then we'll do another step like enabling GitHub actions and adding that token as a secret. So can you push this code now?
+
+---
+
+_**Agent (model claude-4.5-opus-high, mode Agent)**_
+
+I'll push the code to your GitHub repo now. Let me do that:
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **run_terminal_cmd** • Run command: cd D:\study\kite; git init</summary>
+
+```bash
+cd D:\study\kite; git init
+```
+
+```
+Initialized empty Git repository in D:/study/kite/.git/
+
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **run_terminal_cmd** • Run command: cd D:\study\kite; git add .</summary>
+
+```bash
+cd D:\study\kite; git add .
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **run_terminal_cmd** • Run command: cd D:\study\kite; git commit -m "Initial commit - Zerodha data collector with auto-login and Telegram bot"</summary>
+
+```bash
+cd D:\study\kite; git commit -m "Initial commit - Zerodha data collector with auto-login and Telegram bot"
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **run_terminal_cmd** • Run command: cd D:\study\kite; git branch -M main</summary>
+
+```bash
+cd D:\study\kite; git branch -M main
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **run_terminal_cmd** • Run command: cd D:\study\kite; git remote add origin https://github.com/addyfu/zerodha-data.git</summary>
+
+```bash
+cd D:\study\kite; git remote add origin https://github.com/addyfu/zerodha-data.git
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **run_terminal_cmd** • Run command: cd D:\study\kite; git push -u origin main</summary>
+
+```bash
+cd D:\study\kite; git push -u origin main
+```
+
+```
+branch 'main' set up to track 'origin/main'.
+To https://github.com/addyfu/zerodha-data.git
+ * [new branch]      main -&gt; main
+
+```
+</details>
+</tool-use>
+
+---
+
+## ✅ Code Pushed Successfully!
+
+Your code is now on GitHub: **https://github.com/addyfu/zerodha-data**
+
+---
+
+## Next Step: Add Secrets to GitHub
+
+Now go to your repo and add the secrets:
+
+### 1. Go to Settings → Secrets
+
+1. Open **https://github.com/addyfu/zerodha-data**
+2. Click **Settings** (tab at the top)
+3. Click **Secrets and variables** (left sidebar)
+4. Click **Actions**
+5. Click **"New repository secret"**
+
+### 2. Add These 5 Secrets (one by one):
+
+| Name | Value |
+|------|-------|
+| `ZERODHA_USER_ID` | `DR8342` |
+| `ZERODHA_PASSWORD` | Your Zerodha password |
+| `ZERODHA_TOTP_SECRET` | The secret key you copied (like `JBSWY3DPEHPK3PXP`) |
+| `TELEGRAM_BOT_TOKEN` | Your bot token from BotFather |
+| `TELEGRAM_CHAT_ID` | Your chat ID (from @userinfobot) |
+
+### 3. How to Add Each Secret:
+
+1. Click **"New repository secret"**
+2. Enter the **Name** (exactly as shown above)
+3. Enter the **Value** 
+4. Click **"Add secret"**
+5. Repeat for all 5 secrets
+
+---
+
+Once you've added all 5 secrets, let me know and we'll:
+1. Enable GitHub Actions
+2. Run a test to make sure everything works!
+
+**Do you have your Telegram chat ID?** If not, message **@userinfobot** on Telegram and it will tell you your ID.
+
+---
+
+_**User (2026-01-13 13:42Z)**_
+
+Done bro, I have added all the secrets now tell me what to do.
+
+---
+
+_**Agent (model claude-4.5-opus-high, mode Agent)**_
+
+Awesome! Now let's enable GitHub Actions and run a test!
+
+## Step 1: Enable GitHub Actions
+
+1. Go to **https://github.com/addyfu/zerodha-data**
+2. Click the **"Actions"** tab (at the top)
+3. You should see a message like "Workflows aren't being run on this repository"
+4. Click **"I understand my workflows, go ahead and enable them"**
+
+---
+
+## Step 2: Run Your First Test!
+
+Once Actions are enabled:
+
+1. Click on **"Daily Data Collection"** (in the left sidebar)
+2. Click **"Run workflow"** button (right side)
+3. A dropdown will appear - just click **"Run workflow"** again
+
+---
+
+## Step 3: Watch It Run! 🎬
+
+1. Click on the running workflow to see the progress
+2. It will:
+   - ✅ Auto-login to Zerodha using your TOTP
+   - ✅ Fetch 1-minute data for all 50 stocks
+   - ✅ Save to database
+   - ✅ Send you a Telegram notification!
+
+The whole process takes about **3-5 minutes**.
+
+---
+
+Go ahead and:
+1. **Enable Actions**
+2. **Click "Run workflow"**
+
+Then watch the magic happen! 🚀
+
+Let me know if you see any errors or when you get the Telegram message!
+
+---
+

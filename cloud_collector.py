@@ -149,15 +149,24 @@ class CloudCollector:
         
         try:
             response = self.session.get(url, params=params, timeout=30)
+            
+            if response.status_code == 403:
+                logger.error(f"Token {token}: 403 Forbidden - Session may have expired")
+                return pd.DataFrame()
+            
             if response.status_code != 200:
+                logger.error(f"Token {token}: HTTP {response.status_code}")
                 return pd.DataFrame()
             
             data = response.json()
+            
             if data.get("status") != "success":
+                logger.error(f"Token {token}: API error - {data.get('message', 'Unknown')}")
                 return pd.DataFrame()
             
             candles = data.get("data", {}).get("candles", [])
             if not candles:
+                logger.warning(f"Token {token}: No candles returned (market closed or holiday?)")
                 return pd.DataFrame()
             
             df = pd.DataFrame(candles, columns=["datetime", "open", "high", "low", "close", "volume", "oi"])
@@ -166,7 +175,7 @@ class CloudCollector:
             return df
             
         except Exception as e:
-            logger.error(f"Fetch error: {e}")
+            logger.error(f"Token {token}: Fetch error - {e}")
             return pd.DataFrame()
     
     def store_data(self, symbol: str, df: pd.DataFrame) -> int:
