@@ -1,0 +1,1476 @@
+1
+00:00:00,719 --> 00:00:05,359
+ichimoku cloud is mentioned to be the
+
+2
+00:00:02,560 --> 00:00:07,440
+king of indicators and with good reason
+
+3
+00:00:05,359 --> 00:00:09,200
+because with ichimoku it's possible to
+
+4
+00:00:07,440 --> 00:00:10,960
+get the whole picture of the price
+
+5
+00:00:09,200 --> 00:00:13,200
+including trend direction the main
+
+6
+00:00:10,960 --> 00:00:14,960
+support and resistance levels and exact
+
+7
+00:00:13,200 --> 00:00:17,279
+entry and exit points
+
+8
+00:00:14,960 --> 00:00:19,760
+ichimoku can be used in many ways it can
+
+9
+00:00:17,279 --> 00:00:22,480
+be used as a standalone system or it can
+
+10
+00:00:19,760 --> 00:00:24,480
+be used as a trend in price confirmation
+
+11
+00:00:22,480 --> 00:00:26,400
+and can be combined with any trading
+
+12
+00:00:24,480 --> 00:00:28,000
+systems or strategies
+
+13
+00:00:26,400 --> 00:00:30,560
+today i'm showing you how to use it
+
+14
+00:00:28,000 --> 00:00:33,440
+correctly and how to perform a multiple
+
+15
+00:00:30,560 --> 00:00:35,120
+time frame analysis using the cloud
+
+16
+00:00:33,440 --> 00:00:36,719
+and if you want to show your support
+
+17
+00:00:35,120 --> 00:00:39,040
+please leave a like to help us with
+
+18
+00:00:36,719 --> 00:00:40,480
+youtube algorithm and turn on the bell
+
+19
+00:00:39,040 --> 00:00:42,239
+so you don't miss when new videos are
+
+20
+00:00:40,480 --> 00:00:44,879
+released
+
+21
+00:00:42,239 --> 00:00:46,800
+ichimoku indicator has five lines
+
+22
+00:00:44,879 --> 00:00:48,559
+a conversion line with the default
+
+23
+00:00:46,800 --> 00:00:51,360
+settings of nine periods
+
+24
+00:00:48,559 --> 00:00:52,399
+the baseline with default settings of 26
+
+25
+00:00:51,360 --> 00:00:54,640
+periods
+
+26
+00:00:52,399 --> 00:00:56,320
+the lagging span with default settings
+
+27
+00:00:54,640 --> 00:00:58,160
+of 26 periods
+
+28
+00:00:56,320 --> 00:01:01,280
+and the two lines forming the cloud
+
+29
+00:00:58,160 --> 00:01:03,199
+faster span a and faster span b
+
+30
+00:01:01,280 --> 00:01:05,519
+when you use the hmo q indicator as a
+
+31
+00:01:03,199 --> 00:01:08,080
+charting system you don't aim to get
+
+32
+00:01:05,519 --> 00:01:09,760
+precise entry and exit signals you want
+
+33
+00:01:08,080 --> 00:01:12,479
+to get important information about the
+
+34
+00:01:09,760 --> 00:01:14,080
+market for example the trend direction
+
+35
+00:01:12,479 --> 00:01:15,280
+and the main support and resistance
+
+36
+00:01:14,080 --> 00:01:17,360
+levels
+
+37
+00:01:15,280 --> 00:01:19,280
+and while identifying a trend in the
+
+38
+00:01:17,360 --> 00:01:21,680
+beginning of it is one of the hardest
+
+39
+00:01:19,280 --> 00:01:23,920
+tasks for a trader this indicator will
+
+40
+00:01:21,680 --> 00:01:25,920
+help you a lot
+
+41
+00:01:23,920 --> 00:01:28,640
+this is how you easily find trends with
+
+42
+00:01:25,920 --> 00:01:29,840
+each mock indicator first by analyzing
+
+43
+00:01:28,640 --> 00:01:32,159
+the kumo
+
+44
+00:01:29,840 --> 00:01:34,560
+to identify the trend you first analyze
+
+45
+00:01:32,159 --> 00:01:37,280
+this component on its own and versus the
+
+46
+00:01:34,560 --> 00:01:40,479
+other components and the price
+
+47
+00:01:37,280 --> 00:01:43,119
+so number one the color of the kumo
+
+48
+00:01:40,479 --> 00:01:44,640
+if spane is above span b the color of
+
+49
+00:01:43,119 --> 00:01:46,320
+the kumo is green
+
+50
+00:01:44,640 --> 00:01:47,680
+and it indicates a possible bullish
+
+51
+00:01:46,320 --> 00:01:50,560
+trend
+
+52
+00:01:47,680 --> 00:01:53,040
+if span a is below span b the kumo color
+
+53
+00:01:50,560 --> 00:01:56,320
+is red and the trend is indicated as
+
+54
+00:01:53,040 --> 00:01:58,799
+bearish when spanish crosses plan b the
+
+55
+00:01:56,320 --> 00:02:01,680
+color of the kumo changes and it warns
+
+56
+00:01:58,799 --> 00:02:04,560
+about a possible trend change
+
+57
+00:02:01,680 --> 00:02:06,640
+number two the thickness of the kumo the
+
+58
+00:02:04,560 --> 00:02:09,280
+thicker the kumo the stronger the trend
+
+59
+00:02:06,640 --> 00:02:11,920
+is a significant kumo means a strong
+
+60
+00:02:09,280 --> 00:02:14,480
+trend and a tiny kumo indicates a weak
+
+61
+00:02:11,920 --> 00:02:16,400
+trend as it's more easy for the price to
+
+62
+00:02:14,480 --> 00:02:17,280
+move through a thin cloud than a thick
+
+63
+00:02:16,400 --> 00:02:19,440
+one
+
+64
+00:02:17,280 --> 00:02:21,360
+however it's important to keep in mind
+
+65
+00:02:19,440 --> 00:02:23,440
+that the top and the bottom of the kumo
+
+66
+00:02:21,360 --> 00:02:26,160
+are support and resistance lines
+
+67
+00:02:23,440 --> 00:02:28,319
+so even a thin combo can turn the price
+
+68
+00:02:26,160 --> 00:02:30,800
+back to its previous direction however
+
+69
+00:02:28,319 --> 00:02:33,760
+the chances are lower
+
+70
+00:02:30,800 --> 00:02:35,680
+number three the kumo vs price
+
+71
+00:02:33,760 --> 00:02:38,000
+one of the most basic fundamentals of
+
+72
+00:02:35,680 --> 00:02:40,160
+ichimoku is if the price is above the
+
+73
+00:02:38,000 --> 00:02:42,160
+kumo the trend is bullish
+
+74
+00:02:40,160 --> 00:02:43,760
+and if the price is below the como the
+
+75
+00:02:42,160 --> 00:02:45,760
+trend is bearish
+
+76
+00:02:43,760 --> 00:02:47,440
+it's very visible and easy to determine
+
+77
+00:02:45,760 --> 00:02:49,840
+if the overall trend is bullish or
+
+78
+00:02:47,440 --> 00:02:52,080
+bearish with this method every trend
+
+79
+00:02:49,840 --> 00:02:54,080
+begins with a common breakout when price
+
+80
+00:02:52,080 --> 00:02:56,400
+breaks out from the common cloud on the
+
+81
+00:02:54,080 --> 00:02:58,319
+upside or on the downside
+
+82
+00:02:56,400 --> 00:03:01,840
+when price is moving inside the body of
+
+83
+00:02:58,319 --> 00:03:04,239
+the cloud the trend is not present
+
+84
+00:03:01,840 --> 00:03:05,280
+number four the kumo versus the lagging
+
+85
+00:03:04,239 --> 00:03:07,440
+span
+
+86
+00:03:05,280 --> 00:03:09,760
+lagging span can be above the kumo
+
+87
+00:03:07,440 --> 00:03:11,200
+indicating a bullish trend
+
+88
+00:03:09,760 --> 00:03:13,040
+below the como
+
+89
+00:03:11,200 --> 00:03:16,319
+showing a bearish trend
+
+90
+00:03:13,040 --> 00:03:18,800
+or inside a kumo representing a neutral
+
+91
+00:03:16,319 --> 00:03:21,920
+undecided trend
+
+92
+00:03:18,800 --> 00:03:23,760
+number five the kumo versus the baseline
+
+93
+00:03:21,920 --> 00:03:26,000
+and conversion line
+
+94
+00:03:23,760 --> 00:03:28,400
+the positions of baseline and conversion
+
+95
+00:03:26,000 --> 00:03:30,560
+line are usually compared to the price
+
+96
+00:03:28,400 --> 00:03:32,319
+but their location versus the kumo can
+
+97
+00:03:30,560 --> 00:03:33,519
+be the indicator of the strength of the
+
+98
+00:03:32,319 --> 00:03:35,599
+trend too
+
+99
+00:03:33,519 --> 00:03:38,239
+if these lines are located on the upside
+
+100
+00:03:35,599 --> 00:03:39,280
+of the kumo it supports further bullish
+
+101
+00:03:38,239 --> 00:03:41,200
+trend
+
+102
+00:03:39,280 --> 00:03:43,760
+the opposite supports the continuation
+
+103
+00:03:41,200 --> 00:03:46,799
+of a bearish trend
+
+104
+00:03:43,760 --> 00:03:49,840
+now let's analyze other components first
+
+105
+00:03:46,799 --> 00:03:52,480
+the lagging span vs price
+
+106
+00:03:49,840 --> 00:03:54,879
+if the lagging span crosses up the price
+
+107
+00:03:52,480 --> 00:03:57,280
+it can be counted as a bullish sign and
+
+108
+00:03:54,879 --> 00:03:58,959
+vice versa for a berry sign
+
+109
+00:03:57,280 --> 00:04:02,000
+if the price is on the upside of the
+
+110
+00:03:58,959 --> 00:04:04,159
+kumo and the lagging span crosses up is
+
+111
+00:04:02,000 --> 00:04:06,560
+a very strong sign of the possibility of
+
+112
+00:04:04,159 --> 00:04:08,799
+a long-term uptrend while the opposite
+
+113
+00:04:06,560 --> 00:04:11,680
+indicates a strong downtrend
+
+114
+00:04:08,799 --> 00:04:14,400
+if lagging span is inside a kumo the
+
+115
+00:04:11,680 --> 00:04:17,919
+trend is undecided
+
+116
+00:04:14,400 --> 00:04:19,840
+number two the baseline versus price
+
+117
+00:04:17,919 --> 00:04:22,079
+the baseline is behaving as a very
+
+118
+00:04:19,840 --> 00:04:23,440
+strong support or resistance level so
+
+119
+00:04:22,079 --> 00:04:25,919
+it's a very important tool of
+
+120
+00:04:23,440 --> 00:04:28,639
+identifying trend changes we'll use it
+
+121
+00:04:25,919 --> 00:04:31,440
+later in my multiple time frame strategy
+
+122
+00:04:28,639 --> 00:04:32,320
+if price crosses it up this is a bullish
+
+123
+00:04:31,440 --> 00:04:34,880
+sign
+
+124
+00:04:32,320 --> 00:04:36,479
+and if price crosses it down that's a
+
+125
+00:04:34,880 --> 00:04:38,240
+bearish sign
+
+126
+00:04:36,479 --> 00:04:40,800
+a bullish cross can happen above the
+
+127
+00:04:38,240 --> 00:04:43,759
+kumo being a strong sign
+
+128
+00:04:40,800 --> 00:04:46,080
+inside a como for a neutral sign or
+
+129
+00:04:43,759 --> 00:04:48,960
+below the como as a weak sign
+
+130
+00:04:46,080 --> 00:04:51,040
+and vice versa for a very scenario
+
+131
+00:04:48,960 --> 00:04:53,520
+the distance between the price and the
+
+132
+00:04:51,040 --> 00:04:55,919
+baseline is also important as if price
+
+133
+00:04:53,520 --> 00:04:57,840
+leaves behind the baseline far away it
+
+134
+00:04:55,919 --> 00:04:58,720
+usually turns flat and attracts the
+
+135
+00:04:57,840 --> 00:05:00,479
+price
+
+136
+00:04:58,720 --> 00:05:02,479
+this isn't necessarily a sign of the
+
+137
+00:05:00,479 --> 00:05:04,479
+trend change
+
+138
+00:05:02,479 --> 00:05:05,759
+number three conversion line versus
+
+139
+00:05:04,479 --> 00:05:07,759
+price
+
+140
+00:05:05,759 --> 00:05:10,160
+conversion line is more sensitive to
+
+141
+00:05:07,759 --> 00:05:11,360
+minor price movements as it represents
+
+142
+00:05:10,160 --> 00:05:13,199
+the momentum
+
+143
+00:05:11,360 --> 00:05:15,039
+however it can be used as a trend
+
+144
+00:05:13,199 --> 00:05:17,680
+confirmation tool too
+
+145
+00:05:15,039 --> 00:05:20,080
+for example if price is in a trend it
+
+146
+00:05:17,680 --> 00:05:22,479
+usually creates waves and moves back
+
+147
+00:05:20,080 --> 00:05:24,479
+through conversion line to the baseline
+
+148
+00:05:22,479 --> 00:05:26,800
+and then bounces into the direction of
+
+149
+00:05:24,479 --> 00:05:30,320
+the trend again
+
+150
+00:05:26,800 --> 00:05:33,199
+number four lagging span versus baseline
+
+151
+00:05:30,320 --> 00:05:36,479
+lagging span can be above a bully sign
+
+152
+00:05:33,199 --> 00:05:38,720
+or below the baseline a berry sign
+
+153
+00:05:36,479 --> 00:05:41,199
+as baseline is a very strong support and
+
+154
+00:05:38,720 --> 00:05:43,520
+resistance level as long as the lagging
+
+155
+00:05:41,199 --> 00:05:45,440
+span is above it the bullish movements
+
+156
+00:05:43,520 --> 00:05:47,280
+are well supported
+
+157
+00:05:45,440 --> 00:05:49,360
+and if lagging span is staying below the
+
+158
+00:05:47,280 --> 00:05:50,800
+baseline the down movements are
+
+159
+00:05:49,360 --> 00:05:53,039
+supported
+
+160
+00:05:50,800 --> 00:05:55,440
+it's very common to see the lagging span
+
+161
+00:05:53,039 --> 00:05:57,520
+bouncing on the baseline before a huge
+
+162
+00:05:55,440 --> 00:05:59,840
+move happens
+
+163
+00:05:57,520 --> 00:06:01,360
+number five conversion line versus
+
+164
+00:05:59,840 --> 00:06:03,840
+baseline
+
+165
+00:06:01,360 --> 00:06:05,360
+a conversion line baseline crossover can
+
+166
+00:06:03,840 --> 00:06:07,199
+also indicate the change or the
+
+167
+00:06:05,360 --> 00:06:09,440
+continuation of the trend
+
+168
+00:06:07,199 --> 00:06:12,080
+an up crossover can happen above the
+
+169
+00:06:09,440 --> 00:06:14,400
+kumo for a strong signal
+
+170
+00:06:12,080 --> 00:06:15,360
+in the body of the kumo for a neutral
+
+171
+00:06:14,400 --> 00:06:18,400
+signal
+
+172
+00:06:15,360 --> 00:06:21,759
+or below the kumo as a weak signal
+
+173
+00:06:18,400 --> 00:06:24,240
+and vice versa for a short scenario
+
+174
+00:06:21,759 --> 00:06:27,120
+now let's face it each mogu is somewhat
+
+175
+00:06:24,240 --> 00:06:29,440
+complicated and clutters your chart i
+
+176
+00:06:27,120 --> 00:06:31,520
+personally simplify these rules
+
+177
+00:06:29,440 --> 00:06:34,319
+the description of an ideal bullish
+
+178
+00:06:31,520 --> 00:06:36,479
+trend or confirmation would be the price
+
+179
+00:06:34,319 --> 00:06:37,759
+is above the kumo conversion line and
+
+180
+00:06:36,479 --> 00:06:40,000
+the baseline
+
+181
+00:06:37,759 --> 00:06:42,000
+the kumu is thick and green
+
+182
+00:06:40,000 --> 00:06:44,800
+and the conversion line has crossed up
+
+183
+00:06:42,000 --> 00:06:46,960
+the baseline above the kumu
+
+184
+00:06:44,800 --> 00:06:49,599
+the picture of an ideal bearish trend
+
+185
+00:06:46,960 --> 00:06:52,080
+would be the price is below the kumo the
+
+186
+00:06:49,599 --> 00:06:54,639
+conversion line and the baseline
+
+187
+00:06:52,080 --> 00:06:57,039
+the kumo is thick and bearish
+
+188
+00:06:54,639 --> 00:06:59,280
+and the conversion line has crossed down
+
+189
+00:06:57,039 --> 00:07:01,280
+the baseline below the kumo
+
+190
+00:06:59,280 --> 00:07:05,120
+this is a much simpler way to analyze
+
+191
+00:07:01,280 --> 00:07:06,880
+ichimoku a faster way to spot a trend
+
+192
+00:07:05,120 --> 00:07:09,120
+all chemical lines are support and
+
+193
+00:07:06,880 --> 00:07:10,560
+resistance lines however they don't have
+
+194
+00:07:09,120 --> 00:07:12,400
+the same strength
+
+195
+00:07:10,560 --> 00:07:14,800
+regarding the ideal bullish trend we've
+
+196
+00:07:12,400 --> 00:07:16,800
+talked before the strength order of the
+
+197
+00:07:14,800 --> 00:07:18,880
+support levels would be
+
+198
+00:07:16,800 --> 00:07:20,880
+the bottom of the kumo cloud has the
+
+199
+00:07:18,880 --> 00:07:23,280
+strongest line of support
+
+200
+00:07:20,880 --> 00:07:24,080
+the top of the kumo as the next strong
+
+201
+00:07:23,280 --> 00:07:26,479
+line
+
+202
+00:07:24,080 --> 00:07:30,160
+the baseline and then the conversion
+
+203
+00:07:26,479 --> 00:07:32,400
+line has the weakest line of support
+
+204
+00:07:30,160 --> 00:07:34,560
+and for the ideal bearish trend the
+
+205
+00:07:32,400 --> 00:07:35,520
+strength order of the resistance levels
+
+206
+00:07:34,560 --> 00:07:37,840
+would be
+
+207
+00:07:35,520 --> 00:07:40,639
+the top of the kumo the bottom of the
+
+208
+00:07:37,840 --> 00:07:42,240
+kumo the baseline and the conversion
+
+209
+00:07:40,639 --> 00:07:44,800
+line
+
+210
+00:07:42,240 --> 00:07:47,680
+champion markets are the worst nightmare
+
+211
+00:07:44,800 --> 00:07:49,599
+of most traders but with kumo cloud
+
+212
+00:07:47,680 --> 00:07:52,000
+ranging periods of the market can be
+
+213
+00:07:49,599 --> 00:07:54,560
+filtered out with more success
+
+214
+00:07:52,000 --> 00:07:56,879
+if price moves into the body of the kumo
+
+215
+00:07:54,560 --> 00:07:59,120
+it means the trend is undecided and the
+
+216
+00:07:56,879 --> 00:08:01,360
+ranging period is probable it's not
+
+217
+00:07:59,120 --> 00:08:03,919
+recommended to enter into any position
+
+218
+00:08:01,360 --> 00:08:06,160
+when price is moving inside a como
+
+219
+00:08:03,919 --> 00:08:08,080
+the same applies to the lagging span it
+
+220
+00:08:06,160 --> 00:08:10,560
+doesn't matter if the price has already
+
+221
+00:08:08,080 --> 00:08:12,479
+broken out from the kumu if the lagging
+
+222
+00:08:10,560 --> 00:08:15,440
+span is still there the ranging
+
+223
+00:08:12,479 --> 00:08:17,360
+conditions are not gone yet
+
+224
+00:08:15,440 --> 00:08:19,199
+now let me share how i perform a
+
+225
+00:08:17,360 --> 00:08:20,479
+multiple time frame analysis using
+
+226
+00:08:19,199 --> 00:08:22,400
+ichimoku
+
+227
+00:08:20,479 --> 00:08:24,879
+a trend identified on the higher time
+
+228
+00:08:22,400 --> 00:08:26,639
+frames can hold more strength than on
+
+229
+00:08:24,879 --> 00:08:28,960
+the shorter time frames
+
+230
+00:08:26,639 --> 00:08:31,199
+for example a kumo breakout or a
+
+231
+00:08:28,960 --> 00:08:33,279
+conversion baseline crossover is more
+
+232
+00:08:31,199 --> 00:08:35,039
+relevant on higher time frames than on
+
+233
+00:08:33,279 --> 00:08:37,279
+the shorter ones
+
+234
+00:08:35,039 --> 00:08:40,080
+the hardest thing for hmoko beginners is
+
+235
+00:08:37,279 --> 00:08:42,000
+to create a valid basic analysis for
+
+236
+00:08:40,080 --> 00:08:44,080
+example what if the price is under the
+
+237
+00:08:42,000 --> 00:08:46,000
+kumo the lagging span is under the kumo
+
+238
+00:08:44,080 --> 00:08:48,320
+2 and the conversion is above the
+
+239
+00:08:46,000 --> 00:08:50,880
+baseline on the one hour time frame and
+
+240
+00:08:48,320 --> 00:08:52,959
+which signals have more relevance also
+
+241
+00:08:50,880 --> 00:08:55,120
+what if the 4 hour charts are completely
+
+242
+00:08:52,959 --> 00:08:56,720
+bearish but the five minute charts are
+
+243
+00:08:55,120 --> 00:08:58,240
+clearly bullish
+
+244
+00:08:56,720 --> 00:09:00,560
+that's why you need a multiple time
+
+245
+00:08:58,240 --> 00:09:03,279
+frame analysis with a precise set of
+
+246
+00:09:00,560 --> 00:09:05,440
+rules to filter noise and big trends
+
+247
+00:09:03,279 --> 00:09:07,360
+with potential
+
+248
+00:09:05,440 --> 00:09:08,800
+these are the minimum requirements that
+
+249
+00:09:07,360 --> 00:09:11,360
+you should always check to be able to
+
+250
+00:09:08,800 --> 00:09:14,080
+make a trading decision with each mogul
+
+251
+00:09:11,360 --> 00:09:17,600
+the price versus the kumo price position
+
+252
+00:09:14,080 --> 00:09:19,680
+versus the baseline and the komo color
+
+253
+00:09:17,600 --> 00:09:21,920
+always check them in this order if these
+
+254
+00:09:19,680 --> 00:09:24,240
+parameters are the same on different
+
+255
+00:09:21,920 --> 00:09:25,519
+time frames then the trend has potential
+
+256
+00:09:24,240 --> 00:09:26,959
+to continue
+
+257
+00:09:25,519 --> 00:09:28,880
+if you find that for example the
+
+258
+00:09:26,959 --> 00:09:31,279
+conversion line and baseline are
+
+259
+00:09:28,880 --> 00:09:32,959
+breaking out from the kumo 2 it can
+
+260
+00:09:31,279 --> 00:09:34,720
+count as a bonus confirmation of the
+
+261
+00:09:32,959 --> 00:09:36,720
+trend
+
+262
+00:09:34,720 --> 00:09:38,080
+the premise of this strategy is that you
+
+263
+00:09:36,720 --> 00:09:40,720
+should always trade only in the
+
+264
+00:09:38,080 --> 00:09:42,399
+direction of the higher time frames
+
+265
+00:09:40,720 --> 00:09:44,959
+i would advise to check at least to
+
+266
+00:09:42,399 --> 00:09:46,959
+higher time frames so if for example you
+
+267
+00:09:44,959 --> 00:09:49,120
+want to enter on the 15 minutes time
+
+268
+00:09:46,959 --> 00:09:51,360
+frame you check the one hour and the
+
+269
+00:09:49,120 --> 00:09:53,120
+four hour charts first
+
+270
+00:09:51,360 --> 00:09:55,200
+if you plan to enter on the one hour
+
+271
+00:09:53,120 --> 00:09:57,360
+chart then you check the four hour and
+
+272
+00:09:55,200 --> 00:09:59,600
+the daily charts first
+
+273
+00:09:57,360 --> 00:10:00,959
+when checking the higher time frames you
+
+274
+00:09:59,600 --> 00:10:02,320
+check the previous three minimum
+
+275
+00:10:00,959 --> 00:10:04,480
+requirements
+
+276
+00:10:02,320 --> 00:10:06,720
+always start from the higher time frames
+
+277
+00:10:04,480 --> 00:10:08,560
+and proceed to the lower time frames and
+
+278
+00:10:06,720 --> 00:10:09,600
+never enter against the higher time
+
+279
+00:10:08,560 --> 00:10:11,279
+frames
+
+280
+00:10:09,600 --> 00:10:13,040
+use this checklist with your daily
+
+281
+00:10:11,279 --> 00:10:14,720
+training routine if you have three
+
+282
+00:10:13,040 --> 00:10:17,120
+conditions pointing into the same
+
+283
+00:10:14,720 --> 00:10:18,399
+direction you can move to the next lower
+
+284
+00:10:17,120 --> 00:10:20,079
+time frame
+
+285
+00:10:18,399 --> 00:10:22,000
+if you have other three conditions
+
+286
+00:10:20,079 --> 00:10:25,279
+pointing into the same direction again
+
+287
+00:10:22,000 --> 00:10:27,120
+you can go to your entry time frame
+
+288
+00:10:25,279 --> 00:10:29,279
+here's my multiple time frame strategy
+
+289
+00:10:27,120 --> 00:10:31,360
+using gmo communicator
+
+290
+00:10:29,279 --> 00:10:34,560
+we go on the highest time frame the four
+
+291
+00:10:31,360 --> 00:10:37,440
+hour and we check the trend conditions
+
+292
+00:10:34,560 --> 00:10:40,000
+price is above the como cloud
+
+293
+00:10:37,440 --> 00:10:42,640
+price is above the baseline
+
+294
+00:10:40,000 --> 00:10:44,399
+and ideally the common cloud is green
+
+295
+00:10:42,640 --> 00:10:46,160
+but this is not mandatory on the highest
+
+296
+00:10:44,399 --> 00:10:48,560
+time frame
+
+297
+00:10:46,160 --> 00:10:49,920
+then we go on the second time frame in
+
+298
+00:10:48,560 --> 00:10:53,360
+one hour
+
+299
+00:10:49,920 --> 00:10:55,839
+and we see price above the kumo cloud
+
+300
+00:10:53,360 --> 00:10:58,800
+price is above the baseline
+
+301
+00:10:55,839 --> 00:11:01,040
+and the kumo cloud must be green here
+
+302
+00:10:58,800 --> 00:11:02,720
+then we move to the entry time frame the
+
+303
+00:11:01,040 --> 00:11:05,839
+15 minute chart
+
+304
+00:11:02,720 --> 00:11:08,640
+here i remove all each moco components
+
+305
+00:11:05,839 --> 00:11:11,519
+and leave just a baseline and i add the
+
+306
+00:11:08,640 --> 00:11:14,160
+200 exponential moving average
+
+307
+00:11:11,519 --> 00:11:16,320
+if the baseline is above the 200 ema
+
+308
+00:11:14,160 --> 00:11:18,399
+then i take the trade in the direction
+
+309
+00:11:16,320 --> 00:11:20,240
+indicated by the higher time frame
+
+310
+00:11:18,399 --> 00:11:22,640
+keeping in mind other support and
+
+311
+00:11:20,240 --> 00:11:24,720
+resistance points on the chart
+
+312
+00:11:22,640 --> 00:11:27,600
+stop loss goes on the other side of the
+
+313
+00:11:24,720 --> 00:11:30,079
+200 exponential moving average
+
+314
+00:11:27,600 --> 00:11:32,399
+and as an exit strategy you aim for a
+
+315
+00:11:30,079 --> 00:11:35,600
+two to one risk reward ratio
+
+316
+00:11:32,399 --> 00:11:37,920
+and you monitor closely the 200 dma and
+
+317
+00:11:35,600 --> 00:11:40,240
+the baseline crossover
+
+318
+00:11:37,920 --> 00:11:42,160
+if the trend is strong you can catch a
+
+319
+00:11:40,240 --> 00:11:44,480
+giant move and exit on the opposite
+
+320
+00:11:42,160 --> 00:11:46,079
+crossover
+
+321
+00:11:44,480 --> 00:11:48,720
+here's another multiple time frame
+
+322
+00:11:46,079 --> 00:11:49,920
+analysis this time on more day trading
+
+323
+00:11:48,720 --> 00:11:52,000
+approach
+
+324
+00:11:49,920 --> 00:11:53,040
+we move on the highest time frame in one
+
+325
+00:11:52,000 --> 00:11:55,519
+hour
+
+326
+00:11:53,040 --> 00:11:57,920
+price is below the como cloud
+
+327
+00:11:55,519 --> 00:12:00,800
+price is below the baseline
+
+328
+00:11:57,920 --> 00:12:03,600
+and ideally the kumo cloud is red but as
+
+329
+00:12:00,800 --> 00:12:06,000
+i said before this is not mandatory
+
+330
+00:12:03,600 --> 00:12:08,079
+then we go on the next time frame the 30
+
+331
+00:12:06,000 --> 00:12:10,720
+minute time frame and we see that the
+
+332
+00:12:08,079 --> 00:12:12,480
+price is below the kumo cloud price is
+
+333
+00:12:10,720 --> 00:12:14,480
+below the baseline
+
+334
+00:12:12,480 --> 00:12:16,800
+and the kumo is red
+
+335
+00:12:14,480 --> 00:12:19,360
+the trend is clearly down so we go on
+
+336
+00:12:16,800 --> 00:12:21,760
+the entry time frame the 5 minute chart
+
+337
+00:12:19,360 --> 00:12:23,760
+and look for a short signal
+
+338
+00:12:21,760 --> 00:12:26,079
+we removed the other components to
+
+339
+00:12:23,760 --> 00:12:28,880
+better visualize the chart we add the
+
+340
+00:12:26,079 --> 00:12:31,360
+200 ema and we see that we already had a
+
+341
+00:12:28,880 --> 00:12:33,440
+beverage crossover between the baseline
+
+342
+00:12:31,360 --> 00:12:36,000
+and the 200 ema
+
+343
+00:12:33,440 --> 00:12:38,560
+we entered short around this level
+
+344
+00:12:36,000 --> 00:12:40,160
+with a two to one risk reward ratio
+
+345
+00:12:38,560 --> 00:12:42,720
+the risk management here is very
+
+346
+00:12:40,160 --> 00:12:45,519
+important if you are lucky and the trend
+
+347
+00:12:42,720 --> 00:12:48,000
+is strong you can use a trailing stop
+
+348
+00:12:45,519 --> 00:12:50,480
+based on the recent swings or the 200
+
+349
+00:12:48,000 --> 00:12:53,200
+ema and you can get a much higher risk
+
+350
+00:12:50,480 --> 00:12:56,000
+reward ratio in my back test i've
+
+351
+00:12:53,200 --> 00:12:58,639
+managed to catch an 8 to 1 rescuer ratio
+
+352
+00:12:56,000 --> 00:13:02,050
+these are rare but if things go your way
+
+353
+00:12:58,639 --> 00:13:16,740
+the profit potential is great
+
+354
+00:13:02,050 --> 00:13:16,740
+[Music]
+
+355
+00:13:19,500 --> 00:13:22,570
+[Music]
+
+356
+00:13:26,260 --> 00:13:29,429
+[Music]
+
+357
+00:13:35,150 --> 00:13:43,209
+[Music]
+
+358
+00:13:59,260 --> 00:14:02,409
+[Music]
+
+359
+00:14:11,900 --> 00:14:29,730
+[Music]
+
+360
+00:15:02,210 --> 00:15:05,779
+[Music]
+
+361
+00:15:11,370 --> 00:15:15,470
+[Music]
+
+362
+00:15:26,280 --> 00:15:33,179
+[Music]
+
+363
+00:15:47,550 --> 00:15:53,019
+[Music]
+
+364
+00:16:03,600 --> 00:16:08,240
+as always if you got any value from this
+
+365
+00:16:06,160 --> 00:16:10,320
+and learned something new drop a like to
+
+366
+00:16:08,240 --> 00:16:12,079
+help us with youtube algorithm and make
+
+367
+00:16:10,320 --> 00:16:14,720
+sure you click the bell icon to stay in
+
+368
+00:16:12,079 --> 00:16:18,279
+touch when new videos are released
+
+369
+00:16:14,720 --> 00:16:18,279
+until next time
+

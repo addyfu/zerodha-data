@@ -1,0 +1,702 @@
+1
+00:00:01,230 --> 00:00:05,340
+Whether you’re day trading or making long-term
+investment decisions, it’s important to
+
+2
+00:00:05,340 --> 00:00:07,480
+know what the markets are doing.
+
+3
+00:00:07,480 --> 00:00:11,360
+Often this is done with market indexes, but
+these values don’t always give you the whole
+
+4
+00:00:11,360 --> 00:00:13,300
+picture, and oftentimes they don’t.
+
+5
+00:00:13,300 --> 00:00:16,260
+That’s why smart traders use market breadth
+indicators.
+
+6
+00:00:16,260 --> 00:00:21,190
+In today’s video, I will share the best
+market internal indicators that will reveal
+
+7
+00:00:21,190 --> 00:00:23,279
+to you the overall market movements.
+
+8
+00:00:23,279 --> 00:00:27,660
+It may sound complicated at first if you’re
+not familiar with these indicators, but trust
+
+9
+00:00:27,660 --> 00:00:33,079
+me, they are real game-changers and will help
+you to make better decisions.
+
+10
+00:00:33,079 --> 00:00:35,370
+Technical analysis has one major fault.
+
+11
+00:00:35,370 --> 00:00:39,649
+Almost all indicators and patterns are based
+on what happened in the past, not what is
+
+12
+00:00:39,649 --> 00:00:41,780
+forecasted to happen in the future.
+
+13
+00:00:41,780 --> 00:00:45,830
+And as being a technical trader myself, I
+have to always remember this when placing
+
+14
+00:00:45,830 --> 00:00:47,000
+my trades.
+
+15
+00:00:47,000 --> 00:00:51,210
+But there are some indicators that actually
+are forward looking and these forward-looking
+
+16
+00:00:51,210 --> 00:00:54,059
+indicators are known as Market Internals.
+
+17
+00:00:54,059 --> 00:00:58,219
+If they are used correctly, they might be
+one of the best tools you can use to time
+
+18
+00:00:58,219 --> 00:01:00,879
+the markets!
+
+19
+00:01:00,879 --> 00:01:05,590
+Market Internals are mathematical formulas
+that measure the number of advancing and declining
+
+20
+00:01:05,590 --> 00:01:10,760
+stocks, and their volume, to calculate the
+participation in a stock index's price movements.
+
+21
+00:01:10,760 --> 00:01:15,300
+By evaluating how many stocks are increasing
+or decreasing in price, and how much volume
+
+22
+00:01:15,300 --> 00:01:20,000
+these stocks are trading, Market Internals
+help in confirming stock index price trends,
+
+23
+00:01:20,000 --> 00:01:24,070
+or can warn of future price reversals.
+
+24
+00:01:24,070 --> 00:01:27,570
+Breadth indicators are primarily used for
+two reasons:
+
+25
+00:01:27,570 --> 00:01:32,060
+Market Sentiment: because such indicators
+can help determine if a market is more likely
+
+26
+00:01:32,060 --> 00:01:34,250
+to rise or fall.
+
+27
+00:01:34,250 --> 00:01:38,140
+Trend Strength: because the indicators can
+help determine the strength of a bullish or
+
+28
+00:01:38,140 --> 00:01:39,610
+bearish trend.
+
+29
+00:01:39,610 --> 00:01:43,380
+There are many different indicators that traders
+and investors can use in their analysis.
+
+30
+00:01:43,380 --> 00:01:48,290
+Here are the most important ones that can
+help you break down the market and what move
+
+31
+00:01:48,290 --> 00:01:51,340
+it’s about to make.
+
+32
+00:01:51,340 --> 00:01:56,310
+First is the Advance/Decline (A/D) Line
+This indicator, mostly used in the U.S. stock
+
+33
+00:01:56,310 --> 00:02:00,940
+market, can be calculated on both a daily
+and weekly basis and is the most basic and
+
+34
+00:02:00,940 --> 00:02:05,230
+widely used indication of breadth in the major
+U.S. stock exchanges.
+
+35
+00:02:05,230 --> 00:02:09,470
+The construction of the advance/decline line
+is calculated by subtracting the number of
+
+36
+00:02:09,470 --> 00:02:16,360
+stocks declining on any given day, from the
+number advancing relative to the prior close.
+
+37
+00:02:16,360 --> 00:02:21,170
+When more stocks are moving up than are moving
+down, this line is advancing (it has a positive
+
+38
+00:02:21,170 --> 00:02:26,099
+slope and its direction is higher) and vice
+versa in a declining trend.
+
+39
+00:02:26,099 --> 00:02:30,561
+These figures do not take into account stocks
+that were unchanged on the day or week, but
+
+40
+00:02:30,561 --> 00:02:33,560
+only those up or down from the prior close.
+
+41
+00:02:33,560 --> 00:02:38,060
+The value of the A/D line always begins from
+some fixed starting point, and this means
+
+42
+00:02:38,060 --> 00:02:40,680
+that the initial value begins at 0.
+
+43
+00:02:40,680 --> 00:02:45,730
+What is most relevant in the advance/decline
+figure is the slope of the line, not the absolute
+
+44
+00:02:45,730 --> 00:02:47,090
+cumulative value.
+
+45
+00:02:47,090 --> 00:02:50,329
+How to Read the Advance-Decline Line
+The advance-decline line is seldom used by
+
+46
+00:02:50,329 --> 00:02:51,329
+itself.
+
+47
+00:02:51,329 --> 00:02:54,349
+Instead, the ADL is plotted against its relevant
+index.
+
+48
+00:02:54,349 --> 00:02:58,140
+to confirm trends or for the likelihood of
+reversals.
+
+49
+00:02:58,140 --> 00:03:01,920
+There are four interpretations of the concept:
+1.
+
+50
+00:03:01,920 --> 00:03:06,879
+Advance-Decline Line and Index Trending Upwards
+A situation where the advance-decline line
+
+51
+00:03:06,879 --> 00:03:10,510
+and index are both trending upwards is said
+to be bullish.
+
+52
+00:03:10,510 --> 00:03:15,310
+The rise in the index is driven by the rise
+in the majority of stocks in the index.
+
+53
+00:03:15,310 --> 00:03:20,010
+As such, investors tend to believe that the
+market will continue its uptrend in the near
+
+54
+00:03:20,010 --> 00:03:21,819
+future.
+
+55
+00:03:21,819 --> 00:03:23,629
+2.
+
+56
+00:03:23,629 --> 00:03:27,430
+Advance-Decline Line Trending Downwards and
+Index Trending Downwards
+
+57
+00:03:27,430 --> 00:03:32,069
+A situation where the advance-decline line
+and index are both trending downwards is said
+
+58
+00:03:32,069 --> 00:03:33,400
+to be bearish.
+
+59
+00:03:33,400 --> 00:03:38,620
+The decline in the index is driven by the
+decline in a majority of stocks in the index.
+
+60
+00:03:38,620 --> 00:03:42,730
+As such, investors tend to believe that the
+market will continue its downtrend in the
+
+61
+00:03:42,730 --> 00:03:43,730
+near future.
+
+62
+00:03:43,730 --> 00:03:44,730
+3.
+
+63
+00:03:44,730 --> 00:03:45,730
+Advance-Decline Line Trending Upwards and
+Index Trending Downwards
+
+64
+00:03:45,730 --> 00:03:49,810
+A situation where the advance-decline line
+is trending upwards, but the index is trending
+
+65
+00:03:49,810 --> 00:03:52,889
+downwards is said to be a bullish divergence.
+
+66
+00:03:52,889 --> 00:03:58,140
+The decline in the index is driven by the
+decline in a minority of stocks in the index.
+
+67
+00:03:58,140 --> 00:04:01,720
+Therefore, it indicates that sellers are losing
+their conviction.
+
+68
+00:04:01,720 --> 00:04:06,870
+As such, investors tend to believe that the
+market will show a reversal and trend upwards
+
+69
+00:04:06,870 --> 00:04:07,870
+in the near future.
+
+70
+00:04:07,870 --> 00:04:08,870
+4.
+
+71
+00:04:08,870 --> 00:04:09,870
+Advance-Decline Line Trending Downwards and
+Index Trending Upwards
+
+72
+00:04:09,870 --> 00:04:13,659
+A situation where the advance-decline line
+is trending downwards, but the index is trending
+
+73
+00:04:13,659 --> 00:04:16,280
+upwards is said to be a bearish divergence.
+
+74
+00:04:16,280 --> 00:04:21,280
+The increase in the index is driven by the
+increase in a minority of stocks in the index.
+
+75
+00:04:21,280 --> 00:04:25,040
+Therefore, it indicates that buyers are losing
+their conviction.
+
+76
+00:04:25,040 --> 00:04:29,970
+As such, investors tend to believe that the
+market will show a reversal and trend downwards
+
+77
+00:04:29,970 --> 00:04:31,170
+in the near future.
+
+78
+00:04:31,170 --> 00:04:37,410
+Second, we have the McClellan Oscillator
+This oscillator will be applicable to equities
+
+79
+00:04:37,410 --> 00:04:42,380
+markets that have a substantial number of
+individual stocks that trade actively.
+
+80
+00:04:42,380 --> 00:04:46,870
+The McClellan oscillator also provides an
+indication of the trend in market breadth
+
+81
+00:04:46,870 --> 00:04:51,780
+and is presented in a familiar way, as a (smoothed)
+difference between the number of advancing
+
+82
+00:04:51,780 --> 00:04:55,030
+and declining stocks on the NYSE.
+
+83
+00:04:55,030 --> 00:04:59,350
+Because of the nature of momentum, a strong
+bullish trend is followed by a large number
+
+84
+00:04:59,350 --> 00:05:00,820
+of stocks going up.
+
+85
+00:05:00,820 --> 00:05:06,190
+A weakening bull market is signaled by a smaller
+number of stocks making large advances in
+
+86
+00:05:06,190 --> 00:05:10,640
+price, as discussed already with the A/D line.
+
+87
+00:05:10,640 --> 00:05:16,170
+Buy indications are given when the McClellan
+oscillator falls into an oversold area, which
+
+88
+00:05:16,170 --> 00:05:21,110
+is defined as –70 to –100, and then turns
+up.
+
+89
+00:05:21,110 --> 00:05:25,980
+Sell signals are generated when the McClellan
+oscillator rises into the overbought zone
+
+90
+00:05:25,980 --> 00:05:29,960
+of +70 and +100, and then turns down.
+
+91
+00:05:29,960 --> 00:05:36,240
+When the oscillator is above +100 or falls
+below –100, it is a sign of an extremely
+
+92
+00:05:36,240 --> 00:05:40,370
+overbought/oversold market—such readings
+can be associated with powerful bull or bear
+
+93
+00:05:40,370 --> 00:05:41,800
+market trends.
+
+94
+00:05:41,800 --> 00:05:46,310
+The rule of thumb with such extreme readings
+is to assume that the existing trend has staying
+
+95
+00:05:46,310 --> 00:05:50,300
+power for only another couple of weeks or
+somewhat longer.
+
+96
+00:05:50,300 --> 00:05:56,180
+Like the MACD and Stochastics models, the
+McClellan oscillator is best employed looking
+
+97
+00:05:56,180 --> 00:06:00,410
+for upside and downside crossovers, from within
+an overbought/oversold area.
+
+98
+00:06:00,410 --> 00:06:05,940
+There are often crossovers, for example, in
+the slow stochastic that does not occur in
+
+99
+00:06:05,940 --> 00:06:08,340
+either its oversold or overbought zones.
+
+100
+00:06:08,340 --> 00:06:13,270
+In a similar fashion, the signals that occur
+in the middle ranges of the McClellan oscillator
+
+101
+00:06:13,270 --> 00:06:19,250
+are best ignored without compelling other
+evidence of a technical nature.
+
+102
+00:06:19,250 --> 00:06:25,720
+Third indicator is the Arms Index (TRIN)
+The Arms Index brings in volume to its formula
+
+103
+00:06:25,720 --> 00:06:28,900
+so is a hybrid indicator, with price and volume.
+
+104
+00:06:28,900 --> 00:06:34,280
+The Arms Index indicates whether volume is
+flowing into advancing or declining stocks.
+
+105
+00:06:34,280 --> 00:06:39,030
+The index shows whether more of the total
+volume is advancing volume or whether more
+
+106
+00:06:39,030 --> 00:06:43,750
+of the total volume is declining volume, for
+all stocks on that exchange.
+
+107
+00:06:43,750 --> 00:06:48,590
+If more volume is associated with declining
+stocks on any given day, that day’s Arms
+
+108
+00:06:48,590 --> 00:06:51,650
+Index will wind up being above 1.
+
+109
+00:06:51,650 --> 00:06:57,090
+If more volume is associated with advancing
+stocks than declining stocks, the Arms Index
+
+110
+00:06:57,090 --> 00:07:01,190
+will register under 1, at the close.
+
+111
+00:07:01,190 --> 00:07:06,460
+The Arms Index is calculated over the course
+of the trading day, but the close is primarily
+
+112
+00:07:06,460 --> 00:07:08,650
+what is of interest.
+
+113
+00:07:08,650 --> 00:07:12,590
+Extremes in the Arms Index have an inverse
+relationship to the market.
+
+114
+00:07:12,590 --> 00:07:17,050
+High Arms Index readings, well above 1, indicate
+heavy selling pressure.
+
+115
+00:07:17,050 --> 00:07:23,470
+If Arms Index closes above 1 persist over
+a few or more days, this is associated with
+
+116
+00:07:23,470 --> 00:07:28,240
+a likelihood that the market is oversold,
+perhaps near a bottom, and might soon turn
+
+117
+00:07:28,240 --> 00:07:32,770
+up—in this sense the Arms Index functions
+as a contrary indicator.
+
+118
+00:07:32,770 --> 00:07:37,370
+The idea is if everyone is selling, it might
+be the time to buy.
+
+119
+00:07:37,370 --> 00:07:41,930
+It depends of course on the circumstances,
+but when either buying or selling activity
+
+120
+00:07:41,930 --> 00:07:48,110
+predominates, it gets over done, hence the
+terms overbought or oversold.
+
+121
+00:07:48,110 --> 00:07:51,920
+Traders generally take anything under 1.0
+to be a buy signal.
+
+122
+00:07:51,920 --> 00:07:54,890
+Conversely, a number above 1.0 is a sell signal.
+
+123
+00:07:54,890 --> 00:08:00,720
+The further away you get from neutrality,
+the stronger the bulls or bears are on that
+
+124
+00:08:00,720 --> 00:08:01,720
+day.
+
+125
+00:08:01,720 --> 00:08:06,300
+However, if TRIN gets too far away from 1.0,
+it’s a sign that the market may soon reverse.
+
+126
+00:08:06,300 --> 00:08:14,380
+A number above 3.0 or below 0.5 could be a
+sign of an imminent reversal.
+
+127
+00:08:14,380 --> 00:08:19,680
+Traders use market breadth indicators in conjunction
+with other forms of technical analysis, such
+
+128
+00:08:19,680 --> 00:08:24,400
+as chart patterns and technical indicators,
+to maximize the odds of success.
+
+129
+00:08:24,400 --> 00:08:31,850
+For example, if the Advance/Decline Line starts
+to drop while the S&P 500 is still rising,
+
+130
+00:08:31,850 --> 00:08:36,860
+traders will watch closely for the S&P 500
+to break below a rising trend line, break
+
+131
+00:08:36,860 --> 00:08:40,959
+below support, or for technical indicators
+to turn bearish.
+
+132
+00:08:40,959 --> 00:08:45,040
+This will help confirm that the price may
+be starting to decline, and therefore the
+
+133
+00:08:45,040 --> 00:08:48,310
+trader can exit longs or initiate short positions.
+
+134
+00:08:48,310 --> 00:08:54,360
+If the majority of the securities tracked
+by the indicator are “advancers”, then
+
+135
+00:08:54,360 --> 00:09:00,060
+investors expect a rosier market going forward,
+while a majority of “decliners” would
+
+136
+00:09:00,060 --> 00:09:04,689
+give investors pause, indicating weakening
+demand for the stocks.
+
+137
+00:09:04,689 --> 00:09:10,339
+Essentially, market internals point to a convergence
+or a divergence in securities markets.
+
+138
+00:09:10,339 --> 00:09:15,139
+If the data reveals a confirmation then the
+market index being tracked will continue its
+
+139
+00:09:15,139 --> 00:09:16,139
+direction.
+
+140
+00:09:16,139 --> 00:09:21,360
+If there’s a divergence, then the market
+might steer into a different direction.
+
+141
+00:09:21,360 --> 00:09:26,660
+Market internals can provide a much-needed
+clarity for investors, and lead to more stable
+
+142
+00:09:26,660 --> 00:09:28,889
+and savvy investment outcomes.
+
+143
+00:09:28,889 --> 00:09:35,569
+So, by determining whether more cash is flowing
+in or out of the market, breadth indicators
+
+144
+00:09:35,569 --> 00:09:40,759
+can be a reliable powerful predictive tool
+on market movement and momentum—one that
+
+145
+00:09:40,759 --> 00:09:47,430
+can give investors a big edge over the competition
+on a regular basis.
+
+146
+00:09:47,430 --> 00:09:51,560
+As always, if you learned something new and
+found value, leave us a like to show your
+
+147
+00:09:51,560 --> 00:09:55,790
+support, subscribe to our channel and hit
+the bell icon to stay notified when we upload
+
+148
+00:09:55,790 --> 00:09:56,840
+new videos.
+
+149
+00:09:56,840 --> 00:09:58,420
+Until next time.
+

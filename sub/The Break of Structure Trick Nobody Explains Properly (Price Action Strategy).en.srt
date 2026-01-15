@@ -1,0 +1,892 @@
+1
+00:00:00,740 --> 00:00:06,220
+One of the best ways to consistently make
+money trading is to understand the facts and
+
+2
+00:00:06,220 --> 00:00:08,149
+nuances about the market structure.
+
+3
+00:00:08,149 --> 00:00:13,379
+Today we’ll cover an important pattern,
+the “over and under” break of structure
+
+4
+00:00:13,379 --> 00:00:14,490
+pattern.
+
+5
+00:00:14,490 --> 00:00:20,630
+So if you could, like, subscribe to the channel
+and stick around for the full video.
+
+6
+00:00:20,630 --> 00:00:25,130
+What is a break of structure?
+
+7
+00:00:25,130 --> 00:00:29,779
+Market structure is simply the support and
+resistance levels on your charts, determined
+
+8
+00:00:29,779 --> 00:00:31,869
+by swing highs and lows.
+
+9
+00:00:31,869 --> 00:00:35,630
+These are levels on your chart that attract
+the most attention.
+
+10
+00:00:35,630 --> 00:00:39,910
+When the market is in a bullish trend and
+buyers are controlling the market, you will
+
+11
+00:00:39,910 --> 00:00:42,430
+see higher highs and higher lows.
+
+12
+00:00:42,430 --> 00:00:44,270
+There is strong buying pressure.
+
+13
+00:00:44,270 --> 00:00:48,210
+This results in the upward movement of price
+with time.
+
+14
+00:00:48,210 --> 00:00:53,750
+The formation of consecutive lower lows and
+lower highs in the price is referred a bearish
+
+15
+00:00:53,750 --> 00:00:54,750
+trend.
+
+16
+00:00:54,750 --> 00:00:57,300
+This indicates strong selling pressure.
+
+17
+00:00:57,300 --> 00:01:01,110
+This results in a downward movement of price
+with time.
+
+18
+00:01:01,110 --> 00:01:07,060
+Now, the over and under pattern represents
+a break of structure in the market.
+
+19
+00:01:07,060 --> 00:01:11,320
+The break of structure is the first sign that
+the market is telling you that it's about
+
+20
+00:01:11,320 --> 00:01:14,009
+to get weaker or it's about to reverse.
+
+21
+00:01:14,009 --> 00:01:16,060
+Let’s say we have an uptrend.
+
+22
+00:01:16,060 --> 00:01:17,920
+Higher highs and higher lows.
+
+23
+00:01:17,920 --> 00:01:23,490
+We have a break of the structure when the
+price makes a new lower low and lower high.
+
+24
+00:01:23,490 --> 00:01:28,070
+This tells you that this trend could be weakening
+or it could reverse.
+
+25
+00:01:28,070 --> 00:01:30,679
+For a downtrend, the same concept.
+
+26
+00:01:30,679 --> 00:01:32,810
+Lower Lows and lower highs.
+
+27
+00:01:32,810 --> 00:01:37,439
+We have a break of the structure when the
+price makes a new higher high and a higher
+
+28
+00:01:37,439 --> 00:01:38,439
+low.
+
+29
+00:01:38,439 --> 00:01:43,600
+There's no guarantee that the trend is over,
+but this is a warning sign, a sign of weakness
+
+30
+00:01:43,600 --> 00:01:45,450
+in the previous downtrend.
+
+31
+00:01:45,450 --> 00:01:50,670
+The over and under pattern
+
+32
+00:01:50,670 --> 00:01:55,509
+We can distinguish two types of patterns:
+• Bullish break of structure, which appears
+
+33
+00:01:55,509 --> 00:01:57,940
+at the end of a downtrend.
+
+34
+00:01:57,940 --> 00:02:02,030
+• Bearish break of structure, which appears
+at the end of an uptrend.
+
+35
+00:02:02,030 --> 00:02:09,080
+Here’s how to easily find a bullish over
+and under pattern, after a previous downtrend.
+
+36
+00:02:09,080 --> 00:02:12,610
+• Price creates a lower low
+• Price creates a lower high
+
+37
+00:02:12,610 --> 00:02:17,251
+• Price breaches the previous low and creates
+a new lower low
+
+38
+00:02:17,251 --> 00:02:22,910
+• Then price breaks the previous high as
+well and forms a higher high
+
+39
+00:02:22,910 --> 00:02:28,330
+When price returns to the zone created by
+the 2 previous lows, you look to enter into
+
+40
+00:02:28,330 --> 00:02:30,390
+a long position.
+
+41
+00:02:30,390 --> 00:02:35,010
+For a bearish over and under pattern, after
+a previous uptrend.
+
+42
+00:02:35,010 --> 00:02:38,670
+• Price creates a higher high
+• Price creates a lower high
+
+43
+00:02:38,670 --> 00:02:43,031
+• Price breaches the previous high and creates
+a new higher high
+
+44
+00:02:43,031 --> 00:02:48,920
+• Then price breaks the previous low as
+well and forms a lower low
+
+45
+00:02:48,920 --> 00:02:53,860
+When price returns to the zone created by
+the 2 previous highs, you look to enter into
+
+46
+00:02:53,860 --> 00:02:55,540
+a short position.
+
+47
+00:02:55,540 --> 00:03:01,590
+Now, you might be inclined to believe that
+this break of structure pattern looks similar
+
+48
+00:03:01,590 --> 00:03:03,820
+to the Head and Shoulder pattern.
+
+49
+00:03:03,820 --> 00:03:08,900
+The main difference between the over and under
+pattern and the Head and Shoulder pattern
+
+50
+00:03:08,900 --> 00:03:14,310
+is the left leg (second valley) of the over
+and under formation, which is much lower than
+
+51
+00:03:14,310 --> 00:03:15,730
+the right leg (first valley).
+
+52
+00:03:15,730 --> 00:03:20,820
+And this is a more common pattern than the
+classic head and shoulders, because it involves
+
+53
+00:03:20,820 --> 00:03:25,430
+2 traps set by the smart money, for both sides.
+
+54
+00:03:25,430 --> 00:03:30,960
+The second major difference between the two
+reversal patterns is the entry point.
+
+55
+00:03:30,960 --> 00:03:37,710
+Usually, the point of entry for the HS pattern
+is the break of the neckline, but with the
+
+56
+00:03:37,710 --> 00:03:44,120
+over and under pattern, we look for a much
+earlier entry near the left wave, which offers
+
+57
+00:03:44,120 --> 00:03:45,870
+a bigger profit potential.
+
+58
+00:03:45,870 --> 00:03:48,250
+We’ll talk about this later.
+
+59
+00:03:48,250 --> 00:03:53,520
+Break of structure & liquidity hunt
+
+60
+00:03:53,520 --> 00:03:57,230
+So why is this break of structure pattern
+important?
+
+61
+00:03:57,230 --> 00:04:03,640
+For big institutions with a need to fill large
+orders, finding pockets of liquidity is absolutely
+
+62
+00:04:03,640 --> 00:04:05,010
+essential.
+
+63
+00:04:05,010 --> 00:04:09,930
+When these big players take positions in the
+market, they obviously aim to be filed at
+
+64
+00:04:09,930 --> 00:04:11,930
+the best possible price.
+
+65
+00:04:11,930 --> 00:04:17,340
+However, given the size of their positions,
+they need to find enough counter-forces to
+
+66
+00:04:17,340 --> 00:04:21,539
+fill their orders, with the minimal amount
+of slippage.
+
+67
+00:04:21,539 --> 00:04:27,121
+If a big player were to enter the market at
+an area of low liquidity, the volatility it
+
+68
+00:04:27,121 --> 00:04:32,300
+would create would have a negative impact
+on the average price it gets.
+
+69
+00:04:32,300 --> 00:04:38,080
+Lower liquidity usually results in a more
+volatile market and will cause prices to change
+
+70
+00:04:38,080 --> 00:04:39,080
+drastically.
+
+71
+00:04:39,080 --> 00:04:41,660
+So, where do we find these levels?
+
+72
+00:04:41,660 --> 00:04:44,050
+Where stop-loss orders are placed.
+
+73
+00:04:44,050 --> 00:04:47,199
+Where do you think the concept of “stop-loss
+hunt” comes from?
+
+74
+00:04:47,199 --> 00:04:52,449
+From the necessity that large players have
+to enter the market in areas of liquidity
+
+75
+00:04:52,449 --> 00:04:55,669
+as they aim to accumulate major positions.
+
+76
+00:04:55,669 --> 00:05:01,960
+These areas will always attract interest because
+that’s where pockets of liquidity exist.
+
+77
+00:05:01,960 --> 00:05:08,449
+Now very important: the creation of a liquidity
+level comes as a result of an initial imbalance
+
+78
+00:05:08,449 --> 00:05:13,849
+of supply/demand, which forms what we know
+as a swing high or swing low.
+
+79
+00:05:13,849 --> 00:05:19,169
+As more players take positions in the market,
+these are levels where market participants
+
+80
+00:05:19,169 --> 00:05:23,610
+will use as a historical reference to place
+their stops.
+
+81
+00:05:23,610 --> 00:05:29,409
+In a bearish over and under pattern, the highest
+high in the formation, represents the liquidity
+
+82
+00:05:29,409 --> 00:05:30,419
+hunt.
+
+83
+00:05:30,419 --> 00:05:35,259
+Lot of traders had their stops places above
+the previous swing high.
+
+84
+00:05:35,259 --> 00:05:40,819
+Smart money pushed the price above the previous
+high, grabbed the liquidity and moved price
+
+85
+00:05:40,819 --> 00:05:41,830
+back down.
+
+86
+00:05:41,830 --> 00:05:46,939
+I always like to see a clear rejection that
+leads to a structure breakout.
+
+87
+00:05:46,939 --> 00:05:49,840
+And not only the previous higher high was
+broken.
+
+88
+00:05:49,840 --> 00:05:53,759
+We also have a breakout of the previous lower
+high.
+
+89
+00:05:53,759 --> 00:05:58,900
+Another liquidity hunt, because the price
+is then moved upward, toward the previous
+
+90
+00:05:58,900 --> 00:06:00,120
+higher high.
+
+91
+00:06:00,120 --> 00:06:06,220
+As a retail trader, it’s very hard to make
+money in this context, if you don’t know
+
+92
+00:06:06,220 --> 00:06:09,020
+what you are doing.
+
+93
+00:06:09,020 --> 00:06:13,120
+How to trade the break of structure setup
+The best time to trade the break of structure
+
+94
+00:06:13,120 --> 00:06:19,569
+pattern is after a significant rally or sell-off
+no matter the time frame used (you can use
+
+95
+00:06:19,569 --> 00:06:23,270
+this on the daily chart down to the 1-minute
+chart).
+
+96
+00:06:23,270 --> 00:06:27,370
+Here are the rules for a short signal, during
+a bearish break of structure.
+
+97
+00:06:27,370 --> 00:06:36,800
+• A prevailing uptrend needs to be visible
+– series of HH followed by a series of HL.
+
+98
+00:06:36,800 --> 00:06:40,829
+• Break in the market structure – price
+starts to make a lower low LL.
+
+99
+00:06:40,829 --> 00:06:45,029
+• You plan to enter at the zone between
+the right wave and the highest high
+
+100
+00:06:45,029 --> 00:06:50,330
+• You place the protective stop-loss above
+the last higher high HH.
+
+101
+00:06:50,330 --> 00:06:55,099
+• Take profit near the first valley, at
+the low of the first down leg.
+
+102
+00:06:55,099 --> 00:06:59,580
+And the second target at the area of the lower
+low.
+
+103
+00:06:59,580 --> 00:07:03,580
+For a bullish break of structure, meaning
+for buy signals:
+
+104
+00:07:03,580 --> 00:07:11,780
+• A prevailing downtrend needs to be visible
+– series of LL followed by a series of LH.
+
+105
+00:07:11,780 --> 00:07:16,150
+• Break in the market structure – price
+starts to make a higher high HH.
+
+106
+00:07:16,150 --> 00:07:20,299
+• You plan to enter at the zone between
+the right wave and the lowest low
+
+107
+00:07:20,299 --> 00:07:25,449
+• You place the protective stop-loss below
+the last lower low LL.
+
+108
+00:07:25,449 --> 00:07:28,749
+• Take profit near the first peak of the
+pattern.
+
+109
+00:07:28,749 --> 00:07:31,561
+And the second target at the area of the higher
+high
+
+110
+00:07:31,561 --> 00:07:37,639
+Break of structure & supply and demand strategy
+
+111
+00:07:37,639 --> 00:07:40,779
+The break of structure don’t always result
+in a reversal.
+
+112
+00:07:40,779 --> 00:07:46,119
+That’s why you need to find other confluence
+factors, to increase the odds in your favor.
+
+113
+00:07:46,119 --> 00:07:51,289
+Because, with this pattern, I’m basically
+trying to align my positions with the smart
+
+114
+00:07:51,289 --> 00:07:56,909
+money, using supply and demand zones is a
+great way to find entry locations.
+
+115
+00:07:56,909 --> 00:08:02,099
+So the plan is to find the break of structure
+pattern, we’ll wait for a retracement back
+
+116
+00:08:02,099 --> 00:08:08,090
+to the first wave, and we’ll try to find
+a supply or demand zone for an entry, to execute
+
+117
+00:08:08,090 --> 00:08:10,860
+the trade with a greater accuracy.
+
+118
+00:08:10,860 --> 00:08:14,199
+Here, a significant drop has occurred.
+
+119
+00:08:14,199 --> 00:08:18,630
+The market makes an obvious low, followed
+by a lower high.
+
+120
+00:08:18,630 --> 00:08:24,199
+Then after making a lower low, it shoots up
+and breaches the previous high, to make a
+
+121
+00:08:24,199 --> 00:08:25,830
+higher high.
+
+122
+00:08:25,830 --> 00:08:31,050
+The space between this low and the second
+low is considered as a strong demand zone
+
+123
+00:08:31,050 --> 00:08:32,210
+itself.
+
+124
+00:08:32,210 --> 00:08:34,659
+But what if you want even more accuracy.
+
+125
+00:08:34,659 --> 00:08:39,610
+What if you are seeing the pattern on the
+Hourly chart and you want to time your entry
+
+126
+00:08:39,610 --> 00:08:43,589
+on the 15 min time frame or on the 5 min time
+frame?
+
+127
+00:08:43,589 --> 00:08:46,750
+You need to find a demand zone for an entry.
+
+128
+00:08:46,750 --> 00:08:51,820
+First, you need to take a look at the left-hand
+side of previous low, where the strong rally
+
+129
+00:08:51,820 --> 00:08:52,820
+has started.
+
+130
+00:08:52,820 --> 00:08:58,360
+Now you need to find out the origin or the
+start point of that strong rally.
+
+131
+00:08:58,360 --> 00:09:03,790
+Remember that demand zones are found when
+the market makes a large move up from a single
+
+132
+00:09:03,790 --> 00:09:06,350
+candle or from a base.
+
+133
+00:09:06,350 --> 00:09:12,110
+You always draw the demand zone from the last
+BEARISH candle before the up move.
+
+134
+00:09:12,110 --> 00:09:17,540
+When price returns to the zone, you can open
+a buy position, with stops below the lowest
+
+135
+00:09:17,540 --> 00:09:18,540
+low.
+
+136
+00:09:18,540 --> 00:09:20,180
+Here’s our first target.
+
+137
+00:09:20,180 --> 00:09:23,029
+And here’s our second target.
+
+138
+00:09:23,029 --> 00:09:28,100
+Of course, anticipating a much bigger break
+of structure, you can leave a portion of the
+
+139
+00:09:28,100 --> 00:09:32,029
+trade open, in the case the reversal is much
+more aggressive.
+
+140
+00:09:32,029 --> 00:09:36,520
+Here’s another break of structure pattern,
+a bearish one.
+
+141
+00:09:36,520 --> 00:09:42,940
+The price is forming a new high level, declines,
+then forms a temporary low.
+
+142
+00:09:42,940 --> 00:09:48,410
+Prices then rally again to exceed the previous
+high (making a higher high).
+
+143
+00:09:48,410 --> 00:09:52,370
+The price then falls to form a new lower low.
+
+144
+00:09:52,370 --> 00:09:57,240
+This is our first sign that we might have
+an over and under pattern.
+
+145
+00:09:57,240 --> 00:10:03,000
+Prices rise again to the initial high level,
+so we need to find a supply area.
+
+146
+00:10:03,000 --> 00:10:08,930
+You look at the left side of the previous
+high where the previous strong down move started.
+
+147
+00:10:08,930 --> 00:10:13,459
+After that, you need to find out the origin
+of the strong down move.
+
+148
+00:10:13,459 --> 00:10:19,160
+Remember, supply zones are found when the
+market makes a large down move from a single
+
+149
+00:10:19,160 --> 00:10:21,709
+candle or from a base.
+
+150
+00:10:21,709 --> 00:10:26,709
+You draw the supply zone from the last BULLISH
+candle before the down move.
+
+151
+00:10:26,709 --> 00:10:30,769
+This is price area that could represent the
+entry trigger.
+
+152
+00:10:30,769 --> 00:10:36,699
+Stop level can be placed above this higher
+high, while partial profits can be taken at
+
+153
+00:10:36,699 --> 00:10:47,160
+this low and at this low.
+
+154
+00:10:47,160 --> 00:11:30,139
+Over and under divergence strategy
+
+155
+00:11:30,139 --> 00:11:35,980
+Another effective way to trade the break of
+structure is by using indicators, more specifically
+
+156
+00:11:35,980 --> 00:11:40,350
+to find divergences between an indicator and
+the price.
+
+157
+00:11:40,350 --> 00:11:45,620
+If that coincides with a supply or demand
+zone, it gives you even a better indication
+
+158
+00:11:45,620 --> 00:11:48,449
+of which way the price will go.
+
+159
+00:11:48,449 --> 00:11:53,380
+Divergence is when the direction of a technical
+indicator, usually some form of oscillator,
+
+160
+00:11:53,380 --> 00:11:59,870
+MACD, RSI, Stochastic, ‘diverges’ from
+the overall price trend.
+
+161
+00:11:59,870 --> 00:12:05,079
+In other words, the indicator starts moving
+in the opposite direction to the price and
+
+162
+00:12:05,079 --> 00:12:10,050
+the trading oscillator signals a possible
+trend reversal.
+
+163
+00:12:10,050 --> 00:12:14,899
+Coupled with the initial break of structure,
+you have 2 indications that something will
+
+164
+00:12:14,899 --> 00:12:16,620
+happen in the market.
+
+165
+00:12:16,620 --> 00:12:23,490
+Bullish divergence is when the price is moving
+lower but the indicator turns and points up.
+
+166
+00:12:23,490 --> 00:12:29,410
+Bearish divergence is when the price is moving
+higher but the indicator points down.
+
+167
+00:12:29,410 --> 00:12:34,340
+The logic behind divergence to analyze the
+market is that the indicator is showing a
+
+168
+00:12:34,340 --> 00:12:36,759
+slowdown in price momentum.
+
+169
+00:12:36,759 --> 00:12:40,240
+Price momentum will often change before the
+price itself.
+
+170
+00:12:40,240 --> 00:12:41,910
+That’s a leading signal.
+
+171
+00:12:41,910 --> 00:12:48,639
+So the plan is to find a break of structure,
+we wait for the price to return, to trap new
+
+172
+00:12:48,639 --> 00:12:54,320
+traders, and we want to find a divergence
+at the third wave in the structure.
+
+173
+00:12:54,320 --> 00:13:00,129
+Here’s a bearish break of structure with
+a Stochastic divergence confirmation.
+
+174
+00:13:00,129 --> 00:13:04,600
+Price makes a new high, declines and makes
+a new low.
+
+175
+00:13:04,600 --> 00:13:09,850
+Price then rallies above the previous high
+to mark a new higher high.
+
+176
+00:13:09,850 --> 00:13:14,339
+Price then falls quite aggressively to form
+a new lower low.
+
+177
+00:13:14,339 --> 00:13:16,649
+This is our break of structure.
+
+178
+00:13:16,649 --> 00:13:21,970
+Price then rises towards the initial high,
+but does not make a new higher high.
+
+179
+00:13:21,970 --> 00:13:27,120
+And during this up move, after the break of
+structure, we have a bearish divergence on
+
+180
+00:13:27,120 --> 00:13:28,759
+the Stochastic.
+
+181
+00:13:28,759 --> 00:13:35,420
+This bearish divergence signifies a potential
+down move, because prices rally to a new high
+
+182
+00:13:35,420 --> 00:13:38,959
+while the oscillator refuses to reach a new
+level.
+
+183
+00:13:38,959 --> 00:13:43,390
+In this situation, bulls are losing their
+grip on the market.
+
+184
+00:13:43,390 --> 00:13:49,860
+So a sell entry here is a high probability
+trade, with an excellent risk to reward ratio.
+
+185
+00:13:49,860 --> 00:13:53,670
+The protective stop-loss above the last higher
+high HH.
+
+186
+00:13:53,670 --> 00:14:45,380
+And take profit near the first valley and
+the second target at this low.
+
+187
+00:14:45,380 --> 00:14:49,180
+If you found value and learned something new,
+leave us a like.
+
+188
+00:14:49,180 --> 00:14:53,139
+This way we’ll know if you'd like to see
+more videos like this one.
+
+189
+00:14:53,139 --> 00:14:59,449
+And check out our academy program if you want
+to further level up your trading.
+
+190
+00:14:59,449 --> 00:15:00,040
+Until next time.
+

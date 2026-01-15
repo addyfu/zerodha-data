@@ -1,0 +1,653 @@
+1
+00:00:01,300 --> 00:00:06,260
+Moving averages are among the most popular
+and widely used technical tools in trading.
+
+2
+00:00:06,260 --> 00:00:10,200
+Because they are used by so many traders,
+it is worth having them on your charts to
+
+3
+00:00:10,200 --> 00:00:12,590
+know what other traders are looking at.
+
+4
+00:00:12,590 --> 00:00:17,779
+Often, in a trend strategy, traders are using
+more than one moving average, often a combination
+
+5
+00:00:17,779 --> 00:00:20,269
+of slow and fast moving averages.
+
+6
+00:00:20,269 --> 00:00:24,720
+In this video, I will follow this approach
+and spin it in a slightly different way to
+
+7
+00:00:24,720 --> 00:00:29,410
+give you a fresh perspective relating to the
+use of moving averages in your trading.
+
+8
+00:00:29,410 --> 00:00:34,969
+So, a moving average strategy can help you
+to not only identify the “average” trend,
+
+9
+00:00:34,969 --> 00:00:36,670
+but also “trend strength.”
+
+10
+00:00:36,670 --> 00:00:41,559
+For this reason, you can use more than one
+moving average, a slow moving average of 55
+
+11
+00:00:41,559 --> 00:00:45,309
+period, and a fast moving one, of 21 period.
+
+12
+00:00:45,309 --> 00:00:47,170
+Why these particular numbers?
+
+13
+00:00:47,170 --> 00:00:52,719
+Because 21 and 55 are Fibonacci numbers, but
+you can backtest and change the values of
+
+14
+00:00:52,719 --> 00:00:54,370
+the averages as you like.
+
+15
+00:00:54,370 --> 00:00:58,030
+You just need to learn how to read price action,
+using this approach.
+
+16
+00:00:58,030 --> 00:01:02,300
+So, 21 and 55 moving averages.
+
+17
+00:01:02,300 --> 00:01:06,770
+This setup will provide a clearer picture
+of trend strength on a slower and faster time
+
+18
+00:01:06,770 --> 00:01:07,770
+frame.
+
+19
+00:01:07,770 --> 00:01:11,370
+First, let me point out that this is NOT a
+crossover strategy.
+
+20
+00:01:11,370 --> 00:01:15,400
+While such a strategy for moving averages
+is perfectly acceptable and valid for some
+
+21
+00:01:15,400 --> 00:01:21,190
+traders, I prefer to think slightly outside
+the box and pay attention to a specific repetitive
+
+22
+00:01:21,190 --> 00:01:25,520
+pattern when combining a slow and fast period
+moving average.
+
+23
+00:01:25,520 --> 00:01:29,750
+Now, remember that moving averages “indicate”
+conditions in the market.
+
+24
+00:01:29,750 --> 00:01:34,610
+They are not surefire signals that tell you
+when to buy or sell, we will use them as a
+
+25
+00:01:34,610 --> 00:01:37,300
+tactical component within our trading method.
+
+26
+00:01:37,300 --> 00:01:42,520
+The main goal behind using a shorter period
+moving average with a longer one is simple.
+
+27
+00:01:42,520 --> 00:01:46,480
+We are looking for both perspectives in making
+a more informed decision.
+
+28
+00:01:46,480 --> 00:01:52,300
+While the 21 shorter term moving average will
+be located more closely to price resulting
+
+29
+00:01:52,300 --> 00:01:57,860
+in more touches, the 55 moving average gets
+touched less frequently during a normal trending
+
+30
+00:01:57,860 --> 00:01:58,860
+market.
+
+31
+00:01:58,860 --> 00:02:04,750
+There exists, however, a different perspective
+to following the patterns of slow and fast
+
+32
+00:02:04,750 --> 00:02:11,110
+moving averages in relation to price action
+and I call it the contraction-expansion principle.
+
+33
+00:02:11,110 --> 00:02:16,000
+The contraction-expansion principle is derived
+from the Bollinger bands indicator.
+
+34
+00:02:16,000 --> 00:02:20,750
+This principle is not based on the moving
+averages crossing over, but rather the distance
+
+35
+00:02:20,750 --> 00:02:26,570
+between the two moving averages as an indication
+of the strength of the trend.
+
+36
+00:02:26,570 --> 00:02:32,250
+When in a strong trend, the price will pull
+the 21 MA with it, which in turn will diverge
+
+37
+00:02:32,250 --> 00:02:38,920
+further away from the 55 MA, causing a larger
+gap between the two moving averages.
+
+38
+00:02:38,920 --> 00:02:40,690
+This is an expansion.
+
+39
+00:02:40,690 --> 00:02:45,630
+As price pulls back, or transitions into a
+sideways pattern, the moving averages will
+
+40
+00:02:45,630 --> 00:02:48,520
+close in together, often creating a contraction.
+
+41
+00:02:48,520 --> 00:02:55,740
+We want the price to bounce right off this
+dynamic zone, and breakout into a trend.
+
+42
+00:02:55,740 --> 00:03:00,959
+This example illustrates how the two MAs behave
+when the market is trending.
+
+43
+00:03:00,959 --> 00:03:04,970
+We have a dominant downtrend displaying frequent
+but short pullbacks.
+
+44
+00:03:04,970 --> 00:03:11,150
+Notice how the distance between the two MAs
+is fairly consistent to reflect the smoothness
+
+45
+00:03:11,150 --> 00:03:12,880
+and consistency of the trend itself.
+
+46
+00:03:12,880 --> 00:03:19,350
+When the market does pull back, it bounces
+fairly accurately from the 21 – 55 dynamic
+
+47
+00:03:19,350 --> 00:03:25,110
+zone, a price action pattern I noticed is
+very common during strongly trending conditions.
+
+48
+00:03:25,110 --> 00:03:31,950
+In this other example, notice this extended
+pullback and behavior of the moving averages.
+
+49
+00:03:31,950 --> 00:03:37,290
+We have here what we call the contraction
+of the MAs caused by an extended pullback
+
+50
+00:03:37,290 --> 00:03:38,640
+into the downtrend.
+
+51
+00:03:38,640 --> 00:03:45,190
+Essentially, the 21 MA gets pulled back up
+with the price near the 50 MA, narrowing the
+
+52
+00:03:45,190 --> 00:03:46,740
+gap between the MAs.
+
+53
+00:03:46,740 --> 00:03:52,640
+If the trend is strong enough, and other factors
+permit for the trend to continue, we can expect
+
+54
+00:03:52,640 --> 00:03:58,020
+this pattern of the MAs to release price back
+in the direction of the trend.
+
+55
+00:03:58,020 --> 00:04:03,319
+Keep in mind that like most technical indicators,
+moving averages are lagging, which means that
+
+56
+00:04:03,319 --> 00:04:06,171
+they react to price rather than price reacting
+to them.
+
+57
+00:04:06,171 --> 00:04:11,690
+That also means that the contraction of the
+MAs isn’t the cause of the resumption of
+
+58
+00:04:11,690 --> 00:04:17,810
+the downtrend, but is rather an effect of
+price resuming the trend.
+
+59
+00:04:17,810 --> 00:04:23,120
+Here we’re looking at an uptrend that slowly
+transitions into sideways market action.
+
+60
+00:04:23,120 --> 00:04:28,520
+Each of the pullbacks into the uptrend cause
+a slight constriction of the EMAs, resulting
+
+61
+00:04:28,520 --> 00:04:30,860
+in price shooting back up sharply.
+
+62
+00:04:30,860 --> 00:04:36,259
+But as we approach potential key resistance
+around the round number, an extended pullback
+
+63
+00:04:36,259 --> 00:04:39,610
+does NOT result in price shooting back up
+sharply.
+
+64
+00:04:39,610 --> 00:04:44,610
+You should note that as price tried to resume
+the trend after the last pullback, it stalled
+
+65
+00:04:44,610 --> 00:04:49,809
+at the crossover point of the two EMAs and
+actually reversed back down.
+
+66
+00:04:49,809 --> 00:04:54,400
+This is usually a very strong indication that
+we are either entering a period of sideways
+
+67
+00:04:54,400 --> 00:04:59,340
+action, preparing for a deeper pullback into
+the dominant trend, or entirely reversing
+
+68
+00:04:59,340 --> 00:05:00,999
+the trend.
+
+69
+00:05:00,999 --> 00:05:03,770
+So, this is the first step in our strategy.
+
+70
+00:05:03,770 --> 00:05:07,749
+We analyze price action to find for a contraction
+in the moving averages.
+
+71
+00:05:07,749 --> 00:05:13,400
+Essentially a pullback into the dynamic support
+or resistance area, determined by the 2 moving
+
+72
+00:05:13,400 --> 00:05:14,400
+averages.
+
+73
+00:05:14,400 --> 00:05:19,389
+By watching how price behaves as it pulls
+back to the dynamic zone we can analyze the
+
+74
+00:05:19,389 --> 00:05:21,819
+momentum present in the current move.
+
+75
+00:05:21,819 --> 00:05:26,080
+Remember that after a pullback to this area,
+we are looking for a sharp move back in the
+
+76
+00:05:26,080 --> 00:05:28,130
+direction of the trend.
+
+77
+00:05:28,130 --> 00:05:32,680
+Next, we need to add other aspects into our
+analysis.
+
+78
+00:05:32,680 --> 00:05:37,669
+As said before, when looking for a resumption
+of the trend at the dynamic zone, it helps
+
+79
+00:05:37,669 --> 00:05:40,999
+to analyze if the trend has room to proceed.
+
+80
+00:05:40,999 --> 00:05:45,839
+Does the dynamic zone also line up with a
+round number or a major horizontal support
+
+81
+00:05:45,839 --> 00:05:47,099
+and resistance zone?
+
+82
+00:05:47,099 --> 00:05:50,370
+Is the trend headed into a key swing high
+/low?
+
+83
+00:05:50,370 --> 00:05:55,169
+Answering these questions will help you build
+an overall understanding of the market and
+
+84
+00:05:55,169 --> 00:06:00,819
+can help give important signs to fine tune
+your entries and exits.
+
+85
+00:06:00,819 --> 00:06:05,740
+The final step is to trade a breakout, after
+the price resumes in the initial direction,
+
+86
+00:06:05,740 --> 00:06:11,270
+and the price was unable to break below the
+dynamic zone of the 2 moving averages.
+
+87
+00:06:11,270 --> 00:06:16,400
+So we chase a breakout, a momentum move, in
+the direction of the trend, after we identified
+
+88
+00:06:16,400 --> 00:06:22,099
+strength in the market, meaning that the price
+found support/resistance at the dynamic zone.
+
+89
+00:06:22,099 --> 00:06:27,430
+This means we have buying power, in an uptrend,
+or selling power, in a downtrend, at the dynamic
+
+90
+00:06:27,430 --> 00:06:32,800
+zone formed by the 2 moving averages, and
+we aim to ride the momentum wave.
+
+91
+00:06:32,800 --> 00:06:33,990
+But we need a breakout.
+
+92
+00:06:33,990 --> 00:06:37,270
+We want a trend line breakout or a swing breakout.
+
+93
+00:06:37,270 --> 00:06:43,220
+In this example we have the dynamic zone,
+which basically acts as a magnet, because
+
+94
+00:06:43,220 --> 00:06:47,969
+when price is too far from it, it tends to
+pull price back to this zone.
+
+95
+00:06:47,969 --> 00:06:52,629
+Then, as the price was unable to go lower,
+which is key in our strategy, as we want to
+
+96
+00:06:52,629 --> 00:06:58,309
+see strength and buying power, we also have
+a breakout play here out of the wedge pattern
+
+97
+00:06:58,309 --> 00:07:01,599
+or triangle pattern indicated by these lines.
+
+98
+00:07:01,599 --> 00:07:04,050
+So we have a price action based entry.
+
+99
+00:07:04,050 --> 00:07:09,430
+With this strategy, knowledge of candlestick
+patterns and price action is very important.
+
+100
+00:07:09,430 --> 00:07:14,210
+This is because you will be looking for reversal
+candlestick patterns on this area.
+
+101
+00:07:14,210 --> 00:07:20,159
+Patterns such as engulfing candlesticks and
+pin bars are ideal as a trade entry.
+
+102
+00:07:20,159 --> 00:07:26,270
+Because our strategy is based on a dynamic
+zone in the form of the 21 & 55 MA, we will
+
+103
+00:07:26,270 --> 00:07:32,639
+also use these dynamic areas as our basis
+to set our stop loss, below or above it, depending
+
+104
+00:07:32,639 --> 00:07:36,169
+on the trade we take, in this example, below
+it.
+
+105
+00:07:36,169 --> 00:07:37,490
+This is a conservative stop.
+
+106
+00:07:37,490 --> 00:07:41,430
+A more aggressive stop is below the most recent
+correction.
+
+107
+00:07:41,430 --> 00:07:47,479
+As for target, I aim for at least 1:1.5 risk
+reward ratio.
+
+108
+00:07:47,479 --> 00:07:48,979
+Here is a short SETUP.
+
+109
+00:07:48,979 --> 00:07:52,780
+We have the contraction zone here, tested
+several times by the price.
+
+110
+00:07:52,780 --> 00:07:56,560
+Observe that price was unable to go through
+this area.
+
+111
+00:07:56,560 --> 00:08:01,830
+This means we have active sellers in this
+zone, ready to push price back down.
+
+112
+00:08:01,830 --> 00:08:05,169
+We enter short, after the breakout of this
+range.
+
+113
+00:08:05,169 --> 00:08:09,960
+You might ask, why we have to wait for a breakout,
+and why not entering short when price was
+
+114
+00:08:09,960 --> 00:08:11,520
+in the contraction zone.
+
+115
+00:08:11,520 --> 00:08:16,449
+Well, because in real time, we don’t know
+if the price will indeed reject the dynamic
+
+116
+00:08:16,449 --> 00:08:17,449
+area.
+
+117
+00:08:17,449 --> 00:08:20,270
+It might push through the zone, and go the
+other way.
+
+118
+00:08:20,270 --> 00:08:24,929
+We need a clear sign or confirmation that
+price wants indeed to go lower.
+
+119
+00:08:24,929 --> 00:08:30,289
+So don’t try to gamble and enter earlier,
+without breakout confirmation, because that’s
+
+120
+00:08:30,289 --> 00:08:32,409
+not the point of this strategy.
+
+121
+00:08:32,409 --> 00:08:37,849
+So, to be crystal clear, wait for the price
+to return to dynamic zone, the 2 moving averages
+
+122
+00:08:37,849 --> 00:08:43,990
+must not cross each other during this pullback,
+and after the price rejects the dynamic zone,
+
+123
+00:08:43,990 --> 00:08:48,210
+search for a breakout in the direction indicted
+by the 2 moving averages.
+
+124
+00:08:48,210 --> 00:08:53,570
+The best tip I can share with you is to always
+pay attention to the slope of the 55 moving
+
+125
+00:08:53,570 --> 00:08:54,570
+average.
+
+126
+00:08:54,570 --> 00:08:59,180
+The slope of the 55 moving average can tell
+a lot about the strength of a trend.
+
+127
+00:08:59,180 --> 00:09:04,390
+When the 55 moving average shifts from strongly
+pointing upwards during a bull trend, to going
+
+128
+00:09:04,390 --> 00:09:09,639
+sideways, it can provide early warning signals
+about a shift in sentiment.
+
+129
+00:09:09,639 --> 00:09:11,720
+So pay attention to it.
+
+130
+00:09:11,720 --> 00:09:31,730
+Here are several examples of valid trades.
+
+131
+00:09:31,730 --> 00:09:36,610
+This is not a perfect strategy, you will encounter
+losing trades and for this reason you could
+
+132
+00:09:36,610 --> 00:09:42,190
+add your personal spin on it, additional confirmations
+or other types of analysis.
+
+133
+00:09:42,190 --> 00:09:46,779
+Just make sure you don’t overcomplicate
+it and stick to the main concepts of this
+
+134
+00:09:46,779 --> 00:09:52,870
+strategy: rejection of the dynamic zone and
+a momentum move in the direction of the trend.
+
+135
+00:09:52,870 --> 00:09:57,149
+As always, if you learned something new and
+found value, leave us a like to show your
+
+136
+00:09:57,149 --> 00:10:00,990
+support, subscribe to our channel and click
+the bell icon to stay in touch when we release
+
+137
+00:10:00,990 --> 00:10:02,029
+new videos.
+
+138
+00:10:02,029 --> 00:10:03,600
+Until next time.
+

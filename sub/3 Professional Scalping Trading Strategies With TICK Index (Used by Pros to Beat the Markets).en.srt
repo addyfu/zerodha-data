@@ -1,0 +1,613 @@
+1
+00:00:01,000 --> 00:00:06,210
+TICK index is a very short-term (intraday)
+indicator that measures the bullish or bearish
+
+2
+00:00:06,210 --> 00:00:10,740
+activity in New York Stock Exchange (NYSE)
+stocks throughout the day.
+
+3
+00:00:10,740 --> 00:00:15,830
+The TICK is an indicator that gives traders
+an intraday look at the “internal” strength
+
+4
+00:00:15,830 --> 00:00:20,820
+or weakness of the market— that is, the
+strength or weakness beyond whether the overall
+
+5
+00:00:20,820 --> 00:00:24,960
+market is up on a point or percentage basis.
+
+6
+00:00:24,960 --> 00:00:30,529
+By comparing the number of stocks advancing
+to stocks declining, the indicator reflects
+
+7
+00:00:30,529 --> 00:00:35,420
+the market’s up or down momentum at a given
+moment.
+
+8
+00:00:35,420 --> 00:00:40,100
+So TICK measures the difference between the
+number of New York Stock Exchange (NYSE) stocks
+
+9
+00:00:40,100 --> 00:00:46,120
+trading on an uptick (meaning, last price
+higher than the previous price) and the number
+
+10
+00:00:46,120 --> 00:00:51,680
+of stocks trading on a downtick (last price
+lower than the previous price).
+
+11
+00:00:51,680 --> 00:00:59,250
+For example, if at a given moment 5,200 stocks
+were trading up from their previous prices
+
+12
+00:00:59,250 --> 00:01:08,240
+and 4,800 were trading down from their previous
+prices, the TICK reading would be +400 (5,200-4,800).
+
+13
+00:01:08,240 --> 00:01:14,990
+Positive, rising TICK readings are a bullish
+signal; the opposite is true for a negative,
+
+14
+00:01:14,990 --> 00:01:16,610
+declining TICK.
+
+15
+00:01:16,610 --> 00:01:24,130
+(However, very high or low TICK readings often
+indicate temporary market exhaustion.)
+
+16
+00:01:24,130 --> 00:01:30,700
+A declining TICK in a rising market indicates
+stocks are beginning to trade off their highs,
+
+17
+00:01:30,700 --> 00:01:34,810
+signifying the uptrend may reverse, at least
+temporarily.
+
+18
+00:01:34,810 --> 00:01:40,620
+Likewise, a rising TICK in a declining market
+indicates stocks are starting to trade off
+
+19
+00:01:40,620 --> 00:01:46,549
+their lows, and a reversal of the downtrend
+is possible.
+
+20
+00:01:46,549 --> 00:01:49,740
+Let's step back and look at the big picture.
+
+21
+00:01:49,740 --> 00:01:51,500
+Why is TICK important?
+
+22
+00:01:51,500 --> 00:01:56,670
+How is this relevant to you as a day trader
+or scalper and why you need to pay attention
+
+23
+00:01:56,670 --> 00:01:57,670
+to TICK.
+
+24
+00:01:57,670 --> 00:02:02,780
+Well, because the TICK index is recording
+the buying and selling action of an entire
+
+25
+00:02:02,780 --> 00:02:04,180
+index.
+
+26
+00:02:04,180 --> 00:02:10,450
+This tells us how many stocks are selling
+"at or below" asking price and how many stocks
+
+27
+00:02:10,450 --> 00:02:14,500
+are being bought "at or above asking price".
+
+28
+00:02:14,500 --> 00:02:19,430
+It tells you how aggressive are buyers overall
+"at one moment in time".
+
+29
+00:02:19,430 --> 00:02:25,069
+If all major markets suddenly have aggressive
+sellers, then you would want to know this
+
+30
+00:02:25,069 --> 00:02:28,860
+and maybe not take a position until you found
+out why.
+
+31
+00:02:28,860 --> 00:02:34,190
+If all the markets suddenly have aggressive
+buyers, then perhaps a highly liquid ETF like
+
+32
+00:02:34,190 --> 00:02:37,980
+$SPY will be in play for a quick scalping
+play.
+
+33
+00:02:37,980 --> 00:02:42,580
+There's momentum created by this sudden buyers'
+market.
+
+34
+00:02:42,580 --> 00:02:49,220
+So, how to read TICK index
+TICK offers traders a short-term perspective
+
+35
+00:02:49,220 --> 00:02:51,950
+of overall market SENTIMENT.
+
+36
+00:02:51,950 --> 00:02:55,570
+This is extremely valuable for scalping trades.
+
+37
+00:02:55,570 --> 00:03:01,450
+The ratio of stocks on an up-tick versus the
+number of stocks on a down-tick present a
+
+38
+00:03:01,450 --> 00:03:04,239
+short-term actionable point.
+
+39
+00:03:04,239 --> 00:03:12,840
+TICK Index value between +200 and -300 indicate
+a neutral market sentiment.
+
+40
+00:03:12,840 --> 00:03:21,330
+Bullish is when values become higher than
++200 and bearish when it is lower -300.
+
+41
+00:03:21,330 --> 00:03:28,170
+Very bullish is when its value is higher than
++500 and very bearish when it is lower than
+
+42
+00:03:28,170 --> 00:03:30,510
+-500.
+
+43
+00:03:30,510 --> 00:03:38,370
+And TICK values higher than +1000 or lower
+than -1000 indicate extreme conditions, and
+
+44
+00:03:38,370 --> 00:03:42,690
+a reversal or correction of the market is
+likely.
+
+45
+00:03:42,690 --> 00:03:48,549
+When confirmed with other tools, TICK readings
+can be used to identify intraday turning points.
+
+46
+00:03:48,549 --> 00:03:54,409
+Let’s look at a few strategies that combine
+TICK index with price patterns and important
+
+47
+00:03:54,409 --> 00:03:56,440
+market levels.
+
+48
+00:03:56,440 --> 00:03:59,150
+First strategy.
+
+49
+00:03:59,150 --> 00:04:02,010
+TICK Range Trading
+
+50
+00:04:02,010 --> 00:04:07,780
+TICK overbought and oversold levels can vary
+depending on conditions.
+
+51
+00:04:07,780 --> 00:04:16,150
+A reading above +500 indicates an overbought
+condition and a reading below –500 indicates
+
+52
+00:04:16,150 --> 00:04:18,570
+an oversold market.
+
+53
+00:04:18,570 --> 00:04:25,780
+Readings above +1000 or below –1000 are
+extreme conditions and we will try to concentrate
+
+54
+00:04:25,780 --> 00:04:29,250
+our attention on these levels.
+
+55
+00:04:29,250 --> 00:04:35,710
+A simple trading approach is to place trades
+when the TICK signals an overbought or oversold
+
+56
+00:04:35,710 --> 00:04:42,460
+market as price is testing the support or
+resistance levels of a trading range.
+
+57
+00:04:42,460 --> 00:04:49,580
+Here we have a one minute chart with a resistance
+zone (established by these swing highs).
+
+58
+00:04:49,580 --> 00:04:56,830
+As the market traded into this resistance
+zone, the TICK moved above +1000, signaling
+
+59
+00:04:56,830 --> 00:04:59,580
+an overbought market.
+
+60
+00:04:59,580 --> 00:05:03,639
+Price then rejected that area, and the TICK
+indicator turned down.
+
+61
+00:05:03,639 --> 00:05:10,139
+A short sale would have been placed when price
+dropped back below the resistance level.
+
+62
+00:05:10,139 --> 00:05:16,770
+A protective stop would be placed just above
+the high of rejection, which is the top of
+
+63
+00:05:16,770 --> 00:05:18,830
+this swing move.
+
+64
+00:05:18,830 --> 00:05:25,250
+Here’s an important point: you must scalp
+these overbought or oversold readings only
+
+65
+00:05:25,250 --> 00:05:29,260
+if the price is at an important key level
+in the market.
+
+66
+00:05:29,260 --> 00:05:35,009
+You don’t trade simply because the TICK
+is at 1000 or -1000.
+
+67
+00:05:35,009 --> 00:05:37,990
+Use it in conjunction with price.
+
+68
+00:05:37,990 --> 00:06:00,660
+Here are several valid TICK trades, around
+support/resistance levels.
+
+69
+00:06:00,660 --> 00:06:04,800
+The second strategy involves TICK divergences
+
+70
+00:06:04,800 --> 00:06:10,930
+TICK divergence setups are probably the most
+popular use of the TICK indicator.
+
+71
+00:06:10,930 --> 00:06:16,980
+Divergences between price and the TICK occur
+when price makes a higher high (or lower low)
+
+72
+00:06:16,980 --> 00:06:20,479
+and the TICK makes a lower high (or higher
+low).
+
+73
+00:06:20,479 --> 00:06:25,370
+These signals are often followed by short
+term reversals or corrections.
+
+74
+00:06:25,370 --> 00:06:32,620
+In this example, after a swing to the upside,
+the price again retested its intraday high
+
+75
+00:06:32,620 --> 00:06:38,410
+at the upper end of the resistance zone, and
+the TICK exceeded +1000.
+
+76
+00:06:38,410 --> 00:06:45,060
+However, this TICK overbought high was lower
+than the previous TICK overbought high.
+
+77
+00:06:45,060 --> 00:06:50,910
+This divergence between price and the TICK
+meant the market was rallying with fewer stocks
+
+78
+00:06:50,910 --> 00:06:58,699
+making upticks — a sign of internal weakness
+— and set up another short sale opportunity
+
+79
+00:06:58,699 --> 00:07:03,960
+when price dropped back below the lower resistance
+level.
+
+80
+00:07:03,960 --> 00:07:09,800
+In the case of a long TICK divergence signal,
+price makes a new low but the TICK indicator
+
+81
+00:07:09,800 --> 00:07:11,569
+makes a higher low.
+
+82
+00:07:11,569 --> 00:07:18,389
+In this example, price fell to a new low but
+the corresponding TICK low was higher than
+
+83
+00:07:18,389 --> 00:07:20,430
+its previous intraday low.
+
+84
+00:07:20,430 --> 00:07:26,169
+A long trade would have been entered when
+price traded back above the first low just,
+
+85
+00:07:26,169 --> 00:07:29,990
+with a stop placed below the most recent low.
+
+86
+00:07:29,990 --> 00:07:33,020
+As always, keep an eye on ley levels.
+
+87
+00:07:33,020 --> 00:07:38,830
+If a divergence occurs at an important area,
+it has a better chance of completion.
+
+88
+00:07:38,830 --> 00:07:44,620
+Also, wait for a trendline breakout to increase
+our chances of a successful trade.
+
+89
+00:07:44,620 --> 00:07:50,009
+This way, you will also filter some bad divergences
+signals.
+
+90
+00:07:50,009 --> 00:08:01,090
+Here are some valid TICK divergence trades.
+
+91
+00:08:01,090 --> 00:08:15,660
+The third strategy involves a zero line crossing
+of TICK index
+
+92
+00:08:15,660 --> 00:08:21,289
+In addition to its usefulness in trading ranges,
+the TICK can also set up trades in trending
+
+93
+00:08:21,289 --> 00:08:22,990
+markets.
+
+94
+00:08:22,990 --> 00:08:28,680
+In a strong uptrend, any countertrend movement
+is usually marked by the TICK fluctuating
+
+95
+00:08:28,680 --> 00:08:32,310
+between –100 and +100.
+
+96
+00:08:32,310 --> 00:08:37,800
+In these situations,–100 becomes the oversold
+level.
+
+97
+00:08:37,800 --> 00:08:42,029
+More often than not, the TICK tests the zero
+line.
+
+98
+00:08:42,029 --> 00:08:46,860
+These tests offer opportunities to enter in
+the direction of the prevailing trend.
+
+99
+00:08:46,860 --> 00:08:54,520
+In this example, SPY was in an uptrend and
+the TICK reached an overbought level above
+
+100
+00:08:54,520 --> 00:08:59,420
++500, which indicates a strong, uptrending
+market.
+
+101
+00:08:59,420 --> 00:09:03,940
+In such a situation, the goal is to buy on
+a pullback.
+
+102
+00:09:03,940 --> 00:09:09,490
+As we talked in previous strategies about
+key levels, let’s use a FIB retracement
+
+103
+00:09:09,490 --> 00:09:12,790
+to confirm the zero line crossover.
+
+104
+00:09:12,790 --> 00:09:18,589
+As the TICK dropped below zero, price also
+reached the 50 percent Fibonacci retracement
+
+105
+00:09:18,589 --> 00:09:19,589
+line.
+
+106
+00:09:19,589 --> 00:09:26,010
+The combination of the TICK oversold signal
+and the 50 percent retracement offered a higher
+
+107
+00:09:26,010 --> 00:09:29,130
+probability for an up move.
+
+108
+00:09:29,130 --> 00:09:31,930
+You can also use this technique with pivot
+points.
+
+109
+00:09:31,930 --> 00:09:39,250
+In this example, we have a downtrend, the
+TICK moved toward the 0 level and the price
+
+110
+00:09:39,250 --> 00:09:41,519
+stopped at this pivot line.
+
+111
+00:09:41,519 --> 00:09:48,000
+You can also add a moving average, to confirm
+better the short term trend.
+
+112
+00:09:48,000 --> 00:10:12,130
+Here are other examples of TICK zero line
+crossover trades, at the 50% Fib level.
+
+113
+00:10:12,130 --> 00:10:18,000
+The TICK Index offers traders the advantage
+of observing market sentiment for a short
+
+114
+00:10:18,000 --> 00:10:19,820
+period of time.
+
+115
+00:10:19,820 --> 00:10:23,490
+This gives a small window into an opportunity
+for a trade.
+
+116
+00:10:23,490 --> 00:10:26,610
+It also gives an opportunity to NOT take a
+trade.
+
+117
+00:10:26,610 --> 00:10:29,690
+Patience is required when trading this setup.
+
+118
+00:10:29,690 --> 00:10:36,910
+The TICK should be given time to bottom out
+in an uptrend or top out in a downtrend; and
+
+119
+00:10:36,910 --> 00:10:42,959
+don’t expect a sudden price reversal when
+the TICK indicator simply hits the zero line.
+
+120
+00:10:42,959 --> 00:10:48,459
+Other technical factors should be consulted
+before entering any trades, such as employing
+
+121
+00:10:48,459 --> 00:10:52,880
+a price pattern, as presented in the previous
+examples.
+
+122
+00:10:52,880 --> 00:10:58,360
+So the TICK indicator should be used to set
+up or confirm a trade, not as a stand-alone
+
+123
+00:10:58,360 --> 00:10:59,360
+tool.
+
+124
+00:10:59,360 --> 00:11:05,000
+By utilizing the TICK in conjunction with
+price patterns, technical indicators, and
+
+125
+00:11:05,000 --> 00:11:10,800
+in the context of the overall trend and market
+environment, you can make better buy and sell
+
+126
+00:11:10,800 --> 00:11:12,790
+decisions.
+
+127
+00:11:12,790 --> 00:11:17,730
+As always, if you learned something new and
+found value, leave us a like to show your
+
+128
+00:11:17,730 --> 00:11:22,519
+support, subscribe to our channel and hit
+the bell icon to stay notified when we upload
+
+129
+00:11:22,519 --> 00:11:24,420
+new videos.
+
+130
+00:11:24,420 --> 00:11:24,770
+Until next time.
+

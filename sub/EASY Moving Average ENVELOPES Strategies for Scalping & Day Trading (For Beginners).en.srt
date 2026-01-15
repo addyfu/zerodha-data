@@ -1,0 +1,720 @@
+1
+00:00:00,940 --> 00:00:05,680
+Many traders use moving averages to follow
+the trend and to identify changes in market
+
+2
+00:00:05,680 --> 00:00:06,680
+direction.
+
+3
+00:00:06,680 --> 00:00:10,299
+While moving averages are a useful tool to
+have in your toolbox, they can provide false
+
+4
+00:00:10,299 --> 00:00:12,090
+signals quite a lot.
+
+5
+00:00:12,090 --> 00:00:17,360
+One method to filter market noise and remove
+a part of those false signals is to use moving
+
+6
+00:00:17,360 --> 00:00:18,360
+average envelopes.
+
+7
+00:00:18,360 --> 00:00:22,260
+In today’s video, you’ll discover how
+to trade using envelopes and I’ll share
+
+8
+00:00:22,260 --> 00:00:26,250
+several strategies using this indicator.
+
+9
+00:00:26,250 --> 00:00:31,570
+The Envelopes is a tool that attempts to identify
+the upper and lower bands of a trading range.
+
+10
+00:00:31,570 --> 00:00:36,199
+It does this by plotting two moving average
+envelopes on a price chart, one shifted up
+
+11
+00:00:36,199 --> 00:00:39,420
+to a certain distance above, and one shifted
+below.
+
+12
+00:00:39,420 --> 00:00:43,710
+The idea behind this indicator is that the
+price has the tendency to remain within a
+
+13
+00:00:43,710 --> 00:00:46,519
+certain range during normal market conditions.
+
+14
+00:00:46,519 --> 00:00:51,149
+However, when these conditions are changing
+the price has the potential to move above
+
+15
+00:00:51,149 --> 00:00:56,999
+or below the envelope bands, which is signaling
+possible trading positions.
+
+16
+00:00:56,999 --> 00:01:02,489
+Moving Average Envelopes consist of a moving
+average plus and minus a percentage deviation.
+
+17
+00:01:02,489 --> 00:01:06,720
+When you apply the envelope indicator, you
+will notice two lines or bands which appear
+
+18
+00:01:06,720 --> 00:01:10,980
+above and below the price and these lines
+are called upper and lower envelopes.
+
+19
+00:01:10,980 --> 00:01:14,720
+Also, the area between the bands represents
+the channel.
+
+20
+00:01:14,720 --> 00:01:16,930
+The line within the channel is moving average.
+
+21
+00:01:16,930 --> 00:01:21,460
+You can see that the bands move in parallel
+with the moving average because the distance
+
+22
+00:01:21,460 --> 00:01:23,830
+away from the moving average is constant.
+
+23
+00:01:23,830 --> 00:01:27,890
+Each envelope is set the same percentage above
+or below the moving average.
+
+24
+00:01:27,890 --> 00:01:31,740
+This creates the parallel bands that follow
+price action.
+
+25
+00:01:31,740 --> 00:01:37,320
+Now, the selection of period of the moving
+average and the percentage of envelopes is
+
+26
+00:01:37,320 --> 00:01:40,070
+what makes or breaks your trading strategy.
+
+27
+00:01:40,070 --> 00:01:45,060
+The parameters for the Moving Average Envelopes
+depend on your trading or investing objectives
+
+28
+00:01:45,060 --> 00:01:48,310
+and the characteristics of the market you
+are trading.
+
+29
+00:01:48,310 --> 00:01:54,060
+Day traders and scalpers will likely use shorter
+(faster) moving averages and relatively tight
+
+30
+00:01:54,060 --> 00:01:55,060
+envelopes.
+
+31
+00:01:55,060 --> 00:02:00,110
+Swing traders and investors will likely prefer
+longer (slower) moving averages with wider
+
+32
+00:02:00,110 --> 00:02:01,110
+envelopes.
+
+33
+00:02:01,110 --> 00:02:06,060
+The market volatility will also influence
+the parameters.
+
+34
+00:02:06,060 --> 00:02:10,200
+When you plot the envelopes on your chart,
+you probably see the resemblance with Bollinger
+
+35
+00:02:10,200 --> 00:02:11,890
+Bands and Keltner Channel.
+
+36
+00:02:11,890 --> 00:02:16,260
+Well, these indicators will adjust by themselves
+to market volatility.
+
+37
+00:02:16,260 --> 00:02:20,250
+Bollinger Bands use the standard deviation
+to set bandwidth.
+
+38
+00:02:20,250 --> 00:02:24,150
+Keltner Channels use the Average True Range
+(ATR) to set channel width.
+
+39
+00:02:24,150 --> 00:02:28,810
+Well, with envelopes, you must independently
+account for volatility when setting the Moving
+
+40
+00:02:28,810 --> 00:02:30,200
+Average Envelopes.
+
+41
+00:02:30,200 --> 00:02:36,980
+Stocks with high volatility will require wider
+bands to encompass most price action, while
+
+42
+00:02:36,980 --> 00:02:41,610
+markets with low volatility can use narrower
+bands.
+
+43
+00:02:41,610 --> 00:02:45,980
+In choosing the right parameters, it often
+helps to overlay a few different Moving Average
+
+44
+00:02:45,980 --> 00:02:47,570
+Envelopes and compare.
+
+45
+00:02:47,570 --> 00:02:53,580
+For example, this chart contains 2 Moving
+Average Envelopes based on the 21-day SMA.
+
+46
+00:02:53,580 --> 00:03:00,370
+The 3% envelopes were touched several times,
+while the 5% envelopes were only touched rarely.
+
+47
+00:03:00,370 --> 00:03:20,100
+A swing trader might use the 5% envelopes,
+while a short-term trader could use the 3%
+
+48
+00:03:20,100 --> 00:03:34,830
+envelopes.
+
+49
+00:03:34,830 --> 00:03:36,370
+So how to read the envelopes?
+
+50
+00:03:36,370 --> 00:03:41,780
+With a moving average as the base, Moving
+Average Envelopes can be used as a trend following
+
+51
+00:03:41,780 --> 00:03:42,780
+indicator.
+
+52
+00:03:42,780 --> 00:03:47,650
+Beyond simply trend following, the envelopes
+can also be used to identify overbought and
+
+53
+00:03:47,650 --> 00:03:52,420
+oversold levels when the trend is relatively
+flat and also to provide dynamic support and
+
+54
+00:03:52,420 --> 00:03:53,790
+resistance.
+
+55
+00:03:53,790 --> 00:03:58,370
+The moving average envelopes smooths out price
+fluctuations and allows us to see the bigger
+
+56
+00:03:58,370 --> 00:04:00,270
+picture of the market.
+
+57
+00:04:00,270 --> 00:04:05,080
+With the Envelopes, you can look at the direction
+of the bands to get an idea about the trend.
+
+58
+00:04:05,080 --> 00:04:09,379
+If the bands are sloping upward, then it confirms
+an uptrend.
+
+59
+00:04:09,379 --> 00:04:12,930
+If the bands are sloping downward, it confirms
+a downtrend.
+
+60
+00:04:12,930 --> 00:04:19,049
+When the envelopes are moving sideways, price
+is neither in an uptrend or downtrend.
+
+61
+00:04:19,049 --> 00:04:22,820
+Although different traders have their own
+way in which they use the envelope and try
+
+62
+00:04:22,820 --> 00:04:27,260
+to identify specific patterns, the common
+application of the indicator is to provide
+
+63
+00:04:27,260 --> 00:04:33,940
+certain alerts such as overbought or oversold,
+sell and buy signals or as a trend confirmation.
+
+64
+00:04:33,940 --> 00:04:38,460
+If you use narrow envelopes, when prices are
+done resting and consolidating, they will
+
+65
+00:04:38,460 --> 00:04:42,720
+break out of envelopes, in one direction or
+the other.
+
+66
+00:04:42,720 --> 00:04:47,420
+A trader might view prices breaking above
+the upper envelope as a potential buy opportunity.
+
+67
+00:04:47,420 --> 00:04:53,730
+And when prices break below the lower envelope,
+a trader might view that as a selling opportunity.
+
+68
+00:04:53,730 --> 00:04:59,190
+Basically, Moving Average Envelopes can be
+used to identify strong moves that signal
+
+69
+00:04:59,190 --> 00:05:01,970
+the start of an extended trend.
+
+70
+00:05:01,970 --> 00:05:06,620
+The trick, as always, is picking the correct
+parameters, which takes practice, trial and
+
+71
+00:05:06,620 --> 00:05:07,620
+error.
+
+72
+00:05:07,620 --> 00:05:12,060
+In this example notice how the price broke
+above the upper envelope and continued moving
+
+73
+00:05:12,060 --> 00:05:13,560
+above this band.
+
+74
+00:05:13,560 --> 00:05:15,520
+This shows buying strength.
+
+75
+00:05:15,520 --> 00:05:18,470
+The inverse logic can be applied for a downtrend.
+
+76
+00:05:18,470 --> 00:05:25,070
+A strong move below the lower envelope signals
+weakness that can foreshadow an extended downtrend.
+
+77
+00:05:25,070 --> 00:05:30,500
+Remember, if you want to chase breakout moves,
+use narrow envelopes.
+
+78
+00:05:30,500 --> 00:05:35,800
+Now, the majority of price breakouts do not
+go on to form new trends.
+
+79
+00:05:35,800 --> 00:05:40,620
+They will instead more frequently revert back
+into the previous price range.
+
+80
+00:05:40,620 --> 00:05:44,780
+If you are familiar with Bollinger Bands,
+you probably now that a common strategy is
+
+81
+00:05:44,780 --> 00:05:49,070
+to sell near the upper band and to buy near
+the lower band.
+
+82
+00:05:49,070 --> 00:05:51,419
+This could also be applied to envelopes.
+
+83
+00:05:51,419 --> 00:05:56,530
+Moving Average Envelopes make great overbought
+and oversold indicators, when using higher
+
+84
+00:05:56,530 --> 00:05:58,070
+parameters.
+
+85
+00:05:58,070 --> 00:06:02,960
+Using the concept of range trading, you could
+buy when the price penetrates the lower envelope
+
+86
+00:06:02,960 --> 00:06:05,460
+and closes back inside the envelope.
+
+87
+00:06:05,460 --> 00:06:10,950
+Likewise, you might sell when the price penetrates
+the upper envelope and then closes back down
+
+88
+00:06:10,950 --> 00:06:13,770
+inside the envelope.
+
+89
+00:06:13,770 --> 00:06:18,960
+In this example, notice there are times when
+price initially moves above or below an envelope
+
+90
+00:06:18,960 --> 00:06:20,600
+but turns back around.
+
+91
+00:06:20,600 --> 00:06:24,290
+This usually happens when the moving average
+slope is FLAT.
+
+92
+00:06:24,290 --> 00:06:28,680
+When this happens, moving average envelopes
+can be used to identify overbought and oversold
+
+93
+00:06:28,680 --> 00:06:30,100
+levels.
+
+94
+00:06:30,100 --> 00:06:34,050
+When price moves above the upper envelope,
+this can be considered overbought.
+
+95
+00:06:34,050 --> 00:06:39,100
+When price moves below the lower envelope,
+this can be considered oversold.
+
+96
+00:06:39,100 --> 00:06:43,270
+However, identifying overbought and oversold
+levels isn’t easy.
+
+97
+00:06:43,270 --> 00:06:47,710
+Remember, price can become overbought and
+remain overbought when the bullish trend is
+
+98
+00:06:47,710 --> 00:06:48,710
+strong.
+
+99
+00:06:48,710 --> 00:06:50,639
+The same goes for being oversold.
+
+100
+00:06:50,639 --> 00:06:55,400
+This is why it’s best to pay attention to
+the slope of the moving average and make sure
+
+101
+00:06:55,400 --> 00:06:57,350
+it’s flat.
+
+102
+00:06:57,350 --> 00:07:03,960
+Here, notice how the 20 MA and the upper and
+lower envelopes are flat…almost horizontal
+
+103
+00:07:03,960 --> 00:07:04,960
+even.
+
+104
+00:07:04,960 --> 00:07:07,350
+Basically, the price is directionless here.
+
+105
+00:07:07,350 --> 00:07:11,420
+There is no strong bullish trend, nor is there
+a strong bearish trend.
+
+106
+00:07:11,420 --> 00:07:15,520
+Observe how the upper envelope acts as a strong
+resistance level.
+
+107
+00:07:15,520 --> 00:07:20,169
+Whenever price traded near the upper envelope,
+price would fall back down.
+
+108
+00:07:20,169 --> 00:07:21,860
+The same with the lower envelope.
+
+109
+00:07:21,860 --> 00:07:24,759
+Observe how it acts as a strong support level.
+
+110
+00:07:24,759 --> 00:07:30,860
+Whenever price traded near the lower envelope,
+price would bounce back up.
+
+111
+00:07:30,860 --> 00:07:34,020
+Envelopes are also great for buying or selling
+pullbacks.
+
+112
+00:07:34,020 --> 00:07:38,900
+If the last high was let’s say five percent
+above the moving average, keep the upper envelope
+
+113
+00:07:38,900 --> 00:07:44,270
+line set at five percent—the next high will
+often reflect the same extreme.
+
+114
+00:07:44,270 --> 00:07:49,449
+Conversely, if the last significant downswing
+low was five percent below the moving average,
+
+115
+00:07:49,449 --> 00:07:54,930
+keep this figure as the lower envelope setting
+until market action dictates otherwise.
+
+116
+00:07:54,930 --> 00:07:58,800
+In this example, notice this great entry at
+the lower envelope.
+
+117
+00:07:58,800 --> 00:08:04,460
+The market made a swing low here, and respected
+the dynamic support offered by the lower envelopes
+
+118
+00:08:04,460 --> 00:08:07,550
+the second time the price reached the area.
+
+119
+00:08:07,550 --> 00:08:12,380
+The envelopes also serve as dynamic support
+and resistance areas.
+
+120
+00:08:12,380 --> 00:08:17,110
+If prices cross above the moving average,
+assume that this line will act as support
+
+121
+00:08:17,110 --> 00:08:22,070
+on pullbacks and the next rally will have
+the potential to advance to the upper envelope
+
+122
+00:08:22,070 --> 00:08:23,070
+line.
+
+123
+00:08:23,070 --> 00:08:29,640
+If the price is in an uptrend, the upper envelope
+line may act as a rising dynamic line of resistance.
+
+124
+00:08:29,640 --> 00:08:34,520
+The rally tops will hug the upper envelope
+line, but prices will tend to keep going up.
+
+125
+00:08:34,520 --> 00:08:39,870
+So, in an uptrend, the upper envelope is a
+great take profit zone.
+
+126
+00:08:39,870 --> 00:08:45,040
+If prices cross below the center moving average,
+assume that this line will act as resistance
+
+127
+00:08:45,040 --> 00:08:49,380
+on any rebounds and that downside potential
+is to the lower envelope line.
+
+128
+00:08:49,380 --> 00:08:54,360
+If the trend is down, the lower envelope line
+may act as a falling dynamic support line.
+
+129
+00:08:54,360 --> 00:08:58,680
+The lower envelope is a potential take profit
+zone.
+
+130
+00:08:58,680 --> 00:09:02,680
+In an uptrend, price could decline to the
+lower envelope line.
+
+131
+00:09:02,680 --> 00:09:07,529
+This area will define where the price is both
+oversold and the specific price area that
+
+132
+00:09:07,529 --> 00:09:09,550
+offers a potential buying opportunity.
+
+133
+00:09:09,550 --> 00:09:14,149
+In a downtrend, price could advance to the
+upper envelope line.
+
+134
+00:09:14,149 --> 00:09:18,790
+This area will help define where the market
+is both overbought and the specific price
+
+135
+00:09:18,790 --> 00:09:23,630
+area that may be most opportune as a selling
+point.
+
+136
+00:09:23,630 --> 00:09:26,730
+Remember that moving averages are lagging
+indicators.
+
+137
+00:09:26,730 --> 00:09:31,760
+This is because the price data always incorporates
+periods of the past, so the inflexions in
+
+138
+00:09:31,760 --> 00:09:37,120
+the market's direction will always be reflected
+more slowly by a moving average, rather than
+
+139
+00:09:37,120 --> 00:09:38,350
+by the price itself.
+
+140
+00:09:38,350 --> 00:09:43,459
+How much more slowly, is a function of the
+size of the period you choose.
+
+141
+00:09:43,459 --> 00:09:48,931
+In some cases, you may find that using a combination
+of more than one set of envelopes (say, one
+
+142
+00:09:48,931 --> 00:09:54,070
+with a longer period and one with a shorter
+period) may paint a fuller picture.
+
+143
+00:09:54,070 --> 00:09:58,750
+Really the best way to establish what works
+with your own trading style is to go ahead
+
+144
+00:09:58,750 --> 00:10:01,990
+and back test different periods in different
+time frames.
+
+145
+00:10:01,990 --> 00:10:07,660
+Also, it goes without saying, building a complete
+Envelope strategy is not just about signals
+
+146
+00:10:07,660 --> 00:10:10,160
+informing you when to buy and sell.
+
+147
+00:10:10,160 --> 00:10:12,470
+Envelopes are just a part of the full story.
+
+148
+00:10:12,470 --> 00:10:17,350
+Price action, support and resistance and a
+solid risk management are also needed to get
+
+149
+00:10:17,350 --> 00:10:19,720
+the best out of envelopes.
+
+150
+00:10:19,720 --> 00:10:24,890
+As always, if you learned something new and
+found value, leave us a like to show your
+
+151
+00:10:24,890 --> 00:10:28,610
+support, subscribe to our channel and click
+the bell icon to stay in touch when we upload
+
+152
+00:10:28,610 --> 00:10:29,940
+new videos.
+
+153
+00:10:29,940 --> 00:10:30,940
+Until next time.
+

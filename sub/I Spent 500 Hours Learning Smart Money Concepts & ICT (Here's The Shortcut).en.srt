@@ -1,0 +1,1818 @@
+1
+00:00:00,250 --> 00:00:04,799
+Most of the information you can find online
+is usually about retail trading.
+
+2
+00:00:04,799 --> 00:00:09,530
+If you look for institutional or smart money
+trading, you won’t find much about it.
+
+3
+00:00:09,530 --> 00:00:14,719
+So today we’ll talk about smart money concepts,
+a topic widely discussed among price action
+
+4
+00:00:14,719 --> 00:00:19,680
+traders, and popularized by ICT (known as
+the Inner Circle Trader).
+
+5
+00:00:19,680 --> 00:00:22,590
+So, smart money trading, what is it?
+
+6
+00:00:22,590 --> 00:00:28,099
+It’s a style that leverages institutional
+trading methods to gain an edge in the market
+
+7
+00:00:28,099 --> 00:00:31,670
+and avoid getting caught in the banks' liquidity
+traps.
+
+8
+00:00:31,670 --> 00:00:36,600
+Institutions, such as banks and hedge funds,
+have significant influence on the market due
+
+9
+00:00:36,600 --> 00:00:38,481
+to their substantial trading volumes.
+
+10
+00:00:38,481 --> 00:00:45,059
+And as a retail trader, you should aim to
+align yourself with these institutional players.
+
+11
+00:00:45,059 --> 00:00:50,579
+Think of these institutions as the whales
+in the ocean and us as the little fish swimming
+
+12
+00:00:50,579 --> 00:00:52,210
+alongside them.
+
+13
+00:00:52,210 --> 00:00:57,110
+You want to understand how they enter the
+market and follow their lead to ensure your
+
+14
+00:00:57,110 --> 00:00:59,610
+safety and protection.
+
+15
+00:00:59,610 --> 00:01:04,940
+Before we begin, let's first explore some
+key terms that will be used throughout this
+
+16
+00:01:04,940 --> 00:01:05,970
+trading course.
+
+17
+00:01:05,970 --> 00:01:12,829
+So, smart money refers to the larger players
+in the market, such as banks and institutions.
+
+18
+00:01:12,829 --> 00:01:19,310
+Liquidity represents the pool of stop losses
+and pending buy/sell limit orders.
+
+19
+00:01:19,310 --> 00:01:24,650
+Mitigation refers to the point where smart
+money breaks even on a losing position.
+
+20
+00:01:24,650 --> 00:01:28,840
+Break of structure reveals the strength or
+weakness in a trend.
+
+21
+00:01:28,840 --> 00:01:34,180
+A CHOCH represents a change in character in
+the order flow, indicating a possible trend
+
+22
+00:01:34,180 --> 00:01:35,180
+reversal.
+
+23
+00:01:35,180 --> 00:01:41,480
+An order block is area where there has been
+a large concentration of limit orders waiting
+
+24
+00:01:41,480 --> 00:01:43,500
+to be executed.
+
+25
+00:01:43,500 --> 00:01:47,909
+Fair value gap is an imbalance in price created
+by a large order.
+
+26
+00:01:47,909 --> 00:01:53,329
+It may sound complicated at first, but don’t
+worry, these smart money concepts are not
+
+27
+00:01:53,329 --> 00:01:59,710
+something new or invented, but rather revolves
+around classic principles of market structure,
+
+28
+00:01:59,710 --> 00:02:05,610
+supply and demand, accumulation and distribution,
+and price returning to previous areas of acceptance.
+
+29
+00:02:05,610 --> 00:02:09,770
+BOS & CHOCH
+Let’s begin with the market structure.
+
+30
+00:02:09,770 --> 00:02:15,940
+Understanding market structure is crucial
+for analyzing and trading the charts effectively.
+
+31
+00:02:15,940 --> 00:02:20,300
+It provides you vital information about the
+current phase of the market.
+
+32
+00:02:20,300 --> 00:02:24,000
+In an uptrend, prices generally move higher
+over time.
+
+33
+00:02:24,000 --> 00:02:29,020
+This is characterized by the formation of
+higher highs (HH) and higher lows (HL).
+
+34
+00:02:29,020 --> 00:02:35,489
+Each low point is higher than the previous
+one, indicating a bullish market sentiment.
+
+35
+00:02:35,489 --> 00:02:40,819
+In contrast, a downtrend exhibits lower highs
+(LH) and lower lows (LL).
+
+36
+00:02:40,819 --> 00:02:47,760
+Each high point is lower than the preceding
+one, reflecting a bearish market sentiment.
+
+37
+00:02:47,760 --> 00:02:54,550
+Lastly, a sideways trend or a ranging market
+is characterized by the absence of clear highs
+
+38
+00:02:54,550 --> 00:02:56,050
+and lows.
+
+39
+00:02:56,050 --> 00:03:01,770
+Prices fluctuate within a tight range, indicating
+indecisiveness among market participants.
+
+40
+00:03:01,770 --> 00:03:09,301
+One of the most important aspects in the market
+structure, are the shifts above or below previous
+
+41
+00:03:09,301 --> 00:03:14,720
+swing highs or lows, leading to trend changes
+or continuations.
+
+42
+00:03:14,720 --> 00:03:16,950
+The first concept is the break of structure.
+
+43
+00:03:16,950 --> 00:03:22,659
+Breaks of structure play a significant role
+in determining the strength or weakness of
+
+44
+00:03:22,659 --> 00:03:24,950
+buyers and sellers.
+
+45
+00:03:24,950 --> 00:03:29,400
+Break of Structure (BOS) is used to describe
+a significant price movement that surpasses
+
+46
+00:03:29,400 --> 00:03:35,159
+a level of support or resistance on a chart,
+in the direction of the previous trend.
+
+47
+00:03:35,159 --> 00:03:37,040
+This is very important.
+
+48
+00:03:37,040 --> 00:03:44,360
+A BOS is simply a break above a previous higher
+high in an uptrend, or a break below a lower
+
+49
+00:03:44,360 --> 00:03:45,960
+low in a downtrend.
+
+50
+00:03:45,960 --> 00:03:52,689
+I must admit that the break of structure terminology
+used by ICT confuses me a bit.
+
+51
+00:03:52,689 --> 00:03:56,129
+This term doesn’t imply a continuation in
+a trend.
+
+52
+00:03:56,129 --> 00:03:57,439
+Maybe I got this wrong.
+
+53
+00:03:57,439 --> 00:04:03,519
+But, anyway, in an uptrend, when you see a
+market making higher highs and higher lows,
+
+54
+00:04:03,519 --> 00:04:09,209
+you mark the most recent swing high, and if
+you have another impulse move closing above
+
+55
+00:04:09,209 --> 00:04:14,459
+this point, with several candles, then you
+found a BOS.
+
+56
+00:04:14,459 --> 00:04:20,680
+In a downtrend, when you see a market making
+lower lows and lower highs, you mark the most
+
+57
+00:04:20,680 --> 00:04:26,260
+recent swing low, and if you have another
+move closing below this low, with several
+
+58
+00:04:26,260 --> 00:04:30,570
+candles, again, you have found a BOS.
+
+59
+00:04:30,570 --> 00:04:36,699
+On the other hand, a Change of Character (ChoCh)
+represents a trend reversal in the market
+
+60
+00:04:36,699 --> 00:04:39,669
+after a break of highs or lows.
+
+61
+00:04:39,669 --> 00:04:44,850
+A change of character describes a sudden and
+significant shift in the price action of a
+
+62
+00:04:44,850 --> 00:04:45,850
+market.
+
+63
+00:04:45,850 --> 00:04:50,669
+For example, let’s take this market that
+has been in a downtrend, making lower highs
+
+64
+00:04:50,669 --> 00:04:52,910
+and lower lows.
+
+65
+00:04:52,910 --> 00:04:58,889
+Once the price breaks above this previous
+major swing high, this is a change of character
+
+66
+00:04:58,889 --> 00:05:05,440
+that signals a possible reversal of the downtrend,
+as buyers have taken control of the market.
+
+67
+00:05:05,440 --> 00:05:10,949
+If price continues to make new higher highs
+and higher lows, we’ve transitioned into
+
+68
+00:05:10,949 --> 00:05:16,390
+an uptrend, we you start looking for BOS patterns
+once again.
+
+69
+00:05:16,390 --> 00:05:22,520
+Here, price has been in an uptrend, making
+higher highs and higher lows.
+
+70
+00:05:22,520 --> 00:05:27,880
+Observe the previous breaks of structure,
+in the direction of the trend.
+
+71
+00:05:27,880 --> 00:05:34,169
+Following this break of structure, the price
+reverses, forming a new lower low, signaling
+
+72
+00:05:34,169 --> 00:05:37,040
+a potential trend reversal.
+
+73
+00:05:37,040 --> 00:05:43,639
+After a minor pullback, the price begins creating
+lower lows and lower highs, indicating a new
+
+74
+00:05:43,639 --> 00:05:45,569
+bearish trend.
+
+75
+00:05:45,569 --> 00:05:50,539
+So price changed its trend, indicating a change
+of character in the market.
+
+76
+00:05:50,539 --> 00:05:55,039
+The previous bullish trend has now shifted
+into a bearish one.
+
+77
+00:05:55,039 --> 00:05:59,150
+And now you’re looking for new BOS patterns,
+in a downtrend.
+
+78
+00:05:59,150 --> 00:06:05,020
+It’s simple and easy, and you probably knew
+these concepts before, with different terms.
+
+79
+00:06:05,020 --> 00:06:11,060
+So, BOS means continuation in market structure,
+CHOCH means reversal.
+
+80
+00:06:11,060 --> 00:06:14,300
+At least, this is how I see them.
+
+81
+00:06:14,300 --> 00:06:18,449
+Fair value gaps
+Now let’s talk about fair value gaps.
+
+82
+00:06:18,449 --> 00:06:25,120
+This ICT concept builds upon fundamental market
+structure principles, price action, and gap
+
+83
+00:06:25,120 --> 00:06:26,669
+analysis.
+
+84
+00:06:26,669 --> 00:06:31,520
+Fair value gaps are used to detect market
+inefficiencies or imbalances.
+
+85
+00:06:31,520 --> 00:06:35,360
+Sometimes you will see them labeled as inefficiencies.
+
+86
+00:06:35,360 --> 00:06:41,220
+These imbalances arise when buying or selling
+pressure is significant, resulting in a large
+
+87
+00:06:41,220 --> 00:06:47,289
+upward or downward move, leaving behind an
+imbalance in the market.
+
+88
+00:06:47,289 --> 00:06:49,759
+Let's start by examining this chart.
+
+89
+00:06:49,759 --> 00:06:55,080
+You'll notice that most of the time, when
+we have consecutive candlesticks, the price
+
+90
+00:06:55,080 --> 00:07:00,170
+tends to retrace and leave wicks on both sides
+of the candles.
+
+91
+00:07:00,170 --> 00:07:07,881
+However, in certain instances, we observe
+candles with no overlap on either side, like
+
+92
+00:07:07,881 --> 00:07:13,440
+this candle with one candle to the left and
+one to the right.
+
+93
+00:07:13,440 --> 00:07:18,289
+This phenomenon is what we refer to as a fair
+value gap.
+
+94
+00:07:18,289 --> 00:07:24,090
+The idea behind fair value gaps is that the
+market will eventually come back to these
+
+95
+00:07:24,090 --> 00:07:30,850
+inefficiencies in the market before continuing
+in the same direction as the initial impulsive
+
+96
+00:07:30,850 --> 00:07:31,850
+move.
+
+97
+00:07:31,850 --> 00:07:36,440
+If you’re familiar with supply and demand
+trading, it’s the same principle.
+
+98
+00:07:36,440 --> 00:07:42,160
+If you are a price action trader, you can
+use these imbalances as entry or even exit
+
+99
+00:07:42,160 --> 00:07:45,170
+points in the market.
+
+100
+00:07:45,170 --> 00:07:50,930
+For a fair value gap to develop, there must
+be a set of three candles characterized by
+
+101
+00:07:50,930 --> 00:07:54,729
+heavy buying or selling in the same direction.
+
+102
+00:07:54,729 --> 00:08:00,300
+When there is a large move in either direction,
+a gap will be formed between the first candle's
+
+103
+00:08:00,300 --> 00:08:04,860
+wick and the wick of the last candle, as you
+can see here.
+
+104
+00:08:04,860 --> 00:08:11,350
+In this example, the price movement doesn’t
+have a Fair Value Gap, as the previous candle's
+
+105
+00:08:11,350 --> 00:08:17,440
+high level has counterbalanced the low level
+of the third candle.
+
+106
+00:08:17,440 --> 00:08:21,580
+This price action is considered to be balanced.
+
+107
+00:08:21,580 --> 00:08:28,030
+The key lies in identifying these fair value
+gaps at levels that provide a trading edge
+
+108
+00:08:28,030 --> 00:08:29,980
+or a strong signal.
+
+109
+00:08:29,980 --> 00:08:35,890
+Specifically, you want to look for fair value
+gaps that coincide with a break in market
+
+110
+00:08:35,890 --> 00:08:41,880
+structure caused by an impulsive move, or
+a change of character.
+
+111
+00:08:41,880 --> 00:08:49,149
+The area left by this fair value gap becomes
+an attractive region to seek entry opportunities
+
+112
+00:08:49,149 --> 00:08:51,089
+on pullbacks.
+
+113
+00:08:51,089 --> 00:08:54,500
+For instance, consider a market in an uptrend.
+
+114
+00:08:54,500 --> 00:09:02,510
+As the price retraces and breaks below a significant
+swing low, the market structure shifts lower,
+
+115
+00:09:02,510 --> 00:09:07,490
+we have a change of character, indicating
+potential short opportunities.
+
+116
+00:09:07,490 --> 00:09:14,019
+Now, we keep an eye out for a retracement,
+at a fair value gap, that allows us to enter
+
+117
+00:09:14,019 --> 00:09:18,440
+short positions based on this shift in market
+structure.
+
+118
+00:09:18,440 --> 00:09:25,010
+In the case of a bullish setup, the fair value
+gap operates in reverse.
+
+119
+00:09:25,010 --> 00:09:31,959
+We witness an upward market movement, followed
+by a pullback and another impulsive move that
+
+120
+00:09:31,959 --> 00:09:35,050
+breaks the previous swing high.
+
+121
+00:09:35,050 --> 00:09:42,010
+This breakout leaves a fair value gap between
+these three candles, with no wick overlap
+
+122
+00:09:42,010 --> 00:09:44,970
+on either side of the middle candle.
+
+123
+00:09:44,970 --> 00:09:52,290
+You then scout for pullbacks within this range
+to enter long positions.
+
+124
+00:09:52,290 --> 00:09:56,160
+Identifying Fair Value Gaps (FVGs) in the
+markets can be relatively straightforward.
+
+125
+00:09:56,160 --> 00:10:01,839
+However, if you need extra assistance, there
+are numerous free indicators available on
+
+126
+00:10:01,839 --> 00:10:06,100
+TradingView that can help you in detecting
+these imbalances.
+
+127
+00:10:06,100 --> 00:10:10,510
+I recommend you add this indicator, by Nephew
+SAM.
+
+128
+00:10:10,510 --> 00:10:16,850
+And I advise you to first focus on utilizing
+Fair Value Gaps for trend continuation after
+
+129
+00:10:16,850 --> 00:10:19,100
+a significant impulsive move.
+
+130
+00:10:19,100 --> 00:10:25,660
+As I previously said, you can anticipate the
+price to return to these Fair Value Gaps before
+
+131
+00:10:25,660 --> 00:10:30,150
+continuing in the same direction as the impulse
+move.
+
+132
+00:10:30,150 --> 00:10:35,750
+You simply wait for the price to reach the
+area of interest and then look for a trigger,
+
+133
+00:10:35,750 --> 00:10:37,920
+targeting a trend continuation.
+
+134
+00:10:37,920 --> 00:10:45,910
+If the fair value gaps are wider, Fibonacci
+retracement levels can be used to refine entry
+
+135
+00:10:45,910 --> 00:10:46,910
+points.
+
+136
+00:10:46,910 --> 00:10:53,070
+By drawing a Fibonacci tool from relevant
+swing points, such as the high and low of
+
+137
+00:10:53,070 --> 00:10:59,459
+the fair value gap, the 50% level can serve
+as an alternative entry point.
+
+138
+00:10:59,459 --> 00:11:05,080
+This approach ensures a tighter risk-reward
+ratio, although it may result in missing some
+
+139
+00:11:05,080 --> 00:11:11,220
+initial entries if the price bounces before
+reaching the 50% level.
+
+140
+00:11:11,220 --> 00:11:18,100
+Moving on to another example, let's examine
+a resistance level, on a lower timeframe,
+
+141
+00:11:18,100 --> 00:11:20,420
+such as the five-minute chart.
+
+142
+00:11:20,420 --> 00:11:27,320
+After breaking this resistance and undergoing
+an impulsive upward move, we see a fair value
+
+143
+00:11:27,320 --> 00:11:33,020
+gap is left behind, providing a potential
+trading opportunity on pullbacks.
+
+144
+00:11:33,020 --> 00:11:39,529
+Once again, it's crucial to identify them
+in areas where you expect retracements that
+
+145
+00:11:39,529 --> 00:11:42,450
+align with the prevailing trend.
+
+146
+00:11:42,450 --> 00:11:50,029
+Here, we witness a market that breaks below
+a swing low, signaling a short entry opportunity.
+
+147
+00:11:50,029 --> 00:11:57,060
+A fair value gap is present in the area between
+this wick low and this wick high.
+
+148
+00:11:57,060 --> 00:12:01,230
+Order blocks
+Now let me address another concept that has
+
+149
+00:12:01,230 --> 00:12:05,000
+gained popularity, namely the order blocks.
+
+150
+00:12:05,000 --> 00:12:09,550
+If you followed my channel before, you’ll
+realize that this concept is not something
+
+151
+00:12:09,550 --> 00:12:14,420
+new or invented but rather revolves around
+the principles of supply and demand and price
+
+152
+00:12:14,420 --> 00:12:17,899
+returning to previous areas of acceptance.
+
+153
+00:12:17,899 --> 00:12:23,860
+Banks use special orders for buying, selling,
+taking profit, and closing the orders.
+
+154
+00:12:23,860 --> 00:12:29,850
+When banks want to open a position with volume,
+they do not randomly place a position to upset
+
+155
+00:12:29,850 --> 00:12:36,670
+the price and trigger their order at a worse
+price that may result in lowering their profit.
+
+156
+00:12:36,670 --> 00:12:42,380
+So, they try to split their positions into
+small and manageable blocks.
+
+157
+00:12:42,380 --> 00:12:49,220
+A Bullish Order Block is the last down candle
+or series of down candles before an upward
+
+158
+00:12:49,220 --> 00:12:50,959
+impulse price move.
+
+159
+00:12:50,959 --> 00:12:56,459
+A Bullish Order Block will act as a support
+for the price to run higher.
+
+160
+00:12:56,459 --> 00:13:03,500
+A Bearish Order Block is the last up candle
+or series of up candles before a downward
+
+161
+00:13:03,500 --> 00:13:05,040
+impulse price move.
+
+162
+00:13:05,040 --> 00:13:10,800
+A Bearish Order Block will act as a resistance
+for the price to run lower.
+
+163
+00:13:10,800 --> 00:13:16,920
+Now, it's essential to understand that order
+blocks should not be identified everywhere
+
+164
+00:13:16,920 --> 00:13:20,630
+on the charts, but rather in specific locations.
+
+165
+00:13:20,630 --> 00:13:27,630
+You want to enter trades in areas where price
+retraces back into previous broken swing areas,
+
+166
+00:13:27,630 --> 00:13:30,670
+providing the best risk-reward scenarios.
+
+167
+00:13:30,670 --> 00:13:36,529
+In the case of a bullish order block, we observe
+a consolidation or candle formation where
+
+168
+00:13:36,529 --> 00:13:41,810
+buyers take control, absorbing the selling
+pressure at the bottom.
+
+169
+00:13:41,810 --> 00:13:45,490
+This leads to a breakout above a previous
+swing high.
+
+170
+00:13:45,490 --> 00:13:51,680
+We then look for a retracement back into the
+area where the price broke out, which serves
+
+171
+00:13:51,680 --> 00:13:54,000
+as a potential entry point.
+
+172
+00:13:54,000 --> 00:14:00,630
+Similarly, in a bearish order block, we have
+a market trending downward, followed by a
+
+173
+00:14:00,630 --> 00:14:01,630
+consolidation.
+
+174
+00:14:01,630 --> 00:14:07,290
+A downward impulsive move breaks the market
+structure to the downside.
+
+175
+00:14:07,290 --> 00:14:14,000
+We then wait for price to retrace back into
+the release point or the area just before
+
+176
+00:14:14,000 --> 00:14:15,870
+the move occurred.
+
+177
+00:14:15,870 --> 00:14:21,269
+This becomes an opportunity to enter short
+trades, placing the stop loss above the swing
+
+178
+00:14:21,269 --> 00:14:22,600
+high.
+
+179
+00:14:22,600 --> 00:14:28,060
+These are basically the rally – base – rally
+and the drop-base-drop formations in supply
+
+180
+00:14:28,060 --> 00:14:29,779
+and demand trading.
+
+181
+00:14:29,779 --> 00:14:37,660
+You target these order blocks for continuation
+trades in the direction of the previous trend.
+
+182
+00:14:37,660 --> 00:14:43,209
+It's worth mentioning that fair value gaps
+often align with order blocks.
+
+183
+00:14:43,209 --> 00:14:49,509
+While these two concepts are closely related,
+fair value gaps tend to provide earlier entry
+
+184
+00:14:49,509 --> 00:14:52,980
+opportunities compared to order blocks.
+
+185
+00:14:52,980 --> 00:14:59,100
+When an Order Block forms with a Fair Value
+Gap to its right, this makes it a high probability
+
+186
+00:14:59,100 --> 00:15:00,500
+Order Block.
+
+187
+00:15:00,500 --> 00:15:06,769
+And, when an Order Block does not have a Fair
+Value Gap to its right, this makes it a low
+
+188
+00:15:06,769 --> 00:15:12,820
+probability Order Block, and the price tends
+to run the stops below or above the Order
+
+189
+00:15:12,820 --> 00:15:15,390
+Block.
+
+190
+00:15:15,390 --> 00:15:21,079
+Order blocks are also formed when the market
+transitions from an uptrend to a downtrend,
+
+191
+00:15:21,079 --> 00:15:22,329
+and vice versa.
+
+192
+00:15:22,329 --> 00:15:28,360
+A bullish order block, or a drop-base-rally
+demand zone, will be found when the market
+
+193
+00:15:28,360 --> 00:15:31,750
+changes from moving down to moving up.
+
+194
+00:15:31,750 --> 00:15:38,620
+A bearish order block, or a rally-base-drop
+supply zone, forms when the market reverses
+
+195
+00:15:38,620 --> 00:15:41,850
+from moving higher to moving lower.
+
+196
+00:15:41,850 --> 00:15:43,709
+Let’s consider a downtrend.
+
+197
+00:15:43,709 --> 00:15:51,259
+One of the steps mentioned by ICT is the violation
+of a previous swing low before the upward
+
+198
+00:15:51,259 --> 00:15:58,130
+push and the confirmation of the breakout
+above the swing high, the change of character.
+
+199
+00:15:58,130 --> 00:16:03,959
+This price move traps traders who were on
+the wrong side, adding fuel to the buying
+
+200
+00:16:03,959 --> 00:16:05,019
+pressure.
+
+201
+00:16:05,019 --> 00:16:10,339
+When price returns to the order block area,
+sellers who were trapped in their positions
+
+202
+00:16:10,339 --> 00:16:15,700
+look to close out their trades, further fueling
+the buying side.
+
+203
+00:16:15,700 --> 00:16:21,270
+Additionally, traders who missed the initial
+rally are drawn to this area, perceiving it
+
+204
+00:16:21,270 --> 00:16:27,350
+as an opportunity to enter, resulting in an
+upward continuation of the trend.
+
+205
+00:16:27,350 --> 00:16:32,220
+Here’s another example, involving a bearish
+order block.
+
+206
+00:16:32,220 --> 00:16:35,620
+The recent market structure indicates an uptrend.
+
+207
+00:16:35,620 --> 00:16:41,470
+Price formed a new swing high, declined, then
+formed a swing low.
+
+208
+00:16:41,470 --> 00:16:46,720
+Prices then rallied again to exceed the previous
+high (making a higher high).
+
+209
+00:16:46,720 --> 00:16:48,000
+This a BOS.
+
+210
+00:16:48,000 --> 00:16:51,529
+Price then fell to form a new lower low.
+
+211
+00:16:51,529 --> 00:16:54,050
+A change of character this time.
+
+212
+00:16:54,050 --> 00:16:58,320
+The previous move trapped buying traders on
+the wrong side.
+
+213
+00:16:58,320 --> 00:17:02,930
+As prices start to rise again, we need to
+find an order block.
+
+214
+00:17:02,930 --> 00:17:08,669
+And when price returns to the order block
+area, buyers who were trapped in their positions
+
+215
+00:17:08,669 --> 00:17:13,890
+look to close out their trades, further fueling
+the selling side.
+
+216
+00:17:13,890 --> 00:17:20,010
+Additionally, traders who missed the initial
+down move get their chance to enter, resulting
+
+217
+00:17:20,010 --> 00:17:23,929
+in a downward continuation of the trend.
+
+218
+00:17:23,929 --> 00:17:29,850
+For more precise entries, especially on higher
+timeframes, if the order block has a wider
+
+219
+00:17:29,850 --> 00:17:36,359
+range, Fibonacci retracement levels can be
+used, particularly between the 50%, 61.8%
+
+220
+00:17:36,359 --> 00:17:38,710
+and 78.6% levels.
+
+221
+00:17:38,710 --> 00:17:44,630
+Depending on the context, you may focus on
+the candle body or include the wick as well,
+
+222
+00:17:44,630 --> 00:17:46,500
+when you draw the order block.
+
+223
+00:17:46,500 --> 00:17:52,900
+Just remember, you need to find the last bullish
+candle before a down move, and the last bearish
+
+224
+00:17:52,900 --> 00:17:55,430
+candle before an up move.
+
+225
+00:17:55,430 --> 00:18:00,210
+To me personally, order blocks are the same
+as supply and demand zones.
+
+226
+00:18:00,210 --> 00:18:06,430
+They represent areas of high volume accumulation
+before a major move occurs.
+
+227
+00:18:06,430 --> 00:18:13,330
+Whatever you call them, these are high probability
+areas to initiate trades from.
+
+228
+00:18:13,330 --> 00:18:14,659
+Liquidity
+
+229
+00:18:14,659 --> 00:18:19,310
+Understanding liquidity is a fundamental concept
+in smart money trading.
+
+230
+00:18:19,310 --> 00:18:25,470
+Liquidity acts as a magnet for price, as price
+is constantly in search of a place to transact
+
+231
+00:18:25,470 --> 00:18:29,140
+and either accumulate or distribute positions.
+
+232
+00:18:29,140 --> 00:18:33,809
+Liquidity primarily refers to the presence
+of orders at various price levels.
+
+233
+00:18:33,809 --> 00:18:39,559
+These orders influence the price movements,
+often causing highs and lows in the market
+
+234
+00:18:39,559 --> 00:18:40,559
+to be breached.
+
+235
+00:18:40,559 --> 00:18:43,070
+So, where does liquidity form?
+
+236
+00:18:43,070 --> 00:18:48,560
+We can identify older highs and previous lows
+as liquidity points.
+
+237
+00:18:48,560 --> 00:18:54,010
+Equal highs and equal lows are other liquidity
+areas.
+
+238
+00:18:54,010 --> 00:18:59,409
+Liquidity can be found along trend lines,
+within chart patterns, at support and resistance
+
+239
+00:18:59,409 --> 00:19:00,799
+levels.
+
+240
+00:19:00,799 --> 00:19:09,030
+Essentially, liquidity refers to pending orders
+placed above or below these points.
+
+241
+00:19:09,030 --> 00:19:14,840
+Your goal is to understand the major areas
+where liquidity is concentrated.
+
+242
+00:19:14,840 --> 00:19:20,900
+First, analyze the trend—where is the price
+currently, where has it been, and where it
+
+243
+00:19:20,900 --> 00:19:23,059
+might be headed next?
+
+244
+00:19:23,059 --> 00:19:25,809
+When you ask yourself, "Where is the price?"
+
+245
+00:19:25,809 --> 00:19:32,260
+there should be three possible answers: at
+a premium, at a discount, or at the mean.
+
+246
+00:19:32,260 --> 00:19:38,400
+When you analyze about where the price has
+been, you can identify its origin, pinpointing
+
+247
+00:19:38,400 --> 00:19:43,220
+the major swing point that led to its current
+level.
+
+248
+00:19:43,220 --> 00:19:48,950
+Finally, when considering where the price
+is going, you have a few options: it could
+
+249
+00:19:48,950 --> 00:19:56,289
+head toward a significant liquidity zone or
+a supply and demand area, or an order block.
+
+250
+00:19:56,289 --> 00:20:00,340
+Keep in mind that liquidity is continuously
+generated.
+
+251
+00:20:00,340 --> 00:20:05,660
+When examining liquidity, you can view it
+as a reason for markets to move higher or
+
+252
+00:20:05,660 --> 00:20:06,660
+lower.
+
+253
+00:20:06,660 --> 00:20:13,030
+For instance, in a downtrend with a clear
+trend line, you can interpret it as a potential
+
+254
+00:20:13,030 --> 00:20:20,560
+reason for prices to head higher in the near
+future, despite their current downward trajectory.
+
+255
+00:20:20,560 --> 00:20:27,450
+Price enjoys creating liquidity, moving through
+existing liquidity, and generating more liquidity
+
+256
+00:20:27,450 --> 00:20:30,551
+along the way.
+
+257
+00:20:30,551 --> 00:20:34,100
+To simplify this concept, let's consider a
+trading range.
+
+258
+00:20:34,100 --> 00:20:40,260
+Below the support level, we can expect to
+find stop-loss orders placed by buyers.
+
+259
+00:20:40,260 --> 00:20:45,070
+Above the resistance level, there will be
+stop losses of sellers.
+
+260
+00:20:45,070 --> 00:20:51,549
+If the market breaks below the support level,
+sell trades will be triggered, while a break
+
+261
+00:20:51,549 --> 00:20:55,710
+above the resistance level will activate buy
+trades.
+
+262
+00:20:55,710 --> 00:21:03,620
+In this context, liquidity refers to the collection
+of orders present on both sides of the market
+
+263
+00:21:03,620 --> 00:21:05,080
+within the range.
+
+264
+00:21:05,080 --> 00:21:11,190
+Buy side liquidity represents the presence
+of buy stop orders, which are placed above
+
+265
+00:21:11,190 --> 00:21:12,990
+the resistance level.
+
+266
+00:21:12,990 --> 00:21:17,870
+These orders are accompanied by stop-loss
+orders from sellers who have entered their
+
+267
+00:21:17,870 --> 00:21:21,400
+positions below the resistance level.
+
+268
+00:21:21,400 --> 00:21:27,440
+The activation of buy stop orders and the
+triggering of stop-loss orders lead to an
+
+269
+00:21:27,440 --> 00:21:30,730
+influx of buying liquidity.
+
+270
+00:21:30,730 --> 00:21:36,240
+Institutional participants, who often have
+substantial positions to sell, require liquidity
+
+271
+00:21:36,240 --> 00:21:38,340
+in the form of willing buyers.
+
+272
+00:21:38,340 --> 00:21:44,309
+By pushing the market above the resistance
+level, they can access this liquidity, which
+
+273
+00:21:44,309 --> 00:21:49,039
+results in their significant selling orders
+being executed.
+
+274
+00:21:49,039 --> 00:21:55,490
+On the other hand, sell side liquidity mirrors
+the same principle but in the opposite direction.
+
+275
+00:21:55,490 --> 00:22:01,960
+In a range where the lows form a support level,
+buyers are present at multiple levels with
+
+276
+00:22:01,960 --> 00:22:04,460
+stop-loss orders below this area.
+
+277
+00:22:04,460 --> 00:22:11,370
+Below the support level, there are also sell
+stop orders, waiting to be triggered if the
+
+278
+00:22:11,370 --> 00:22:12,890
+market continues to decline.
+
+279
+00:22:12,890 --> 00:22:20,670
+When the market pushes lower, these sell stops
+and stop-loss orders will contribute to selling
+
+280
+00:22:20,670 --> 00:22:21,670
+liquidity.
+
+281
+00:22:21,670 --> 00:22:27,370
+The accumulation of these selling orders provides
+an opportunity for a participant with significant
+
+282
+00:22:27,370 --> 00:22:34,130
+buying power to enter the market, potentially
+causing a reversal and an upward rally.
+
+283
+00:22:34,130 --> 00:22:40,350
+Remember this: for big institutions, opening
+large orders in the market requires reaching
+
+284
+00:22:40,350 --> 00:22:42,400
+these liquidity points.
+
+285
+00:22:42,400 --> 00:22:48,620
+And, understanding buy and sell side liquidity
+can provide insights into the intentions and
+
+286
+00:22:48,620 --> 00:22:51,760
+actions of institutional participants.
+
+287
+00:22:51,760 --> 00:22:57,890
+As a retail trader, if you frequently experience
+stop-outs due to small price movements, it
+
+288
+00:22:57,890 --> 00:23:04,570
+is likely because you are providing liquidity
+to larger market players.
+
+289
+00:23:04,570 --> 00:23:10,909
+In this example, you can clearly observe the
+formation of buy and sell side liquidity.
+
+290
+00:23:10,909 --> 00:23:17,360
+The market often breaches both sides of the
+range, triggering buy or sell orders and stop
+
+291
+00:23:17,360 --> 00:23:21,220
+losses, which leads to substantial price movements.
+
+292
+00:23:21,220 --> 00:23:27,520
+By understanding these dynamics, you can incorporate
+this knowledge into your trading strategy
+
+293
+00:23:27,520 --> 00:23:31,640
+or gain a better comprehension of market movements.
+
+294
+00:23:31,640 --> 00:23:37,110
+So start studying historical market data and
+conduct your backtest, so you can witness
+
+295
+00:23:37,110 --> 00:23:42,820
+yourself the significance of this concept,
+whether you develop a trading system centered
+
+296
+00:23:42,820 --> 00:23:49,500
+on liquidity or use it to avoid entering trades
+at major support or resistance levels that
+
+297
+00:23:49,500 --> 00:23:51,010
+are likely to be breached.
+
+298
+00:23:51,010 --> 00:23:54,919
+Premium/Discount
+Now let’s talk about the concepts of discount
+
+299
+00:23:54,919 --> 00:23:56,520
+and premium.
+
+300
+00:23:56,520 --> 00:24:02,710
+It's a simple concept where we mark out a
+range, or a swing, using a Fibonacci retracement
+
+301
+00:24:02,710 --> 00:24:06,150
+with only the 50% level marked.
+
+302
+00:24:06,150 --> 00:24:11,880
+When marking premium and discount areas, you
+have the choice of selecting any major leg
+
+303
+00:24:11,880 --> 00:24:16,240
+of price action or range on the chart in front
+of you.
+
+304
+00:24:16,240 --> 00:24:21,120
+The line in the middle, the 50% level, represents
+the fair value.
+
+305
+00:24:21,120 --> 00:24:25,179
+The premium and discount concept is straightforward.
+
+306
+00:24:25,179 --> 00:24:32,000
+You aim to sell when prices are in the premium
+range, meaning you sell at higher prices.
+
+307
+00:24:32,000 --> 00:24:37,919
+And you buy when prices are in the discount
+range, which corresponds to the lower 50%
+
+308
+00:24:37,919 --> 00:24:39,169
+of the range.
+
+309
+00:24:39,169 --> 00:24:46,880
+First, let’s explore the discount and premium
+during a break of structure or change of character.
+
+310
+00:24:46,880 --> 00:24:53,700
+To place the Fibs, you need to locate where
+the market experiences a break in market structure.
+
+311
+00:24:53,700 --> 00:24:58,700
+Once you identify that point, it becomes your
+reference for applying the tool.
+
+312
+00:24:58,700 --> 00:25:03,720
+And you mark it from the low to the high of
+that range.
+
+313
+00:25:03,720 --> 00:25:09,110
+Now, if you’re looking for a long entry,
+you should focus on areas that are not in
+
+314
+00:25:09,110 --> 00:25:13,409
+a premium or above the 50% Fibonacci level.
+
+315
+00:25:13,409 --> 00:25:19,540
+For instance, if you have a fair value gap
+or an order block right here, above the fair
+
+316
+00:25:19,540 --> 00:25:23,990
+value line, you wouldn't consider it for a
+long entry.
+
+317
+00:25:23,990 --> 00:25:30,170
+Instead, you would concentrate on this area
+for potential long positions.
+
+318
+00:25:30,170 --> 00:25:36,809
+Similarly, if we observe a shift in market
+structure, a change of character, followed
+
+319
+00:25:36,809 --> 00:25:42,900
+by a retracement, you would be interested
+in shorting above the middle line.
+
+320
+00:25:42,900 --> 00:25:49,299
+You draw your Fibonacci retracement from the
+high to the low, and the shorting zone would
+
+321
+00:25:49,299 --> 00:25:51,610
+be in the premium area.
+
+322
+00:25:51,610 --> 00:25:57,061
+To be honest, nothing new here, if you’re
+familiar with Fibonacci retracements, you
+
+323
+00:25:57,061 --> 00:25:58,799
+already know this concept.
+
+324
+00:25:58,799 --> 00:26:05,390
+I consider the premium and discount concept
+a great tool to use as a confluence, but being
+
+325
+00:26:05,390 --> 00:26:11,190
+overly reliant on it can cause you to miss
+good quality trade setups just because they
+
+326
+00:26:11,190 --> 00:26:14,690
+aren’t in premium or discount.
+
+327
+00:26:14,690 --> 00:26:21,760
+As a tip, price tends to trend and respect
+premium and discount in the longer term rather
+
+328
+00:26:21,760 --> 00:26:24,400
+than in the short to medium term.
+
+329
+00:26:24,400 --> 00:26:25,669
+Mitigation
+
+330
+00:26:25,669 --> 00:26:28,580
+Another ICT concept is mitigation.
+
+331
+00:26:28,580 --> 00:26:31,150
+This is how I define it.
+
+332
+00:26:31,150 --> 00:26:36,659
+Mitigation is the process of reducing losses
+or offsetting unfavorable positions in the
+
+333
+00:26:36,659 --> 00:26:37,659
+market.
+
+334
+00:26:37,659 --> 00:26:43,190
+The concept of mitigation can be visualized
+by combining it with market structure analysis.
+
+335
+00:26:43,190 --> 00:26:49,529
+So let’s consider this upward trend, it
+means there are buy orders pushing the price
+
+336
+00:26:49,529 --> 00:26:50,679
+higher.
+
+337
+00:26:50,679 --> 00:26:55,870
+When we see a break in market structure or
+a change of character, such as breaking the
+
+338
+00:26:55,870 --> 00:27:01,659
+previous higher low, it indicates that more
+sellers are entering the market.
+
+339
+00:27:01,659 --> 00:27:06,649
+This doesn't mean that the market will immediately
+go down significantly, but it does suggest
+
+340
+00:27:06,649 --> 00:27:09,779
+a temporary bearish sentiment in the market.
+
+341
+00:27:09,779 --> 00:27:13,710
+Now, let's consider the role of banks and
+institutions.
+
+342
+00:27:13,710 --> 00:27:20,340
+Due to the size of their orders, they can't
+buy or sell randomly at any given level.
+
+343
+00:27:20,340 --> 00:27:26,980
+They often need more time and multiple revisits
+to accumulate or distribute their positions.
+
+344
+00:27:26,980 --> 00:27:31,840
+And don’t think smart money have perfect
+entries or strategies.
+
+345
+00:27:31,840 --> 00:27:35,370
+They are susceptible to losses, as we are.
+
+346
+00:27:35,370 --> 00:27:42,929
+They might have buy positions for this price
+move, and sell positions in this wave.
+
+347
+00:27:42,929 --> 00:27:49,799
+To mitigate this loss, the market may return
+to the previous level or even slightly higher
+
+348
+00:27:49,799 --> 00:27:52,450
+before continuing the downward move.
+
+349
+00:27:52,450 --> 00:27:59,400
+This action allows institutions to mitigate
+their buy positions and stack sell positions,
+
+350
+00:27:59,400 --> 00:28:01,810
+effectively reducing their risk.
+
+351
+00:28:01,810 --> 00:28:07,309
+They continue to accumulate or distribute
+sell positions, pushing the market further
+
+352
+00:28:07,309 --> 00:28:08,309
+down.
+
+353
+00:28:08,309 --> 00:28:10,360
+This is how I view mitigation.
+
+354
+00:28:10,360 --> 00:28:17,140
+It involves mitigating losses from previous
+positions, entering new sell positions, and
+
+355
+00:28:17,140 --> 00:28:20,169
+pushing the market in the desired direction.
+
+356
+00:28:20,169 --> 00:28:25,419
+The goal is to bring the price back to a fair
+value for institutions and continue the downward
+
+357
+00:28:25,419 --> 00:28:26,669
+movement.
+
+358
+00:28:26,669 --> 00:28:33,390
+I personally prefer using the 4-hour or H1
+time frames, but feel free to use lower or
+
+359
+00:28:33,390 --> 00:28:36,809
+higher timeframes based on your preference.
+
+360
+00:28:36,809 --> 00:28:41,140
+To begin, you need to identify recent market
+structure.
+
+361
+00:28:41,140 --> 00:28:47,240
+If we analyze this move, we can observe a
+higher high than the previous high, followed
+
+362
+00:28:47,240 --> 00:28:50,750
+by a pullback and a new higher high.
+
+363
+00:28:50,750 --> 00:28:57,440
+Now, this higher high was created starting
+from this previous higher low, which is located
+
+364
+00:28:57,440 --> 00:28:59,220
+right here.
+
+365
+00:28:59,220 --> 00:29:06,409
+If this level gets violated to the downside,
+we can expect a potential return to this area,
+
+366
+00:29:06,409 --> 00:29:11,330
+possibly slightly above it, before the market
+continues its downward move.
+
+367
+00:29:11,330 --> 00:29:18,070
+Once we witness this break, indicated by a
+strong candle, we can start looking for potential
+
+368
+00:29:18,070 --> 00:29:20,049
+selling setups.
+
+369
+00:29:20,049 --> 00:29:25,350
+Focus on the fact that those who continued
+to hold long positions from the previous high
+
+370
+00:29:25,350 --> 00:29:28,159
+would be in a loss at this point.
+
+371
+00:29:28,159 --> 00:29:33,350
+They would want to mitigate that risk by initiating
+sell positions.
+
+372
+00:29:33,350 --> 00:29:38,679
+This is the subject for another video, but
+you can switch to the one-hour timeframe or
+
+373
+00:29:38,679 --> 00:29:45,179
+zoom in further on the 15-minute chart, to
+closely examine the price action.
+
+374
+00:29:45,179 --> 00:29:51,230
+After breaking the previous level, you would
+anticipate a retracement to the upside.
+
+375
+00:29:51,230 --> 00:29:57,270
+You’ll often see bullish momentum on lower
+timeframes, inducing traders to go long.
+
+376
+00:29:57,270 --> 00:30:02,960
+However, it's crucial to understand that this
+is part of market manipulation.
+
+377
+00:30:02,960 --> 00:30:07,170
+As price reaches back up, look for short opportunities.
+
+378
+00:30:07,170 --> 00:30:13,460
+In this case, you are capitalizing on the
+market's manipulation and the potential loss-mitigation
+
+379
+00:30:13,460 --> 00:30:17,470
+efforts of those who held long positions.
+
+380
+00:30:17,470 --> 00:30:23,919
+Now, all these smart money concepts will help
+you to read the market better and make better
+
+381
+00:30:23,919 --> 00:30:24,919
+decisions.
+
+382
+00:30:24,919 --> 00:30:29,740
+But, they are missing one important piece
+of the puzzle, and that is the volume.
+
+383
+00:30:29,740 --> 00:30:34,529
+Trading without volume is one it is one of
+the biggest mistakes you could make.
+
+384
+00:30:34,529 --> 00:30:39,730
+I highly encourage you to watch one of these
+trading courses next, to learn more about
+
+385
+00:30:39,730 --> 00:30:43,880
+how to add the volume component into your
+strategies.
+
+386
+00:30:43,880 --> 00:30:49,190
+And check out our academy program, if you
+want to further level up your trading.
+
+387
+00:30:49,190 --> 00:30:49,929
+Until next time.
+

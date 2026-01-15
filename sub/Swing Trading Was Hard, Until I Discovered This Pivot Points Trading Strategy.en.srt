@@ -1,0 +1,874 @@
+1
+00:00:00,560 --> 00:00:05,120
+I don’t know about you, but I don’t like 
+spending all day in front of my trading screen.  
+
+2
+00:00:05,120 --> 00:00:09,600
+I want to have the time to do other activities I 
+enjoy, while having some trades in the background. 
+
+3
+00:00:10,160 --> 00:00:15,360
+So, I’m revealing a profitable one-hour trading 
+strategy and I will share how I find leading  
+
+4
+00:00:15,360 --> 00:00:20,640
+signals, how I know right at the beginning of 
+the day if the market is worth trading or not,  
+
+5
+00:00:20,640 --> 00:00:23,600
+and all of this by spending 
+just 30 minutes in the morning. 
+
+6
+00:00:24,160 --> 00:00:28,000
+Before we begin, if you want to show your 
+support, please leave a like to help us  
+
+7
+00:00:28,000 --> 00:00:32,240
+with Youtube algorithm and turn on the bell, so 
+you don’t miss when new videos are released.
+  
+
+8
+00:00:33,680 --> 00:00:39,120
+The speed of the markets on lower time frames 
+represents a big problem for many traders.  
+
+9
+00:00:39,120 --> 00:00:42,960
+All the trading decisions you make 
+will have to be done much faster. 
+
+10
+00:00:42,960 --> 00:00:46,640
+One solution to this problem is 
+trading the one hour time frame. 
+
+11
+00:00:47,440 --> 00:00:52,080
+The 1 hour chart offers flexibility, 
+there’s considerably less noise  
+
+12
+00:00:52,080 --> 00:00:57,200
+and it also generates enough trades so you 
+have lots of decent chances of making money. 
+
+13
+00:00:57,200 --> 00:01:03,600
+This strategy involves finding trending days based 
+on the central pivot range, a leading indicator,  
+
+14
+00:01:03,600 --> 00:01:07,520
+and taking trades around safe areas, 
+in the direction of the main trend,  
+
+15
+00:01:07,520 --> 00:01:10,640
+using simple price action.
+By the end of this video,  
+
+16
+00:01:10,640 --> 00:01:15,040
+you’ll know right at the beginning of the 
+day if you are going to trade your market  
+
+17
+00:01:15,040 --> 00:01:17,280
+and you’ll also know the 
+direction you’ll follow. 
+  
+
+18
+00:01:18,560 --> 00:01:22,720
+If I have to name my favorite 
+indicator, well it’s the Pivot Points. 
+
+19
+00:01:22,720 --> 00:01:28,160
+Pivots are nothing but support/resistance, 
+based on the high/low/close of previous day  
+
+20
+00:01:28,160 --> 00:01:32,880
+and offers you a framework to trade on.
+By plotting Pivot Points on your chart,  
+
+21
+00:01:32,880 --> 00:01:36,960
+it will show you boundaries, where price 
+is likely to face support/resistance. 
+
+22
+00:01:37,520 --> 00:01:42,240
+Unlike lagging indicators, pivots don’t 
+change as you change your timeframe,  
+
+23
+00:01:42,240 --> 00:01:47,120
+once you plot them on your chart at the market 
+opening, they remain there until market closes. 
+
+24
+00:01:47,840 --> 00:01:51,360
+And one more aspect, pivots 
+are being used by big players.
+  
+
+25
+00:01:52,720 --> 00:01:56,480
+I came to know about the Central 
+Pivot Range concept after reading  
+
+26
+00:01:56,480 --> 00:02:02,960
+the “The Logical Trader” by Mark Fischer.
+CPR is nothing but a range of 3 lines, one above  
+
+27
+00:02:02,960 --> 00:02:08,640
+and one below the central pivot point of the day.
+The fundamental idea behind this indicator is that  
+
+28
+00:02:08,640 --> 00:02:13,040
+the particular day’s trading range captures 
+everything about the market sentiment,  
+
+29
+00:02:13,600 --> 00:02:17,440
+so this range can be used to predict the 
+price movement of the following days.
+  
+
+30
+00:02:18,880 --> 00:02:21,840
+How to read the price action 
+using the Central Pivot Range. 
+
+31
+00:02:22,480 --> 00:02:27,360
+When the CPR makes higher highs, meaning 
+CPR is higher than the previous day,  
+
+32
+00:02:27,360 --> 00:02:30,000
+that indicates that the particular 
+market is in an uptrend. 
+
+33
+00:02:30,640 --> 00:02:35,680
+When the CPR makes lower lows, meaning 
+CPR is lower compared to the previous day,  
+
+34
+00:02:35,680 --> 00:02:41,680
+this indicates that the market is in a downtrend.
+As long as the price is above CPR, it is generally  
+
+35
+00:02:41,680 --> 00:02:47,440
+known as bullish day, and as long as the price 
+is trading below CPR, we are in a bearish day 
+
+36
+00:02:48,240 --> 00:02:54,160
+Of course, this doesn’t mean if you see price 
+trading above CPR you’ll go and buy it. CPR is  
+
+37
+00:02:54,160 --> 00:02:58,480
+just a guideline, and I will show you later 
+how to filter and find the best signals.
+  
+
+38
+00:02:59,920 --> 00:03:04,320
+The wider the Central Pivot Range, the more 
+difficult for the price to break the area. 
+
+39
+00:03:04,880 --> 00:03:10,640
+This basically means that wider Central Pivot 
+Ranges are more powerful than a narrow width CPR. 
+
+40
+00:03:11,360 --> 00:03:17,200
+Have a look at this chart. This was a wide 
+CPR day, and when price retraced to the area,  
+
+41
+00:03:17,200 --> 00:03:23,680
+it found support and was unable to go below it.
+And look what happened when the CPR was narrow.  
+
+42
+00:03:23,680 --> 00:03:27,440
+The price broke on both sides of 
+the area, hunting stop orders.  
+
+43
+00:03:28,080 --> 00:03:33,360
+And no clear trend during the day, just sideways 
+price movement and lots of consolidation. 
+
+44
+00:03:34,000 --> 00:03:40,240
+So if CPR is too narrow it's unlikely the CPR 
+will offer a solid support or resistance area. 
+
+45
+00:03:40,880 --> 00:03:46,080
+Whenever CPR is too narrow I don’t pay 
+much importance if the price comes near it,  
+
+46
+00:03:46,080 --> 00:03:48,240
+because it can easily pierce it and break it. 
+
+47
+00:03:48,800 --> 00:03:53,360
+So, remember, narrow CPR doesn’t 
+offer much support/resistance.
+ 
+ 
+ 
+ 
+ 
+
+48
+00:03:54,800 --> 00:03:59,040
+Also, when Central Pivot Range 
+is wider, often but not always,  
+
+49
+00:03:59,040 --> 00:04:04,240
+such days are range days, where price moves 
+from one range to another throughout the day. 
+
+50
+00:04:05,040 --> 00:04:10,800
+Look at this example. We had a strong move 
+upward, so the next day the CPR was quite wide. 
+
+51
+00:04:11,360 --> 00:04:15,440
+We had a range day, around this 
+area. And remember the previous rule.  
+
+52
+00:04:15,440 --> 00:04:19,680
+A wide range means that it’s more difficult 
+for the price to break the area. 
+ 
+  
+
+53
+00:04:20,960 --> 00:04:25,200
+Another observation is that a narrow 
+Central Pivot Range can lead to a big  
+
+54
+00:04:25,200 --> 00:04:30,240
+trending day and wide Central Pivot Range 
+can lead to quiet and range bound day. 
+
+55
+00:04:31,120 --> 00:04:36,400
+In this example, you can see a very narrow 
+range day, which lead to a huge move during  
+
+56
+00:04:36,400 --> 00:04:42,240
+the day. Observe how the price was trending 
+in one direction, with lots of momentum. 
+
+57
+00:04:42,240 --> 00:04:46,400
+And of course, after such a strong 
+trending day, the next day was a wide  
+
+58
+00:04:46,400 --> 00:04:52,000
+range CPR, with sideways price action.
+This an efficient way to analyze price,  
+
+59
+00:04:52,000 --> 00:04:55,000
+quite different from the classic 
+price action techniques. 
+  
+
+60
+00:04:55,840 --> 00:05:00,240
+There’s another high probability setup, 
+and that is the Fresh Central Pivot Range. 
+
+61
+00:05:00,960 --> 00:05:05,440
+If on any given day, price didn’t 
+touch its CPR, it will be considered  
+
+62
+00:05:05,440 --> 00:05:11,440
+as Fresh CPR for next coming 2 or 3 days.
+Here’s an example, the price made an aggressive  
+
+63
+00:05:11,440 --> 00:05:18,080
+move downward and the next day, price action 
+didn’t touch its CPR. So that was a Fresh CPR,  
+
+64
+00:05:18,080 --> 00:05:21,120
+an important area to keep an eye 
+on for the next several days.
+ 
+  
+
+65
+00:05:22,480 --> 00:05:27,120
+Sometimes, during the trading day, you’ll 
+see no candlesticks inside the CPR,  
+
+66
+00:05:27,120 --> 00:05:30,560
+but only one or two wicks entering inside the CPR.  
+
+67
+00:05:30,560 --> 00:05:35,200
+This is also a Fresh CPR and still a 
+very powerful support/resistance area. 
+
+68
+00:05:35,920 --> 00:05:39,200
+And here an interesting fact I 
+found out after my backtesting. 
+
+69
+00:05:39,760 --> 00:05:45,680
+Price respects a Fresh CPR at the opening of 
+the session compared to mid to late afternoon. 
+
+70
+00:05:46,400 --> 00:05:52,640
+So if the previous day was a fresh CPR, and 
+today at the opening, price approaches the area,  
+
+71
+00:05:52,640 --> 00:05:56,960
+then that fresh CPR has a high chance to 
+work as a strong support or resistance. 
+
+72
+00:05:57,680 --> 00:06:02,960
+If price approaches the previous day fresh 
+CPR after the middle of the trading session,  
+
+73
+00:06:02,960 --> 00:06:08,480
+then the CPR isn’t likely to work as strong 
+support/resistance and price can easily break it.
+  
+
+74
+00:06:09,760 --> 00:06:13,120
+Here’s an example.
+We have a Fresh CPR on chart,  
+
+75
+00:06:13,120 --> 00:06:18,720
+and on the next day, the market opened below 
+the fresh CPR, touched it, and the area acted  
+
+76
+00:06:18,720 --> 00:06:26,000
+as resistance and price immediately reversed.
+So Fresh CPR works as strong support/resistance  
+
+77
+00:06:26,000 --> 00:06:30,000
+at opening and less powerful during 
+the second part of the trading day.
+  
+
+78
+00:06:31,280 --> 00:06:36,640
+Plotting the CPR on your chart can give you 
+a great edge in your Trading. CPR is also  
+
+79
+00:06:36,640 --> 00:06:41,920
+known as “heartbeat” of the market where price is 
+likely to change its direction most of the time. 
+
+80
+00:06:41,920 --> 00:06:46,720
+CPR is a powerful support and resistance 
+area. So, it is not a good idea to go short  
+
+81
+00:06:46,720 --> 00:06:51,760
+when price is above the CPR, because it 
+will act as a support area, and it’s not a  
+
+82
+00:06:51,760 --> 00:06:56,720
+good idea to go long when price is below CPR 
+because it will act as a resistance area.
+  
+
+83
+00:06:58,000 --> 00:07:03,600
+The idea of the strategy is to buy and sell the 
+waves of a trend. One of the best ways to buy  
+
+84
+00:07:03,600 --> 00:07:08,400
+and sell pullbacks in a trend is to play 
+the bounces off the central pivot range,  
+
+85
+00:07:08,400 --> 00:07:14,400
+which is the method many professionals use.
+Essentially, each pull-back to the pivot range  
+
+86
+00:07:14,400 --> 00:07:18,960
+is a buying opportunity within an uptrend, 
+and a selling opportunity in a downtrend. 
+
+87
+00:07:19,600 --> 00:07:23,600
+How do I define a trend, 
+using the CPR? Very simple. 
+
+88
+00:07:23,600 --> 00:07:29,280
+If the current day CPR is higher than the 
+previous one, we have a short term uptrend.  
+
+89
+00:07:29,280 --> 00:07:34,720
+We look for long entries above the CPR.
+If the current day CPR is lower than the  
+
+90
+00:07:34,720 --> 00:07:41,440
+previous one, we have a short term downtrend. We 
+look for short entries below the CPR. This is an  
+
+91
+00:07:41,440 --> 00:07:46,400
+important condition in our strategy.
+ 
+So at the beginning of the day,  
+
+92
+00:07:46,400 --> 00:07:51,680
+the first step you need to take is to analyze the 
+position of the CPR, relative to the previous day. 
+
+93
+00:07:51,680 --> 00:07:56,400
+• If it’s higher, you know that during the 
+day you’ll be searching for long entries. 
+
+94
+00:07:56,400 --> 00:07:59,600
+• If it’s lower, you know 
+you want to short the market. 
+
+95
+00:08:00,320 --> 00:08:06,080
+If the CPR is wide, you know that the price will 
+most likely find support or resistance at the CPR,  
+
+96
+00:08:06,640 --> 00:08:09,360
+but you will also be prepared 
+for ranging conditions. 
+
+97
+00:08:10,320 --> 00:08:15,200
+If the CPR is narrow, you can have a 
+strong trending day, but at the same time,  
+
+98
+00:08:15,200 --> 00:08:21,600
+the CPR may not offer much support and resistance.
+Using the H1 time frame, you remove the noise on  
+
+99
+00:08:21,600 --> 00:08:26,320
+the lower time frames. Just by looking at the 
+chart at the beginning of the trading day,  
+
+100
+00:08:26,320 --> 00:08:31,120
+you’ll know what to expect. This is how 
+trading should be. Planned and organized.
+ 
+  
+
+101
+00:08:32,400 --> 00:08:35,360
+Here are several techniques 
+I use to filter signals  
+
+102
+00:08:35,360 --> 00:08:40,560
+and to trade only the high probability ones.
+The first one is the classic trend line breakout,  
+
+103
+00:08:40,560 --> 00:08:43,760
+which is one of the most effective 
+strategies if traded correctly. 
+
+104
+00:08:44,720 --> 00:08:49,120
+Trendlines connect consecutive higher 
+lows in an uptrend and consecutive  
+
+105
+00:08:49,120 --> 00:08:54,640
+lower highs in a downtrend. The idea is to 
+use the momentum of a trend line breakout,  
+
+106
+00:08:54,640 --> 00:09:00,560
+to find areas around CPR area. 
+ 
+ 
+The strategy here is very simple: 
+
+107
+00:09:00,560 --> 00:09:06,080
+If the price breaks a downward trendline, the 
+CPR is higher compared to the previous day,  
+
+108
+00:09:06,080 --> 00:09:11,520
+and the price is testing the central pivot 
+range from the upper side and founds support,  
+
+109
+00:09:11,520 --> 00:09:16,640
+then you should look for long positions.
+Conversely, if the price breaks an upward  
+
+110
+00:09:16,640 --> 00:09:22,000
+trendline, the CPR is lower compared to the 
+previous day, and the price is testing the  
+
+111
+00:09:22,000 --> 00:09:27,760
+central pivot range from the lower side and founds 
+resistance, then you look for short positions.
+ 
+  
+
+112
+00:09:29,200 --> 00:09:36,080
+Here’s the euro yen. We had a sustained downtrend, 
+a 3 days uptrend and a trend line breakout.  
+
+113
+00:09:36,080 --> 00:09:41,840
+As the price broke this previous swing, it found 
+resistance at the lower central pivot range. 
+
+114
+00:09:41,840 --> 00:09:46,400
+The rejection came in the form of a 
+pin bar. As the central pivot range  
+
+115
+00:09:46,400 --> 00:09:50,960
+was also lower than the previous one, the 
+conditions were met for a short position. 
+
+116
+00:09:51,680 --> 00:09:58,240
+Also, this is a wide range CPR, and we already had 
+some previous price action returning to the zone.  
+
+117
+00:09:58,800 --> 00:10:05,120
+We know that during wide CPRs, we could witness 
+some ranges. So a short right below the CPR  
+
+118
+00:10:05,120 --> 00:10:09,120
+was also in line with this, because the 
+price already moved throughout the day. 
+
+119
+00:10:09,840 --> 00:10:15,840
+Stop loss goes above the CPR or above the 
+central pivot point (being a wide range),  
+
+120
+00:10:15,840 --> 00:10:22,160
+and you target the next big swing or a minimum 
+1.5 reward, compared to your risk.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+121
+00:10:23,280 --> 00:10:29,680
+We have an uptrend, with a 4 day downtrend 
+correction, 4 consecutive CPR days. Here we  
+
+122
+00:10:29,680 --> 00:10:34,480
+have the first up central pivot range, 
+and a double bottom around this level. 
+
+123
+00:10:35,040 --> 00:10:39,840
+The next day was also an up CPR day, with 
+the price breaking above this trendline. 
+
+124
+00:10:40,400 --> 00:10:44,240
+This time, the price managed to 
+reach the middle level of the range,  
+
+125
+00:10:44,240 --> 00:10:48,560
+the central pivot point, found 
+support and continued its uptrend. 
+
+126
+00:10:49,440 --> 00:10:53,120
+Always look for candlestick 
+formations to reveal rejection. 
+
+127
+00:10:53,120 --> 00:10:56,800
+In this case, it was a pin 
+bar, forming inside the CPR. 
+
+128
+00:10:57,520 --> 00:11:03,200
+We also had confluence with this swing high 
+breakout, which became support. Long above the  
+
+129
+00:11:03,200 --> 00:11:08,880
+CPR, with a stop loss either below the pin bar 
+inside the CPR, or below the middle CPR line,  
+
+130
+00:11:08,880 --> 00:11:13,840
+and you target the next swing 
+high, right here. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+131
+00:11:57,840 --> 00:12:01,520
+The second strategy involves 
+the Ichimoku cloud, but we’ll  
+
+132
+00:12:01,520 --> 00:12:07,040
+use only the conversion line or Tenkan Sen.
+The Conversion Line will help you with the  
+
+133
+00:12:07,040 --> 00:12:12,000
+short-term price momentum and also signals 
+an area of minor support or resistance. 
+
+134
+00:12:12,000 --> 00:12:18,480
+• If the market price is above the conversion 
+line, this indicates a short-term upward momentum,  
+
+135
+00:12:18,480 --> 00:12:20,960
+and you would want to 
+concentrate on buying signals 
+
+136
+00:12:20,960 --> 00:12:26,960
+• If the price is below conversion line, 
+this reveals a short-term downward momentum,  
+
+137
+00:12:26,960 --> 00:12:32,080
+and you would want to search for selling signals
+ 
+ 
+You also need to pay attention  
+
+138
+00:12:32,080 --> 00:12:35,680
+to the slope of the line.
+• An increasing conversion line,  
+
+139
+00:12:35,680 --> 00:12:41,760
+meaning an upward slope, indicates an upward trend
+• A decreasing conversion line, meaning a downward  
+
+140
+00:12:41,760 --> 00:12:46,800
+slope, indicates a downward trend
+The idea is to find zones with the  
+
+141
+00:12:46,800 --> 00:12:51,840
+central pivot range and the conversion 
+line close together, areas of confluence. 
+
+142
+00:12:52,480 --> 00:12:57,920
+So if CPR is higher compared to the previous 
+day, the price is testing the central pivot  
+
+143
+00:12:57,920 --> 00:13:03,440
+range from the upper side and stays above the 
+conversion line, you look for long entries. 
+
+144
+00:13:04,400 --> 00:13:09,520
+If CPR is lower compared to the previous 
+day, the price is testing the central pivot  
+
+145
+00:13:09,520 --> 00:13:14,800
+range from the lower side and stays below the 
+conversion line, you look for short entries.
+ 
+  
+
+146
+00:13:16,080 --> 00:13:20,240
+Here’s a long entry. We have an 
+upward CPR day, higher than the  
+
+147
+00:13:20,240 --> 00:13:26,480
+previous day, so we look for long trades.
+The CPR is wide, so we expect strong support. 
+
+148
+00:13:27,040 --> 00:13:31,120
+We also have the conversion line 
+offering support. And look what happened  
+
+149
+00:13:31,120 --> 00:13:36,880
+when price entered the zone. It touched the 
+conversion line, formed a pin bar and reversed. 
+
+150
+00:13:37,680 --> 00:13:42,640
+This strategy offers a lower stop loss. You 
+could place it below the conversion line,  
+
+151
+00:13:42,640 --> 00:13:48,240
+or below the pin bar rejecting the area. You don’t 
+need to place it all the way below the area. 
+  
+
+152
+00:13:49,600 --> 00:13:54,320
+And here’s a short Tesla trade.
+We found a lower CPR day, price is  
+
+153
+00:13:54,320 --> 00:14:00,560
+below the conversion line, so downward momentum.
+At the opening of the session, price entered the  
+
+154
+00:14:00,560 --> 00:14:06,160
+central pivot range, and touched to the pip, 
+both the upper level and the conversion line,  
+
+155
+00:14:06,160 --> 00:14:10,320
+and immediately moved in the opposite 
+direction, forming yet another pin bar. 
+
+156
+00:14:11,040 --> 00:14:14,320
+The pin bars are my go-to signals, 
+perfect for this strategy. 
+
+157
+00:14:14,960 --> 00:14:19,440
+As there is clearly bearish pressure, we 
+took a short trade right after the pin bar. 
+
+158
+00:14:20,080 --> 00:14:24,560
+Stop loss above the conversion line, 
+which is also above the pin bar and CPR,  
+
+159
+00:14:25,120 --> 00:14:29,120
+targeting the next swing.
+If and when price moves above  
+
+160
+00:14:29,120 --> 00:14:33,920
+the conversion line, you need to be careful 
+and close at least a part of your position  
+
+161
+00:14:33,920 --> 00:14:43,840
+because momentum is shifting 
+to the other side.
+ 
+ 
+ 
+ 
+ 
+  
+
+162
+00:15:22,640 --> 00:15:26,560
+As always, if you got any value 
+from this and learned something new,  
+
+163
+00:15:26,560 --> 00:15:30,000
+drop a like to help us with Youtube 
+algorithm, and make sure you click  
+
+164
+00:15:30,000 --> 00:15:36,160
+the bell icon to stay in touch when new 
+videos are released. Until next time.
+

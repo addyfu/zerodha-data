@@ -1,0 +1,924 @@
+1
+00:00:00,140 --> 00:00:05,910
+here is what I've learned after 14 years
+
+2
+00:00:03,149 --> 00:00:09,150
+of trading the most emotionally and
+
+3
+00:00:05,910 --> 00:00:10,620
+complicated aspect of trading is knowing
+
+4
+00:00:09,150 --> 00:00:13,889
+how to set up take profit and stop-loss
+
+5
+00:00:10,620 --> 00:00:16,320
+orders period do traders can use the
+
+6
+00:00:13,889 --> 00:00:18,600
+same strategy and during at the same
+
+7
+00:00:16,320 --> 00:00:21,689
+price on a chart but record different
+
+8
+00:00:18,600 --> 00:00:24,240
+results why is that because of trade
+
+9
+00:00:21,689 --> 00:00:26,820
+management if you enter a trade without
+
+10
+00:00:24,240 --> 00:00:28,380
+any kind of exit strategy you will put
+
+11
+00:00:26,820 --> 00:00:31,669
+yourself in the situation to take
+
+12
+00:00:28,380 --> 00:00:34,170
+premature profits or worse to run losses
+
+13
+00:00:31,669 --> 00:00:37,440
+there are only two ways you can get off
+
+14
+00:00:34,170 --> 00:00:40,020
+of a trade by taking a loss or by making
+
+15
+00:00:37,440 --> 00:00:42,120
+a profit and money management is one of
+
+16
+00:00:40,020 --> 00:00:44,399
+the most important aspects of trading
+
+17
+00:00:42,120 --> 00:00:46,920
+often neglected by a lot of traders and
+
+18
+00:00:44,399 --> 00:00:49,920
+investors today I'll show you my two
+
+19
+00:00:46,920 --> 00:00:52,289
+best exit technical indicators that will
+
+20
+00:00:49,920 --> 00:00:54,530
+help you to lock more profits and will
+
+21
+00:00:52,289 --> 00:00:57,449
+reduce the probability of taking a loss
+
+22
+00:00:54,530 --> 00:01:00,120
+before we continue if you are new to my
+
+23
+00:00:57,449 --> 00:01:02,760
+channel make sure you subscribe turn on
+
+24
+00:01:00,120 --> 00:01:06,840
+notifications and leave a like to show
+
+25
+00:01:02,760 --> 00:01:09,360
+your support so when talking about exit
+
+26
+00:01:06,840 --> 00:01:12,180
+strategies we use terms like take profit
+
+27
+00:01:09,360 --> 00:01:14,100
+and stop-loss orders hopefully during
+
+28
+00:01:12,180 --> 00:01:15,979
+your training day you'll encounter more
+
+29
+00:01:14,100 --> 00:01:18,600
+take profit orders than stop losses
+
+30
+00:01:15,979 --> 00:01:21,210
+that's why in order for you to limit the
+
+31
+00:01:18,600 --> 00:01:23,909
+risk on a trade you need an exit plan
+
+32
+00:01:21,210 --> 00:01:26,250
+the complicated part when it comes to
+
+33
+00:01:23,909 --> 00:01:28,740
+trading or investing is to exit a
+
+34
+00:01:26,250 --> 00:01:30,990
+position when have a respectable profit
+
+35
+00:01:28,740 --> 00:01:33,840
+rather than waiting for the market to
+
+36
+00:01:30,990 --> 00:01:36,689
+come back against you and exiting out of
+
+37
+00:01:33,840 --> 00:01:38,579
+fear the difficulty here is that you
+
+38
+00:01:36,689 --> 00:01:40,380
+will not want to exit the trade when it
+
+39
+00:01:38,579 --> 00:01:42,930
+is in profit and moving in your favour
+
+40
+00:01:40,380 --> 00:01:46,079
+as it feels like the trade will continue
+
+41
+00:01:42,930 --> 00:01:47,659
+in that direction the irony is that not
+
+42
+00:01:46,079 --> 00:01:50,100
+exiting the moment Atreides
+
+43
+00:01:47,659 --> 00:01:51,689
+significantly in your favor usually
+
+44
+00:01:50,100 --> 00:01:54,509
+means that you will make an emotional
+
+45
+00:01:51,689 --> 00:01:56,280
+exit because at some point the trade
+
+46
+00:01:54,509 --> 00:02:00,719
+will come back crashing against your
+
+47
+00:01:56,280 --> 00:02:03,390
+current position now how do you know how
+
+48
+00:02:00,719 --> 00:02:05,100
+to exit a trade when in profit here are
+
+49
+00:02:03,390 --> 00:02:08,160
+the best indicators you could use to
+
+50
+00:02:05,100 --> 00:02:11,099
+exit the market the first indicator the
+
+51
+00:02:08,160 --> 00:02:13,620
+chandalier exit chandalier exit is a
+
+52
+00:02:11,099 --> 00:02:15,690
+volatility based indicator
+
+53
+00:02:13,620 --> 00:02:17,849
+created to enable a trader to stay in a
+
+54
+00:02:15,690 --> 00:02:20,849
+trade until there is a definite trend
+
+55
+00:02:17,849 --> 00:02:23,040
+reversal by using the Chandler exit
+
+56
+00:02:20,849 --> 00:02:26,180
+indicator you will be able to avoid
+
+57
+00:02:23,040 --> 00:02:29,069
+early exits and maximize returns
+
+58
+00:02:26,180 --> 00:02:31,920
+indicator is created using the average
+
+59
+00:02:29,069 --> 00:02:34,530
+true range values over a given time
+
+60
+00:02:31,920 --> 00:02:37,409
+period other than the average true range
+
+61
+00:02:34,530 --> 00:02:40,049
+the highest high and the lowest low
+
+62
+00:02:37,409 --> 00:02:43,799
+price of an asset over a specific time
+
+63
+00:02:40,049 --> 00:02:46,500
+period is used in the calculation the
+
+64
+00:02:43,799 --> 00:02:49,920
+default settings for this indicator is
+
+65
+00:02:46,500 --> 00:02:50,430
+22 because there are 20 to 20 days in a
+
+66
+00:02:49,920 --> 00:02:53,579
+month
+
+67
+00:02:50,430 --> 00:02:56,340
+the Chandler exit is based on the
+
+68
+00:02:53,579 --> 00:02:59,040
+principle that there exists a high
+
+69
+00:02:56,340 --> 00:03:01,799
+probability of a trend reversal whenever
+
+70
+00:02:59,040 --> 00:03:04,829
+the price of a stock moves against the
+
+71
+00:03:01,799 --> 00:03:10,019
+prevailing trend by a distance equal to
+
+72
+00:03:04,829 --> 00:03:11,670
+three times the average volatility so
+
+73
+00:03:10,019 --> 00:03:14,430
+let's say you took a long position on a
+
+74
+00:03:11,670 --> 00:03:17,459
+stock by setting the chandalier exit
+
+75
+00:03:14,430 --> 00:03:20,250
+three average to range values below the
+
+76
+00:03:17,459 --> 00:03:22,500
+period high the indicator provides a
+
+77
+00:03:20,250 --> 00:03:25,470
+buffer that is three times the
+
+78
+00:03:22,500 --> 00:03:28,590
+volatility a decline strong enough to
+
+79
+00:03:25,470 --> 00:03:31,079
+break this level warns you about your
+
+80
+00:03:28,590 --> 00:03:33,870
+long position so when the price closes
+
+81
+00:03:31,079 --> 00:03:36,930
+below the chandalier exit you should
+
+82
+00:03:33,870 --> 00:03:39,750
+re-evaluate your long position the
+
+83
+00:03:36,930 --> 00:03:41,760
+opposite applies to short positions so
+
+84
+00:03:39,750 --> 00:03:44,280
+you are short on a stock and the
+
+85
+00:03:41,760 --> 00:03:47,030
+Chandler exit is set three Average True
+
+86
+00:03:44,280 --> 00:03:50,160
+Range values above the period low
+
+87
+00:03:47,030 --> 00:03:52,889
+providing a volatility based buffer and
+
+88
+00:03:50,160 --> 00:03:55,530
+events strong enough to exceed is level
+
+89
+00:03:52,889 --> 00:03:59,010
+is a sign that you might want to take
+
+90
+00:03:55,530 --> 00:04:01,410
+your profits but even though is mostly
+
+91
+00:03:59,010 --> 00:04:04,079
+used for stop losses the CH and earlier
+
+92
+00:04:01,410 --> 00:04:06,650
+exit can also be used as a trend tool
+
+93
+00:04:04,079 --> 00:04:09,829
+sometimes you will see a strong uptrend
+
+94
+00:04:06,650 --> 00:04:13,199
+but not know where to jump the trade
+
+95
+00:04:09,829 --> 00:04:15,949
+legendary exit can be used to define the
+
+96
+00:04:13,199 --> 00:04:19,440
+trend and set as a trailing stop loss in
+
+97
+00:04:15,949 --> 00:04:23,130
+this example we see the stock breaking
+
+98
+00:04:19,440 --> 00:04:26,400
+out and starting an extended uptrend the
+
+99
+00:04:23,130 --> 00:04:27,450
+Chandler exit defined this up movement
+
+100
+00:04:26,400 --> 00:04:31,340
+quite well
+
+101
+00:04:27,450 --> 00:04:34,710
+as it followed price action going higher
+
+102
+00:04:31,340 --> 00:04:37,140
+also keep in mind that some stocks are
+
+103
+00:04:34,710 --> 00:04:39,420
+more volatile than others and require a
+
+104
+00:04:37,140 --> 00:04:42,000
+bigger buffer which means that the
+
+105
+00:04:39,420 --> 00:04:44,010
+multiplier should be increased this
+
+106
+00:04:42,000 --> 00:04:47,070
+example shows the stock in a clear
+
+107
+00:04:44,010 --> 00:04:49,620
+downtrend for most of the year when
+
+108
+00:04:47,070 --> 00:04:52,560
+normal chandalier exit would have
+
+109
+00:04:49,620 --> 00:04:55,680
+triggered some stops just before the
+
+110
+00:04:52,560 --> 00:04:58,200
+down trend continued noticed how the
+
+111
+00:04:55,680 --> 00:05:00,600
+stock moved above the dashed line
+
+112
+00:04:58,200 --> 00:05:03,780
+several times during this downtrend
+
+113
+00:05:00,600 --> 00:05:05,250
+so when trading more volatile stocks you
+
+114
+00:05:03,780 --> 00:05:08,370
+should increase the average to range
+
+115
+00:05:05,250 --> 00:05:10,800
+multiplier in this example the Green
+
+116
+00:05:08,370 --> 00:05:15,500
+chandalier line allows for more
+
+117
+00:05:10,800 --> 00:05:18,750
+volatility by using 5 as the multiplier
+
+118
+00:05:15,500 --> 00:05:20,850
+the second indicator useful for exiting
+
+119
+00:05:18,750 --> 00:05:23,100
+your trades is the dawn Jian channel
+
+120
+00:05:20,850 --> 00:05:25,320
+this indicator is similar to the
+
+121
+00:05:23,100 --> 00:05:27,450
+Bollinger Bands and analyzes the
+
+122
+00:05:25,320 --> 00:05:29,910
+evolution of the price by plotting the
+
+123
+00:05:27,450 --> 00:05:32,700
+highest high and the lowest low over a
+
+124
+00:05:29,910 --> 00:05:34,770
+specific time interval the most common
+
+125
+00:05:32,700 --> 00:05:37,580
+settings for tracking the price higher
+
+126
+00:05:34,770 --> 00:05:40,170
+highs and lower lows is the 20 period
+
+127
+00:05:37,580 --> 00:05:43,500
+don't change channels is a useful
+
+128
+00:05:40,170 --> 00:05:46,590
+indicator for measuring volatility in a
+
+129
+00:05:43,500 --> 00:05:50,100
+market the volatility measures the rate
+
+130
+00:05:46,590 --> 00:05:53,100
+at which stock moves a volatile stock is
+
+131
+00:05:50,100 --> 00:05:55,650
+one that records rapid fluctuations in
+
+132
+00:05:53,100 --> 00:05:58,970
+price while a non volatile stock
+
+133
+00:05:55,650 --> 00:06:02,400
+registers moderate price fluctuations
+
+134
+00:05:58,970 --> 00:06:05,370
+don't change channels contract when the
+
+135
+00:06:02,400 --> 00:06:08,760
+volatility is low and expand when
+
+136
+00:06:05,370 --> 00:06:11,760
+volatility increases during periods of
+
+137
+00:06:08,760 --> 00:06:15,030
+low volatility don't change channels are
+
+138
+00:06:11,760 --> 00:06:17,880
+narrow while during periods of high
+
+139
+00:06:15,030 --> 00:06:20,340
+volatility don't change channels expand
+
+140
+00:06:17,880 --> 00:06:23,380
+drastically
+
+141
+00:06:20,340 --> 00:06:25,300
+the don't change channels are the basis
+
+142
+00:06:23,380 --> 00:06:28,419
+of a popular training strategy called
+
+143
+00:06:25,300 --> 00:06:30,639
+turtle trading in essence the turtle
+
+144
+00:06:28,419 --> 00:06:31,720
+trading strategy is based on a breakout
+
+145
+00:06:30,639 --> 00:06:34,240
+of the upward
+
+146
+00:06:31,720 --> 00:06:36,700
+resistance line or lower support line as
+
+147
+00:06:34,240 --> 00:06:38,800
+the upper and lower don't change channel
+
+148
+00:06:36,700 --> 00:06:41,440
+lines actually represent previous
+
+149
+00:06:38,800 --> 00:06:43,990
+support and resistance lines a break of
+
+150
+00:06:41,440 --> 00:06:47,169
+those lines generates buy and sell
+
+151
+00:06:43,990 --> 00:06:49,600
+signals the exit signal is simply a
+
+152
+00:06:47,169 --> 00:06:52,720
+breakout of the channel to the opposite
+
+153
+00:06:49,600 --> 00:06:55,000
+side this allows to write the trend for
+
+154
+00:06:52,720 --> 00:06:58,510
+a long period before exiting the trade
+
+155
+00:06:55,000 --> 00:07:01,270
+so don't change channels is also a great
+
+156
+00:06:58,510 --> 00:07:04,360
+trend indicator when the price action
+
+157
+00:07:01,270 --> 00:07:07,419
+breaks true and closes above the upper
+
+158
+00:07:04,360 --> 00:07:10,870
+don't chain band the signals an upward
+
+159
+00:07:07,419 --> 00:07:13,210
+movement and a possible by signal when a
+
+160
+00:07:10,870 --> 00:07:16,570
+price action breaks true and closes
+
+161
+00:07:13,210 --> 00:07:18,910
+below the lower don't chain band the
+
+162
+00:07:16,570 --> 00:07:23,110
+signals a downward movement and a
+
+163
+00:07:18,910 --> 00:07:24,940
+possible sell signal this may seem a
+
+164
+00:07:23,110 --> 00:07:27,789
+little confusing if you are familiar
+
+165
+00:07:24,940 --> 00:07:30,970
+with the Bollinger Bands many traders
+
+166
+00:07:27,789 --> 00:07:33,970
+assume that a breakout above upper or
+
+167
+00:07:30,970 --> 00:07:36,610
+lower don't change channels signals an
+
+168
+00:07:33,970 --> 00:07:39,100
+overbought and oversold area and the
+
+169
+00:07:36,610 --> 00:07:41,800
+reversal could be on accords this
+
+170
+00:07:39,100 --> 00:07:44,020
+assumption is wrong trading with don't
+
+171
+00:07:41,800 --> 00:07:46,840
+change channels is similar to support
+
+172
+00:07:44,020 --> 00:07:49,419
+and resistance trading it's simple if
+
+173
+00:07:46,840 --> 00:07:52,539
+the market momentum is able to surpass
+
+174
+00:07:49,419 --> 00:07:55,570
+don't an upper channel then an uptrend
+
+175
+00:07:52,539 --> 00:07:58,690
+could be developing conversely if the
+
+176
+00:07:55,570 --> 00:08:01,630
+market momentum breaks below the dungeon
+
+177
+00:07:58,690 --> 00:08:04,600
+lower channel a new downtrend could be
+
+178
+00:08:01,630 --> 00:08:07,419
+developing just like in the case of
+
+179
+00:08:04,600 --> 00:08:10,000
+support and resistance lines once the
+
+180
+00:08:07,419 --> 00:08:12,700
+support level is broken becomes a
+
+181
+00:08:10,000 --> 00:08:17,610
+resistance level and once a resistant
+
+182
+00:08:12,700 --> 00:08:20,440
+line is broken becomes a support line
+
+183
+00:08:17,610 --> 00:08:22,690
+so how do you take your profits with
+
+184
+00:08:20,440 --> 00:08:24,790
+don't change channels the original
+
+185
+00:08:22,690 --> 00:08:27,520
+turtle trading strategy used the
+
+186
+00:08:24,790 --> 00:08:30,070
+stop-loss of two volatility units which
+
+187
+00:08:27,520 --> 00:08:32,380
+basically equals to two times the
+
+188
+00:08:30,070 --> 00:08:34,539
+average true range of the last 20
+
+189
+00:08:32,380 --> 00:08:37,780
+periods if you use the default settings
+
+190
+00:08:34,539 --> 00:08:40,150
+this gives enough room for the price to
+
+191
+00:08:37,780 --> 00:08:42,550
+move up and down in order not to be
+
+192
+00:08:40,150 --> 00:08:45,670
+stopped out too early during a strong
+
+193
+00:08:42,550 --> 00:08:48,670
+trend you can place your stop losses by
+
+194
+00:08:45,670 --> 00:08:51,040
+using the lower support line and place
+
+195
+00:08:48,670 --> 00:08:54,670
+your stop-loss just below the support
+
+196
+00:08:51,040 --> 00:08:58,420
+for a long position or just below the
+
+197
+00:08:54,670 --> 00:09:00,760
+resistance for a short position here's
+
+198
+00:08:58,420 --> 00:09:03,310
+an example of the don't change channel
+
+199
+00:09:00,760 --> 00:09:06,370
+breakout with a stop loss level above
+
+200
+00:09:03,310 --> 00:09:08,770
+the upper resistance line and the exit
+
+201
+00:09:06,370 --> 00:09:12,820
+level at the break of the upper channel
+
+202
+00:09:08,770 --> 00:09:15,610
+line notice how don't change channel
+
+203
+00:09:12,820 --> 00:09:19,300
+moves with the recent periods highs and
+
+204
+00:09:15,610 --> 00:09:22,089
+lows we were able to write the trend
+
+205
+00:09:19,300 --> 00:09:24,790
+until the break of the upper resistance
+
+206
+00:09:22,089 --> 00:09:30,070
+line which initiated a new Uptrend
+
+207
+00:09:24,790 --> 00:09:32,290
+afterwards another exit signal can be
+
+208
+00:09:30,070 --> 00:09:35,589
+generated using a touch of the midpoint
+
+209
+00:09:32,290 --> 00:09:37,930
+line of the channel if we look at the
+
+210
+00:09:35,589 --> 00:09:40,270
+daily chart of this stock we can see
+
+211
+00:09:37,930 --> 00:09:42,520
+that if you use a 50-day period for the
+
+212
+00:09:40,270 --> 00:09:46,000
+don't change channels using the rules
+
+213
+00:09:42,520 --> 00:09:47,920
+discussed before long trade if there's a
+
+214
+00:09:46,000 --> 00:09:50,050
+close above the channel with a closing
+
+215
+00:09:47,920 --> 00:09:53,110
+of the trade when touching the midpoint
+
+216
+00:09:50,050 --> 00:09:55,870
+line we see a couple of trades within
+
+217
+00:09:53,110 --> 00:09:58,480
+the past year it all depends on your
+
+218
+00:09:55,870 --> 00:10:01,089
+trading risk aversion if you use the
+
+219
+00:09:58,480 --> 00:10:03,670
+midpoint you will leave some profits on
+
+220
+00:10:01,089 --> 00:10:06,670
+the table more often when the trends are
+
+221
+00:10:03,670 --> 00:10:09,670
+strong you'll often witness that the mid
+
+222
+00:10:06,670 --> 00:10:12,580
+band will be touched by the price during
+
+223
+00:10:09,670 --> 00:10:16,570
+retracements and will act as support or
+
+224
+00:10:12,580 --> 00:10:18,610
+resistance and the trend will resume so
+
+225
+00:10:16,570 --> 00:10:21,460
+you have to choose if you want to exit
+
+226
+00:10:18,610 --> 00:10:24,970
+your trade at the lower band or at the
+
+227
+00:10:21,460 --> 00:10:27,339
+middleman if you got any value from this
+
+228
+00:10:24,970 --> 00:10:29,290
+video don't forget to subscribe hit the
+
+229
+00:10:27,339 --> 00:10:30,220
+bell icon and leave us a like to share
+
+230
+00:10:29,290 --> 00:10:33,240
+our support
+
+231
+00:10:30,220 --> 00:10:33,240
+until next time
+

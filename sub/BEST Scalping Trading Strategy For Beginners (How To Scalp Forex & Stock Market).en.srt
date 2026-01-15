@@ -1,0 +1,716 @@
+1
+00:00:00,030 --> 00:00:05,130
+hey guys in this video I will show you
+
+2
+00:00:02,820 --> 00:00:07,200
+how I sculpt the markets using a simple
+
+3
+00:00:05,130 --> 00:00:09,420
+energy setup strategy that helps me to
+
+4
+00:00:07,200 --> 00:00:11,910
+spot high probability areas on a chart
+
+5
+00:00:09,420 --> 00:00:14,009
+so scalping is basically a technique
+
+6
+00:00:11,910 --> 00:00:15,929
+which involves opening and closing the
+
+7
+00:00:14,009 --> 00:00:18,330
+trades in a very short period of time in
+
+8
+00:00:15,929 --> 00:00:20,310
+order to obtain quick profits this
+
+9
+00:00:18,330 --> 00:00:21,900
+trading method is based on opening
+
+10
+00:00:20,310 --> 00:00:25,140
+trades and closing them with small
+
+11
+00:00:21,900 --> 00:00:27,900
+profits on lower timeframes my scalping
+
+12
+00:00:25,140 --> 00:00:29,580
+setup is based on finding confluence the
+
+13
+00:00:27,900 --> 00:00:32,250
+confluence is an area with multiple
+
+14
+00:00:29,580 --> 00:00:34,950
+support and resistance levels both
+
+15
+00:00:32,250 --> 00:00:37,260
+static and dynamic a confluence of
+
+16
+00:00:34,950 --> 00:00:40,379
+support or resistance is more relevant
+
+17
+00:00:37,260 --> 00:00:42,920
+to traders as it includes two or more
+
+18
+00:00:40,379 --> 00:00:44,879
+important focus points on the chart
+
+19
+00:00:42,920 --> 00:00:47,520
+although it might seem complicated
+
+20
+00:00:44,879 --> 00:00:49,320
+finding conference on the chart is not
+
+21
+00:00:47,520 --> 00:00:52,260
+difficult you just have to train your
+
+22
+00:00:49,320 --> 00:00:55,050
+eyes to spot chart areas where multiple
+
+23
+00:00:52,260 --> 00:00:56,969
+levels meet finding confluence on your
+
+24
+00:00:55,050 --> 00:00:59,219
+charts it's very important for scalping
+
+25
+00:00:56,969 --> 00:01:02,309
+because these areas offer high
+
+26
+00:00:59,219 --> 00:01:04,290
+probability trade opportunities before
+
+27
+00:01:02,309 --> 00:01:06,900
+you continue with the scalping setup let
+
+28
+00:01:04,290 --> 00:01:09,180
+me tell you something important finding
+
+29
+00:01:06,900 --> 00:01:10,920
+confluence it's a quite subjective and
+
+30
+00:01:09,180 --> 00:01:13,710
+is dependent on the trader skill
+
+31
+00:01:10,920 --> 00:01:16,979
+experience and tools used on the chart
+
+32
+00:01:13,710 --> 00:01:18,900
+my personal role is to find areas with
+
+33
+00:01:16,979 --> 00:01:21,240
+at least two support and resistance
+
+34
+00:01:18,900 --> 00:01:24,860
+levels one of them must be a static
+
+35
+00:01:21,240 --> 00:01:28,049
+level in the other one a dynamic level
+
+36
+00:01:24,860 --> 00:01:29,939
+so we need three confluence conditions
+
+37
+00:01:28,049 --> 00:01:32,610
+to be met for our scalping strategy
+
+38
+00:01:29,939 --> 00:01:35,640
+first we need an obvious area of support
+
+39
+00:01:32,610 --> 00:01:37,590
+or resistance support and resistance is
+
+40
+00:01:35,640 --> 00:01:40,170
+practically the foundation of technical
+
+41
+00:01:37,590 --> 00:01:42,930
+analysis and these levels serve as a
+
+42
+00:01:40,170 --> 00:01:45,390
+starting point for developing an idea of
+
+43
+00:01:42,930 --> 00:01:48,689
+what may happen next in what concerns
+
+44
+00:01:45,390 --> 00:01:51,360
+the price movement so we first look at
+
+45
+00:01:48,689 --> 00:01:54,090
+recent market swings and try to spot
+
+46
+00:01:51,360 --> 00:01:57,030
+areas of static support or resistance as
+
+47
+00:01:54,090 --> 00:02:00,180
+a rule of thumb if the line includes
+
+48
+00:01:57,030 --> 00:02:02,549
+three or more swing points it means that
+
+49
+00:02:00,180 --> 00:02:05,790
+the support or resistance level is more
+
+50
+00:02:02,549 --> 00:02:08,550
+relevant but drawing horizontal lines
+
+51
+00:02:05,790 --> 00:02:11,069
+around recent market swings can be very
+
+52
+00:02:08,550 --> 00:02:13,170
+subjective and in most cases we can
+
+53
+00:02:11,069 --> 00:02:15,810
+usually only approximate
+
+54
+00:02:13,170 --> 00:02:17,459
+those areas that's why we need to add
+
+55
+00:02:15,810 --> 00:02:20,430
+something else for our scalping
+
+56
+00:02:17,459 --> 00:02:23,790
+confluence set up the second conference
+
+57
+00:02:20,430 --> 00:02:26,580
+condition involves the 200 EMA as a
+
+58
+00:02:23,790 --> 00:02:29,730
+dynamic area of support and resistance I
+
+59
+00:02:26,580 --> 00:02:31,440
+prefer to add the 200 EMA because as a
+
+60
+00:02:29,730 --> 00:02:34,980
+dynamic area of support and resistance
+
+61
+00:02:31,440 --> 00:02:38,100
+level is constantly changing depending
+
+62
+00:02:34,980 --> 00:02:40,709
+on recent price action in the case of
+
+63
+00:02:38,100 --> 00:02:43,019
+esthetic support or resistance level
+
+64
+00:02:40,709 --> 00:02:45,720
+you already know at the beginning of the
+
+65
+00:02:43,019 --> 00:02:47,819
+trading day where those levels are you
+
+66
+00:02:45,720 --> 00:02:50,480
+know in advance where the possible areas
+
+67
+00:02:47,819 --> 00:02:53,970
+of interest are located on the chart
+
+68
+00:02:50,480 --> 00:02:56,580
+with dynamic support and resistance you
+
+69
+00:02:53,970 --> 00:02:59,220
+don't know an exact number as these
+
+70
+00:02:56,580 --> 00:03:01,560
+levels are changing depending on market
+
+71
+00:02:59,220 --> 00:03:03,959
+fluctuations this is a good thing for
+
+72
+00:03:01,560 --> 00:03:06,630
+our scalping setup because we can use
+
+73
+00:03:03,959 --> 00:03:09,930
+both static and dynamic levels in our
+
+74
+00:03:06,630 --> 00:03:12,540
+advantage so we add the 200 EMA and
+
+75
+00:03:09,930 --> 00:03:14,670
+start searching for areas of confluence
+
+76
+00:03:12,540 --> 00:03:17,040
+between the dynamic support and
+
+77
+00:03:14,670 --> 00:03:21,150
+resistance and the static support and
+
+78
+00:03:17,040 --> 00:03:23,970
+resistance our third component in our
+
+79
+00:03:21,150 --> 00:03:26,340
+scalping setup is the stochastic used to
+
+80
+00:03:23,970 --> 00:03:28,350
+pinpoint market entries the stochastic
+
+81
+00:03:26,340 --> 00:03:30,840
+oscillator will help us to spot
+
+82
+00:03:28,350 --> 00:03:33,690
+divergences on the chart if you are not
+
+83
+00:03:30,840 --> 00:03:35,850
+familiar with divergences the divergence
+
+84
+00:03:33,690 --> 00:03:38,579
+occurs when the price for a lower low
+
+85
+00:03:35,850 --> 00:03:42,269
+while the stochastic forms a higher low
+
+86
+00:03:38,579 --> 00:03:45,030
+indicating a possible buy or when prices
+
+87
+00:03:42,269 --> 00:03:47,340
+form a higher high and the oscillator
+
+88
+00:03:45,030 --> 00:03:50,370
+forms a lower high indicating a possible
+
+89
+00:03:47,340 --> 00:03:52,769
+sell divergence occurs when the price
+
+90
+00:03:50,370 --> 00:03:54,840
+action is different from the action of
+
+91
+00:03:52,769 --> 00:03:57,630
+the stochastic oscillator when a
+
+92
+00:03:54,840 --> 00:04:01,340
+divergence occurs a potential change in
+
+93
+00:03:57,630 --> 00:04:04,860
+price direction could be on a course
+
+94
+00:04:01,340 --> 00:04:07,110
+so now we have the full set up we are
+
+95
+00:04:04,860 --> 00:04:09,030
+looking for confluence of dynamic and
+
+96
+00:04:07,110 --> 00:04:11,970
+Static support and resistance levels
+
+97
+00:04:09,030 --> 00:04:15,570
+respectively recent market swings and
+
+98
+00:04:11,970 --> 00:04:17,370
+200 EMA and we pull the trigger if we
+
+99
+00:04:15,570 --> 00:04:19,950
+spot a divergence on the stochastic
+
+100
+00:04:17,370 --> 00:04:23,220
+oscillator let's see the scalping
+
+101
+00:04:19,950 --> 00:04:26,760
+strategy in action in this chart we see
+
+102
+00:04:23,220 --> 00:04:30,450
+this level of static support and
+
+103
+00:04:26,760 --> 00:04:34,020
+resistance and here is the confluence
+
+104
+00:04:30,450 --> 00:04:37,620
+area with the 200 EMA the dynamic
+
+105
+00:04:34,020 --> 00:04:40,200
+support and resistance indicator so we
+
+106
+00:04:37,620 --> 00:04:42,420
+have this potential area but we cannot
+
+107
+00:04:40,200 --> 00:04:45,930
+enter the market blindly we need to
+
+108
+00:04:42,420 --> 00:04:49,980
+confirm it with the stochastic we have a
+
+109
+00:04:45,930 --> 00:04:52,440
+regular divergence and we also have a
+
+110
+00:04:49,980 --> 00:04:56,100
+hidden divergence which is a more
+
+111
+00:04:52,440 --> 00:04:58,710
+powerful set up all our conditions were
+
+112
+00:04:56,100 --> 00:05:02,280
+met so after the crossover of the
+
+113
+00:04:58,710 --> 00:05:05,520
+stochastic lines we can enter long on
+
+114
+00:05:02,280 --> 00:05:08,190
+the market because we trade based on
+
+115
+00:05:05,520 --> 00:05:12,120
+confluence the stop-loss order would be
+
+116
+00:05:08,190 --> 00:05:14,220
+placed below the confluence area the
+
+117
+00:05:12,120 --> 00:05:16,800
+profit target depends on your trading
+
+118
+00:05:14,220 --> 00:05:20,370
+style and risk aversion you could aim
+
+119
+00:05:16,800 --> 00:05:24,090
+for a two-to-one ratio or put your stop
+
+120
+00:05:20,370 --> 00:05:29,220
+to break-even once in profit and write a
+
+121
+00:05:24,090 --> 00:05:31,410
+risk free trade here's the same setup we
+
+122
+00:05:29,220 --> 00:05:35,270
+have a confluence area between the
+
+123
+00:05:31,410 --> 00:05:37,800
+recent market swings and the 200 EMA in
+
+124
+00:05:35,270 --> 00:05:41,970
+the divergence on a stochastic
+
+125
+00:05:37,800 --> 00:05:44,580
+oscillator if you incorporate also some
+
+126
+00:05:41,970 --> 00:05:47,060
+price action techniques the scalping
+
+127
+00:05:44,580 --> 00:05:50,790
+setup will become even more powerful
+
+128
+00:05:47,060 --> 00:05:52,590
+look at the flag pattern developed which
+
+129
+00:05:50,790 --> 00:05:55,770
+is another confirmation that a long
+
+130
+00:05:52,590 --> 00:06:00,080
+position was the only alternative ensure
+
+131
+00:05:55,770 --> 00:06:00,080
+positions were out of a question
+
+132
+00:06:00,390 --> 00:06:07,150
+here we have a short scalping trade we
+
+133
+00:06:04,600 --> 00:06:12,760
+have a clear resistance area right
+
+134
+00:06:07,150 --> 00:06:15,630
+around here the 200 EMA serves as a
+
+135
+00:06:12,760 --> 00:06:20,650
+dynamic area of support and resistance
+
+136
+00:06:15,630 --> 00:06:25,840
+and around here we have our confluence
+
+137
+00:06:20,650 --> 00:06:29,830
+area we have a hidden divergence on a
+
+138
+00:06:25,840 --> 00:06:32,740
+stochastic and once the stochastic lines
+
+139
+00:06:29,830 --> 00:06:35,350
+crossed we had the conformation we
+
+140
+00:06:32,740 --> 00:06:39,310
+needed and the high probability trade
+
+141
+00:06:35,350 --> 00:06:41,410
+was on the short side I know that there
+
+142
+00:06:39,310 --> 00:06:44,470
+are some of you who are also trading on
+
+143
+00:06:41,410 --> 00:06:46,420
+crypto markets I personally don't trade
+
+144
+00:06:44,470 --> 00:06:48,340
+cryptocurrencies because I prefer to
+
+145
+00:06:46,420 --> 00:06:50,680
+understand the fundamentals behind the
+
+146
+00:06:48,340 --> 00:06:53,350
+market before I decide to put my money
+
+147
+00:06:50,680 --> 00:06:55,930
+on it so I've not tested this copy
+
+148
+00:06:53,350 --> 00:06:58,930
+strategy on crypto markets but you can
+
+149
+00:06:55,930 --> 00:07:02,020
+back test it on demo account to see if
+
+150
+00:06:58,930 --> 00:07:04,780
+it has potential on this Bitcoin chart I
+
+151
+00:07:02,020 --> 00:07:07,630
+found the confluence pattern and the
+
+152
+00:07:04,780 --> 00:07:10,000
+stochastic entry here but I am not
+
+153
+00:07:07,630 --> 00:07:13,300
+familiar with the spreads on crypto
+
+154
+00:07:10,000 --> 00:07:15,760
+markets so I cannot tell for sure if you
+
+155
+00:07:13,300 --> 00:07:18,430
+can profit from it in the long run why I
+
+156
+00:07:15,760 --> 00:07:21,010
+am talking about the spreads because of
+
+157
+00:07:18,430 --> 00:07:22,810
+the nature of the scalping you need to
+
+158
+00:07:21,010 --> 00:07:25,419
+trade only the instruments with the
+
+159
+00:07:22,810 --> 00:07:28,390
+lowest spreads as a scalper by default
+
+160
+00:07:25,419 --> 00:07:30,580
+you will use lower stop losses aiming
+
+161
+00:07:28,390 --> 00:07:33,210
+for small profits the higher the spread
+
+162
+00:07:30,580 --> 00:07:35,530
+the lower your stop-loss will become I
+
+163
+00:07:33,210 --> 00:07:37,600
+personally never sculpt an instrument
+
+164
+00:07:35,530 --> 00:07:39,820
+that has a spread higher than two points
+
+165
+00:07:37,600 --> 00:07:43,270
+because the risk reward ratio is not
+
+166
+00:07:39,820 --> 00:07:45,700
+worth it like I said before scalping may
+
+167
+00:07:43,270 --> 00:07:47,950
+seem easy but is not if you want to make
+
+168
+00:07:45,700 --> 00:07:49,570
+money from scalping it's imperative to
+
+169
+00:07:47,950 --> 00:07:52,060
+have a disciplined approach to trading
+
+170
+00:07:49,570 --> 00:07:55,060
+keep your price charts clean without
+
+171
+00:07:52,060 --> 00:07:56,860
+plotting a lot of indicators and focus
+
+172
+00:07:55,060 --> 00:07:58,840
+also on reading and understanding the
+
+173
+00:07:56,860 --> 00:08:02,650
+price in order to increase your chances
+
+174
+00:07:58,840 --> 00:08:04,360
+to sculpt the right way if you got any
+
+175
+00:08:02,650 --> 00:08:06,250
+value from this please consider
+
+176
+00:08:04,360 --> 00:08:08,740
+subscribing to our channel share and
+
+177
+00:08:06,250 --> 00:08:09,610
+like this video as it will help us a lot
+
+178
+00:08:08,740 --> 00:08:12,539
+in the future
+
+179
+00:08:09,610 --> 00:08:12,539
+until next time
+

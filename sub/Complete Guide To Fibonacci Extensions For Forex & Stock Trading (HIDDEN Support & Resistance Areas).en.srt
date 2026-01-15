@@ -1,0 +1,623 @@
+1
+00:00:01,110 --> 00:00:06,610
+Whether you want to believe it or not, Fibonacci
+levels play a critical role in defining support
+
+2
+00:00:06,610 --> 00:00:09,200
+and resistance levels when day trading.
+
+3
+00:00:09,200 --> 00:00:14,799
+And determining support and resistance levels
+is common problem faced by most traders.
+
+4
+00:00:14,799 --> 00:00:20,210
+Some of the common methods to determine support
+and resistance include trend lines, moving
+
+5
+00:00:20,210 --> 00:00:24,090
+averages, pivot points, Fibonacci retracement
+etc.
+
+6
+00:00:24,090 --> 00:00:30,600
+Today, you will learn how to determine hidden
+support and resistance levels using Fibonacci
+
+7
+00:00:30,600 --> 00:00:32,210
+extensions.
+
+8
+00:00:32,210 --> 00:00:38,300
+Fibonacci series incorporates several analysis
+tools on the basis of Fibonacci ratios and
+
+9
+00:00:38,300 --> 00:00:43,650
+sequences showing geometrical law of human
+behavior and nature which is also applied
+
+10
+00:00:43,650 --> 00:00:45,640
+to financial markets.
+
+11
+00:00:45,640 --> 00:00:51,150
+The Fibonacci study can be applied to identify
+probable support and resistance levels by
+
+12
+00:00:51,150 --> 00:00:55,610
+studying Fibonacci numbers in various timeframes.
+
+13
+00:00:55,610 --> 00:01:02,059
+Fibonacci extensions, also referred to as
+Fibonacci expansions, or Fibonacci projections,
+
+14
+00:01:02,059 --> 00:01:07,290
+are external levels that go beyond the 100%
+Fibonacci level.
+
+15
+00:01:07,290 --> 00:01:14,060
+You may already be familiar with these important
+Fibonacci levels – 23.6%, 38.2%, 50.0%,
+
+16
+00:01:14,060 --> 00:01:17,100
+and 61.8%.
+
+17
+00:01:17,100 --> 00:01:22,560
+These are considered internal retracements
+that are measured inside of a specific swing
+
+18
+00:01:22,560 --> 00:01:23,560
+being analyzed.
+
+19
+00:01:23,560 --> 00:01:30,229
+But there are important Fibonacci levels that
+extend beyond the 100% level and where price
+
+20
+00:01:30,229 --> 00:01:32,640
+action tends to react often.
+
+21
+00:01:32,640 --> 00:01:38,850
+And these are what we call Fibonacci extension
+levels.
+
+22
+00:01:38,850 --> 00:01:44,850
+Fibonacci extension is drawn by joining three
+points unlike Fibonacci retracement which
+
+23
+00:01:44,850 --> 00:01:50,049
+has just two points by joining the lowest
+and the highest points of a pre-defined trend
+
+24
+00:01:50,049 --> 00:01:51,290
+and vice versa.
+
+25
+00:01:51,290 --> 00:01:56,830
+Let’s understand how we can draw Fibonacci
+extension in case of an uptrend.
+
+26
+00:01:56,830 --> 00:02:03,890
+You need to join the lowest and the highest
+point and then after a retracement or a correction,
+
+27
+00:02:03,890 --> 00:02:08,830
+and the price continues in the direction of
+the original trend, the low of the retracement
+
+28
+00:02:08,830 --> 00:02:11,620
+or a pullback would be our third point.
+
+29
+00:02:11,620 --> 00:02:19,050
+For example, looking at this chart, the price
+moved from here to here and after this the
+
+30
+00:02:19,050 --> 00:02:22,810
+stock moves in the direction of the original
+trend.
+
+31
+00:02:22,810 --> 00:02:30,510
+So the first point to draw Fibonacci extension
+would be at point a, the point b will be here
+
+32
+00:02:30,510 --> 00:02:35,319
+and the third point will be here, at the low
+of the retracement.
+
+33
+00:02:35,319 --> 00:02:41,040
+This will give you probable resistance levels
+where the price may face resistance in the
+
+34
+00:02:41,040 --> 00:02:42,500
+near future.
+
+35
+00:02:42,500 --> 00:02:45,819
+Let’s now consider a downtrend.
+
+36
+00:02:45,819 --> 00:02:52,150
+In this example you can see that we have a
+bearish swing in price from point A to point
+
+37
+00:02:52,150 --> 00:02:56,989
+B before price retraces part of this decline.
+
+38
+00:02:56,989 --> 00:03:03,400
+Once price has corrected to point C and then
+begun selling off again we can go ahead and
+
+39
+00:03:03,400 --> 00:03:10,629
+apply our extension tool, mapping the swing
+from point A to point B and then back up to
+
+40
+00:03:10,629 --> 00:03:14,379
+point C.
+The most common Fibonacci extension levels
+
+41
+00:03:14,379 --> 00:03:21,379
+are 161.8%, 261.8% and 423.6%.
+
+42
+00:03:21,379 --> 00:03:34,500
+Other important resistance levels using Fibonacci
+extension come at 50%, 61.8%, 78.6% and 100%.
+
+43
+00:03:34,500 --> 00:03:41,550
+Fibonacci extensions are a way to establish
+price targets or find projected areas of support
+
+44
+00:03:41,550 --> 00:03:46,739
+or resistance when the price is moving into
+an area where other methods of finding support
+
+45
+00:03:46,739 --> 00:03:49,950
+or resistance are not applicable or evident.
+
+46
+00:03:49,950 --> 00:03:55,490
+If the price moves through one extension level,
+it may continue moving toward the next.
+
+47
+00:03:55,490 --> 00:04:00,349
+That said, Fibonacci extensions are areas
+of possible interest.
+
+48
+00:04:00,349 --> 00:04:06,680
+The price may not stop and/or reverse right
+at the level, but the area around it may be
+
+49
+00:04:06,680 --> 00:04:07,680
+important.
+
+50
+00:04:07,680 --> 00:04:15,209
+For example, the price may move just past
+the 1.618 level, or pull up just shy of it,
+
+51
+00:04:15,209 --> 00:04:17,250
+before changing directions.
+
+52
+00:04:17,250 --> 00:04:22,119
+If you are long on a stock and a new high
+occurs, you can use the Fibonacci extension
+
+53
+00:04:22,119 --> 00:04:25,710
+levels for an idea of where the stock may
+go.
+
+54
+00:04:25,710 --> 00:04:28,099
+The same is true if you’re short.
+
+55
+00:04:28,099 --> 00:04:33,770
+Fibonacci extension levels can be calculated
+to give you an idea on profit target placement.
+
+56
+00:04:33,770 --> 00:04:38,460
+You have the option to decide whether to cover
+the position at that level.
+
+57
+00:04:38,460 --> 00:04:43,599
+It’s important not to confuse Fibonacci
+extensions with Fibonacci retracements.
+
+58
+00:04:43,599 --> 00:04:47,849
+What is the difference between Fibonacci extensions
+and Fibonacci retracements?
+
+59
+00:04:47,849 --> 00:04:53,320
+While extensions show where the price will
+go following a retracement, Fibonacci retracement
+
+60
+00:04:53,320 --> 00:04:56,740
+levels indicate how deep a retracement could
+be.
+
+61
+00:04:56,740 --> 00:05:01,800
+In other words, Fibonacci retracements measure
+the pullbacks within a trend, while Fibonacci
+
+62
+00:05:01,800 --> 00:05:07,150
+extensions measure the impulse waves in the
+direction of the trend.
+
+63
+00:05:07,150 --> 00:05:13,900
+Let’s look at some of the practical examples
+to gain more clarity about the concept of
+
+64
+00:05:13,900 --> 00:05:15,339
+Fibonacci extension.
+
+65
+00:05:15,339 --> 00:05:20,210
+This is crude oil in the weekly timeframe
+with one Fibonacci extensions drawn on the
+
+66
+00:05:20,210 --> 00:05:26,570
+above chart to show number of resistance identified
+using the above logic.
+
+67
+00:05:26,570 --> 00:05:34,000
+At first we noticed that, the price faced
+resistance at 38.2% extension and saw an immediate
+
+68
+00:05:34,000 --> 00:05:36,379
+selloff.
+
+69
+00:05:36,379 --> 00:05:43,399
+Next 50% extension acted as a strong resistance,
+and you can see how the price rejected that
+
+70
+00:05:43,399 --> 00:05:46,879
+area, almost to the pip.
+
+71
+00:05:46,879 --> 00:05:53,789
+We then have a double top at the 61.8% extension
+level, again, almost to the pip.
+
+72
+00:05:53,789 --> 00:06:00,690
+On its way down, observe how to price stopped
+at the previous extension levels.
+
+73
+00:06:00,690 --> 00:06:05,289
+This is powerful stuff, and it’s a shame
+that not many traders use this tool in their
+
+74
+00:06:05,289 --> 00:06:06,289
+analysis.
+
+75
+00:06:06,289 --> 00:06:12,249
+Let’s move on the stock market and analyze
+a downtrend on Exxon mobile chart.
+
+76
+00:06:12,249 --> 00:06:15,360
+Here is the weekly time frame.
+
+77
+00:06:15,360 --> 00:06:22,240
+We have the starting point here, point b here
+and the correction point here.
+
+78
+00:06:22,240 --> 00:06:27,069
+The extension levels are respected almost
+religiously.
+
+79
+00:06:27,069 --> 00:06:37,629
+We have rejection at 38.2% extension level,
+at 50% level, at 61.8% extension and finally
+
+80
+00:06:37,629 --> 00:06:39,340
+at 78.6% level.
+
+81
+00:06:39,340 --> 00:06:45,659
+Also, don’t neglect the fact that after
+the price rejected those extension levels,
+
+82
+00:06:45,659 --> 00:06:51,309
+it stopped at previous levels, offering short
+opportunities for those who wanted to trade
+
+83
+00:06:51,309 --> 00:06:54,610
+in the direction of the main downtrend.
+
+84
+00:06:54,610 --> 00:07:07,930
+Here are other examples of Fibonacci extension
+levels on different markets.
+
+85
+00:07:07,930 --> 00:07:22,879
+So, how to use the fib extensions
+You can consider entering the market on fib
+
+86
+00:07:22,879 --> 00:07:26,789
+extensions when the price reacts to a level.
+
+87
+00:07:26,789 --> 00:07:29,250
+This could be a bounce or a breakout.
+
+88
+00:07:29,250 --> 00:07:35,619
+If the price bounces from a Fibonacci extension
+level, it is possible that price may be stalling
+
+89
+00:07:35,619 --> 00:07:36,889
+or changing direction.
+
+90
+00:07:36,889 --> 00:07:43,689
+In this manner, you might be able to pursue
+a price move to the previous fib level.
+
+91
+00:07:43,689 --> 00:07:49,499
+In some cases, you will see the price clearly
+breaking thru a Fibonacci extension level.
+
+92
+00:07:49,499 --> 00:07:55,159
+In this case, you may consider a trade in
+the direction of the breakout and target the
+
+93
+00:07:55,159 --> 00:07:57,439
+next extension level.
+
+94
+00:07:57,439 --> 00:08:03,459
+Essentially, you would trade Fibonacci levels
+in a similar manner to other support and resistance
+
+95
+00:08:03,459 --> 00:08:04,569
+levels.
+
+96
+00:08:04,569 --> 00:08:10,229
+The main difference is that fib levels are
+considered hidden levels of support and resistance
+
+97
+00:08:10,229 --> 00:08:17,710
+that are not clearly recognizable to non-Fibonacci
+based traders.
+
+98
+00:08:17,710 --> 00:08:21,679
+Stop loss order
+As a general rule, you can place your stop
+
+99
+00:08:21,679 --> 00:08:26,419
+loss order at the next level beyond the one
+that you are trading.
+
+100
+00:08:26,419 --> 00:08:31,139
+In the case when this distance may be too
+far away from your entry point, then you can
+
+101
+00:08:31,139 --> 00:08:37,250
+simply use a swing top/bottom that is closer
+to your entry point.
+
+102
+00:08:37,250 --> 00:08:41,190
+Take profit level
+In trading, there are no certainties.
+
+103
+00:08:41,190 --> 00:08:43,110
+We are dealing with possibilities and probabilities.
+
+104
+00:08:43,110 --> 00:08:48,269
+And so it is important to understand that
+there is no such thing as knowing exactly
+
+105
+00:08:48,269 --> 00:08:50,829
+how far a price move will go.
+
+106
+00:08:50,829 --> 00:08:55,300
+You can always set a minimum target at the
+next Fibonacci extension.
+
+107
+00:08:55,300 --> 00:09:00,310
+However, you will see that price will very
+often move farther than this, so you have
+
+108
+00:09:00,310 --> 00:09:04,410
+to evaluate the market condition at each level
+and act accordingly.
+
+109
+00:09:04,410 --> 00:09:11,490
+You do this by taking into account other factors
+such as volatility and average daily range,
+
+110
+00:09:11,490 --> 00:09:15,050
+which can help in setting logical take profit
+targets.
+
+111
+00:09:15,050 --> 00:09:20,839
+The more volatile the market you are trading
+is, the more likely it is to generate bigger
+
+112
+00:09:20,839 --> 00:09:22,690
+moves.
+
+113
+00:09:22,690 --> 00:09:30,220
+Though Fibonacci is one of the useful methods
+to analyze your chart but it doesn’t provide
+
+114
+00:09:30,220 --> 00:09:34,829
+an exact entry point rather an estimated area
+of entry.
+
+115
+00:09:34,829 --> 00:09:40,110
+Moreover, there is a no guarantee that the
+price will reverse from any specified fib
+
+116
+00:09:40,110 --> 00:09:46,360
+level and hence you should combine it with
+other technical parameters as a confirmation.
+
+117
+00:09:46,360 --> 00:09:51,850
+So use complementary indicators or patterns
+when looking to determine one or multiple
+
+118
+00:09:51,850 --> 00:09:57,709
+price targets because we don’t always know
+which level the price will reverse from.
+
+119
+00:09:57,709 --> 00:10:00,850
+However, this tool gives us levels to monitor.
+
+120
+00:10:00,850 --> 00:10:07,410
+It is then down to you to use other elements
+such as confluence with other technical elements
+
+121
+00:10:07,410 --> 00:10:13,209
+(trend lines, moving averages, indicator readings
+or price action) to decide whether to trade
+
+122
+00:10:13,209 --> 00:10:15,560
+the level.
+
+123
+00:10:15,560 --> 00:10:20,740
+Traders may differ in identifying the swing
+high and swing low points from which the extension
+
+124
+00:10:20,740 --> 00:10:25,060
+levels are drawn, so there is some subjectivity
+involved here.
+
+125
+00:10:25,060 --> 00:10:29,720
+But the best way around these problems is
+to practice and practice!
+
+126
+00:10:29,720 --> 00:10:35,100
+The point is that there is no one right way
+to do it, but with a lot of practice, you’ll
+
+127
+00:10:35,100 --> 00:10:38,730
+make better decisions of picking swing points.
+
+128
+00:10:38,730 --> 00:10:43,470
+Gradually you will get a feel for the trend
+and the overall technical picture.
+
+129
+00:10:43,470 --> 00:10:49,090
+If you got any value from this and learned
+something new leave us a like to show your
+
+130
+00:10:49,090 --> 00:10:53,769
+support and also don’t forget to subscribe
+and click the bell icon to stay in touch with
+
+131
+00:10:53,769 --> 00:10:54,910
+new uploads.
+
+132
+00:10:54,910 --> 00:10:55,999
+Until next time.
+

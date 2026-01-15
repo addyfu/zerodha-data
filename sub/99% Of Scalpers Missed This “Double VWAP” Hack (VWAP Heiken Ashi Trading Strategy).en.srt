@@ -1,0 +1,911 @@
+1
+00:00:00,659 --> 00:00:05,790
+Why it is so hard to make consistent money
+day trading or scalping?
+
+2
+00:00:05,790 --> 00:00:10,170
+Because you are probably have the wrong indicators,
+and you’re using them in a wrong way.
+
+3
+00:00:10,170 --> 00:00:15,230
+I’m fixing this problem today and you’ll
+discover a consistent way to trade and read
+
+4
+00:00:15,230 --> 00:00:20,170
+the market, just by using VWAP indicator and
+Heikin Ashi candles.
+
+5
+00:00:20,170 --> 00:00:24,170
+Before we start, if you want to show your
+support, please drop a like to help us with
+
+6
+00:00:24,170 --> 00:00:30,740
+Youtube algorithm and turn on the bell, so
+you don’t miss when new videos are released.
+
+7
+00:00:30,740 --> 00:00:35,239
+Professionals rely on two important factors
+when making trading decisions— Price and
+
+8
+00:00:35,239 --> 00:00:36,239
+Volume.
+
+9
+00:00:36,239 --> 00:00:40,770
+These two elements tell you everything you
+need to know about price and where it may
+
+10
+00:00:40,770 --> 00:00:42,270
+be headed.
+
+11
+00:00:42,270 --> 00:00:47,210
+So it makes sense that you must develop a
+POWERFUL strategy that is based on price and
+
+12
+00:00:47,210 --> 00:00:48,210
+volume.
+
+13
+00:00:48,210 --> 00:00:52,699
+With this scalping strategy, I keep my charts
+relatively clean, with a minimal number of
+
+14
+00:00:52,699 --> 00:00:54,059
+indicators displayed.
+
+15
+00:00:54,059 --> 00:00:56,850
+Here is what I have on my charts:
+1.
+
+16
+00:00:56,850 --> 00:01:00,399
+Price action in the form of Heikin Ashi candlesticks
+2.
+
+17
+00:01:00,399 --> 00:01:03,400
+Volume Weighted Average Price (VWAP) indicator
+3.
+
+18
+00:01:03,400 --> 00:01:08,731
+Optional, one momentum oscillator, to find
+periods of expansion or contraction and to
+
+19
+00:01:08,731 --> 00:01:10,050
+identify divergences
+
+20
+00:01:10,050 --> 00:01:13,980
+Heikin Ashi
+Heikin Ashi are visually appealing because
+
+21
+00:01:13,980 --> 00:01:19,260
+you can easily filter the price of the present
+move of the overall trend and provides a clearer
+
+22
+00:01:19,260 --> 00:01:21,910
+visual representation of the trend.
+
+23
+00:01:21,910 --> 00:01:25,010
+Heikin Ashi candlesticks are different from
+normal candlesticks.
+
+24
+00:01:25,010 --> 00:01:30,890
+These price bars are average bars and it does
+not reflect exact open, highs, lows and closes
+
+25
+00:01:30,890 --> 00:01:33,810
+for that period like a normal candlestick.
+
+26
+00:01:33,810 --> 00:01:39,410
+The various bullish or bearish reversal patterns
+consisting of 1-3 candlesticks are not found
+
+27
+00:01:39,410 --> 00:01:40,410
+here.
+
+28
+00:01:40,410 --> 00:01:44,720
+There are no hammers or engulfing candles
+Rather, these candlesticks can be used to
+
+29
+00:01:44,720 --> 00:01:50,190
+identify potential reversal points and, more
+important, trending periods.
+
+30
+00:01:50,190 --> 00:01:56,550
+These charts are filtered from noise, thus
+making the short-term trend easier to observe.
+
+31
+00:01:56,550 --> 00:02:01,430
+So these charts will help you to view trends
+and identify potential reversals.
+
+32
+00:02:01,430 --> 00:02:05,691
+The Heikin Ashi candles are totally different
+in appearance when a strong trending move
+
+33
+00:02:05,691 --> 00:02:08,950
+is underway relative to pullbacks.
+
+34
+00:02:08,950 --> 00:02:13,920
+Upward trending moves typically have long
+upward candles with very little or no lower
+
+35
+00:02:13,920 --> 00:02:15,340
+shadows.
+
+36
+00:02:15,340 --> 00:02:20,240
+When a strong uptrend is underway, and the
+buying is aggressive, the lower shadows will
+
+37
+00:02:20,240 --> 00:02:22,890
+typically disappear.
+
+38
+00:02:22,890 --> 00:02:28,090
+The same concepts apply to downtrends, except
+strong down trending moves will be composed
+
+39
+00:02:28,090 --> 00:02:32,340
+of Heikin Ashi price bars with little or no
+upper shadows.
+
+40
+00:02:32,340 --> 00:02:36,500
+The bars will also typically be long and moving
+lower.
+
+41
+00:02:36,500 --> 00:02:41,610
+During pullbacks or weak trending moves, you’ll
+see lots of bars with lower and upper shadows.
+
+42
+00:02:41,610 --> 00:02:46,750
+This doesn’t necessarily indicate a reversal,
+but it does mean the trend is in a corrective
+
+43
+00:02:46,750 --> 00:02:48,570
+phase or slowing.
+
+44
+00:02:48,570 --> 00:02:53,330
+So typically during strong trending moves
+you’ll see strong up bars with no lower
+
+45
+00:02:53,330 --> 00:02:59,090
+shadows, and strong down bars with no upper
+shadows for a downtrend.
+
+46
+00:02:59,090 --> 00:03:03,670
+And just because one up candle, or a couple
+of candles with upper shadows, appear during
+
+47
+00:03:03,670 --> 00:03:08,460
+a downtrend doesn’t mean the trend is reversing
+– it may just be pausing.
+
+48
+00:03:08,460 --> 00:03:10,850
+The same is true for uptrends.
+
+49
+00:03:10,850 --> 00:03:14,710
+VWAP
+Volume Weighted Average Price, or VWAP, is
+
+50
+00:03:14,710 --> 00:03:19,620
+probably the most important technical indicator
+for day traders and scalpers.
+
+51
+00:03:19,620 --> 00:03:23,880
+Essentially, VWAP is a moving average that
+takes into account the volume of the shares
+
+52
+00:03:23,880 --> 00:03:26,180
+being traded at any price.
+
+53
+00:03:26,180 --> 00:03:30,819
+Other moving averages are calculated based
+only on the price of the stock on the chart,
+
+54
+00:03:30,819 --> 00:03:35,980
+but VWAP also considers the number of shares
+in that stock, that are being traded on every
+
+55
+00:03:35,980 --> 00:03:36,980
+price.
+
+56
+00:03:36,980 --> 00:03:42,680
+Basically, VWAP is an indicator of who is
+in control of the price action - the buyers
+
+57
+00:03:42,680 --> 00:03:45,010
+or the sellers.
+
+58
+00:03:45,010 --> 00:03:49,400
+When a stock is traded above the VWAP, it
+means that the buyers are in overall control
+
+59
+00:03:49,400 --> 00:03:53,540
+of the price and there is a buying demand
+on the stock.
+
+60
+00:03:53,540 --> 00:03:57,350
+When a stock price breaks below the VWAP,
+sellers are gaining control over the price
+
+61
+00:03:57,350 --> 00:03:58,599
+action.
+
+62
+00:03:58,599 --> 00:04:03,430
+VWAP is often used to measure the trading
+performance of institutional traders.
+
+63
+00:04:03,430 --> 00:04:07,880
+Professional traders who work for investment
+banks or hedge funds and need to trade large
+
+64
+00:04:07,880 --> 00:04:12,960
+numbers of shares each day cannot enter or
+exit the market by just one single order.
+
+65
+00:04:12,960 --> 00:04:14,599
+The market is not liquid enough.
+
+66
+00:04:14,599 --> 00:04:20,600
+Therefore, they need to process their orders
+slowly during the day.
+
+67
+00:04:20,600 --> 00:04:25,340
+After buying or selling a large position in
+a stock during the day, institutional traders
+
+68
+00:04:25,340 --> 00:04:28,460
+compare their price to VWAP values.
+
+69
+00:04:28,460 --> 00:04:33,281
+A buy order executed below the VWAP would
+be considered a good fill for them, because
+
+70
+00:04:33,281 --> 00:04:37,880
+the stock was bought at a below average price
+(meaning that the trader has bought their
+
+71
+00:04:37,880 --> 00:04:43,370
+large position at a relatively discounted
+price compared to the market).
+
+72
+00:04:43,370 --> 00:04:49,000
+Conversely, a sell order executed above the
+VWAP would be considered a good fill because
+
+73
+00:04:49,000 --> 00:04:52,190
+it was sold at an above average price.
+
+74
+00:04:52,190 --> 00:04:59,420
+This is how VWAP is used by institutional
+traders to identify good entry and exit points.
+
+75
+00:04:59,420 --> 00:05:05,050
+Institutional traders therefore try to buy
+below or as close to VWAP as possible.
+
+76
+00:05:05,050 --> 00:05:09,530
+Conversely, when a professional trader has
+to get rid of a large position, they try to
+
+77
+00:05:09,530 --> 00:05:12,020
+sell at the VWAP or higher.
+
+78
+00:05:12,020 --> 00:05:16,199
+Day traders who know this, may benefit from
+this market activity.
+
+79
+00:05:16,199 --> 00:05:21,030
+If there is a large institutional trader aiming
+to buy a significant position, the price will
+
+80
+00:05:21,030 --> 00:05:23,919
+break over the VWAP and move higher.
+
+81
+00:05:23,919 --> 00:05:27,980
+This is a good opportunity for us day traders
+to go long.
+
+82
+00:05:27,980 --> 00:05:33,130
+Conversely, if there are big players wanting
+to get rid of their shares, they start selling
+
+83
+00:05:33,130 --> 00:05:35,300
+their shares at the VWAP.
+
+84
+00:05:35,300 --> 00:05:38,770
+The price will reject the VWAP and start to
+move down.
+
+85
+00:05:38,770 --> 00:05:42,600
+This is an excellent short selling opportunity
+for day traders.
+
+86
+00:05:42,600 --> 00:05:47,280
+If there is no interest in the stock from
+market makers or institutions, the price may
+
+87
+00:05:47,280 --> 00:05:49,840
+trade sideways near VWAP.
+
+88
+00:05:49,840 --> 00:05:52,160
+And you will want to stay away from that price
+action.
+
+89
+00:05:52,160 --> 00:05:57,240
+I hope you see how trading based on VWAP will
+keep you on the right side of the trade.
+
+90
+00:05:57,240 --> 00:06:01,000
+VWAP Bands
+Well informed traders know that VWAP is a
+
+91
+00:06:01,000 --> 00:06:02,350
+“must have” indicator.
+
+92
+00:06:02,350 --> 00:06:07,900
+However, it takes an experienced trader to
+understand when price is overbought or oversold
+
+93
+00:06:07,900 --> 00:06:09,980
+in relation to VWAP.
+
+94
+00:06:09,980 --> 00:06:13,620
+This skill is essential to finding and trading
+the best opportunities.
+
+95
+00:06:13,620 --> 00:06:19,090
+The key aspect of the VWAP indicator are its
+bands, based on standard deviation.
+
+96
+00:06:19,090 --> 00:06:24,370
+This VWAP bands reveal hidden support and
+resistance that are based off the standard
+
+97
+00:06:24,370 --> 00:06:25,540
+VWAP indicator.
+
+98
+00:06:25,540 --> 00:06:31,720
+These bands allow even the most novice traders
+to identify undervalued and overvalued price
+
+99
+00:06:31,720 --> 00:06:33,030
+zones.
+
+100
+00:06:33,030 --> 00:06:37,740
+By studying how the price interacts with the
+VWAP bands, you can begin to discover the
+
+101
+00:06:37,740 --> 00:06:40,020
+price-action characteristics of that market.
+
+102
+00:06:40,020 --> 00:06:44,680
+And I prefer to add not just 1 set of bands,
+but 2.
+
+103
+00:06:44,680 --> 00:06:50,630
+One VWAP with standard deviation bands of
+1, and the second one with standard deviation
+
+104
+00:06:50,630 --> 00:06:51,970
+of 2.
+
+105
+00:06:51,970 --> 00:06:57,400
+This way you get multiple levels of dynamic
+support or resistance.
+
+106
+00:06:57,400 --> 00:07:02,460
+Strong buying pressure above VWAP (or strong
+selling pressure below it) is an indication
+
+107
+00:07:02,460 --> 00:07:07,430
+that market participants are seeking to push
+price to a new area of value.
+
+108
+00:07:07,430 --> 00:07:12,460
+When this type of aggressive buying (or selling)
+occurs, it usually leads to significant moves
+
+109
+00:07:12,460 --> 00:07:14,169
+in the market.
+
+110
+00:07:14,169 --> 00:07:19,009
+The beauty of the VWAP bands is that they
+reveal these hidden areas of support and resistance,
+
+111
+00:07:19,009 --> 00:07:23,139
+allowing you to see value opportunities like
+the Pros!
+
+112
+00:07:23,139 --> 00:07:28,150
+The ability to see these hidden levels allows
+you to anticipate price movement at important
+
+113
+00:07:28,150 --> 00:07:29,160
+action zones.
+
+114
+00:07:29,160 --> 00:07:35,139
+In essence, as price trades away from VWAP
+(the blue center line) the bands above and
+
+115
+00:07:35,139 --> 00:07:37,550
+below it become targets.
+
+116
+00:07:37,550 --> 00:07:44,400
+Likewise, as price reverses from the outer
+bands the probability of reaching VWAP increases
+
+117
+00:07:44,400 --> 00:07:46,430
+significantly.
+
+118
+00:07:46,430 --> 00:07:50,340
+So how do you actually take signals, using
+VWAP and Heikin Ashi.
+
+119
+00:07:50,340 --> 00:07:55,320
+Well, when analyzing the market, you must
+look for specific signals to determine the
+
+120
+00:07:55,320 --> 00:07:57,370
+best point of entry and exit.
+
+121
+00:07:57,370 --> 00:08:03,370
+Ideally, the more signals appear in a specific
+price point, the stronger it is.
+
+122
+00:08:03,370 --> 00:08:07,210
+In the context of trading, we call this a
+confluence.
+
+123
+00:08:07,210 --> 00:08:11,900
+To be able to spot confluences in a price
+chart, you first need to have a decent grasp
+
+124
+00:08:11,900 --> 00:08:14,830
+on basic technical analysis concepts.
+
+125
+00:08:14,830 --> 00:08:20,169
+This means identifying and plotting support
+and resistance levels.
+
+126
+00:08:20,169 --> 00:08:25,050
+Confluences appear in the chart as a merging
+of two or more elements in a certain price
+
+127
+00:08:25,050 --> 00:08:26,259
+level.
+
+128
+00:08:26,259 --> 00:08:31,039
+Points where a support or resistance level
+aligns with VWAP bands.
+
+129
+00:08:31,039 --> 00:08:35,809
+These are key areas to buy or sell a position.
+
+130
+00:08:35,809 --> 00:08:40,639
+In this example you can clearly see how the
+price shifted to a downtrend channel.
+
+131
+00:08:40,639 --> 00:08:46,160
+However, the downtrend channel ended when
+the price hit a major support level here.
+
+132
+00:08:46,160 --> 00:08:51,920
+At this level, we also had VWAP lower bands,
+revealing that sellers are losing steam and
+
+133
+00:08:51,920 --> 00:08:54,759
+buyers are starting to get aggressive.
+
+134
+00:08:54,759 --> 00:08:59,860
+Once we identified a possible confluence point,
+we just need to analyze price action, using
+
+135
+00:08:59,860 --> 00:09:01,810
+Heikin Ashi.
+
+136
+00:09:01,810 --> 00:09:07,750
+Green candles forming after the price rejected
+the confluence area means a shift in momentum.
+
+137
+00:09:07,750 --> 00:09:12,389
+This area turned out to be a great support
+confluence point and a strong level to consider
+
+138
+00:09:12,389 --> 00:09:14,519
+an entry position.
+
+139
+00:09:14,519 --> 00:09:18,889
+Stop loss always goes below the support level,
+below the confluence area.
+
+140
+00:09:18,889 --> 00:09:25,779
+And you take profit as the price reaches VWAP
+bands, partially closing a part of your position.
+
+141
+00:09:25,779 --> 00:09:29,600
+Here the price met a major resistance level.
+
+142
+00:09:29,600 --> 00:09:33,220
+At this area, we also had VWAP upper bands.
+
+143
+00:09:33,220 --> 00:09:37,290
+So we found our possible resistance confluence
+area.
+
+144
+00:09:37,290 --> 00:09:41,129
+Now we just need to read price action, using
+Heikin Ashi.
+
+145
+00:09:41,129 --> 00:09:46,140
+Observe how the price rejected our area, with
+several red candles.
+
+146
+00:09:46,140 --> 00:09:47,629
+A good entry signal.
+
+147
+00:09:47,629 --> 00:09:52,370
+We then had a strong downtrend, shown by these
+consecutive red candlesticks.
+
+148
+00:09:52,370 --> 00:09:55,610
+See that the bearish price action has no upper
+candle wicks.
+
+149
+00:09:55,610 --> 00:09:59,129
+This indicates that the declining momentum
+is strong.
+
+150
+00:09:59,129 --> 00:10:01,639
+Stop loss above the resistance level.
+
+151
+00:10:01,639 --> 00:10:07,089
+And profit targets at VWAP bands, depending
+on recent price action.
+
+152
+00:10:07,089 --> 00:10:12,029
+In this chart we identifed at least three
+points that indicate the support level.
+
+153
+00:10:12,029 --> 00:10:15,860
+Then, we also found this rising trendline.
+
+154
+00:10:15,860 --> 00:10:18,000
+And of course the VWAP bands.
+
+155
+00:10:18,000 --> 00:10:23,529
+As expected, price found support around our
+confluence area.
+
+156
+00:10:23,529 --> 00:10:28,230
+After this, we identified the first green
+candlestick with no shadows.
+
+157
+00:10:28,230 --> 00:10:32,440
+This is a good signal that a strong bullish
+trend might be starting.
+
+158
+00:10:32,440 --> 00:10:36,829
+The advantage of this strategy is that you
+combine price and volume, and at the same
+
+159
+00:10:36,829 --> 00:10:40,629
+time you eliminate noise by using Heikin Ashi.
+
+160
+00:10:40,629 --> 00:10:59,980
+And you also rely on both static and dynamic
+support and resistance levels.
+
+161
+00:10:59,980 --> 00:11:30,860
+Powerful stuff!
+
+162
+00:11:30,860 --> 00:11:51,100
+If things are unclear, or you find a setup
+and you don’t know if the confluence area
+
+163
+00:11:51,100 --> 00:11:55,029
+is worth trading, you can add a momentum oscillator,
+for confirmation.
+
+164
+00:11:55,029 --> 00:12:00,829
+In this example, after this consolidation
+above the support level, price made a strong
+
+165
+00:12:00,829 --> 00:12:05,049
+breakout rally and found resistance right
+here.
+
+166
+00:12:05,049 --> 00:12:08,429
+The VWAP bands are also positioned in this
+area.
+
+167
+00:12:08,429 --> 00:12:14,559
+On top of that, we can clearly spot a Bearish
+Divergence pattern on the RSI that had formed
+
+168
+00:12:14,559 --> 00:12:19,779
+when price stalled at the static resistance
+and VWAP bands resistance.
+
+169
+00:12:19,779 --> 00:12:24,819
+This price level represented a high-probability
+resistance confluence point and a strong level
+
+170
+00:12:24,819 --> 00:12:27,929
+to consider a short position.
+
+171
+00:12:27,929 --> 00:12:31,949
+In this example, these are the things you
+should notice right away:
+
+172
+00:12:31,949 --> 00:12:36,769
+This support level, where price has tested
+the area on previous occasions and the level
+
+173
+00:12:36,769 --> 00:12:38,339
+held.
+
+174
+00:12:38,339 --> 00:12:43,639
+Then notice that there are VWAP Bands as well,
+providing another confluence factor to that
+
+175
+00:12:43,639 --> 00:12:44,790
+support level.
+
+176
+00:12:44,790 --> 00:12:51,459
+And RSI showed a bullish divergence, meaning
+price action and the RSI are no longer showing
+
+177
+00:12:51,459 --> 00:12:53,269
+the same momentum.
+
+178
+00:12:53,269 --> 00:12:58,619
+A bullish divergence is signaled when the
+RSI indicator has a higher low that correlates
+
+179
+00:12:58,619 --> 00:13:00,999
+to lower lows in the price action.
+
+180
+00:13:00,999 --> 00:13:06,730
+This showed increasing bullish momentum
+As heikin ashi changed colors from red to
+
+181
+00:13:06,730 --> 00:13:10,389
+green, we enter a long trade, with a stop
+loss below the confluence area
+
+182
+00:13:10,389 --> 00:13:19,040
+Here, notice this support level that was broken,
+and price was heading up….so this was a
+
+183
+00:13:19,040 --> 00:13:21,249
+potential support-turned-resistance level.
+
+184
+00:13:21,249 --> 00:13:26,799
+The confluence trading factor comes into play
+here, when you notice that VWAP Bands align
+
+185
+00:13:26,799 --> 00:13:31,139
+right in this area
+And for momentum confirmation, you look at
+
+186
+00:13:31,139 --> 00:13:32,549
+the MACD.
+
+187
+00:13:32,549 --> 00:13:37,799
+A bearish divergence is present, with a lower
+high on the MACD that correlates to higher
+
+188
+00:13:37,799 --> 00:13:39,809
+highs in the price action.
+
+189
+00:13:39,809 --> 00:13:45,049
+This means decreasing momentum and a posible
+reversal in the uptrend.
+
+190
+00:13:45,049 --> 00:14:49,760
+This is confluence trading with price action
+and momentum confirmation.
+
+191
+00:14:49,760 --> 00:14:54,009
+As always, if you got any value from this
+and learned something new, drop a like to
+
+192
+00:14:54,009 --> 00:14:58,430
+help us with Youtube algorithm, and make sure
+you click the bell icon to stay in touch when
+
+193
+00:14:58,430 --> 00:15:00,769
+new videos are released.
+
+194
+00:15:00,769 --> 00:15:01,290
+Until next time.
+

@@ -1,0 +1,675 @@
+1
+00:00:01,030 --> 00:00:06,200
+If you are a fan of trading with moving averages
+and unfamiliar with the alligator technical
+
+2
+00:00:06,200 --> 00:00:09,780
+tool, get ready for an interesting strategy.
+
+3
+00:00:09,780 --> 00:00:15,219
+The Alligator is trading indicator created
+by famous trader Bill Williams, which, just
+
+4
+00:00:15,219 --> 00:00:21,430
+like moving averages, is used to confirm ongoing
+trends and their primary direction.
+
+5
+00:00:21,430 --> 00:00:26,130
+In addition to identifying existing trends,
+you can also use the alligator indicator to
+
+6
+00:00:26,130 --> 00:00:29,100
+enter counter trend moves.
+
+7
+00:00:29,100 --> 00:00:33,330
+Alligator is a trend-following tool which
+follows the premise that financial markets
+
+8
+00:00:33,330 --> 00:00:39,780
+and individual stocks trend just 15% to 30%
+of the time while grinding through sideways
+
+9
+00:00:39,780 --> 00:00:44,559
+ranges the other 70% to 85% of the time.
+
+10
+00:00:44,559 --> 00:00:48,800
+The indicator has a funny name: it comes from
+the head of an alligator.
+
+11
+00:00:48,800 --> 00:00:51,909
+As part of it, there are three averages.
+
+12
+00:00:51,909 --> 00:00:58,500
+Each average has a name related to an alligator’s
+mouth: jaws, teeth and lips.
+
+13
+00:00:58,500 --> 00:01:03,499
+The alligator analogy is designed to help
+describe some of the behaviors of the market
+
+14
+00:01:03,499 --> 00:01:07,090
+as it goes from non-trending to trending.
+
+15
+00:01:07,090 --> 00:01:11,770
+The idea is that the absence of a trend in
+the market — meaning periods of sideways
+
+16
+00:01:11,770 --> 00:01:14,740
+movement — is like a sleeping alligator.
+
+17
+00:01:14,740 --> 00:01:20,670
+Eventually the alligator wakens and the longer
+it has slept, the hungrier will be — in
+
+18
+00:01:20,670 --> 00:01:24,009
+other words, the more pronounced the trend
+will be.
+
+19
+00:01:24,009 --> 00:01:29,009
+I know this analogy might seem funny, but
+don’t exit the video yet and let me explain
+
+20
+00:01:29,009 --> 00:01:32,810
+further the usefulness of this indicator.
+
+21
+00:01:32,810 --> 00:01:38,619
+Bill Williams was insistent that a successful
+trader will know the structure of the market.
+
+22
+00:01:38,619 --> 00:01:43,130
+In keeping with this line of thinking, the
+Alligator indicator consists of three moving
+
+23
+00:01:43,130 --> 00:01:48,970
+averages, each smoothed over different time-frames,
+which he called 'balance lines'.
+
+24
+00:01:48,970 --> 00:01:53,540
+By looking at the behavior of the balance
+lines, we can determine the structure of the
+
+25
+00:01:53,540 --> 00:01:59,420
+market — in other words, whether we are
+dealing with a sleeping alligator or not.
+
+26
+00:01:59,420 --> 00:02:07,039
+So Alligator uses three smoothed moving averages,
+set at five, eight and 13 periods, which are
+
+27
+00:02:07,039 --> 00:02:09,370
+all Fibonacci numbers.
+
+28
+00:02:09,370 --> 00:02:14,730
+The three moving averages comprise the Jaw,
+Teeth, and Lips of the Alligator, opening
+
+29
+00:02:14,730 --> 00:02:19,550
+and closing in reaction to evolving trends
+and trading ranges:
+
+30
+00:02:19,550 --> 00:02:25,580
+Green moving average represents the lips of
+the Alligator and is set to 5 and displaced
+
+31
+00:02:25,580 --> 00:02:31,310
+into the future by 3 periods
+Red moving average is the Alligator teeth
+
+32
+00:02:31,310 --> 00:02:35,959
+and is set to 8 periods and is pushed 5 periods
+into the future
+
+33
+00:02:35,959 --> 00:02:44,370
+Blue represents the jaws of the Alligator
+and is set to 13 periods and displaced 8 periods
+
+34
+00:02:44,370 --> 00:02:45,370
+into the future
+
+35
+00:02:45,370 --> 00:02:49,890
+Now, How to Use the Alligator Indicator in
+Trading
+
+36
+00:02:49,890 --> 00:02:55,129
+There are three key pieces of information
+shown by the Alligator indicator: the absence
+
+37
+00:02:55,129 --> 00:03:00,220
+of a trend, the formation of a trend, and
+the direction of the trend.
+
+38
+00:03:00,220 --> 00:03:05,580
+Let's discuss each of these, and see how we
+can use them with Alligator indicator:
+
+39
+00:03:05,580 --> 00:03:06,830
+First.
+
+40
+00:03:06,830 --> 00:03:09,170
+The Absence of a Trend.
+
+41
+00:03:09,170 --> 00:03:14,400
+This is a common state and it's indicated
+by those times when the three lines of the
+
+42
+00:03:14,400 --> 00:03:18,440
+Alligator indicator are close together or
+intersected.
+
+43
+00:03:18,440 --> 00:03:23,569
+We can see it in this example, where the green,
+the red, and the blue lines all stick close
+
+44
+00:03:23,569 --> 00:03:24,970
+together.
+
+45
+00:03:24,970 --> 00:03:30,519
+This means that the alligator is dormant — and
+that the market is not really doing anything,
+
+46
+00:03:30,519 --> 00:03:33,659
+and that we are awaiting a change in state.
+
+47
+00:03:33,659 --> 00:03:38,069
+So when the 3 lines are intersected, we do
+not have a trend.
+
+48
+00:03:38,069 --> 00:03:43,709
+This is generally a time of low volatility
+and you may want to find another instrument
+
+49
+00:03:43,709 --> 00:03:45,280
+to trade.
+
+50
+00:03:45,280 --> 00:03:46,560
+Next.
+
+51
+00:03:46,560 --> 00:03:51,500
+The Formation of a Trend
+A successful awakening of the alligator is
+
+52
+00:03:51,500 --> 00:03:58,189
+a crossover of the fast green line through
+the slower lines, plus the slower lines following
+
+53
+00:03:58,189 --> 00:04:02,550
+that direction, and all three lines spreading
+apart.
+
+54
+00:04:02,550 --> 00:04:09,140
+When the moving averages move wide apart like
+in this example, the alligator is woke and
+
+55
+00:04:09,140 --> 00:04:10,140
+eating.
+
+56
+00:04:10,140 --> 00:04:14,159
+The longer the alligator has lain dormant,
+the hungrier it is.
+
+57
+00:04:14,159 --> 00:04:20,180
+I know is cringey, but think of a market that
+is ranging… we know it will break out and
+
+58
+00:04:20,180 --> 00:04:24,960
+the longer the range continues, the more violent
+the breakout can be.
+
+59
+00:04:24,960 --> 00:04:30,020
+These periods of persistent trends are when
+the indicator tends to be more effective.
+
+60
+00:04:30,020 --> 00:04:35,920
+So, the lips of the Alligator, the green line,
+the fastest moving average, will be the first
+
+61
+00:04:35,920 --> 00:04:38,180
+one you will want to monitor.
+
+62
+00:04:38,180 --> 00:04:43,030
+You want to see the green line cross both
+of the slower moving averages.
+
+63
+00:04:43,030 --> 00:04:48,729
+You will also see the lips and the jaw start
+to turn in the direction of the green line.
+
+64
+00:04:48,729 --> 00:04:55,100
+As an entry point, many traders will enter
+the market following a candle close above/below
+
+65
+00:04:55,100 --> 00:04:57,160
+all 3 lines.
+
+66
+00:04:57,160 --> 00:04:59,230
+Third phase.
+
+67
+00:04:59,230 --> 00:05:03,500
+Direction of the Trend
+The direction is indicated by the movement
+
+68
+00:05:03,500 --> 00:05:05,400
+of the balance lines.
+
+69
+00:05:05,400 --> 00:05:11,030
+The green line is our fastest moving average,
+and we expect this to move first, followed
+
+70
+00:05:11,030 --> 00:05:14,100
+by the red line, and then the blue line.
+
+71
+00:05:14,100 --> 00:05:19,090
+The green line crossing above the slower lines
+represents a buy signal.
+
+72
+00:05:19,090 --> 00:05:22,260
+Crossing below represents a sell signal.
+
+73
+00:05:22,260 --> 00:05:28,400
+If all three move higher and widen, it confirms
+an uptrend.
+
+74
+00:05:28,400 --> 00:05:35,430
+If the balance lines move downward and widen
+after a sell signal, it confirms a downtrend.
+
+75
+00:05:35,430 --> 00:05:40,130
+As the trend comes to an end, the balance
+lines draw closer together.
+
+76
+00:05:40,130 --> 00:05:46,050
+The fast green line crossing back over the
+slower lines is the signal to take your profit.
+
+77
+00:05:46,050 --> 00:05:51,729
+The key strength of the indicator is the way
+that it helps you to stick with a persistent
+
+78
+00:05:51,729 --> 00:05:52,860
+trend.
+
+79
+00:05:52,860 --> 00:05:57,900
+One of the drawbacks is the difficulty in
+successfully reading the opening signals in
+
+80
+00:05:57,900 --> 00:05:59,699
+a timely manner.
+
+81
+00:05:59,699 --> 00:06:04,130
+During sleeping period, when the lines are
+closed and intersected, you will see many
+
+82
+00:06:04,130 --> 00:06:07,210
+crossovers that look like trading signals.
+
+83
+00:06:07,210 --> 00:06:11,889
+The trouble is the timing — because if the
+indicator lags at the start of a down trend
+
+84
+00:06:11,889 --> 00:06:17,920
+for example, and the fall was steep, you could
+potentially miss the move.
+
+85
+00:06:17,920 --> 00:06:22,630
+The classical way to use The Alligator is
+to look for “the perfect order”.
+
+86
+00:06:22,630 --> 00:06:25,759
+The three moving averages should NOT cross.
+
+87
+00:06:25,759 --> 00:06:28,490
+When doing that, the perfect order forms.
+
+88
+00:06:28,490 --> 00:06:31,520
+Moreover, this signals a strong trend.
+
+89
+00:06:31,520 --> 00:06:34,190
+But this isn’t the only way to use it.
+
+90
+00:06:34,190 --> 00:06:38,830
+Remember that this indicator shifts the moving
+averages further in time.
+
+91
+00:06:38,830 --> 00:06:41,849
+This shifting allows for a greater flexibility.
+
+92
+00:06:41,849 --> 00:06:45,080
+In a way, it resembles the Ichimoku Cloud.
+
+93
+00:06:45,080 --> 00:06:49,900
+Traders familiar with cloud strategies know
+the cloud, or “kumo” is shifted on the
+
+94
+00:06:49,900 --> 00:06:51,319
+right side of the chart!
+
+95
+00:06:51,319 --> 00:06:56,800
+Therefore, future support and resistance levels
+appear at the present time.
+
+96
+00:06:56,800 --> 00:07:01,830
+A useful Alligator trading approach deals
+with support and resistance levels.
+
+97
+00:07:01,830 --> 00:07:04,009
+And these levels are NOT horizontal.
+
+98
+00:07:04,009 --> 00:07:09,569
+You see, traders sometimes make a fatal mistake
+believing that support and resistance can
+
+99
+00:07:09,569 --> 00:07:11,569
+only be horizontal.
+
+100
+00:07:11,569 --> 00:07:14,210
+But there are also dynamic levels.
+
+101
+00:07:14,210 --> 00:07:17,129
+Dynamic support and resistance move along
+with the price.
+
+102
+00:07:17,129 --> 00:07:19,730
+Therefore, they offer more value.
+
+103
+00:07:19,730 --> 00:07:24,330
+The three moving averages that make the Alligator
+indicator do exactly that.
+
+104
+00:07:24,330 --> 00:07:26,080
+They follow the price.
+
+105
+00:07:26,080 --> 00:07:29,020
+If the price rises, the three lines follow.
+
+106
+00:07:29,020 --> 00:07:34,740
+The bigger the distance between the lines,
+the stronger the support and resistance area.
+
+107
+00:07:34,740 --> 00:07:39,389
+The bigger the time frame, the more difficult
+for the price to break through.
+
+108
+00:07:39,389 --> 00:07:44,330
+In this way, the area between the first line
+(the green one – lips) and the last one
+
+109
+00:07:44,330 --> 00:07:47,860
+(the blue one – jaws) is dynamic support
+or resistance.
+
+110
+00:07:47,860 --> 00:07:51,639
+For example, in a bullish trend, it shows
+support.
+
+111
+00:07:51,639 --> 00:07:55,630
+In a downtrend, it show resistance.
+
+112
+00:07:55,630 --> 00:08:01,099
+When the Alligator is feeding, watch for pullbacks
+against the main trend direction and trade
+
+113
+00:08:01,099 --> 00:08:04,599
+those moves with a pullback strategy.
+
+114
+00:08:04,599 --> 00:08:09,270
+So here we have a bullish trend, with the
+Alligator offering dynamic support.
+
+115
+00:08:09,270 --> 00:08:14,580
+It starts from the green line and ends with
+the blue line.
+
+116
+00:08:14,580 --> 00:08:17,139
+The lips offer weak support.
+
+117
+00:08:17,139 --> 00:08:21,229
+If bears push stronger, they might reach the
+teeth.
+
+118
+00:08:21,229 --> 00:08:23,110
+Jaws represent the final support.
+
+119
+00:08:23,110 --> 00:08:27,819
+Any move beyond and the trend is in danger.
+
+120
+00:08:27,819 --> 00:08:32,580
+Another useful Alligator approach consists
+of analyzing the crossovers.
+
+121
+00:08:32,580 --> 00:08:37,030
+That means, the crosses between the three
+lines that make the indicator.
+
+122
+00:08:37,030 --> 00:08:43,440
+A typical approach is to use the faster average
+(the green line) for spotting fake crosses.
+
+123
+00:08:43,440 --> 00:08:48,030
+When the green line crosses the red one and
+then turns again without reaching the blue
+
+124
+00:08:48,030 --> 00:08:51,040
+line, a fake move just forms.
+
+125
+00:08:51,040 --> 00:08:56,400
+Hence, in a bullish trend, you can search
+for long entries after this crossover.
+
+126
+00:08:56,400 --> 00:09:03,220
+Or, in a bearish trend, go short when the
+perfect order gets back in place.
+
+127
+00:09:03,220 --> 00:09:07,340
+Probably you’re familiar with the golden
+and death crosses concept.
+
+128
+00:09:07,340 --> 00:09:10,780
+It calls for two big moving averages crossing.
+
+129
+00:09:10,780 --> 00:09:15,190
+When the fast one moves above the slow one,
+a golden cross forms.
+
+130
+00:09:15,190 --> 00:09:16,650
+This is bullish.
+
+131
+00:09:16,650 --> 00:09:20,130
+When a death cross appears, the opposite is
+true.
+
+132
+00:09:20,130 --> 00:09:21,480
+Bears are in control.
+
+133
+00:09:21,480 --> 00:09:24,880
+The Alligator could offer a similar interpretation.
+
+134
+00:09:24,880 --> 00:09:28,680
+The secret is to use the bigger averages in
+the same way.
+
+135
+00:09:28,680 --> 00:09:33,710
+Therefore, use the red and blue lines as the
+faster and slower averages.
+
+136
+00:09:33,710 --> 00:09:39,030
+A cross like this shows you the type of the
+market: bullish or bearish.
+
+137
+00:09:39,030 --> 00:09:45,160
+Furthermore, use the green line of the Alligator
+indicator as a confirmation.
+
+138
+00:09:45,160 --> 00:09:50,170
+Alligator indicator provides a useful visual
+tool for trend recognition and trade entry
+
+139
+00:09:50,170 --> 00:09:55,860
+timing, but it has limited usefulness during
+choppy and trendless periods.
+
+140
+00:09:55,860 --> 00:10:01,860
+Alternatively, you could try using a different
+tool, such as a Momentum Indicator or a different
+
+141
+00:10:01,860 --> 00:10:09,970
+oscillator to look for price/momentum divergence,
+as a way of confirming your trading signal.
+
+142
+00:10:09,970 --> 00:10:14,770
+As always, if you learned something new and
+found value, leave us a like to show your
+
+143
+00:10:14,770 --> 00:10:19,700
+support, subscribe to our channel and hit
+the bell icon to stay notified when we upload
+
+144
+00:10:19,700 --> 00:10:21,560
+new videos.
+
+145
+00:10:21,560 --> 00:10:22,090
+Until next time.
+

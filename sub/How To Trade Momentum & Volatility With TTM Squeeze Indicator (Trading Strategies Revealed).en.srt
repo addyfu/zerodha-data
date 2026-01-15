@@ -1,0 +1,1268 @@
+1
+00:00:00,640 --> 00:00:04,319
+how do you know if a market is about to
+
+2
+00:00:02,399 --> 00:00:05,200
+switch from a consolidation to a full
+
+3
+00:00:04,319 --> 00:00:07,040
+trend
+
+4
+00:00:05,200 --> 00:00:08,639
+this may be obvious in hindsight when
+
+5
+00:00:07,040 --> 00:00:10,639
+you look at the previous charts
+
+6
+00:00:08,639 --> 00:00:12,559
+but in real time this is a major
+
+7
+00:00:10,639 --> 00:00:14,480
+challenge for all traders
+
+8
+00:00:12,559 --> 00:00:16,240
+you know the situation you've got a
+
+9
+00:00:14,480 --> 00:00:16,880
+setup that you like on a market that you
+
+10
+00:00:16,240 --> 00:00:18,480
+follow
+
+11
+00:00:16,880 --> 00:00:20,240
+but the market looks like it's in a
+
+12
+00:00:18,480 --> 00:00:22,800
+range what do you do
+
+13
+00:00:20,240 --> 00:00:24,720
+you take the signal or wait luckily for
+
+14
+00:00:22,800 --> 00:00:26,640
+us there's an interesting tool that can
+
+15
+00:00:24,720 --> 00:00:29,039
+help to detect when such a switch from
+
+16
+00:00:26,640 --> 00:00:31,119
+consolidation to trend might be near
+
+17
+00:00:29,039 --> 00:00:33,120
+in today's video we'll discuss about the
+
+18
+00:00:31,119 --> 00:00:35,120
+ttm squeeze indicator
+
+19
+00:00:33,120 --> 00:00:38,800
+and i will share how to use it and how
+
+20
+00:00:35,120 --> 00:00:41,440
+to trade with it to find the best setups
+
+21
+00:00:38,800 --> 00:00:42,239
+ttm squeeze is a volatility and momentum
+
+22
+00:00:41,440 --> 00:00:44,480
+indicator
+
+23
+00:00:42,239 --> 00:00:46,079
+which is based on the tendency for price
+
+24
+00:00:44,480 --> 00:00:47,920
+to break out strongly after
+
+25
+00:00:46,079 --> 00:00:48,879
+consolidating in a small price action
+
+26
+00:00:47,920 --> 00:00:50,320
+range
+
+27
+00:00:48,879 --> 00:00:52,239
+trading price action is a pretty
+
+28
+00:00:50,320 --> 00:00:54,000
+straightforward idea of understanding
+
+29
+00:00:52,239 --> 00:00:56,320
+support and resistance levels
+
+30
+00:00:54,000 --> 00:00:58,559
+however understanding momentum and the
+
+31
+00:00:56,320 --> 00:00:59,120
+direction of price at these levels is
+
+32
+00:00:58,559 --> 00:01:00,800
+probably
+
+33
+00:00:59,120 --> 00:01:02,399
+one of the most difficult concepts for
+
+34
+00:01:00,800 --> 00:01:04,400
+many traders
+
+35
+00:01:02,399 --> 00:01:06,320
+being able to spot momentum increasing
+
+36
+00:01:04,400 --> 00:01:08,159
+or decreasing at these levels
+
+37
+00:01:06,320 --> 00:01:10,240
+makes the difference between success and
+
+38
+00:01:08,159 --> 00:01:13,040
+failure when entering trades
+
+39
+00:01:10,240 --> 00:01:14,159
+that's why ttm squeeze makes spotting
+
+40
+00:01:13,040 --> 00:01:18,159
+momentum changes
+
+41
+00:01:14,159 --> 00:01:20,799
+and incoming volatility much easier
+
+42
+00:01:18,159 --> 00:01:22,880
+the ttm squeeze indicator visualize the
+
+43
+00:01:20,799 --> 00:01:25,119
+relationship between the bollinger bands
+
+44
+00:01:22,880 --> 00:01:27,600
+and the kelvin channels which helps to
+
+45
+00:01:25,119 --> 00:01:29,759
+identify when an asset is consolidating
+
+46
+00:01:27,600 --> 00:01:32,079
+meaning squeezing and signals when
+
+47
+00:01:29,759 --> 00:01:33,920
+prices are poised to break out
+
+48
+00:01:32,079 --> 00:01:36,400
+if the bollinger bands are completely
+
+49
+00:01:33,920 --> 00:01:38,240
+enclosed within the keltner channel
+
+50
+00:01:36,400 --> 00:01:39,600
+that indicates a period of very low
+
+51
+00:01:38,240 --> 00:01:42,240
+volatility
+
+52
+00:01:39,600 --> 00:01:43,920
+this state is known as the squeeze when
+
+53
+00:01:42,240 --> 00:01:45,840
+the bollinger bands expand
+
+54
+00:01:43,920 --> 00:01:48,560
+and move back outside of the keltner
+
+55
+00:01:45,840 --> 00:01:50,640
+channel volatility increases
+
+56
+00:01:48,560 --> 00:01:51,759
+and prices are likely to break out of
+
+57
+00:01:50,640 --> 00:01:55,119
+that trading range
+
+58
+00:01:51,759 --> 00:01:56,880
+in one direction or the other the ttm
+
+59
+00:01:55,119 --> 00:01:58,159
+squeeze is comprised of two main
+
+60
+00:01:56,880 --> 00:02:00,479
+components
+
+61
+00:01:58,159 --> 00:02:02,399
+first is the momentum oscillator this is
+
+62
+00:02:00,479 --> 00:02:04,240
+the vertical histogram which indicates
+
+63
+00:02:02,399 --> 00:02:06,320
+the direction of momentum
+
+64
+00:02:04,240 --> 00:02:08,640
+the green vertical lines is positive
+
+65
+00:02:06,320 --> 00:02:09,840
+momentum and the red vertical lines is
+
+66
+00:02:08,640 --> 00:02:12,080
+negative momentum
+
+67
+00:02:09,840 --> 00:02:14,480
+in relationship to their positions above
+
+68
+00:02:12,080 --> 00:02:16,720
+or below the horizontal zero line
+
+69
+00:02:14,480 --> 00:02:18,400
+the zero line is the second component
+
+70
+00:02:16,720 --> 00:02:20,480
+this horizontal line is where the
+
+71
+00:02:18,400 --> 00:02:22,400
+squeeze is visualized by a series of
+
+72
+00:02:20,480 --> 00:02:25,040
+green and red dots
+
+73
+00:02:22,400 --> 00:02:26,160
+green dots are a condition of no squeeze
+
+74
+00:02:25,040 --> 00:02:28,400
+and the red dots
+
+75
+00:02:26,160 --> 00:02:29,360
+are when the price is squeezing the
+
+76
+00:02:28,400 --> 00:02:31,280
+squeeze signal
+
+77
+00:02:29,360 --> 00:02:33,200
+meaning the red dots appears when the
+
+78
+00:02:31,280 --> 00:02:35,519
+bollinger bands are squeezed into the
+
+79
+00:02:33,200 --> 00:02:37,120
+keltner channel
+
+80
+00:02:35,519 --> 00:02:38,800
+now let's actually add the bollinger
+
+81
+00:02:37,120 --> 00:02:39,840
+bands and the keltner channel to the
+
+82
+00:02:38,800 --> 00:02:41,840
+charts
+
+83
+00:02:39,840 --> 00:02:43,840
+as seen these squeeze conditions
+
+84
+00:02:41,840 --> 00:02:46,000
+represent the consolidation of price
+
+85
+00:02:43,840 --> 00:02:48,160
+with bollinger bands within the keltner
+
+86
+00:02:46,000 --> 00:02:48,879
+channel which corresponds to a series of
+
+87
+00:02:48,160 --> 00:02:50,720
+red dots
+
+88
+00:02:48,879 --> 00:02:52,319
+appearing along with the zero line on
+
+89
+00:02:50,720 --> 00:02:54,319
+the ttm
+
+90
+00:02:52,319 --> 00:02:56,640
+increase in momentum is represented by
+
+91
+00:02:54,319 --> 00:02:57,440
+higher bars on the momentum histogram on
+
+92
+00:02:56,640 --> 00:02:59,920
+the ttm
+
+93
+00:02:57,440 --> 00:03:01,599
+and the expanding of the bollinger bands
+
+94
+00:02:59,920 --> 00:03:03,840
+with the release of the squeeze seeing
+
+95
+00:03:01,599 --> 00:03:05,920
+the red dots turning green
+
+96
+00:03:03,840 --> 00:03:07,200
+the ttm squeeze indicator helps to take
+
+97
+00:03:05,920 --> 00:03:09,280
+a lot of the guesswork
+
+98
+00:03:07,200 --> 00:03:10,800
+out of the momentum equation with a
+
+99
+00:03:09,280 --> 00:03:12,400
+simplified representation
+
+100
+00:03:10,800 --> 00:03:14,159
+of what's happening when the bollinger
+
+101
+00:03:12,400 --> 00:03:16,640
+bands and the keltner channel
+
+102
+00:03:14,159 --> 00:03:18,000
+enter a consolidation phase and you have
+
+103
+00:03:16,640 --> 00:03:21,680
+a much simpler and cleaner
+
+104
+00:03:18,000 --> 00:03:23,599
+chart so how to read and how to trade
+
+105
+00:03:21,680 --> 00:03:26,319
+with the ttm squeeze
+
+106
+00:03:23,599 --> 00:03:28,799
+i said before the ttm squeeze has both
+
+107
+00:03:26,319 --> 00:03:31,040
+volatility and momentum components
+
+108
+00:03:28,799 --> 00:03:33,519
+the squeeze dots signal volatility
+
+109
+00:03:31,040 --> 00:03:35,920
+conditions while the momentum histogram
+
+110
+00:03:33,519 --> 00:03:37,599
+indicates the direction long or short in
+
+111
+00:03:35,920 --> 00:03:40,000
+which to trade
+
+112
+00:03:37,599 --> 00:03:42,000
+in the ttm squeeze we have a horizontal
+
+113
+00:03:40,000 --> 00:03:42,959
+line that changes color between green
+
+114
+00:03:42,000 --> 00:03:44,640
+and red
+
+115
+00:03:42,959 --> 00:03:46,560
+this represents the situation of the
+
+116
+00:03:44,640 --> 00:03:48,239
+market in the current moment
+
+117
+00:03:46,560 --> 00:03:50,159
+if we happen to found that the dtm
+
+118
+00:03:48,239 --> 00:03:51,519
+squeeze horizontal line is red
+
+119
+00:03:50,159 --> 00:03:54,080
+it means that the market is in a
+
+120
+00:03:51,519 --> 00:03:55,519
+consolidation period and is not ready to
+
+121
+00:03:54,080 --> 00:03:58,480
+move just yet
+
+122
+00:03:55,519 --> 00:03:58,959
+however if we finally spot the green dot
+
+123
+00:03:58,480 --> 00:04:01,360
+after
+
+124
+00:03:58,959 --> 00:04:03,120
+a series of red dots in the middle line
+
+125
+00:04:01,360 --> 00:04:04,159
+this means that the market is finally
+
+126
+00:04:03,120 --> 00:04:06,239
+ready to move
+
+127
+00:04:04,159 --> 00:04:07,840
+and it will most likely do it in a
+
+128
+00:04:06,239 --> 00:04:10,159
+somewhat aggressive way
+
+129
+00:04:07,840 --> 00:04:11,840
+because volatility increases and the
+
+130
+00:04:10,159 --> 00:04:13,519
+bollinger bands expand
+
+131
+00:04:11,840 --> 00:04:16,239
+until they are outside of the keltner
+
+132
+00:04:13,519 --> 00:04:18,160
+channel the author of the indicator
+
+133
+00:04:16,239 --> 00:04:19,600
+recommends taking a trade on the first
+
+134
+00:04:18,160 --> 00:04:22,160
+green dot after
+
+135
+00:04:19,600 --> 00:04:23,360
+one or more red dots but the question
+
+136
+00:04:22,160 --> 00:04:26,960
+that remains is
+
+137
+00:04:23,360 --> 00:04:29,440
+in which direction will the market move
+
+138
+00:04:26,960 --> 00:04:31,199
+now the momentum histogram helps to
+
+139
+00:04:29,440 --> 00:04:32,080
+determine the direction in which to
+
+140
+00:04:31,199 --> 00:04:34,240
+trade
+
+141
+00:04:32,080 --> 00:04:35,360
+if the momentum is above the zero line
+
+142
+00:04:34,240 --> 00:04:37,520
+and rising
+
+143
+00:04:35,360 --> 00:04:39,520
+long trades are recommended if the
+
+144
+00:04:37,520 --> 00:04:41,600
+histogram is below the zero line
+
+145
+00:04:39,520 --> 00:04:42,960
+and falling lower short trades are
+
+146
+00:04:41,600 --> 00:04:45,840
+recommended
+
+147
+00:04:42,960 --> 00:04:47,759
+the histogram bars are color coded bars
+
+148
+00:04:45,840 --> 00:04:50,080
+above the zero line are green
+
+149
+00:04:47,759 --> 00:04:52,160
+and below the zero line are red in
+
+150
+00:04:50,080 --> 00:04:54,720
+addition a bar that is lower than the
+
+151
+00:04:52,160 --> 00:04:56,160
+previous bar will be a darker color
+
+152
+00:04:54,720 --> 00:04:58,960
+and a bar that is higher than the
+
+153
+00:04:56,160 --> 00:05:01,360
+previous bar will be a lighter color
+
+154
+00:04:58,960 --> 00:05:03,759
+when the histogram changes direction and
+
+155
+00:05:01,360 --> 00:05:06,160
+starts moving back towards the zero line
+
+156
+00:05:03,759 --> 00:05:08,160
+that's a signal to sell the momentum
+
+157
+00:05:06,160 --> 00:05:09,680
+histogram can also be used to determine
+
+158
+00:05:08,160 --> 00:05:11,680
+specific exit points
+
+159
+00:05:09,680 --> 00:05:12,880
+like selling when you had two bars in
+
+160
+00:05:11,680 --> 00:05:15,600
+the new color
+
+161
+00:05:12,880 --> 00:05:17,199
+for example if the squeeze fires and the
+
+162
+00:05:15,600 --> 00:05:18,240
+bars are above the zero line and
+
+163
+00:05:17,199 --> 00:05:20,000
+increasing
+
+164
+00:05:18,240 --> 00:05:21,680
+you could sell when you see two bars in
+
+165
+00:05:20,000 --> 00:05:24,880
+a row above the zero line
+
+166
+00:05:21,680 --> 00:05:27,120
+and decreasing just to be clear
+
+167
+00:05:24,880 --> 00:05:28,880
+when you analyze a market your focus
+
+168
+00:05:27,120 --> 00:05:30,639
+should be on the zero line
+
+169
+00:05:28,880 --> 00:05:32,160
+the red dots by themselves are not a
+
+170
+00:05:30,639 --> 00:05:33,919
+signal for entering a trade
+
+171
+00:05:32,160 --> 00:05:35,680
+but should be used in combination with
+
+172
+00:05:33,919 --> 00:05:38,080
+the vertical momentum bars
+
+173
+00:05:35,680 --> 00:05:40,160
+as the momentum bars near the zero line
+
+174
+00:05:38,080 --> 00:05:41,199
+this is the signal or condition that we
+
+175
+00:05:40,160 --> 00:05:42,720
+should be looking for
+
+176
+00:05:41,199 --> 00:05:44,560
+which indicates that momentum is
+
+177
+00:05:42,720 --> 00:05:45,600
+shifting into positive or negative
+
+178
+00:05:44,560 --> 00:05:47,840
+territory
+
+179
+00:05:45,600 --> 00:05:49,440
+once these conditions are met an entry
+
+180
+00:05:47,840 --> 00:05:51,280
+can be considered
+
+181
+00:05:49,440 --> 00:05:52,880
+there are many options about when to
+
+182
+00:05:51,280 --> 00:05:55,520
+enter the trade at this point
+
+183
+00:05:52,880 --> 00:05:56,479
+once a momentum shift has been confirmed
+
+184
+00:05:55,520 --> 00:05:59,120
+some traders
+
+185
+00:05:56,479 --> 00:06:00,960
+do so on the first bar others after one
+
+186
+00:05:59,120 --> 00:06:02,319
+or two bars have been confirmed
+
+187
+00:06:00,960 --> 00:06:04,800
+this is something that you will have to
+
+188
+00:06:02,319 --> 00:06:07,120
+determine on your own
+
+189
+00:06:04,800 --> 00:06:08,880
+in this 15-minute chart we have marked
+
+190
+00:06:07,120 --> 00:06:11,280
+several squeeze signals
+
+191
+00:06:08,880 --> 00:06:13,600
+the first squeeze is quite clear it is
+
+192
+00:06:11,280 --> 00:06:16,240
+marked on the left side of the chart
+
+193
+00:06:13,600 --> 00:06:18,160
+as you can see the ttm squeeze indicator
+
+194
+00:06:16,240 --> 00:06:19,600
+is telling us that there is a movement
+
+195
+00:06:18,160 --> 00:06:22,400
+ready to go in price
+
+196
+00:06:19,600 --> 00:06:24,479
+and it will most likely be bearish as
+
+197
+00:06:22,400 --> 00:06:25,840
+the red bars appeared exactly with a
+
+198
+00:06:24,479 --> 00:06:27,919
+squeeze
+
+199
+00:06:25,840 --> 00:06:28,880
+however the second squeeze direction is
+
+200
+00:06:27,919 --> 00:06:31,199
+not so clear
+
+201
+00:06:28,880 --> 00:06:33,280
+the ttm squeeze histogram tells us that
+
+202
+00:06:31,199 --> 00:06:34,960
+it will most likely be a bearish one
+
+203
+00:06:33,280 --> 00:06:37,039
+but the truth is that it ended being a
+
+204
+00:06:34,960 --> 00:06:38,960
+bully squeeze in any case
+
+205
+00:06:37,039 --> 00:06:40,720
+this is a perfect example of why we
+
+206
+00:06:38,960 --> 00:06:42,880
+should be using stop loss orders to
+
+207
+00:06:40,720 --> 00:06:44,880
+avoid extreme losses
+
+208
+00:06:42,880 --> 00:06:46,560
+the third squeeze even when it takes
+
+209
+00:06:44,880 --> 00:06:49,680
+some time to finally move
+
+210
+00:06:46,560 --> 00:06:51,680
+does it to the upside here's another
+
+211
+00:06:49,680 --> 00:06:53,919
+example on the one hour time frame
+
+212
+00:06:51,680 --> 00:06:54,880
+the ttm squeeze gives a perfect long
+
+213
+00:06:53,919 --> 00:06:57,360
+entry
+
+214
+00:06:54,880 --> 00:06:59,440
+several red dots appeared indicating the
+
+215
+00:06:57,360 --> 00:07:00,160
+market has built enough consolidation
+
+216
+00:06:59,440 --> 00:07:02,960
+energy
+
+217
+00:07:00,160 --> 00:07:04,319
+and is ready for a squeeze the red dots
+
+218
+00:07:02,960 --> 00:07:06,720
+have a green histogram
+
+219
+00:07:04,319 --> 00:07:07,919
+rising upwards indicating that there is
+
+220
+00:07:06,720 --> 00:07:11,039
+bullish momentum
+
+221
+00:07:07,919 --> 00:07:12,639
+lurking beneath this energy the previous
+
+222
+00:07:11,039 --> 00:07:14,479
+trend was also bullish
+
+223
+00:07:12,639 --> 00:07:16,080
+an important aspect to consider when
+
+224
+00:07:14,479 --> 00:07:18,080
+analyzing a setup
+
+225
+00:07:16,080 --> 00:07:19,840
+my preference is to look for squeeze
+
+226
+00:07:18,080 --> 00:07:20,880
+trades in the direction of the main
+
+227
+00:07:19,840 --> 00:07:23,440
+trend
+
+228
+00:07:20,880 --> 00:07:25,199
+in this case as expected the market
+
+229
+00:07:23,440 --> 00:07:27,360
+responds with an aggressive spike
+
+230
+00:07:25,199 --> 00:07:28,800
+upwards
+
+231
+00:07:27,360 --> 00:07:31,440
+don't expect the market to move
+
+232
+00:07:28,800 --> 00:07:33,759
+immediately after that color change
+
+233
+00:07:31,440 --> 00:07:35,120
+in some cases the market will take some
+
+234
+00:07:33,759 --> 00:07:37,120
+time to start a new move
+
+235
+00:07:35,120 --> 00:07:39,680
+up or down here's an example to
+
+236
+00:07:37,120 --> 00:07:41,599
+illustrate this 21 hour time frame
+
+237
+00:07:39,680 --> 00:07:42,720
+we can observe the red dots shift to
+
+238
+00:07:41,599 --> 00:07:44,879
+green dots
+
+239
+00:07:42,720 --> 00:07:46,639
+and we know there is bearish momentum
+
+240
+00:07:44,879 --> 00:07:49,280
+behind the potential squeeze
+
+241
+00:07:46,639 --> 00:07:51,360
+an ideal entry for a short trade the
+
+242
+00:07:49,280 --> 00:07:53,360
+setup was obvious for a short rate
+
+243
+00:07:51,360 --> 00:07:54,720
+but the price didn't move right away in
+
+244
+00:07:53,360 --> 00:07:56,560
+the expected direction
+
+245
+00:07:54,720 --> 00:07:58,400
+we had to wait a bit longer before the
+
+246
+00:07:56,560 --> 00:08:00,080
+move came and of course
+
+247
+00:07:58,400 --> 00:08:02,240
+in some cases it will move in the
+
+248
+00:08:00,080 --> 00:08:05,360
+opposite direction so make sure your
+
+249
+00:08:02,240 --> 00:08:13,840
+risk and money management is on point
+
+250
+00:08:05,360 --> 00:08:13,840
+here are other examples of valid traits
+
+251
+00:08:20,530 --> 00:08:24,200
+[Music]
+
+252
+00:08:27,430 --> 00:08:30,759
+[Music]
+
+253
+00:08:34,840 --> 00:08:37,940
+[Music]
+
+254
+00:08:46,120 --> 00:08:57,150
+[Music]
+
+255
+00:09:00,420 --> 00:09:03,559
+[Music]
+
+256
+00:09:25,950 --> 00:09:40,480
+[Music]
+
+257
+00:09:43,040 --> 00:09:47,760
+another way dtm squeeze indicator can be
+
+258
+00:09:45,279 --> 00:09:49,839
+traded is by using divergence
+
+259
+00:09:47,760 --> 00:09:51,680
+divergence is when instagram momentum
+
+260
+00:09:49,839 --> 00:09:54,240
+bars begin to slope toward
+
+261
+00:09:51,680 --> 00:09:55,680
+or away from the zero line and the price
+
+262
+00:09:54,240 --> 00:09:58,399
+moves in the opposite direction
+
+263
+00:09:55,680 --> 00:09:59,279
+on the upper part of the chart bearish
+
+264
+00:09:58,399 --> 00:10:01,920
+divergence
+
+265
+00:09:59,279 --> 00:10:04,240
+is when price is making higher highs but
+
+266
+00:10:01,920 --> 00:10:06,320
+the slopes of the histogram on the ttm
+
+267
+00:10:04,240 --> 00:10:08,160
+are making lower highs on the positive
+
+268
+00:10:06,320 --> 00:10:10,160
+side of the zero line
+
+269
+00:10:08,160 --> 00:10:11,680
+voltage divergence is when the price is
+
+270
+00:10:10,160 --> 00:10:13,600
+making lower lows
+
+271
+00:10:11,680 --> 00:10:15,680
+but the histogram is sloping toward the
+
+272
+00:10:13,600 --> 00:10:17,839
+zero line from the negative side of the
+
+273
+00:10:15,680 --> 00:10:20,000
+line
+
+274
+00:10:17,839 --> 00:10:22,000
+like any other technical indicator the
+
+275
+00:10:20,000 --> 00:10:23,680
+ttm is no magic bullet
+
+276
+00:10:22,000 --> 00:10:25,680
+and it would be best used with other
+
+277
+00:10:23,680 --> 00:10:26,800
+indicators as a confirmation of price
+
+278
+00:10:25,680 --> 00:10:28,720
+direction
+
+279
+00:10:26,800 --> 00:10:30,640
+you could add a moving average or the
+
+280
+00:10:28,720 --> 00:10:32,880
+ichimoku cloud for example
+
+281
+00:10:30,640 --> 00:10:35,279
+or even switch to a high kanashi chart
+
+282
+00:10:32,880 --> 00:10:37,920
+to visualize the main trend better
+
+283
+00:10:35,279 --> 00:10:39,040
+also the ttm squeeze can be used in many
+
+284
+00:10:37,920 --> 00:10:40,959
+time frames
+
+285
+00:10:39,040 --> 00:10:42,800
+my preference is to look at the same
+
+286
+00:10:40,959 --> 00:10:44,240
+market in multiple time frames for
+
+287
+00:10:42,800 --> 00:10:46,959
+confirmation
+
+288
+00:10:44,240 --> 00:10:48,959
+for example if a squeeze is firing on
+
+289
+00:10:46,959 --> 00:10:49,839
+both a daily and an hourly chart at the
+
+290
+00:10:48,959 --> 00:10:52,000
+same time
+
+291
+00:10:49,839 --> 00:11:00,870
+that's a stronger signal than a squeeze
+
+292
+00:10:52,000 --> 00:11:04,830
+that is only firing in one time frame
+
+293
+00:11:00,870 --> 00:11:04,830
+[Music]
+
+294
+00:11:13,060 --> 00:11:16,660
+[Music]
+
+295
+00:11:19,910 --> 00:11:23,260
+[Music]
+
+296
+00:11:26,839 --> 00:11:29,839
+so
+
+297
+00:11:38,620 --> 00:11:49,659
+[Music]
+
+298
+00:11:52,930 --> 00:11:56,059
+[Music]
+
+299
+00:11:59,630 --> 00:12:02,669
+[Music]
+
+300
+00:12:18,460 --> 00:12:29,680
+[Music]
+
+301
+00:12:27,600 --> 00:12:30,880
+lower time frames are typically used as
+
+302
+00:12:29,680 --> 00:12:32,800
+entry and exits
+
+303
+00:12:30,880 --> 00:12:34,639
+to support the higher time frame when
+
+304
+00:12:32,800 --> 00:12:37,440
+day trading or swing trading
+
+305
+00:12:34,639 --> 00:12:38,399
+just remember these steps find areas of
+
+306
+00:12:37,440 --> 00:12:40,800
+consolidation
+
+307
+00:12:38,399 --> 00:12:41,519
+with the red dots look for momentum to
+
+308
+00:12:40,800 --> 00:12:43,680
+break out
+
+309
+00:12:41,519 --> 00:12:44,880
+in the direction of the main trend and
+
+310
+00:12:43,680 --> 00:12:48,240
+confirm the movement
+
+311
+00:12:44,880 --> 00:12:49,760
+with a higher time frame if you learned
+
+312
+00:12:48,240 --> 00:12:51,760
+something new and found value
+
+313
+00:12:49,760 --> 00:12:53,600
+leave us a like to show support and
+
+314
+00:12:51,760 --> 00:12:55,279
+don't forget to subscribe and hit that
+
+315
+00:12:53,600 --> 00:12:57,839
+bell icon to get notified when we
+
+316
+00:12:55,279 --> 00:13:02,000
+release new videos
+
+317
+00:12:57,839 --> 00:13:02,000
+until next time
+

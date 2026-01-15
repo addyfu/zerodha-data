@@ -1,0 +1,754 @@
+1
+00:00:00,100 --> 00:00:06,030
+Today is your lucky day: I got a surprisingly
+simple strategy, to finally see some profits
+
+2
+00:00:06,030 --> 00:00:08,860
+in your account, without taking huge risks.
+
+3
+00:00:08,860 --> 00:00:15,150
+I’ll split this strategy into 4 different
+stages, which are all price action related.
+
+4
+00:00:15,150 --> 00:00:19,750
+First, you need to find the levels that get
+the most attention.
+
+5
+00:00:19,750 --> 00:00:24,530
+When prices break past support or resistance
+levels on a chart, it's called a Break of
+
+6
+00:00:24,530 --> 00:00:25,890
+Structure.
+
+7
+00:00:25,890 --> 00:00:30,320
+And this matters a lot, being the first condition
+in our strategy.
+
+8
+00:00:30,320 --> 00:00:35,280
+Break of Structure means the price has moved
+significantly past a point where it used to
+
+9
+00:00:35,280 --> 00:00:39,510
+stop before, going in the same direction as
+before.
+
+10
+00:00:39,510 --> 00:00:46,250
+It's simple: in an uptrend, it's when the
+price goes higher than before, and in a downtrend,
+
+11
+00:00:46,250 --> 00:00:49,440
+it's when the price goes lower than before.
+
+12
+00:00:49,440 --> 00:00:54,540
+When the market keeps making higher highs
+and higher lows, in an uptrend, you pick the
+
+13
+00:00:54,540 --> 00:00:56,320
+latest high point.
+
+14
+00:00:56,320 --> 00:01:01,760
+If the price keeps going up and closes above
+this point for a while, that's a Break of
+
+15
+00:01:01,760 --> 00:01:03,210
+Structure.
+
+16
+00:01:03,210 --> 00:01:08,979
+But when the market's making lower lows and
+lower highs in a downtrend, you pick the most
+
+17
+00:01:08,979 --> 00:01:10,410
+recent low.
+
+18
+00:01:10,410 --> 00:01:16,870
+If the price keeps dropping and closes below
+this low, that's another Break of Structure.
+
+19
+00:01:16,870 --> 00:01:20,799
+The second condition is the development of
+a change of character.
+
+20
+00:01:20,799 --> 00:01:26,181
+A Change of Character happens when the market
+starts to go in the opposite direction, after
+
+21
+00:01:26,181 --> 00:01:29,470
+breaking its previous highs or lows.
+
+22
+00:01:29,470 --> 00:01:34,040
+It's like a sudden and big change in how the
+price moves in the market.
+
+23
+00:01:34,040 --> 00:01:41,000
+For instance, we have this market that's been
+going down, making lower highs and lower lows.
+
+24
+00:01:41,000 --> 00:01:47,350
+If suddenly the price breaks above its last
+major high point, that's a Change of Character.
+
+25
+00:01:47,350 --> 00:01:52,469
+It suggests the market might be turning around,
+with buyers taking over.
+
+26
+00:01:52,469 --> 00:01:59,090
+If the price keeps going up, making new highs
+and lows, we're now in a minor uptrend.
+
+27
+00:01:59,090 --> 00:02:05,580
+Here, the price has been going up, making
+higher highs and higher lows.
+
+28
+00:02:05,580 --> 00:02:09,310
+Look at the past breaks of structure, going
+with the trend.
+
+29
+00:02:09,310 --> 00:02:15,640
+But then, after one of these breaks of structure,
+the price turns around and makes a new lower
+
+30
+00:02:15,640 --> 00:02:16,970
+low.
+
+31
+00:02:16,970 --> 00:02:19,910
+This suggests the trend might be changing.
+
+32
+00:02:19,910 --> 00:02:26,170
+After a small pullback, the price starts making
+lower lows and lower highs, showing a new
+
+33
+00:02:26,170 --> 00:02:29,280
+downward trend might be starting.
+
+34
+00:02:29,280 --> 00:02:33,580
+. The previous bullish trend has now shifted
+into a bearish one.
+
+35
+00:02:33,580 --> 00:02:39,709
+So, to recap, first condition is a Break of
+Structure, which means the market structure
+
+36
+00:02:39,709 --> 00:02:42,560
+keeps going in the same direction.
+
+37
+00:02:42,560 --> 00:02:48,790
+The second condition is a Change of Character,
+which means price might be changing direction.
+
+38
+00:02:48,790 --> 00:02:53,900
+After you find these 2 patterns, now I want
+you to take the Fibonacci tool, and apply
+
+39
+00:02:53,900 --> 00:02:59,870
+it from highest point of the break of structure,
+to the lowest point of the change of character.
+
+40
+00:02:59,870 --> 00:03:05,480
+We’re interested in pullbacks to the 50%
+- 61.8% Fibonacci area.
+
+41
+00:03:05,480 --> 00:03:08,000
+That’s the third condition.
+
+42
+00:03:08,000 --> 00:03:14,340
+Price tends to go back about 50% of the distance
+after a big move, and even after smaller moves
+
+43
+00:03:14,340 --> 00:03:15,340
+too.
+
+44
+00:03:15,340 --> 00:03:18,220
+This happens a lot and you can see it on any
+chart.
+
+45
+00:03:18,220 --> 00:03:26,090
+So, we’ll keep an eye out for pullbacks
+to this Fibonacci golden zone, because they
+
+46
+00:03:26,090 --> 00:03:31,260
+often show a high chance for the price to
+bounce back in the direction it was going
+
+47
+00:03:31,260 --> 00:03:32,580
+before.
+
+48
+00:03:32,580 --> 00:03:37,640
+The Fibonacci Golden Zone is a go-to gem for
+finding great trades.
+
+49
+00:03:37,640 --> 00:03:43,190
+You’ll often find that prices get zapped
+like magnets to this special area.
+
+50
+00:03:43,190 --> 00:03:45,439
+Big money traders watch these levels too.
+
+51
+00:03:45,439 --> 00:03:51,670
+It’s common knowledge that major players
+like banks use these levels in their trading.
+
+52
+00:03:51,670 --> 00:03:55,890
+And by lining up with the big dogs, you're
+ready to run with the pack.
+
+53
+00:03:55,890 --> 00:04:02,250
+If they want to buy or sell at the same spot,
+it can push the price quite aggressively.
+
+54
+00:04:02,250 --> 00:04:07,569
+Very important: you might not get an instant
+rejection right away, when price reaches the
+
+55
+00:04:07,569 --> 00:04:09,069
+zone.
+
+56
+00:04:09,069 --> 00:04:12,060
+Prices need to chill and regroup sometimes.
+
+57
+00:04:12,060 --> 00:04:15,140
+So consider this area as a memory zone.
+
+58
+00:04:15,140 --> 00:04:18,950
+If prices bounced there before, they'll likely
+bounce again.
+
+59
+00:04:18,950 --> 00:04:23,220
+It’s a good area to take trades if you missed
+it the first time.
+
+60
+00:04:23,220 --> 00:04:27,460
+Now, it's not enough for the price to just
+touch the zone.
+
+61
+00:04:27,460 --> 00:04:30,210
+We need to see it reject off the level.
+
+62
+00:04:30,210 --> 00:04:36,660
+The fourth condition is a wick, rejecting
+the zone, a long thin line above or below
+
+63
+00:04:36,660 --> 00:04:37,789
+the candle body.
+
+64
+00:04:37,789 --> 00:04:41,479
+Wicks show fierce rejection of that level.
+
+65
+00:04:41,479 --> 00:04:47,039
+When a wick spikes down, for example, but
+closes back up, it demonstrates the buyers
+
+66
+00:04:47,039 --> 00:04:49,420
+have stepped in with force.
+
+67
+00:04:49,420 --> 00:04:56,440
+Wicks reveal the price "tested the waters"
+at the zone before rapidly bouncing back.
+
+68
+00:04:56,440 --> 00:05:00,190
+Like dipping your toe in the pool before jumping
+out.
+
+69
+00:05:00,190 --> 00:05:05,830
+A long wick into the zone combined with the
+other factors screams rejection.
+
+70
+00:05:05,830 --> 00:05:11,759
+Of course, we need a backup plan, in case
+the price goes right through the Golden Zone.
+
+71
+00:05:11,759 --> 00:05:18,009
+Set your stop-loss just above or below the
+78% Fibonacci level.
+
+72
+00:05:18,009 --> 00:05:21,419
+We're looking at chart that's been in a clear
+uptrend, making higher highs and higher lows
+
+73
+00:05:21,419 --> 00:05:22,419
+over time.
+
+74
+00:05:22,419 --> 00:05:26,320
+This shows strong buying pressure pushing
+the price up overall.
+
+75
+00:05:26,320 --> 00:05:32,330
+At this point, the price breaks above the
+previous high, confirming the uptrend is continuing
+
+76
+00:05:32,330 --> 00:05:34,310
+with a Break of Structure.
+
+77
+00:05:34,310 --> 00:05:40,050
+Soon after this, the price starts falling
+and makes a new lower low.
+
+78
+00:05:40,050 --> 00:05:45,670
+This signals a Change of Character, suggesting
+the uptrend may be weakening.
+
+79
+00:05:45,670 --> 00:05:50,860
+We take the Fibonacci tool from the Break
+of Structure high down to the Change of Character
+
+80
+00:05:50,860 --> 00:05:52,130
+low.
+
+81
+00:05:52,130 --> 00:05:54,310
+This shows us the 50%-61.8% pullback zone.
+
+82
+00:05:54,310 --> 00:05:58,880
+We want price to pull back right into that
+Fibonacci zone.
+
+83
+00:05:58,880 --> 00:06:03,320
+Which it did, printing a long wick before
+closing back down.
+
+84
+00:06:03,320 --> 00:06:07,530
+This long wick into the zone shows rejection
+by sellers.
+
+85
+00:06:07,530 --> 00:06:14,220
+We have a high probability sell setup, with
+a stop above the 78% Fibonacci level and targeting
+
+86
+00:06:14,220 --> 00:06:17,000
+double the amount we risked.
+
+87
+00:06:17,000 --> 00:06:23,009
+We analyze the Crude Oil market, which was
+in a clear downtrend on the 4-hour time frame,
+
+88
+00:06:23,009 --> 00:06:29,370
+with lower highs and lower lows, showing strong
+selling pressure overall.
+
+89
+00:06:29,370 --> 00:06:36,250
+After a bounce up, the price makes a new lower-low,
+breaking market structure to confirm the sellers
+
+90
+00:06:36,250 --> 00:06:38,000
+remain in control.
+
+91
+00:06:38,000 --> 00:06:44,580
+However, on the next days, the price rockets
+up and breaks the previous lower high.
+
+92
+00:06:44,580 --> 00:06:49,780
+This is a Change of Character, signaling potential
+weakness in the downtrend.
+
+93
+00:06:49,780 --> 00:06:56,160
+We draw our Fibonacci from the lower low of
+the break of structure, up to the high created
+
+94
+00:06:56,160 --> 00:07:00,440
+on the change of character, to find the pullback
+area.
+
+95
+00:07:00,440 --> 00:07:06,479
+We now see that price pulls right back into
+that zone, and prints a long wick up before
+
+96
+00:07:06,479 --> 00:07:08,290
+closing back up.
+
+97
+00:07:08,290 --> 00:07:13,300
+The wick into the Fibonacci area tells us
+buyers are rejecting that zone.
+
+98
+00:07:13,300 --> 00:07:20,270
+I see it as a great opportunity for a long
+setup, with a stop right below the 78% Fibonacci
+
+99
+00:07:20,270 --> 00:07:24,370
+level and targeting double the amount we risked.
+
+100
+00:07:24,370 --> 00:07:25,700
+And look what happened.
+
+101
+00:07:25,700 --> 00:07:30,379
+I don’t know how to call it…bad luck…or
+bad stop placement.
+
+102
+00:07:30,379 --> 00:07:36,630
+The price reached 78% level, broke slightly
+below it, stopped me from the trade…and
+
+103
+00:07:36,630 --> 00:07:41,760
+you guessed it…went straight back up, right
+to my take profit area.
+
+104
+00:07:41,760 --> 00:07:46,870
+Lesson learned: never put the stop loss so
+close to the 78% level.
+
+105
+00:07:46,870 --> 00:07:51,360
+Leave the market some room for stop hunts,
+market noise and others.
+
+106
+00:07:51,360 --> 00:07:56,120
+This would have been a home run, if I had
+my stop just a bit lower!
+
+107
+00:07:56,120 --> 00:08:01,599
+In this chart, the market is in an uptrend,
+and you can see a pattern of higher highs
+
+108
+00:08:01,599 --> 00:08:03,310
+and higher lows.
+
+109
+00:08:03,310 --> 00:08:06,909
+This is the first sign that buyers are in
+control.
+
+110
+00:08:06,909 --> 00:08:09,199
+Now, first condition.
+
+111
+00:08:09,199 --> 00:08:14,840
+We're looking at a Break of Structure, with
+this recent high that has been surpassed,
+
+112
+00:08:14,840 --> 00:08:17,319
+and the price has closed above it.
+
+113
+00:08:17,319 --> 00:08:21,080
+Next, we're on the lookout for a Change of
+Character.
+
+114
+00:08:21,080 --> 00:08:27,970
+After our break of structure, the price takes
+a breather and dips down, making a lower low.
+
+115
+00:08:27,970 --> 00:08:34,300
+With our Fibonacci tool in hand, we draw from
+the highest point of our Break of Structure,
+
+116
+00:08:34,300 --> 00:08:37,850
+down to the lowest point of the Change of
+Character.
+
+117
+00:08:37,850 --> 00:08:42,940
+We're interested in a pullback – we want
+the price to come back up to the Fibonacci
+
+118
+00:08:42,940 --> 00:08:44,250
+golden zone.
+
+119
+00:08:44,250 --> 00:08:50,950
+When we see this long wick into the zone – combined
+with our other conditions, it's our cue.
+
+120
+00:08:50,950 --> 00:08:55,769
+We're seeing sellers stepping back in and
+it's time to make our move.
+
+121
+00:08:55,769 --> 00:09:03,339
+We enter a short trade, setting our stop-loss
+just above the 78% Fibonacci level, to be
+
+122
+00:09:03,339 --> 00:09:04,339
+safe.
+
+123
+00:09:04,339 --> 00:09:07,540
+Here the market has been in a clear downtrend.
+
+124
+00:09:07,540 --> 00:09:13,600
+We see lower lows and lower highs – signs
+that the sellers have the upper hand.
+
+125
+00:09:13,600 --> 00:09:19,970
+As we apply our strategy, we first identify
+a Break of Structure to the downside.
+
+126
+00:09:19,970 --> 00:09:24,980
+There's a recent low that's been broken, and
+the price has closed below it.
+
+127
+00:09:24,980 --> 00:09:30,329
+After that, the price starts to climb, breaking
+past the last lower high.
+
+128
+00:09:30,329 --> 00:09:33,990
+It's a Change of Character, and that’s the
+second condition.
+
+129
+00:09:33,990 --> 00:09:36,740
+The sellers might be losing their grip.
+
+130
+00:09:36,740 --> 00:09:42,510
+We grab our trusty Fibonacci tool and measure
+from the Break of Structure low, to the Change
+
+131
+00:09:42,510 --> 00:09:44,480
+of Character high.
+
+132
+00:09:44,480 --> 00:09:47,450
+We're now watching the Fibonacci golden zone.
+
+133
+00:09:47,450 --> 00:09:50,730
+This is where we expect the price to retrace.
+
+134
+00:09:50,730 --> 00:09:56,880
+And as predicted, the price declines, with
+a wick that pokes up into the zone.
+
+135
+00:09:56,880 --> 00:10:00,589
+It's a clear sign that the buyers aren't done
+yet.
+
+136
+00:10:00,589 --> 00:10:03,829
+They're pushing back, and we're ready to join
+them.
+
+137
+00:10:03,829 --> 00:10:10,780
+We place our buy trade, setting a stop-loss
+just below the 78% Fibonacci level, to cover
+
+138
+00:10:10,780 --> 00:10:12,079
+our backs.
+
+139
+00:10:12,079 --> 00:10:17,170
+And we are aiming for a target that's twice
+the size of our risk.
+
+140
+00:10:17,170 --> 00:10:21,890
+Regarding which time frame should you choose,
+remember that markets are fractal.
+
+141
+00:10:21,890 --> 00:10:28,120
+A fractal is a pattern that repeats itself
+at different scales, like little mini-versions
+
+142
+00:10:28,120 --> 00:10:30,060
+of the bigger picture.
+
+143
+00:10:30,060 --> 00:10:35,519
+Price movements form similar patterns, whether
+you're looking at a 1-minute chart or a weekly
+
+144
+00:10:35,519 --> 00:10:36,519
+chart.
+
+145
+00:10:36,519 --> 00:10:38,779
+The only difference is the time frame.
+
+146
+00:10:38,779 --> 00:10:44,440
+No matter the time frame, the principles of
+support, resistance, trends and breakouts
+
+147
+00:10:44,440 --> 00:10:46,560
+apply in similar ways.
+
+148
+00:10:46,560 --> 00:10:52,100
+We are looking for signs of strength, wait
+for a change in the tide, measure our bounce
+
+149
+00:10:52,100 --> 00:10:56,649
+zone, and demand a clear rejection before
+making a move.
+
+150
+00:10:56,649 --> 00:11:01,070
+This approach will keep you aligned with the
+market's momentum, whether you're joining
+
+151
+00:11:01,070 --> 00:11:04,519
+the buyers or tagging along with the sellers.
+
+152
+00:11:04,519 --> 00:11:10,050
+The key is knowing which time frame to trade,
+based on your style and goals.
+
+153
+00:11:10,050 --> 00:11:15,329
+I personally use it on higher time frames,
+this is where signals are more powerful and
+
+154
+00:11:15,329 --> 00:11:16,550
+reliable.
+
+155
+00:11:16,550 --> 00:11:19,459
+And remember, it’s all about probabilities.
+
+156
+00:11:19,459 --> 00:11:21,610
+You will encounter losing trades.
+
+157
+00:11:21,610 --> 00:11:26,200
+But by following this strategy, you're stacking
+the odds in your favor.
+
+158
+00:11:26,200 --> 00:11:32,270
+You're not guessing; you're using a methodical
+approach to pinpoint high-probability trades.
+
+159
+00:11:32,270 --> 00:11:38,050
+And I may sound like a broken record by now,
+but if you also monitor volume, you can filter
+
+160
+00:11:38,050 --> 00:11:40,470
+the bad signals even more.
+
+161
+00:11:40,470 --> 00:11:55,380
+These videos will explain how to add the volume
+component into your analysis.
+

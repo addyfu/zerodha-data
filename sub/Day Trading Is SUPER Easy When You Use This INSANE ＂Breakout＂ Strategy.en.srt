@@ -1,0 +1,1280 @@
+1
+00:00:00,960 --> 00:00:05,000
+be honest how many days and nights you
+
+2
+00:00:03,320 --> 00:00:07,759
+spent on the charts looking for the
+
+3
+00:00:05,000 --> 00:00:09,599
+perfect setup or the perfect pattern the
+
+4
+00:00:07,759 --> 00:00:13,240
+one that would bring constant gains over
+
+5
+00:00:09,599 --> 00:00:15,200
+time have you found it yet if not I want
+
+6
+00:00:13,240 --> 00:00:17,400
+to show you a simple and effective for
+
+7
+00:00:15,200 --> 00:00:19,119
+strategy I have developed over months of
+
+8
+00:00:17,400 --> 00:00:21,439
+research and study and I will
+
+9
+00:00:19,119 --> 00:00:23,359
+demonstrate how to profit consistently
+
+10
+00:00:21,439 --> 00:00:25,480
+by taking advantage of the Dynamics of
+
+11
+00:00:23,359 --> 00:00:28,320
+price and
+
+12
+00:00:25,480 --> 00:00:30,800
+time this Forex strategy is based on two
+
+13
+00:00:28,320 --> 00:00:33,399
+fundamental factors two elements that
+
+14
+00:00:30,800 --> 00:00:35,800
+leave no room for discretion price and
+
+15
+00:00:33,399 --> 00:00:37,600
+time the main advantage of this sculping
+
+16
+00:00:35,800 --> 00:00:39,800
+strategy is the fact that you don't have
+
+17
+00:00:37,600 --> 00:00:42,000
+to spend hours in front of the charts to
+
+18
+00:00:39,800 --> 00:00:44,840
+try to find all the various patterns
+
+19
+00:00:42,000 --> 00:00:46,640
+like Flags head and shoulders and so on
+
+20
+00:00:44,840 --> 00:00:48,239
+and you don't have to jump from one time
+
+21
+00:00:46,640 --> 00:00:49,960
+frame to another looking for the
+
+22
+00:00:48,239 --> 00:00:52,719
+conviction that the pattern you have
+
+23
+00:00:49,960 --> 00:00:54,280
+identified is really worth trading and
+
+24
+00:00:52,719 --> 00:00:56,239
+it doesn't matter if you like trading
+
+25
+00:00:54,280 --> 00:00:58,640
+with indicators or your a price action
+
+26
+00:00:56,239 --> 00:01:00,800
+Trader both approaches will work with
+
+27
+00:00:58,640 --> 00:01:02,559
+this strategy because will be analyzing
+
+28
+00:01:00,800 --> 00:01:05,040
+markets based on objective and
+
+29
+00:01:02,559 --> 00:01:07,360
+non-subjective criteria established with
+
+30
+00:01:05,040 --> 00:01:10,080
+Clarity and precision if this sounds
+
+31
+00:01:07,360 --> 00:01:12,560
+good let's dive right into the
+
+32
+00:01:10,080 --> 00:01:15,360
+strategy first let's talk about the time
+
+33
+00:01:12,560 --> 00:01:18,119
+component Forex is the world's largest
+
+34
+00:01:15,360 --> 00:01:21,320
+financial market and is open 24 hours a
+
+35
+00:01:18,119 --> 00:01:23,320
+day 5 days a week however depending on
+
+36
+00:01:21,320 --> 00:01:25,640
+where you are in the world days and
+
+37
+00:01:23,320 --> 00:01:28,360
+times May differ due to time zone and
+
+38
+00:01:25,640 --> 00:01:30,320
+daylight savings time generally the
+
+39
+00:01:28,360 --> 00:01:32,680
+opening and closing times of the markets
+
+40
+00:01:30,320 --> 00:01:35,240
+are indicated considering the GMT
+
+41
+00:01:32,680 --> 00:01:36,840
+meaning the green witch meantime and you
+
+42
+00:01:35,240 --> 00:01:39,159
+have to pay attention to the fact that
+
+43
+00:01:36,840 --> 00:01:41,680
+in the various periods of the Year each
+
+44
+00:01:39,159 --> 00:01:43,960
+country can have different time zones
+
+45
+00:01:41,680 --> 00:01:46,119
+these Concepts may seem obvious to some
+
+46
+00:01:43,960 --> 00:01:48,280
+but it's very important regardless of
+
+47
+00:01:46,119 --> 00:01:50,560
+the platform you use to know the exact
+
+48
+00:01:48,280 --> 00:01:54,000
+time shown by your charts compared to
+
+49
+00:01:50,560 --> 00:01:55,799
+the GMT in London so very important you
+
+50
+00:01:54,000 --> 00:01:57,920
+should pay close attention to the time
+
+51
+00:01:55,799 --> 00:02:00,320
+displayed on the charts because it's not
+
+52
+00:01:57,920 --> 00:02:02,240
+always the same as the GMT time since
+
+53
+00:02:00,320 --> 00:02:04,079
+for this strategy it's essential to know
+
+54
+00:02:02,240 --> 00:02:06,200
+the opening and closing times of the
+
+55
+00:02:04,079 --> 00:02:08,599
+various Forex sessions that make up the
+
+56
+00:02:06,200 --> 00:02:11,560
+day if we are misled by the wrong time
+
+57
+00:02:08,599 --> 00:02:14,000
+on the platform our analysis would be
+
+58
+00:02:11,560 --> 00:02:16,720
+wrong the trading day consists of
+
+59
+00:02:14,000 --> 00:02:18,800
+several sessions the European session
+
+60
+00:02:16,720 --> 00:02:21,840
+the American session and the Asian
+
+61
+00:02:18,800 --> 00:02:24,760
+session also known as London New York
+
+62
+00:02:21,840 --> 00:02:26,840
+and the sessions in Tokyo or Sydney for
+
+63
+00:02:24,760 --> 00:02:29,280
+those who trade Forex and specifically
+
+64
+00:02:26,840 --> 00:02:31,160
+trade intraday it is therefore essential
+
+65
+00:02:29,280 --> 00:02:33,920
+to know that times at which currency
+
+66
+00:02:31,160 --> 00:02:35,599
+exchanges take place on various markets
+
+67
+00:02:33,920 --> 00:02:37,640
+and especially the times at which
+
+68
+00:02:35,599 --> 00:02:40,280
+multiple sessions are opened at the same
+
+69
+00:02:37,640 --> 00:02:42,560
+time I have summarized the start in the
+
+70
+00:02:40,280 --> 00:02:44,680
+end times of the main trading sessions
+
+71
+00:02:42,560 --> 00:02:46,120
+in the London GMT time in this
+
+72
+00:02:44,680 --> 00:02:48,599
+[Music]
+
+73
+00:02:46,120 --> 00:02:51,080
+diagram for the strategy we're
+
+74
+00:02:48,599 --> 00:02:54,080
+interested in the European session for
+
+75
+00:02:51,080 --> 00:02:56,280
+Europe the session starts at 7 GMT with
+
+76
+00:02:54,080 --> 00:02:58,840
+the opening of The Frankfurt session but
+
+77
+00:02:56,280 --> 00:03:01,080
+the main opportunity start at 8 GMT with
+
+78
+00:02:58,840 --> 00:03:03,920
+the opening of the London session while
+
+79
+00:03:01,080 --> 00:03:06,120
+Tokyo is in the last hour of trading at
+
+80
+00:03:03,920 --> 00:03:08,680
+this time a large number of Traders are
+
+81
+00:03:06,120 --> 00:03:10,640
+participating in the market this results
+
+82
+00:03:08,680 --> 00:03:13,000
+in larger price movements than in the
+
+83
+00:03:10,640 --> 00:03:15,000
+Asian session which often also Prov to
+
+84
+00:03:13,000 --> 00:03:17,280
+be of great impact on the sentiment for
+
+85
+00:03:15,000 --> 00:03:19,480
+the day we can therefore say that the
+
+86
+00:03:17,280 --> 00:03:21,440
+opening moments of the London session
+
+87
+00:03:19,480 --> 00:03:23,599
+are a good starting point to trade in a
+
+88
+00:03:21,440 --> 00:03:25,120
+highly liquid Market as well as finding
+
+89
+00:03:23,599 --> 00:03:27,519
+the best
+
+90
+00:03:25,120 --> 00:03:29,840
+opportunities with the opening of Europe
+
+91
+00:03:27,519 --> 00:03:32,120
+Frankfurt before and London and our
+
+92
+00:03:29,840 --> 00:03:34,040
+later the movements that are generated
+
+93
+00:03:32,120 --> 00:03:35,599
+often create the trend for the day
+
+94
+00:03:34,040 --> 00:03:38,200
+giving us the opportunity to take
+
+95
+00:03:35,599 --> 00:03:40,560
+advantage and capture a part of it the
+
+96
+00:03:38,200 --> 00:03:42,560
+trend of the day generated by London
+
+97
+00:03:40,560 --> 00:03:44,680
+doesn't always remain that way at the
+
+98
+00:03:42,560 --> 00:03:46,560
+opening of New York session the high
+
+99
+00:03:44,680 --> 00:03:48,519
+volume of trade that shi combined with
+
+100
+00:03:46,560 --> 00:03:51,319
+the publication of important economic
+
+101
+00:03:48,519 --> 00:03:53,040
+data can cause large reversal moments
+
+102
+00:03:51,319 --> 00:03:55,840
+that can also re observe the entire
+
+103
+00:03:53,040 --> 00:03:57,400
+movement triggered by London session it
+
+104
+00:03:55,840 --> 00:03:59,480
+goes without saying that even these
+
+105
+00:03:57,400 --> 00:04:01,560
+reversals offer us the opportunity to
+
+106
+00:03:59,480 --> 00:04:03,480
+see is another trading
+
+107
+00:04:01,560 --> 00:04:06,000
+opportunity now let's talk about the
+
+108
+00:04:03,480 --> 00:04:07,519
+importance of the opening price here's
+
+109
+00:04:06,000 --> 00:04:09,680
+what you need to know when sculping and
+
+110
+00:04:07,519 --> 00:04:11,920
+day trading Forex the opening of the
+
+111
+00:04:09,680 --> 00:04:14,120
+European session can cause large price
+
+112
+00:04:11,920 --> 00:04:16,720
+movements that often result in important
+
+113
+00:04:14,120 --> 00:04:18,600
+intraday Trends and the first factor to
+
+114
+00:04:16,720 --> 00:04:20,600
+take into account in order to take
+
+115
+00:04:18,600 --> 00:04:23,320
+advantage of these movements is the
+
+116
+00:04:20,600 --> 00:04:25,160
+opening price of the European session
+
+117
+00:04:23,320 --> 00:04:27,360
+the opening price is the point from
+
+118
+00:04:25,160 --> 00:04:29,240
+which all daily activities originate
+
+119
+00:04:27,360 --> 00:04:31,160
+it's a very important price level
+
+120
+00:04:29,240 --> 00:04:33,600
+according to to which big Traders move
+
+121
+00:04:31,160 --> 00:04:36,120
+from a long Vision to a short vision and
+
+122
+00:04:33,600 --> 00:04:38,440
+vice versa we can therefore consider the
+
+123
+00:04:36,120 --> 00:04:40,840
+opening price as the crossing point
+
+124
+00:04:38,440 --> 00:04:42,960
+representing the sentiment of the
+
+125
+00:04:40,840 --> 00:04:45,280
+day here's the key point of this
+
+126
+00:04:42,960 --> 00:04:48,280
+strategy most Traders focus on the
+
+127
+00:04:45,280 --> 00:04:50,440
+London open but smart Traders know there
+
+128
+00:04:48,280 --> 00:04:52,160
+is another important Focus Point prior
+
+129
+00:04:50,440 --> 00:04:54,560
+to the London open and that is the
+
+130
+00:04:52,160 --> 00:04:57,160
+Frankfurt open the opening of The
+
+131
+00:04:54,560 --> 00:05:00,240
+Frankfurt occurs at 7 GMT and the
+
+132
+00:04:57,160 --> 00:05:02,520
+opening of London at 8 GMT during this
+
+133
+00:05:00,240 --> 00:05:04,080
+period there is an increase in volumes
+
+134
+00:05:02,520 --> 00:05:07,520
+but it's still not enough to generate
+
+135
+00:05:04,080 --> 00:05:09,960
+real Trends now pay attention the price
+
+136
+00:05:07,520 --> 00:05:14,240
+distance that is formed in this 1H hour
+
+137
+00:05:09,960 --> 00:05:16,479
+interval from 7 GMT to 8 GMT determines
+
+138
+00:05:14,240 --> 00:05:19,360
+the range that goes to form the opening
+
+139
+00:05:16,479 --> 00:05:21,840
+channel the opening Channel contains the
+
+140
+00:05:19,360 --> 00:05:25,039
+open price of the Frankfurt session and
+
+141
+00:05:21,840 --> 00:05:27,400
+the open price of the London session and
+
+142
+00:05:25,039 --> 00:05:29,840
+very important the opening channel is
+
+143
+00:05:27,400 --> 00:05:31,440
+the area within which you never have to
+
+144
+00:05:29,840 --> 00:05:34,319
+enter the market for the rest of the
+
+145
+00:05:31,440 --> 00:05:36,680
+trading day the No Man's
+
+146
+00:05:34,319 --> 00:05:39,560
+Land This example shows the opening
+
+147
+00:05:36,680 --> 00:05:43,600
+channel from 7 GMT the opening of
+
+148
+00:05:39,560 --> 00:05:46,000
+Frankfurt to 8 GMT the opening of London
+
+149
+00:05:43,600 --> 00:05:48,360
+these lines represent the low price and
+
+150
+00:05:46,000 --> 00:05:50,199
+the high price formed within this hour
+
+151
+00:05:48,360 --> 00:05:52,479
+thus determining the opening
+
+152
+00:05:50,199 --> 00:05:54,280
+channel the high and low price of the
+
+153
+00:05:52,479 --> 00:05:56,160
+opening channel are two very important
+
+154
+00:05:54,280 --> 00:05:58,199
+levels because they are the first
+
+155
+00:05:56,160 --> 00:06:00,479
+support and the first resistance for the
+
+156
+00:05:58,199 --> 00:06:02,800
+trading day remember remember we don't
+
+157
+00:06:00,479 --> 00:06:05,520
+trade inside the channel if the price
+
+158
+00:06:02,800 --> 00:06:07,960
+goes above it it creates an imbalance
+
+159
+00:06:05,520 --> 00:06:10,280
+that triggers supports from the buyers
+
+160
+00:06:07,960 --> 00:06:12,919
+and vice versa if the price goes below
+
+161
+00:06:10,280 --> 00:06:15,199
+the strength of the sellers is triggered
+
+162
+00:06:12,919 --> 00:06:17,280
+if the price is inside the channel since
+
+163
+00:06:15,199 --> 00:06:19,440
+there is no imbalance between buyers and
+
+164
+00:06:17,280 --> 00:06:22,759
+sellers you cannot know which direction
+
+165
+00:06:19,440 --> 00:06:24,400
+to expect either long or short this
+
+166
+00:06:22,759 --> 00:06:27,160
+concept remains valid throughout the
+
+167
+00:06:24,400 --> 00:06:28,759
+trading day during European session and
+
+168
+00:06:27,160 --> 00:06:30,560
+even in the first part of the New York
+
+169
+00:06:28,759 --> 00:06:32,599
+session
+
+170
+00:06:30,560 --> 00:06:34,199
+as we have seen the opening Channel
+
+171
+00:06:32,599 --> 00:06:36,440
+which has the opening of the European
+
+172
+00:06:34,199 --> 00:06:39,160
+session within it acts as a neutral
+
+173
+00:06:36,440 --> 00:06:41,280
+Price Zone between buyers and sellers
+
+174
+00:06:39,160 --> 00:06:43,919
+when price breaks upwards we'll have a
+
+175
+00:06:41,280 --> 00:06:46,280
+long entry signal while when it breaks
+
+176
+00:06:43,919 --> 00:06:49,000
+downwards we'll have a short entry
+
+177
+00:06:46,280 --> 00:06:51,280
+signal obviously the entry signal is
+
+178
+00:06:49,000 --> 00:06:53,240
+triggered after 8 GMT the opening of
+
+179
+00:06:51,280 --> 00:06:55,120
+London when the price breaks the channel
+
+180
+00:06:53,240 --> 00:06:57,639
+upwards or
+
+181
+00:06:55,120 --> 00:07:00,000
+downwards here's an example of a long
+
+182
+00:06:57,639 --> 00:07:02,520
+entry we have identified the opening
+
+183
+00:07:00,000 --> 00:07:05,240
+Channel and soon after the London open
+
+184
+00:07:02,520 --> 00:07:07,080
+we had an upward breakout after London
+
+185
+00:07:05,240 --> 00:07:09,479
+session opened we can see the market
+
+186
+00:07:07,080 --> 00:07:11,440
+traded within the opening Channel and
+
+187
+00:07:09,479 --> 00:07:13,840
+then immediately changed Direction and
+
+188
+00:07:11,440 --> 00:07:17,039
+started upwards with a strong
+
+189
+00:07:13,840 --> 00:07:19,120
+Trend and here's a short entry after
+
+190
+00:07:17,039 --> 00:07:21,000
+withdrew the opening channel the market
+
+191
+00:07:19,120 --> 00:07:23,800
+immediately started a strong downward
+
+192
+00:07:21,000 --> 00:07:25,840
+intraday Trend a short trade under the
+
+193
+00:07:23,800 --> 00:07:28,360
+channel would have allowed us to capture
+
+194
+00:07:25,840 --> 00:07:31,560
+a nice profit for the
+
+195
+00:07:28,360 --> 00:07:34,000
+day when where to place the stop loss
+
+196
+00:07:31,560 --> 00:07:35,680
+stop loss which is mandatory must be
+
+197
+00:07:34,000 --> 00:07:38,960
+positioned on the opposite side of the
+
+198
+00:07:35,680 --> 00:07:41,039
+opening channel for a long entry stop
+
+199
+00:07:38,960 --> 00:07:44,479
+loss goes a few Pips below the opening
+
+200
+00:07:41,039 --> 00:07:46,400
+Channel low and for a short entry stop
+
+201
+00:07:44,479 --> 00:07:49,400
+loss is placed a few Pips above the
+
+202
+00:07:46,400 --> 00:07:51,400
+opening Channel High the stop loss is
+
+203
+00:07:49,400 --> 00:07:53,280
+positioned in this way because once
+
+204
+00:07:51,400 --> 00:07:55,479
+entered in the market in a short trade
+
+205
+00:07:53,280 --> 00:07:57,599
+for example and during the session the
+
+206
+00:07:55,479 --> 00:08:00,360
+price goes back and breaks the opening
+
+207
+00:07:57,599 --> 00:08:02,520
+Channel upwards remaining in a trade
+
+208
+00:08:00,360 --> 00:08:04,720
+will no longer be sensible because the
+
+209
+00:08:02,520 --> 00:08:06,840
+sentiment of the big Market players
+
+210
+00:08:04,720 --> 00:08:09,080
+those who move the markets passed from
+
+211
+00:08:06,840 --> 00:08:11,879
+short to long with the high probability
+
+212
+00:08:09,080 --> 00:08:13,960
+that the trend of the day will change at
+
+213
+00:08:11,879 --> 00:08:15,800
+this point it's clear that it no longer
+
+214
+00:08:13,960 --> 00:08:17,159
+makes sense to insist on remaining in
+
+215
+00:08:15,800 --> 00:08:20,639
+the
+
+216
+00:08:17,159 --> 00:08:22,280
+market where to set take profit levels
+
+217
+00:08:20,639 --> 00:08:24,400
+once you have identified the channel
+
+218
+00:08:22,280 --> 00:08:26,479
+enter the market after a breakout and
+
+219
+00:08:24,400 --> 00:08:28,759
+placed your stop loss you must proceed
+
+220
+00:08:26,479 --> 00:08:31,319
+to identify the future price levels at
+
+221
+00:08:28,759 --> 00:08:33,719
+which you will take profits to Define
+
+222
+00:08:31,319 --> 00:08:35,800
+these levels the best thing to do is to
+
+223
+00:08:33,719 --> 00:08:37,719
+measure the range of the opening Channel
+
+224
+00:08:35,800 --> 00:08:40,120
+and project it from the breakout of the
+
+225
+00:08:37,719 --> 00:08:42,279
+Channel's high price for the long Target
+
+226
+00:08:40,120 --> 00:08:44,959
+levels and from the breakout of the
+
+227
+00:08:42,279 --> 00:08:47,360
+Channel's low price for the short Target
+
+228
+00:08:44,959 --> 00:08:50,440
+levels and you have to do it multiple
+
+229
+00:08:47,360 --> 00:08:52,480
+times just like adding pivot Points you
+
+230
+00:08:50,440 --> 00:08:55,160
+determine the first Target by projecting
+
+231
+00:08:52,480 --> 00:08:57,720
+the channel and then the second target
+
+232
+00:08:55,160 --> 00:08:59,480
+by projecting the channel once again and
+
+233
+00:08:57,720 --> 00:09:00,519
+once again for the third target for the
+
+234
+00:08:59,480 --> 00:09:03,320
+to
+
+235
+00:09:00,519 --> 00:09:05,160
+day when setting price targets the
+
+236
+00:09:03,320 --> 00:09:07,800
+opening channel is a measure of
+
+237
+00:09:05,160 --> 00:09:10,399
+volatility if the channel is narrow you
+
+238
+00:09:07,800 --> 00:09:12,480
+will have to add multiple price targets
+
+239
+00:09:10,399 --> 00:09:15,800
+if the channel is wide you will have to
+
+240
+00:09:12,480 --> 00:09:17,680
+add just a few you can close 50% of your
+
+241
+00:09:15,800 --> 00:09:20,600
+position once the price reaches the
+
+242
+00:09:17,680 --> 00:09:23,120
+first Target and then let the trade run
+
+243
+00:09:20,600 --> 00:09:25,279
+until the next Target is reached it's up
+
+244
+00:09:23,120 --> 00:09:27,279
+to you you decide which money and risk
+
+245
+00:09:25,279 --> 00:09:29,760
+management you want to
+
+246
+00:09:27,279 --> 00:09:31,880
+use now that you know the right ways to
+
+247
+00:09:29,760 --> 00:09:33,279
+determine the takeprofit levels it's
+
+248
+00:09:31,880 --> 00:09:35,560
+important to mention that you will have
+
+249
+00:09:33,279 --> 00:09:37,200
+to plot them immediately on the chart as
+
+250
+00:09:35,560 --> 00:09:39,399
+soon as the opening channel has been
+
+251
+00:09:37,200 --> 00:09:41,440
+formed you should know that this price
+
+252
+00:09:39,399 --> 00:09:43,399
+levels that you will add to the chart at
+
+253
+00:09:41,440 --> 00:09:45,360
+the beginning of the session in addition
+
+254
+00:09:43,399 --> 00:09:47,519
+to being the ones on which we will place
+
+255
+00:09:45,360 --> 00:09:50,279
+our take profits they will also be the
+
+256
+00:09:47,519 --> 00:09:52,040
+levels of future support and resistance
+
+257
+00:09:50,279 --> 00:09:54,040
+you'll notice how these levels will be
+
+258
+00:09:52,040 --> 00:09:56,480
+used by institutions during the trading
+
+259
+00:09:54,040 --> 00:09:59,440
+day as real levels of support and
+
+260
+00:09:56,480 --> 00:10:01,519
+resistance in this chart I have traced
+
+261
+00:09:59,440 --> 00:10:04,120
+upwards and downwards levels of take
+
+262
+00:10:01,519 --> 00:10:06,800
+profit and it's evident how the price
+
+263
+00:10:04,120 --> 00:10:09,279
+reacts when it approaches these
+
+264
+00:10:06,800 --> 00:10:11,399
+levels it's really unbelievable how
+
+265
+00:10:09,279 --> 00:10:14,279
+accurate these levels are the price
+
+266
+00:10:11,399 --> 00:10:17,240
+bounces several times reverses breaks
+
+267
+00:10:14,279 --> 00:10:19,440
+and retest them these price targets are
+
+268
+00:10:17,240 --> 00:10:21,800
+very important knowing the support and
+
+269
+00:10:19,440 --> 00:10:23,160
+resistance levels for the day in advance
+
+270
+00:10:21,800 --> 00:10:25,240
+right at the beginning of the London
+
+271
+00:10:23,160 --> 00:10:27,040
+session will certainly be a great
+
+272
+00:10:25,240 --> 00:10:29,320
+advantage over the
+
+273
+00:10:27,040 --> 00:10:31,320
+market the great thing about this Strat
+
+274
+00:10:29,320 --> 00:10:33,920
+stry is that it has a precise set of
+
+275
+00:10:31,320 --> 00:10:36,079
+rules you can back test this strategy
+
+276
+00:10:33,920 --> 00:10:39,440
+easily and you can Implement other types
+
+277
+00:10:36,079 --> 00:10:41,399
+of analysis to confirm the breakout if
+
+278
+00:10:39,440 --> 00:10:43,959
+you are a price action Trader you can
+
+279
+00:10:41,399 --> 00:10:46,720
+analyze swing highs and lows and trade
+
+280
+00:10:43,959 --> 00:10:48,880
+breakouts in the direction of the trend
+
+281
+00:10:46,720 --> 00:10:51,360
+during an uptrend you will have higher
+
+282
+00:10:48,880 --> 00:10:54,200
+highs because buyers push the price
+
+283
+00:10:51,360 --> 00:10:56,880
+higher and lows are also higher because
+
+284
+00:10:54,200 --> 00:10:59,639
+buyers keep buying the dips earlier
+
+285
+00:10:56,880 --> 00:11:02,079
+during a downtrend lows are lower and
+
+286
+00:10:59,639 --> 00:11:05,240
+Highs are also lower because sellers
+
+287
+00:11:02,079 --> 00:11:08,200
+sell earlier and buyers are not as
+
+288
+00:11:05,240 --> 00:11:09,920
+interested so if you spot an uptrend and
+
+289
+00:11:08,200 --> 00:11:11,680
+you see an upside breakout of the
+
+290
+00:11:09,920 --> 00:11:15,040
+opening Channel that's a high
+
+291
+00:11:11,680 --> 00:11:17,000
+probability trade a downward breakout of
+
+292
+00:11:15,040 --> 00:11:19,560
+the opening Channel when the price is
+
+293
+00:11:17,000 --> 00:11:23,720
+making lower lows and lower highs is
+
+294
+00:11:19,560 --> 00:11:23,720
+also a strong sell signal
+
+295
+00:11:24,710 --> 00:11:48,279
+[Music]
+
+296
+00:11:45,279 --> 00:11:48,279
+is
+
+297
+00:11:52,880 --> 00:12:22,550
+[Music]
+
+298
+00:12:31,240 --> 00:12:58,820
+[Music]
+
+299
+00:13:01,300 --> 00:13:09,120
+[Music]
+
+300
+00:13:07,680 --> 00:13:11,480
+if you prefer confirmation from
+
+301
+00:13:09,120 --> 00:13:13,680
+indicators moving averages are perfect
+
+302
+00:13:11,480 --> 00:13:16,079
+for this strategy because are great to
+
+303
+00:13:13,680 --> 00:13:17,680
+identify the market direction as well if
+
+304
+00:13:16,079 --> 00:13:20,680
+you want to use moving averages as
+
+305
+00:13:17,680 --> 00:13:22,000
+filter you can apply the 200 EMA and
+
+306
+00:13:20,680 --> 00:13:24,360
+then only look for trades in the
+
+307
+00:13:22,000 --> 00:13:26,480
+direction of the moving average in this
+
+308
+00:13:24,360 --> 00:13:29,000
+example we can see that we had a long
+
+309
+00:13:26,480 --> 00:13:30,959
+signal above the opening Channel and
+
+310
+00:13:29,000 --> 00:13:32,800
+that that during this uptrend price
+
+311
+00:13:30,959 --> 00:13:35,070
+always stayed well above the moving
+
+312
+00:13:32,800 --> 00:14:10,500
+average
+
+313
+00:13:35,070 --> 00:14:10,500
+[Music]
+
+314
+00:14:20,040 --> 00:14:24,320
+as always if you learn something new and
+
+315
+00:14:22,079 --> 00:14:26,240
+F value and you want a followup video
+
+316
+00:14:24,320 --> 00:14:28,680
+about this topic leave us a like to
+
+317
+00:14:26,240 --> 00:14:30,440
+showare support subscribe to our Channel
+
+318
+00:14:28,680 --> 00:14:32,279
+and hit the Bell icon to stay notified
+
+319
+00:14:30,440 --> 00:14:36,800
+when we upload new
+
+320
+00:14:32,279 --> 00:14:36,800
+videos until next time
+

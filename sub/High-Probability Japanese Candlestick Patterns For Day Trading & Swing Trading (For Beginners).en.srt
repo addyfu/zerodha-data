@@ -1,0 +1,686 @@
+1
+00:00:00,880 --> 00:00:06,480
+The human behavior in relation to money is 
+always dominated by fear; greed, and hope.  
+
+2
+00:00:06,480 --> 00:00:11,440
+Well, candlestick analysis will help you to 
+understand these changing psychological factors  
+
+3
+00:00:11,440 --> 00:00:15,040
+by showing you how buyers and 
+sellers interact with each other’s.  
+
+4
+00:00:15,040 --> 00:00:19,440
+Candlesticks are basically a visual 
+representation of what is going on in the market.  
+
+5
+00:00:19,440 --> 00:00:24,320
+By looking at a candlestick, you can get 
+valuable information about the open, high,  
+
+6
+00:00:24,320 --> 00:00:28,800
+low and the close of price, which will 
+give you an idea about the price movement. 
+
+7
+00:00:28,800 --> 00:00:33,680
+In today’s video, you will discover how to 
+recognize the most important candlestick patterns,  
+
+8
+00:00:33,680 --> 00:00:38,480
+the psychology behind their formation, and what 
+do they indicate when they form in the market. 
+
+9
+00:00:40,080 --> 00:00:45,760
+First pattern is the engulfing candlestick.
+This candlestick formation consists of two bodies,  
+
+10
+00:00:45,760 --> 00:00:50,480
+the first body being smaller than the second 
+one, in other words, the second body engulfs  
+
+11
+00:00:50,480 --> 00:00:55,440
+the previous one. Here we can have a bearish 
+engulfing bar and a bullish engulfing bar. 
+
+12
+00:00:56,320 --> 00:00:58,240
+In case of a bearish engulfing bar,  
+
+13
+00:00:58,240 --> 00:01:01,600
+this pattern tells us that sellers 
+are in control of the market. 
+
+14
+00:01:01,600 --> 00:01:07,280
+When this pattern occurs at the end of an uptrend, 
+this indicates that buyers are engulfed by sellers  
+
+15
+00:01:07,280 --> 00:01:12,320
+which signals a potential trend reversal. 
+Why is that? Because buyers are losing  
+
+16
+00:01:12,320 --> 00:01:16,240
+control of the market, and sellers are 
+trying to push the market to go down.
+ 
+  
+
+17
+00:01:18,080 --> 00:01:23,360
+The bullish engulfing bar pattern tells us that 
+the market is no longer under control of sellers,  
+
+18
+00:01:23,360 --> 00:01:26,960
+and buyers are gaining strength.
+When a bullish engulfing candle  
+
+19
+00:01:26,960 --> 00:01:31,360
+forms in the context of an uptrend, 
+it indicates a continuation signal. 
+
+20
+00:01:31,360 --> 00:01:36,560
+When a bullish engulfing candle forms at the end 
+of a downtrend, it signals a potential reversal.
+ 
+
+21
+00:01:38,000 --> 00:01:42,480
+This example shows clearly how the market 
+changes direction after the formation of a  
+
+22
+00:01:42,480 --> 00:01:47,120
+bullish engulfing pattern. The smaller 
+body that represents the selling power  
+
+23
+00:01:47,120 --> 00:01:51,040
+was covered by the second body 
+that represents the buying power. 
+
+24
+00:01:51,040 --> 00:01:55,200
+Very important: don’t try to trade the 
+market using this price action setup alone,  
+
+25
+00:01:55,200 --> 00:02:00,080
+because you will need other factors of confluence 
+to decide whether the pattern is worth trading or  
+
+26
+00:02:00,080 --> 00:02:04,560
+not. What I want you to do for now is to 
+get the skill of identifying bearish and  
+
+27
+00:02:04,560 --> 00:02:08,720
+bullish engulfing bar on your charts. This 
+is the most important step for the moment.
+
+28
+00:02:10,320 --> 00:02:15,680
+Second pattern is the Doji Candlestick pattern.
+Doji is one of the most important Japanese  
+
+29
+00:02:15,680 --> 00:02:20,720
+candlestick patterns, when this candlestick 
+forms, it tells us that the market opens  
+
+30
+00:02:20,720 --> 00:02:26,000
+and closes at the same price which means that 
+there is indecision between buyers and sellers,  
+
+31
+00:02:26,000 --> 00:02:30,880
+there is no one in control of the market.
+The opening price is the same as the closing  
+
+32
+00:02:30,880 --> 00:02:36,000
+price, this signal means that the market 
+didn’t decide which direction will take.  
+
+33
+00:02:36,000 --> 00:02:40,640
+A doji could anticipate a reversal, or 
+it can be a sign of consolidation.
+ 
+  
+
+34
+00:02:42,000 --> 00:02:44,800
+This example shows how the 
+market changed direction  
+
+35
+00:02:44,800 --> 00:02:50,000
+after the formation of the Doji candlestick.
+The market was trending up, meaning that buyers  
+
+36
+00:02:50,000 --> 00:02:55,360
+had more strength. The formation of the Doji 
+candlestick indicates that buyers are unable  
+
+37
+00:02:55,360 --> 00:03:01,520
+to keep price higher, and sellers push prices 
+back to the opening price. This is an indication  
+
+38
+00:03:01,520 --> 00:03:07,360
+that a trend reversal is might be on the cards.
+However, always remember that a Doji indicates  
+
+39
+00:03:07,360 --> 00:03:11,600
+indecision in the market, and you will 
+often find it during periods of resting  
+
+40
+00:03:11,600 --> 00:03:17,040
+after big moves higher or lower.
+ 
+ 
+Third pattern is the morning star. 
+
+41
+00:03:17,680 --> 00:03:21,520
+The morning star pattern is considered 
+as a bullish reversal pattern,  
+
+42
+00:03:21,520 --> 00:03:26,320
+it often occurs at the bottom of a downtrend 
+and it consists of three candlesticks: 
+
+43
+00:03:26,320 --> 00:03:30,640
+-The first candlestick is bearish which 
+indicates that sellers are still in charge. 
+
+44
+00:03:31,360 --> 00:03:35,760
+-The second candle is a small one which 
+represents that sellers are in control,  
+
+45
+00:03:35,760 --> 00:03:40,320
+but they don’t push the market much lower, 
+and this candle can be bullish or bearish. 
+
+46
+00:03:41,040 --> 00:03:46,240
+-The third candle is a bullish candlestick 
+that gapped up on the open and closed above the  
+
+47
+00:03:46,240 --> 00:03:51,440
+midpoint of the candle, and this candlestick 
+holds a significant trend reversal signal. 
+
+48
+00:03:52,240 --> 00:03:56,960
+The morning star pattern shows us how buyers 
+took control of the market from sellers. 
+
+49
+00:03:56,960 --> 00:04:01,280
+When this pattern occurs at the bottom 
+of downtrend near a support level,  
+
+50
+00:04:01,280 --> 00:04:03,520
+it signals a potential trend reversal.
+ 
+ 
+  
+
+51
+00:04:05,040 --> 00:04:09,920
+Here, the pattern occurred during an obvious 
+bearish trend. The first candle confirmed  
+
+52
+00:04:09,920 --> 00:04:14,800
+the seller’s domination, and the second 
+one produces indecision in the market. 
+
+53
+00:04:14,800 --> 00:04:19,440
+Basically, the second candle indicated that 
+sellers were struggling to push the market lower.  
+
+54
+00:04:20,080 --> 00:04:24,240
+The third bullish candle indicates 
+that buyers took control from sellers,  
+
+55
+00:04:24,240 --> 00:04:30,240
+and the market is likely to move upward.
+ 
+Next is the evening star pattern 
+
+56
+00:04:30,240 --> 00:04:34,160
+The evening star pattern is considered 
+as a bearish reversal pattern that  
+
+57
+00:04:34,160 --> 00:04:39,920
+usually occurs at the top of an uptrend.
+The pattern also consists of three candlesticks: 
+
+58
+00:04:40,480 --> 00:04:45,440
+-The first candle is a bullish candle
+-The second candle is a small candlestick,  
+
+59
+00:04:45,440 --> 00:04:49,920
+it can be bullish or bearish
+-The third candle is a large bearish candle.  
+
+60
+00:04:50,640 --> 00:04:55,840
+In general, the evening star pattern is the 
+bearish version of the morning star pattern. 
+  
+
+61
+00:04:56,960 --> 00:05:02,400
+Here, the market was trending up, the first candle 
+in the pattern indicating a trend continuation.  
+
+62
+00:05:03,040 --> 00:05:08,160
+The second one is a short candle indicating 
+price consolidation and indecision.  
+
+63
+00:05:08,160 --> 00:05:13,360
+In other words, the trend that created the first 
+long bullish candlestick is losing momentum. 
+
+64
+00:05:13,920 --> 00:05:17,760
+The final candlestick moving lower than 
+the previous candlestick indicates a  
+
+65
+00:05:17,760 --> 00:05:19,840
+potential beginning of a new down move.
+ 
+  
+
+66
+00:05:22,160 --> 00:05:25,280
+Another important candlestick 
+formation is the hammer. 
+
+67
+00:05:25,280 --> 00:05:31,120
+The Hammer candlestick is created when the 
+open high and close are roughly the same price;  
+
+68
+00:05:31,120 --> 00:05:36,640
+it is also characterized by a long lower shadow 
+that indicates a bullish rejection from buyers  
+
+69
+00:05:36,640 --> 00:05:39,280
+and their intention to push the market higher. 
+
+70
+00:05:39,280 --> 00:05:44,000
+The hammer is a reversal candlestick pattern 
+when it occurs at the bottom of a downtrend. 
+
+71
+00:05:44,560 --> 00:05:48,480
+This candle forms when sellers push 
+the market lower after the open,  
+
+72
+00:05:48,480 --> 00:05:53,200
+but they get rejected by buyers so the market 
+closes higher than the lowest price.
+ 
+ 
+ 
+
+73
+00:05:54,720 --> 00:05:58,080
+Here the market was trending down, 
+and the formation of the hammer  
+
+74
+00:05:58,080 --> 00:06:02,800
+represented a significant reversal pattern.
+The long shadow represents the high buying  
+
+75
+00:06:02,800 --> 00:06:08,080
+pressure from this point. Sellers were trying 
+to push the market lower, but at that level,  
+
+76
+00:06:08,080 --> 00:06:11,280
+the buying pressure was more 
+powerful than the selling pressure  
+
+77
+00:06:11,280 --> 00:06:16,000
+which resulted in a price reversal.
+The most important to understand is  
+
+78
+00:06:16,000 --> 00:06:20,880
+the psychology behind the formation of this 
+pattern. If you can understand how and why  
+
+79
+00:06:20,880 --> 00:06:25,520
+it was created, you will be able to anticipate 
+the market direction with a higher accuracy.
+ 
+
+80
+00:06:27,040 --> 00:06:30,640
+The shooting star is another important 
+reversal candlestick pattern. 
+
+81
+00:06:31,200 --> 00:06:34,320
+The shooting formation is 
+formed when the open low,  
+
+82
+00:06:34,320 --> 00:06:39,440
+and close are roughly the same price. This 
+candle is characterized by a small body  
+
+83
+00:06:39,440 --> 00:06:43,680
+and a long upper shadow. It’s basically 
+the bearish version of the hammer.  
+
+84
+00:06:44,320 --> 00:06:49,280
+Very important: the shadow of the shooting star 
+should be twice the length of the real body.
+ 
+  
+
+85
+00:06:50,480 --> 00:06:55,920
+This example shows a perfect shooting star with 
+a real small body and an upper long shadow.  
+
+86
+00:06:55,920 --> 00:07:00,240
+When this pattern occurs in an uptrend; 
+it indicates a bearish reversal signal. 
+
+87
+00:07:01,040 --> 00:07:04,960
+The psychology behind the formation 
+of this pattern is that buyers tried  
+
+88
+00:07:04,960 --> 00:07:08,960
+to push the market higher, but they 
+got rejected by the selling pressure. 
+
+89
+00:07:08,960 --> 00:07:12,000
+When this candlestick forms 
+near a key resistance level,  
+
+90
+00:07:12,000 --> 00:07:18,480
+it should be taken as a high probability setup.
+ 
+ 
+Another important formation is the inside bar. 
+
+91
+00:07:19,120 --> 00:07:23,680
+The inside bar is a two bar candlestick 
+pattern, which indicates price consolidation.  
+
+92
+00:07:24,240 --> 00:07:29,520
+In order to confirm this pattern you need to see 
+a candle on the chart, which is fully contained  
+
+93
+00:07:29,520 --> 00:07:34,720
+within the previous bar. In this manner, the 
+inside bar candle should have a higher low  
+
+94
+00:07:34,720 --> 00:07:39,840
+and a lower high than the previous candle.
+This candlestick is considered a bearish  
+
+95
+00:07:39,840 --> 00:07:44,960
+reversal signal when it occurs at the top of 
+an uptrend, and it is a bullish signal when  
+
+96
+00:07:44,960 --> 00:07:50,480
+it occurs at the bottom of a downtrend.
+ 
+ 
+ 
+ 
+In this example, you can see how the trend  
+
+97
+00:07:50,480 --> 00:07:56,320
+direction changes after the inside bar formation. 
+The bullish inside bar pattern occurred at the  
+
+98
+00:07:56,320 --> 00:08:02,560
+bottom of a downtrend. Here, sellers were pushing 
+the market lower, price starts consolidating,  
+
+99
+00:08:02,560 --> 00:08:06,320
+and this indicates that the selling power 
+is no longer in control of the market.
+ 
+ 
+  
+
+100
+00:08:07,920 --> 00:08:11,920
+The bearish inside bar is the opposite 
+of the bullish one, this one occurring  
+
+101
+00:08:11,920 --> 00:08:16,560
+at the top of an uptrend indicating that 
+buyer’s domination is losing strength  
+
+102
+00:08:16,560 --> 00:08:22,800
+and the beginning of a downtrend is possible.
+For me, since the inside candle has a lower high  
+
+103
+00:08:22,800 --> 00:08:27,760
+and a higher low than the previous candlestick 
+on the chart, this indicates consolidation. Bulls  
+
+104
+00:08:27,760 --> 00:08:34,080
+cannot manage to create a higher high and at the 
+same time the bears fail to create a lower low.  
+
+105
+00:08:34,080 --> 00:08:40,160
+As such, there is not sufficient buying or selling 
+pressure to break the previous bar’s high or low. 
+
+106
+00:08:40,160 --> 00:08:44,640
+When this candlestick pattern happens during 
+an uptrend or a downtrend, it’s probably  
+
+107
+00:08:44,640 --> 00:08:49,600
+better to see it as a continuation pattern which 
+offers a good opportunity to join the trend.
+ 
+  
+
+108
+00:08:51,200 --> 00:08:53,840
+Tweezer top or bottom is another useful pattern. 
+
+109
+00:08:54,560 --> 00:08:59,760
+Tweezers are reversal candlestick patterns that 
+signal a potential change in the price direction. 
+
+110
+00:09:00,320 --> 00:09:05,360
+The tweezer bottom candlestick pattern is a 
+bullish reversal pattern that can be spotted  
+
+111
+00:09:05,360 --> 00:09:11,200
+at the bottom of a downtrend. It consists of 
+two candles, where the first candle is in line  
+
+112
+00:09:11,200 --> 00:09:16,240
+with the bearish trend, while the second candle 
+reflects more bullish market sentiment as the  
+
+113
+00:09:16,240 --> 00:09:21,600
+price moves higher, in the opposite direction.
+If this price action happens near a key support  
+
+114
+00:09:21,600 --> 00:09:25,040
+level, it indicates that a bullish 
+reversal is likely to happen.
+ 
+  
+
+115
+00:09:26,560 --> 00:09:32,000
+The tweezer top candlestick pattern is of the same 
+structure as the tweezer bottom, except for the  
+
+116
+00:09:32,000 --> 00:09:37,760
+fact that it happens at the end of an uptrend, and 
+therefore, it is a bearish reversal pattern. The  
+
+117
+00:09:37,760 --> 00:09:43,360
+first candle is bullish, and it continues in the 
+same direction, while the second bearish candle  
+
+118
+00:09:43,360 --> 00:09:48,880
+indicates that the trend may be changing soon.
+The tweezers top occurs when buyers push the  
+
+119
+00:09:48,880 --> 00:09:53,440
+price higher, this gave us the impression 
+that the market is still going up, but sellers  
+
+120
+00:09:53,440 --> 00:09:58,560
+surprised buyers by pushing the market lower 
+and close down the open of the bullish candle.
+ 
+  
+
+121
+00:10:00,240 --> 00:10:04,960
+These 2 patterns signal price reversals 
+and we can trade them more efficient  
+
+122
+00:10:04,960 --> 00:10:10,640
+if we can combine them with other technical tools.
+Both the bottom and top tweezers are only valid  
+
+123
+00:10:10,640 --> 00:10:15,840
+when they occur during uptrends and downtrends. 
+Their appearance during choppy trading conditions  
+
+124
+00:10:15,840 --> 00:10:20,560
+is practically meaningless, and it signals the 
+market indecision to move in either direction.
+ 
+
+125
+00:10:22,000 --> 00:10:27,280
+Candlesticks are flexible, but they shouldn’t 
+be used alone in your analysis. You don’t open  
+
+126
+00:10:27,280 --> 00:10:32,240
+a buy position every time you spot a bullish 
+engulfing candle and you don’t short the market  
+
+127
+00:10:32,240 --> 00:10:37,440
+every time you see a shooting star. Candlestick 
+patterns are best used in combination with support  
+
+128
+00:10:37,440 --> 00:10:43,360
+and resistance, trend lines, and other technical 
+tools such as the moving averages or pivot points.  
+
+129
+00:10:43,360 --> 00:10:48,080
+Also, the time frame is very important. But we’ll 
+discuss about these concepts in future videos. 
+
+130
+00:10:49,360 --> 00:10:53,680
+If you found value and learned something new, 
+leave us a like to show your support, subscribe  
+
+131
+00:10:53,680 --> 00:10:59,840
+to our channel and hit the bell icon to be in 
+touch when we upload new videos. Until next time.
+

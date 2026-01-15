@@ -1,0 +1,780 @@
+1
+00:00:01,040 --> 00:00:05,799
+99% of traders use time-based charts for their
+technical analysis.
+
+2
+00:00:05,799 --> 00:00:10,490
+But in recent years, another chart is becoming
+more and more popular among day traders and
+
+3
+00:00:10,490 --> 00:00:14,730
+scalpers, as it provides a different perspective
+on trading than traditional time frames.
+
+4
+00:00:14,730 --> 00:00:19,110
+In today’s video we’ll discuss about tick
+charts, and I will explain how you should
+
+5
+00:00:19,110 --> 00:00:23,790
+use them to find better entries in your trading
+strategies.
+
+6
+00:00:23,790 --> 00:00:28,270
+Tick charts are very simple to use and very
+effective when measuring market momentum and
+
+7
+00:00:28,270 --> 00:00:29,610
+trend strength.
+
+8
+00:00:29,610 --> 00:00:34,180
+This type of charts is especially useful for
+short-term traders, being often used in scalping
+
+9
+00:00:34,180 --> 00:00:35,720
+and day trading strategies.
+
+10
+00:00:35,720 --> 00:00:37,680
+So, what Are tick charts.
+
+11
+00:00:37,680 --> 00:00:42,660
+Well, the bars on the tick charts are plotted
+based on a particular number of transactions.
+
+12
+00:00:42,660 --> 00:00:49,470
+For example, if we have a 200 tick chart,
+each bar measures 200 trades per bar.
+
+13
+00:00:49,470 --> 00:00:54,180
+After 200 trades are completed, a new bar
+plots.
+
+14
+00:00:54,180 --> 00:01:00,329
+Now very important, a single transaction could
+include 1 contract, or 50 contracts, for example.
+
+15
+00:01:00,329 --> 00:01:04,479
+The number of trades is what determines the
+creation of a new tick on the chart, not the
+
+16
+00:01:04,479 --> 00:01:06,010
+number of contracts.
+
+17
+00:01:06,010 --> 00:01:08,550
+This is a very common confusion with tick
+charts.
+
+18
+00:01:08,550 --> 00:01:12,250
+So, tick charts are not measuring the true
+number of contracts traded.
+
+19
+00:01:12,250 --> 00:01:16,960
+It’s actually the number of transactions
+made between traders, of varying contract
+
+20
+00:01:16,960 --> 00:01:18,890
+sizes.
+
+21
+00:01:18,890 --> 00:01:21,310
+With tick charts, the time element is removed.
+
+22
+00:01:21,310 --> 00:01:25,420
+If you are trading on traditional charts,
+you have limited options.
+
+23
+00:01:25,420 --> 00:01:28,830
+With tick charts, you can backtest and choose
+your own settings.
+
+24
+00:01:28,830 --> 00:01:34,119
+Some prefer charts with 50, 100 or 200, 1000
+or 2000 ticks.
+
+25
+00:01:34,119 --> 00:01:39,430
+Others prefer to use Fibonacci numbers when
+setting their number of ticks, like 21, 34,
+
+26
+00:01:39,430 --> 00:01:41,650
+55, 89, 144 etc.
+
+27
+00:01:41,650 --> 00:01:45,520
+Another approach would be to select the tick
+number on your charts by comparing it to a
+
+28
+00:01:45,520 --> 00:01:46,800
+time-based chart.
+
+29
+00:01:46,800 --> 00:01:50,951
+For example, if you prefer day trading on
+the 5-minute charts, you can choose a tick
+
+30
+00:01:50,951 --> 00:01:55,850
+chart looking similar to that chart, like
+200 ticks for example.
+
+31
+00:01:55,850 --> 00:02:00,860
+If you prefer to scalp, charts with 50 or
+100 ticks will probably suit you.
+
+32
+00:02:00,860 --> 00:02:05,610
+For day trading, 500 or 1000 ticks are the
+most common used.
+
+33
+00:02:05,610 --> 00:02:08,420
+Of course, there is no best number of ticks
+to trade with.
+
+34
+00:02:08,420 --> 00:02:13,209
+You just have to test different settings and
+select the one that suits you.
+
+35
+00:02:13,209 --> 00:02:15,050
+Tick charts come with many advantages.
+
+36
+00:02:15,050 --> 00:02:16,050
+1.
+
+37
+00:02:16,050 --> 00:02:19,909
+Less Market Noise
+As tick charts are transaction based and new
+
+38
+00:02:19,909 --> 00:02:24,829
+bars are formed only when there have been
+enough trades, the market noise is reduced.
+
+39
+00:02:24,829 --> 00:02:29,629
+The noise is often represented by useless
+candles, with no real value to the chart.
+
+40
+00:02:29,629 --> 00:02:33,799
+Plus, the wicks of the candlestick often induce
+traders into error.
+
+41
+00:02:33,799 --> 00:02:38,209
+The higher the noise, the more difficult it
+becomes to make intelligent decisions.
+
+42
+00:02:38,209 --> 00:02:44,519
+You practically lose sight of what’s important
+on the chart and focus on unimportant elements.
+
+43
+00:02:44,519 --> 00:02:49,109
+The main advantage of a tick chart is that
+compresses low-activity trading periods.
+
+44
+00:02:49,109 --> 00:02:55,180
+On the time-based charts, you may see 30-40
+useless candles, while the tick chart may
+
+45
+00:02:55,180 --> 00:02:58,610
+offer you only 10-15 relevant ones.
+
+46
+00:02:58,610 --> 00:02:59,999
+Look at the difference.
+
+47
+00:02:59,999 --> 00:03:03,290
+We have these 2 trading range on the 5-minute
+chart.
+
+48
+00:03:03,290 --> 00:03:06,329
+And see the difference on a 200-ticks chart.
+
+49
+00:03:06,329 --> 00:03:09,329
+The activity on the tick charts is more condensed.
+
+50
+00:03:09,329 --> 00:03:14,709
+This may potentially enable you to get a clearer
+picture of overall price action.
+
+51
+00:03:14,709 --> 00:03:16,239
+2.
+
+52
+00:03:16,239 --> 00:03:21,129
+Better Analysis of Volatility
+With tick charts, you will see a new bar forming
+
+53
+00:03:21,129 --> 00:03:25,439
+only when there have been enough trades completed
+between buyers and sellers.
+
+54
+00:03:25,439 --> 00:03:28,999
+In times of high activity, tick charts plot
+more bars.
+
+55
+00:03:28,999 --> 00:03:31,300
+This could signal an increased volatility.
+
+56
+00:03:31,300 --> 00:03:37,040
+Usually, when the market opens, the volatility
+increases and tick bars occur quickly.
+
+57
+00:03:37,040 --> 00:03:42,519
+During the lunch hour, when the number of
+trades decreases, the volatility decreases.
+
+58
+00:03:42,519 --> 00:03:45,519
+This is often reflected in the activity on
+the tick charts.
+
+59
+00:03:45,519 --> 00:03:49,780
+During low activity periods, tick charts only
+display a few bars.
+
+60
+00:03:49,780 --> 00:03:54,379
+This is a better measurement of volatility
+because on the time-based charts you’ll
+
+61
+00:03:54,379 --> 00:03:57,700
+continue to see the less important candles.
+
+62
+00:03:57,700 --> 00:03:58,870
+Look at this example.
+
+63
+00:03:58,870 --> 00:04:03,819
+The first day was a low volatility day, with
+few bars plotted on the tick chart.
+
+64
+00:04:03,819 --> 00:04:08,879
+The second and third days had a higher volatility,
+with large price movements and a higher number
+
+65
+00:04:08,879 --> 00:04:10,449
+of bars.
+
+66
+00:04:10,449 --> 00:04:13,189
+This represents an important information for
+a trader.
+
+67
+00:04:13,189 --> 00:04:17,720
+During the first day, a trader might skip
+a signal occurring towards the end of the
+
+68
+00:04:17,720 --> 00:04:22,050
+trading session, knowing that the market volatility
+for that day was low.
+
+69
+00:04:22,050 --> 00:04:23,560
+3.
+
+70
+00:04:23,560 --> 00:04:27,420
+Clearer Swings
+Without the accumulation of small candles
+
+71
+00:04:27,420 --> 00:04:32,530
+like the ones on the time-based charts, tick
+charts make it easier for the trader to spot
+
+72
+00:04:32,530 --> 00:04:33,530
+swings.
+
+73
+00:04:33,530 --> 00:04:39,150
+Also, while during high volatility periods
+time-based charts may show only a long candle,
+
+74
+00:04:39,150 --> 00:04:41,390
+tick charts show several smaller candles.
+
+75
+00:04:41,390 --> 00:04:46,640
+In this way, tick charts provide traders with
+more information about the recent market swings.
+
+76
+00:04:46,640 --> 00:04:52,090
+When the volatility increases, a tick chart
+shows more price waves and traders are able
+
+77
+00:04:52,090 --> 00:04:56,440
+to identify proper support and resistance
+levels.
+
+78
+00:04:56,440 --> 00:05:00,850
+Here we have a 1-minute chart, showing the
+market reaction after a non-farm payroll announcement,
+
+79
+00:05:00,850 --> 00:05:03,600
+a powerful move in just a few minutes.
+
+80
+00:05:03,600 --> 00:05:09,590
+On a 50-tick chart, the large movement printed
+several bars, more exactly a 3-wave downtrend.
+
+81
+00:05:09,590 --> 00:05:13,930
+A trader analyzing the tick chart had the
+possibility to join the downward movement
+
+82
+00:05:13,930 --> 00:05:15,780
+after a small pullback.
+
+83
+00:05:15,780 --> 00:05:22,200
+The 1-min chart contained only 4 red candles,
+all having wicks, to fool retail traders.
+
+84
+00:05:22,200 --> 00:05:23,600
+4.
+
+85
+00:05:23,600 --> 00:05:28,280
+Better Visualization of Breakouts
+With tick charts, traders are able to spot
+
+86
+00:05:28,280 --> 00:05:31,310
+breakouts faster than using a time-based chart.
+
+87
+00:05:31,310 --> 00:05:36,710
+By using tick charts, traders can open a position
+faster and, in most cases, at a better price
+
+88
+00:05:36,710 --> 00:05:37,710
+level.
+
+89
+00:05:37,710 --> 00:05:38,710
+Look at this example.
+
+90
+00:05:38,710 --> 00:05:43,120
+Let’s say you try to scalp a new swing high
+on the 1-min chart, waiting to trade an upside
+
+91
+00:05:43,120 --> 00:05:44,340
+breakout.
+
+92
+00:05:44,340 --> 00:05:49,000
+The breakout finally occurs, but you wait
+for the price to retrace to the former resistance
+
+93
+00:05:49,000 --> 00:05:50,970
+level and trade the retest.
+
+94
+00:05:50,970 --> 00:05:52,280
+But the pullback never came.
+
+95
+00:05:52,280 --> 00:05:54,340
+The market continued to go higher.
+
+96
+00:05:54,340 --> 00:05:58,250
+Despite the fact that you anticipated the
+breakout and lost a lot of time waiting for
+
+97
+00:05:58,250 --> 00:06:00,130
+the setup, you missed a great trade.
+
+98
+00:06:00,130 --> 00:06:03,360
+And, here’s the same setup, on a tick chart.
+
+99
+00:06:03,360 --> 00:06:07,750
+We have the breakout and the chance to enter
+long once the price retraced to the former
+
+100
+00:06:07,750 --> 00:06:10,190
+resistance level, which became support.
+
+101
+00:06:10,190 --> 00:06:12,770
+The tick chart allowed you to see the retest.
+
+102
+00:06:12,770 --> 00:06:16,871
+The red candle which followed the breakout
+candle was visible on the tick chart, but
+
+103
+00:06:16,871 --> 00:06:19,250
+on the time-based chart wasn’t.
+
+104
+00:06:19,250 --> 00:06:25,170
+This little aspect made the difference between
+a successful trade and a wasted opportunity.
+
+105
+00:06:25,170 --> 00:06:27,000
+5.
+
+106
+00:06:27,000 --> 00:06:32,680
+More Accurate Signals from Technical Indicators
+When using tick charts, traders receive more
+
+107
+00:06:32,680 --> 00:06:37,380
+accurate signals from the technical indicators
+they use, because the market noise is reduced,
+
+108
+00:06:37,380 --> 00:06:39,991
+so the signals generated by indicators have
+more relevance.
+
+109
+00:06:39,991 --> 00:06:45,840
+Take a look at this 200-ticks chart, with
+the Stochastic Oscillator added.
+
+110
+00:06:45,840 --> 00:06:49,980
+Look at the divergence signal visible on the
+indicator when using tick charts.
+
+111
+00:06:49,980 --> 00:06:53,380
+Now, the same evolution, on a 5-minute chart.
+
+112
+00:06:53,380 --> 00:06:55,750
+As you can see, no divergence is shown.
+
+113
+00:06:55,750 --> 00:07:00,050
+Also, the choppiness of indicators is more
+visible on time based charts.
+
+114
+00:07:00,050 --> 00:07:04,310
+If you compare the signals offered by time
+based chart with the ones generated by the
+
+115
+00:07:04,310 --> 00:07:07,740
+tick chart you’ll see a slight difference.
+
+116
+00:07:07,740 --> 00:07:09,300
+6.
+
+117
+00:07:09,300 --> 00:07:13,780
+Better Measurement of Volume
+A volume indicator plotted on a tick chart
+
+118
+00:07:13,780 --> 00:07:18,020
+will offer you a better understanding of the
+strength or weakness of a price move.
+
+119
+00:07:18,020 --> 00:07:22,500
+The combination of tick charts and volume
+could help traders to join strong moves and
+
+120
+00:07:22,500 --> 00:07:24,620
+avoid moves that show weakness.
+
+121
+00:07:24,620 --> 00:07:29,330
+The great thing about combining the use of
+volume with tick charts is that each tick
+
+122
+00:07:29,330 --> 00:07:30,460
+bar is equal.
+
+123
+00:07:30,460 --> 00:07:35,650
+This allows you to see which price movements
+are supported by high volume, and which aren’t.
+
+124
+00:07:35,650 --> 00:07:40,090
+It essentially tells you which trends are
+supported by smart money, and which ones are
+
+125
+00:07:40,090 --> 00:07:44,270
+just retail money, making it likely to turn
+over.
+
+126
+00:07:44,270 --> 00:07:45,780
+7.
+
+127
+00:07:45,780 --> 00:07:50,590
+Smaller and More Accurate Stop-Loss Orders
+Tick charts can help you in placing better
+
+128
+00:07:50,590 --> 00:07:54,240
+stop-loss orders and take-profit levels on
+the chart.
+
+129
+00:07:54,240 --> 00:07:58,639
+This is especially useful during periods of
+high volatility and rapid price movements.
+
+130
+00:07:58,639 --> 00:08:04,490
+For example, when a market moves rapidly,
+the tick chart may plot multiple price swings
+
+131
+00:08:04,490 --> 00:08:07,870
+which can be used for placing stops and profit
+levels.
+
+132
+00:08:07,870 --> 00:08:13,410
+By using a time-based chart, you can place
+orders taking into account only one-two bars.
+
+133
+00:08:13,410 --> 00:08:18,460
+Basicaly, when using time-based charts you
+use slightly higher stop-loss orders, based
+
+134
+00:08:18,460 --> 00:08:20,730
+on the swings on the respective chart.
+
+135
+00:08:20,730 --> 00:08:25,620
+With tick charts, not only that you will be
+able to see more waves and more entry points
+
+136
+00:08:25,620 --> 00:08:31,220
+to set your orders, but you will also use
+smaller stop-loss orders.
+
+137
+00:08:31,220 --> 00:08:32,220
+Look at this chart.
+
+138
+00:08:32,220 --> 00:08:37,269
+If you want to scalp this up move, a stop-loss
+of 30 pips is required to enter a trade.
+
+139
+00:08:37,269 --> 00:08:40,539
+That’s a big stop to be used on the 1-minutes
+chart.
+
+140
+00:08:40,539 --> 00:08:43,669
+Now look at the same situation on the 50-ticks
+chart.
+
+141
+00:08:43,669 --> 00:08:47,769
+Here you are able to buy the market at a much
+better price.
+
+142
+00:08:47,769 --> 00:08:53,170
+Also you can place the stop-loss order below
+the recent swing, at 20 pips distance, compared
+
+143
+00:08:53,170 --> 00:08:56,850
+to the 30 pips stop-loss order placed on the
+M1 chart.
+
+144
+00:08:56,850 --> 00:09:01,730
+When you scalp, this 10-pip difference is
+huge, and gives you a safety net to manage
+
+145
+00:09:01,730 --> 00:09:03,010
+your orders.
+
+146
+00:09:03,010 --> 00:09:07,000
+Keep in mind that tick charts come with several
+limitations.
+
+147
+00:09:07,000 --> 00:09:11,430
+Tick charts can give you an advantage in day
+trading, but they come at a cost as not many
+
+148
+00:09:11,430 --> 00:09:14,149
+platforms are offering free tick data.
+
+149
+00:09:14,149 --> 00:09:18,980
+Quality tick data can be really expensive
+and not always is 100% accurate.
+
+150
+00:09:18,980 --> 00:09:24,259
+Also, if you have the chance to compare tick
+charts from different data feeds, you may
+
+151
+00:09:24,259 --> 00:09:26,209
+notice that they differ.
+
+152
+00:09:26,209 --> 00:09:30,310
+Some data feeds contain errors and not all
+ticks are included.
+
+153
+00:09:30,310 --> 00:09:32,029
+And this may affect your results.
+
+154
+00:09:32,029 --> 00:09:34,699
+Sometimes drastically.
+
+155
+00:09:34,699 --> 00:09:39,860
+Although it has many advantages over a candlestick
+chart, a tick chart should be used as a complementary
+
+156
+00:09:39,860 --> 00:09:40,860
+tool.
+
+157
+00:09:40,860 --> 00:09:44,800
+Sure, you can use only tick charts in your
+trading activity, but I recommend you to be
+
+158
+00:09:44,800 --> 00:09:49,050
+conservative and try to combine them with
+the classic time-based charts.
+
+159
+00:09:49,050 --> 00:09:51,779
+This way, you have the full picture of the
+market.
+
+160
+00:09:51,779 --> 00:09:56,430
+A common technique used by traders is to spot
+trends and support and resistance levels on
+
+161
+00:09:56,430 --> 00:10:00,410
+the time-based charts and pinpoint the entries
+on the tick charts.
+
+162
+00:10:00,410 --> 00:10:05,459
+This way you reduce the market noise, determine
+the volatility and take the signals on the
+
+163
+00:10:05,459 --> 00:10:11,079
+tick charts while confirming the movement
+with the help of time-based charts.
+
+164
+00:10:11,079 --> 00:10:15,009
+As always, if you learned something new and
+found value, leave us a like to show your
+
+165
+00:10:15,009 --> 00:10:19,360
+support, subscribe to our channel and hit
+the bell icon to stay notified when we upload
+
+166
+00:10:19,360 --> 00:10:20,360
+new videos.
+
+167
+00:10:20,360 --> 00:10:21,419
+Until next time.
+

@@ -1,0 +1,1308 @@
+1
+00:00:00,880 --> 00:00:05,759
+hello and welcome today i'll show you
+
+2
+00:00:02,960 --> 00:00:07,839
+how to perform a candle volume analysis
+
+3
+00:00:05,759 --> 00:00:10,160
+using wackoff method we'll cover
+
+4
+00:00:07,839 --> 00:00:12,480
+multiple scenarios for anticipating tops
+
+5
+00:00:10,160 --> 00:00:14,799
+and bottoms and they'll also reveal a
+
+6
+00:00:12,480 --> 00:00:18,000
+powerful strategy to follow the smart
+
+7
+00:00:14,799 --> 00:00:20,400
+money using a simple candlestick pattern
+
+8
+00:00:18,000 --> 00:00:22,320
+so if you could like subscribe to the
+
+9
+00:00:20,400 --> 00:00:24,160
+channel and stick around for the full
+
+10
+00:00:22,320 --> 00:00:26,720
+video
+
+11
+00:00:24,160 --> 00:00:28,720
+nearly a century ago richard wyckoff
+
+12
+00:00:26,720 --> 00:00:30,880
+began to publish his methods of
+
+13
+00:00:28,720 --> 00:00:32,320
+detecting supply and demand imbalances
+
+14
+00:00:30,880 --> 00:00:35,120
+in the market
+
+15
+00:00:32,320 --> 00:00:37,200
+wyckoff introduced his discovery that it
+
+16
+00:00:35,120 --> 00:00:39,200
+was possible to measure the force of
+
+17
+00:00:37,200 --> 00:00:42,000
+buying and selling pressures in any
+
+18
+00:00:39,200 --> 00:00:43,600
+traded market wyckof's method proved
+
+19
+00:00:42,000 --> 00:00:45,920
+that future price moves were
+
+20
+00:00:43,600 --> 00:00:48,480
+foreshadowed on the price chart because
+
+21
+00:00:45,920 --> 00:00:50,800
+the composite man or the smart money
+
+22
+00:00:48,480 --> 00:00:53,600
+must leave its trading footprint on a
+
+23
+00:00:50,800 --> 00:00:55,840
+price chart due to the sheer size of its
+
+24
+00:00:53,600 --> 00:00:58,320
+trading volume
+
+25
+00:00:55,840 --> 00:01:01,039
+so is the supply and demand imbalances
+
+26
+00:00:58,320 --> 00:01:02,800
+created by smart money that is the cause
+
+27
+00:01:01,039 --> 00:01:05,360
+of price movement
+
+28
+00:01:02,800 --> 00:01:07,119
+their activity is measured with four
+
+29
+00:01:05,360 --> 00:01:09,520
+simple variables
+
+30
+00:01:07,119 --> 00:01:11,119
+the price movement meaning the high low
+
+31
+00:01:09,520 --> 00:01:12,720
+and closing price
+
+32
+00:01:11,119 --> 00:01:14,720
+the trading volume
+
+33
+00:01:12,720 --> 00:01:17,200
+the relationship between the price
+
+34
+00:01:14,720 --> 00:01:19,680
+movement and volume and the time it
+
+35
+00:01:17,200 --> 00:01:20,799
+takes for the price movement to run its
+
+36
+00:01:19,680 --> 00:01:23,920
+course
+
+37
+00:01:20,799 --> 00:01:27,280
+this combined methodology is known as
+
+38
+00:01:23,920 --> 00:01:29,439
+wake-off candle volume analysis
+
+39
+00:01:27,280 --> 00:01:32,159
+in this video i will apply wipe off
+
+40
+00:01:29,439 --> 00:01:35,119
+candle volume analysis on a one bar
+
+41
+00:01:32,159 --> 00:01:37,119
+reversal pattern known as the doji you
+
+42
+00:01:35,119 --> 00:01:39,520
+know it very well probably
+
+43
+00:01:37,119 --> 00:01:41,759
+this is a candlestick batter that occurs
+
+44
+00:01:39,520 --> 00:01:44,560
+when the opening and closing prices are
+
+45
+00:01:41,759 --> 00:01:47,200
+the same or very close to each other
+
+46
+00:01:44,560 --> 00:01:49,680
+the shadows can be either long or short
+
+47
+00:01:47,200 --> 00:01:50,560
+and there can be various types of doji
+
+48
+00:01:49,680 --> 00:01:52,960
+bars
+
+49
+00:01:50,560 --> 00:01:54,880
+but for our strategy it's not important
+
+50
+00:01:52,960 --> 00:01:57,439
+to distinguish the type of the doji
+
+51
+00:01:54,880 --> 00:01:59,600
+formation it's only important to be able
+
+52
+00:01:57,439 --> 00:02:01,360
+to recognize what it looks like on a
+
+53
+00:01:59,600 --> 00:02:03,439
+chart
+
+54
+00:02:01,360 --> 00:02:05,600
+this formation is said to represent
+
+55
+00:02:03,439 --> 00:02:08,319
+marketing decision because the market
+
+56
+00:02:05,600 --> 00:02:12,080
+opens trades throughout the period and
+
+57
+00:02:08,319 --> 00:02:14,560
+then closes at or near the opening price
+
+58
+00:02:12,080 --> 00:02:16,959
+it represents a battle between bulls and
+
+59
+00:02:14,560 --> 00:02:19,360
+bears that neither one
+
+60
+00:02:16,959 --> 00:02:21,920
+it's widely believed that it represents
+
+61
+00:02:19,360 --> 00:02:24,400
+a better reversal pattern at the top of
+
+62
+00:02:21,920 --> 00:02:26,879
+the market then at the bottom
+
+63
+00:02:24,400 --> 00:02:30,239
+although you will learn that this is not
+
+64
+00:02:26,879 --> 00:02:32,239
+correct under the proper circumstances
+
+65
+00:02:30,239 --> 00:02:34,000
+by applying wike of candle volume
+
+66
+00:02:32,239 --> 00:02:36,560
+analysis you will learn how to
+
+67
+00:02:34,000 --> 00:02:39,280
+distinguish when there is no indecision
+
+68
+00:02:36,560 --> 00:02:41,920
+in a doji formation
+
+69
+00:02:39,280 --> 00:02:43,440
+the perfect doji has the same open price
+
+70
+00:02:41,920 --> 00:02:45,599
+and close price
+
+71
+00:02:43,440 --> 00:02:48,400
+however if the difference between the
+
+72
+00:02:45,599 --> 00:02:50,560
+open and closed prices is within a few
+
+73
+00:02:48,400 --> 00:02:51,519
+ticks this could also be considered a
+
+74
+00:02:50,560 --> 00:02:53,920
+doji
+
+75
+00:02:51,519 --> 00:02:56,000
+a doji candlestick suggests a lack of
+
+76
+00:02:53,920 --> 00:02:57,519
+control in the market either by the
+
+77
+00:02:56,000 --> 00:02:59,760
+bulls or the bears
+
+78
+00:02:57,519 --> 00:03:02,480
+the lack of direction is clear
+
+79
+00:02:59,760 --> 00:03:05,519
+bulls move the price higher bears move
+
+80
+00:03:02,480 --> 00:03:08,319
+prices lower but in the end the market
+
+81
+00:03:05,519 --> 00:03:10,000
+price closed exactly or very close to
+
+82
+00:03:08,319 --> 00:03:12,640
+where it opened
+
+83
+00:03:10,000 --> 00:03:15,120
+but if the doji candle highlights market
+
+84
+00:03:12,640 --> 00:03:17,519
+indecision it's safe to say that it
+
+85
+00:03:15,120 --> 00:03:20,080
+doesn't offer insight into whether
+
+86
+00:03:17,519 --> 00:03:21,840
+supply or demand is in control
+
+87
+00:03:20,080 --> 00:03:22,959
+you have to guess the market's next
+
+88
+00:03:21,840 --> 00:03:25,040
+direction
+
+89
+00:03:22,959 --> 00:03:28,480
+this is where wyckoff candle volume
+
+90
+00:03:25,040 --> 00:03:30,879
+analysis will make the difference
+
+91
+00:03:28,480 --> 00:03:33,519
+at the bottom of a market a wyckoff
+
+92
+00:03:30,879 --> 00:03:35,200
+technician is looking for tests of
+
+93
+00:03:33,519 --> 00:03:37,760
+supply in the market
+
+94
+00:03:35,200 --> 00:03:41,040
+a test occurs when the price is marked
+
+95
+00:03:37,760 --> 00:03:42,720
+down to see if greater volume comes in
+
+96
+00:03:41,040 --> 00:03:45,360
+at the lower price
+
+97
+00:03:42,720 --> 00:03:46,640
+if it does this signifies supply is in
+
+98
+00:03:45,360 --> 00:03:49,360
+the market
+
+99
+00:03:46,640 --> 00:03:52,799
+this supply must be removed before the
+
+100
+00:03:49,360 --> 00:03:55,599
+market can begin any substantial up move
+
+101
+00:03:52,799 --> 00:03:58,879
+however if the market is marked down and
+
+102
+00:03:55,599 --> 00:04:01,360
+no sellers emerge at this lower prices
+
+103
+00:03:58,879 --> 00:04:02,319
+the price will come back up to close off
+
+104
+00:04:01,360 --> 00:04:05,040
+the low
+
+105
+00:04:02,319 --> 00:04:06,959
+while volume is lower relative to the
+
+106
+00:04:05,040 --> 00:04:09,040
+prior candles
+
+107
+00:04:06,959 --> 00:04:11,920
+with no supply present in the current
+
+108
+00:04:09,040 --> 00:04:14,560
+price level the price should rise
+
+109
+00:04:11,920 --> 00:04:17,280
+the doji test bar must exhibit the
+
+110
+00:04:14,560 --> 00:04:19,600
+following parameters to be valid
+
+111
+00:04:17,280 --> 00:04:21,759
+it must have a low that is lower than
+
+112
+00:04:19,600 --> 00:04:24,560
+the previous candle's low
+
+113
+00:04:21,759 --> 00:04:27,520
+and it has to display lower volume than
+
+114
+00:04:24,560 --> 00:04:29,759
+at least several of the prior candles
+
+115
+00:04:27,520 --> 00:04:33,759
+the lower the volume the stronger the
+
+116
+00:04:29,759 --> 00:04:36,320
+indication of no supply being present
+
+117
+00:04:33,759 --> 00:04:39,199
+here's an example on the one hour chart
+
+118
+00:04:36,320 --> 00:04:41,280
+notice this obvious downtrend with price
+
+119
+00:04:39,199 --> 00:04:43,520
+starting to make higher highs and higher
+
+120
+00:04:41,280 --> 00:04:45,919
+lows now we are in a slight
+
+121
+00:04:43,520 --> 00:04:47,840
+consolidation and we don't know if the
+
+122
+00:04:45,919 --> 00:04:50,240
+price will go up or down
+
+123
+00:04:47,840 --> 00:04:52,720
+and here's our doji test bar
+
+124
+00:04:50,240 --> 00:04:55,600
+looking left on the chart a few candles
+
+125
+00:04:52,720 --> 00:04:58,160
+prior to the doji the high was here at
+
+126
+00:04:55,600 --> 00:05:00,000
+around two hundred and eighteen dollars
+
+127
+00:04:58,160 --> 00:05:02,639
+then the market dropped around eight
+
+128
+00:05:00,000 --> 00:05:05,120
+dollars to the low of the doji
+
+129
+00:05:02,639 --> 00:05:07,759
+this sets up the ideal conditions for
+
+130
+00:05:05,120 --> 00:05:10,479
+this formation to occur pay attention
+
+131
+00:05:07,759 --> 00:05:13,199
+the test candle the doji bar
+
+132
+00:05:10,479 --> 00:05:16,400
+makes a new recent low and if there is
+
+133
+00:05:13,199 --> 00:05:18,560
+reduced volume it shows that no supply
+
+134
+00:05:16,400 --> 00:05:20,880
+is present
+
+135
+00:05:18,560 --> 00:05:23,440
+so you can see that this doji is making
+
+136
+00:05:20,880 --> 00:05:26,639
+a new low on the chart and the volume is
+
+137
+00:05:23,440 --> 00:05:28,720
+lower than the previous two candles
+
+138
+00:05:26,639 --> 00:05:31,520
+by standard candlestick analysis
+
+139
+00:05:28,720 --> 00:05:33,840
+measures most traders would come to the
+
+140
+00:05:31,520 --> 00:05:35,840
+conclusion that this bar represents
+
+141
+00:05:33,840 --> 00:05:37,600
+indecision on the part of the market
+
+142
+00:05:35,840 --> 00:05:40,400
+participants
+
+143
+00:05:37,600 --> 00:05:43,840
+breakout traders would even enter short
+
+144
+00:05:40,400 --> 00:05:46,720
+as the doji test bar is making new laws
+
+145
+00:05:43,840 --> 00:05:49,600
+however when viewed from a wikov candle
+
+146
+00:05:46,720 --> 00:05:52,880
+volume analysis perspective it's clear
+
+147
+00:05:49,600 --> 00:05:55,039
+that no indecision exists here the chart
+
+148
+00:05:52,880 --> 00:05:57,520
+shows that there are a few sellers at
+
+149
+00:05:55,039 --> 00:05:59,759
+this lower price and the price comes
+
+150
+00:05:57,520 --> 00:06:02,479
+back to close near the open
+
+151
+00:05:59,759 --> 00:06:05,120
+within the next wars this market started
+
+152
+00:06:02,479 --> 00:06:08,240
+making higher highs and higher lows and
+
+153
+00:06:05,120 --> 00:06:10,400
+increased almost five dollars
+
+154
+00:06:08,240 --> 00:06:12,639
+with this formation it's important to
+
+155
+00:06:10,400 --> 00:06:14,960
+understand that the smart money which
+
+156
+00:06:12,639 --> 00:06:17,919
+represents a large percentage of the
+
+157
+00:06:14,960 --> 00:06:20,720
+overall trading volume is not selling as
+
+158
+00:06:17,919 --> 00:06:23,120
+lower price levels are explored this is
+
+159
+00:06:20,720 --> 00:06:25,600
+clearly evident and is shown by the
+
+160
+00:06:23,120 --> 00:06:28,720
+reduction in the total volume if the
+
+161
+00:06:25,600 --> 00:06:31,600
+smart money is not selling you as a
+
+162
+00:06:28,720 --> 00:06:33,600
+retail trader need to be aware of this
+
+163
+00:06:31,600 --> 00:06:36,160
+this will prevent you from selling at
+
+164
+00:06:33,600 --> 00:06:38,720
+market bottoms and will allow you the
+
+165
+00:06:36,160 --> 00:06:42,080
+opportunity to establish a long trade
+
+166
+00:06:38,720 --> 00:06:44,800
+into the path of least resistance
+
+167
+00:06:42,080 --> 00:06:46,880
+this example shows a 15 minute chart
+
+168
+00:06:44,800 --> 00:06:48,639
+again in the background is a pretty
+
+169
+00:06:46,880 --> 00:06:51,440
+strong downtrend
+
+170
+00:06:48,639 --> 00:06:53,880
+around 10 candles prior to the doji test
+
+171
+00:06:51,440 --> 00:06:56,400
+bar the high price was around
+
+172
+00:06:53,880 --> 00:07:00,720
+225 dollars per share
+
+173
+00:06:56,400 --> 00:07:02,800
+the low of this doji test bar was at 220
+
+174
+00:07:00,720 --> 00:07:05,199
+which represents more than a five dollar
+
+175
+00:07:02,800 --> 00:07:07,680
+drop in the value of the stock
+
+176
+00:07:05,199 --> 00:07:10,479
+once again notice how the volume gets
+
+177
+00:07:07,680 --> 00:07:13,199
+lower as the doji candle tests for
+
+178
+00:07:10,479 --> 00:07:15,520
+supply but doesn't find an increase in
+
+179
+00:07:13,199 --> 00:07:16,800
+interested sellers at this lower price
+
+180
+00:07:15,520 --> 00:07:19,039
+levels
+
+181
+00:07:16,800 --> 00:07:21,599
+you can see that this doji is making a
+
+182
+00:07:19,039 --> 00:07:24,319
+new low on the chart and the volume is
+
+183
+00:07:21,599 --> 00:07:26,800
+lower than the previous three candles
+
+184
+00:07:24,319 --> 00:07:28,080
+if there are no sellers the price should
+
+185
+00:07:26,800 --> 00:07:30,240
+increase
+
+186
+00:07:28,080 --> 00:07:32,880
+the price of this stock rose nearly two
+
+187
+00:07:30,240 --> 00:07:36,160
+dollars as there were no sellers present
+
+188
+00:07:32,880 --> 00:07:38,479
+to stop it from increasing in value
+
+189
+00:07:36,160 --> 00:07:39,599
+now let's look at a doji at the top of a
+
+190
+00:07:38,479 --> 00:07:42,000
+market
+
+191
+00:07:39,599 --> 00:07:43,280
+this formation is called doji demand
+
+192
+00:07:42,000 --> 00:07:45,599
+drawing up
+
+193
+00:07:43,280 --> 00:07:48,240
+at the top of a market a wykov
+
+194
+00:07:45,599 --> 00:07:50,160
+technician is looking for signs that
+
+195
+00:07:48,240 --> 00:07:52,720
+demand is diminishing
+
+196
+00:07:50,160 --> 00:07:55,199
+a lack of demand occurs when the price
+
+197
+00:07:52,720 --> 00:07:58,400
+is marked up to see if they are willing
+
+198
+00:07:55,199 --> 00:08:00,879
+buyers at these higher price levels but
+
+199
+00:07:58,400 --> 00:08:02,080
+as the price moves up trading volume
+
+200
+00:08:00,879 --> 00:08:04,400
+decreases
+
+201
+00:08:02,080 --> 00:08:06,879
+there is a telling sign that there is no
+
+202
+00:08:04,400 --> 00:08:07,840
+interest in higher prices from the smart
+
+203
+00:08:06,879 --> 00:08:10,240
+money
+
+204
+00:08:07,840 --> 00:08:12,720
+with no professional buying interest at
+
+205
+00:08:10,240 --> 00:08:13,680
+the current price level the price should
+
+206
+00:08:12,720 --> 00:08:16,879
+fall
+
+207
+00:08:13,680 --> 00:08:19,680
+the doji demand drawing up must exhibit
+
+208
+00:08:16,879 --> 00:08:22,319
+the following parameters to be valid
+
+209
+00:08:19,680 --> 00:08:24,639
+this scandal's close must be higher than
+
+210
+00:08:22,319 --> 00:08:27,599
+the previous candles close
+
+211
+00:08:24,639 --> 00:08:30,720
+and it has to display lower volume than
+
+212
+00:08:27,599 --> 00:08:33,120
+at least several of the prior candles
+
+213
+00:08:30,720 --> 00:08:37,279
+the lower the volume the stronger the
+
+214
+00:08:33,120 --> 00:08:40,000
+indication that the demand has dried up
+
+215
+00:08:37,279 --> 00:08:42,320
+here's a 30 minute chart of the smp
+
+216
+00:08:40,000 --> 00:08:44,480
+preceding the two dojis marked on the
+
+217
+00:08:42,320 --> 00:08:46,080
+chart you can see that the market has
+
+218
+00:08:44,480 --> 00:08:48,240
+been in an uptrend
+
+219
+00:08:46,080 --> 00:08:51,040
+as the market moves up to the highest
+
+220
+00:08:48,240 --> 00:08:52,320
+point the amount of interested buyers is
+
+221
+00:08:51,040 --> 00:08:54,399
+drying up
+
+222
+00:08:52,320 --> 00:08:56,880
+we know this because the volume is
+
+223
+00:08:54,399 --> 00:08:58,080
+greatly reduced compared to the previous
+
+224
+00:08:56,880 --> 00:09:00,080
+scandals
+
+225
+00:08:58,080 --> 00:09:01,360
+even though the smp is making a new
+
+226
+00:09:00,080 --> 00:09:04,640
+recent high
+
+227
+00:09:01,360 --> 00:09:07,600
+and strong markets don't behave this way
+
+228
+00:09:04,640 --> 00:09:09,760
+this occurs at the top of the market and
+
+229
+00:09:07,600 --> 00:09:12,959
+when we apply wike of candle volume
+
+230
+00:09:09,760 --> 00:09:15,120
+analysis the doji indicates that at
+
+231
+00:09:12,959 --> 00:09:17,920
+least this phase of the up move is
+
+232
+00:09:15,120 --> 00:09:20,399
+either close to or at the end
+
+233
+00:09:17,920 --> 00:09:23,440
+once again notice how the volume gets
+
+234
+00:09:20,399 --> 00:09:25,839
+lower as the two doji candles test for
+
+235
+00:09:23,440 --> 00:09:29,040
+demand but doesn't find interested
+
+236
+00:09:25,839 --> 00:09:31,680
+buyers at these higher price levels
+
+237
+00:09:29,040 --> 00:09:34,000
+you can also see that each doji is
+
+238
+00:09:31,680 --> 00:09:36,720
+making a new high on the chart and the
+
+239
+00:09:34,000 --> 00:09:39,120
+volume is at the lowest level
+
+240
+00:09:36,720 --> 00:09:41,120
+several candles later the market dropped
+
+241
+00:09:39,120 --> 00:09:43,200
+aggressively
+
+242
+00:09:41,120 --> 00:09:45,600
+with this formation it's important to
+
+243
+00:09:43,200 --> 00:09:48,640
+understand that the smart money is not
+
+244
+00:09:45,600 --> 00:09:50,720
+interested in supporting higher prices
+
+245
+00:09:48,640 --> 00:09:53,600
+this is evidenced by the reduction in
+
+246
+00:09:50,720 --> 00:09:56,080
+the overall volume if the smart money is
+
+247
+00:09:53,600 --> 00:09:58,640
+not interested in higher prices
+
+248
+00:09:56,080 --> 00:10:01,120
+you as a retail trader can take this
+
+249
+00:09:58,640 --> 00:10:02,640
+knowledge and refrain from buying the
+
+250
+00:10:01,120 --> 00:10:05,519
+market tops
+
+251
+00:10:02,640 --> 00:10:08,800
+instead you will establish a short trade
+
+252
+00:10:05,519 --> 00:10:10,880
+into the path of least resistance
+
+253
+00:10:08,800 --> 00:10:13,440
+here's an example on bitcoin
+
+254
+00:10:10,880 --> 00:10:15,440
+notice this aggressive up move with
+
+255
+00:10:13,440 --> 00:10:16,640
+price making higher highs and higher
+
+256
+00:10:15,440 --> 00:10:19,519
+lows
+
+257
+00:10:16,640 --> 00:10:22,320
+the test candle the doji bar makes a new
+
+258
+00:10:19,519 --> 00:10:25,120
+recent high and the volume is lower than
+
+259
+00:10:22,320 --> 00:10:27,120
+the previous six or seven candles
+
+260
+00:10:25,120 --> 00:10:29,680
+by standard candlestick analysis
+
+261
+00:10:27,120 --> 00:10:31,760
+measures most readers would come to the
+
+262
+00:10:29,680 --> 00:10:33,200
+conclusion that this bar represents
+
+263
+00:10:31,760 --> 00:10:35,360
+indecision
+
+264
+00:10:33,200 --> 00:10:38,160
+but when viewed from a wake of candle
+
+265
+00:10:35,360 --> 00:10:40,720
+volume analysis perspective it's clear
+
+266
+00:10:38,160 --> 00:10:42,560
+that no indecision exists here
+
+267
+00:10:40,720 --> 00:10:45,519
+the chart shows that there are a few
+
+268
+00:10:42,560 --> 00:10:47,839
+interested buyers at this higher price
+
+269
+00:10:45,519 --> 00:10:49,760
+and the price comes back to close near
+
+270
+00:10:47,839 --> 00:10:52,800
+the open
+
+271
+00:10:49,760 --> 00:10:55,200
+whenever you see a doji on low volume
+
+272
+00:10:52,800 --> 00:10:57,120
+that appears in the context of a bullish
+
+273
+00:10:55,200 --> 00:10:59,600
+uptrend this should give you some
+
+274
+00:10:57,120 --> 00:11:01,360
+warnings that a trend correction could
+
+275
+00:10:59,600 --> 00:11:03,120
+come at any time
+
+276
+00:11:01,360 --> 00:11:05,760
+once you identify the candlestick
+
+277
+00:11:03,120 --> 00:11:07,760
+pattern you will want to find a trigger
+
+278
+00:11:05,760 --> 00:11:08,720
+that lets you know when to enter the
+
+279
+00:11:07,760 --> 00:11:12,160
+trade
+
+280
+00:11:08,720 --> 00:11:14,800
+a simple trigger is the low of the doji
+
+281
+00:11:12,160 --> 00:11:17,360
+once the candle closes below this level
+
+282
+00:11:14,800 --> 00:11:19,120
+you can open a short position
+
+283
+00:11:17,360 --> 00:11:22,000
+the aggressive entry would be
+
+284
+00:11:19,120 --> 00:11:24,720
+immediately after the candle closes
+
+285
+00:11:22,000 --> 00:11:27,120
+the proper location of a stop loss is
+
+286
+00:11:24,720 --> 00:11:30,160
+above the high of the doji
+
+287
+00:11:27,120 --> 00:11:32,959
+your level of risk will vary depending
+
+288
+00:11:30,160 --> 00:11:35,440
+on the length of the candlestick week
+
+289
+00:11:32,959 --> 00:11:38,000
+ideally you want to have your reward
+
+290
+00:11:35,440 --> 00:11:38,959
+your take profit at least double your
+
+291
+00:11:38,000 --> 00:11:41,920
+risk
+
+292
+00:11:38,959 --> 00:11:44,000
+a first profit target equals the size or
+
+293
+00:11:41,920 --> 00:11:46,399
+the range of the doji candle
+
+294
+00:11:44,000 --> 00:11:48,240
+this would give you a roughly one-to-one
+
+295
+00:11:46,399 --> 00:11:50,560
+reward risk ratio
+
+296
+00:11:48,240 --> 00:11:51,920
+not ideal but at least you can lock in
+
+297
+00:11:50,560 --> 00:11:54,320
+some profits
+
+298
+00:11:51,920 --> 00:11:56,320
+the second profit target is double the
+
+299
+00:11:54,320 --> 00:12:01,399
+size of the doji this will get you
+
+300
+00:11:56,320 --> 00:12:01,399
+closer to a two to one reward risk ratio
+
+301
+00:12:01,580 --> 00:12:07,830
+[Music]
+
+302
+00:12:10,740 --> 00:12:13,809
+[Music]
+
+303
+00:12:17,500 --> 00:12:20,669
+[Music]
+
+304
+00:12:26,340 --> 00:12:34,449
+[Music]
+
+305
+00:12:50,490 --> 00:12:53,659
+[Music]
+
+306
+00:13:03,140 --> 00:13:23,120
+[Music]
+
+307
+00:13:20,240 --> 00:13:25,279
+wake of candle volume analysis works in
+
+308
+00:13:23,120 --> 00:13:28,079
+all markets and time frames and
+
+309
+00:13:25,279 --> 00:13:30,560
+precisely reveals the true psychology
+
+310
+00:13:28,079 --> 00:13:32,480
+and the sentiment of the smart money
+
+311
+00:13:30,560 --> 00:13:34,880
+this technique will help you prevent
+
+312
+00:13:32,480 --> 00:13:36,000
+buying market tops and selling market
+
+313
+00:13:34,880 --> 00:13:38,560
+bottoms
+
+314
+00:13:36,000 --> 00:13:40,720
+i advise you however to avoid smaller
+
+315
+00:13:38,560 --> 00:13:42,480
+time frames like the one minute or the
+
+316
+00:13:40,720 --> 00:13:45,040
+five minute charts because you'll
+
+317
+00:13:42,480 --> 00:13:47,120
+witness many false signals and it will
+
+318
+00:13:45,040 --> 00:13:48,959
+be hard to see the big picture with all
+
+319
+00:13:47,120 --> 00:13:50,800
+that market noise
+
+320
+00:13:48,959 --> 00:13:53,199
+if you learned something new and want to
+
+321
+00:13:50,800 --> 00:13:55,760
+follow a video on this topic please hit
+
+322
+00:13:53,199 --> 00:13:58,399
+the like button since it really helps us
+
+323
+00:13:55,760 --> 00:14:00,560
+out and subscribe to stay up to date
+
+324
+00:13:58,399 --> 00:14:02,800
+with our latest releases
+
+325
+00:14:00,560 --> 00:14:05,600
+and check out our academy program if you
+
+326
+00:14:02,800 --> 00:14:09,160
+want to further level up your trading
+
+327
+00:14:05,600 --> 00:14:09,160
+until next time
+

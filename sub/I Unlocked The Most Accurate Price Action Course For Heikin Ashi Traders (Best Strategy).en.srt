@@ -1,0 +1,1652 @@
+1
+00:00:00,160 --> 00:00:05,640
+Price action is often overcomplicated, 
+and even confusing for many traders. 
+
+2
+00:00:05,640 --> 00:00:12,360
+Well, Heiken Ashi candles simplify everything.
+Pay attention because THIS will be your ultimate  
+
+3
+00:00:12,360 --> 00:00:20,320
+price action guide, using Heiken Ashi candles!
+ 
+So Heiken Ashi candles offer a unique way to view  
+
+4
+00:00:20,320 --> 00:00:26,200
+price action, helping you spot trends 
+and remove a lot of the market noise. 
+
+5
+00:00:26,200 --> 00:00:29,960
+They differ quite a lot from 
+traditional candlesticks. 
+
+6
+00:00:29,960 --> 00:00:36,280
+Traditional candlesticks show the open, high, 
+low, and close prices for a given time period. 
+
+7
+00:00:36,280 --> 00:00:41,560
+Heiken Ashi candles, on the other hand, 
+use a different calculation method. 
+
+8
+00:00:41,560 --> 00:00:47,120
+This method smooths out price 
+information, making trends easier to spot. 
+
+9
+00:00:47,120 --> 00:00:51,840
+The main difference lies in how 
+Heiken Ashi candles are calculated. 
+
+10
+00:00:51,840 --> 00:00:56,400
+Heiken Ashi uses averages.
+This averaging process creates a smoother  
+
+11
+00:00:56,400 --> 00:01:02,300
+price chart, filtering out some of the noise 
+that can make traditional charts harder to read.
+  
+
+12
+00:01:02,300 --> 00:01:08,160
+Heiken Ashi candles have unique colors and 
+shapes that tell you about market trends. 
+
+13
+00:01:08,160 --> 00:01:12,920
+In an uptrend, Heiken Ashi candles 
+often appear as a series of green  
+
+14
+00:01:12,920 --> 00:01:19,240
+candles with small or no lower wicks.
+In a downtrend, you'll see a series of  
+
+15
+00:01:19,240 --> 00:01:25,720
+red candles with small or no upper wicks.
+ 
+The color of a Heiken Ashi candle tells you  
+
+16
+00:01:25,720 --> 00:01:32,440
+about the overall direction of price movement.
+A green candle implies upward movement, while a  
+
+17
+00:01:32,440 --> 00:01:36,880
+red one indicates downward movement. 
+ 
+The size of the candle body  
+
+18
+00:01:36,880 --> 00:01:41,920
+shows the strength of the move.
+A large body means a strong move,  
+
+19
+00:01:41,920 --> 00:01:48,520
+while a small body implies a weaker move.
+ 
+Heiken Ashi candles also have wicks,  
+
+20
+00:01:48,520 --> 00:01:52,760
+just like traditional candlesticks.
+These wicks can give you clues  
+
+21
+00:01:52,760 --> 00:01:58,480
+about potential trend changes.
+A long lower wick on a red candle might  
+
+22
+00:01:58,480 --> 00:02:05,280
+suggest that buyers are starting to enter the 
+market, potentially signaling a trend reversal.
+  
+
+23
+00:02:05,280 --> 00:02:12,680
+In a strong uptrend, you might see a long series 
+of green candles with little to no lower wicks. 
+
+24
+00:02:12,680 --> 00:02:19,200
+This pattern is much clearer on a Heiken Ashi 
+chart than on a traditional candlestick chart.
+  
+
+25
+00:02:19,200 --> 00:02:24,160
+Heiken Ashi candles can help you stay in 
+trends longer, because they filter out  
+
+26
+00:02:24,160 --> 00:02:30,160
+some of the minor price fluctuations, that 
+might shake you out of a trade too early. 
+
+27
+00:02:30,160 --> 00:02:35,600
+When using these candles, you might notice 
+that trends appear to last longer and  
+
+28
+00:02:35,600 --> 00:02:41,280
+reversals seem less frequent compared 
+to traditional candlestick charts.
+  
+
+29
+00:02:41,280 --> 00:02:47,480
+Now, Heiken Ashi candles aren't perfect.
+Because they use averaged prices, they can  
+
+30
+00:02:47,480 --> 00:02:53,240
+sometimes lag behind real-time price movements.
+This means that while they're great for  
+
+31
+00:02:53,240 --> 00:02:57,640
+finding trends, they might not 
+be the best tool for pinpointing  
+
+32
+00:02:57,640 --> 00:03:03,960
+exact entry and exit points for trades.
+ 
+One key difference between Heiken Ashi and  
+
+33
+00:03:03,960 --> 00:03:10,800
+traditional candlesticks is how they handle gaps.
+Because Heiken Ashi uses averaged values,  
+
+34
+00:03:10,800 --> 00:03:17,720
+it doesn't show gaps between trading sessions.
+This can be both an advantage and a disadvantage,  
+
+35
+00:03:17,720 --> 00:03:21,800
+depending on your trading style.
+If you're trading a market where  
+
+36
+00:03:21,800 --> 00:03:28,920
+gaps are important, like stocks or forex, you 
+might want to use Heiken Ashi in combination  
+
+37
+00:03:28,920 --> 00:03:31,880
+with traditional candlestick charts.
+ 
+How to analyze price action
+
+38
+00:03:31,880 --> 00:03:38,520
+When reading Heiken Ashi candles, you need to 
+pay close attention to several key aspects. 
+
+39
+00:03:38,520 --> 00:03:44,520
+First, you look at the candle color.
+In Heiken Ashi charts, green candles  
+
+40
+00:03:44,520 --> 00:03:51,000
+typically represent bullish movement, while 
+red candles indicate bearish movement.
+  
+
+41
+00:03:51,000 --> 00:03:54,880
+The color of the candle tells you 
+about the overall direction of  
+
+42
+00:03:54,880 --> 00:04:00,040
+price movement during that period.
+A green candle means the closing  
+
+43
+00:04:00,040 --> 00:04:05,400
+price was higher than the opening 
+price, so this means buying pressure. 
+
+44
+00:04:05,400 --> 00:04:10,480
+A red candle shows that the closing 
+price was lower than the opening price,  
+
+45
+00:04:10,480 --> 00:04:14,800
+indicating selling pressure.
+ 
+Next, you pay attention to the  
+
+46
+00:04:14,800 --> 00:04:18,720
+size of the candle body.
+Larger bodies indicate  
+
+47
+00:04:18,720 --> 00:04:24,160
+stronger moves in the market.
+A candle with a large body shows that there was  
+
+48
+00:04:24,160 --> 00:04:31,200
+a significant price movement during that period.
+In an uptrend, a large green candle implies  
+
+49
+00:04:31,200 --> 00:04:35,200
+strong buying pressure.
+In a downtrend, a large red  
+
+50
+00:04:35,200 --> 00:04:40,840
+candle indicates strong selling pressure.
+ 
+ 
+The size of the body compared to previous  
+
+51
+00:04:40,840 --> 00:04:45,840
+candles can also give you clues about 
+the strength of the current trend. 
+
+52
+00:04:45,840 --> 00:04:50,320
+If you see a series of candles with 
+progressively larger bodies of the same  
+
+53
+00:04:50,320 --> 00:04:56,720
+color, it often indicates a strengthening 
+trend. This means increased momentum.
+  
+
+54
+00:04:56,720 --> 00:05:03,200
+You can also easily find instances of loss 
+of momentum. Like in this example, where the  
+
+55
+00:05:03,200 --> 00:05:09,600
+market was in a downtrend and the candlesticks 
+started to become smaller and more uneven. 
+
+56
+00:05:09,600 --> 00:05:16,040
+This is the first sign that the downtrend is 
+losing strength and a trend change is coming.
+ 
+  
+
+57
+00:05:16,040 --> 00:05:22,000
+The presence or absence of wicks on Heiken 
+Ashi candles is another factor to consider. 
+
+58
+00:05:22,000 --> 00:05:26,080
+Wicks can tell you a lot about the 
+price action during that period. 
+  
+
+59
+00:05:26,080 --> 00:05:32,400
+Long wicks, on the other hand, can indicate 
+potential reversals or indecision in the market. 
+
+60
+00:05:32,400 --> 00:05:38,200
+A long upper wick on a red candle or a 
+long lower wick on a green candle might  
+
+61
+00:05:38,200 --> 00:05:43,440
+show that the current trend is losing 
+steam and a reversal could be coming.
+  
+
+62
+00:05:43,440 --> 00:05:49,200
+Large wicks can indicate a high level of 
+volatility or uncertainty in the market. 
+
+63
+00:05:49,200 --> 00:05:54,600
+If the high and low prices for a particular 
+time frame are significantly different from  
+
+64
+00:05:54,600 --> 00:05:58,680
+the open and close prices, it may 
+indicate that there was a lot of  
+
+65
+00:05:58,680 --> 00:06:05,240
+buying and selling activity during that period.
+This could be a sign that the market is indecisive  
+
+66
+00:06:05,240 --> 00:06:11,080
+or that there is a lack of clear direction.
+On the other hand, if the wicks are small or  
+
+67
+00:06:11,080 --> 00:06:15,360
+absent, it may indicate that 
+the market is more stable
+  
+
+68
+00:06:15,360 --> 00:06:20,760
+Consecutive candlesticks with long wicks on 
+a Heiken Ashi chart is something you should  
+
+69
+00:06:20,760 --> 00:06:26,040
+paying attention to, because this can 
+potentially indicate a change in trend. 
+
+70
+00:06:26,040 --> 00:06:31,120
+When these wicks overlap, they create 
+a price zone that is likely to exhibit  
+
+71
+00:06:31,120 --> 00:06:35,760
+buying or selling pressure.
+ 
+Changes in the candle color  
+
+72
+00:06:35,760 --> 00:06:41,800
+are also important to watch for.
+A shift from a series of one color to another,  
+
+73
+00:06:41,800 --> 00:06:46,760
+might signal a potential trend change.
+For example, if you've been seeing a  
+
+74
+00:06:46,760 --> 00:06:53,520
+long series of green candles and suddenly a 
+big red candle appears, it could be an early  
+
+75
+00:06:53,520 --> 00:06:59,560
+warning sign of a trend reversal.
+ 
+However, with Heiken Ashi candles,  
+
+76
+00:06:59,560 --> 00:07:05,360
+trend changes often appear more gradually 
+than with traditional candlesticks. 
+
+77
+00:07:05,360 --> 00:07:12,760
+You might see a few small bodied candles of the 
+opposite color before a full reversal takes place. 
+
+78
+00:07:12,760 --> 00:07:18,360
+This can actually be an advantage, as it can 
+help you avoid getting shaken out of trades  
+
+79
+00:07:18,360 --> 00:07:22,388
+by minor price fluctuations.
+ 
+ 
+Heiken Ashi market structure
+
+80
+00:07:22,388 --> 00:07:25,920
+Heiken Ashi candles make market 
+structure easier to read. 
+
+81
+00:07:25,920 --> 00:07:31,520
+In an uptrend, these candles have no 
+lower shadows when the trend is strong. 
+
+82
+00:07:31,520 --> 00:07:35,960
+This means the low of each 
+candle is the same as its open. 
+
+83
+00:07:35,960 --> 00:07:40,240
+You see a row of green candles 
+with only upper shadows. 
+
+84
+00:07:40,240 --> 00:07:43,520
+This pattern tells you buyers are in control.
+  
+
+85
+00:07:43,520 --> 00:07:49,320
+As the uptrend goes on, each green candle's 
+high is usually higher than the last. 
+
+86
+00:07:49,320 --> 00:07:57,120
+This creates higher highs. At the same time, 
+each candle opens higher. This forms higher lows. 
+
+87
+00:07:57,120 --> 00:08:02,720
+These higher highs and higher lows 
+are the building blocks of an uptrend. 
+
+88
+00:08:02,720 --> 00:08:09,280
+When the uptrend starts to weaken, you might 
+see small lower shadows on the green candles. 
+
+89
+00:08:09,280 --> 00:08:12,880
+This is a hint that sellers 
+are starting to push back. 
+
+90
+00:08:12,880 --> 00:08:17,080
+It's not time to sell yet, but 
+it's time to pay attention.
+  
+
+91
+00:08:17,080 --> 00:08:24,400
+In a downtrend, things flip. You see red candles 
+with lower shadows, but no upper shadows. 
+
+92
+00:08:24,400 --> 00:08:32,240
+This shows a strong downtrend. Each red candle's 
+low is lower than the last, making lower lows. 
+
+93
+00:08:32,240 --> 00:08:38,880
+The highs are also dropping, forming lower highs.
+ 
+Sometimes, the market takes a break from  
+
+94
+00:08:38,880 --> 00:08:44,480
+trending. This is called consolidation.
+With Heiken Ashi candles, you'll see a  
+
+95
+00:08:44,480 --> 00:08:49,040
+mix of red and green candles.
+Often, these candles have  
+
+96
+00:08:49,040 --> 00:08:53,680
+both upper and lower shadows.
+The highs and lows stay about  
+
+97
+00:08:53,680 --> 00:08:58,040
+the same, making a range.
+ 
+Heiken Ashi candles can help  
+
+98
+00:08:58,040 --> 00:09:03,040
+you spot when a trend might change.
+If you've seen lots of green candles  
+
+99
+00:09:03,040 --> 00:09:08,360
+in an uptrend, and suddenly there's 
+a red candle with no upper shadow,  
+
+100
+00:09:08,360 --> 00:09:13,680
+the trend might be about to reverse. 
+ 
+When looking at market structure with Heiken  
+
+101
+00:09:13,680 --> 00:09:21,640
+Ashi candles, watch the size of the candles too.
+In a strong trend, the candles tend to be bigger. 
+
+102
+00:09:21,640 --> 00:09:25,840
+This shows price is moving 
+more in the trend's direction. 
+
+103
+00:09:25,840 --> 00:09:30,760
+If the candles start getting smaller, 
+the trend might be losing steam.
+  
+
+104
+00:09:30,760 --> 00:09:37,160
+Also, look at how many candles of the same 
+color appear in a row. A long string of green  
+
+105
+00:09:37,160 --> 00:09:42,080
+candles shows a strong uptrend.
+A long string of red candles  
+
+106
+00:09:42,080 --> 00:09:45,560
+shows a strong downtrend.
+When you start seeing more  
+
+107
+00:09:45,560 --> 00:09:50,720
+switches between red and green, the 
+trend might be weakening or changing.
+  
+
+108
+00:09:50,720 --> 00:09:55,600
+Heiken Ashi candles can help you find 
+support and resistance levels too. 
+
+109
+00:09:55,600 --> 00:09:59,320
+In an uptrend, old broken 
+highs tend to act as support. 
+
+110
+00:10:00,160 --> 00:10:05,240
+In a downtrend, old broken 
+lows often act as resistance. 
+
+111
+00:10:05,240 --> 00:10:11,920
+These levels are key parts of market structure.
+ 
+ 
+The sequence of price swings is also important. 
+
+112
+00:10:11,920 --> 00:10:16,760
+A swing high happens when price 
+reaches a peak and starts to fall. 
+
+113
+00:10:16,760 --> 00:10:21,840
+A swing low is when price hits 
+a low point and starts to rise. 
+
+114
+00:10:21,840 --> 00:10:26,360
+These swings show where buyers and 
+sellers are fighting for control.
+  
+
+115
+00:10:26,360 --> 00:10:31,600
+In an uptrend, you'll see swing lows 
+getting higher over time. Each new  
+
+116
+00:10:31,600 --> 00:10:36,160
+low is higher than the last.
+Buyers are getting stronger. 
+
+117
+00:10:36,160 --> 00:10:42,960
+At the same time, swing highs are also rising. 
+Each new high is higher than the one before.
+  
+
+118
+00:10:42,960 --> 00:10:48,520
+In a downtrend, it's the opposite. 
+Swing highs get lower over time. 
+
+119
+00:10:48,520 --> 00:10:53,320
+Each new high is lower than the 
+last. Sellers are in control. 
+
+120
+00:10:53,320 --> 00:10:59,680
+Swing lows also keep getting lower.
+ 
+Sometimes, swing highs or lows  
+
+121
+00:10:59,680 --> 00:11:05,440
+bunch up at the same level. We call 
+these equal highs or equal lows. They're  
+
+122
+00:11:05,440 --> 00:11:11,080
+important because they show areas where 
+price had trouble moving past before.
+  
+
+123
+00:11:11,080 --> 00:11:16,640
+Watching how these swings form and change 
+can tell you a lot about market strength. 
+
+124
+00:11:16,640 --> 00:11:21,520
+If swings are getting bigger, it 
+might mean the trend is gaining power. 
+
+125
+00:11:21,520 --> 00:11:25,880
+If they're getting smaller, the 
+trend might be losing steam.
+  
+
+126
+00:11:25,880 --> 00:11:31,520
+Speed matters too. Quick, sharp swings 
+often mean more power behind the move. 
+
+127
+00:11:31,520 --> 00:11:36,248
+Slow, gradual swings might 
+mean the trend is weaker.
+ 
+  
+
+128
+00:11:36,248 --> 00:11:38,480
+HA Support and resistance
+Heiken Ashi candles can help  
+
+129
+00:11:38,480 --> 00:11:44,480
+spot major support and resistance levels 
+through color changes and wick patterns. 
+
+130
+00:11:44,480 --> 00:11:50,640
+When candles change their color and form wicks, 
+it often happens at support or resistance.
+  
+
+131
+00:11:50,640 --> 00:11:55,640
+With Heiken Ashi, you might see 
+red candles turn green at support. 
+
+132
+00:11:55,640 --> 00:12:01,320
+This shows buyers stepping in.
+So, price is falling with red candles. Then,  
+
+133
+00:12:01,320 --> 00:12:08,000
+at a past price level, the candles turn green. 
+ 
+You might also see green candles turn red at  
+
+134
+00:12:08,000 --> 00:12:15,360
+resistance. This shows sellers taking control.
+For instance, price is rising with green candles.  
+
+135
+00:12:15,360 --> 00:12:19,000
+Then, at a past resistance, 
+the candles turn red. 
+  
+
+136
+00:12:19,000 --> 00:12:24,720
+A long lower wick, on a green candle, 
+at support, shows strong buying. 
+
+137
+00:12:24,720 --> 00:12:31,080
+A long upper wick, on a red candle, 
+at resistance, shows strong selling.
+  
+
+138
+00:12:31,080 --> 00:12:36,920
+For example, price approaches this support level.
+You see a red Heiken Ashi candle  
+
+139
+00:12:36,920 --> 00:12:40,480
+with a long lower wick.
+The next candle is green.  
+
+140
+00:12:40,480 --> 00:12:47,560
+This pattern implies support was held. The 
+long wick shows buyers stepped in at the low.
+  
+
+141
+00:12:47,560 --> 00:12:55,200
+At resistance, you might see a green candle with 
+a long upper wick, followed by a red candle. This  
+
+142
+00:12:55,200 --> 00:13:01,680
+pattern implies resistance held. The long 
+wick shows sellers came in at the high.
+  
+
+143
+00:13:01,680 --> 00:13:06,960
+Sometimes, you'll see a "spinning top" 
+Heiken Ashi candle at a major level. 
+
+144
+00:13:06,960 --> 00:13:11,800
+This is a candle with a small 
+body and long wicks on both sides. 
+
+145
+00:13:11,800 --> 00:13:15,720
+It shows indecision.
+If this appears at a key level,  
+
+146
+00:13:15,720 --> 00:13:20,960
+it could signal a turning point.
+ 
+The size of candles matters too.  
+
+147
+00:13:20,960 --> 00:13:25,600
+Big candles show strong moves.
+If you see big green candles with  
+
+148
+00:13:25,600 --> 00:13:30,800
+small wicks breaking above resistance, 
+it implies a strong breakout. 
+
+149
+00:13:30,800 --> 00:13:35,160
+The same goes for big red 
+candles breaking below support.
+  
+
+150
+00:13:35,160 --> 00:13:39,960
+Heiken Ashi candles can also help you 
+spot false breakouts. You might see a  
+
+151
+00:13:39,960 --> 00:13:46,560
+candle break past support or resistance, but 
+with a long wick pointing back into the range. 
+
+152
+00:13:46,560 --> 00:13:52,920
+This could be a fake out. In this case, you 
+wait for more candles to confirm the break.
+  
+
+153
+00:13:52,920 --> 00:13:58,680
+Now, support and resistance aren't 
+exact prices. They're more like zones. 
+
+154
+00:13:58,680 --> 00:14:04,320
+You might see Heiken Ashi candles change 
+color near a level, not exactly at it. 
+
+155
+00:14:04,320 --> 00:14:11,200
+The wicks might not touch the exact level, while 
+the bodies stay a bit away. This is normal.
+  
+
+156
+00:14:11,200 --> 00:14:16,880
+Also, strong support or resistance 
+often gets tested more than once. 
+
+157
+00:14:16,880 --> 00:14:22,280
+You might see Heiken Ashi candles change 
+color at the same price several times. 
+
+158
+00:14:22,280 --> 00:14:27,040
+You might also see long wicks 
+repeatedly touch the same level. 
+
+159
+00:14:27,040 --> 00:14:33,040
+This repeated pattern can make a level 
+weaker, with each test of the level.
+  
+
+160
+00:14:33,040 --> 00:14:38,880
+Sometimes, support and resistance switch roles.
+Old support can become new resistance,  
+
+161
+00:14:38,880 --> 00:14:43,800
+and vice versa.
+Again, watch for Heiken Ashi color changes  
+
+162
+00:14:43,800 --> 00:14:49,160
+and wick patterns at these flipped levels.
+They can signal if the level is holding  
+
+163
+00:14:49,160 --> 00:14:52,440
+in its new role.
+ 
+Time frames matter  
+
+164
+00:14:52,440 --> 00:14:58,560
+when using these candles to spot key levels.
+Higher time frames often show more important  
+
+165
+00:14:58,560 --> 00:15:06,131
+levels. A color change with a long wick on 
+a higher chart might be more significant.
+ 
+  
+
+166
+00:15:06,131 --> 00:15:08,280
+Heiken Ashi supply and demand
+Supply and demand trading becomes a  
+
+167
+00:15:08,280 --> 00:15:13,720
+lot easier using Heiken Ashi candles.
+These candles will help you spot  
+
+168
+00:15:13,720 --> 00:15:20,240
+key areas where buyers and sellers clash.
+The supply and demand zones are like the spots  
+
+169
+00:15:20,240 --> 00:15:26,520
+where one team suddenly gains the upper hand.
+For long trades, you're looking for places  
+
+170
+00:15:26,520 --> 00:15:32,000
+where buyers (meaning demand) overpower 
+sellers, (supply). For short trades,  
+
+171
+00:15:32,000 --> 00:15:37,120
+it's the opposite – you're looking 
+for areas where sellers take control.
+  
+
+172
+00:15:37,120 --> 00:15:42,920
+You're searching for big, bold Heiken 
+Ashi candles, that really stand out. 
+
+173
+00:15:42,920 --> 00:15:49,160
+These big candles are like flashing neon signs, 
+telling you something important happened there. 
+
+174
+00:15:49,160 --> 00:15:52,160
+But you don't just want 
+the big candles themselves. 
+
+175
+00:15:52,160 --> 00:15:59,040
+You want to find where they started – their origin 
+point. This is where the real action begins. 
+
+176
+00:15:59,040 --> 00:16:03,200
+Once you spot this origin, 
+you'll mark a zone around it. 
+
+177
+00:16:03,200 --> 00:16:09,440
+This is your supply or demand zone, depending 
+on whether price moved up or down from there.
+  
+
+178
+00:16:09,440 --> 00:16:16,360
+Now, Heiken Ashi candles are a bit tricky because 
+they start from the middle of the previous candle. 
+
+179
+00:16:16,360 --> 00:16:22,560
+So, you need a special way to mark these zones.
+For a supply zone (where sellers might take  
+
+180
+00:16:22,560 --> 00:16:28,920
+control), look for the last green (bullish) 
+Heiken Ashi candle, before a big drop in price. 
+
+181
+00:16:30,000 --> 00:16:35,440
+Then, draw a box from there, up to the 
+highest point just before the drop. 
+
+182
+00:16:35,440 --> 00:16:41,200
+For a demand zone (where buyers might 
+step in), find the last red (bearish)  
+
+183
+00:16:41,200 --> 00:16:46,800
+candle before a big move up. Draw your 
+box from there, down to the lowest  
+
+184
+00:16:46,800 --> 00:16:53,160
+point just before the price jumped up.
+ 
+These zones come in different flavors: 
+
+185
+00:16:53,160 --> 00:16:58,840
+First, we have fresh zones: they haven't been 
+touched yet. Price hasn't come back to test them. 
+
+186
+00:16:59,680 --> 00:17:04,320
+Then we have non-fresh zones. 
+Price has visited them once. 
+
+187
+00:17:04,320 --> 00:17:09,640
+And finally, we have used-up zones. 
+Price has bounced off them several  
+
+188
+00:17:09,640 --> 00:17:16,480
+times. They're not great for big trades, 
+but might work for quick in-and-out moves.
+  
+
+189
+00:17:16,480 --> 00:17:20,960
+When you're marking these zones, use 
+a simple approach. Don't clutter your  
+
+190
+00:17:20,960 --> 00:17:27,160
+chart with too many zones. Keep it clean 
+and focus on the most important areas. 
+
+191
+00:17:27,160 --> 00:17:32,840
+Try to have no more than 3 to 5 
+zones on your chart at a time. 
+  
+
+192
+00:17:32,840 --> 00:17:37,440
+Here's what makes a Heiken 
+Ashi zone worth your attention: 
+
+193
+00:17:37,440 --> 00:17:44,240
+First, the fresher the zone, the better. Traders 
+are more likely to still have orders waiting  
+
+194
+00:17:44,240 --> 00:17:50,320
+in a zone that hasn't been tested yet.
+Also, strength matters. Look for zones  
+
+195
+00:17:50,320 --> 00:17:58,320
+where price left in a hurry. These strong moves 
+show a big imbalance between buyers and sellers. 
+
+196
+00:17:58,320 --> 00:18:02,480
+Then focus on zones near the 
+current price. Don't try to  
+
+197
+00:18:02,480 --> 00:18:09,800
+plot every zone since the beginning of time.
+And finally, look for dense zones. Zones where  
+
+198
+00:18:09,800 --> 00:18:16,720
+price hung around for a while, before making a 
+big move, are often powerful. It's like pressure  
+
+199
+00:18:16,720 --> 00:18:21,800
+building up before an explosion.
+ 
+ 
+Now, let's talk about how to spot  
+
+200
+00:18:21,800 --> 00:18:29,040
+the best Heiken ashi supply and demand zones.
+First, check out how price left the zone. Did it  
+
+201
+00:18:29,040 --> 00:18:34,720
+shoot out fast, or did it slowly drift away?
+The faster and stronger the move,  
+
+202
+00:18:34,720 --> 00:18:39,880
+the more likely it is that some big 
+players placed heavy orders there.
+  
+
+203
+00:18:39,880 --> 00:18:45,840
+Next, look at how long price hung around 
+in the zone. The less time it spent there,  
+
+204
+00:18:45,840 --> 00:18:50,560
+the more explosive the imbalance 
+between buyers and sellers. 
+
+205
+00:18:50,560 --> 00:18:57,480
+Also, pay attention to how far price traveled 
+after leaving the zone. The further it went before  
+
+206
+00:18:57,480 --> 00:19:04,560
+coming back, the juicier the potential trade.
+And again, don't forget about freshness. The  
+
+207
+00:19:04,560 --> 00:19:10,000
+first time price comes back to a zone 
+is usually the strongest opportunity. 
+
+208
+00:19:10,000 --> 00:19:15,800
+Each visit after that weakens the zone a bit.
+ 
+So, how do you actually trade these  
+
+209
+00:19:15,800 --> 00:19:21,480
+zones? It's pretty straightforward:
+For buying, wait for price to touch a  
+
+210
+00:19:21,480 --> 00:19:28,200
+demand zone, and bounce up with a green Heiken 
+Ashi candle. Ideally, this candle won't have  
+
+211
+00:19:28,200 --> 00:19:35,760
+a lower wick, showing strong buying pressure.
+ 
+For selling, look for price to hit a supply zone,  
+
+212
+00:19:35,760 --> 00:19:42,120
+and bounce down with a red Heiken Ashi candle.
+A candle with no upper wick is better,  
+
+213
+00:19:42,120 --> 00:19:46,800
+indicating strong selling pressure.
+ 
+Place your stop loss just below the  
+
+214
+00:19:46,800 --> 00:19:53,000
+demand zone for buy trades, or just 
+above the supply zone for sell trades. 
+
+215
+00:19:53,000 --> 00:19:58,640
+As for when to close your trade, hold it 
+until price reaches the opposite type of zone. 
+
+216
+00:19:59,320 --> 00:20:05,920
+So if you bought at a demand zone, you'd aim to 
+sell when price hits the next supply zone up. 
+
+217
+00:20:05,920 --> 00:20:11,200
+Another option is to close part of your 
+trade when you see the candles change color,  
+
+218
+00:20:11,200 --> 00:20:14,920
+signaling a potential shift in momentum.
+ 
+Heiken Ashi backtest 
+
+219
+00:20:14,920 --> 00:20:19,080
+Many traders ignore Heiken Ashi 
+charts because they are unable  
+
+220
+00:20:19,080 --> 00:20:24,880
+to backtest these candles in Tradingview.
+I have a solution for this. This is how I  
+
+221
+00:20:24,880 --> 00:20:30,560
+backtest price action using Heiken Ashi.
+First, open up TradingView and  
+
+222
+00:20:30,560 --> 00:20:36,160
+look for the chart type selector.
+It's usually set to candlesticks by default. 
+
+223
+00:20:36,160 --> 00:20:41,840
+Click on it and change it to "Line".
+This will turn your chart into a simple line. 
+
+224
+00:20:41,840 --> 00:20:45,480
+Then, you need that line to 
+blend in with your background. 
+
+225
+00:20:45,480 --> 00:20:49,800
+So you need to set the line color 
+the same with your background. 
+
+226
+00:20:49,800 --> 00:20:54,000
+Next, you need to add the 
+Smoothed Heiken Ashi indicator. 
+
+227
+00:20:54,000 --> 00:20:58,600
+You look for the "Indicators" 
+button, and you add it to your chart. 
+
+228
+00:20:58,600 --> 00:21:03,280
+Once the indicator is on your chart, 
+you'll need to adjust its settings. 
+
+229
+00:21:03,280 --> 00:21:08,040
+Find the two length parameters 
+and set both of these to 1. 
+
+230
+00:21:08,040 --> 00:21:13,960
+This will give you the most basic, 
+unsmoothed version of Heiken Ashi candles. 
+
+231
+00:21:13,960 --> 00:21:17,640
+And there you have it! Now, 
+you can step back and backtest. 
+
+232
+00:21:17,640 --> 00:21:24,368
+You should see Heiken Ashi candles overlaid 
+on your nearly invisible price line. 
+  
+
+233
+00:21:24,368 --> 00:21:27,760
+Volume analysis with Heiken Ashi
+Volume leads price. Often, you'll see volume  
+
+234
+00:21:27,760 --> 00:21:31,720
+increase before a big price move.
+With Heiken Ashi,  
+
+235
+00:21:31,720 --> 00:21:38,560
+these moves are easier to spot and trade.
+Think of volume as the fuel that drives price. 
+
+236
+00:21:38,560 --> 00:21:45,480
+More volume means more traders are active. 
+ 
+So this is how to use Heiken Ashi with volume. 
+
+237
+00:21:45,480 --> 00:21:51,200
+First, look for trends. Heiken Ashi 
+candles of the same color show a trend. 
+
+238
+00:21:51,200 --> 00:21:55,640
+If you see many green candles in 
+a row, it's likely an uptrend. 
+
+239
+00:21:55,640 --> 00:22:01,640
+Now, check the volume. Is it rising as 
+the trend continues? That's a good sign. 
+
+240
+00:22:01,640 --> 00:22:08,640
+It means more traders are joining the move.
+ 
+Then watch for reversals. Heiken Ashi candles  
+
+241
+00:22:08,640 --> 00:22:13,000
+change color at turning points.
+If you see a red candle after  
+
+242
+00:22:13,000 --> 00:22:19,200
+many green ones, it might be a reversal.
+But don't jump in yet. Check the volume.  
+
+243
+00:22:19,200 --> 00:22:25,080
+A spike in volume on that red candle 
+adds weight to the reversal signal.
+  
+
+244
+00:22:25,080 --> 00:22:32,080
+Also, use volume to confirm breakouts. Heiken 
+Ashi candles might show a price breaking above  
+
+245
+00:22:32,080 --> 00:22:36,320
+resistance or below support.
+A surge in volume at the  
+
+246
+00:22:36,320 --> 00:22:43,680
+breakout point makes it more valid.
+ 
+Look for quiet periods. Sometimes, Heiken Ashi  
+
+247
+00:22:43,680 --> 00:22:50,440
+candles get small. Volume often drops too.
+This can mean a big move is coming. 
+  
+
+248
+00:22:50,440 --> 00:22:58,120
+You can also spot accumulation and distribution.
+In accumulation, smart money buys quietly. You  
+
+249
+00:22:58,120 --> 00:23:04,960
+might see Heiken Ashi candles staying in a 
+range. Volume might be low or steady. This  
+
+250
+00:23:04,960 --> 00:23:11,760
+could mean big players are slowly buying.
+ 
+Distribution is the opposite. Smart money  
+
+251
+00:23:11,760 --> 00:23:17,400
+sells to the crowd. You might see 
+Heiken Ashi candles making new highs,  
+
+252
+00:23:17,400 --> 00:23:24,440
+but volume isn't growing. This could mean 
+big players are selling to eager buyers.
+  
+
+253
+00:23:24,440 --> 00:23:29,960
+Very important: don't just look at one 
+candle. Watch how they form over time.  
+
+254
+00:23:29,960 --> 00:23:36,920
+A single high-volume candle might not mean 
+much. But a series of them is more powerful.
+  
+
+255
+00:23:36,920 --> 00:23:44,280
+Also, pay attention to where volume spikes 
+happen. Are they at support or resistance levels? 
+
+256
+00:23:44,280 --> 00:23:51,200
+This can be very telling. High volume at 
+these points often signals important moves.
+  
+
+257
+00:23:51,200 --> 00:23:55,560
+Here's another way to use this 
+method: Look for divergences. 
+
+258
+00:23:55,560 --> 00:24:01,920
+That's when price and volume don't match up. 
+For example, candles might make new highs,  
+
+259
+00:24:01,920 --> 00:24:07,960
+but volume is dropping. This can warn 
+you that the move might not last.
+  
+
+260
+00:24:07,960 --> 00:24:14,720
+These candles are great for showing momentum. 
+When they're all one color, the trend is strong. 
+
+261
+00:24:14,720 --> 00:24:19,560
+But watch out for candles with long 
+wicks. These can signal a possible  
+
+262
+00:24:19,560 --> 00:24:26,080
+reversal, especially if volume is high.
+ 
+You can also use moving averages with these  
+
+263
+00:24:26,080 --> 00:24:33,480
+candles. When price crosses a moving average 
+with high volume, it's often a strong signal. 
+  
+
+264
+00:24:33,480 --> 00:24:39,160
+And don't forget about supply and demand 
+areas. When price approaches a key area,  
+
+265
+00:24:39,160 --> 00:24:45,440
+watch the volume. A rejection with 
+high volume is a strong signal.
+ 
+  
+
+266
+00:24:45,440 --> 00:24:47,093
+Moving averages and Heiken Ashi
+
+267
+00:24:47,093 --> 00:24:49,960
+Moving averages and Heiken Ashi 
+candles work well together. 
+
+268
+00:24:49,960 --> 00:24:56,720
+First, you see the trend from moving averages.
+Then, you evaluate the momentum from Heiken Ashi. 
+
+269
+00:24:56,720 --> 00:25:00,160
+And together, they help you will 
+help you make better trades.
+ 
+
+270
+00:25:00,160 --> 00:25:04,880
+Here's how it works:
+First, let’s talk about Trend Direction. 
+
+271
+00:25:04,880 --> 00:25:10,240
+Moving averages show you if the 
+market is going up, down, or sideways. 
+
+272
+00:25:10,240 --> 00:25:14,520
+When price stays above a moving 
+average, it's likely an uptrend. 
+
+273
+00:25:14,520 --> 00:25:20,960
+If it's below, it's probably a downtrend. 
+ 
+ 
+Heiken Ashi candles make trends even clearer.  
+
+274
+00:25:20,960 --> 00:25:25,280
+In an uptrend, they'll have 
+little or no lower shadows. 
+
+275
+00:25:25,280 --> 00:25:29,960
+In a downtrend, they'll have 
+little or no upper shadows.
+  
+
+276
+00:25:29,960 --> 00:25:34,080
+Then we have trend strength.
+The space between price and the moving  
+
+277
+00:25:34,080 --> 00:25:40,760
+average tells you how strong the trend is.
+A big gap means a strong trend. Heiken  
+
+278
+00:25:40,760 --> 00:25:44,720
+Ashi candles help here too.
+Long bodies show a strong  
+
+279
+00:25:44,720 --> 00:25:51,680
+trend. Short bodies or dojis, (when open and 
+close are very close), show a weak trend.
+  
+
+280
+00:25:51,680 --> 00:25:58,320
+Moving averages can signal when a trend might 
+be changing. If price crosses a moving average,  
+
+281
+00:25:58,320 --> 00:26:04,080
+it could mean the trend is shifting.
+Heiken Ashi candles give extra clues.  
+
+282
+00:26:04,080 --> 00:26:09,320
+If you see a candle with both upper 
+and lower shadows after a strong trend,  
+
+283
+00:26:09,320 --> 00:26:14,760
+it might mean the trend is weakening.
+ 
+Moving averages often act as support in  
+
+284
+00:26:14,760 --> 00:26:21,000
+uptrends and resistance in downtrends. 
+Price might bounce off these levels. 
+
+285
+00:26:21,000 --> 00:26:28,400
+Heiken Ashi candles can show you how price reacts 
+at these levels. A long-bodied candle bouncing  
+
+286
+00:26:28,400 --> 00:26:34,960
+off a moving average is a strong signal.
+ 
+When price gets too far from a moving average,  
+
+287
+00:26:34,960 --> 00:26:40,560
+the market might be overbought or oversold.
+It could snap back soon. 
+
+288
+00:26:40,560 --> 00:26:46,400
+Heiken Ashi candles can confirm this. 
+If you see dojis or candles with shadows  
+
+289
+00:26:46,400 --> 00:26:52,040
+on both sides far from the moving 
+average, a reversal might be coming.
+
+290
+00:26:52,040 --> 00:26:57,880
+The angle of the moving average tells you how 
+fast the trend is moving. A steep angle means  
+
+291
+00:26:57,880 --> 00:27:05,480
+a fast trend. A flat angle means a slow trend.
+Heiken Ashi candles add to this. Long candles  
+
+292
+00:27:05,480 --> 00:27:12,080
+in the trend direction show a fast trend.
+Short candles or dojis show a slow trend.
+  
+
+293
+00:27:12,080 --> 00:27:19,240
+When price hugs a flat moving average, the market 
+is probably ranging. It's not trending up or down. 
+
+294
+00:27:19,240 --> 00:27:24,800
+Heiken Ashi candles in a ranging market 
+will have shadows on both sides. They'll  
+
+295
+00:27:24,800 --> 00:27:30,320
+be smaller than in trending markets.
+ 
+Sometimes, price might briefly cross a  
+
+296
+00:27:30,320 --> 00:27:35,480
+moving average but not start a new 
+trend. This is called a whipsaw. 
+
+297
+00:27:35,480 --> 00:27:41,280
+Heiken Ashi candles can help avoid these 
+false signals. If the candles don't show  
+
+298
+00:27:41,280 --> 00:27:47,680
+a clear trend change, after crossing the 
+moving average, it might be a false signal.
+  
+
+299
+00:27:47,680 --> 00:27:52,680
+In strong trends, price often pulls 
+back to the moving average before  
+
+300
+00:27:52,680 --> 00:27:59,320
+continuing. This can be a good entry point.
+Heiken Ashi candles during pullbacks often  
+
+301
+00:27:59,320 --> 00:28:03,840
+have shadows against the main trend.
+When they start showing strong trend  
+
+302
+00:28:03,840 --> 00:28:09,640
+candles again, it might be time to enter.
+ 
+The distance between fast and slow moving  
+
+303
+00:28:09,640 --> 00:28:15,920
+averages can show market volatility. 
+A big gap means high volatility. 
+
+304
+00:28:15,920 --> 00:28:22,400
+Heiken Ashi candles show volatility too.
+Big candles with long shadows mean high  
+
+305
+00:28:22,400 --> 00:28:24,880
+volatility.
+Small candles  
+
+306
+00:28:24,880 --> 00:28:31,520
+with short shadows mean low volatility.
+ 
+When price gets too far from a long-term  
+
+307
+00:28:31,520 --> 00:28:36,800
+moving average, the trend might be 
+near its end. It's stretched too far. 
+
+308
+00:28:36,800 --> 00:28:44,160
+Heiken Ashi candles can show exhaustion too. If 
+you see smaller bodies or dojis after a long trend  
+
+309
+00:28:44,160 --> 00:28:50,080
+of big candles, the trend might be tiring.
+ 
+The strongest signals come when  
+
+310
+00:28:50,080 --> 00:28:54,280
+multiple factors line up.
+Maybe price is at a key moving  
+
+311
+00:28:54,280 --> 00:29:02,000
+average, and Heiken Ashi candles are showing a 
+strong trend resume. That's a stronger signal. 
+
+312
+00:29:02,000 --> 00:29:15,160
+Now, if you’re ready for more interesting trading 
+guides, go ahead and watch one of these videos.
+

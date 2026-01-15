@@ -1,0 +1,812 @@
+1
+00:00:00,199 --> 00:00:06,690
+have you ever wondered why 90% of
+
+2
+00:00:03,600 --> 00:00:09,990
+traders lose money while trading did you
+
+3
+00:00:06,690 --> 00:00:12,090
+know that almost 80% of traders quit in
+
+4
+00:00:09,990 --> 00:00:15,480
+the first two years of unsuccessful
+
+5
+00:00:12,090 --> 00:00:18,779
+trading the harsh reality is that
+
+6
+00:00:15,480 --> 00:00:21,750
+trading is not easy and you as a trader
+
+7
+00:00:18,779 --> 00:00:23,970
+must know exactly what you're doing if
+
+8
+00:00:21,750 --> 00:00:26,939
+you want to stick around in the game for
+
+9
+00:00:23,970 --> 00:00:29,310
+the long term hay traders this is marios
+
+10
+00:00:26,939 --> 00:00:32,309
+I traded the forex market for the past
+
+11
+00:00:29,310 --> 00:00:34,620
+ten years and if you stick with me a
+
+12
+00:00:32,309 --> 00:00:36,710
+couple of minutes I will share with you
+
+13
+00:00:34,620 --> 00:00:39,420
+my most important lessons I've learned
+
+14
+00:00:36,710 --> 00:00:40,640
+so that you don't make the same mistakes
+
+15
+00:00:39,420 --> 00:00:43,079
+I did
+
+16
+00:00:40,640 --> 00:00:46,320
+the first lesson I've learned is that
+
+17
+00:00:43,079 --> 00:00:49,289
+overbought and oversold levels are not
+
+18
+00:00:46,320 --> 00:00:51,539
+reliable in the long term when I started
+
+19
+00:00:49,289 --> 00:00:54,149
+trading I took the advice I read on
+
+20
+00:00:51,539 --> 00:00:57,629
+different books about the overbought and
+
+21
+00:00:54,149 --> 00:01:01,230
+oversold levels and you know what the
+
+22
+00:00:57,629 --> 00:01:03,390
+majority of books teach us that if a
+
+23
+00:01:01,230 --> 00:01:05,280
+market reaches overbought levels meaning
+
+24
+00:01:03,390 --> 00:01:07,530
+that there are too many buyers on the
+
+25
+00:01:05,280 --> 00:01:10,170
+market then the prices should go lower
+
+26
+00:01:07,530 --> 00:01:11,820
+and different market which is oversold
+
+27
+00:01:10,170 --> 00:01:14,430
+levels meaning that there are too many
+
+28
+00:01:11,820 --> 00:01:17,790
+sellers on the market the prices should
+
+29
+00:01:14,430 --> 00:01:20,340
+increase after a lot of money lost I
+
+30
+00:01:17,790 --> 00:01:22,290
+realized that the trading reality is
+
+31
+00:01:20,340 --> 00:01:25,290
+that simply because the market which is
+
+32
+00:01:22,290 --> 00:01:27,000
+overbought or oversold levels does not
+
+33
+00:01:25,290 --> 00:01:29,310
+mean that the market prices will
+
+34
+00:01:27,000 --> 00:01:31,950
+immediately reverse in the opposite
+
+35
+00:01:29,310 --> 00:01:34,920
+direction during periods of strong
+
+36
+00:01:31,950 --> 00:01:36,930
+upward trends or downward trends the
+
+37
+00:01:34,920 --> 00:01:39,630
+markets can remain in the overbought or
+
+38
+00:01:36,930 --> 00:01:43,320
+oversold areas for days weeks or even
+
+39
+00:01:39,630 --> 00:01:45,899
+months let's look at this chart many
+
+40
+00:01:43,320 --> 00:01:48,869
+traders believe that when the RSI or the
+
+41
+00:01:45,899 --> 00:01:51,990
+stochastic indicator hits or exceeds
+
+42
+00:01:48,869 --> 00:01:54,420
+values of seventy or thirty they should
+
+43
+00:01:51,990 --> 00:01:56,100
+enter in the opposite direction that's a
+
+44
+00:01:54,420 --> 00:01:58,770
+wrong approach to what concerns these
+
+45
+00:01:56,100 --> 00:02:00,299
+indicators sometimes the prices can stay
+
+46
+00:01:58,770 --> 00:02:03,630
+a long time in the overbought and
+
+47
+00:02:00,299 --> 00:02:06,960
+oversold areas and during this time they
+
+48
+00:02:03,630 --> 00:02:08,550
+can continue to go higher or lower for
+
+49
+00:02:06,960 --> 00:02:12,780
+every valid overbought or oversold
+
+50
+00:02:08,550 --> 00:02:13,560
+signal offered by these indicators there
+
+51
+00:02:12,780 --> 00:02:16,080
+are other
+
+52
+00:02:13,560 --> 00:02:18,810
+ten false signals in the long run
+
+53
+00:02:16,080 --> 00:02:21,300
+chasing overbought and oversold levels
+
+54
+00:02:18,810 --> 00:02:23,610
+is not profitable I have stopped
+
+55
+00:02:21,300 --> 00:02:27,360
+watching these levels a long time ago
+
+56
+00:02:23,610 --> 00:02:30,030
+and never looked back another lesson is
+
+57
+00:02:27,360 --> 00:02:33,090
+that the 200 DMA was the only moving
+
+58
+00:02:30,030 --> 00:02:35,430
+average I needed on my charts let me ask
+
+59
+00:02:33,090 --> 00:02:37,920
+you if this sounds familiar you plot
+
+60
+00:02:35,430 --> 00:02:40,140
+five or six indicators on the chart and
+
+61
+00:02:37,920 --> 00:02:43,200
+after a bad week you remove those
+
+62
+00:02:40,140 --> 00:02:46,280
+indicators and add others and the next
+
+63
+00:02:43,200 --> 00:02:49,370
+week you repeat this process once again
+
+64
+00:02:46,280 --> 00:02:53,030
+this was my style when I started trading
+
+65
+00:02:49,370 --> 00:02:56,430
+my charts consisted of many indicators
+
+66
+00:02:53,030 --> 00:02:59,310
+once I removed from my charts all the
+
+67
+00:02:56,430 --> 00:03:02,670
+other indicators and moving averages and
+
+68
+00:02:59,310 --> 00:03:06,840
+focused only on the 200 EMA my trading
+
+69
+00:03:02,670 --> 00:03:08,819
+improved a lot the 200 EMA turned out to
+
+70
+00:03:06,840 --> 00:03:10,790
+be very effective during training
+
+71
+00:03:08,819 --> 00:03:13,800
+periods and an important tool for
+
+72
+00:03:10,790 --> 00:03:16,620
+identifying trends for establishing
+
+73
+00:03:13,800 --> 00:03:19,500
+potential areas of dynamic support or
+
+74
+00:03:16,620 --> 00:03:22,920
+resistance and even accurate entry
+
+75
+00:03:19,500 --> 00:03:24,920
+points on the market why is the 200 EMA
+
+76
+00:03:22,920 --> 00:03:27,150
+so reliable in the technical analysis
+
+77
+00:03:24,920 --> 00:03:30,000
+well it is believed that many
+
+78
+00:03:27,150 --> 00:03:32,670
+institution like banks hedge funds Forex
+
+79
+00:03:30,000 --> 00:03:35,280
+dealers are following this indicator if
+
+80
+00:03:32,670 --> 00:03:37,709
+we take a look at this EMA on any
+
+81
+00:03:35,280 --> 00:03:40,560
+currency pair commodity or even
+
+82
+00:03:37,709 --> 00:03:44,190
+cryptocurrencies we can immediately see
+
+83
+00:03:40,560 --> 00:03:46,620
+its value another lesson was that demo
+
+84
+00:03:44,190 --> 00:03:48,420
+trading won't accurately predict how you
+
+85
+00:03:46,620 --> 00:03:50,910
+will perform when trading with real
+
+86
+00:03:48,420 --> 00:03:53,400
+money the reason is simple and obvious
+
+87
+00:03:50,910 --> 00:03:55,049
+if there is no money on the line you
+
+88
+00:03:53,400 --> 00:03:56,760
+eliminate one of the most important
+
+89
+00:03:55,049 --> 00:03:59,400
+variables that affect your trading
+
+90
+00:03:56,760 --> 00:04:02,760
+decisions the psychological pressure of
+
+91
+00:03:59,400 --> 00:04:04,590
+risking real money even if you perform
+
+92
+00:04:02,760 --> 00:04:06,900
+extremely well when trading a demo
+
+93
+00:04:04,590 --> 00:04:08,820
+account your results when you start to
+
+94
+00:04:06,900 --> 00:04:12,390
+trade on a live account might differ
+
+95
+00:04:08,820 --> 00:04:13,980
+considerably so you should demo your
+
+96
+00:04:12,390 --> 00:04:16,979
+strategy until you feel comfortable
+
+97
+00:04:13,980 --> 00:04:19,500
+taking your signals what I personally
+
+98
+00:04:16,979 --> 00:04:22,080
+would not get focused on demo accounts
+
+99
+00:04:19,500 --> 00:04:24,060
+for too long once you tested your
+
+100
+00:04:22,080 --> 00:04:25,639
+strategy and managed to have a positive
+
+101
+00:04:24,060 --> 00:04:28,310
+returns on
+
+102
+00:04:25,639 --> 00:04:30,979
+demo open a micro account and trade
+
+103
+00:04:28,310 --> 00:04:32,870
+there for a couple of months start small
+
+104
+00:04:30,979 --> 00:04:35,659
+with few money and trade with sense
+
+105
+00:04:32,870 --> 00:04:38,180
+instead of dollars even if you trade
+
+106
+00:04:35,659 --> 00:04:41,110
+with sense you will feel the market much
+
+107
+00:04:38,180 --> 00:04:44,539
+better than trading on a demo account
+
+108
+00:04:41,110 --> 00:04:47,719
+another critical lesson was that losing
+
+109
+00:04:44,539 --> 00:04:50,150
+money is in fact a good thing as I said
+
+110
+00:04:47,719 --> 00:04:52,659
+before trading is not easy and you
+
+111
+00:04:50,150 --> 00:04:55,819
+should treat it as a learning experience
+
+112
+00:04:52,659 --> 00:04:58,340
+losing money is very important for every
+
+113
+00:04:55,819 --> 00:05:00,710
+traders development it will teach you
+
+114
+00:04:58,340 --> 00:05:02,930
+many things that you are not aware of
+
+115
+00:05:00,710 --> 00:05:05,419
+now don't get me wrong
+
+116
+00:05:02,930 --> 00:05:08,509
+losing is not fun and you will probably
+
+117
+00:05:05,419 --> 00:05:11,330
+find it very unpleasant while it's not
+
+118
+00:05:08,509 --> 00:05:14,270
+enjoyable to lose money while trading in
+
+119
+00:05:11,330 --> 00:05:17,150
+the end you will learn more from taking
+
+120
+00:05:14,270 --> 00:05:19,159
+a loss than from a winning trade the
+
+121
+00:05:17,150 --> 00:05:21,949
+important thing when you lose money is
+
+122
+00:05:19,159 --> 00:05:24,529
+to learn from this experience and not to
+
+123
+00:05:21,949 --> 00:05:27,830
+do the same thing again you get an
+
+124
+00:05:24,529 --> 00:05:29,860
+education for that lost money and come
+
+125
+00:05:27,830 --> 00:05:32,900
+out a little smarter in the future
+
+126
+00:05:29,860 --> 00:05:35,779
+believe me once you learn an important
+
+127
+00:05:32,900 --> 00:05:39,529
+lesson when losing money this prevents a
+
+128
+00:05:35,779 --> 00:05:43,099
+much larger future loss another lesson
+
+129
+00:05:39,529 --> 00:05:46,189
+was that you should trade a strategy
+
+130
+00:05:43,099 --> 00:05:49,039
+that matches your personality when I
+
+131
+00:05:46,189 --> 00:05:52,939
+started trading I found an online course
+
+132
+00:05:49,039 --> 00:05:56,089
+that was teaching sculpting they claimed
+
+133
+00:05:52,939 --> 00:05:58,669
+a high success rate and I tried their
+
+134
+00:05:56,089 --> 00:06:02,750
+approach for a couple of weeks after
+
+135
+00:05:58,669 --> 00:06:05,300
+that I was down 20% in my account you
+
+136
+00:06:02,750 --> 00:06:07,939
+see the key to successful trading is
+
+137
+00:06:05,300 --> 00:06:10,939
+finding a strategy that works and that
+
+138
+00:06:07,939 --> 00:06:13,520
+fits your personality the reason I was
+
+139
+00:06:10,939 --> 00:06:15,830
+struggling with scalping was because I
+
+140
+00:06:13,520 --> 00:06:18,770
+didn't enjoy that fast paced trading
+
+141
+00:06:15,830 --> 00:06:21,560
+style I didn't want to monitor the price
+
+142
+00:06:18,770 --> 00:06:23,449
+section very closely and I didn't want
+
+143
+00:06:21,560 --> 00:06:26,960
+to sit all day in front of the screen
+
+144
+00:06:23,449 --> 00:06:29,599
+even if their trading strategy worked it
+
+145
+00:06:26,960 --> 00:06:32,810
+did not fit my personality so I ended up
+
+146
+00:06:29,599 --> 00:06:35,599
+losing a lot of money my advice for you
+
+147
+00:06:32,810 --> 00:06:37,940
+is to find your risk aversion your risk
+
+148
+00:06:35,599 --> 00:06:39,289
+tolerance you should look for the
+
+149
+00:06:37,940 --> 00:06:41,569
+timeframe that matches
+
+150
+00:06:39,289 --> 00:06:43,849
+your training style see if you are
+
+151
+00:06:41,569 --> 00:06:47,419
+day-trader a swing trader a position
+
+152
+00:06:43,849 --> 00:06:49,689
+trader or a scalper ask yourself if you
+
+153
+00:06:47,419 --> 00:06:52,999
+are a technical trader or if you prefer
+
+154
+00:06:49,689 --> 00:06:54,770
+fundamental setups choose the indicators
+
+155
+00:06:52,999 --> 00:06:58,039
+or other tools that you feel most
+
+156
+00:06:54,770 --> 00:07:00,259
+comfortable trading with these simple
+
+157
+00:06:58,039 --> 00:07:03,189
+elements will help you in establishing a
+
+158
+00:07:00,259 --> 00:07:06,199
+strategy that will fit your personality
+
+159
+00:07:03,189 --> 00:07:08,869
+the final lesson was probably the most
+
+160
+00:07:06,199 --> 00:07:11,089
+important one when I stopped thinking
+
+161
+00:07:08,869 --> 00:07:13,779
+about the huge profits I could make and
+
+162
+00:07:11,089 --> 00:07:16,879
+focused on preserving my capital I
+
+163
+00:07:13,779 --> 00:07:20,659
+noticed a vast improvement in my trading
+
+164
+00:07:16,879 --> 00:07:22,610
+results successful traders concentrate
+
+165
+00:07:20,659 --> 00:07:24,860
+their efforts on how much money they
+
+166
+00:07:22,610 --> 00:07:27,229
+could lose before thinking about how
+
+167
+00:07:24,860 --> 00:07:29,059
+much money they could win the key to
+
+168
+00:07:27,229 --> 00:07:31,819
+making money over the long term from
+
+169
+00:07:29,059 --> 00:07:34,789
+trading is simply staying in the game
+
+170
+00:07:31,819 --> 00:07:36,919
+you need to preserve your capital so
+
+171
+00:07:34,789 --> 00:07:39,159
+that you can stay in a game long enough
+
+172
+00:07:36,919 --> 00:07:43,009
+to see your trading system reward you
+
+173
+00:07:39,159 --> 00:07:45,289
+when I started trading I had a gamblers
+
+174
+00:07:43,009 --> 00:07:48,409
+mentality and I suspect a lot of you
+
+175
+00:07:45,289 --> 00:07:50,870
+have this mentality too I focused almost
+
+176
+00:07:48,409 --> 00:07:54,769
+entirely on how much money I could win
+
+177
+00:07:50,870 --> 00:07:57,229
+with almost no regard for losses when
+
+178
+00:07:54,769 --> 00:07:59,509
+you start trading you should ask ask
+
+179
+00:07:57,229 --> 00:08:02,509
+yourself when I will become profitable
+
+180
+00:07:59,509 --> 00:08:06,019
+you should ask yourself how can I trade
+
+181
+00:08:02,509 --> 00:08:08,869
+while preserving my capital and what
+
+182
+00:08:06,019 --> 00:08:13,339
+should I do to limit my losses and be in
+
+183
+00:08:08,869 --> 00:08:16,249
+the game one month one year from now so
+
+184
+00:08:13,339 --> 00:08:19,069
+in order to be successful you first need
+
+185
+00:08:16,249 --> 00:08:21,379
+to become a break-even trader the beauty
+
+186
+00:08:19,069 --> 00:08:23,479
+of being a break-even trader is that you
+
+187
+00:08:21,379 --> 00:08:26,749
+protect your capital while gaining
+
+188
+00:08:23,479 --> 00:08:29,899
+market experience you don't lose money
+
+189
+00:08:26,749 --> 00:08:34,279
+and guess what you will be ahead of 90%
+
+190
+00:08:29,899 --> 00:08:36,139
+of traders those were the most important
+
+191
+00:08:34,279 --> 00:08:39,259
+lessons I've learned in the past ten
+
+192
+00:08:36,139 --> 00:08:41,419
+years during my trading journey I've had
+
+193
+00:08:39,259 --> 00:08:44,060
+my ups and downs I am still losing
+
+194
+00:08:41,419 --> 00:08:47,060
+trades and I still have my doubts when
+
+195
+00:08:44,060 --> 00:08:48,980
+taking a trade but there's the job of a
+
+196
+00:08:47,060 --> 00:08:51,529
+trader and whoever tells you that
+
+197
+00:08:48,980 --> 00:08:53,180
+waiting is easy well is lying to you
+
+198
+00:08:51,529 --> 00:08:54,950
+if you got
+
+199
+00:08:53,180 --> 00:08:57,770
+any value from this video please
+
+200
+00:08:54,950 --> 00:09:00,620
+consider subscribing to this channel and
+
+201
+00:08:57,770 --> 00:09:05,320
+give us a like as it will help us to
+
+202
+00:09:00,620 --> 00:09:05,320
+grow in the future until next time
+
+203
+00:09:05,400 --> 00:09:08,770
+[Music]
+

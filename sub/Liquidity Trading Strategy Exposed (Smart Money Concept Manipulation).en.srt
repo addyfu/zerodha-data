@@ -1,0 +1,1060 @@
+1
+00:00:00,080 --> 00:00:04,279
+today you'll discover how to think and
+
+2
+00:00:02,360 --> 00:00:06,960
+how to trade like market makers and
+
+3
+00:00:04,279 --> 00:00:09,760
+Banks and we'll cover one of their main
+
+4
+00:00:06,960 --> 00:00:10,639
+strategies to control the flow of orders
+
+5
+00:00:09,760 --> 00:00:13,080
+in the
+
+6
+00:00:10,639 --> 00:00:15,280
+market probably the most important
+
+7
+00:00:13,080 --> 00:00:17,800
+aspect of trading like a bank is to
+
+8
+00:00:15,280 --> 00:00:19,960
+focus on liquidity liquidity is the
+
+9
+00:00:17,800 --> 00:00:22,960
+lifeblood of the markets and it's a
+
+10
+00:00:19,960 --> 00:00:25,080
+concept that market makers and Banks
+
+11
+00:00:22,960 --> 00:00:27,439
+understand all too well these
+
+12
+00:00:25,080 --> 00:00:29,599
+institutions are like the Puppet Masters
+
+13
+00:00:27,439 --> 00:00:31,720
+of the trading world and they know how
+
+14
+00:00:29,599 --> 00:00:34,320
+to pull the strings of liquidity to
+
+15
+00:00:31,720 --> 00:00:36,320
+their advantage you see Banks and market
+
+16
+00:00:34,320 --> 00:00:38,680
+makers have a unique position in the
+
+17
+00:00:36,320 --> 00:00:41,200
+market they act as intermediaries
+
+18
+00:00:38,680 --> 00:00:44,039
+between buyers and sellers facilitating
+
+19
+00:00:41,200 --> 00:00:46,160
+trades and providing liquidity but they
+
+20
+00:00:44,039 --> 00:00:49,520
+don't do this out of the goodness of
+
+21
+00:00:46,160 --> 00:00:52,320
+their hearts no they're in it to make a
+
+22
+00:00:49,520 --> 00:00:54,600
+profit Banks and market makers have the
+
+23
+00:00:52,320 --> 00:00:57,600
+advantage of being able to see the order
+
+24
+00:00:54,600 --> 00:01:00,320
+flow the stream of buy and sell orders
+
+25
+00:00:57,600 --> 00:01:02,519
+coming into the market by analyzing this
+
+26
+00:01:00,320 --> 00:01:04,920
+flow they can evaluate the market
+
+27
+00:01:02,519 --> 00:01:07,640
+sentiment and position themselves
+
+28
+00:01:04,920 --> 00:01:10,360
+accordingly one of their main strategies
+
+29
+00:01:07,640 --> 00:01:12,720
+is to influence prices and create
+
+30
+00:01:10,360 --> 00:01:15,560
+temporary imbalances in supply and
+
+31
+00:01:12,720 --> 00:01:17,799
+demand here's how they do this let's say
+
+32
+00:01:15,560 --> 00:01:19,880
+the market is in a downtrend the price
+
+33
+00:01:17,799 --> 00:01:22,759
+has been falling and everyone is looking
+
+34
+00:01:19,880 --> 00:01:25,439
+to sell now at this point if you're a
+
+35
+00:01:22,759 --> 00:01:27,479
+bank sitting on a massive pile of orders
+
+36
+00:01:25,439 --> 00:01:30,479
+that you need to sell this might seem
+
+37
+00:01:27,479 --> 00:01:32,479
+like a tough situation after all who's
+
+38
+00:01:30,479 --> 00:01:35,439
+going to buy your positions when the
+
+39
+00:01:32,479 --> 00:01:37,880
+trend is so clearly pointing South well
+
+40
+00:01:35,439 --> 00:01:40,040
+market makers have a sneaky little trick
+
+41
+00:01:37,880 --> 00:01:42,240
+up their slaves they're not just going
+
+42
+00:01:40,040 --> 00:01:45,200
+to sit back and watch their assets
+
+43
+00:01:42,240 --> 00:01:47,240
+depreciate in value no they're going to
+
+44
+00:01:45,200 --> 00:01:49,840
+create a trap that will lure
+
+45
+00:01:47,240 --> 00:01:52,320
+unsuspecting Traders into buying their
+
+46
+00:01:49,840 --> 00:01:53,759
+positions all while maintaining the
+
+47
+00:01:52,320 --> 00:01:56,360
+overall
+
+48
+00:01:53,759 --> 00:01:59,079
+downtrend let's say the market makers
+
+49
+00:01:56,360 --> 00:02:00,960
+want to sell 10 million shares before
+
+50
+00:01:59,079 --> 00:02:03,520
+the price reaches is a certain lower
+
+51
+00:02:00,960 --> 00:02:06,000
+level they know that if they just start
+
+52
+00:02:03,520 --> 00:02:08,200
+dumping their shares onto the market
+
+53
+00:02:06,000 --> 00:02:11,120
+it's going to cause a panic and drive
+
+54
+00:02:08,200 --> 00:02:13,400
+the price down even further so they need
+
+55
+00:02:11,120 --> 00:02:15,640
+to be smart about this they need to
+
+56
+00:02:13,400 --> 00:02:18,120
+create a situation where people are
+
+57
+00:02:15,640 --> 00:02:20,760
+actually willing to buy even in the face
+
+58
+00:02:18,120 --> 00:02:22,879
+of a downtrend thus the market makers
+
+59
+00:02:20,760 --> 00:02:25,480
+will engineer a period of relative
+
+60
+00:02:22,879 --> 00:02:28,040
+stability in the price they'll start by
+
+61
+00:02:25,480 --> 00:02:31,000
+slowly buying up shares creating a
+
+62
+00:02:28,040 --> 00:02:33,519
+support a demand area that prevents the
+
+63
+00:02:31,000 --> 00:02:35,160
+price from falling further this buying
+
+64
+00:02:33,519 --> 00:02:37,239
+pressure will be just enough to
+
+65
+00:02:35,160 --> 00:02:40,000
+counteract the selling pressure from
+
+66
+00:02:37,239 --> 00:02:42,840
+other Market participants resulting in a
+
+67
+00:02:40,000 --> 00:02:45,360
+sideways movement in the price now
+
+68
+00:02:42,840 --> 00:02:47,599
+here's where the psychology comes in as
+
+69
+00:02:45,360 --> 00:02:49,840
+the price starts to consolidate some
+
+70
+00:02:47,599 --> 00:02:52,480
+Traders will begin to think that maybe
+
+71
+00:02:49,840 --> 00:02:54,920
+the downtrend is losing steam they'll
+
+72
+00:02:52,480 --> 00:02:57,760
+see the sideways movement and start to
+
+73
+00:02:54,920 --> 00:03:00,040
+wonder if the sellers are running out of
+
+74
+00:02:57,760 --> 00:03:02,720
+ammunition this is exactly what the
+
+75
+00:03:00,040 --> 00:03:05,000
+market makers want they're planting the
+
+76
+00:03:02,720 --> 00:03:07,519
+seed of doubt in the minds of other
+
+77
+00:03:05,000 --> 00:03:09,159
+Traders making them question their
+
+78
+00:03:07,519 --> 00:03:12,840
+bearish
+
+79
+00:03:09,159 --> 00:03:15,519
+bias as the consolidation continues more
+
+80
+00:03:12,840 --> 00:03:17,599
+and more Traders will start to feel like
+
+81
+00:03:15,519 --> 00:03:19,959
+they're missing out on a potential
+
+82
+00:03:17,599 --> 00:03:22,360
+reversal they'll see the price holding
+
+83
+00:03:19,959 --> 00:03:25,120
+steady and think that it might be a good
+
+84
+00:03:22,360 --> 00:03:27,360
+time to start buying it's a classic case
+
+85
+00:03:25,120 --> 00:03:29,959
+of fomo and the market makers are
+
+86
+00:03:27,360 --> 00:03:32,599
+counting on it but the market maker
+
+87
+00:03:29,959 --> 00:03:35,159
+aren't just going to sit back and hope
+
+88
+00:03:32,599 --> 00:03:37,239
+that Traders start buying on their own
+
+89
+00:03:35,159 --> 00:03:39,760
+no they're going to give them a little
+
+90
+00:03:37,239 --> 00:03:42,680
+nudge and that nudge comes in the form
+
+91
+00:03:39,760 --> 00:03:45,200
+of a false breakout to the upside the
+
+92
+00:03:42,680 --> 00:03:47,360
+market makers will strategically buy
+
+93
+00:03:45,200 --> 00:03:50,200
+pushing the price just above the
+
+94
+00:03:47,360 --> 00:03:52,519
+consolidation range this sudden burst of
+
+95
+00:03:50,200 --> 00:03:55,640
+buying pressure will be like a siren
+
+96
+00:03:52,519 --> 00:03:58,680
+song to other Traders luring them in
+
+97
+00:03:55,640 --> 00:04:01,040
+with the promise of a trend reversal as
+
+98
+00:03:58,680 --> 00:04:03,840
+the price breaks out to the upside many
+
+99
+00:04:01,040 --> 00:04:06,200
+Traders will interpret this as a signal
+
+100
+00:04:03,840 --> 00:04:08,959
+that the downtrend is over they'll start
+
+101
+00:04:06,200 --> 00:04:12,120
+jumping in buying in anticipation of a
+
+102
+00:04:08,959 --> 00:04:13,840
+major rally it's a classic bull trap and
+
+103
+00:04:12,120 --> 00:04:16,479
+the market makers are ready to
+
+104
+00:04:13,840 --> 00:04:18,959
+capitalize on it they'll start unloading
+
+105
+00:04:16,479 --> 00:04:21,519
+their shares into this new found buying
+
+106
+00:04:18,959 --> 00:04:24,479
+pressure dumping their orders onto the
+
+107
+00:04:21,519 --> 00:04:27,680
+market without causing the price to
+
+108
+00:04:24,479 --> 00:04:29,759
+Crash by creating this false breakout
+
+109
+00:04:27,680 --> 00:04:32,160
+the market makers have manufactured
+
+110
+00:04:29,759 --> 00:04:34,280
+liquidity out of thin air they've
+
+111
+00:04:32,160 --> 00:04:36,600
+tricked other Traders into buying their
+
+112
+00:04:34,280 --> 00:04:39,000
+positions all while maintaining the
+
+113
+00:04:36,600 --> 00:04:41,240
+illusion that the trend is reversing
+
+114
+00:04:39,000 --> 00:04:43,520
+it's a brilliant play and it's one that
+
+115
+00:04:41,240 --> 00:04:46,520
+they'll use time and time again to
+
+116
+00:04:43,520 --> 00:04:48,800
+manipulate the market to their advantage
+
+117
+00:04:46,520 --> 00:04:51,039
+and once the banks and market makers
+
+118
+00:04:48,800 --> 00:04:53,400
+have started to sell their shares
+
+119
+00:04:51,039 --> 00:04:55,479
+they'll pull the rug out from under the
+
+120
+00:04:53,400 --> 00:04:58,360
+buyers they'll start selling
+
+121
+00:04:55,479 --> 00:05:00,520
+aggressively driving the price back down
+
+122
+00:04:58,360 --> 00:05:03,199
+and trapping all those traders who
+
+123
+00:05:00,520 --> 00:05:05,600
+bought into the false breakout it's a
+
+124
+00:05:03,199 --> 00:05:08,120
+classic bump and dump scheme and it's
+
+125
+00:05:05,600 --> 00:05:10,840
+one that can leave naive Traders holding
+
+126
+00:05:08,120 --> 00:05:13,280
+the bag while the market makers laugh
+
+127
+00:05:10,840 --> 00:05:15,759
+all the way to the bank as the price
+
+128
+00:05:13,280 --> 00:05:17,600
+starts to fall back into the downtrend
+
+129
+00:05:15,759 --> 00:05:20,639
+many of the traders who bought during
+
+130
+00:05:17,600 --> 00:05:22,960
+the false breakout will start to panic
+
+131
+00:05:20,639 --> 00:05:25,319
+they'll realize that they've been duped
+
+132
+00:05:22,960 --> 00:05:27,240
+and will start selling off their shares
+
+133
+00:05:25,319 --> 00:05:29,880
+in a desperate attempt to cut their
+
+134
+00:05:27,240 --> 00:05:32,160
+losses this selling pressure will only
+
+135
+00:05:29,880 --> 00:05:35,319
+accelerate the downtrend pushing the
+
+136
+00:05:32,160 --> 00:05:37,880
+price lower and lower and that is how
+
+137
+00:05:35,319 --> 00:05:41,039
+the market makers create liquidity in a
+
+138
+00:05:37,880 --> 00:05:44,280
+downtrend they engineer a consolidation
+
+139
+00:05:41,039 --> 00:05:46,759
+lure in buyers with a false breakout and
+
+140
+00:05:44,280 --> 00:05:49,160
+then sell into that buying pressure
+
+141
+00:05:46,759 --> 00:05:51,400
+before resuming the downtrend it's a
+
+142
+00:05:49,160 --> 00:05:54,120
+devious little trick but it's one that
+
+143
+00:05:51,400 --> 00:05:57,639
+works time and time again you've
+
+144
+00:05:54,120 --> 00:06:00,520
+probably been a victim of it many times
+
+145
+00:05:57,639 --> 00:06:03,240
+before so what can you as a retail
+
+146
+00:06:00,520 --> 00:06:05,240
+Trader learn from this first and
+
+147
+00:06:03,240 --> 00:06:07,759
+foremost always be wary of
+
+148
+00:06:05,240 --> 00:06:10,039
+consolidations during Trends if the
+
+149
+00:06:07,759 --> 00:06:12,160
+price starts to move sideways after a
+
+150
+00:06:10,039 --> 00:06:14,680
+prolonged move don't assume that the
+
+151
+00:06:12,160 --> 00:06:17,720
+trend is reversing it could just be a
+
+152
+00:06:14,680 --> 00:06:21,080
+trap set by the market makers to lure in
+
+153
+00:06:17,720 --> 00:06:23,800
+unsuspecting Traders second look for
+
+154
+00:06:21,080 --> 00:06:26,440
+upside breakouts in a downtrend and
+
+155
+00:06:23,800 --> 00:06:28,759
+downside breakouts in an uptrend
+
+156
+00:06:26,440 --> 00:06:30,639
+especially if they occur after a period
+
+157
+00:06:28,759 --> 00:06:33,199
+of consolidation
+
+158
+00:06:30,639 --> 00:06:35,759
+these breakouts are often be signals
+
+159
+00:06:33,199 --> 00:06:38,919
+designed to trick Traders into buying or
+
+160
+00:06:35,759 --> 00:06:41,199
+selling before the real Trend resumes
+
+161
+00:06:38,919 --> 00:06:43,639
+this strategy of creating a liquidity is
+
+162
+00:06:41,199 --> 00:06:46,479
+really a masterful play that relies on
+
+163
+00:06:43,639 --> 00:06:49,039
+psychology and Market
+
+164
+00:06:46,479 --> 00:06:51,160
+manipulation in this chart the market
+
+165
+00:06:49,039 --> 00:06:53,639
+has been in a strong uptrend for the
+
+166
+00:06:51,160 --> 00:06:56,360
+past few months the buyers are in full
+
+167
+00:06:53,639 --> 00:06:59,039
+control and the overall sentiment is
+
+168
+00:06:56,360 --> 00:07:01,199
+positive however you know that Banks and
+
+169
+00:06:59,039 --> 00:07:04,120
+market May makers have a different plan
+
+170
+00:07:01,199 --> 00:07:07,000
+in mind they want to accumulate at lower
+
+171
+00:07:04,120 --> 00:07:09,120
+prices before the next leg up they
+
+172
+00:07:07,000 --> 00:07:12,039
+always look for opportunities to create
+
+173
+00:07:09,120 --> 00:07:14,720
+liquidity runs and sometimes you won't
+
+174
+00:07:12,039 --> 00:07:17,199
+see a consolidation like in the previous
+
+175
+00:07:14,720 --> 00:07:19,759
+example they'll start by gradually
+
+176
+00:07:17,199 --> 00:07:22,199
+selling pushing the price down and
+
+177
+00:07:19,759 --> 00:07:25,680
+creating a small pullback below a
+
+178
+00:07:22,199 --> 00:07:28,360
+previous minor or even major swing low
+
+179
+00:07:25,680 --> 00:07:30,639
+other times market makers will use this
+
+180
+00:07:28,360 --> 00:07:33,479
+initial selling pressure to set the
+
+181
+00:07:30,639 --> 00:07:36,199
+stage for a larger liquidity run they'll
+
+182
+00:07:33,479 --> 00:07:38,800
+engineer a period of consolidation where
+
+183
+00:07:36,199 --> 00:07:40,919
+the price starts to move sideways at
+
+184
+00:07:38,800 --> 00:07:43,400
+this point you need to be on the lookout
+
+185
+00:07:40,919 --> 00:07:46,120
+for false sell signals as the
+
+186
+00:07:43,400 --> 00:07:48,680
+consolidation continues market makers
+
+187
+00:07:46,120 --> 00:07:51,360
+will strategically push the price below
+
+188
+00:07:48,680 --> 00:07:54,000
+the lower boundary of the range this
+
+189
+00:07:51,360 --> 00:07:56,879
+downside breakout will trigger stoploss
+
+190
+00:07:54,000 --> 00:07:59,840
+orders and encourage traders to sell
+
+191
+00:07:56,879 --> 00:08:02,039
+thinking that the uptrend is over your
+
+192
+00:07:59,840 --> 00:08:04,879
+job is to Simply follow the market
+
+193
+00:08:02,039 --> 00:08:07,120
+makers grand plan you know they'll use
+
+194
+00:08:04,879 --> 00:08:09,759
+this selling pressure to accumulate at
+
+195
+00:08:07,120 --> 00:08:12,360
+lower prices tricking Traders into
+
+196
+00:08:09,759 --> 00:08:14,840
+giving up their positions once they've
+
+197
+00:08:12,360 --> 00:08:17,560
+accumulated enough they'll start buying
+
+198
+00:08:14,840 --> 00:08:19,960
+aggressively driving the price back up
+
+199
+00:08:17,560 --> 00:08:22,919
+and triggering a series of new buy
+
+200
+00:08:19,960 --> 00:08:26,080
+signals that's your cue to join the
+
+201
+00:08:22,919 --> 00:08:28,319
+uptrend here's another example observe
+
+202
+00:08:26,080 --> 00:08:31,159
+these consolidations and downward
+
+203
+00:08:28,319 --> 00:08:34,120
+pullbacks in the up TR all of these were
+
+204
+00:08:31,159 --> 00:08:36,599
+followed by liquidity runs engineered by
+
+205
+00:08:34,120 --> 00:08:39,760
+Banks to shake out weak hands and
+
+206
+00:08:36,599 --> 00:08:41,800
+accumulate at lower prices always look
+
+207
+00:08:39,760 --> 00:08:44,680
+for these false breakouts to the
+
+208
+00:08:41,800 --> 00:08:47,680
+downside especially if they occur after
+
+209
+00:08:44,680 --> 00:08:50,120
+a period of consolidation when you spot
+
+210
+00:08:47,680 --> 00:08:52,680
+a potential liquidity run you could move
+
+211
+00:08:50,120 --> 00:08:55,160
+to a lower time frame to pinpoint your
+
+212
+00:08:52,680 --> 00:08:58,440
+buy entry pay attention to upside
+
+213
+00:08:55,160 --> 00:09:01,040
+breakouts new higher highs or breakouts
+
+214
+00:08:58,440 --> 00:09:02,920
+above minor r resistance levels these
+
+215
+00:09:01,040 --> 00:09:05,000
+signals are your lower time frame
+
+216
+00:09:02,920 --> 00:09:07,560
+confirmation that the uptrend is still
+
+217
+00:09:05,000 --> 00:09:08,680
+intact and that market makers are back
+
+218
+00:09:07,560 --> 00:09:11,320
+to buying
+
+219
+00:09:08,680 --> 00:09:14,160
+positions just as Banks use liquidity
+
+220
+00:09:11,320 --> 00:09:16,959
+runs to accumulate in an uptrend they
+
+221
+00:09:14,160 --> 00:09:19,600
+also employ tactics to distribute in a
+
+222
+00:09:16,959 --> 00:09:21,839
+downtrend here we have this Market that
+
+223
+00:09:19,600 --> 00:09:24,480
+has been trending lower for several
+
+224
+00:09:21,839 --> 00:09:27,160
+weeks in this case you look for
+
+225
+00:09:24,480 --> 00:09:29,959
+consolidations and upward pullbacks
+
+226
+00:09:27,160 --> 00:09:32,079
+within the overall downtrend during
+
+227
+00:09:29,959 --> 00:09:34,560
+consolidation phase you need to be
+
+228
+00:09:32,079 --> 00:09:37,240
+patient and wait for the market makers
+
+229
+00:09:34,560 --> 00:09:39,880
+to strategically push the price above
+
+230
+00:09:37,240 --> 00:09:42,320
+the upper boundary of the range you know
+
+231
+00:09:39,880 --> 00:09:45,200
+that these upside breakouts triggered
+
+232
+00:09:42,320 --> 00:09:48,120
+new buy orders and encouraged traders to
+
+233
+00:09:45,200 --> 00:09:50,440
+go long Banks use this buying pressure
+
+234
+00:09:48,120 --> 00:09:52,560
+to distribute at higher prices
+
+235
+00:09:50,440 --> 00:09:55,200
+effectively tricking Traders into taking
+
+236
+00:09:52,560 --> 00:09:57,839
+on Long positions just before the next
+
+237
+00:09:55,200 --> 00:10:00,519
+leg down when you spot a potential
+
+238
+00:09:57,839 --> 00:10:03,240
+liquidity run in a Down Trend consider
+
+239
+00:10:00,519 --> 00:10:05,959
+moving to a lower time frame to pinpoint
+
+240
+00:10:03,240 --> 00:10:08,480
+your sell entry once the market makers
+
+241
+00:10:05,959 --> 00:10:10,959
+have distributed enough you know they'll
+
+242
+00:10:08,480 --> 00:10:13,920
+start selling aggressively driving the
+
+243
+00:10:10,959 --> 00:10:16,800
+price back down and triggering a series
+
+244
+00:10:13,920 --> 00:10:19,839
+of sell signals so you pay attention to
+
+245
+00:10:16,800 --> 00:10:22,760
+key sell signals such as new lower swing
+
+246
+00:10:19,839 --> 00:10:25,560
+lows and breaks below minor support
+
+247
+00:10:22,760 --> 00:10:28,160
+levels these signals can confirm that
+
+248
+00:10:25,560 --> 00:10:31,279
+the downtrend is still intact and that
+
+249
+00:10:28,160 --> 00:10:33,480
+market makers are back to selling
+
+250
+00:10:31,279 --> 00:10:35,480
+activities this whole process is a
+
+251
+00:10:33,480 --> 00:10:37,680
+masterful manipulation of Market
+
+252
+00:10:35,480 --> 00:10:40,040
+psychology and it's a strategy that
+
+253
+00:10:37,680 --> 00:10:43,040
+they'll use repeatedly as a retail
+
+254
+00:10:40,040 --> 00:10:45,800
+Trader your job is to stay vigilant
+
+255
+00:10:43,040 --> 00:10:48,440
+recognize these tactics and look for key
+
+256
+00:10:45,800 --> 00:10:50,959
+signals that confirm the previous Trend
+
+257
+00:10:48,440 --> 00:10:53,279
+you won't catch all the liquidity runs
+
+258
+00:10:50,959 --> 00:10:56,040
+and you won't be able to avoid all these
+
+259
+00:10:53,279 --> 00:10:58,480
+traps but with knowledge discipline and
+
+260
+00:10:56,040 --> 00:11:00,800
+a decent risk management plan you will
+
+261
+00:10:58,480 --> 00:11:03,399
+still find plenty of opportunities to
+
+262
+00:11:00,800 --> 00:11:06,040
+profit on all time frames and if you
+
+263
+00:11:03,399 --> 00:11:08,000
+want to learn other smart money tactics
+
+264
+00:11:06,040 --> 00:11:11,000
+you need to watch one of these videos
+
+265
+00:11:08,000 --> 00:11:11,000
+next
+

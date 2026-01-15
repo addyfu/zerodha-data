@@ -1,0 +1,822 @@
+1
+00:00:00,650 --> 00:00:01,650
+Hello and welcome.
+
+2
+00:00:01,650 --> 00:00:07,470
+Today I’m sharing how to find high probability
+bullish and bearish pressure areas using simple
+
+3
+00:00:07,470 --> 00:00:13,320
+price action, and I will reveal how to day
+trade these zones, in multiple market scenarios.
+
+4
+00:00:13,320 --> 00:00:19,460
+So if you could, like, subscribe to the channel,
+and stick around for the full video.
+
+5
+00:00:19,460 --> 00:00:24,300
+Candlesticks shadows can tell you a lot about
+the psychology of market participants and
+
+6
+00:00:24,300 --> 00:00:27,490
+should play an important role in your analysis.
+
+7
+00:00:27,490 --> 00:00:30,619
+Long upper shadows are considered bearish
+shadows.
+
+8
+00:00:30,619 --> 00:00:36,150
+The presence of one or more bearish shadows
+after a price advance demonstrates that the
+
+9
+00:00:36,150 --> 00:00:38,730
+market could possible reaching a top.
+
+10
+00:00:38,730 --> 00:00:43,800
+There is not enough demand at higher prices
+to continue to move the price upward, at least
+
+11
+00:00:43,800 --> 00:00:45,650
+for the short term.
+
+12
+00:00:45,650 --> 00:00:49,280
+Long lower shadows are considered bullish
+shadows.
+
+13
+00:00:49,280 --> 00:00:55,260
+The formation of one or more bullish shadows
+after a price decline, especially near support,
+
+14
+00:00:55,260 --> 00:00:58,670
+shows us visually that the market could be
+reaching a bottom.
+
+15
+00:00:58,670 --> 00:01:03,280
+In this case, the wick indicates that lower
+prices are being rejected.
+
+16
+00:01:03,280 --> 00:01:05,290
+The Psychology Behind A Wick
+
+17
+00:01:05,290 --> 00:01:06,990
+I’ve said it a previous video.
+
+18
+00:01:06,990 --> 00:01:09,960
+Markets are traders making trading decisions.
+
+19
+00:01:09,960 --> 00:01:14,330
+If you really want to succeed at day trading,
+when you look at a chart, don’t see it as
+
+20
+00:01:14,330 --> 00:01:15,850
+price movement.
+
+21
+00:01:15,850 --> 00:01:18,170
+See it as traders making decisions.
+
+22
+00:01:18,170 --> 00:01:24,420
+So let’s analyze three stages of a Pin Bar,
+from the perspective of other traders.
+
+23
+00:01:24,420 --> 00:01:29,120
+How do traders react to this bar, during and
+after its formation?
+
+24
+00:01:29,120 --> 00:01:33,950
+The best way to examine this price bar is
+to consider the perspective of traders who
+
+25
+00:01:33,950 --> 00:01:37,000
+transacted at the extremes of the bar.
+
+26
+00:01:37,000 --> 00:01:41,670
+• Group 1 – Sold at the bar high
+• Group 2 – Bought at the bar high
+
+27
+00:01:41,670 --> 00:01:49,150
+• Group 3 – Sold at the bar low
+• Group 4 – Bought at the bar low
+
+28
+00:01:49,150 --> 00:01:54,610
+Traders who sold at the high of the bar (Stage
+One) felt like geniuses in Stage Two.
+
+29
+00:01:54,610 --> 00:02:01,229
+Then, they quickly became frustrated as the
+market moved higher and erased their profits.
+
+30
+00:02:01,229 --> 00:02:06,080
+Traders who bought at the high of the bar
+(Stage One) were constantly watching the bar
+
+31
+00:02:06,080 --> 00:02:08,400
+erode their trading account.
+
+32
+00:02:08,400 --> 00:02:10,619
+Stage Two was the worst time for them.
+
+33
+00:02:10,619 --> 00:02:15,550
+In stage 3 they felt extremely relieved when
+the bar ended the way it did.
+
+34
+00:02:15,550 --> 00:02:20,620
+Traders who sold at the low of the bar (Stage
+Two) are in the worst case scenario.
+
+35
+00:02:20,620 --> 00:02:24,099
+The market did not move a single tick in their
+favor.
+
+36
+00:02:24,099 --> 00:02:28,409
+Traders who bought at the low of the Bar (Stage
+Two) are the happiest.
+
+37
+00:02:28,409 --> 00:02:31,049
+They did not suffer a single tick against
+them.
+
+38
+00:02:31,049 --> 00:02:36,319
+So, in the case of a large wick candle, we
+have 4 types of traders.
+
+39
+00:02:36,319 --> 00:02:37,319
+1.
+
+40
+00:02:37,319 --> 00:02:40,659
+Sellers who are scared (likely to cover shorts)
+2.
+
+41
+00:02:40,659 --> 00:02:43,769
+Buyers who are optimistic (likely to hold
+longs)
+
+42
+00:02:43,769 --> 00:02:44,769
+3.
+
+43
+00:02:44,769 --> 00:02:47,779
+Sellers who are demoralized (likely to cover
+shorts)
+
+44
+00:02:47,779 --> 00:02:48,779
+4.
+
+45
+00:02:48,779 --> 00:02:52,790
+Buyers who are confident (likely to hold longs
+or even add more)
+
+46
+00:02:52,790 --> 00:02:54,150
+Why is this important?
+
+47
+00:02:54,150 --> 00:02:58,219
+Well, together, they are likely to produce
+buying pressure.
+
+48
+00:02:58,219 --> 00:03:02,709
+The traders who are short want to cover, so
+they are creating demand.
+
+49
+00:03:02,709 --> 00:03:08,950
+The buyers want to hold, so they are not supplying,
+at least not without demanding higher prices.
+
+50
+00:03:08,950 --> 00:03:11,780
+The result is a pressure on the market to
+move up.
+
+51
+00:03:11,780 --> 00:03:15,969
+So, the lower shadow reflects the amount of
+buying pressure.
+
+52
+00:03:15,969 --> 00:03:22,249
+You job is to locate the buying and selling
+pressure zones implied by the lower and upper
+
+53
+00:03:22,249 --> 00:03:24,370
+shadows of price bars.
+
+54
+00:03:24,370 --> 00:03:29,900
+Although in the previous case, I used a Pin
+Bar as an example, a strong Pressure Zone
+
+55
+00:03:29,900 --> 00:03:32,909
+is not defined just by one Pin Bar.
+
+56
+00:03:32,909 --> 00:03:38,090
+To find high probability Pressure Zones, you
+must not be particularly interested in how
+
+57
+00:03:38,090 --> 00:03:39,829
+a single bar looks.
+
+58
+00:03:39,829 --> 00:03:44,200
+You must pay more attention to the appearance
+of a group of price bars.
+
+59
+00:03:44,200 --> 00:03:45,719
+7.2 - Identifying the Pressure Zone
+
+60
+00:03:45,719 --> 00:03:50,739
+So the buying or selling pressure found on
+a single price bar might not be sufficiently
+
+61
+00:03:50,739 --> 00:03:52,969
+reliable for a trading setup.
+
+62
+00:03:52,969 --> 00:03:58,919
+Therefore, instead of a single bar, look for
+at least three consecutive bars with overlapping
+
+63
+00:03:58,919 --> 00:04:01,139
+upper or lower shadows.
+
+64
+00:04:01,139 --> 00:04:05,290
+Remember, shadows indicate potential buying
+or selling pressure.
+
+65
+00:04:05,290 --> 00:04:10,609
+When shadows overlap, they create a price
+zone that is more likely to exhibit the buying
+
+66
+00:04:10,609 --> 00:04:13,430
+or selling pressure you anticipate.
+
+67
+00:04:13,430 --> 00:04:17,130
+Consider the perspectives of the four groups
+of traders again.
+
+68
+00:04:17,130 --> 00:04:23,039
+When we have three consecutive bars with overlapping
+lower shadows, the traders undergo the same
+
+69
+00:04:23,039 --> 00:04:28,199
+emotional cycle three times, all within a
+compact price range.
+
+70
+00:04:28,199 --> 00:04:36,789
+That price range is the Pressure Zone we are
+looking for.
+
+71
+00:04:36,789 --> 00:04:40,100
+A bullish Pressure Zone is easy to identify.
+
+72
+00:04:40,100 --> 00:04:43,830
+You can mark it out as a zone on your charts
+1.
+
+73
+00:04:43,830 --> 00:04:47,659
+Find three consecutive bars with overlapping
+lower shadows.
+
+74
+00:04:47,659 --> 00:04:48,659
+2.
+
+75
+00:04:48,659 --> 00:04:51,280
+Mark out the lowest low among the three bars.
+
+76
+00:04:51,280 --> 00:04:52,280
+3.
+
+77
+00:04:52,280 --> 00:04:56,389
+Mark out the lowest closing price of the three
+candle bodies (exclude the shadows).
+
+78
+00:04:56,389 --> 00:04:57,389
+4.
+
+79
+00:04:57,389 --> 00:05:08,229
+The area between these two price levels is
+the bullish Pressure Zone.
+
+80
+00:05:08,229 --> 00:05:10,729
+To find a bearish Pressure Zone
+1.
+
+81
+00:05:10,729 --> 00:05:14,330
+Find three consecutive bars with overlapping
+upper shadows.
+
+82
+00:05:14,330 --> 00:05:15,330
+2.
+
+83
+00:05:15,330 --> 00:05:18,520
+Mark out the highest high among the three
+bars.
+
+84
+00:05:18,520 --> 00:05:19,520
+3.
+
+85
+00:05:19,520 --> 00:05:24,120
+Mark out the highest close of the three candle
+bodies (exclude the shadows).
+
+86
+00:05:24,120 --> 00:05:25,120
+4.
+
+87
+00:05:25,120 --> 00:05:29,599
+The area between these two price levels is
+the bearish Pressure Zone.
+
+88
+00:05:29,599 --> 00:05:30,599
+Very important.
+
+89
+00:05:30,599 --> 00:05:35,360
+Small overlaps of shadows can create unreliable
+Pressure Zones.
+
+90
+00:05:35,360 --> 00:05:40,580
+To avoid them, ignore overlaps below a certain
+threshold.
+
+91
+00:05:40,580 --> 00:05:46,000
+For trading higher time frames (1 hour and
+above), consider increasing the threshold
+
+92
+00:05:46,000 --> 00:05:47,110
+as necessary.
+
+93
+00:05:47,110 --> 00:05:51,370
+Here’s the Long Pressure Zone Trading Plan
+1.
+
+94
+00:05:51,370 --> 00:05:53,470
+Find a Bullish Pressure Zone
+2.
+
+95
+00:05:53,470 --> 00:05:58,949
+Buy above the next bullish bar that overlaps
+with the Pressure Zone and closes above it
+
+96
+00:05:58,949 --> 00:06:04,389
+(The third bar of the Pressure Zone is acceptable
+if it is bullish.)
+
+97
+00:06:04,389 --> 00:06:10,080
+If the price returns once again to the bullish
+pressure zone and forms another signal candle,
+
+98
+00:06:10,080 --> 00:06:11,560
+you can re-enter.
+
+99
+00:06:11,560 --> 00:06:14,050
+This is similar to supply and demand trading.
+
+100
+00:06:14,050 --> 00:06:15,050
+3.
+
+101
+00:06:15,050 --> 00:06:20,310
+If price breaks below the Pressure Zone, the
+setup becomes invalid.
+
+102
+00:06:20,310 --> 00:06:22,840
+And here’s the Short Pressure Zone Trading
+Plan
+
+103
+00:06:22,840 --> 00:06:24,320
+1.
+
+104
+00:06:24,320 --> 00:06:26,680
+Find a Bearish Pressure Zone
+2.
+
+105
+00:06:26,680 --> 00:06:32,310
+Sell below the next bearish bar that overlaps
+with the Pressure Zone and closes below it.
+
+106
+00:06:32,310 --> 00:06:37,490
+(The third bar of the Pressure Zone is acceptable
+if it is bearish.)
+
+107
+00:06:37,490 --> 00:06:43,020
+If the price returns once again to the bearish
+pressure zone and forms another signal candle,
+
+108
+00:06:43,020 --> 00:06:44,759
+you can re-enter.
+3.
+
+109
+00:06:44,759 --> 00:06:49,940
+If price breaks above the Pressure Zone, the
+setup becomes invalid.
+
+110
+00:06:49,940 --> 00:06:51,620
+Here we have an uptrend.
+
+111
+00:06:51,620 --> 00:06:56,759
+This swing high maintained the excellent bullish
+momentum by moving above the previous swing
+
+112
+00:06:56,759 --> 00:06:58,080
+high.
+
+113
+00:06:58,080 --> 00:07:04,030
+After such a bullish move, expect the market
+to react with some bearish or sideways action.
+
+114
+00:07:04,030 --> 00:07:09,120
+This low that formed could not close below
+the previous pivot low, implying that uptrend
+
+115
+00:07:09,120 --> 00:07:10,120
+is still intact.
+
+116
+00:07:10,120 --> 00:07:12,990
+And here’s our bullish Pressure Zone.
+
+117
+00:07:12,990 --> 00:07:18,469
+These consecutive wicks signify that sellers
+were able to push the price down.
+
+118
+00:07:18,469 --> 00:07:21,960
+Bulls drove price back up, showing strength.
+
+119
+00:07:21,960 --> 00:07:26,900
+Since bulls overpowered the selling pressure
+by bears, there is the potential that their
+
+120
+00:07:26,900 --> 00:07:32,410
+strength will carry forward leading to an
+upwards movement in price.
+
+121
+00:07:32,410 --> 00:07:37,599
+This is the signal candle, which overlaps
+with our pressure zone, so we buy above it.
+
+122
+00:07:37,599 --> 00:07:43,729
+The low of this extended wick provides a very
+prudent level for you to place your stop.
+
+123
+00:07:43,729 --> 00:07:48,669
+The rationale for that stop placement being
+that sellers pushed price to the low of that
+
+124
+00:07:48,669 --> 00:07:51,750
+wick but could not push it beyond that point.
+
+125
+00:07:51,750 --> 00:07:56,680
+Hence, placing the stop just below that wick
+is a level that has a lower likelihood of
+
+126
+00:07:56,680 --> 00:07:58,389
+getting hit.
+
+127
+00:07:58,389 --> 00:08:00,029
+How Do You Know When to Exit?
+
+128
+00:08:00,029 --> 00:08:04,810
+This is probably the most difficult question
+to answer; it will depend based upon your
+
+129
+00:08:04,810 --> 00:08:06,490
+risk tolerance.
+
+130
+00:08:06,490 --> 00:08:10,330
+Sometimes it’s best to take your profit
+quickly and walk away.
+
+131
+00:08:10,330 --> 00:08:14,939
+Other times you want to take some money off
+the table, move the stop to breakeven and
+
+132
+00:08:14,939 --> 00:08:16,650
+let the trade run.
+
+133
+00:08:16,650 --> 00:08:19,889
+This discretion will be up to you.
+
+134
+00:08:19,889 --> 00:08:23,439
+This example shows a bearish Pressure Zone
+setup.
+
+135
+00:08:23,439 --> 00:08:29,160
+These three bars formed the Pressure Zone
+and gave us an opportunity to short the market.
+
+136
+00:08:29,160 --> 00:08:34,700
+This was the setup bar, as it overlapped the
+area and was also bearish.
+
+137
+00:08:34,700 --> 00:08:37,370
+The short trade had decent follow-through.
+
+138
+00:08:37,370 --> 00:08:42,480
+And as the market pulled back upwards once
+again, this was an excellent option, especially
+
+139
+00:08:42,480 --> 00:08:47,590
+for traders who missed the first bearish Pressure
+Zone setup.
+
+140
+00:08:47,590 --> 00:08:52,590
+The advantage of this strategy is that the
+Pressure Zone places less emphasis on the
+
+141
+00:08:52,590 --> 00:08:59,380
+length of a single shadow and instead focuses
+on multiple shadows to find reliable signs
+
+142
+00:08:59,380 --> 00:09:01,830
+of bullish or bearish pressure.
+
+143
+00:09:01,830 --> 00:09:05,910
+But, this price pattern has an important drawback.
+
+144
+00:09:05,910 --> 00:09:12,470
+Consecutive bars with overlapping shadows
+also occur frequently within congested markets.
+
+145
+00:09:12,470 --> 00:09:17,440
+Instead of taking signals and trades all over
+the place, the better trades usually happen
+
+146
+00:09:17,440 --> 00:09:22,120
+at key price levels and when you also take
+volume into account.
+
+147
+00:09:22,120 --> 00:09:28,330
+So location of the pressure zones and volume
+are very important to filter those bad zones,
+
+148
+00:09:28,330 --> 00:09:30,470
+that are offering false signals.
+
+149
+00:09:30,470 --> 00:09:33,930
+A good filter would be a common moving average.
+
+150
+00:09:33,930 --> 00:09:41,090
+200, 100, 50 period moving averages or even
+VWAP are worth having on your charts when
+
+151
+00:09:41,090 --> 00:09:43,640
+it comes to finding key pressure zones.
+
+152
+00:09:43,640 --> 00:09:49,670
+During ranges, moving averages lose some of
+their validity, but during trending markets,
+
+153
+00:09:49,670 --> 00:09:53,660
+you’ll see that those moving averages will
+work very accurately.
+
+154
+00:09:53,660 --> 00:09:59,890
+So try to buy bullish pressure zones, above
+a common moving average and sell a bearish
+
+155
+00:09:59,890 --> 00:10:34,400
+pressure zone below a common moving average.
+
+156
+00:10:34,400 --> 00:10:38,730
+Higher timeframe support and resistance levels
+and zones add a great layer of additional
+
+157
+00:10:38,730 --> 00:10:42,190
+confirmation and confluence to these pressure
+zones.
+
+158
+00:10:42,190 --> 00:10:47,750
+I especially look for strong and impulsive
+turning points where price has previously
+
+159
+00:10:47,750 --> 00:10:53,570
+shown a strong reaction because it implies
+that there is a lot of buyer and seller interest
+
+160
+00:10:53,570 --> 00:11:29,930
+in such an area and price is likely to show
+another reaction as well.
+
+161
+00:11:29,930 --> 00:11:33,950
+Trendlines and channels are also great confluence
+areas.
+
+162
+00:11:33,950 --> 00:11:38,760
+Trendlines are especially valuable if you
+are looking for potential pressure zones during
+
+163
+00:11:38,760 --> 00:11:44,700
+trending markets, when it comes to finding
+re-entry opportunities during pullbacks.
+
+164
+00:11:44,700 --> 00:12:21,950
+When it comes to drawing trendlines, go for
+the most obvious ones with the most touches.
+
+165
+00:12:21,950 --> 00:12:26,940
+My favorite dynamic support and resistance
+levels are pivot points.
+
+166
+00:12:26,940 --> 00:12:31,450
+Pivot points are based on previous day’s
+high, low and close so they don’t change
+
+167
+00:12:31,450 --> 00:12:32,830
+throughout the current day.
+
+168
+00:12:32,830 --> 00:12:38,190
+I mostly pay attention to the central pivot
+point and S1 and R1 levels.
+
+169
+00:12:38,190 --> 00:12:43,630
+So when you spot a pressure zone that forms
+at a pivot level, that’s a high probability
+
+170
+00:12:43,630 --> 00:12:44,630
+trade.
+
+171
+00:12:44,630 --> 00:12:48,250
+Also, the take profit aspect becomes much
+easier.
+
+172
+00:12:48,250 --> 00:13:23,790
+You exit a part of your position at the next
+pivot levels.
+
+173
+00:13:23,790 --> 00:13:27,140
+If you found value and learned something new,
+leave us a like.
+
+174
+00:13:27,140 --> 00:13:30,760
+This way we’ll know if you'd like to see
+more videos like this one.
+
+175
+00:13:30,760 --> 00:13:34,970
+And check out our academy program if you want
+to further level up your trading.
+
+176
+00:13:34,970 --> 00:13:36,050
+Until next time.
+

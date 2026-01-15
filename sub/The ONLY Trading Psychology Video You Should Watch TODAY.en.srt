@@ -1,0 +1,941 @@
+1
+00:00:08,320 --> 00:00:14,389
+Let me ask you: do you feel overwhelmed by
+the constant stress and pressure of trading?
+
+2
+00:00:14,389 --> 00:00:15,839
+You're not alone.
+
+3
+00:00:15,839 --> 00:00:21,610
+Today we'll take a deep dive into the mental
+health issues faced by traders and we'll explore
+
+4
+00:00:21,610 --> 00:00:26,850
+the importance of prioritizing mental health
+in the fast-paced world of trading.
+
+5
+00:00:26,850 --> 00:00:33,740
+So, like, subscribe and stick around for the
+full video.
+
+6
+00:00:33,740 --> 00:00:39,210
+The prevalence of mental health issues among
+traders
+
+7
+00:00:39,210 --> 00:00:42,680
+Mental health issues, including stress, anxiety,
+and even depression, are very common among
+
+8
+00:00:42,680 --> 00:00:44,040
+traders.
+
+9
+00:00:44,040 --> 00:00:49,181
+The high-pressure nature of trading can take
+a toll on your mental health, and you may
+
+10
+00:00:49,181 --> 00:00:54,609
+face significant financial and professional
+risks on a daily basis.
+
+11
+00:00:54,609 --> 00:01:00,769
+This can lead to a range of mental health
+problems, such as difficulty sleeping, anger,
+
+12
+00:01:00,769 --> 00:01:02,860
+and difficulty concentrating.
+
+13
+00:01:02,860 --> 00:01:08,790
+In severe cases, you may also suffer from
+burnout, a physical and emotional exhaustion
+
+14
+00:01:08,790 --> 00:01:10,570
+and a lack of accomplishment.
+
+15
+00:01:10,570 --> 00:01:16,900
+If left unchecked, these mental health issues
+can seriously impact your ability to trade
+
+16
+00:01:16,900 --> 00:01:22,750
+effectively and may even lead to more serious
+problems.
+
+17
+00:01:22,750 --> 00:01:30,040
+The impact of cognitive bias in trading
+A cognitive bias is a fancy word.
+
+18
+00:01:30,040 --> 00:01:35,420
+Think at it as a mental shortcut that your
+brain takes in order to simplify processing
+
+19
+00:01:35,420 --> 00:01:36,420
+information.
+
+20
+00:01:36,420 --> 00:01:42,950
+These biases can lead to irrational decision-making,
+and they can be problematic in the context
+
+21
+00:01:42,950 --> 00:01:47,570
+of trading, where the ability to make sound
+decisions is critical.
+
+22
+00:01:47,570 --> 00:01:53,240
+There are many different types of cognitive
+biases that can affect you, you face them
+
+23
+00:01:53,240 --> 00:01:54,869
+every day.
+
+24
+00:01:54,869 --> 00:01:56,780
+Confirmation bias is one of them.
+
+25
+00:01:56,780 --> 00:02:03,250
+That’s the tendency to seek out information
+that confirms your preexisting beliefs.
+
+26
+00:02:03,250 --> 00:02:08,890
+You want to short a market, and you look for
+signs that agree with our existing beliefs
+
+27
+00:02:08,890 --> 00:02:12,450
+and you’ll ignore information that contradicts
+it.
+
+28
+00:02:12,450 --> 00:02:17,640
+You see this breakout, and you ignore the
+other signs indicating that this might not
+
+29
+00:02:17,640 --> 00:02:21,110
+be the best trade.
+
+30
+00:02:21,110 --> 00:02:23,680
+Loss aversion bias is another one.
+
+31
+00:02:23,680 --> 00:02:30,050
+It refers to the tendency to prioritize avoiding
+losses over maximizing gains.
+
+32
+00:02:30,050 --> 00:02:34,400
+It’s when you decide whether to close a
+buy position you opened.
+
+33
+00:02:34,400 --> 00:02:39,260
+The price has been performing poorly, and
+you are concerned that you could lose more
+
+34
+00:02:39,260 --> 00:02:41,310
+money if you leave it open.
+
+35
+00:02:41,310 --> 00:02:45,930
+However, you are also aware that there is
+a chance that the price could bounce back
+
+36
+00:02:45,930 --> 00:02:49,920
+and that you could close it for a higher price
+in the future.
+
+37
+00:02:49,920 --> 00:02:55,319
+Because of your loss aversion bias, you may
+be more likely to close the trade right away
+
+38
+00:02:55,319 --> 00:03:01,460
+in order to avoid the possibility of further
+losses, even if this means giving up the chance
+
+39
+00:03:01,460 --> 00:03:04,989
+to potentially make more money in the future.
+
+40
+00:03:04,989 --> 00:03:06,930
+I still suffer from this.
+
+41
+00:03:06,930 --> 00:03:10,180
+It’s one of my biggest struggles in trading.
+
+42
+00:03:10,180 --> 00:03:16,430
+To avoid loss aversion bias, take a long-term
+perspective: rather than focusing on the potential
+
+43
+00:03:16,430 --> 00:03:22,599
+for short-term losses, try to consider the
+potential rewards over the long term.
+
+44
+00:03:22,599 --> 00:03:25,670
+Also, use risk management strategies.
+
+45
+00:03:25,670 --> 00:03:31,080
+Implementing different strategies, with different
+stop-loss orders can help to mitigate the
+
+46
+00:03:31,080 --> 00:03:35,599
+potential for losses and can make it easier
+to manage risk.
+
+47
+00:03:35,599 --> 00:03:41,709
+The importance of setting boundaries and taking
+breaks in trading
+
+48
+00:03:41,709 --> 00:03:47,330
+As a trader, it is important for you to set
+boundaries and take breaks from trading in
+
+49
+00:03:47,330 --> 00:03:50,290
+order to maintain your mental health.
+
+50
+00:03:50,290 --> 00:03:55,790
+Trading is a demanding and stressful activity,
+and it's easy to get caught up in the grind
+
+51
+00:03:55,790 --> 00:03:57,959
+without taking breaks.
+
+52
+00:03:57,959 --> 00:04:04,110
+However, this can lead to burnout and will
+negatively impact your performance.
+
+53
+00:04:04,110 --> 00:04:09,230
+When I first started, I was trading 10-12
+hours per day.
+
+54
+00:04:09,230 --> 00:04:13,640
+Even when I was watching a movie, I’d still
+thinking about it.
+
+55
+00:04:13,640 --> 00:04:16,299
+Setting boundaries in trading is very important.
+
+56
+00:04:16,299 --> 00:04:22,560
+This involve setting limits on the amount
+of time you spend trading and analyzing a
+
+57
+00:04:22,560 --> 00:04:28,850
+chart, as well as establishing clear lines
+between this and your personal life.
+
+58
+00:04:28,850 --> 00:04:35,910
+This involves setting specific times for trading,
+and, mandatory, staying aside certain hours
+
+59
+00:04:35,910 --> 00:04:41,539
+or days that are designated as "off limits"
+for trading.
+
+60
+00:04:41,539 --> 00:04:47,190
+Taking breaks is also essential for maintaining
+a healthy work-life balance.
+
+61
+00:04:47,190 --> 00:04:52,250
+By making time for yourself and your personal
+life, you’ll be able to maintain a fresh
+
+62
+00:04:52,250 --> 00:04:56,600
+perspective to your trading and stay focused
+and motivated.
+
+63
+00:04:56,600 --> 00:05:03,220
+Strategies for building resilience and coping
+with setbacks in trading
+
+64
+00:05:03,220 --> 00:05:09,320
+As a trader, it is important to build resilience
+and develop strategies for coping with setbacks
+
+65
+00:05:09,320 --> 00:05:11,229
+and losses.
+
+66
+00:05:11,229 --> 00:05:17,330
+Here are a few things that I try to do to
+stay resilient and bounce back from losses:
+
+67
+00:05:17,330 --> 00:05:19,080
+First is to maintain perspective.
+
+68
+00:05:19,080 --> 00:05:21,919
+So you lost a trade on EUR/YEN.
+
+69
+00:05:21,919 --> 00:05:27,150
+It can be very easy to get caught up in the
+moment and lose sight of the bigger picture
+
+70
+00:05:27,150 --> 00:05:28,720
+when you lose a trade.
+
+71
+00:05:28,720 --> 00:05:34,919
+I try to remind myself that losses are a natural
+part of the trading process and that every
+
+72
+00:05:34,919 --> 00:05:38,319
+trade is just one small piece of the puzzle.
+
+73
+00:05:38,319 --> 00:05:44,199
+It's important to remember that trading is
+just one part of your life and you shouldn’t
+
+74
+00:05:44,199 --> 00:05:45,569
+let it consume you.
+
+75
+00:05:45,569 --> 00:05:51,229
+It’s imperative to make time for other interests
+and activities outside of the screen.
+
+76
+00:05:51,229 --> 00:05:54,250
+I also try to stay positive.
+
+77
+00:05:54,250 --> 00:06:00,009
+It's easy to get down on yourself after you
+made a mistake and took a bad trade, but I
+
+78
+00:06:00,009 --> 00:06:05,770
+try to stay positive and focus on the things
+that I did well in the process.
+
+79
+00:06:05,770 --> 00:06:08,170
+Seeking support is another step.
+
+80
+00:06:08,170 --> 00:06:14,220
+If you’re struggling to cope with a setback
+in trading, maybe try to reach out to friends,
+
+81
+00:06:14,220 --> 00:06:16,760
+family, or other traders for support.
+
+82
+00:06:16,760 --> 00:06:23,050
+It can be helpful to talk with someone who
+can offer a fresh perspective.
+
+83
+00:06:23,050 --> 00:06:28,110
+Of course, learning from your mistakes is
+another step, I’ve talked about it many
+
+84
+00:06:28,110 --> 00:06:29,590
+times.
+
+85
+00:06:29,590 --> 00:06:34,860
+After a setback, try to take a step back and
+analyze what went wrong.
+
+86
+00:06:34,860 --> 00:06:41,860
+The link between mental health and risk-taking
+in trading
+
+87
+00:06:41,860 --> 00:06:46,430
+From my trading journey, I’ve learned that
+there is a strong link between my mental health
+
+88
+00:06:46,430 --> 00:06:49,479
+and my risk-taking behavior.
+
+89
+00:06:49,479 --> 00:06:55,759
+When I am feeling anxious or stressed, I tend
+to be more risk-averse and taking on too much
+
+90
+00:06:55,759 --> 00:06:56,759
+risk.
+
+91
+00:06:56,759 --> 00:07:03,910
+I might use bigger stop losses, I might double
+my exposure, trying to recover some losses.
+
+92
+00:07:03,910 --> 00:07:10,770
+On the other hand, when I am feeling confident
+and in control, I know how to manage my risk.
+
+93
+00:07:10,770 --> 00:07:17,289
+I have also learned that my mental state can
+affect my ability to make good decisions.
+
+94
+00:07:17,289 --> 00:07:23,220
+When I am feeling overwhelmed or emotional,
+it is harder for me to think clearly and analyze
+
+95
+00:07:23,220 --> 00:07:25,599
+data objectively.
+
+96
+00:07:25,599 --> 00:07:31,430
+This can lead to poor decisions that will
+expose you to unnecessary risk.
+
+97
+00:07:31,430 --> 00:07:37,009
+Revenge trading is the immediate result, when
+you try to "get back" at the market and try
+
+98
+00:07:37,009 --> 00:07:40,770
+to recover a trade that didn't go your way.
+
+99
+00:07:40,770 --> 00:07:46,849
+So to manage the link between mental health
+and risk-taking in your trading, try to pay
+
+100
+00:07:46,849 --> 00:07:49,870
+attention to your emotional state.
+
+101
+00:07:49,870 --> 00:07:56,289
+This might involve setting time to relax and
+de-stress, or avoiding making important decisions
+
+102
+00:07:56,289 --> 00:07:58,099
+when you’re feeling emotional.
+
+103
+00:07:58,099 --> 00:08:04,180
+The impact of technology and screen time on
+mental health
+
+104
+00:08:04,180 --> 00:08:10,569
+As a trader, you spend a lot of time in front
+of screens, whether you’re analyzing data,
+
+105
+00:08:10,569 --> 00:08:14,009
+executing trades, or tracking the markets.
+
+106
+00:08:14,009 --> 00:08:18,449
+This can and will have a negative impact on
+your mental health.
+
+107
+00:08:18,449 --> 00:08:23,180
+As I said before, prolonged screen time was
+my number one problem.
+
+108
+00:08:23,180 --> 00:08:26,240
+I used to stay in front of the screen for
+hours.
+
+109
+00:08:26,240 --> 00:08:31,740
+The constant flow of information and the pressure
+to make quick decisions was overwhelming,
+
+110
+00:08:31,740 --> 00:08:38,200
+and it was hard to disconnect from trading
+when I was always connected.
+
+111
+00:08:38,200 --> 00:08:43,979
+To mitigate the negative effects of screen
+time on your mental health, again, take breaks
+
+112
+00:08:43,979 --> 00:08:46,900
+from trading whenever possible.
+
+113
+00:08:46,900 --> 00:08:52,070
+Making a conscious effort to look away from
+the screen and focus on something else you
+
+114
+00:08:52,070 --> 00:08:53,390
+enjoy.
+
+115
+00:08:53,390 --> 00:08:57,950
+Try to make time for activities that don't
+involve screens.
+
+116
+00:08:57,950 --> 00:09:03,709
+My solution was to move to swing trading,
+and spend less time day trading.
+
+117
+00:09:03,709 --> 00:09:10,990
+Nowadays, I spend 2, maximum 3 hours per day
+to trade, sometimes even less.
+
+118
+00:09:10,990 --> 00:09:19,160
+The impact of impulsive or reckless behavior
+Impulsive or reckless behavior in trading
+
+119
+00:09:19,160 --> 00:09:23,089
+is another cause which will affect your mental
+health.
+
+120
+00:09:23,089 --> 00:09:29,760
+This refers to making trades without a careful
+consideration of the potential risks and rewards,
+
+121
+00:09:29,760 --> 00:09:33,860
+or disregarding risk management strategies.
+
+122
+00:09:33,860 --> 00:09:39,660
+This type of behavior will lead to significant
+losses and is mainly caused by your desire
+
+123
+00:09:39,660 --> 00:09:44,680
+for quick profits, or a lack of understanding
+of the markets.
+
+124
+00:09:44,680 --> 00:09:51,470
+One way to avoid impulsive or reckless behavior
+in trading is to develop a trading plan and
+
+125
+00:09:51,470 --> 00:09:53,120
+stick to it.
+
+126
+00:09:53,120 --> 00:09:59,640
+This plan should include a clear set of rules
+for entering and exiting trades, as well as
+
+127
+00:09:59,640 --> 00:10:04,769
+risk management strategies such as always
+using stop-loss orders.
+
+128
+00:10:04,769 --> 00:10:11,650
+It is also important to maintain a long-term
+perspective and resist the temptation to chase
+
+129
+00:10:11,650 --> 00:10:13,060
+after quick profits.
+
+130
+00:10:13,060 --> 00:10:17,050
+So what you lost 2 trades today.
+
+131
+00:10:17,050 --> 00:10:23,589
+Markets will open tomorrow, and the next day,
+and there are plenty of other opportunities.
+
+132
+00:10:23,589 --> 00:10:30,600
+Be aware of your own emotional state and recognize
+when it might be affecting your decision-making.
+
+133
+00:10:30,600 --> 00:10:37,840
+And it is also important to continuously educate
+yourself about the markets and to stay up
+
+134
+00:10:37,840 --> 00:10:42,839
+to date on latest events that can impact the
+markets.
+
+135
+00:10:42,839 --> 00:10:48,620
+This will help to ensure that trading decisions
+are based on a sound understanding of the
+
+136
+00:10:48,620 --> 00:10:52,120
+markets rather than on impulsive or reckless
+behavior.
+
+137
+00:10:52,120 --> 00:10:58,329
+Dealing with the ups and downs of trading
+and maintaining a positive attitude
+
+138
+00:10:58,329 --> 00:11:04,900
+It is natural to feel upset or discouraged
+after a trading loss, and it’s challenging
+
+139
+00:11:04,900 --> 00:11:09,639
+to maintain a positive attitude in the face
+of such setbacks.
+
+140
+00:11:09,639 --> 00:11:15,029
+I know it’s hard to be happy when you just
+lost $1000 on a single trade.
+
+141
+00:11:15,029 --> 00:11:20,350
+But if you want to remain in the game for
+the long term, it is important to try to maintain
+
+142
+00:11:20,350 --> 00:11:24,769
+a positive attitude and to keep things in
+perspective.
+
+143
+00:11:24,769 --> 00:11:30,519
+Reflect on each losing trade and rather than
+dwelling on the negative, try to objectively
+
+144
+00:11:30,519 --> 00:11:35,170
+evaluate what happened and what could have
+been done differently.
+
+145
+00:11:35,170 --> 00:11:42,070
+Also, set small, achievable goals: Rather
+than trying to double your account in one
+
+146
+00:11:42,070 --> 00:11:46,730
+month, try setting small, achievable goals
+for yourself.
+
+147
+00:11:46,730 --> 00:11:50,769
+Go for a 5-10% increase.
+
+148
+00:11:50,769 --> 00:11:55,950
+This can help to give you a sense of control
+and can increase confidence in your trading
+
+149
+00:11:55,950 --> 00:11:56,950
+abilities.
+
+150
+00:11:56,950 --> 00:12:03,270
+The impact of social isolation on mental health
+in trading
+
+151
+00:12:03,270 --> 00:12:09,290
+Trading can be a solitary task and this can
+lead to social isolation and a lack of social
+
+152
+00:12:09,290 --> 00:12:13,380
+support, which can have negative consequences
+for our mental health.
+
+153
+00:12:13,380 --> 00:12:18,630
+I’m an introvert, and I don’t mind this
+time alone with myself.
+
+154
+00:12:18,630 --> 00:12:24,670
+But prolonged trading hours can lead to feelings
+of loneliness and isolation, which can lead
+
+155
+00:12:24,670 --> 00:12:30,959
+to other dangerous mental health problems
+such as anxiety and even depression.
+
+156
+00:12:30,959 --> 00:12:36,160
+To mitigate the negative impact of social
+isolation on mental health when trading, it
+
+157
+00:12:36,160 --> 00:12:43,320
+is important to make an effort to stay connected
+with other traders and seek out social support.
+
+158
+00:12:43,320 --> 00:12:49,649
+This might involve joining a trading community
+or networking group, spending time with friends
+
+159
+00:12:49,649 --> 00:12:53,801
+and family, or participating in activities
+outside of trading.
+
+160
+00:12:53,801 --> 00:13:03,580
+The fine line between trading and gambling
+There’s a fine line between trading and
+
+161
+00:13:03,580 --> 00:13:04,580
+gambling.
+
+162
+00:13:04,580 --> 00:13:10,459
+Both involve taking a financial risk in the
+hopes of achieving a profit, but there are
+
+163
+00:13:10,459 --> 00:13:13,589
+some key differences between the two.
+
+164
+00:13:13,589 --> 00:13:19,959
+When you trade, you’re making informed decisions
+based on market analysis, risk management,
+
+165
+00:13:19,959 --> 00:13:21,470
+and a clear strategy.
+
+166
+00:13:21,470 --> 00:13:27,110
+It is a form of investment that requires discipline,
+skill, and knowledge.
+
+167
+00:13:27,110 --> 00:13:33,010
+Gambling, on the other hand, is mostly based
+on chance and is not backed by any form of
+
+168
+00:13:33,010 --> 00:13:35,040
+analysis or strategy.
+
+169
+00:13:35,040 --> 00:13:38,399
+And it can be highly addictive.
+
+170
+00:13:38,399 --> 00:13:43,370
+When these 2 concepts are not clear, your
+mental health will suffer.
+
+171
+00:13:43,370 --> 00:13:48,850
+You must know the difference between trading
+and gambling, and it is important to be aware
+
+172
+00:13:48,850 --> 00:13:52,079
+of your own motivations and goals.
+
+173
+00:13:52,079 --> 00:13:58,029
+If you’re making informed and rational decisions
+based on a clear strategy, then you’re engaging
+
+174
+00:13:58,029 --> 00:13:59,029
+in trading.
+
+175
+00:13:59,029 --> 00:14:06,550
+However, if you’re trading based on emotions
+or a desire for quick profits without a clear
+
+176
+00:14:06,550 --> 00:14:10,290
+plan, then you crossed the line into gambling.
+
+177
+00:14:10,290 --> 00:14:16,690
+The danger of trading addiction
+
+178
+00:14:16,690 --> 00:14:21,660
+Trading addiction refers to a compulsive need
+to trade, even when it is not in your best
+
+179
+00:14:21,660 --> 00:14:22,949
+interest.
+
+180
+00:14:22,949 --> 00:14:28,320
+This can be fueled by a variety of factors,
+including the belief that you can get rich
+
+181
+00:14:28,320 --> 00:14:34,589
+quickly through trading, the thrill of the
+markets, or maybe a desire to escape from
+
+182
+00:14:34,589 --> 00:14:35,920
+other problems.
+
+183
+00:14:35,920 --> 00:14:42,240
+If you’re feeling an urge to trade constantly,
+if you’re neglecting other responsibilities
+
+184
+00:14:42,240 --> 00:14:47,940
+in order to trade, if you’re continuing
+to trade even when it is causing financial
+
+185
+00:14:47,940 --> 00:14:54,540
+or personal problems, if you’re feeling
+anxious or stressed when unable to trade,
+
+186
+00:14:54,540 --> 00:14:57,759
+then you may have problems with trading addiction.
+
+187
+00:14:57,759 --> 00:15:02,649
+These are the most dangerous problems you
+could face when trading, and it is important
+
+188
+00:15:02,649 --> 00:15:04,480
+to seek professional help.
+
+189
+00:15:04,480 --> 00:15:08,380
+I had a friend that lost his house because
+of this.
+
+190
+00:15:08,380 --> 00:15:15,060
+It’s so easy to be caught up in this spiral,
+and at the same time, it’s hard to get out,
+
+191
+00:15:15,060 --> 00:15:17,870
+if things go out of control.
+
+192
+00:15:17,870 --> 00:15:23,970
+Trading is demanding and it’s very important
+to be aware and recognize the warning signs.
+
+193
+00:15:23,970 --> 00:15:31,740
+These signs may include changes in mood, difficulty
+sleeping, anxiety and difficulty concentrating.
+
+194
+00:15:31,740 --> 00:15:37,680
+If you are experiencing any of these symptoms,
+there’s no shame in seeking some professional
+
+195
+00:15:37,680 --> 00:15:38,820
+help.
+
+196
+00:15:38,820 --> 00:15:44,350
+Trading should not take control over your
+life and your mind.
+
+197
+00:15:44,350 --> 00:15:51,600
+If you enjoyed learning about the role of
+psychology in trading, be sure to check out
+
+198
+00:15:51,600 --> 00:15:55,180
+our next video on improving your trading psychology.
+
+199
+00:15:55,180 --> 00:16:00,339
+And check out our academy program, if you
+want to further level up your trading.
+
+200
+00:16:00,339 --> 00:16:01,500
+Until next time!
+

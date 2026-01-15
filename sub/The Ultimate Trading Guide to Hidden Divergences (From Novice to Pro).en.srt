@@ -1,0 +1,1028 @@
+1
+00:00:00,079 --> 00:00:04,380
+the divergence is one of the most
+
+2
+00:00:02,520 --> 00:00:07,020
+effective ways to try the financial
+
+3
+00:00:04,380 --> 00:00:09,330
+markets divergence as the name suggests
+
+4
+00:00:07,020 --> 00:00:11,910
+forms when the oscillator and a price
+
+5
+00:00:09,330 --> 00:00:14,099
+action failed to converge if you analyze
+
+6
+00:00:11,910 --> 00:00:16,049
+price action in a chart you'll notice
+
+7
+00:00:14,099 --> 00:00:18,390
+that the price moves up and down forming
+
+8
+00:00:16,049 --> 00:00:20,880
+peaks and valleys these are the
+
+9
+00:00:18,390 --> 00:00:23,699
+expansions and contractions or trusts
+
+10
+00:00:20,880 --> 00:00:25,710
+and retracements for an experienced
+
+11
+00:00:23,699 --> 00:00:27,750
+trader trading based on price action
+
+12
+00:00:25,710 --> 00:00:30,779
+alone might already be profitable
+
+13
+00:00:27,750 --> 00:00:33,090
+however many other traders also prefer a
+
+14
+00:00:30,779 --> 00:00:36,420
+secondary confirmation for their setups
+
+15
+00:00:33,090 --> 00:00:38,850
+so they use indicators some applied on
+
+16
+00:00:36,420 --> 00:00:40,980
+price chart while others are oscillating
+
+17
+00:00:38,850 --> 00:00:43,350
+indicators on a different window on
+
+18
+00:00:40,980 --> 00:00:46,469
+their platform usually at the bottom of
+
+19
+00:00:43,350 --> 00:00:49,050
+the main charts under normal conditions
+
+20
+00:00:46,469 --> 00:00:51,420
+price action and the oscillator tend to
+
+21
+00:00:49,050 --> 00:00:53,820
+move in the same direction when price
+
+22
+00:00:51,420 --> 00:00:56,550
+makes a new high the oscillator is also
+
+23
+00:00:53,820 --> 00:00:58,559
+prone to make a new high likewise
+
+24
+00:00:56,550 --> 00:01:00,510
+when a price makes a new low the
+
+25
+00:00:58,559 --> 00:01:03,750
+oscillator is also prone to make a new
+
+26
+00:01:00,510 --> 00:01:06,080
+low when this converge fails what you
+
+27
+00:01:03,750 --> 00:01:08,490
+basically get is a divergence the
+
+28
+00:01:06,080 --> 00:01:11,400
+divergence is a leading indicator of
+
+29
+00:01:08,490 --> 00:01:13,619
+price action in other words when you see
+
+30
+00:01:11,400 --> 00:01:15,840
+a divergence there is a high likelihood
+
+31
+00:01:13,619 --> 00:01:18,150
+that price action will potentially make
+
+32
+00:01:15,840 --> 00:01:20,369
+a reversal there are many different
+
+33
+00:01:18,150 --> 00:01:22,799
+types of divergences available the
+
+34
+00:01:20,369 --> 00:01:25,500
+divergences are categorized into regular
+
+35
+00:01:22,799 --> 00:01:28,110
+and hidden divergences while the regular
+
+36
+00:01:25,500 --> 00:01:30,869
+divergence is easy to spot hidden
+
+37
+00:01:28,110 --> 00:01:33,329
+divergences are less rare and require
+
+38
+00:01:30,869 --> 00:01:35,460
+some practice to spot them within the
+
+39
+00:01:33,329 --> 00:01:38,880
+hidden divergence you have the bullish
+
+40
+00:01:35,460 --> 00:01:41,189
+and the bearish divergence if you look
+
+41
+00:01:38,880 --> 00:01:43,460
+closely at this chart you'll notice how
+
+42
+00:01:41,189 --> 00:01:46,380
+the MACD indicator moves up and down
+
+43
+00:01:43,460 --> 00:01:49,140
+corresponding to price movements however
+
+44
+00:01:46,380 --> 00:01:51,570
+if you also look closely you would also
+
+45
+00:01:49,140 --> 00:01:53,729
+notice instances where the peaks and
+
+46
+00:01:51,570 --> 00:01:56,460
+valleys height and depth would differ
+
+47
+00:01:53,729 --> 00:01:59,460
+from that of the price chart these are
+
+48
+00:01:56,460 --> 00:02:01,799
+what we call divergences it is basically
+
+49
+00:01:59,460 --> 00:02:03,869
+a disagreement in the height or death
+
+50
+00:02:01,799 --> 00:02:07,049
+the price charts and the indicators
+
+51
+00:02:03,869 --> 00:02:08,849
+peaks and valleys this disagreement is
+
+52
+00:02:07,049 --> 00:02:11,210
+telling me that even though the price
+
+53
+00:02:08,849 --> 00:02:12,760
+chart has already formed a low
+
+54
+00:02:11,210 --> 00:02:15,260
+that might not be that deep
+
+55
+00:02:12,760 --> 00:02:17,210
+mathematically the indicator is showing
+
+56
+00:02:15,260 --> 00:02:20,120
+that the retracement is already deep
+
+57
+00:02:17,210 --> 00:02:22,910
+enough this indicates that price is
+
+58
+00:02:20,120 --> 00:02:25,190
+ready for a sharp reversal this type of
+
+59
+00:02:22,910 --> 00:02:28,400
+divergence is called a hidden divergence
+
+60
+00:02:25,190 --> 00:02:30,980
+which usually signifies a reversal of a
+
+61
+00:02:28,400 --> 00:02:34,190
+short retracement were better said a
+
+62
+00:02:30,980 --> 00:02:37,250
+continuation of an existing trend so
+
+63
+00:02:34,190 --> 00:02:40,690
+remember this hidden divergences usually
+
+64
+00:02:37,250 --> 00:02:43,250
+correspond with short-term retracements
+
+65
+00:02:40,690 --> 00:02:46,910
+how does the hidden bullish divergence
+
+66
+00:02:43,250 --> 00:02:49,070
+work a hidden bullish divergence works
+
+67
+00:02:46,910 --> 00:02:51,400
+based on the concept of the lows in
+
+68
+00:02:49,070 --> 00:02:54,380
+price and the lows in the oscillator
+
+69
+00:02:51,400 --> 00:02:56,810
+while a trade with divergences that are
+
+70
+00:02:54,380 --> 00:02:59,270
+regular indicates a reversal of training
+
+71
+00:02:56,810 --> 00:03:00,860
+price action hidden divergence is an
+
+72
+00:02:59,270 --> 00:03:03,860
+indication that the trend will continue
+
+73
+00:03:00,860 --> 00:03:07,400
+I like to consider a hidden divergence
+
+74
+00:03:03,860 --> 00:03:09,770
+as the end of a pullback in order to
+
+75
+00:03:07,400 --> 00:03:12,020
+identify a divergence you basically need
+
+76
+00:03:09,770 --> 00:03:14,690
+an oscillator any type of oscillator
+
+77
+00:03:12,020 --> 00:03:16,700
+works in this case the most commonly
+
+78
+00:03:14,690 --> 00:03:18,590
+used oscillators on the relative
+
+79
+00:03:16,700 --> 00:03:21,950
+strength index the stochastic oscillator
+
+80
+00:03:18,590 --> 00:03:24,230
+and the MACD the custom oscillator and
+
+81
+00:03:21,950 --> 00:03:26,560
+money flow index are also great
+
+82
+00:03:24,230 --> 00:03:29,510
+indicators to spot hidden divergences
+
+83
+00:03:26,560 --> 00:03:31,040
+this example you have the basic
+
+84
+00:03:29,510 --> 00:03:33,500
+illustration of the hidden bullish
+
+85
+00:03:31,040 --> 00:03:35,320
+divergence in this chart you can see
+
+86
+00:03:33,500 --> 00:03:38,300
+that the price makes a higher low
+
+87
+00:03:35,320 --> 00:03:41,300
+compared to the initial low however
+
+88
+00:03:38,300 --> 00:03:44,390
+every sign indicator makes a lower low
+
+89
+00:03:41,300 --> 00:03:46,430
+relative to the previous low this
+
+90
+00:03:44,390 --> 00:03:47,180
+example shows another hidden bullish
+
+91
+00:03:46,430 --> 00:03:49,640
+divergence
+
+92
+00:03:47,180 --> 00:03:50,570
+using the stochastic indicator in a
+
+93
+00:03:49,640 --> 00:03:53,780
+clear uptrend
+
+94
+00:03:50,570 --> 00:03:56,630
+as you can see comparing the lows in the
+
+95
+00:03:53,780 --> 00:03:58,450
+price and the lows in the oscillator the
+
+96
+00:03:56,630 --> 00:04:01,370
+hidden bullish divergence is formed
+
+97
+00:03:58,450 --> 00:04:04,370
+after the formation of the higher low in
+
+98
+00:04:01,370 --> 00:04:06,740
+price price then surges to a new high it
+
+99
+00:04:04,370 --> 00:04:09,020
+should be noted that the hidden bullish
+
+100
+00:04:06,740 --> 00:04:11,120
+divergence can form anywhere in a trend
+
+101
+00:04:09,020 --> 00:04:13,310
+typically though the hidden bullish
+
+102
+00:04:11,120 --> 00:04:13,970
+divergences are usually found in an
+
+103
+00:04:13,310 --> 00:04:16,430
+uptrend
+
+104
+00:04:13,970 --> 00:04:17,510
+it forms close to the highest in the
+
+105
+00:04:16,430 --> 00:04:19,690
+price action
+
+106
+00:04:17,510 --> 00:04:22,730
+portrayed with hidden bullish divergence
+
+107
+00:04:19,690 --> 00:04:26,390
+signals there is a strong probability of
+
+108
+00:04:22,730 --> 00:04:28,160
+price continuing the uptrend also pay
+
+109
+00:04:26,390 --> 00:04:30,830
+close attention to the higher lows
+
+110
+00:04:28,160 --> 00:04:33,530
+formed at the end of the pullback price
+
+111
+00:04:30,830 --> 00:04:35,900
+action candlestick patterns can serve as
+
+112
+00:04:33,530 --> 00:04:39,950
+great confirmation tools for the
+
+113
+00:04:35,900 --> 00:04:42,170
+continuing trend the next type of trade
+
+114
+00:04:39,950 --> 00:04:44,450
+with divergence is the hidden bearish
+
+115
+00:04:42,170 --> 00:04:46,850
+divergence in a bearish hidden
+
+116
+00:04:44,450 --> 00:04:48,950
+divergence the price makes lower highs
+
+117
+00:04:46,850 --> 00:04:51,740
+but you'll see later makes higher highs
+
+118
+00:04:48,950 --> 00:04:54,530
+this type of pattern occurs mainly
+
+119
+00:04:51,740 --> 00:04:57,140
+during downtrend Corrections in this
+
+120
+00:04:54,530 --> 00:04:59,450
+example we see that while prices have
+
+121
+00:04:57,140 --> 00:05:01,760
+continued to go lower in formed lower
+
+122
+00:04:59,450 --> 00:05:04,250
+highs the arrow psy oscillator made
+
+123
+00:05:01,760 --> 00:05:06,770
+higher highs this is what we called
+
+124
+00:05:04,250 --> 00:05:09,770
+hidden bearish divergence divergence
+
+125
+00:05:06,770 --> 00:05:11,570
+Theory tells us that there is a strong
+
+126
+00:05:09,770 --> 00:05:14,150
+probability that the Down trend will
+
+127
+00:05:11,570 --> 00:05:16,550
+continue basically a hidden bearish
+
+128
+00:05:14,150 --> 00:05:18,610
+divergence pattern means that the trend
+
+129
+00:05:16,550 --> 00:05:21,110
+is continuing to the downside
+
+130
+00:05:18,610 --> 00:05:24,290
+and here's another hidden divergence
+
+131
+00:05:21,110 --> 00:05:26,270
+this time which is stochastic recent
+
+132
+00:05:24,290 --> 00:05:28,910
+price action indicated a downward
+
+133
+00:05:26,270 --> 00:05:32,060
+momentum with the price making lower
+
+134
+00:05:28,910 --> 00:05:34,070
+highs however despite the fact that the
+
+135
+00:05:32,060 --> 00:05:36,710
+price was making lower highs the
+
+136
+00:05:34,070 --> 00:05:38,350
+stochastic recorded higher highs thus
+
+137
+00:05:36,710 --> 00:05:40,910
+forming a hidden divergence and
+
+138
+00:05:38,350 --> 00:05:43,910
+signaling that Bears were in a strong
+
+139
+00:05:40,910 --> 00:05:46,820
+position to enter the market of the two
+
+140
+00:05:43,910 --> 00:05:49,400
+types of divergence regular and hidden
+
+141
+00:05:46,820 --> 00:05:51,980
+the hidden divergence represents the
+
+142
+00:05:49,400 --> 00:05:54,110
+higher probability pattern this is based
+
+143
+00:05:51,980 --> 00:05:57,460
+on the fact that the hidden divergence
+
+144
+00:05:54,110 --> 00:06:00,290
+is a trend continuation leading signal
+
+145
+00:05:57,460 --> 00:06:02,950
+now that we identified the main types of
+
+146
+00:06:00,290 --> 00:06:05,930
+hidden divergences how do you trade them
+
+147
+00:06:02,950 --> 00:06:08,990
+the hidden bullish divergence method can
+
+148
+00:06:05,930 --> 00:06:10,370
+be used in a number of ways due to the
+
+149
+00:06:08,990 --> 00:06:12,950
+fact that the hidden bullish divergence
+
+150
+00:06:10,370 --> 00:06:15,200
+is a leading indicator it can
+
+151
+00:06:12,950 --> 00:06:18,320
+potentially tell you what could happen
+
+152
+00:06:15,200 --> 00:06:20,660
+next in price generally speaking when a
+
+153
+00:06:18,320 --> 00:06:22,900
+hidden bullish divergence is formed you
+
+154
+00:06:20,660 --> 00:06:24,820
+can take long positions
+
+155
+00:06:22,900 --> 00:06:27,250
+and when you spot the hidden bearish
+
+156
+00:06:24,820 --> 00:06:30,040
+divergence be prepared to search for
+
+157
+00:06:27,250 --> 00:06:32,229
+short trades the oscillators are used in
+
+158
+00:06:30,040 --> 00:06:34,509
+the previous examples were the RSI
+
+159
+00:06:32,229 --> 00:06:36,820
+stochastic and the MACD these are
+
+160
+00:06:34,509 --> 00:06:38,860
+probably the most common oscillators for
+
+161
+00:06:36,820 --> 00:06:40,990
+detecting divergences but there are a
+
+162
+00:06:38,860 --> 00:06:45,280
+substantial number of oscillators very
+
+163
+00:06:40,990 --> 00:06:48,310
+useful to trade divergences now from my
+
+164
+00:06:45,280 --> 00:06:50,530
+experience the most ideal place where a
+
+165
+00:06:48,310 --> 00:06:53,740
+hidden bullish divergence can occur is
+
+166
+00:06:50,530 --> 00:06:56,110
+at the end of a downtrend near the
+
+167
+00:06:53,740 --> 00:06:58,060
+bottom end of the downtrend a hidden
+
+168
+00:06:56,110 --> 00:07:00,880
+bullish divergence can be a powerful
+
+169
+00:06:58,060 --> 00:07:03,039
+trading signal in this example we have
+
+170
+00:07:00,880 --> 00:07:05,139
+the hidden bullish divergence that is
+
+171
+00:07:03,039 --> 00:07:08,530
+formed near the bottom end of the
+
+172
+00:07:05,139 --> 00:07:10,750
+downtrend if you closely observe what
+
+173
+00:07:08,530 --> 00:07:13,180
+you first see is a minor collection in
+
+174
+00:07:10,750 --> 00:07:15,460
+price this leads to a higher low in
+
+175
+00:07:13,180 --> 00:07:17,830
+price at the same time the relative
+
+176
+00:07:15,460 --> 00:07:21,070
+strength index indicator forms a lower
+
+177
+00:07:17,830 --> 00:07:24,099
+low this divergence then leads to an
+
+178
+00:07:21,070 --> 00:07:26,440
+uptrend one of the ways to trade the
+
+179
+00:07:24,099 --> 00:07:29,130
+hidden bullish divergence is to wait for
+
+180
+00:07:26,440 --> 00:07:31,840
+the error side to cross it's 50 level
+
+181
+00:07:29,130 --> 00:07:34,449
+also pay attention to candlestick
+
+182
+00:07:31,840 --> 00:07:36,820
+formations pin bars and engulfing
+
+183
+00:07:34,449 --> 00:07:39,340
+candles are great confirmation patterns
+
+184
+00:07:36,820 --> 00:07:42,669
+that bulls are prepared to push price
+
+185
+00:07:39,340 --> 00:07:44,949
+higher also trendline breakouts and
+
+186
+00:07:42,669 --> 00:07:47,500
+breakouts of a key resistance on a lower
+
+187
+00:07:44,949 --> 00:07:49,720
+timeframe are also very strong signals
+
+188
+00:07:47,500 --> 00:07:52,840
+that the hidden divergence could prove
+
+189
+00:07:49,720 --> 00:07:55,539
+to be successful after the entry of the
+
+190
+00:07:52,840 --> 00:07:56,699
+trade the stops are placed at the higher
+
+191
+00:07:55,539 --> 00:07:59,830
+low in price
+
+192
+00:07:56,699 --> 00:08:02,860
+following this aim for a one to one what
+
+193
+00:07:59,830 --> 00:08:04,840
+I wanted to risk/reward setup as you can
+
+194
+00:08:02,860 --> 00:08:08,680
+see in this example the price action
+
+195
+00:08:04,840 --> 00:08:11,380
+eventually reached our target however
+
+196
+00:08:08,680 --> 00:08:14,409
+not all hidden bullish divergences are
+
+197
+00:08:11,380 --> 00:08:16,630
+successful you can find many examples of
+
+198
+00:08:14,409 --> 00:08:19,599
+a failed hidden bullish divergence the
+
+199
+00:08:16,630 --> 00:08:22,180
+most common mistake that inexperienced
+
+200
+00:08:19,599 --> 00:08:24,849
+traders make would be mistaking false
+
+201
+00:08:22,180 --> 00:08:27,669
+hidden divergences scenarios as a green
+
+202
+00:08:24,849 --> 00:08:30,430
+light to get started with trading for
+
+203
+00:08:27,669 --> 00:08:31,210
+instance in this example looking at a
+
+204
+00:08:30,430 --> 00:08:33,400
+downtrend
+
+205
+00:08:31,210 --> 00:08:34,790
+you will spot that a hidden divergence
+
+206
+00:08:33,400 --> 00:08:37,670
+starts much
+
+207
+00:08:34,790 --> 00:08:39,710
+earlier than the official top that's why
+
+208
+00:08:37,670 --> 00:08:40,580
+when you spot the inception of a hidden
+
+209
+00:08:39,710 --> 00:08:43,430
+divergence
+
+210
+00:08:40,580 --> 00:08:45,410
+don't enter the market blindly you need
+
+211
+00:08:43,430 --> 00:08:48,170
+confirmation from price action first and
+
+212
+00:08:45,410 --> 00:08:50,390
+from the oscillator second a hidden
+
+213
+00:08:48,170 --> 00:08:53,240
+bullish divergence can fail when the
+
+214
+00:08:50,390 --> 00:08:55,070
+price fails to make new highs that's why
+
+215
+00:08:53,240 --> 00:08:58,580
+you should constantly pay attention to
+
+216
+00:08:55,070 --> 00:09:01,340
+price action this example shows a failed
+
+217
+00:08:58,580 --> 00:09:03,020
+hidden bullish divergence here
+
+218
+00:09:01,340 --> 00:09:05,690
+although price action jumped higher
+
+219
+00:09:03,020 --> 00:09:08,960
+after posting the higher low prices
+
+220
+00:09:05,690 --> 00:09:10,700
+failed to maintain the gains sure if you
+
+221
+00:09:08,960 --> 00:09:13,220
+entered early at the stochastic
+
+222
+00:09:10,700 --> 00:09:15,680
+crossover this trade would have brought
+
+223
+00:09:13,220 --> 00:09:18,380
+some profits following the swing high
+
+224
+00:09:15,680 --> 00:09:21,470
+that is formed price action barely tests
+
+225
+00:09:18,380 --> 00:09:23,960
+is high and then drops off this leads to
+
+226
+00:09:21,470 --> 00:09:26,180
+a downside correction in price as you
+
+227
+00:09:23,960 --> 00:09:28,430
+can see while this looks like a failed
+
+228
+00:09:26,180 --> 00:09:30,830
+hidden bullish divergence you can see
+
+229
+00:09:28,430 --> 00:09:32,990
+that a failure of the swing high leads
+
+230
+00:09:30,830 --> 00:09:35,690
+to prices posting or your purse all to
+
+231
+00:09:32,990 --> 00:09:38,030
+the downside price is king that's why
+
+232
+00:09:35,690 --> 00:09:40,160
+you need to let it guide you so the big
+
+233
+00:09:38,030 --> 00:09:42,560
+point to remember is that when the
+
+234
+00:09:40,160 --> 00:09:44,090
+hidden bullish divergence forms near the
+
+235
+00:09:42,560 --> 00:09:46,400
+top end of the rally
+
+236
+00:09:44,090 --> 00:09:49,190
+you can expect to see a topping pattern
+
+237
+00:09:46,400 --> 00:09:51,620
+being formed if the hidden divergence
+
+238
+00:09:49,190 --> 00:09:54,380
+pattern fails you can expect to see
+
+239
+00:09:51,620 --> 00:09:56,750
+reversal on the lower side here are
+
+240
+00:09:54,380 --> 00:10:15,650
+other examples of successful hidden
+
+241
+00:09:56,750 --> 00:10:17,960
+divergence patterns the hidden
+
+242
+00:10:15,650 --> 00:10:20,480
+divergence is an exceptional market tool
+
+243
+00:10:17,960 --> 00:10:22,100
+that can pinpoint areas to enter the
+
+244
+00:10:20,480 --> 00:10:24,530
+market and eliminate some of the
+
+245
+00:10:22,100 --> 00:10:27,770
+guesswork created by false trading
+
+246
+00:10:24,530 --> 00:10:29,990
+signals divergences although not perfect
+
+247
+00:10:27,770 --> 00:10:32,690
+are very powerful techniques to use
+
+248
+00:10:29,990 --> 00:10:35,600
+since hidden divergences usually occur
+
+249
+00:10:32,690 --> 00:10:37,790
+on minor retracement the probability of
+
+250
+00:10:35,600 --> 00:10:40,280
+a successful trade is higher since
+
+251
+00:10:37,790 --> 00:10:43,520
+chances are you are still trading with
+
+252
+00:10:40,280 --> 00:10:45,560
+the trend and not against it if you
+
+253
+00:10:43,520 --> 00:10:47,780
+learn something new and found value give
+
+254
+00:10:45,560 --> 00:10:49,820
+us a like to share support and make sure
+
+255
+00:10:47,780 --> 00:10:51,760
+to subscribe and click the bell icon to
+
+256
+00:10:49,820 --> 00:10:55,090
+stay in touch when we upload new videos
+
+257
+00:10:51,760 --> 00:10:55,090
+until next time
+

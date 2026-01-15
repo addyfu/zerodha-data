@@ -1,0 +1,740 @@
+1
+00:00:00,830 --> 00:00:07,589
+Market manipulation occurs on a daily basis,
+right under the noses of retail traders.
+
+2
+00:00:07,589 --> 00:00:10,540
+You witness this yourself, every day.
+
+3
+00:00:10,540 --> 00:00:17,350
+And you’re wondering why the theory of support
+and resistance you read in almost every trading
+
+4
+00:00:17,350 --> 00:00:20,270
+book, doesn’t seem to work in real markets.
+
+5
+00:00:20,270 --> 00:00:27,019
+Today I’m sharing my experience with support
+and resistance trading, but in the context
+
+6
+00:00:27,019 --> 00:00:33,210
+of smart money, and you’ll learn the best
+practices to trade, and avoid being manipulated
+
+7
+00:00:33,210 --> 00:00:35,590
+by big market players.
+
+8
+00:00:35,590 --> 00:00:41,149
+You know the drill, like, subscribe, and stick
+around for the full video.
+
+9
+00:00:41,149 --> 00:00:48,740
+The biggest lie in trading
+True or false?
+
+10
+00:00:48,740 --> 00:00:53,420
+The more times a level is tested, the more
+“valid” it is.
+
+11
+00:00:53,420 --> 00:00:56,230
+If you said true, you are wrong!
+
+12
+00:00:56,230 --> 00:00:59,940
+This statement is one of the biggest lies
+in trading.
+
+13
+00:00:59,940 --> 00:01:07,970
+In my experience, really strong support/resistance
+levels immediately push price away from them.
+
+14
+00:01:07,970 --> 00:01:14,159
+There is enough buying pressure at support
+(enough buyers waiting to buy at the level),
+
+15
+00:01:14,159 --> 00:01:19,240
+that the market is immediately moved up and
+away from the level.
+
+16
+00:01:19,240 --> 00:01:25,590
+If price can hang around the level or quickly
+comes back to the level, it suggests a certain
+
+17
+00:01:25,590 --> 00:01:30,280
+lack of conviction on the part of the bulls.
+
+18
+00:01:30,280 --> 00:01:36,690
+If the market is able to retest the level
+many times, then you have a potential setup
+
+19
+00:01:36,690 --> 00:01:40,030
+for a breakout through the level.
+
+20
+00:01:40,030 --> 00:01:49,649
+In this example, the orders at the support
+level are absorbed each time price revisits
+
+21
+00:01:49,649 --> 00:01:54,450
+the area, until buyers lose their power.
+
+22
+00:01:54,450 --> 00:01:58,530
+Price then plunges through the zone with little
+difficulty.
+
+23
+00:01:58,530 --> 00:02:03,079
+And also look at this resistance level.
+
+24
+00:02:03,079 --> 00:02:09,440
+The upper zone was tested several times and
+sellers came in pushing the price down.
+
+25
+00:02:09,440 --> 00:02:17,840
+This resistance level was gradually eroded
+as more and more sellers had their order filled.
+
+26
+00:02:17,840 --> 00:02:23,650
+Eventually there were less sellers and price
+broke through.
+
+27
+00:02:23,650 --> 00:02:32,410
+Personally, I avoid buying a support which
+has been tested multiple times in the past.
+
+28
+00:02:32,410 --> 00:02:39,050
+The greater the number of times a zone is
+tested, the more likely it is to break.
+
+29
+00:02:39,050 --> 00:02:45,160
+When a support area is tested multiple times,
+some or all of the waiting buy orders are
+
+30
+00:02:45,160 --> 00:02:50,890
+executed, leaving less willing buyers at that
+level.
+
+31
+00:02:50,890 --> 00:02:58,909
+Once all the buyers have gone, price can move
+through that level to the next area.
+
+32
+00:02:58,909 --> 00:03:04,940
+From my experience, the best entry is the
+one where price drops to support and quickly
+
+33
+00:03:04,940 --> 00:03:10,739
+moves up, leaving a long shadow on the candle
+that dropped through support.
+
+34
+00:03:10,739 --> 00:03:13,290
+A liquidity clear-out.
+
+35
+00:03:13,290 --> 00:03:20,920
+I would much rather buy a broken support,
+after a liquidity clear-out, than clean support…
+
+36
+00:03:20,920 --> 00:03:27,000
+that trade is 10 times better (to me) than
+buying a clean, exact support level.
+
+37
+00:03:27,000 --> 00:03:37,270
+Strong imbalance between buyers and sellers
+At one point, price leaves a support or resistance
+
+38
+00:03:37,270 --> 00:03:39,800
+level and starts trending.
+
+39
+00:03:39,800 --> 00:03:47,750
+A strong imbalance between buyers and sellers
+leads to strong and explosive price movements.
+
+40
+00:03:47,750 --> 00:03:54,420
+As a rule of thumb, remember that the stronger
+the movement away from a level, the more interest
+
+41
+00:03:54,420 --> 00:04:00,409
+will usually still exist – especially when
+the time spent at the level was relatively
+
+42
+00:04:00,409 --> 00:04:01,409
+short.
+
+43
+00:04:01,409 --> 00:04:08,940
+So when price goes from selling off to a strong
+bullish trend, there had to be a significant
+
+44
+00:04:08,940 --> 00:04:15,800
+amount of buy interest entering the market,
+absorbing all sell orders AND then driving
+
+45
+00:04:15,800 --> 00:04:19,769
+price higher.
+
+46
+00:04:19,769 --> 00:04:27,710
+So the next time price revisits the area,
+I would be very interested to buy that support.
+
+47
+00:04:27,710 --> 00:04:35,040
+Always look for extremely strong turning points;
+these are often high probability price levels.
+
+48
+00:04:35,040 --> 00:04:46,560
+Price manipulation around support and resistance
+Price manipulation is a series of actions
+
+49
+00:04:46,560 --> 00:04:54,440
+carried out by smart money to induce either
+buying or selling activity from other traders.
+
+50
+00:04:54,440 --> 00:04:56,810
+Why would they do that?
+
+51
+00:04:56,810 --> 00:05:02,810
+Smart money uses position sizes that stop
+them from simply hitting buy or sell as you
+
+52
+00:05:02,810 --> 00:05:05,460
+and I would do.
+
+53
+00:05:05,460 --> 00:05:11,410
+Because their position sizes are so massive
+they must enter over a period of time so as
+
+54
+00:05:11,410 --> 00:05:17,120
+to not spike the price and reveal the position
+they’re entering.
+
+55
+00:05:17,120 --> 00:05:23,960
+Because of this they have to seek out areas
+in the market where there is enough liquidity.
+
+56
+00:05:23,960 --> 00:05:30,850
+A great deal of orders reside around support
+and resistance zones.
+
+57
+00:05:30,850 --> 00:05:45,150
+Stop Entering When the Pro's are Taking Profit
+Take a look at this example.
+
+58
+00:05:45,150 --> 00:05:51,270
+This shows a very common pattern in the market:
+the key differences of where the professional
+
+59
+00:05:51,270 --> 00:05:56,560
+money enters and where the retail trader enters.
+
+60
+00:05:56,560 --> 00:06:03,370
+The retail trader buys and takes a long trade
+when price breaks a previous resistance level
+
+61
+00:06:03,370 --> 00:06:06,680
+and price is at a new high.
+
+62
+00:06:06,680 --> 00:06:10,509
+Admit it, it’s a strategy you use often.
+
+63
+00:06:10,509 --> 00:06:15,319
+But soon after the entry, price moves lower
+from the previous high.
+
+64
+00:06:15,319 --> 00:06:18,060
+And you often times get stopped out.
+
+65
+00:06:18,060 --> 00:06:25,540
+At the same time you are stopped out, the
+professional traders are entering the market.
+
+66
+00:06:25,540 --> 00:06:31,280
+That’s the difference between retail and
+smart money.
+
+67
+00:06:31,280 --> 00:06:34,930
+Retail traders buy at support.
+
+68
+00:06:34,930 --> 00:06:38,940
+Smart money buy below support.
+
+69
+00:06:38,940 --> 00:06:44,850
+And when price moves higher the professional
+traders will cover their long trades and start
+
+70
+00:06:44,850 --> 00:06:47,370
+taking their profit.
+
+71
+00:06:47,370 --> 00:06:53,960
+At that time, the retail traders are just
+starting to enter long.
+
+72
+00:06:53,960 --> 00:07:00,381
+When you enter from these areas that are at
+extreme highs or lows, the big guys are taking
+
+73
+00:07:00,381 --> 00:07:02,180
+profit.
+
+74
+00:07:02,180 --> 00:07:07,330
+And obviously entering the market when the
+smart money are getting out is not a smart
+
+75
+00:07:07,330 --> 00:07:08,330
+plan.
+
+76
+00:07:08,330 --> 00:07:16,350
+A common saying in trading is: buy any weakness
+and sell any strength.
+
+77
+00:07:16,350 --> 00:07:23,980
+So if price moves lower from an extreme high
+then you can look to buy from a value area,
+
+78
+00:07:23,980 --> 00:07:35,280
+and if price moves higher from an extreme
+low, price can be sold from a value area.
+
+79
+00:07:35,280 --> 00:07:42,430
+Here’s price moving from an extreme high
+back lower.
+
+80
+00:07:42,430 --> 00:07:51,090
+This is price showing weakness and moving
+to a value area for a possible buy entry.
+
+81
+00:07:51,090 --> 00:07:57,750
+If you have entered a long trade from the
+high, you would have been stopped out.
+
+82
+00:07:57,750 --> 00:08:03,430
+But if you have instead entered a long trade
+when price showed weakness and moved back
+
+83
+00:08:03,430 --> 00:08:08,710
+lower, you would have entered at a much better
+area.
+
+84
+00:08:08,710 --> 00:08:18,129
+The consolidation trap
+Price spends most of its time in consolidation.
+
+85
+00:08:18,129 --> 00:08:21,850
+This is the market showing you a balance in
+price.
+
+86
+00:08:21,850 --> 00:08:24,870
+There are several reasons for the price to
+consolidate.
+
+87
+00:08:24,870 --> 00:08:29,509
+One of them is liquidity generation.
+
+88
+00:08:29,509 --> 00:08:35,690
+When price consolidates for an extended period
+of time, the masses start to place support
+
+89
+00:08:35,690 --> 00:08:42,219
+and resistance levels at the extremes of the
+consolidation zone.
+
+90
+00:08:42,219 --> 00:08:50,910
+Any sudden break out of this consolidation
+range will tempt traders to enter.
+
+91
+00:08:50,910 --> 00:08:57,360
+These entry opportunities are traps set by
+the market makers using this consolidation
+
+92
+00:08:57,360 --> 00:09:00,829
+technique.
+
+93
+00:09:00,829 --> 00:09:05,760
+If you’re using certain indicators, things
+are even worse.
+
+94
+00:09:05,760 --> 00:09:11,870
+When the market is in consolidation, moving
+averages, probably the most common indicator,
+
+95
+00:09:11,870 --> 00:09:14,370
+will get very close together.
+
+96
+00:09:14,370 --> 00:09:21,620
+The most common entry signal is given to retail
+traders when these 2 moving averages cross.
+
+97
+00:09:21,620 --> 00:09:28,790
+A breakout outside the consolidation, plus
+the crossover, indicate to retail traders
+
+98
+00:09:28,790 --> 00:09:33,709
+that the trend has now changed.
+
+99
+00:09:33,709 --> 00:09:36,519
+This is “a false” signal that the price
+will increase.
+
+100
+00:09:36,519 --> 00:09:44,280
+All of these confirmations are seducing the
+average retail trader to take a buy position,
+
+101
+00:09:44,280 --> 00:09:50,210
+in order for the smart money to fill their
+massive sell positions.
+
+102
+00:09:50,210 --> 00:09:56,300
+And by the time the indicators signal the
+change to a downtrend the market has already
+
+103
+00:09:56,300 --> 00:09:59,529
+made most of its move.
+
+104
+00:09:59,529 --> 00:10:06,060
+The point is: smart money knows that even
+the smallest break outside of a consolidation
+
+105
+00:10:06,060 --> 00:10:10,380
+area will set off the signal to the masses.
+
+106
+00:10:10,380 --> 00:10:17,529
+This is well known tactic used by market makers
+to trick retail traders into buying or selling
+
+107
+00:10:17,529 --> 00:10:28,029
+certain levels.
+
+108
+00:10:28,029 --> 00:10:29,029
+Liquidity clear-outs
+
+109
+00:10:29,029 --> 00:10:32,149
+Liquidity is just a fancy word for you taking
+a position.
+
+110
+00:10:32,149 --> 00:10:37,160
+The more people taking positions, the more
+liquidity you have.
+
+111
+00:10:37,160 --> 00:10:43,920
+The big players need LOTS of liquidity in
+order to fill their massive orders.
+
+112
+00:10:43,920 --> 00:10:46,630
+How do you think they get this liquidity?
+
+113
+00:10:46,630 --> 00:10:52,959
+By creating well known retail chart patterns,
+in order to involve the retail traders into
+
+114
+00:10:52,959 --> 00:10:55,620
+the market.
+
+115
+00:10:55,620 --> 00:11:01,089
+These patterns are used by smart money to
+induce you take a position.
+
+116
+00:11:01,089 --> 00:11:06,720
+You might have a small account, and trade
+with mini lots, but remember, millions of
+
+117
+00:11:06,720 --> 00:11:12,100
+beginner traders are in your shoes, and use
+the same information to trade.
+
+118
+00:11:12,100 --> 00:11:18,410
+Smart money vs dumb money
+
+119
+00:11:18,410 --> 00:11:22,790
+Trading will always be a game against the
+smart money and the dumb money.
+
+120
+00:11:22,790 --> 00:11:28,910
+How many times have you traded a triangle
+pattern, for example, just for the price to
+
+121
+00:11:28,910 --> 00:11:35,029
+do the exact opposite as soon as you jump
+into your position?
+
+122
+00:11:35,029 --> 00:11:41,130
+Retail traders might see these patterns as
+continuation patterns, but the smart money
+
+123
+00:11:41,130 --> 00:11:47,240
+are seeing them as reversal patterns.
+
+124
+00:11:47,240 --> 00:11:52,279
+You have to start putting yourself in the
+shoes of the large institutions and big-money
+
+125
+00:11:52,279 --> 00:11:53,779
+players.
+
+126
+00:11:53,779 --> 00:11:57,110
+Think like the hunter, not the prey.
+
+127
+00:11:57,110 --> 00:12:02,660
+Always remember that smart money are always
+searching for pockets of liquidity in order
+
+128
+00:12:02,660 --> 00:12:06,050
+to fill their desired positions in the market.
+
+129
+00:12:06,050 --> 00:12:13,149
+They are always looking to shake out weak
+hands, particularly around support and resistance
+
+130
+00:12:13,149 --> 00:12:16,779
+levels that are being widely watched.
+
+131
+00:12:16,779 --> 00:12:23,970
+It’s time to reconsider how you see support
+and resistance levels and to start building
+
+132
+00:12:23,970 --> 00:12:29,880
+a strategy that allows you to join the smart
+money, after a liquidity clear-out.
+
+133
+00:12:29,880 --> 00:12:39,079
+Trade In The Direction Of The Most Recent
+valid High/Low
+
+134
+00:12:39,079 --> 00:12:44,180
+Most of the traders who trade support and
+resistance try to predict where a movement
+
+135
+00:12:44,180 --> 00:12:50,290
+will end instead of trading in the direction
+of the movement itself.
+
+136
+00:12:50,290 --> 00:12:56,839
+What these traders typically tend to do is
+mark all the levels which the market hasn’t
+
+137
+00:12:56,839 --> 00:13:03,269
+encountered yet and wait for the price to
+enter these zones before going either long
+
+138
+00:13:03,269 --> 00:13:04,269
+or short.
+
+139
+00:13:04,269 --> 00:13:10,959
+But there are lots of levels forming in the
+direction of the current movement which the
+
+140
+00:13:10,959 --> 00:13:18,269
+trader is neglecting to trade because he is
+so focused on predicting where the price will
+
+141
+00:13:18,269 --> 00:13:19,620
+reverse.
+
+142
+00:13:19,620 --> 00:13:26,029
+My advice is to start taking trades at levels
+which formed in the direction of the most
+
+143
+00:13:26,029 --> 00:13:27,691
+recent high or low.
+
+144
+00:13:27,691 --> 00:13:36,471
+A new high or low is a signal that the current
+momentum is to the upside or downside, by
+
+145
+00:13:36,471 --> 00:13:43,850
+trading against this momentum you are unnecessarily
+putting yourself at risk of losing money because
+
+146
+00:13:43,850 --> 00:13:47,110
+you’re trying to trade against the trend.
+
+147
+00:13:47,110 --> 00:13:56,210
+Big Round Number Prices
+I said it quite a few times before, one of
+
+148
+00:13:56,210 --> 00:14:02,300
+the best places you can find high probability
+support and resistance levels, is around the
+
+149
+00:14:02,300 --> 00:14:05,860
+big round number levels.
+
+150
+00:14:05,860 --> 00:14:11,800
+The support and resistance levels you can
+find situated around these prices have a high
+
+151
+00:14:11,800 --> 00:14:17,480
+probability of causing a large reversal to
+occur.
+
+152
+00:14:17,480 --> 00:14:23,389
+Just open any chart and you’ll see that
+many big reversals will begin once the price
+
+153
+00:14:23,389 --> 00:14:33,850
+has either almost hit a big round number,
+or has just moved beyond it.
+
+154
+00:14:33,850 --> 00:14:37,930
+If you found value and learned something new,
+leave us a like.
+
+155
+00:14:37,930 --> 00:14:42,480
+This way we’ll know if you'd like to see
+more videos like this one.
+
+156
+00:14:42,480 --> 00:14:49,440
+And check out our academy program if you want
+to further level up your trading.
+
+157
+00:14:49,440 --> 00:14:49,990
+Until next time.
+

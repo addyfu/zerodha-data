@@ -1,0 +1,605 @@
+1
+00:00:01,420 --> 00:00:06,650
+Chaikin Money Flow is a technical indicator
+which determines if an instrument is under
+
+2
+00:00:06,650 --> 00:00:08,900
+accumulation or distribution.
+
+3
+00:00:08,900 --> 00:00:13,590
+The Chaikin Money Flow compares the closing
+price to the high-low range of the trading
+
+4
+00:00:13,590 --> 00:00:14,830
+session.
+
+5
+00:00:14,830 --> 00:00:19,400
+• if the price closes near the high of the
+session with increased volume, the Chaikin
+
+6
+00:00:19,400 --> 00:00:23,880
+Money Flow increases in value
+• if the price closes near the low of the
+
+7
+00:00:23,880 --> 00:00:29,710
+session with increased volume, the Chaikin
+Money Flow decreases in value.
+
+8
+00:00:29,710 --> 00:00:35,170
+Chaikin Money Flow measures buying and selling
+pressure over a set period of time and is
+
+9
+00:00:35,170 --> 00:00:39,969
+a popular indicator among the traders who
+use volume technical analysis.
+
+10
+00:00:39,969 --> 00:00:46,170
+Along with the On Balance Volume, the Chaikin
+Money Flow is tracking the Money Flow on a
+
+11
+00:00:46,170 --> 00:00:47,170
+market.
+
+12
+00:00:47,170 --> 00:00:50,660
+What are the setting of this volume indicator?
+
+13
+00:00:50,660 --> 00:00:57,530
+Traders generally use 20-periods or 21-periods
+for calculating the Chaikin Money Flow indicator.
+
+14
+00:00:57,530 --> 00:01:03,670
+Some traders also use the 50-period Chaikin
+Money Flow to determine the accumulation /distribution
+
+15
+00:01:03,670 --> 00:01:06,150
+on the longer term.
+
+16
+00:01:06,150 --> 00:01:12,079
+• Chaikin Money Flow settings with values
+over 30 make the indicator less sensitive.
+
+17
+00:01:12,079 --> 00:01:15,049
+This will result in fewer, but better quality
+signals
+
+18
+00:01:15,049 --> 00:01:22,380
+• Chaikin Money Flow settings with values
+below 20 make the indicator over-sensitive.
+
+19
+00:01:22,380 --> 00:01:25,460
+This will result in more market noise.
+
+20
+00:01:25,460 --> 00:01:30,390
+Lower settings on the Chaikin Money Flow indicator
+should be carefully traded, as it can lead
+
+21
+00:01:30,390 --> 00:01:33,840
+to many false signals
+
+22
+00:01:33,840 --> 00:01:40,109
+How To Read Chaikin Money Flow
+Chaikin Money Flow is used by traders to confirm
+
+23
+00:01:40,109 --> 00:01:41,609
+the market trend.
+
+24
+00:01:41,609 --> 00:01:51,100
+CMF values above zero indicate an uptrend
+while CMF values below zero suggest a downtrend.
+
+25
+00:01:51,100 --> 00:01:55,340
+• when the Chaikin Money Flow indicator
+is above 0-level this is a bullish signal
+
+26
+00:01:55,340 --> 00:02:01,159
+• when the Chaikin Money Flow indicator
+is below 0-level this is a bearish signal
+
+27
+00:02:01,159 --> 00:02:10,560
+The Chaikin Money Flow usually stays between
+-0.5 and 0.5 levels and rarely reaches its
+
+28
+00:02:10,560 --> 00:02:15,909
+maximum/minimum values of -1 and 1.
+
+29
+00:02:15,909 --> 00:02:21,360
+A movement of the Chaikin Money Flow oscillator
+from negative to positive or vice versa does
+
+30
+00:02:21,360 --> 00:02:23,680
+not suggest a change in trend.
+
+31
+00:02:23,680 --> 00:02:30,310
+So remember this observation because in choppy
+markets the CMF generates many false signals.
+
+32
+00:02:30,310 --> 00:02:36,980
+The Chaikin Money Flow is also used by traders
+to confirm the strength behind an uptrend
+
+33
+00:02:36,980 --> 00:02:37,980
+or a downtrend.
+
+34
+00:02:37,980 --> 00:02:44,450
+In this regard, the indicator resembles the
+Average Directional Movement (ADX), which
+
+35
+00:02:44,450 --> 00:02:48,659
+also measures trend strength.
+
+36
+00:02:48,659 --> 00:02:54,159
+Chaikin Money Flow confirms the breakouts
+of support and resistance levels.
+
+37
+00:02:54,159 --> 00:03:00,430
+During an uptrend, if a breakout of a resistance
+occurs while the CMF reaches new highs, this
+
+38
+00:03:00,430 --> 00:03:04,350
+suggests that the bulls are taking control
+of the market.
+
+39
+00:03:04,350 --> 00:03:10,439
+This is a signal of an uptrend continuation
+During a downtrend, if a breakout of a support
+
+40
+00:03:10,439 --> 00:03:16,239
+occurs while the CMF reaches new lows, this
+suggests that the bears are taking control
+
+41
+00:03:16,239 --> 00:03:18,019
+of the market.
+
+42
+00:03:18,019 --> 00:03:24,890
+This is a signal of a downtrend continuation
+However, the Chaikin Money Flow has a flaw.
+
+43
+00:03:24,890 --> 00:03:28,540
+The CMF is not handling gaps very well.
+
+44
+00:03:28,540 --> 00:03:35,090
+For example, if a gap occurs on the upside
+and closes at a lower price, the money flow
+
+45
+00:03:35,090 --> 00:03:41,329
+would give you a negative figure, despite
+the bullish price increase.
+
+46
+00:03:41,329 --> 00:03:44,439
+How to Read Market Conditions with Chaikin
+Money Flow
+
+47
+00:03:44,439 --> 00:03:53,420
+• values between 0.05 – 0.25 indicate
+buying pressures from the bulls.
+
+48
+00:03:53,420 --> 00:03:59,980
+This is a sign of accumulation and that the
+market trades in an uptrend.
+
+49
+00:03:59,980 --> 00:04:07,650
+• values between 0.25 – 0.4 indicate that
+the bulls are in control of the market.
+
+50
+00:04:07,650 --> 00:04:10,930
+This indicates that the market is in a strong
+uptrend
+
+51
+00:04:10,930 --> 00:04:19,630
+• values between 0.4 – 1 indicate that
+the bulls are in full control of the market.
+
+52
+00:04:19,630 --> 00:04:22,830
+This indicates that the market is in a very
+strong uptrend
+
+53
+00:04:22,830 --> 00:04:34,200
+• values between -0.05 – -0.25 indicate
+selling pressures from the bears.
+
+54
+00:04:34,200 --> 00:04:39,390
+This is a sign of distribution and that the
+market trades in a downtrend.
+
+55
+00:04:39,390 --> 00:04:48,260
+• values between -0.25 – -0.4 indicate
+that the bears are in control of the market.
+
+56
+00:04:48,260 --> 00:04:50,660
+This indicates that the market is in a strong
+downtrend
+
+57
+00:04:50,660 --> 00:05:00,120
+• values between -0.4 – -1 indicate that
+the bears are in full control of the market.
+
+58
+00:05:00,120 --> 00:05:02,960
+This indicates that the market is in a very
+strong downtrend
+
+59
+00:05:02,960 --> 00:05:12,870
+• values between -0.05 – 0.05 signals
+a decision-making period.
+
+60
+00:05:12,870 --> 00:05:18,000
+When the CMF trades between these levels,
+the bulls and bears are putting pressure to
+
+61
+00:05:18,000 --> 00:05:19,500
+take control of the market.
+
+62
+00:05:19,500 --> 00:05:26,320
+This area is often marked by choppiness and
+is better to be avoided.
+
+63
+00:05:26,320 --> 00:05:33,280
+How To Trade With Chaikin Money Flow
+One of the most common ways in which traders
+
+64
+00:05:33,280 --> 00:05:38,150
+use the Chaikin Money Flow indicator is to
+take signals when the oscillator crosses the
+
+65
+00:05:38,150 --> 00:05:40,090
+zero level.
+
+66
+00:05:40,090 --> 00:05:44,300
+• when CMF indicator crosses above zero,
+a buy signal is generated
+
+67
+00:05:44,300 --> 00:05:50,970
+• when CMF indicator crosses below zero,
+a sell signal occurs
+
+68
+00:05:50,970 --> 00:05:55,830
+If we analyze this chart, we can observe some
+decent signals offered by the Chaikin Money
+
+69
+00:05:55,830 --> 00:05:57,310
+Flow indicator.
+
+70
+00:05:57,310 --> 00:06:04,370
+But being a volume indicator, by itself, the
+CMF is not so reliable and it will offer many
+
+71
+00:06:04,370 --> 00:06:05,600
+false signals.
+
+72
+00:06:05,600 --> 00:06:10,220
+It’s better to confirm the trend with another
+indicator.
+
+73
+00:06:10,220 --> 00:06:16,470
+In this case, I like to use my old reliable
+200-period moving average in order to determine
+
+74
+00:06:16,470 --> 00:06:18,780
+the prevailing trend.
+
+75
+00:06:18,780 --> 00:06:24,370
+• When the price trades above the 200-period
+exponential moving average, we consider taking
+
+76
+00:06:24,370 --> 00:06:26,850
+only long entries.
+
+77
+00:06:26,850 --> 00:06:31,410
+• When the price trades below the 200-period
+exponential moving average we consider taking
+
+78
+00:06:31,410 --> 00:06:33,150
+only short entries.
+
+79
+00:06:33,150 --> 00:06:37,030
+Now, entering the market is much simpler.
+
+80
+00:06:37,030 --> 00:06:43,270
+We wait for the Chaikin Money Flow indicator
+to cross above the 0-level, above 200-EMA
+
+81
+00:06:43,270 --> 00:06:49,900
+for a long entry and we wait Chaikin Money
+Flow indicator to cross below the 0-level,
+
+82
+00:06:49,900 --> 00:06:54,530
+below 200-EMA for a short entry.
+
+83
+00:06:54,530 --> 00:06:56,610
+And here an even better entry.
+
+84
+00:06:56,610 --> 00:07:04,070
+A smarter way to trade the Chaikin Money Flow
+would be to plot the 0.05 and -0.05 levels.
+
+85
+00:07:04,070 --> 00:07:09,890
+In this way, you filter the choppiness around
+the 0 level.
+
+86
+00:07:09,890 --> 00:07:20,430
+• Take short entries below -0.05 level
+• Take long positions above the 0.05 level
+
+87
+00:07:20,430 --> 00:07:43,810
+Here are a few examples of valid CMF trades.
+
+88
+00:07:43,810 --> 00:07:48,350
+Another strategy involves applying a moving
+average on the indicator.
+
+89
+00:07:48,350 --> 00:07:52,520
+By adding a moving average on the Chaikin
+Money Flow’s chart window, you can take
+
+90
+00:07:52,520 --> 00:07:57,500
+crossover signals,
+Now, when you want to trade a crossover between
+
+91
+00:07:57,500 --> 00:08:01,770
+the Chaikin Money Flow oscillator and a moving
+average, you should be aware of an important
+
+92
+00:08:01,770 --> 00:08:02,770
+thing.
+
+93
+00:08:02,770 --> 00:08:07,000
+A crossover will catch good movements when
+markets are trending.
+
+94
+00:08:07,000 --> 00:08:11,570
+When markets are trading in a range, this
+system is subject to false signals, which
+
+95
+00:08:11,570 --> 00:08:13,110
+will lead to losing trades.
+
+96
+00:08:13,110 --> 00:08:19,470
+A longer-term moving average added on Chaikin
+Money Flow will work better than short-term
+
+97
+00:08:19,470 --> 00:08:20,490
+moving average.
+
+98
+00:08:20,490 --> 00:08:24,970
+A longer-term moving average will produce
+fewer signals.
+
+99
+00:08:24,970 --> 00:08:27,370
+Also, this is not enough.
+
+100
+00:08:27,370 --> 00:08:31,500
+This approach will generate many false signals
+if you don’t confirm the trend with other
+
+101
+00:08:31,500 --> 00:08:32,840
+indicators.
+
+102
+00:08:32,840 --> 00:08:36,759
+You cannot take a crossover signal without
+knowing the market trend.
+
+103
+00:08:36,759 --> 00:08:43,189
+That’s why I prefer to determine the prevailing
+trend in the market with Ichimoku indicator.
+
+104
+00:08:43,189 --> 00:08:47,870
+For this setup, I plot only the Kumo cloud.
+
+105
+00:08:47,870 --> 00:08:53,790
+So we plotted the Kumo cloud and we added
+a 200-period moving average on the Chaikin
+
+106
+00:08:53,790 --> 00:08:57,720
+Money Flow indicator with a 21-period input.
+
+107
+00:08:57,720 --> 00:09:02,810
+And the setup is simple:
+• Buy only signals above the Kumo cloud,
+
+108
+00:09:02,810 --> 00:09:06,470
+when the Chaikin Money Flow crosses above
+the 200-period moving average
+
+109
+00:09:06,470 --> 00:09:15,450
+• Sell only signals below the Kumo cloud,
+when the Chaikin Money Flow crosses below
+
+110
+00:09:15,450 --> 00:09:16,769
+200-period moving average
+
+111
+00:09:16,769 --> 00:09:25,209
+Also, very important…We don’t take entries
+when the price is inside the Kumo cloud.
+
+112
+00:09:25,209 --> 00:09:30,779
+If a crossover between Chaikin Money Flow
+and the 200 EMA occurs when the market price
+
+113
+00:09:30,779 --> 00:09:34,459
+is inside the Kumo cloud, we ignore the setup.
+
+114
+00:09:34,459 --> 00:09:39,920
+We could enter a trade once the price closes
+above or below the cloud, in the direction
+
+115
+00:09:39,920 --> 00:09:41,610
+indicated by the crossover.
+
+116
+00:09:41,610 --> 00:09:45,730
+But never when the price is inside.
+
+117
+00:09:45,730 --> 00:10:11,339
+Here are some examples of valid trades, with
+the Kumo cloud as trend filter.
+
+118
+00:10:11,339 --> 00:10:16,420
+Chaikin Money Flow is a very useful indicator
+for confirming the direction of the main trend.
+
+119
+00:10:16,420 --> 00:10:21,379
+It works well during trending market conditions
+and is very good at confirming the strength
+
+120
+00:10:21,379 --> 00:10:23,110
+of the main trend.
+
+121
+00:10:23,110 --> 00:10:28,509
+In what concerns its limitations, in a choppy
+market, many false signals are generated around
+
+122
+00:10:28,509 --> 00:10:31,649
+the zero level, so be aware of this.
+
+123
+00:10:31,649 --> 00:10:38,579
+Also, CMF value is not accurate when big gaps
+occur on the market so when you spot larger
+
+124
+00:10:38,579 --> 00:10:42,779
+gaps, maybe you should re-analyze the setup.
+
+125
+00:10:42,779 --> 00:10:48,730
+I also found the Chaikin Money Flow quite
+unreliable on smaller time frames like M1
+
+126
+00:10:48,730 --> 00:10:55,670
+or M5, so I would pay extra attention when
+using it for scalping.
+
+127
+00:10:55,670 --> 00:11:00,160
+If you found value and learned something new,
+leave us a like to show your support and make
+
+128
+00:11:00,160 --> 00:11:04,620
+sure you subscribe and hit the bell icon to
+stay notified when we upload new videos.
+
+129
+00:11:04,620 --> 00:11:06,200
+Until next time.
+

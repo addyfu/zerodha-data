@@ -1,0 +1,914 @@
+1
+00:00:00,789 --> 00:00:05,770
+Most of the information you can find online
+is usually all about retail trading.
+
+2
+00:00:05,770 --> 00:00:09,660
+If you look for institutional trading, you
+can’t find much about it.
+
+3
+00:00:09,660 --> 00:00:15,230
+Smart Money trading is perhaps one of the
+best kept secrets in the world of trading.
+
+4
+00:00:15,230 --> 00:00:20,480
+Once you discover institutional trading and
+learn how Smart Money place their orders,
+
+5
+00:00:20,480 --> 00:00:26,230
+you can implement these concepts to your own
+style of trading and see much better results.
+
+6
+00:00:26,230 --> 00:00:31,160
+So let me show you several smart money concepts
+you must follow, in order to finally become
+
+7
+00:00:31,160 --> 00:00:33,380
+a profitable trader.
+
+8
+00:00:33,380 --> 00:00:39,160
+Indicators Lag, Price Action Leads
+
+9
+00:00:39,160 --> 00:00:44,690
+There is no indicator, Forex robot, or mechanical
+trading system that will make you money if
+
+10
+00:00:44,690 --> 00:00:48,230
+you don’t understand how and why price moves.
+
+11
+00:00:48,230 --> 00:00:52,989
+In reality, if you rely your decisions on
+indicators, you’re not really trading the
+
+12
+00:00:52,989 --> 00:00:58,400
+market, you’re really just plugging numbers
+into a few mathematical formulas.
+
+13
+00:00:58,400 --> 00:01:00,780
+Indicators have absolutely no flexibility.
+
+14
+00:01:00,780 --> 00:01:06,670
+They are just an equation that is used over
+and over again, regardless of market conditions.
+
+15
+00:01:06,670 --> 00:01:13,390
+Stochastics, MACD and a load of other indicators
+are presenting you with lagging information.
+
+16
+00:01:13,390 --> 00:01:18,390
+They may look pretty on your chart, and can
+help you to some degree to view a market,
+
+17
+00:01:18,390 --> 00:01:23,270
+but they don’t really help you predict where
+the price is going in the future.
+
+18
+00:01:23,270 --> 00:01:27,409
+Indicators show you what has happened in the
+past, but they won’t tell you what price
+
+19
+00:01:27,409 --> 00:01:30,940
+is going to do in the future.
+
+20
+00:01:30,940 --> 00:01:34,700
+Indicators used to be a powerful tool, but
+those days have passed.
+
+21
+00:01:34,700 --> 00:01:41,200
+Stochastic was created in 1950′s, MACD in
+1960′s and RSI 1970′s.
+
+22
+00:01:41,200 --> 00:01:42,770
+Do you see the connection?
+
+23
+00:01:42,770 --> 00:01:48,840
+These lagging indicators were in use before
+modern computer systems took over the trading
+
+24
+00:01:48,840 --> 00:01:49,840
+world!
+
+25
+00:01:49,840 --> 00:01:55,310
+The problem is that even though computers
+were invented, and people got access to technology,
+
+26
+00:01:55,310 --> 00:01:59,530
+they never moved away from the old way of
+viewing the market.
+
+27
+00:01:59,530 --> 00:02:03,170
+Trading without indicators is just like eliminating
+the middle man.
+
+28
+00:02:03,170 --> 00:02:08,039
+Instead of letting indicators to tell you
+what the market is doing, you can see it for
+
+29
+00:02:08,039 --> 00:02:09,039
+yourself.
+
+30
+00:02:09,039 --> 00:02:13,310
+So, the first step, try trading for a few
+weeks without indicators.
+
+31
+00:02:13,310 --> 00:02:20,430
+Support and resistance levels are good, but
+supply and demand areas are better
+
+32
+00:02:20,430 --> 00:02:25,640
+Any chart is a sequence of zones where there
+is supply and demand equilibrium, with supply
+
+33
+00:02:25,640 --> 00:02:28,120
+and demand imbalances in between.
+
+34
+00:02:28,120 --> 00:02:32,469
+If you are re used to trade classic support
+and resistance level, I advise you to forget
+
+35
+00:02:32,469 --> 00:02:36,530
+about them for a second, and focus on supply
+and demand zones.
+
+36
+00:02:36,530 --> 00:02:41,809
+Especially, the zones where the price is moving
+away from with a lot of momentum.
+
+37
+00:02:41,809 --> 00:02:46,510
+Whenever that happens, it’s a sign that
+the balance of supply and demand has shifted
+
+38
+00:02:46,510 --> 00:02:48,420
+in a very substantial way.
+
+39
+00:02:48,420 --> 00:02:52,709
+Supply and demand zones are the origins of
+these price moves.
+
+40
+00:02:52,709 --> 00:02:58,029
+A supply zone is an area at which a lot of
+sudden selling has occurred.
+
+41
+00:02:58,029 --> 00:03:02,949
+This resulted in an imbalance between supply
+and demand, where supply greatly exceeded
+
+42
+00:03:02,949 --> 00:03:05,719
+demand, pushing the price down.
+
+43
+00:03:05,719 --> 00:03:10,329
+A demand zone is an area at which a lot of
+sudden buying has occurred.
+
+44
+00:03:10,329 --> 00:03:15,439
+This resulted in an imbalance between supply
+and demand, where demand greatly exceeded
+
+45
+00:03:15,439 --> 00:03:17,390
+supply, pushing the price up.
+
+46
+00:03:17,390 --> 00:03:21,209
+I consider supply and demand as a leading
+indicator.
+
+47
+00:03:21,209 --> 00:03:26,370
+While traditionally, support and resistance
+levels are only called as such after at least
+
+48
+00:03:26,370 --> 00:03:29,950
+two tests, this is not the case with supply
+and demand.
+
+49
+00:03:29,950 --> 00:03:36,829
+You only need a supply or demand zone to be
+created in order to plan a potential trade.
+
+50
+00:03:36,829 --> 00:03:40,400
+So use the following steps to identify supply
+and demand:
+
+51
+00:03:40,400 --> 00:03:41,400
+1.
+
+52
+00:03:41,400 --> 00:03:45,879
+Find the Momentum Drive
+Here you’re looking for a large price move.
+
+53
+00:03:45,879 --> 00:03:49,949
+Long, successive candles in one direction
+work the best.
+
+54
+00:03:49,949 --> 00:03:54,090
+Just open any chart and it shouldn’t be
+too difficult to find those.
+
+55
+00:03:54,090 --> 00:04:00,530
+Both the momentum (how fast is the price moving)
+and the absolute distance (for far did the
+
+56
+00:04:00,530 --> 00:04:05,409
+price move before it stopped going in that
+direction) are relevant here.
+
+57
+00:04:05,409 --> 00:04:10,089
+Of course, the best price moves show both
+momentum and a large absolute distance.
+
+58
+00:04:10,089 --> 00:04:11,089
+2.
+
+59
+00:04:11,089 --> 00:04:13,880
+Find the Base of the Momentum Drive
+After you have found the momentum drive, you
+
+60
+00:04:13,880 --> 00:04:16,040
+should define your base.
+
+61
+00:04:16,040 --> 00:04:21,480
+With the base, I mean the price area just
+before the price exploded in one direction.
+
+62
+00:04:21,480 --> 00:04:27,090
+Often, you will see a small consolidation
+before this happens and that’s the consolidation
+
+63
+00:04:27,090 --> 00:04:28,660
+that you’re looking for.
+
+64
+00:04:28,660 --> 00:04:32,770
+Especially, try to find:
+• the last bearish price action before a
+
+65
+00:04:32,770 --> 00:04:37,090
+bullish price move
+• the last bullish price action before a
+
+66
+00:04:37,090 --> 00:04:42,130
+bearish price move
+This is the area that is responsible for the
+
+67
+00:04:42,130 --> 00:04:47,150
+resulting move: The base of a supply or demand
+zone is where the orders were placed that
+
+68
+00:04:47,150 --> 00:04:51,440
+were responsible for moving the market in
+such a strong way.
+
+69
+00:04:51,440 --> 00:04:58,250
+VSA will make the difference between a losing
+and a winner trade
+
+70
+00:04:58,250 --> 00:05:02,900
+Volume is not difficult to understand once
+the basic principles of supply and demand
+
+71
+00:05:02,900 --> 00:05:04,450
+are understood.
+
+72
+00:05:04,450 --> 00:05:08,180
+This requires you to relate the volume with
+price action.
+
+73
+00:05:08,180 --> 00:05:13,060
+To say that the market will go up when there
+is more buying (demand) than selling – and
+
+74
+00:05:13,060 --> 00:05:18,950
+go down when there is more selling (supply)
+than buying may seem like an obvious statement.
+
+75
+00:05:18,950 --> 00:05:23,400
+To understand what the volume is saying to
+you, you have to ask yourself “What has
+
+76
+00:05:23,400 --> 00:05:26,590
+the price done on a particular volume”?
+
+77
+00:05:26,590 --> 00:05:31,490
+Think about it, if you compare today's volume
+with volume during the previous thirty bars,
+
+78
+00:05:31,490 --> 00:05:35,170
+it is easy to see if today's volume is higher
+or lower.
+
+79
+00:05:35,170 --> 00:05:39,840
+But you took volume in isolation, and that’s
+means very little.
+
+80
+00:05:39,840 --> 00:05:44,460
+Compare this volume information with the price
+spread and you will then know how bullish
+
+81
+00:05:44,460 --> 00:05:48,190
+or bearish the market really is.
+
+82
+00:05:48,190 --> 00:05:54,790
+Volume spread analysis is the type of analysis
+based on volumes and the spread of the candlestick.
+
+83
+00:05:54,790 --> 00:05:58,820
+It tries to find out the differences between
+supply and demand.
+
+84
+00:05:58,820 --> 00:06:03,990
+The price spread is the difference between
+the highest and lowest trading points reached
+
+85
+00:06:03,990 --> 00:06:09,070
+during the timeframe you are looking at, which
+may be weekly, daily, hourly, or whatever
+
+86
+00:06:09,070 --> 00:06:11,340
+other timeframe you choose.
+
+87
+00:06:11,340 --> 00:06:15,570
+Some traders consider the actual body of the
+candle, as the spread.
+
+88
+00:06:15,570 --> 00:06:18,060
+You decide which method you want to apply.
+
+89
+00:06:18,060 --> 00:06:23,490
+There are a lot of different interpretations
+of the VSA, which makes it difficult to understand
+
+90
+00:06:23,490 --> 00:06:25,780
+it for a beginner trader.
+
+91
+00:06:25,780 --> 00:06:31,440
+At first, you need to get familiarized with
+the most commonly used models of the VSA,
+
+92
+00:06:31,440 --> 00:06:36,140
+so make sure you watch this video about volume
+spread analysis after you finish this one.
+
+93
+00:06:36,140 --> 00:06:38,690
+Smart money relies on retail traders to provide
+liquidity.
+
+94
+00:06:38,690 --> 00:06:42,960
+Smart money will push price to an area where
+retail traders place their stop loss.
+
+95
+00:06:42,960 --> 00:06:49,120
+In order to understand why supply and demand
+zones can work as the basis of a trading strategy,
+
+96
+00:06:49,120 --> 00:06:54,000
+you need to understand how buyers and sellers
+behave around these zones.
+
+97
+00:06:54,000 --> 00:06:57,270
+A lot of this comes down to finding liquidity.
+
+98
+00:06:57,270 --> 00:07:01,450
+Liquidity describes how easily an asset can
+be bought or sold.
+
+99
+00:07:01,450 --> 00:07:06,810
+When there is a lot of liquidity, we say that
+the orders can easily be absorbed by the markets.
+
+100
+00:07:06,810 --> 00:07:12,340
+It means that there are many traders willing
+to take the other side of your order.
+
+101
+00:07:12,340 --> 00:07:17,420
+When there is little liquidity, it might be
+harder to get your orders filled.
+
+102
+00:07:17,420 --> 00:07:21,710
+Because there might not be enough traders
+to take the other side of your trade at the
+
+103
+00:07:21,710 --> 00:07:27,340
+price you want, you might get filled at a
+worse price than expected.
+
+104
+00:07:27,340 --> 00:07:32,180
+This is why some institutional traders use
+special techniques to get a good price for
+
+105
+00:07:32,180 --> 00:07:33,550
+their order.
+
+106
+00:07:33,550 --> 00:07:38,560
+Whenever institutional traders need to open
+a position, they do so with much larger size
+
+107
+00:07:38,560 --> 00:07:40,930
+than the average retail trader.
+
+108
+00:07:40,930 --> 00:07:46,740
+In fact, their positions are usually so big
+that if they were to simply enter at once,
+
+109
+00:07:46,740 --> 00:07:48,300
+they would move the market considerably.
+
+110
+00:07:48,300 --> 00:07:54,710
+So when institutional traders need to enter
+a large buy order, they will do so part by
+
+111
+00:07:54,710 --> 00:08:00,639
+part, waiting for the price to come down before
+pushing the next “slice” on the market.
+
+112
+00:08:00,639 --> 00:08:05,360
+This creates patterns on the chart and the
+more you trade supply and demand, the more
+
+113
+00:08:05,360 --> 00:08:10,550
+you will “see” the underlying dynamics
+of certain patterns that happen before supply
+
+114
+00:08:10,550 --> 00:08:13,540
+and demand momentum drives.
+
+115
+00:08:13,540 --> 00:08:19,340
+Another aspect is that institutional traders
+understand where liquidity is accumulating.
+
+116
+00:08:19,340 --> 00:08:21,900
+Let’s take this chart as an example.
+
+117
+00:08:21,900 --> 00:08:27,370
+The institutional trader is looking for enough
+liquidity to get a fill on his big order.
+
+118
+00:08:27,370 --> 00:08:32,789
+He wants to go long, but he needs to find
+traders who want to sell their position to
+
+119
+00:08:32,789 --> 00:08:33,789
+him.
+
+120
+00:08:33,789 --> 00:08:38,559
+Below the swing low, there will be lots of
+that liquidity: first, you will have the stop
+
+121
+00:08:38,559 --> 00:08:43,870
+losses of buy orders, which will sell on the
+market once they’re hit.
+
+122
+00:08:43,870 --> 00:08:49,970
+Additionally, there will also be traders who
+go short, again adding liquidity to the market.
+
+123
+00:08:49,970 --> 00:08:54,579
+This is why you will often first see a spike
+in the opposite direction at the origin of
+
+124
+00:08:54,579 --> 00:08:56,350
+a strong price move.
+
+125
+00:08:56,350 --> 00:09:02,050
+The liquidity spike is the pattern that gets
+created when large market participants need
+
+126
+00:09:02,050 --> 00:09:06,019
+liquidity and move the market in order to
+get it.
+
+127
+00:09:06,019 --> 00:09:11,139
+Retail traders get trapped, their stops get
+hit and they will often talk about “stop
+
+128
+00:09:11,139 --> 00:09:15,250
+hunting” while in fact, this is nothing
+more than normal market behavior.
+
+129
+00:09:15,250 --> 00:09:21,670
+Monitor daily highs & lows, obvious swing
+points and boundaries of ranges
+
+130
+00:09:21,670 --> 00:09:27,260
+So now you know how smart money operates and
+why they operate in a certain way.
+
+131
+00:09:27,260 --> 00:09:29,579
+It’s time to find opportunities.
+
+132
+00:09:29,579 --> 00:09:34,470
+The best way to do this, is to mark out certain
+levels, such as:
+
+133
+00:09:34,470 --> 00:09:37,820
+· Daily highs & lows
+· Weekly highs & lows
+
+134
+00:09:37,820 --> 00:09:40,930
+· Obvious swing points
+· Boundaries of ranges
+
+135
+00:09:40,930 --> 00:09:48,059
+By marking out these important areas of liquidity
+and then analyzing what happens once the liquidity
+
+136
+00:09:48,059 --> 00:09:53,070
+at these areas gets triggered, you can get
+a better understanding of how smart money
+
+137
+00:09:53,070 --> 00:09:54,459
+operates.
+
+138
+00:09:54,459 --> 00:09:59,649
+You can then make up rules to develop an entire
+strategy around this concept.
+
+139
+00:09:59,649 --> 00:10:05,589
+Of course, the next step is to backtest the
+rules and generate data to confirm a trading
+
+140
+00:10:05,589 --> 00:10:06,699
+edge.
+
+141
+00:10:06,699 --> 00:10:11,890
+One of the best ways to identify absorption
+of liquidity by a bigger player, is to look
+
+142
+00:10:11,890 --> 00:10:15,850
+at candle closes & the violence of moves.
+
+143
+00:10:15,850 --> 00:10:21,220
+Is the high of a range being taken out, but
+price quickly and aggressively falls back
+
+144
+00:10:21,220 --> 00:10:22,819
+into the range?
+
+145
+00:10:22,819 --> 00:10:28,329
+Then the buy side liquidity above the range
+has been triggered and absorbed by smart money,
+
+146
+00:10:28,329 --> 00:10:30,759
+to fill a short order.
+
+147
+00:10:30,759 --> 00:10:33,459
+Waiting for confirmation is often very important.
+
+148
+00:10:33,459 --> 00:10:38,620
+You want to see clear triggering of the liquidity
+and then absorption of that liquidity, in
+
+149
+00:10:38,620 --> 00:10:46,759
+order to join them.
+
+150
+00:10:46,759 --> 00:10:52,670
+Smart money enter the markets to fill orders,
+generate liquidity and to hedge their longer-term
+
+151
+00:10:52,670 --> 00:10:54,069
+investments or trades
+
+152
+00:10:54,069 --> 00:10:55,069
+Smart money enter the markets to fill orders,
+generate liquidity and to hedge their longer-term
+
+153
+00:10:55,069 --> 00:10:56,069
+investments or trades.
+
+154
+00:10:56,069 --> 00:10:57,879
+This is not how us, retail traders, trade.
+
+155
+00:10:57,879 --> 00:11:01,860
+This is the difference between retail trading
+and institutional trading.
+
+156
+00:11:01,860 --> 00:11:05,240
+We try to profit from small directional moves.
+
+157
+00:11:05,240 --> 00:11:07,779
+So how to start trading like banks?
+
+158
+00:11:07,779 --> 00:11:12,740
+Start with being as prepared as possible and
+treat your trading like you are running a
+
+159
+00:11:12,740 --> 00:11:13,740
+business.
+
+160
+00:11:13,740 --> 00:11:16,879
+Banks don’t just let the RSI tell them when
+to enter.
+
+161
+00:11:16,879 --> 00:11:20,259
+Every position they take is well-calculated.
+
+162
+00:11:20,259 --> 00:11:25,009
+They know exactly what they need to buy, when
+they need to buy it and how they need to buy
+
+163
+00:11:25,009 --> 00:11:26,059
+it.
+
+164
+00:11:26,059 --> 00:11:27,449
+They know the costs involved.
+
+165
+00:11:27,449 --> 00:11:31,220
+That’s how you should approach trading as
+well.
+
+166
+00:11:31,220 --> 00:11:36,019
+You can start trading like the smart money
+by following the next principles:
+
+167
+00:11:36,019 --> 00:11:38,519
+• Knowing your edge
+• Having multiple plans
+
+168
+00:11:38,519 --> 00:11:44,009
+• Reviewing & learning
+These are the most important points to consider
+
+169
+00:11:44,009 --> 00:11:46,559
+when you want to become a profitable trader.
+
+170
+00:11:46,559 --> 00:11:51,779
+Not by learning a concept that banks “supposedly”
+use, but by approaching trading the same as
+
+171
+00:11:51,779 --> 00:11:53,920
+banks & professionals do.
+
+172
+00:11:53,920 --> 00:11:56,920
+It’s absolutely vital to know your edge.
+
+173
+00:11:56,920 --> 00:11:59,500
+Without an edge you will probably fail.
+
+174
+00:11:59,500 --> 00:12:00,570
+How do you get one?
+
+175
+00:12:00,570 --> 00:12:03,600
+By learning concepts that work in a market.
+
+176
+00:12:03,600 --> 00:12:07,279
+Then you start with building rules around
+these concepts.
+
+177
+00:12:07,279 --> 00:12:14,779
+The next step is testing it on years of data,
+followed by demo trading and live trading.
+
+178
+00:12:14,779 --> 00:12:20,269
+In order to be able to execute your edge effectively
+and in order to improve, you need multiple
+
+179
+00:12:20,269 --> 00:12:21,410
+plans.
+
+180
+00:12:21,410 --> 00:12:26,759
+You need a pre-market plan, a plan for executing
+and a post market plan.
+
+181
+00:12:26,759 --> 00:12:31,649
+A pre-market plan is all about how you find
+the setups with your edge.
+
+182
+00:12:31,649 --> 00:12:35,009
+How do you need to analyze the markets & when.
+
+183
+00:12:35,009 --> 00:12:36,899
+Make this as clear as possible.
+
+184
+00:12:36,899 --> 00:12:39,949
+This minimizes the mistakes you are going
+to make.
+
+185
+00:12:39,949 --> 00:12:44,200
+The most important thing is that you have
+a clear, written down plan.
+
+186
+00:12:44,200 --> 00:12:46,940
+After your session, it’s time to analyze.
+
+187
+00:12:46,940 --> 00:12:49,100
+You will always make losing trades.
+
+188
+00:12:49,100 --> 00:12:54,089
+Most traders simply go to the next trade,
+if you also proceed this way, this means you
+
+189
+00:12:54,089 --> 00:12:55,809
+wasted your money.
+
+190
+00:12:55,809 --> 00:13:00,619
+But if you actually take the time to learn
+from your losers, that’s not wasted money
+
+191
+00:13:00,619 --> 00:13:05,029
+but simply a down payment for a valuable lesson.
+
+192
+00:13:05,029 --> 00:13:08,410
+If you found value and learned something new,
+leave us a like.
+
+193
+00:13:08,410 --> 00:13:11,940
+This way we’ll know if you'd like to see
+more videos like this one.
+
+194
+00:13:11,940 --> 00:13:17,350
+And check out our academy program if you want
+to further level up your trading.
+
+195
+00:13:17,350 --> 00:13:17,920
+Until next time.
+

@@ -1,0 +1,622 @@
+1
+00:00:01,120 --> 00:00:05,410
+The volume weighted average price (VWAP) is
+a trading benchmark used by traders that gives
+
+2
+00:00:05,410 --> 00:00:10,600
+the average price a stock has traded throughout
+the day, based on both volume and price.
+
+3
+00:00:10,600 --> 00:00:15,260
+It is important because it provides traders
+with insight into both the trend and value
+
+4
+00:00:15,260 --> 00:00:16,840
+of a security.
+
+5
+00:00:16,840 --> 00:00:19,840
+The Formula for the Volume Weighted Average
+Price (VWAP) is pretty simple.
+
+6
+00:00:19,840 --> 00:00:24,730
+You add up the dollars traded for every transaction
+(so, the price multiplied by the number of
+
+7
+00:00:24,730 --> 00:00:29,450
+shares traded) and then divide by the total
+shares traded.
+
+8
+00:00:29,450 --> 00:00:33,130
+On a chart, VWAP and a moving average may
+look similar.
+
+9
+00:00:33,130 --> 00:00:36,350
+These two indicators are calculating different
+things.
+
+10
+00:00:36,350 --> 00:00:42,660
+VWAP is calculating the sum of price multiplied
+by volume, divided by total volume, while
+
+11
+00:00:42,660 --> 00:00:48,329
+a simple moving average is calculated by summing
+up closing prices over a certain period (say
+
+12
+00:00:48,329 --> 00:00:52,370
+20), and then dividing it by how many periods
+there are (20).
+
+13
+00:00:52,370 --> 00:00:55,609
+Volume is not factored in.
+
+14
+00:00:55,609 --> 00:01:00,179
+The volume weighted average price (VWAP) appears
+as a single line on intraday charts (1 minute,
+
+15
+00:01:00,179 --> 00:01:03,329
+15 minute, and so on), similar to how a moving
+average looks.
+
+16
+00:01:03,329 --> 00:01:09,890
+Like moving averages, VWAP lags price because
+it is an average based on past data.
+
+17
+00:01:09,890 --> 00:01:14,470
+Despite this lag, you can compare VWAP with
+the current price to determine the general
+
+18
+00:01:14,470 --> 00:01:17,000
+direction of intraday prices.
+
+19
+00:01:17,000 --> 00:01:19,340
+It works similar to a moving average.
+
+20
+00:01:19,340 --> 00:01:24,570
+In general, intraday prices are falling when
+below VWAP and intraday prices are rising
+
+21
+00:01:24,570 --> 00:01:26,550
+when above VWAP.
+
+22
+00:01:26,550 --> 00:01:31,960
+So A rising VWAP, with the price above the
+VWAP line, means the price is likely in an
+
+23
+00:01:31,960 --> 00:01:33,100
+short term uptrend.
+
+24
+00:01:33,100 --> 00:01:39,000
+A declining VWAP, with the price below the
+VWAP line, means the price is likely in a
+
+25
+00:01:39,000 --> 00:01:40,830
+short term downtrend.
+
+26
+00:01:40,830 --> 00:01:47,930
+Also, don't rely on VWAP exclusively to determine
+trend, since it is only showing a historical
+
+27
+00:01:47,930 --> 00:01:54,490
+average, and not what is happening currently
+or in the future.
+
+28
+00:01:54,490 --> 00:01:57,520
+What Does Volume Weighted Average Price (VWAP)
+Tell You?
+
+29
+00:01:57,520 --> 00:02:02,470
+Large institutional buyers and mutual funds
+use the VWAP indicator to move into or out
+
+30
+00:02:02,470 --> 00:02:05,970
+of stocks with a market impact as small as
+possible.
+
+31
+00:02:05,970 --> 00:02:09,640
+They use VWAP to identify liquidity points.
+
+32
+00:02:09,640 --> 00:02:14,819
+The idea is not to disrupt the market when
+entering large buy or sell orders.
+
+33
+00:02:14,819 --> 00:02:21,040
+VWAP helps these institutions determine the
+liquid and illiquid price points for a specific
+
+34
+00:02:21,040 --> 00:02:23,900
+security over a very short time period.
+
+35
+00:02:23,900 --> 00:02:30,170
+Therefore, when possible, institutions will
+try to buy below the VWAP, or sell above it.
+
+36
+00:02:30,170 --> 00:02:36,079
+This way their actions push the price back
+toward the average, instead of away from it.
+
+37
+00:02:36,079 --> 00:02:40,030
+VWAP can also be used to measure trading efficiency.
+
+38
+00:02:40,030 --> 00:02:46,099
+After buying or selling a stock, big market
+players can compare their price to VWAP values.
+
+39
+00:02:46,099 --> 00:02:51,459
+A buy order executed below the VWAP value
+would be considered a good fill because the
+
+40
+00:02:51,459 --> 00:02:54,379
+security was bought at a below average price.
+
+41
+00:02:54,379 --> 00:03:00,650
+Conversely, a sell order executed above the
+VWAP would be considered a good fill because
+
+42
+00:03:00,650 --> 00:03:05,459
+it was sold at an above average price.
+
+43
+00:03:05,459 --> 00:03:10,549
+Retail traders, on the other hand, tend to
+use VWAP more as a trend confirmation tool,
+
+44
+00:03:10,549 --> 00:03:11,659
+similar to a moving average.
+
+45
+00:03:11,659 --> 00:03:16,540
+When the price is above VWAP they look only
+to initiate long positions.
+
+46
+00:03:16,540 --> 00:03:21,099
+When the price is below VWAP they only look
+to initiate short positions.
+
+47
+00:03:21,099 --> 00:03:26,780
+This is why day traders love the VWAP indicator,
+because more than often, the price finds support
+
+48
+00:03:26,780 --> 00:03:29,150
+and resistance around the VWAP.
+
+49
+00:03:29,150 --> 00:03:33,439
+Knowing that other traders and algorithms
+are buying and selling around the VWAP line,
+
+50
+00:03:33,439 --> 00:03:36,239
+if you combine the VWAP with simple price
+action, a VWAP strategy can help you find
+
+51
+00:03:36,239 --> 00:03:39,049
+dynamic support and resistance levels in the
+market.
+
+52
+00:03:39,049 --> 00:03:44,510
+Also, the likelihood of a VWAP line becoming
+a dynamic support and resistance zone becomes
+
+53
+00:03:44,510 --> 00:03:46,590
+higher when the market is trending.
+
+54
+00:03:46,590 --> 00:03:52,049
+So, for uptrends for example, look for higher
+highs and highs lows and pay attention at
+
+55
+00:03:52,049 --> 00:03:54,700
+the price action around the VWAP.
+
+56
+00:03:54,700 --> 00:04:00,169
+Here are a few reasons why so many top day
+traders love VWAP:
+
+57
+00:04:00,169 --> 00:04:05,379
+VWAP is a simple indicator: the price is either
+above it or below it.
+
+58
+00:04:05,379 --> 00:04:09,349
+When it comes to day trading, simplicity often
+rules.
+
+59
+00:04:09,349 --> 00:04:15,849
+It’s an easy measurement on whether a stock
+is cheap or expensive on the day.
+
+60
+00:04:15,849 --> 00:04:21,519
+You can use it to help you pinpoint intelligent
+entry and exit points for your day trades.
+
+61
+00:04:21,519 --> 00:04:27,410
+It can help you determine trend changes, often
+quicker than moving averages.
+
+62
+00:04:27,410 --> 00:04:31,190
+Now, how to trade with the VWAP?
+
+63
+00:04:31,190 --> 00:04:36,139
+You can use it for 2 types of trades: breakouts
+and pullbacks.
+
+64
+00:04:36,139 --> 00:04:40,740
+VWAP breakout setup is very simple but not
+what you may be thinking.
+
+65
+00:04:40,740 --> 00:04:45,550
+So a bullish breakout is when a stock’s
+price moves above a previously strongly held
+
+66
+00:04:45,550 --> 00:04:48,990
+resistance level, often with higher trading
+volume.
+
+67
+00:04:48,990 --> 00:04:54,050
+This can signal that traders are excited about
+this move and the stock may go on an extended
+
+68
+00:04:54,050 --> 00:04:55,460
+price run.
+
+69
+00:04:55,460 --> 00:05:01,170
+But we are not looking for a breakout to new
+highs but a break above the VWAP itself with
+
+70
+00:05:01,170 --> 00:05:02,170
+strength.
+
+71
+00:05:02,170 --> 00:05:06,479
+When it comes to a VWAP breakout, we look
+for periods when a stock price drops below
+
+72
+00:05:06,479 --> 00:05:08,069
+the VWAP.
+
+73
+00:05:08,069 --> 00:05:13,039
+This can often signal that buyers are exiting
+their long positions, which lowers the price
+
+74
+00:05:13,039 --> 00:05:15,509
+compared to the VWAP.
+
+75
+00:05:15,509 --> 00:05:20,069
+This can potentially be a good situation to
+look for a long trade, with the expectation
+
+76
+00:05:20,069 --> 00:05:24,550
+that the stock will soon bounce back and continue
+its upward movement.
+
+77
+00:05:24,550 --> 00:05:29,169
+Essentially, you wait for the stock to test
+the VWAP to the downside.
+
+78
+00:05:29,169 --> 00:05:34,610
+Next, you will want to look for the stock
+to close above the VWAP.
+
+79
+00:05:34,610 --> 00:05:39,110
+You will then look to buy above the high of
+the candle that closed above the VWAP.
+
+80
+00:05:39,110 --> 00:06:04,169
+Here are some examples of VWAP breakout trades.
+
+81
+00:06:04,169 --> 00:06:06,430
+Next is the VWAP Pullback trade.
+
+82
+00:06:06,430 --> 00:06:11,289
+A pullback is where a stock that’s on an
+extended move upward or downward makes a small
+
+83
+00:06:11,289 --> 00:06:13,860
+movement in the opposite direction.
+
+84
+00:06:13,860 --> 00:06:17,470
+Pullbacks are a common price movement, especially
+in heavy trends.
+
+85
+00:06:17,470 --> 00:06:23,409
+To trade a VWAP pullback setup, you have to
+find a stock that’s in a clear uptrend,
+
+86
+00:06:23,409 --> 00:06:26,490
+consistently making higher highs and higher
+lows.
+
+87
+00:06:26,490 --> 00:06:32,229
+The stock price makes a pullback to the downside,
+returning to the VWAP level on the chart.
+
+88
+00:06:32,229 --> 00:06:37,080
+This is a chance to buy the stock at the daily
+average price.
+
+89
+00:06:37,080 --> 00:06:42,100
+After you enter your long, you’re looking
+for price to continue its uptrend, gradually
+
+90
+00:06:42,100 --> 00:06:45,800
+pulling the VWAP up along with it.
+
+91
+00:06:45,800 --> 00:06:55,780
+Here are some examples of VWAP pullback trades.
+
+92
+00:06:55,780 --> 00:07:16,020
+Here’s an important tip: If you use longer-term
+charts, such as the 30-minute or 60-minute,
+
+93
+00:07:16,020 --> 00:07:22,650
+your VWAP data will greatly lag behind a shorter-term
+chart (like the 1-minute or 5-minute).
+
+94
+00:07:22,650 --> 00:07:28,310
+On a longer-term chart, the speed at which
+the VWAP generates a signal could mean that
+
+95
+00:07:28,310 --> 00:07:30,060
+you completely miss the move.
+
+96
+00:07:30,060 --> 00:07:34,180
+So, if you use VWAP, opt for the shorter-term
+charts.
+
+97
+00:07:34,180 --> 00:07:38,530
+Also, you have to be smart with where you
+place your stop-loss.
+
+98
+00:07:38,530 --> 00:07:44,219
+A common mistake is to place your stops few
+points below the VWAP.
+
+99
+00:07:44,219 --> 00:07:48,699
+You will be stopped out often of you place
+your stops close to the VWAP.
+
+100
+00:07:48,699 --> 00:07:50,740
+There’s a smarter way.
+
+101
+00:07:50,740 --> 00:07:55,960
+For instance, if you take a VWAP pullback
+trade, you should look to place your stop-loss
+
+102
+00:07:55,960 --> 00:07:58,720
+on the other side of a key chart level.
+
+103
+00:07:58,720 --> 00:08:03,349
+That level may be below a pivot point or previous
+strong support level.
+
+104
+00:08:03,349 --> 00:08:08,979
+That way, you can use the VWAP to try to keep
+trading in the right direction but maintain
+
+105
+00:08:08,979 --> 00:08:11,660
+a stop-loss at a logical level.
+
+106
+00:08:11,660 --> 00:08:17,449
+Alternatively, if there’s no major level,
+you can also look to keep your stock on the
+
+107
+00:08:17,449 --> 00:08:20,160
+other side of a recent swing point.
+
+108
+00:08:20,160 --> 00:08:24,610
+So if you’re long a stock that’s making
+higher highs and higher lows, you can place
+
+109
+00:08:24,610 --> 00:08:29,760
+your stop-loss just below the previous swing
+low.
+
+110
+00:08:29,760 --> 00:08:32,909
+The VWAP itself is a simple and effective
+indicator.
+
+111
+00:08:32,909 --> 00:08:38,610
+But that doesn’t mean you can just plug
+and play, then expect killer result.
+
+112
+00:08:38,610 --> 00:08:42,289
+The Volume Weighted Average Price (VWAP) has
+its limitations.
+
+113
+00:08:42,289 --> 00:08:48,680
+VWAP is considered a single-day indicator,
+and is restarted at the open of each new trading
+
+114
+00:08:48,680 --> 00:08:49,839
+day.
+
+115
+00:08:49,839 --> 00:08:55,149
+Attempting to create an average VWAP over
+many days could mean that the average becomes
+
+116
+00:08:55,149 --> 00:08:57,690
+distorted from the true VWAP reading.
+
+117
+00:08:57,690 --> 00:09:03,589
+Also, don’t forget that VWAP is based on
+historical values and does not have predictive
+
+118
+00:09:03,589 --> 00:09:04,639
+qualities.
+
+119
+00:09:04,639 --> 00:09:08,820
+VWAP serves as a reference point for prices
+for one day.
+
+120
+00:09:08,820 --> 00:09:13,649
+For this reason, it is best suited for intraday
+analysis.
+
+121
+00:09:13,649 --> 00:09:19,930
+Keep in mind that VWAP is a cumulative indicator,
+which means the number of data points progressively
+
+122
+00:09:19,930 --> 00:09:25,690
+increases throughout the day.
+
+123
+00:09:25,690 --> 00:09:31,630
+This is why VWAP lags price and this lag increases
+as the day extends.
+
+124
+00:09:31,630 --> 00:09:36,779
+Once you apply the VWAP to your day trading
+setup, you will soon realize that it is like
+
+125
+00:09:36,779 --> 00:09:38,100
+any other indicator.
+
+126
+00:09:38,100 --> 00:09:44,250
+There are some stocks and markets where it
+will pinpoint entries just right and in others
+
+127
+00:09:44,250 --> 00:09:45,710
+it will appear worthless.
+
+128
+00:09:45,710 --> 00:09:51,310
+That’s why, I encourage you to use the VWAP
+indicator in combination with price action,
+
+129
+00:09:51,310 --> 00:09:55,870
+so you can simplify your decision-making process
+and make better trades.
+
+130
+00:09:55,870 --> 00:10:00,279
+As always, if you learned something new, make
+sure you subscribe, click the bell icon to
+
+131
+00:10:00,279 --> 00:10:03,450
+enable notifications and leave us a like to
+show your support.
+
+132
+00:10:03,450 --> 00:10:04,650
+Until next time
+

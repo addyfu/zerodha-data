@@ -1,0 +1,1175 @@
+1
+00:00:00,120 --> 00:00:04,760
+In this video, we'll unveil the 
+secrets of supply and demand trading,  
+
+2
+00:00:04,760 --> 00:00:09,364
+the only strategy you'll ever 
+need to master the markets.
+
+3
+00:00:09,364 --> 00:00:11,640
+What is Supply and Demand Trading?
+ 
+So, supply and demand trading is  
+
+4
+00:00:11,640 --> 00:00:16,840
+a strategy that focuses on identifying 
+price levels where there's a significant  
+
+5
+00:00:16,840 --> 00:00:22,680
+imbalance between buyers and sellers.
+This imbalance creates what we call supply  
+
+6
+00:00:22,680 --> 00:00:26,760
+and demand zones on your charts.
+ 
+In the market, there are  
+
+7
+00:00:26,760 --> 00:00:31,560
+always two competing forces:
+Buyers, who represent demand. 
+
+8
+00:00:31,560 --> 00:00:37,000
+And sellers, who represent supply.
+When there are more buyers than sellers at  
+
+9
+00:00:37,000 --> 00:00:43,680
+a certain price level, it creates a demand zone.
+When there are more sellers than buyers at a  
+
+10
+00:00:43,680 --> 00:00:49,400
+price level, it forms a supply zone. 
+ 
+In these zones, you often see large  
+
+11
+00:00:49,400 --> 00:00:55,440
+unfilled orders from big institutional 
+traders like banks and hedge funds. 
+
+12
+00:00:55,440 --> 00:01:00,040
+Supply and demand trading is powerful 
+because it allows you to trade in  
+
+13
+00:01:00,040 --> 00:01:05,680
+line with what the institutions are doing. 
+ 
+These big players can't hide their massive  
+
+14
+00:01:05,680 --> 00:01:12,280
+orders, and by identifying supply and demand 
+zones, retail traders like us can spot where  
+
+15
+00:01:12,280 --> 00:01:16,040
+they're likely to be executing their trades.
+ 
+The Dynamics of Supply and Demand in Market Prices 
+
+16
+00:01:16,040 --> 00:01:22,080
+Let's talk about how supply and demand actually 
+influence the prices you see on your charts. 
+
+17
+00:01:22,080 --> 00:01:28,240
+You see, the price is constantly moving up and 
+down, and this movement is a direct result of the  
+
+18
+00:01:28,240 --> 00:01:34,120
+supply and demand from market participants.
+ 
+When there are more buyers in the market,  
+
+19
+00:01:34,120 --> 00:01:40,560
+they bring demand and this applies upward 
+pressure on prices, pushing them higher. 
+
+20
+00:01:40,560 --> 00:01:45,720
+When there are more sellers, they bring 
+more supply to the market, putting downward  
+
+21
+00:01:45,720 --> 00:01:52,520
+pressure on prices and pushing them lower.
+ 
+This dynamic between buyers and sellers is  
+
+22
+00:01:52,520 --> 00:01:59,960
+what we call order flow, and it's the engine that 
+actually drives price action and market movement. 
+
+23
+00:01:59,960 --> 00:02:04,720
+Now, there are two main types of 
+orders that make up this order flow:  
+
+24
+00:02:04,720 --> 00:02:11,520
+passive orders and aggressive orders. 
+ 
+Passive orders are limit orders placed by traders  
+
+25
+00:02:11,520 --> 00:02:16,600
+who are willing to wait for the price to come 
+to their desired level. They're not in a rush. 
+
+26
+00:02:17,960 --> 00:02:23,240
+Aggressive orders are placed by traders who 
+want to execute immediately at the current  
+
+27
+00:02:23,240 --> 00:02:29,920
+market price. They're not waiting around 
+for a specific price; they want in, fast.
+  
+
+28
+00:02:29,920 --> 00:02:35,040
+This constant battle between passive and 
+aggressive orders is really what causes  
+
+29
+00:02:35,040 --> 00:02:40,840
+those explosive price movements you see on your 
+charts, when there's a significant imbalance  
+
+30
+00:02:40,840 --> 00:02:45,120
+between supply and demand.
+So, your job is to identify  
+
+31
+00:02:45,120 --> 00:02:49,200
+where major imbalances are likely to occur.
+ 
+Institutional Traders' Use of Supply and Demand
+
+32
+00:02:49,200 --> 00:02:53,920
+So, why are institutions so 
+interested in supply and demand zones? 
+
+33
+00:02:53,920 --> 00:02:57,520
+It all comes down to the 
+massive size of their orders. 
+
+34
+00:02:57,520 --> 00:03:03,600
+Institutions like hedge funds and investment 
+banks are trading huge positions that can be  
+
+35
+00:03:03,600 --> 00:03:09,920
+worth millions or even billions of dollars. 
+ 
+And when you're dealing with that kind of volume,  
+
+36
+00:03:09,920 --> 00:03:16,440
+you CAN’T just enter or exit a trade all 
+at once. Imagine trying to buy a billion  
+
+37
+00:03:16,440 --> 00:03:20,840
+dollars worth of a stock without 
+moving the price - it's just not  
+
+38
+00:03:20,840 --> 00:03:27,280
+possible. There's simply not enough liquidity 
+in the market to absorb an order that large.
+  
+
+39
+00:03:27,280 --> 00:03:33,440
+So, instead, institutions have to carefully pick 
+their spots and look for areas on the chart where  
+
+40
+00:03:33,440 --> 00:03:39,880
+they can gradually build or unwind a position 
+over time with minimal impact on the price. 
+
+41
+00:03:39,880 --> 00:03:44,268
+And that's where supply and 
+demand zones come into play.
+
+42
+00:03:44,268 --> 00:03:44,320
+How to Identify Supply and 
+Demand Zones on a Chart
+  
+
+43
+00:03:44,320 --> 00:03:49,040
+Now let's break down how to actually 
+identify them on your charts. 
+
+44
+00:03:49,040 --> 00:03:54,520
+The first step is to look for those explosive 
+movements where price makes a strong push in  
+
+45
+00:03:54,520 --> 00:04:00,760
+one direction before quickly reversing. 
+ 
+This could be a sharp rally followed by a  
+
+46
+00:04:00,760 --> 00:04:06,480
+sudden drop, or a steep decline 
+followed by a rapid bounce back. 
+
+47
+00:04:06,480 --> 00:04:10,920
+These movements often signal that there 
+was a significant imbalance between  
+
+48
+00:04:10,920 --> 00:04:18,080
+buyers and sellers that caused price to spike.
+ 
+Once you've spotted one of these big moves, the  
+
+49
+00:04:18,080 --> 00:04:24,840
+next step is to mark out the origin of that move.
+In other words, the area on your chart where that  
+
+50
+00:04:24,840 --> 00:04:30,680
+explosive rally or decline actually started.
+This is going to be your potential supply  
+
+51
+00:04:30,680 --> 00:04:34,200
+or demand zone.
+ 
+Now, there are a few  
+
+52
+00:04:34,200 --> 00:04:40,760
+different types of zones to look out for:
+First ones are base zones or range zones:  
+
+53
+00:04:40,760 --> 00:04:45,880
+These form when price is consolidating 
+in a tight range for an extended period  
+
+54
+00:04:45,880 --> 00:04:51,600
+of time before finally breaking out.
+You can think of the edges of that range  
+
+55
+00:04:51,600 --> 00:04:57,200
+as areas of supply and demand where 
+a lot of orders have built up. So,  
+
+56
+00:04:57,200 --> 00:05:04,040
+when price revisits those levels after a breakout, 
+there's a higher probability of a reaction.
+  
+
+57
+00:05:04,040 --> 00:05:09,360
+We can also have pivot zones. These form 
+at key turning points in the market,  
+
+58
+00:05:09,360 --> 00:05:14,520
+like swing highs and lows, or where 
+you see price making a sudden change in  
+
+59
+00:05:14,520 --> 00:05:20,880
+direction. They're often marked by one or two 
+candlesticks with distinct characteristics. 
+  
+
+60
+00:05:20,880 --> 00:05:26,600
+For a potential demand zone, you want to look 
+for a strong bearish candle where the next  
+
+61
+00:05:26,600 --> 00:05:34,160
+candle closes back above its high, signaling a 
+shift from selling pressure to buying pressure. 
+
+62
+00:05:34,160 --> 00:05:37,840
+For a supply zone, it's the opposite: 
+you're watching for a strong bullish  
+
+63
+00:05:37,840 --> 00:05:45,280
+candle where the next candle closes below its 
+low, indicating a shift from buying to selling. 
+
+64
+00:05:45,280 --> 00:05:49,720
+The key is that these pivots are 
+happening quickly; price isn't spending  
+
+65
+00:05:49,720 --> 00:05:57,160
+much time in these areas before reversing.
+ 
+To identify fresh zones, you also want to pay  
+
+66
+00:05:57,160 --> 00:06:03,000
+attention to the overall structure of the price 
+action. There are two main types of structures  
+
+67
+00:06:03,000 --> 00:06:09,200
+to look for: continuation and reversal.
+ 
+A continuation structure forms when there's  
+
+68
+00:06:09,200 --> 00:06:15,800
+an existing trend in place and price is just 
+pulling back or correcting against that trend  
+
+69
+00:06:15,800 --> 00:06:20,800
+before continuing in the same direction.
+These are your rally-base-rally  
+
+70
+00:06:20,800 --> 00:06:26,800
+and drop-base-drop patterns. 
+ 
+If it's an uptrend, you'll see a strong rally,  
+
+71
+00:06:26,800 --> 00:06:33,800
+a tight range where price forms a small base, 
+and then another rally continuing the uptrend. 
+  
+
+72
+00:06:33,800 --> 00:06:41,920
+For a downtrend, you’ll see a sharp drop, a base, 
+and then another drop resuming the downtrend.
+  
+
+73
+00:06:41,920 --> 00:06:46,880
+Reversal structures form when price is 
+reversing from one trend direction to the  
+
+74
+00:06:46,880 --> 00:06:52,640
+other. These are your drop-base-rally 
+and rally-base-drop patterns. 
+  
+
+75
+00:06:52,640 --> 00:06:58,680
+So, in an uptrend that's starting to lose 
+steam, you might see price drop into a base,  
+
+76
+00:06:58,680 --> 00:07:04,040
+and then launch into a new rally, 
+marking the start of a reversal. 
+  
+
+77
+00:07:04,040 --> 00:07:11,680
+And in a downtrend that's starting to turn around, 
+you'd see a rally, a base, and then a strong drop,  
+
+78
+00:07:11,680 --> 00:07:15,320
+signaling the beginning of a new uptrend.
+ 
+Key Principles of Supply and Demand Trading
+
+79
+00:07:15,320 --> 00:07:20,880
+Now let's talk about the key principles 
+that make this strategy so effective. 
+
+80
+00:07:20,880 --> 00:07:26,480
+The first thing to understand is that supply 
+and demand zones are not just random levels on  
+
+81
+00:07:26,480 --> 00:07:33,680
+your charts; they're areas where the imbalance 
+between buyers and sellers is most extreme. 
+  
+
+82
+00:07:33,680 --> 00:07:39,880
+When you see explosive price movements like 
+huge rallies or steep drops, that's often a  
+
+83
+00:07:39,880 --> 00:07:45,800
+sign that there was a serious mismatch between 
+the amount of buying and selling pressure.
+
+84
+00:07:45,800 --> 00:07:51,360
+What's happening in these situations is that 
+the aggressive orders from one side are rapidly  
+
+85
+00:07:51,360 --> 00:07:57,880
+consuming all the available orders from the 
+other side, until a new equilibrium is found. 
+  
+
+86
+00:07:57,880 --> 00:08:03,480
+The areas on your charts where these big 
+clashes take place are what we call fresh,  
+
+87
+00:08:03,480 --> 00:08:08,920
+unmitigated supply and demand zones. 
+ 
+One of the key things that separates  
+
+88
+00:08:08,920 --> 00:08:13,720
+these high probability zones from 
+ordinary support and resistance levels,  
+
+89
+00:08:13,720 --> 00:08:19,560
+is the amount of time price spends in the zone.
+You see, when there's a major imbalance between  
+
+90
+00:08:19,560 --> 00:08:25,360
+buyers and sellers, the price won't 
+hang around that area for very long;  
+
+91
+00:08:25,360 --> 00:08:29,440
+it will quickly spike up or down.
+ 
+So, when you're analyzing your charts,  
+
+92
+00:08:30,040 --> 00:08:36,280
+one of the things to look for is zones where the 
+price only spent a short amount of time before  
+
+93
+00:08:36,280 --> 00:08:42,720
+making a strong move in either direction.
+The less time price spends in that area,  
+
+94
+00:08:42,720 --> 00:08:48,240
+the more out of balance supply and demand are, 
+and the higher the probability of a successful  
+
+95
+00:08:48,240 --> 00:08:55,200
+trade when the price returns to that zone.
+ 
+Another key principle is to focus on fresh  
+
+96
+00:08:55,200 --> 00:09:01,640
+unmitigated zones, rather than ones that 
+have already been tested multiple times. 
+
+97
+00:09:01,640 --> 00:09:07,840
+When price revisits a zone, it can absorb some 
+of the pending orders that were sitting there,  
+
+98
+00:09:07,840 --> 00:09:13,240
+making the imbalance less extreme. 
+ 
+ 
+So, as a general rule, the more times  
+
+99
+00:09:13,240 --> 00:09:19,680
+a zone has been hit, the weaker it becomes.
+This is why it's so important to understand  
+
+100
+00:09:19,680 --> 00:09:25,880
+the difference between an unmitigated zone and 
+one that's already been tested a few times,  
+
+101
+00:09:25,880 --> 00:09:31,200
+a mitigated one. The trading 
+opportunities are very different.
+  
+
+102
+00:09:31,200 --> 00:09:37,120
+Now, of course, there are times when a zone 
+can remain valid even after being tested,  
+
+103
+00:09:37,120 --> 00:09:43,320
+if there's still a significant order imbalance, 
+but generally, you want to prioritize fresh  
+
+104
+00:09:43,320 --> 00:09:48,360
+zones when planning your trades.
+ 
+So, the key things to look for are: 
+
+105
+00:09:48,360 --> 00:09:54,080
+Zones that form after explosive price movements
+Zones where price only spends a short  
+
+106
+00:09:54,080 --> 00:09:59,320
+amount of time before spiking up or down
+And fresh zones that haven't been tested  
+
+107
+00:09:59,880 --> 00:10:03,240
+or absorbed by the market yet.
+ 
+ 
+ 
+Validating Supply and Demand Zones
+
+108
+00:10:03,240 --> 00:10:08,680
+Now let's talk about how to actually 
+validate whether a zone is likely to hold. 
+
+109
+00:10:08,680 --> 00:10:13,160
+The first thing you want to look 
+for is a clear break of structure. 
+
+110
+00:10:13,160 --> 00:10:17,880
+This means price needs to make a 
+decisive move away from the zone  
+
+111
+00:10:17,880 --> 00:10:25,240
+and take out any nearby swing highs or lows. 
+ 
+If there's no clear break of structure and price  
+
+112
+00:10:25,240 --> 00:10:31,760
+just hovers around the zone, that's a sign that 
+the zone might not be as strong as it seems.
+  
+
+113
+00:10:31,760 --> 00:10:37,320
+Another key concept is the idea of flip 
+zones. This is when a previous supply zone  
+
+114
+00:10:37,320 --> 00:10:43,400
+turns into a demand zone or vice versa.
+For example, let's say you have a strong  
+
+115
+00:10:43,400 --> 00:10:49,360
+supply zone that's been holding price down 
+for a while, but then suddenly price rips  
+
+116
+00:10:49,360 --> 00:10:54,600
+through that level and closes above it.
+That's a pretty good indication that the  
+
+117
+00:10:54,600 --> 00:11:02,080
+zone has flipped from supply to demand and could 
+now act as a support level for future pullbacks.
+  
+
+118
+00:11:02,080 --> 00:11:07,200
+But here's the thing: in order for a flip 
+zone to be valid, you need to see that  
+
+119
+00:11:07,200 --> 00:11:13,240
+initial interaction between the two forces.
+Don't just assume a zone has flipped because  
+
+120
+00:11:13,240 --> 00:11:20,280
+price moved past it. Look for that clear battle 
+between buyers and sellers and wait for one  
+
+121
+00:11:20,280 --> 00:11:26,440
+side to decisively overpower the other.
+ 
+Another important factor to consider is  
+
+122
+00:11:26,440 --> 00:11:31,720
+inducement. We talk about this before. This refers 
+to the presence of liquidity in front of the zone  
+
+123
+00:11:31,720 --> 00:11:38,400
+that could potentially absorb any move against it.
+For example, if you're looking at a demand zone,  
+
+124
+00:11:38,400 --> 00:11:43,080
+you want to see some buy orders 
+stacked up in front of that level. 
+
+125
+00:11:43,080 --> 00:11:49,040
+This could be in the form of a swing low or a 
+consolidation pattern - anything that suggests  
+
+126
+00:11:49,040 --> 00:11:55,440
+there are traders waiting to buy at that price.
+ 
+If there's no liquidity in front of the zone  
+
+127
+00:11:55,440 --> 00:12:00,240
+and price just slams into it, chances 
+are those big players aren't going to  
+
+128
+00:12:00,240 --> 00:12:04,960
+be too interested in getting involved.
+But if there are orders they can trade  
+
+129
+00:12:04,960 --> 00:12:09,800
+against, they're much more likely 
+to step in and defend the level.
+  
+
+130
+00:12:09,800 --> 00:12:15,920
+Of course, even if a zone checks all these 
+boxes, it's not guaranteed to hold forever. 
+
+131
+00:12:15,920 --> 00:12:20,080
+That's why it's also important 
+to look at how fresh the zone is. 
+
+132
+00:12:20,080 --> 00:12:25,840
+In general, zones that have been tested 
+multiple times are less likely to produce  
+
+133
+00:12:25,840 --> 00:12:31,063
+strong reactions than those that 
+are being hit for the first time. 
+ 
+  
+
+134
+00:12:31,063 --> 00:12:31,120
+Supply and Demand Zones vs. 
+Support and Resistance Levels
+
+135
+00:12:31,120 --> 00:12:36,120
+Now let's talk about the difference between 
+supply and demand zones and traditional  
+
+136
+00:12:36,120 --> 00:12:40,520
+support and resistance levels.
+While they're similar concepts,  
+
+137
+00:12:40,520 --> 00:12:45,760
+there are some key distinctions.
+ 
+First off, support and resistance are  
+
+138
+00:12:45,760 --> 00:12:52,760
+levels where price has previously reversed 
+or consolidated multiple times in the past. 
+
+139
+00:12:52,760 --> 00:12:59,240
+Supply and demand zones, on the other hand, 
+are all about fresh, unmitigated levels. 
+
+140
+00:12:59,240 --> 00:13:03,960
+Rather than focusing on areas that have 
+already been touched multiple times,  
+
+141
+00:13:03,960 --> 00:13:10,840
+these zones represent imbalances between buyers 
+and sellers that have just recently formed. 
+  
+
+142
+00:13:10,840 --> 00:13:16,600
+The key difference is that support and resistance 
+trading relies on the assumption that past levels  
+
+143
+00:13:16,600 --> 00:13:22,520
+will continue to hold in the future, whereas 
+supply and demand trading looks for new,  
+
+144
+00:13:22,520 --> 00:13:28,120
+untested zones where the order flow 
+is likely to be more significant. 
+  
+
+145
+00:13:28,120 --> 00:13:34,240
+Remember this: support and resistance levels 
+are essentially supply and demand zones that  
+
+146
+00:13:34,240 --> 00:13:38,520
+have already been confirmed.
+Once a fresh demand zone gets  
+
+147
+00:13:38,520 --> 00:13:43,680
+tested and holds, for example, it then 
+becomes an established support level. 
+
+148
+00:13:43,680 --> 00:13:49,320
+The same goes for supply zones, flipping 
+to resistance after they've been touched.
+  
+
+149
+00:13:49,320 --> 00:13:53,760
+So, while trading support and 
+resistance can certainly be effective,  
+
+150
+00:13:53,760 --> 00:13:58,120
+especially if a level has proven 
+itself multiple times in the past,  
+
+151
+00:13:58,120 --> 00:14:03,480
+the probability of a reaction tends 
+to diminish with each subsequent test. 
+
+152
+00:14:03,480 --> 00:14:09,960
+This is why you should focus on fresh zones, where 
+the initial imbalance between buyers and sellers  
+
+153
+00:14:09,960 --> 00:14:13,600
+is likely to be the most significant.
+ 
+ 
+Optimal Entry and Exit Strategies
+
+154
+00:14:13,600 --> 00:14:20,960
+Now let's talk about some specific entry and exit 
+strategies you can use around these key levels. 
+
+155
+00:14:20,960 --> 00:14:24,960
+One of the simplest and most effective ways 
+to enter a trade at a supply or demand zone is  
+
+156
+00:14:24,960 --> 00:14:29,240
+to simply set a limit order 
+directly on the level itself. 
+
+157
+00:14:29,240 --> 00:14:36,440
+This approach assumes that the zone will hold and 
+that price will reverse once it hits your order. 
+  
+
+158
+00:14:36,440 --> 00:14:41,560
+However, there are a couple of potential 
+downsides to this aggressive strategy. 
+
+159
+00:14:41,560 --> 00:14:47,240
+If you set your order too far away from the 
+zone, you might miss out on the trade entirely  
+
+160
+00:14:47,240 --> 00:14:52,880
+if price never quite reaches your price.
+Or the second scenario, price might just  
+
+161
+00:14:52,880 --> 00:14:57,840
+break through your zone with ease.
+ 
+A more conservative approach is to  
+
+162
+00:14:57,840 --> 00:15:04,040
+wait for a specific candlestick pattern to 
+form at the level, before entering a trade. 
+
+163
+00:15:04,040 --> 00:15:08,840
+For example, you might look for a 
+bullish reversal pattern, like a pin  
+
+164
+00:15:08,840 --> 00:15:15,560
+bar or an engulfing candle, at a demand zone.
+The idea behind this strategy is that these  
+
+165
+00:15:15,560 --> 00:15:21,840
+candlestick formations can give you a bit more 
+confirmation that the zone is likely to hold  
+
+166
+00:15:21,840 --> 00:15:27,480
+and that price is getting ready to reverse. 
+ 
+Another technique you can use to fine-tune your  
+
+167
+00:15:27,480 --> 00:15:32,040
+entries is to look for specific 
+structures on lower time frames. 
+
+168
+00:15:32,040 --> 00:15:38,280
+For example, let's say you've identified a 
+strong demand zone on the 1-hour chart, but  
+
+169
+00:15:38,280 --> 00:15:44,400
+you want to get more precise with your entry. 
+ 
+Instead of just buying blindly at the level,  
+
+170
+00:15:44,400 --> 00:15:50,960
+you could drop down to the 15 minute chart and 
+look for a reversal pattern, like a double bottom  
+
+171
+00:15:50,960 --> 00:15:56,640
+or a change of character, to form at the zone.
+In this way, you can often get a tighter  
+
+172
+00:15:56,640 --> 00:16:01,000
+entry with a better risk-to-reward ratio. 
+ 
+ 
+Assessing the Strength of a Supply or Demand Zone
+
+173
+00:16:01,000 --> 00:16:06,440
+Now let's talk about how to evaluate 
+the strength of a supply or demand zone. 
+
+174
+00:16:06,440 --> 00:16:13,440
+One of the first things to look at is how quickly 
+price moves away from the zone after it's formed.  
+
+175
+00:16:13,440 --> 00:16:18,920
+Generally speaking, the faster price shoots 
+away from a level, the stronger that level  
+
+176
+00:16:18,920 --> 00:16:26,000
+is likely to be. Quick and significant moves 
+away from a zone indicate a strong imbalance.
+  
+
+177
+00:16:26,000 --> 00:16:30,640
+So, if you see price just rocketing 
+away from a zone, that's a pretty good  
+
+178
+00:16:30,640 --> 00:16:36,000
+sign that there's some serious order flow 
+happening there, and that institutions are  
+
+179
+00:16:36,000 --> 00:16:41,480
+likely defending the level aggressively.
+ 
+Another factor to consider is the amount  
+
+180
+00:16:41,480 --> 00:16:46,640
+of time price spends at the zone, 
+before making that initial move. 
+
+181
+00:16:46,640 --> 00:16:51,200
+The less time price hangs out at a 
+level, the more likely it is to be a  
+
+182
+00:16:51,200 --> 00:16:55,320
+key turning point in the market.
+So, if you see price just kind  
+
+183
+00:16:55,320 --> 00:17:00,440
+of dip into a demand zone and then 
+immediately start rallying higher,  
+
+184
+00:17:00,440 --> 00:17:07,920
+that's often a signal that big buyers have stepped 
+in, and are absorbing all the available supply.
+  
+
+185
+00:17:07,920 --> 00:17:14,120
+The actual size of the move is important 
+too. Obviously, if price barely budges  
+
+186
+00:17:14,120 --> 00:17:20,400
+after hitting a supply or demand level, that's 
+not exactly a big endorsement of its strength. 
+
+187
+00:17:20,400 --> 00:17:26,240
+But if you see an extended move in the opposite 
+direction after a zone is tested, that's a sign  
+
+188
+00:17:26,240 --> 00:17:32,400
+that the level is probably pretty significant.
+ 
+Another thing to watch for is the volume during  
+
+189
+00:17:32,400 --> 00:17:39,520
+the formation of the zone. Generally speaking, 
+you want to see a noticeable uptick in volume,  
+
+190
+00:17:39,520 --> 00:17:44,040
+as price is testing a key level.
+This indicates that there's a lot  
+
+191
+00:17:44,040 --> 00:17:49,680
+of interest and activity happening at that 
+specific price, and that institutions are  
+
+192
+00:17:49,680 --> 00:17:55,760
+likely absorbing or distributing there.
+ 
+Another factor that can affect the  
+
+193
+00:17:55,760 --> 00:18:01,040
+strength of a zone is whether or not 
+it causes a break of market structure. 
+
+194
+00:18:01,040 --> 00:18:07,080
+A supply or demand zone that causes a 
+break of structure is generally stronger. 
+
+195
+00:18:07,080 --> 00:18:11,520
+It takes a significant amount of money 
+to break market structure, making these  
+
+196
+00:18:11,520 --> 00:18:17,600
+zones more likely to hold in the future.
+ 
+So, if you see a zone form and then price  
+
+197
+00:18:17,600 --> 00:18:23,480
+just starts trending in the opposite direction 
+and breaking through key levels on the chart,  
+
+198
+00:18:23,480 --> 00:18:28,440
+that's often a sign that there's some serious 
+institutional backing behind the move,  
+
+199
+00:18:28,440 --> 00:18:33,745
+and that the zone is likely to be 
+a key focal point going forward.
+
+200
+00:18:33,745 --> 00:18:33,800
+Avoiding Common Mistakes in 
+Supply and Demand Trading
+  
+
+201
+00:18:33,800 --> 00:18:39,840
+Now let's talk about some of the most frequent 
+mistakes that traders make when it comes to supply  
+
+202
+00:18:39,840 --> 00:18:45,080
+and demand, and how you can avoid them.
+One of the biggest errors is trading  
+
+203
+00:18:45,080 --> 00:18:48,200
+from a weak structure.
+This often happens when  
+
+204
+00:18:48,200 --> 00:18:53,800
+traders zoom in too much on their charts 
+and lose sight of the bigger picture. 
+
+205
+00:18:53,800 --> 00:18:57,520
+They might see a high that failed 
+to break the previous one and  
+
+206
+00:18:57,520 --> 00:19:03,400
+think it's a good supply zone to short. 
+ 
+But if the overall trend is actually bullish,  
+
+207
+00:19:03,400 --> 00:19:08,080
+they're likely to get smashed trading 
+against that dominant direction. 
+
+208
+00:19:08,080 --> 00:19:13,720
+So, always consider the broader context before 
+entering a trade. It's crucial to align your  
+
+209
+00:19:13,720 --> 00:19:19,160
+trades with the current order flow. 
+ 
+Traders also tend to have the wrong  
+
+210
+00:19:19,160 --> 00:19:24,960
+expectations of how far price will move 
+after hitting a supply or demand zone. 
+
+211
+00:19:24,960 --> 00:19:29,040
+Old demand zones, for instance, 
+often become reaction points  
+
+212
+00:19:29,040 --> 00:19:36,280
+for pullbacks rather than areas for new highs, 
+especially when order flow turns bearish. 
+  
+
+213
+00:19:36,280 --> 00:19:42,960
+So, if you're expecting a full trend reversal from 
+an area that's already been tested multiple times,  
+
+214
+00:19:42,960 --> 00:19:47,520
+you might end up disappointed.
+ 
+It's also a frequent mistake to  
+
+215
+00:19:47,520 --> 00:19:52,560
+trade from zones with no inducement.
+Inducement refers to the liquidity  
+
+216
+00:19:52,560 --> 00:19:57,960
+that's available in front of a zone.
+If there's no structural low or other  
+
+217
+00:19:57,960 --> 00:20:03,400
+liquidity built up in front of a demand 
+zone, that means the only available liquidity  
+
+218
+00:20:03,400 --> 00:20:08,200
+is actually behind the low itself. 
+ 
+That lack of inducement makes the  
+
+219
+00:20:08,200 --> 00:20:11,880
+zone more prone to failure.
+So, always check where the  
+
+220
+00:20:11,880 --> 00:20:17,520
+orders are stacked in relation to your zone.
+Now, if you want to take an even deeper dive  
+
+221
+00:20:17,520 --> 00:20:28,640
+into some of the strategies we've touched on 
+here, be sure to check out these next videos!
+

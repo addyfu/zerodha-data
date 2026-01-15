@@ -1,0 +1,1486 @@
+1
+00:00:00,420 --> 00:00:05,819
+So today I’ll share with you a complete
+smart money trading plan to filter and find
+
+2
+00:00:05,819 --> 00:00:09,300
+the best possible trades, with the highest
+probabilities.
+
+3
+00:00:09,300 --> 00:00:14,510
+The trading plan revolves around supply and
+demand areas, or order block, whatever you
+
+4
+00:00:14,510 --> 00:00:20,930
+want to call them, fair value gaps, liquidity
+runs, and one of my most reliable filters,
+
+5
+00:00:20,930 --> 00:00:22,400
+pivot points.
+
+6
+00:00:22,400 --> 00:00:27,760
+If you follow this approach you will achieve
+remarkably precise entries, with minimal stop
+
+7
+00:00:27,760 --> 00:00:32,149
+losses while targeting substantial rewards.
+
+8
+00:00:32,149 --> 00:00:37,290
+So let’s begin by talking about the core
+component of our trading plan, namely supply
+
+9
+00:00:37,290 --> 00:00:40,320
+and demand zones, or order blocks.
+
+10
+00:00:40,320 --> 00:00:45,880
+So smart money use algorithms to enter the
+market strategically at important levels,
+
+11
+00:00:45,880 --> 00:00:50,410
+which we, retail traders, refer to as supply
+and demand.
+
+12
+00:00:50,410 --> 00:00:55,129
+Instead of placing large amounts of money
+all at once, they split their orders into
+
+13
+00:00:55,129 --> 00:00:59,590
+smaller parts, forming tight consolidations
+on the chart.
+
+14
+00:00:59,590 --> 00:01:03,600
+These consolidations often precede strong
+price movements.
+
+15
+00:01:03,600 --> 00:01:08,290
+This technique leaves a distinct pattern on
+the chart, showing where institutional money
+
+16
+00:01:08,290 --> 00:01:10,680
+has been active.
+
+17
+00:01:10,680 --> 00:01:15,680
+So I’ve researched a lot about institutional
+trading in the past year, and from several
+
+18
+00:01:15,680 --> 00:01:19,909
+sources I’ve read that smart money trade
+with no protective stop loss.
+
+19
+00:01:19,909 --> 00:01:24,060
+And at first, this seemed quite controversial
+to me.
+
+20
+00:01:24,060 --> 00:01:29,299
+I might be wrong here, but from what I’ve
+read, institutions employ a strategy called
+
+21
+00:01:29,299 --> 00:01:34,950
+hedging, where they simultaneously buy and
+sell, to balance their positions.
+
+22
+00:01:34,950 --> 00:01:39,420
+You might wonder why they do this instead
+of using stop losses.
+
+23
+00:01:39,420 --> 00:01:44,659
+The reason is simple: institutions have the
+power to influence the market and minimize
+
+24
+00:01:44,659 --> 00:01:46,729
+losses.
+
+25
+00:01:46,729 --> 00:01:51,469
+Imagine they take both a short and a long
+position at a key level.
+
+26
+00:01:51,469 --> 00:01:57,980
+If market momentum favors the long position,
+the short position faces a temporary loss.
+
+27
+00:01:57,980 --> 00:02:04,010
+After the long position reaches its target,
+price must then retrace back down to the short
+
+28
+00:02:04,010 --> 00:02:08,140
+positions point of origin, to mitigate the
+unrealized loss.
+
+29
+00:02:08,140 --> 00:02:13,140
+You often hear the word mitigation in the
+smart money communities.
+
+30
+00:02:13,140 --> 00:02:18,720
+Mitigation is basically the point where smart
+money breaks even on a losing position.
+
+31
+00:02:18,720 --> 00:02:25,470
+Once the loss is mitigated, the price tends
+to align with the dominant trend's momentum.
+
+32
+00:02:25,470 --> 00:02:31,760
+And while smart money undergo their mitigation,
+retail traders often get caught in analyzing
+
+33
+00:02:31,760 --> 00:02:38,010
+double tops, flags, or various indicators
+that that have nothing to do with WHY price
+
+34
+00:02:38,010 --> 00:02:40,280
+does what it does.
+
+35
+00:02:40,280 --> 00:02:46,220
+This allows institutional money to manipulate
+retail traders' positions, by triggering "stop
+
+36
+00:02:46,220 --> 00:02:49,810
+hunts" or "fake-outs" to liquidate these positions.
+
+37
+00:02:49,810 --> 00:02:55,310
+In reality, these are actions executed by
+institutional algorithms as part of their
+
+38
+00:02:55,310 --> 00:02:58,830
+predetermined strategies.
+
+39
+00:02:58,830 --> 00:03:04,659
+Now that you understand how price is moved
+by smart money between areas of interest,
+
+40
+00:03:04,659 --> 00:03:08,260
+let me reveal the main rules of our trading
+plan.
+
+41
+00:03:08,260 --> 00:03:09,260
+1.
+
+42
+00:03:09,260 --> 00:03:14,459
+The supply/demand zone must cause a break
+of structure or a change of character
+
+43
+00:03:14,459 --> 00:03:16,069
+2.
+
+44
+00:03:16,069 --> 00:03:20,520
+There must be a FVG right after the supply
+or demand area
+
+45
+00:03:20,520 --> 00:03:22,159
+3.
+
+46
+00:03:22,159 --> 00:03:27,610
+A pivot point must offer additional confluence
+– we’ll talk later about their importance
+
+47
+00:03:27,610 --> 00:03:28,610
+4.
+
+48
+00:03:28,610 --> 00:03:34,680
+And, a liquidity run must trap traders on
+the opposite side of your trade (this one
+
+49
+00:03:34,680 --> 00:03:40,250
+is optional, but if you can find it, it increases
+the chances in your favor)
+
+50
+00:03:40,250 --> 00:03:47,840
+So, the first step is to find a high probability
+supply or demand area, meaning that area must
+
+51
+00:03:47,840 --> 00:03:51,670
+cause a break of structure or a change of
+character.
+
+52
+00:03:51,670 --> 00:03:57,980
+You can easily spot these zones because they
+appear as compact consolidation areas situated
+
+53
+00:03:57,980 --> 00:04:01,439
+between strong and sudden price movements.
+
+54
+00:04:01,439 --> 00:04:06,709
+You can narrow down your zone to the last
+candle that moved in the opposite direction
+
+55
+00:04:06,709 --> 00:04:09,829
+just before the sudden strong movement.
+
+56
+00:04:09,829 --> 00:04:15,090
+In this case, when there's a bullish trend
+and you want to make buy trades, you should
+
+57
+00:04:15,090 --> 00:04:20,450
+pinpoint the final bearish candle before the
+bullish surge.
+
+58
+00:04:20,450 --> 00:04:26,150
+If the nearby candles and wicks are small,
+it's better to incorporate them into the demand
+
+59
+00:04:26,150 --> 00:04:28,750
+zone as well.
+
+60
+00:04:28,750 --> 00:04:35,340
+So remember: this is the last area of institutional
+activity prior to the impulse.
+
+61
+00:04:35,340 --> 00:04:41,970
+This is the area where a hedge position may
+be mitigated before continuing bullish momentum.
+
+62
+00:04:41,970 --> 00:04:45,850
+The same for a supply zone, or a bearish order
+block.
+
+63
+00:04:45,850 --> 00:04:51,130
+You mark the final bullish candle before the
+bearish down move.
+
+64
+00:04:51,130 --> 00:04:57,220
+Now very important, this supply or demand
+zone must be responsible for a break of structure
+
+65
+00:04:57,220 --> 00:04:59,729
+(BOS) or a change of character.
+
+66
+00:04:59,729 --> 00:05:06,949
+These are price shifts above or below previous
+swing highs or lows, leading to trend changes
+
+67
+00:05:06,949 --> 00:05:08,320
+or continuations.
+
+68
+00:05:08,320 --> 00:05:15,800
+A BOS is simply a break above a previous higher
+high in an uptrend, or a break below a lower
+
+69
+00:05:15,800 --> 00:05:17,950
+low in a downtrend.
+
+70
+00:05:17,950 --> 00:05:24,990
+The second component is a fair value gap FVG
+right after the supply or demand area.
+
+71
+00:05:24,990 --> 00:05:28,640
+This can greatly enhance the strength of your
+trades.
+
+72
+00:05:28,640 --> 00:05:35,139
+One of the primary factors you must seek when
+spotting a supply or demand area is an imbalance.
+
+73
+00:05:35,139 --> 00:05:40,740
+This occurs when an order block generates
+such strong trading volume in the market that
+
+74
+00:05:40,740 --> 00:05:46,500
+it disrupts the balance between buyers and
+sellers, resulting in a gap.
+
+75
+00:05:46,500 --> 00:05:50,889
+This is called an imbalance or inefficient
+price action.
+
+76
+00:05:50,889 --> 00:05:56,580
+These gaps act like a magnet for the price
+to retreat to, aiming to correct the disruption
+
+77
+00:05:56,580 --> 00:05:58,460
+in market balance.
+
+78
+00:05:58,460 --> 00:06:04,300
+For a fair value gap to form, there should
+be a sequence of three candles showing significant
+
+79
+00:06:04,300 --> 00:06:08,830
+buying or selling, ideally in the same direction.
+
+80
+00:06:08,830 --> 00:06:14,539
+When there's a substantial price movement
+either up or down, a gap emerges between the
+
+81
+00:06:14,539 --> 00:06:19,010
+wick of the first candle and the wick of the
+last candle.
+
+82
+00:06:19,010 --> 00:06:21,610
+Now, very important.
+
+83
+00:06:21,610 --> 00:06:25,120
+We're not directly trading the imbalance zone
+itself.
+
+84
+00:06:25,120 --> 00:06:27,860
+This is one of the most common mistakes.
+
+85
+00:06:27,860 --> 00:06:32,560
+If you would trade all the fair value gaps
+you see on the chart, you’ll end up with
+
+86
+00:06:32,560 --> 00:06:34,040
+50 trades in a single day.
+
+87
+00:06:34,040 --> 00:06:41,220
+The key is to use fair value gaps to enhance
+your decision-making process, but only when
+
+88
+00:06:41,220 --> 00:06:44,389
+aiming for a supply or demand entry.
+
+89
+00:06:44,389 --> 00:06:49,960
+A supply or demand area that triggered such
+a significant disruption in price becomes
+
+90
+00:06:49,960 --> 00:06:52,430
+a more reliable entry point.
+
+91
+00:06:52,430 --> 00:06:56,410
+cv
+Regarding this imbalance or inefficiency zone,
+
+92
+00:06:56,410 --> 00:07:02,280
+it's uncertain when they will be filled, but
+history shows they eventually do get filled
+
+93
+00:07:02,280 --> 00:07:04,889
+when conditions are favorable.
+
+94
+00:07:04,889 --> 00:07:09,190
+This is precisely why you don't solely rely
+on them for trading.
+
+95
+00:07:09,190 --> 00:07:16,000
+Instead, you consider them a valuable confluence
+tool to have in your toolkit while analyzing
+
+96
+00:07:16,000 --> 00:07:18,400
+a market.
+
+97
+00:07:18,400 --> 00:07:21,400
+The third condition is a pivot point confluence.
+
+98
+00:07:21,400 --> 00:07:27,479
+These are price levels used by institutional
+traders as significant levels in the market.
+
+99
+00:07:27,479 --> 00:07:32,550
+These levels are calculated as an average
+of prices from the performance of a market
+
+100
+00:07:32,550 --> 00:07:35,080
+in the prior trading period.
+
+101
+00:07:35,080 --> 00:07:43,199
+As price gets into a pivot point area, whether
+it’s the pivot or an s1 or r1 level, it
+
+102
+00:07:43,199 --> 00:07:49,010
+will act as a support/resistance based on
+where the price has come from.
+
+103
+00:07:49,010 --> 00:07:54,560
+Meaning that if the price comes from beneath
+one of the levels it will be held as a resistance
+
+104
+00:07:54,560 --> 00:07:55,770
+point.
+
+105
+00:07:55,770 --> 00:07:57,259
+Not a guarantee, however.
+
+106
+00:07:57,259 --> 00:08:01,460
+But, you are expecting to see a stall at that
+level.
+
+107
+00:08:01,460 --> 00:08:07,759
+If the price comes into one of those levels
+from above, then you expect to see the pivot
+
+108
+00:08:07,759 --> 00:08:10,430
+area act as support.
+
+109
+00:08:10,430 --> 00:08:15,520
+Remember it’s not enough to find a pivot
+point, and think “this is support or this
+
+110
+00:08:15,520 --> 00:08:19,110
+is resistance”, so let me get long or short.
+
+111
+00:08:19,110 --> 00:08:26,720
+You want to find a key pivot next to a supply
+or demand zone, next to a fair value gap.
+
+112
+00:08:26,720 --> 00:08:31,979
+I know ICT traders don’t use pivots, but
+I consider them one of the best confirmation
+
+113
+00:08:31,979 --> 00:08:36,060
+tools you could have on your charts.
+
+114
+00:08:36,060 --> 00:08:41,880
+Fourth and final condition: a liquidity run
+must trap traders on the opposite side of
+
+115
+00:08:41,880 --> 00:08:43,690
+your possible trade.
+
+116
+00:08:43,690 --> 00:08:49,460
+So if you find a demand area, leading to a
+break of structure, a fair value gap next
+
+117
+00:08:49,460 --> 00:08:56,050
+to it, and a pivot point around the same area,
+if you find some sort of liquidity run, you’re
+
+118
+00:08:56,050 --> 00:08:59,839
+in a strong position to open a buy trade.
+
+119
+00:08:59,839 --> 00:09:04,320
+Market liquidity is an overlooked topic when
+it comes to trading.
+
+120
+00:09:04,320 --> 00:09:08,980
+Every time you open a trade you are adding
+liquidity into the market.
+
+121
+00:09:08,980 --> 00:09:13,740
+And you're probably familiar with the terms
+"stop hunts" or "fake-outs."
+
+122
+00:09:13,740 --> 00:09:18,680
+These terms describe a situation where a trader's
+stop loss is triggered.
+
+123
+00:09:18,680 --> 00:09:25,790
+And shortly after this loss, the price moves
+in the direction the trader initially anticipated.
+
+124
+00:09:25,790 --> 00:09:31,649
+This inexplicable situation arises because
+institutional investors need liquidity in
+
+125
+00:09:31,649 --> 00:09:35,340
+the market to execute their significant trades.
+
+126
+00:09:35,340 --> 00:09:41,120
+These movements are the primary reason why
+traditional retail trading methods, like relying
+
+127
+00:09:41,120 --> 00:09:47,390
+on trend lines and chart patterns, like flags
+and wedges, tend to be less effective.
+
+128
+00:09:47,390 --> 00:09:53,650
+If a large percentage of retail traders are
+using these methods, and place their stops
+
+129
+00:09:53,650 --> 00:09:59,570
+around the same obvious levels, it's only
+logical that institutional algorithms would
+
+130
+00:09:59,570 --> 00:10:05,510
+be programmed to exploit the stop losses clustered
+around these chart patterns.
+
+131
+00:10:05,510 --> 00:10:12,310
+Many times, you correctly predict the direction
+in which the price will move, but just before
+
+132
+00:10:12,310 --> 00:10:18,830
+the actual movement, the price intentionally
+triggers both buy and sell orders to gather
+
+133
+00:10:18,830 --> 00:10:20,950
+liquidity from the market.
+
+134
+00:10:20,950 --> 00:10:26,620
+This process aims to clear out these orders
+before the real move occurs.
+
+135
+00:10:26,620 --> 00:10:32,810
+You correctly anticipated the next move, but
+you somehow lost money in the process.
+
+136
+00:10:32,810 --> 00:10:41,300
+So developing the ability to identify areas
+where liquidity might be concentrated is crucial.
+
+137
+00:10:41,300 --> 00:10:47,100
+We are looking at the 5-min time frame of
+S&P, chasing a potential buy trade.
+
+138
+00:10:47,100 --> 00:10:53,240
+First condition is met: a Demand Zone Causes
+a Break of Structure or Change of Character
+
+139
+00:10:53,240 --> 00:10:59,950
+In this example, this demand zone represents
+the area where buyers are likely to step in,
+
+140
+00:10:59,950 --> 00:11:04,690
+causing a potential future reversal or change
+in the price's direction.
+
+141
+00:11:04,690 --> 00:11:10,300
+Condition no 2: Following the demand zone,
+you notice that there is a fair value gap
+
+142
+00:11:10,300 --> 00:11:11,440
+on its right.
+
+143
+00:11:11,440 --> 00:11:17,240
+This gap indicates a sudden shift in price
+from the demand area, suggesting that buyers
+
+144
+00:11:17,240 --> 00:11:20,650
+have aggressively entered the market.
+
+145
+00:11:20,650 --> 00:11:26,139
+Condition no 3 is also met: A Pivot Point
+Offers Additional Confluence
+
+146
+00:11:26,139 --> 00:11:32,630
+You can observe that S1 pivot point aligns
+with the demand zone, below the fair value
+
+147
+00:11:32,630 --> 00:11:33,630
+gap.
+
+148
+00:11:33,630 --> 00:11:39,630
+And this price level can act as future support,
+an additional layer of confluence, reinforcing
+
+149
+00:11:39,630 --> 00:11:46,269
+the potential bullish bias indicated by the
+demand zone and fair value gap.
+
+150
+00:11:46,269 --> 00:11:47,269
+Condition no.
+
+151
+00:11:47,269 --> 00:11:52,589
+4 is also present: A Liquidity Run Traps Sellers
+on the Opposite Side
+
+152
+00:11:52,589 --> 00:11:58,829
+As the price moves lower towards the demand
+zone and pivot point, it triggers a liquidity
+
+153
+00:11:58,829 --> 00:12:05,300
+run, trapping sellers who had taken short
+positions in anticipation of a downward move.
+
+154
+00:12:05,300 --> 00:12:10,750
+The liquidity run results in a quick upward
+spike in price, further validating the bullish
+
+155
+00:12:10,750 --> 00:12:12,110
+momentum.
+
+156
+00:12:12,110 --> 00:12:18,339
+As all conditions in our trading plan are
+met, you place a limit order or enter directly
+
+157
+00:12:18,339 --> 00:12:20,820
+at the top of the demand level.
+
+158
+00:12:20,820 --> 00:12:26,250
+You place a protective stop loss slightly
+below the zone and your target profit is at
+
+159
+00:12:26,250 --> 00:12:32,970
+the next major supply level or at a recent
+swing high, or even at a pivot point.
+
+160
+00:12:32,970 --> 00:12:37,949
+This is the 5-min time frame, so the stop
+loss shouldn’t be too wide, and in most
+
+161
+00:12:37,949 --> 00:12:43,630
+cases, you’ll get a decent risk to reward
+ratio on your trades.
+
+162
+00:12:43,630 --> 00:12:51,420
+We are analyzing the 5-min time frame of USD
+CAD, looking for a potential sell trade.
+
+163
+00:12:51,420 --> 00:12:58,570
+Step 1: We Found A Supply Zone Which Caused
+a Break of Structure or Change of Character
+
+164
+00:12:58,570 --> 00:13:03,860
+This is the zone where sellers are likely
+to step in, potentially leading to a reversal
+
+165
+00:13:03,860 --> 00:13:08,510
+or a change in the market’s direction if
+price returns to it.
+
+166
+00:13:08,510 --> 00:13:14,329
+You mark the last bullish candle before the
+drop, or the cluster of candlesticks where
+
+167
+00:13:14,329 --> 00:13:18,300
+selling pressure has historically emerged.
+
+168
+00:13:18,300 --> 00:13:24,449
+Step 2: Following the supply zone, you notice
+that there is a fair value gap on the chart,
+
+169
+00:13:24,449 --> 00:13:29,880
+a sudden shift in price, suggesting that sellers
+are actively entering the market.
+
+170
+00:13:29,880 --> 00:13:38,310
+Step 3: A Pivot Point Offers Additional Confluence
+In this case, R1 pivot aligns with the supply
+
+171
+00:13:38,310 --> 00:13:40,449
+zone, another resistance level.
+
+172
+00:13:40,449 --> 00:13:46,930
+In this scenario, the pivot point adds an
+extra layer of confluence, reinforcing the
+
+173
+00:13:46,930 --> 00:13:53,360
+potential bearish bias indicated by the supply
+zone and fair value gap.
+
+174
+00:13:53,360 --> 00:13:59,560
+Step 4: A Liquidity Run Traps buyers on the
+Opposite Side
+
+175
+00:13:59,560 --> 00:14:05,600
+As the price moves higher towards the supply
+zone and pivot point, it triggers a liquidity
+
+176
+00:14:05,600 --> 00:14:06,970
+run.
+
+177
+00:14:06,970 --> 00:14:13,790
+Price experiences an upward surge, forms a
+double top, and takes the liquidity, temporarily
+
+178
+00:14:13,790 --> 00:14:19,670
+trapping traders who had taken long positions
+in anticipation of an upward move.
+
+179
+00:14:19,670 --> 00:14:24,610
+Combined with the supply zone rejection, the
+liquidity run results in a sudden decline
+
+180
+00:14:24,610 --> 00:14:28,670
+in price, further validating the bearish momentum.
+
+181
+00:14:28,670 --> 00:14:34,050
+As I said, you may not see the liquidity run
+on every setup, but it’s a valid condition
+
+182
+00:14:34,050 --> 00:14:35,220
+to have.
+
+183
+00:14:35,220 --> 00:14:38,380
+You sell at the bottom of the supply level.
+
+184
+00:14:38,380 --> 00:14:44,370
+You place a protective stop loss slightly
+above the zone and your target profit is at
+
+185
+00:14:44,370 --> 00:14:51,839
+the next major demand level or at a recent
+swing low, or at a pivot point.
+
+186
+00:14:51,839 --> 00:14:54,000
+Here's another short position.
+
+187
+00:14:54,000 --> 00:15:00,529
+First we pinpoint a supply zone on the NAS100
+chart, indicating a trend continuation and
+
+188
+00:15:00,529 --> 00:15:03,960
+at the same time a break of structure.
+
+189
+00:15:03,960 --> 00:15:10,110
+Right after the supply zone, you notice a
+fair value gap, signaling strong selling interest
+
+190
+00:15:10,110 --> 00:15:13,120
+and a significant influx of sellers.
+
+191
+00:15:13,120 --> 00:15:20,680
+S1 pivot point aligns with the supply zone,
+above the fair value gap, acting as an additional
+
+192
+00:15:20,680 --> 00:15:25,440
+resistance level and reinforcing the bearish
+bias.
+
+193
+00:15:25,440 --> 00:15:31,699
+As the price goes up, it even triggers a liquidity
+run, taking stops above this level.
+
+194
+00:15:31,699 --> 00:15:37,649
+The sudden drop in price also trapped buyers
+who were positioned for an upward move.
+
+195
+00:15:37,649 --> 00:15:43,620
+Considering these elements, you can make the
+decision to enter a sell trade, anticipating
+
+196
+00:15:43,620 --> 00:15:50,640
+the continuation of the bearish momentum generated
+by the supply zone, fair value gap, pivot
+
+197
+00:15:50,640 --> 00:15:52,769
+point, and liquidity run.
+
+198
+00:15:52,769 --> 00:15:55,790
+4 factors indicating the same thing.
+
+199
+00:15:55,790 --> 00:15:59,110
+So you sell at the bottom of the supply level.
+
+200
+00:15:59,110 --> 00:16:04,980
+You place the stop loss slightly above the
+zone and you take profits as price nears the
+
+201
+00:16:04,980 --> 00:16:13,630
+next major demand level on its way down, or
+at a recent low, or at a pivot point.
+
+202
+00:16:13,630 --> 00:16:19,709
+Here's how buy trade on Apple would unfold:
+First we marked this demand zone, indicating
+
+203
+00:16:19,709 --> 00:16:22,270
+a potential trend continuation.
+
+204
+00:16:22,270 --> 00:16:27,520
+If we look at the past price action, we see
+the market making higher highs and higher
+
+205
+00:16:27,520 --> 00:16:28,520
+lows.
+
+206
+00:16:28,520 --> 00:16:32,470
+We have this minor break of structure here.
+
+207
+00:16:32,470 --> 00:16:38,649
+Right after the demand zone, notice this fair
+value gap, indicating strong buying interest
+
+208
+00:16:38,649 --> 00:16:41,529
+and an aggressive influx of buyers.
+
+209
+00:16:41,529 --> 00:16:48,440
+S1 pivot point aligns with the demand zone,
+acting as an additional support level and
+
+210
+00:16:48,440 --> 00:16:51,650
+enhancing the bullish bias.
+
+211
+00:16:51,650 --> 00:16:57,760
+In this example, we don’t have a liquidity
+run, but this doesn’t invalidate the setup.
+
+212
+00:16:57,760 --> 00:17:03,390
+Considering these factors, you can decide
+to enter a buy trade, anticipating a continuation
+
+213
+00:17:03,390 --> 00:17:11,049
+of the bullish momentum generated by the demand
+zone, fair value gap and the S1 pivot point
+
+214
+00:17:11,049 --> 00:17:13,799
+You buy at the top of the demand level.
+
+215
+00:17:13,799 --> 00:17:19,860
+A stop loss slightly below the zone and your
+target profit is at the next major supply
+
+216
+00:17:19,860 --> 00:17:26,130
+level or at a recent swing high, or at a pivot
+point.
+
+217
+00:17:26,130 --> 00:17:29,529
+If you prefer swing trading, that’s not
+a problem.
+
+218
+00:17:29,529 --> 00:17:33,260
+This is USDJPY on the H4 time frame.
+
+219
+00:17:33,260 --> 00:17:37,620
+The only difference is that instead of using
+daily pivots, we’ll change it to weekly
+
+220
+00:17:37,620 --> 00:17:38,620
+pivots.
+
+221
+00:17:38,620 --> 00:17:44,500
+And you might want to reduce your lot size,
+because the stops will be bigger.
+
+222
+00:17:44,500 --> 00:17:45,500
+Condition no.
+
+223
+00:17:45,500 --> 00:17:49,130
+1: Demand Zone causes a break in market structure.
+
+224
+00:17:49,130 --> 00:17:50,660
+This one is obvious.
+
+225
+00:17:50,660 --> 00:17:55,299
+We mark it, from the last bearish candle before
+the up move.
+
+226
+00:17:55,299 --> 00:18:00,460
+And this becomes a special spot on the chart
+where the price might change direction.
+
+227
+00:18:00,460 --> 00:18:06,679
+A potential "U-turn zone" where buyers might
+start to take control, making the price go
+
+228
+00:18:06,679 --> 00:18:08,210
+up.
+
+229
+00:18:08,210 --> 00:18:09,210
+Condition no.
+
+230
+00:18:09,210 --> 00:18:12,820
+2: Do we have a Fair Value Gap after the Demand
+Area?
+
+231
+00:18:12,820 --> 00:18:18,289
+Yes we have, right after this demand zone,
+there's a gap in price.
+
+232
+00:18:18,289 --> 00:18:20,530
+Even multiple fair value gaps.
+
+233
+00:18:20,530 --> 00:18:27,200
+It's a sign that lots of traders suddenly
+wanted to buy, which pushed the price higher.
+
+234
+00:18:27,200 --> 00:18:28,200
+Condition no.
+
+235
+00:18:28,200 --> 00:18:33,120
+3: Do we have a weekly Pivot Point that gives
+this area an extra power
+
+236
+00:18:33,120 --> 00:18:40,980
+Yes, notice that S1 pivot point is very close
+to this demand zone and the fair value gap.
+
+237
+00:18:40,980 --> 00:18:43,490
+That’s our extra layer of support.
+
+238
+00:18:43,490 --> 00:18:47,680
+It helps the price not decrease too much.
+
+239
+00:18:47,680 --> 00:18:48,680
+Condition no.
+
+240
+00:18:48,680 --> 00:18:51,710
+4: Do we have trapped traders with a liquidity
+run
+
+241
+00:18:51,710 --> 00:18:53,790
+I believe we have.
+
+242
+00:18:53,790 --> 00:18:56,460
+At this minor break of structure.
+
+243
+00:18:56,460 --> 00:18:57,940
+This is a "liquidity run."
+
+244
+00:18:57,940 --> 00:19:01,679
+It traps sellers who were betting on the market
+to go down.
+
+245
+00:19:01,679 --> 00:19:05,549
+I would take this buy trade every time I’ll
+see it.
+
+246
+00:19:05,549 --> 00:19:08,120
+The entry can also be adjusted.
+
+247
+00:19:08,120 --> 00:19:11,799
+You can use a limit order at the top of the
+demand area.
+
+248
+00:19:11,799 --> 00:19:17,210
+But you can also refine it even more, by moving
+on a lower time frame, and finding some sort
+
+249
+00:19:17,210 --> 00:19:19,020
+of confirmation.
+
+250
+00:19:19,020 --> 00:19:22,750
+Now, you will encounter losing trades.
+
+251
+00:19:22,750 --> 00:19:25,510
+Even when all 4 conditions are met.
+
+252
+00:19:25,510 --> 00:19:31,700
+The most important part of this trading approach
+is finding the right supply or demand or order
+
+253
+00:19:31,700 --> 00:19:33,179
+blocks to trade.
+
+254
+00:19:33,179 --> 00:19:38,340
+To efficiently plot supply and demand zones
+on your chart you need to carefully considering
+
+255
+00:19:38,340 --> 00:19:43,320
+a few key variables:
+First is the freshness: The strongest entry
+
+256
+00:19:43,320 --> 00:19:50,220
+points occur when price retracts to a supply
+or demand zone for the first time after its
+
+257
+00:19:50,220 --> 00:19:51,330
+creation.
+
+258
+00:19:51,330 --> 00:19:55,890
+This indicates a "fresh" zone that hasn't
+been revisited yet.
+
+259
+00:19:55,890 --> 00:19:58,470
+Time Spent at the zone also matters.
+
+260
+00:19:58,470 --> 00:20:05,000
+Less time spent there suggests a higher degree
+of supply and demand imbalance, meaning that
+
+261
+00:20:05,000 --> 00:20:09,740
+significant market players are actively trading
+at that level.
+
+262
+00:20:09,740 --> 00:20:13,270
+Distance Moved away from the level matters.
+
+263
+00:20:13,270 --> 00:20:19,159
+We considered that in our analysis, by looking
+from break of structure or change of character.
+
+264
+00:20:19,159 --> 00:20:25,820
+Areas where the price sharply turned around
+indicate high-probability levels.
+
+265
+00:20:25,820 --> 00:20:31,590
+Also, try to focus on the most recent supply
+and demand zones.
+
+266
+00:20:31,590 --> 00:20:35,900
+This is a trade I lost, taking a buy position
+on the H4 time frame.
+
+267
+00:20:35,900 --> 00:20:41,150
+And I’ve lost quite a few trades before,
+using the same principle, until I realized
+
+268
+00:20:41,150 --> 00:20:42,180
+this.
+
+269
+00:20:42,180 --> 00:20:48,650
+A lot of traders focus too much on older order
+blocks, but the real power lies in newest
+
+270
+00:20:48,650 --> 00:20:49,650
+levels.
+
+271
+00:20:49,650 --> 00:20:56,059
+I used to believe that old supply and demand
+zones are just as likely to cause price reversals
+
+272
+00:20:56,059 --> 00:20:57,490
+as new ones.
+
+273
+00:20:57,490 --> 00:21:03,340
+I thought that old zones work just as well
+as new ones, without any difference.
+
+274
+00:21:03,340 --> 00:21:06,210
+When you look at the charts, it might seem
+true.
+
+275
+00:21:06,210 --> 00:21:10,500
+You'll see old zones making prices reverse
+quite often.
+
+276
+00:21:10,500 --> 00:21:17,100
+If you check charts from weeks or months ago,
+you'll find old zones that made prices turn
+
+277
+00:21:17,100 --> 00:21:18,100
+around.
+
+278
+00:21:18,100 --> 00:21:22,200
+But, let's think about how supply and demand
+zones form.
+
+279
+00:21:22,200 --> 00:21:28,419
+Banks create supply and demand zones by taking
+trades or cashing in their profits.
+
+280
+00:21:28,419 --> 00:21:34,179
+They lead prices back to these zones because
+they haven't finished making all their trades
+
+281
+00:21:34,179 --> 00:21:36,570
+or taking their profits yet.
+
+282
+00:21:36,570 --> 00:21:41,039
+But here's the thing: why would they wait
+for months to do this?
+
+283
+00:21:41,039 --> 00:21:46,890
+If they've already made a bunch of trades
+to push prices up, why not finish the rest
+
+284
+00:21:46,890 --> 00:21:49,179
+of their orders sooner?
+
+285
+00:21:49,179 --> 00:21:55,419
+To me, it doesn't make sense that banks would
+wait so long for prices to return to a zone
+
+286
+00:21:55,419 --> 00:21:58,240
+just for a few remaining trades.
+
+287
+00:21:58,240 --> 00:22:03,750
+If they want to finish their trades or take
+their profits, they'd bring prices back to
+
+288
+00:22:03,750 --> 00:22:05,299
+a zone quickly.
+
+289
+00:22:05,299 --> 00:22:09,890
+They wouldn't wait around for weeks or months;
+they'd do it right away.
+
+290
+00:22:09,890 --> 00:22:15,279
+So very important: the time factor is going
+to have a huge impact.
+
+291
+00:22:15,279 --> 00:22:22,299
+In this case the zone was created at the end
+of May, and I was taking a signal in August.
+
+292
+00:22:22,299 --> 00:22:28,110
+Banks already moved on, took their profits,
+and I was monitoring a useless area.
+
+293
+00:22:28,110 --> 00:22:33,360
+So remember: the newer a supply or demand
+zone is, the higher the chance that the same
+
+294
+00:22:33,360 --> 00:22:42,320
+kind of trading activity is still happening
+or new traders will respond to it more actively.
+
+295
+00:22:42,320 --> 00:22:46,580
+Now I want to showcase a type of trade you
+will encounter quite often.
+
+296
+00:22:46,580 --> 00:22:49,830
+We’re looking at the H4 time frame of EURJPY.
+
+297
+00:22:49,830 --> 00:22:58,340
+Step 1: A Supply Zone Leads to Change of character
+This becomes our value area where the price
+
+298
+00:22:58,340 --> 00:23:04,920
+might change its direction, where sellers
+took control and made the price go down.
+
+299
+00:23:04,920 --> 00:23:09,770
+Right after this supply zone, we spot a fair
+value gap in the price.
+
+300
+00:23:09,770 --> 00:23:15,460
+A sign that lots of people suddenly wanted
+to sell, pushing the price lower.
+
+301
+00:23:15,460 --> 00:23:22,240
+We also see that R1 pivot point is located
+close to this supply zone, above the fair
+
+302
+00:23:22,240 --> 00:23:23,760
+value gap.
+
+303
+00:23:23,760 --> 00:23:28,200
+This is our resistance level that could stop
+the price from going up.
+
+304
+00:23:28,200 --> 00:23:33,230
+I don’t see a liquidity run, trapping buyers,
+so this isn’t an A+ setup.
+
+305
+00:23:33,230 --> 00:23:34,740
+Now here’s the thing.
+
+306
+00:23:34,740 --> 00:23:40,230
+If you placed the sell order at the bottom
+of the supply zone, and the stop loss above
+
+307
+00:23:40,230 --> 00:23:43,600
+it, you would have probably lost the trade.
+
+308
+00:23:43,600 --> 00:23:49,350
+This will happen a lot, because we are dealing
+with leading signals, we are trying to anticipate
+
+309
+00:23:49,350 --> 00:23:51,230
+future price movements.
+
+310
+00:23:51,230 --> 00:23:53,690
+And this comes with such risk.
+
+311
+00:23:53,690 --> 00:23:59,409
+If you don’t like to set limit orders around
+order blocks, being on a higher time frame,
+
+312
+00:23:59,409 --> 00:24:06,070
+you could move to a lower time frame, maybe
+the M15 chart, and wait for a confirmation.
+
+313
+00:24:06,070 --> 00:24:11,770
+Maybe a change of character to the downside,
+maybe you find another fair value gap to initiate
+
+314
+00:24:11,770 --> 00:24:18,340
+a short position, you wait for a VWAP breakout
+to the downside, or even something else.
+
+315
+00:24:18,340 --> 00:24:23,480
+With this lower time frame confirmation approach,
+you would have avoided the loss.
+
+316
+00:24:23,480 --> 00:24:29,240
+But don’t get too obsessed with eliminating
+losses, if you’re risk management is on
+
+317
+00:24:29,240 --> 00:24:42,140
+point, there’s nothing to worry about in
+the long term.
+

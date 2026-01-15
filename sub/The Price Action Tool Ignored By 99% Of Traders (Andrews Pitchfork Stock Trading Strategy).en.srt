@@ -1,0 +1,690 @@
+1
+00:00:00,680 --> 00:00:05,759
+The Andrews pitchfork indicator, commonly
+referred to as 'median lines' is one of the
+
+2
+00:00:05,759 --> 00:00:08,430
+most versatile trading tools available.
+
+3
+00:00:08,430 --> 00:00:14,380
+Andrews’ pitchfork consists of a median
+line at the center and two parallel equidistant
+
+4
+00:00:14,380 --> 00:00:20,820
+trend lines, where the outside trend lines
+represent areas of support and resistance.
+
+5
+00:00:20,820 --> 00:00:25,660
+Traders often look for buying or selling opportunities
+as the price approaches the ends of these
+
+6
+00:00:25,660 --> 00:00:26,660
+channels.
+
+7
+00:00:26,660 --> 00:00:32,970
+In this chart, for example, the price remains
+largely within the bounds of the indicator
+
+8
+00:00:32,970 --> 00:00:37,140
+with the exception of several short false
+breakouts.
+
+9
+00:00:37,140 --> 00:00:39,820
+The Andrews pitchfork works in any time frame.
+
+10
+00:00:39,820 --> 00:00:44,390
+This, of course, can range from tick charts
+to monthly.
+
+11
+00:00:44,390 --> 00:00:49,450
+This allows the indicator to work well for
+day trading and long-term investing.
+
+12
+00:00:49,450 --> 00:00:52,610
+The indicator can also work on any security.
+
+13
+00:00:52,610 --> 00:00:58,250
+So, whether you like to trade forex, futures
+or stocks, you can incorporate this versatile
+
+14
+00:00:58,250 --> 00:01:01,270
+tool in your analysis.
+
+15
+00:01:01,270 --> 00:01:06,479
+The Andrews pitchfork indicator is created
+by selecting three points on a chart:
+
+16
+00:01:06,479 --> 00:01:10,060
+A beginning point that represents the start
+of a trend.
+
+17
+00:01:10,060 --> 00:01:14,440
+(We’ll call this point A)
+A reaction high coming after the beginning
+
+18
+00:01:14,440 --> 00:01:15,440
+point.
+
+19
+00:01:15,440 --> 00:01:16,840
+(Point B)
+
+20
+00:01:16,840 --> 00:01:19,950
+A reaction low coming after the beginning
+point.
+
+21
+00:01:19,950 --> 00:01:23,610
+(Point C)
+The selection of these points is somewhat
+
+22
+00:01:23,610 --> 00:01:28,690
+subjective, but it’s a good idea to experiment
+with different reaction highs and lows to
+
+23
+00:01:28,690 --> 00:01:31,009
+find what works best.
+
+24
+00:01:31,009 --> 00:01:36,040
+In some cases, you may want to plot multiple
+Andrews’ pitchforks on the same chart to
+
+25
+00:01:36,040 --> 00:01:41,299
+provide an indication of where support or
+resistance may be strongest.
+
+26
+00:01:41,299 --> 00:01:46,040
+You may also look at different timeframes
+to determine long-term and short-term support
+
+27
+00:01:46,040 --> 00:01:49,170
+and resistance levels for a given security.
+
+28
+00:01:49,170 --> 00:01:54,520
+You need to identify the right points in your
+analysis, because the success or failure of
+
+29
+00:01:54,520 --> 00:01:59,840
+interpreting signals depends largely on how
+you plot the median lines.
+
+30
+00:01:59,840 --> 00:02:05,259
+In most cases, drawing the median lines is
+rather subjective, but with practice, you
+
+31
+00:02:05,259 --> 00:02:07,869
+can develop the confidence required.
+
+32
+00:02:07,869 --> 00:02:13,629
+A rather simple method is after pivot points
+are identified, tweak the median lines to
+
+33
+00:02:13,629 --> 00:02:17,230
+encapsulate price action with the greatest
+level of accuracy.
+
+34
+00:02:17,230 --> 00:02:23,180
+If you master how to use Andrews pitchfork
+, you will have a competitive advantage ahead
+
+35
+00:02:23,180 --> 00:02:28,849
+of the market, because you will know the dynamic
+support and resistance levels in advance.
+
+36
+00:02:28,849 --> 00:02:35,000
+Now, not all three trend lines that make the
+Andrews pitchfork react the same.
+
+37
+00:02:35,000 --> 00:02:38,419
+They offer different levels of support and
+resistance.
+
+38
+00:02:38,419 --> 00:02:41,849
+The Andrews pitchfork indicator has three
+lines.
+
+39
+00:02:41,849 --> 00:02:44,579
+Each line starts from the pivot.
+
+40
+00:02:44,579 --> 00:02:49,799
+We have ml (median line), the uml (upper median
+line) and lml (lower median line).
+
+41
+00:02:49,799 --> 00:02:52,700
+But, they don’t have the same importance.
+
+42
+00:02:52,700 --> 00:02:56,730
+By far, the most important one is the median
+line.
+
+43
+00:02:56,730 --> 00:03:00,180
+It has one big advantage: it attracts price.
+
+44
+00:03:00,180 --> 00:03:03,590
+As such, it acts like a magnet.
+
+45
+00:03:03,590 --> 00:03:07,469
+Because of that, traders use it to adjust
+their trading strategies.
+
+46
+00:03:07,469 --> 00:03:11,010
+There are many ways to use this powerful trading
+tool.
+
+47
+00:03:11,010 --> 00:03:13,769
+Some traders use it as a single indicator.
+
+48
+00:03:13,769 --> 00:03:16,989
+Others integrate the pitchfork with other
+trading tools.
+
+49
+00:03:16,989 --> 00:03:22,799
+In any case, there’s not one Andrews pitchfork
+strategy that works all the time.
+
+50
+00:03:22,799 --> 00:03:27,239
+The classical way to use this trading tool
+is to look after support and resistance levels.
+
+51
+00:03:27,239 --> 00:03:33,930
+As you know, when we analyze a price chart,
+we can find classic and dynamic support/resistance
+
+52
+00:03:33,930 --> 00:03:35,099
+levels.
+
+53
+00:03:35,099 --> 00:03:39,329
+With this tool however, the dynamic ones are
+more valuable.
+
+54
+00:03:39,329 --> 00:03:44,290
+The bigger the time frame, the more powerful
+the reaction from the levels will be.
+
+55
+00:03:44,290 --> 00:03:50,280
+The idea is to integrate the dynamic support/resistance
+rules with Andrews pitchfork power.
+
+56
+00:03:50,280 --> 00:03:53,249
+Pay attention at this example.
+
+57
+00:03:53,249 --> 00:03:59,639
+The three pivots (a, b, c) give the angle
+and the shape of Andrews pitchfork.
+
+58
+00:03:59,639 --> 00:04:04,529
+The resulting lines act as future dynamic
+support/resistance levels.
+
+59
+00:04:04,529 --> 00:04:09,370
+As always, once a level gets broken, resistance
+turns into support.
+
+60
+00:04:09,370 --> 00:04:11,930
+And, the other way around.
+
+61
+00:04:11,930 --> 00:04:16,380
+Judging by the current prices, the outlook
+looks bullish.
+
+62
+00:04:16,380 --> 00:04:19,150
+The key here is the medial line.
+
+63
+00:04:19,150 --> 00:04:24,050
+Many traders misinterpret how to use Andrews
+pitchfork’s ml.
+
+64
+00:04:24,050 --> 00:04:27,840
+While it attracts the price, it doesn’t
+offer any support.
+
+65
+00:04:27,840 --> 00:04:29,020
+Nor resistance.
+
+66
+00:04:29,020 --> 00:04:34,319
+Just the fact that it pierces it is enough
+for a strong trend.
+
+67
+00:04:34,319 --> 00:04:38,090
+Strong trends see the ml guiding the price
+action.
+
+68
+00:04:38,090 --> 00:04:42,409
+Eventually, the price will pierce it multiple
+times.
+
+69
+00:04:42,409 --> 00:04:47,780
+As a rule of thumb, while the price stays
+within Andrews pitchfork lines, the trend
+
+70
+00:04:47,780 --> 00:04:49,349
+will keep going.
+
+71
+00:04:49,349 --> 00:04:54,020
+The fact that it pierces the ml multiple times
+shows strength.
+
+72
+00:04:54,020 --> 00:04:58,389
+Hence, you must not use this as support or
+resistance.
+
+73
+00:04:58,389 --> 00:05:00,910
+Here is another example, to make it very clear.
+
+74
+00:05:00,910 --> 00:05:04,949
+We identified, the A point as the start of
+the move.
+
+75
+00:05:04,949 --> 00:05:09,110
+Next, the B is the end of the first drop.
+
+76
+00:05:09,110 --> 00:05:13,259
+Finally, the C point is the end of the first
+swing higher.
+
+77
+00:05:13,259 --> 00:05:14,389
+The resulting Andrews pitchfork shows a very
+strong downtrend.
+
+78
+00:05:14,389 --> 00:05:20,169
+Even if the price gets above the upper ml,
+the bearishness is overwhelming.
+
+79
+00:05:20,169 --> 00:05:25,010
+On top of it, the ml attracts the price on
+a constant basis.
+
+80
+00:05:25,010 --> 00:05:32,219
+Furthermore, the upper ml and lower ml act
+as strong support and resistance levels.
+
+81
+00:05:32,219 --> 00:05:36,690
+Using Andrews pitchfork this way gives dynamic
+support and resistance levels.
+
+82
+00:05:36,690 --> 00:05:41,039
+But, this is valid only for the upper median
+line UML and lower median line LML.
+
+83
+00:05:41,039 --> 00:05:46,969
+For the median line ML, multiple piercings
+simply show how strong the trend is.
+
+84
+00:05:46,969 --> 00:05:49,240
+In this case, very strong.
+
+85
+00:05:49,240 --> 00:05:53,530
+However, how do we know when the trend ends?
+
+86
+00:05:53,530 --> 00:05:56,570
+When should bulls consider a bottom is in
+place?
+
+87
+00:05:56,570 --> 00:06:00,430
+The way to answer these 2 questions is to
+use the Schiff line.
+
+88
+00:06:00,430 --> 00:06:03,039
+Few traders know about the Schiff line’s
+existence.
+
+89
+00:06:03,039 --> 00:06:08,310
+This is a line that connects the a point and
+c point.
+
+90
+00:06:08,310 --> 00:06:12,650
+As such, traders know in advance where the
+Schiff line is.
+
+91
+00:06:12,650 --> 00:06:18,219
+In strong trends, the price has a strong tendency
+to move away from it.
+
+92
+00:06:18,219 --> 00:06:23,789
+As a rule of thumb, a bearish trend keeps
+going as long as the price stays below the
+
+93
+00:06:23,789 --> 00:06:24,789
+Schiff line.
+
+94
+00:06:24,789 --> 00:06:28,120
+Of course, the opposite happens in a bullish
+trend.
+
+95
+00:06:28,120 --> 00:06:31,669
+Here’s the Schiff line on the previous chart.
+
+96
+00:06:31,669 --> 00:06:34,090
+It shows when the bearish trend ended.
+
+97
+00:06:34,090 --> 00:06:38,909
+In fact, it shows when bears should not consider
+selling anymore.
+
+98
+00:06:38,909 --> 00:06:45,169
+Because the Schiff line gets broken, it means
+bulls will step in on any future pullbacks.
+
+99
+00:06:45,169 --> 00:06:51,529
+Now, based on the median lines and the Schiff
+line, the two most common strategies falling
+
+100
+00:06:51,529 --> 00:06:58,910
+under the s/r umbrella include:
+Buying/selling the bounce.
+
+101
+00:06:58,910 --> 00:07:05,379
+Traders may buy when prices hit the bottom
+of a channel, but only in an uptrend and sell
+
+102
+00:07:05,379 --> 00:07:10,110
+when prices hit the top of the channel only
+in a downtrend.
+
+103
+00:07:10,110 --> 00:07:14,889
+In these cases, it’s important to wait for
+confirmation that the price is responding
+
+104
+00:07:14,889 --> 00:07:16,889
+to these levels.
+
+105
+00:07:16,889 --> 00:07:29,629
+Here are several examples of buying the bounce.
+
+106
+00:07:29,629 --> 00:07:43,770
+The second strategy involves, buying/selling
+the break.
+
+107
+00:07:43,770 --> 00:07:48,979
+Traders may buy when the price produces a
+breakout from the top of a channel or sell
+
+108
+00:07:48,979 --> 00:07:52,389
+when price breaks from the bottom of the channel.
+
+109
+00:07:52,389 --> 00:07:57,199
+In these cases, it’s important to look for
+a clean break to avoid false breakouts.
+
+110
+00:07:57,199 --> 00:08:03,189
+My favorite way to use the Andrews pitchfork
+is to look for divergences between the pitchfork
+
+111
+00:08:03,189 --> 00:08:05,110
+and RSI.
+
+112
+00:08:05,110 --> 00:08:09,040
+If you followed by channel, you know that
+i consider the divergence one of the most
+
+113
+00:08:09,040 --> 00:08:11,680
+powerful leading signals you could get.
+
+114
+00:08:11,680 --> 00:08:17,169
+So I look to buy or sell the breakout from
+the pitchfork, only when i see a divergence
+
+115
+00:08:17,169 --> 00:08:18,840
+on the RSI.
+
+116
+00:08:18,840 --> 00:08:22,050
+This is powerful stuff, and let me demonstrate
+it.
+
+117
+00:08:22,050 --> 00:08:27,479
+In this first example, you can see how the
+bearish divergence was formed with price making
+
+118
+00:08:27,479 --> 00:08:32,210
+a higher high while the relative strength
+index was seen making a lower high.
+
+119
+00:08:32,210 --> 00:08:37,130
+Following this, price eventually broke down
+through the lower median line following the
+
+120
+00:08:37,130 --> 00:08:38,490
+price failure.
+
+121
+00:08:38,490 --> 00:08:45,510
+In the next example, you can see that while
+prices posted a lower low, but the RSI signaled
+
+122
+00:08:45,510 --> 00:08:50,660
+a higher high, which indicated a bullish divergence
+in price.
+
+123
+00:08:50,660 --> 00:08:56,260
+This leading signal suggested that price would
+be reversing upward shortly.
+
+124
+00:08:56,260 --> 00:09:00,940
+Following the breakout from the upper median
+line, we can see that a long position resulted
+
+125
+00:09:00,940 --> 00:09:04,279
+in a profit as price continued to push higher.
+
+126
+00:09:04,279 --> 00:09:08,620
+I strongly encourage you to search for this
+pattern on your charts.
+
+127
+00:09:08,620 --> 00:09:23,829
+Here are other trades based on RSI divergences
+and Andrew’s pitchfork breakouts.
+
+128
+00:09:23,829 --> 00:09:38,050
+Andrews’ pitchfork is a great price action
+indicator to use when determining areas of
+
+129
+00:09:38,050 --> 00:09:39,170
+support and resistance.
+
+130
+00:09:39,170 --> 00:09:45,230
+While it’s not perfect in every scenario,
+the indicator provides a good indication of
+
+131
+00:09:45,230 --> 00:09:47,829
+where prices may be headed.
+
+132
+00:09:47,829 --> 00:09:52,980
+The downside is that picking the main three
+points is a largely subjective process that
+
+133
+00:09:52,980 --> 00:09:54,400
+requires experience to master.
+
+134
+00:09:54,400 --> 00:09:55,400
+The Andrews pitchfork as a trading tool has
+a bit of mystery for retail traders.
+
+135
+00:09:55,400 --> 00:09:56,400
+While everyone knows to use it in a trend,
+few know how to master it.
+
+136
+00:09:56,400 --> 00:09:57,400
+The key stays with the main 3 pivot points.
+
+137
+00:09:57,400 --> 00:09:58,400
+If you learn to draw them correctly, the Andrews
+pitchfork indicator works like a charm.
+
+138
+00:09:58,400 --> 00:10:01,190
+Here’s one last important tip: a great way
+to use this tool is to perform a top/down
+
+139
+00:10:01,190 --> 00:10:05,389
+analysis (meaning to study all timeframes).
+
+140
+00:10:05,389 --> 00:10:11,930
+Start from the biggest one (monthly) and continue
+with the weekly chart, daily and the four-hour
+
+141
+00:10:11,930 --> 00:10:12,930
+one.
+
+142
+00:10:12,930 --> 00:10:18,029
+A multi-timeframe analysis with Andrew’s
+pitchforks will result in a better understanding
+
+143
+00:10:18,029 --> 00:10:19,260
+of market conditions.
+
+144
+00:10:19,260 --> 00:10:24,440
+If you got any value from this and learned
+something new, don’t forget to subscribe,
+
+145
+00:10:24,440 --> 00:10:29,100
+click the bell icon to enable notifications
+for new uploads and leave us a like to show
+
+146
+00:10:29,100 --> 00:10:30,100
+your support.
+
+147
+00:10:30,100 --> 00:10:30,740
+Until next time.
+

@@ -1,0 +1,675 @@
+1
+00:00:01,090 --> 00:00:03,010
+Many traders ignore volume.
+
+2
+00:00:03,010 --> 00:00:07,400
+And although volume is a simple concept, it
+is difficult to analyze it correctly due to
+
+3
+00:00:07,400 --> 00:00:09,570
+inherent challenges in the markets.
+
+4
+00:00:09,570 --> 00:00:14,990
+These challenges make it impossible to read
+true volume with the standard volume indicators.
+
+5
+00:00:14,990 --> 00:00:20,240
+And although most traders are familiar with
+price and time oscillators, very few use volume
+
+6
+00:00:20,240 --> 00:00:21,960
+oscillators.
+
+7
+00:00:21,960 --> 00:00:25,529
+Volume oscillators are uniquely different
+than price oscillators.
+
+8
+00:00:25,529 --> 00:00:30,420
+Instead of signaling overbought or oversold
+price action, the volume oscillator provides
+
+9
+00:00:30,420 --> 00:00:35,190
+far more valuable information about what is
+going on with the stock price before price
+
+10
+00:00:35,190 --> 00:00:36,800
+actually moves.
+
+11
+00:00:36,800 --> 00:00:41,820
+This gives traders a leading indicator that
+shows the direction of price, breakout moves,
+
+12
+00:00:41,820 --> 00:00:45,910
+momentum runs, and bottoms or tops ahead of
+price action.
+
+13
+00:00:45,910 --> 00:00:49,059
+But there’s a small problem.
+
+14
+00:00:49,059 --> 00:00:53,960
+Most volume oscillators you probably use,
+like OBV, Money Flow, don’t always have
+
+15
+00:00:53,960 --> 00:00:54,960
+leading qualities.
+
+16
+00:00:54,960 --> 00:01:00,770
+If I have to guess, you probably use average
+volume indicators where the average of volume
+
+17
+00:01:00,770 --> 00:01:06,240
+is calculated over a given number of past
+bars to see if volume is increasing or decreasing
+
+18
+00:01:06,240 --> 00:01:07,240
+over that time period.
+
+19
+00:01:07,240 --> 00:01:11,340
+And it is okay to look at volume this way,
+but you will be missing the most vital volume
+
+20
+00:01:11,340 --> 00:01:12,539
+information.
+
+21
+00:01:12,539 --> 00:01:14,939
+This isn’t the best approach to analyze
+volume.
+
+22
+00:01:14,939 --> 00:01:18,010
+And let me show you WHY is that.
+
+23
+00:01:18,010 --> 00:01:23,049
+Volume has inherent distortions which will
+lead to a faulty analysis by many traders.
+
+24
+00:01:23,049 --> 00:01:27,490
+For example in the stock market (and other
+markets to a lesser degree), the opening of
+
+25
+00:01:27,490 --> 00:01:33,040
+the day has a multitude of orders that had
+built up overnight and all get processed at
+
+26
+00:01:33,040 --> 00:01:34,040
+once.
+
+27
+00:01:34,040 --> 00:01:38,420
+This large influx of trade volume creates
+a major distortion to what is actually happening
+
+28
+00:01:38,420 --> 00:01:40,170
+in the market.
+
+29
+00:01:40,170 --> 00:01:44,390
+Another distortion is created in the middle
+of the day when the majority of market makers
+
+30
+00:01:44,390 --> 00:01:47,399
+go to lunch and market activity slows down.
+
+31
+00:01:47,399 --> 00:01:53,130
+A third distortion happens at the end of the
+day, when traders try to adjust their orders
+
+32
+00:01:53,130 --> 00:01:54,930
+before the market closes.
+
+33
+00:01:54,930 --> 00:01:59,520
+They may want to be flat overnight or they
+might want to get into a trade, but this influx
+
+34
+00:01:59,520 --> 00:02:04,880
+of orders at the end of the day is another
+distortion to volume.
+
+35
+00:02:04,880 --> 00:02:09,979
+Another challenge to using a volume average
+indicator is that every instrument has considerably
+
+36
+00:02:09,979 --> 00:02:12,090
+different levels of volume.
+
+37
+00:02:12,090 --> 00:02:17,560
+For example compare a stock with 40 million
+shares per day vs. a stock with 10,000 shares
+
+38
+00:02:17,560 --> 00:02:18,620
+per day.
+
+39
+00:02:18,620 --> 00:02:23,719
+This vast difference makes it difficult to
+read volume from one symbol to another symbol.
+
+40
+00:02:23,719 --> 00:02:28,040
+Additionally, if you change from one time
+frame to another there will be huge volume
+
+41
+00:02:28,040 --> 00:02:29,060
+differences.
+
+42
+00:02:29,060 --> 00:02:33,361
+The volume on a 1 minute time frame is much
+different than the volume on a 60 minute time
+
+43
+00:02:33,361 --> 00:02:35,689
+frame or a daily chart.
+
+44
+00:02:35,689 --> 00:02:40,819
+The key to getting past these challenges is
+to use the time segmented volume.
+
+45
+00:02:40,819 --> 00:02:46,670
+Time segmented volume is the way to get consistent
+volume data and eliminate all the volume distortions
+
+46
+00:02:46,670 --> 00:02:48,819
+that we discussed before.
+
+47
+00:02:48,819 --> 00:02:54,379
+So, Time Segmented Volume (TSV) is a volume
+oscillator, and is considered one the best
+
+48
+00:02:54,379 --> 00:02:56,659
+volume oscillators ever written.
+
+49
+00:02:56,659 --> 00:03:03,030
+Its main advantage is the fact it reveals
+large-lot vs. small-lot activity on the market.
+
+50
+00:03:03,030 --> 00:03:08,409
+This indicator is similar to on-balance volume
+(OBV) because it measures the amount of money
+
+51
+00:03:08,409 --> 00:03:11,609
+flowing in or out of a particular stock.
+
+52
+00:03:11,609 --> 00:03:13,700
+But with a big advantage.
+
+53
+00:03:13,700 --> 00:03:19,049
+Time Segmented Volume is an oscillator that
+compares various time segments of both price
+
+54
+00:03:19,049 --> 00:03:20,200
+and volume.
+
+55
+00:03:20,200 --> 00:03:26,090
+TSV indicator measures the amount of money
+flowing in or out of a particular stock.
+
+56
+00:03:26,090 --> 00:03:28,469
+The baseline represents the zero line.
+
+57
+00:03:28,469 --> 00:03:33,299
+It segments a stock's price and volume according
+to specific time intervals.
+
+58
+00:03:33,299 --> 00:03:39,830
+The price and volume data is then compared
+to uncover periods of accumulation (buying)
+
+59
+00:03:39,830 --> 00:03:43,939
+and distribution (selling).
+
+60
+00:03:43,939 --> 00:03:48,390
+Time Segmented Volume is a leading indicator
+because its movement is based on both the
+
+61
+00:03:48,390 --> 00:03:50,469
+stock's price and volume.
+
+62
+00:03:50,469 --> 00:03:56,360
+Here’s the key to why time segmented volume
+works: Let’s start with volume on a 15 minute
+
+63
+00:03:56,360 --> 00:04:00,529
+chart and for this example, look at the 10:15
+bar.
+
+64
+00:04:00,529 --> 00:04:06,540
+Now take the average of only the 10:15 bars
+over the prior month and compare that average
+
+65
+00:04:06,540 --> 00:04:08,799
+to the current 10:15 bar.
+
+66
+00:04:08,799 --> 00:04:14,090
+The difference will give a true reading on
+whether today’s 10:15 bar volume is higher
+
+67
+00:04:14,090 --> 00:04:20,870
+or lower in comparison to the exact same time
+bars over the past month.
+
+68
+00:04:20,870 --> 00:04:26,080
+Now when you read the 10:15 bar you read the
+price bar against the volume bar.
+
+69
+00:04:26,080 --> 00:04:31,340
+For example, let’s say the price action
+shows a larger than normal bar, maybe 2 times
+
+70
+00:04:31,340 --> 00:04:32,340
+normal.
+
+71
+00:04:32,340 --> 00:04:37,300
+Let’s say price started out close to the
+bottom of the bar with no wick, and it runs
+
+72
+00:04:37,300 --> 00:04:40,650
+up and closes close to the top of the bar.
+
+73
+00:04:40,650 --> 00:04:45,690
+This means a strong bullish bar, but if you
+look down and you see less than average volume,
+
+74
+00:04:45,690 --> 00:04:48,430
+then you should be cautious about the price
+movement.
+
+75
+00:04:48,430 --> 00:04:54,050
+In contrast, if you see 200% percent volume
+you’ll know that increased volume was the
+
+76
+00:04:54,050 --> 00:04:57,699
+reason for the extra large price bar.
+
+77
+00:04:57,699 --> 00:05:02,340
+The key to understanding volume is reading
+price action and volume action on the same
+
+78
+00:05:02,340 --> 00:05:08,030
+exact bars, using time segmented volume to
+give you the true volume information you need,
+
+79
+00:05:08,030 --> 00:05:13,419
+and reading the chart to see if price and
+volume are in harmony or if they are divergent.
+
+80
+00:05:13,419 --> 00:05:17,919
+Time segmented volume can confirm the move,
+make you suspect of the move, or can tell
+
+81
+00:05:17,919 --> 00:05:22,199
+you if it is the end of the move and if a
+likely change in direction is coming.
+
+82
+00:05:22,199 --> 00:05:28,080
+In any case, using time segmented volume will
+eliminate volume distortions and increase
+
+83
+00:05:28,080 --> 00:05:29,690
+your trading edge.
+
+84
+00:05:29,690 --> 00:05:34,900
+Now let’s discuss how to read the Time Segmented
+Volume oscillator.
+
+85
+00:05:34,900 --> 00:05:40,509
+When TSV crosses up through the zero line,
+it signals positive accumulation or buying
+
+86
+00:05:40,509 --> 00:05:41,879
+pressure.
+
+87
+00:05:41,879 --> 00:05:43,629
+This action is considered bullish.
+
+88
+00:05:43,629 --> 00:05:49,940
+Conversely, when TSV crosses below the zero
+line, it indicates distribution or selling
+
+89
+00:05:49,940 --> 00:05:53,430
+pressure, which typically precedes a move
+down in price.
+
+90
+00:05:53,430 --> 00:05:59,800
+An important aspect to look for when reading
+TSV is a contradiction of trends between price
+
+91
+00:05:59,800 --> 00:06:01,340
+and TSV.
+
+92
+00:06:01,340 --> 00:06:05,980
+Look for positive or negative divergences
+between price and TSV in order to determine
+
+93
+00:06:05,980 --> 00:06:09,270
+potential tops and bottoms.
+
+94
+00:06:09,270 --> 00:06:14,840
+Several consecutive divergences increase the
+reliability factor in trying to pinpoint price
+
+95
+00:06:14,840 --> 00:06:15,840
+reversals.
+
+96
+00:06:15,840 --> 00:06:22,039
+For instance, if a price is making successively
+higher highs while TSV is making successively
+
+97
+00:06:22,039 --> 00:06:27,159
+lower highs, this would constitute a series
+of negative divergences.
+
+98
+00:06:27,159 --> 00:06:30,220
+This would be a leading indication of a possible
+top.
+
+99
+00:06:30,220 --> 00:06:35,930
+In this case, the TSV indicator exposes the
+distribution pattern of the big market players
+
+100
+00:06:35,930 --> 00:06:42,000
+quietly selling the stock even while smaller
+lot buyers push price up to the final high
+
+101
+00:06:42,000 --> 00:06:44,690
+before the correction.
+
+102
+00:06:44,690 --> 00:06:49,760
+If the price is making successively lower
+lows while TSV is making successively higher
+
+103
+00:06:49,760 --> 00:06:54,160
+lows, this would constitute a series of positive
+divergences.
+
+104
+00:06:54,160 --> 00:06:56,680
+This would be a leading indication of a possible
+bottom.
+
+105
+00:06:56,680 --> 00:07:02,300
+In this case, the TSV indicator reveals the
+accumulation pattern of the big market players
+
+106
+00:07:02,300 --> 00:07:08,240
+quietly buying the stock even while smaller
+lot sellers push price down to the final low
+
+107
+00:07:08,240 --> 00:07:10,270
+before the rally up.
+
+108
+00:07:10,270 --> 00:07:15,080
+This is what I call volume divergence trading,
+which is more powerful than regular divergence
+
+109
+00:07:15,080 --> 00:07:16,199
+trading.
+
+110
+00:07:16,199 --> 00:07:21,300
+You see, the big problem with most technical
+traders is that they rely too heavily on price
+
+111
+00:07:21,300 --> 00:07:25,580
+and time indicators and don’t evaluate volume
+indicators sufficiently.
+
+112
+00:07:25,580 --> 00:07:30,500
+In the current market place however, using
+only price and time based indicators isn’t
+
+113
+00:07:30,500 --> 00:07:34,639
+enough for gaining consistency in the long
+run.
+
+114
+00:07:34,639 --> 00:07:39,599
+Nowadays with the institutions using many
+variables of specialized orders that control
+
+115
+00:07:39,599 --> 00:07:43,080
+price, volume is even more critical to use.
+
+116
+00:07:43,080 --> 00:07:45,620
+Price no longer is the most important indicator.
+
+117
+00:07:45,620 --> 00:07:52,449
+A combination of Price, Volume, and Time indicators
+offer the most reliable, consistent, and leading
+
+118
+00:07:52,449 --> 00:07:57,020
+indication of how price is likely to behave
+in the near term for short term trades.
+
+119
+00:07:57,020 --> 00:08:02,450
+So here are other examples of positive and
+negative divergence trades, using the Time
+
+120
+00:08:02,450 --> 00:09:24,700
+Segmented Volume oscillator.
+
+121
+00:09:24,700 --> 00:09:29,120
+Using an exponential moving average (EMA)
+with TSV provides an easy-to-read crossover
+
+122
+00:09:29,120 --> 00:09:32,190
+signal prior to a breakout move.
+
+123
+00:09:32,190 --> 00:09:37,890
+This is a huge advantage for technical traders,
+especially during choppy sideways markets.
+
+124
+00:09:37,890 --> 00:09:43,330
+Being able to see the breakout crossover signal
+on TSV will allow you to get in ahead of the
+
+125
+00:09:43,330 --> 00:09:44,870
+breakout.
+
+126
+00:09:44,870 --> 00:09:50,040
+When the moving average is above the centerline
+this is a sign of accumulation and below the
+
+127
+00:09:50,040 --> 00:09:52,960
+centerline, a sign of distribution.
+
+128
+00:09:52,960 --> 00:09:59,230
+So, for an upside breakout for example, pay
+extra attention to the TSV oscillator.
+
+129
+00:09:59,230 --> 00:10:04,310
+If you see a period of accumulation, meaning
+the moving average above centerline, and you
+
+130
+00:10:04,310 --> 00:10:09,470
+see a new high in the time segmented volume,
+at an important area of resistance, that’s
+
+131
+00:10:09,470 --> 00:10:14,220
+a high probability signal that the breakout
+could be valid and a future upside move could
+
+132
+00:10:14,220 --> 00:10:17,390
+follow, like in this example.
+
+133
+00:10:17,390 --> 00:10:21,560
+Keep in mind that as you increase the value
+of the moving average, the result is a smoothing
+
+134
+00:10:21,560 --> 00:10:22,560
+effect.
+
+135
+00:10:22,560 --> 00:10:24,150
+However, there is a trade-off.
+
+136
+00:10:24,150 --> 00:10:28,650
+As you increase the length of the moving average,
+the indicator becomes less sensitive to daily
+
+137
+00:10:28,650 --> 00:10:30,070
+fluctuations.
+
+138
+00:10:30,070 --> 00:10:34,720
+And as a result, the indicator will have a
+greater tendency to lag price.
+
+139
+00:10:34,720 --> 00:10:39,920
+So if you've tried some of the conventional
+ways of day trading breakouts and they aren't
+
+140
+00:10:39,920 --> 00:10:43,900
+working for you, the Time Segmented Volume
+will serve you better.
+
+141
+00:10:43,900 --> 00:12:04,510
+Here are other example of breakout trades,
+using 
+
+142
+00:12:04,510 --> 00:12:38,700
+the TSV oscillator.
+
+143
+00:12:38,700 --> 00:12:42,660
+If you learned something new and found value,
+leave us a like to show your support and don’t
+
+144
+00:12:42,660 --> 00:12:48,150
+forget to subscribe and hit the bell icon
+to get notified when we release new videos.
+
+145
+00:12:48,150 --> 00:12:48,660
+Until next time.
+

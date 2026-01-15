@@ -1,0 +1,1272 @@
+1
+00:00:00,420 --> 00:00:05,580
+here's the biggest lie in trading you
+
+2
+00:00:03,480 --> 00:00:08,400
+are told to buy when the market is
+
+3
+00:00:05,580 --> 00:00:09,480
+oversold and to sell when the market is
+
+4
+00:00:08,400 --> 00:00:11,400
+overbought
+
+5
+00:00:09,480 --> 00:00:13,799
+but it doesn't work this way I'm afraid
+
+6
+00:00:11,400 --> 00:00:16,859
+if you want to slowly lose your money
+
+7
+00:00:13,799 --> 00:00:18,600
+using this technique go ahead but what
+
+8
+00:00:16,859 --> 00:00:21,840
+if you did the opposite
+
+9
+00:00:18,600 --> 00:00:24,359
+sell when prices are oversold and buy
+
+10
+00:00:21,840 --> 00:00:25,140
+when prices are overbought could this
+
+11
+00:00:24,359 --> 00:00:28,199
+work
+
+12
+00:00:25,140 --> 00:00:30,720
+let's find out you know the drill like
+
+13
+00:00:28,199 --> 00:00:31,500
+subscribe and stick around for the full
+
+14
+00:00:30,720 --> 00:00:33,120
+video
+
+15
+00:00:31,500 --> 00:00:36,400
+foreign
+
+16
+00:00:33,120 --> 00:00:36,400
+[Music]
+
+17
+00:00:36,680 --> 00:00:42,180
+for this experiment we'll use the RSI
+
+18
+00:00:39,719 --> 00:00:44,600
+every serious Trader should know about
+
+19
+00:00:42,180 --> 00:00:47,460
+the RSI or the relative strength index
+
+20
+00:00:44,600 --> 00:00:49,800
+the problem is that not everyone knows
+
+21
+00:00:47,460 --> 00:00:52,020
+how to read the RSI and this is
+
+22
+00:00:49,800 --> 00:00:55,199
+especially true for beginners
+
+23
+00:00:52,020 --> 00:00:58,500
+RSI basically measures how fast trades
+
+24
+00:00:55,199 --> 00:01:01,280
+happen and how fast the price moves the
+
+25
+00:00:58,500 --> 00:01:04,860
+indicator moves on a scale of 0 to 100
+
+26
+00:01:01,280 --> 00:01:07,920
+if the readings drop below 30 they say
+
+27
+00:01:04,860 --> 00:01:11,280
+Market is oversold the reading said 70
+
+28
+00:01:07,920 --> 00:01:13,860
+or higher indicate over both conditions
+
+29
+00:01:11,280 --> 00:01:14,640
+here's where most Traders are getting it
+
+30
+00:01:13,860 --> 00:01:16,740
+wrong
+
+31
+00:01:14,640 --> 00:01:19,439
+these values indicate best price
+
+32
+00:01:16,740 --> 00:01:21,360
+movements but don't show any future
+
+33
+00:01:19,439 --> 00:01:25,080
+price Direction
+
+34
+00:01:21,360 --> 00:01:27,299
+a value above 70 or below 30 isn't
+
+35
+00:01:25,080 --> 00:01:28,200
+necessarily an invitation to enter a
+
+36
+00:01:27,299 --> 00:01:30,780
+trade
+
+37
+00:01:28,200 --> 00:01:33,659
+a market may stay above or below these
+
+38
+00:01:30,780 --> 00:01:36,540
+levels for an extended period of time if
+
+39
+00:01:33,659 --> 00:01:38,700
+the trend is strong
+
+40
+00:01:36,540 --> 00:01:41,220
+many Traders are still using this
+
+41
+00:01:38,700 --> 00:01:42,900
+strategy because it's promoted in almost
+
+42
+00:01:41,220 --> 00:01:45,720
+every trading book
+
+43
+00:01:42,900 --> 00:01:49,439
+so let's do the opposite we'll look to
+
+44
+00:01:45,720 --> 00:01:52,140
+buy when the RSI goes above 70 and will
+
+45
+00:01:49,439 --> 00:01:53,520
+sell when the indicator crosses the 30
+
+46
+00:01:52,140 --> 00:01:55,920
+level
+
+47
+00:01:53,520 --> 00:01:58,920
+here's the logic behind this strategy
+
+48
+00:01:55,920 --> 00:02:01,920
+when the RSI reaches the overbath and
+
+49
+00:01:58,920 --> 00:02:04,560
+oversold area it means the recent price
+
+50
+00:02:01,920 --> 00:02:07,259
+movement is extremely strong
+
+51
+00:02:04,560 --> 00:02:09,599
+in case of an uptrend this means that
+
+52
+00:02:07,259 --> 00:02:10,739
+the price is currently pushing into new
+
+53
+00:02:09,599 --> 00:02:14,160
+highs
+
+54
+00:02:10,739 --> 00:02:16,620
+from now on when we see over a buff we
+
+55
+00:02:14,160 --> 00:02:19,080
+see an extremely strong Trend that is
+
+56
+00:02:16,620 --> 00:02:22,200
+moving higher with a strong force
+
+57
+00:02:19,080 --> 00:02:24,959
+and vice versa for oversold levels
+
+58
+00:02:22,200 --> 00:02:27,360
+we'll try to profit from newbies and
+
+59
+00:02:24,959 --> 00:02:30,080
+Traders that are entering in the wrong
+
+60
+00:02:27,360 --> 00:02:30,080
+way of the market
+
+61
+00:02:32,170 --> 00:02:36,959
+[Music]
+
+62
+00:02:34,080 --> 00:02:39,540
+I also used to trade these levels when I
+
+63
+00:02:36,959 --> 00:02:41,840
+first started and as I recall the market
+
+64
+00:02:39,540 --> 00:02:44,760
+will make a very shallow pullback
+
+65
+00:02:41,840 --> 00:02:47,580
+baiting traders to enter before
+
+66
+00:02:44,760 --> 00:02:50,220
+continuing in the initial Direction
+
+67
+00:02:47,580 --> 00:02:52,920
+so that's the trade plan we won't enter
+
+68
+00:02:50,220 --> 00:02:55,860
+when the RSI enters the overbought or
+
+69
+00:02:52,920 --> 00:02:59,340
+oversold area we'll wait for a shallow
+
+70
+00:02:55,860 --> 00:03:01,319
+pullback to trap dump Traders and will
+
+71
+00:02:59,340 --> 00:03:03,239
+enter at the first sign of trend
+
+72
+00:03:01,319 --> 00:03:05,940
+continuation
+
+73
+00:03:03,239 --> 00:03:08,940
+Williams Fibonacci retracements to
+
+74
+00:03:05,940 --> 00:03:12,620
+determine our entry area
+
+75
+00:03:08,940 --> 00:03:16,019
+we'll keep only the 23 the 38 and the 50
+
+76
+00:03:12,620 --> 00:03:19,819
+levels because like I said we are
+
+77
+00:03:16,019 --> 00:03:19,819
+interested in shallow pullbacks
+
+78
+00:03:19,860 --> 00:03:25,819
+and we'll keep the RSI with the default
+
+79
+00:03:22,080 --> 00:03:25,819
+settings of 14.
+
+80
+00:03:26,819 --> 00:03:32,459
+so for a Buy trade when we see that the
+
+81
+00:03:29,879 --> 00:03:34,980
+RSI crosses above 70.
+
+82
+00:03:32,459 --> 00:03:37,140
+we wait for a pullback
+
+83
+00:03:34,980 --> 00:03:38,280
+when you have some sort of downward
+
+84
+00:03:37,140 --> 00:03:41,340
+movement
+
+85
+00:03:38,280 --> 00:03:43,140
+you apply a FIP retracement from the
+
+86
+00:03:41,340 --> 00:03:45,959
+most recent swing low
+
+87
+00:03:43,140 --> 00:03:48,260
+to the highest point of this previous up
+
+88
+00:03:45,959 --> 00:03:48,260
+move
+
+89
+00:03:48,840 --> 00:03:55,200
+you enter a Buy trade at the first sign
+
+90
+00:03:51,540 --> 00:03:59,420
+of rejection at one of the FIB levels
+
+91
+00:03:55,200 --> 00:03:59,420
+we'll talk about stops and Targets later
+
+92
+00:04:03,019 --> 00:04:10,500
+for a short trade when you sit at the
+
+93
+00:04:06,239 --> 00:04:12,959
+RSI crosses below 30. again you wait for
+
+94
+00:04:10,500 --> 00:04:16,199
+an upward pullback
+
+95
+00:04:12,959 --> 00:04:18,540
+then you apply a fib retracement from
+
+96
+00:04:16,199 --> 00:04:20,940
+the most recent swing High
+
+97
+00:04:18,540 --> 00:04:23,239
+to the lowest point of the previous down
+
+98
+00:04:20,940 --> 00:04:23,239
+move
+
+99
+00:04:24,000 --> 00:04:30,800
+you enter a sell trade at the first sign
+
+100
+00:04:26,460 --> 00:04:30,800
+of rejection at one of the FIB levels
+
+101
+00:04:33,900 --> 00:04:40,620
+Let's test this theory on Forex Market
+
+102
+00:04:36,800 --> 00:04:43,199
+Euro USD 15 minute time frame
+
+103
+00:04:40,620 --> 00:04:46,440
+I see an uptrend with Market making
+
+104
+00:04:43,199 --> 00:04:49,500
+higher highs and higher lows
+
+105
+00:04:46,440 --> 00:04:52,860
+they are a side lags behind price and
+
+106
+00:04:49,500 --> 00:04:55,680
+also moves with a steady upward slope
+
+107
+00:04:52,860 --> 00:04:58,380
+now we have the overbought signal with
+
+108
+00:04:55,680 --> 00:05:01,380
+the RSI Crossing above 70.
+
+109
+00:04:58,380 --> 00:05:03,780
+remember the plan we'll buy after the
+
+110
+00:05:01,380 --> 00:05:05,460
+market makes a pullback to one of our
+
+111
+00:05:03,780 --> 00:05:08,220
+FIB levels
+
+112
+00:05:05,460 --> 00:05:10,380
+so let's apply it this is the most
+
+113
+00:05:08,220 --> 00:05:12,419
+recent swing low
+
+114
+00:05:10,380 --> 00:05:14,160
+and this is the highest point of the
+
+115
+00:05:12,419 --> 00:05:17,780
+current trend
+
+116
+00:05:14,160 --> 00:05:17,780
+and that's our buy area
+
+117
+00:05:19,560 --> 00:05:27,539
+okay we have the rejection a massive
+
+118
+00:05:22,440 --> 00:05:31,020
+engulfing bar rejecting the 38-fib level
+
+119
+00:05:27,539 --> 00:05:33,600
+stop loss goes below the 50 level
+
+120
+00:05:31,020 --> 00:05:36,380
+and will aim for a two to one risk
+
+121
+00:05:33,600 --> 00:05:36,380
+reward ratio
+
+122
+00:05:43,259 --> 00:05:49,199
+now I see another potential trade
+
+123
+00:05:45,960 --> 00:05:52,560
+our previous take profit coincided with
+
+124
+00:05:49,199 --> 00:05:55,800
+another overbought reading on RSI
+
+125
+00:05:52,560 --> 00:05:58,320
+so let's apply our Fibonacci once again
+
+126
+00:05:55,800 --> 00:06:00,539
+this is the most recent swing low
+
+127
+00:05:58,320 --> 00:06:02,100
+and this is the highest high in the
+
+128
+00:06:00,539 --> 00:06:05,960
+current trend
+
+129
+00:06:02,100 --> 00:06:05,960
+our buy area is here
+
+130
+00:06:06,960 --> 00:06:12,600
+we have our first green candle but this
+
+131
+00:06:09,900 --> 00:06:16,280
+is not a bullish candle I expected let's
+
+132
+00:06:12,600 --> 00:06:16,280
+wait for further confirmations
+
+133
+00:06:16,380 --> 00:06:22,199
+price went below our buy area and here's
+
+134
+00:06:19,740 --> 00:06:24,960
+a bullish engulfing candle
+
+135
+00:06:22,199 --> 00:06:27,720
+even though price is below our buy area
+
+136
+00:06:24,960 --> 00:06:30,479
+we are still buying at a discount so
+
+137
+00:06:27,720 --> 00:06:33,479
+there's no reason not to take this trade
+
+138
+00:06:30,479 --> 00:06:36,000
+we'll put our stop loss below this low
+
+139
+00:06:33,479 --> 00:06:39,440
+and will once again Target a risk reward
+
+140
+00:06:36,000 --> 00:06:39,440
+ratio of 2.
+
+141
+00:06:41,160 --> 00:06:45,900
+let's move the stock market Apple 15
+
+142
+00:06:44,220 --> 00:06:49,259
+minute time frame
+
+143
+00:06:45,900 --> 00:06:52,080
+I see a break of structure here
+
+144
+00:06:49,259 --> 00:06:54,960
+Market is making lower lows
+
+145
+00:06:52,080 --> 00:06:58,080
+so this might turn into a downtrend
+
+146
+00:06:54,960 --> 00:07:00,360
+here's an oversold signal with RSI
+
+147
+00:06:58,080 --> 00:07:03,000
+Crossing below 30.
+
+148
+00:07:00,360 --> 00:07:06,539
+So the plan is to sell after the market
+
+149
+00:07:03,000 --> 00:07:08,580
+returns to one of our FIB levels and we
+
+150
+00:07:06,539 --> 00:07:12,120
+see some sort of rejection
+
+151
+00:07:08,580 --> 00:07:13,800
+this is the most recent swing High and
+
+152
+00:07:12,120 --> 00:07:14,880
+this is the lowest point of the current
+
+153
+00:07:13,800 --> 00:07:18,259
+trend
+
+154
+00:07:14,880 --> 00:07:18,259
+and that's our cell area
+
+155
+00:07:19,500 --> 00:07:25,919
+and here's the rejection an engulfing
+
+156
+00:07:22,080 --> 00:07:28,639
+bar rejecting the 38-fib level
+
+157
+00:07:25,919 --> 00:07:31,680
+stop loss is placed above the 50 level
+
+158
+00:07:28,639 --> 00:07:34,520
+and let's aim for a three to one risk
+
+159
+00:07:31,680 --> 00:07:34,520
+reward ratio
+
+160
+00:07:36,479 --> 00:07:42,120
+and here's another potential trade
+
+161
+00:07:39,300 --> 00:07:45,360
+after hour take profit was hit I see
+
+162
+00:07:42,120 --> 00:07:48,720
+another oversold rating on RSI
+
+163
+00:07:45,360 --> 00:07:51,720
+so let's apply our FIB once again
+
+164
+00:07:48,720 --> 00:07:54,000
+this is the most recent swing High
+
+165
+00:07:51,720 --> 00:07:55,380
+and this is the lowest low in the
+
+166
+00:07:54,000 --> 00:07:59,039
+current trend
+
+167
+00:07:55,380 --> 00:08:01,919
+our cell area is here
+
+168
+00:07:59,039 --> 00:08:05,340
+we have the first red candle but let's
+
+169
+00:08:01,919 --> 00:08:07,979
+wait for further confirmations
+
+170
+00:08:05,340 --> 00:08:11,220
+okay now I see this bearish engulfing
+
+171
+00:08:07,979 --> 00:08:13,620
+candle which is the ideal entry
+
+172
+00:08:11,220 --> 00:08:15,360
+will put the stop loss Above This
+
+173
+00:08:13,620 --> 00:08:17,699
+consolidation
+
+174
+00:08:15,360 --> 00:08:20,539
+and will Target the risk to reward ratio
+
+175
+00:08:17,699 --> 00:08:20,539
+of 3.
+
+176
+00:08:27,740 --> 00:08:32,459
+if you are a beginner and maybe you
+
+177
+00:08:30,419 --> 00:08:35,520
+don't have the intuition to detect the
+
+178
+00:08:32,459 --> 00:08:37,380
+main Trend or you want fewer signals you
+
+179
+00:08:35,520 --> 00:08:40,080
+could add a moving average
+
+180
+00:08:37,380 --> 00:08:42,180
+so let's apply a 50 period exponential
+
+181
+00:08:40,080 --> 00:08:43,620
+moving average to determine Trend
+
+182
+00:08:42,180 --> 00:08:46,500
+Direction
+
+183
+00:08:43,620 --> 00:08:48,660
+this is done by simply observing the
+
+184
+00:08:46,500 --> 00:08:49,740
+location of price in relation to the
+
+185
+00:08:48,660 --> 00:08:53,100
+moving average
+
+186
+00:08:49,740 --> 00:08:55,560
+and the slope of the line itself
+
+187
+00:08:53,100 --> 00:08:58,500
+when a market is in an uptrend the
+
+188
+00:08:55,560 --> 00:09:02,100
+moving average is below the price action
+
+189
+00:08:58,500 --> 00:09:05,399
+in this case you look for over both RSI
+
+190
+00:09:02,100 --> 00:09:07,080
+signals and Target Long positions you
+
+191
+00:09:05,399 --> 00:09:09,480
+want to trade in the direction of the
+
+192
+00:09:07,080 --> 00:09:13,680
+moving average and try to profit from
+
+193
+00:09:09,480 --> 00:09:16,080
+Traders shorting over both conditions
+
+194
+00:09:13,680 --> 00:09:17,880
+when a market is in a downtrend the
+
+195
+00:09:16,080 --> 00:09:20,580
+moving average is above the price action
+
+196
+00:09:17,880 --> 00:09:23,519
+in this case you look for oversold
+
+197
+00:09:20,580 --> 00:09:26,399
+signals and Target short positions
+
+198
+00:09:23,519 --> 00:09:29,959
+against traders that will buy when the
+
+199
+00:09:26,399 --> 00:09:29,959
+RSI is below 30.
+
+200
+00:09:30,300 --> 00:09:36,360
+we trade down Jones on the 15 minute
+
+201
+00:09:32,940 --> 00:09:40,080
+time frame price is above the 50 EMA
+
+202
+00:09:36,360 --> 00:09:42,240
+trend is up so we want our site to reach
+
+203
+00:09:40,080 --> 00:09:45,240
+the 70 level
+
+204
+00:09:42,240 --> 00:09:48,360
+here it is now we wait for a retracement
+
+205
+00:09:45,240 --> 00:09:51,779
+to one of our levels
+
+206
+00:09:48,360 --> 00:09:54,540
+this is a textbook rejection I will take
+
+207
+00:09:51,779 --> 00:09:58,800
+the signal every time I'll see it
+
+208
+00:09:54,540 --> 00:10:01,800
+a beam bar rejecting the 38 feet level
+
+209
+00:09:58,800 --> 00:10:04,440
+and a 50 EMA at the same time
+
+210
+00:10:01,800 --> 00:10:07,560
+we enter long with a stop below the
+
+211
+00:10:04,440 --> 00:10:10,220
+pullback and we set a risk reward ratio
+
+212
+00:10:07,560 --> 00:10:10,220
+of 2.
+
+213
+00:10:11,040 --> 00:10:16,080
+so the key aspect of the strategy is
+
+214
+00:10:13,800 --> 00:10:18,779
+that you don't enter immediately after
+
+215
+00:10:16,080 --> 00:10:21,720
+you spot an overbought RSI
+
+216
+00:10:18,779 --> 00:10:22,980
+you wait for a small pullback and then
+
+217
+00:10:21,720 --> 00:10:26,459
+make your move
+
+218
+00:10:22,980 --> 00:10:28,680
+allow the market to trap Navy's Traders
+
+219
+00:10:26,459 --> 00:10:30,480
+you'll probably remember what it was
+
+220
+00:10:28,680 --> 00:10:33,540
+like to be on the wrong side of the
+
+221
+00:10:30,480 --> 00:10:35,700
+trade you enter and the market actually
+
+222
+00:10:33,540 --> 00:10:38,100
+gives you the impression you made the
+
+223
+00:10:35,700 --> 00:10:38,820
+right call and goes in your favor for a
+
+224
+00:10:38,100 --> 00:10:41,100
+bit
+
+225
+00:10:38,820 --> 00:10:43,680
+and then it aggressively moves against
+
+226
+00:10:41,100 --> 00:10:46,440
+you that's why you wait for the
+
+227
+00:10:43,680 --> 00:10:50,000
+retracement you want many trap traders
+
+228
+00:10:46,440 --> 00:10:50,000
+to be caught on the wrong side
+
+229
+00:10:50,279 --> 00:10:55,140
+this is Euro Yen price was trading below
+
+230
+00:10:53,579 --> 00:10:58,800
+the 50ma
+
+231
+00:10:55,140 --> 00:11:01,380
+Market is making lower lows lower highs
+
+232
+00:10:58,800 --> 00:11:05,240
+now let's mark the areas when the price
+
+233
+00:11:01,380 --> 00:11:05,240
+entered oversold conditions
+
+234
+00:11:10,079 --> 00:11:16,560
+observe how each time the price kept on
+
+235
+00:11:13,440 --> 00:11:18,720
+trending downwards that's why fading
+
+236
+00:11:16,560 --> 00:11:19,620
+these levels is the better trading
+
+237
+00:11:18,720 --> 00:11:22,500
+approach
+
+238
+00:11:19,620 --> 00:11:23,880
+most traders who aren't experienced will
+
+239
+00:11:22,500 --> 00:11:26,579
+buy the market
+
+240
+00:11:23,880 --> 00:11:28,860
+you need to reprogram your mind if you
+
+241
+00:11:26,579 --> 00:11:31,980
+are tempted to trade these levels the
+
+242
+00:11:28,860 --> 00:11:34,260
+classic way a trend can and will keep
+
+243
+00:11:31,980 --> 00:11:36,180
+going for a very long distance even
+
+244
+00:11:34,260 --> 00:11:37,560
+though the price is in oversold
+
+245
+00:11:36,180 --> 00:11:40,860
+territory
+
+246
+00:11:37,560 --> 00:11:43,140
+so from now on you'll use overbought and
+
+247
+00:11:40,860 --> 00:11:46,339
+oversold as an additional Trend
+
+248
+00:11:43,140 --> 00:11:46,339
+continuation signal
+
+249
+00:11:46,620 --> 00:11:53,160
+here's another important tip the longer
+
+250
+00:11:49,620 --> 00:11:57,240
+drsi stays in an overbought or oversold
+
+251
+00:11:53,160 --> 00:12:00,839
+State the less effective the RSI is
+
+252
+00:11:57,240 --> 00:12:04,680
+let's look at this example RSI was below
+
+253
+00:12:00,839 --> 00:12:06,660
+the 30 level for over 10 candles
+
+254
+00:12:04,680 --> 00:12:09,660
+which is significant
+
+255
+00:12:06,660 --> 00:12:12,019
+lots of Traders enter long during this
+
+256
+00:12:09,660 --> 00:12:12,019
+period
+
+257
+00:12:12,779 --> 00:12:17,519
+so when we had this retracement to the
+
+258
+00:12:15,600 --> 00:12:21,060
+first FIB level
+
+259
+00:12:17,519 --> 00:12:23,640
+and we saw this bearish engulfing candle
+
+260
+00:12:21,060 --> 00:12:24,540
+this was a good opportunity to short the
+
+261
+00:12:23,640 --> 00:12:27,180
+market
+
+262
+00:12:24,540 --> 00:12:28,860
+in the direction of the main Trend which
+
+263
+00:12:27,180 --> 00:12:31,320
+was obviously down
+
+264
+00:12:28,860 --> 00:12:33,959
+with price staying below the 50 moving
+
+265
+00:12:31,320 --> 00:12:36,620
+average and its slope was pointing
+
+266
+00:12:33,959 --> 00:12:36,620
+downwards
+
+267
+00:12:42,839 --> 00:12:47,940
+time can also impact the RSI reading so
+
+268
+00:12:46,500 --> 00:12:50,160
+don't forget to take it into
+
+269
+00:12:47,940 --> 00:12:52,560
+consideration as well
+
+270
+00:12:50,160 --> 00:12:55,440
+this strategy is more suited to day
+
+271
+00:12:52,560 --> 00:12:57,000
+trading and scalping and not so much to
+
+272
+00:12:55,440 --> 00:12:59,639
+swing Trading
+
+273
+00:12:57,000 --> 00:13:02,459
+on Lower time frames Traders are more
+
+274
+00:12:59,639 --> 00:13:04,320
+impatient and more reactive more
+
+275
+00:13:02,459 --> 00:13:05,339
+emotional when the market goes against
+
+276
+00:13:04,320 --> 00:13:07,440
+them
+
+277
+00:13:05,339 --> 00:13:10,079
+so they have the tendency to close
+
+278
+00:13:07,440 --> 00:13:12,779
+trades prematurely or they use small
+
+279
+00:13:10,079 --> 00:13:15,060
+stop losses which will be the main fuel
+
+280
+00:13:12,779 --> 00:13:17,700
+for our positions
+
+281
+00:13:15,060 --> 00:13:20,040
+so stay on the 15 minute or the 30
+
+282
+00:13:17,700 --> 00:13:23,700
+minute time frames
+
+283
+00:13:20,040 --> 00:13:26,519
+the entry trigger is also important I
+
+284
+00:13:23,700 --> 00:13:29,639
+prefer engulfing candlesticks rejecting
+
+285
+00:13:26,519 --> 00:13:31,019
+a fib level but a pin bar also works
+
+286
+00:13:29,639 --> 00:13:34,260
+well
+
+287
+00:13:31,019 --> 00:13:36,839
+ideally you should be able to gain at
+
+288
+00:13:34,260 --> 00:13:39,779
+least double the risk you are taking
+
+289
+00:13:36,839 --> 00:13:44,160
+but in some volatile markets with many
+
+290
+00:13:39,779 --> 00:13:46,860
+swings a lower risk reward ratio of 1.5
+
+291
+00:13:44,160 --> 00:13:50,339
+might be better
+
+292
+00:13:46,860 --> 00:13:52,680
+and of course instead of RSI you can try
+
+293
+00:13:50,339 --> 00:13:55,920
+any indicator which allows for
+
+294
+00:13:52,680 --> 00:14:00,120
+overbought or oversold readings like
+
+295
+00:13:55,920 --> 00:14:02,639
+stochastic CCI or Williams percent range
+
+296
+00:14:00,120 --> 00:14:05,639
+you just have to slightly adjust their
+
+297
+00:14:02,639 --> 00:14:08,399
+settings to suit your markets
+
+298
+00:14:05,639 --> 00:14:10,200
+and you can also change the length and
+
+299
+00:14:08,399 --> 00:14:13,560
+the type of the moving average
+
+300
+00:14:10,200 --> 00:14:15,480
+I use the 50 EMA but you can apply any
+
+301
+00:14:13,560 --> 00:14:17,940
+moving average you prefer
+
+302
+00:14:15,480 --> 00:14:20,880
+so adjust this technique to suit your
+
+303
+00:14:17,940 --> 00:14:23,160
+markets and use over bath and oversold
+
+304
+00:14:20,880 --> 00:14:26,480
+signals as an additional Trend
+
+305
+00:14:23,160 --> 00:14:26,480
+continuation pattern
+
+306
+00:14:40,920 --> 00:14:45,560
+thank you
+
+307
+00:14:43,260 --> 00:14:45,560
+foreign
+
+308
+00:15:00,250 --> 00:15:03,480
+[Music]
+
+309
+00:15:10,360 --> 00:15:15,090
+[Music]
+
+310
+00:15:15,540 --> 00:15:18,540
+foreign
+
+311
+00:15:29,590 --> 00:15:32,779
+[Music]
+
+312
+00:15:42,580 --> 00:15:45,779
+[Applause]
+
+313
+00:15:47,399 --> 00:15:50,399
+foreign
+
+314
+00:15:50,459 --> 00:15:55,980
+if you want to see more videos like this
+
+315
+00:15:52,800 --> 00:15:58,740
+one leave us a like And subscribe
+
+316
+00:15:55,980 --> 00:16:02,639
+and check out our Academy program if you
+
+317
+00:15:58,740 --> 00:16:05,480
+want to further level up your Trading
+
+318
+00:16:02,639 --> 00:16:05,480
+until next time
+

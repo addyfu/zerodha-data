@@ -1,0 +1,814 @@
+1
+00:00:00,710 --> 00:00:05,560
+As a trader, you are probably familiar with
+several theories concerning market structure
+
+2
+00:00:05,560 --> 00:00:06,910
+and cycles.
+
+3
+00:00:06,910 --> 00:00:11,559
+Some of the more popular ones include the
+Elliott Wave Principle and the Dow Theory.
+
+4
+00:00:11,559 --> 00:00:16,230
+In today’s video, I plan to add one more
+important type of market analysis to your
+
+5
+00:00:16,230 --> 00:00:22,419
+trading arsenal, namely a price action based
+approach known as the Wyckoff trading method.
+
+6
+00:00:22,419 --> 00:00:27,449
+The Wyckoff Method consists of a series of
+principles and strategies which can be applied
+
+7
+00:00:27,449 --> 00:00:29,390
+to all sorts of financial markets.
+
+8
+00:00:29,390 --> 00:00:33,989
+I will break Wyckoff’s method into 4 parts:
+• The three laws of Wyckoff
+
+9
+00:00:33,989 --> 00:00:36,839
+• The Composite Man
+• Wyckoff Price Cycle
+
+10
+00:00:36,839 --> 00:00:39,430
+• Wyckoff Volume Spread Analysis
+
+11
+00:00:39,430 --> 00:00:41,390
+The three laws of Wyckoff
+
+12
+00:00:41,390 --> 00:00:43,880
+Wyckoff's method rests on three fundamental
+“laws”.
+
+13
+00:00:43,880 --> 00:00:44,880
+1.
+
+14
+00:00:44,880 --> 00:00:48,750
+The law of supply and demand
+When demand is greater than supply, prices
+
+15
+00:00:48,750 --> 00:00:52,940
+rise, and when supply is greater than demand,
+prices fall.
+
+16
+00:00:52,940 --> 00:00:57,739
+The trader can study the balance between supply
+and demand by comparing price and volume bars
+
+17
+00:00:57,739 --> 00:01:01,980
+over time, as a way to better visualize the
+relation between supply and demand.
+
+18
+00:01:01,980 --> 00:01:06,590
+This often provides insights into the next
+market movements.
+
+19
+00:01:06,590 --> 00:01:07,750
+2.
+
+20
+00:01:07,750 --> 00:01:11,580
+The Law of Cause and Effect
+The second law states that the differences
+
+21
+00:01:11,580 --> 00:01:13,640
+between supply and demand are not random.
+
+22
+00:01:13,640 --> 00:01:18,610
+Instead, they come after periods of preparation,
+as a result of specific events.
+
+23
+00:01:18,610 --> 00:01:25,610
+In Wyckoff's terms, a period of accumulation
+(cause) eventually leads to an uptrend (effect).
+
+24
+00:01:25,610 --> 00:01:31,369
+In contrast, a period of distribution (cause)
+eventually results in a downtrend (effect).
+
+25
+00:01:31,369 --> 00:01:32,450
+3.
+
+26
+00:01:32,450 --> 00:01:38,520
+The Law of Effort vs. Result
+The third Wyckoff law states that the changes
+
+27
+00:01:38,520 --> 00:01:43,500
+in an asset’s price are a result of an effort,
+which is represented by the trading volume.
+
+28
+00:01:43,500 --> 00:01:47,840
+If the price action is in harmony with the
+volume, there is a good chance the trend will
+
+29
+00:01:47,840 --> 00:01:48,840
+continue.
+
+30
+00:01:48,840 --> 00:01:53,140
+But, if the volume and price diverge, the
+market trend is likely to stop or change direction.
+
+31
+00:01:53,140 --> 00:01:58,469
+For instance, imagine that a market starts
+to consolidate with a very high volume after
+
+32
+00:01:58,469 --> 00:02:00,420
+a long bearish trend.
+
+33
+00:02:00,420 --> 00:02:04,250
+The high volume indicates a big effort, but
+the sideways movement suggests a small result.
+
+34
+00:02:04,250 --> 00:02:09,190
+So, there is a lot of activity, but no more
+significant price drops.
+
+35
+00:02:09,190 --> 00:02:14,000
+Such a situation could indicate that the downtrend
+may be over, and a reversal is near.
+
+36
+00:02:14,000 --> 00:02:17,420
+The Composite Man
+Wyckoff created the idea of the Composite
+
+37
+00:02:17,420 --> 00:02:20,690
+Man as an imaginary identity of the market.
+
+38
+00:02:20,690 --> 00:02:25,390
+He proposed that investors and traders should
+study the stock market as if a single entity
+
+39
+00:02:25,390 --> 00:02:26,390
+was controlling it.
+
+40
+00:02:26,390 --> 00:02:32,210
+It always acts in his own best interest to
+ensure he can buy low and sell high.
+
+41
+00:02:32,210 --> 00:02:36,780
+Think of composite man as an evil entity,
+like the bad guy in a movie, sitting behind
+
+42
+00:02:36,780 --> 00:02:40,160
+the scenes controlling markets by pushing
+buttons.
+
+43
+00:02:40,160 --> 00:02:43,650
+His goal is to move the markets to your disadvantage.
+
+44
+00:02:43,650 --> 00:02:50,230
+The composite man is continually seeking to
+maximize his profit at “your” expense.
+
+45
+00:02:50,230 --> 00:02:55,260
+The Composite Man’s behavior is the opposite
+of retail traders, but according to Wyckoff,
+
+46
+00:02:55,260 --> 00:03:00,730
+the Composite Man uses a somewhat predictable
+strategy, from which traders can learn from.
+
+47
+00:03:00,730 --> 00:03:06,310
+Here are some main ideas of composite man:
+• Composite man plans and executes his deception
+
+48
+00:03:06,310 --> 00:03:09,820
+well in advance
+• Composite man is there to fool you to
+
+49
+00:03:09,820 --> 00:03:15,020
+buying positions that he has already accumulated
+• Composite man will tempt you to sell at
+
+50
+00:03:15,020 --> 00:03:18,710
+the worst possible time
+• Composite man leaves subtle evidence of
+
+51
+00:03:18,710 --> 00:03:21,090
+his strategy for those who understand him
+
+52
+00:03:21,090 --> 00:03:26,310
+Now, let’s use the Composite Man concept
+to illustrate a market cycle.
+
+53
+00:03:26,310 --> 00:03:27,310
+1.
+
+54
+00:03:27,310 --> 00:03:29,210
+Accumulation
+The process of accumulation is the first stage
+
+55
+00:03:29,210 --> 00:03:31,450
+of the Wyckoff price cycle.
+
+56
+00:03:31,450 --> 00:03:35,010
+The Composite Man accumulates assets before
+most investors.
+
+57
+00:03:35,010 --> 00:03:39,670
+The accumulation is done gradually to avoid
+the price from changing significantly.
+
+58
+00:03:39,670 --> 00:03:46,050
+Bulls are gaining power slowly and as a result,
+they are poised to push prices higher.
+
+59
+00:03:46,050 --> 00:03:50,511
+Although the Accumulation stage is related
+with the bulls gaining authority, the price
+
+60
+00:03:50,511 --> 00:03:52,800
+action on the chart is flat.
+
+61
+00:03:52,800 --> 00:03:57,450
+In other words, the process of accumulation
+is illustrated by a ranging price structure
+
+62
+00:03:57,450 --> 00:03:59,010
+on the chart.
+
+63
+00:03:59,010 --> 00:04:03,810
+Higher lows within the range is usually considered
+a signal that the price action is currently
+
+64
+00:04:03,810 --> 00:04:05,020
+in an Accumulation phase.
+
+65
+00:04:05,020 --> 00:04:06,020
+2.
+
+66
+00:04:06,020 --> 00:04:08,940
+Markup Phase (Uptrend)
+The Markup is the second stage of the Wyckoff
+
+67
+00:04:08,940 --> 00:04:10,450
+trading cycle.
+
+68
+00:04:10,450 --> 00:04:14,810
+When the Composite Man is holding enough power,
+and the selling force is depleted, he starts
+
+69
+00:04:14,810 --> 00:04:16,350
+pushing the market up.
+
+70
+00:04:16,350 --> 00:04:20,509
+The emerging trend attracts more investors,
+causing demand to increase.
+
+71
+00:04:20,509 --> 00:04:23,759
+There may be multiple phases of accumulation
+during an uptrend.
+
+72
+00:04:23,759 --> 00:04:29,180
+We may call them re-accumulation phases, where
+the bigger trend stops and consolidates for
+
+73
+00:04:29,180 --> 00:04:32,219
+a while, before continuing its upward movement.
+
+74
+00:04:32,219 --> 00:04:35,629
+As the market moves up, other traders are
+encouraged to buy.
+
+75
+00:04:35,629 --> 00:04:39,379
+At this point, demand is higher than supply.
+
+76
+00:04:39,379 --> 00:04:40,699
+3.
+
+77
+00:04:40,699 --> 00:04:42,180
+Distribution
+The Distribution process is the third stage
+
+78
+00:04:42,180 --> 00:04:44,000
+of the Wyckoff price cycle.
+
+79
+00:04:44,000 --> 00:04:47,900
+Here, the Composite Man starts distributing
+his holdings.
+
+80
+00:04:47,900 --> 00:04:52,810
+He sells his profitable positions to those
+entering the market at a late stage.
+
+81
+00:04:52,810 --> 00:04:58,229
+The distribution phase is marked by a sideways
+movement that absorbs demand until it gets
+
+82
+00:04:58,229 --> 00:04:59,229
+exhausted.
+
+83
+00:04:59,229 --> 00:05:02,199
+The price action on the chart at this stage
+is flat.
+
+84
+00:05:02,199 --> 00:05:07,040
+One indication that the market is in a Distribution
+stage will be the sustained failure of price
+
+85
+00:05:07,040 --> 00:05:09,449
+to create higher lows on the chart.
+
+86
+00:05:09,449 --> 00:05:13,810
+The price action creates lower highs which
+is an indication that the market is currently
+
+87
+00:05:13,810 --> 00:05:15,259
+experiencing a selloff.
+
+88
+00:05:15,259 --> 00:05:16,259
+4.
+
+89
+00:05:16,259 --> 00:05:19,100
+Markdown Phase (Downtrend)
+The Markdown is the last stage of the Wyckoff
+
+90
+00:05:19,100 --> 00:05:20,100
+price cycle.
+
+91
+00:05:20,100 --> 00:05:25,090
+Soon after the distribution phase, the market
+starts reverting to the downside.
+
+92
+00:05:25,090 --> 00:05:28,020
+After the Composite Man is done selling a
+good amount of his shares, he starts pushing
+
+93
+00:05:28,020 --> 00:05:29,020
+the market down.
+
+94
+00:05:29,020 --> 00:05:33,729
+The supply becomes much greater than demand,
+and the downtrend is established.
+
+95
+00:05:33,729 --> 00:05:38,189
+When the bearish trend is finally over, a
+new accumulation phase begins.
+
+96
+00:05:38,189 --> 00:05:41,469
+Wyckoff Volume Spread Analysis
+Volume is of a great importance for the Wyckoff
+
+97
+00:05:41,469 --> 00:05:46,289
+trader, because it can provide valuable information
+into what is really going on “behind the
+
+98
+00:05:46,289 --> 00:05:47,499
+scenes”.
+
+99
+00:05:47,499 --> 00:05:52,271
+Wyckoff Volume Analysis provides confirmation
+of progressing events during the Wyckoff Price
+
+100
+00:05:52,271 --> 00:05:53,509
+Cycle.
+
+101
+00:05:53,509 --> 00:05:58,310
+As I said earlier, high volumes can lead to
+sustained price moves on the chart.
+
+102
+00:05:58,310 --> 00:06:03,689
+Wyckoff Volume Spread Analysis also helps
+you identify periods when the price is transitioning
+
+103
+00:06:03,689 --> 00:06:07,349
+between the different stages of the Wyckoff
+Price Cycle.
+
+104
+00:06:07,349 --> 00:06:11,650
+When the price moves through a key level during
+the Wyckoff Price Cycle, you should consider
+
+105
+00:06:11,650 --> 00:06:15,860
+the move valid if the trading volumes are
+relatively high during the breakout.
+
+106
+00:06:15,860 --> 00:06:20,949
+If the volumes are decreasing, then you are
+probably looking at a spring (which is a false
+
+107
+00:06:20,949 --> 00:06:24,610
+breakout) rather than a real breakout.
+
+108
+00:06:24,610 --> 00:06:26,499
+This is an example of an Accumulation stage.
+
+109
+00:06:26,499 --> 00:06:30,879
+Notice on the chart that the first two bottoms
+are slightly increasing.
+
+110
+00:06:30,879 --> 00:06:34,159
+This hints that the market is likely in an
+accumulating stage.
+
+111
+00:06:34,159 --> 00:06:37,919
+Suddenly, we see a bearish breakdown through
+the lower level of the range.
+
+112
+00:06:37,919 --> 00:06:42,520
+However, the volume is decreasing during the
+breakdown through the level, which suggests
+
+113
+00:06:42,520 --> 00:06:48,259
+that this could be a false breakout (Spring)
+before the real breakout actually takes place.
+
+114
+00:06:48,259 --> 00:06:53,469
+The price reverses after the breakdown and
+at the same time, the trading volume is increasing.
+
+115
+00:06:53,469 --> 00:06:57,399
+This is a strong indication that the Price
+Cycle is likely entering the second stage
+
+116
+00:06:57,399 --> 00:06:58,990
+– the Markup.
+
+117
+00:06:58,990 --> 00:07:04,529
+How to apply Wyckoff method in your trading
+Traders can use the Wyckoff Price Cycle to
+
+118
+00:07:04,529 --> 00:07:06,780
+recognize upcoming price moves.
+
+119
+00:07:06,780 --> 00:07:11,400
+For example, the end of an Accumulation stage
+is the beginning of a Markup, which could
+
+120
+00:07:11,400 --> 00:07:13,439
+be traded to the long side.
+
+121
+00:07:13,439 --> 00:07:17,889
+At the same time, the end of a Distribution
+stage is the beginning of a Markdown, which
+
+122
+00:07:17,889 --> 00:07:20,580
+could be traded to the short side.
+
+123
+00:07:20,580 --> 00:07:24,559
+Understanding the different stages within
+the price cycle will allow you to position
+
+124
+00:07:24,559 --> 00:07:27,680
+for the next most likely price tendency.
+
+125
+00:07:27,680 --> 00:07:32,860
+Ideally, you should enter a trade when the
+price action is transiting from Accumulation
+
+126
+00:07:32,860 --> 00:07:35,800
+to Markup and from Distribution to Markdown.
+
+127
+00:07:35,800 --> 00:07:40,279
+First, you would need to confirm the current
+stage when the price is ranging.
+
+128
+00:07:40,279 --> 00:07:45,759
+It would help to identify increasing bottoms
+for an Accumulation and decreasing tops for
+
+129
+00:07:45,759 --> 00:07:46,759
+Distribution.
+
+130
+00:07:46,759 --> 00:07:52,770
+In addition, it would be useful to analyze
+the previous price moves for additional clues.
+
+131
+00:07:52,770 --> 00:07:57,749
+Another way you can attempt to confirm an
+Accumulation or Distribution stage is by identifying
+
+132
+00:07:57,749 --> 00:08:02,129
+a Spring, which is the transitional price
+action behavior that often occurs between
+
+133
+00:08:02,129 --> 00:08:04,139
+the cycle stages.
+
+134
+00:08:04,139 --> 00:08:09,240
+Chart patterns can also be helpful in identifying
+Accumulation and Distribution processes on
+
+135
+00:08:09,240 --> 00:08:10,419
+the chart.
+
+136
+00:08:10,419 --> 00:08:14,710
+The potential price move out of a pattern
+could help you identify the transition to
+
+137
+00:08:14,710 --> 00:08:17,719
+a Markup or a Markdown.
+
+138
+00:08:17,719 --> 00:08:22,259
+The actual trade comes when the price action
+breaks the range in the direction of the expected
+
+139
+00:08:22,259 --> 00:08:23,259
+move.
+
+140
+00:08:23,259 --> 00:08:27,599
+For example, you could buy when the price
+breaks the flat range through the upper level.
+
+141
+00:08:27,599 --> 00:08:32,190
+Contrary, you could sell when the price action
+breaks the lower support level of the Distribution
+
+142
+00:08:32,190 --> 00:08:33,190
+area.
+
+143
+00:08:33,190 --> 00:08:37,030
+And, you must keep an eye on volume to confirm
+that your decision is correct.
+
+144
+00:08:37,030 --> 00:08:41,150
+If you are trading a Markup, your stop loss
+should be located below the lowest point of
+
+145
+00:08:41,150 --> 00:08:43,130
+the Accumulation stage.
+
+146
+00:08:43,130 --> 00:08:47,310
+If you are trading a Markdown, then your stop
+loss order should be positioned above the
+
+147
+00:08:47,310 --> 00:08:49,410
+highest point during the Distribution stage.
+
+148
+00:08:49,410 --> 00:08:53,130
+Here, the cycle begins with the Distribution
+phase.
+
+149
+00:08:53,130 --> 00:08:57,180
+At this point, the price action breaks the
+upper level of the range.
+
+150
+00:08:57,180 --> 00:09:01,970
+However, the trading volumes at that time
+are decreasing, Therefore, we can reason that
+
+151
+00:09:01,970 --> 00:09:04,660
+a Spring pattern on the chart may be forming.
+
+152
+00:09:04,660 --> 00:09:10,000
+The price action reverses afterwards and breaks
+the lower level of the Distribution channel
+
+153
+00:09:10,000 --> 00:09:11,600
+on increasing volume.
+
+154
+00:09:11,600 --> 00:09:16,040
+This was the ideal moment to enter a short
+position, placing a stop loss above the highest
+
+155
+00:09:16,040 --> 00:09:17,990
+point of the Distribution range.
+
+156
+00:09:17,990 --> 00:09:23,830
+See that the Markdown begins right after the
+selloff and the price of decreased aggressively.
+
+157
+00:09:23,830 --> 00:09:28,210
+Then we see a sideways movement, which hints
+that the Markdown phase is probably completed.
+
+158
+00:09:28,210 --> 00:09:32,350
+If you haven’t reached your profit target,
+you would close your trade when the price
+
+159
+00:09:32,350 --> 00:09:36,580
+action begins to create increasing tops on
+the chart.
+
+160
+00:09:36,580 --> 00:09:40,990
+When price finishes a Markdown stage, it starts
+an Accumulation.
+
+161
+00:09:40,990 --> 00:09:45,330
+During the Accumulation, we see that the price
+drops on decreasing volumes and breaks the
+
+162
+00:09:45,330 --> 00:09:48,840
+channel downwards
+Here, we see a breakout through the upper
+
+163
+00:09:48,840 --> 00:09:51,120
+level of the Accumulation channel.
+
+164
+00:09:51,120 --> 00:09:54,530
+This is a strong buy signal, which you could
+use to go long.
+
+165
+00:09:54,530 --> 00:09:58,560
+The stop loss order goes below the lowest
+point of the Accumulation phase.
+
+166
+00:09:58,560 --> 00:10:05,000
+The price action enters a Markup stage afterwards,
+as the price rises creating higher highs.
+
+167
+00:10:05,000 --> 00:10:10,200
+After a strong increase the price action starts
+to range, suggesting the Markup stage is probably
+
+168
+00:10:10,200 --> 00:12:14,100
+completed and the new Distribution stage is
+on its way.
+
+169
+00:12:14,100 --> 00:12:18,330
+This video was basically an introduction to
+Wyckoff trading and I tried to keep things
+
+170
+00:12:18,330 --> 00:12:20,210
+as simple as possible.
+
+171
+00:12:20,210 --> 00:12:24,770
+If you enjoyed this type of content and want
+more Wyckoff strategies, leave us a like to
+
+172
+00:12:24,770 --> 00:12:29,860
+show your support and in future videos we’ll
+go deeper with some advanced Wyckoff concepts
+
+173
+00:12:29,860 --> 00:12:34,490
+that can be applied to day trading and swing
+trading.
+
+174
+00:12:34,490 --> 00:12:34,830
+Until next time.
+

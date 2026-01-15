@@ -1,0 +1,940 @@
+1
+00:00:00,120 --> 00:00:04,920
+although it's important to be able to
+
+2
+00:00:02,370 --> 00:00:07,130
+spot new trends it is equally important
+
+3
+00:00:04,920 --> 00:00:09,660
+to be able to identify what a trend ends
+
+4
+00:00:07,130 --> 00:00:12,300
+getting out at the right time isn't
+
+5
+00:00:09,660 --> 00:00:14,820
+difficult but it does require some close
+
+6
+00:00:12,300 --> 00:00:17,520
+observation of price action and looking
+
+7
+00:00:14,820 --> 00:00:20,160
+for clues that my predictor Universal or
+
+8
+00:00:17,520 --> 00:00:22,859
+a trend change when trading Forex or the
+
+9
+00:00:20,160 --> 00:00:25,800
+stock market it's easy to find trades
+
+10
+00:00:22,859 --> 00:00:28,680
+that match your technical criteria but
+
+11
+00:00:25,800 --> 00:00:31,439
+taking a timely exit requires great
+
+12
+00:00:28,680 --> 00:00:34,320
+skill one indicator that can help you to
+
+13
+00:00:31,439 --> 00:00:38,309
+identify what a trend might be ending is
+
+14
+00:00:34,320 --> 00:00:40,710
+the parabolic SAR so in this video we'll
+
+15
+00:00:38,309 --> 00:00:43,140
+talk about a parabolic SAR you'll learn
+
+16
+00:00:40,710 --> 00:00:45,210
+how to correctly trade with it and I'll
+
+17
+00:00:43,140 --> 00:00:48,450
+show you how to use it along with eg
+
+18
+00:00:45,210 --> 00:00:50,190
+more cloud in a trading strategy before
+
+19
+00:00:48,450 --> 00:00:52,980
+we continue if you are new to my channel
+
+20
+00:00:50,190 --> 00:00:55,199
+make sure you subscribe turn on the
+
+21
+00:00:52,980 --> 00:00:59,550
+notifications and give us a like to sure
+
+22
+00:00:55,199 --> 00:01:02,460
+support parabolic SAR is an indicator
+
+23
+00:00:59,550 --> 00:01:04,530
+displayed as a series of dots mainly
+
+24
+00:01:02,460 --> 00:01:07,470
+used to identify the market direction
+
+25
+00:01:04,530 --> 00:01:10,020
+and the beginning of reversals it allows
+
+26
+00:01:07,470 --> 00:01:12,570
+traders to evaluate the trend direction
+
+27
+00:01:10,020 --> 00:01:16,320
+to pinpoint entry and exit points and
+
+28
+00:01:12,570 --> 00:01:18,689
+also placing training stops the dots of
+
+29
+00:01:16,320 --> 00:01:22,020
+this indicator shift from being below
+
+30
+00:01:18,689 --> 00:01:24,780
+the candles during the uptrend to above
+
+31
+00:01:22,020 --> 00:01:27,570
+the candles when the trend reverses into
+
+32
+00:01:24,780 --> 00:01:30,570
+a downtrend when the price is trading
+
+33
+00:01:27,570 --> 00:01:32,880
+below the parabolic SAR this can be
+
+34
+00:01:30,570 --> 00:01:35,939
+explained as a signal to sell or remain
+
+35
+00:01:32,880 --> 00:01:39,119
+short on the other hand if the price is
+
+36
+00:01:35,939 --> 00:01:41,090
+trading above the parabolic SAR this can
+
+37
+00:01:39,119 --> 00:01:45,229
+be explained as a signal to buy or
+
+38
+00:01:41,090 --> 00:01:47,369
+remain long if you prefer price action
+
+39
+00:01:45,229 --> 00:01:50,310
+what you need to know is that during
+
+40
+00:01:47,369 --> 00:01:53,729
+strong trends the gap between the price
+
+41
+00:01:50,310 --> 00:01:56,610
+and the dots widens however if the
+
+42
+00:01:53,729 --> 00:01:59,579
+market is flat or choppy the dots and
+
+43
+00:01:56,610 --> 00:02:02,119
+price interact with one another quite
+
+44
+00:01:59,579 --> 00:02:02,119
+frequently
+
+45
+00:02:02,120 --> 00:02:07,410
+calculating the parabolic SAR indicator
+
+46
+00:02:04,650 --> 00:02:09,540
+is a rather complex and I don't want to
+
+47
+00:02:07,410 --> 00:02:11,600
+bore you with it what you need to know
+
+48
+00:02:09,540 --> 00:02:14,700
+is that the SAR comes with two values
+
+49
+00:02:11,600 --> 00:02:18,210
+which can be adjusted depending on your
+
+50
+00:02:14,700 --> 00:02:20,280
+preference step in a maximum step are
+
+51
+00:02:18,210 --> 00:02:23,940
+the values offered by the parabolic SAR
+
+52
+00:02:20,280 --> 00:02:25,590
+and they determine how sensitive the
+
+53
+00:02:23,940 --> 00:02:28,920
+indicator is to changes in price
+
+54
+00:02:25,590 --> 00:02:33,630
+movements the default settings of the
+
+55
+00:02:28,920 --> 00:02:36,660
+SAR are 0.02 for the step and 0.2 for
+
+56
+00:02:33,630 --> 00:02:39,420
+the maximum step once the price makes a
+
+57
+00:02:36,660 --> 00:02:43,230
+new high or low the acceleration factor
+
+58
+00:02:39,420 --> 00:02:44,790
+increases by 0.02 this explains the
+
+59
+00:02:43,230 --> 00:02:46,800
+reason why the gaps between the
+
+60
+00:02:44,790 --> 00:02:50,640
+parabolic SAR and the price increase
+
+61
+00:02:46,800 --> 00:02:53,550
+during strong trends by increasing the
+
+62
+00:02:50,640 --> 00:02:55,320
+values of the step and maximum step you
+
+63
+00:02:53,550 --> 00:02:57,680
+can increase the sensitivity of the
+
+64
+00:02:55,320 --> 00:03:00,360
+indicator but at the same time
+
+65
+00:02:57,680 --> 00:03:02,340
+sacrificing its precision because the
+
+66
+00:03:00,360 --> 00:03:05,430
+parabolic SAR will offer many false
+
+67
+00:03:02,340 --> 00:03:08,160
+signals by lowering the values of the
+
+68
+00:03:05,430 --> 00:03:11,220
+step and maximum step the parabolic SAR
+
+69
+00:03:08,160 --> 00:03:13,140
+will become less sensitive but will also
+
+70
+00:03:11,220 --> 00:03:15,840
+provide more accurate signals from my
+
+71
+00:03:13,140 --> 00:03:18,630
+experience it's important to find a
+
+72
+00:03:15,840 --> 00:03:21,239
+balance between these two values in
+
+73
+00:03:18,630 --> 00:03:23,970
+order to generate quality signals which
+
+74
+00:03:21,239 --> 00:03:27,090
+are not lagging the price speaking about
+
+75
+00:03:23,970 --> 00:03:30,120
+lag parabolic SAR is indeed a lagging
+
+76
+00:03:27,090 --> 00:03:32,370
+indicator because it follows the price
+
+77
+00:03:30,120 --> 00:03:33,840
+and you will need the help of other
+
+78
+00:03:32,370 --> 00:03:37,620
+trading tools to generate quality
+
+79
+00:03:33,840 --> 00:03:40,500
+signals now how do you trade with
+
+80
+00:03:37,620 --> 00:03:42,690
+parabolic SAR well this indicator
+
+81
+00:03:40,500 --> 00:03:45,150
+provides distant signals that the market
+
+82
+00:03:42,690 --> 00:03:49,020
+trend is about to change here's how it
+
+83
+00:03:45,150 --> 00:03:51,630
+works a dot appears below the price when
+
+84
+00:03:49,020 --> 00:03:53,910
+the trend is upward and a dot is placed
+
+85
+00:03:51,630 --> 00:03:57,239
+above the price when the trend is
+
+86
+00:03:53,910 --> 00:03:59,610
+downward the parabolic SAR trails the
+
+87
+00:03:57,239 --> 00:04:02,790
+price until the trend has finished and
+
+88
+00:03:59,610 --> 00:04:05,489
+begins to reverse as the trend comes to
+
+89
+00:04:02,790 --> 00:04:08,640
+an end the parabolic SAR moves closer to
+
+90
+00:04:05,489 --> 00:04:11,490
+the price and ends up touching the price
+
+91
+00:04:08,640 --> 00:04:13,890
+then forms a dot on the other side of
+
+92
+00:04:11,490 --> 00:04:15,020
+the price signaling a change in
+
+93
+00:04:13,890 --> 00:04:17,209
+direction
+
+94
+00:04:15,020 --> 00:04:19,489
+this is probably the easiest indicator
+
+95
+00:04:17,209 --> 00:04:22,370
+to interpret because it assumes that the
+
+96
+00:04:19,489 --> 00:04:25,190
+price is either going up or down with
+
+97
+00:04:22,370 --> 00:04:27,800
+that said this tool is best used in
+
+98
+00:04:25,190 --> 00:04:29,980
+markets that are trending and that have
+
+99
+00:04:27,800 --> 00:04:33,050
+long rallies and small Corrections
+
+100
+00:04:29,980 --> 00:04:35,630
+however you don't want to use this
+
+101
+00:04:33,050 --> 00:04:39,470
+indicator in a choppy market where the
+
+102
+00:04:35,630 --> 00:04:41,540
+price movement is sideways that's why
+
+103
+00:04:39,470 --> 00:04:44,150
+it's better to use it as an exit
+
+104
+00:04:41,540 --> 00:04:47,270
+indicator the parabolic SAR provides
+
+105
+00:04:44,150 --> 00:04:49,160
+decent exit points as it provides a stop
+
+106
+00:04:47,270 --> 00:04:51,890
+loss level that moves closer to the
+
+107
+00:04:49,160 --> 00:04:54,650
+price regardless of the market direction
+
+108
+00:04:51,890 --> 00:04:57,590
+the rule is that you should close by
+
+109
+00:04:54,650 --> 00:05:01,160
+positions when the price moves below the
+
+110
+00:04:57,590 --> 00:05:04,520
+SAR and close sell positions when the
+
+111
+00:05:01,160 --> 00:05:06,950
+price moves above the SAR so from my
+
+112
+00:05:04,520 --> 00:05:09,020
+experience it's better to use the
+
+113
+00:05:06,950 --> 00:05:11,090
+parabolic SAR to help you determine
+
+114
+00:05:09,020 --> 00:05:14,480
+whether you should close your trade or
+
+115
+00:05:11,090 --> 00:05:17,330
+not but if you insist of taking your
+
+116
+00:05:14,480 --> 00:05:20,210
+entries based on the parabolic SAR here
+
+117
+00:05:17,330 --> 00:05:22,150
+is how I would do it first I would use
+
+118
+00:05:20,210 --> 00:05:24,710
+it on higher time frames and here's why
+
+119
+00:05:22,150 --> 00:05:27,290
+trading the parabolic SAR on a lower
+
+120
+00:05:24,710 --> 00:05:29,870
+time frame will allow you to find a lot
+
+121
+00:05:27,290 --> 00:05:32,630
+of trades every day everything is faster
+
+122
+00:05:29,870 --> 00:05:33,710
+with a lot of noise if your analysis
+
+123
+00:05:32,630 --> 00:05:36,650
+isn't on point
+
+124
+00:05:33,710 --> 00:05:38,990
+the SAR might offer contradicting
+
+125
+00:05:36,650 --> 00:05:42,170
+signals in a spare of a few hours or
+
+126
+00:05:38,990 --> 00:05:45,110
+minutes on higher time frames your trade
+
+127
+00:05:42,170 --> 00:05:47,000
+will move slowly this will avoid you to
+
+128
+00:05:45,110 --> 00:05:50,540
+get too emotional and jump in a trade
+
+129
+00:05:47,000 --> 00:05:52,640
+that is not ready many traders get into
+
+130
+00:05:50,540 --> 00:05:55,340
+trouble trading the parabolic SAR on all
+
+131
+00:05:52,640 --> 00:05:57,680
+time frames because they start watching
+
+132
+00:05:55,340 --> 00:05:59,720
+this noise and they think they see a
+
+133
+00:05:57,680 --> 00:06:02,690
+signal which in fact is nothing more
+
+134
+00:05:59,720 --> 00:06:05,000
+than noise this can all be avoided by
+
+135
+00:06:02,690 --> 00:06:08,350
+sticking the SAR indicator to the 4-hour
+
+136
+00:06:05,000 --> 00:06:10,760
+or on the daily time frame were above
+
+137
+00:06:08,350 --> 00:06:13,670
+but you cannot trade with a parabolic
+
+138
+00:06:10,760 --> 00:06:15,680
+SAR alone I would even say it's almost
+
+139
+00:06:13,670 --> 00:06:18,130
+impossible to stay consistent trading
+
+140
+00:06:15,680 --> 00:06:20,450
+just on the basis of the parabolic SAR
+
+141
+00:06:18,130 --> 00:06:23,540
+that's why I would add the Ichimoku
+
+142
+00:06:20,450 --> 00:06:25,790
+cloud in the setup if you don't know
+
+143
+00:06:23,540 --> 00:06:28,070
+what each more quiz make sure you watch
+
+144
+00:06:25,790 --> 00:06:28,680
+this video on my channel it will teach
+
+145
+00:06:28,070 --> 00:06:31,229
+you the base
+
+146
+00:06:28,680 --> 00:06:33,360
+six of using it now the advantage of
+
+147
+00:06:31,229 --> 00:06:35,850
+using Ichimoku is the fact that it
+
+148
+00:06:33,360 --> 00:06:38,250
+offers a unique perspective of support
+
+149
+00:06:35,850 --> 00:06:40,410
+and resistance the most important role
+
+150
+00:06:38,250 --> 00:06:43,590
+of Ichimoku indicator is the coup
+
+151
+00:06:40,410 --> 00:06:46,800
+macleod and this is all we need for our
+
+152
+00:06:43,590 --> 00:06:48,960
+setup so we have the coup macleod as
+
+153
+00:06:46,800 --> 00:06:51,900
+dynamic area of support and resistance
+
+154
+00:06:48,960 --> 00:06:54,570
+and the parabolic SAR for entries and
+
+155
+00:06:51,900 --> 00:06:56,880
+exits we also pay attention to price
+
+156
+00:06:54,570 --> 00:06:58,830
+action for obvious patterns static
+
+157
+00:06:56,880 --> 00:07:01,740
+support and resistance levels and
+
+158
+00:06:58,830 --> 00:07:04,590
+breakouts here is the setup for long
+
+159
+00:07:01,740 --> 00:07:07,740
+opportunities we want a price to be
+
+160
+00:07:04,590 --> 00:07:10,979
+above the coup MacLeod and a dot must be
+
+161
+00:07:07,740 --> 00:07:13,530
+formed below the price for short
+
+162
+00:07:10,979 --> 00:07:16,380
+opportunities the price must be below
+
+163
+00:07:13,530 --> 00:07:19,889
+the coup macleod and the dot must be
+
+164
+00:07:16,380 --> 00:07:24,509
+above the price very important you never
+
+165
+00:07:19,889 --> 00:07:27,660
+take trades inside the cloud so here is
+
+166
+00:07:24,509 --> 00:07:29,280
+the euro JPY 104 hours chart tracking
+
+167
+00:07:27,660 --> 00:07:33,300
+the price action in the past three or
+
+168
+00:07:29,280 --> 00:07:36,150
+four months here is our first short
+
+169
+00:07:33,300 --> 00:07:40,280
+opportunity as the prices below the
+
+170
+00:07:36,150 --> 00:07:44,099
+cloud and a dot appeared above the price
+
+171
+00:07:40,280 --> 00:07:46,380
+we then had another short here which was
+
+172
+00:07:44,099 --> 00:07:50,460
+most likely a losing trade depending on
+
+173
+00:07:46,380 --> 00:07:52,139
+the stop loss level and then we had a
+
+174
+00:07:50,460 --> 00:07:57,389
+great short here
+
+175
+00:07:52,139 --> 00:07:59,909
+and another sell position here observe
+
+176
+00:07:57,389 --> 00:08:03,800
+how the parabolic SAR was well separated
+
+177
+00:07:59,909 --> 00:08:07,800
+from the price indicating a strong trend
+
+178
+00:08:03,800 --> 00:08:10,310
+we had another short here which brought
+
+179
+00:08:07,800 --> 00:08:14,520
+a small profit or a break-even trade and
+
+180
+00:08:10,310 --> 00:08:16,020
+a losing trade here as the price entered
+
+181
+00:08:14,520 --> 00:08:19,229
+the cloud
+
+182
+00:08:16,020 --> 00:08:21,860
+so during this period we recorded five
+
+183
+00:08:19,229 --> 00:08:24,690
+or six profitable trades and losing ones
+
+184
+00:08:21,860 --> 00:08:27,180
+so don't expect ten winning trades out
+
+185
+00:08:24,690 --> 00:08:30,000
+of ten let's continue with our analysis
+
+186
+00:08:27,180 --> 00:08:33,620
+the price didn't manage to break through
+
+187
+00:08:30,000 --> 00:08:36,990
+the cloud and resumed its downtrend and
+
+188
+00:08:33,620 --> 00:08:40,260
+here was a great short trade which
+
+189
+00:08:36,990 --> 00:08:44,850
+brought nice profits followed by another
+
+190
+00:08:40,260 --> 00:08:48,240
+winning trade here then we had another
+
+191
+00:08:44,850 --> 00:08:50,250
+short signal which was a losing trade or
+
+192
+00:08:48,240 --> 00:08:54,029
+a breakeven one depending on the risk
+
+193
+00:08:50,250 --> 00:08:58,020
+management adopted here we have our
+
+194
+00:08:54,029 --> 00:09:00,360
+first buy order in three months the
+
+195
+00:08:58,020 --> 00:09:04,230
+downward trend was too strong and the
+
+196
+00:09:00,360 --> 00:09:06,770
+price retraced back below the cloud we
+
+197
+00:09:04,230 --> 00:09:11,390
+had another short opportunity here and
+
+198
+00:09:06,770 --> 00:09:13,770
+currently we are also in a short setup
+
+199
+00:09:11,390 --> 00:09:16,640
+let's take an example on the stock
+
+200
+00:09:13,770 --> 00:09:18,690
+market here's Tesla on a 4-hour chart
+
+201
+00:09:16,640 --> 00:09:20,630
+following the evolution of the price
+
+202
+00:09:18,690 --> 00:09:25,350
+since January 2019
+
+203
+00:09:20,630 --> 00:09:28,589
+the first short here the second one here
+
+204
+00:09:25,350 --> 00:09:32,120
+which was a losing trade another short
+
+205
+00:09:28,589 --> 00:09:37,680
+opportunity here which was a great trade
+
+206
+00:09:32,120 --> 00:09:40,470
+another decent trade here here was
+
+207
+00:09:37,680 --> 00:09:43,230
+another tricky trade the market opened
+
+208
+00:09:40,470 --> 00:09:45,300
+with a large gap down and I personally
+
+209
+00:09:43,230 --> 00:09:47,610
+wouldn't be comfortable pulling the
+
+210
+00:09:45,300 --> 00:09:50,070
+trigger at that point but if you
+
+211
+00:09:47,610 --> 00:09:53,480
+followed the system and took the trade
+
+212
+00:09:50,070 --> 00:09:56,220
+after the gap this was a losing trade
+
+213
+00:09:53,480 --> 00:09:58,470
+but no worries because we had other
+
+214
+00:09:56,220 --> 00:10:02,579
+opportunities to short the market here
+
+215
+00:09:58,470 --> 00:10:05,190
+and here the last trade in particular is
+
+216
+00:10:02,579 --> 00:10:08,029
+the perfect trade with a price slowly
+
+217
+00:10:05,190 --> 00:10:12,000
+going down with small Corrections and
+
+218
+00:10:08,029 --> 00:10:14,910
+now we are now possible by mode because
+
+219
+00:10:12,000 --> 00:10:17,250
+the price is above the cloud we just
+
+220
+00:10:14,910 --> 00:10:22,440
+have to wait for a dot to be formed
+
+221
+00:10:17,250 --> 00:10:24,930
+below the price keep in mind that the
+
+222
+00:10:22,440 --> 00:10:27,840
+signals occurred in the past six months
+
+223
+00:10:24,930 --> 00:10:29,940
+because we trade the higher time frames
+
+224
+00:10:27,840 --> 00:10:32,700
+so you just have to be patient and wait
+
+225
+00:10:29,940 --> 00:10:35,460
+for the right moment and don't be
+
+226
+00:10:32,700 --> 00:10:38,940
+discouraged if you get one or two losing
+
+227
+00:10:35,460 --> 00:10:40,920
+trades in a row of course try to trade
+
+228
+00:10:38,940 --> 00:10:44,400
+when you see a clear trend and avoid
+
+229
+00:10:40,920 --> 00:10:47,040
+markets that are arranging or with low
+
+230
+00:10:44,400 --> 00:10:50,250
+volatility now if you got value from
+
+231
+00:10:47,040 --> 00:10:52,550
+this video and learn something new make
+
+232
+00:10:50,250 --> 00:10:55,080
+sure you subscribe turn on notifications
+
+233
+00:10:52,550 --> 00:10:57,200
+so you don't miss future uploads and
+
+234
+00:10:55,080 --> 00:11:00,560
+give us a like to show your support
+
+235
+00:10:57,200 --> 00:11:00,560
+until next time
+

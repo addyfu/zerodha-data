@@ -1,0 +1,1104 @@
+1
+00:00:00,080 --> 00:00:06,279
+if you are a day trader or a scalper you
+
+2
+00:00:03,040 --> 00:00:09,280
+definitely must try out these indicators
+
+3
+00:00:06,279 --> 00:00:11,639
+first one is the RSI candles this
+
+4
+00:00:09,280 --> 00:00:13,559
+indicator is a powerful tool that
+
+5
+00:00:11,639 --> 00:00:16,400
+combines the strength of the relative
+
+6
+00:00:13,559 --> 00:00:19,600
+strength index with candlestick
+
+7
+00:00:16,400 --> 00:00:22,920
+visualization first you set the up level
+
+8
+00:00:19,600 --> 00:00:25,880
+and down level values to 50 this means
+
+9
+00:00:22,920 --> 00:00:27,960
+that the indicator will use the 50 level
+
+10
+00:00:25,880 --> 00:00:31,320
+as the critical threshold for
+
+11
+00:00:27,960 --> 00:00:33,840
+determining bullish or bearish sentiment
+
+12
+00:00:31,320 --> 00:00:36,800
+by adjusting these levels you can focus
+
+13
+00:00:33,840 --> 00:00:39,320
+on the middle line of the RSI which is
+
+14
+00:00:36,800 --> 00:00:42,039
+often considered a significant point of
+
+15
+00:00:39,320 --> 00:00:45,520
+reference next we'll change the length
+
+16
+00:00:42,039 --> 00:00:47,840
+of the indicator to 21 by using a longer
+
+17
+00:00:45,520 --> 00:00:50,079
+period you smooth out the RSI
+
+18
+00:00:47,840 --> 00:00:52,680
+sensitivity to short-term price
+
+19
+00:00:50,079 --> 00:00:54,640
+fluctuations and capture a more reliable
+
+20
+00:00:52,680 --> 00:00:58,359
+picture of the overall
+
+21
+00:00:54,640 --> 00:01:00,320
+trend when the RSI value moves above 50
+
+22
+00:00:58,359 --> 00:01:03,480
+the indicator will paint the current
+
+23
+00:01:00,320 --> 00:01:06,119
+Candlestick a green color signaling a
+
+24
+00:01:03,480 --> 00:01:08,320
+bullish sentiment in the market this
+
+25
+00:01:06,119 --> 00:01:10,119
+visual queue immediately draws your
+
+26
+00:01:08,320 --> 00:01:12,040
+attention to potential buying
+
+27
+00:01:10,119 --> 00:01:15,200
+opportunities and highlights the
+
+28
+00:01:12,040 --> 00:01:18,159
+strength of the upward momentum on the
+
+29
+00:01:15,200 --> 00:01:20,520
+flip side when the RSI value dips below
+
+30
+00:01:18,159 --> 00:01:23,400
+the 50 level the indicator will
+
+31
+00:01:20,520 --> 00:01:25,560
+transform the Candlestick to a red Hue
+
+32
+00:01:23,400 --> 00:01:28,759
+alerting you to a bearish sentiment
+
+33
+00:01:25,560 --> 00:01:31,280
+taking place this color change acts as a
+
+34
+00:01:28,759 --> 00:01:33,920
+warning sign prompting you to consider
+
+35
+00:01:31,280 --> 00:01:37,159
+potential selling opportunities or to be
+
+36
+00:01:33,920 --> 00:01:39,640
+cautious about entering long positions
+
+37
+00:01:37,159 --> 00:01:43,040
+the beauty of the RSI candles indicator
+
+38
+00:01:39,640 --> 00:01:45,479
+lies in its Simplicity and visual appeal
+
+39
+00:01:43,040 --> 00:01:48,520
+rather than having to constantly monitor
+
+40
+00:01:45,479 --> 00:01:50,880
+the rsze numerical value you can quickly
+
+41
+00:01:48,520 --> 00:01:54,000
+assess the Market's Mood by observing
+
+42
+00:01:50,880 --> 00:01:56,799
+the color of the candlesticks a sea of
+
+43
+00:01:54,000 --> 00:01:59,960
+green candles suggest a strong bullish
+
+44
+00:01:56,799 --> 00:02:02,880
+Trend while a series of red candles
+
+45
+00:01:59,960 --> 00:02:05,280
+indicate a bearish environment this is
+
+46
+00:02:02,880 --> 00:02:06,680
+one of the best momentum indicators for
+
+47
+00:02:05,280 --> 00:02:09,479
+day trading and
+
+48
+00:02:06,680 --> 00:02:12,160
+scalping the unbalance volume is another
+
+49
+00:02:09,479 --> 00:02:14,360
+useful day trading tool for analyzing
+
+50
+00:02:12,160 --> 00:02:16,800
+the relationship between volume and
+
+51
+00:02:14,360 --> 00:02:20,239
+price movements by tracking the
+
+52
+00:02:16,800 --> 00:02:22,720
+increasing or decreasing volume obv aims
+
+53
+00:02:20,239 --> 00:02:25,920
+to project future price trends and
+
+54
+00:02:22,720 --> 00:02:28,800
+anticipate Major Market moves the obv
+
+55
+00:02:25,920 --> 00:02:32,000
+indicator operates on a simple principle
+
+56
+00:02:28,800 --> 00:02:34,480
+it increases or decreases based on
+
+57
+00:02:32,000 --> 00:02:37,040
+whether the closing price is higher or
+
+58
+00:02:34,480 --> 00:02:39,680
+lower compared to the previous day's
+
+59
+00:02:37,040 --> 00:02:42,400
+close if the current day's close is
+
+60
+00:02:39,680 --> 00:02:45,560
+higher the volume for that day is added
+
+61
+00:02:42,400 --> 00:02:48,200
+to the running total of obv if the
+
+62
+00:02:45,560 --> 00:02:51,440
+current day's close is lower the volume
+
+63
+00:02:48,200 --> 00:02:54,239
+is subtracted from the running total the
+
+64
+00:02:51,440 --> 00:02:57,400
+main assumption behind obv is that
+
+65
+00:02:54,239 --> 00:02:59,879
+volume movements precede price changes
+
+66
+00:02:57,400 --> 00:03:02,440
+in other words before a significant
+
+67
+00:02:59,879 --> 00:03:05,599
+price trend emerges there will often be
+
+68
+00:03:02,440 --> 00:03:08,920
+a noticeable shift in the volume and by
+
+69
+00:03:05,599 --> 00:03:11,879
+monitoring these volume changes obv can
+
+70
+00:03:08,920 --> 00:03:14,879
+provide early signals of potential price
+
+71
+00:03:11,879 --> 00:03:18,080
+moves Joseph Granville the creator of
+
+72
+00:03:14,879 --> 00:03:20,239
+obv emphasized the importance of volume
+
+73
+00:03:18,080 --> 00:03:22,760
+as the driving force behind Market
+
+74
+00:03:20,239 --> 00:03:25,480
+movements he believed that changes in
+
+75
+00:03:22,760 --> 00:03:28,400
+volume are often leading indicators of
+
+76
+00:03:25,480 --> 00:03:31,519
+impending price changes so this is how
+
+77
+00:03:28,400 --> 00:03:35,000
+you can use it for day trade in if obv
+
+78
+00:03:31,519 --> 00:03:37,159
+is consistently rising and is above zero
+
+79
+00:03:35,000 --> 00:03:39,280
+it suggests that there is a strong
+
+80
+00:03:37,159 --> 00:03:42,400
+accumulation and buying pressure is
+
+81
+00:03:39,280 --> 00:03:44,799
+building up this increasing volume trend
+
+82
+00:03:42,400 --> 00:03:48,439
+is often seen as a precursor to an
+
+83
+00:03:44,799 --> 00:03:51,319
+uptrend in price if obv is steadily
+
+84
+00:03:48,439 --> 00:03:53,439
+falling below zero it indicates that
+
+85
+00:03:51,319 --> 00:03:55,799
+there is a distribution phase with
+
+86
+00:03:53,439 --> 00:03:58,159
+selling pressure mounting this
+
+87
+00:03:55,799 --> 00:04:00,519
+decreasing volume trend is typically
+
+88
+00:03:58,159 --> 00:04:03,159
+interpreted as a signal that the price
+
+89
+00:04:00,519 --> 00:04:05,720
+is likely to enter a corresponding
+
+90
+00:04:03,159 --> 00:04:08,599
+downtrend Granville also proposed an
+
+91
+00:04:05,720 --> 00:04:11,239
+interesting concept related to obv and
+
+92
+00:04:08,599 --> 00:04:13,879
+price movements he theorized that if
+
+93
+00:04:11,239 --> 00:04:16,359
+volume begins to significantly increase
+
+94
+00:04:13,879 --> 00:04:18,919
+or decrease while the price remains
+
+95
+00:04:16,359 --> 00:04:22,199
+relatively stable it could be a sign of
+
+96
+00:04:18,919 --> 00:04:24,240
+imminent price explosion in other words
+
+97
+00:04:22,199 --> 00:04:26,759
+if there is a buildup of buying or
+
+98
+00:04:24,240 --> 00:04:29,320
+selling pressure without a corresponding
+
+99
+00:04:26,759 --> 00:04:32,479
+price move this pressure is likely to
+
+100
+00:04:29,320 --> 00:04:35,240
+eventually result in a sharp price move
+
+101
+00:04:32,479 --> 00:04:37,520
+either to the upside or downside
+
+102
+00:04:35,240 --> 00:04:41,160
+depending on the direction of the volume
+
+103
+00:04:37,520 --> 00:04:44,600
+Trend thus you can use obv to confirm
+
+104
+00:04:41,160 --> 00:04:47,240
+trends when obv is rising and the price
+
+105
+00:04:44,600 --> 00:04:49,560
+is trending upward it reinforces the
+
+106
+00:04:47,240 --> 00:04:52,840
+bullish sentiment and suggests that the
+
+107
+00:04:49,560 --> 00:04:55,160
+uptrend is likely to continue when obv
+
+108
+00:04:52,840 --> 00:04:57,479
+is falling and the price is trending
+
+109
+00:04:55,160 --> 00:05:00,280
+downward it confirms the bearish
+
+110
+00:04:57,479 --> 00:05:03,560
+sentiment and indicates that f price
+
+111
+00:05:00,280 --> 00:05:05,919
+declines may be expected one of the
+
+112
+00:05:03,560 --> 00:05:08,840
+strengths of obv is its ability to
+
+113
+00:05:05,919 --> 00:05:11,919
+identify potential imbalances between
+
+114
+00:05:08,840 --> 00:05:15,160
+price and volume an imbalance occurs
+
+115
+00:05:11,919 --> 00:05:17,720
+when the price makes a lower low but obv
+
+116
+00:05:15,160 --> 00:05:20,199
+makes a higher low suggesting that
+
+117
+00:05:17,720 --> 00:05:22,680
+despite the declining price there is
+
+118
+00:05:20,199 --> 00:05:25,479
+underlying buying pressure that could
+
+119
+00:05:22,680 --> 00:05:27,880
+lead to a price reversal another
+
+120
+00:05:25,479 --> 00:05:31,479
+imbalance happens when the price makes a
+
+121
+00:05:27,880 --> 00:05:33,360
+higher high but OB V makes a lower high
+
+122
+00:05:31,479 --> 00:05:36,000
+indicating that selling pressure is
+
+123
+00:05:33,360 --> 00:05:39,199
+building up and a price drop may be
+
+124
+00:05:36,000 --> 00:05:41,759
+imminent by closely monitoring the obv
+
+125
+00:05:39,199 --> 00:05:44,000
+indicator and its relationship to price
+
+126
+00:05:41,759 --> 00:05:45,800
+action you will understand market
+
+127
+00:05:44,000 --> 00:05:48,600
+dynamics much
+
+128
+00:05:45,800 --> 00:05:50,759
+better the whole moving average is a
+
+129
+00:05:48,600 --> 00:05:53,880
+highly responsive day trading and
+
+130
+00:05:50,759 --> 00:05:55,800
+scalping indicator this tool provides
+
+131
+00:05:53,880 --> 00:05:58,240
+the option to choose between three
+
+132
+00:05:55,800 --> 00:06:00,400
+different whole variations allowing you
+
+133
+00:05:58,240 --> 00:06:03,600
+to select the one that best best suits
+
+134
+00:06:00,400 --> 00:06:06,120
+your trading style and market conditions
+
+135
+00:06:03,600 --> 00:06:09,680
+you also have the flexibility to choose
+
+136
+00:06:06,120 --> 00:06:12,599
+between two visualization modes as bands
+
+137
+00:06:09,680 --> 00:06:14,440
+or as a single line the indicator also
+
+138
+00:06:12,599 --> 00:06:16,479
+offers the option to paint the
+
+139
+00:06:14,440 --> 00:06:19,120
+candlesticks according to the current
+
+140
+00:06:16,479 --> 00:06:21,880
+Trend determined by the hull moving
+
+141
+00:06:19,120 --> 00:06:23,720
+average I like this feature a lot
+
+142
+00:06:21,880 --> 00:06:26,280
+because it enhances the visual
+
+143
+00:06:23,720 --> 00:06:29,280
+representation of the trend making it
+
+144
+00:06:26,280 --> 00:06:32,280
+easier to identify bullish or bearish
+
+145
+00:06:29,280 --> 00:06:34,080
+Market market conditions at a glance one
+
+146
+00:06:32,280 --> 00:06:36,919
+of the powerful features of this
+
+147
+00:06:34,080 --> 00:06:40,000
+indicator is its ability to incorporate
+
+148
+00:06:36,919 --> 00:06:42,039
+multiple time frames into the analysis
+
+149
+00:06:40,000 --> 00:06:44,759
+the indicator allows you to display the
+
+150
+00:06:42,039 --> 00:06:47,319
+hull moving average from a higher time
+
+151
+00:06:44,759 --> 00:06:50,280
+frame on the current chart perfect
+
+152
+00:06:47,319 --> 00:06:52,520
+feature especially for scalping this
+
+153
+00:06:50,280 --> 00:06:55,000
+higher time frame hole moving average
+
+154
+00:06:52,520 --> 00:06:57,479
+acts as a reference point indicating the
+
+155
+00:06:55,000 --> 00:07:00,400
+overall trend Direction and potential
+
+156
+00:06:57,479 --> 00:07:02,599
+support or resistance levels
+
+157
+00:07:00,400 --> 00:07:05,440
+the whole moving average is known for
+
+158
+00:07:02,599 --> 00:07:08,560
+its responsiveness to price changes and
+
+159
+00:07:05,440 --> 00:07:11,360
+its ability to generate smooth lag-free
+
+160
+00:07:08,560 --> 00:07:13,240
+signals by reducing the lag typically
+
+161
+00:07:11,360 --> 00:07:15,879
+associated with traditional moving
+
+162
+00:07:13,240 --> 00:07:19,039
+averages the whole line can help you
+
+163
+00:07:15,879 --> 00:07:22,520
+identify Trends and potential entry or
+
+164
+00:07:19,039 --> 00:07:24,960
+exit points more quickly and accurately
+
+165
+00:07:22,520 --> 00:07:27,479
+when the price is above the whole line
+
+166
+00:07:24,960 --> 00:07:30,400
+and the indicator is sloping upward it
+
+167
+00:07:27,479 --> 00:07:33,199
+suggest a bullish trend you may consider
+
+168
+00:07:30,400 --> 00:07:35,440
+entering long positions or holding
+
+169
+00:07:33,199 --> 00:07:38,199
+existing long positions during this
+
+170
+00:07:35,440 --> 00:07:40,360
+phase when the price is below the whole
+
+171
+00:07:38,199 --> 00:07:43,360
+line and the indicator is sloping
+
+172
+00:07:40,360 --> 00:07:45,120
+downward it indicates a bearish trend
+
+173
+00:07:43,360 --> 00:07:47,800
+you may consider entering short
+
+174
+00:07:45,120 --> 00:07:50,960
+positions or exiting existing long
+
+175
+00:07:47,800 --> 00:07:53,199
+positions during this phase crossovers
+
+176
+00:07:50,960 --> 00:07:55,919
+between the price and the whole moving
+
+177
+00:07:53,199 --> 00:07:58,680
+average can signal potential Trend
+
+178
+00:07:55,919 --> 00:08:01,240
+changes when the price crosses above the
+
+179
+00:07:58,680 --> 00:08:04,639
+hole moving average it may indicate a
+
+180
+00:08:01,240 --> 00:08:07,120
+shift from a bearish to a bullish Trend
+
+181
+00:08:04,639 --> 00:08:10,759
+while a cross below it may suggest a
+
+182
+00:08:07,120 --> 00:08:12,879
+shift from a bullish to a bearish trend
+
+183
+00:08:10,759 --> 00:08:15,919
+you can use it for finding Dynamic
+
+184
+00:08:12,879 --> 00:08:18,440
+support and resistance levels prices
+
+185
+00:08:15,919 --> 00:08:21,800
+touching or bouncing off the line May
+
+186
+00:08:18,440 --> 00:08:24,280
+indicate potential entry or exit points
+
+187
+00:08:21,800 --> 00:08:27,000
+by utilizing the whole average from a
+
+188
+00:08:24,280 --> 00:08:29,199
+higher time frame you can enter based on
+
+189
+00:08:27,000 --> 00:08:31,759
+the Confluence of Trends across
+
+190
+00:08:29,199 --> 00:08:34,360
+different time frames and you can filter
+
+191
+00:08:31,759 --> 00:08:37,719
+out short-term noise and focus on the
+
+192
+00:08:34,360 --> 00:08:40,039
+more significant longer term Trend I
+
+193
+00:08:37,719 --> 00:08:42,279
+like it because this can help you avoid
+
+194
+00:08:40,039 --> 00:08:44,839
+getting caught up in minor price
+
+195
+00:08:42,279 --> 00:08:47,680
+fluctuations and maintain a clearer
+
+196
+00:08:44,839 --> 00:08:50,560
+perspective on the overall Market
+
+197
+00:08:47,680 --> 00:08:53,320
+Direction the day trading booster has
+
+198
+00:08:50,560 --> 00:08:55,880
+become one of my favorite indicators
+
+199
+00:08:53,320 --> 00:08:57,920
+this indicator provides key information
+
+200
+00:08:55,880 --> 00:09:00,240
+to help you navigate the market
+
+201
+00:08:57,920 --> 00:09:02,360
+effectively you can ad adjust various
+
+202
+00:09:00,240 --> 00:09:04,519
+settings based on the markets you want
+
+203
+00:09:02,360 --> 00:09:07,519
+to focus on and the visual
+
+204
+00:09:04,519 --> 00:09:09,839
+representation of the data the indicator
+
+205
+00:09:07,519 --> 00:09:13,560
+plots the opening price of the current
+
+206
+00:09:09,839 --> 00:09:15,720
+trading day or session additionally it
+
+207
+00:09:13,560 --> 00:09:17,839
+displays the opening range which
+
+208
+00:09:15,720 --> 00:09:20,600
+represents the price range during the
+
+209
+00:09:17,839 --> 00:09:22,720
+initial period of the trading day you
+
+210
+00:09:20,600 --> 00:09:25,040
+can choose to view the opening range
+
+211
+00:09:22,720 --> 00:09:27,160
+based on different time frames this
+
+212
+00:09:25,040 --> 00:09:30,160
+information helps you a lot if you like
+
+213
+00:09:27,160 --> 00:09:32,240
+to trade breakouts the indic Ator also
+
+214
+00:09:30,160 --> 00:09:34,480
+provides reference levels which are
+
+215
+00:09:32,240 --> 00:09:37,680
+calculated based on either the average
+
+216
+00:09:34,480 --> 00:09:40,040
+true range or the previous day range
+
+217
+00:09:37,680 --> 00:09:42,800
+these reference levels act as potential
+
+218
+00:09:40,040 --> 00:09:45,560
+support and resistance areas and can
+
+219
+00:09:42,800 --> 00:09:48,440
+help you identify key price levels to
+
+220
+00:09:45,560 --> 00:09:50,680
+watch during the trading day in addition
+
+221
+00:09:48,440 --> 00:09:53,839
+to the Daily open the day trading
+
+222
+00:09:50,680 --> 00:09:56,839
+booster also displays the opening prices
+
+223
+00:09:53,839 --> 00:09:58,760
+for the current week and month this
+
+224
+00:09:56,839 --> 00:10:00,880
+information allows you to assess the
+
+225
+00:09:58,760 --> 00:10:03,720
+broader Market Market context and
+
+226
+00:10:00,880 --> 00:10:06,640
+identify potential long-term support and
+
+227
+00:10:03,720 --> 00:10:09,680
+resistance levels the indicator also
+
+228
+00:10:06,640 --> 00:10:12,720
+includes the vwap another popular tool
+
+229
+00:10:09,680 --> 00:10:15,279
+among day Traders if you don't know the
+
+230
+00:10:12,720 --> 00:10:17,640
+vwap is the average price weighted by
+
+231
+00:10:15,279 --> 00:10:20,160
+volume helping you to determine the
+
+232
+00:10:17,640 --> 00:10:22,800
+overall Market sentiment and potential
+
+233
+00:10:20,160 --> 00:10:25,920
+price levels you even have several
+
+234
+00:10:22,800 --> 00:10:28,480
+anchoring options for the vop allowing
+
+235
+00:10:25,920 --> 00:10:30,200
+you to customize its calculation based
+
+236
+00:10:28,480 --> 00:10:32,480
+on your preferences
+
+237
+00:10:30,200 --> 00:10:35,160
+the day trading booster also features
+
+238
+00:10:32,480 --> 00:10:37,959
+swing pivots which are widely used by
+
+239
+00:10:35,160 --> 00:10:40,560
+day traders to identify potential key
+
+240
+00:10:37,959 --> 00:10:43,000
+areas the pivot detection will help you
+
+241
+00:10:40,560 --> 00:10:45,639
+spot key price levels where the market
+
+242
+00:10:43,000 --> 00:10:48,279
+may experience a change in direction or
+
+243
+00:10:45,639 --> 00:10:50,880
+a breakout these swing pivots are
+
+244
+00:10:48,279 --> 00:10:53,639
+subject to repaint during the first 20
+
+245
+00:10:50,880 --> 00:10:55,120
+candles so please read the explanations
+
+246
+00:10:53,639 --> 00:10:58,000
+once you apply the
+
+247
+00:10:55,120 --> 00:11:00,079
+indicator besides these swing pivots the
+
+248
+00:10:58,000 --> 00:11:02,680
+indicator also displays the price
+
+249
+00:11:00,079 --> 00:11:04,800
+changes and the traded volume between
+
+250
+00:11:02,680 --> 00:11:06,720
+two pivots this is actually
+
+251
+00:11:04,800 --> 00:11:09,399
+game-changing and very important
+
+252
+00:11:06,720 --> 00:11:11,920
+information to have the day trading
+
+253
+00:11:09,399 --> 00:11:14,440
+booster also includes a moving average
+
+254
+00:11:11,920 --> 00:11:17,279
+component allowing you to choose among
+
+255
+00:11:14,440 --> 00:11:20,240
+various types of moving averages to help
+
+256
+00:11:17,279 --> 00:11:22,279
+you identify the overall trend Direction
+
+257
+00:11:20,240 --> 00:11:25,279
+and potential Dynamic support and
+
+258
+00:11:22,279 --> 00:11:27,839
+resistance levels the indicator presents
+
+259
+00:11:25,279 --> 00:11:31,200
+a tabular view of the major Forex
+
+260
+00:11:27,839 --> 00:11:33,519
+markets opening and closing hours this
+
+261
+00:11:31,200 --> 00:11:36,279
+feature allows you to quickly assess
+
+262
+00:11:33,519 --> 00:11:39,240
+which sessions are active at any given
+
+263
+00:11:36,279 --> 00:11:42,079
+time and plan your trading activities
+
+264
+00:11:39,240 --> 00:11:44,600
+accordingly Additionally the indicator
+
+265
+00:11:42,079 --> 00:11:46,920
+includes a countdown timer that helps
+
+266
+00:11:44,600 --> 00:11:50,399
+you keep track of the remaining time
+
+267
+00:11:46,920 --> 00:11:52,959
+until the next session opens or closes
+
+268
+00:11:50,399 --> 00:11:56,800
+if you're serious about day trading this
+
+269
+00:11:52,959 --> 00:11:59,839
+tool is a must have on your charts so go
+
+270
+00:11:56,800 --> 00:12:02,480
+ahead and adjust its various settings
+
+271
+00:11:59,839 --> 00:12:04,760
+select and deselect the features you
+
+272
+00:12:02,480 --> 00:12:07,360
+don't need based on the markets you
+
+273
+00:12:04,760 --> 00:12:10,200
+trade and if you're still looking for a
+
+274
+00:12:07,360 --> 00:12:11,910
+new strategy to test go ahead and watch
+
+275
+00:12:10,200 --> 00:12:15,880
+one of these videos
+
+276
+00:12:11,910 --> 00:12:15,880
+[Music]
+

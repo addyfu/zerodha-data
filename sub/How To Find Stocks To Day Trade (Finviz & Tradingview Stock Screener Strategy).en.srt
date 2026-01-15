@@ -1,0 +1,766 @@
+1
+00:00:00,089 --> 00:00:05,990
+In today’s video I’ll show you my secret
+process to find the BEST stocks to day trade,
+
+2
+00:00:05,990 --> 00:00:11,420
+and the system I have in place to filter out
+the bad stocks and focus on the ones with
+
+3
+00:00:11,420 --> 00:00:13,750
+the highest profit potential.
+
+4
+00:00:13,750 --> 00:00:17,590
+First, you want to look for stocks that are
+liquid.
+
+5
+00:00:17,590 --> 00:00:22,109
+This means that there are a lot of buyers
+and sellers in the market, which makes it
+
+6
+00:00:22,109 --> 00:00:27,220
+easier to enter and exit trades without affecting
+the price too much.
+
+7
+00:00:27,220 --> 00:00:30,640
+Also, you want to focus on stocks that are
+volatile.
+
+8
+00:00:30,640 --> 00:00:36,309
+A stock that moves a lot in price throughout
+the day gives you more chances to buy low
+
+9
+00:00:36,309 --> 00:00:37,880
+and sell high.
+
+10
+00:00:37,880 --> 00:00:42,210
+Another important factor to consider is the
+overall market trend.
+
+11
+00:00:42,210 --> 00:00:47,219
+You want to trade stocks that are moving in
+the same direction as the overall market.
+
+12
+00:00:47,219 --> 00:00:52,350
+So when the market is bullish, you want to
+trade stocks that are showing strength.
+
+13
+00:00:52,350 --> 00:00:53,750
+Now let’s get specific.
+
+14
+00:00:53,750 --> 00:00:58,239
+Here are the exact filters that I always use
+in Finviz screener.
+
+15
+00:00:58,239 --> 00:00:59,370
+1.
+
+16
+00:00:59,370 --> 00:01:04,110
+Average Volume
+Average Volume is perhaps the most important
+
+17
+00:01:04,110 --> 00:01:07,430
+filter for finding liquid stocks.
+
+18
+00:01:07,430 --> 00:01:12,360
+Average volume refers to the number of shares
+traded on average each day.
+
+19
+00:01:12,360 --> 00:01:16,350
+The higher the volume, the more liquid the
+stock is likely to be.
+
+20
+00:01:16,350 --> 00:01:22,790
+I usually set this filter to "Over 1 million
+shares" to ensure that there are enough buyers
+
+21
+00:01:22,790 --> 00:01:24,850
+and sellers in the market.
+
+22
+00:01:24,850 --> 00:01:31,400
+The more shares that are being traded each
+day, the easier it is to enter and exit positions
+
+23
+00:01:31,400 --> 00:01:33,751
+without causing a major impact on the price.
+
+24
+00:01:33,751 --> 00:01:34,751
+2.
+
+25
+00:01:34,751 --> 00:01:40,810
+Price
+While not directly related to liquidity, the
+
+26
+00:01:40,810 --> 00:01:45,020
+price of a stock can also impact how easily
+you can trade it.
+
+27
+00:01:45,020 --> 00:01:51,030
+I generally recommend setting the price filter
+to "Over $30 dollars", to avoid stocks that
+
+28
+00:01:51,030 --> 00:01:54,719
+are too cheap and may not have enough volume.
+
+29
+00:01:54,719 --> 00:01:59,960
+Setting the price filter to "Over 30 dollars"
+can be a good way to ensure that you're trading
+
+30
+00:01:59,960 --> 00:02:02,969
+stocks with adequate liquidity.
+
+31
+00:02:02,969 --> 00:02:08,090
+These stocks tend to attract more institutional
+investors and large traders.
+
+32
+00:02:08,090 --> 00:02:14,140
+I try to avoid lower-priced stocks because
+they often have smaller market capitalizations
+
+33
+00:02:14,140 --> 00:02:19,910
+and fewer shares outstanding, which can make
+them more susceptible to big price swings
+
+34
+00:02:19,910 --> 00:02:21,290
+and manipulation.
+
+35
+00:02:21,290 --> 00:02:22,400
+3.
+
+36
+00:02:22,400 --> 00:02:24,629
+Relative volume
+
+37
+00:02:24,629 --> 00:02:29,110
+Another important filter you must use is the
+relative volume.
+
+38
+00:02:29,110 --> 00:02:34,810
+Relative Volume compares the current trading
+volume of a stock to its average volume over
+
+39
+00:02:34,810 --> 00:02:39,200
+a specific period, typically the past 30 trading
+days.
+
+40
+00:02:39,200 --> 00:02:44,710
+When a stock is trading at a higher volume
+than usual, it tells us that there's increased
+
+41
+00:02:44,710 --> 00:02:48,040
+interest and activity around that stock.
+
+42
+00:02:48,040 --> 00:02:53,319
+And when there's increased interest in a stock,
+there's often a greater potential for significant
+
+43
+00:02:53,319 --> 00:02:54,730
+price action.
+
+44
+00:02:54,730 --> 00:03:00,310
+I recommend setting the Relative Volume filter
+to Over 1, when looking for stocks to day
+
+45
+00:03:00,310 --> 00:03:01,660
+trade or scalp.
+
+46
+00:03:01,660 --> 00:03:07,390
+A Relative Volume of 1 means that the stock
+is trading at its average volume.
+
+47
+00:03:07,390 --> 00:03:13,100
+Also, if you want to be more aggressive, you
+could set the Relative Volume filter to Over
+
+48
+00:03:13,100 --> 00:03:14,100
+2.
+
+49
+00:03:14,100 --> 00:03:20,220
+A Relative Volume above 2 indicates that the
+stock is trading at more than twice its normal
+
+50
+00:03:20,220 --> 00:03:26,110
+volume, which is a strong signal of increased
+market interest and potential for significant
+
+51
+00:03:26,110 --> 00:03:27,989
+price action.
+
+52
+00:03:27,989 --> 00:03:29,409
+4.
+
+53
+00:03:29,409 --> 00:03:33,939
+Beta
+As short-term traders, we're looking for stocks
+
+54
+00:03:33,939 --> 00:03:37,450
+that can make big moves in a short period
+of time.
+
+55
+00:03:37,450 --> 00:03:42,340
+We want to get in, ride the momentum, and
+get out with a quick profit.
+
+56
+00:03:42,340 --> 00:03:47,460
+And stocks with a high beta are more likely
+to give us those opportunities.
+
+57
+00:03:47,460 --> 00:03:52,930
+Beta is a measure of a stock's volatility
+in relation to the overall market, as represented
+
+58
+00:03:52,930 --> 00:03:55,560
+by the S&P 500 index.
+
+59
+00:03:55,560 --> 00:04:00,690
+Essentially, it quantifies how sensitive a
+stock is to broad market swings.
+
+60
+00:04:00,690 --> 00:04:03,890
+Now, the market beta baseline is 1.
+
+61
+00:04:03,890 --> 00:04:10,510
+So stocks with a beta above 1 tend to be more
+volatile than the general market, while stocks
+
+62
+00:04:10,510 --> 00:04:14,780
+with a beta below 1 tend to be less volatile.
+
+63
+00:04:14,780 --> 00:04:20,310
+By screening specifically for stocks with
+a beta higher than 1, we focus on names that
+
+64
+00:04:20,310 --> 00:04:25,970
+historically demonstrate above average volatility
+compared to the market.
+
+65
+00:04:25,970 --> 00:04:32,789
+A beta of 1.5, for example, means that the
+stock is 50% more volatile than the market.
+
+66
+00:04:32,789 --> 00:04:39,890
+So, if the market moves up 1%, the stock should
+theoretically move up 1.5%.
+
+67
+00:04:39,890 --> 00:04:44,979
+By setting the beta filter to Over 1, you
+can quickly narrow down your list of potential
+
+68
+00:04:44,979 --> 00:04:48,560
+trades to only the most volatile names.
+
+69
+00:04:48,560 --> 00:04:55,180
+Depending on market conditions and your strategy,
+you might set the filter to Over 1.5 or even
+
+70
+00:04:55,180 --> 00:04:56,699
+Over 2.
+
+71
+00:04:56,699 --> 00:04:57,699
+5.
+
+72
+00:04:57,699 --> 00:05:02,690
+Market cap
+I also set the market cap filter to Over 1
+
+73
+00:05:02,690 --> 00:05:04,199
+billion dollars.
+
+74
+00:05:04,199 --> 00:05:10,840
+This way, we can quickly narrow down our list
+of potential trades to only the most established
+
+75
+00:05:10,840 --> 00:05:13,180
+and actively traded names.
+
+76
+00:05:13,180 --> 00:05:18,259
+When we're talking about stocks with a market
+cap over 1 billion dollars, we're talking
+
+77
+00:05:18,259 --> 00:05:20,030
+about the big leagues.
+
+78
+00:05:20,030 --> 00:05:25,220
+These are the companies that have the attention
+of the major players on Wall Street.
+
+79
+00:05:25,220 --> 00:05:31,340
+Stocks with a market cap over 1 billion dollars
+also tend to be more stable and less prone
+
+80
+00:05:31,340 --> 00:05:32,940
+to manipulation.
+
+81
+00:05:32,940 --> 00:05:38,480
+These are established companies with solid
+fundamentals and a track record of success.
+
+82
+00:05:38,480 --> 00:05:39,480
+6.
+
+83
+00:05:39,480 --> 00:05:44,530
+Average True Range
+The Average True Range is one of my favorite
+
+84
+00:05:44,530 --> 00:05:49,310
+indicators for measuring volatility and potential
+profit opportunities.
+
+85
+00:05:49,310 --> 00:05:55,819
+In simple terms, ATR measures the average
+range of a stock's price movement over a given
+
+86
+00:05:55,819 --> 00:05:59,090
+period of time, typically 14 days.
+
+87
+00:05:59,090 --> 00:06:04,660
+When a stock has a high ATR, it means that
+it's experiencing significant price swings
+
+88
+00:06:04,660 --> 00:06:06,389
+on a regular basis.
+
+89
+00:06:06,389 --> 00:06:12,280
+The price is moving up and down more dramatically
+than a stock with a lower ATR.
+
+90
+00:06:12,280 --> 00:06:16,600
+I like to set the w filter on Finviz to "Over
+1".
+
+91
+00:06:16,600 --> 00:06:21,910
+This helps me quickly identify stocks that
+are experiencing a high level of volatility,
+
+92
+00:06:21,910 --> 00:06:25,030
+and potential for significant price movement.
+
+93
+00:06:25,030 --> 00:06:30,470
+And that's exactly what we want to see as
+day traders - stocks that are making big moves
+
+94
+00:06:30,470 --> 00:06:32,720
+and creating opportunities.
+
+95
+00:06:32,720 --> 00:06:34,300
+7.
+
+96
+00:06:34,300 --> 00:06:38,420
+Float
+The size of a stock's float can also have
+
+97
+00:06:38,420 --> 00:06:42,220
+a big impact on its volatility and liquidity.
+
+98
+00:06:42,220 --> 00:06:46,819
+When we talk about a stock's float, we're
+talking about the number of shares that are
+
+99
+00:06:46,819 --> 00:06:50,840
+actually available for trading on the open
+market.
+
+100
+00:06:50,840 --> 00:06:56,100
+That's why I usually recommend setting the
+float filter to Over 10 million when scanning
+
+101
+00:06:56,100 --> 00:06:58,070
+for potential trades.
+
+102
+00:06:58,070 --> 00:07:02,849
+This helps to ensure that there are enough
+shares available for trading, and that the
+
+103
+00:07:02,849 --> 00:07:07,840
+stock is less likely to experience sudden,
+erratic price swings.
+
+104
+00:07:07,840 --> 00:07:09,040
+8.
+
+105
+00:07:09,040 --> 00:07:11,440
+50 SMA
+
+106
+00:07:11,440 --> 00:07:17,060
+The 50-Day Simple moving average is my go-to
+indicator to get a more complete picture of
+
+107
+00:07:17,060 --> 00:07:18,379
+a stock's trend.
+
+108
+00:07:18,379 --> 00:07:23,389
+You can also use the 20-Day moving average,
+as an additional filter.
+
+109
+00:07:23,389 --> 00:07:29,980
+The 20-Day SMA is a shorter-term indicator
+that's more sensitive to recent price action.
+
+110
+00:07:29,980 --> 00:07:35,110
+It's great for identifying potential trend
+changes in the near term.
+
+111
+00:07:35,110 --> 00:07:40,599
+The 50-Day SMA is a longer-term indicator
+that's less sensitive to short-term price
+
+112
+00:07:40,599 --> 00:07:41,970
+fluctuations.
+
+113
+00:07:41,970 --> 00:07:47,780
+It takes more time to change course, but when
+it does, it can be a powerful signal of a
+
+114
+00:07:47,780 --> 00:07:50,250
+more significant trend change.
+
+115
+00:07:50,250 --> 00:07:56,400
+If a stock is trading above both the 20-Day
+and 50-Day SMA, that's a strong sign that
+
+116
+00:07:56,400 --> 00:07:58,949
+it's in a well-established uptrend.
+
+117
+00:07:58,949 --> 00:08:04,169
+The shorter-term and longer-term trends are
+aligned, and the stock has a lot of bullish
+
+118
+00:08:04,169 --> 00:08:07,450
+momentum behind it.
+
+119
+00:08:07,450 --> 00:08:09,690
+9.
+
+120
+00:08:09,690 --> 00:08:10,690
+Gap up
+
+121
+00:08:10,690 --> 00:08:15,430
+An up gap occurs when a stock opens significantly
+higher than its previous day's close.
+
+122
+00:08:15,430 --> 00:08:20,940
+Gaps are often a sign of strong momentum and
+sentiment in a particular direction.
+
+123
+00:08:20,940 --> 00:08:25,870
+When a stock gaps up, it means that there
+was a lot of buying pressure and demand for
+
+124
+00:08:25,870 --> 00:08:30,840
+that stock in the pre-market or after-hours
+trading sessions.
+
+125
+00:08:30,840 --> 00:08:36,550
+This is why I love to use the Gap Up Over
+1% filter, when I'm scanning for potential
+
+126
+00:08:36,550 --> 00:08:38,260
+momentum trades.
+
+127
+00:08:38,260 --> 00:08:44,709
+By looking for stocks that have gapped up
+by more than 1%, I can quickly identify names
+
+128
+00:08:44,709 --> 00:08:50,610
+that are experiencing significant overnight
+moves and that may be poised for continued
+
+129
+00:08:50,610 --> 00:08:52,899
+momentum in the same direction.
+
+130
+00:08:52,899 --> 00:08:59,769
+For example, if a stock gaps up on high volume
+and with a wide range, that's often a sign
+
+131
+00:08:59,769 --> 00:09:05,130
+of strong bullish momentum that could continue
+throughout the trading day.
+
+132
+00:09:05,130 --> 00:09:10,399
+Combined with the previous filter, the 50-day
+moving average, if the broader market is in
+
+133
+00:09:10,399 --> 00:09:16,459
+an uptrend and experiencing positive sentiment,
+that may provide a tailwind for stocks that
+
+134
+00:09:16,459 --> 00:09:20,440
+gap up, and increase the likelihood of continued
+momentum.
+
+135
+00:09:20,440 --> 00:09:21,620
+10.
+
+136
+00:09:21,620 --> 00:09:23,980
+52-Week High/Low
+
+137
+00:09:23,980 --> 00:09:29,579
+The 52-Week High-Low filter is a powerful
+tool for identifying stocks that are trading
+
+138
+00:09:29,579 --> 00:09:35,790
+near their highest levels in the past year,
+and that may be poised for a breakout or continuation
+
+139
+00:09:35,790 --> 00:09:36,930
+move.
+
+140
+00:09:36,930 --> 00:09:42,690
+These are the highest and lowest prices that
+a stock has traded at over the past year,
+
+141
+00:09:42,690 --> 00:09:44,490
+or 52 weeks.
+
+142
+00:09:44,490 --> 00:09:50,010
+They represent the extremes of a stock's price
+range during that time period, and can provide
+
+143
+00:09:50,010 --> 00:09:53,640
+important context for its current price action.
+
+144
+00:09:53,640 --> 00:09:59,700
+I like to use the “0% - 10% below high”
+filter, and we're looking for stocks that
+
+145
+00:09:59,700 --> 00:10:04,560
+are trading within 10% of their 52-week high
+price.
+
+146
+00:10:04,560 --> 00:10:10,160
+In other words, we want to find stocks that
+are close to breaking out to new highs, but
+
+147
+00:10:10,160 --> 00:10:12,589
+haven't quite gotten there yet.
+
+148
+00:10:12,589 --> 00:10:18,760
+When a stock is trading near its 52-week high,
+it means that there is a lot of bullish sentiment
+
+149
+00:10:18,760 --> 00:10:20,900
+and momentum behind it.
+
+150
+00:10:20,900 --> 00:10:26,610
+And by focusing on stocks that are very close
+to making new highs, you will easily identify
+
+151
+00:10:26,610 --> 00:10:31,150
+names that may be on the verge of a big move
+higher.
+
+152
+00:10:31,150 --> 00:10:37,470
+By combining these 10 filters, you're essentially
+creating a powerful system that identifies
+
+153
+00:10:37,470 --> 00:10:40,760
+the most promising stocks for day trading.
+
+154
+00:10:40,760 --> 00:10:46,490
+Remember - the market is always changing,
+and you’ll need to be flexible in your approach.
+
+155
+00:10:46,490 --> 00:10:51,220
+There may be times when applying all these
+filters will result in a very small list of
+
+156
+00:10:51,220 --> 00:10:53,480
+stocks, or even no stocks at all.
+
+157
+00:10:53,480 --> 00:11:00,340
+In these situations, it's okay to adjust slightly
+the strategy and loosen some of the filters,
+
+158
+00:11:00,340 --> 00:11:03,089
+to widen your pool of potential trades.
+
+159
+00:11:03,089 --> 00:11:09,120
+For example, if you're left with only several
+stocks to choose from, skip the “gap up”
+
+160
+00:11:09,120 --> 00:11:12,930
+filter or adjust the “52-Week High Low”
+one.
+
+161
+00:11:12,930 --> 00:11:18,190
+This will expand your list to include more
+potential stocks to day trade.
+
+162
+00:11:18,190 --> 00:11:23,260
+By using this comprehensive set of filters,
+you're putting the odds in your favor and
+
+163
+00:11:23,260 --> 00:11:29,880
+giving yourself the best possible chance to
+find the stocks with the highest profit potential.
+
+164
+00:11:29,880 --> 00:11:32,350
+And now it’s time to trade them.
+
+165
+00:11:32,350 --> 00:11:36,069
+These videos will show you my favorite day-trading
+strategies.
+

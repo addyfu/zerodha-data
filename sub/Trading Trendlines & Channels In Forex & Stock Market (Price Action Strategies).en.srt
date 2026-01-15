@@ -1,0 +1,693 @@
+1
+00:00:00,979 --> 00:00:05,290
+It is easier to see the trend on a chart after
+it has occurred.
+
+2
+00:00:05,290 --> 00:00:10,110
+Trying to identify the trend as it is developing
+is much more difficult.
+
+3
+00:00:10,110 --> 00:00:14,749
+This monthly chart shows a sustained uptrend
+trend, but there is a slowing of that trend
+
+4
+00:00:14,749 --> 00:00:16,440
+toward the end.
+
+5
+00:00:16,440 --> 00:00:18,300
+Will the upward trend continue?
+
+6
+00:00:18,300 --> 00:00:20,580
+Will prices begin a downward trend?
+
+7
+00:00:20,580 --> 00:00:22,300
+Will they move sideways?
+
+8
+00:00:22,300 --> 00:00:27,490
+The purpose of technical analysis is to apply
+tools that provide the best chance of identifying
+
+9
+00:00:27,490 --> 00:00:29,230
+the future direction of prices.
+
+10
+00:00:29,230 --> 00:00:33,500
+If wrong, these tools also control the size
+of your loss.
+
+11
+00:00:33,500 --> 00:00:39,000
+So, it’s imperative you don’t over complicate
+your analysis with useless data or indicators
+
+12
+00:00:39,000 --> 00:00:41,970
+that don’t add value to your charts.
+
+13
+00:00:41,970 --> 00:00:47,149
+Today, we’ll talk about trends, trend lines
+and price action and I’ll show the easiest
+
+14
+00:00:47,149 --> 00:00:52,800
+way to analyze a chart to have a better understanding
+of what is really happening on it.
+
+15
+00:00:52,800 --> 00:00:57,640
+Before we continue, if you’re new here,
+make sure you subscribe, hit the notifications
+
+16
+00:00:57,640 --> 00:01:02,129
+bell and leave a like to show your support.
+
+17
+00:01:02,129 --> 00:01:07,380
+First of all, the time interval is a key element
+when identifying a trend.
+
+18
+00:01:07,380 --> 00:01:12,070
+Forget about 15 minutes or 5 minutes charts
+and go on the daily chart.
+
+19
+00:01:12,070 --> 00:01:18,590
+Weekly and monthly charts show the major trends
+even more clearly than daily charts.
+
+20
+00:01:18,590 --> 00:01:23,860
+Longer-term charts remove a large part the
+noise that interferes with seeing the bigger
+
+21
+00:01:23,860 --> 00:01:25,140
+picture.
+
+22
+00:01:25,140 --> 00:01:31,220
+The most successful traders and investors
+start by evaluating a weekly or monthly chart,
+
+23
+00:01:31,220 --> 00:01:36,600
+and then apply the lines and values developed
+on those charts to a daily chart.
+
+24
+00:01:36,600 --> 00:01:42,700
+The weekly chart provides direction, whiles
+the daily chart, or even the h4 or hourly
+
+25
+00:01:42,700 --> 00:01:47,750
+charts, are used for timing entries and exits.
+
+26
+00:01:47,750 --> 00:01:52,530
+In order to successfully determine a trend,
+you must master the trend lines.
+
+27
+00:01:52,530 --> 00:01:57,970
+Trend line analysis is often underestimated
+by traders because it is perceived as being
+
+28
+00:01:57,970 --> 00:01:58,970
+subjective.
+
+29
+00:01:58,970 --> 00:02:04,410
+A trend line determines the current direction
+of price movement, and often identifies the
+
+30
+00:02:04,410 --> 00:02:08,090
+specific point at which that direction will
+change.
+
+31
+00:02:08,090 --> 00:02:13,540
+I would say that the trend line is the most
+popular and recognized tool of chart analysis.
+
+32
+00:02:13,540 --> 00:02:16,629
+Now, how to draw trend lines.
+
+33
+00:02:16,629 --> 00:02:17,629
+1.
+
+34
+00:02:17,629 --> 00:02:21,000
+In an uptrend, you look to connect the lows
+of the price.
+
+35
+00:02:21,000 --> 00:02:24,790
+In a downtrend, you connect the highs of the
+price.
+
+36
+00:02:24,790 --> 00:02:30,299
+A valid trend line connects two or more points
+that define the trend.
+
+37
+00:02:30,299 --> 00:02:31,299
+2.
+
+38
+00:02:31,299 --> 00:02:36,040
+As I said before, you start drawing trend
+lines on higher time frames and the carrying
+
+39
+00:02:36,040 --> 00:02:38,670
+them forward to shorter time frames.
+
+40
+00:02:38,670 --> 00:02:39,670
+3.
+
+41
+00:02:39,670 --> 00:02:45,439
+In this way, you identify the areas of support
+and resistance, the most significant levels
+
+42
+00:02:45,439 --> 00:02:48,959
+being on the higher time frames.
+
+43
+00:02:48,959 --> 00:02:53,280
+An uptrend line has a positive slope and acts
+as support.
+
+44
+00:02:53,280 --> 00:02:58,219
+As long as the market price remains above
+this trend line, the uptrend is considered
+
+45
+00:02:58,219 --> 00:02:59,219
+intact.
+
+46
+00:02:59,219 --> 00:03:05,260
+A close of the price below the uptrend line
+suggests that a change in trend could be on
+
+47
+00:03:05,260 --> 00:03:06,260
+the cards.
+
+48
+00:03:06,260 --> 00:03:11,930
+A downtrend line has a negative slope and
+acts as resistance.
+
+49
+00:03:11,930 --> 00:03:17,030
+As long as the market price remains below
+this trend line, the downtrend is considered
+
+50
+00:03:17,030 --> 00:03:18,069
+intact.
+
+51
+00:03:18,069 --> 00:03:25,299
+A close of the price above the uptrend line
+suggests that a change in trend might happen.
+
+52
+00:03:25,299 --> 00:03:27,909
+So here is a classic downwards trend line.
+
+53
+00:03:27,909 --> 00:03:33,189
+It connects the highest price with other price
+swings.
+
+54
+00:03:33,189 --> 00:03:39,900
+When prices move through the trend line heading
+higher, the downtrend has been penetrated.
+
+55
+00:03:39,900 --> 00:03:45,940
+This may end the downtrend or cause a new
+downtrend line to be drawn.
+
+56
+00:03:45,940 --> 00:03:50,319
+In this case it was the end of the downtrend.
+
+57
+00:03:50,319 --> 00:03:53,159
+The trend lines are basically support and
+resistance lines.
+
+58
+00:03:53,159 --> 00:03:58,950
+An upwards trend line, drawn across the lows,
+is a bullish support line because it defines
+
+59
+00:03:58,950 --> 00:04:03,029
+the lowest price allowed in order to maintain
+the upwards trend.
+
+60
+00:04:03,029 --> 00:04:08,939
+The downward trend line, drawn across the
+highs, is a bearish resistance line.
+
+61
+00:04:08,939 --> 00:04:14,400
+Proper use of these basic lines is essential
+for identifying the overall direction of the
+
+62
+00:04:14,400 --> 00:04:21,560
+market and understanding the patterns formed
+as prices move from one level to another.
+
+63
+00:04:21,560 --> 00:04:24,530
+But how do you know the relevance of a trend
+line.
+
+64
+00:04:24,530 --> 00:04:32,440
+I personally have 3 concepts I look at a trend
+line: its length, its number of retests and
+
+65
+00:04:32,440 --> 00:04:34,680
+its ascending or descending slope.
+
+66
+00:04:34,680 --> 00:04:39,800
+So, the length of the trend line is an important
+factor.
+
+67
+00:04:39,800 --> 00:04:47,060
+A 3-4 weeks trend is of minor importance if
+the trend lasts for 1-2 years, for example.
+
+68
+00:04:47,060 --> 00:04:53,470
+A break below or above a trend line with an
+important length represents an important signal.
+
+69
+00:04:53,470 --> 00:04:59,540
+Also, a trend line is more important if it
+has been retested many times.
+
+70
+00:04:59,540 --> 00:05:05,420
+That’s why a trend line acts like a dynamic
+area of support or resistance.
+
+71
+00:05:05,420 --> 00:05:11,620
+Each line retest contributes to the importance
+of support or resistance.
+
+72
+00:05:11,620 --> 00:05:17,540
+Extending the trend line after a breakout
+is very important because its role of dynamic
+
+73
+00:05:17,540 --> 00:05:21,190
+support / resistance will reverse.
+
+74
+00:05:21,190 --> 00:05:27,880
+This means that if an uptrend line retested
+several times in the past is broken to the
+
+75
+00:05:27,880 --> 00:05:31,650
+downside will become a resistance area.
+
+76
+00:05:31,650 --> 00:05:39,490
+Also, if a downtrend line retested several
+times in the past is broken to the upside
+
+77
+00:05:39,490 --> 00:05:43,080
+will become a support area.
+
+78
+00:05:43,080 --> 00:05:49,220
+In what concerns the slope, a very steep trend
+is difficult to be maintained and is therefore
+
+79
+00:05:49,220 --> 00:05:53,410
+likely to be easily broken, even by short
+lateral movements.
+
+80
+00:05:53,410 --> 00:05:58,860
+All the trend lines are eventually broken,
+but the steepest trend lines are the soonest
+
+81
+00:05:58,860 --> 00:05:59,860
+broken.
+
+82
+00:05:59,860 --> 00:06:06,550
+Usually, from my experience a breakout of
+a trend with a steep slope is more likely
+
+83
+00:06:06,550 --> 00:06:09,770
+followed by a trend continuation than a reversal.
+
+84
+00:06:09,770 --> 00:06:16,530
+A steep trend line is the result of an accelerated
+increase or decrease in the short term.
+
+85
+00:06:16,530 --> 00:06:22,140
+In this case, the trend line will have a higher
+angle and is less likely to provide solid
+
+86
+00:06:22,140 --> 00:06:24,520
+support or resistance.
+
+87
+00:06:24,520 --> 00:06:31,210
+Now, once the support and resistance lines
+have been drawn, a price penetration of those
+
+88
+00:06:31,210 --> 00:06:34,460
+lines creates the basic trend signal.
+
+89
+00:06:34,460 --> 00:06:41,751
+I prefer to add the additional rule that once
+the price has penetrated a trend line, it
+
+90
+00:06:41,751 --> 00:06:48,530
+must remain penetrated for some time period
+in order to confirm the new trend because
+
+91
+00:06:48,530 --> 00:06:53,330
+most false penetrations correct quickly.
+
+92
+00:06:53,330 --> 00:06:59,150
+In actual trading, the price crossing the
+trend line is not 100% clean.
+
+93
+00:06:59,150 --> 00:07:05,430
+Most often, prices that have been moving higher
+will cross below the trend line, then re-cross
+
+94
+00:07:05,430 --> 00:07:08,810
+moving higher, then move lower again.
+
+95
+00:07:08,810 --> 00:07:14,620
+The trend line is an important turning point,
+and there may be indecision that is reflected
+
+96
+00:07:14,620 --> 00:07:19,780
+in a sideways price movement before prices
+reestablish a trend.
+
+97
+00:07:19,780 --> 00:07:24,460
+To deal with this situation, you could do
+one of the following:
+
+98
+00:07:24,460 --> 00:07:30,530
+• wait a set time period to confirm that
+prices remain on the new side of the trend
+
+99
+00:07:30,530 --> 00:07:32,500
+line.
+
+100
+00:07:32,500 --> 00:07:41,100
+• wait for a reversal after the penetration,
+then enter a trade in the new direction.
+
+101
+00:07:41,100 --> 00:07:47,740
+• create a small safety zone (called a band
+or channel) around the trend line and enter
+
+102
+00:07:47,740 --> 00:07:54,430
+the new trade if prices move through the trend
+line and through the safety zone.
+
+103
+00:07:54,430 --> 00:07:58,720
+Each of these techniques requires a delay
+before entering.
+
+104
+00:07:58,720 --> 00:08:05,420
+A delay normally benefits the trader by giving
+a better entry price; however, if prices fall
+
+105
+00:08:05,420 --> 00:08:12,090
+quickly through an upwards trend line and
+do not reverse or slow down, then any delay
+
+106
+00:08:12,090 --> 00:08:17,720
+will result in a much worse entry price or
+no entry at all.
+
+107
+00:08:17,720 --> 00:08:23,870
+Unfortunately, most of the biggest profits
+result from breakouts that never pull back.
+
+108
+00:08:23,870 --> 00:08:25,230
+That’s the reality.
+
+109
+00:08:25,230 --> 00:08:31,701
+I know you want the textbook breakout, with
+the price retesting the breakout level, but
+
+110
+00:08:31,701 --> 00:08:37,240
+in some cases the price just keep on going
+and never reaches the breakout area.
+
+111
+00:08:37,240 --> 00:08:42,839
+Now, to get a better understanding of the
+trend you could create a channel with trend
+
+112
+00:08:42,839 --> 00:08:43,839
+lines.
+
+113
+00:08:43,839 --> 00:08:49,850
+A channel is formed by a trend line and another
+line drawn parallel to the trend line enclosing
+
+114
+00:08:49,850 --> 00:08:51,680
+a sustained price move.
+
+115
+00:08:51,680 --> 00:08:57,410
+The purpose of the channel is to define the
+volatility of the price move and establish
+
+116
+00:08:57,410 --> 00:09:00,019
+reasonable entry and exit points.
+
+117
+00:09:00,019 --> 00:09:06,470
+Up to now, the trend line has only been used
+to identify the major price direction.
+
+118
+00:09:06,470 --> 00:09:12,550
+A long position is entered when the price
+crosses a downward trend line moving higher.
+
+119
+00:09:12,550 --> 00:09:17,839
+The trade is held until the price moves below
+the upwards trend line.
+
+120
+00:09:17,839 --> 00:09:23,449
+However, it is more common to have a series
+of shorter trades.
+
+121
+00:09:23,449 --> 00:09:29,339
+While the biggest profits come from holding
+one position throughout a sustained trend,
+
+122
+00:09:29,339 --> 00:09:35,959
+a series of shorter trades is also a viable
+alternative if you are an active trader.
+
+123
+00:09:35,959 --> 00:09:42,180
+Just be aware that trend lines using very
+little data are essentially analyzing noise
+
+124
+00:09:42,180 --> 00:09:45,379
+and have limited value.
+
+125
+00:09:45,379 --> 00:09:51,120
+So before a channel can be formed, the bullish
+or bearish trend line must be drawn.
+
+126
+00:09:51,120 --> 00:09:56,160
+A clear uptrend line requires at least two,
+and preferably three or more major low points
+
+127
+00:09:56,160 --> 00:09:57,680
+on the chart.
+
+128
+00:09:57,680 --> 00:10:01,689
+These points do not have to fall exactly on
+the line.
+
+129
+00:10:01,689 --> 00:10:07,689
+Once the trend line is drawn, the highest
+high can be used to draw another line parallel
+
+130
+00:10:07,689 --> 00:10:09,830
+to the upwards trend line.
+
+131
+00:10:09,830 --> 00:10:14,100
+The area in between the two parallel lines
+is the channel.
+
+132
+00:10:14,100 --> 00:10:17,769
+In theory, trading a channel is a simple process.
+
+133
+00:10:17,769 --> 00:10:24,010
+We buy as prices approach the support line
+(in this case the upwards trend line), and
+
+134
+00:10:24,010 --> 00:10:28,620
+we sell as prices near the resistance line.
+
+135
+00:10:28,620 --> 00:10:35,430
+These buy and sell zones should be around
+the bottom and top 10%-15% of the channel.
+
+136
+00:10:35,430 --> 00:10:41,310
+If prices continue through the lower trend
+line after a long position has been set, the
+
+137
+00:10:41,310 --> 00:10:44,350
+trade is closed.
+
+138
+00:10:44,350 --> 00:10:49,819
+In a downward trending channel, it is best
+to sell short in the upper zone and cover
+
+139
+00:10:49,819 --> 00:10:51,760
+the short in the lower zone.
+
+140
+00:10:51,760 --> 00:10:58,870
+Buying in the lower zone is not recommended;
+trades are safest when they are entered in
+
+141
+00:10:58,870 --> 00:11:00,860
+the direction of the trend.
+
+142
+00:11:00,860 --> 00:11:05,980
+Remember, trend following is the most profitable
+and consistent trading style.
+
+143
+00:11:05,980 --> 00:11:12,740
+The reality is that no one knows how high
+or how low a market will go.
+
+144
+00:11:12,740 --> 00:11:15,620
+No one knows when a market will move.
+
+145
+00:11:15,620 --> 00:11:21,279
+But we can follow a trend to increase our
+chances to profit from the markets.
+
+146
+00:11:21,279 --> 00:11:26,370
+If you enjoyed this type of content, don’t
+forget to subscribe, click the bell icon and
+
+147
+00:11:26,370 --> 00:11:28,629
+leave a like to show your support.
+
+148
+00:11:28,629 --> 00:11:29,079
+Until next time.
+

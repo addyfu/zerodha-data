@@ -1,0 +1,541 @@
+1
+00:00:00,680 --> 00:00:05,589
+Hello guys, in this video i will reveal an
+effective trading strategy involving the commodity
+
+2
+00:00:05,589 --> 00:00:10,200
+channel index, strategy which i mainly used
+when I’m trading stocks.
+
+3
+00:00:10,200 --> 00:00:15,280
+The CCI is an oscillator used in technical
+analysis in order to measure the variation
+
+4
+00:00:15,280 --> 00:00:18,410
+of a stock’s price from its statistical
+mean.
+
+5
+00:00:18,410 --> 00:00:24,510
+High values indicate that prices are unusually
+high compared to average prices.
+
+6
+00:00:24,510 --> 00:00:28,830
+Low values of the CCI indicate that prices
+are unusually low.
+
+7
+00:00:28,830 --> 00:00:33,690
+CCI is one of the most popular indicators
+and traders always tweak the settings of the
+
+8
+00:00:33,690 --> 00:00:38,440
+indicator, depending on their favorite time
+frame or trading style.
+
+9
+00:00:38,440 --> 00:00:44,080
+Most of them use the standard settings, CCI
+set on a 21 period.
+
+10
+00:00:44,080 --> 00:00:49,370
+CCI of 14-period and 50-period are also popular
+among traders.
+
+11
+00:00:49,370 --> 00:00:53,649
+Our CCI trading strategy involves 3 conditions
+to be met.
+
+12
+00:00:53,649 --> 00:01:00,780
+Here’s the first condition: the CCI must
+reach overbought or oversold conditions twice.
+
+13
+00:01:00,780 --> 00:01:05,000
+Commodity channel index is used by many people
+in a wrong way.
+
+14
+00:01:05,000 --> 00:01:12,210
+When the CCI technical indicator hits or exceeds
+values above -100 or 100, many traders interpret
+
+15
+00:01:12,210 --> 00:01:18,270
+this as a signal to enter counter trend positions,
+in response to overbought and oversold conditions
+
+16
+00:01:18,270 --> 00:01:19,380
+on the market.
+
+17
+00:01:19,380 --> 00:01:24,290
+But sometimes the prices can stay a long time
+in the overbought or oversold areas and during
+
+18
+00:01:24,290 --> 00:01:27,130
+that time they can continue to go higher or
+lower.
+
+19
+00:01:27,130 --> 00:01:32,920
+That’s why we need the CCI to reach overbought
+or oversold conditions twice.
+
+20
+00:01:32,920 --> 00:01:41,460
+Also, we will use values of 200 and -200 for
+these levels, to eliminate most of the noise.
+
+21
+00:01:41,460 --> 00:01:49,180
+In this NVidia chart, observe the CCI reaching
+oversold conditions twice, respectively -200
+
+22
+00:01:49,180 --> 00:01:50,190
+level.
+
+23
+00:01:50,190 --> 00:01:55,070
+Here’s the same condition met on an exon
+mobile chart.
+
+24
+00:01:55,070 --> 00:02:01,939
+The CCI reached -200 level once, and another
+time 2 weeks after.
+
+25
+00:02:01,939 --> 00:02:07,640
+Most people would have taken a long signal
+the first time the CCI reached oversold conditions,
+
+26
+00:02:07,640 --> 00:02:10,969
+but this is a sure way to lose money on the
+long run.
+
+27
+00:02:10,969 --> 00:02:18,239
+It’s better to be conservative and wait
+for the second move in oversold territory.
+
+28
+00:02:18,239 --> 00:02:19,650
+But this isn’t enough.
+
+29
+00:02:19,650 --> 00:02:22,640
+We need something else to happen on our charts.
+
+30
+00:02:22,640 --> 00:02:24,719
+Here’s our second condition.
+
+31
+00:02:24,719 --> 00:02:28,319
+We need a regular divergence between the CCI
+and the price.
+
+32
+00:02:28,319 --> 00:02:34,599
+A regular divergence is characterized by higher
+high prices and lower CCI indicator values
+
+33
+00:02:34,599 --> 00:02:41,930
+during an uptrend and lower low prices plus
+by higher CCI values, during a downtrend.
+
+34
+00:02:41,930 --> 00:02:47,319
+Most novice traders search for CCI divergences
+on the charts and automatically interpret
+
+35
+00:02:47,319 --> 00:02:50,709
+this as a valid signal to enter the market.
+
+36
+00:02:50,709 --> 00:02:55,760
+Just because a CCI divergence appears on a
+chart, that doesn’t mean that you should
+
+37
+00:02:55,760 --> 00:02:58,519
+automatically enter a reverse position.
+
+38
+00:02:58,519 --> 00:03:07,969
+So, we need the CCI to reach -200 or 200 level,
+but it also has to form a divergence.
+
+39
+00:03:07,969 --> 00:03:14,760
+In this Verizon Communication chart, we spot
+a regular divergence on the CCI, but we also
+
+40
+00:03:14,760 --> 00:03:21,790
+take into account the first condition, respectively
+the indicator must reach the -200 level.
+
+41
+00:03:21,790 --> 00:03:27,409
+Here’s the same 2 conditions met on an AT&T
+chart.
+
+42
+00:03:27,409 --> 00:03:35,559
+The CCI reached the -200 level and formed
+a regular divergence.
+
+43
+00:03:35,559 --> 00:03:41,499
+By now, I’m sure you noticed that i only
+showed examples with the CCI in oversold conditions
+
+44
+00:03:41,499 --> 00:03:45,079
+and none of the examples were on the overbought
+side.
+
+45
+00:03:45,079 --> 00:03:50,349
+This is because when I’m trading stocks
+I’m comfortable to trade only long positions,
+
+46
+00:03:50,349 --> 00:03:56,199
+on stocks with good fundamentals (mainly dividend
+stocks or growth stocks), so i intentionally
+
+47
+00:03:56,199 --> 00:03:58,750
+look only for long signals.
+
+48
+00:03:58,750 --> 00:04:03,430
+To increase your chances when trading this
+strategy, it’s good to have fundamentals
+
+49
+00:04:03,430 --> 00:04:04,579
+on your side.
+
+50
+00:04:04,579 --> 00:04:09,170
+I use a stock screener to keep an eye on the
+stocks to trade.
+
+51
+00:04:09,170 --> 00:04:13,890
+Stock screeners make a trader’s life a lot
+simpler than the old days.
+
+52
+00:04:13,890 --> 00:04:19,209
+You still have to do your homework, but you
+can set screens to create your watch list
+
+53
+00:04:19,209 --> 00:04:23,669
+based on your conditions and it’s going
+to save you a lot of time, especially if you’re
+
+54
+00:04:23,669 --> 00:04:26,680
+monitoring hundreds or thousands of stocks.
+
+55
+00:04:26,680 --> 00:04:29,349
+With a stock screener, you have a big advantage.
+
+56
+00:04:29,349 --> 00:04:34,720
+I’ve put several stock screeners in the
+description, if you want both technical and
+
+57
+00:04:34,720 --> 00:04:39,590
+fundamental indicators on your side with this
+strategy, check them out.
+
+58
+00:04:39,590 --> 00:04:47,689
+Like i said before, you could take signals
+when the CCI reaches overbought conditions,
+
+59
+00:04:47,689 --> 00:04:53,720
+like this one on the Netflix chart, but from
+my experience, the most profitable trades
+
+60
+00:04:53,720 --> 00:04:57,550
+are buy entries on stocks with good fundamentals.
+
+61
+00:04:57,550 --> 00:05:02,780
+This trade for example, would have brought
+some profits eventually, but not without a
+
+62
+00:05:02,780 --> 00:05:04,509
+period of consolidation.
+
+63
+00:05:04,509 --> 00:05:12,650
+So, take my advice and look only on the lower
+side of the CCI and ignore overbought signals.
+
+64
+00:05:12,650 --> 00:05:18,810
+Now, for the third conditions, we want to
+see a clear trend line break in order to enter
+
+65
+00:05:18,810 --> 00:05:20,370
+the market.
+
+66
+00:05:20,370 --> 00:05:26,450
+We want to see the CCI reaching -200 level,
+we want a divergence between the CCI and the
+
+67
+00:05:26,450 --> 00:05:31,840
+price, but we also want a trend line break,
+to confirm the switch in momentum.
+
+68
+00:05:31,840 --> 00:05:36,870
+Let’s see all the conditions met on the
+Netflix stock.
+
+69
+00:05:36,870 --> 00:05:42,620
+First, the CCI reaching oversold condition
+twice.
+
+70
+00:05:42,620 --> 00:05:44,900
+Then we see the regular divergence.
+
+71
+00:05:44,900 --> 00:05:50,620
+After that, we simply wait for a trend line
+breakout.
+
+72
+00:05:50,620 --> 00:05:59,120
+After the price consolidated above the trend
+line, we can safely enter long on the market.
+
+73
+00:05:59,120 --> 00:06:02,789
+The same pattern on Walt Disney stock.
+
+74
+00:06:02,789 --> 00:06:11,909
+The stock price reached oversold levels twice,
+the CCI indicator formed a divergence followed
+
+75
+00:06:11,909 --> 00:06:15,889
+by a trend line breakout.
+
+76
+00:06:15,889 --> 00:06:22,219
+As you can see, we did experienced some heat,
+because the price consolidated for a while
+
+77
+00:06:22,219 --> 00:06:26,310
+and retested the previous low, before it finally
+took off.
+
+78
+00:06:26,310 --> 00:06:33,150
+So, don’t expect a sweet ride all the time,
+we just have to put out stop orders accordingly
+
+79
+00:06:33,150 --> 00:06:36,220
+and follow our initial plan.
+
+80
+00:06:36,220 --> 00:06:39,490
+Here is the IBM stock.
+
+81
+00:06:39,490 --> 00:06:49,759
+Here’s the -200 level hit twice, the divergence
+and the trend line breakout.
+
+82
+00:06:49,759 --> 00:06:57,029
+Don’t be afraid to enter the market when
+you see the CCI reaching overbought conditions
+
+83
+00:06:57,029 --> 00:07:01,889
+because this is a classic beginner mistake.
+
+84
+00:07:01,889 --> 00:07:05,349
+Another great trade on the visa stock.
+
+85
+00:07:05,349 --> 00:07:10,490
+By now, i hope you trained your eyes to spot
+for this CCI pattern.
+
+86
+00:07:10,490 --> 00:07:18,660
+The oversold level hit twice, the regular
+divergence and also the trend line break.
+
+87
+00:07:18,660 --> 00:07:22,520
+You might wonder why we have to wait for the
+breakout to enter the market.
+
+88
+00:07:22,520 --> 00:07:29,659
+In this example, if we could have entered
+way sooner and obtained bigger profits.
+
+89
+00:07:29,659 --> 00:07:35,360
+But you see, this was a fortunate case, many
+times the market decides to search for lower
+
+90
+00:07:35,360 --> 00:07:40,490
+lows and go for the third time in oversold
+area.
+
+91
+00:07:40,490 --> 00:07:45,870
+By waiting for the trend line breakout, we
+protect our capital and increase our chances
+
+92
+00:07:45,870 --> 00:07:49,080
+for a true momentum shift.
+
+93
+00:07:49,080 --> 00:07:53,029
+Look at this example, on the Procter&Gamble
+stock.
+
+94
+00:07:53,029 --> 00:07:59,650
+Here we have our first 2 conditions met, but
+we didn’t have the trend line breakout,
+
+95
+00:07:59,650 --> 00:08:02,750
+so this was a no go trade.
+
+96
+00:08:02,750 --> 00:08:10,559
+Here, we have all conditions met and we have
+a valid breakout.
+
+97
+00:08:10,559 --> 00:08:16,400
+But as you can observe on the chart, the market
+turned against our position and we lost this
+
+98
+00:08:16,400 --> 00:08:18,070
+trade.
+
+99
+00:08:18,070 --> 00:08:23,139
+But even if we lost the trade, this stock
+still had potential for a good trade.
+
+100
+00:08:23,139 --> 00:08:32,620
+Which came few weeks later, when we saw the
+oversold level once again, the divergence
+
+101
+00:08:32,620 --> 00:08:35,209
+and another trend line break.
+
+102
+00:08:35,209 --> 00:08:43,010
+This time, the stock took off and we managed
+to recoup our losses for the previous trade
+
+103
+00:08:43,010 --> 00:08:46,910
+and recorded some extra profit.
+
+104
+00:08:46,910 --> 00:08:52,320
+Like i said before, if you want to trade stocks
+and increase your chances when you use this
+
+105
+00:08:52,320 --> 00:08:57,500
+strategy, a stock screener is one of the most
+important tools in your arsenal.
+
+106
+00:08:57,500 --> 00:09:03,500
+It will help you sort through thousands of
+stocks to find only those that match specific
+
+107
+00:09:03,500 --> 00:09:05,070
+criteria.
+
+108
+00:09:05,070 --> 00:09:10,230
+This way, you get to choose between stocks
+and trade only the signals that have the greatest
+
+109
+00:09:10,230 --> 00:09:11,529
+potential.
+
+110
+00:09:11,529 --> 00:09:17,730
+This strategy is designed for timeframes higher
+than 4 hours charts and for stock market,
+
+111
+00:09:17,730 --> 00:09:23,950
+but I’ve also recorded good results on forex
+market also, on lower timeframes.
+
+112
+00:09:23,950 --> 00:09:28,139
+If you got any value from this, please consider
+subscribing to our channel, share and like
+
+113
+00:09:28,139 --> 00:09:32,340
+this video, as it would help us a lot in the
+future.
+
+114
+00:09:32,340 --> 00:09:35,480
+Until next time.
+

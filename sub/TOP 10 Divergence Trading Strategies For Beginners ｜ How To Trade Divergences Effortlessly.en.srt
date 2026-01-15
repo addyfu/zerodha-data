@@ -1,0 +1,831 @@
+1
+00:00:00,900 --> 00:00:05,730
+Many traders are either unaware of the importance
+of divergences or are unable to accurately
+
+2
+00:00:05,730 --> 00:00:07,760
+apply the divergence concept.
+
+3
+00:00:07,760 --> 00:00:12,809
+A divergence occurs when price and the indicators
+provide conflicting signals by moving in opposite
+
+4
+00:00:12,809 --> 00:00:13,839
+directions.
+
+5
+00:00:13,839 --> 00:00:17,970
+If you spot such a situation, it could be
+worthwhile taking a closer look at what is
+
+6
+00:00:17,970 --> 00:00:18,970
+really going on.
+
+7
+00:00:18,970 --> 00:00:23,679
+In today’s video we’ll talk about divergence
+trading, and I will share 10 important rules
+
+8
+00:00:23,679 --> 00:00:28,039
+you must follow to profit consistently from
+market divergences.
+
+9
+00:00:28,039 --> 00:00:29,390
+1.
+
+10
+00:00:29,390 --> 00:00:32,450
+Use the right indicators to spot divergences
+
+11
+00:00:32,450 --> 00:00:37,950
+Most of the technical indicators used to observe
+divergences are momentum oscillators.
+
+12
+00:00:37,950 --> 00:00:43,410
+But some indicators are better to find regular
+divergences, while other are suited for hidden
+
+13
+00:00:43,410 --> 00:00:44,410
+divergences.
+
+14
+00:00:44,410 --> 00:00:49,190
+From my experience, oscillators that are used
+to determine whether a market is overbought
+
+15
+00:00:49,190 --> 00:00:53,190
+or oversold are more effective for spotting
+hidden divergences.
+
+16
+00:00:53,190 --> 00:00:58,800
+Stochastic indicator and RSI are perfect to
+find hidden divergences, which happens when
+
+17
+00:00:58,800 --> 00:01:03,000
+the technical indicator shows a new extreme,
+but the corresponding price action does not.
+
+18
+00:01:03,000 --> 00:01:08,990
+For example, in this bullish hidden divergence,
+the Stochastic makes a lower low while the
+
+19
+00:01:08,990 --> 00:01:10,710
+price make a higher low.
+
+20
+00:01:10,710 --> 00:01:15,530
+In essence, while the price is higher than
+it was before, the indicator is lower, suggesting
+
+21
+00:01:15,530 --> 00:01:18,460
+the market is much more oversold.
+
+22
+00:01:18,460 --> 00:01:23,240
+In a hidden bearish divergence scenario, the
+Stochastic makes a higher high while the price
+
+23
+00:01:23,240 --> 00:01:24,740
+makes a lower high.
+
+24
+00:01:24,740 --> 00:01:29,440
+Hidden divergences are also called continuation
+divergences because are used to trade the
+
+25
+00:01:29,440 --> 00:01:32,270
+continuation of a trend.
+
+26
+00:01:32,270 --> 00:01:37,290
+For regular bullish and bearish indicators,
+I found that MACD histogram and Money flow
+
+27
+00:01:37,290 --> 00:01:40,229
+index are very effective to find such patterns.
+
+28
+00:01:40,229 --> 00:01:44,610
+Bullish divergences are used to trade the
+change in direction from a downwards move
+
+29
+00:01:44,610 --> 00:01:46,060
+to an upwards move.
+
+30
+00:01:46,060 --> 00:01:50,870
+They occur when price creates a lower low
+and at the same time, the technical indicator,
+
+31
+00:01:50,870 --> 00:01:53,460
+MACD in this example, is making a higher low.
+
+32
+00:01:53,460 --> 00:01:58,380
+In essence, MACD is not following the price
+down, suggesting the move lower is weakening
+
+33
+00:01:58,380 --> 00:02:03,550
+and losing momentum, resulting in a possible
+move higher.
+
+34
+00:02:03,550 --> 00:02:07,450
+Bearish divergences are used to trade the
+change in direction from an upwards move to
+
+35
+00:02:07,450 --> 00:02:09,099
+a downwards move.
+
+36
+00:02:09,099 --> 00:02:13,489
+They occur when price creates a higher high
+and at the same time, the indicator is making
+
+37
+00:02:13,489 --> 00:02:14,840
+a lower high.
+
+38
+00:02:14,840 --> 00:02:19,389
+In this case, MACD is not following the price
+up, suggesting the move higher is weakening
+
+39
+00:02:19,389 --> 00:02:23,590
+and losing momentum, resulting in a possible
+move lower.
+
+40
+00:02:23,590 --> 00:02:25,090
+2.
+
+41
+00:02:25,090 --> 00:02:30,109
+Adjust the settings of indicators to identify
+divergences more easily
+
+42
+00:02:30,109 --> 00:02:34,629
+For any given divergence indicator, there
+will usually be different settings for different
+
+43
+00:02:34,629 --> 00:02:37,590
+markets and different settings for different
+time frames.
+
+44
+00:02:37,590 --> 00:02:41,629
+Let’s say you prefer trading hidden divergences
+with RSI.
+
+45
+00:02:41,629 --> 00:02:47,560
+Here, the first 2 RSI settings were able to
+spot the hidden divergence, while the smoother
+
+46
+00:02:47,560 --> 00:02:51,469
+RSI, with the longer period, was unable to
+find it.
+
+47
+00:02:51,469 --> 00:02:58,510
+So remember this: higher lookback periods
+on indicators will not suit hidden divergences.
+
+48
+00:02:58,510 --> 00:03:00,480
+The same for regular divergences.
+
+49
+00:03:00,480 --> 00:03:02,919
+Larger settings will produce a higher lag.
+
+50
+00:03:02,919 --> 00:03:07,719
+Of course, there will be periods when market
+volatility and momentum cycles will change
+
+51
+00:03:07,719 --> 00:03:11,730
+and the indicator settings you have been using
+will be much less useful.
+
+52
+00:03:11,730 --> 00:03:18,480
+So you may need to slightly shorten or increase
+the lookback period to find the optimal divergences.
+
+53
+00:03:18,480 --> 00:03:20,010
+3.
+
+54
+00:03:20,010 --> 00:03:23,439
+Only take divergences in the direction of
+the main trend
+
+55
+00:03:23,439 --> 00:03:28,590
+With regular divergences, the oscillators
+indicate momentum shift and thus, point toward
+
+56
+00:03:28,590 --> 00:03:30,560
+a reversal of the trend.
+
+57
+00:03:30,560 --> 00:03:35,139
+This implies that a regular divergence warns
+the end of a trend is expected.
+
+58
+00:03:35,139 --> 00:03:39,430
+Hidden divergences signal momentum coming
+into the main trend, suggesting a possible
+
+59
+00:03:39,430 --> 00:03:42,180
+continuation in the main direction of the
+trend.
+
+60
+00:03:42,180 --> 00:03:46,799
+Now, the reason why so many traders fail when
+taking divergence signals is because they
+
+61
+00:03:46,799 --> 00:03:48,889
+take counter-trend signals.
+
+62
+00:03:48,889 --> 00:03:53,760
+They spot a regular divergence and immediately
+think the market will reverse.
+
+63
+00:03:53,760 --> 00:03:59,519
+A smarter way to trade divergences, is to
+identify the main trend and find divergences
+
+64
+00:03:59,519 --> 00:04:01,930
+that go along with the trend.
+
+65
+00:04:01,930 --> 00:04:06,969
+In the case of an uptrend, you ignore bearish
+regular divergences (those appearing on the
+
+66
+00:04:06,969 --> 00:04:10,819
+top of the oscillator) and search for bullish
+regular divergences.
+
+67
+00:04:10,819 --> 00:04:16,169
+In addition, you also concentrate on bullish
+hidden divergences.
+
+68
+00:04:16,169 --> 00:04:21,110
+In the case of a downtrend, you ignore bullish
+regular divergences and search for bearish
+
+69
+00:04:21,110 --> 00:04:24,810
+regular divergences and bearish hidden divergences.
+
+70
+00:04:24,810 --> 00:04:29,930
+In this way, you have a higher probability
+of a successful divergence trade.
+
+71
+00:04:29,930 --> 00:04:31,710
+4.
+
+72
+00:04:31,710 --> 00:04:36,080
+Always wait for price action confirmation
+(trend line breakout)
+
+73
+00:04:36,080 --> 00:04:40,340
+While using divergences is a great tool to
+have in your trading toolbox, there are times
+
+74
+00:04:40,340 --> 00:04:44,180
+when you might enter too early because you
+did not wait for more confirmation.
+
+75
+00:04:44,180 --> 00:04:47,460
+And a divergence signal always needs a confirmation.
+
+76
+00:04:47,460 --> 00:04:52,050
+If you keep entering divergences too early,
+you’ll keep getting stopped out and you’ll
+
+77
+00:04:52,050 --> 00:04:53,520
+slowly rack up losses.
+
+78
+00:04:53,520 --> 00:04:57,020
+The best confirmation is a trend line break
+out.
+
+79
+00:04:57,020 --> 00:05:02,060
+When a divergence forms and the price starts
+changing direction and breaks a trend line,
+
+80
+00:05:02,060 --> 00:05:06,720
+there is a higher probability the price is
+going to reverse.
+
+81
+00:05:06,720 --> 00:05:13,290
+This example shows a bullish MACD divergence
+with a confirmed trend line breakout.
+
+82
+00:05:13,290 --> 00:05:17,990
+So for better results, just wait for a trend
+line breakout, or a support or resistance
+
+83
+00:05:17,990 --> 00:05:19,210
+breakout.
+
+84
+00:05:19,210 --> 00:05:23,560
+When you see price action breaking a major
+level, it could signal a shift in power from
+
+85
+00:05:23,560 --> 00:05:28,669
+buyers to sellers (or vice versa) and that
+a price reversal might occurring.
+
+86
+00:05:28,669 --> 00:05:29,930
+5.
+
+87
+00:05:29,930 --> 00:05:34,360
+Take divergence signals from support/resistance
+levels
+
+88
+00:05:34,360 --> 00:05:39,349
+To avoid trade entries that don’t go anywhere,
+I highly suggest you add other criteria and
+
+89
+00:05:39,349 --> 00:05:41,680
+confirmation tools to your arsenal.
+
+90
+00:05:41,680 --> 00:05:46,440
+Besides the trend line breakout, the location
+of the divergence is very important.
+
+91
+00:05:46,440 --> 00:05:50,590
+Adding the filter of location can usually
+enhance the quality of your divergence signals
+
+92
+00:05:50,590 --> 00:05:51,970
+and trades.
+
+93
+00:05:51,970 --> 00:05:56,750
+Instead of taking trades just based on a divergence
+signal, you’d wait for the price to move
+
+94
+00:05:56,750 --> 00:06:02,469
+into a previous support/resistance zone and
+only then look for divergences and trend shifts,
+
+95
+00:06:02,469 --> 00:06:04,340
+to time your entries.
+
+96
+00:06:04,340 --> 00:06:09,480
+In this example, you see an uptrend with two
+divergences.
+
+97
+00:06:09,480 --> 00:06:15,110
+However, the first one completely failed and
+the second one resulted in a massive winner.
+
+98
+00:06:15,110 --> 00:06:16,800
+What was the difference?
+
+99
+00:06:16,800 --> 00:06:21,060
+When we analyze the big picture, we see that
+the first divergences happened in the middle
+
+100
+00:06:21,060 --> 00:06:26,009
+of nowhere and the second divergence formed
+at a very important resistance level.
+
+101
+00:06:26,009 --> 00:06:32,490
+As a trader, you first identify your support/resistance
+zones and then let price come to you.
+
+102
+00:06:32,490 --> 00:06:37,319
+Such an approach will impact your performance
+in a big way.
+
+103
+00:06:37,319 --> 00:06:38,319
+6.
+
+104
+00:06:38,319 --> 00:06:40,300
+Confirm divergence signals using volume
+
+105
+00:06:40,300 --> 00:06:46,320
+Volume is one piece of information that is
+often neglected by many market players, especially
+
+106
+00:06:46,320 --> 00:06:47,530
+the beginners.
+
+107
+00:06:47,530 --> 00:06:52,770
+However, learning to read volume brings many
+advantages and could be of tremendous help
+
+108
+00:06:52,770 --> 00:06:55,270
+when it comes to analyzing divergences.
+
+109
+00:06:55,270 --> 00:06:59,470
+To correctly read the volume data, it must
+be seen in the light of what the price is
+
+110
+00:06:59,470 --> 00:07:00,789
+doing.
+
+111
+00:07:00,789 --> 00:07:05,379
+So the implication of a trading volume depends
+on the price movement.
+
+112
+00:07:05,379 --> 00:07:11,669
+If the price is rising in an uptrend, a divergence
+is visible, but the volume is reducing, it
+
+113
+00:07:11,669 --> 00:07:16,020
+may show that there’s little interest in
+the asset, and the price may reverse.
+
+114
+00:07:16,020 --> 00:07:21,900
+Similarly, when the price is rapidly declining
+and forms a divergence but the volume is low,
+
+115
+00:07:21,900 --> 00:07:25,919
+it could mean that the institutional traders
+are not interested in the price direction.
+
+116
+00:07:25,919 --> 00:07:28,990
+So the price might soon reverse to the upside.
+
+117
+00:07:28,990 --> 00:07:34,530
+A high volume after the divergence usually
+indicates more interest in the asset and the
+
+118
+00:07:34,530 --> 00:07:36,740
+presence of institutional traders.
+
+119
+00:07:36,740 --> 00:07:42,800
+A divergence confirmed by a rising volume
+represents one of the safest trades.
+
+120
+00:07:42,800 --> 00:07:44,669
+7.
+
+121
+00:07:44,669 --> 00:07:48,210
+Find confluence with common moving averages
+
+122
+00:07:48,210 --> 00:07:52,479
+No matter how appealing a divergence signal
+is, don’t take the trade without confirming
+
+123
+00:07:52,479 --> 00:07:55,150
+the signal with some other type of analysis.
+
+124
+00:07:55,150 --> 00:07:57,680
+You can do this by using confluence.
+
+125
+00:07:57,680 --> 00:08:01,830
+Confluence forms in a spot where you have
+more than one indication of where price will
+
+126
+00:08:01,830 --> 00:08:02,830
+go.
+
+127
+00:08:02,830 --> 00:08:07,910
+For example, confluence occurs where price
+reaches a commonly used moving average.
+
+128
+00:08:07,910 --> 00:08:12,750
+If in that point, you see a divergence forming,
+you confirm your direction with the moving
+
+129
+00:08:12,750 --> 00:08:16,819
+average, and you will have a stronger signal
+and a higher probability of price going your
+
+130
+00:08:16,819 --> 00:08:18,749
+way.
+
+131
+00:08:18,749 --> 00:08:22,729
+Here is another example, when price touched
+the simple moving average.
+
+132
+00:08:22,729 --> 00:08:28,749
+We have a hidden bearish divergence on the
+RSI and the RSI reached overbought area.
+
+133
+00:08:28,749 --> 00:08:30,499
+8.
+
+134
+00:08:30,499 --> 00:08:34,350
+Use higher time frames to trade divergences
+
+135
+00:08:34,350 --> 00:08:38,040
+Divergence signals tend to be more accurate
+on the longer time frames because you get
+
+136
+00:08:38,040 --> 00:08:39,830
+less false signals.
+
+137
+00:08:39,830 --> 00:08:44,190
+This means fewer trades but if you structure
+your trade well, then your profit potential
+
+138
+00:08:44,190 --> 00:08:45,660
+can be huge.
+
+139
+00:08:45,660 --> 00:08:50,270
+Divergences on shorter time frames will occur
+more frequently but are less reliable.
+
+140
+00:08:50,270 --> 00:08:55,020
+That is why I advise you to look for divergences
+on 1-hour charts or longer.
+
+141
+00:08:55,020 --> 00:08:58,340
+Of course, there are many divergences on lower
+time frames.
+
+142
+00:08:58,340 --> 00:09:03,480
+But, on those time frames, there’s just
+too much noise and the probability of a divergence
+
+143
+00:09:03,480 --> 00:09:06,040
+to fail is higher.
+
+144
+00:09:06,040 --> 00:09:07,770
+9.
+
+145
+00:09:07,770 --> 00:09:12,000
+Use Ultimate Oscillator to trade multiple
+timeframe divergences
+
+146
+00:09:12,000 --> 00:09:16,910
+The ultimate oscillator combines short-term,
+intermediate-term, and long-term price action
+
+147
+00:09:16,910 --> 00:09:21,910
+into one oscillator and offers divergence
+signals that might warn of future price reversals.
+
+148
+00:09:21,910 --> 00:09:26,160
+It basically measures momentum for three distinct
+timeframes.
+
+149
+00:09:26,160 --> 00:09:30,650
+The second timeframe is double compared to
+the first, and the third timeframe is double
+
+150
+00:09:30,650 --> 00:09:32,280
+compared to the second.
+
+151
+00:09:32,280 --> 00:09:36,290
+Even though the shortest timeframe carries
+the most weight, the longest timeframe is
+
+152
+00:09:36,290 --> 00:09:41,430
+not ignored, which reduces the number of false
+divergences.
+
+153
+00:09:41,430 --> 00:09:46,200
+The ultimate oscillator generates fewer divergence
+signals than the other oscillators due to
+
+154
+00:09:46,200 --> 00:09:50,910
+its multi-timeframe construction, so the market
+noise is greatly reduced.
+
+155
+00:09:50,910 --> 00:09:55,270
+Of course, while the multiple timeframe trading
+method for the indicator may help eliminate
+
+156
+00:09:55,270 --> 00:09:58,470
+some poor trades, it also eliminates many
+good ones.
+
+157
+00:09:58,470 --> 00:10:03,880
+Therefore, it is sometimes necessary to change
+its settings to reduce sensitivity and increase
+
+158
+00:10:03,880 --> 00:10:05,910
+the number of signals.
+
+159
+00:10:05,910 --> 00:10:07,050
+10.
+
+160
+00:10:07,050 --> 00:10:13,180
+Don’t force divergence trades
+When trading divergences, you must be careful
+
+161
+00:10:13,180 --> 00:10:15,650
+and precise with your entry point.
+
+162
+00:10:15,650 --> 00:10:20,130
+If you spot a divergence but the price has
+already reversed and moved in one direction
+
+163
+00:10:20,130 --> 00:10:23,870
+for some time, the divergence should be considered
+played out.
+
+164
+00:10:23,870 --> 00:10:29,060
+You missed the boat this time and it’s better
+to stay aside and don’t force a late trade.
+
+165
+00:10:29,060 --> 00:10:34,260
+All you can do now is wait for another swing
+to form and start over your divergence search.
+
+166
+00:10:34,260 --> 00:10:35,260
+Why?
+
+167
+00:10:35,260 --> 00:10:40,810
+Because if you enter late, you alter your
+risk:reward ratio for the trade.
+
+168
+00:10:40,810 --> 00:10:45,700
+When trading divergences, the entry point
+and risk/reward management are both important
+
+169
+00:10:45,700 --> 00:10:49,250
+aspects that any trader should become familiar
+with.
+
+170
+00:10:49,250 --> 00:10:54,040
+If you miss a divergence entry, after the
+price rejected a moving average for example,
+
+171
+00:10:54,040 --> 00:10:58,100
+and you decide to enter after the price already
+moved a lot, you will have to increase your
+
+172
+00:10:58,100 --> 00:11:02,900
+stop loss, and if the trade doesn’t have
+much profit potential, you will have a hard
+
+173
+00:11:02,900 --> 00:11:04,560
+time managing your trade.
+
+174
+00:11:04,560 --> 00:11:08,810
+Remember: there are always going to be other
+divergence opportunities.
+
+175
+00:11:08,810 --> 00:11:11,160
+The key is to be patient.
+
+176
+00:11:11,160 --> 00:11:15,971
+If you found value and learned something new,
+leave us a like to show your support, make
+
+177
+00:11:15,971 --> 00:11:20,190
+sure you subscribe and click the bell icon
+to stay notified when we release new videos.
+
+178
+00:11:20,190 --> 00:11:21,360
+Until next time.
+

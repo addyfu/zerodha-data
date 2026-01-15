@@ -1,0 +1,642 @@
+1
+00:00:00,789 --> 00:00:04,880
+Trading with patterns is an essential component
+of technical analysis.
+
+2
+00:00:04,880 --> 00:00:10,780
+This means that you need to shift your focus
+on price action and what the pattern shows.
+
+3
+00:00:10,780 --> 00:00:14,950
+All markets, regardless of type, have one
+thing in common.
+
+4
+00:00:14,950 --> 00:00:17,560
+That is, they all consolidate in ranges.
+
+5
+00:00:17,560 --> 00:00:19,190
+A lot.
+
+6
+00:00:19,190 --> 00:00:23,820
+Therefore, one of the most common chart patterns
+are triangles.
+
+7
+00:00:23,820 --> 00:00:29,500
+The triangle pattern is a specific figure
+formed on the price chart, typically identified
+
+8
+00:00:29,500 --> 00:00:34,230
+when the tops and the bottoms of the price
+action are moving toward each other like the
+
+9
+00:00:34,230 --> 00:00:36,170
+sides of a triangle.
+
+10
+00:00:36,170 --> 00:00:41,750
+When the upper and the lower level of a triangle
+interact, traders expect an eventual breakout
+
+11
+00:00:41,750 --> 00:00:42,750
+from that area.
+
+12
+00:00:42,750 --> 00:00:49,450
+As such, many breakout traders use triangle
+formations for identifying breakout entry
+
+13
+00:00:49,450 --> 00:00:50,450
+points.
+
+14
+00:00:50,450 --> 00:00:55,070
+There are different kinds of triangles that
+can be seen on a chart.
+
+15
+00:00:55,070 --> 00:01:00,540
+In this video we’ll take a closer look at
+the ascending triangle pattern and the corresponding
+
+16
+00:01:00,540 --> 00:01:02,320
+trade setups.
+
+17
+00:01:02,320 --> 00:01:06,360
+Once you are equipped with this knowledge,
+you should be able to add a triangle trading
+
+18
+00:01:06,360 --> 00:01:10,560
+strategy to your trade setup arsenal.
+
+19
+00:01:10,560 --> 00:01:16,540
+The ascending triangle formation is a continuation
+pattern and as the name suggests it has the
+
+20
+00:01:16,540 --> 00:01:18,280
+shape of a triangle.
+
+21
+00:01:18,280 --> 00:01:23,820
+The ascending triangle is also known as the
+bullish triangle because it leads to a bullish
+
+22
+00:01:23,820 --> 00:01:25,350
+breakout.
+
+23
+00:01:25,350 --> 00:01:30,290
+This is how the ascending triangle looks like:
+The first element of this price pattern is
+
+24
+00:01:30,290 --> 00:01:34,110
+an upward slope followed by a flat top.
+
+25
+00:01:34,110 --> 00:01:40,740
+This shows that the market has tried multiple
+times to break the resistance top but it couldn’t.
+
+26
+00:01:40,740 --> 00:01:44,500
+Hence, we have developed a resistance line.
+
+27
+00:01:44,500 --> 00:01:51,130
+The second element of the ascending triangle
+is a rising trend line moving upwards.
+
+28
+00:01:51,130 --> 00:01:53,930
+This is what makes the pattern bullish.
+
+29
+00:01:53,930 --> 00:01:58,900
+Now, all continuation patterns need to have
+a context of a trend.
+
+30
+00:01:58,900 --> 00:02:04,740
+In the case of the bullish ascending triangle,
+we need to have a previous uptrend to support
+
+31
+00:02:04,740 --> 00:02:06,080
+the breakout.
+
+32
+00:02:06,080 --> 00:02:11,450
+Now that you learned how the ascending formation
+looks like i want to share with you several
+
+33
+00:02:11,450 --> 00:02:15,840
+important things that I’ve learned from
+trading the bullish triangle.
+
+34
+00:02:15,840 --> 00:02:21,790
+First, on a price chart, the triangle pattern
+will rarely have a perfect shape.
+
+35
+00:02:21,790 --> 00:02:27,419
+Often times you’ll see an ascending wedge
+pattern which will break the resistance line
+
+36
+00:02:27,419 --> 00:02:30,330
+but have no real momentum behind the breakout.
+
+37
+00:02:30,330 --> 00:02:36,969
+Other times, the pattern will develop spiky
+bars that will lead to false breakouts.
+
+38
+00:02:36,969 --> 00:02:38,620
+There is no perfect pattern.
+
+39
+00:02:38,620 --> 00:02:41,709
+What's the first thing you see in this chart?
+
+40
+00:02:41,709 --> 00:02:44,299
+That's right, the pattern is not perfect.
+
+41
+00:02:44,299 --> 00:02:49,790
+I remember how I would read a book on a specific
+chart pattern and then when i would go in
+
+42
+00:02:49,790 --> 00:02:53,260
+the market, I could never find an exact match.
+
+43
+00:02:53,260 --> 00:02:58,010
+For example, in this chart, notice how the
+highs are not aligned perfectly.
+
+44
+00:02:58,010 --> 00:03:03,609
+But, notice how the stock breaks through the
+uptrend line, only to go higher.
+
+45
+00:03:03,609 --> 00:03:08,310
+So don’t search only for perfect triangles.
+
+46
+00:03:08,310 --> 00:03:14,519
+Also, you really need to think in terms of
+what it’s going on behind the scene.
+
+47
+00:03:14,519 --> 00:03:19,059
+You don’t just have to look at the price,
+but also try to read what the market participants
+
+48
+00:03:19,059 --> 00:03:20,290
+are doing.
+
+49
+00:03:20,290 --> 00:03:25,359
+When the price is moving up, it starts to
+develop the classical higher lows.
+
+50
+00:03:25,359 --> 00:03:30,279
+For whatever the reasons, the buyers may become
+a little bit more aggressive with each new
+
+51
+00:03:30,279 --> 00:03:32,120
+successive higher low.
+
+52
+00:03:32,120 --> 00:03:37,349
+Or, we can say that the sellers aren’t too
+aggressive when the market turns down inside
+
+53
+00:03:37,349 --> 00:03:39,879
+the ascending triangle chart pattern.
+
+54
+00:03:39,879 --> 00:03:44,359
+Whichever alternative you prefer, that is
+what it’s causing the triangle price formation
+
+55
+00:03:44,359 --> 00:03:45,809
+to develop.
+
+56
+00:03:45,809 --> 00:03:51,069
+When we reach the climax point of the triangle
+where the price has nowhere to go, that’s
+
+57
+00:03:51,069 --> 00:03:55,739
+the moment when you should anticipate a breakout.
+
+58
+00:03:55,739 --> 00:03:58,939
+The location of the pattern is also important!
+
+59
+00:03:58,939 --> 00:04:04,479
+If the triangle pattern is inside of a big
+trading range, then the solid resistance level
+
+60
+00:04:04,479 --> 00:04:07,019
+might not be that significant.
+
+61
+00:04:07,019 --> 00:04:12,189
+If you pay attention at this chart, you’ll
+notice the triangle pattern, but the problem
+
+62
+00:04:12,189 --> 00:04:18,650
+is that it develops inside a big trading range,
+so even if there is a small breakout, the
+
+63
+00:04:18,650 --> 00:04:22,530
+upward movement is restricted by this other
+resistance.
+
+64
+00:04:22,530 --> 00:04:29,700
+However, if the ascending triangle price formation
+develops in the middle of a bullish trend
+
+65
+00:04:29,700 --> 00:04:32,700
+that would add more weight to the pattern.
+
+66
+00:04:32,700 --> 00:04:37,000
+When the ascending triangle develops within
+a trend then we’re going to be interested
+
+67
+00:04:37,000 --> 00:04:42,650
+in buying the breakout, like in this example.
+
+68
+00:04:42,650 --> 00:04:48,230
+Regardless of their location, during a trend,
+ascending triangles are bullish patterns that
+
+69
+00:04:48,230 --> 00:04:50,180
+indicate accumulation.
+
+70
+00:04:50,180 --> 00:04:55,380
+The higher lows in the pattern are a clue
+that buyers are not letting their position
+
+71
+00:04:55,380 --> 00:05:01,780
+go at lower prices as the pattern makes higher
+lows.
+
+72
+00:05:01,780 --> 00:05:06,690
+Another important tip is that you need to
+have a clear resistance level, with a series
+
+73
+00:05:06,690 --> 00:05:10,930
+of highs occurring at or near the same price.
+
+74
+00:05:10,930 --> 00:05:17,380
+You don't want to have one or two peaks, because
+it might be a swing high or double top.
+
+75
+00:05:17,380 --> 00:05:23,380
+There needs to be a number of clear attempts
+by the bulls that go nowhere with the price.
+
+76
+00:05:23,380 --> 00:05:28,440
+Once the triangle breakout happens you need
+to see a pick-up in volume that will result
+
+77
+00:05:28,440 --> 00:05:30,630
+in a nice long trade.
+
+78
+00:05:30,630 --> 00:05:36,460
+The next thing you want to see in a breakout
+is for volume to accelerate on the move higher.
+
+79
+00:05:36,460 --> 00:05:40,650
+This does not mean the volume on the breakout
+has to be the highest over the last 24 hours
+
+80
+00:05:40,650 --> 00:05:41,920
+or something.
+
+81
+00:05:41,920 --> 00:05:45,590
+It just means you need to see some acceleration
+to the upside.
+
+82
+00:05:45,590 --> 00:05:51,490
+The key point is you want to see buyers participate
+in the move to increase the likelihood of
+
+83
+00:05:51,490 --> 00:05:52,490
+follow-through.
+
+84
+00:05:52,490 --> 00:05:57,770
+How do you trade an ascending triangle pattern?
+
+85
+00:05:57,770 --> 00:06:03,490
+The classic method is to buy the breakout
+once you have had 3 or more touches with volume.
+
+86
+00:06:03,490 --> 00:06:07,680
+Now, you have a few choices of where to enter.
+
+87
+00:06:07,680 --> 00:06:13,560
+The first option is to buy on the highest
+high after three or more tops.
+
+88
+00:06:13,560 --> 00:06:18,580
+The potential issue with this approach is
+that the price could fail and is still either
+
+89
+00:06:18,580 --> 00:06:23,550
+developing the ascending triangle or you are
+caught in a bull trap.
+
+90
+00:06:23,550 --> 00:06:28,990
+The main problem with triangles, and chart
+patterns in general, is the potential for
+
+91
+00:06:28,990 --> 00:06:30,830
+false breakouts.
+
+92
+00:06:30,830 --> 00:06:36,300
+The price may move out of the pattern only
+to move back into it, or the price may even
+
+93
+00:06:36,300 --> 00:06:38,990
+proceed to break out the other side.
+
+94
+00:06:38,990 --> 00:06:46,050
+A pattern may need to be redrawn several times
+as the price edges past the trend lines but
+
+95
+00:06:46,050 --> 00:06:50,550
+fails to generate any momentum in the breakout
+direction.
+
+96
+00:06:50,550 --> 00:06:53,840
+What I prefer is to look at pivot points.
+
+97
+00:06:53,840 --> 00:06:59,840
+I like to wait for a key pivot point resistance
+level to be breached and then place a buy
+
+98
+00:06:59,840 --> 00:07:03,530
+order slightly above this level.
+
+99
+00:07:03,530 --> 00:07:09,170
+The potential issue with this approach is
+you are exposed to more risk as you are buying
+
+100
+00:07:09,170 --> 00:07:12,890
+at higher levels with greater downside exposure.
+
+101
+00:07:12,890 --> 00:07:19,070
+But, this will eliminate a lot of false breakouts,
+which will occur a lot.
+
+102
+00:07:19,070 --> 00:07:23,430
+That’s why I like to add a safety net by
+using pivot points.
+
+103
+00:07:23,430 --> 00:07:29,200
+So, if you pay attention at this example,
+we have the upper trend line, with higher
+
+104
+00:07:29,200 --> 00:07:34,330
+lows, the clear resistance level, and the
+breakout.
+
+105
+00:07:34,330 --> 00:07:41,120
+But, in real time, as we don’t know if the
+breakout is real or not, we wait for the price
+
+106
+00:07:41,120 --> 00:07:48,060
+to consolidate above this pivot level, as
+a confirmation of the breakout of the pattern.
+
+107
+00:07:48,060 --> 00:07:53,120
+Once the price consolidated above, we can
+safely search for long entries.
+
+108
+00:07:53,120 --> 00:08:19,190
+Here are other examples of ascending triangles
+breakouts, with pivot points confirmation.
+
+109
+00:08:19,190 --> 00:08:23,419
+Another approach is to buy inside of the triangle.
+
+110
+00:08:23,419 --> 00:08:28,710
+Once you see the pattern setting up, you can
+wait for a touch of the uptrend line and then
+
+111
+00:08:28,710 --> 00:08:30,730
+place a long entry.
+
+112
+00:08:30,730 --> 00:08:36,559
+The benefits with this approach are that you
+can place a tighter stop since you are closer
+
+113
+00:08:36,559 --> 00:08:42,769
+to the demand line (support), this also gives
+you a potential profit before the actual breakout.
+
+114
+00:08:42,769 --> 00:08:48,639
+The downside to this approach is you could
+wait a longer time for the move through the
+
+115
+00:08:48,639 --> 00:08:52,760
+top of the triangle, in a possible consolidation
+phase.
+
+116
+00:08:52,760 --> 00:08:56,970
+This is a more advanced technique, and the
+most important thing is that you need to have
+
+117
+00:08:56,970 --> 00:08:59,350
+a clear uptrend.
+
+118
+00:08:59,350 --> 00:09:04,100
+When you spot an ascending triangle on the
+chart, you should be prepared to catch a bullish
+
+119
+00:09:04,100 --> 00:09:08,160
+price move equal to at least the size of the
+triangle.
+
+120
+00:09:08,160 --> 00:09:13,720
+A profit target can be estimated based on
+the height of the triangle added from the
+
+121
+00:09:13,720 --> 00:09:16,089
+breakout price.
+
+122
+00:09:16,089 --> 00:09:22,020
+The white lines correspond to the size of
+the triangle and its potential target, which
+
+123
+00:09:22,020 --> 00:09:24,819
+is typically a 1:1 measured move.
+
+124
+00:09:24,819 --> 00:09:31,930
+So, the profit target for the setup is the
+distance of the triangle added to the top.
+
+125
+00:09:31,930 --> 00:09:36,720
+Regarding stops, there are multiple areas
+where you can place your stop orders.
+
+126
+00:09:36,720 --> 00:09:42,470
+First, you can place the stop order beneath
+the uptrend line.
+
+127
+00:09:42,470 --> 00:09:45,829
+You can also use the low of the breakout candle.
+
+128
+00:09:45,829 --> 00:09:51,870
+If the price is able to break out, you can
+place your stop below the low of the candlestick.
+
+129
+00:09:51,870 --> 00:09:58,250
+This way if the price reverses, you are not
+waiting until the uptrend line is breached.
+
+130
+00:09:58,250 --> 00:10:01,329
+This way you can keep more of your gains.
+
+131
+00:10:01,329 --> 00:10:08,120
+Also, keep in mind, while ascending triangles
+provide a profit target, that target is just
+
+132
+00:10:08,120 --> 00:10:09,750
+an estimate.
+
+133
+00:10:09,750 --> 00:10:14,699
+The price may far exceed that target, or fail
+to reach it.
+
+134
+00:10:14,699 --> 00:10:19,480
+This is why, using proper risk-reward ratios
+is mandatory.
+
+135
+00:10:19,480 --> 00:10:25,290
+Otherwise, the risk is that the triangle pattern
+will transform into something else and will
+
+136
+00:10:25,290 --> 00:10:31,540
+invalidate the reason you have entered in
+that particular trade in the first place.
+
+137
+00:10:31,540 --> 00:10:35,589
+If you got any value from this and learned
+something new, don’t forget to subscribe,
+
+138
+00:10:35,589 --> 00:10:39,680
+hit the bell icon and leave us a like to show
+your support.
+

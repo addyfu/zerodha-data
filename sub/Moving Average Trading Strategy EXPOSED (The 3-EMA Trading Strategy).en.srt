@@ -1,0 +1,1284 @@
+1
+00:00:00,079 --> 00:00:05,400
+I'm about to reveal a powerful technique
+
+2
+00:00:03,179 --> 00:00:07,919
+you could apply right now using three
+
+3
+00:00:05,400 --> 00:00:10,679
+moving averages which will allow you to
+
+4
+00:00:07,919 --> 00:00:13,019
+read any Market with high accuracy we'll
+
+5
+00:00:10,679 --> 00:00:15,059
+cover multiple scenarios by analyzing
+
+6
+00:00:13,019 --> 00:00:17,520
+price position and the movement of
+
+7
+00:00:15,059 --> 00:00:19,980
+moving averages by the end of the video
+
+8
+00:00:17,520 --> 00:00:22,320
+you'll know exactly what is the state of
+
+9
+00:00:19,980 --> 00:00:26,160
+the General market structure Trend or
+
+10
+00:00:22,320 --> 00:00:28,380
+range the trend Direction up or down if
+
+11
+00:00:26,160 --> 00:00:30,840
+there are impulsive moves if there are
+
+12
+00:00:28,380 --> 00:00:33,480
+corrective moves if we have Dynamic
+
+13
+00:00:30,840 --> 00:00:36,300
+support or resistance if we have a trend
+
+14
+00:00:33,480 --> 00:00:37,320
+continuation or if a trend reversal is
+
+15
+00:00:36,300 --> 00:00:40,920
+imminent
+
+16
+00:00:37,320 --> 00:00:43,920
+you know the trail like subscribe and
+
+17
+00:00:40,920 --> 00:00:45,780
+stick around for the full video
+
+18
+00:00:43,920 --> 00:00:46,800
+let's look at the market which is an
+
+19
+00:00:45,780 --> 00:00:49,680
+uptrend
+
+20
+00:00:46,800 --> 00:00:51,239
+I added three moving averages the length
+
+21
+00:00:49,680 --> 00:00:54,539
+is not important yet
+
+22
+00:00:51,239 --> 00:00:57,840
+the first one is a 20 EMA the second one
+
+23
+00:00:54,539 --> 00:00:59,520
+is the 100 EMA and the third one is the
+
+24
+00:00:57,840 --> 00:01:01,680
+200 dma
+
+25
+00:00:59,520 --> 00:01:05,159
+this is the simplest definition of a
+
+26
+00:01:01,680 --> 00:01:08,760
+trend for an uptrend price is above or
+
+27
+00:01:05,159 --> 00:01:11,820
+at the 20 EMA which is above the 100 EMA
+
+28
+00:01:08,760 --> 00:01:15,420
+and above the 200 EMA
+
+29
+00:01:11,820 --> 00:01:19,680
+for a downtrend prices below or at the
+
+30
+00:01:15,420 --> 00:01:22,320
+20 EMA which is below the 100 EMA and
+
+31
+00:01:19,680 --> 00:01:25,140
+below the 200 one
+
+32
+00:01:22,320 --> 00:01:27,600
+for a valid Trend price and the moving
+
+33
+00:01:25,140 --> 00:01:30,479
+averages need to be aligned
+
+34
+00:01:27,600 --> 00:01:32,759
+if we look at this uptrending Market we
+
+35
+00:01:30,479 --> 00:01:35,100
+observe other key behaviors
+
+36
+00:01:32,759 --> 00:01:36,659
+price is pulling away from the moving
+
+37
+00:01:35,100 --> 00:01:39,720
+averages
+
+38
+00:01:36,659 --> 00:01:42,479
+the short-term moving average the 20 EMA
+
+39
+00:01:39,720 --> 00:01:44,700
+moves away from the medium term 1 the
+
+40
+00:01:42,479 --> 00:01:47,579
+100 EMA
+
+41
+00:01:44,700 --> 00:01:51,479
+the medium-term moving average has an
+
+42
+00:01:47,579 --> 00:01:54,000
+upward slope meaning it's not flat
+
+43
+00:01:51,479 --> 00:01:58,020
+there are no crossovers between the 100
+
+44
+00:01:54,000 --> 00:02:01,020
+and the 200 exponential moving averages
+
+45
+00:01:58,020 --> 00:02:03,680
+we also see increasing space between the
+
+46
+00:02:01,020 --> 00:02:03,680
+moving averages
+
+47
+00:02:03,899 --> 00:02:09,840
+the same for a downtrend price is
+
+48
+00:02:06,540 --> 00:02:13,140
+pulling away from the moving averages
+
+49
+00:02:09,840 --> 00:02:16,440
+the short-term moving average the 20 EMA
+
+50
+00:02:13,140 --> 00:02:19,020
+moves away from the medium term one
+
+51
+00:02:16,440 --> 00:02:22,620
+the medium-term moving average has a
+
+52
+00:02:19,020 --> 00:02:25,260
+downward slope it's not flat
+
+53
+00:02:22,620 --> 00:02:29,400
+there are no crossovers between the 100
+
+54
+00:02:25,260 --> 00:02:32,280
+and the 200 exponential moving averages
+
+55
+00:02:29,400 --> 00:02:35,180
+and we also see increasing space between
+
+56
+00:02:32,280 --> 00:02:35,180
+the moving averages
+
+57
+00:02:36,000 --> 00:02:40,560
+here's how it looks like when Market
+
+58
+00:02:37,739 --> 00:02:43,980
+makes a shallow pullback in an uptrend
+
+59
+00:02:40,560 --> 00:02:46,760
+usually price moves back to the 100 EMA
+
+60
+00:02:43,980 --> 00:02:50,760
+the medium term one
+
+61
+00:02:46,760 --> 00:02:55,560
+also price usually bounces at the 20ma
+
+62
+00:02:50,760 --> 00:02:58,920
+in 100 EMA and then the trend resumes
+
+63
+00:02:55,560 --> 00:03:02,580
+also an important note the space between
+
+64
+00:02:58,920 --> 00:03:05,180
+the 100 and the long term 200 EMA is not
+
+65
+00:03:02,580 --> 00:03:05,180
+Contracting
+
+66
+00:03:05,280 --> 00:03:10,140
+and here's a shallow pullback in a
+
+67
+00:03:07,200 --> 00:03:11,700
+downtrend price moves back to the 100
+
+68
+00:03:10,140 --> 00:03:16,860
+EMA
+
+69
+00:03:11,700 --> 00:03:18,780
+price bounces at 20 in 100 EMA and that
+
+70
+00:03:16,860 --> 00:03:22,019
+Trend resumes
+
+71
+00:03:18,780 --> 00:03:26,780
+and the space between the 100 EMA and
+
+72
+00:03:22,019 --> 00:03:26,780
+the long-term 200 EMA is not Contracting
+
+73
+00:03:27,300 --> 00:03:31,739
+here's how it looks like when Market
+
+74
+00:03:29,040 --> 00:03:34,200
+makes a deep retracement in a trend
+
+75
+00:03:31,739 --> 00:03:37,620
+price moves back to the long-term moving
+
+76
+00:03:34,200 --> 00:03:41,580
+average the 200 EMA
+
+77
+00:03:37,620 --> 00:03:44,159
+price usually bounces at the 200 EMA and
+
+78
+00:03:41,580 --> 00:03:46,440
+the trend resumes
+
+79
+00:03:44,159 --> 00:03:47,879
+the medium-term moving average will
+
+80
+00:03:46,440 --> 00:03:50,640
+become flat
+
+81
+00:03:47,879 --> 00:03:55,680
+and will even have an opposite angle but
+
+82
+00:03:50,640 --> 00:03:58,799
+a slope of the 200 EMA is still trending
+
+83
+00:03:55,680 --> 00:04:02,640
+and very important the space between the
+
+84
+00:03:58,799 --> 00:04:06,080
+100 EMA and the 200 EMA becomes smaller
+
+85
+00:04:02,640 --> 00:04:06,080
+you'll see a contraction
+
+86
+00:04:06,780 --> 00:04:11,640
+when the market is overextended the
+
+87
+00:04:09,360 --> 00:04:12,840
+trend will offer some signals that it
+
+88
+00:04:11,640 --> 00:04:15,060
+might reverse
+
+89
+00:04:12,840 --> 00:04:18,540
+first one and the most important one
+
+90
+00:04:15,060 --> 00:04:21,900
+price is unable to break away from the
+
+91
+00:04:18,540 --> 00:04:24,840
+20 and the 100 EMAs you'll see price
+
+92
+00:04:21,900 --> 00:04:27,860
+hanging around this area price doesn't
+
+93
+00:04:24,840 --> 00:04:31,380
+have the power to move
+
+94
+00:04:27,860 --> 00:04:34,380
+also price breaks the medium term 100
+
+95
+00:04:31,380 --> 00:04:37,020
+EMA in the opposite direction
+
+96
+00:04:34,380 --> 00:04:40,020
+when you see these two signs be ready
+
+97
+00:04:37,020 --> 00:04:42,960
+for a possible reversal
+
+98
+00:04:40,020 --> 00:04:45,360
+once the price continues to push a
+
+99
+00:04:42,960 --> 00:04:48,540
+larger reversal might take place
+
+100
+00:04:45,360 --> 00:04:51,720
+you'll see a break of the long term 200
+
+101
+00:04:48,540 --> 00:04:55,919
+EMA in the opposite direction
+
+102
+00:04:51,720 --> 00:04:58,380
+or the 100 EMA and the 200 EMA will
+
+103
+00:04:55,919 --> 00:05:00,720
+cross in the opposite direction
+
+104
+00:04:58,380 --> 00:05:03,720
+as a side note you don't trade
+
+105
+00:05:00,720 --> 00:05:05,400
+crossovers you are just observing the
+
+106
+00:05:03,720 --> 00:05:08,880
+evolution of the lines on the chart
+
+107
+00:05:05,400 --> 00:05:11,820
+we'll talk about this later
+
+108
+00:05:08,880 --> 00:05:14,940
+when a market is in a Range the angle of
+
+109
+00:05:11,820 --> 00:05:17,699
+most moving averages is flat
+
+110
+00:05:14,940 --> 00:05:20,280
+price is moving close to the medium-term
+
+111
+00:05:17,699 --> 00:05:22,320
+moving average the 100 EMA
+
+112
+00:05:20,280 --> 00:05:23,600
+this is the favorite location of the
+
+113
+00:05:22,320 --> 00:05:26,220
+price
+
+114
+00:05:23,600 --> 00:05:28,860
+medium term and long-term moving
+
+115
+00:05:26,220 --> 00:05:30,660
+averages are close or on top of each
+
+116
+00:05:28,860 --> 00:05:33,600
+other
+
+117
+00:05:30,660 --> 00:05:35,639
+you'll also see many crossovers between
+
+118
+00:05:33,600 --> 00:05:39,960
+all three moving averages
+
+119
+00:05:35,639 --> 00:05:43,699
+between the 20ma and the 100 EMA and the
+
+120
+00:05:39,960 --> 00:05:43,699
+100 EMA and the 201
+
+121
+00:05:44,699 --> 00:05:49,680
+so let's analyze this chart first the
+
+122
+00:05:48,360 --> 00:05:52,979
+trend is up
+
+123
+00:05:49,680 --> 00:05:56,820
+price is above the 100 EMA in the 100
+
+124
+00:05:52,979 --> 00:05:59,820
+dma is above the 200 EMA
+
+125
+00:05:56,820 --> 00:06:04,080
+here we have a pullback price is near
+
+126
+00:05:59,820 --> 00:06:07,500
+the medium term 100 EMA and the 100 EMA
+
+127
+00:06:04,080 --> 00:06:09,419
+is above the 200 EMA
+
+128
+00:06:07,500 --> 00:06:11,820
+here's a retracement
+
+129
+00:06:09,419 --> 00:06:14,400
+price is near the long-term moving
+
+130
+00:06:11,820 --> 00:06:17,940
+average the 200 EMA
+
+131
+00:06:14,400 --> 00:06:19,740
+and the 100 EMA is still above the 200
+
+132
+00:06:17,940 --> 00:06:21,419
+EMA
+
+133
+00:06:19,740 --> 00:06:24,780
+here's a reversal
+
+134
+00:06:21,419 --> 00:06:27,300
+price breaks the 200 EMA and the
+
+135
+00:06:24,780 --> 00:06:30,120
+medium-term moving average is crossing
+
+136
+00:06:27,300 --> 00:06:32,940
+the long-term moving average
+
+137
+00:06:30,120 --> 00:06:36,000
+and here's a range price stays around
+
+138
+00:06:32,940 --> 00:06:40,080
+the 100 EMA
+
+139
+00:06:36,000 --> 00:06:42,919
+and the 100 EMA is crossing the 200 EMA
+
+140
+00:06:40,080 --> 00:06:42,919
+multiple times
+
+141
+00:06:43,080 --> 00:06:52,740
+for a downtrend prices below the 100 EMA
+
+142
+00:06:47,039 --> 00:06:55,740
+in the 100 EMA is below the 200 EMA
+
+143
+00:06:52,740 --> 00:06:58,199
+here's a pullback price is near the
+
+144
+00:06:55,740 --> 00:07:01,440
+medium term 100 EMA
+
+145
+00:06:58,199 --> 00:07:03,560
+and the 100 EMA is below the long-term
+
+146
+00:07:01,440 --> 00:07:03,560
+one
+
+147
+00:07:03,600 --> 00:07:10,259
+here we have a retracement price is near
+
+148
+00:07:06,660 --> 00:07:14,699
+the long-term moving average the 201
+
+149
+00:07:10,259 --> 00:07:16,620
+and the 100 EMA is still below the 200
+
+150
+00:07:14,699 --> 00:07:20,099
+EMA
+
+151
+00:07:16,620 --> 00:07:24,300
+here's a reversal price is breaking the
+
+152
+00:07:20,099 --> 00:07:26,940
+200 EMA and the 100 EMA crossed above
+
+153
+00:07:24,300 --> 00:07:29,460
+the 200 EMA
+
+154
+00:07:26,940 --> 00:07:31,740
+and here's a range price stays around
+
+155
+00:07:29,460 --> 00:07:34,500
+the 100 EMA
+
+156
+00:07:31,740 --> 00:07:38,180
+and team 100 EMA is crossing the
+
+157
+00:07:34,500 --> 00:07:38,180
+long-term one multiple times
+
+158
+00:07:39,360 --> 00:07:45,300
+moving averages also show momentum first
+
+159
+00:07:42,660 --> 00:07:46,800
+you analyze price versus the short-term
+
+160
+00:07:45,300 --> 00:07:49,979
+moving average
+
+161
+00:07:46,800 --> 00:07:52,979
+when price is not hitting the 20 EMA
+
+162
+00:07:49,979 --> 00:07:55,319
+price has momentum and is showing
+
+163
+00:07:52,979 --> 00:07:57,539
+impulsive price action
+
+164
+00:07:55,319 --> 00:07:59,520
+then you look at the price versus the
+
+165
+00:07:57,539 --> 00:08:02,639
+medium-term moving average
+
+166
+00:07:59,520 --> 00:08:05,759
+if the price is not touching the 100 EMA
+
+167
+00:08:02,639 --> 00:08:09,419
+again price is in a strong impulsive
+
+168
+00:08:05,759 --> 00:08:12,840
+price action the angle of the short-term
+
+169
+00:08:09,419 --> 00:08:16,259
+moving average is also important a steep
+
+170
+00:08:12,840 --> 00:08:18,120
+angle of the 20 EMA often indicates a
+
+171
+00:08:16,259 --> 00:08:20,699
+strong momentum
+
+172
+00:08:18,120 --> 00:08:23,099
+you also need to analyze the short-term
+
+173
+00:08:20,699 --> 00:08:27,120
+moving average in relation to the medium
+
+174
+00:08:23,099 --> 00:08:32,419
+term one if the 20ma is parallel with
+
+175
+00:08:27,120 --> 00:08:32,419
+the 101 this indicates strong momentum
+
+176
+00:08:32,640 --> 00:08:39,060
+and here's a market with downward
+
+177
+00:08:34,380 --> 00:08:41,039
+momentum the short-term EMA the 21 is a
+
+178
+00:08:39,060 --> 00:08:42,240
+good indicator to read the Market's
+
+179
+00:08:41,039 --> 00:08:45,600
+volatility
+
+180
+00:08:42,240 --> 00:08:49,260
+if the 20ma stays away from the medium
+
+181
+00:08:45,600 --> 00:08:52,800
+term 1 then the market is very impulsive
+
+182
+00:08:49,260 --> 00:08:55,800
+if the angle of the 20ma is steep then
+
+183
+00:08:52,800 --> 00:08:59,760
+the market is showing strong impulse
+
+184
+00:08:55,800 --> 00:09:03,060
+and again if the 20ma is parallel with
+
+185
+00:08:59,760 --> 00:09:07,760
+the 101 and price is not touching that
+
+186
+00:09:03,060 --> 00:09:07,760
+zone this indicates strong momentum
+
+187
+00:09:07,800 --> 00:09:12,560
+moving averages are offering Dynamic
+
+188
+00:09:10,080 --> 00:09:15,720
+areas of support and resistance when
+
+189
+00:09:12,560 --> 00:09:20,399
+very strong momentum is present
+
+190
+00:09:15,720 --> 00:09:23,040
+both 20 and 100 EMA often work as bounce
+
+191
+00:09:20,399 --> 00:09:24,540
+areas when price is showing strong
+
+192
+00:09:23,040 --> 00:09:27,180
+impulse
+
+193
+00:09:24,540 --> 00:09:30,600
+they also offer Dynamic support or
+
+194
+00:09:27,180 --> 00:09:35,459
+resistance when the 20 and the 100 EMA
+
+195
+00:09:30,600 --> 00:09:37,620
+have an angle and are not going sideways
+
+196
+00:09:35,459 --> 00:09:40,620
+medium term moving averages in
+
+197
+00:09:37,620 --> 00:09:43,980
+particular are often bounce zones when
+
+198
+00:09:40,620 --> 00:09:47,040
+the moving averages have a steeper angle
+
+199
+00:09:43,980 --> 00:09:49,680
+also you have another area when price
+
+200
+00:09:47,040 --> 00:09:52,740
+reaches the 200 EMA
+
+201
+00:09:49,680 --> 00:09:56,000
+which is the last bouncing spot within
+
+202
+00:09:52,740 --> 00:09:56,000
+the current Trend Direction
+
+203
+00:09:56,519 --> 00:10:02,160
+the moving averages can also be breakout
+
+204
+00:09:59,339 --> 00:10:04,200
+spots this happens when price is
+
+205
+00:10:02,160 --> 00:10:06,779
+breaking the medium term moving average
+
+206
+00:10:04,200 --> 00:10:10,080
+the 100 EMA
+
+207
+00:10:06,779 --> 00:10:12,959
+this is the first warning signal
+
+208
+00:10:10,080 --> 00:10:14,820
+then if price is breaking the long-term
+
+209
+00:10:12,959 --> 00:10:18,980
+moving average this is another
+
+210
+00:10:14,820 --> 00:10:18,980
+indication of a possible reversal
+
+211
+00:10:19,500 --> 00:10:24,600
+here's another common pattern when the
+
+212
+00:10:22,260 --> 00:10:27,540
+price is moving sideways in a correction
+
+213
+00:10:24,600 --> 00:10:30,720
+or range moving averages will then have
+
+214
+00:10:27,540 --> 00:10:33,660
+a pool effect on price and drag price
+
+215
+00:10:30,720 --> 00:10:37,019
+back to the moving averages
+
+216
+00:10:33,660 --> 00:10:40,200
+this often creates a false Breakout and
+
+217
+00:10:37,019 --> 00:10:43,019
+extends the sideways price action
+
+218
+00:10:40,200 --> 00:10:46,500
+price tends to retrace back after a
+
+219
+00:10:43,019 --> 00:10:47,760
+breakout away from the 100 EMA and move
+
+220
+00:10:46,500 --> 00:10:51,300
+back to it
+
+221
+00:10:47,760 --> 00:10:55,160
+and the long term 200 EMA also tends to
+
+222
+00:10:51,300 --> 00:10:55,160
+be involved in the middle of the range
+
+223
+00:10:55,860 --> 00:11:00,300
+now I get asked a lot which moving
+
+224
+00:10:58,620 --> 00:11:02,880
+averages are the best
+
+225
+00:11:00,300 --> 00:11:05,300
+from my experience most moving averages
+
+226
+00:11:02,880 --> 00:11:08,220
+work well if you use them properly
+
+227
+00:11:05,300 --> 00:11:10,320
+whether you choose between a simple and
+
+228
+00:11:08,220 --> 00:11:12,360
+exponential or a different type of
+
+229
+00:11:10,320 --> 00:11:13,440
+moving average it really shouldn't
+
+230
+00:11:12,360 --> 00:11:17,040
+matter much
+
+231
+00:11:13,440 --> 00:11:19,860
+the difference between a 20 EMA or a 20
+
+232
+00:11:17,040 --> 00:11:21,600
+simple moving average is very small and
+
+233
+00:11:19,860 --> 00:11:23,160
+the understanding of the market will
+
+234
+00:11:21,600 --> 00:11:25,380
+roughly be the same
+
+235
+00:11:23,160 --> 00:11:27,720
+I prefer using exponential moving
+
+236
+00:11:25,380 --> 00:11:30,899
+averages because they Place more weight
+
+237
+00:11:27,720 --> 00:11:33,300
+on the most recent candles as opposed to
+
+238
+00:11:30,899 --> 00:11:37,920
+the simple moving average
+
+239
+00:11:33,300 --> 00:11:41,420
+I use the 20 100 and 200 EMA but you can
+
+240
+00:11:37,920 --> 00:11:41,420
+change the period as you wish
+
+241
+00:11:41,519 --> 00:11:46,320
+the space between the moving averages
+
+242
+00:11:43,620 --> 00:11:50,100
+will provide information about the trend
+
+243
+00:11:46,320 --> 00:11:53,880
+or lack of it if there is no space then
+
+244
+00:11:50,100 --> 00:11:56,459
+price is in a range and not trending
+
+245
+00:11:53,880 --> 00:11:59,220
+when there's no space price will have
+
+246
+00:11:56,459 --> 00:12:01,440
+difficulties breaking away this means
+
+247
+00:11:59,220 --> 00:12:03,660
+that price will often respect the
+
+248
+00:12:01,440 --> 00:12:04,920
+support and resistance levels of the
+
+249
+00:12:03,660 --> 00:12:07,320
+range
+
+250
+00:12:04,920 --> 00:12:09,060
+and the risk of false breakouts is
+
+251
+00:12:07,320 --> 00:12:12,180
+higher
+
+252
+00:12:09,060 --> 00:12:14,820
+no space also means that price could
+
+253
+00:12:12,180 --> 00:12:16,579
+also be reversing and moving into a new
+
+254
+00:12:14,820 --> 00:12:21,420
+trend
+
+255
+00:12:16,579 --> 00:12:24,120
+5100 EMA crosses over the 201 relatively
+
+256
+00:12:21,420 --> 00:12:27,079
+quickly then the price might changing
+
+257
+00:12:24,120 --> 00:12:27,079
+the trend Direction
+
+258
+00:12:27,240 --> 00:12:32,760
+small space also means that price might
+
+259
+00:12:30,120 --> 00:12:36,000
+be starting a new trend or a new
+
+260
+00:12:32,760 --> 00:12:38,579
+momentum could start soon after a period
+
+261
+00:12:36,000 --> 00:12:40,260
+of contraction an expansion one must
+
+262
+00:12:38,579 --> 00:12:43,079
+follow
+
+263
+00:12:40,260 --> 00:12:46,380
+when you see increasing space price is
+
+264
+00:12:43,079 --> 00:12:48,720
+showing strong or increasing momentum
+
+265
+00:12:46,380 --> 00:12:51,720
+minor pullbacks are often good
+
+266
+00:12:48,720 --> 00:12:54,300
+continuation trade setups
+
+267
+00:12:51,720 --> 00:12:57,060
+big space between the moving averages
+
+268
+00:12:54,300 --> 00:12:59,279
+but the space is flat or slightly
+
+269
+00:12:57,060 --> 00:13:00,720
+decreasing means that the correction
+
+270
+00:12:59,279 --> 00:13:03,240
+will follow
+
+271
+00:13:00,720 --> 00:13:05,639
+in this case you need to wait for price
+
+272
+00:13:03,240 --> 00:13:07,860
+to finish its consolidation and the
+
+273
+00:13:05,639 --> 00:13:09,680
+correction before continuing with the
+
+274
+00:13:07,860 --> 00:13:11,880
+trend again
+
+275
+00:13:09,680 --> 00:13:14,399
+Contracting space between moving
+
+276
+00:13:11,880 --> 00:13:17,339
+averages means that price could make a
+
+277
+00:13:14,399 --> 00:13:19,800
+larger and deeper retracement
+
+278
+00:13:17,339 --> 00:13:22,820
+or it might be ready for a full reversal
+
+279
+00:13:19,800 --> 00:13:22,820
+in the opposite direction
+
+280
+00:13:23,820 --> 00:13:29,779
+let's talk about crossovers let's say
+
+281
+00:13:26,459 --> 00:13:32,160
+between the 20 and the 200 EMA
+
+282
+00:13:29,779 --> 00:13:35,399
+ironically this is often a first
+
+283
+00:13:32,160 --> 00:13:38,339
+strategy that beginners use but let's be
+
+284
+00:13:35,399 --> 00:13:40,260
+clear crossovers are not a good strategy
+
+285
+00:13:38,339 --> 00:13:43,680
+for taking entries
+
+286
+00:13:40,260 --> 00:13:46,500
+when the 20 EMA and the 200 period
+
+287
+00:13:43,680 --> 00:13:49,860
+moving average are at the same price the
+
+288
+00:13:46,500 --> 00:13:52,380
+trend is not as clear as it should be
+
+289
+00:13:49,860 --> 00:13:55,019
+what you are really observing at the
+
+290
+00:13:52,380 --> 00:13:58,139
+crossover point is that the average of
+
+291
+00:13:55,019 --> 00:14:02,399
+the last 20 prices is exactly the same
+
+292
+00:13:58,139 --> 00:14:04,620
+as the average of the last 200 prices
+
+293
+00:14:02,399 --> 00:14:08,040
+if you are looking for Trends to trade
+
+294
+00:14:04,620 --> 00:14:11,519
+this equal relationship of the two EMAs
+
+295
+00:14:08,040 --> 00:14:14,519
+is not a reliable indication of a trend
+
+296
+00:14:11,519 --> 00:14:18,120
+here are the two main consequences when
+
+297
+00:14:14,519 --> 00:14:21,120
+the 20ma crosses the 200 EMA
+
+298
+00:14:18,120 --> 00:14:23,279
+price is either starting a period with a
+
+299
+00:14:21,120 --> 00:14:26,339
+larger consolidation
+
+300
+00:14:23,279 --> 00:14:29,000
+or price is about to confirm a larger
+
+301
+00:14:26,339 --> 00:14:29,000
+reversal
+
+302
+00:14:30,120 --> 00:14:35,760
+now the moving average analysis is just
+
+303
+00:14:33,240 --> 00:14:39,420
+one piece of the puzzle these are
+
+304
+00:14:35,760 --> 00:14:42,360
+lagging tools which means the EMAs will
+
+305
+00:14:39,420 --> 00:14:45,360
+move after the price moves you will have
+
+306
+00:14:42,360 --> 00:14:48,240
+a delay but contrary to what is said
+
+307
+00:14:45,360 --> 00:14:50,880
+many price action Traders do utilize
+
+308
+00:14:48,240 --> 00:14:54,060
+moving averages they don't rely on
+
+309
+00:14:50,880 --> 00:14:56,639
+moving average crossover signals instead
+
+310
+00:14:54,060 --> 00:14:59,639
+their focus is on understanding Market
+
+311
+00:14:56,639 --> 00:15:01,500
+structure and price action with the help
+
+312
+00:14:59,639 --> 00:15:04,380
+of moving averages
+
+313
+00:15:01,500 --> 00:15:07,320
+moving averages although lagging will
+
+314
+00:15:04,380 --> 00:15:09,420
+help you if you know how to use them if
+
+315
+00:15:07,320 --> 00:15:11,160
+you want a follow-up video in which
+
+316
+00:15:09,420 --> 00:15:14,040
+we'll combine this moving average
+
+317
+00:15:11,160 --> 00:15:17,040
+analysis with price action and Market
+
+318
+00:15:14,040 --> 00:15:20,040
+structure leave us a like And subscribe
+
+319
+00:15:17,040 --> 00:15:23,760
+and check out our Academy program if you
+
+320
+00:15:20,040 --> 00:15:26,660
+want to further level up your Trading
+
+321
+00:15:23,760 --> 00:15:26,660
+until next time
+

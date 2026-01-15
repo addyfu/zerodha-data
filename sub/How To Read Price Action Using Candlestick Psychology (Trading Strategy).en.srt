@@ -1,0 +1,720 @@
+1
+00:00:00,080 --> 00:00:05,280
+Let me tell you a secret: price action and 
+candlestick psychology is what separates  
+
+2
+00:00:05,280 --> 00:00:10,520
+the true market masters from the rest. 
+ 
+You see, every candlestick on your chart is  
+
+3
+00:00:10,520 --> 00:00:16,680
+a visual representation of the decisions made 
+by thousands of traders, each acting on their  
+
+4
+00:00:16,680 --> 00:00:22,800
+own beliefs, fears, and expectations.
+ 
+Well, candlestick psychology is about  
+
+5
+00:00:22,800 --> 00:00:26,680
+understanding that the market is 
+not just a series of random candles,  
+
+6
+00:00:26,680 --> 00:00:30,960
+but a reflection of human behavior.
+So let’s talk about it. This is  
+
+7
+00:00:30,960 --> 00:00:37,280
+how I personally read each candle! 
+ 
+A long candlestick, also called a trend candle,  
+
+8
+00:00:37,280 --> 00:00:42,560
+whether bullish or bearish, represents a 
+significant imbalance between buyers and  
+
+9
+00:00:42,560 --> 00:00:46,720
+sellers during that time period.
+The length of the candle body  
+
+10
+00:00:46,720 --> 00:00:52,320
+reflects the intensity of this imbalance.
+ 
+A long bullish candlestick forms when the  
+
+11
+00:00:52,320 --> 00:00:56,440
+closing price is significantly 
+higher than the opening price. 
+
+12
+00:00:56,440 --> 00:01:02,040
+In terms of supply and demand, this indicates 
+that buyers were in complete control during  
+
+13
+00:01:02,040 --> 00:01:08,200
+this period. They aggressively bid up 
+prices, absorbing any available supply. 
+  
+
+14
+00:01:08,200 --> 00:01:14,000
+The lack of upper wick suggests that buyers 
+remained in control until the very end of the  
+
+15
+00:01:14,000 --> 00:01:20,360
+candle, with the closing price near the high.
+This type of candle often signals strong  
+
+16
+00:01:20,360 --> 00:01:23,320
+bullish sentiment.
+Buyers are confident  
+
+17
+00:01:23,320 --> 00:01:28,440
+and willing to push prices higher.
+ 
+It can potentially indicate the start of a new  
+
+18
+00:01:28,440 --> 00:01:34,840
+uptrend or the continuation of an existing one.
+The psychology here is one of optimism  
+
+19
+00:01:34,840 --> 00:01:39,600
+and aggression from the buyers.
+ 
+On the flip side, a long bearish  
+
+20
+00:01:39,600 --> 00:01:45,360
+candlestick forms when the closing price is 
+significantly lower than the opening price. 
+
+21
+00:01:45,360 --> 00:01:51,040
+This indicates that sellers dominated the 
+session, aggressively pushing prices lower. 
+  
+
+22
+00:01:51,040 --> 00:01:56,720
+The lack of lower wick suggests that 
+sellers remained in control until the close,  
+
+23
+00:01:56,720 --> 00:02:01,640
+with the price ending near the low.
+This type of candle signals strong  
+
+24
+00:02:01,640 --> 00:02:08,400
+bearish sentiment. Sellers are confident and in 
+control, potentially indicating the start of a new  
+
+25
+00:02:08,400 --> 00:02:15,040
+downtrend or the continuation of an existing one.
+The psychology here is one of pessimism and  
+
+26
+00:02:15,040 --> 00:02:19,120
+aggression from the sellers.
+ 
+ 
+ 
+A short candlestick, whether  
+
+27
+00:02:19,120 --> 00:02:25,640
+bullish or bearish, represents a period of 
+relative balance between buyers and sellers. 
+
+28
+00:02:25,640 --> 00:02:31,760
+The small size of the candle body indicates 
+that neither side was able to gain a significant  
+
+29
+00:02:31,760 --> 00:02:36,600
+advantage during that time frame.
+ 
+ 
+From a supply and demand perspective,  
+
+30
+00:02:36,600 --> 00:02:43,440
+a short candlestick suggests that the forces of 
+buying and selling were largely in equilibrium. 
+
+31
+00:02:43,440 --> 00:02:49,520
+This type of candle often indicates a period 
+of indecision or consolidation in the market. 
+ 
+
+32
+00:02:49,520 --> 00:02:56,280
+Neither buyers nor sellers have a clear advantage, 
+leading to a relatively narrow trading range. 
+
+33
+00:02:56,280 --> 00:03:02,240
+The psychology here is one of uncertainty 
+and caution from both sides of the market.
+  
+
+34
+00:03:02,240 --> 00:03:05,240
+When a series of short candlesticks appear,  
+
+35
+00:03:05,240 --> 00:03:12,080
+it may show declining momentum in the current 
+trend or be a symptom of sideways movement.
+ 
+  
+
+36
+00:03:12,080 --> 00:03:17,880
+A doji candle forms when the opening 
+and closing prices are virtually equal. 
+
+37
+00:03:17,880 --> 00:03:22,320
+This means that despite any price 
+fluctuations during the period,  
+
+38
+00:03:22,320 --> 00:03:28,680
+buyers and sellers were ultimately in balance, 
+neither side being able to gain the upper hand.
+  
+
+39
+00:03:28,680 --> 00:03:34,400
+From a supply and demand perspective, a doji 
+represents a moment of indecision, a pause  
+
+40
+00:03:34,400 --> 00:03:41,160
+in the ongoing war between buyers and sellers.
+ 
+As the candle opens, buyers attempt to bid prices  
+
+41
+00:03:41,160 --> 00:03:47,320
+higher, while sellers attempt to drive prices 
+lower. Over the course of the period, neither  
+
+42
+00:03:47,320 --> 00:03:53,800
+side is able to maintain a significant advantage.
+Every advance by the buyers is met with equal  
+
+43
+00:03:53,800 --> 00:03:59,720
+selling pressure, and every decline instigated 
+by the sellers is met with equal buying support. 
+
+44
+00:04:00,920 --> 00:04:05,760
+This back-and-forth results in the price 
+oscillating around the open, ultimately  
+
+45
+00:04:05,760 --> 00:04:11,200
+closing at or very near the same level. 
+ 
+From a psychological standpoint,  
+
+46
+00:04:11,200 --> 00:04:15,920
+a doji suggests that the market is 
+at a crossroads. The previous trend,  
+
+47
+00:04:15,920 --> 00:04:22,240
+whether bullish or bearish, has lost momentum.
+Market participants are reassessing their  
+
+48
+00:04:22,240 --> 00:04:29,720
+positions, reevaluating their convictions in light 
+of new information or shifting market dynamics. 
+
+49
+00:04:30,240 --> 00:04:36,440
+This moment of collective hesitation can be 
+a precursor to significant market moves. 
+  
+
+50
+00:04:36,440 --> 00:04:42,400
+Candlesticks with long upper and lower wicks 
+on both sides of the real body represent a  
+
+51
+00:04:42,400 --> 00:04:49,640
+period of significant volatility and indecision.
+ 
+As the candle opens, buyers push prices higher,  
+
+52
+00:04:49,640 --> 00:04:54,320
+as indicated by the long upper wick. 
+This shows that there was significant  
+
+53
+00:04:54,320 --> 00:04:59,880
+buying pressure during this period.
+However, at the higher prices, sellers  
+
+54
+00:04:59,880 --> 00:05:06,840
+stepped in aggressively, driving prices back down.
+The long lower wick shows that sellers were able  
+
+55
+00:05:06,840 --> 00:05:12,840
+to push prices significantly lower.
+But here they meet strong opposition.  
+
+56
+00:05:12,840 --> 00:05:18,320
+Buyers re-entered the market at these 
+lower prices, bidding prices back up.
+  
+
+57
+00:05:18,320 --> 00:05:23,080
+This back-and-forth between buyers and 
+sellers continues throughout the period,  
+
+58
+00:05:23,080 --> 00:05:28,960
+resulting in a relatively small real body (which 
+is the difference between the open and close),  
+
+59
+00:05:28,960 --> 00:05:34,880
+compared to the total range of the candle 
+(the distance from the high to the low).
+  
+
+60
+00:05:34,880 --> 00:05:39,840
+From a psychological perspective, these 
+candles indicate a market in a state of  
+
+61
+00:05:39,840 --> 00:05:44,640
+high uncertainty and indecision.
+Neither buyers nor sellers are  
+
+62
+00:05:44,640 --> 00:05:49,720
+able to maintain control for long.
+The long wicks on both sides suggest  
+
+63
+00:05:49,720 --> 00:05:56,560
+that both bullish and bearish sentiment is 
+present, but neither side has a clear advantage.
+  
+
+64
+00:05:56,560 --> 00:06:01,280
+This type of price action often occurs 
+at key turning points in the market,  
+
+65
+00:06:01,280 --> 00:06:05,080
+or after a prolonged trend.
+It signifies that the previous  
+
+66
+00:06:05,080 --> 00:06:11,600
+trend is losing momentum and that a shift 
+in market sentiment may be underway.
+  
+
+67
+00:06:11,600 --> 00:06:18,080
+Candlesticks with long upper wicks and little 
+to no lower wick can signal a potential shift  
+
+68
+00:06:18,080 --> 00:06:25,320
+in market sentiment and supply/demand dynamics.
+ 
+As the candle opens, buyers are in control. They  
+
+69
+00:06:25,320 --> 00:06:31,600
+aggressively push prices higher, extending the 
+uptrend or rally from the previous periods. 
+
+70
+00:06:31,600 --> 00:06:36,000
+This buying pressure is reflected in 
+the long upper wick, which shows the  
+
+71
+00:06:36,000 --> 00:06:41,840
+highest price reached during the period.
+ 
+As prices reach these levels sellers begin  
+
+72
+00:06:41,840 --> 00:06:48,200
+to emerge, stepping in to take advantage of 
+what they perceive as overextended prices. 
+
+73
+00:06:48,200 --> 00:06:54,640
+They start to outweigh the buyers, creating 
+selling pressure that drives prices back down.
+  
+
+74
+00:06:54,640 --> 00:06:59,080
+From a supply and demand perspective, 
+these candles indicate a potential  
+
+75
+00:06:59,080 --> 00:07:03,360
+exhaustion point in an uptrend.
+At the higher prices, supply begins  
+
+76
+00:07:03,360 --> 00:07:10,360
+to outweigh demand as more participants view 
+the price as overextended and look to sell. 
+  
+
+77
+00:07:10,360 --> 00:07:16,400
+This shift in the supply/demand balance is what 
+causes the price to fall back from the highs. 
+
+78
+00:07:16,400 --> 00:07:21,720
+Psychologically, these candles can signal 
+a potential change in market sentiment. 
+  
+
+79
+00:07:21,720 --> 00:07:28,400
+The long upper wick suggests that the bullish 
+momentum that drove prices higher is decreasing. 
+
+80
+00:07:28,400 --> 00:07:32,840
+It's a visual representation of a 
+"buying exhaustion" - the point at  
+
+81
+00:07:32,840 --> 00:07:40,040
+which the upward trend loses steam as fewer 
+buyers are willing to push prices higher.
+ 
+
+82
+00:07:40,040 --> 00:07:47,080
+The candlestick with only a long lower wick can 
+also signal a potential shift in market sentiment. 
+
+83
+00:07:47,080 --> 00:07:52,680
+As the period begins, sellers are firmly 
+in control. They aggressively push prices  
+
+84
+00:07:52,680 --> 00:07:57,920
+lower, extending the downtrend or 
+decline from the previous periods. 
+
+85
+00:07:57,920 --> 00:08:02,440
+This selling pressure is reflected 
+in the long lower wick, which shows  
+
+86
+00:08:02,440 --> 00:08:08,720
+the lowest price reached during the timeframe.
+ 
+However, buyers are sensing an opportunity in the  
+
+87
+00:08:08,720 --> 00:08:15,200
+oversold conditions, and they start to step in.
+They begin to outweigh the sellers, creating a  
+
+88
+00:08:15,200 --> 00:08:21,040
+buying pressure that drives prices back up.
+ 
+From a supply and demand perspective,  
+
+89
+00:08:21,040 --> 00:08:25,760
+these candles indicate a potential 
+exhaustion point in a downtrend. 
+
+90
+00:08:25,760 --> 00:08:29,440
+At the lower prices, demand 
+begins to outweigh supply  
+
+91
+00:08:30,080 --> 00:08:35,360
+as more participants view the price 
+as undervalued and looked to buy. 
+
+92
+00:08:35,360 --> 00:08:41,040
+This shift in the supply/demand balance is what 
+caused the price to rebound from the lows.
+  
+
+93
+00:08:41,040 --> 00:08:46,600
+Psychologically, these candles can signal 
+a potential change in market sentiment. 
+
+94
+00:08:46,600 --> 00:08:51,600
+It's a visual representation of a "selling 
+climax" - the point at which the downward  
+
+95
+00:08:51,600 --> 00:08:57,880
+trend loses steam as fewer sellers 
+are willing to drive prices lower.
+  
+
+96
+00:08:57,880 --> 00:09:04,000
+Gap candles reflect dramatic shifts in 
+overnight sentiment and supply/demand dynamics. 
+
+97
+00:09:04,000 --> 00:09:09,680
+An up gap candle occurs when the lowest price 
+of a candle is higher than the highest price  
+
+98
+00:09:09,680 --> 00:09:13,080
+of the previous candle.
+Visually, this leaves a  
+
+99
+00:09:13,080 --> 00:09:18,720
+blank space or "gap" on the chart.
+ 
+Psychologically, an up gap candle  
+
+100
+00:09:18,720 --> 00:09:25,120
+suggests a significant shift in sentiment in 
+favor of the buyers. It indicates that buying  
+
+101
+00:09:25,120 --> 00:09:31,360
+pressure has intensified dramatically, to the 
+point where sellers were unable to drive the  
+
+102
+00:09:31,360 --> 00:09:37,520
+price down to the level of the previous close.
+ 
+It could reflect a more gradual shift in market  
+
+103
+00:09:37,520 --> 00:09:44,360
+psychology, where a critical mass of buyers has 
+decided that the current price is undervalued. 
+
+104
+00:09:44,360 --> 00:09:49,680
+Either way, the up gap signals that 
+demand has suddenly outpaced supply,  
+
+105
+00:09:49,680 --> 00:09:54,920
+and that the balance of power has shifted 
+decisively in favor of the buyers. 
+  
+
+106
+00:09:54,920 --> 00:10:00,880
+This can serve as a powerful signal to look for 
+buying opportunities, as the increased buying  
+
+107
+00:10:00,880 --> 00:10:08,040
+pressure could lead to further upside momentum.
+ 
+A down gap candle occurs when the highest price  
+
+108
+00:10:08,040 --> 00:10:12,920
+of a candle is lower than the 
+lowest price of the previous one. 
+
+109
+00:10:12,920 --> 00:10:18,960
+Psychologically, this suggests a significant 
+shift in sentiment in favor of the sellers. 
+
+110
+00:10:18,960 --> 00:10:24,840
+Selling pressure has intensified dramatically, 
+to the point where buyers were unable to drive  
+
+111
+00:10:24,840 --> 00:10:31,320
+the price up to the level of the previous close.
+ 
+It could reflect a more gradual shift in market  
+
+112
+00:10:31,320 --> 00:10:38,240
+psychology, where a critical mass of sellers has 
+decided that the current price is overvalued. 
+
+113
+00:10:38,240 --> 00:10:43,320
+This increased selling pressure could 
+lead to further downside momentum.
+  
+
+114
+00:10:43,320 --> 00:10:49,060
+Also, gap candles don't always lead to 
+continued movement in the direction of the gap. 
+
+115
+00:10:49,060 --> 00:10:53,520
+Sometimes, a gap candle can be a signal 
+of exhaustion, where the move has  
+
+116
+00:10:53,520 --> 00:10:58,680
+pushed the price to an unsustainable 
+level, leading to a rapid reversal.
+  
+
+117
+00:10:58,680 --> 00:11:04,200
+This is why many traders pay close attention 
+to gap fills - instances where the price moves  
+
+118
+00:11:04,200 --> 00:11:11,400
+back to fill the blank space left by the gap. 
+ 
+Now, very important: we're often tempted to react  
+
+119
+00:11:11,400 --> 00:11:16,720
+immediately to a single dramatic candle.
+For example, you're watching a market  
+
+120
+00:11:16,720 --> 00:11:21,680
+that's been in a steady uptrend, and 
+suddenly, a massive candle appears,  
+
+121
+00:11:21,680 --> 00:11:27,800
+much bigger than the previous candles.
+It's a bearish, compelling pattern, no doubt!
+  
+
+122
+00:11:27,800 --> 00:11:33,680
+But here's the thing: the market is a 
+complex, noisy place. At any given moment,  
+
+123
+00:11:33,680 --> 00:11:40,080
+there are many factors influencing price action.
+A single candle, no matter how dramatic,  
+
+124
+00:11:40,080 --> 00:11:46,240
+is just a snapshot of a very brief period 
+of time. It doesn't tell the whole story.
+  
+
+125
+00:11:46,240 --> 00:11:50,480
+That single dramatic candle it's 
+worth noting, but it's not enough  
+
+126
+00:11:50,480 --> 00:11:55,920
+on its own to base a conviction on.
+You need to gather more evidence.
+ 
+ 
+  
+
+127
+00:11:55,920 --> 00:12:01,440
+This is a critical lesson for all traders to 
+learn, but especially for beginners. The market  
+
+128
+00:12:01,440 --> 00:12:08,200
+has a way of generating all sorts of dramatic, 
+compelling signals on a minute-by-minute basis.  
+
+129
+00:12:08,200 --> 00:12:13,760
+It's easy to get caught up in the excitement, 
+to feel like you need to react to every candle.
+  
+
+130
+00:12:13,760 --> 00:12:18,720
+But the successful traders, the ones 
+who last in this game, know better. 
+
+131
+00:12:18,720 --> 00:12:24,360
+They know that the real edge comes not from 
+reacting to every signal, but from patiently  
+
+132
+00:12:24,360 --> 00:12:28,800
+waiting for the high-quality setups. 
+ 
+That’s why in the future videos,  
+
+133
+00:12:28,800 --> 00:12:34,680
+I plan to talk about the psychology of support 
+and resistance levels, and how to combine them  
+
+134
+00:12:34,680 --> 00:12:50,320
+with candlestick analysis. And in the meantime, go 
+ahead and watch one of these price action videos.
+

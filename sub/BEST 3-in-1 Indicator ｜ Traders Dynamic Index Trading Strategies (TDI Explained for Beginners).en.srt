@@ -1,0 +1,672 @@
+1
+00:00:01,060 --> 00:00:05,339
+Reaching the point of trading consistency
+is the ultimate goal of every trader.
+
+2
+00:00:05,339 --> 00:00:09,530
+And to achieve this milestone, you will need
+to incorporate three pillars in your trading,
+
+3
+00:00:09,530 --> 00:00:14,340
+which will require finding the market direction,
+evaluating the strength of the trend and effectively
+
+4
+00:00:14,340 --> 00:00:16,290
+assessing the volatility.
+
+5
+00:00:16,290 --> 00:00:20,400
+Most traders apply 3 or 4 indicators to get
+this information, but at the same time they
+
+6
+00:00:20,400 --> 00:00:22,050
+clutter their charts.
+
+7
+00:00:22,050 --> 00:00:25,449
+One viable solution to this problem is the
+Traders Dynamic Index.
+
+8
+00:00:25,449 --> 00:00:29,960
+In today’s video, we’ll discuss about
+the TDI indicator and I will share how to
+
+9
+00:00:29,960 --> 00:00:35,580
+correctly trade with it and how to incorporate
+it in a trading strategy.
+
+10
+00:00:35,580 --> 00:00:40,290
+Traders Dynamic Index is a hybrid indicator
+that can read the market sentiment, market
+
+11
+00:00:40,290 --> 00:00:42,970
+volatility, and momentum at the same time.
+
+12
+00:00:42,970 --> 00:00:47,530
+The advantage of combining the qualities of
+several indicators into one indicator is what
+
+13
+00:00:47,530 --> 00:00:49,780
+makes the TDI indicators so special.
+
+14
+00:00:49,780 --> 00:00:55,530
+The Traders Dynamic Index is based on three
+other popular indicators: the RSI, a moving
+
+15
+00:00:55,530 --> 00:00:57,600
+average and Bollinger Bands.
+
+16
+00:00:57,600 --> 00:01:02,250
+The standard RSI indicator determines the
+strength of the current trend, or if you want,
+
+17
+00:01:02,250 --> 00:01:04,030
+the rate of change in price.
+
+18
+00:01:04,030 --> 00:01:09,920
+The moving averages algorithm is used to smooth
+the lines and eliminate RSI false signals,
+
+19
+00:01:09,920 --> 00:01:15,260
+and Bollinger bands are used to estimate the
+amplitude of the oscillations, meaning the
+
+20
+00:01:15,260 --> 00:01:16,260
+volatility.
+
+21
+00:01:16,260 --> 00:01:19,600
+Now, let’s break down the Traders Dynamic
+Index indicator.
+
+22
+00:01:19,600 --> 00:01:22,650
+As you can see, the TDI has five lines.
+
+23
+00:01:22,650 --> 00:01:27,220
+The green line represents the RSI indicator
+and represents the market sentiment.
+
+24
+00:01:27,220 --> 00:01:31,259
+It shows you how the market is moving related
+to positive and negative expectation.
+
+25
+00:01:31,259 --> 00:01:37,069
+The red line is simply a moving average of
+the green line, meaning a simple moving average
+
+26
+00:01:37,069 --> 00:01:42,600
+applied on the relative strength index, and
+can be used for entries and exits in the market.
+
+27
+00:01:42,600 --> 00:01:46,030
+The yellow line is what we refer to as the
+overall market sentiment.
+
+28
+00:01:46,030 --> 00:01:50,619
+It’s the middle Bollinger Band and it shows
+the overall direction of the market.
+
+29
+00:01:50,619 --> 00:01:54,000
+The overall market has a tendency to do two
+things.
+
+30
+00:01:54,000 --> 00:01:58,130
+It can turn slowly, or it can continue to
+go in the initial direction.
+
+31
+00:01:58,130 --> 00:02:02,670
+This is because the moving average, usually
+of 50 period, is less responsive to quick
+
+32
+00:02:02,670 --> 00:02:04,840
+market changes and turns slowly.
+
+33
+00:02:04,840 --> 00:02:09,929
+Last but not least, we have two blue lines,
+one above and one below.
+
+34
+00:02:09,929 --> 00:02:14,599
+Those blue lines represent the volatility
+in the market, representing the upper and
+
+35
+00:02:14,599 --> 00:02:16,370
+lower Bollinger Bands.
+
+36
+00:02:16,370 --> 00:02:20,480
+They are increasing and decreasing in volatility.
+
+37
+00:02:20,480 --> 00:02:24,900
+Regarding the calculation procedure, you have
+several lookback periods you must tweak and
+
+38
+00:02:24,900 --> 00:02:25,900
+adjust.
+
+39
+00:02:25,900 --> 00:02:29,989
+The most important thing you must keep in
+mind is the fact that TDI indicator is based
+
+40
+00:02:29,989 --> 00:02:34,930
+on the RSI − all lines of the indicator
+are calculated on the information of the main
+
+41
+00:02:34,930 --> 00:02:36,430
+RSI oscillator.
+
+42
+00:02:36,430 --> 00:02:41,041
+RSI forms the overall graphic picture, because
+the main task is to assess the rate of the
+
+43
+00:02:41,041 --> 00:02:42,510
+change in the price.
+
+44
+00:02:42,510 --> 00:02:48,079
+• A shorter RSI period – below 10 - with
+be volatile and will have a lower level of
+
+45
+00:02:48,079 --> 00:02:49,079
+reliability.
+
+46
+00:02:49,079 --> 00:02:54,230
+• A longer RSI period – above 20 - smooths
+out the plotted line and will generate signals
+
+47
+00:02:54,230 --> 00:02:57,819
+that are more accurate
+I personally would not use a lookback period
+
+48
+00:02:57,819 --> 00:03:01,110
+below 20 on the RSI.
+
+49
+00:03:01,110 --> 00:03:04,430
+You can also change period of the moving average
+applied to the RSI.
+
+50
+00:03:04,430 --> 00:03:09,799
+I don’t like using fast moving averages,
+below 10, so I would backtest moving averages
+
+51
+00:03:09,799 --> 00:03:12,689
+with 12 or 21 lookback periods.
+
+52
+00:03:12,689 --> 00:03:16,250
+The Bollinger Bands periods must not be lower
+than the moving average period.
+
+53
+00:03:16,250 --> 00:03:21,900
+If you choose a period of 20 for the moving
+average and 20 for the Bollinger Bands, the
+
+54
+00:03:21,900 --> 00:03:23,569
+two lines will become one.
+
+55
+00:03:23,569 --> 00:03:28,439
+I prefer to apply a 50 period on the Bollinger
+Bands, and in some cases even a period of
+
+56
+00:03:28,439 --> 00:03:31,129
+100.
+
+57
+00:03:31,129 --> 00:03:35,859
+So how to trade with Traders Dynamic Index
+and what are the main signals offered by TDI
+
+58
+00:03:35,859 --> 00:03:36,859
+indicator?
+
+59
+00:03:36,859 --> 00:03:37,859
+1.
+
+60
+00:03:37,859 --> 00:03:41,549
+First signal: The crossover of the green and
+red lines
+
+61
+00:03:41,549 --> 00:03:45,680
+The short-term trend is determined by the
+relative arrangement of the green line in
+
+62
+00:03:45,680 --> 00:03:49,861
+relation to the red line:
+• the trend is considered ascending, when
+
+63
+00:03:49,861 --> 00:03:54,889
+the green line, representing the RSI, moves
+above the red line, the moving average;
+
+64
+00:03:54,889 --> 00:04:00,610
+• if the green line is below the red line,
+the market is considered bearish.
+
+65
+00:04:00,610 --> 00:04:02,299
+This is practically an entry trigger.
+
+66
+00:04:02,299 --> 00:04:07,430
+If the green line crosses the signal red line
+from below, it is a signal to buy; if it crosses
+
+67
+00:04:07,430 --> 00:04:09,969
+the red line from above, this is a signal
+to sell.
+
+68
+00:04:09,969 --> 00:04:14,599
+You enter, place the stop loss behind the
+nearest swing high/low and you take the profit
+
+69
+00:04:14,599 --> 00:04:19,310
+at the channel bands (the blue lines) or after
+an inversed crossing of the green and red
+
+70
+00:04:19,310 --> 00:04:20,310
+lines.
+
+71
+00:04:20,310 --> 00:04:21,769
+Now, very important.
+
+72
+00:04:21,769 --> 00:04:26,509
+A crossover of the RSI with the moving average
+isn’t necessarily an invitation to enter
+
+73
+00:04:26,509 --> 00:04:27,509
+a trade.
+
+74
+00:04:27,509 --> 00:04:32,130
+In some instances, if the price trend isn’t
+strong, you have multiple crossovers in a
+
+75
+00:04:32,130 --> 00:04:35,550
+short period of time, offering many false
+signals.
+
+76
+00:04:35,550 --> 00:04:40,509
+Before acting on the crossover of the green
+and red lines, examine price action and make
+
+77
+00:04:40,509 --> 00:04:45,530
+sure you identified all major support and
+resistance points on your chart and take signals
+
+78
+00:04:45,530 --> 00:04:47,510
+from these key areas.
+
+79
+00:04:47,510 --> 00:04:53,090
+This is very important, take TDI signals from
+major key levels on your chart.
+
+80
+00:04:53,090 --> 00:05:04,860
+Here are several examples of valid trades.
+
+81
+00:05:04,860 --> 00:05:14,610
+2.
+
+82
+00:05:14,610 --> 00:05:19,120
+Second signal involves the crossovers between
+the red and yellow lines
+
+83
+00:05:19,120 --> 00:05:23,930
+The yellow line, the middle Bollinger Band,
+indicates a long-term trend and most of the
+
+84
+00:05:23,930 --> 00:05:28,520
+trading time moves in the range between the
+levels of 30-70 − with the exception of
+
+85
+00:05:28,520 --> 00:05:30,300
+speculative moments.
+
+86
+00:05:30,300 --> 00:05:33,479
+This line will define key turns for a change
+in the trend.
+
+87
+00:05:33,479 --> 00:05:39,050
+If the yellow line, crosses 30 level downwards,
+a new swing low could form in the market.
+
+88
+00:05:39,050 --> 00:05:44,460
+A breakaway of 30 level upwards signals a
+potential reversal or the beginning of an
+
+89
+00:05:44,460 --> 00:05:46,229
+ascending correction.
+
+90
+00:05:46,229 --> 00:05:50,490
+If the yellow line rises above 70, a new swing
+high could form in the market.
+
+91
+00:05:50,490 --> 00:05:56,800
+A breakaway of this level downwards signals
+the beginning of a descending correction.
+
+92
+00:05:56,800 --> 00:06:01,840
+The global trend is defined by analyzing the
+arrangement of the yellow and red lines.
+
+93
+00:06:01,840 --> 00:06:05,680
+When the yellow line is pointing down and
+the red line is below it − the trend is
+
+94
+00:06:05,680 --> 00:06:10,720
+considered bearish; for a bullish market you
+need a mirror image − the yellow line turns
+
+95
+00:06:10,720 --> 00:06:13,110
+up and the red line moves above it.
+
+96
+00:06:13,110 --> 00:06:17,350
+Again, you don’t take crossover signals
+blindly, you take them after you identified
+
+97
+00:06:17,350 --> 00:06:19,380
+the key levels in the market.
+
+98
+00:06:19,380 --> 00:06:31,090
+Here are other examples of valid crossover
+trades.
+
+99
+00:06:31,090 --> 00:06:40,750
+3.
+
+100
+00:06:40,750 --> 00:06:44,810
+Another signal is the crossing of 50 level
+by the yellow line
+
+101
+00:06:44,810 --> 00:06:50,811
+This trading signal emerges when the middle
+Bollinger Band crosses the 50 of the RSI . This
+
+102
+00:06:50,811 --> 00:06:55,270
+is a long-term trading signal, especially
+if it appears on longer timeframes.
+
+103
+00:06:55,270 --> 00:06:59,910
+If the yellow line crosses the centerline
+from below, this is a signal to buy; if it
+
+104
+00:06:59,910 --> 00:07:02,700
+crosses the level from above, it’s a signal
+to sell.
+
+105
+00:07:02,700 --> 00:07:08,789
+To make the signal more powerful, use it combination
+with breakouts of the support/resistance levels
+
+106
+00:07:08,789 --> 00:07:12,819
+or lines, the formation of new price patterns.
+
+107
+00:07:12,819 --> 00:07:17,629
+While many trades focus on the fast moving
+average, the red line, I prefer to pay extra
+
+108
+00:07:17,629 --> 00:07:22,319
+attention to the yellow line, to smooth out
+the “noise” of shorter-term price fluctuations.
+
+109
+00:07:22,319 --> 00:07:27,110
+The slope of yellow line is also important
+as it indicates the strength of market trends.
+
+110
+00:07:27,110 --> 00:07:32,870
+When it points upwards, the market sentiment
+is bullish, when it points downwards, the
+
+111
+00:07:32,870 --> 00:07:34,440
+sentiment is bearish.
+
+112
+00:07:34,440 --> 00:07:35,490
+4.
+
+113
+00:07:35,490 --> 00:07:39,870
+The 4th signal is related to trend strength
+and the range of volatility
+
+114
+00:07:39,870 --> 00:07:43,500
+The TDI indicator also signals the current
+market strength.
+
+115
+00:07:43,500 --> 00:07:48,629
+We can analyze the relative location of the
+blue Bollinger Bands and RSI line:
+
+116
+00:07:48,629 --> 00:07:53,680
+If the channel bands diverge or expand and
+the green line forms a strong direction (up
+
+117
+00:07:53,680 --> 00:07:58,770
+or down), then there is active volatility
+on the market (and the probability of strong
+
+118
+00:07:58,770 --> 00:08:02,820
+directional movements or continuation of the
+current trend is high);
+
+119
+00:08:02,820 --> 00:08:07,501
+The greater the angle of the green line, the
+stronger the players in this direction;
+
+120
+00:08:07,501 --> 00:08:12,750
+If the channel lines converge or become narrow,
+and the RSI line shows short movements − the
+
+121
+00:08:12,750 --> 00:08:16,449
+market is ranging, or is preparing for this
+state;
+
+122
+00:08:16,449 --> 00:08:22,060
+The closer the green line to the centerline
+(level 50), the less the market is active.
+
+123
+00:08:22,060 --> 00:08:25,720
+So the expansion of the Bollinger bands signals
+an increase in volatility.
+
+124
+00:08:25,720 --> 00:08:30,910
+The narrowing of the lines, on the contrary,
+indicates a decrease in volatility and a weakening
+
+125
+00:08:30,910 --> 00:08:31,910
+market.
+
+126
+00:08:31,910 --> 00:08:32,910
+5.
+
+127
+00:08:32,910 --> 00:08:39,380
+5th signal, involves TDI regular divergences
+Many trades concentrate on crossovers, they
+
+128
+00:08:39,380 --> 00:08:43,940
+but neglect an important signal coming from
+the TDI: divergences.
+
+129
+00:08:43,940 --> 00:08:49,680
+Occasionally, price makes a new (higher) high
+and TDI fails to do so (the new high on TDI
+
+130
+00:08:49,680 --> 00:08:51,930
+is lower than the previous high).
+
+131
+00:08:51,930 --> 00:08:57,350
+Conversely, sometimes price makes new lower
+low, but TDI does not get below its previous
+
+132
+00:08:57,350 --> 00:08:58,370
+low.
+
+133
+00:08:58,370 --> 00:09:01,620
+These situations are called TDI divergences.
+
+134
+00:09:01,620 --> 00:09:06,829
+There is a divergence, or mismatch, between
+the information we get from price (the market
+
+135
+00:09:06,829 --> 00:09:12,580
+continues its trend and makes new extreme)
+and RSI line of the TDI indicator (the market
+
+136
+00:09:12,580 --> 00:09:17,490
+fails to break through the previous extreme
+and the trend may be changinf soon).
+
+137
+00:09:17,490 --> 00:09:23,690
+A high probability signal would be a crossover
+between the RSI line and the moving average,
+
+138
+00:09:23,690 --> 00:09:25,710
+after you spot a divergence.
+
+139
+00:09:25,710 --> 00:09:30,269
+Of course, this must occur at an important
+level of support or resistance.
+
+140
+00:09:30,269 --> 00:09:41,990
+Here are several examples of divergence TDI
+trades.
+
+141
+00:09:41,990 --> 00:09:54,480
+If you got any value from this and learned
+something new, leave us a like to show your
+
+142
+00:09:54,480 --> 00:09:59,930
+support, subscribe to our channel and click
+the bell icon to stay in touch with new uploads.
+
+143
+00:09:59,930 --> 00:10:00,430
+Until next time.
+

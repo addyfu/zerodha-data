@@ -1,0 +1,863 @@
+1
+00:00:00,500 --> 00:00:02,780
+Have a look at this Heikin ashi chart.
+
+2
+00:00:02,780 --> 00:00:06,899
+We have an aggressive down move, then a quick
+reversal to the upside.
+
+3
+00:00:06,899 --> 00:00:12,769
+But, there’s a specific price action signal,
+during this period, which revealed sellers
+
+4
+00:00:12,769 --> 00:00:15,099
+were no longer in control.
+
+5
+00:00:15,099 --> 00:00:16,230
+Can you spot it?
+
+6
+00:00:16,230 --> 00:00:19,030
+It’s right in the middle.
+
+7
+00:00:19,030 --> 00:00:25,250
+3 consecutive lower wicks which revealed bullish
+pressure, around this price level.
+
+8
+00:00:25,250 --> 00:00:30,800
+This is one of the best ways to anticipate
+a change in momentum, with a low risk, a potential
+
+9
+00:00:30,800 --> 00:00:31,869
+high reward.
+
+10
+00:00:31,869 --> 00:00:33,860
+Let’s talk about it.
+
+11
+00:00:33,860 --> 00:00:39,450
+You know the drill, like, subscribe, and stick
+around for the full video.
+
+12
+00:00:39,450 --> 00:00:46,469
+Buying/selling pressure zones
+Candlesticks wicks can tell you a lot about
+
+13
+00:00:46,469 --> 00:00:51,660
+the psychology of market participants and
+it definitely must play an important role
+
+14
+00:00:51,660 --> 00:00:53,910
+in your price action analysis.
+
+15
+00:00:53,910 --> 00:01:00,230
+In a Heikin-Ashi chart, large wicks can indicate
+a high level of volatility or uncertainty
+
+16
+00:01:00,230 --> 00:01:01,230
+in the market.
+
+17
+00:01:01,230 --> 00:01:07,200
+For example, if the high and low prices for
+a particular time frame are significantly
+
+18
+00:01:07,200 --> 00:01:12,650
+different from the open and close prices,
+it may indicate that there was a lot of buying
+
+19
+00:01:12,650 --> 00:01:16,130
+and selling activity during that period.
+
+20
+00:01:16,130 --> 00:01:22,180
+This could be a sign that the market is indecisive
+or that there is a lack of clear direction.
+
+21
+00:01:22,180 --> 00:01:27,400
+On the other hand, if the wicks are small
+or absent, it may indicate that the market
+
+22
+00:01:27,400 --> 00:01:28,640
+is more stable.
+
+23
+00:01:28,640 --> 00:01:34,000
+A series of candlesticks with long wicks on
+a Heikin Ashi chart is something you should
+
+24
+00:01:34,000 --> 00:01:40,520
+paying attention to, because this can potentially
+indicate a change in trend.
+
+25
+00:01:40,520 --> 00:01:46,790
+So the plan is to look for periods when momentum
+is fading away, and a potential trend change
+
+26
+00:01:46,790 --> 00:01:48,219
+is on the way.
+
+27
+00:01:48,219 --> 00:01:53,909
+In a Heikin-Ashi chart, trend changes can
+be identified by looking at the shape, size
+
+28
+00:01:53,909 --> 00:01:56,690
+and direction of the candlesticks.
+
+29
+00:01:56,690 --> 00:02:02,649
+For example, in this chart we are in in an
+uptrend, but the candlesticks start to become
+
+30
+00:02:02,649 --> 00:02:05,969
+smaller and more evenly sized.
+
+31
+00:02:05,969 --> 00:02:12,480
+This may indicate that the uptrend is losing
+momentum and a trend change is imminent.
+
+32
+00:02:12,480 --> 00:02:18,349
+The same here, the market was in a downtrend
+and the candlesticks started to become smaller
+
+33
+00:02:18,349 --> 00:02:24,010
+and more uneven, and this is the first sign
+that the downtrend is losing strength and
+
+34
+00:02:24,010 --> 00:02:26,780
+a trend change is coming.
+
+35
+00:02:26,780 --> 00:02:33,410
+Consecutive candle wicks during this period
+reveals bullish or bearish pressure.
+
+36
+00:02:33,410 --> 00:02:41,190
+Now, a strong Heikin Ashi pressure zone is
+not defined just by one candle with a big
+
+37
+00:02:41,190 --> 00:02:42,190
+wick.
+
+38
+00:02:42,190 --> 00:02:47,519
+A single price bar might not be sufficiently
+reliable for a trading setup.
+
+39
+00:02:47,519 --> 00:02:52,680
+To filter false signals, you must identify
+a group of candlesticks.
+
+40
+00:02:52,680 --> 00:02:58,629
+Therefore, instead of a single Heikin Ashi
+candle, look for at least 2 consecutive bars
+
+41
+00:02:58,629 --> 00:03:04,430
+with overlapping upper or lower shadows, more
+even better.
+
+42
+00:03:04,430 --> 00:03:09,769
+Remember, wicks indicate potential buying
+or selling pressure.
+
+43
+00:03:09,769 --> 00:03:14,970
+When these shadows overlap, they create a
+price zone that is more likely to exhibit
+
+44
+00:03:14,970 --> 00:03:18,230
+the buying or selling pressure you anticipate.
+
+45
+00:03:18,230 --> 00:03:22,050
+Here’s a bullish pressure zone.
+
+46
+00:03:22,050 --> 00:03:23,050
+1.
+
+47
+00:03:23,050 --> 00:03:28,450
+We have 3 consecutive Heikin ashi bars with
+overlapping lower shadows.
+
+48
+00:03:28,450 --> 00:03:29,450
+2.
+
+49
+00:03:29,450 --> 00:03:34,470
+We mark the zone, by outlining the lowest
+low and the highest closing price
+
+50
+00:03:34,470 --> 00:03:35,470
+3.
+
+51
+00:03:35,470 --> 00:03:40,629
+This area is the bullish Pressure Zone
+Now, very important.
+
+52
+00:03:40,629 --> 00:03:43,909
+Small shadows can create unreliable pressure
+zones.
+
+53
+00:03:43,909 --> 00:03:48,440
+The wicks of these candles must be somewhat
+larger in size.
+
+54
+00:03:48,440 --> 00:03:55,370
+I mean I wouldn’t say this is a strong buying
+zone, the wicks are too small.
+
+55
+00:03:55,370 --> 00:03:57,340
+This one is more significant.
+
+56
+00:03:57,340 --> 00:04:01,829
+And here’s a bearish pressure zone.
+
+57
+00:04:01,829 --> 00:04:02,829
+1.
+
+58
+00:04:02,829 --> 00:04:08,069
+We have minimum 3 consecutive Heikin ashi
+bars with overlapping upper shadows.
+
+59
+00:04:08,069 --> 00:04:09,069
+2.
+
+60
+00:04:09,069 --> 00:04:13,870
+We outline the highest high and the lowest
+closing price within this sequence
+
+61
+00:04:13,870 --> 00:04:14,870
+3.
+
+62
+00:04:14,870 --> 00:04:21,040
+This area is the bearish Pressure Zone
+It is also important to note that these consecutive
+
+63
+00:04:21,040 --> 00:04:24,720
+wicks in Heikin Ashi charts should not be
+used in isolation.
+
+64
+00:04:24,720 --> 00:04:30,800
+It is always a good idea to use multiple tools
+and indicators, and to carefully consider
+
+65
+00:04:30,800 --> 00:04:36,480
+the overall market context, when trying to
+identify the potential trend reversals or
+
+66
+00:04:36,480 --> 00:04:40,180
+changes in market sentiment.
+
+67
+00:04:40,180 --> 00:04:44,979
+Support/resistance confluence
+
+68
+00:04:44,979 --> 00:04:50,110
+So instead of taking signals and trades all
+over the place, the better trades usually
+
+69
+00:04:50,110 --> 00:04:55,560
+happen at key price levels, and are followed
+by an opposite color candle.
+
+70
+00:04:55,560 --> 00:04:58,140
+Here’s the bullish Pressure Zone.
+
+71
+00:04:58,140 --> 00:05:03,330
+These consecutive Heikin Ashi wicks, indicate
+sellers are losing their strength.
+
+72
+00:05:03,330 --> 00:05:06,080
+On its own, this zone is not relevant.
+
+73
+00:05:06,080 --> 00:05:11,940
+But it appeared at an area of previous resistance,
+which turned into support.
+
+74
+00:05:11,940 --> 00:05:14,139
+And this is important.
+
+75
+00:05:14,139 --> 00:05:20,169
+These candles where followed by a green Heikin
+ashi one, which also has a lower wick.
+
+76
+00:05:20,169 --> 00:05:22,580
+This is a weak buy signal.
+
+77
+00:05:22,580 --> 00:05:28,889
+The strongest signals appear when a green
+candle with no lower wick appears.
+
+78
+00:05:28,889 --> 00:05:35,630
+A good entry area is after you have the first
+green Heikin ashi candle, rejecting the bullish
+
+79
+00:05:35,630 --> 00:05:37,250
+pressure zone.
+
+80
+00:05:37,250 --> 00:05:43,870
+Stop loss placement is obvious, below the
+zone and you target double the amount you’ve
+
+81
+00:05:43,870 --> 00:05:44,870
+risked.
+
+82
+00:05:44,870 --> 00:05:51,320
+Here’s Pound dollar, on the hourly time
+frame, with several bullish and bearish pressure
+
+83
+00:05:51,320 --> 00:05:52,720
+zones.
+
+84
+00:05:52,720 --> 00:05:55,960
+First one is bullish zone, right here.
+
+85
+00:05:55,960 --> 00:06:01,790
+3 consecutive candles with lower wicks, followed
+by a green candle.
+
+86
+00:06:01,790 --> 00:06:08,310
+This is a weak signal, because the signal
+didn’t appear at a clear support level.
+
+87
+00:06:08,310 --> 00:06:10,480
+The second signal was here.
+
+88
+00:06:10,480 --> 00:06:14,940
+A bearish pressure zone, which was located
+around the same area.
+
+89
+00:06:14,940 --> 00:06:21,790
+A previous support turned into resistance,
+and multiple Heikin ashi wicks.
+
+90
+00:06:21,790 --> 00:06:26,560
+We have a short trade signal when a red HA
+candle forms.
+
+91
+00:06:26,560 --> 00:06:34,440
+Stop goes above the pressure zone and as usual,
+you go for a risk to reward ratio of 2.
+
+92
+00:06:34,440 --> 00:06:39,729
+And I see another bullish zone, again, around
+the same area.
+
+93
+00:06:39,729 --> 00:06:46,300
+Previous resistance turned once again in support,
+consecutive long wicks, so this was a good
+
+94
+00:06:46,300 --> 00:06:51,330
+opportunity to buy when a green Heikin ashi
+formed.
+
+95
+00:06:51,330 --> 00:06:56,639
+We even had a green candle with no lower wick,
+which is the strongest signal.
+
+96
+00:06:56,639 --> 00:07:03,169
+Again, stop loss below the zone, and you go
+for a risk to reward ratio of 2.
+
+97
+00:07:03,169 --> 00:07:08,849
+Now, as a side note, you decide how you want
+to manage your trade.
+
+98
+00:07:08,849 --> 00:07:11,710
+I recommend to wait for the trade to unfold.
+
+99
+00:07:11,710 --> 00:07:16,389
+But, if you want to minimize risk, when the
+Heiken ashi candles change color, you may
+
+100
+00:07:16,389 --> 00:07:22,509
+also decide to move your stop to breakeven,
+or you may even decide to close 50% of your
+
+101
+00:07:22,509 --> 00:07:28,509
+the trade manually if a red candle with no
+upper wick appears.
+
+102
+00:07:28,509 --> 00:07:31,410
+There is no best way to manage your trade.
+
+103
+00:07:31,410 --> 00:07:36,479
+In some cases, it’s better not to close
+the trade when an opposite candle appear.
+
+104
+00:07:36,479 --> 00:07:45,020
+In other cases, this action will preserve
+your profit.
+
+105
+00:07:45,020 --> 00:07:49,849
+VWAP confluence
+One of my favorite ways to trade bullish and
+
+106
+00:07:49,849 --> 00:07:54,039
+bearish Heikin ashi zones is with weekly VWAP.
+
+107
+00:07:54,039 --> 00:07:56,449
+Not many traders are using the weekly VWAP.
+
+108
+00:07:56,449 --> 00:08:00,430
+They don’t even know it’s possible to
+add it on their charts.
+
+109
+00:08:00,430 --> 00:08:06,330
+But this is one of the most reliable tools,
+offering dynamic support and resistance.
+
+110
+00:08:06,330 --> 00:08:13,200
+VWAP line that acts as a support if the price
+is trading above it and as a resistance if
+
+111
+00:08:13,200 --> 00:08:15,430
+the price is trading below.
+
+112
+00:08:15,430 --> 00:08:21,409
+The advantage of this strategy is that it
+places less emphasis on the length of a single
+
+113
+00:08:21,409 --> 00:08:25,699
+shadow and instead focuses on multiple shadows.
+
+114
+00:08:25,699 --> 00:08:32,219
+You want to find bullish pressure zones, above
+the weekly VWAP and bearish pressure zones
+
+115
+00:08:32,219 --> 00:08:34,360
+below it.
+
+116
+00:08:34,360 --> 00:08:37,950
+In this example, I see a very good signal.
+
+117
+00:08:37,950 --> 00:08:44,269
+First, as price is trading above the weekly
+VWAP, you need to find a buy zone.
+
+118
+00:08:44,269 --> 00:08:46,450
+Which is right here.
+
+119
+00:08:46,450 --> 00:08:52,910
+Multiple red Heikin ashi candles with lower
+wicks, right at the VWAP line.
+
+120
+00:08:52,910 --> 00:09:01,000
+And as another layer of confluence, I also
+see this support or demand zone, right here.
+
+121
+00:09:01,000 --> 00:09:04,339
+Stop below the VWAP and below the multiple
+wicks.
+
+122
+00:09:04,339 --> 00:09:09,020
+And you take the profit at the next major
+resistance level.
+
+123
+00:09:09,020 --> 00:09:13,850
+We trade GBP/JPY, on the M15 time frame.
+
+124
+00:09:13,850 --> 00:09:20,790
+Price is below the weekly VWAP, so the plan
+is short the currency pair at a bearish pressure
+
+125
+00:09:20,790 --> 00:09:22,250
+zone.
+
+126
+00:09:22,250 --> 00:09:28,270
+Which is here, a tripe wick zone, right below
+the VWAP line.
+
+127
+00:09:28,270 --> 00:09:36,040
+This area is an important one because I also
+see a support zone, turning into resistance.
+
+128
+00:09:36,040 --> 00:09:39,140
+Multiple layers of confluence around the same
+area.
+
+129
+00:09:39,140 --> 00:09:41,899
+So, we found our value zone.
+
+130
+00:09:41,899 --> 00:09:48,600
+The next red candle after the pressure zone
+is our trigger to place a short position.
+
+131
+00:09:48,600 --> 00:09:54,459
+Stop loss above the wicks and take profit
+at next swing low in the price structure.
+
+132
+00:09:54,459 --> 00:10:02,530
+Now, I suspect our entry level also aligns
+with a Fibonacci level.
+
+133
+00:10:02,530 --> 00:10:03,589
+Just as I thought!
+
+134
+00:10:03,589 --> 00:10:06,170
+It was the 50% Fib retracement.
+
+135
+00:10:06,170 --> 00:10:09,730
+Another layer of confluence.
+
+136
+00:10:09,730 --> 00:10:14,720
+Psychological numbers
+
+137
+00:10:14,720 --> 00:10:20,770
+Heikin Ashi pressure zones work extremely
+well in combination with psychological numbers.
+
+138
+00:10:20,770 --> 00:10:26,170
+Have you ever wondered why prices tend to
+stall at certain levels in the market?
+
+139
+00:10:26,170 --> 00:10:31,640
+Is this just a coincidence or is there a valid
+reason behind this happening?
+
+140
+00:10:31,640 --> 00:10:37,970
+Well, this phenomenon may actually be explained
+based on the psychology of traders.
+
+141
+00:10:37,970 --> 00:10:44,630
+As humans, we tend to think in terms of whole,
+round numbers rather than in terms of uneven
+
+142
+00:10:44,630 --> 00:10:47,100
+random numbers.
+
+143
+00:10:47,100 --> 00:10:52,500
+Psychological numbers, also known as "round
+numbers," are numbers that end in zero, such
+
+144
+00:10:52,500 --> 00:10:55,139
+as 50 or 100.
+
+145
+00:10:55,139 --> 00:11:01,260
+These levels go under the radar of many traders,
+but these are very important in trading because
+
+146
+00:11:01,260 --> 00:11:04,790
+they are often used as reference points.
+
+147
+00:11:04,790 --> 00:11:09,060
+Traders are more likely to take action when
+prices reach these levels.
+
+148
+00:11:09,060 --> 00:11:15,579
+They are more likely to place orders or set
+limits at round numbers, which can create
+
+149
+00:11:15,579 --> 00:11:21,060
+additional demand or supply at these levels.
+
+150
+00:11:21,060 --> 00:11:24,329
+In this chart, I see a bullish pressure zone.
+
+151
+00:11:24,329 --> 00:11:32,000
+3 red Heikin ashi candles, with lower wicks,
+forming at a round number.
+
+152
+00:11:32,000 --> 00:11:36,010
+We even have a support level in this area.
+
+153
+00:11:36,010 --> 00:11:41,779
+This is a good opportunity to place a buy
+trade.
+
+154
+00:11:41,779 --> 00:11:46,170
+This strategy is quite versatile and you can
+trade on any time frame.
+
+155
+00:11:46,170 --> 00:11:50,190
+I must say, I prefer it on higher time frames.
+
+156
+00:11:50,190 --> 00:11:54,880
+By looking at higher time frames, you can
+get a sense of the overall direction of the
+
+157
+00:11:54,880 --> 00:12:01,350
+market with the help of Heikin Ashi and at
+the same time, you identify pressure zones
+
+158
+00:12:01,350 --> 00:12:05,820
+that may not be visible on shorter time frames.
+
+159
+00:12:05,820 --> 00:12:10,769
+One of the main benefits of using higher time
+frames for finding pressure zones is that
+
+160
+00:12:10,769 --> 00:12:15,280
+they can help you filter out the short-term
+noise.
+
+161
+00:12:15,280 --> 00:12:23,410
+For example, here we are looking at the H4
+time frame, First, we see fewer price fluctuations
+
+162
+00:12:23,410 --> 00:12:30,029
+compared to someone looking at a 5-minute
+chart, and is easier to identify major support
+
+163
+00:12:30,029 --> 00:12:33,190
+and resistance levels.
+
+164
+00:12:33,190 --> 00:12:38,660
+Consecutive wicks on lower time frames are
+quite common, it happens all the time.
+
+165
+00:12:38,660 --> 00:12:43,050
+But on higher time frames, it has more relevance.
+
+166
+00:12:43,050 --> 00:12:47,820
+And on higher time frames, psychological numbers
+are more obvious.
+
+167
+00:12:47,820 --> 00:12:54,000
+Usually the more zeroes at the end of the
+price, the stronger the psychological level.
+
+168
+00:12:54,000 --> 00:12:57,560
+In this chart, we have a perfect, text book
+example.
+
+169
+00:12:57,560 --> 00:13:06,320
+3 consecutive wicks forming our bullish pressure
+zone, appearing at a major round number, 200.
+
+170
+00:13:06,320 --> 00:13:13,279
+I will take this buy trade every time I’ll
+see it.
+
+171
+00:13:13,279 --> 00:13:18,820
+As you can see, the location of the pressure
+zones in the market is probably the most important
+
+172
+00:13:18,820 --> 00:13:24,350
+factor to consider when trading, as it can
+provide context and will help you determine
+
+173
+00:13:24,350 --> 00:13:27,800
+the likelihood of the signal being accurate.
+
+174
+00:13:27,800 --> 00:13:34,209
+For example, a bullish pressure zone that
+occurs at a key support level is more reliable
+
+175
+00:13:34,209 --> 00:13:40,529
+than a zone that forms at a resistance level,
+because the support level suggests that there
+
+176
+00:13:40,529 --> 00:13:44,480
+may be greater demand at that price.
+
+177
+00:13:44,480 --> 00:13:50,610
+The location of the pressure zone can also
+be important in the context of trend analysis.
+
+178
+00:13:50,610 --> 00:13:56,790
+A buy zone that occurs during an uptrend is
+more reliable than one that occurs during
+
+179
+00:13:56,790 --> 00:14:02,640
+a downtrend, as it is in line with the overall
+direction of the market.
+
+180
+00:14:02,640 --> 00:14:07,399
+Follow these rules, find the zones on a higher
+time frame, and you’ll see you’ll have
+
+181
+00:14:07,399 --> 00:15:01,300
+stronger and more reliable signals.
+
+182
+00:15:01,300 --> 00:15:58,209
+Now, this strategy works perfect in combination
+with supply and demand levels.
+
+183
+00:15:58,209 --> 00:16:03,290
+If you want to learn to trade them on Heikin
+Ashi charts, and not on classic candlestick
+
+184
+00:16:03,290 --> 00:16:06,970
+charts, you definitely must watch this video.
+
+185
+00:16:06,970 --> 00:16:12,699
+And also check out our academy program, if
+you want to further level up your trading.
+
+186
+00:16:12,699 --> 00:16:13,269
+Until next time!
+

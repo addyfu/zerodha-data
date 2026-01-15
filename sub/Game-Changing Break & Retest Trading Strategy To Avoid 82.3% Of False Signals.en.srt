@@ -1,0 +1,1384 @@
+1
+00:00:00,719 --> 00:00:04,720
+when a breakout in the market occurs and
+
+2
+00:00:02,960 --> 00:00:07,279
+the market moves in the direction of the
+
+3
+00:00:04,720 --> 00:00:10,000
+break commonly you'll see the market
+
+4
+00:00:07,279 --> 00:00:12,160
+returns to the point of the breakout
+
+5
+00:00:10,000 --> 00:00:13,440
+then proceed to go in the direction of
+
+6
+00:00:12,160 --> 00:00:15,599
+the breakout
+
+7
+00:00:13,440 --> 00:00:17,760
+trading the retest of a breakout point
+
+8
+00:00:15,599 --> 00:00:20,400
+is not a new strategy and is quite a
+
+9
+00:00:17,760 --> 00:00:22,880
+popular method in the trading community
+
+10
+00:00:20,400 --> 00:00:25,439
+but i bet you are trading retests in the
+
+11
+00:00:22,880 --> 00:00:28,240
+wrong way because the rules provided to
+
+12
+00:00:25,439 --> 00:00:30,400
+you by most trading books and websites
+
+13
+00:00:28,240 --> 00:00:33,040
+are not aligned with how the smart money
+
+14
+00:00:30,400 --> 00:00:35,200
+operate in the financial markets
+
+15
+00:00:33,040 --> 00:00:37,680
+today i'll show you how to trade retests
+
+16
+00:00:35,200 --> 00:00:39,840
+of breakouts properly we'll begin by
+
+17
+00:00:37,680 --> 00:00:42,879
+looking at the actual reason why a
+
+18
+00:00:39,840 --> 00:00:44,960
+retest occurs after a breakout i'll show
+
+19
+00:00:42,879 --> 00:00:47,360
+you how to trade retests using price
+
+20
+00:00:44,960 --> 00:00:49,920
+action and i'll reveal to you the secret
+
+21
+00:00:47,360 --> 00:00:51,120
+ingredient in order to trade the retests
+
+22
+00:00:49,920 --> 00:00:53,840
+effectively
+
+23
+00:00:51,120 --> 00:00:55,680
+so if you could like subscribe the
+
+24
+00:00:53,840 --> 00:00:58,680
+channel and stick around for the full
+
+25
+00:00:55,680 --> 00:00:58,680
+video
+
+26
+00:01:01,680 --> 00:01:07,119
+a retest at a breakout level means the
+
+27
+00:01:04,239 --> 00:01:09,600
+market breaks a high or a low returns to
+
+28
+00:01:07,119 --> 00:01:12,320
+the breakout point and moves back in the
+
+29
+00:01:09,600 --> 00:01:14,479
+direction of which the breakout occurred
+
+30
+00:01:12,320 --> 00:01:17,119
+this market action is down to the smart
+
+31
+00:01:14,479 --> 00:01:19,280
+money needing to fill more buy or sell
+
+32
+00:01:17,119 --> 00:01:21,600
+orders in the market before the market
+
+33
+00:01:19,280 --> 00:01:23,439
+breaks out from a high or a low
+
+34
+00:01:21,600 --> 00:01:26,400
+there are many breakout traders that
+
+35
+00:01:23,439 --> 00:01:28,640
+have pending orders placed at the levels
+
+36
+00:01:26,400 --> 00:01:30,880
+ready to profit from the breakout
+
+37
+00:01:28,640 --> 00:01:32,560
+when the breakout finally comes their
+
+38
+00:01:30,880 --> 00:01:34,880
+orders are filled
+
+39
+00:01:32,560 --> 00:01:37,200
+breakout traders spend a little time in
+
+40
+00:01:34,880 --> 00:01:39,280
+profit on their trades as typically the
+
+41
+00:01:37,200 --> 00:01:41,840
+market will continue in the direction of
+
+42
+00:01:39,280 --> 00:01:44,240
+the break for a small amount of time
+
+43
+00:01:41,840 --> 00:01:46,479
+the turning point comes when smart money
+
+44
+00:01:44,240 --> 00:01:49,439
+begins to take profits off their own
+
+45
+00:01:46,479 --> 00:01:52,640
+trades because very important they
+
+46
+00:01:49,439 --> 00:01:55,280
+entered early way before we retail
+
+47
+00:01:52,640 --> 00:01:57,600
+traders saw the actual breakout
+
+48
+00:01:55,280 --> 00:01:59,759
+this profit taking is what will cause
+
+49
+00:01:57,600 --> 00:02:02,560
+the market to move back to the breakout
+
+50
+00:01:59,759 --> 00:02:04,799
+point the retest
+
+51
+00:02:02,560 --> 00:02:07,280
+if you are the breakout trader you will
+
+52
+00:02:04,799 --> 00:02:09,599
+watch your profits steadily decrease as
+
+53
+00:02:07,280 --> 00:02:12,080
+the market gets closer and closer to the
+
+54
+00:02:09,599 --> 00:02:13,120
+breakout point where you had your trade
+
+55
+00:02:12,080 --> 00:02:15,360
+placed
+
+56
+00:02:13,120 --> 00:02:18,000
+so seeing your profit gets smaller and
+
+57
+00:02:15,360 --> 00:02:20,400
+smaller you will most likely get scared
+
+58
+00:02:18,000 --> 00:02:22,400
+of potentially coming out of the trade
+
+59
+00:02:20,400 --> 00:02:24,800
+with no profit at all
+
+60
+00:02:22,400 --> 00:02:27,680
+so you will close your trade while there
+
+61
+00:02:24,800 --> 00:02:29,920
+is still a small amount of profit left
+
+62
+00:02:27,680 --> 00:02:32,560
+different traders will decide to close
+
+63
+00:02:29,920 --> 00:02:34,879
+their trades at different times the
+
+64
+00:02:32,560 --> 00:02:37,280
+closer the market gets to the breakout
+
+65
+00:02:34,879 --> 00:02:40,319
+point the higher the number of breakout
+
+66
+00:02:37,280 --> 00:02:42,480
+traders will be closing their trades
+
+67
+00:02:40,319 --> 00:02:45,120
+and when the breakout traders close
+
+68
+00:02:42,480 --> 00:02:47,519
+their trades opposite orders will be put
+
+69
+00:02:45,120 --> 00:02:49,760
+into the market which the smart money
+
+70
+00:02:47,519 --> 00:02:53,599
+will use to get more buy or sell
+
+71
+00:02:49,760 --> 00:02:53,599
+positions placed in the market
+
+72
+00:02:55,260 --> 00:02:59,680
+[Music]
+
+73
+00:02:57,360 --> 00:03:02,640
+start thinking at retests as the
+
+74
+00:02:59,680 --> 00:03:05,519
+market's way of resetting itself or
+
+75
+00:03:02,640 --> 00:03:08,080
+flushing out the weak positions
+
+76
+00:03:05,519 --> 00:03:10,959
+the term weak position refers to any
+
+77
+00:03:08,080 --> 00:03:13,120
+group of traders usually retail who are
+
+78
+00:03:10,959 --> 00:03:15,280
+not comfortable holding a position
+
+79
+00:03:13,120 --> 00:03:18,319
+through the increased volatility for the
+
+80
+00:03:15,280 --> 00:03:20,159
+opportunity to make larger gains these
+
+81
+00:03:18,319 --> 00:03:21,519
+are usually the traders who are very
+
+82
+00:03:20,159 --> 00:03:23,360
+risk averse
+
+83
+00:03:21,519 --> 00:03:26,000
+and therefore get stopped out
+
+84
+00:03:23,360 --> 00:03:27,360
+prematurely before a larger move ever
+
+85
+00:03:26,000 --> 00:03:29,760
+gets going
+
+86
+00:03:27,360 --> 00:03:32,159
+of course there are also those who trade
+
+87
+00:03:29,760 --> 00:03:33,840
+the lower time frames and therefore
+
+88
+00:03:32,159 --> 00:03:35,120
+aren't looking for the larger
+
+89
+00:03:33,840 --> 00:03:37,360
+opportunity
+
+90
+00:03:35,120 --> 00:03:40,799
+these traders are happy to take their
+
+91
+00:03:37,360 --> 00:03:43,200
+profits early and often
+
+92
+00:03:40,799 --> 00:03:45,680
+this area on the chart is the point
+
+93
+00:03:43,200 --> 00:03:48,560
+where breakout traders will have pending
+
+94
+00:03:45,680 --> 00:03:50,480
+orders to sell placed in anticipation of
+
+95
+00:03:48,560 --> 00:03:52,480
+the market breaking out
+
+96
+00:03:50,480 --> 00:03:54,799
+you can see how the market continues to
+
+97
+00:03:52,480 --> 00:03:56,239
+advance lower after the breakout has
+
+98
+00:03:54,799 --> 00:03:58,720
+took place
+
+99
+00:03:56,239 --> 00:04:00,799
+smart money begins their profit taking
+
+100
+00:03:58,720 --> 00:04:03,040
+after the breakout occurs
+
+101
+00:04:00,799 --> 00:04:04,799
+and the market begins to rise back to
+
+102
+00:04:03,040 --> 00:04:07,040
+the breakout point
+
+103
+00:04:04,799 --> 00:04:10,000
+causing a re-test
+
+104
+00:04:07,040 --> 00:04:12,879
+now beside breakout traders there are
+
+105
+00:04:10,000 --> 00:04:15,439
+also reactive traders in the market who
+
+106
+00:04:12,879 --> 00:04:18,479
+would have placed sale trades after the
+
+107
+00:04:15,439 --> 00:04:20,160
+candle which caused the breakout
+
+108
+00:04:18,479 --> 00:04:22,079
+these traders will also add a
+
+109
+00:04:20,160 --> 00:04:24,880
+significant number of orders in the
+
+110
+00:04:22,079 --> 00:04:27,280
+market which the banks will use to fill
+
+111
+00:04:24,880 --> 00:04:30,720
+more orders when their profit
+
+112
+00:04:27,280 --> 00:04:30,720
+pushes the market higher
+
+113
+00:04:31,280 --> 00:04:36,639
+[Music]
+
+114
+00:04:34,560 --> 00:04:38,960
+most traders when looking to trade the
+
+115
+00:04:36,639 --> 00:04:41,520
+retest will mark the point where a
+
+116
+00:04:38,960 --> 00:04:42,479
+breakout has occurred using horizontal
+
+117
+00:04:41,520 --> 00:04:44,560
+lines
+
+118
+00:04:42,479 --> 00:04:46,960
+and this is one of the reasons why you
+
+119
+00:04:44,560 --> 00:04:49,600
+fail at trading re-tests
+
+120
+00:04:46,960 --> 00:04:51,199
+a far better way of marking the points
+
+121
+00:04:49,600 --> 00:04:54,160
+is using areas
+
+122
+00:04:51,199 --> 00:04:56,639
+by marking the breakout point as an area
+
+123
+00:04:54,160 --> 00:04:58,960
+instead of a line you give yourself the
+
+124
+00:04:56,639 --> 00:05:00,479
+benefit of not having to guess the
+
+125
+00:04:58,960 --> 00:05:02,960
+breakout point
+
+126
+00:05:00,479 --> 00:05:05,520
+if there are several highs for example
+
+127
+00:05:02,960 --> 00:05:08,080
+and you mark the level using a line
+
+128
+00:05:05,520 --> 00:05:11,280
+then you won't be able to know which
+
+129
+00:05:08,080 --> 00:05:13,759
+highs the market is going to return to
+
+130
+00:05:11,280 --> 00:05:16,400
+by having a zone you can cover multiple
+
+131
+00:05:13,759 --> 00:05:19,759
+highs and include them in your total
+
+132
+00:05:16,400 --> 00:05:22,080
+risk when trading the retest
+
+133
+00:05:19,759 --> 00:05:24,960
+in this example you can see there are
+
+134
+00:05:22,080 --> 00:05:27,600
+two highs which breakout traders could
+
+135
+00:05:24,960 --> 00:05:30,400
+have used to enter long trades
+
+136
+00:05:27,600 --> 00:05:32,400
+in real time you wouldn't know which one
+
+137
+00:05:30,400 --> 00:05:33,440
+of these highs the market is going to
+
+138
+00:05:32,400 --> 00:05:36,800
+retest
+
+139
+00:05:33,440 --> 00:05:38,960
+if you mark an area including both highs
+
+140
+00:05:36,800 --> 00:05:40,960
+then you are able to remove some
+
+141
+00:05:38,960 --> 00:05:42,080
+discretion from your decision making
+
+142
+00:05:40,960 --> 00:05:44,560
+process
+
+143
+00:05:42,080 --> 00:05:49,320
+and also give yourself a point where you
+
+144
+00:05:44,560 --> 00:05:49,320
+know the trait is likely to be wrong
+
+145
+00:05:52,560 --> 00:05:58,080
+when trading retests of breakout it all
+
+146
+00:05:55,360 --> 00:06:00,160
+comes down to judgment experience and
+
+147
+00:05:58,080 --> 00:06:01,520
+the market or the instrument because
+
+148
+00:06:00,160 --> 00:06:03,600
+very important
+
+149
+00:06:01,520 --> 00:06:07,039
+each will have its own unique price
+
+150
+00:06:03,600 --> 00:06:09,600
+behavior and risk profile also there
+
+151
+00:06:07,039 --> 00:06:12,080
+needs to be a clearly visible gap in
+
+152
+00:06:09,600 --> 00:06:14,479
+terms of the closing price of the candle
+
+153
+00:06:12,080 --> 00:06:16,080
+which finally breaches the support or
+
+154
+00:06:14,479 --> 00:06:17,840
+resistance level
+
+155
+00:06:16,080 --> 00:06:20,800
+this is the first signal that the
+
+156
+00:06:17,840 --> 00:06:23,680
+breakout is in progress the second is of
+
+157
+00:06:20,800 --> 00:06:26,000
+course volume
+
+158
+00:06:23,680 --> 00:06:28,160
+as we can see in this example the
+
+159
+00:06:26,000 --> 00:06:30,880
+initial move higher up and through the
+
+160
+00:06:28,160 --> 00:06:33,680
+resistance level has to be followed by
+
+161
+00:06:30,880 --> 00:06:35,840
+strong and rising volume
+
+162
+00:06:33,680 --> 00:06:38,639
+it takes effort for the market to move
+
+163
+00:06:35,840 --> 00:06:41,120
+away the same applies here and you
+
+164
+00:06:38,639 --> 00:06:44,880
+should see this move reflected in the
+
+165
+00:06:41,120 --> 00:06:47,680
+associated volume of the next few bars
+
+166
+00:06:44,880 --> 00:06:50,880
+if you don't see this then you know it's
+
+167
+00:06:47,680 --> 00:06:53,120
+either a trap said by the smart money or
+
+168
+00:06:50,880 --> 00:06:55,520
+there is simply no interest from market
+
+169
+00:06:53,120 --> 00:06:57,759
+participants to take the market higher
+
+170
+00:06:55,520 --> 00:07:00,400
+at this stage
+
+171
+00:06:57,759 --> 00:07:02,639
+if it's a valid move then the volumes on
+
+172
+00:07:00,400 --> 00:07:04,960
+the initial break will be well above
+
+173
+00:07:02,639 --> 00:07:07,440
+average and rising
+
+174
+00:07:04,960 --> 00:07:10,080
+at this stage you want to see the market
+
+175
+00:07:07,440 --> 00:07:13,360
+pull back to test the formal resistance
+
+176
+00:07:10,080 --> 00:07:16,639
+level but very important this should be
+
+177
+00:07:13,360 --> 00:07:18,880
+followed with low or decreasing volume
+
+178
+00:07:16,639 --> 00:07:21,520
+since we are now developing a bullish
+
+179
+00:07:18,880 --> 00:07:24,080
+trend higher and expect to see a rising
+
+180
+00:07:21,520 --> 00:07:27,039
+market with rising volume
+
+181
+00:07:24,080 --> 00:07:29,759
+so very important you want to see strong
+
+182
+00:07:27,039 --> 00:07:32,639
+and rising volume on the breakout
+
+183
+00:07:29,759 --> 00:07:35,680
+and low volume on the pullback
+
+184
+00:07:32,639 --> 00:07:39,599
+then at the retest level you want to see
+
+185
+00:07:35,680 --> 00:07:39,599
+another increase in volume
+
+186
+00:07:40,250 --> 00:07:43,500
+[Music]
+
+187
+00:07:43,599 --> 00:07:48,639
+exactly the same principles apply when
+
+188
+00:07:46,080 --> 00:07:50,879
+the breakout is into a bearish move
+
+189
+00:07:48,639 --> 00:07:52,960
+once again it makes no difference
+
+190
+00:07:50,879 --> 00:07:56,479
+whether this is a continuation of a
+
+191
+00:07:52,960 --> 00:07:59,280
+bearish trend or a reversal from bullish
+
+192
+00:07:56,479 --> 00:08:01,360
+to bearish the only difference is that
+
+193
+00:07:59,280 --> 00:08:03,759
+this time we are breaking through the
+
+194
+00:08:01,360 --> 00:08:06,720
+support of price congestion
+
+195
+00:08:03,759 --> 00:08:09,360
+as before this breakout should be clean
+
+196
+00:08:06,720 --> 00:08:12,000
+and well developed and followed by a
+
+197
+00:08:09,360 --> 00:08:14,879
+well above average volume to reflect the
+
+198
+00:08:12,000 --> 00:08:16,879
+effort required to break away
+
+199
+00:08:14,879 --> 00:08:19,919
+again we want to see the market move
+
+200
+00:08:16,879 --> 00:08:20,879
+back higher to test the previous support
+
+201
+00:08:19,919 --> 00:08:23,759
+area
+
+202
+00:08:20,879 --> 00:08:26,400
+but this should happen on low volume
+
+203
+00:08:23,759 --> 00:08:28,960
+and as the market pulls away rising
+
+204
+00:08:26,400 --> 00:08:30,080
+volume should reflect the new downwards
+
+205
+00:08:28,960 --> 00:08:33,039
+move
+
+206
+00:08:30,080 --> 00:08:36,399
+remember falling markets should also see
+
+207
+00:08:33,039 --> 00:08:39,030
+rising volume reflecting a genuine move
+
+208
+00:08:36,399 --> 00:08:42,880
+lower
+
+209
+00:08:39,030 --> 00:08:45,200
+[Music]
+
+210
+00:08:42,880 --> 00:08:47,920
+it isn't enough to simply see the market
+
+211
+00:08:45,200 --> 00:08:49,120
+touch a broken level as a new support or
+
+212
+00:08:47,920 --> 00:08:51,279
+resistance
+
+213
+00:08:49,120 --> 00:08:53,760
+and if you think about it that doesn't
+
+214
+00:08:51,279 --> 00:08:56,480
+actually qualify as a retest
+
+215
+00:08:53,760 --> 00:08:58,880
+when the market revisits a level after
+
+216
+00:08:56,480 --> 00:09:01,440
+breaking it we want to see some sort of
+
+217
+00:08:58,880 --> 00:09:04,320
+confirmation that the previous support
+
+218
+00:09:01,440 --> 00:09:07,600
+level turned into resistance and vice
+
+219
+00:09:04,320 --> 00:09:09,040
+versa a previous resistance level turned
+
+220
+00:09:07,600 --> 00:09:11,920
+into support
+
+221
+00:09:09,040 --> 00:09:14,560
+my preferred method to enter into traits
+
+222
+00:09:11,920 --> 00:09:17,440
+at the retest of a breakout level is by
+
+223
+00:09:14,560 --> 00:09:20,080
+using price action more specifically
+
+224
+00:09:17,440 --> 00:09:23,640
+using candlestick patterns such as
+
+225
+00:09:20,080 --> 00:09:28,120
+engulfing candles or pin bars
+
+226
+00:09:23,640 --> 00:09:28,120
+[Music]
+
+227
+00:09:28,640 --> 00:09:34,160
+i trade on higher time frames mostly on
+
+228
+00:09:31,200 --> 00:09:36,880
+hourly 4-hour and the daily charts
+
+229
+00:09:34,160 --> 00:09:39,040
+when i see a market breaking a support i
+
+230
+00:09:36,880 --> 00:09:41,040
+like to watch the breakout on a lower
+
+231
+00:09:39,040 --> 00:09:43,519
+time frame to see if there are any
+
+232
+00:09:41,040 --> 00:09:45,680
+candlestick patterns i can use as an
+
+233
+00:09:43,519 --> 00:09:48,080
+entry into the trade
+
+234
+00:09:45,680 --> 00:09:50,560
+here we have the breakout area here we
+
+235
+00:09:48,080 --> 00:09:53,440
+can see when the market reached the area
+
+236
+00:09:50,560 --> 00:09:56,480
+a bearish engulfing candle formed
+
+237
+00:09:53,440 --> 00:09:57,760
+volume confirmed the move high volume on
+
+238
+00:09:56,480 --> 00:10:01,120
+the breakout
+
+239
+00:09:57,760 --> 00:10:03,120
+and low volume during the pullback
+
+240
+00:10:01,120 --> 00:10:05,760
+seeing the engulfing candle at the
+
+241
+00:10:03,120 --> 00:10:07,440
+retest with volume confirmation
+
+242
+00:10:05,760 --> 00:10:09,920
+you could have entered into a short
+
+243
+00:10:07,440 --> 00:10:11,839
+trade with your stop above the high of
+
+244
+00:10:09,920 --> 00:10:14,160
+the breakout zone
+
+245
+00:10:11,839 --> 00:10:17,279
+now you could also decide to put your
+
+246
+00:10:14,160 --> 00:10:18,640
+stop above the high of the engulfing bar
+
+247
+00:10:17,279 --> 00:10:20,720
+but be careful
+
+248
+00:10:18,640 --> 00:10:23,519
+if you use the signal candle to place
+
+249
+00:10:20,720 --> 00:10:26,640
+your stops you'll tend to find you'll
+
+250
+00:10:23,519 --> 00:10:29,040
+unnecessarily lose money because if the
+
+251
+00:10:26,640 --> 00:10:31,760
+market breaks the high of the engulfing
+
+252
+00:10:29,040 --> 00:10:35,200
+bar and you take the loss and then the
+
+253
+00:10:31,760 --> 00:10:36,800
+market moves deeper into the zone before
+
+254
+00:10:35,200 --> 00:10:39,440
+reversing again
+
+255
+00:10:36,800 --> 00:10:41,680
+then you have basically taking a loss
+
+256
+00:10:39,440 --> 00:10:43,920
+which could have been avoided if you
+
+257
+00:10:41,680 --> 00:10:47,839
+would just put your stop at the high of
+
+258
+00:10:43,920 --> 00:10:47,839
+the zone in the first place
+
+259
+00:10:48,230 --> 00:10:51,509
+[Music]
+
+260
+00:10:51,760 --> 00:10:56,240
+the pinbar is one of the most powerful
+
+261
+00:10:54,240 --> 00:10:59,120
+and reliable price action trading
+
+262
+00:10:56,240 --> 00:11:01,440
+signals during re-tests and the signal i
+
+263
+00:10:59,120 --> 00:11:03,839
+rely the most in my trading
+
+264
+00:11:01,440 --> 00:11:06,079
+a pin bar is a price action pattern
+
+265
+00:11:03,839 --> 00:11:08,640
+which signals that the reversal may be
+
+266
+00:11:06,079 --> 00:11:11,120
+about to take place in the price action
+
+267
+00:11:08,640 --> 00:11:13,920
+trading pinbar signals with support and
+
+268
+00:11:11,120 --> 00:11:15,920
+resistance and volume confirmation is
+
+269
+00:11:13,920 --> 00:11:17,120
+perhaps one of the most effective ways
+
+270
+00:11:15,920 --> 00:11:19,839
+to trade
+
+271
+00:11:17,120 --> 00:11:21,200
+the very best pin bars stick out at the
+
+272
+00:11:19,839 --> 00:11:23,440
+right test level
+
+273
+00:11:21,200 --> 00:11:27,120
+the bigger the rejection and the bigger
+
+274
+00:11:23,440 --> 00:11:29,440
+the pin bar the more powerful the signal
+
+275
+00:11:27,120 --> 00:11:31,920
+a high probability pin bar at the right
+
+276
+00:11:29,440 --> 00:11:34,800
+test level needs to have the wick
+
+277
+00:11:31,920 --> 00:11:37,600
+sticking out from all other candles and
+
+278
+00:11:34,800 --> 00:11:41,279
+above average volume to confirm an
+
+279
+00:11:37,600 --> 00:11:43,680
+active participation in the retest
+
+280
+00:11:41,279 --> 00:11:47,040
+whether you are trading a key horizontal
+
+281
+00:11:43,680 --> 00:11:49,440
+level a wedge pattern or a channel it's
+
+282
+00:11:47,040 --> 00:11:51,120
+important to always wait for a re-test
+
+283
+00:11:49,440 --> 00:11:53,839
+of the broken level
+
+284
+00:11:51,120 --> 00:11:56,880
+this involves waiting for the re-test
+
+285
+00:11:53,839 --> 00:11:59,040
+analyzing the volume during the breakout
+
+286
+00:11:56,880 --> 00:12:01,279
+and during the pullback period
+
+287
+00:11:59,040 --> 00:12:04,320
+as well as confirming price action
+
+288
+00:12:01,279 --> 00:12:06,560
+before putting any capital at risk
+
+289
+00:12:04,320 --> 00:12:09,600
+you will be tempted to enter right after
+
+290
+00:12:06,560 --> 00:12:11,760
+the breakout and many times you won't
+
+291
+00:12:09,600 --> 00:12:13,440
+get a chance of a re-test
+
+292
+00:12:11,760 --> 00:12:16,000
+and you have to accept that you will
+
+293
+00:12:13,440 --> 00:12:17,440
+miss many moves by being somewhat
+
+294
+00:12:16,000 --> 00:12:20,480
+conservative
+
+295
+00:12:17,440 --> 00:12:22,560
+but remember by waiting for a re-test
+
+296
+00:12:20,480 --> 00:12:25,279
+you are essentially waiting for any weak
+
+297
+00:12:22,560 --> 00:12:27,040
+positions to exit the market before
+
+298
+00:12:25,279 --> 00:12:29,360
+placing a position
+
+299
+00:12:27,040 --> 00:12:32,160
+this is a stronger foundation from which
+
+300
+00:12:29,360 --> 00:12:35,720
+you buy or sell which leads to a higher
+
+301
+00:12:32,160 --> 00:12:39,190
+probability of a successful outcome
+
+302
+00:12:35,720 --> 00:12:39,190
+[Music]
+
+303
+00:12:40,399 --> 00:12:45,839
+one of my own rules is that the first
+
+304
+00:12:42,959 --> 00:12:48,079
+retest is the most important one
+
+305
+00:12:45,839 --> 00:12:50,160
+what i mean is that if you have a zone
+
+306
+00:12:48,079 --> 00:12:52,959
+marked on your charts and you see the
+
+307
+00:12:50,160 --> 00:12:55,200
+market return to the breakout zone and
+
+308
+00:12:52,959 --> 00:12:57,920
+proceed to move back in the direction of
+
+309
+00:12:55,200 --> 00:13:00,480
+the breakout i consider this first
+
+310
+00:12:57,920 --> 00:13:01,920
+retest as having the highest probability
+
+311
+00:13:00,480 --> 00:13:04,000
+of succeeding
+
+312
+00:13:01,920 --> 00:13:06,639
+one of the primary concepts of order
+
+313
+00:13:04,000 --> 00:13:09,519
+flow analysis is the idea that when a
+
+314
+00:13:06,639 --> 00:13:12,079
+technical level has been hit once its
+
+315
+00:13:09,519 --> 00:13:14,240
+significance in the market decreases
+
+316
+00:13:12,079 --> 00:13:16,880
+dramatically and the chances of the
+
+317
+00:13:14,240 --> 00:13:18,959
+market reacting to the level in the same
+
+318
+00:13:16,880 --> 00:13:20,880
+way again is low
+
+319
+00:13:18,959 --> 00:13:22,880
+you may not agree with this but here's
+
+320
+00:13:20,880 --> 00:13:25,760
+how i view the situation
+
+321
+00:13:22,880 --> 00:13:28,480
+in a breakout retail scenario if the
+
+322
+00:13:25,760 --> 00:13:31,440
+price returns to the breakout zone once
+
+323
+00:13:28,480 --> 00:13:34,000
+again after already being touched the
+
+324
+00:13:31,440 --> 00:13:36,399
+breakout traders went long on the
+
+325
+00:13:34,000 --> 00:13:37,519
+breakout will not be in their trades
+
+326
+00:13:36,399 --> 00:13:40,000
+anymore
+
+327
+00:13:37,519 --> 00:13:43,199
+so a second reaction at the breakout
+
+328
+00:13:40,000 --> 00:13:46,160
+level has a lower chance of succeeding
+
+329
+00:13:43,199 --> 00:13:48,399
+less stops are being hunted less orders
+
+330
+00:13:46,160 --> 00:13:51,519
+are being put on the market
+
+331
+00:13:48,399 --> 00:13:54,480
+you can see here the breakout area which
+
+332
+00:13:51,519 --> 00:13:56,880
+turns the market on the first retest
+
+333
+00:13:54,480 --> 00:14:00,000
+but on the second touch the market
+
+334
+00:13:56,880 --> 00:14:02,810
+breaks the area easily and returns to a
+
+335
+00:14:00,000 --> 00:14:13,080
+lower technical level
+
+336
+00:14:02,810 --> 00:14:13,080
+[Music]
+
+337
+00:14:15,990 --> 00:14:19,059
+[Music]
+
+338
+00:14:22,740 --> 00:14:25,929
+[Music]
+
+339
+00:14:31,680 --> 00:14:39,789
+[Music]
+
+340
+00:15:03,680 --> 00:15:08,800
+if you found value and learned something
+
+341
+00:15:05,839 --> 00:15:10,560
+new leave us a like this way we'll know
+
+342
+00:15:08,800 --> 00:15:12,720
+if you'd like to see more videos like
+
+343
+00:15:10,560 --> 00:15:15,040
+this one and check out our academy
+
+344
+00:15:12,720 --> 00:15:17,279
+program if you want to further level up
+
+345
+00:15:15,040 --> 00:15:20,760
+your trading
+
+346
+00:15:17,279 --> 00:15:20,760
+until next time
+

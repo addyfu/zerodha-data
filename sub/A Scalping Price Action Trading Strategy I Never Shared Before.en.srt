@@ -1,0 +1,703 @@
+1
+00:00:00,140 --> 00:00:05,290
+So today I want to share with you an intriguing
+scalping trading strategy.
+
+2
+00:00:05,290 --> 00:00:10,860
+This strategy leverages a simple yet powerful
+phenomenon - that a market’s open price
+
+3
+00:00:10,860 --> 00:00:15,420
+sometimes matches its highest or lowest point
+for the day.
+
+4
+00:00:15,420 --> 00:00:18,640
+When this occurs, it creates a scalping opportunity.
+
+5
+00:00:18,640 --> 00:00:27,279
+You see, on such a day, the market has essentially
+revealed where it sees strong support or resistance.
+
+6
+00:00:27,279 --> 00:00:31,269
+Picture this - the open price matches the
+initial low.
+
+7
+00:00:31,269 --> 00:00:36,350
+This tells us buyers stepped in early and
+established a clear support, showing where
+
+8
+00:00:36,350 --> 00:00:39,300
+they'll defend the price going forward.
+
+9
+00:00:39,300 --> 00:00:46,200
+Similarly, an open equal to the high indicates
+sellers wasted no time capping further upwards
+
+10
+00:00:46,200 --> 00:00:49,680
+moves, laying out a firm resistance.
+
+11
+00:00:49,680 --> 00:00:54,730
+These congruent levels provide prime entries,
+if you trade accordingly.
+
+12
+00:00:54,730 --> 00:01:00,480
+Think about it…when the open equals the
+low, indicated on most platforms by a green
+
+13
+00:01:00,480 --> 00:01:06,420
+candle, it tells us buyers were able to push
+the price up substantially right from the
+
+14
+00:01:06,420 --> 00:01:07,420
+open.
+
+15
+00:01:07,420 --> 00:01:12,400
+This demonstrates eager demand exists among
+buyers at those levels.
+
+16
+00:01:12,400 --> 00:01:17,790
+Upside momentum is likely to continue, presenting
+a high-probability buy entry.
+
+17
+00:01:17,790 --> 00:01:23,860
+Conversely, if the open matches the high,
+denoted by a red candle, it reveals sellers
+
+18
+00:01:23,860 --> 00:01:27,880
+could immediately press the price down from
+the highs.
+
+19
+00:01:27,880 --> 00:01:31,799
+This shows willingness to sell around those
+areas.
+
+20
+00:01:31,799 --> 00:01:36,230
+Downside momentum typically follows, offering
+a short setup.
+
+21
+00:01:36,230 --> 00:01:41,720
+When analyzing the markets, it's important
+to have the proper tools to easily identify
+
+22
+00:01:41,720 --> 00:01:43,440
+these signals.
+
+23
+00:01:43,440 --> 00:01:49,170
+Unfortunately, TradingView does not have a
+built-in indicator to directly find the signals
+
+24
+00:01:49,170 --> 00:01:52,500
+of the open matching the low or high.
+
+25
+00:01:52,500 --> 00:01:57,860
+The best solution I've found is to use two
+simple indicators together:
+
+26
+00:01:57,860 --> 00:02:04,240
+First one is the “Open Price” - This displays
+a horizontal line marking the open level right
+
+27
+00:02:04,240 --> 00:02:05,619
+on the chart.
+
+28
+00:02:05,619 --> 00:02:11,110
+It allows a quick visual check to see if open
+matches the high or low.
+
+29
+00:02:11,110 --> 00:02:17,129
+The second indicator is the Opening Range
+Breakout - This draws upper and lower lines
+
+30
+00:02:17,129 --> 00:02:22,069
+connecting the highs and lows of the first
+5 minutes of each candle.
+
+31
+00:02:22,069 --> 00:02:26,879
+So make sure to set it to the 5 minute timeframe
+you want to trade.
+
+32
+00:02:26,879 --> 00:02:32,151
+The two-indicator approach is the cleanest
+workaround for easily finding signals, if
+
+33
+00:02:32,151 --> 00:02:34,470
+you monitor multiple markets.
+
+34
+00:02:34,470 --> 00:02:41,390
+Now we can visually compare the open price
+to the Opening Range high/low lines.
+
+35
+00:02:41,390 --> 00:02:46,550
+When the open price line tags the low line,
+we have a potential buy signal.
+
+36
+00:02:46,550 --> 00:02:49,790
+If it touches the high line, it's an opportunity
+to sell.
+
+37
+00:02:49,790 --> 00:02:56,790
+It's a bit manual, but that’s the closest
+solution within TradingView’s library.
+
+38
+00:02:56,790 --> 00:03:03,080
+The opening minutes each day will provide
+powerful clues about potential scalping opportunities,
+
+39
+00:03:03,080 --> 00:03:05,810
+but also an overall directional bias.
+
+40
+00:03:05,810 --> 00:03:11,140
+The key point is that when the open matches
+the high or low, it suggests there is strong
+
+41
+00:03:11,140 --> 00:03:12,440
+momentum.
+
+42
+00:03:12,440 --> 00:03:15,260
+This often leads to increased volatility.
+
+43
+00:03:15,260 --> 00:03:22,060
+And this presents an opportunity for us, scalpers,
+to jump in and capitalize on future swings.
+
+44
+00:03:22,060 --> 00:03:26,640
+The plan is simple: to catch quick moves based
+on the early momentum.
+
+45
+00:03:26,640 --> 00:03:33,470
+A match between the open price and its highest
+or lowest price confirms the likelihood of
+
+46
+00:03:33,470 --> 00:03:37,540
+an established directional bias for the whole
+session.
+
+47
+00:03:37,540 --> 00:03:43,409
+If the open price drove strongly up from lows,
+it raises the probability of an extended bounce
+
+48
+00:03:43,409 --> 00:03:46,140
+play for trend followers.
+
+49
+00:03:46,140 --> 00:03:52,020
+Vice versa for an open matching the high,
+signaling brief downside potential.
+
+50
+00:03:52,020 --> 00:03:57,290
+The main advantage of this scalping strategy
+is definitely its simplicity.
+
+51
+00:03:57,290 --> 00:04:03,200
+There's no complex indicators or customized
+formulas to configure - just basic pattern
+
+52
+00:04:03,200 --> 00:04:08,129
+recognition of the open in relation to the
+initial high and low.
+
+53
+00:04:08,129 --> 00:04:13,370
+These signals require little time investment
+to analyze and execute on.
+
+54
+00:04:13,370 --> 00:04:18,650
+You can simply monitor the 5-minute chart
+for a few moments at open and immediately
+
+55
+00:04:18,650 --> 00:04:21,060
+identify an opportunity.
+
+56
+00:04:21,060 --> 00:04:26,370
+And with potential trades taking shape in
+minutes, everything must be streamlined and
+
+57
+00:04:26,370 --> 00:04:27,370
+optimized.
+
+58
+00:04:27,370 --> 00:04:33,840
+Usually, a buy or a sell signal is generated
+within the first 5 – 15 minutes of the trading
+
+59
+00:04:33,840 --> 00:04:34,840
+day.
+
+60
+00:04:34,840 --> 00:04:40,160
+You can play around with the time settings
+and see which one works best for you.
+
+61
+00:04:40,160 --> 00:04:46,620
+As volume increases during the first 5 minutes,
+it naturally causes prices to oscillate more
+
+62
+00:04:46,620 --> 00:04:47,620
+widely.
+
+63
+00:04:47,620 --> 00:04:53,720
+This volatility stretching the highs and lows
+creates prime openings for strategic plays.
+
+64
+00:04:53,720 --> 00:04:59,210
+In this chart, the OPEN price is matching
+the DAY's low, and this reveals that smart
+
+65
+00:04:59,210 --> 00:05:05,860
+institutional players have stepped in overnight
+or pre-market to dominate the session.
+
+66
+00:05:05,860 --> 00:05:11,660
+The sellers didn’t have any power to move
+price, not even one tick below the open.
+
+67
+00:05:11,660 --> 00:05:14,289
+This is very bullish in my opinion.
+
+68
+00:05:14,289 --> 00:05:20,080
+When the open builds on this support, slowly
+but steadily through buying pressure, it frequently
+
+69
+00:05:20,080 --> 00:05:26,130
+initiates an extended trend up, as demand
+proved stronger than selling.
+
+70
+00:05:26,130 --> 00:05:32,740
+In this example, the open matches the high,
+suggesting selling pressure dominated early,
+
+71
+00:05:32,740 --> 00:05:37,310
+with supply outweighing demand right from
+the market open.
+
+72
+00:05:37,310 --> 00:05:43,080
+Often this indicates institutional or other
+professional traders were taking profits or
+
+73
+00:05:43,080 --> 00:05:46,539
+establishing new short positions pre-market.
+
+74
+00:05:46,539 --> 00:05:51,900
+Seeing this action telegraphed so clearly
+in the opening minutes is extremely valuable
+
+75
+00:05:51,900 --> 00:05:56,820
+for day traders and scalpers looking to ride
+the overall trend.
+
+76
+00:05:56,820 --> 00:06:03,789
+It informs you that big players expect short-term
+downward momentum, at least initially.
+
+77
+00:06:03,789 --> 00:06:05,790
+There are 2 types of entries.
+
+78
+00:06:05,790 --> 00:06:12,220
+The first one - entering long on the first
+push above the first 5 minute candle or immediately
+
+79
+00:06:12,220 --> 00:06:14,470
+after the candle has formed.
+
+80
+00:06:14,470 --> 00:06:20,720
+Quality liquidity lies below, and the initial
+bounce often has follow-through, as momentum
+
+81
+00:06:20,720 --> 00:06:23,900
+traders join to ride the wave up.
+
+82
+00:06:23,900 --> 00:06:30,389
+The second entry - at the 50% Fibonacci retracement
+of the initial candle, if the candle is larger
+
+83
+00:06:30,389 --> 00:06:31,729
+in size.
+
+84
+00:06:31,729 --> 00:06:36,970
+You see, sometimes it’s better to wait for
+a retracement, and then enter, in the direction
+
+85
+00:06:36,970 --> 00:06:39,340
+of the initial candle.
+
+86
+00:06:39,340 --> 00:06:44,960
+The aggressive entry comes after you monitor
+that first critical 5-minute candle.
+
+87
+00:06:44,960 --> 00:06:51,150
+By waiting the first candle to form, you allow
+the initial dust to settle, while key levels
+
+88
+00:06:51,150 --> 00:06:52,150
+establish.
+
+89
+00:06:52,150 --> 00:06:59,620
+For an open equal to the high, I'd set a sell
+order a tick below the 5-minute candle's low.
+
+90
+00:06:59,620 --> 00:07:05,620
+Smart money likely capped upside there, and
+a break suggests distribution might persist.
+
+91
+00:07:05,620 --> 00:07:13,180
+Conversely, an open matching the day's low,
+presents buy triggers on a push above the
+
+92
+00:07:13,180 --> 00:07:14,289
+5-minute high.
+
+93
+00:07:14,289 --> 00:07:19,789
+The low confirms underlying support, and a
+break above signals buyers could maintain
+
+94
+00:07:19,789 --> 00:07:23,169
+control pushing prices up further.
+
+95
+00:07:23,169 --> 00:07:30,000
+As you are scalping, always risk small with
+tight stops above or below the 5-minute range.
+
+96
+00:07:30,000 --> 00:07:35,530
+And a quick tip - volume-backed breakouts
+often spark quick continuation, as momentum
+
+97
+00:07:35,530 --> 00:07:37,229
+traders pile on.
+
+98
+00:07:37,229 --> 00:07:41,150
+I kind of prefer the more conservative entry.
+
+99
+00:07:41,150 --> 00:07:46,440
+Rather than entering signals immediately at
+the open of the next candle, I wait for a
+
+100
+00:07:46,440 --> 00:07:53,509
+retracement back to the midpoint of the opening
+5 minute candle, before triggering my entry.
+
+101
+00:07:53,509 --> 00:07:59,680
+So we enter in the direction of the expected
+momentum move at a better price after some
+
+102
+00:07:59,680 --> 00:08:01,000
+pullback.
+
+103
+00:08:01,000 --> 00:08:03,830
+This improves our risk-reward ratio.
+
+104
+00:08:03,830 --> 00:08:10,010
+And we avoid potentially getting stopped out
+on wider, more volatile opening candles, if
+
+105
+00:08:10,010 --> 00:08:13,319
+price whipsaws before the impulse begins.
+
+106
+00:08:13,319 --> 00:08:19,960
+Essentially, we are refining our execution
+using the opening candle range as a guide.
+
+107
+00:08:19,960 --> 00:08:26,220
+Rather than rushing in at the initial 5-minute
+candle breakout, waiting for a modest retracement
+
+108
+00:08:26,220 --> 00:08:28,819
+often helps manage risk better.
+
+109
+00:08:28,819 --> 00:08:34,990
+So remember this: overextended openings frequently
+pull back within the range.
+
+110
+00:08:34,990 --> 00:08:40,779
+In this case, tightened entries on a pullback
+to the midpoint provides a lower-risk second
+
+111
+00:08:40,779 --> 00:08:47,600
+chance if momentum stalls, without missing
+the trade entirely if it resumes swiftly.
+
+112
+00:08:47,600 --> 00:08:53,920
+As for stop placement, keeping them near the
+open price often offers the best compromise.
+
+113
+00:08:53,920 --> 00:08:59,360
+It preserves your capital should the setup
+fail, without getting stopped prematurely
+
+114
+00:08:59,360 --> 00:09:01,890
+from temporary fluctuations.
+
+115
+00:09:01,890 --> 00:09:08,600
+An alternative is, as swings develop, raise
+stops proactively to lock profits and capitalize
+
+116
+00:09:08,600 --> 00:09:10,470
+on extended moves.
+
+117
+00:09:10,470 --> 00:09:15,860
+But avoid trailed stops that can whip you
+out of positions too hastily.
+
+118
+00:09:15,860 --> 00:09:22,170
+One of the most precise ways I've found to
+extract maximum gains from this scalping strategy
+
+119
+00:09:22,170 --> 00:09:29,210
+is by factoring in anchored VWAP bands around
+that first influential 5-minute open candle.
+
+120
+00:09:29,210 --> 00:09:34,290
+You add the upper and lower bands, anchored
+to the opening price, to highlight potential
+
+121
+00:09:34,290 --> 00:09:41,300
+areas of support and resistance around the
+main VWAP line, as the day progresses.
+
+122
+00:09:41,300 --> 00:09:48,230
+Now when you enter a scalping trade, you initially
+target the 2nd or 3rd VWAP band, in the direction
+
+123
+00:09:48,230 --> 00:09:51,490
+of your entry, for partial profits.
+
+124
+00:09:51,490 --> 00:09:57,170
+For example if you go long, you target the
+upper anchored VWAP bands for the first take
+
+125
+00:09:57,170 --> 00:09:58,510
+profit.
+
+126
+00:09:58,510 --> 00:10:04,170
+If you go short, you aim for the lower VWAP
+bands for initial gains.
+
+127
+00:10:04,170 --> 00:10:10,029
+As price reaches the bands, scale out a portion
+of the position, while trailing a stop on
+
+128
+00:10:10,029 --> 00:10:16,600
+the remainder, to lock in further profits
+if momentum continues beyond VWAP.
+
+129
+00:10:16,600 --> 00:10:21,720
+The key benefit of using the anchored VWAP
+bands is they objectively highlight profit
+
+130
+00:10:21,720 --> 00:10:26,000
+areas based on that day's developing value
+area.
+
+131
+00:10:26,000 --> 00:10:33,100
+Using multiple exits using VWAP bands makes
+your trading far more dynamic and adaptive.
+
+132
+00:10:33,100 --> 00:10:39,270
+Aiming blindly for a fixed risk - reward ratio
+on every trade can be limiting because price
+
+133
+00:10:39,270 --> 00:10:42,500
+movements and volatility fluctuate.
+
+134
+00:10:42,500 --> 00:10:47,350
+Some momentum surges will exhaust quickly
+after your entry signal.
+
+135
+00:10:47,350 --> 00:10:52,029
+Others may continue trending strongly beyond
+your static target.
+
+136
+00:10:52,029 --> 00:10:57,500
+This is where adding adaptive exits like VWAP
+bands becomes highly useful.
+
+137
+00:10:57,500 --> 00:11:03,800
+If momentum fizzles out early, the VWAP bands
+can alert you to take profits nearer to your
+
+138
+00:11:03,800 --> 00:11:05,019
+entry.
+
+139
+00:11:05,019 --> 00:11:10,730
+If the momentum explodes with thrust, the
+bands help you trail stops to capture outsized
+
+140
+00:11:10,730 --> 00:11:11,769
+gains.
+
+141
+00:11:11,769 --> 00:11:17,709
+Either way, you are basing exits on the real-time
+developing market context, rather than just
+
+142
+00:11:17,709 --> 00:11:20,910
+assuming a pre-set target will be hit.
+
+143
+00:11:20,910 --> 00:11:27,040
+Remember, you are scalping, so managing risk
+smartly is the foundation to your long-term
+
+144
+00:11:27,040 --> 00:11:28,519
+success.
+
+145
+00:11:28,519 --> 00:11:33,750
+Consider reducing position size if entering
+on wider opening candles.
+
+146
+00:11:33,750 --> 00:11:39,519
+And trail stops incrementally to lock in profits
+as the momentum wave extends.
+
+147
+00:11:39,519 --> 00:11:45,940
+Learn to scale out partial profits in pieces
+rather than exiting the whole trade at once.
+
+148
+00:11:45,940 --> 00:11:50,090
+And if you want to discover other scalping
+strategies, you might want to watch one of
+
+149
+00:11:50,090 --> 00:11:50,100
+these videos.
+

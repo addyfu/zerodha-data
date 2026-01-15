@@ -1,0 +1,1368 @@
+1
+00:00:00,310 --> 00:00:02,960
+[Music]
+
+2
+00:00:00,960 --> 00:00:04,799
+renko charts are a great way to analyze
+
+3
+00:00:02,960 --> 00:00:05,920
+the market from a completely different
+
+4
+00:00:04,799 --> 00:00:08,080
+perspective
+
+5
+00:00:05,920 --> 00:00:09,920
+if you prefer sculpting or day trading
+
+6
+00:00:08,080 --> 00:00:12,160
+and like to analyze price action
+
+7
+00:00:09,920 --> 00:00:14,719
+then ranco charts are perfect to reduce
+
+8
+00:00:12,160 --> 00:00:16,560
+noise and reveal key intraday levels
+
+9
+00:00:14,719 --> 00:00:18,480
+in this video i will share scoping and
+
+10
+00:00:16,560 --> 00:00:19,039
+day trading strategy involving wrinkle
+
+11
+00:00:18,480 --> 00:00:21,119
+charts
+
+12
+00:00:19,039 --> 00:00:22,960
+in a specific chart pattern and you will
+
+13
+00:00:21,119 --> 00:00:24,240
+learn in detail how to identify
+
+14
+00:00:22,960 --> 00:00:25,920
+potential signals
+
+15
+00:00:24,240 --> 00:00:29,039
+and the conditions needed for high
+
+16
+00:00:25,920 --> 00:00:29,039
+probability setups
+
+17
+00:00:29,119 --> 00:00:32,239
+wrinkle charts are great for sculpting
+
+18
+00:00:30,880 --> 00:00:34,320
+and day trading because
+
+19
+00:00:32,239 --> 00:00:36,079
+small noisy price movements can be
+
+20
+00:00:34,320 --> 00:00:36,960
+hidden to uncover the things of
+
+21
+00:00:36,079 --> 00:00:39,440
+importance
+
+22
+00:00:36,960 --> 00:00:40,879
+like trends and support and resistance
+
+23
+00:00:39,440 --> 00:00:42,960
+with the right understanding
+
+24
+00:00:40,879 --> 00:00:45,120
+wrinkle charts can produce insights that
+
+25
+00:00:42,960 --> 00:00:46,640
+are invisible using conventional price
+
+26
+00:00:45,120 --> 00:00:48,719
+time charts
+
+27
+00:00:46,640 --> 00:00:50,719
+ranco charts don't work in the same way
+
+28
+00:00:48,719 --> 00:00:52,879
+as conventional price charts
+
+29
+00:00:50,719 --> 00:00:53,760
+each point in a rainco chart is a block
+
+30
+00:00:52,879 --> 00:00:55,520
+or a brick
+
+31
+00:00:53,760 --> 00:00:57,920
+and the brick is plotted whenever the
+
+32
+00:00:55,520 --> 00:00:59,039
+price increases or decreases by a
+
+33
+00:00:57,920 --> 00:01:01,199
+certain amount
+
+34
+00:00:59,039 --> 00:01:02,239
+meaning the chart only moves forward on
+
+35
+00:01:01,199 --> 00:01:05,840
+the time axis
+
+36
+00:01:02,239 --> 00:01:07,680
+when the price changes renko charts
+
+37
+00:01:05,840 --> 00:01:09,040
+never move horizontally they only
+
+38
+00:01:07,680 --> 00:01:11,040
+advance up or down
+
+39
+00:01:09,040 --> 00:01:12,640
+at the same fixed rate and that's
+
+40
+00:01:11,040 --> 00:01:13,680
+important because when you're actively
+
+41
+00:01:12,640 --> 00:01:15,759
+trading the markets
+
+42
+00:01:13,680 --> 00:01:17,840
+scalping or day trading it's important
+
+43
+00:01:15,759 --> 00:01:18,960
+to have a methodology to clear out the
+
+44
+00:01:17,840 --> 00:01:20,960
+market noise
+
+45
+00:01:18,960 --> 00:01:22,720
+i won't go much in detail if you aren't
+
+46
+00:01:20,960 --> 00:01:24,960
+familiar with ranco charting
+
+47
+00:01:22,720 --> 00:01:26,080
+make sure you watch this video first to
+
+48
+00:01:24,960 --> 00:01:29,920
+understand exactly
+
+49
+00:01:26,080 --> 00:01:31,920
+how renko boxes work renko gives you a
+
+50
+00:01:29,920 --> 00:01:34,000
+different way to view price action
+
+51
+00:01:31,920 --> 00:01:35,119
+although a renkwa chart contains bricks
+
+52
+00:01:34,000 --> 00:01:37,200
+of the same size
+
+53
+00:01:35,119 --> 00:01:38,720
+predetermined by the trader there are
+
+54
+00:01:37,200 --> 00:01:40,960
+some boxes that contain
+
+55
+00:01:38,720 --> 00:01:42,000
+wicks either at the top or at the bottom
+
+56
+00:01:40,960 --> 00:01:44,320
+of a brick
+
+57
+00:01:42,000 --> 00:01:46,079
+these are the equivalent of pin bars on
+
+58
+00:01:44,320 --> 00:01:49,680
+classic candlestick patterns
+
+59
+00:01:46,079 --> 00:01:51,439
+this is the pattern we will search for
+
+60
+00:01:49,680 --> 00:01:53,200
+a bim bar is a chart candlestick
+
+61
+00:01:51,439 --> 00:01:55,439
+characterized by a long tail
+
+62
+00:01:53,200 --> 00:01:56,880
+that shows rejection and indicates that
+
+63
+00:01:55,439 --> 00:01:57,840
+the market will move in the opposite
+
+64
+00:01:56,880 --> 00:02:00,000
+direction
+
+65
+00:01:57,840 --> 00:02:01,439
+the area between the open and the close
+
+66
+00:02:00,000 --> 00:02:03,759
+is called the real body
+
+67
+00:02:01,439 --> 00:02:04,960
+and typically all beam bars have a very
+
+68
+00:02:03,759 --> 00:02:07,920
+small real body
+
+69
+00:02:04,960 --> 00:02:09,679
+and a long shadow a bullish pin bar is
+
+70
+00:02:07,920 --> 00:02:11,840
+known for its lower wicks
+
+71
+00:02:09,679 --> 00:02:13,520
+and the bearish one is characterized by
+
+72
+00:02:11,840 --> 00:02:15,760
+long upper wicks
+
+73
+00:02:13,520 --> 00:02:17,040
+the same is true for renko charts the
+
+74
+00:02:15,760 --> 00:02:21,360
+idea is to find
+
+75
+00:02:17,040 --> 00:02:24,160
+wrinkle boxes that have long wicks
+
+76
+00:02:21,360 --> 00:02:24,800
+now trading is a game of probabilities
+
+77
+00:02:24,160 --> 00:02:26,879
+that's why
+
+78
+00:02:24,800 --> 00:02:29,120
+you must evaluate your rank of pin bar
+
+79
+00:02:26,879 --> 00:02:31,120
+setups from multiple angles
+
+80
+00:02:29,120 --> 00:02:32,959
+to determine whether or not a rank of
+
+81
+00:02:31,120 --> 00:02:34,959
+bim bar is worth trading
+
+82
+00:02:32,959 --> 00:02:36,800
+this price action signal should respect
+
+83
+00:02:34,959 --> 00:02:39,360
+the following criteria
+
+84
+00:02:36,800 --> 00:02:40,480
+a quality wrinkle pin bar forms near a
+
+85
+00:02:39,360 --> 00:02:43,280
+support key level
+
+86
+00:02:40,480 --> 00:02:44,959
+in an uptrend and near a resistance
+
+87
+00:02:43,280 --> 00:02:47,360
+level in a downtrend
+
+88
+00:02:44,959 --> 00:02:48,959
+and the rank opinion bar formed in line
+
+89
+00:02:47,360 --> 00:02:51,040
+with the direction of the market
+
+90
+00:02:48,959 --> 00:02:52,000
+is more powerful than the one which is
+
+91
+00:02:51,040 --> 00:02:54,800
+formed against
+
+92
+00:02:52,000 --> 00:02:56,239
+the trend so the formation of this renko
+
+93
+00:02:54,800 --> 00:02:59,440
+pattern with the trend
+
+94
+00:02:56,239 --> 00:03:00,560
+makes it more effective as you can see
+
+95
+00:02:59,440 --> 00:03:02,720
+in this example
+
+96
+00:03:00,560 --> 00:03:04,159
+renko bullish pin bars that were formed
+
+97
+00:03:02,720 --> 00:03:06,800
+in line with the uptrend
+
+98
+00:03:04,159 --> 00:03:08,239
+offered good trading entries this is the
+
+99
+00:03:06,800 --> 00:03:09,519
+pattern we should be taking into
+
+100
+00:03:08,239 --> 00:03:11,280
+consideration
+
+101
+00:03:09,519 --> 00:03:14,480
+the bearish ones that were formed
+
+102
+00:03:11,280 --> 00:03:16,400
+against the trend should be ignored
+
+103
+00:03:14,480 --> 00:03:17,760
+the anatomy of a renko pimbar is
+
+104
+00:03:16,400 --> 00:03:19,280
+important as well
+
+105
+00:03:17,760 --> 00:03:21,120
+and you have to make sure that the
+
+106
+00:03:19,280 --> 00:03:22,879
+pattern is indeed a pin bar
+
+107
+00:03:21,120 --> 00:03:24,239
+by looking at the distance between the
+
+108
+00:03:22,879 --> 00:03:26,239
+box and the tail
+
+109
+00:03:24,239 --> 00:03:28,319
+pin bars with longer tails are more
+
+110
+00:03:26,239 --> 00:03:30,560
+powerful the psychology behind the
+
+111
+00:03:28,319 --> 00:03:32,560
+bimbar candle formation is simple
+
+112
+00:03:30,560 --> 00:03:33,680
+pin bars are formed when prices are
+
+113
+00:03:32,560 --> 00:03:35,760
+rejected
+
+114
+00:03:33,680 --> 00:03:37,519
+now this rejection doesn't indicate a
+
+115
+00:03:35,760 --> 00:03:40,000
+guaranteed reversal signal
+
+116
+00:03:37,519 --> 00:03:41,840
+because this price action setup can form
+
+117
+00:03:40,000 --> 00:03:43,840
+everywhere in your chart
+
+118
+00:03:41,840 --> 00:03:44,879
+the most important areas to watch when
+
+119
+00:03:43,840 --> 00:03:46,640
+trading pin bars
+
+120
+00:03:44,879 --> 00:03:49,040
+are major key levels of support and
+
+121
+00:03:46,640 --> 00:03:51,360
+resistance
+
+122
+00:03:49,040 --> 00:03:52,319
+if the rejection was near support level
+
+123
+00:03:51,360 --> 00:03:54,159
+for example
+
+124
+00:03:52,319 --> 00:03:55,760
+this is an obvious indication that the
+
+125
+00:03:54,159 --> 00:03:57,439
+bulls were more powerful
+
+126
+00:03:55,760 --> 00:03:59,760
+and they are willing to push the market
+
+127
+00:03:57,439 --> 00:04:01,680
+to go upward if the formation of this
+
+128
+00:03:59,760 --> 00:04:02,239
+candlestick occurs near a resistance
+
+129
+00:04:01,680 --> 00:04:04,080
+level
+
+130
+00:04:02,239 --> 00:04:06,159
+it indicates that the bears reject
+
+131
+00:04:04,080 --> 00:04:07,439
+prices and prevent the bulls from
+
+132
+00:04:06,159 --> 00:04:09,280
+breaking this level
+
+133
+00:04:07,439 --> 00:04:11,120
+so this means that sellers are willing
+
+134
+00:04:09,280 --> 00:04:12,959
+to push the market downward
+
+135
+00:04:11,120 --> 00:04:14,400
+if you understand the psychology behind
+
+136
+00:04:12,959 --> 00:04:16,239
+this price action pattern
+
+137
+00:04:14,400 --> 00:04:17,840
+you will be able to anticipate what is
+
+138
+00:04:16,239 --> 00:04:20,079
+likely to happen in the future
+
+139
+00:04:17,840 --> 00:04:23,680
+and you will make better trades based on
+
+140
+00:04:20,079 --> 00:04:26,000
+high probability pinbar signals
+
+141
+00:04:23,680 --> 00:04:26,800
+remember besides support and resistance
+
+142
+00:04:26,000 --> 00:04:29,199
+criteria
+
+143
+00:04:26,800 --> 00:04:30,080
+we aim to trade renko pinbars with the
+
+144
+00:04:29,199 --> 00:04:32,240
+trend
+
+145
+00:04:30,080 --> 00:04:34,080
+pin bars that occur in trending markets
+
+146
+00:04:32,240 --> 00:04:36,639
+offer good trading opportunities
+
+147
+00:04:34,080 --> 00:04:37,360
+with high risk reward ratio the strategy
+
+148
+00:04:36,639 --> 00:04:39,759
+is simple
+
+149
+00:04:37,360 --> 00:04:40,720
+you start by identifying a clear uptrend
+
+150
+00:04:39,759 --> 00:04:42,800
+or downtrend
+
+151
+00:04:40,720 --> 00:04:44,479
+and you wait for a pin bar to occur
+
+152
+00:04:42,800 --> 00:04:47,199
+after a pullback to a support or
+
+153
+00:04:44,479 --> 00:04:49,600
+resistance level
+
+154
+00:04:47,199 --> 00:04:50,560
+this example shows how this price action
+
+155
+00:04:49,600 --> 00:04:53,759
+signal works
+
+156
+00:04:50,560 --> 00:04:55,680
+if it's traded with the trend here the
+
+157
+00:04:53,759 --> 00:04:56,320
+price was rejected from the resistance
+
+158
+00:04:55,680 --> 00:04:58,240
+level
+
+159
+00:04:56,320 --> 00:05:00,240
+which indicates that the bears are still
+
+160
+00:04:58,240 --> 00:05:02,160
+in charge of the downtrend
+
+161
+00:05:00,240 --> 00:05:03,919
+the formation of the beam bar indicates
+
+162
+00:05:02,160 --> 00:05:06,000
+the end of the retracement move
+
+163
+00:05:03,919 --> 00:05:07,600
+and the beginning of the impulsive move
+
+164
+00:05:06,000 --> 00:05:10,000
+at the resistance level
+
+165
+00:05:07,600 --> 00:05:11,199
+in line with the downtrend this is a
+
+166
+00:05:10,000 --> 00:05:13,520
+high quality setup
+
+167
+00:05:11,199 --> 00:05:15,600
+because all the conditions are respected
+
+168
+00:05:13,520 --> 00:05:17,440
+the rank of pin bar is well formed
+
+169
+00:05:15,600 --> 00:05:19,680
+and it's in line with the direction of
+
+170
+00:05:17,440 --> 00:05:22,240
+the market and the rejection occurred
+
+171
+00:05:19,680 --> 00:05:23,600
+at a major key level which represents a
+
+172
+00:05:22,240 --> 00:05:27,120
+hot point in the market
+
+173
+00:05:23,600 --> 00:05:29,360
+a resistance level sometimes
+
+174
+00:05:27,120 --> 00:05:31,360
+even if the market is trending we can't
+
+175
+00:05:29,360 --> 00:05:33,520
+draw support and resistance levels
+
+176
+00:05:31,360 --> 00:05:35,840
+because prices move in a certain way
+
+177
+00:05:33,520 --> 00:05:37,600
+during which we are unable to identify
+
+178
+00:05:35,840 --> 00:05:39,600
+static key levels
+
+179
+00:05:37,600 --> 00:05:40,800
+if you are in this situation you can use
+
+180
+00:05:39,600 --> 00:05:42,800
+a moving average
+
+181
+00:05:40,800 --> 00:05:43,840
+which will act as a dynamic support in
+
+182
+00:05:42,800 --> 00:05:46,080
+an uptrend market
+
+183
+00:05:43,840 --> 00:05:47,039
+and a dynamic resistance in a downtrend
+
+184
+00:05:46,080 --> 00:05:48,880
+market
+
+185
+00:05:47,039 --> 00:05:50,400
+as you can observe in this example the
+
+186
+00:05:48,880 --> 00:05:52,800
+market was trending down
+
+187
+00:05:50,400 --> 00:05:55,199
+and using a moving average helps us to
+
+188
+00:05:52,800 --> 00:05:58,960
+identify dynamic resistance levels
+
+189
+00:05:55,199 --> 00:06:00,960
+and high probability pin bar setups
+
+190
+00:05:58,960 --> 00:06:02,560
+in this other example when prices
+
+191
+00:06:00,960 --> 00:06:04,240
+approach the moving average
+
+192
+00:06:02,560 --> 00:06:06,160
+buying pressure takes place in the
+
+193
+00:06:04,240 --> 00:06:08,479
+market and the price goes up
+
+194
+00:06:06,160 --> 00:06:10,240
+the pin bar signal is clear on the chart
+
+195
+00:06:08,479 --> 00:06:12,160
+because the trend is bullish
+
+196
+00:06:10,240 --> 00:06:13,520
+the price action setup has a bullish
+
+197
+00:06:12,160 --> 00:06:14,880
+structure as well
+
+198
+00:06:13,520 --> 00:06:17,199
+and the rejection from the moving
+
+199
+00:06:14,880 --> 00:06:19,199
+average is a confirmation signal to buy
+
+200
+00:06:17,199 --> 00:06:21,199
+the market
+
+201
+00:06:19,199 --> 00:06:22,720
+the entry when it comes to trading rank
+
+202
+00:06:21,199 --> 00:06:24,800
+or pin bars is simple
+
+203
+00:06:22,720 --> 00:06:26,639
+if all conditions are met we enter the
+
+204
+00:06:24,800 --> 00:06:27,919
+market immediately after the rank of
+
+205
+00:06:26,639 --> 00:06:29,680
+pimbar closes
+
+206
+00:06:27,919 --> 00:06:31,120
+this strategy will help you to catch the
+
+207
+00:06:29,680 --> 00:06:32,880
+move from the beginning because
+
+208
+00:06:31,120 --> 00:06:35,120
+sometimes the price goes higher
+
+209
+00:06:32,880 --> 00:06:36,880
+after the formation of the beam bar and
+
+210
+00:06:35,120 --> 00:06:39,520
+if you are not in the market the trade
+
+211
+00:06:36,880 --> 00:06:42,000
+will live without you
+
+212
+00:06:39,520 --> 00:06:43,680
+this example shows a perfect entry we
+
+213
+00:06:42,000 --> 00:06:45,199
+took this trade because we had three
+
+214
+00:06:43,680 --> 00:06:47,840
+important elements
+
+215
+00:06:45,199 --> 00:06:49,199
+the trend the market was trending down
+
+216
+00:06:47,840 --> 00:06:50,720
+in this case we look for selling
+
+217
+00:06:49,199 --> 00:06:53,039
+opportunities
+
+218
+00:06:50,720 --> 00:06:54,960
+the level here we had a support level
+
+219
+00:06:53,039 --> 00:06:57,120
+that becomes resistance
+
+220
+00:06:54,960 --> 00:06:59,039
+and the signal a renko pin bar was
+
+221
+00:06:57,120 --> 00:07:01,599
+formed after the retracement
+
+222
+00:06:59,039 --> 00:07:03,520
+back to the resistance level when you
+
+223
+00:07:01,599 --> 00:07:05,360
+have these three elements in the market
+
+224
+00:07:03,520 --> 00:07:07,199
+you just place your trade after the
+
+225
+00:07:05,360 --> 00:07:09,440
+appearance of the rank of pm bar
+
+226
+00:07:07,199 --> 00:07:10,720
+and your stop loss above the long tail
+
+227
+00:07:09,440 --> 00:07:12,479
+your profit target
+
+228
+00:07:10,720 --> 00:07:14,479
+would be the next support level in the
+
+229
+00:07:12,479 --> 00:07:17,599
+case of a downtrend or at least
+
+230
+00:07:14,479 --> 00:07:19,280
+two times the risk level as we are
+
+231
+00:07:17,599 --> 00:07:20,080
+scoping and day trading using this
+
+232
+00:07:19,280 --> 00:07:22,160
+approach
+
+233
+00:07:20,080 --> 00:07:24,400
+confluence is a must for a high quality
+
+234
+00:07:22,160 --> 00:07:25,039
+setup confluence happens when many
+
+235
+00:07:24,400 --> 00:07:27,280
+factors
+
+236
+00:07:25,039 --> 00:07:29,360
+generate the same signal this trading
+
+237
+00:07:27,280 --> 00:07:30,000
+concept is used to filter out entry
+
+238
+00:07:29,360 --> 00:07:32,160
+points
+
+239
+00:07:30,000 --> 00:07:33,440
+and spot high probability signals in the
+
+240
+00:07:32,160 --> 00:07:35,360
+market
+
+241
+00:07:33,440 --> 00:07:36,960
+trading with confluence will help you
+
+242
+00:07:35,360 --> 00:07:39,840
+focus on quality setups
+
+243
+00:07:36,960 --> 00:07:42,240
+rather than quantity and it will enhance
+
+244
+00:07:39,840 --> 00:07:44,400
+tremendously your trading performance
+
+245
+00:07:42,240 --> 00:07:45,520
+in our case if we are looking for a ring
+
+246
+00:07:44,400 --> 00:07:47,280
+of pinbar signal
+
+247
+00:07:45,520 --> 00:07:48,800
+we need to find other factors of
+
+248
+00:07:47,280 --> 00:07:52,560
+confluence to confirm
+
+249
+00:07:48,800 --> 00:07:53,759
+our entry so what are other factors of
+
+250
+00:07:52,560 --> 00:07:56,000
+confluence
+
+251
+00:07:53,759 --> 00:07:57,680
+first the trend is one of the most
+
+252
+00:07:56,000 --> 00:07:59,280
+important factor of confluence
+
+253
+00:07:57,680 --> 00:08:00,879
+this is the first thing that most
+
+254
+00:07:59,280 --> 00:08:03,120
+successful traders look for
+
+255
+00:08:00,879 --> 00:08:05,120
+on their charts you can't trade any
+
+256
+00:08:03,120 --> 00:08:06,720
+setup without identifying if it's in
+
+257
+00:08:05,120 --> 00:08:08,160
+line with the direction of the market or
+
+258
+00:08:06,720 --> 00:08:10,879
+not
+
+259
+00:08:08,160 --> 00:08:13,039
+next support and resistance levels and
+
+260
+00:08:10,879 --> 00:08:15,280
+supply and demand areas
+
+261
+00:08:13,039 --> 00:08:16,560
+these major levels have a significant
+
+262
+00:08:15,280 --> 00:08:19,120
+importance in the market
+
+263
+00:08:16,560 --> 00:08:21,599
+because all big participants watch the
+
+264
+00:08:19,120 --> 00:08:23,440
+specific areas
+
+265
+00:08:21,599 --> 00:08:24,960
+moving averages could represent another
+
+266
+00:08:23,440 --> 00:08:27,599
+conference factor
+
+267
+00:08:24,960 --> 00:08:28,240
+i personally add the 10 or the 20 moving
+
+268
+00:08:27,599 --> 00:08:30,639
+average
+
+269
+00:08:28,240 --> 00:08:31,520
+depending on the market i'm trading this
+
+270
+00:08:30,639 --> 00:08:33,599
+trading tool
+
+271
+00:08:31,520 --> 00:08:35,440
+acts as a dynamic support and resistance
+
+272
+00:08:33,599 --> 00:08:38,320
+level and it's a very important factor
+
+273
+00:08:35,440 --> 00:08:40,320
+of confluence in trending markets
+
+274
+00:08:38,320 --> 00:08:42,080
+fibonacci retracement tool is another
+
+275
+00:08:40,320 --> 00:08:44,480
+factor of confluence
+
+276
+00:08:42,080 --> 00:08:46,640
+you could use the 61 and the 50
+
+277
+00:08:44,480 --> 00:08:48,480
+fibonacci retracement to find the most
+
+278
+00:08:46,640 --> 00:08:51,760
+powerful areas in the market
+
+279
+00:08:48,480 --> 00:08:52,959
+to align with rank of inverse also
+
+280
+00:08:51,760 --> 00:08:54,880
+trendlines
+
+281
+00:08:52,959 --> 00:08:56,640
+drawing trend lines on your chart can
+
+282
+00:08:54,880 --> 00:08:57,360
+give you an idea about the market
+
+283
+00:08:56,640 --> 00:08:58,800
+direction
+
+284
+00:08:57,360 --> 00:09:02,560
+and can help you to find the most
+
+285
+00:08:58,800 --> 00:09:04,399
+important reversal points in the market
+
+286
+00:09:02,560 --> 00:09:06,000
+when you are analyzing your chart you
+
+287
+00:09:04,399 --> 00:09:07,760
+are not obligated to find
+
+288
+00:09:06,000 --> 00:09:09,680
+all these levels to determine whether
+
+289
+00:09:07,760 --> 00:09:11,680
+the trade is valid or not
+
+290
+00:09:09,680 --> 00:09:13,920
+if you can find just one or two factors
+
+291
+00:09:11,680 --> 00:09:15,600
+of confluence that come up together with
+
+292
+00:09:13,920 --> 00:09:17,360
+a good rank of pinbar setup
+
+293
+00:09:15,600 --> 00:09:19,600
+this is enough to make a profitable
+
+294
+00:09:17,360 --> 00:09:21,600
+trade in this example
+
+295
+00:09:19,600 --> 00:09:23,680
+we have a high probability setup with
+
+296
+00:09:21,600 --> 00:09:26,160
+four factors of confluence
+
+297
+00:09:23,680 --> 00:09:27,920
+first the trend the market is trending
+
+298
+00:09:26,160 --> 00:09:28,640
+up which means that we have to follow
+
+299
+00:09:27,920 --> 00:09:31,440
+the trend
+
+300
+00:09:28,640 --> 00:09:32,399
+and look for a buying opportunity second
+
+301
+00:09:31,440 --> 00:09:34,399
+the level
+
+302
+00:09:32,399 --> 00:09:36,160
+the support level is an important key
+
+303
+00:09:34,399 --> 00:09:38,240
+area in the market as price
+
+304
+00:09:36,160 --> 00:09:39,360
+broke out the resistance level that
+
+305
+00:09:38,240 --> 00:09:42,399
+becomes support
+
+306
+00:09:39,360 --> 00:09:44,399
+and pulled back to it third the signal
+
+307
+00:09:42,399 --> 00:09:46,320
+the formation of the renko bullish beam
+
+308
+00:09:44,399 --> 00:09:48,480
+bar after the retracement
+
+309
+00:09:46,320 --> 00:09:49,600
+back to the new support level and
+
+310
+00:09:48,480 --> 00:09:51,360
+another signal
+
+311
+00:09:49,600 --> 00:09:53,920
+the rejection of the pin bar from the
+
+312
+00:09:51,360 --> 00:09:56,399
+support level and the 10 moving average
+
+313
+00:09:53,920 --> 00:09:58,160
+that acted as a dynamic support level
+
+314
+00:09:56,399 --> 00:10:00,399
+all these factors work together
+
+315
+00:09:58,160 --> 00:10:02,480
+to give a powerful trading signal to buy
+
+316
+00:10:00,399 --> 00:10:05,040
+the market
+
+317
+00:10:02,480 --> 00:10:07,040
+this example shows four confluent levels
+
+318
+00:10:05,040 --> 00:10:08,079
+that indicate a powerful short trading
+
+319
+00:10:07,040 --> 00:10:10,720
+signal
+
+320
+00:10:08,079 --> 00:10:12,560
+the first factor is the bearish trend
+
+321
+00:10:10,720 --> 00:10:14,640
+and the second one is the support level
+
+322
+00:10:12,560 --> 00:10:16,800
+that becomes resistance
+
+323
+00:10:14,640 --> 00:10:18,959
+the third one is the 10 moving average
+
+324
+00:10:16,800 --> 00:10:19,519
+which represents a dynamic resistance
+
+325
+00:10:18,959 --> 00:10:21,279
+level
+
+326
+00:10:19,519 --> 00:10:22,560
+and the last factor is the rank of
+
+327
+00:10:21,279 --> 00:10:26,079
+pinball formation
+
+328
+00:10:22,560 --> 00:10:27,839
+near this level in line with the trend
+
+329
+00:10:26,079 --> 00:10:29,839
+if you adopted a confluence trading
+
+330
+00:10:27,839 --> 00:10:31,360
+concept you will completely change the
+
+331
+00:10:29,839 --> 00:10:33,440
+way you perceive the market
+
+332
+00:10:31,360 --> 00:10:35,360
+and you will start trading like a sniper
+
+333
+00:10:33,440 --> 00:10:36,320
+by waiting for the best trading setups
+
+334
+00:10:35,360 --> 00:10:38,240
+to come to you
+
+335
+00:10:36,320 --> 00:10:40,959
+instead of forcing your trades and
+
+336
+00:10:38,240 --> 00:10:42,560
+trading without any major backup
+
+337
+00:10:40,959 --> 00:10:44,800
+if you learned something new and found
+
+338
+00:10:42,560 --> 00:10:46,480
+value leave us a like to show support
+
+339
+00:10:44,800 --> 00:10:48,079
+subscribe to our channel and hit the
+
+340
+00:10:46,480 --> 00:10:50,160
+bell icon to stay in touch when we
+
+341
+00:10:48,079 --> 00:10:54,399
+release new videos
+
+342
+00:10:50,160 --> 00:10:54,399
+until next time
+

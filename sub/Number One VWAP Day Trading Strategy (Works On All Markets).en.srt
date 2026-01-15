@@ -1,0 +1,787 @@
+1
+00:00:00,729 --> 00:00:05,100
+In my first years of trading, I used to change
+strategies almost every day.
+
+2
+00:00:05,100 --> 00:00:07,690
+I didn’t have a trading plan.
+
+3
+00:00:07,690 --> 00:00:10,299
+If I saw a signal, I took it.
+
+4
+00:00:10,299 --> 00:00:15,949
+Until I realized that when it comes to technical
+trading, my job was to seek out only the high
+
+5
+00:00:15,949 --> 00:00:17,550
+probability entries.
+
+6
+00:00:17,550 --> 00:00:23,160
+Today I’ll show you an effective strategy
+to increase the odds on your trades, using
+
+7
+00:00:23,160 --> 00:00:29,550
+VWAP and the simplest price pattern you could
+find, the V top and V bottom formation.
+
+8
+00:00:29,550 --> 00:00:36,800
+You know the drill, like, subscribe and stick
+around for the full video.
+
+9
+00:00:36,800 --> 00:00:43,469
+V-bottom
+The V-bottom appears when price momentum switches
+
+10
+00:00:43,469 --> 00:00:47,559
+from aggressive selling to aggressive buying.
+
+11
+00:00:47,559 --> 00:00:51,250
+This is a powerful bullish reversal pattern.
+
+12
+00:00:51,250 --> 00:00:57,200
+Because of the nature of the aggressive buying
+that takes place when a market reverses direction,
+
+13
+00:00:57,200 --> 00:01:02,969
+it can be intimidating to enter, after the
+market increased already quite a bit.
+
+14
+00:01:02,969 --> 00:01:08,910
+This market shows a picture-perfect V-bottom
+at the end of a bearish trend.
+
+15
+00:01:08,910 --> 00:01:15,090
+Price traded lower into a bottom and immediately
+reversed higher with a massive increase in
+
+16
+00:01:15,090 --> 00:01:16,110
+momentum.
+
+17
+00:01:16,110 --> 00:01:23,500
+Let’s be clear: it is nearly impossible
+to predict V-bottoms, we won’t try to anticipate
+
+18
+00:01:23,500 --> 00:01:24,860
+this swing low.
+
+19
+00:01:24,860 --> 00:01:30,490
+We’ll wait for price to break the neckline
+of the pattern, meaning the previous swing
+
+20
+00:01:30,490 --> 00:01:33,380
+high before the bottom.
+
+21
+00:01:33,380 --> 00:01:37,390
+This is basically an interruption in the previous
+downtrend.
+
+22
+00:01:37,390 --> 00:01:43,150
+And then we plan to enter a long position
+once price retests the neckline.
+
+23
+00:01:43,150 --> 00:01:50,590
+But with several conformations, we’ll talk
+about them in a few moments.
+
+24
+00:01:50,590 --> 00:01:56,630
+V-top
+The V-top pattern appears when price momentum
+
+25
+00:01:56,630 --> 00:02:01,060
+switches from aggressive buying to aggressive
+selling.
+
+26
+00:02:01,060 --> 00:02:03,630
+This is a bearish reversal pattern.
+
+27
+00:02:03,630 --> 00:02:11,470
+In a V-top, price traded higher and reversed
+lower with a massive increase in momentum.
+
+28
+00:02:11,470 --> 00:02:16,219
+There are many ways to trade the V-top, but
+the most conservative way would be to wait
+
+29
+00:02:16,219 --> 00:02:22,880
+for a break and close below the neckline and
+to attempt a short once price pulls back to
+
+30
+00:02:22,880 --> 00:02:28,010
+the neckline and gets rejected.
+
+31
+00:02:28,010 --> 00:02:33,849
+AVWAP
+Trading V tops and bottoms can be difficult
+
+32
+00:02:33,849 --> 00:02:40,189
+because you’ll recognize the pattern once
+price breaks above or below the neckline.
+
+33
+00:02:40,189 --> 00:02:45,790
+And another problem is the fact you’ll see
+this setup many times throughout the day.
+
+34
+00:02:45,790 --> 00:02:52,040
+I filter these signals using VWAP, because
+on the VWAP line you won’t see changes in
+
+35
+00:02:52,040 --> 00:02:55,499
+length or timeframe — unlike moving averages.
+
+36
+00:02:55,499 --> 00:03:00,810
+Well, VWAP eliminates the confusion regarding
+time frames and settings.
+
+37
+00:03:00,810 --> 00:03:05,709
+It doesn’t matter if you use a 1-minute
+chart or an hourly chart.
+
+38
+00:03:05,709 --> 00:03:08,030
+There is only one VWAP line.
+
+39
+00:03:08,030 --> 00:03:13,220
+Flipping between time frames won’t affect
+VWAPs position.
+
+40
+00:03:13,220 --> 00:03:19,079
+VWAP acts like a magnet, either attracting
+or repelling.
+
+41
+00:03:19,079 --> 00:03:22,160
+For this strategy, we’ll use Anchored VWAP.
+
+42
+00:03:22,160 --> 00:03:28,099
+Anchored VWAP will tell you the price at which
+most traders are commonly positioned.
+
+43
+00:03:28,099 --> 00:03:38,159
+We’ll apply it on the lowest low of a V-bottom
+formation, and on the highest high of a V-top
+
+44
+00:03:38,159 --> 00:03:41,209
+formation.
+
+45
+00:03:41,209 --> 00:03:47,790
+By anchoring VWAP to these exact price locations,
+you’ll find dynamic resistance and support
+
+46
+00:03:47,790 --> 00:03:54,450
+level.
+
+47
+00:03:54,450 --> 00:03:56,310
+For a long signal:
+1.
+
+48
+00:03:56,310 --> 00:03:59,370
+Market forms a V-bottom formation
+2.
+
+49
+00:03:59,370 --> 00:04:02,519
+The V-bottom should be at a new low point
+in the market.
+
+50
+00:04:02,519 --> 00:04:07,730
+Meaning you can’t trade the formation if
+there are recent lows below it.
+
+51
+00:04:07,730 --> 00:04:08,730
+3.
+
+52
+00:04:08,730 --> 00:04:13,830
+After you identified the V-bottom, you anchor
+the VWAP on the recent lowest low
+
+53
+00:04:13,830 --> 00:04:14,830
+4.
+
+54
+00:04:14,830 --> 00:04:22,040
+If the neckline, the static support, aligns
+with the Anchored Vwap, acting a dynamic support,
+
+55
+00:04:22,040 --> 00:04:30,790
+you buy at the re-test of the neckline
+
+56
+00:04:30,790 --> 00:04:32,640
+For a short signal:
+1.
+
+57
+00:04:32,640 --> 00:04:35,570
+Market forms a V-top formation
+2.
+
+58
+00:04:35,570 --> 00:04:39,870
+The V-top should be at a new high point in
+the market.
+
+59
+00:04:39,870 --> 00:04:44,190
+So you can’t trade the formation if there
+are recent highs above it.
+
+60
+00:04:44,190 --> 00:04:45,190
+3.
+
+61
+00:04:45,190 --> 00:04:49,340
+After you found the V-top, you anchor the
+VWAP on the recent highest high
+
+62
+00:04:49,340 --> 00:04:50,340
+4.
+
+63
+00:04:50,340 --> 00:04:56,750
+If the re-test of the neckline, the static
+resistance, aligns with the Anchored Vwap,
+
+64
+00:04:56,750 --> 00:05:03,030
+as dynamic resistance, you look to sell the
+re-test of the neckline
+
+65
+00:05:03,030 --> 00:05:07,160
+We are trading Crude Oil on the 4-hour time
+frame.
+
+66
+00:05:07,160 --> 00:05:14,230
+Price dropped into this low but reversed,
+with momentum increasing on the way higher.
+
+67
+00:05:14,230 --> 00:05:18,690
+Observe that this is valid V bottom because
+price made a new recent low.
+
+68
+00:05:18,690 --> 00:05:24,510
+When you start seeing an increase in buying
+pressure, observing the price action by using
+
+69
+00:05:24,510 --> 00:05:26,600
+different time-frames can be very helpful.
+
+70
+00:05:26,600 --> 00:05:31,400
+So let’s move to the M30 time frame.
+
+71
+00:05:31,400 --> 00:05:34,680
+The neckline of the pattern is evident now.
+
+72
+00:05:34,680 --> 00:05:40,430
+The conservative way to trade would be to
+wait for a break and close above the neckline
+
+73
+00:05:40,430 --> 00:05:49,030
+and to attempt a long position once price
+pulls back to the neckline and gets rejected.
+
+74
+00:05:49,030 --> 00:05:55,250
+We have the breakout above the neckline, so
+let’s add the Anchored VWAP, at the lowest
+
+75
+00:05:55,250 --> 00:05:59,410
+low of the formation.
+
+76
+00:05:59,410 --> 00:06:07,590
+Now we just wait for a rejection of the Anchored
+VWAP and neckline.
+
+77
+00:06:07,590 --> 00:06:09,960
+Stop loss goes below VWAP.
+
+78
+00:06:09,960 --> 00:06:14,180
+And my target is the next swing high in the
+price structure.
+
+79
+00:06:14,180 --> 00:06:24,030
+The minimum risk to reward ratio should be
+at least 2.
+
+80
+00:06:24,030 --> 00:06:30,210
+Another target can be set above the neckline,
+equal to the distance measured from the low
+
+81
+00:06:30,210 --> 00:06:42,190
+of the pattern to the neckline high.
+
+82
+00:06:42,190 --> 00:06:45,190
+We trade Apple on the H1 time frame.
+
+83
+00:06:45,190 --> 00:06:47,780
+I spot a potential V-bottom here.
+
+84
+00:06:47,780 --> 00:06:51,920
+Price made a new low and momentum switched
+to the upside.
+
+85
+00:06:51,920 --> 00:06:56,010
+Let’s move to a lower time frame, to time
+our entry.
+
+86
+00:06:56,010 --> 00:06:57,920
+Here’s the neckline.
+
+87
+00:06:57,920 --> 00:07:04,520
+We’ll wait for price to break this level
+and then enter a long position once price
+
+88
+00:07:04,520 --> 00:07:06,940
+retests this area.
+
+89
+00:07:06,940 --> 00:07:13,870
+But before that, we anchor the VWAP to find
+the confluence zone.
+
+90
+00:07:13,870 --> 00:07:17,940
+Here’s the signal.
+
+91
+00:07:17,940 --> 00:07:24,990
+I see a rejection of the breakout area, and
+at the same time, a rejection of the VWAP.
+
+92
+00:07:24,990 --> 00:07:27,650
+Stop loss below the VWAP line.
+
+93
+00:07:27,650 --> 00:07:30,990
+And we target this swing high in price structure.
+
+94
+00:07:30,990 --> 00:07:37,800
+A risk to reward ratio of around 4.
+
+95
+00:07:37,800 --> 00:07:43,861
+Now that price consolidated above this swing
+high, we remove the risk from our trade, by
+
+96
+00:07:43,861 --> 00:07:46,090
+moving our stop to breakeven.
+
+97
+00:07:46,090 --> 00:07:47,090
+ 
+
+98
+00:07:47,090 --> 00:07:52,290
+Let’s trade a V top formation.
+
+99
+00:07:52,290 --> 00:07:54,360
+Pound dollar.
+
+100
+00:07:54,360 --> 00:07:57,180
+H4 time frame.
+
+101
+00:07:57,180 --> 00:08:02,310
+Price traded higher and reversed with an obvious
+increase in momentum.
+
+102
+00:08:02,310 --> 00:08:08,310
+Like I said before, it is nearly impossible
+to predict V-tops, and will wait for price
+
+103
+00:08:08,310 --> 00:08:10,620
+to break the neckline of the pattern.
+
+104
+00:08:10,620 --> 00:08:18,510
+Now let’s anchor the VWAP, to find our dynamic
+resistance area.
+
+105
+00:08:18,510 --> 00:08:23,380
+Here is the signal.
+
+106
+00:08:23,380 --> 00:08:28,390
+We have a pin bar, rejecting the VWAP, at
+the re-test of the breakout.
+
+107
+00:08:28,390 --> 00:08:33,260
+3 factors indicating a possible down move.
+
+108
+00:08:33,260 --> 00:08:38,009
+Stop loss above the VWAP and above the high
+of the pin bar.
+
+109
+00:08:38,009 --> 00:08:41,880
+Our target is this major swing low.
+
+110
+00:08:41,880 --> 00:08:48,170
+If price breaks this minor swing low, I’ll
+move my stop to breakeven.
+
+111
+00:08:48,170 --> 00:08:59,769
+Ok, now we are in risk free trade.
+
+112
+00:08:59,769 --> 00:09:04,370
+The main problem will be the fact that you’ll
+probably see many signals.
+
+113
+00:09:04,370 --> 00:09:10,160
+Even with the breakout area and VWAP confluence,
+you will have problems identifying the best
+
+114
+00:09:10,160 --> 00:09:15,189
+signals to trade, especially if you are in
+your first years of trading.
+
+115
+00:09:15,189 --> 00:09:22,650
+So my advice is to add another filter, just
+to make sure your setup is indeed worth trading.
+
+116
+00:09:22,650 --> 00:09:26,260
+My additional filter is the central pivot
+point.
+
+117
+00:09:26,260 --> 00:09:32,290
+I want the pivot to offer an additional layer
+of confluence.
+
+118
+00:09:32,290 --> 00:09:41,790
+In this example, we see a steep decline followed
+by a rally to reach the top of the pattern.
+
+119
+00:09:41,790 --> 00:09:48,480
+The neckline would be here, the first area
+of static support.
+
+120
+00:09:48,480 --> 00:09:55,870
+After the breakout, we add the VWAP line,
+this time dynamic support.
+
+121
+00:09:55,870 --> 00:09:59,230
+We add the daily central pivot point.
+
+122
+00:09:59,230 --> 00:10:02,930
+The third area of support.
+
+123
+00:10:02,930 --> 00:10:06,019
+I also see this downward trendline.
+
+124
+00:10:06,019 --> 00:10:08,270
+Which was also broken.
+
+125
+00:10:08,270 --> 00:10:11,040
+This is our 4th level of support.
+
+126
+00:10:11,040 --> 00:10:16,970
+Let’s move to M30 time frame to pinpoint
+the entry.
+
+127
+00:10:16,970 --> 00:10:20,839
+Here’s our signal.
+
+128
+00:10:20,839 --> 00:10:24,570
+A pin bar rejecting the previous levels.
+
+129
+00:10:24,570 --> 00:10:29,740
+This is our 5th indication that the market
+wants to go higher.
+
+130
+00:10:29,740 --> 00:10:34,720
+Stop loss placement, below VWAP and below
+the central pivot point.
+
+131
+00:10:34,720 --> 00:10:44,120
+And we target this swing high, a risk to reward
+ratio of 3.
+
+132
+00:10:44,120 --> 00:10:50,550
+As price broke this swing, we remove the risk
+from the trade, we move our stop loss to our
+
+133
+00:10:50,550 --> 00:10:57,070
+entry point.
+
+134
+00:10:57,070 --> 00:11:01,129
+We are looking at Exxon Mobil on M30 time
+frame.
+
+135
+00:11:01,129 --> 00:11:07,160
+Price was in an uptrend, made a last push
+higher, above the previous swing high, but
+
+136
+00:11:07,160 --> 00:11:09,809
+immediately reversed lower.
+
+137
+00:11:09,809 --> 00:11:17,139
+This looks like a liquidity clear-out, with
+many orders above this area.
+
+138
+00:11:17,139 --> 00:11:22,649
+After price closed below the neckline, we
+need to wait for a pullback to the initial
+
+139
+00:11:22,649 --> 00:11:23,649
+breakout zone.
+
+140
+00:11:23,649 --> 00:11:28,839
+That’s the first resistance level.
+
+141
+00:11:28,839 --> 00:11:34,620
+We add the Anchored VWAP, from the highest
+high of the V top formation.
+
+142
+00:11:34,620 --> 00:11:40,230
+That’s our dynamic resistance, the second
+component.
+
+143
+00:11:40,230 --> 00:11:46,900
+We add the daily central pivot, which aligns
+with our previous resistance levels.
+
+144
+00:11:46,900 --> 00:11:51,629
+That’s the third layer.
+
+145
+00:11:51,629 --> 00:11:57,040
+I also see this major trend line, broken to
+the downside.
+
+146
+00:11:57,040 --> 00:11:59,540
+Now could potentially act as resistance.
+
+147
+00:11:59,540 --> 00:12:05,899
+4 different elements which indicate a further
+price decrease.
+
+148
+00:12:05,899 --> 00:12:15,959
+This candlestick, with a long wick, rejecting
+our area of interest, is the signal to short
+
+149
+00:12:15,959 --> 00:12:17,220
+the market.
+
+150
+00:12:17,220 --> 00:12:23,920
+I like to see either a pin bar, or a candlestick
+with an evident wick, or an engulfing bar,
+
+151
+00:12:23,920 --> 00:12:28,050
+forming at the VWAP – pivot point area.
+
+152
+00:12:28,050 --> 00:12:32,389
+Stop loss is placed above the VWAP line and
+above the pivot level.
+
+153
+00:12:32,389 --> 00:12:39,519
+And we’ll take our profit at the next major
+swing low in the price structure, which represents
+
+154
+00:12:39,519 --> 00:12:45,910
+a risk to reward ratio of 6.
+
+155
+00:12:45,910 --> 00:12:55,529
+As we broke this swing low, now it’s the
+perfect time to move the stop to breakeven.
+
+156
+00:12:55,529 --> 00:12:59,850
+Again.
+
+157
+00:12:59,850 --> 00:13:07,399
+Price makes a last push higher, above the
+previous swing high, and reversed lower.
+
+158
+00:13:07,399 --> 00:13:11,709
+Another possible liquidity clear-out.
+
+159
+00:13:11,709 --> 00:13:18,040
+Price closed below the neckline, which is
+the first resistance level.
+
+160
+00:13:18,040 --> 00:13:21,970
+We anchor the VWAP, from this high.
+
+161
+00:13:21,970 --> 00:13:27,220
+That’s our second resistance.
+
+162
+00:13:27,220 --> 00:13:36,699
+We add the daily central pivot, which is resistance
+number 3.
+
+163
+00:13:36,699 --> 00:13:43,560
+We also see a pin bar candlestick, with a
+long wick, rejecting the value area, and this
+
+164
+00:13:43,560 --> 00:13:46,029
+is the signal to sell.
+
+165
+00:13:46,029 --> 00:13:48,930
+Stop loss above the VWAP line.
+
+166
+00:13:48,930 --> 00:13:55,319
+Take profit, as usual, either at a major swing
+in the price structure, or you set a fixed
+
+167
+00:13:55,319 --> 00:16:03,449
+risk to reward ratio.
+
+168
+00:16:03,449 --> 00:16:07,740
+If you found value and learned something new,
+leave us a like.
+
+169
+00:16:07,740 --> 00:16:11,850
+This way we’ll know if you'd like to see
+more videos like this one.
+
+170
+00:16:11,850 --> 00:16:18,850
+And check out our academy program if you want
+to further level up your trading.
+
+171
+00:16:18,850 --> 00:16:19,410
+Until next time.
+

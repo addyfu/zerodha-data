@@ -1,0 +1,741 @@
+1
+00:00:01,361 --> 00:00:07,300
+Before a pin bar becomes a pin bar, it will
+look like this…very bullish.
+
+2
+00:00:07,300 --> 00:00:11,691
+When you are watching this candle developing
+on your charts, you may have an urge to place
+
+3
+00:00:11,691 --> 00:00:13,041
+a trade.
+
+4
+00:00:13,041 --> 00:00:17,591
+Your greed tells you to enter, because you’ll
+miss a future price move.
+
+5
+00:00:17,591 --> 00:00:21,251
+And you’re not alone in feeling this urge
+to enter.
+
+6
+00:00:21,251 --> 00:00:26,731
+When reactive traders see candles like this
+one, they feel the urge to take a position
+
+7
+00:00:26,731 --> 00:00:30,031
+in the direction of the candle their seeing.
+
+8
+00:00:30,031 --> 00:00:34,171
+And when the pin bar is completed, your fear
+takes over.
+
+9
+00:00:34,171 --> 00:00:39,481
+If you entered when this candle looked bullish,
+by now you would start to feel a little bit
+
+10
+00:00:39,481 --> 00:00:43,901
+under pressure in regards to what the market
+may do next.
+
+11
+00:00:43,901 --> 00:00:47,581
+Your trade has gone from being at a profit
+to being at a loss.
+
+12
+00:00:47,581 --> 00:00:52,891
+And if the market goes down any lower, you
+will start to consider whether it’s a good
+
+13
+00:00:52,891 --> 00:00:55,371
+idea staying in the trade.
+
+14
+00:00:55,371 --> 00:00:57,771
+Again, fear and greed.
+
+15
+00:00:57,771 --> 00:01:02,611
+I always think like this when I’m considering
+a trade.
+
+16
+00:01:02,611 --> 00:01:08,560
+If you didn’t already know, there are different
+types of pin bars which appear in the market.
+
+17
+00:01:08,560 --> 00:01:14,181
+When I say types I don’t mean one pin bar
+has a bigger wick than the other, I mean the
+
+18
+00:01:14,181 --> 00:01:20,382
+causes behind why a pin bar forms in the market
+can be different depending on where the pin
+
+19
+00:01:20,382 --> 00:01:21,382
+bar is found.
+
+20
+00:01:21,382 --> 00:01:28,581
+There are 2 main causes: when a pin bar appears,
+big player took a significant amount of profits
+
+21
+00:01:28,581 --> 00:01:34,271
+off their existing trades or when they’re
+starting to place trades in order to make
+
+22
+00:01:34,271 --> 00:01:36,011
+the market reverse.
+
+23
+00:01:36,011 --> 00:01:41,501
+And the best types of Pin Bar setups form
+when there has been a sustained moved (either
+
+24
+00:01:41,501 --> 00:01:47,331
+up or down) and price retraces to an area
+of "value" or "interest".
+
+25
+00:01:47,331 --> 00:01:52,381
+The Strategy explained
+
+26
+00:01:52,381 --> 00:01:56,411
+At its core, a pin bar is considered a reversal
+candlestick.
+
+27
+00:01:56,411 --> 00:02:02,551
+But, if you try to trade pin bars as reversal
+signals when the price is moving in the direction
+
+28
+00:02:02,551 --> 00:02:06,831
+of the trend, then you are not doing it correctly.
+
+29
+00:02:06,831 --> 00:02:13,860
+So, to avoid this situation, you’ll use
+2 exponential moving averages.
+
+30
+00:02:13,860 --> 00:02:20,581
+One with a period of 50, and the second one
+with a period of 100.
+
+31
+00:02:20,581 --> 00:02:24,351
+These are very common and followed by many
+other traders.
+
+32
+00:02:24,351 --> 00:02:30,720
+• If the 50 EMA is above the 100 EMA, then
+the market is in an uptrend.
+
+33
+00:02:30,720 --> 00:02:38,711
+• If the 50 EMA is below the 100 EMA, then
+the market is in a downtrend.
+
+34
+00:02:38,711 --> 00:02:45,341
+Our strategy involves trading pullbacks, in
+the direction of the 2 EMAs, using high volume
+
+35
+00:02:45,341 --> 00:02:47,771
+pin bars.
+
+36
+00:02:47,771 --> 00:02:52,321
+When markets trend, they do not just go up
+or down in a straight line.
+
+37
+00:02:52,321 --> 00:02:57,220
+There’s always a period of “rest” before
+continuing the trend.
+
+38
+00:02:57,220 --> 00:03:02,911
+Markets ALWAYS have these pullbacks when trending
+and these are great opportunities for you
+
+39
+00:03:02,911 --> 00:03:09,031
+to get into a trade before the market resumes
+its trend.
+
+40
+00:03:09,031 --> 00:03:14,891
+The area between the 2 EMA is the “sweet
+spot” for our entries.
+
+41
+00:03:14,891 --> 00:03:21,081
+You want to find high volume pin bars, in
+the direction of the main trend, rejecting
+
+42
+00:03:21,081 --> 00:03:22,831
+these levels.
+
+43
+00:03:22,831 --> 00:03:28,301
+The volume of the pin bar must be higher than
+the previous 3 bars.
+
+44
+00:03:28,301 --> 00:03:31,981
+BEST Signals To Trade
+
+45
+00:03:31,981 --> 00:03:35,751
+So, what makes a tradable Pin Bar?
+
+46
+00:03:35,751 --> 00:03:41,621
+I mainly look for several points:
+• The "wick" (or tail) should be at least
+
+47
+00:03:41,621 --> 00:03:46,271
+2 times, ideally 3 times, the length of the
+body.
+
+48
+00:03:46,271 --> 00:03:54,311
+• The body should be present towards either
+the upper or lower extreme of the Pin bar.
+
+49
+00:03:54,311 --> 00:03:59,021
+• The wick should stand out when compared
+to surrounding bars.
+
+50
+00:03:59,021 --> 00:04:05,181
+Generally, Pin Bar signals are only relevant
+for the next 4 - 5 bars.
+
+51
+00:04:05,181 --> 00:04:11,290
+So, if you watch the daily time frame and
+a pin bar forms, it will make most of its
+
+52
+00:04:11,290 --> 00:04:17,071
+impact on future price moves within 4 - 5
+days of its creation.
+
+53
+00:04:17,071 --> 00:04:23,341
+This is because Pin Bars are short duration
+setups, and because of this, it makes sense
+
+54
+00:04:23,341 --> 00:04:29,911
+that they will normally only affect the outcome
+of the bars immediately in the future.
+
+55
+00:04:29,911 --> 00:04:32,341
+Pin Bars should not be traded on their own.
+
+56
+00:04:32,341 --> 00:04:38,912
+There are many factors that influence whether
+or not you should trade a Pin Bar and for
+
+57
+00:04:38,912 --> 00:04:44,631
+that reason you shouldn’t take a trade solely
+based on the fact that a Pin Bar has formed.
+
+58
+00:04:44,631 --> 00:04:51,941
+This is why we’ll use EMAs for trend direction
+and volume to spot interest and active participation
+
+59
+00:04:51,941 --> 00:04:53,941
+in a future price move.
+
+60
+00:04:53,941 --> 00:05:00,111
+Also, pin bars that are in heavy traffic or
+choppy, range bound markets should not be
+
+61
+00:05:00,111 --> 00:05:01,411
+traded.
+
+62
+00:05:01,411 --> 00:05:07,471
+The reason for this is that there is no clear
+trend and there are too many areas of interest
+
+63
+00:05:07,471 --> 00:05:09,820
+for price to stall at.
+
+64
+00:05:09,820 --> 00:05:14,581
+Finding areas of value
+
+65
+00:05:14,581 --> 00:05:21,691
+So, pin bars should only be traded when they
+form in areas of "value" or "interest".
+
+66
+00:05:21,691 --> 00:05:28,261
+The more of these areas of interest that converge
+together near where the Pin Bar has formed,
+
+67
+00:05:28,261 --> 00:05:34,281
+the more significant the Pin Bar signal becomes,
+this is known as "confluence".
+
+68
+00:05:34,281 --> 00:05:39,991
+You can use support and resistance levels,
+supply and demand areas, but in this video,
+
+69
+00:05:39,991 --> 00:05:42,501
+we’ll focus on EMAs.
+
+70
+00:05:42,501 --> 00:05:48,491
+As well as being used to evaluate the trend
+direction and strength, EMAs can be used as
+
+71
+00:05:48,491 --> 00:05:51,911
+dynamic levels of support and resistance.
+
+72
+00:05:51,911 --> 00:05:58,391
+In some cases, price can be seen to bounce
+off certain EMA values almost religiously
+
+73
+00:05:58,391 --> 00:06:01,691
+during retraces in trending markets.
+
+74
+00:06:01,691 --> 00:06:07,871
+And when volume confirms the pin bar, you
+have several factors which increase the probability
+
+75
+00:06:07,871 --> 00:06:11,130
+of a successful trade.
+
+76
+00:06:11,130 --> 00:06:17,320
+The only problem with EMAs is that everybody
+uses different period values depending on
+
+77
+00:06:17,320 --> 00:06:20,551
+the time frame and markets they are trading.
+
+78
+00:06:20,551 --> 00:06:26,741
+My advice is to pick two periods and stick
+with them, as once you get some experience
+
+79
+00:06:26,741 --> 00:06:32,661
+under your belt, you will start to learn how
+they behave in different market conditions.
+
+80
+00:06:32,661 --> 00:06:39,781
+I prefer the h4 and daily time frame, and
+I use the 50 and 100 day EMAs, but the choice
+
+81
+00:06:39,781 --> 00:06:41,751
+is completely up to you.
+
+82
+00:06:41,751 --> 00:06:44,570
+You can change the parameters as you wish.
+
+83
+00:06:44,570 --> 00:06:49,630
+Just understand the concept and adapt it to
+your needs.
+
+84
+00:06:49,630 --> 00:06:52,660
+We trade Amazon on the hourly time frame.
+
+85
+00:06:52,660 --> 00:06:59,641
+One of the first things you should look for
+when you open a chart are the 2 EMAs, to determine
+
+86
+00:06:59,641 --> 00:07:04,951
+trend direction and find possible areas of
+dynamic support or resistance.
+
+87
+00:07:04,951 --> 00:07:12,541
+In this case, the trend is down, so we look
+to short the market.
+
+88
+00:07:12,541 --> 00:07:19,181
+And this is our pin bar, showing rejection
+and indicating a potential trend continuation.
+
+89
+00:07:19,181 --> 00:07:24,901
+The volume of the pin bar is higher than the
+previous 3 candles, so there’s active interest
+
+90
+00:07:24,901 --> 00:07:27,171
+in the market.
+
+91
+00:07:27,171 --> 00:07:34,171
+When the low of the pin bar is broken, that’s
+our signal to initiate a sell position.
+
+92
+00:07:34,171 --> 00:07:36,531
+Stop loss above the pin bar.
+
+93
+00:07:36,531 --> 00:07:42,471
+And in this case, above the 2 EMAs, which
+is almost a perfect setup, with another layer
+
+94
+00:07:42,471 --> 00:07:44,271
+of protection.
+
+95
+00:07:44,271 --> 00:07:47,821
+Take profit at the next swing low in the price
+structure.
+
+96
+00:07:47,821 --> 00:07:56,761
+A risk to reward ratio of around 2.8.
+
+97
+00:07:56,761 --> 00:08:01,971
+Perfect trade and we even left profits on
+the table.
+
+98
+00:08:01,971 --> 00:08:06,581
+We move to pound yen on the M30 time frame.
+
+99
+00:08:06,581 --> 00:08:13,671
+The 50 EMA is above the 100 EMA, so we look
+for buy opportunities.
+
+100
+00:08:13,671 --> 00:08:18,621
+We have our pullback to the EMAs, and here’s
+our pin bar.
+
+101
+00:08:18,621 --> 00:08:25,421
+But look at the volume, is lower than the
+previous 4 or 5 bars.
+
+102
+00:08:25,421 --> 00:08:27,371
+So, this is a no trade.
+
+103
+00:08:27,371 --> 00:08:31,411
+The volume condition isn’t met.
+
+104
+00:08:31,411 --> 00:08:34,911
+This is unfortunate, because the price indeed
+went up.
+
+105
+00:08:34,911 --> 00:08:40,541
+But in the long run, the volume confirmation
+will save your account for many losing trades.
+
+106
+00:08:40,541 --> 00:08:42,731
+So don’t neglect it.
+
+107
+00:08:42,731 --> 00:08:49,361
+Let’s move to EURJPY, on my favorite time
+frame, the H4.
+
+108
+00:08:49,361 --> 00:08:50,851
+The same situation.
+
+109
+00:08:50,851 --> 00:09:01,071
+The trend is up because the 50 EMA is above
+the 100 EMA, so we look for long trades.
+
+110
+00:09:01,071 --> 00:09:08,421
+We have a small pullback to the 50 EMA, and
+with this pin bar rejecting the area.
+
+111
+00:09:08,421 --> 00:09:14,591
+Volume is higher than the previous bars, so
+all conditions are met.
+
+112
+00:09:14,591 --> 00:09:21,341
+When the high of the pin bar is broken, that’s
+the signal to initiate a long position.
+
+113
+00:09:21,341 --> 00:09:26,281
+Stop loss below the low of the pin bar, and
+below the 50 EMA.
+
+114
+00:09:26,281 --> 00:09:31,421
+As for take profit, the distance until the
+next swing high doesn’t offer a positive
+
+115
+00:09:31,421 --> 00:09:36,761
+risk to reward ratio, so we must estimate
+our self a potential target.
+
+116
+00:09:36,761 --> 00:09:43,001
+I’ll set a target of 3, but I’ll monitor
+closely the price action at this resistance
+
+117
+00:09:43,001 --> 00:09:53,041
+area.
+
+118
+00:09:53,041 --> 00:09:58,521
+In order to be a valid tradeable pattern,
+the pin bar must reject the area between the
+
+119
+00:09:58,521 --> 00:09:59,901
+2 EMAs.
+
+120
+00:09:59,901 --> 00:10:02,601
+This is a key point in trading pin bars.
+
+121
+00:10:02,601 --> 00:10:08,951
+In this case, again, we are dealing with a
+bullish trend, so we’ll look for a continuation
+
+122
+00:10:08,951 --> 00:10:12,251
+trade to the upside.
+
+123
+00:10:12,251 --> 00:10:16,011
+This is the pin bar, rejecting the 50 EMA.
+
+124
+00:10:16,011 --> 00:10:22,041
+Volume is higher than the previous candles,
+so this is a valid setup.
+
+125
+00:10:22,041 --> 00:10:27,271
+Once we’ve identified the pin bar at the
+value area, we wait for the high of candle
+
+126
+00:10:27,271 --> 00:10:30,191
+to be broken.
+
+127
+00:10:30,191 --> 00:10:35,751
+Stop loss below the low of the pin bar, and
+below the 50 EMA.
+
+128
+00:10:35,751 --> 00:10:43,921
+We are very close to the most recent high,
+so we aim for a risk to reward ratio of 2
+
+129
+00:10:43,921 --> 00:10:50,221
+or even 3.
+
+130
+00:10:50,221 --> 00:10:54,420
+Let’s continue.
+
+131
+00:10:54,420 --> 00:10:59,321
+I see a somewhat deeper pullback to the 100
+EMA.
+
+132
+00:10:59,321 --> 00:11:02,231
+And a pin bar forming right on top of it.
+
+133
+00:11:02,231 --> 00:11:08,691
+The real body is relatively small, and the
+tail of the candle is much longer.
+
+134
+00:11:08,691 --> 00:11:14,941
+Volume is definitely higher than the previous
+bars, we there’s active participation, an
+
+135
+00:11:14,941 --> 00:11:18,881
+interest in that particular area.
+
+136
+00:11:18,881 --> 00:11:23,601
+So we’ll enter long at the high of the pin
+bar.
+
+137
+00:11:23,601 --> 00:11:28,831
+We gave a gap up, so the entry price would
+be somewhat higher.
+
+138
+00:11:28,831 --> 00:11:33,441
+Stop loss below the pin bar and below the
+100 EMA.
+
+139
+00:11:33,441 --> 00:11:39,811
+As for targets, I see this major resistance
+here, which could stop the price increase,
+
+140
+00:11:39,811 --> 00:11:43,621
+so let’s take our profit a few points below
+this area.
+
+141
+00:11:43,621 --> 00:11:47,391
+A risk to reward ratio of around 2.5.
+
+142
+00:11:47,391 --> 00:11:53,071
+Okey, that’s frustrating.
+
+143
+00:11:53,071 --> 00:11:58,621
+Price almost hit our take profit, but instead
+it reversed and stopped us out.
+
+144
+00:11:58,621 --> 00:12:01,831
+There’s a lesson to be learned here.
+
+145
+00:12:01,831 --> 00:12:06,291
+What could we have done to manage the trade
+better when in profit?
+
+146
+00:12:06,291 --> 00:12:14,240
+As we entered below the 50 EMA, near the 100
+EMA, in the future, when price goes up and
+
+147
+00:12:14,240 --> 00:12:20,861
+consolidates above the 50 EMA, a safer money
+management technique is to move the stop loss
+
+148
+00:12:20,861 --> 00:12:22,391
+to break even.
+
+149
+00:12:22,391 --> 00:12:28,251
+We don’t allow a profitable trade to become
+a losing one.
+
+150
+00:12:28,251 --> 00:12:33,921
+Some traders will claim that the bigger the
+Pin Bar the better, but my experience has
+
+151
+00:12:33,921 --> 00:12:39,511
+shown that if the Pin Bar is much larger than
+the average trading range of the preceding
+
+152
+00:12:39,511 --> 00:12:47,391
+bars, then it will most likely become a continuation
+pattern rather than a reversal pattern.
+
+153
+00:12:47,391 --> 00:12:53,540
+When presented with a massive Pin Bar like
+this one on Bitcoin, my advice is to stay
+
+154
+00:12:53,540 --> 00:14:54,691
+on the sidelines and wait for a better opportunity
+to present itself.
+
+155
+00:14:54,691 --> 00:14:58,521
+If you found value and learned something new,
+leave us a like.
+
+156
+00:14:58,521 --> 00:15:02,170
+This way we’ll know if you'd like to see
+more videos like this one.
+
+157
+00:15:02,170 --> 00:15:06,891
+And check out our academy program if you want
+to further level up your trading.
+
+158
+00:15:06,891 --> 00:15:08,751
+Until next time.
+

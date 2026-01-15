@@ -1,0 +1,780 @@
+1
+00:00:00,790 --> 00:00:04,520
+One of the more common price analysis tools
+used by traders is Fibonacci.
+
+2
+00:00:04,520 --> 00:00:09,030
+In today’s video, we’ll talk about the
+most practical 10 uses of retracements, the
+
+3
+00:00:09,030 --> 00:00:13,849
+best practices for building a trading strategy
+around Fibonacci and other trading tips to
+
+4
+00:00:13,849 --> 00:00:17,090
+find high-probability signals using this tool.
+
+5
+00:00:17,090 --> 00:00:18,090
+1.
+
+6
+00:00:18,090 --> 00:00:22,700
+There must be a visible trend otherwise FIB
+levels won’t have a meaningful impact on
+
+7
+00:00:22,700 --> 00:00:24,200
+price movement
+
+8
+00:00:24,200 --> 00:00:28,730
+No matter how often you use Fibonacci, what's
+most important is to use it correctly every
+
+9
+00:00:28,730 --> 00:00:29,730
+time.
+
+10
+00:00:29,730 --> 00:00:33,340
+And choosing the correct price swing for placing
+your Fibs is one of the main problems when
+
+11
+00:00:33,340 --> 00:00:34,340
+using it.
+
+12
+00:00:34,340 --> 00:00:38,020
+Fibonacci is an effective method but you must
+place it on the swing that makes the most
+
+13
+00:00:38,020 --> 00:00:39,980
+sense for current market conditions.
+
+14
+00:00:39,980 --> 00:00:44,730
+The most important aspect when using Fibs
+is the presence of a trend.
+
+15
+00:00:44,730 --> 00:00:49,820
+There are two primary ways to solve the problems
+with drawing Fibs on the chart:
+
+16
+00:00:49,820 --> 00:00:50,820
+1.
+
+17
+00:00:50,820 --> 00:00:53,220
+Focus on trend and momentum.
+
+18
+00:00:53,220 --> 00:00:54,220
+2.
+
+19
+00:00:54,220 --> 00:00:57,010
+Using the logic price swings for placing the
+Fibonacci tool.
+
+20
+00:00:57,010 --> 00:01:01,970
+Please remember this: Fibs do not work well
+in consolidations, corrections, ranges and
+
+21
+00:01:01,970 --> 00:01:10,190
+sideways moves.
+
+22
+00:01:10,190 --> 00:01:17,820
+2.
+
+23
+00:01:17,820 --> 00:01:29,409
+Don’t use the Fibonacci retracement tool
+on very small price moves or shorter time
+
+24
+00:01:29,409 --> 00:01:33,159
+frames
+Applying Fibonacci retracements over a short
+
+25
+00:01:33,159 --> 00:01:34,190
+timeframe is ineffective.
+
+26
+00:01:34,190 --> 00:01:39,830
+The shorter the timeframe, the less reliable
+the retracement levels, making it very difficult
+
+27
+00:01:39,830 --> 00:01:43,799
+for the trader to really pick and choose what
+levels can be traded.
+
+28
+00:01:43,799 --> 00:01:48,390
+Not to mention in the short term, spikes and
+false breakouts are very common.
+
+29
+00:01:48,390 --> 00:01:53,840
+These dynamics can make it especially difficult
+to place stops or take profit points as retracements
+
+30
+00:01:53,840 --> 00:01:56,890
+can create narrow and small confluences.
+
+31
+00:01:56,890 --> 00:02:01,480
+So try to focus on larger time frames when
+you apply FIB levels.
+
+32
+00:02:01,480 --> 00:02:06,200
+By keeping tabs on the long-term trend, you
+can apply Fibonacci retracements in the correct
+
+33
+00:02:06,200 --> 00:02:07,200
+direction.
+
+34
+00:02:07,200 --> 00:02:11,420
+Further, if you use the Fibonacci retracement
+tool on very small price moves, it may not
+
+35
+00:02:11,420 --> 00:02:13,060
+provide much insight.
+
+36
+00:02:13,060 --> 00:02:28,529
+The levels will be so close together that
+almost every price level appears important.
+
+37
+00:02:28,529 --> 00:02:39,900
+3.
+
+38
+00:02:39,900 --> 00:02:43,609
+Apply Fibonacci retracement levels on the
+correct price swings
+
+39
+00:02:43,609 --> 00:02:45,939
+Using a Fibonacci retracement tool is subjective.
+
+40
+00:02:45,939 --> 00:02:50,749
+There are multiple price swings during a trading
+day, so not everyone will be connecting the
+
+41
+00:02:50,749 --> 00:02:52,270
+same two points.
+
+42
+00:02:52,270 --> 00:02:55,599
+The two points you connect may not be the
+two points others connect.
+
+43
+00:02:55,599 --> 00:02:58,730
+Here’s how you correctly apply FIB retracements.
+
+44
+00:02:58,730 --> 00:03:02,499
+– you determine the dominant trend
+– you identify the swing high and swing
+
+45
+00:03:02,499 --> 00:03:07,239
+low before drawing the Fibonacci lines
+– in a bullish trend, draw the Fibonacci
+
+46
+00:03:07,239 --> 00:03:09,889
+from the swing low to the swing high.
+
+47
+00:03:09,889 --> 00:03:13,769
+– in a bearish trend, draw the Fibonacci
+from the swing high to the swing low.
+
+48
+00:03:13,769 --> 00:03:18,579
+– you will be drawing the Fibonacci tool
+from the wicks of the swing highs and lows
+
+49
+00:03:18,579 --> 00:03:25,010
+At the very basics, the clearer the swing
+low, the clearer the swing high and the clearer
+
+50
+00:03:25,010 --> 00:03:28,999
+the “trend” between these 2 points, the
+more accurate a Fibonacci Retracement will
+
+51
+00:03:28,999 --> 00:03:29,999
+be.
+
+52
+00:03:29,999 --> 00:03:33,599
+Also, very important: don’t try to force
+FIB levels.
+
+53
+00:03:33,599 --> 00:03:38,079
+The best and most helpful Fibonacci retracements
+are those where you don’t have to look long
+
+54
+00:03:38,079 --> 00:03:53,529
+on a chart.
+
+55
+00:03:53,529 --> 00:04:01,209
+4.
+
+56
+00:04:01,209 --> 00:04:06,239
+Shallow vs Deep Retracements
+In trending or impulsive markets, the Fib
+
+57
+00:04:06,239 --> 00:04:10,549
+levels indicate precise levels where there
+is a high chance of the market turning back
+
+58
+00:04:10,549 --> 00:04:12,299
+in the direction of the trend.
+
+59
+00:04:12,299 --> 00:04:16,389
+Basically, FIB levels provide areas of interest
+to watch on pullbacks.
+
+60
+00:04:16,389 --> 00:04:21,810
+There are 2 main types of pullbacks using
+Fibonacci: shallow and deep retracements.
+
+61
+00:04:21,810 --> 00:04:26,250
+If you correctly analyze the strength of the
+trend, you will have high-probability areas
+
+62
+00:04:26,250 --> 00:04:28,690
+to take trades
+
+63
+00:04:28,690 --> 00:04:33,130
+Once a trend has clearly established itself
+then you will often see shallow pullbacks
+
+64
+00:04:33,130 --> 00:04:41,380
+to 23.6, 38.2 and 50% FIB levels, which are
+very typical before the trend continues.
+
+65
+00:04:41,380 --> 00:04:46,060
+So when the trend is strong, pay attention
+to these FIB levels.
+
+66
+00:04:46,060 --> 00:04:49,680
+Price will make a deep pullback when a trend
+is not yet clearly established.
+
+67
+00:04:49,680 --> 00:04:54,740
+In those cases price can make multiple ups
+and downs which will test the bottom (in an
+
+68
+00:04:54,740 --> 00:04:59,210
+uptrend) or the top (in a downtrend) but without
+breaking those levels (which would invalidate
+
+69
+00:04:59,210 --> 00:05:00,240
+the trend).
+
+70
+00:05:00,240 --> 00:05:07,350
+You will see deep pullbacks to the 61.8, 78.6
+and 88.6 Fib levels.
+
+71
+00:05:07,350 --> 00:05:23,540
+If the price retraces 100% of the last price
+wave, that may mean the trend has failed.
+
+72
+00:05:23,540 --> 00:05:34,760
+5.
+
+73
+00:05:34,760 --> 00:05:40,720
+The Golden Ratio Retreat Strategy
+The 61.8 level is called the Golden ratio.
+
+74
+00:05:40,720 --> 00:05:44,400
+Here’s how the Golden Ratio Retreat Strategy
+works.
+
+75
+00:05:44,400 --> 00:05:48,110
+In this example, we found this downtrend and
+applied the Fibs.
+
+76
+00:05:48,110 --> 00:05:55,420
+• If the price moves up above the 50% retracement,
+but does not close above the 61.8 Golden Ratio,
+
+77
+00:05:55,420 --> 00:05:56,500
+look for a bearish entry.
+
+78
+00:05:56,500 --> 00:06:02,160
+• It is OK for the wick of the candle to
+break the 61.8 line as long as the price closes
+
+79
+00:06:02,160 --> 00:06:04,050
+below it.
+
+80
+00:06:04,050 --> 00:06:09,590
+• As the price bounces from the 61.8 Golden
+Ratio, look for a possible reversal move back
+
+81
+00:06:09,590 --> 00:06:12,340
+down to the 38.2 level.
+
+82
+00:06:12,340 --> 00:06:18,280
+• If the price breaks the 38.2 level, the
+23.6 may be its next hesitation point.
+
+83
+00:06:18,280 --> 00:06:23,970
+• If that doesn’t hold, expect a possible
+100% retracement back to the 0 line.
+
+84
+00:06:23,970 --> 00:06:28,080
+• These levels are good potential places
+to consider scaling out of the trade.
+
+85
+00:06:28,080 --> 00:06:33,280
+• If the price never gets higher than the
+61.8 then you can set your initial stop just
+
+86
+00:06:33,280 --> 00:06:34,460
+above that line.
+
+87
+00:06:34,460 --> 00:06:39,150
+• If the price went higher than the 61.8
+then you could set a stop above the high of
+
+88
+00:06:39,150 --> 00:06:41,710
+the candle that broke the level.
+
+89
+00:06:41,710 --> 00:06:46,280
+• If scaling out of the trade, consider
+moving the stops to the next Fib line as the
+
+90
+00:06:46,280 --> 00:06:58,330
+targets are met.
+
+91
+00:06:58,330 --> 00:07:09,840
+6.
+
+92
+00:07:09,840 --> 00:07:13,430
+Combine multiple FIB Retracements to create
+confluence
+
+93
+00:07:13,430 --> 00:07:18,800
+Fibonacci Confluence is essentially combining
+multiple Fibonacci levels to find clusters
+
+94
+00:07:18,800 --> 00:07:22,050
+where these levels align around the same area.
+
+95
+00:07:22,050 --> 00:07:27,260
+This example reveals an area of confluence
+formed by the 50 percent retracement of AC
+
+96
+00:07:27,260 --> 00:07:32,810
+wave and the 78.6 percent retracement of BC
+wave.
+
+97
+00:07:32,810 --> 00:07:39,020
+In this other example, price found support
+at this area of confluence formed by the 50
+
+98
+00:07:39,020 --> 00:07:46,870
+percent retracement of AC wave and the 78.6
+percent retracement of BC wave in this daily
+
+99
+00:07:46,870 --> 00:07:47,870
+chart.
+
+100
+00:07:47,870 --> 00:07:52,130
+This is one of my favorite trading strategies
+using Fibonacci because it leads to high probability
+
+101
+00:07:52,130 --> 00:08:03,740
+setups.
+
+102
+00:08:03,740 --> 00:08:15,360
+7.
+
+103
+00:08:15,360 --> 00:08:19,870
+Confluence with moving averages
+Fibonacci can provide reliable trade setups,
+
+104
+00:08:19,870 --> 00:08:21,860
+but not without confirmation.
+
+105
+00:08:21,860 --> 00:08:26,340
+Applying additional technical tools like moving
+averages will support the trade opportunity
+
+106
+00:08:26,340 --> 00:08:28,889
+and increase the likelihood of a good trade.
+
+107
+00:08:28,889 --> 00:08:33,279
+Fibonacci and moving averages work well together
+because both tools are most effective in a
+
+108
+00:08:33,279 --> 00:08:35,189
+trending environment.
+
+109
+00:08:35,189 --> 00:08:38,930
+First of all, using moving average will help
+you determine if there is a trend.
+
+110
+00:08:38,930 --> 00:08:44,620
+Second of all, moving averages also act as
+dynamic support and resistance in a trend,
+
+111
+00:08:44,620 --> 00:08:48,600
+which means that a moving average adds confluence
+to a Fib level.
+
+112
+00:08:48,600 --> 00:08:55,800
+For instance, if a 50% Fibonacci retracement
+and the 200 EMA align at one spot on the chart,
+
+113
+00:08:55,800 --> 00:08:57,920
+then this is called a trading confluence.
+
+114
+00:08:57,920 --> 00:09:01,860
+There is a combination of elements joining
+together at one point on the chart.
+
+115
+00:09:01,860 --> 00:09:06,990
+When a FIB level and a moving average are
+confirming a spot on the chart to be of importance,
+
+116
+00:09:06,990 --> 00:09:10,649
+then the likelihood of price reacting to this
+level increases.
+
+117
+00:09:10,649 --> 00:09:15,339
+Again, this is very effective, because by
+combining FIBS with moving averages, you remove
+
+118
+00:09:15,339 --> 00:09:28,800
+the weaknesses of each tool when used separately.
+
+119
+00:09:28,800 --> 00:09:40,459
+8.
+
+120
+00:09:40,459 --> 00:09:44,559
+Confirm Fibonacci levels with Volume
+As a trader when you see the price coming
+
+121
+00:09:44,559 --> 00:09:49,120
+into a Fibonacci support area, the biggest
+clue you can look for is the volume, to see
+
+122
+00:09:49,120 --> 00:09:51,350
+if that support will hold.
+
+123
+00:09:51,350 --> 00:09:56,430
+Notice how the stock had a number of spikes
+higher in volume on the move up, but the pullback
+
+124
+00:09:56,430 --> 00:09:59,420
+to support at the retracement saw volume decreasing.
+
+125
+00:09:59,420 --> 00:10:04,070
+This does not mean people are not interested
+in the stock, it means that there are fewer
+
+126
+00:10:04,070 --> 00:10:06,100
+sellers pushing the price lower.
+
+127
+00:10:06,100 --> 00:10:11,420
+This is where buyers come in and accumulate
+shares in anticipation for the rally higher.
+
+128
+00:10:11,420 --> 00:10:26,360
+High volume after the rejection of a FIB level
+represents a very good sign.
+
+129
+00:10:26,360 --> 00:10:37,850
+9.
+
+130
+00:10:37,850 --> 00:10:43,389
+Look for divergences at FIB levels using RSI,
+MACD or Stochastic
+
+131
+00:10:43,389 --> 00:10:48,889
+Now, rather than blindly entering into a trade
+because it hit a particular retracement ratio,
+
+132
+00:10:48,889 --> 00:10:52,180
+you need a confirmation signal that the price
+is likely to turn.
+
+133
+00:10:52,180 --> 00:10:56,850
+I prefer adding a momentum oscillator, like
+the RSI, Stochastic or MACD, and look for
+
+134
+00:10:56,850 --> 00:10:59,529
+a divergence signal, forming around FIB levels.
+
+135
+00:10:59,529 --> 00:11:01,779
+These are leading signals, by the way.
+
+136
+00:11:01,779 --> 00:11:06,190
+Here we have a downtrend with the FIB levels
+added to the chart.
+
+137
+00:11:06,190 --> 00:11:09,589
+The first level, the 38.2% level was broken
+with ease.
+
+138
+00:11:09,589 --> 00:11:14,060
+However, we can now see that the 50% level
+is providing some resistance.
+
+139
+00:11:14,060 --> 00:11:17,160
+We can confirm the slowing momentum with the
+RSI.
+
+140
+00:11:17,160 --> 00:11:21,570
+The RSI is showing a divergence which is a
+bearish signal as well.
+
+141
+00:11:21,570 --> 00:11:24,660
+Price makes higher highs, but the oscillator
+makes lower highs.
+
+142
+00:11:24,660 --> 00:11:26,740
+This means that momentum is slowing.
+
+143
+00:11:26,740 --> 00:11:32,680
+And slowing momentum into a resistance level
+is a good recipe for a trading opportunity.
+
+144
+00:11:32,680 --> 00:11:37,329
+In this example we have an up trend, with
+the MACD indicator showing a hidden divergence.
+
+145
+00:11:37,329 --> 00:11:43,430
+Here, when the MACD hidden divergence appeared
+on the price chart, the price reached the
+
+146
+00:11:43,430 --> 00:11:44,720
+38.2 Fib level.
+
+147
+00:11:44,720 --> 00:11:49,059
+When price tested this Fibonacci retracement
+level - this would have been a good level
+
+148
+00:11:49,059 --> 00:12:02,260
+to enter in the direction of the main trend.
+
+149
+00:12:02,260 --> 00:12:13,720
+10.
+
+150
+00:12:13,720 --> 00:12:17,230
+Analyze candlestick formations around FIB
+levels
+
+151
+00:12:17,230 --> 00:12:22,069
+Analyzing price action at Fib levels represents
+another effective way to take signals.
+
+152
+00:12:22,069 --> 00:12:27,190
+In this case, traders wait for a candle stick
+pattern to occur at the Fibonacci level instead
+
+153
+00:12:27,190 --> 00:12:30,079
+of “only” anticipating a price reaction
+at the Fib.
+
+154
+00:12:30,079 --> 00:12:35,429
+In this way, the candle pattern confirms the
+response of the market at the Fib level.
+
+155
+00:12:35,429 --> 00:12:40,610
+Generally speaking, these candlestick patterns
+combined with Fibonacci levels tend to work
+
+156
+00:12:40,610 --> 00:12:43,160
+better on longer-term time frames.
+
+157
+00:12:43,160 --> 00:12:48,720
+When price reaches a FIB level, you look for
+a rejection candlestick that has formed at
+
+158
+00:12:48,720 --> 00:12:50,230
+or near the level.
+
+159
+00:12:50,230 --> 00:12:54,730
+The three types that are of most interest
+will be the hammer candlestick, which is often
+
+160
+00:12:54,730 --> 00:12:59,740
+seen after a bearish price move, the shooting
+star candlestick, which is often seen after
+
+161
+00:12:59,740 --> 00:13:04,709
+a bullish price move, and the Engulfing pattern,
+which can either be of a bullish or bearish
+
+162
+00:13:04,709 --> 00:13:06,029
+variety.
+
+163
+00:13:06,029 --> 00:13:10,990
+These candlestick reversal patterns are quite
+powerful and can foretell the end of a retracement
+
+164
+00:13:10,990 --> 00:13:18,830
+move.
+
+165
+00:13:18,830 --> 00:13:37,790
+As always, if you learned something new and
+found value, leave us a like to show your
+
+166
+00:13:37,790 --> 00:13:41,649
+support, subscribe to our channel and hit
+the bell icon to stay in touch when we release
+
+167
+00:13:41,649 --> 00:13:42,850
+new videos.
+
+168
+00:13:42,850 --> 00:13:44,329
+Until next time.
+

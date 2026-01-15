@@ -1,0 +1,53 @@
+
+================================================================================
+                          STRATEGY COMPARISON SUMMARY                           
+================================================================================
+
+STRATEGY RANKINGS (by Average Sharpe Ratio)
+--------------------------------------------------------------------------------
+Strategy                  Avg Return %  Avg Win %   Avg Sharpe   Avg DD %
+--------------------------------------------------------------------------------
+#1 Fib_3Wave                     13.79       86.6         1.01      -2.19
+#2 EMA_21_55                     26.07       53.4         0.27     -33.71
+#3 Multi_Timeframe               27.27       34.0         0.16     -43.70
+   EMA_3_Scalping                 0.42       42.5        -0.01     -27.21
+   Stochastic_Confluence         -0.23       35.0        -0.03     -16.84
+   VWAP_Pullback                 -3.19       34.3        -0.04     -54.73
+   VWMA_SMA                      -3.65       32.2        -0.11     -17.30
+   Donchian_Turtle              -19.31       32.4        -0.14     -53.28
+   Supply_Demand                 -3.70       28.1        -0.15     -17.00
+   Chandelier_Exit               -3.98       31.6        -0.15     -13.35
+   RSI_Divergence                -8.89       38.4        -0.17     -31.88
+   Alligator                    -30.80       32.1        -0.19     -60.30
+   CPR                           -4.87       32.4        -0.19     -16.44
+   ROC_MA                       -15.21       32.1        -0.22     -35.19
+   Hull_Slope                   -16.65       36.4        -0.22     -35.86
+   CMF_Ichimoku                 -13.18       30.8        -0.23     -32.67
+   PSAR_Ichimoku                -11.78       30.7        -0.25     -29.05
+   Fib_Pivot                    -39.63       33.8        -0.25     -63.69
+   BB_Squeeze                   -12.07       24.9        -0.30     -26.97
+
+
+BEST STRATEGY PER STOCK
+--------------------------------------------------------------------------------
+RELIANCE        -> Fib_3Wave                 (Sharpe: 1.19, Return: 12.91%)
+TCS             -> Fib_3Wave                 (Sharpe: 0.73, Return: 21.44%)
+HDFCBANK        -> Fib_3Wave                 (Sharpe: 0.78, Return: 9.34%)
+INFY            -> BB_Squeeze                (Sharpe: 0.55, Return: 16.71%)
+ICICIBANK       -> Fib_3Wave                 (Sharpe: 1.40, Return: 25.33%)
+HINDUNILVR      -> Fib_3Wave                 (Sharpe: 0.81, Return: 9.17%)
+SBIN            -> EMA_21_55                 (Sharpe: 1.18, Return: 210.14%)
+BHARTIARTL      -> Fib_3Wave                 (Sharpe: 1.34, Return: 16.96%)
+KOTAKBANK       -> Fib_3Wave                 (Sharpe: 1.15, Return: 11.95%)
+ITC             -> Fib_3Wave                 (Sharpe: 1.24, Return: 13.26%)
+
+
+OVERALL STATISTICS
+--------------------------------------------------------------------------------
+Total backtests run: 190
+Profitable combinations: 66 (34.7%)
+Average return: -6.29%
+Best single result: SBIN + EMA_21_55 (210.14%)
+Worst single result: BHARTIARTL + EMA_21_55 (-126.92%)
+
+================================================================================

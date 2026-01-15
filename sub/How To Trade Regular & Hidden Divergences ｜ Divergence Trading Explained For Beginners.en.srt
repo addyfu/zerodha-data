@@ -1,0 +1,574 @@
+1
+00:00:00,120 --> 00:00:04,830
+hello guys here is one of the most
+important lessons about training if you
+
+2
+00:00:04,830 --> 00:00:09,389
+want to become a successful trader or
+investor then you must learn how to spot
+
+3
+00:00:09,389 --> 00:00:13,830
+and trade a divergence like a pro
+divergences should be one of your most
+
+4
+00:00:13,830 --> 00:00:18,930
+important tools because they signal
+momentum coming into the main trend or
+
+5
+00:00:18,930 --> 00:00:23,760
+indicate a possible reversal when the
+trend is nearly over you don't even have
+
+6
+00:00:23,760 --> 00:00:28,830
+to learn all the concepts about trading
+if you master the divergences with basic
+
+7
+00:00:28,830 --> 00:00:33,780
+price action and support and resistance
+levels you can easily trade stocks Forex
+
+8
+00:00:33,780 --> 00:00:38,700
+or any other instruments you prefer so
+by the end of this video you'll learn
+
+9
+00:00:38,700 --> 00:00:43,980
+the power of divergences you'll learn
+how to spot them easily and you'll also
+
+10
+00:00:43,980 --> 00:00:49,320
+discover the best indicators you must
+use to trade divergences before we
+
+11
+00:00:49,320 --> 00:00:53,399
+continue if you are new to the channel
+and you find value or you'll learn
+
+12
+00:00:53,399 --> 00:00:57,780
+something new please consider
+subscribing and leave us a like to show
+
+13
+00:00:57,780 --> 00:01:05,610
+your support so what is the divergence
+almost all technical indicators track
+
+14
+00:01:05,610 --> 00:01:10,530
+the evolution of price movement meaning
+that they like price that's why most of
+
+15
+00:01:10,530 --> 00:01:15,810
+the oscillators using technical analysis
+are lagging indicators when the price of
+
+16
+00:01:15,810 --> 00:01:21,360
+a stock moves upward the indicator also
+moves upward when the price moves
+
+17
+00:01:21,360 --> 00:01:27,290
+downward the indicator also moves
+downward but sometimes however a visual
+
+18
+00:01:27,290 --> 00:01:33,840
+discrepancy is seen between the price in
+the indicator this visual discrepancy is
+
+19
+00:01:33,840 --> 00:01:38,939
+known as a non confirmation and is
+called a divergence there are two types
+
+20
+00:01:38,939 --> 00:01:42,000
+of divergences
+regular divergences and hidden
+
+21
+00:01:42,000 --> 00:01:48,509
+divergences a regular divergence is
+characterized by higher high prices but
+
+22
+00:01:48,509 --> 00:01:53,820
+a lower indicator values during an
+uptrend and lower low prices followed by
+
+23
+00:01:53,820 --> 00:01:59,219
+higher indicator values during a
+downtrend irregular divergence is
+
+24
+00:01:59,219 --> 00:02:05,250
+considered a leading indicator because
+it can identify with good accuracy tops
+
+25
+00:02:05,250 --> 00:02:10,739
+and bottoms it also helps traders to
+sell near the top and why near the
+
+26
+00:02:10,739 --> 00:02:14,590
+bottom in
+words a classic divergence signals a
+
+27
+00:02:14,590 --> 00:02:21,760
+possible trend reversal irregular
+divergence has two patterns first is the
+
+28
+00:02:21,760 --> 00:02:27,400
+regular bearish divergence a regular
+bearish divergence appears during an
+
+29
+00:02:27,400 --> 00:02:32,739
+uptrend when the price is making higher
+highs but the indicator indicates a
+
+30
+00:02:32,739 --> 00:02:38,049
+lower high as you can observe in this
+chart the price was in a strong bullish
+
+31
+00:02:38,049 --> 00:02:44,620
+trend with a price pushing for new highs
+however the indicator failed to record
+
+32
+00:02:44,620 --> 00:02:50,349
+new highs on a contrary recording a
+lower high that's a strong indication of
+
+33
+00:02:50,349 --> 00:02:56,799
+market exhaustion and a possible sign of
+market reversal or at least a short-term
+
+34
+00:02:56,799 --> 00:03:03,549
+collection and second we have regular
+bullish divergence a regular bullish
+
+35
+00:03:03,549 --> 00:03:10,329
+divergence appears during a downtrend
+when the price is making lower lows but
+
+36
+00:03:10,329 --> 00:03:16,329
+the oscillator records higher loss again
+when we analyze this chart we see that a
+
+37
+00:03:16,329 --> 00:03:22,209
+price plunged quite aggressively with
+the price seeking for new lows this move
+
+38
+00:03:22,209 --> 00:03:27,970
+was not confirmed by the indicator which
+failed to record new lows on a contrary
+
+39
+00:03:27,970 --> 00:03:33,579
+recording higher loss thus the regular
+bullish divergence suggests a possible
+
+40
+00:03:33,579 --> 00:03:41,500
+market reversal for a short term
+collection besides regular divergences
+
+41
+00:03:41,500 --> 00:03:47,639
+we also have hidden divergences a hidden
+divergence is a visual non-confirmation
+
+42
+00:03:47,639 --> 00:03:54,129
+characterized by higher lows of the
+price but lower indicator values during
+
+43
+00:03:54,129 --> 00:04:01,389
+an uptrend and lower highs of the price
+and higher indicator values during a
+
+44
+00:04:01,389 --> 00:04:06,579
+downtrend hidden divergences signal
+continuation moves in the direction of
+
+45
+00:04:06,579 --> 00:04:11,079
+the prevailing trend so that's the main
+difference between the regular
+
+46
+00:04:11,079 --> 00:04:16,780
+divergences and the hidden ones the
+regular divergences indicate reversals
+
+47
+00:04:16,780 --> 00:04:22,300
+while hidden divergences indicate
+continuation so remember this important
+
+48
+00:04:22,300 --> 00:04:26,710
+rule
+a hidden divergence has two patterns
+
+49
+00:04:26,710 --> 00:04:30,789
+first we have the bullish shootin
+divergence in a bullish hidden
+
+50
+00:04:30,789 --> 00:04:36,460
+divergence the oscillator makes lower
+lows but the price makes either a higher
+
+51
+00:04:36,460 --> 00:04:42,250
+low or a double bottom low this type of
+pattern occurs mainly during upward
+
+52
+00:04:42,250 --> 00:04:47,319
+collections let's take a look at this
+example the price was in a very strong
+
+53
+00:04:47,319 --> 00:04:53,319
+upward trend and recorded an important
+collection the price resumed its initial
+
+54
+00:04:53,319 --> 00:04:58,599
+upward direction they recorded another
+pullback and you can observe the price
+
+55
+00:04:58,599 --> 00:05:04,409
+failed to record new lows and closed
+higher than the previous downward swing
+
+56
+00:05:04,409 --> 00:05:10,810
+however if we look at the oscillator in
+recorded a lower low thus forming a
+
+57
+00:05:10,810 --> 00:05:16,770
+hidden divergence and signaling that a
+possible upward movement is on a cards
+
+58
+00:05:16,770 --> 00:05:21,400
+then we have the bearish hidden
+divergence in a bearish hidden
+
+59
+00:05:21,400 --> 00:05:27,460
+divergence the oscillator makes higher
+highs what the price makes either lower
+
+60
+00:05:27,460 --> 00:05:33,639
+highs or double bottom hires this type
+of pattern appears mainly during
+
+61
+00:05:33,639 --> 00:05:39,819
+downtrend corrections in this example
+after a strong uptrend the recent price
+
+62
+00:05:39,819 --> 00:05:44,849
+action indicated a downward momentum
+with the price making lower highs
+
+63
+00:05:44,849 --> 00:05:49,449
+despite the fact that the price was
+making lower highs the oscillator
+
+64
+00:05:49,449 --> 00:05:56,500
+recorded higher highs thus forming
+hidden divergence now let's see the best
+
+65
+00:05:56,500 --> 00:06:01,690
+indicators you could use to identify
+divergences the relative strength index
+
+66
+00:06:01,690 --> 00:06:06,969
+is a powerful indicator and one of the
+most reliable oscillators when used
+
+67
+00:06:06,969 --> 00:06:11,460
+correctly a great use of the relative
+strength index is to search for
+
+68
+00:06:11,460 --> 00:06:17,139
+divergences between the RSI and the
+price of the stock let's use the Tesla
+
+69
+00:06:17,139 --> 00:06:21,699
+stock as an example with the errors I
+added on the chart and let's see what we
+
+70
+00:06:21,699 --> 00:06:31,199
+find here is a regular divergence
+and here is a hidden divergence another
+
+71
+00:06:31,199 --> 00:06:36,300
+great indicator for divergence trading
+is the CCI the commodity channel index
+
+72
+00:06:36,300 --> 00:06:41,639
+is an oscillator used in technical
+analysis in order to measure the
+
+73
+00:06:41,639 --> 00:06:46,889
+variation of a stock's price from a
+statistical mean there are two main
+
+74
+00:06:46,889 --> 00:06:52,349
+methods used by traders to interpret the
+commodity channel index looking for
+
+75
+00:06:52,349 --> 00:06:58,110
+divergences and as an overbought or
+oversold indicator let's analyze this
+
+76
+00:06:58,110 --> 00:07:05,849
+Amazon chart in this area we have a
+regular divergence and here is that
+
+77
+00:07:05,849 --> 00:07:10,469
+hidden divergence if you want to learn
+more about the CCI
+
+78
+00:07:10,469 --> 00:07:18,569
+go watch an in-depth video about this
+indicator here another useful tool for
+
+79
+00:07:18,569 --> 00:07:23,729
+spotting divergences is the obv the
+unbalanced volume is a momentum
+
+80
+00:07:23,729 --> 00:07:29,819
+indicator that relates volume to price
+change the obv shows if the market
+
+81
+00:07:29,819 --> 00:07:36,599
+volume is flowing into or out of a
+security or stock divergences occur when
+
+82
+00:07:36,599 --> 00:07:43,169
+the price movement is not confirmed by
+the obv I use the obv mainly for regular
+
+83
+00:07:43,169 --> 00:07:49,289
+divergences in this example we have the
+market making higher highs and higher
+
+84
+00:07:49,289 --> 00:07:59,009
+lows but gob be signaling the end of the
+trend also probably my favorite
+
+85
+00:07:59,009 --> 00:08:04,080
+indicator for identifying divergences
+the stochastic the stochastic oscillator
+
+86
+00:08:04,080 --> 00:08:11,339
+is a momentum indicator excellent at
+pinpointing divergences on this chart we
+
+87
+00:08:11,339 --> 00:08:21,499
+have a regular divergence here and a
+hidden divergence here
+
+88
+00:08:22,719 --> 00:08:27,789
+I also use the money flow index for
+spotting divergences this indicator
+
+89
+00:08:27,789 --> 00:08:33,579
+measures the strength of money flowing
+in and out of a security or a stock the
+
+90
+00:08:33,579 --> 00:08:38,919
+money flow index is related to the
+relative strength index but with a twist
+
+91
+00:08:38,919 --> 00:08:44,500
+while the RSI only incorporates price
+the money flow also incorporates the
+
+92
+00:08:44,500 --> 00:08:50,379
+volume the money flow index is great at
+spotting divergences because it also has
+
+93
+00:08:50,379 --> 00:08:55,720
+a big advantage it incorporates the
+volume in this example we have a clear
+
+94
+00:08:55,720 --> 00:09:04,420
+irregular divergence in the hidden
+divergence here another good indicator
+
+95
+00:09:04,420 --> 00:09:10,000
+for divergence trading is the awesome
+oscillator the awesome oscillator
+
+96
+00:09:10,000 --> 00:09:15,519
+compares the recent momentum with a
+momentum over a wider upper frame of
+
+97
+00:09:15,519 --> 00:09:21,250
+reference the indicator is plotted as a
+histogram and is used to confirm the
+
+98
+00:09:21,250 --> 00:09:26,649
+trends and determine possible cycle
+turning points if you want to learn more
+
+99
+00:09:26,649 --> 00:09:31,680
+about the awesome oscillator here is a
+great tutorial on how to trade with it
+
+100
+00:09:31,680 --> 00:09:39,370
+also the momentum indicator can also
+generate decent divergence signals here
+
+101
+00:09:39,370 --> 00:09:45,790
+we have a regular divergence signaling
+the end of the trend and here we have a
+
+102
+00:09:45,790 --> 00:09:53,740
+hidden divergence indicating a
+continuation of the trend and of course
+
+103
+00:09:53,740 --> 00:10:00,189
+finally the MACD probably the most used
+indicator for spotting divergences by
+
+104
+00:10:00,189 --> 00:10:05,290
+traders not by me personally in my
+opinion the MACD is one of the worst
+
+105
+00:10:05,290 --> 00:10:10,300
+indicators but you can find some
+divergence signals with it the regular
+
+106
+00:10:10,300 --> 00:10:16,509
+ones in particular like the obvious
+signal on this chart now here is an
+
+107
+00:10:16,509 --> 00:10:21,309
+important tip divergences are more
+reliable when you are using higher
+
+108
+00:10:21,309 --> 00:10:27,490
+timeframes a signal that is produced on
+the 4-hour chart or on the daily chart
+
+109
+00:10:27,490 --> 00:10:32,560
+is more reliable than a signal produced
+on the 15-minute chart
+
+110
+00:10:32,560 --> 00:10:37,240
+where the vergence is more reliable on
+higher time frames because the market
+
+111
+00:10:37,240 --> 00:10:42,399
+doesn't move as fast and is easier to
+define trends you'll see the pattern
+
+112
+00:10:42,399 --> 00:10:48,189
+developing and you'll have time to make
+the correct decisions so if you learn
+
+113
+00:10:48,189 --> 00:10:52,569
+something new and found value please
+consider subscribing to our channel
+
+114
+00:10:52,569 --> 00:10:57,790
+share and like this video as it will
+help us a lot in the future until next
+
+115
+00:10:57,790 --> 00:11:00,029
+time
+

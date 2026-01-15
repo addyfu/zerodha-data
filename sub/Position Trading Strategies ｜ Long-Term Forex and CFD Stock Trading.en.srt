@@ -1,0 +1,504 @@
+1
+00:00:01,020 --> 00:00:05,600
+Hello guys, in the following minutes I want
+to discuss the basics of the position trading,
+
+2
+00:00:05,600 --> 00:00:11,219
+the advantages of adopting this trading style
+and we will also see 3 position trading strategies
+
+3
+00:00:11,219 --> 00:00:14,170
+you could implement right away.
+
+4
+00:00:14,170 --> 00:00:18,780
+Position trading is a trading technique which
+looks at the bigger picture of the market,
+
+5
+00:00:18,780 --> 00:00:23,950
+usually involving a combination of technical
+analysis and fundamental analysis.
+
+6
+00:00:23,950 --> 00:00:29,610
+When evaluating the markets, position traders
+usually make their research on weekly and
+
+7
+00:00:29,610 --> 00:00:31,190
+monthly price charts.
+
+8
+00:00:31,190 --> 00:00:39,550
+I’m sure you already know that 95% of all
+traders lose money and only 5% of them make
+
+9
+00:00:39,550 --> 00:00:41,550
+any real money.
+
+10
+00:00:41,550 --> 00:00:46,590
+This is due to the fact that the majority
+of traders enter the markets with a “get
+
+11
+00:00:46,590 --> 00:00:48,610
+rich quick” mentality.
+
+12
+00:00:48,610 --> 00:00:53,850
+Short-term trading can be profitable, but
+on the long run you’ll be safer when adopting
+
+13
+00:00:53,850 --> 00:00:56,600
+a position trading attitude.
+
+14
+00:00:56,600 --> 00:01:00,969
+When executed correctly, position trading
+comes with several advantages:
+
+15
+00:01:00,969 --> 00:01:06,810
+The most important advantage of the position
+trading eliminates market noise
+
+16
+00:01:06,810 --> 00:01:12,939
+Sometimes when trading on shorter time frames
+you get caught up in the market price fluctuations,
+
+17
+00:01:12,939 --> 00:01:16,709
+rumors or the constant monitoring of the market.
+
+18
+00:01:16,709 --> 00:01:18,579
+That’s market noise.
+
+19
+00:01:18,579 --> 00:01:23,399
+Position trading on higher time frames will
+help you to remove the market noise and to
+
+20
+00:01:23,399 --> 00:01:26,979
+extract the correct information from the price.
+
+21
+00:01:26,979 --> 00:01:32,200
+Another advantage is the flexibility
+While day traders monitor the price action
+
+22
+00:01:32,200 --> 00:01:38,700
+very closely and their “screen time” is
+considerably higher, position traders don’t
+
+23
+00:01:38,700 --> 00:01:41,219
+have to deal with such problems.
+
+24
+00:01:41,219 --> 00:01:46,240
+Position trading offers time away from charts.
+
+25
+00:01:46,240 --> 00:01:52,419
+Also, position traders execute fewer trades
+and they don’t have to monitor the trades
+
+26
+00:01:52,419 --> 00:01:53,780
+all the time.
+
+27
+00:01:53,780 --> 00:01:58,679
+Another advantage of the position trading
+is that you don’t over trade
+
+28
+00:01:58,679 --> 00:02:04,270
+Position trading keeps you away from the daily
+“temptations” of entering and exiting
+
+29
+00:02:04,270 --> 00:02:08,099
+the market many times thought the day.
+
+30
+00:02:08,099 --> 00:02:13,090
+Position traders do not trade actively and
+execute fewer trades.
+
+31
+00:02:13,090 --> 00:02:19,120
+Also, position traders don’t have to deal
+with the daily stress arising from trading,
+
+32
+00:02:19,120 --> 00:02:25,890
+that’s because their positions have plenty
+of room to survive the market volatility.
+
+33
+00:02:25,890 --> 00:02:31,170
+Another important advantage of position trading
+is the fact that signals are more relevant
+
+34
+00:02:31,170 --> 00:02:35,420
+on higher time frames
+Position traders often use the daily, weekly
+
+35
+00:02:35,420 --> 00:02:36,850
+and monthly charts.
+
+36
+00:02:36,850 --> 00:02:40,630
+They are not interested in analyzing lower
+time frames.
+
+37
+00:02:40,630 --> 00:02:44,920
+This adds weight to their trading systems.
+
+38
+00:02:44,920 --> 00:02:51,180
+A divergence is much stronger on the weekly
+chart than on a 15-minute chart.
+
+39
+00:02:51,180 --> 00:02:57,760
+A moving average crossover has more relevance
+on the daily chart than on the 5-minute chart.
+
+40
+00:02:57,760 --> 00:03:05,180
+By using higher time frames position traders
+improve the quality of their trades.
+
+41
+00:03:05,180 --> 00:03:10,100
+Now that we discussed the advantages of position
+trading, let’s see a couple of strategies
+
+42
+00:03:10,100 --> 00:03:11,900
+used by position traders.
+
+43
+00:03:11,900 --> 00:03:17,810
+An efficient position trading strategy is
+divergence trading on the weekly/monthly charts.
+
+44
+00:03:17,810 --> 00:03:23,670
+Divergences are more reliable on higher time
+frames because the market does not move as
+
+45
+00:03:23,670 --> 00:03:26,890
+fast and it is easier to define trends.
+
+46
+00:03:26,890 --> 00:03:33,290
+By trading divergences, the position traders
+see the patterns developing and have time
+
+47
+00:03:33,290 --> 00:03:35,100
+to make the correct decisions.
+
+48
+00:03:35,100 --> 00:03:40,960
+In this weekly gold chart, we spotted an excellent
+hidden divergence opportunity.
+
+49
+00:03:40,960 --> 00:03:49,010
+The gold price recorded a strong upward trend
+and retraced to the 23.6 Fibonacci retracement
+
+50
+00:03:49,010 --> 00:03:50,010
+level.
+
+51
+00:03:50,010 --> 00:03:56,470
+During this time, a hidden divergence pattern
+developed on the stochastic oscillator.
+
+52
+00:03:56,470 --> 00:04:03,100
+This represented a perfect buy for a position
+trader, the gold price continuing its upward
+
+53
+00:04:03,100 --> 00:04:05,040
+trend.
+
+54
+00:04:05,040 --> 00:04:09,240
+A similar pattern is seen in this aussie dollar
+weekly chart.
+
+55
+00:04:09,240 --> 00:04:17,609
+After 4 months of price increases, the market
+retraced to 38.2 fib level.
+
+56
+00:04:17,609 --> 00:04:25,349
+The stochastic indicator showed a hidden divergence
+around that area, representing a good buy
+
+57
+00:04:25,349 --> 00:04:27,669
+opportunity for a position trader.
+
+58
+00:04:27,669 --> 00:04:35,150
+The price indeed rejected that area and continued
+its upward trend for the rest of the year.
+
+59
+00:04:35,150 --> 00:04:39,789
+On the Apple stock chart, we found this pattern
+once again.
+
+60
+00:04:39,789 --> 00:04:44,729
+The Apple price was in a strong upward trend
+on the weekly chart.
+
+61
+00:04:44,729 --> 00:04:48,499
+The price retraced to 38.2 fib level.
+
+62
+00:04:48,499 --> 00:04:54,599
+This move, combined with the hidden divergence
+on the stochastic oscillator represented a
+
+63
+00:04:54,599 --> 00:04:58,009
+great opportunity for a position trader.
+
+64
+00:04:58,009 --> 00:05:03,490
+As you can observe from these examples, the
+hidden divergences represent a reliable tool
+
+65
+00:05:03,490 --> 00:05:09,949
+for position traders on the higher time frames,
+generating high probability signals.
+
+66
+00:05:09,949 --> 00:05:13,560
+Another viable strategy for a position trader
+is the carry trade.
+
+67
+00:05:13,560 --> 00:05:19,879
+The carry trade is an interesting forex long-term
+strategy that is based on the difference in
+
+68
+00:05:19,879 --> 00:05:21,082
+interest rates around the world.
+
+69
+00:05:21,082 --> 00:05:27,639
+It’s a strategy through which a position
+trader sells a certain currency with a low-interest
+
+70
+00:05:27,639 --> 00:05:34,100
+rate and uses the funds to buy a currency
+with higher interest rate.
+
+71
+00:05:34,100 --> 00:05:39,779
+By executing a carry trade, the position trader
+intends to generate profit from the difference
+
+72
+00:05:39,779 --> 00:05:42,809
+in interest rates between two countries.
+
+73
+00:05:42,809 --> 00:05:48,909
+Also, with an appropriate approach, the position
+trader aims to benefit not only from the difference
+
+74
+00:05:48,909 --> 00:05:53,699
+in interest rates but also from the changes
+in the exchange rate.
+
+75
+00:05:53,699 --> 00:06:00,490
+Here’s an example, the Aussie dollar/ and
+the Japanese yen on the monthly timeframe.
+
+76
+00:06:00,490 --> 00:06:06,539
+That’s a good carry trade opportunity because
+there is a big difference between interest
+
+77
+00:06:06,539 --> 00:06:12,770
+rates of the 2 countries, so we could make
+a profit in the long term from the swap.
+
+78
+00:06:12,770 --> 00:06:18,659
+After we determined the main monthly relevant
+support and resistance and potential price
+
+79
+00:06:18,659 --> 00:06:24,650
+patterns we identified a possible long position
+in the direction of the prevailing upward
+
+80
+00:06:24,650 --> 00:06:30,300
+trend, after the price rejected the 38.2 fib
+level.
+
+81
+00:06:30,300 --> 00:06:35,639
+A long entry on the currency pair would be
+a safe entry, considering the long term.
+
+82
+00:06:35,639 --> 00:06:42,750
+The long position on the instrument is related
+to a positive swap, and thus the profit of
+
+83
+00:06:42,750 --> 00:06:50,150
+such a transaction would be even greater if
+the currency pair will continue to move upwards.
+
+84
+00:06:50,150 --> 00:06:53,689
+Another position trading strategy involves
+moving averages.
+
+85
+00:06:53,689 --> 00:06:58,639
+The moving averages are probably the most
+well-known and heavily used indicators in
+
+86
+00:06:58,639 --> 00:07:03,960
+technical analysis because they effectively
+captures the trend of a financial market in
+
+87
+00:07:03,960 --> 00:07:07,139
+an easily identifiable manner.
+
+88
+00:07:07,139 --> 00:07:11,810
+Position traders often use moving averages
+for identifying and confirming support and
+
+89
+00:07:11,810 --> 00:07:13,440
+resistance levels.
+
+90
+00:07:13,440 --> 00:07:19,389
+A crossover between 2 moving average is probably
+one of the most well-known technical analysis
+
+91
+00:07:19,389 --> 00:07:21,569
+signal used by traders.
+
+92
+00:07:21,569 --> 00:07:28,599
+The strategy is simple, position traders trade
+moving averages, one with a shorter period
+
+93
+00:07:28,599 --> 00:07:35,500
+and the other with a longer period and track
+the signals when a crossover occurs.
+
+94
+00:07:35,500 --> 00:07:41,330
+This is the simplest position trading strategy
+because moving average crossovers on higher
+
+95
+00:07:41,330 --> 00:07:46,499
+timeframes work better than short-term crossovers.
+
+96
+00:07:46,499 --> 00:07:50,080
+This is likely because they produce fewer
+false signals.
+
+97
+00:07:50,080 --> 00:07:56,619
+However, be careful with moving average crossovers,
+because this strategy works only in trending
+
+98
+00:07:56,619 --> 00:07:57,619
+markets.
+
+99
+00:07:57,619 --> 00:08:03,699
+When the market is in a range, you’ll probably
+see something similar on your charts.
+
+100
+00:08:03,699 --> 00:08:08,740
+Despite the fact that position trading is
+a long-term strategy and takes some time to
+
+101
+00:08:08,740 --> 00:08:15,020
+profit from markets, it’s a safer alternative
+compared to the other strategies in the market.
+
+102
+00:08:15,020 --> 00:08:21,349
+Used it in conjunction with the long-term
+trend and with a proper money management system,
+
+103
+00:08:21,349 --> 00:08:26,559
+the position trading might bring back the
+enjoyment of trading, without having to spend
+
+104
+00:08:26,559 --> 00:08:29,909
+all day in front of the computer.
+
+105
+00:08:29,909 --> 00:08:34,320
+If you got any value from this, please consider
+subscribing to our channel, share and like
+
+106
+00:08:34,320 --> 00:08:38,320
+this video, as it would help us a lot in the
+future.
+
+107
+00:08:38,320 --> 00:08:38,870
+Until next time.
+

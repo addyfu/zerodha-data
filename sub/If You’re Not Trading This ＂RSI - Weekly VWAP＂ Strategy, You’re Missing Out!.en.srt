@@ -1,0 +1,1268 @@
+1
+00:00:00,359 --> 00:00:05,880
+a lot of Traders are using v-wop in day
+
+2
+00:00:03,360 --> 00:00:08,639
+trading and scalping and it's a very
+
+3
+00:00:05,880 --> 00:00:10,800
+useful tool because view up shows the
+
+4
+00:00:08,639 --> 00:00:12,719
+true average price of a market by
+
+5
+00:00:10,800 --> 00:00:16,560
+factoring the volume of transactions
+
+6
+00:00:12,719 --> 00:00:18,420
+most Traders are using daily view up but
+
+7
+00:00:16,560 --> 00:00:20,699
+did you know that you can also trade
+
+8
+00:00:18,420 --> 00:00:23,640
+based on the weekly view up
+
+9
+00:00:20,699 --> 00:00:25,800
+weekly view up adds more value than the
+
+10
+00:00:23,640 --> 00:00:28,980
+standard 50 or 200 moving average
+
+11
+00:00:25,800 --> 00:00:30,900
+indicators because this line reacts to
+
+12
+00:00:28,980 --> 00:00:33,899
+price movements based on the volume
+
+13
+00:00:30,900 --> 00:00:36,780
+during that period and in combination
+
+14
+00:00:33,899 --> 00:00:39,780
+with the RSI you can determine the trend
+
+15
+00:00:36,780 --> 00:00:43,320
+and momentum in just a few seconds
+
+16
+00:00:39,780 --> 00:00:45,770
+you know the drill like subscribe and
+
+17
+00:00:43,320 --> 00:00:49,119
+stick around for the full video
+
+18
+00:00:45,770 --> 00:00:49,119
+[Music]
+
+19
+00:00:49,879 --> 00:00:57,719
+you find the weekly view up here
+
+20
+00:00:53,520 --> 00:01:00,180
+at the anchor period you choose weekly
+
+21
+00:00:57,719 --> 00:01:03,440
+and will hide the bands for now we'll
+
+22
+00:01:00,180 --> 00:01:03,440
+just focus on the main line
+
+23
+00:01:03,480 --> 00:01:09,479
+for day Traders and scalpers The View up
+
+24
+00:01:06,420 --> 00:01:11,820
+is often used as a trend indicator for
+
+25
+00:01:09,479 --> 00:01:14,280
+big players and institutions it's used
+
+26
+00:01:11,820 --> 00:01:17,880
+as a benchmark price to evaluate the
+
+27
+00:01:14,280 --> 00:01:20,100
+quality of executions from their trades
+
+28
+00:01:17,880 --> 00:01:22,259
+weekly view app shows you the trend
+
+29
+00:01:20,100 --> 00:01:25,320
+depending on where the price is trading
+
+30
+00:01:22,259 --> 00:01:28,200
+above or below in relation to the view
+
+31
+00:01:25,320 --> 00:01:31,380
+upline a market trading above the weekly
+
+32
+00:01:28,200 --> 00:01:33,360
+view of as the line Rises indicates an
+
+33
+00:01:31,380 --> 00:01:35,700
+uptrend
+
+34
+00:01:33,360 --> 00:01:38,520
+a market trading below the weekly view
+
+35
+00:01:35,700 --> 00:01:41,000
+up as the line declines indicates a
+
+36
+00:01:38,520 --> 00:01:41,000
+downtrend
+
+37
+00:01:41,759 --> 00:01:46,380
+one of the simplest uses of the weekly
+
+38
+00:01:43,979 --> 00:01:49,920
+view up is for finding Dynamic support
+
+39
+00:01:46,380 --> 00:01:52,740
+or resistance view upline acts as a
+
+40
+00:01:49,920 --> 00:01:55,200
+support if the price is trading above it
+
+41
+00:01:52,740 --> 00:01:57,180
+and as a resistance if the price is
+
+42
+00:01:55,200 --> 00:02:00,060
+trading below it
+
+43
+00:01:57,180 --> 00:02:01,560
+weekly viewable also offers entry and
+
+44
+00:02:00,060 --> 00:02:04,500
+exit levels
+
+45
+00:02:01,560 --> 00:02:05,579
+one Trader support is another Trader's
+
+46
+00:02:04,500 --> 00:02:08,819
+resistance
+
+47
+00:02:05,579 --> 00:02:11,099
+for example a Trader who is long on a
+
+48
+00:02:08,819 --> 00:02:14,160
+market can use the view up as a Target
+
+49
+00:02:11,099 --> 00:02:16,319
+exit if he entered below
+
+50
+00:02:14,160 --> 00:02:19,260
+Traders looking to take a long position
+
+51
+00:02:16,319 --> 00:02:20,040
+can wait for the price to break the view
+
+52
+00:02:19,260 --> 00:02:23,640
+up
+
+53
+00:02:20,040 --> 00:02:26,360
+or wait for a pullback and a bounce off
+
+54
+00:02:23,640 --> 00:02:26,360
+the view up
+
+55
+00:02:31,319 --> 00:02:35,819
+see why the weekly view up makes for a
+
+56
+00:02:33,599 --> 00:02:37,940
+great entry in exit area
+
+57
+00:02:35,819 --> 00:02:41,160
+there are two main types of traits
+
+58
+00:02:37,940 --> 00:02:44,099
+breakouts and pullbacks
+
+59
+00:02:41,160 --> 00:02:46,440
+now from my back test I found that the
+
+60
+00:02:44,099 --> 00:02:48,720
+weekly view up works better when
+
+61
+00:02:46,440 --> 00:02:49,920
+combined with a momentum indicator like
+
+62
+00:02:48,720 --> 00:02:53,220
+the RSI
+
+63
+00:02:49,920 --> 00:02:55,260
+yes the RSI is lagging and it offers
+
+64
+00:02:53,220 --> 00:02:57,480
+many false signals on the lower time
+
+65
+00:02:55,260 --> 00:03:00,300
+frames but if you can use it correctly
+
+66
+00:02:57,480 --> 00:03:02,340
+with the right settings it can show you
+
+67
+00:03:00,300 --> 00:03:06,420
+the current momentum with decent
+
+68
+00:03:02,340 --> 00:03:08,580
+accuracy and no we won't use the RSI as
+
+69
+00:03:06,420 --> 00:03:11,879
+an overbought or oversold indicator
+
+70
+00:03:08,580 --> 00:03:16,379
+we'll use it 50 line instead
+
+71
+00:03:11,879 --> 00:03:19,980
+we'll use this indicator RSI candles
+
+72
+00:03:16,379 --> 00:03:22,019
+will change both values to 50.
+
+73
+00:03:19,980 --> 00:03:24,080
+we also change the length of the
+
+74
+00:03:22,019 --> 00:03:26,879
+indicator to 50.
+
+75
+00:03:24,080 --> 00:03:30,540
+the indicator changes the color of the
+
+76
+00:03:26,879 --> 00:03:32,040
+candles if the RSI is above or below its
+
+77
+00:03:30,540 --> 00:03:35,099
+middle line
+
+78
+00:03:32,040 --> 00:03:38,159
+when the RSI indicator is above 50 we
+
+79
+00:03:35,099 --> 00:03:42,980
+have bullish momentum and when the RSI
+
+80
+00:03:38,159 --> 00:03:42,980
+is below 50 we have bearish momentum
+
+81
+00:03:43,620 --> 00:03:48,239
+it's very easy to assess the current
+
+82
+00:03:45,720 --> 00:03:51,799
+state of the market price above the view
+
+83
+00:03:48,239 --> 00:03:54,720
+up bullish Trend green RSI candles
+
+84
+00:03:51,799 --> 00:03:58,379
+bullish momentum in this situation
+
+85
+00:03:54,720 --> 00:04:01,159
+you'll look for long signals
+
+86
+00:03:58,379 --> 00:04:05,280
+price below the view up bearish Trend
+
+87
+00:04:01,159 --> 00:04:08,700
+red RSI candles bearish momentum
+
+88
+00:04:05,280 --> 00:04:11,400
+now you look for cell signals
+
+89
+00:04:08,700 --> 00:04:13,620
+from a visual point of view you'll see
+
+90
+00:04:11,400 --> 00:04:16,739
+the trend and momentum almost instantly
+
+91
+00:04:13,620 --> 00:04:19,199
+if the trend is strong and there's also
+
+92
+00:04:16,739 --> 00:04:20,220
+momentum you should see something like
+
+93
+00:04:19,199 --> 00:04:22,940
+this
+
+94
+00:04:20,220 --> 00:04:26,759
+price breaks the weekly if you are blind
+
+95
+00:04:22,940 --> 00:04:29,340
+RSI maintains above its 50 line
+
+96
+00:04:26,759 --> 00:04:33,120
+so the candles remain green
+
+97
+00:04:29,340 --> 00:04:36,240
+and the price moves in a healthy uptrend
+
+98
+00:04:33,120 --> 00:04:37,860
+the same for short signals price breaks
+
+99
+00:04:36,240 --> 00:04:41,280
+the weekly view upline
+
+100
+00:04:37,860 --> 00:04:43,380
+RSI stays below its 50 line
+
+101
+00:04:41,280 --> 00:04:46,620
+the candles remain red
+
+102
+00:04:43,380 --> 00:04:48,840
+and the price moves lower and lower
+
+103
+00:04:46,620 --> 00:04:51,060
+these are the best market conditions
+
+104
+00:04:48,840 --> 00:04:53,820
+that you should trade when the RSI
+
+105
+00:04:51,060 --> 00:04:56,580
+candles don't change color and the price
+
+106
+00:04:53,820 --> 00:04:58,820
+remains above or below the weekly view
+
+107
+00:04:56,580 --> 00:04:58,820
+up
+
+108
+00:05:03,000 --> 00:05:08,940
+timing is everything in day trading and
+
+109
+00:05:05,880 --> 00:05:12,419
+scalping while prices may be trading
+
+110
+00:05:08,940 --> 00:05:14,820
+above below or at the view up you really
+
+111
+00:05:12,419 --> 00:05:17,639
+want to enter trades when price is about
+
+112
+00:05:14,820 --> 00:05:19,680
+to move away from that area
+
+113
+00:05:17,639 --> 00:05:22,740
+when it comes to a weekly view of
+
+114
+00:05:19,680 --> 00:05:25,380
+breakouts Buy Signal price moves above
+
+115
+00:05:22,740 --> 00:05:28,199
+the view up this can often signal that
+
+116
+00:05:25,380 --> 00:05:30,900
+sellers are exiting their positions or
+
+117
+00:05:28,199 --> 00:05:33,240
+buyers are gaining strength which moves
+
+118
+00:05:30,900 --> 00:05:37,259
+price above view up
+
+119
+00:05:33,240 --> 00:05:39,120
+now very important ideally the RSI is
+
+120
+00:05:37,259 --> 00:05:40,259
+already green at the time of the
+
+121
+00:05:39,120 --> 00:05:43,740
+Breakout
+
+122
+00:05:40,259 --> 00:05:45,660
+so there's polish momentum before the
+
+123
+00:05:43,740 --> 00:05:48,240
+weekly viewable Breakout
+
+124
+00:05:45,660 --> 00:05:49,919
+this is not a must-have condition but
+
+125
+00:05:48,240 --> 00:05:51,120
+there's something I've observed in my
+
+126
+00:05:49,919 --> 00:05:54,120
+back tests
+
+127
+00:05:51,120 --> 00:05:56,520
+and to filter signals is also good to
+
+128
+00:05:54,120 --> 00:05:59,520
+have a price action confirmation the
+
+129
+00:05:56,520 --> 00:06:02,639
+weekly view of RSI signal is stronger
+
+130
+00:05:59,520 --> 00:06:05,759
+and more reliable when price moves above
+
+131
+00:06:02,639 --> 00:06:08,400
+a previously resistance level or breaks
+
+132
+00:06:05,759 --> 00:06:12,419
+a trend line a Confluence which may
+
+133
+00:06:08,400 --> 00:06:14,940
+result in an extended price run
+
+134
+00:06:12,419 --> 00:06:17,759
+for a weekly view Up breakout cell
+
+135
+00:06:14,940 --> 00:06:20,759
+signal price moves below the view up
+
+136
+00:06:17,759 --> 00:06:23,280
+this time buyers are exiting their
+
+137
+00:06:20,759 --> 00:06:26,520
+positions or sellers are gaining
+
+138
+00:06:23,280 --> 00:06:29,759
+strength moving price below view up
+
+139
+00:06:26,520 --> 00:06:32,819
+the RSI in the best scenario is already
+
+140
+00:06:29,759 --> 00:06:35,580
+read at the time of the breakout there's
+
+141
+00:06:32,819 --> 00:06:37,380
+bearish momentum before the weekly view
+
+142
+00:06:35,580 --> 00:06:40,440
+Up breakout
+
+143
+00:06:37,380 --> 00:06:43,500
+if the candles are not red you wait
+
+144
+00:06:40,440 --> 00:06:44,400
+until you see the color change below the
+
+145
+00:06:43,500 --> 00:06:47,340
+view up
+
+146
+00:06:44,400 --> 00:06:49,620
+and this short signal is stronger when
+
+147
+00:06:47,340 --> 00:06:53,840
+price moves below a previous support
+
+148
+00:06:49,620 --> 00:06:53,840
+level or breaks a trend line
+
+149
+00:06:57,960 --> 00:07:01,380
+the second view of Entry is the pullback
+
+150
+00:07:00,539 --> 00:07:04,259
+one
+
+151
+00:07:01,380 --> 00:07:06,960
+when price is on an extended move upward
+
+152
+00:07:04,259 --> 00:07:10,259
+or downward and then makes a movement
+
+153
+00:07:06,960 --> 00:07:12,539
+towards the weekly view of line
+
+154
+00:07:10,259 --> 00:07:16,020
+if the RSI doesn't change its color
+
+155
+00:07:12,539 --> 00:07:19,500
+meaning the overall momentum is still on
+
+156
+00:07:16,020 --> 00:07:21,599
+this is a chance to buy or sell at the
+
+157
+00:07:19,500 --> 00:07:24,660
+weekly average price
+
+158
+00:07:21,599 --> 00:07:27,300
+if the RSI changes its color during the
+
+159
+00:07:24,660 --> 00:07:30,720
+pullback let's say price was below view
+
+160
+00:07:27,300 --> 00:07:33,060
+up RSI was red and comes back to the
+
+161
+00:07:30,720 --> 00:07:35,819
+weekly view up but the candles are now
+
+162
+00:07:33,060 --> 00:07:39,120
+green you have to rely on a price action
+
+163
+00:07:35,819 --> 00:07:43,020
+trigger to enter after the RSI crosses
+
+164
+00:07:39,120 --> 00:07:46,620
+once again below 50. again trend line
+
+165
+00:07:43,020 --> 00:07:49,199
+breakouts pin bars with big Wicks or
+
+166
+00:07:46,620 --> 00:07:52,099
+support and resistance breakouts are
+
+167
+00:07:49,199 --> 00:07:52,099
+valid signals
+
+168
+00:07:52,139 --> 00:07:57,479
+this is potion
+
+169
+00:07:54,120 --> 00:08:00,419
+prices below the weekly view up and the
+
+170
+00:07:57,479 --> 00:08:03,360
+RSI candles are red so this is a market
+
+171
+00:08:00,419 --> 00:08:05,460
+which favors short positions
+
+172
+00:08:03,360 --> 00:08:07,500
+we have this important support level
+
+173
+00:08:05,460 --> 00:08:10,199
+which was broken
+
+174
+00:08:07,500 --> 00:08:12,240
+so this is our price action trigger to
+
+175
+00:08:10,199 --> 00:08:14,160
+initiate a short
+
+176
+00:08:12,240 --> 00:08:16,440
+stop loss goes above the weekly view
+
+177
+00:08:14,160 --> 00:08:18,539
+upline and above this previous
+
+178
+00:08:16,440 --> 00:08:23,180
+resistance level
+
+179
+00:08:18,539 --> 00:08:23,180
+and we set a risk reward ratio of 2.
+
+180
+00:08:26,639 --> 00:08:30,360
+price returned once again near the view
+
+181
+00:08:29,400 --> 00:08:33,360
+up line
+
+182
+00:08:30,360 --> 00:08:37,860
+Market is making lower lows and lower
+
+183
+00:08:33,360 --> 00:08:40,800
+highs RSI candles are still red so if we
+
+184
+00:08:37,860 --> 00:08:43,880
+have a view of touch and rejection we'll
+
+185
+00:08:40,800 --> 00:08:43,880
+consider another short
+
+186
+00:08:45,000 --> 00:08:49,980
+that's unlucky price reversed before
+
+187
+00:08:47,640 --> 00:08:52,980
+touching the weekly view up
+
+188
+00:08:49,980 --> 00:08:55,260
+I prefer to enter close and very close
+
+189
+00:08:52,980 --> 00:08:57,899
+to the view of line I'm conservative
+
+190
+00:08:55,260 --> 00:09:00,959
+which means I will miss quite a few
+
+191
+00:08:57,899 --> 00:09:04,380
+trades if the trend is strong for a few
+
+192
+00:09:00,959 --> 00:09:06,360
+Pips I missed here a decent trade but if
+
+193
+00:09:04,380 --> 00:09:09,240
+you are not conservative you can enter
+
+194
+00:09:06,360 --> 00:09:10,860
+even if price isn't near the weekly view
+
+195
+00:09:09,240 --> 00:09:14,040
+up
+
+196
+00:09:10,860 --> 00:09:17,040
+let's continue again price almost
+
+197
+00:09:14,040 --> 00:09:19,519
+returns to the weekly view up but no
+
+198
+00:09:17,040 --> 00:09:19,519
+touch yet
+
+199
+00:09:19,800 --> 00:09:26,399
+okay now we have a breakout trade price
+
+200
+00:09:22,980 --> 00:09:30,000
+broke the weekly view up RSI candles
+
+201
+00:09:26,399 --> 00:09:32,399
+changed color before the actual Breakout
+
+202
+00:09:30,000 --> 00:09:34,680
+which is the ideal scenario
+
+203
+00:09:32,399 --> 00:09:35,760
+we also have several price action
+
+204
+00:09:34,680 --> 00:09:40,279
+triggers
+
+205
+00:09:35,760 --> 00:09:40,279
+I say this breakoff structure here
+
+206
+00:09:40,740 --> 00:09:48,120
+and I also see this trend line breakouts
+
+207
+00:09:44,940 --> 00:09:51,839
+so we enter a long position with a stop
+
+208
+00:09:48,120 --> 00:09:55,459
+below view up and below the swing low
+
+209
+00:09:51,839 --> 00:09:55,459
+we'll Target this swing High
+
+210
+00:10:00,779 --> 00:10:05,339
+things are easy when Market is trending
+
+211
+00:10:03,420 --> 00:10:08,339
+and has momentum
+
+212
+00:10:05,339 --> 00:10:09,360
+look at this weekly breakout trade right
+
+213
+00:10:08,339 --> 00:10:12,779
+here
+
+214
+00:10:09,360 --> 00:10:14,279
+RSI candles changed color right at the
+
+215
+00:10:12,779 --> 00:10:16,680
+breakout moment
+
+216
+00:10:14,279 --> 00:10:19,700
+the price action figure was this
+
+217
+00:10:16,680 --> 00:10:19,700
+trendline Breakout
+
+218
+00:10:22,740 --> 00:10:26,700
+under breakout trade a short one this
+
+219
+00:10:25,740 --> 00:10:30,000
+time
+
+220
+00:10:26,700 --> 00:10:32,640
+we have a breakout below view up with
+
+221
+00:10:30,000 --> 00:10:36,180
+RSI moving below 50 level
+
+222
+00:10:32,640 --> 00:10:38,339
+the trigger was the support Breakout
+
+223
+00:10:36,180 --> 00:10:41,420
+which is the neckline breakout of a head
+
+224
+00:10:38,339 --> 00:10:41,420
+and shoulders pattern
+
+225
+00:10:45,120 --> 00:10:51,360
+like I said when market trends it's easy
+
+226
+00:10:48,839 --> 00:10:54,420
+but how about when there's a range
+
+227
+00:10:51,360 --> 00:10:57,480
+more specifically when the RSI candles
+
+228
+00:10:54,420 --> 00:10:59,339
+change color often
+
+229
+00:10:57,480 --> 00:11:01,620
+look right here
+
+230
+00:10:59,339 --> 00:11:04,800
+even though price is above the weekly
+
+231
+00:11:01,620 --> 00:11:07,500
+view up the momentum is unclear
+
+232
+00:11:04,800 --> 00:11:10,019
+I have a rule to avoid getting chopped
+
+233
+00:11:07,500 --> 00:11:11,579
+or entering consecutive trades when the
+
+234
+00:11:10,019 --> 00:11:14,760
+market isn't moving
+
+235
+00:11:11,579 --> 00:11:17,820
+when the RSI changes its color four
+
+236
+00:11:14,760 --> 00:11:22,079
+times in a short amount of time you mark
+
+237
+00:11:17,820 --> 00:11:25,320
+the range and trade when price breaks it
+
+238
+00:11:22,079 --> 00:11:27,000
+so this is the job Zone with multiple
+
+239
+00:11:25,320 --> 00:11:31,279
+color changes
+
+240
+00:11:27,000 --> 00:11:31,279
+and you avoid trading inside of it
+
+241
+00:11:33,300 --> 00:11:40,140
+here's the signal we have a breakout to
+
+242
+00:11:36,420 --> 00:11:43,140
+the downside below the weekly view up
+
+243
+00:11:40,140 --> 00:11:46,079
+and the other side candles are red
+
+244
+00:11:43,140 --> 00:11:49,200
+now is the time to enter a short trade
+
+245
+00:11:46,079 --> 00:11:52,740
+stop goes above the view upline
+
+246
+00:11:49,200 --> 00:11:55,380
+and will Target the previous swing low
+
+247
+00:11:52,740 --> 00:11:57,860
+which offers a risk to reward ratio of
+
+248
+00:11:55,380 --> 00:11:57,860
+2.
+
+249
+00:12:03,180 --> 00:12:07,980
+I found that the weekly view up suits
+
+250
+00:12:05,700 --> 00:12:09,000
+the stock market better than any other
+
+251
+00:12:07,980 --> 00:12:11,820
+Market
+
+252
+00:12:09,000 --> 00:12:14,040
+stocks tend to have cleaner Trends and
+
+253
+00:12:11,820 --> 00:12:15,600
+seem to respect the view upline more
+
+254
+00:12:14,040 --> 00:12:18,360
+accurately
+
+255
+00:12:15,600 --> 00:12:20,519
+here's a short pullback on Tesla near
+
+256
+00:12:18,360 --> 00:12:24,000
+the weekly view offline
+
+257
+00:12:20,519 --> 00:12:27,300
+RSI candles maintained their red color
+
+258
+00:12:24,000 --> 00:12:29,660
+during the pullback so this is a valid
+
+259
+00:12:27,300 --> 00:12:29,660
+setup
+
+260
+00:12:37,740 --> 00:12:43,139
+we have a quite big up Gap with
+
+261
+00:12:40,500 --> 00:12:44,760
+consecutive candles breaking the view
+
+262
+00:12:43,139 --> 00:12:47,100
+upline
+
+263
+00:12:44,760 --> 00:12:49,740
+price is above the view up but the
+
+264
+00:12:47,100 --> 00:12:53,420
+candles are red so this is not a good
+
+265
+00:12:49,740 --> 00:12:53,420
+time to initiate any trade
+
+266
+00:12:55,019 --> 00:13:01,560
+now we have multiple changes in RSI
+
+267
+00:12:58,860 --> 00:13:05,300
+so let's mark the range
+
+268
+00:13:01,560 --> 00:13:05,300
+trade when we see a Breakout
+
+269
+00:13:08,010 --> 00:13:12,839
+[Music]
+
+270
+00:13:10,079 --> 00:13:15,000
+okay I'll take this short here
+
+271
+00:13:12,839 --> 00:13:18,360
+we have a view of Breakout
+
+272
+00:13:15,000 --> 00:13:21,300
+a breakout below the previous range
+
+273
+00:13:18,360 --> 00:13:24,720
+in the context of a downtrend as price
+
+274
+00:13:21,300 --> 00:13:27,899
+is making lower lows
+
+275
+00:13:24,720 --> 00:13:32,360
+we'll put the stop loss above view up
+
+276
+00:13:27,899 --> 00:13:32,360
+and will Target this previous swing low
+
+277
+00:13:33,540 --> 00:13:40,680
+[Music]
+
+278
+00:13:37,040 --> 00:13:43,620
+we had some downward momentum but now
+
+279
+00:13:40,680 --> 00:13:46,920
+price moved above the view upline
+
+280
+00:13:43,620 --> 00:13:49,399
+so we'll close the trade manually with a
+
+281
+00:13:46,920 --> 00:13:49,399
+small loss
+
+282
+00:13:54,360 --> 00:14:00,660
+another range is forming with RSI
+
+283
+00:13:57,360 --> 00:14:03,779
+Crossing its 50 level multiple times
+
+284
+00:14:00,660 --> 00:14:07,639
+again we'll mark the range and avoid
+
+285
+00:14:03,779 --> 00:14:07,639
+trading inside this channel
+
+286
+00:14:09,420 --> 00:14:14,399
+foreign
+
+287
+00:14:11,120 --> 00:14:16,860
+setup in the context of a larger
+
+288
+00:14:14,399 --> 00:14:20,940
+downtrend
+
+289
+00:14:16,860 --> 00:14:23,989
+will once again Target this swing low
+
+290
+00:14:20,940 --> 00:14:23,989
+[Music]
+
+291
+00:14:26,700 --> 00:14:32,579
+successful trade and I also see this
+
+292
+00:14:29,940 --> 00:14:35,160
+pullback trade right here a second
+
+293
+00:14:32,579 --> 00:14:36,600
+chance to enter if you missed the first
+
+294
+00:14:35,160 --> 00:14:39,199
+entry
+
+295
+00:14:36,600 --> 00:14:42,180
+one more aspect when you find yourself
+
+296
+00:14:39,199 --> 00:14:42,899
+analyzing a market which looks like this
+
+297
+00:14:42,180 --> 00:14:46,079
+one
+
+298
+00:14:42,899 --> 00:14:49,019
+with price moving above and below the
+
+299
+00:14:46,079 --> 00:14:51,000
+weekly view up multiple times again
+
+300
+00:14:49,019 --> 00:14:53,279
+don't trade
+
+301
+00:14:51,000 --> 00:14:55,320
+draw the channel and look for
+
+302
+00:14:53,279 --> 00:14:57,620
+opportunities when the trend is more
+
+303
+00:14:55,320 --> 00:14:57,620
+obvious
+
+304
+00:14:58,290 --> 00:15:20,639
+[Music]
+
+305
+00:15:17,639 --> 00:15:20,639
+foreign
+
+306
+00:15:26,390 --> 00:15:32,839
+[Music]
+
+307
+00:15:37,220 --> 00:15:46,229
+[Music]
+
+308
+00:15:49,800 --> 00:15:52,800
+foreign
+
+309
+00:15:53,210 --> 00:15:59,669
+[Music]
+
+310
+00:16:03,700 --> 00:16:11,840
+[Music]
+
+311
+00:16:20,420 --> 00:16:23,520
+[Music]
+
+312
+00:16:28,470 --> 00:16:32,440
+[Music]
+
+313
+00:16:36,600 --> 00:16:42,000
+if you want to see more videos like this
+
+314
+00:16:38,940 --> 00:16:44,639
+one leave us a like And subscribe
+
+315
+00:16:42,000 --> 00:16:48,000
+and check out our Academy program if you
+
+316
+00:16:44,639 --> 00:16:50,899
+want to further level up your Trading
+
+317
+00:16:48,000 --> 00:16:50,899
+until next time
+

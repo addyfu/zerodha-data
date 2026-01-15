@@ -1,0 +1,732 @@
+1
+00:00:01,100 --> 00:00:05,890
+If you want to be profitable trading market
+pullbacks, the best way is to catch the first
+
+2
+00:00:05,890 --> 00:00:06,939
+pullback.
+
+3
+00:00:06,939 --> 00:00:10,880
+The first pullbacks are the trend entries
+that can be found at the very start of a new
+
+4
+00:00:10,880 --> 00:00:11,880
+trend.
+
+5
+00:00:11,880 --> 00:00:16,410
+In today’s video we’ll explore the idea
+of trading the first pullback in a new trend
+
+6
+00:00:16,410 --> 00:00:22,600
+and I will share my strategy to pinpoint the
+exact moment to enter the market.
+
+7
+00:00:22,600 --> 00:00:27,369
+In an ideal situation, the most profitable
+way to trade the market is to catch the run
+
+8
+00:00:27,369 --> 00:00:31,030
+from the very top and cash out at the bottom
+of the market.
+
+9
+00:00:31,030 --> 00:00:35,480
+The opposite is also true if you catch it
+from the bottom and exit right at the top
+
+10
+00:00:35,480 --> 00:00:36,480
+of the market.
+
+11
+00:00:36,480 --> 00:00:41,289
+However, the nature of trading is such that
+we never really know where the top or bottom
+
+12
+00:00:41,289 --> 00:00:42,289
+is.
+
+13
+00:00:42,289 --> 00:00:46,440
+Above and beyond that, catching the top or
+the bottom of the market is probably one of
+
+14
+00:00:46,440 --> 00:00:51,260
+the harder tasks and many traders have lost
+substantial amount of money while attempting
+
+15
+00:00:51,260 --> 00:00:53,390
+to do so.
+
+16
+00:00:53,390 --> 00:00:57,850
+Instead of entering the market at the top
+or bottom, the first pullback allows traders
+
+17
+00:00:57,850 --> 00:01:03,329
+to enter near the top or bottom (as shown
+in this example), this is similar to entering
+
+18
+00:01:03,329 --> 00:01:07,790
+at the top or bottom, and you can still enjoy
+the majority of the benefits.
+
+19
+00:01:07,790 --> 00:01:12,340
+Hence, entering the market at the first pullback
+is the next best entry.
+
+20
+00:01:12,340 --> 00:01:16,640
+Essentially, the first pullback in the new
+trend direction is also the final test of
+
+21
+00:01:16,640 --> 00:01:20,090
+the extreme in the old trend direction.
+
+22
+00:01:20,090 --> 00:01:23,990
+Understanding the final test of the extreme
+is fairly important when identifying the first
+
+23
+00:01:23,990 --> 00:01:26,140
+pullback.
+
+24
+00:01:26,140 --> 00:01:29,420
+Just to be clear, the first pullback is not
+a reversal set up.
+
+25
+00:01:29,420 --> 00:01:33,799
+Instead, it is a trend-following setup that
+enters the market at a very early stage of
+
+26
+00:01:33,799 --> 00:01:39,420
+the new trend – it is the first trend entry
+immediately after price has reversed.
+
+27
+00:01:39,420 --> 00:01:43,909
+While many traders would be afraid to enter
+the market using this technique, smart traders
+
+28
+00:01:43,909 --> 00:01:48,020
+understand that this is a low risk and high
+reward set up.
+
+29
+00:01:48,020 --> 00:01:52,710
+Now, let’s explore the concept of “first
+pullback in a new direction”.
+
+30
+00:01:52,710 --> 00:01:57,499
+As we know, when the trend ends, it does not
+imply that the new trend would start immediately.
+
+31
+00:01:57,499 --> 00:02:02,049
+So it is important to know what price action
+sings to look for when searching for the first
+
+32
+00:02:02,049 --> 00:02:03,460
+pullback.
+
+33
+00:02:03,460 --> 00:02:07,030
+Before we search for the first pullback, we
+need to analyze price action right before
+
+34
+00:02:07,030 --> 00:02:08,610
+it happens.
+
+35
+00:02:08,610 --> 00:02:13,810
+Using this example, the market is currently
+in an uptrend (which is the old trend direction).
+
+36
+00:02:13,810 --> 00:02:18,580
+The first indication of a potential new pullback
+(in a new direction) is when you see the first
+
+37
+00:02:18,580 --> 00:02:19,890
+lower high.
+
+38
+00:02:19,890 --> 00:02:24,140
+This is because the lower high is a sign of
+weakness that shows that the buyers are not
+
+39
+00:02:24,140 --> 00:02:27,140
+completely in control.
+
+40
+00:02:27,140 --> 00:02:30,000
+This is also a potential final test of the
+swing high.
+
+41
+00:02:30,000 --> 00:02:33,230
+Buyers are testing to see if they can move
+any higher.
+
+42
+00:02:33,230 --> 00:02:38,590
+Meanwhile, the sellers are keeping a close
+eye, and once they know that buyers are exhausted,
+
+43
+00:02:38,590 --> 00:02:42,240
+big sellers would take control of the market,
+and they would push price lower.
+
+44
+00:02:42,240 --> 00:02:47,810
+However, the confirmation of the final test
+requires a lower low or, in this case, a break
+
+45
+00:02:47,810 --> 00:02:50,890
+below Point C.
+When you have a lower high (Point C in this
+
+46
+00:02:50,890 --> 00:02:55,730
+example) and when price breaks below Point
+C, the first pullback in new direction is
+
+47
+00:02:55,730 --> 00:02:57,740
+completed.
+
+48
+00:02:57,740 --> 00:03:03,060
+In other words, the easiest way to find pullbacks
+is to spot ABCD patterns.
+
+49
+00:03:03,060 --> 00:03:09,930
+BC wave is the actual pullback but a pullback
+must include CD wave where point D moves beyond
+
+50
+00:03:09,930 --> 00:03:12,290
+point B, or the pullback is invalid.
+
+51
+00:03:12,290 --> 00:03:17,510
+The same applies here, price must move below
+Point B for confirmation of the first pullback
+
+52
+00:03:17,510 --> 00:03:19,680
+in the new trend direction.
+
+53
+00:03:19,680 --> 00:03:24,370
+Once you have a full cycle, the chances are
+higher that the market is now in a downtrend,
+
+54
+00:03:24,370 --> 00:03:28,760
+and the chances are now slimmer for price
+to move upwards since the downward market
+
+55
+00:03:28,760 --> 00:03:31,030
+has already started.
+
+56
+00:03:31,030 --> 00:03:36,420
+Now, understanding the first pullback means
+nothing if you do not take any positions.
+
+57
+00:03:36,420 --> 00:03:39,250
+You either catch the new pullback or you missed
+it.
+
+58
+00:03:39,250 --> 00:03:44,190
+Truth to be told, there is nothing much you
+can do about it once you miss the pullback.
+
+59
+00:03:44,190 --> 00:03:48,020
+Trading is all about preparation and the more
+you are prepared for it, the more you can
+
+60
+00:03:48,020 --> 00:03:49,930
+grab a high probability trade.
+
+61
+00:03:49,930 --> 00:03:55,060
+So in your analysis you must be able to identify
+some important signs for catching the first
+
+62
+00:03:55,060 --> 00:03:56,270
+pullback.
+
+63
+00:03:56,270 --> 00:03:57,480
+1.
+
+64
+00:03:57,480 --> 00:04:03,820
+First sign is that pullback fails in old direction
+A break below Point A represents a confirmation
+
+65
+00:04:03,820 --> 00:04:06,900
+that a pullback in the old direction has failed.
+
+66
+00:04:06,900 --> 00:04:10,670
+This is also the first lower low that we were
+looking for.
+
+67
+00:04:10,670 --> 00:04:14,940
+While we don’t know what happens next, we
+can only wait for more price confirmation
+
+68
+00:04:14,940 --> 00:04:18,910
+to show us if the buyers or sellers are taking
+the lead.
+
+69
+00:04:18,910 --> 00:04:24,320
+Nonetheless, the only thing that we are certain
+is the old trend has lost its drive and that
+
+70
+00:04:24,320 --> 00:04:27,170
+is an important clue to note.
+
+71
+00:04:27,170 --> 00:04:28,170
+2.
+
+72
+00:04:28,170 --> 00:04:32,910
+Second sign is a trend bar showing confirmation
+of failed pullback in the old direction
+
+73
+00:04:32,910 --> 00:04:37,800
+While a failed pullback is important, we need
+the probabilities to stack in our favour.
+
+74
+00:04:37,800 --> 00:04:43,130
+Thus, in terms of price action, you want to
+see a clear break below Point A and one of
+
+75
+00:04:43,130 --> 00:04:48,840
+the best ways to identify seller’s conviction
+is by finding one or more long bodied bearish
+
+76
+00:04:48,840 --> 00:04:54,060
+trend bars breaking through point A.
+This is a strong confirmation that the pullback
+
+77
+00:04:54,060 --> 00:05:00,970
+has failed and the probability of getting
+a fake failed pullback has greatly reduced.
+
+78
+00:05:00,970 --> 00:05:05,100
+Trend bars are great to show strength in the
+market, and you should look for them especially
+
+79
+00:05:05,100 --> 00:05:06,389
+at the start of a new trend.
+
+80
+00:05:06,389 --> 00:05:10,760
+They are very useful clues for trading success
+especially near price extremes.
+
+81
+00:05:10,760 --> 00:05:16,380
+If the trend bar is longer than the average
+size bar, that is also a good indication of
+
+82
+00:05:16,380 --> 00:05:21,050
+momentum and this is usually the start of
+a market rally (or decline).
+
+83
+00:05:21,050 --> 00:05:25,910
+If you find that the trend bars have very
+small tails that is evidence that the market
+
+84
+00:05:25,910 --> 00:05:29,560
+is one-sided, and the momentum is increased
+further.
+
+85
+00:05:29,560 --> 00:05:30,770
+3.
+
+86
+00:05:30,770 --> 00:05:35,330
+Third sign is related to time frame correlation
+When chasing the first pullback, you should
+
+87
+00:05:35,330 --> 00:05:38,150
+try your best to understand time frame correlation.
+
+88
+00:05:38,150 --> 00:05:44,340
+For example: - A price extreme at the hourly
+chart is more relevant when trading a 15 minute
+
+89
+00:05:44,340 --> 00:05:45,340
+chart.
+
+90
+00:05:45,340 --> 00:05:49,610
+A price extreme at the daily chart is more
+relevant when trading the hourly or the 4
+
+91
+00:05:49,610 --> 00:05:50,870
+hour chart.
+
+92
+00:05:50,870 --> 00:05:55,830
+The time frame below shows you the pattern
+or the pullback that you are looking for.
+
+93
+00:05:55,830 --> 00:05:59,870
+Looking at this example, you can see from
+the daily chart that price was very far away
+
+94
+00:05:59,870 --> 00:06:01,889
+from the moving average line.
+
+95
+00:06:01,889 --> 00:06:06,550
+This point is considered the extreme since
+it was at the point where it was furthest
+
+96
+00:06:06,550 --> 00:06:08,370
+away from the moving average.
+
+97
+00:06:08,370 --> 00:06:14,060
+However, there was no clue showing the lack
+of buyers until the first lower high on the
+
+98
+00:06:14,060 --> 00:06:16,760
+4 hour chart.
+
+99
+00:06:16,760 --> 00:06:21,230
+Using the daily chart to identify the market
+extreme, you can then move to the 4 hour chart
+
+100
+00:06:21,230 --> 00:06:25,960
+to pinpoint when price pullback fails in the
+initial trend direction.
+
+101
+00:06:25,960 --> 00:06:30,200
+The first clue that the buyers have run out
+of strength is the price action double top
+
+102
+00:06:30,200 --> 00:06:32,520
+– a final test of the extreme.
+
+103
+00:06:32,520 --> 00:06:35,510
+Then, it was followed by a lower low.
+
+104
+00:06:35,510 --> 00:06:39,830
+The confirmation of the first pullback in
+the new trend direction was when price broke
+
+105
+00:06:39,830 --> 00:06:41,060
+below this bar.
+
+106
+00:06:41,060 --> 00:06:45,910
+If you stayed on the daily timeframe, you
+might not have spotted the pullback and would
+
+107
+00:06:45,910 --> 00:06:48,470
+have missed a good pullback entry.
+
+108
+00:06:48,470 --> 00:06:49,470
+4.
+
+109
+00:06:49,470 --> 00:06:51,970
+Fourth sign is a the creation of a reversal
+pattern
+
+110
+00:06:51,970 --> 00:06:57,370
+Since a first pullback is an early entry in
+a new trend, it should be no surprise that
+
+111
+00:06:57,370 --> 00:07:01,560
+you can find many first pullbacks immediately
+after a reversal pattern.
+
+112
+00:07:01,560 --> 00:07:05,120
+So, let’s explore some conventional reversal
+patterns.
+
+113
+00:07:05,120 --> 00:07:09,740
+Just to be clear, the idea is not to trade
+the reversal patterns and it is important
+
+114
+00:07:09,740 --> 00:07:15,500
+to wait for price to have reversed before
+looking for any first pullback entry.
+
+115
+00:07:15,500 --> 00:07:19,830
+First pattern: double top/bottom and neckline
+pullback
+
+116
+00:07:19,830 --> 00:07:24,680
+A double top pattern is a good and simple
+indication that the price has tested the extreme
+
+117
+00:07:24,680 --> 00:07:29,400
+one last time and resulted in a final test,
+in the old trend direction.
+
+118
+00:07:29,400 --> 00:07:33,730
+The double top is only a potential start of
+a new pullback and the clues that you should
+
+119
+00:07:33,730 --> 00:07:40,060
+be looking for are the new lower low (point
+B) and a new lower high (Point C).
+
+120
+00:07:40,060 --> 00:07:45,210
+The retest of the neckline is an extra but
+powerful clue as it is where the old support
+
+121
+00:07:45,210 --> 00:07:47,120
+becomes resistance.
+
+122
+00:07:47,120 --> 00:07:51,630
+In other words, the double top is only the
+first clue, but not a confirmation that a
+
+123
+00:07:51,630 --> 00:07:54,480
+first pullback is ready.
+
+124
+00:07:54,480 --> 00:07:59,370
+Another pattern is the range market breakout
+A range market can happen around the market
+
+125
+00:07:59,370 --> 00:08:01,970
+extreme or in the middle of a trending market.
+
+126
+00:08:01,970 --> 00:08:06,690
+A range market is only formed if there are
+2 touches on either side of the market.
+
+127
+00:08:06,690 --> 00:08:11,620
+As you can see from this example, Point B
+is the first lower low, and it is also the
+
+128
+00:08:11,620 --> 00:08:14,010
+first break outside the range.
+
+129
+00:08:14,010 --> 00:08:18,650
+However, Point B can also be a false break,
+and you can only find out if it is by watching
+
+130
+00:08:18,650 --> 00:08:21,460
+Point C and Point D closely.
+
+131
+00:08:21,460 --> 00:08:27,169
+Point C is the most important one for our
+analysis, being the first lower high and also
+
+132
+00:08:27,169 --> 00:08:30,680
+a retest of the resistance (previous support)
+level.
+
+133
+00:08:30,680 --> 00:08:35,599
+Like all other pullbacks, the first pullback
+is only complete once we have Point D, which
+
+134
+00:08:35,599 --> 00:08:43,360
+is the break below B to form a second lower
+low and also a complete ABCD pattern.
+
+135
+00:08:43,360 --> 00:08:46,959
+The Head & Shoulders (H&S) pattern is another
+classic reversal pattern and, like a double
+
+136
+00:08:46,959 --> 00:08:50,430
+top, it is also a good sign of price exhaustion.
+
+137
+00:08:50,430 --> 00:08:56,610
+H&S pattern would consist of three tops where
+the left shoulder is the first top, the head
+
+138
+00:08:56,610 --> 00:09:01,089
+is the second (and highest) top and the right
+shoulder is the third top.
+
+139
+00:09:01,089 --> 00:09:05,570
+The two lows in between the three tops would
+determine the shape of the neckline – as
+
+140
+00:09:05,570 --> 00:09:08,070
+it can be a horizontal or a slope neckline.
+
+141
+00:09:08,070 --> 00:09:15,339
+In a horizontal neckline, the entire H&S pattern
+relies on the fact that Point D must be below
+
+142
+00:09:15,339 --> 00:09:18,810
+Point B, which is also below the neckline.
+
+143
+00:09:18,810 --> 00:09:21,850
+The neckline carries quite a bit of probability
+weight.
+
+144
+00:09:21,850 --> 00:09:26,480
+If price fails to break below the neckline,
+this could turn out to be a double (or even
+
+145
+00:09:26,480 --> 00:09:29,389
+triple) bottom bullish continuation pattern.
+
+146
+00:09:29,389 --> 00:09:36,379
+Our first pullback would basically be the
+right shoulder in the Head & Shoulders setup.
+
+147
+00:09:36,379 --> 00:09:40,730
+The first pullback in a NEW directional trend
+is one of most rewarding setups.
+
+148
+00:09:40,730 --> 00:09:43,740
+They don’t always work 100% of the time.
+
+149
+00:09:43,740 --> 00:09:49,279
+Sometimes they offer small profits, and other
+times the price will maintain its initial
+
+150
+00:09:49,279 --> 00:09:51,860
+direction, despite all reversal signs we identified.
+
+151
+00:09:51,860 --> 00:09:56,829
+But if you learn to correctly identify the
+first pullback, the profits can more than
+
+152
+00:09:56,829 --> 00:10:00,610
+make up for any other failed attempts.
+
+153
+00:10:00,610 --> 00:10:04,670
+As always, if you learned something new and
+found value, leave us a like to show your
+
+154
+00:10:04,670 --> 00:10:08,360
+support, subscribe to our channel and hit
+the bell icon to stay notified when we upload
+
+155
+00:10:08,360 --> 00:10:09,949
+new videos.
+
+156
+00:10:09,949 --> 00:10:11,000
+Until next time.
+

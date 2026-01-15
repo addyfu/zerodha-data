@@ -1,0 +1,752 @@
+1
+00:00:01,069 --> 00:00:04,050
+Chart patterns are a crucial component of
+trading.
+
+2
+00:00:04,050 --> 00:00:07,840
+Each chart pattern offers a unique outlook
+on the potential price movement.
+
+3
+00:00:07,840 --> 00:00:13,209
+Today we’ll discuss one high probability
+continuation formation known as the Flag pattern,
+
+4
+00:00:13,209 --> 00:00:17,250
+and by the end of this video, you will know
+exactly how to spot the pattern accurately…and
+
+5
+00:00:17,250 --> 00:00:21,179
+be able to trade it confidently and profitably.
+
+6
+00:00:21,179 --> 00:00:25,570
+The Flag pattern is one of the best-known
+continuation formations in trading, which
+
+7
+00:00:25,570 --> 00:00:30,169
+typically appears as a minor consolidation
+between impulsive legs of a trend.
+
+8
+00:00:30,169 --> 00:00:34,070
+When this pattern forms on the chart, there’s
+a high likelihood that the price action will
+
+9
+00:00:34,070 --> 00:00:36,750
+break in the direction of the prevailing trend.
+
+10
+00:00:36,750 --> 00:00:40,440
+The Flag pattern consists of two parts – a
+flag pole and a flag.
+
+11
+00:00:40,440 --> 00:00:45,180
+Let’s take a closer look at each of these
+two components.
+
+12
+00:00:45,180 --> 00:00:48,710
+The first component of the Flag chart pattern
+is the Flag Pole.
+
+13
+00:00:48,710 --> 00:00:51,420
+It represents a trend impulse on the chart.
+
+14
+00:00:51,420 --> 00:00:56,469
+After creating the pole, a valid Flag pattern
+will then begin to trade within a tight range,
+
+15
+00:00:56,469 --> 00:00:58,449
+taking on the shape of a Flag.
+
+16
+00:00:58,449 --> 00:01:02,480
+The Flag consists of price action with evenly
+distributed tops and bottoms.
+
+17
+00:01:02,480 --> 00:01:06,210
+At the same time, this price action has a
+corrective character on the graph.
+
+18
+00:01:06,210 --> 00:01:12,590
+In this manner, it is angled contrary to the
+trend impulse creating the pole.
+
+19
+00:01:12,590 --> 00:01:16,730
+There are two types of Flag chart patterns
+based on their structure and potential – a
+
+20
+00:01:16,730 --> 00:01:19,190
+bearish Flag and a bullish Flag.
+
+21
+00:01:19,190 --> 00:01:22,200
+Each of these is the absolute opposite of
+the other.
+
+22
+00:01:22,200 --> 00:01:24,990
+The bear Flag pattern forms during bearish
+trends.
+
+23
+00:01:24,990 --> 00:01:30,049
+The figure starts with a bearish trend impulse
+and turns into a correction, which is directed
+
+24
+00:01:30,049 --> 00:01:31,049
+upwards.
+
+25
+00:01:31,049 --> 00:01:35,470
+During the correction phase, the tops and
+the bottoms are evenly distributed, creating
+
+26
+00:01:35,470 --> 00:01:37,340
+a parallel channel.
+
+27
+00:01:37,340 --> 00:01:41,500
+The confirmation of the Bear Flag setup comes
+when the price action breaks the flag channel
+
+28
+00:01:41,500 --> 00:01:43,270
+boundary downwards.
+
+29
+00:01:43,270 --> 00:01:48,540
+When the breakout occurs, we have the opportunity
+to short the asset.
+
+30
+00:01:48,540 --> 00:01:52,390
+The Bull Flag pattern is the opposite of the
+Bear Flag pattern in appearance.
+
+31
+00:01:52,390 --> 00:01:54,990
+First, it forms during bullish trends.
+
+32
+00:01:54,990 --> 00:01:59,700
+The pattern begins with a bullish trending
+move, which then pauses and turns into a minor
+
+33
+00:01:59,700 --> 00:02:01,340
+bearish correction.
+
+34
+00:02:01,340 --> 00:02:04,670
+The tops and the bottom of this correction
+are parallel as well.
+
+35
+00:02:04,670 --> 00:02:09,170
+The confirmation of the Bullish Flag pattern
+happens with the upside breakout, and we would
+
+36
+00:02:09,170 --> 00:02:12,140
+prepare for a long position.
+
+37
+00:02:12,140 --> 00:02:14,970
+The Flag Pattern has a continuation potential
+on the chart.
+
+38
+00:02:14,970 --> 00:02:19,450
+A valid flag pattern is likely to push the
+price action further in the direction of the
+
+39
+00:02:19,450 --> 00:02:22,160
+Flag Pole – the trend impulse.
+
+40
+00:02:22,160 --> 00:02:26,160
+In addition to this, when you spot a Flag
+formation on your price chart, you can measure
+
+41
+00:02:26,160 --> 00:02:29,250
+the approximate price target of the formation.
+
+42
+00:02:29,250 --> 00:02:32,280
+There are two targets related to the Flag
+formation:
+
+43
+00:02:32,280 --> 00:02:37,830
+The first target of a confirmed Flag pattern
+can be derived using the measured move technique.
+
+44
+00:02:37,830 --> 00:02:42,350
+The measured move target is a distance equal
+to the size of the flag.
+
+45
+00:02:42,350 --> 00:02:45,920
+To measure the size of the flag, you would
+just take the vertical distance between the
+
+46
+00:02:45,920 --> 00:02:48,770
+upper and the lower channel within the flag.
+
+47
+00:02:48,770 --> 00:02:53,420
+Then you would apply this distance starting
+from the breakout point.
+
+48
+00:02:53,420 --> 00:02:55,800
+Your first target is located at the end of
+this distance.
+
+49
+00:02:55,800 --> 00:02:59,840
+Target 2: Size of the Pole
+The next target of the Flag formation equals
+
+50
+00:02:59,840 --> 00:03:01,570
+the size of the Flag Pole.
+
+51
+00:03:01,570 --> 00:03:05,930
+So, to get this target, you need to measure
+the vertical distance between the high and
+
+52
+00:03:05,930 --> 00:03:06,980
+the low of the Pole.
+
+53
+00:03:06,980 --> 00:03:11,450
+Once you get that distance, you will need
+to apply it to the pattern.
+
+54
+00:03:11,450 --> 00:03:15,870
+Again, as we did with Target 1, you would
+apply it starting from the breakout point.
+
+55
+00:03:15,870 --> 00:03:21,441
+Now that we discussed some of the characteristics
+of the Bull and Bear Flag, let’s create
+
+56
+00:03:21,441 --> 00:03:24,190
+a concrete trading strategy around this setup.
+
+57
+00:03:24,190 --> 00:03:29,870
+At first, I want to add two Exponential Moving
+Averages, to help us identify an uptrend or
+
+58
+00:03:29,870 --> 00:03:31,590
+a downtrend easily.
+
+59
+00:03:31,590 --> 00:03:37,230
+In this case I added the 21 and 55 EMA, but
+you can choose any length you prefer.
+
+60
+00:03:37,230 --> 00:03:42,870
+When the 21 EMA is above the 55 EMA, we consider
+the market to be in an uptrend.
+
+61
+00:03:42,870 --> 00:03:49,240
+So we only want to start looking for the Bull
+Flag Pattern when the 21 EMA has crossed above
+
+62
+00:03:49,240 --> 00:03:50,710
+the 55 EMA.
+
+63
+00:03:50,710 --> 00:03:55,850
+If the 21 EMA is below the 55 EMA, we will
+look for Bear Flag Patterns.
+
+64
+00:03:55,850 --> 00:03:57,810
+Why this filter?
+
+65
+00:03:57,810 --> 00:04:02,460
+Because when the market is trading above the
+21 EMA, for example, it means there is strong
+
+66
+00:04:02,460 --> 00:04:04,150
+momentum to the upside.
+
+67
+00:04:04,150 --> 00:04:11,260
+And any Bull Flag Patterns that are formed
+above the 21 EMA have a higher chance of succeeding.
+
+68
+00:04:11,260 --> 00:04:15,480
+To enter a Flag pattern trade, you should
+first obtain a confirmation signal.
+
+69
+00:04:15,480 --> 00:04:18,050
+The confirmation of the Flag comes with the
+breakout.
+
+70
+00:04:18,050 --> 00:04:22,660
+If you have a bullish flag, you will buy when
+the price action closes a candle above the
+
+71
+00:04:22,660 --> 00:04:24,220
+upper side.
+
+72
+00:04:24,220 --> 00:04:27,880
+If you have a bearish flag, then you would
+sell the asset when you see a candle closing
+
+73
+00:04:27,880 --> 00:04:30,660
+below the lower level of the pattern.
+
+74
+00:04:30,660 --> 00:04:34,490
+One basic rule should be considered when determining
+the proper stop loss placement.
+
+75
+00:04:34,490 --> 00:04:39,000
+If the price breaches the opposite side of
+the breakout, then you should immediately
+
+76
+00:04:39,000 --> 00:04:44,070
+exit the trade, because the pattern is most
+likely false.
+
+77
+00:04:44,070 --> 00:04:48,710
+The most logical location to place the stop
+loss would be beyond the most extreme swing
+
+78
+00:04:48,710 --> 00:04:50,410
+within the Flag structure.
+
+79
+00:04:50,410 --> 00:04:54,990
+So, if you were trading a bullish flag, then
+your stop should be placed below the lowest
+
+80
+00:04:54,990 --> 00:04:56,830
+bottom in the Flag.
+
+81
+00:04:56,830 --> 00:05:00,740
+The take profit for the Flag pattern should
+be addressed using the two targets we discussed
+
+82
+00:05:00,740 --> 00:05:01,740
+earlier.
+
+83
+00:05:01,740 --> 00:05:03,960
+It is up to you which target you are going
+to pursue.
+
+84
+00:05:03,960 --> 00:05:09,630
+However, I would suggest taking profits at
+each target level to reduce risk and book
+
+85
+00:05:09,630 --> 00:05:11,590
+profits.
+
+86
+00:05:11,590 --> 00:05:15,961
+To enter into a trade using the Flag Pattern,
+I also prefer to look for a candlestick pattern
+
+87
+00:05:15,961 --> 00:05:21,060
+that forms on the dynamic area offered by
+the 2 EMAs, namely the engulfing candle and
+
+88
+00:05:21,060 --> 00:05:22,060
+the pin bar.
+
+89
+00:05:22,060 --> 00:05:27,000
+These 2 candlestick patterns are the trigger
+for us to get into a trade.
+
+90
+00:05:27,000 --> 00:05:30,870
+If you trade a bullish flag for example, and
+you have a bullish candlestick that forms
+
+91
+00:05:30,870 --> 00:05:37,030
+on the 21 EMA, it suggests that the EMA has
+held up as a dynamic support level.
+
+92
+00:05:37,030 --> 00:05:41,280
+At the same time, a bullish candlestick pattern
+suggests that the market has a good chance
+
+93
+00:05:41,280 --> 00:05:43,730
+of going up after its formation.
+
+94
+00:05:43,730 --> 00:05:47,750
+Basically, you want a confluence of these
+elements to give you a high probability of
+
+95
+00:05:47,750 --> 00:05:49,200
+the trade working out.
+
+96
+00:05:49,200 --> 00:05:55,300
+So how do you enter into the trade once these
+candlestick patterns appear?
+
+97
+00:05:55,300 --> 00:05:56,910
+There are 2 main entries.
+
+98
+00:05:56,910 --> 00:06:02,050
+The first one was to wait for a breakout,
+which is a more conservative way to trade.
+
+99
+00:06:02,050 --> 00:06:06,330
+The second entry method is a more aggressive
+entry because you do not wait for a confirmation
+
+100
+00:06:06,330 --> 00:06:12,020
+of the move and take a trade before the breakout,
+at the close of the candlestick pattern inside
+
+101
+00:06:12,020 --> 00:06:16,460
+the flag pattern or at the break of the high
+or low of the candlestick.
+
+102
+00:06:16,460 --> 00:06:21,930
+By confirmation, it means to wait for another
+event to happen to give you a better indication
+
+103
+00:06:21,930 --> 00:06:25,580
+that the market will be going up for example,
+if you trade a bull flag.
+
+104
+00:06:25,580 --> 00:06:28,360
+This means you don’t wait for the breakout
+to happen.
+
+105
+00:06:28,360 --> 00:06:33,780
+With this entry, you will have a higher risk-to-reward
+ratio for the same take profit level…
+
+106
+00:06:33,780 --> 00:06:37,370
+But the trade-off is that you will get stopped
+out more often.
+
+107
+00:06:37,370 --> 00:06:42,139
+The ideal scenario would be a pin bar or an
+engulfing candle that forms right when the
+
+108
+00:06:42,139 --> 00:06:47,200
+price breaks the flag, but this is rare setup.
+
+109
+00:06:47,200 --> 00:06:51,860
+I prefer to have a confluence of factors,
+namely the price rejecting the dynamic area
+
+110
+00:06:51,860 --> 00:06:57,830
+formed by the 2 EMAs, the formation of a candlestick
+pattern and a flag breakout.
+
+111
+00:06:57,830 --> 00:07:02,150
+With any trading setup, the more signals you
+have supporting the direction of your trade,
+
+112
+00:07:02,150 --> 00:07:04,610
+the higher the chances of your trade working
+out.
+
+113
+00:07:04,610 --> 00:08:00,900
+Here are several examples of valid trades.
+
+114
+00:08:00,900 --> 00:08:05,990
+If you trade stocks, many traders use volume
+as an added confluence of trade signals.
+
+115
+00:08:05,990 --> 00:08:10,389
+What you want to look out for is for an increase
+in volume when the market starts moving up
+
+116
+00:08:10,389 --> 00:08:12,840
+from the Bull Flag Pattern, for example.
+
+117
+00:08:12,840 --> 00:08:17,360
+Here, you can see that the volume has increased
+when the market broke out from the Bull Flag
+
+118
+00:08:17,360 --> 00:08:18,360
+Pattern.
+
+119
+00:08:18,360 --> 00:08:21,740
+This shows that there are buyers coming in
+to push the market up.
+
+120
+00:08:21,740 --> 00:08:25,710
+And this gives traders an added validation
+that the Bull Flag Pattern has a higher chance
+
+121
+00:08:25,710 --> 00:08:27,230
+of working out.
+
+122
+00:08:27,230 --> 00:08:31,740
+As a side note, in the Forex Market, you can’t
+use volume because there’s no centralized
+
+123
+00:08:31,740 --> 00:08:33,060
+exchange.
+
+124
+00:08:33,060 --> 00:08:36,960
+This means the volume you see in the Forex
+market is not an accurate representation of
+
+125
+00:08:36,960 --> 00:09:18,060
+the total volume in the market.
+
+126
+00:09:18,060 --> 00:09:21,500
+You can also increase the flag pattern’s
+probability with divergence.
+
+127
+00:09:21,500 --> 00:09:26,270
+A divergence is when the market is moving
+in a different direction than your indicator.
+
+128
+00:09:26,270 --> 00:09:31,450
+There are a few indicators that can identify
+divergence…But what I like to use is the
+
+129
+00:09:31,450 --> 00:09:33,420
+Stochastic Oscillator.
+
+130
+00:09:33,420 --> 00:09:37,270
+To identify a divergence on the Bull Flag
+Pattern for example, what we’re looking
+
+131
+00:09:37,270 --> 00:09:41,700
+for is for the market to be forming a higher
+low but the Stochastic Oscillator to form
+
+132
+00:09:41,700 --> 00:09:43,070
+a lower low.
+
+133
+00:09:43,070 --> 00:09:44,690
+This is called a hidden divergence.
+
+134
+00:09:44,690 --> 00:09:48,800
+Also, remember the previous confluence elements
+we discussed before.
+
+135
+00:09:48,800 --> 00:09:53,810
+Thus, at the point where the candlestick pattern
+is formed, we want the Stochastic Oscillator
+
+136
+00:09:53,810 --> 00:09:55,779
+to form a lower low.
+
+137
+00:09:55,779 --> 00:09:58,370
+Here’s an example.
+
+138
+00:09:58,370 --> 00:10:03,170
+We have hidden divergence, as the market is
+making a higher low but the Stochastic Oscillator
+
+139
+00:10:03,170 --> 00:10:04,980
+is making a lower low.
+
+140
+00:10:04,980 --> 00:10:11,100
+The setup is even more powerful is it contains
+a candlestick formation or if the price rejects
+
+141
+00:10:11,100 --> 00:10:14,320
+the dynamic area formed by the 2 EMAs.
+
+142
+00:10:14,320 --> 00:10:18,460
+So whenever you are looking for an entry,
+you want to see that there is a hidden divergence
+
+143
+00:10:18,460 --> 00:10:22,940
+to give you the added confluence that the
+Flag Pattern will work out.
+
+144
+00:10:22,940 --> 00:10:27,330
+Here, you can see that the market is clearly
+in a downtrend.
+
+145
+00:10:27,330 --> 00:10:33,890
+The 21 EMA is below the 55 EMA, and the market
+is forming lower lows and lower highs.
+
+146
+00:10:33,890 --> 00:10:37,800
+The market went down and formed the Bear Flag’s
+flagpole in a few bars.
+
+147
+00:10:37,800 --> 00:10:42,310
+After that, the market started consolidating
+and moved sideways.
+
+148
+00:10:42,310 --> 00:10:45,600
+If you noticed, the bars are relatively smaller
+as well.
+
+149
+00:10:45,600 --> 00:10:49,920
+This is a sign that the market is preparing
+for a possible downwards move.
+
+150
+00:10:49,920 --> 00:10:54,790
+Just as the price entered the dynamic resistance
+area , it formed a Bearish Engulfing Candle.
+
+151
+00:10:54,790 --> 00:11:00,130
+At this point, you can see that the Stochastic
+Oscillator is indicating a hidden divergence.
+
+152
+00:11:00,130 --> 00:12:31,230
+So this is a valid trade signal.
+
+153
+00:12:31,230 --> 00:12:34,390
+The market will give you many opportunities
+to trade this setup.
+
+154
+00:12:34,390 --> 00:12:38,470
+However, you don’t want to make the mistake
+of trading every single one of them.
+
+155
+00:12:38,470 --> 00:12:41,580
+You will be tempted to trade it every time
+it shows up.
+
+156
+00:12:41,580 --> 00:12:46,460
+But if you see a Flag Pattern that doesn’t
+fulfill our confluence setup, give it a miss.
+
+157
+00:12:46,460 --> 00:12:50,250
+Be patient and wait for the next opportunity.
+
+158
+00:12:50,250 --> 00:12:54,310
+If you got any value from this and learned
+something new, leave us a like to show your
+
+159
+00:12:54,310 --> 00:12:58,670
+support, subscribe to our channel and click
+the bell icon to stay in touch with new uploads.
+
+160
+00:12:58,670 --> 00:12:59,890
+Until next time.
+

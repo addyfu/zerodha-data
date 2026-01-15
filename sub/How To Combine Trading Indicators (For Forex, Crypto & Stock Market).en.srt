@@ -1,0 +1,759 @@
+1
+00:00:01,150 --> 00:00:06,160
+Knowing what indicators to use and what is
+the best combination of technical indicators
+
+2
+00:00:06,160 --> 00:00:09,110
+can dramatically improve your chart reading
+skills.
+
+3
+00:00:09,110 --> 00:00:14,049
+If you use the wrong technical indicators,
+this can lead to inaccurate price interpretation
+
+4
+00:00:14,049 --> 00:00:16,280
+and bad trading decisions.
+
+5
+00:00:16,280 --> 00:00:21,859
+Technical indicators can make it easy for
+you to identify current price trends and predict
+
+6
+00:00:21,859 --> 00:00:27,640
+where prices will move in the future and by
+developing effective technical analysis strategies,
+
+7
+00:00:27,640 --> 00:00:30,800
+you can increase the amount you earn each
+trading day.
+
+8
+00:00:30,800 --> 00:00:36,440
+When it comes to indicators, we can divide
+them into four classes:
+
+9
+00:00:36,440 --> 00:00:38,650
+• Trend-following indicators
+• Momentum indicators
+
+10
+00:00:38,650 --> 00:00:42,350
+• Volume indicators
+• Volatility indicators
+
+11
+00:00:42,350 --> 00:00:47,030
+Trend indicators – trend indicators are
+designed to measure the strength and direction
+
+12
+00:00:47,030 --> 00:00:48,030
+of a trend.
+
+13
+00:00:48,030 --> 00:00:53,600
+If a market is in a strong uptrend, a trend
+indicator gives you a buy signal, and if the
+
+14
+00:00:53,600 --> 00:00:58,790
+market is in a strong downtrend, trend indicators
+give you a sell signal.
+
+15
+00:00:58,790 --> 00:01:04,610
+However, since indicators are based on past
+price-data, most trend indicators lag the
+
+16
+00:01:04,610 --> 00:01:10,310
+price and give trading signals after a trend
+has already been established.
+
+17
+00:01:10,310 --> 00:01:15,970
+This means a trader will likely miss the initial
+move of a new trend until a trend indicator
+
+18
+00:01:15,970 --> 00:01:18,500
+sends a trade signal.
+
+19
+00:01:18,500 --> 00:01:23,590
+Popular trend indicators include moving averages,
+parabolic stop and reverse (Parabolic SAR),
+
+20
+00:01:23,590 --> 00:01:27,970
+average directional movement index (ADX) and
+the moving average convergence divergence
+
+21
+00:01:27,970 --> 00:01:28,970
+(MACD).
+
+22
+00:01:28,970 --> 00:01:32,940
+Momentum indicators / oscillators – another
+popular group of technical indicators are
+
+23
+00:01:32,940 --> 00:01:36,310
+momentum indicators, also called oscillators.
+
+24
+00:01:36,310 --> 00:01:42,790
+Unlike trend indicators, oscillators measure
+the relative strength of recent price-moves
+
+25
+00:01:42,790 --> 00:01:47,640
+and plot a value between 0 and 100 – hence
+their name.
+
+26
+00:01:47,640 --> 00:01:53,560
+If prices are rising strongly, an oscillator
+follows and reaches overbought levels, giving
+
+27
+00:01:53,560 --> 00:01:55,310
+you a sell signal.
+
+28
+00:01:55,310 --> 00:02:03,120
+Similarly, if prices are falling, an oscillator
+reaches oversold levels and sends a buy signal.
+
+29
+00:02:03,120 --> 00:02:08,580
+Oscillators work extremely well in ranging
+markets but lead to whipsaws when markets
+
+30
+00:02:08,580 --> 00:02:10,599
+are trending.
+
+31
+00:02:10,599 --> 00:02:16,389
+Popular oscillators include the relative strength
+index (RSI), stochastic indicator and momentum
+
+32
+00:02:16,389 --> 00:02:17,389
+oscillator.
+
+33
+00:02:17,389 --> 00:02:22,319
+Volume indicators – volume indicators measure
+the strength of a price-move by using the
+
+34
+00:02:22,319 --> 00:02:24,879
+information of trading volume.
+
+35
+00:02:24,879 --> 00:02:30,400
+While volume indicators are very popular among
+stock traders, forex traders can’t take
+
+36
+00:02:30,400 --> 00:02:36,010
+much advantage of them since there’re no
+reliable measures of trading volume in the
+
+37
+00:02:36,010 --> 00:02:38,319
+currency market.
+
+38
+00:02:38,319 --> 00:02:42,439
+Popular volume indicators are the Chaikin
+Oscillator and on-balance volume (OBV).
+
+39
+00:02:42,439 --> 00:02:49,129
+Volatility indicators – as their name suggests,
+volatility indicators measure the rate of
+
+40
+00:02:49,129 --> 00:02:52,829
+price-changes regardless of their direction.
+
+41
+00:02:52,829 --> 00:02:59,269
+Volatility indicators rise when markets are
+fast and fall when markets are slow.
+
+42
+00:02:59,269 --> 00:03:06,439
+Popular volatility indicators include Bollinger
+Bands and the average true range (ATR).
+
+43
+00:03:06,439 --> 00:03:10,909
+As you can see, while these categories of
+indicators are trying to determine the same
+
+44
+00:03:10,909 --> 00:03:16,829
+thing—whether prices are about to increase,
+decrease, or remain stable—the angle they
+
+45
+00:03:16,829 --> 00:03:19,029
+each offer is unique.
+
+46
+00:03:19,029 --> 00:03:23,620
+Looking at the market from multiple different
+angles can help you develop a more accurate,
+
+47
+00:03:23,620 --> 00:03:26,849
+realistic, and actionable perspective.
+
+48
+00:03:26,849 --> 00:03:31,809
+Knowing which one belongs to which category,
+and how to combine the best indicators in
+
+49
+00:03:31,809 --> 00:03:36,529
+a meaningful way can help you make much better
+trading decisions.
+
+50
+00:03:36,529 --> 00:03:41,840
+What you need to realize is that, while all
+technical indicators are useful, they each
+
+51
+00:03:41,840 --> 00:03:44,099
+have their own set of weaknesses.
+
+52
+00:03:44,099 --> 00:03:50,269
+And, combining indicators in a wrong way can
+lead to a lot of confusion, wrong price interpretation
+
+53
+00:03:50,269 --> 00:03:52,940
+and to bad trading decisions.
+
+54
+00:03:52,940 --> 00:03:58,419
+The biggest problem with traders is the fact
+they use different indicators which belong
+
+55
+00:03:58,419 --> 00:04:04,269
+to the same indicator class and then show
+the same information their charts.
+
+56
+00:04:04,269 --> 00:04:11,629
+If you take a look at this chart, we added
+3 momentum indicators (MCD, RSI and Stochastic).
+
+57
+00:04:11,629 --> 00:04:17,859
+Essentially, all 3 indicators provide the
+same information because they examine momentum
+
+58
+00:04:17,859 --> 00:04:19,680
+in price behavior.
+
+59
+00:04:19,680 --> 00:04:25,259
+You can see that all indicators rise and fall
+at the same time, turn together and also are
+
+60
+00:04:25,259 --> 00:04:27,490
+flat during no-momentum periods.
+
+61
+00:04:27,490 --> 00:04:33,340
+So, if you trade with a multi-indicator strategy
+that uses the RSI indicator, MACD indicator
+
+62
+00:04:33,340 --> 00:04:39,069
+and the stochastic indicator you are basically
+using 3 types of technical indicators that
+
+63
+00:04:39,069 --> 00:04:41,720
+belong in the same category.
+
+64
+00:04:41,720 --> 00:04:47,419
+These are all momentum indicators that are
+going to display the same kind of information
+
+65
+00:04:47,419 --> 00:04:50,490
+in one way or the other.
+
+66
+00:04:50,490 --> 00:04:54,460
+Another common mistake is using only trend
+indicators.
+
+67
+00:04:54,460 --> 00:05:01,139
+This example shows a chart with 3 trend indicators
+(Parabolic SAR, moving averages and Keltner
+
+68
+00:05:01,139 --> 00:05:02,139
+channels).
+
+69
+00:05:02,139 --> 00:05:07,909
+Again, the purpose of these indicators is
+the same: identifying trend direction.
+
+70
+00:05:07,909 --> 00:05:13,639
+You can see that during a trend, all indicators
+are practically indicating the same thing.
+
+71
+00:05:13,639 --> 00:05:18,030
+At the same time, during ranges, they all
+offer bad signals.
+
+72
+00:05:18,030 --> 00:05:24,630
+I hope you see the problem with adding multiple
+indicators showing the same information, you
+
+73
+00:05:24,630 --> 00:05:29,680
+will end up giving too much weight to the
+information provided by the indicators and
+
+74
+00:05:29,680 --> 00:05:32,569
+you can easily miss other crucial things.
+
+75
+00:05:32,569 --> 00:05:38,439
+You might use 2 or more trend indicators and
+you might believe that the trend is stronger
+
+76
+00:05:38,439 --> 00:05:44,509
+than it actually is because both of the indicators
+will give you the green light and you might
+
+77
+00:05:44,509 --> 00:05:47,889
+miss other important clues on your charts.
+
+78
+00:05:47,889 --> 00:05:52,680
+The problem with using unfitting technical
+indicators is that you might actually think
+
+79
+00:05:52,680 --> 00:05:57,599
+the trade signals are stronger if all indicators
+point in the same direction.
+
+80
+00:05:57,599 --> 00:05:59,889
+And this is completely wrong!
+
+81
+00:05:59,889 --> 00:06:05,759
+The fix to the over-emphasizing information
+from using indicators that belong to the same
+
+82
+00:06:05,759 --> 00:06:07,659
+group is quite simple.
+
+83
+00:06:07,659 --> 00:06:12,909
+Avoid using technical indicators that display
+the same kind of information.
+
+84
+00:06:12,909 --> 00:06:18,229
+The best strategy with multiple indicators
+combine indicators that show a different type
+
+85
+00:06:18,229 --> 00:06:19,330
+of information.
+
+86
+00:06:19,330 --> 00:06:25,880
+And here’s another common mistake: using
+way too many indicators.
+
+87
+00:06:25,880 --> 00:06:30,819
+Tell me if this sounds familiar: you find
+a strategy or an indicator on a forum or here
+
+88
+00:06:30,819 --> 00:06:32,210
+on Youtube.
+
+89
+00:06:32,210 --> 00:06:34,860
+You decide to back test it on a demo.
+
+90
+00:06:34,860 --> 00:06:38,810
+You take a look at your charts and spot a
+few good entries.
+
+91
+00:06:38,810 --> 00:06:44,960
+The only problem is that it’s missing something…
+yes, a few more indicators, filters to keep
+
+92
+00:06:44,960 --> 00:06:46,789
+you out of bad trades.
+
+93
+00:06:46,789 --> 00:06:48,930
+What can you do?
+
+94
+00:06:48,930 --> 00:06:51,819
+There’s only one answer: add more indicators.
+
+95
+00:06:51,819 --> 00:06:52,819
+But which one?
+
+96
+00:06:52,819 --> 00:06:57,150
+No problem, you open your trusty folder of
+indicators and start trying out different
+
+97
+00:06:57,150 --> 00:06:58,199
+ones.
+
+98
+00:06:58,199 --> 00:07:03,759
+You back test again: now the strategy gives
+better results… but still you have some
+
+99
+00:07:03,759 --> 00:07:10,499
+losses and since you are on a quest for the
+Holy Grail, you add another “filter”….
+
+100
+00:07:10,499 --> 00:07:14,180
+And another… and another, until you realize
+your charts start to resemble a Christmas
+
+101
+00:07:14,180 --> 00:07:15,180
+tree.
+
+102
+00:07:15,180 --> 00:07:17,830
+And now you’re more confused than ever.
+
+103
+00:07:17,830 --> 00:07:22,949
+Some indicators say “short” while others
+say “long” and by the time they all agree,
+
+104
+00:07:22,949 --> 00:07:26,419
+price moved 50 pips and it’s too late to
+enter.
+
+105
+00:07:26,419 --> 00:07:32,190
+What’s worse, you realize you started with
+a potentially good strategy and modified it
+
+106
+00:07:32,190 --> 00:07:33,639
+almost completely.
+
+107
+00:07:33,639 --> 00:07:36,180
+I suffered from the same problem, don’t
+worry.
+
+108
+00:07:36,180 --> 00:07:37,180
+We all did.
+
+109
+00:07:37,180 --> 00:07:40,210
+You don’t need to clutter your charts.
+
+110
+00:07:40,210 --> 00:07:41,939
+Less is more.
+
+111
+00:07:41,939 --> 00:07:47,599
+You might still have a strong belief that
+each indicator on your chart serves an essential
+
+112
+00:07:47,599 --> 00:07:50,930
+purpose and you cannot trade without all of
+them.
+
+113
+00:07:50,930 --> 00:07:56,159
+You don’t need to transform yourself into
+a price action trader, but if your results
+
+114
+00:07:56,159 --> 00:08:01,970
+are not great, get rid of some indicators,
+you’ll see that your mind will be more active
+
+115
+00:08:01,970 --> 00:08:06,159
+and you’ll start to analyze price movement
+from a different perspective.
+
+116
+00:08:06,159 --> 00:08:12,129
+• So, limit your use of indicators to 2
+or 3 max (preferably 2).
+
+117
+00:08:12,129 --> 00:08:16,930
+• Do not try to filter out all losing trades
+with the use of indicators.
+
+118
+00:08:16,930 --> 00:08:21,289
+You’ll end up filtering out the good trades
+as well.
+
+119
+00:08:21,289 --> 00:08:26,949
+• Don’t just add a new indicator after
+a loss because losses will occur even if you
+
+120
+00:08:26,949 --> 00:08:29,999
+use 100 indicators.
+
+121
+00:08:29,999 --> 00:08:34,370
+• Let indicators confirm your trade bias
+and don’t follow them blindly
+
+122
+00:08:34,370 --> 00:08:41,130
+Now, here are several combinations of indicators
+that you could use:
+
+123
+00:08:41,130 --> 00:08:42,130
+1.
+
+124
+00:08:42,130 --> 00:08:47,710
+One trend indicator and one momentum indicator
+You could use a moving average to determine
+
+125
+00:08:47,710 --> 00:08:53,480
+the trend, and the stochastic for example
+for confirmation or as an entry point.
+
+126
+00:08:53,480 --> 00:08:58,540
+If you watched my stochastic video, you already
+know that I like to use the 200 EMA to identify
+
+127
+00:08:58,540 --> 00:09:04,670
+the trend, and I use stochastic to find divergences
+in the direction of the primary trend.
+
+128
+00:09:04,670 --> 00:09:10,290
+When the price is above the 200 EMA, I plan
+to take long trades, when the stochastic show
+
+129
+00:09:10,290 --> 00:09:16,440
+a divergence, and when the price is below
+the 200 EMA, I take short trades based on
+
+130
+00:09:16,440 --> 00:09:19,460
+the same divergences offered by the stochastic.
+
+131
+00:09:19,460 --> 00:09:20,620
+2.
+
+132
+00:09:20,620 --> 00:09:24,480
+You could use a volume indicator and a trend
+indicator
+
+133
+00:09:24,480 --> 00:09:28,840
+I prefer to use the OBV in combination with
+the moving average.
+
+134
+00:09:28,840 --> 00:09:34,280
+My personal preference is to add a long-term
+moving average on the on-balance-volume.
+
+135
+00:09:34,280 --> 00:09:38,570
+This helps me to determine the direction of
+the trend – as this crossover offers an
+
+136
+00:09:38,570 --> 00:09:41,610
+excellent outlook on the prevailing trend
+on the market.
+
+137
+00:09:41,610 --> 00:09:47,180
+When the OBV is above the moving average,
+i search for long positions, in the direction
+
+138
+00:09:47,180 --> 00:09:48,250
+of the main trend.
+
+139
+00:09:48,250 --> 00:09:54,000
+When OBV is below the moving average, I take
+only short positions.
+
+140
+00:09:54,000 --> 00:09:55,780
+3.
+
+141
+00:09:55,780 --> 00:10:00,940
+A volatility indicator and a momentum indicator
+is also a good fit.
+
+142
+00:10:00,940 --> 00:10:06,720
+I like to use the Bollinger bands and the
+RSI indicator, to search for divergences when
+
+143
+00:10:06,720 --> 00:10:10,330
+the Bollinger bands are flat.
+
+144
+00:10:10,330 --> 00:10:12,720
+You can use any other indicators.
+
+145
+00:10:12,720 --> 00:10:17,810
+What type of indicator you decide to use to
+develop a strategy depends on what type of
+
+146
+00:10:17,810 --> 00:10:20,160
+strategy you intend to develop.
+
+147
+00:10:20,160 --> 00:10:23,320
+This relates to your trading style and risk
+tolerance.
+
+148
+00:10:23,320 --> 00:10:28,960
+If you seeks long-term moves with large profits,
+then you might focus on a trend-following
+
+149
+00:10:28,960 --> 00:10:34,230
+strategy, and, therefore, utilize a trend-following
+indicator such as a moving average.
+
+150
+00:10:34,230 --> 00:10:39,880
+If you’re interested in small moves with
+frequent small gains, you might be more interested
+
+151
+00:10:39,880 --> 00:10:42,160
+in a strategy based on volatility.
+
+152
+00:10:42,160 --> 00:10:48,250
+Again, different types of indicators may be
+used for confirmation.
+
+153
+00:10:48,250 --> 00:10:52,960
+Traders often talk about the Holy Grail – the
+one trading secret that will lead to instant
+
+154
+00:10:52,960 --> 00:10:54,160
+profits.
+
+155
+00:10:54,160 --> 00:11:00,520
+Unfortunately, there is no perfect strategy
+that will guarantee success for each investor.
+
+156
+00:11:00,520 --> 00:11:05,140
+Each trader has a unique style, temperament,
+risk tolerance and personality.
+
+157
+00:11:05,140 --> 00:11:10,990
+As such, it is up to each trader to learn
+about the variety of technical analysis tools
+
+158
+00:11:10,990 --> 00:11:17,130
+that are available, research how they perform
+according to their individual needs and develop
+
+159
+00:11:17,130 --> 00:11:21,140
+strategies based on the results.
+
+160
+00:11:21,140 --> 00:11:25,250
+If you got any value from this and learned
+something new, don’t forget to subscribe,
+
+161
+00:11:25,250 --> 00:11:30,020
+hit the bell icon to enable notification and
+leave us a like to show your support.
+
+162
+00:11:30,020 --> 00:11:30,910
+Until next time.
+

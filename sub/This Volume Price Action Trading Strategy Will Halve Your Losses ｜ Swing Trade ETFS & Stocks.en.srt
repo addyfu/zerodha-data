@@ -1,0 +1,664 @@
+1
+00:00:01,390 --> 00:00:02,390
+Hey guys.
+
+2
+00:00:02,390 --> 00:00:07,120
+So, I don’t know about you, but when I started
+trading I was completely ignoring the trading
+
+3
+00:00:07,120 --> 00:00:08,120
+volume.
+
+4
+00:00:08,120 --> 00:00:12,490
+I was testing all possible combinations involving
+different indicators and strategies, on all
+
+5
+00:00:12,490 --> 00:00:17,740
+kind of timeframes, but I didn’t bother
+to include the volume in my trading decisions.
+
+6
+00:00:17,740 --> 00:00:22,179
+And of course, my trading balance was going
+down every week and my frustrations increased
+
+7
+00:00:22,179 --> 00:00:23,890
+with every trade I took.
+
+8
+00:00:23,890 --> 00:00:28,339
+Luckily for me, I read some articles about
+volume and decided to incorporate it in my
+
+9
+00:00:28,339 --> 00:00:29,929
+trading strategy.
+
+10
+00:00:29,929 --> 00:00:34,579
+You see, there aren’t many trading books
+devoted to the topic of volume analysis and
+
+11
+00:00:34,579 --> 00:00:39,460
+most trading books or courses cover volume
+as a secondary topic and don’t offer an
+
+12
+00:00:39,460 --> 00:00:41,559
+in-depth discussion.
+
+13
+00:00:41,559 --> 00:00:46,540
+Volume is a critical aspect of technical analysis,
+so in this video, we’ll discuss about how
+
+14
+00:00:46,540 --> 00:00:51,420
+you can add volume into your price action
+trading and you’ll learn how to spot strong
+
+15
+00:00:51,420 --> 00:00:56,480
+trends and how to anticipate with better accuracy
+the reversal areas, taking into account just
+
+16
+00:00:56,480 --> 00:00:59,460
+2 variables, price and volume.
+
+17
+00:00:59,460 --> 00:01:04,180
+Before we continue, if you are new to the
+channel and you find value or you learn something
+
+18
+00:01:04,180 --> 00:01:11,700
+new, please consider subscribing and leave
+us a like to show your support.
+
+19
+00:01:11,700 --> 00:01:17,610
+So, volume is a significant tool because it
+shows the conviction of buyers and sellers
+
+20
+00:01:17,610 --> 00:01:23,100
+and is one of the simplest methods for observing
+buying and selling activity at key levels
+
+21
+00:01:23,100 --> 00:01:24,329
+on a chart.
+
+22
+00:01:24,329 --> 00:01:29,159
+By itself, volume can provide conflicting
+messages for a specific setup.
+
+23
+00:01:29,159 --> 00:01:34,320
+But when you combine volume with price, things
+will become much clearer and simpler.
+
+24
+00:01:34,320 --> 00:01:38,100
+So, first, let’s define the basic principles
+of price action.
+
+25
+00:01:38,100 --> 00:01:44,160
+I know that the following techniques may sound
+extremely easy for some of you, but you will
+
+26
+00:01:44,160 --> 00:01:49,140
+be surprised at how often people will forget
+these simple facts of reading price action.
+
+27
+00:01:49,140 --> 00:01:53,049
+Now, when I analyze a chart, I like to assess
+the market phases.
+
+28
+00:01:53,049 --> 00:01:58,800
+There are only three ways the market can go:
+up down sideways.
+
+29
+00:01:58,800 --> 00:02:04,079
+The market is going up when price is making
+higher highs and higher lows
+
+30
+00:02:04,079 --> 00:02:10,009
+The market is going down when price is making
+lower highs and lower lows
+
+31
+00:02:10,009 --> 00:02:15,760
+The market is going sideways when price is
+not making higher highs and higher lows or
+
+32
+00:02:15,760 --> 00:02:20,790
+lower highs lower lows
+Like I said, very simple and not complicate
+
+33
+00:02:20,790 --> 00:02:22,170
+at all.
+
+34
+00:02:22,170 --> 00:02:29,170
+Now, a trend remains intact until there is
+a clear sign that the trend has reversed.
+
+35
+00:02:29,170 --> 00:02:34,670
+A reversal in the primary trend is signaled
+when the market is unable to create another
+
+36
+00:02:34,670 --> 00:02:38,430
+consecutive swing in the direction of the
+primary trend.
+
+37
+00:02:38,430 --> 00:02:45,790
+So, for an uptrend, a reversal would be signaled
+by an inability to reach a new high followed
+
+38
+00:02:45,790 --> 00:02:49,040
+by the inability to reach a higher low.
+
+39
+00:02:49,040 --> 00:02:54,819
+In this example, the market has gone from
+a period of consecutive higher highs and lows
+
+40
+00:02:54,819 --> 00:03:01,200
+to consecutive lower highs and lows, which
+are the components of a downward trend.
+
+41
+00:03:01,200 --> 00:03:07,150
+The reversal of a downward primary trend,
+as shown in this example, occurs when the
+
+42
+00:03:07,150 --> 00:03:11,090
+market no longer falls to lower lows and lower
+highs.
+
+43
+00:03:11,090 --> 00:03:16,970
+This happens when the market establishes a
+new swing that is higher than the previous
+
+44
+00:03:16,970 --> 00:03:23,099
+swing followed by a low that is higher than
+the previous low, which are the components
+
+45
+00:03:23,099 --> 00:03:27,099
+of an upward trend.
+
+46
+00:03:27,099 --> 00:03:33,019
+When the price will start to stall and not
+make a new swing high/low and will stay contained
+
+47
+00:03:33,019 --> 00:03:38,320
+within the last swing high and low that was
+made on the chart, this translates into a
+
+48
+00:03:38,320 --> 00:03:39,790
+trading range.
+
+49
+00:03:39,790 --> 00:03:46,030
+In this chart you can see that the price is
+making LH's & LL's all the way to the first
+
+50
+00:03:46,030 --> 00:03:49,970
+arrow which it would be the latest lowest
+low.
+
+51
+00:03:49,970 --> 00:03:53,110
+Price then moves higher to make a HH.
+
+52
+00:03:53,110 --> 00:03:58,860
+At this point on the chart, in real time,
+price needs to either start moving higher
+
+53
+00:03:58,860 --> 00:04:06,330
+past the last swing high making a new high
+or move lower past the last swing low making
+
+54
+00:04:06,330 --> 00:04:07,909
+a new low.
+
+55
+00:04:07,909 --> 00:04:13,640
+Until either of those things happens price
+will most likely remain range bound.
+
+56
+00:04:13,640 --> 00:04:20,510
+These are the main techniques of determining
+a trend using price action, but how about
+
+57
+00:04:20,510 --> 00:04:23,900
+increasing our chances by adding volume to
+the equation.
+
+58
+00:04:23,900 --> 00:04:28,010
+Like i said in the beginning of the video,
+adding volume to the price action will allow
+
+59
+00:04:28,010 --> 00:04:32,070
+us to be more precise when we enter or exit
+the market.
+
+60
+00:04:32,070 --> 00:04:37,840
+I’ve tested most of the volume indicators
+but the most efficient one for me is the on-balance-volume.
+
+61
+00:04:37,840 --> 00:04:42,270
+The on balance volume (OBV) relates volume
+to price change.
+
+62
+00:04:42,270 --> 00:04:47,700
+We’ll keep things simple, so all you need
+to know about the OBV is the fact that it
+
+63
+00:04:47,700 --> 00:04:54,780
+increases or decreases during each day in
+correlation on whether the price closes higher
+
+64
+00:04:54,780 --> 00:04:59,260
+or lower compared to the close during the
+previous day.
+
+65
+00:04:59,260 --> 00:05:06,420
+So, the main assumption is that on balance
+volume movements precede price changes.
+
+66
+00:05:06,420 --> 00:05:12,460
+As the volume is the main fuel behind the
+market, OBV is designed to anticipate when
+
+67
+00:05:12,460 --> 00:05:15,520
+major moves in the markets would occur.
+
+68
+00:05:15,520 --> 00:05:22,070
+There are 9 different patterns involving the
+price action and the OBV, 3 for each market
+
+69
+00:05:22,070 --> 00:05:25,380
+phase (upward, downward and range).
+
+70
+00:05:25,380 --> 00:05:30,500
+First, let’s analyze the patterns during
+an uptrend.
+
+71
+00:05:30,500 --> 00:05:35,870
+First pattern is when the price is making
+higher highs and higher lows and the OBV direction
+
+72
+00:05:35,870 --> 00:05:37,400
+is upward.
+
+73
+00:05:37,400 --> 00:05:40,370
+This indicates a clear and strong uptrend.
+
+74
+00:05:40,370 --> 00:05:45,560
+When you see this on your charts, it means
+that the price and volume are aligned and
+
+75
+00:05:45,560 --> 00:05:51,210
+that the buyers are in complete control of
+the market, as you can observe on this chart.
+
+76
+00:05:51,210 --> 00:05:58,820
+Here’s another example, the price is making
+consecutive higher highs and lows, and the
+
+77
+00:05:58,820 --> 00:06:04,630
+OBV is following the same pattern.
+
+78
+00:06:04,630 --> 00:06:10,750
+The second pattern involves the price making
+higher highs and higher lows but the OBV direction
+
+79
+00:06:10,750 --> 00:06:11,890
+is sideways.
+
+80
+00:06:11,890 --> 00:06:15,240
+This translates in a moderate uptrend.
+
+81
+00:06:15,240 --> 00:06:20,410
+So, if in the previous case, the price was
+still making consecutive highs and lows and
+
+82
+00:06:20,410 --> 00:06:25,850
+the OBV also increased, this time, the OBV
+runs sideways.
+
+83
+00:06:25,850 --> 00:06:30,970
+This isn’t necessarily bad, it means that
+the market direction is still up, but the
+
+84
+00:06:30,970 --> 00:06:36,750
+strength of the buyers diminished and more
+sellers entered the market.
+
+85
+00:06:36,750 --> 00:06:44,241
+Here is another example, with the market recording
+consecutive highs and lows, and the OBV in
+
+86
+00:06:44,241 --> 00:06:46,140
+sideways mode.
+
+87
+00:06:46,140 --> 00:06:54,870
+The price continued its upward direction,
+but at a slower pace.
+
+88
+00:06:54,870 --> 00:07:01,560
+The third pattern involves the price making
+higher highs and higher lows but the OBV direction
+
+89
+00:07:01,560 --> 00:07:03,370
+is downward.
+
+90
+00:07:03,370 --> 00:07:09,160
+When you see this pattern on your chart, this
+means that you are in a weak uptrend near
+
+91
+00:07:09,160 --> 00:07:10,160
+reversal.
+
+92
+00:07:10,160 --> 00:07:12,690
+Let’s analyze this chart.
+
+93
+00:07:12,690 --> 00:07:18,260
+We can clearly see that the price is making
+higher highs, but the OBV is making lower
+
+94
+00:07:18,260 --> 00:07:21,990
+highs, suggesting a possible reversal of the
+price.
+
+95
+00:07:21,990 --> 00:07:28,910
+Of course, during strong trends the price
+may continue to go higher, but when you see
+
+96
+00:07:28,910 --> 00:07:35,190
+the OBV in divergence with the price action,
+you should be careful adding long positions.
+
+97
+00:07:35,190 --> 00:07:41,100
+Now, let’s analyze the patterns during a
+downtrend.
+
+98
+00:07:41,100 --> 00:07:47,560
+First pattern is when the price is making
+lower lows and lower highs and the OBV direction
+
+99
+00:07:47,560 --> 00:07:49,080
+is downward.
+
+100
+00:07:49,080 --> 00:07:52,750
+This indicates a clear and strong downtrend.
+
+101
+00:07:52,750 --> 00:07:57,340
+When you see this on your charts, it means
+that the price and volume are aligned and
+
+102
+00:07:57,340 --> 00:08:02,030
+that the sellers are controlling the market,
+as you can see on this chart.
+
+103
+00:08:02,030 --> 00:08:10,690
+And here’s another example, the price is
+making consecutive lower lows and lower highs,
+
+104
+00:08:10,690 --> 00:08:15,280
+and the OBV is following the same pattern.
+
+105
+00:08:15,280 --> 00:08:21,690
+The second pattern involves the price making
+lower lows and lower highs but the OBV direction
+
+106
+00:08:21,690 --> 00:08:23,390
+is sideways.
+
+107
+00:08:23,390 --> 00:08:26,370
+This suggests in a moderate downtrend.
+
+108
+00:08:26,370 --> 00:08:31,940
+Like in the case of an uptrend, this isn’t
+necessarily the end of the downtrend, it means
+
+109
+00:08:31,940 --> 00:08:37,440
+that the market direction is still down, but
+the strength of the sellers decreased and
+
+110
+00:08:37,440 --> 00:08:42,080
+more buyers are entering the market.
+
+111
+00:08:42,080 --> 00:08:48,890
+The third pattern involves the price making
+lower lows and lower highs but the OBV direction
+
+112
+00:08:48,890 --> 00:08:49,940
+is upward.
+
+113
+00:08:49,940 --> 00:08:55,880
+This means that you are in a weak downtrend
+near reversal.
+
+114
+00:08:55,880 --> 00:09:01,450
+If you look at this chart, we can clearly
+see that the price is making lower lows, but
+
+115
+00:09:01,450 --> 00:09:07,330
+the OBV is making higher highs, indicating
+a possible reversal of the price.
+
+116
+00:09:07,330 --> 00:09:14,190
+So, when you see a rising OBV in divergence
+with the downward price action, you should
+
+117
+00:09:14,190 --> 00:09:20,680
+be careful adding short trades, because the
+buyers are adding more positions on the market.
+
+118
+00:09:20,680 --> 00:09:25,360
+Now, let’s analyze the pattern during a
+range.
+
+119
+00:09:25,360 --> 00:09:31,800
+When the price fails to make a new swing high/low,
+will stay contained within the last swing
+
+120
+00:09:31,800 --> 00:09:38,300
+high and low and the OBV is increasing, this
+could be a possible accumulation period.
+
+121
+00:09:38,300 --> 00:09:42,440
+The accumulation phase basically is a stage
+of consolidation.
+
+122
+00:09:42,440 --> 00:09:48,800
+There is no clear trend, and traders and institutions
+are slowly accumulating shares, but the market
+
+123
+00:09:48,800 --> 00:09:52,490
+has not made a breakout yet, as in this example.
+
+124
+00:09:52,490 --> 00:10:00,000
+You’ll see this kind of price action and
+volume during a market bottom.
+
+125
+00:10:00,000 --> 00:10:06,340
+When the price fails to make a new swing high/low,
+will stay contained within the last swing
+
+126
+00:10:06,340 --> 00:10:14,450
+high and low and the OBV is decreasing, this
+could translate into a period of distribution.
+
+127
+00:10:14,450 --> 00:10:21,090
+This phase is characterized by some periods
+of volatility, but primarily is a period of
+
+128
+00:10:21,090 --> 00:10:22,430
+consolidation.
+
+129
+00:10:22,430 --> 00:10:28,860
+The control of the market begins to shift
+from buyers to the sellers, as traders and
+
+130
+00:10:28,860 --> 00:10:31,960
+institutions begin to take their profits.
+
+131
+00:10:31,960 --> 00:10:39,830
+You’ll see this kind of price action and
+volume during a market top.
+
+132
+00:10:39,830 --> 00:10:46,680
+The third pattern involves a sideways price
+action combined with sideways OBV.
+
+133
+00:10:46,680 --> 00:10:53,460
+You should simply not take any trades during
+this period, because this is a period of uncertainty
+
+134
+00:10:53,460 --> 00:10:57,320
+with no clear direction from price or volume.
+
+135
+00:10:57,320 --> 00:11:04,300
+By now, I hope you are convinced about the
+power of combining price action with volume.
+
+136
+00:11:04,300 --> 00:11:09,150
+Volume is invaluable when confirming trends
+and if the volume isn’t present alongside
+
+137
+00:11:09,150 --> 00:11:13,940
+price action, then the resulting trading signal
+isn’t as reliable.
+
+138
+00:11:13,940 --> 00:11:19,720
+So, if you learned something new and found
+value, please consider subscribing to our
+
+139
+00:11:19,720 --> 00:11:24,190
+channel, share and like this video, as it
+would help us a lot in the future.
+
+140
+00:11:24,190 --> 00:11:25,630
+Until next time.
+

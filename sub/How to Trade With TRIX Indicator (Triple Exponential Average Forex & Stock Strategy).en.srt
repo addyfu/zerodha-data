@@ -1,0 +1,617 @@
+1
+00:00:00,859 --> 00:00:06,700
+The triple exponential average (TRIX) is a
+momentum indicator that shows the percentage
+
+2
+00:00:06,700 --> 00:00:10,820
+change in a triple exponentially smoothed
+moving average.
+
+3
+00:00:10,820 --> 00:00:17,050
+This indicator it is designed to filter out
+price movements that are considered insignificant
+
+4
+00:00:17,050 --> 00:00:18,370
+or unimportant.
+
+5
+00:00:18,370 --> 00:00:23,400
+TRIX is also implemented by traders to produce
+signals that are similar in nature to the
+
+6
+00:00:23,400 --> 00:00:26,130
+moving average convergence divergence (MACD).
+
+7
+00:00:26,130 --> 00:00:32,090
+Although many consider TRIX to be very similar
+to MACD, the primary difference between the
+
+8
+00:00:32,090 --> 00:00:37,690
+two is that TRIX outputs are smoother due
+to the triple smoothing of the exponential
+
+9
+00:00:37,690 --> 00:00:38,930
+moving average (EMA).
+
+10
+00:00:38,930 --> 00:00:44,220
+The TRIX indicator smooths price data and
+then looks at the daily (or whatever time
+
+11
+00:00:44,220 --> 00:00:49,250
+frame is being used) percentage movement of
+that smoothed price data.
+
+12
+00:00:49,250 --> 00:00:54,410
+This filters out much of the price noise that’s
+seen on the price chart.
+
+13
+00:00:54,410 --> 00:01:00,140
+TRIX will rise on sustained moves higher in
+price, and will fall on sustained moves lower
+
+14
+00:01:00,140 --> 00:01:01,540
+in price.
+
+15
+00:01:01,540 --> 00:01:06,960
+Since TRIX is smoothed it takes time to react
+to changes in price direction.
+
+16
+00:01:06,960 --> 00:01:12,290
+This can be beneficial, because not every
+little pullback means a trade should be exited
+
+17
+00:01:12,290 --> 00:01:15,850
+or that the trend is going to reverse.
+
+18
+00:01:15,850 --> 00:01:21,250
+How TRIX is calculated
+It is a four step process to calculate TRIX.
+
+19
+00:01:21,250 --> 00:01:27,600
+The indicator is “triple smoothed,” which
+means we are taking a moving average of a
+
+20
+00:01:27,600 --> 00:01:30,350
+moving average of a moving average.
+
+21
+00:01:30,350 --> 00:01:34,210
+15-period exponential moving average (EMA)
+using closing prices.
+
+22
+00:01:34,210 --> 00:01:40,240
+15-period EMA of result from step 1.
+
+23
+00:01:40,240 --> 00:01:44,740
+15-period EMA of result from step 2.
+
+24
+00:01:44,740 --> 00:01:47,810
+1-period percent change of step 3.
+
+25
+00:01:47,810 --> 00:01:52,700
+Step 4 is the TRIX, which will fluctuate from
+period to period.
+
+26
+00:01:52,700 --> 00:01:57,420
+A different number of periods could be used
+in the calculation.
+
+27
+00:01:57,420 --> 00:02:02,620
+Increasing the number of periods, for example
+to 40, will decrease the sensitivity of the
+
+28
+00:02:02,620 --> 00:02:08,090
+indicator and may be more useful to long-term
+traders.
+
+29
+00:02:08,090 --> 00:02:13,121
+Decreasing the number periods, for example
+to 10, will increase the sensitivity of the
+
+30
+00:02:13,121 --> 00:02:18,340
+indicator; if you are a short-term trader,
+you may prefer this.
+
+31
+00:02:18,340 --> 00:02:26,239
+Now, how to read the TRIX indicator
+0.0 (zero level) on the indicator is used
+
+32
+00:02:26,239 --> 00:02:27,680
+a baseline.
+
+33
+00:02:27,680 --> 00:02:33,739
+When the TRIX is below 0.0, and especially
+when it’s moving lower, the trend is considered
+
+34
+00:02:33,739 --> 00:02:35,660
+down.
+
+35
+00:02:35,660 --> 00:02:41,010
+When the TRIX is above 0.0, and especially
+when it’s moving higher, the trend is considered
+
+36
+00:02:41,010 --> 00:02:42,950
+up.
+
+37
+00:02:42,950 --> 00:02:49,810
+TRIX helps confirm trends, indicates when
+a trend reversal may be underway, and can
+
+38
+00:02:49,810 --> 00:02:53,489
+also be used to generate trade signals.
+
+39
+00:02:53,489 --> 00:02:58,160
+Divergences are another useful aspect of the
+indicator.
+
+40
+00:02:58,160 --> 00:03:00,000
+Bullish divergence is when the price makes
+a lower low but the TRIX doesn’t.
+
+41
+00:03:00,000 --> 00:03:05,350
+It indicates selling momentum is not as great
+as it was on prior price drop.
+
+42
+00:03:05,350 --> 00:03:09,720
+Weak selling momentum could lead to an eventual
+reversal.
+
+43
+00:03:09,720 --> 00:03:14,680
+Bearish divergence is when the price makes
+a higher high, but the TRIX doesn’t.
+
+44
+00:03:14,680 --> 00:03:21,790
+It signals weakening buying momentum, which
+could result in an eventual reversal.
+
+45
+00:03:21,790 --> 00:03:27,320
+As an additional step, a moving average (which
+is visible) can be applied to the TRIX indicator.
+
+46
+00:03:27,320 --> 00:03:30,560
+This is useful for providing crossover trade
+signals.
+
+47
+00:03:30,560 --> 00:03:36,530
+The moving average is typically of shorter
+length than the number of periods used in
+
+48
+00:03:36,530 --> 00:03:38,090
+the TRIX calculation.
+
+49
+00:03:38,090 --> 00:03:44,460
+For example, if using a 20-period TRIX, a
+7-period moving average could be applied to
+
+50
+00:03:44,460 --> 00:03:45,480
+it.
+
+51
+00:03:45,480 --> 00:03:51,409
+However, if you followed my channel, you already
+know that I’m not a fan of moving average
+
+52
+00:03:51,409 --> 00:03:52,599
+crossovers.
+
+53
+00:03:52,599 --> 00:03:58,420
+If you want to back test some crossovers between
+TRIX and another moving average, make sure
+
+54
+00:03:58,420 --> 00:04:03,660
+you use it on higher timeframes, with small
+positions.
+
+55
+00:04:03,660 --> 00:04:06,200
+So how to trade using TRIX oscillator.
+
+56
+00:04:06,200 --> 00:04:13,440
+A popular TRIX strategy is to watch for price
+reversal signals, such a trend line or support
+
+57
+00:04:13,440 --> 00:04:18,909
+or resistance breakout, which is confirmed
+by a TRIX zero line crossover.
+
+58
+00:04:18,909 --> 00:04:27,110
+For long trades, you buy when the TRIX crosses
+above 0.0 if there is some evidence that the
+
+59
+00:04:27,110 --> 00:04:33,319
+price has started to reverse higher (you need
+to search for trend line breakout, higher
+
+60
+00:04:33,319 --> 00:04:36,319
+swing high or higher swing low).
+
+61
+00:04:36,319 --> 00:04:44,469
+For short trades, you go short when the TRIX
+crosses below 0.0 if there is some evidence
+
+62
+00:04:44,469 --> 00:04:50,620
+that the price has started to reverse lower
+(so you need confirmation, namely a trend
+
+63
+00:04:50,620 --> 00:04:56,860
+line or support or resistance breakout, lower
+swing high or lower swing low).
+
+64
+00:04:56,860 --> 00:05:01,639
+This strategy is simple and is mainly useful
+for entries.
+
+65
+00:05:01,639 --> 00:05:07,169
+Unfortunately, the entry point has little
+regard for an appropriate place to put a stop
+
+66
+00:05:07,169 --> 00:05:08,240
+loss.
+
+67
+00:05:08,240 --> 00:05:15,009
+To control risk, a stop loss must be implemented,
+preferably just above a recent high if taking
+
+68
+00:05:15,009 --> 00:05:21,729
+a short position, or just below a recent low
+if taking a long position.
+
+69
+00:05:21,729 --> 00:05:28,839
+Waiting for the price to move back across
+the zero line to exit the trade can mean giving
+
+70
+00:05:28,839 --> 00:05:30,689
+back a lot of profit.
+
+71
+00:05:30,689 --> 00:05:39,460
+For this reason, you shouldn’t rely in TRIX
+indicator to offer an exit.
+
+72
+00:05:39,460 --> 00:06:11,610
+Here are some examples of TRIX 0-crossover
+signals, combined with price action breakouts.
+
+73
+00:06:11,610 --> 00:06:15,750
+Divergence signals are another great way to
+use the TRIX indicator.
+
+74
+00:06:15,750 --> 00:06:19,080
+This is my favorite approach for this indicator.
+
+75
+00:06:19,080 --> 00:06:24,849
+This occurs when the price action and indicator
+are not aligned which is a precursor of a
+
+76
+00:06:24,849 --> 00:06:26,879
+momentum shift.
+
+77
+00:06:26,879 --> 00:06:31,939
+If you pay attention at this example, you
+can see how the indicator puts in a retest
+
+78
+00:06:31,939 --> 00:06:35,719
+of its lows, but the indicator on the second
+test is above the zero line.
+
+79
+00:06:35,719 --> 00:06:41,089
+This ultimately leads to a massive run higher,
+where the indicator makes fresh new intraday
+
+80
+00:06:41,089 --> 00:06:44,860
+highs on each push higher.
+
+81
+00:06:44,860 --> 00:06:51,119
+In this example the second high had a lower
+reading on the indicator, which is a precursor
+
+82
+00:06:51,119 --> 00:06:53,809
+for a likely pullback.
+
+83
+00:06:53,809 --> 00:06:58,759
+As always, try to incorporate price action
+with this approach and don’t rely exclusively
+
+84
+00:06:58,759 --> 00:07:00,759
+in the indicator.
+
+85
+00:07:00,759 --> 00:07:05,069
+Price action first, confirmed by the indicator.
+
+86
+00:07:05,069 --> 00:07:10,119
+Now, bearish divergences do not work well
+in strong uptrends.
+
+87
+00:07:10,119 --> 00:07:16,800
+Even though momentum seems to be weakening
+because the indicator is producing lower highs,
+
+88
+00:07:16,800 --> 00:07:23,759
+momentum still has a bullish bias as long
+as the indicator is above its centerline.
+
+89
+00:07:23,759 --> 00:07:30,169
+Upward momentum may be less positive, but
+it is still positive as long as it stays above
+
+90
+00:07:30,169 --> 00:07:31,849
+0 baseline.
+
+91
+00:07:31,849 --> 00:07:35,639
+The rise is just not as fast as before.
+
+92
+00:07:35,639 --> 00:07:38,719
+The opposite is true for bullish divergences.
+
+93
+00:07:38,719 --> 00:07:42,099
+These do not work well in strong downtrends.
+
+94
+00:07:42,099 --> 00:07:47,989
+Even though the indicator shows less downside
+momentum with higher lows, downward momentum
+
+95
+00:07:47,989 --> 00:07:54,330
+is still stronger than upward momentum as
+long as the indicator remains below its centerline.
+
+96
+00:07:54,330 --> 00:08:00,050
+So, the trick is separating the bad signals
+from the good signals.
+
+97
+00:08:00,050 --> 00:08:05,270
+Which means you must read price action and
+identify the appropriate support and resistance
+
+98
+00:08:05,270 --> 00:08:09,659
+levels and patterns.
+
+99
+00:08:09,659 --> 00:08:34,620
+Here are some examples of valid TRIX divergences.
+
+100
+00:08:34,620 --> 00:08:37,589
+So what are the advantages of TRIX.
+
+101
+00:08:37,589 --> 00:08:43,579
+Two main advantages of TRIX over other trend-following
+indicators are its excellent filtration of
+
+102
+00:08:43,579 --> 00:08:49,630
+market noise and its tendency to be a leading
+than lagging indicator.
+
+103
+00:08:49,630 --> 00:08:55,079
+It filters out market noise using the triple
+exponential average calculation, thus eliminating
+
+104
+00:08:55,079 --> 00:09:00,740
+minor short-term cycles that indicate a change
+in market direction.
+
+105
+00:09:00,740 --> 00:09:05,930
+It has the ability to lead a market because
+it measures the difference between each bar's
+
+106
+00:09:05,930 --> 00:09:09,720
+"smoothed" version of the price information.
+
+107
+00:09:09,720 --> 00:09:15,750
+When interpreted as a leading indicator, TRIX
+is best used in conjunction with other market-timing
+
+108
+00:09:15,750 --> 00:09:21,300
+indicator - this minimizes false signals.
+
+109
+00:09:21,300 --> 00:09:27,500
+Regarding TRIX limitations, the TRIX doesn’t
+always reflect what is happening in the price.
+
+110
+00:09:27,500 --> 00:09:31,980
+The price may be trending higher while TRIX
+is trending lower.
+
+111
+00:09:31,980 --> 00:09:37,660
+We talked before about divergences which signals
+a potential end to the trend, but a trend
+
+112
+00:09:37,660 --> 00:09:42,790
+can persist for a very long time even on weakening
+momentum.
+
+113
+00:09:42,790 --> 00:09:49,089
+Using the TRIX in this situation can be deceiving,
+and can result in missing out on some great
+
+114
+00:09:49,089 --> 00:09:51,170
+upside potential in the price.
+
+115
+00:09:51,170 --> 00:09:57,490
+That’s why, when used alone, TRIX can offer
+false signals.
+
+116
+00:09:57,490 --> 00:10:00,589
+False crossovers are another common issue.
+
+117
+00:10:00,589 --> 00:10:06,589
+A false crossover is when the TRIX crosses
+above or below the zero line, only to snap
+
+118
+00:10:06,589 --> 00:10:11,269
+back the other way, resulting in a losing
+trade.
+
+119
+00:10:11,269 --> 00:10:15,290
+False signals can result in many losses within
+a short period of time.
+
+120
+00:10:15,290 --> 00:10:20,970
+That’s why I recommend to use longer-term
+trend analysis to help avoid some of these
+
+121
+00:10:20,970 --> 00:10:22,620
+false signals.
+
+122
+00:10:22,620 --> 00:10:30,610
+Ideally, only take buy signals when an overall
+uptrend is underway, and sell signals when
+
+123
+00:10:30,610 --> 00:10:33,820
+an overall downtrend is underway.
+
+124
+00:10:33,820 --> 00:10:37,720
+The indicator also has no regard for setting
+a stop loss.
+
+125
+00:10:37,720 --> 00:10:44,589
+A stop loss must be placed manually above
+a recent high (shorts) or below a recent low
+
+126
+00:10:44,589 --> 00:10:46,899
+(longs).
+
+127
+00:10:46,899 --> 00:10:52,050
+If there is no respective high or low near
+the entry point, maybe you should consider
+
+128
+00:10:52,050 --> 00:10:55,279
+avoiding the trade.
+
+129
+00:10:55,279 --> 00:10:59,570
+If you got any value from this and learned
+something new, don’t forget to subscribe,
+
+130
+00:10:59,570 --> 00:11:04,439
+click the bell icon to enable notifications
+for new uploads and leave us a like to show
+
+131
+00:11:04,439 --> 00:11:06,029
+your support.
+
+132
+00:11:06,029 --> 00:11:06,550
+Until next time.
+

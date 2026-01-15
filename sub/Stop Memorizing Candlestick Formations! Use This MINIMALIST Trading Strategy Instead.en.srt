@@ -1,0 +1,798 @@
+1
+00:00:00,919 --> 00:00:01,979
+Hello and welcome.
+
+2
+00:00:01,979 --> 00:00:06,730
+Today I’m sharing a simpler and easier way
+to analyze candlesticks and I will reveal
+
+3
+00:00:06,730 --> 00:00:10,870
+how to use confirmation to read market structure
+and trends.
+
+4
+00:00:10,870 --> 00:00:17,190
+So if you could, like, subscribe to the channel,
+and stick around for the full video.
+
+5
+00:00:17,190 --> 00:00:22,440
+What retail traders do is overcomplicate their
+candlestick trading and focus on things that
+
+6
+00:00:22,440 --> 00:00:23,460
+are not necessary.
+
+7
+00:00:23,460 --> 00:00:29,230
+For example, they start memorizing 40 or 50
+types of candlestick formations and when they
+
+8
+00:00:29,230 --> 00:00:34,730
+start analyzing a market, they have to consider
+50 variables before making a decision.
+
+9
+00:00:34,730 --> 00:00:38,199
+I’ve made the same mistake when I first
+started trading.
+
+10
+00:00:38,199 --> 00:00:42,839
+You know what happens when you overcomplicate
+your analysis: you start missing out on good
+
+11
+00:00:42,839 --> 00:00:48,109
+trade setups, you are letting your losing
+positions run, and in general you are overthinking
+
+12
+00:00:48,109 --> 00:00:49,149
+all the time.
+
+13
+00:00:49,149 --> 00:00:52,019
+So let’s simply candlestick trading.
+
+14
+00:00:52,019 --> 00:00:58,789
+Among the dozens of candlestick formations,
+there are six basic candlesticks types.
+
+15
+00:00:58,789 --> 00:01:00,049
+1.
+
+16
+00:01:00,049 --> 00:01:01,279
+Long candlesticks.
+
+17
+00:01:01,279 --> 00:01:07,320
+The long candlestick indicates a lot of momentum
+among buyers or sellers.
+
+18
+00:01:07,320 --> 00:01:11,939
+The lack of shadow indicates exceptional strength
+for one side or the other.
+
+19
+00:01:11,939 --> 00:01:16,950
+A long candlestick may have no shadows, or
+a small one at the top or at the bottom of
+
+20
+00:01:16,950 --> 00:01:18,170
+the real body.
+
+21
+00:01:18,170 --> 00:01:23,189
+The significance of the long candlestick relies
+completely on its location.
+
+22
+00:01:23,189 --> 00:01:28,750
+For example, a long green candlestick appearing
+within an uptrend could be a strong confirmation
+
+23
+00:01:28,750 --> 00:01:33,640
+signal, but if the same candlestick appears
+after a downtrend, it is more likely to act
+
+24
+00:01:33,640 --> 00:01:36,380
+as a potential reversal signal.
+
+25
+00:01:36,380 --> 00:01:39,399
+The same is true for long red candlesticks.
+
+26
+00:01:39,399 --> 00:01:44,590
+Within a downtrend, it tends to confirm it,
+and when it follows an uptrend, it is more
+
+27
+00:01:44,590 --> 00:01:47,540
+likely to signal a reversal.
+
+28
+00:01:47,540 --> 00:01:49,049
+2.
+
+29
+00:01:49,049 --> 00:01:52,079
+Short candlesticks.
+
+30
+00:01:52,079 --> 00:01:57,549
+A candlestick with average or relatively small
+range signals a general agreement between
+
+31
+00:01:57,549 --> 00:02:02,869
+buyers and sellers that the current price
+is reasonable, especially when short candlesticks
+
+32
+00:02:02,869 --> 00:02:06,460
+appear in a series of sideways-moving sessions.
+
+33
+00:02:06,460 --> 00:02:12,849
+However, when short candlesticks appear following
+a period of strong trend in either direction,
+
+34
+00:02:12,849 --> 00:02:17,909
+especially when long candlesticks have shown
+up, they can indicate a struggle between buyers
+
+35
+00:02:17,909 --> 00:02:24,060
+and sellers and a likely reversal in the trend,
+or a slowing down in price momentum.
+
+36
+00:02:24,060 --> 00:02:28,569
+The appearance of a single short candlestick
+is not meaningful by itself.
+
+37
+00:02:28,569 --> 00:02:33,540
+When a series of short candlesticks appear,
+it may show declining momentum in the current
+
+38
+00:02:33,540 --> 00:02:37,400
+trend or be a symptom of sideways movement.
+
+39
+00:02:37,400 --> 00:02:39,000
+3.
+
+40
+00:02:39,000 --> 00:02:42,210
+Doji candles.
+
+41
+00:02:42,210 --> 00:02:48,489
+The candle with no real body, or a very narrow-range
+—one in which open and close are the same—represents
+
+42
+00:02:48,489 --> 00:02:50,810
+a significant development.
+
+43
+00:02:50,810 --> 00:02:56,239
+The fact that price opens and closes at the
+same place has greater significance when the
+
+44
+00:02:56,239 --> 00:03:01,970
+doji also has exceptionally long upper or
+lower shadows, or both.
+
+45
+00:03:01,970 --> 00:03:08,860
+The longer shadows reveal an attempt by buyers
+or sellers to move price in the desired direction.
+
+46
+00:03:08,860 --> 00:03:15,360
+However, the effort failed when price retreat
+to close at the same price as the open.
+
+47
+00:03:15,360 --> 00:03:20,720
+The meaning of the failure on one side or
+the other, or on both sides, affects how the
+
+48
+00:03:20,720 --> 00:03:26,080
+current trend is viewed and what it means
+in terms of likely reversal.
+
+49
+00:03:26,080 --> 00:03:31,879
+For example, when a doji appears at the bottom
+of a downtrend and also has an exceptionally
+
+50
+00:03:31,879 --> 00:03:38,640
+long lower shadow, it shows that sellers tried
+to move price lower but couldn’t; this hints
+
+51
+00:03:38,640 --> 00:03:42,739
+at a likely reversal and a possible movement
+to the upside.
+
+52
+00:03:42,739 --> 00:03:48,409
+If a doji appears at the top of an uptrend
+and also has a very long upper shadow, the
+
+53
+00:03:48,409 --> 00:03:52,659
+same failed attempt is shown, this time among
+buyers.
+
+54
+00:03:52,659 --> 00:03:56,840
+This foreshadows a likely reversal and a possible
+down movement.
+
+55
+00:03:56,840 --> 00:04:02,580
+However, just as long candlesticks indicate
+exceptional strength, doji candles indicate
+
+56
+00:04:02,580 --> 00:04:09,860
+a loss of momentum and, based on the appearance
+of any shadows, provide strong reversal signals.
+
+57
+00:04:09,860 --> 00:04:13,219
+Confirmation is essential to these interpretations,
+but we’ll talk about confirmation later
+
+58
+00:04:13,219 --> 00:04:16,640
+in the video.
+
+59
+00:04:16,640 --> 00:04:19,730
+4.
+
+60
+00:04:19,730 --> 00:04:22,040
+Long upper and lower shadows
+One of the most interesting signals is an
+
+61
+00:04:22,040 --> 00:04:26,610
+exceptionally long shadow appearing on both
+sides of the real body.
+
+62
+00:04:26,610 --> 00:04:32,330
+When such shadows are found in both upper
+and lower ends in comparison to the real body,
+
+63
+00:04:32,330 --> 00:04:38,000
+it shows that neither buyers nor sellers had
+enough power to move price beyond the opening
+
+64
+00:04:38,000 --> 00:04:39,700
+and closing range.
+
+65
+00:04:39,700 --> 00:04:45,880
+This failure of both sides to control price
+movement could be a sign of a period of consolidation.
+
+66
+00:04:45,880 --> 00:04:51,330
+When a candlestick is up with long shadows
+on both sides and a current trend has been
+
+67
+00:04:51,330 --> 00:04:56,600
+underway, it can signal the end of that trend,
+even though both sides were unable to create
+
+68
+00:04:56,600 --> 00:04:57,980
+more movement.
+
+69
+00:04:57,980 --> 00:05:03,890
+In general, long shadows both above and below
+the real body may be better understood in
+
+70
+00:05:03,890 --> 00:05:06,070
+a multiple time frame analysis.
+
+71
+00:05:06,070 --> 00:05:07,150
+5.
+
+72
+00:05:07,150 --> 00:05:14,040
+Long upper shadow only
+When a candle contains an unusually long upper
+
+73
+00:05:14,040 --> 00:05:20,500
+shadow, it signals that buyers have lost momentum
+or failed in an effort to take momentum away
+
+74
+00:05:20,500 --> 00:05:21,660
+from sellers.
+
+75
+00:05:21,660 --> 00:05:27,660
+If this pattern unfolds at the top of an uptrend,
+it is a signal that the trend may be about
+
+76
+00:05:27,660 --> 00:05:28,780
+to end.
+
+77
+00:05:28,780 --> 00:05:34,460
+If it shows up within a downtrend, it may
+confirm or establish continuation; buyers
+
+78
+00:05:34,460 --> 00:05:37,190
+tried to reverse the downtrend, but failed.
+
+79
+00:05:37,190 --> 00:05:43,030
+A long upper shadow candle often appears at
+the top of an up move and is often the lowest
+
+80
+00:05:43,030 --> 00:05:46,970
+point in the downtrend and signals a reversal
+point.
+
+81
+00:05:46,970 --> 00:05:48,020
+6.
+
+82
+00:05:48,020 --> 00:05:52,220
+Long lower shadow only.
+
+83
+00:05:52,220 --> 00:05:57,380
+The appearance of a candlestick with a long
+lower shadow indicates a failure by sellers
+
+84
+00:05:57,380 --> 00:06:01,970
+to move price lower, which leads to the immediate
+conclusion that either the current downtrend
+
+85
+00:06:01,970 --> 00:06:05,600
+is ending, or an existing uptrend is continuing.
+
+86
+00:06:05,600 --> 00:06:10,440
+However, the pattern can have either a bullish
+or a bearish interpretation.
+
+87
+00:06:10,440 --> 00:06:15,280
+The interesting thing about this pattern is
+that it can be bullish or bearish, depending
+
+88
+00:06:15,280 --> 00:06:17,150
+on where it appears.
+
+89
+00:06:17,150 --> 00:06:22,080
+The real body may also be either green or
+red, without affecting the interpretation
+
+90
+00:06:22,080 --> 00:06:23,460
+of the candle.
+
+91
+00:06:23,460 --> 00:06:28,520
+A long lower shadow candle often appears at
+the bottom of a down move and is often the
+
+92
+00:06:28,520 --> 00:06:34,750
+highest point in the uptrend and signals the
+reversal point.
+
+93
+00:06:34,750 --> 00:06:37,840
+Confirmation
+
+94
+00:06:37,840 --> 00:06:40,630
+So now you have 6 candlestick types to analyze.
+
+95
+00:06:40,630 --> 00:06:47,970
+But with all forms of candlesticks, “significance”
+is a matter of market context, or market structure.
+
+96
+00:06:47,970 --> 00:06:52,710
+Also, candlestick patterns do not always have
+to mean anything of interest.
+
+97
+00:06:52,710 --> 00:06:58,520
+Some signals are really not signals at all;
+this is why confirmation is so important.
+
+98
+00:06:58,520 --> 00:07:00,990
+Confirmation is an important aspect of candlestick
+analysis.
+
+99
+00:07:00,990 --> 00:07:07,260
+It is the observation of separate and independent
+signals that verify what the candlestick pattern
+
+100
+00:07:07,260 --> 00:07:08,450
+predicts.
+
+101
+00:07:08,450 --> 00:07:14,830
+For example, a candlestick reversal may be
+confirmed by tests of resistance or support,
+
+102
+00:07:14,830 --> 00:07:19,230
+momentum changes, or even by moving average-based
+analysis.
+
+103
+00:07:19,230 --> 00:07:25,480
+Two or more candlestick signals may occur
+in proximity, providing very strong confirmation.
+
+104
+00:07:25,480 --> 00:07:30,580
+A test of resistance or support, for example,
+may be first made by a familiar technical
+
+105
+00:07:30,580 --> 00:07:36,640
+signal (such as double top or double bottom)
+and then confirmed by strong reversal candlestick
+
+106
+00:07:36,640 --> 00:07:38,080
+signals.
+
+107
+00:07:38,080 --> 00:07:43,700
+Or a candlestick reversal may first appear
+and then be confirmed by failed tests of resistance
+
+108
+00:07:43,700 --> 00:07:45,930
+or support.
+
+109
+00:07:45,930 --> 00:07:50,640
+You need to rely on confirmation to improve
+your timing of entry and exit.
+
+110
+00:07:50,640 --> 00:07:55,860
+The concept is necessary because no single
+candlestick pattern is always reliable.
+
+111
+00:07:55,860 --> 00:08:01,250
+Even confirmed signals may fail; however,
+with the use of confirmation, the ratio of
+
+112
+00:08:01,250 --> 00:08:06,900
+successful trade timing improves and failed
+signals are more easily spotted when a secondary
+
+113
+00:08:06,900 --> 00:08:12,610
+indicator contradicts rather than confirms
+what the initial signal indicates.
+
+114
+00:08:12,610 --> 00:08:17,390
+A confirming indicator may also consist of
+a second sign of the same type.
+
+115
+00:08:17,390 --> 00:08:23,460
+For example, an initial candlestick reversal
+may be followed by an equally strong but different
+
+116
+00:08:23,460 --> 00:08:26,620
+candlestick revealing the same potential.
+
+117
+00:08:26,620 --> 00:08:32,430
+When this occurs, the reliability of the dual
+signal is much stronger.
+
+118
+00:08:32,430 --> 00:08:36,959
+So the initial goal of confirmation is to
+improve timing for trades.
+
+119
+00:08:36,959 --> 00:08:42,430
+Another value is found in how a confirming
+indicator identifies and confirms a bigger
+
+120
+00:08:42,430 --> 00:08:43,430
+trend.
+
+121
+00:08:43,430 --> 00:08:48,730
+A price trend may last only a few sessions,
+or extend for weeks or even months.
+
+122
+00:08:48,730 --> 00:08:55,209
+In my own trading, I rely on confirmation
+from moving averages, volume trends, and divergences.
+
+123
+00:08:55,209 --> 00:09:00,180
+These are valuable in identifying the likelihood
+of a trend continuing or ending.
+
+124
+00:09:00,180 --> 00:09:05,800
+In this respect, confirmation not only affects
+the turning point in price, but it also can
+
+125
+00:09:05,800 --> 00:09:11,360
+anticipate an overall weakening in momentum
+or development of a period of consolidation
+
+126
+00:09:11,360 --> 00:09:16,540
+after a strong or rapid trend has run its
+course.
+
+127
+00:09:16,540 --> 00:09:21,180
+Confirmation is also valuable when used to
+time entry and exit within the context of
+
+128
+00:09:21,180 --> 00:09:24,199
+existing resistance and support levels.
+
+129
+00:09:24,199 --> 00:09:29,490
+For example, there’s a tendency for price
+to remain within the trading range until a
+
+130
+00:09:29,490 --> 00:09:32,110
+signal changes current conditions.
+
+131
+00:09:32,110 --> 00:09:37,310
+So a failed attempt to break out of the trading
+range is likely to lead to a price movement
+
+132
+00:09:37,310 --> 00:09:39,110
+in the opposite direction.
+
+133
+00:09:39,110 --> 00:09:44,670
+When this occurs and separate confirmation
+is found in candlestick formations, the reversal
+
+134
+00:09:44,670 --> 00:09:48,290
+has a better than average likelihood of taking
+place.
+
+135
+00:09:48,290 --> 00:09:53,420
+If price does break through resistance or
+support, you face an immediate decision point.
+
+136
+00:09:53,420 --> 00:09:57,720
+Will the trend continue and establish a new
+trading range?
+
+137
+00:09:57,720 --> 00:10:03,180
+Or will the breakout fail and price will return
+to previously set levels?
+
+138
+00:10:03,180 --> 00:10:08,760
+The uncertainty of the outcome of a breakout
+can be clarified with confirmation, through
+
+139
+00:10:08,760 --> 00:10:12,880
+candlestick formations that follow the breakout
+itself.
+
+140
+00:10:12,880 --> 00:10:17,910
+The short-term changes in price direction
+and strength may further be confirmed and
+
+141
+00:10:17,910 --> 00:10:22,509
+tracked with the use of trend lines and other
+visual tools.
+
+142
+00:10:22,509 --> 00:10:28,029
+Following a trend line helps identify when
+a short-term trend is likely to reverse, and
+
+143
+00:10:28,029 --> 00:10:34,050
+if confirmed with candlestick reversal signals,
+is a reliable method for tracking and confirming
+
+144
+00:10:34,050 --> 00:10:35,759
+price and momentum.
+
+145
+00:10:35,759 --> 00:10:41,499
+An uptrend is marked with a trend line drawn
+under the price levels from a low point, and
+
+146
+00:10:41,499 --> 00:10:47,230
+it continues until it runs into price that
+has reached a high and reversed.
+
+147
+00:10:47,230 --> 00:10:52,379
+A downtrend is marked with a trend line drawn
+above the price levels starting from a high
+
+148
+00:10:52,379 --> 00:10:58,960
+point and continuing downward until price
+reaches its low and then turns.
+
+149
+00:10:58,960 --> 00:11:03,579
+Confirmation comes in many forms and is applied
+to short-term or intermediate trends, trading
+
+150
+00:11:03,579 --> 00:11:11,050
+ranges, and momentum.
+
+151
+00:11:11,050 --> 00:11:16,139
+Just as important as having confirmation is
+the opposite theory of contradiction.
+
+152
+00:11:16,139 --> 00:11:20,720
+When two reliable candlestick signals do not
+agree, the significance is uncertain.
+
+153
+00:11:20,720 --> 00:11:22,639
+You know the situation.
+
+154
+00:11:22,639 --> 00:11:27,920
+You get a long lower shadow candlestick after
+a downtrend, you wait for confirmation, thinking
+
+155
+00:11:27,920 --> 00:11:33,880
+to go long, and then price forms a long upper
+shadow candle, signaling a possible short
+
+156
+00:11:33,880 --> 00:11:34,880
+position.
+
+157
+00:11:34,880 --> 00:11:37,960
+2 candlestick formation that contradict.
+
+158
+00:11:37,960 --> 00:11:41,450
+Most traders would gamble on this scenario,
+would pick a side.
+
+159
+00:11:41,450 --> 00:11:45,900
+In this instance, you have to choose one of
+several courses of action:
+
+160
+00:11:45,900 --> 00:11:46,900
+1.
+
+161
+00:11:46,900 --> 00:11:49,620
+To seek confirmation from a new set of candlesticks.
+
+162
+00:11:49,620 --> 00:11:50,620
+2.
+
+163
+00:11:50,620 --> 00:11:53,279
+Take no action until the market direction
+is clarified.
+
+164
+00:11:53,279 --> 00:11:54,279
+3.
+
+165
+00:11:54,279 --> 00:11:57,759
+To analyze volume and look for possible divergences
+3.
+
+166
+00:11:57,759 --> 00:12:01,459
+Or to expand the analysis for more time.
+
+167
+00:12:01,459 --> 00:12:05,129
+If you found value and learned something new,
+leave us a like.
+
+168
+00:12:05,129 --> 00:12:08,709
+This way we’ll know if you'd like to see
+more videos like this one.
+
+169
+00:12:08,709 --> 00:12:13,740
+And check out our academy program if you want
+to further level up your trading.
+
+170
+00:12:13,740 --> 00:12:14,189
+Until next time.
+

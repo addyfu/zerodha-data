@@ -1,0 +1,820 @@
+1
+00:00:01,220 --> 00:00:05,720
+Heiken Ashi charts are becoming more and more
+popular among traders and there are many trading
+
+2
+00:00:05,720 --> 00:00:08,340
+strategies build around this type of charts.
+
+3
+00:00:08,340 --> 00:00:12,700
+Heikin Ashi is a modified candlestick charting
+technique that rearranges how the price is
+
+4
+00:00:12,700 --> 00:00:13,700
+displayed.
+
+5
+00:00:13,700 --> 00:00:18,060
+Basically, Heikin Ashi charts make candlestick
+charts more readable for traders who want
+
+6
+00:00:18,060 --> 00:00:22,800
+to know when to stay in a trade and ride a
+strong trend, and when to get out when the
+
+7
+00:00:22,800 --> 00:00:24,050
+trend weakens.
+
+8
+00:00:24,050 --> 00:00:28,359
+Although Heikin ashi has many advantages,
+a lot of traders prefer to analyze classic
+
+9
+00:00:28,359 --> 00:00:29,869
+candlestick charts.
+
+10
+00:00:29,869 --> 00:00:34,720
+But what if you could combine both charts,
+in order to have the classic candles and still
+
+11
+00:00:34,720 --> 00:00:36,950
+be able to plot Heikin-ashi candles?
+
+12
+00:00:36,950 --> 00:00:40,160
+We can do that by using smoothed Heiken Ashi
+candles.
+
+13
+00:00:40,160 --> 00:00:44,630
+In today’s video, we’ll take a look at
+the Heiken Ashi smoothed indicator and I’ll
+
+14
+00:00:44,630 --> 00:00:50,090
+show you how you can apply this tool and configure
+it to your preference.
+
+15
+00:00:50,090 --> 00:00:54,080
+Before going further, let’s refresh our
+memory with how the Heiken Ashi chart plots
+
+16
+00:00:54,080 --> 00:01:00,070
+prices and how traders use this type of chart
+when analyzing the price of an asset.
+
+17
+00:01:00,070 --> 00:01:04,290
+Candles on traditional Japanese candlestick
+charts frequently change their color, which
+
+18
+00:01:04,290 --> 00:01:06,370
+can make them difficult to read.
+
+19
+00:01:06,370 --> 00:01:11,650
+On the other hand, candles on the Heikin Ashi
+chart display more consecutive colored candles,
+
+20
+00:01:11,650 --> 00:01:14,930
+helping traders to identify past price movements
+more easily.
+
+21
+00:01:14,930 --> 00:01:20,000
+You’ll notice that Heikin Ashi charts have
+a tendency for its candles to stay green during
+
+22
+00:01:20,000 --> 00:01:23,140
+an uptrend and stay red during a downtrend.
+
+23
+00:01:23,140 --> 00:01:28,140
+This is in contrast to traditional Japanese
+candlesticks that alternate color even if
+
+24
+00:01:28,140 --> 00:01:31,260
+the price is moving strongly in one direction.
+
+25
+00:01:31,260 --> 00:01:36,320
+Heikin Ashi chart is much smoother looking
+in terms of price action.
+
+26
+00:01:36,320 --> 00:01:40,909
+This is why many traders prefer to use the
+Heikin Ashi candles since it reduces the noise
+
+27
+00:01:40,909 --> 00:01:44,920
+on the chart, and allows them to analyze trends
+more clearly.
+
+28
+00:01:44,920 --> 00:01:49,480
+What makes Heikin Ashi different from a traditional
+Japanese candlestick chart is how the price
+
+29
+00:01:49,480 --> 00:01:52,670
+is displayed in terms of the open and the
+close.
+
+30
+00:01:52,670 --> 00:01:57,170
+If you look closely at the Heikin Ashi chart,
+you’ll notice that each of the Heikin Ashi
+
+31
+00:01:57,170 --> 00:02:02,070
+candlesticks start from the MIDDLE of the
+candlestick before it, and not from the level
+
+32
+00:02:02,070 --> 00:02:06,170
+where the previous candlestick had closed.
+
+33
+00:02:06,170 --> 00:02:12,319
+While Japanese candlesticks require many definitions
+and flexible rules for most patterns, a heikin-ashi
+
+34
+00:02:12,319 --> 00:02:14,790
+chart works with only the five simple rules.
+
+35
+00:02:14,790 --> 00:02:15,790
+1.
+
+36
+00:02:15,790 --> 00:02:21,170
+A sequence of green bodies identifies an uptrend,
+while a sequence of red bodies identifies
+
+37
+00:02:21,170 --> 00:02:22,170
+a downtrend.
+
+38
+00:02:22,170 --> 00:02:23,170
+2.
+
+39
+00:02:23,170 --> 00:02:27,730
+The uptrend gets stronger with longer green
+bodies and no lower shadows.
+
+40
+00:02:27,730 --> 00:02:32,280
+The downtrend gets stronger with longer red
+bodies and no upper shadows.
+
+41
+00:02:32,280 --> 00:02:33,280
+3.
+
+42
+00:02:33,280 --> 00:02:38,150
+The trend gets weaker with smaller bodies
+and with the emergence of lower and upper
+
+43
+00:02:38,150 --> 00:02:39,150
+shadows.
+
+44
+00:02:39,150 --> 00:02:40,150
+4.
+
+45
+00:02:40,150 --> 00:02:44,810
+A consolidation is revealed when you spot
+a series of smaller bodies with both upper
+
+46
+00:02:44,810 --> 00:02:46,040
+and lower shadows.
+
+47
+00:02:46,040 --> 00:02:47,090
+5.
+
+48
+00:02:47,090 --> 00:02:52,520
+A trend reversal could follow when you spot
+multiple candles with small bodies and long
+
+49
+00:02:52,520 --> 00:02:57,580
+upper and lower shadows (doji-like candle)
+or a sudden color change.
+
+50
+00:02:57,580 --> 00:03:02,440
+Just like any other tool used for technical
+analysis, Heikin Ashi is useful but it does
+
+51
+00:03:02,440 --> 00:03:05,250
+have some weaknesses or limitations.
+
+52
+00:03:05,250 --> 00:03:09,730
+While the traditional Japanese candlesticks
+are derived from the actual prices, Heikin
+
+53
+00:03:09,730 --> 00:03:11,569
+Ashi candlesticks are NOT.
+
+54
+00:03:11,569 --> 00:03:16,010
+Because the Heikin Ashi candlesticks are averaged,
+they do NOT show the exact open and close
+
+55
+00:03:16,010 --> 00:03:18,440
+prices for a particular time period.
+
+56
+00:03:18,440 --> 00:03:22,200
+Heikin Ashi charts obscure actual price information.
+
+57
+00:03:22,200 --> 00:03:26,270
+The closing price is considered important
+for many traders, but the actual closing price
+
+58
+00:03:26,270 --> 00:03:28,860
+is NOT displayed on a Heikin Ashi candlestick.
+
+59
+00:03:28,860 --> 00:03:33,360
+But we can fix this problem by using the smoothed
+Heiken Ashi.
+
+60
+00:03:33,360 --> 00:03:39,820
+Smoothed Heiken Ashi is a modified version
+of the regular Heiken Ashi candlestick charts.
+
+61
+00:03:39,820 --> 00:03:44,440
+While you can typically use the regular Heiken
+Ashi chart all by itself, the Heiken Ashi
+
+62
+00:03:44,440 --> 00:03:49,459
+smoothed indicator is used as an overlay on
+the regular candlestick chart.
+
+63
+00:03:49,459 --> 00:03:53,319
+If you have a Tradingview account, this is
+the exact version I use.
+
+64
+00:03:53,319 --> 00:03:57,709
+As you can see, you’ll get a better perspective
+of the markets.
+
+65
+00:03:57,709 --> 00:04:02,270
+You can see the regular candlestick chart
+alongside the Heiken Ashi smoothed indicator.
+
+66
+00:04:02,270 --> 00:04:06,659
+This is not possible if you use the regular
+Heiken Ashi chart.
+
+67
+00:04:06,659 --> 00:04:12,190
+The main difference between the regular Heiken
+Ashi and the Heiken Ashi smoothed indicator
+
+68
+00:04:12,190 --> 00:04:16,500
+is that the second one plots the Heiken Ashi
+candlesticks as a moving average.
+
+69
+00:04:16,500 --> 00:04:20,530
+The general rule of thumb is that the markets
+are in an uptrend when the smoothed Heiken
+
+70
+00:04:20,530 --> 00:04:25,460
+Ashi indicator is bullish or green, and the
+markets are in a downtrend when the smoothed
+
+71
+00:04:25,460 --> 00:04:28,550
+Heiken Ashi indicator is bearish or red.
+
+72
+00:04:28,550 --> 00:04:32,120
+Smoothed Heiken Ashi is a trend following
+indicator.
+
+73
+00:04:32,120 --> 00:04:34,850
+In uptrends, price tends to stay above it.
+
+74
+00:04:34,850 --> 00:04:38,889
+In downtrends, price typically stays below
+the Smoothed Heiken Ashi.
+
+75
+00:04:38,889 --> 00:04:44,440
+The first possibility of a change in trend
+is when price crosses through the indicator.
+
+76
+00:04:44,440 --> 00:04:49,930
+Downtrends start to reverse when prices cross
+back up and through the smoothed HA, while
+
+77
+00:04:49,930 --> 00:04:56,229
+uptrends show signs of reversal when price
+falls through the smoothed HA, below it.
+
+78
+00:04:56,229 --> 00:05:00,440
+The settings for the smoothed Heiken Ashi
+indicator are very simple.
+
+79
+00:05:00,440 --> 00:05:04,080
+You can set the values of the two moving averages
+that are used.
+
+80
+00:05:04,080 --> 00:05:08,610
+Depending on your trading style, scalping,
+day trading or swing trading, you can change
+
+81
+00:05:08,610 --> 00:05:11,310
+the value of the indicator to suit your trading
+needs.
+
+82
+00:05:11,310 --> 00:05:17,650
+Here are several settings you could try:
+First one: 5 period Smoothed Heiken Ashi
+
+83
+00:05:17,650 --> 00:05:23,520
+This is suited to scalping techiques, tracking
+the strong momentum and the trend in the short
+
+84
+00:05:23,520 --> 00:05:24,520
+term.
+
+85
+00:05:24,520 --> 00:05:28,370
+The 5 period Smoothed Heiken Ashi acts as
+support in the strongest trends.
+
+86
+00:05:28,370 --> 00:05:32,990
+This line is best used in low volatility trends
+with strong momentum.
+
+87
+00:05:32,990 --> 00:05:36,009
+You can also use it as a trailing stop.
+
+88
+00:05:36,009 --> 00:05:41,410
+10 period Smoothed Heiken Ashi, which is the
+default value, is a great method to keep you
+
+89
+00:05:41,410 --> 00:05:43,590
+on the right side of the major market trend.
+
+90
+00:05:43,590 --> 00:05:49,380
+It is usually the first line to be lost before
+any real trouble begins, meaning any reversals
+
+91
+00:05:49,380 --> 00:05:50,960
+in current trend.
+
+92
+00:05:50,960 --> 00:05:56,330
+From my backtesting, it can be used as a standalone
+signal in some stocks and markets that tend
+
+93
+00:05:56,330 --> 00:06:00,490
+to trend strongly in one direction for long
+periods.
+
+94
+00:06:00,490 --> 00:06:05,050
+20 period Smoothed Heiken Ashi acts like an
+intermediate term moving average.
+
+95
+00:06:05,050 --> 00:06:09,090
+It is generally the last line of support in
+a volatile uptrend.
+
+96
+00:06:09,090 --> 00:06:13,680
+To me, it is the reversion to the mean in
+a market when it finally pulls back after
+
+97
+00:06:13,680 --> 00:06:15,520
+an extended trend.
+
+98
+00:06:15,520 --> 00:06:20,789
+50 period Smoothed Heiken Ashi is the line
+that strong leading stocks typically pull
+
+99
+00:06:20,789 --> 00:06:21,800
+back to.
+
+100
+00:06:21,800 --> 00:06:25,580
+This is usually the main support level for
+strong uptrends.
+
+101
+00:06:25,580 --> 00:06:29,490
+Most bull markets and uptrends will usually
+pull back to this level.
+
+102
+00:06:29,490 --> 00:06:35,360
+From my backtesting, the 50 period Smoothed
+Heiken Ashi is generally a great “Buy the
+
+103
+00:06:35,360 --> 00:06:36,830
+dip” level.
+
+104
+00:06:36,830 --> 00:06:41,630
+If you enjoy swing trading or position trading,
+you could use the 100 period Smoothed Heiken
+
+105
+00:06:41,630 --> 00:06:44,389
+Ashi, which indicate long term direction.
+
+106
+00:06:44,389 --> 00:06:47,210
+This is the deeper pullback level in bull
+markets and uptrends.
+
+107
+00:06:47,210 --> 00:06:51,740
+It usually presents a great risk/reward ratio
+in bull markets.
+
+108
+00:06:51,740 --> 00:06:57,410
+Now, how to Use Smoothed Heiken Ashi
+There are 3 main ways in which you can use
+
+109
+00:06:57,410 --> 00:06:59,900
+the Smoothed Heiken Ashi:
+• To determine the direction of the trend
+
+110
+00:06:59,900 --> 00:07:05,370
+• To determine support and resistance levels
+• Using multiple Smoothed Heiken Ashi for
+
+111
+00:07:05,370 --> 00:07:07,400
+long- and short-term market trends
+
+112
+00:07:07,400 --> 00:07:09,259
+1.
+
+113
+00:07:09,259 --> 00:07:12,009
+First approach is to determine the direction
+of the trend
+
+114
+00:07:12,009 --> 00:07:17,009
+When prices are trending higher, the Smoothed
+Heiken Ashi will adjust by also moving higher
+
+115
+00:07:17,009 --> 00:07:19,110
+to reflect the increasing prices.
+
+116
+00:07:19,110 --> 00:07:23,850
+This could be explained as a bullish signal,
+where traders may prefer buying opportunities.
+
+117
+00:07:23,850 --> 00:07:27,889
+The opposite would be true if the price was
+consistently trading below the Smoothed Heiken
+
+118
+00:07:27,889 --> 00:07:32,990
+Ashi indicator, where traders would then prefer
+selling opportunities due to the market signaling
+
+119
+00:07:32,990 --> 00:07:34,830
+a downward trend.
+
+120
+00:07:34,830 --> 00:07:35,830
+2.
+
+121
+00:07:35,830 --> 00:07:39,850
+Second approach is using Smoothed Heiken Ashi
+for support and resistance levels
+
+122
+00:07:39,850 --> 00:07:44,430
+If you see the Smoothed Heiken Ashi trending
+higher, you could enter the market on a retest
+
+123
+00:07:44,430 --> 00:07:46,300
+of the Smoothed Heiken Ashi.
+
+124
+00:07:46,300 --> 00:07:50,669
+Likewise, when you are long in an uptrend
+market, then the Smoothed Heiken Ashi can
+
+125
+00:07:50,669 --> 00:07:52,610
+be used as a stop loss level.
+
+126
+00:07:52,610 --> 00:07:55,610
+The opposite is true for down trends.
+
+127
+00:07:55,610 --> 00:07:59,960
+In this chart you can see several examples
+of how the Smoothed Heiken Ashi can be used
+
+128
+00:07:59,960 --> 00:08:02,810
+as powerful level of support or resistance.
+
+129
+00:08:02,810 --> 00:08:03,810
+3.
+
+130
+00:08:03,810 --> 00:08:08,180
+Third approach is making use of multiple Smoothed
+Heiken Ashi
+
+131
+00:08:08,180 --> 00:08:13,780
+This allows traders to simultaneously assess
+the short and long-term trends in the market.
+
+132
+00:08:13,780 --> 00:08:18,509
+As price crosses above or below these plotted
+levels on the graph it can be explained as
+
+133
+00:08:18,509 --> 00:08:22,190
+either strength or weakness for the asset
+you are trading.
+
+134
+00:08:22,190 --> 00:08:27,460
+This method of using more than one Smoothed
+Heiken Ashi can be extremely useful in trending
+
+135
+00:08:27,460 --> 00:08:28,460
+markets.
+
+136
+00:08:28,460 --> 00:08:34,699
+Now, very important: when making use of multiple
+Smoothed Heiken Ashi, you might have the idea
+
+137
+00:08:34,699 --> 00:08:36,819
+to trade when the lines will cross.
+
+138
+00:08:36,819 --> 00:08:42,099
+A bullish cross is identified when the short-term
+Smoothed Heiken Ashi crosses above the long-term
+
+139
+00:08:42,099 --> 00:08:46,489
+Smoothed Heiken Ashi, while a bearish cross
+represents the short-term Smoothed Heiken
+
+140
+00:08:46,489 --> 00:08:49,790
+Ashi crossing below the long-term Smoothed
+Heiken Ashi.
+
+141
+00:08:49,790 --> 00:08:52,189
+Don’t use this strategy.
+
+142
+00:08:52,189 --> 00:08:56,619
+Heiken Ashi is considered a lagging indicator
+that not only dismisses useless signals to
+
+143
+00:08:56,619 --> 00:09:00,980
+open the trade but also provide you with a
+late signal for closing the trade.
+
+144
+00:09:00,980 --> 00:09:06,369
+Attempting to build a crossover strategy with
+2 Smoothed Heikin Ashi lines is very bad idea.
+
+145
+00:09:06,369 --> 00:09:10,600
+If you don’t want to see the market slowly
+destroying your profit as the trend you are
+
+146
+00:09:10,600 --> 00:09:15,689
+trying to trade has already changed, I advise
+you to use multiple Smoothed Heikin Ashi lines
+
+147
+00:09:15,689 --> 00:09:21,529
+only for dynamic support and resistance levels,
+and not for crossover signals.
+
+148
+00:09:21,529 --> 00:09:25,130
+Every Heikin Ashi trading system should include
+price action rules:
+
+149
+00:09:25,130 --> 00:09:29,420
+• So look for Support and Resistance levels
+• look for chart patterns for potential
+
+150
+00:09:29,420 --> 00:09:30,480
+breakouts.
+
+151
+00:09:30,480 --> 00:09:34,529
+• And try to enter into emerging trends
+and exit on slowing trends.
+
+152
+00:09:34,529 --> 00:09:39,819
+Also, as you are able to see the classic candlesticks
+you can combine classic price action with
+
+153
+00:09:39,819 --> 00:09:41,379
+Smoothed Heikin Ashi.
+
+154
+00:09:41,379 --> 00:09:46,619
+You will able to identify a pin bar, an engulfing
+candle or a reversal pattern and at the same
+
+155
+00:09:46,619 --> 00:09:49,480
+time, knowing what Heikin Ashi are indicating.
+
+156
+00:09:49,480 --> 00:09:55,509
+With classic candlesticks, an engulfing candlestick
+pattern at a support level can be a nice starting
+
+157
+00:09:55,509 --> 00:09:59,119
+signal, a decent entry into a beginning upward
+movement.
+
+158
+00:09:59,119 --> 00:10:02,269
+Nevertheless, there is room for misinterpretation.
+
+159
+00:10:02,269 --> 00:10:07,399
+With additional smoothed Heikin Ashi candles
+on the same chart, you can mitigate this danger
+
+160
+00:10:07,399 --> 00:10:13,660
+of misinterpretation and can help you to judge
+a trend more clearly in combination with classic
+
+161
+00:10:13,660 --> 00:10:14,660
+candlesticks.
+
+162
+00:10:14,660 --> 00:10:19,499
+That’s why it’s better to use both candle
+types on the same chart.
+
+163
+00:10:19,499 --> 00:10:23,819
+Despite the simplicity of the Heikin Ashi
+approach, you must be aware that Heikin Ashi
+
+164
+00:10:23,819 --> 00:10:27,739
+candles, unlike classic candlesticks, are
+in fact indicators.
+
+165
+00:10:27,739 --> 00:10:31,860
+This is due to the construction of Heikin
+Ashi candles, in which the current and previous
+
+166
+00:10:31,860 --> 00:10:33,550
+periods are always considered.
+
+167
+00:10:33,550 --> 00:10:37,259
+So the Heikin Ashi Candles are not the ultimate
+trading instrument.
+
+168
+00:10:37,259 --> 00:10:41,819
+That’s why the combination between classic
+candlesticks and Heikin Ashi represents a
+
+169
+00:10:41,819 --> 00:10:44,110
+better and safer approach to trade.
+
+170
+00:10:44,110 --> 00:10:49,160
+You analyze the markets on the classic candlestick
+chart, and you apply the Smoothed Heikin Ashi
+
+171
+00:10:49,160 --> 00:10:52,769
+to filter against false signals and background
+noises.
+
+172
+00:10:52,769 --> 00:10:56,569
+As always, if you learned something new and
+found value, leave us a like to show your
+
+173
+00:10:56,569 --> 00:11:01,170
+support, subscribe to our channel and hit
+the bell icon to stay notified when we upload
+
+174
+00:11:01,170 --> 00:11:02,309
+new videos.
+
+175
+00:11:02,309 --> 00:11:02,779
+Until next time.
+

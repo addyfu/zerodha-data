@@ -1,0 +1,693 @@
+1
+00:00:01,110 --> 00:00:05,270
+Financial markets have price movements that
+repeat over and over again.
+
+2
+00:00:05,270 --> 00:00:07,930
+These movements are called waves.
+
+3
+00:00:07,930 --> 00:00:12,959
+Elliott Wave Theory is a comprehensive and
+complex topic, taking practitioners months
+
+4
+00:00:12,959 --> 00:00:15,119
+and even years to master.
+
+5
+00:00:15,119 --> 00:00:20,320
+Despite its complexity, there are some elements
+of Elliott Wave that can be incorporated and
+
+6
+00:00:20,320 --> 00:00:22,030
+may help improve your trade timing.
+
+7
+00:00:22,030 --> 00:00:26,760
+So I’ll try to keep this very simple and
+I will break down the Wave Theory into small
+
+8
+00:00:26,760 --> 00:00:29,430
+pieces.
+
+9
+00:00:29,430 --> 00:00:35,780
+First concept: Impulsive and Corrective Waves
+Ralph Nelson Elliott, the trader who developed
+
+10
+00:00:35,780 --> 00:00:41,160
+the Elliott Wave Theory, proposed that trends
+in financial prices resulted from investors'
+
+11
+00:00:41,160 --> 00:00:42,610
+predominant psychology.
+
+12
+00:00:42,610 --> 00:00:48,830
+He found that swings in mass psychology always
+showed up in the same recurring fractal patterns,
+
+13
+00:00:48,830 --> 00:00:50,110
+or "waves".
+
+14
+00:00:50,110 --> 00:00:55,550
+Elliott discovered that stock index price
+patterns were structured in the same way.
+
+15
+00:00:55,550 --> 00:01:01,610
+He then began to look at how these repeating
+patterns could be used as predictive indicators
+
+16
+00:01:01,610 --> 00:01:03,940
+of future market moves.
+
+17
+00:01:03,940 --> 00:01:08,790
+Now, prices move in impulsive and corrective
+waves.
+
+18
+00:01:08,790 --> 00:01:14,170
+Knowing which wave is likely underway, and
+what recent waves were, will help you to forecast
+
+19
+00:01:14,170 --> 00:01:16,380
+what the price is likely to do next.
+
+20
+00:01:16,380 --> 00:01:21,409
+An impulse wave is a large price move and
+has associated trends.
+
+21
+00:01:21,409 --> 00:01:27,940
+An uptrend keeps reaching higher prices because
+the moves up are larger than the moves down
+
+22
+00:01:27,940 --> 00:01:31,840
+which occur between those large up waves.
+
+23
+00:01:31,840 --> 00:01:35,790
+Corrective waves are the smaller waves that
+occur within a trend.
+
+24
+00:01:35,790 --> 00:01:42,100
+So, knowing this, it’s advised to trade
+in the direction of the impulse waves, because
+
+25
+00:01:42,100 --> 00:01:45,970
+the price is making the largest moves in that
+direction.
+
+26
+00:01:45,970 --> 00:01:51,640
+Impulse waves provide a better chance of making
+a large profit than corrective waves do.
+
+27
+00:01:51,640 --> 00:01:56,130
+You can use corrective waves to enter into
+a trend trade, in an attempt to capture the
+
+28
+00:01:56,130 --> 00:01:58,840
+next bigger impulse wave.
+
+29
+00:01:58,840 --> 00:02:04,540
+The ideal way to trade is to buy during pullbacks
+or corrective waves during uptrends, and ride
+
+30
+00:02:04,540 --> 00:02:08,350
+the next impulse wave as it takes the price
+higher.
+
+31
+00:02:08,350 --> 00:02:14,090
+Also, you sell during corrective waves in
+a downtrend to profit from the next impulse
+
+32
+00:02:14,090 --> 00:02:16,500
+wave down.
+
+33
+00:02:16,500 --> 00:02:21,010
+The idea of impulsive and corrective waves
+is also used to determine when a trend is
+
+34
+00:02:21,010 --> 00:02:22,020
+changing direction.
+
+35
+00:02:22,020 --> 00:02:27,870
+If a price chart shows big moves to the upside,
+with small corrective waves in between, and
+
+36
+00:02:27,870 --> 00:02:33,540
+then a much larger down move occurs, that
+is a signal the uptrend may be over.
+
+37
+00:02:33,540 --> 00:02:38,950
+Since impulses occur in the trending direction,
+a big move to the downside—which is bigger
+
+38
+00:02:38,950 --> 00:02:44,989
+than prior corrective waves, and as large
+as the upward impulse waves—indicates the
+
+39
+00:02:44,989 --> 00:02:46,190
+trend is now down.
+
+40
+00:02:46,190 --> 00:02:52,980
+If the trend is down, and a big up wave occurs—that
+is as big as the prior down waves during the
+
+41
+00:02:52,980 --> 00:02:57,970
+downtrend—then the trend is now up and you
+should look to buy during the next corrective
+
+42
+00:02:57,970 --> 00:03:00,180
+waves.
+
+43
+00:03:00,180 --> 00:03:04,099
+Second concept: Trend and Pullback Price Structures
+
+44
+00:03:04,099 --> 00:03:09,910
+Elliot found that when an uptrend is underway
+it typically has three large upward price
+
+45
+00:03:09,910 --> 00:03:12,459
+moves, with two corrections.
+
+46
+00:03:12,459 --> 00:03:18,650
+This creates a five-wave pattern: impulse,
+correction, impulse, correction, and another
+
+47
+00:03:18,650 --> 00:03:19,980
+impulse.
+
+48
+00:03:19,980 --> 00:03:23,700
+These five waves are labeled wave one through
+wave five, respectively.
+
+49
+00:03:23,700 --> 00:03:31,209
+The uptrend is then followed by three waves
+lower: an impulse down, a correction to the
+
+50
+00:03:31,209 --> 00:03:34,420
+upside, and then another impulse down.
+
+51
+00:03:34,420 --> 00:03:38,060
+These waves are labeled A, B, and C.
+
+52
+00:03:38,060 --> 00:03:43,409
+Elliot also found that these movements are
+fractal, meaning the pattern occurs on small
+
+53
+00:03:43,409 --> 00:03:45,000
+and large time frames.
+
+54
+00:03:45,000 --> 00:03:51,440
+For example, the first impulse wave higher
+within an uptrend on a daily chart is composed
+
+55
+00:03:51,440 --> 00:03:54,349
+of five waves on an hourly chart.
+
+56
+00:03:54,349 --> 00:03:59,970
+Also, corrective waves are composed of three
+smaller waves if viewed on a smaller chart
+
+57
+00:03:59,970 --> 00:04:02,140
+time frame.
+
+58
+00:04:02,140 --> 00:04:07,280
+Just as impulsive and corrective waves help
+determine when to enter trades, and in which
+
+59
+00:04:07,280 --> 00:04:12,129
+direction the trend is moving, the price structure
+can do the same.
+
+60
+00:04:12,129 --> 00:04:17,000
+Assume there was a big move to the upside—an
+impulsive wave—then a correction is likely
+
+61
+00:04:17,000 --> 00:04:18,470
+to follow.
+
+62
+00:04:18,470 --> 00:04:24,990
+That correction to the downside will often
+unfold in three waves: a drop, a small rally,
+
+63
+00:04:24,990 --> 00:04:26,599
+and then another drop.
+
+64
+00:04:26,599 --> 00:04:31,229
+You can use this to improve trade timing by
+waiting for that second drop.
+
+65
+00:04:31,229 --> 00:04:36,490
+Getting it right when the price starts to
+drop the first time is too early, as another
+
+66
+00:04:36,490 --> 00:04:38,830
+drop is likely coming.
+
+67
+00:04:38,830 --> 00:04:44,419
+Also, once there have been three big moves
+to the upside, the uptrend may be nearing
+
+68
+00:04:44,419 --> 00:04:45,419
+completion.
+
+69
+00:04:45,419 --> 00:04:50,979
+An impulse wave to the downside would then
+confirm that the price is likely to head lower
+
+70
+00:04:50,979 --> 00:04:54,680
+and the uptrend is indeed over.
+
+71
+00:04:54,680 --> 00:05:00,120
+Third concept is the correction size
+So your trading plan should be to buy on corrections
+
+72
+00:05:00,120 --> 00:05:04,449
+during an uptrend or selling on corrections
+in a downtrend.
+
+73
+00:05:04,449 --> 00:05:09,000
+And it is helpful to know how large the typical
+correction is.
+
+74
+00:05:09,000 --> 00:05:14,689
+Based on the five wave pattern, wave one is
+the first impulse wave of a trend and wave
+
+75
+00:05:14,689 --> 00:05:17,379
+two is the first correction.
+
+76
+00:05:17,379 --> 00:05:23,949
+Wave three is the next impulse, followed by
+corrective wave four and impulse wave five.
+
+77
+00:05:23,949 --> 00:05:29,069
+Based on the research of Nelson, wave two
+is typically 60 percent the length of wave
+
+78
+00:05:29,069 --> 00:05:31,110
+one.
+
+79
+00:05:31,110 --> 00:05:40,139
+If wave one advances $1, then wave two will
+likely see the price drop by about 60 cents.
+
+80
+00:05:40,139 --> 00:05:43,229
+Wave two is followed by impulse wave three.
+
+81
+00:05:43,229 --> 00:05:49,219
+The third wave of a trend is often the largest,
+usually much bigger than wave one.
+
+82
+00:05:49,219 --> 00:05:54,960
+Wave four comes next and is typically 30 to
+40 percent the size of wave three.
+
+83
+00:05:54,960 --> 00:06:02,189
+For example, if wave three rallied $2, the
+price is likely to drop 60 to 80 cents during
+
+84
+00:06:02,189 --> 00:06:03,860
+wave four.
+
+85
+00:06:03,860 --> 00:06:07,009
+The same concept holds true for a downtrend.
+
+86
+00:06:07,009 --> 00:06:10,819
+These are averages seen over many trades and
+trends.
+
+87
+00:06:10,819 --> 00:06:14,849
+Corrections may be smaller or larger than
+average on any single trade.
+
+88
+00:06:14,849 --> 00:06:20,580
+Yet, even having an approximate idea of how
+big a correction is likely to be can help
+
+89
+00:06:20,580 --> 00:06:22,479
+improve you trade timing significantly.
+
+90
+00:06:22,479 --> 00:06:27,110
+The 3 Golden Rules Of Elliott Wave Theory
+There are THREE important rules in labeling
+
+91
+00:06:27,110 --> 00:06:28,569
+waves.
+
+92
+00:06:28,569 --> 00:06:33,449
+Rule Number #1: Wave 3 can NEVER be the shortest
+impulse wave.
+
+93
+00:06:33,449 --> 00:06:39,650
+So wave 3 should be the longest of the impulse
+waves but it cannot be the shortest which
+
+94
+00:06:39,650 --> 00:06:45,259
+means that waves 1 or 5 CANNOT BE longer than
+wave 3.
+
+95
+00:06:45,259 --> 00:06:52,089
+Also the high of wave 3 must be higher than
+that of wave 1 and if it’s not higher, you
+
+96
+00:06:52,089 --> 00:06:54,080
+have to start your re-count.
+
+97
+00:06:54,080 --> 00:07:00,129
+You need to remember that impulse waves are
+meant to be making progress not slowing down.
+
+98
+00:07:00,129 --> 00:07:05,889
+Therefore if price does not exceed the high
+of wave 2, then that means there’s no progress
+
+99
+00:07:05,889 --> 00:07:09,839
+therefore you have to start the re-count.
+
+100
+00:07:09,839 --> 00:07:15,120
+Rule Number #2: Wave 2 can NEVER go beyond
+the start of Wave 1.
+
+101
+00:07:15,120 --> 00:07:21,930
+In other words, Wave 2 shall not retrace more
+than 100 % of wave 1.
+
+102
+00:07:21,930 --> 00:07:27,479
+If a break occurs below this low, you need
+to start your re-count.
+
+103
+00:07:27,479 --> 00:07:32,779
+Rule Number #3: Wave 4 can NEVER cross in
+the same price area as Wave 1, meaning that
+
+104
+00:07:32,779 --> 00:07:36,000
+Wave 4 can never overlap wave 1.
+
+105
+00:07:36,000 --> 00:07:41,129
+So the LOW OF WAVE 4 cannot go BELOW THE HIGH
+OF WAVE 1.
+
+106
+00:07:41,129 --> 00:07:42,970
+If that happens, you need a re-count.
+
+107
+00:07:42,970 --> 00:07:48,369
+3 Elliott Wave guidelines
+Now, we got 3 golden rules but we also have
+
+108
+00:07:48,369 --> 00:07:50,939
+3 Elliott Wave guidelines.
+
+109
+00:07:50,939 --> 00:07:58,389
+First guideline: when the wave 3 is the longer
+impulse wave, wave 5 will be almost/approximately
+
+110
+00:07:58,389 --> 00:08:03,939
+equal to wave 1
+Second guideline: the structure for wave 2
+
+111
+00:08:03,939 --> 00:08:11,770
+and wave 4 will alternate…if wave 2 is a
+sharp correction, wave 4 will be a flat correction.
+
+112
+00:08:11,770 --> 00:08:16,909
+If wave 2 is flat, wave 4 will be sharp.
+
+113
+00:08:16,909 --> 00:08:23,849
+And the last guideline: after a 5 wave impulse
+advance, ABC corrections usually end in the
+
+114
+00:08:23,849 --> 00:08:28,309
+area of prior wave 4 low.
+
+115
+00:08:28,309 --> 00:08:31,869
+Elliott wave trading is not that easy to understand…at
+first.
+
+116
+00:08:31,869 --> 00:08:35,769
+As a matter of fact, the easiest part is the
+theory part.
+
+117
+00:08:35,769 --> 00:08:38,169
+The hardest part is the application part!
+
+118
+00:08:38,169 --> 00:08:43,139
+That’s why I advise you, at first, to utilize
+the concepts I’ve talked in the beginning
+
+119
+00:08:43,139 --> 00:08:48,879
+of the video: Impulsive and Corrective Waves,
+trend and Pullback Price Structures and correction
+
+120
+00:08:48,879 --> 00:08:50,000
+size.
+
+121
+00:08:50,000 --> 00:08:54,720
+The most important thing to remember is to
+only take trades in the direction of the impulse
+
+122
+00:08:54,720 --> 00:08:58,260
+waves and take trades during the corrective
+waves.
+
+123
+00:08:58,260 --> 00:09:03,250
+Look for trade entry signals once the price
+has corrected the average amount.
+
+124
+00:09:03,250 --> 00:09:08,390
+The correction isn't likely to stop exactly
+at the percentage levels discussed before,
+
+125
+00:09:08,390 --> 00:09:13,630
+so taking trades slightly above or below the
+described percentage levels is fine.
+
+126
+00:09:13,630 --> 00:09:17,550
+Also, consider keeping track of each wave
+in the overall price structure.
+
+127
+00:09:17,550 --> 00:09:23,410
+For example, after a five wave pattern to
+the upside, a bigger three wave decline usually
+
+128
+00:09:23,410 --> 00:09:24,430
+follows.
+
+129
+00:09:24,430 --> 00:09:29,579
+Watching the direction of the impulse waves
+will signal potential trend changes, and that
+
+130
+00:09:29,579 --> 00:09:35,259
+signal is stronger if combined by a five-wave
+impulse pattern or three-wave correction pattern
+
+131
+00:09:35,259 --> 00:09:37,290
+ending.
+
+132
+00:09:37,290 --> 00:09:42,640
+These Elliott Wave concepts will improve your
+analysis skills and improve your trade timing,
+
+133
+00:09:42,640 --> 00:09:45,370
+but it is not without its own problems.
+
+134
+00:09:45,370 --> 00:09:51,310
+As I said before, the theory can be complex
+to apply, as it isn't always easy isolating
+
+135
+00:09:51,310 --> 00:09:54,529
+the five wave and three wave patterns.
+
+136
+00:09:54,529 --> 00:09:56,690
+Elliott Wave is not a trading technique.
+
+137
+00:09:56,690 --> 00:10:01,769
+There are no specific rules of entry or exit,
+nor is there one “right” way to use it
+
+138
+00:10:01,769 --> 00:10:03,120
+in trading.
+
+139
+00:10:03,120 --> 00:10:08,720
+As a result, the use of Elliott Wave has been
+avoided by many traders, not due to a lack
+
+140
+00:10:08,720 --> 00:10:14,500
+of understanding but because of the apparently
+subjective nature of how it may be applied.
+
+141
+00:10:14,500 --> 00:10:20,600
+Nonetheless, there are many traders who have
+successfully used Elliott Wave patterns in
+
+142
+00:10:20,600 --> 00:10:21,620
+their trading.
+
+143
+00:10:21,620 --> 00:10:26,740
+This video was basically an introduction to
+Elliot Waves and I tried not to complicate
+
+144
+00:10:26,740 --> 00:10:31,720
+things, but in future videos we’ll go deeper
+and we’ll talk about some advanced Elliot
+
+145
+00:10:31,720 --> 00:10:36,600
+wave concepts that can be applied to day trading
+and swing trading.
+
+146
+00:10:36,600 --> 00:10:40,490
+As always, if you learned something new and
+found value, leave us a like to show your
+
+147
+00:10:40,490 --> 00:10:44,720
+support, subscribe to our channel and click
+the bell icon to stay notified when we upload
+
+148
+00:10:44,720 --> 00:10:46,660
+new videos.
+
+149
+00:10:46,660 --> 00:10:47,190
+Until next time.
+

@@ -1,0 +1,1634 @@
+1
+00:00:00,240 --> 00:00:04,760
+Big trading educators make fair 
+value gaps sound mysterious! 
+
+2
+00:00:04,760 --> 00:00:09,760
+Truth is, they're just showing where 
+buyers and sellers couldn't agree! 
+
+3
+00:00:09,760 --> 00:00:14,000
+They're just fancy words for 
+supply and demand imbalances! 
+
+4
+00:00:14,000 --> 00:00:17,520
+So today I'll strip away the complexity, and show  
+
+5
+00:00:17,520 --> 00:00:21,480
+you how to spot and trade them, easily!
+ 
+Chapter 1: Introduction to Fair Value Gaps
+
+6
+00:00:21,480 --> 00:00:27,080
+Fair value gaps show up when price 
+moves fast, skipping over some levels. 
+
+7
+00:00:27,080 --> 00:00:31,120
+These gaps happen when buyers 
+and sellers aren't balanced. 
+
+8
+00:00:31,120 --> 00:00:34,120
+And traders pay attention to these gaps because  
+
+9
+00:00:34,120 --> 00:00:38,400
+they can show where price might 
+turn around or keep going. 
+  
+
+10
+00:00:38,400 --> 00:00:45,040
+A fair value gap is a place where price 
+moved so fast, it left a blank space. 
+
+11
+00:00:45,040 --> 00:00:49,720
+On smaller time frames, you can 
+see no trading happened there. 
+
+12
+00:00:49,720 --> 00:00:54,680
+It's like a vacuum in the market.
+But these gaps are important because  
+
+13
+00:00:54,680 --> 00:00:59,920
+they often act like magnets for price. 
+ 
+And the market likes to fill these gaps. 
+
+14
+00:01:00,600 --> 00:01:07,160
+This means price often comes back to these levels.
+They are important because fair value gaps can  
+
+15
+00:01:07,160 --> 00:01:12,160
+help you predict where price might go.
+And they can also help you find good  
+
+16
+00:01:12,160 --> 00:01:15,720
+places to enter or exit trades. 
+ 
+ 
+Chapter 2: The Theory Behind Fair Value Gaps
+
+17
+00:01:15,720 --> 00:01:22,080
+Markets are always trying to find the right 
+price for things. This is called price discovery. 
+
+18
+00:01:22,080 --> 00:01:26,320
+It happens when buyers and 
+sellers agree on a price. 
+
+19
+00:01:26,320 --> 00:01:34,560
+But sometimes, the market moves so fast that it 
+skips over some prices. This is how gaps form.
+  
+
+20
+00:01:34,560 --> 00:01:39,680
+Fair value gaps show up when there's 
+not enough trading at certain prices. 
+
+21
+00:01:39,680 --> 00:01:46,480
+It's like a jump in the market. These gaps 
+often happen when big players make large orders. 
+
+22
+00:01:46,480 --> 00:01:50,360
+They can take all the available 
+trades, leaving a gap.
+  
+
+23
+00:01:50,360 --> 00:01:57,320
+The market wasn't balanced. On one side, there 
+were more buyers or sellers than on the other. 
+
+24
+00:01:57,320 --> 00:02:02,760
+And this imbalance can give us clues 
+about where the market might go next. 
+
+25
+00:02:02,760 --> 00:02:08,760
+Fair value gaps often act like magnets. 
+And the market likes to fill these gaps. 
+
+26
+00:02:08,760 --> 00:02:13,760
+It's like the market wants to go back 
+and check if the price is right. 
+  
+
+27
+00:02:13,760 --> 00:02:17,080
+Now, there are different types 
+of gaps. Some happen when the  
+
+28
+00:02:17,080 --> 00:02:20,840
+market opens higher or lower than it closed. 
+
+29
+00:02:20,840 --> 00:02:25,080
+Others, like fair value 
+gaps, happen during trading. 
+
+30
+00:02:25,080 --> 00:02:31,120
+They all show times when the market moved 
+fast and left some prices untested.
+  
+
+31
+00:02:31,120 --> 00:02:34,760
+Fair value gaps will help you 
+see the market's "memory". 
+
+32
+00:02:34,760 --> 00:02:38,520
+It remembers these gaps and 
+often comes back to them. 
+
+33
+00:02:38,520 --> 00:02:46,200
+This can help you predict where price might go 
+or find good places to enter or exit trades.
+  
+
+34
+00:02:46,200 --> 00:02:51,400
+Now, let’s address the elephant in the room. 
+There are hundreds of fair value gaps every  
+
+35
+00:02:51,400 --> 00:02:57,120
+day, on all time frame. If you trade every gap 
+you see, you’ll slowly burn you’re your account. 
+
+36
+00:02:57,120 --> 00:03:02,280
+The reality is that fair value gaps 
+are just one piece of the puzzle. 
+
+37
+00:03:02,280 --> 00:03:08,080
+On their own, they don’t give reliable signals. 
+They work with other market signs to give a  
+
+38
+00:03:08,080 --> 00:03:12,400
+full picture. We’ll talk about this later.
+ 
+Chapter 3: Identifying Fair Value Gaps on Charts
+
+39
+00:03:12,400 --> 00:03:16,880
+Now let's talk about spotting 
+fair value gaps on your charts. 
+
+40
+00:03:16,880 --> 00:03:20,240
+We're looking at a specific three-candle pattern. 
+
+41
+00:03:20,240 --> 00:03:26,520
+For a bullish gap, check if the upper shadow of 
+the first candle doesn't touch the lower shadow  
+
+42
+00:03:26,520 --> 00:03:32,960
+of the third candle in the sequence. The 
+space between them is your Fair Value Gap. 
+
+43
+00:03:32,960 --> 00:03:37,120
+For a bearish gap, check if the 
+lower shadow of the first candle  
+
+44
+00:03:37,120 --> 00:03:44,280
+doesn't touch the upper shadow of the third 
+candle. This area is your Fair Value Gap.
+  
+
+45
+00:03:44,280 --> 00:03:50,080
+The market makes these gaps when big players 
+make aggressive moves. This happens because  
+
+46
+00:03:50,080 --> 00:03:56,800
+there's not enough trading activity in that price 
+zone - creating what we call a liquidity void. 
+
+47
+00:03:56,800 --> 00:04:04,000
+Think of it like this: A Fair Value Gap shows up 
+during a quick price move where one big player  
+
+48
+00:04:04,000 --> 00:04:10,280
+grabs all the available trades. This creates 
+a space where almost no trading happened.
+  
+
+49
+00:04:10,280 --> 00:04:14,360
+The trick is to spot when 
+these candles don't overlap. 
+
+50
+00:04:14,360 --> 00:04:20,240
+So in a bullish gap, the high of the first 
+candle shouldn't touch the low of the third. 
+
+51
+00:04:20,240 --> 00:04:25,360
+In a bearish gap, the low of the first 
+shouldn't touch the high of the third.
+  
+
+52
+00:04:25,360 --> 00:04:30,160
+When you're looking for these gaps, pay 
+attention to the market structure too. 
+
+53
+00:04:30,160 --> 00:04:35,200
+Bullish gaps often show up at support.
+Bearish gaps tend to form after  
+
+54
+00:04:35,200 --> 00:04:39,320
+a rise to resistance.
+Like I said, in theory,  
+
+55
+00:04:39,320 --> 00:04:45,000
+these gaps show up when big players make 
+moves. They can grab all the trades at once,  
+
+56
+00:04:45,000 --> 00:04:47,960
+marking an imbalance on the chart.
+ 
+Chapter 4: Fair Value Gaps and Market Structure
+
+57
+00:04:47,960 --> 00:04:52,320
+So fair value gaps are closely 
+tied to market structure. 
+
+58
+00:04:52,320 --> 00:04:55,960
+They often form at key points 
+in the market's movement,  
+
+59
+00:04:55,960 --> 00:05:03,040
+giving us clues about where price might go next.
+In a bullish market structure, fair value gaps  
+
+60
+00:05:03,040 --> 00:05:09,480
+typically form during strong upward moves.
+The gap shows where buyers were so eager,  
+
+61
+00:05:09,480 --> 00:05:15,080
+that they skipped over some price levels.
+This can be a sign that the upward trend is  
+
+62
+00:05:15,080 --> 00:05:18,200
+strong and likely to continue.
+ 
+In a bearish market structure,  
+
+63
+00:05:18,200 --> 00:05:25,680
+fair value gaps form during sharp downward moves.
+Here, sellers are pushing the price down so fast,  
+
+64
+00:05:25,680 --> 00:05:30,040
+that some levels get skipped.
+This can indicate that the bearish  
+
+65
+00:05:30,040 --> 00:05:35,080
+trend has strength behind it.
+ 
+Fair value gaps can also mark  
+
+66
+00:05:35,080 --> 00:05:42,320
+potential turning points in the market structure.
+If price returns to fill a gap and then reverses,  
+
+67
+00:05:42,320 --> 00:05:46,520
+it might signal a continuation 
+in the existing trend. 
+  
+
+68
+00:05:46,520 --> 00:05:50,960
+When looking at market structure, 
+consider different timeframes. 
+
+69
+00:05:50,960 --> 00:05:56,960
+A fair value gap on a smaller timeframe 
+might not be visible on a larger one. 
+
+70
+00:05:56,960 --> 00:06:01,800
+But it can still affect how 
+price moves in the short term.
+  
+
+71
+00:06:01,800 --> 00:06:06,600
+Remember, structure is all about 
+support and resistance levels. 
+
+72
+00:06:06,600 --> 00:06:13,200
+Fair value gaps often act as these levels.
+Price tends to respect them, either bouncing  
+
+73
+00:06:13,200 --> 00:06:19,320
+off or breaking through them with force.
+ 
+In ranging markets, fair value gaps  
+
+74
+00:06:19,320 --> 00:06:24,360
+can mark the edges of the range.
+Price might bounce between these gaps,  
+
+75
+00:06:24,360 --> 00:06:29,680
+creating a clear structure to work with.
+ 
+But please understand that these gaps  
+
+76
+00:06:29,680 --> 00:06:33,080
+don't exist in isolation.
+They're part of the  
+
+77
+00:06:33,080 --> 00:06:39,120
+bigger picture of market structure.
+They work alongside other elements like trends,  
+
+78
+00:06:39,120 --> 00:06:44,640
+support and resistance, and market phases.
+If you trade them on their own, you have  
+
+79
+00:06:44,640 --> 00:06:49,800
+small chances to make profits. 
+ 
+So when you're analyzing structure,  
+
+80
+00:06:49,800 --> 00:06:55,880
+look for patterns of higher highs and 
+higher lows in an uptrend, or lower  
+
+81
+00:06:55,880 --> 00:07:01,480
+highs and lower lows in a downtrend.
+Fair value gaps often form during  
+
+82
+00:07:01,480 --> 00:07:04,760
+the strong moves between these swing points.
+ 
+ 
+Chapter 5: Time Frames for Fair Value Gap Trading
+
+83
+00:07:04,760 --> 00:07:07,680
+A quick word on time frames.
+There can be hundreds  
+
+84
+00:07:07,680 --> 00:07:12,840
+of gaps in a single trading day.
+And they can appear on various time frames.
+  
+
+85
+00:07:12,840 --> 00:07:19,600
+On shorter time frames, fair value gaps are 
+more frequent, but have less significance. 
+
+86
+00:07:19,600 --> 00:07:26,360
+They can be useful for scalping or day trading, 
+when looking for quick entries and exits. 
+
+87
+00:07:26,360 --> 00:07:31,880
+But these gaps might get filled quickly, 
+so you need to be fast to act on them.
+  
+
+88
+00:07:31,880 --> 00:07:37,560
+Longer time frames, like 4 
+hour or daily, show fewer gaps. 
+
+89
+00:07:37,560 --> 00:07:41,400
+But when they do appear, 
+they often have more impact. 
+
+90
+00:07:41,400 --> 00:07:46,240
+These gaps can influence price 
+movements for several days. 
+  
+
+91
+00:07:46,240 --> 00:07:52,920
+I personally like to use a multiple time frame 
+analysis when working with fair value gaps. 
+
+92
+00:07:52,920 --> 00:07:58,680
+For instance, you might spot a gap on 
+a higher time frame, mark the zone,  
+
+93
+00:07:58,680 --> 00:08:05,160
+but then zoom in to a lower time frame 
+to fine-tune their entry or exit points.
+  
+
+94
+00:08:05,160 --> 00:08:08,640
+Remember, price is fractal. Patterns that appear  
+
+95
+00:08:08,640 --> 00:08:14,840
+on monthly charts can also be seen 
+on daily or even 5-minute charts. 
+
+96
+00:08:14,840 --> 00:08:18,907
+This principle applies to 
+fair value gaps as well.
+  
+
+97
+00:08:18,907 --> 00:08:18,960
+Chapter 6: Entry Strategies 
+for Fair Value Gap Trades
+
+98
+00:08:18,960 --> 00:08:24,080
+When trading fair value gaps, timing 
+your entry is makes the difference. 
+
+99
+00:08:24,080 --> 00:08:29,640
+The plan is wait for price to come back 
+to the gap before entering your trade. 
+
+100
+00:08:29,640 --> 00:08:33,720
+This strategy works well because 
+these gaps are pulling price back  
+
+101
+00:08:33,720 --> 00:08:39,560
+to areas where little trading occurred.
+Think of this gap as a vacuum in the  
+
+102
+00:08:39,560 --> 00:08:44,440
+market that needs to be filled.
+ 
+From a supply and demand view,  
+
+103
+00:08:44,440 --> 00:08:47,400
+here's what happens.
+First, a big market  
+
+104
+00:08:47,400 --> 00:08:52,920
+player enters with massive orders.
+They hit the market so hard and fast  
+
+105
+00:08:52,920 --> 00:08:58,920
+that price jumps, creating that gap. 
+ 
+During this jump, regular traders can't  
+
+106
+00:08:58,920 --> 00:09:04,840
+keep up with the speed, leaving an area 
+where trading activity is super thin. 
+
+107
+00:09:04,840 --> 00:09:12,240
+When the gap forms, it creates an imbalance.
+On one side, you have lots of orders filled,  
+
+108
+00:09:12,240 --> 00:09:16,440
+but on the other side, there's 
+barely any trading activity. 
+
+109
+00:09:16,440 --> 00:09:22,280
+This imbalance creates a "zone of 
+interest" that big players watch closely.
+  
+
+110
+00:09:22,280 --> 00:09:27,040
+So the smart move is waiting 
+for price to return to this gap. 
+
+111
+00:09:27,040 --> 00:09:32,280
+That’s because market makers must 
+find fair value for their positions. 
+
+112
+00:09:32,280 --> 00:09:38,640
+They use these gaps as reference points.
+And when price returns to fill the gap, it's often  
+
+113
+00:09:38,640 --> 00:09:44,440
+because market makers are balancing their books.
+ 
+You'll notice something interesting when price  
+
+114
+00:09:44,440 --> 00:09:50,960
+comes back to these gaps - it's trying to 
+restore balance between buyers and sellers. 
+
+115
+00:09:50,960 --> 00:09:56,360
+This balancing act happens from 3 reasons.
+First, market makers need to fill their  
+
+116
+00:09:56,360 --> 00:10:02,800
+unfilled orders from the original move.
+Also, other traders spot the imbalance  
+
+117
+00:10:02,800 --> 00:10:07,040
+and try to profit from it.
+And finally, the market naturally  
+
+118
+00:10:07,040 --> 00:10:12,960
+seeks equilibrium at these levels.
+ 
+The key to trading these returns lies  
+
+119
+00:10:12,960 --> 00:10:17,200
+in understanding the original 
+move that created the gap. 
+
+120
+00:10:17,200 --> 00:10:22,640
+If it was a strong upward move, (a bullish 
+displacement), the gap below becomes a  
+
+121
+00:10:22,640 --> 00:10:29,440
+potential buy zone when price returns. 
+The opposite is true for downward moves.
+  
+
+122
+00:10:29,440 --> 00:10:35,960
+Think about the mechanics: When that initial big 
+player moved the market so fast, they left behind  
+
+123
+00:10:35,960 --> 00:10:41,920
+other traders who missed their chance to enter.
+When price returns to the gap,  
+
+124
+00:10:41,920 --> 00:10:47,720
+these traders often jump in, adding to 
+the trading activity at these levels.
+  
+
+125
+00:10:47,720 --> 00:10:54,160
+So from a pure supply and demand perspective, the 
+fair value gap represents a level where demand  
+
+126
+00:10:54,160 --> 00:11:02,080
+suddenly overwhelmed supply, in an upward gap, 
+or supply overwhelmed demand, in a downward gap. 
+
+127
+00:11:02,080 --> 00:11:06,680
+The market needs to test these levels 
+again to confirm if that imbalance was  
+
+128
+00:11:06,680 --> 00:11:12,720
+temporary or part of a larger trend.
+ 
+The return to this area often shows  
+
+129
+00:11:12,720 --> 00:11:17,160
+clear price action signals.
+You might see price slow down  
+
+130
+00:11:17,160 --> 00:11:23,840
+as it approaches the gap, or notice smaller 
+timeframe consolidation patterns forming. 
+  
+
+131
+00:11:23,840 --> 00:11:27,560
+Watch how price behaves when 
+it returns to fill the gap. 
+
+132
+00:11:27,560 --> 00:11:31,960
+Clean, swift moves through the gap 
+might indicate that more movement in  
+
+133
+00:11:31,960 --> 00:11:37,960
+that direction is coming. Choppy, slow price 
+action might suggest that the level is being  
+
+134
+00:11:37,960 --> 00:11:45,400
+heavily contested between buyers and sellers.
+ 
+So for a bullish setup, wait for price to return  
+
+135
+00:11:45,400 --> 00:11:51,280
+to the lower edge of the gap. If price 
+bounces off this level, it could signal  
+
+136
+00:11:51,280 --> 00:11:56,480
+a good entry point for a long trade.
+For a bearish setup, watch for price  
+
+137
+00:11:56,480 --> 00:12:02,080
+to come back to the upper edge of the gap. 
+If it struggles to break above this level,  
+
+138
+00:12:02,080 --> 00:12:08,560
+it might be a good spot to enter a short trade.
+ 
+While waiting for price to return to the gap,  
+
+139
+00:12:08,560 --> 00:12:14,480
+look for specific candlestick patterns to 
+fine-tune your entry. These patterns can give  
+
+140
+00:12:14,480 --> 00:12:21,200
+you extra confirmation before you enter a trade.
+For instance, if you see a bullish engulfing  
+
+141
+00:12:21,200 --> 00:12:28,240
+pattern form at the lower edge of a fair value 
+gap, it could signal a strong buying pressure. 
+
+142
+00:12:28,240 --> 00:12:34,720
+This might be a good time to enter a long trade. 
+ 
+A long wick at the upper edge of a bearish gap  
+
+143
+00:12:34,720 --> 00:12:39,932
+could indicate selling pressure, 
+implying a potential short entry.
+  
+
+144
+00:12:39,932 --> 00:12:43,000
+FVGs with Break of Structure
+Fair value gaps with a Break of Structure  
+
+145
+00:12:43,000 --> 00:12:49,360
+create powerful trade setups, because they combine 
+two major elements that show us exactly where  
+
+146
+00:12:49,360 --> 00:12:54,480
+big players are active in the market.
+A break in market structure happens  
+
+147
+00:12:54,480 --> 00:13:00,560
+when price runs through previous swing 
+highs or lows with force. But this break  
+
+148
+00:13:00,560 --> 00:13:06,880
+needs an gap inside it to count as valid. 
+ 
+Picture the market moving up in a series of  
+
+149
+00:13:06,880 --> 00:13:11,800
+higher highs and higher lows.
+Then suddenly, price drops  
+
+150
+00:13:11,800 --> 00:13:17,120
+hard through a previous swing low.
+During this drop, if we see a gap where  
+
+151
+00:13:17,120 --> 00:13:24,760
+the candle wicks don't overlap, that's our gap.
+Big players pushed price down with real force. 
+
+152
+00:13:24,760 --> 00:13:29,560
+This area become a magnet 
+that pull price back later.
+ 
+
+153
+00:13:29,560 --> 00:13:30,960
+Another example. 
+
+154
+00:13:30,960 --> 00:13:37,480
+You see price moving up, making higher highs.
+Then a large player hits the market hard,  
+
+155
+00:13:37,480 --> 00:13:42,200
+breaking below a key swing low.
+During this break, three candles  
+
+156
+00:13:42,200 --> 00:13:50,160
+form - the middle one creates a gap. This gap 
+implies the break in structure might be real.
+  
+
+157
+00:13:50,160 --> 00:13:54,040
+This combination work well 
+because it shows 2 things. 
+
+158
+00:13:54,040 --> 00:13:57,880
+The market structure break 
+tells us the trend is changing. 
+
+159
+00:13:57,880 --> 00:14:02,920
+And the gap shows us exactly where 
+big players left their footprint. 
+
+160
+00:14:02,920 --> 00:14:08,000
+The presence of both signals means 
+more than just a random price move. 
+
+161
+00:14:08,000 --> 00:14:12,280
+It shows intentional, 
+institutional trading activity. 
+
+162
+00:14:12,280 --> 00:14:19,400
+When price returns to these levels later, it 
+often finds strong support or resistance.
+  
+
+163
+00:14:19,400 --> 00:14:24,800
+What makes this setup special is the 
+"vacuum effect" created by the gap. 
+
+164
+00:14:24,800 --> 00:14:31,520
+Remember that during the fast move that broke 
+market structure, some orders didn't get filled. 
+
+165
+00:14:31,520 --> 00:14:37,440
+This creates an area where price 
+needs to return to find "fair value".
+  
+
+166
+00:14:37,440 --> 00:14:42,400
+You'll notice these setups work 
+best when 3 condition are met: 
+
+167
+00:14:42,400 --> 00:14:46,080
+First, when the break in 
+structure is clean and strong, 
+
+168
+00:14:46,080 --> 00:14:50,760
+The fair value gap forms right at 
+the point where structure breaks. 
+
+169
+00:14:50,760 --> 00:14:55,800
+And third, price moves away 
+quickly after creating the gap. 
+
+170
+00:14:55,800 --> 00:15:00,560
+So when market makers move price fast 
+enough to break structure and leave  
+
+171
+00:15:00,560 --> 00:15:05,360
+a gap, they're showing their hand.
+They're telling us they have strong  
+
+172
+00:15:05,360 --> 00:15:10,000
+interest at these levels.
+ 
+The same for a buy signal. 
+
+173
+00:15:10,000 --> 00:15:16,760
+Look for a clear break of previous swing highs.
+Check for a gap forming during this break. 
+
+174
+00:15:16,760 --> 00:15:20,920
+Then wait for price to return 
+to the fair value gap level. 
+
+175
+00:15:20,920 --> 00:15:27,760
+And watch how price reacts when it hits the zone.
+ 
+The setup becomes even stronger when the gap  
+
+176
+00:15:27,760 --> 00:15:34,800
+coincides with the actual break point in market 
+structure. This creates a "double reference" point  
+
+177
+00:15:34,800 --> 00:15:41,240
+that market makers use to balance their books.
+The liquidity void that comes with the fair value  
+
+178
+00:15:41,240 --> 00:15:46,920
+gap adds another layer of confirmation.
+It shows that one side of the market was  
+
+179
+00:15:46,920 --> 00:15:52,680
+completely overwhelmed during the move.
+This imbalance needs to be corrected,  
+
+180
+00:15:52,680 --> 00:15:59,840
+which is why price often returns to these levels.
+ 
+So after spotting the break in structure and gap,  
+
+181
+00:15:59,840 --> 00:16:04,280
+don't chase the initial move.
+The best trades come when price revisits  
+
+182
+00:16:04,280 --> 00:16:10,120
+these levels and shows clear reaction.
+This gap becomes a key reference level  
+
+183
+00:16:10,120 --> 00:16:13,040
+for the new trend direction.
+ 
+FVGs with supply/demand zones
+
+184
+00:16:13,040 --> 00:16:18,600
+Supply and demand zones mark the spots 
+where smart money builds positions. 
+
+185
+00:16:18,600 --> 00:16:23,160
+Think of them as launching 
+pads where big trades start. 
+
+186
+00:16:23,160 --> 00:16:27,720
+When you find a fair value gap near 
+these zones, you've spotted a place  
+
+187
+00:16:27,720 --> 00:16:33,920
+where institutional traders showed their 
+hand twice - first building positions,  
+
+188
+00:16:33,920 --> 00:16:39,760
+then moving price fast enough to leave a gap.
+ 
+The strategy works through a simple market  
+
+189
+00:16:39,760 --> 00:16:46,880
+truth - price wants to trade where it hasn't 
+traded before. And those gaps represent prices  
+
+190
+00:16:46,880 --> 00:16:51,320
+where little to no trading happened.
+Again, markets need to fill these  
+
+191
+00:16:51,320 --> 00:16:57,560
+gaps to find fair value. That's why 
+price often returns to these levels.
+  
+
+192
+00:16:57,560 --> 00:17:03,120
+Watch how this plays out on charts. 
+First, you'll see price moving normally. 
+
+193
+00:17:03,120 --> 00:17:07,360
+Then suddenly, a large candle 
+appears with no overlap to  
+
+194
+00:17:07,360 --> 00:17:11,160
+nearby candles - that's your gap.
+This tells you someone big just  
+
+195
+00:17:11,160 --> 00:17:17,640
+moved with purpose. If this happens near a 
+supply or demand zone, pay extra attention. 
+
+196
+00:17:17,640 --> 00:17:23,200
+The process follows clear steps. Price 
+builds up in a supply or demand zone.  
+
+197
+00:17:23,200 --> 00:17:30,560
+Then it moves explosively, creating the gap. 
+This fast move shows institutional conviction. 
+
+198
+00:17:30,560 --> 00:17:37,600
+Later, price must return to fill this gap. 
+ 
+Another signal. You see here a clean fair  
+
+199
+00:17:37,600 --> 00:17:44,400
+value gap, where candle shadows don't overlap.
+The bigger the gap, the stronger the signal. 
+
+200
+00:17:44,400 --> 00:17:49,480
+As this gap form near this demand 
+zone, you've found a sweet spot. 
+
+201
+00:17:49,480 --> 00:17:56,200
+Then you wait for price to return to the FVG area.
+Watch how it reacts. Strong moves often  
+
+202
+00:17:56,200 --> 00:18:01,760
+follow once the gap starts filling.
+In combination with a supply or demand  
+
+203
+00:18:01,760 --> 00:18:08,120
+zone, I don’t mind if price completely 
+fills the gap, and even moves past it. 
+
+204
+00:18:08,120 --> 00:18:13,480
+I always wait for it to return to the 
+origin point, to the demand zone.
+  
+
+205
+00:18:13,480 --> 00:18:20,440
+The technical reason this works ties to liquidity. 
+Gaps mark areas with little trading activity. 
+
+206
+00:18:20,440 --> 00:18:25,280
+When they sit near supply or demand 
+zones, you get two powerful forces  
+
+207
+00:18:25,280 --> 00:18:31,440
+working together - the need to fill the 
+gap and the strength of the original zone. 
+
+208
+00:18:31,440 --> 00:18:37,280
+Your edge comes from spotting these 
+combinations early. Look for clean gaps. 
+
+209
+00:18:37,280 --> 00:18:41,240
+Check if they formed near 
+strong supply/demand zones. 
+
+210
+00:18:41,240 --> 00:18:48,240
+Also, remember the previous chapter, look if 
+this move caused a break in market structure. 
+
+211
+00:18:48,240 --> 00:18:53,320
+These setups offer clear entry 
+points with defined risk.
+ 
+  
+
+212
+00:18:53,320 --> 00:18:57,880
+This is a clear example of 
+how big players move markets. 
+
+213
+00:18:57,880 --> 00:19:05,360
+They build positions in zones, create gaps with 
+fast moves, then let price return to fill them. 
+
+214
+00:19:05,360 --> 00:19:09,280
+Each step leaves clues on 
+charts through price action. 
+
+215
+00:19:09,280 --> 00:19:12,800
+Price moves this way because 
+markets seek liquidity. 
+
+216
+00:19:12,800 --> 00:19:17,760
+This creates a rhythm you can 
+trade – accumulation, expansion,  
+
+217
+00:19:17,760 --> 00:19:21,200
+gap creation, then gap filling.
+ 
+FVGs in Premium/Discount Zones
+
+218
+00:19:21,200 --> 00:19:27,720
+Fair Value Gaps in premium or discount zones 
+show where smart money plans their moves. 
+
+219
+00:19:27,720 --> 00:19:31,280
+Market makers work in 
+specific ways at these spots. 
+
+220
+00:19:31,280 --> 00:19:37,520
+In discount zones, they start buying. 
+In premium zones, they start selling. 
+
+221
+00:19:37,520 --> 00:19:42,880
+This creates a rhythm in the market - a 
+back and forth movement you can trade.
+  
+
+222
+00:19:42,880 --> 00:19:47,200
+The power of this setup comes 
+from market maker behavior. 
+
+223
+00:19:47,200 --> 00:19:53,000
+They need to do fair valuation for 
+both their entry and exit positions. 
+
+224
+00:19:53,000 --> 00:19:58,640
+This means they look at premium and discount 
+zones as places to start big moves.
+  
+
+225
+00:19:59,400 --> 00:20:05,280
+You need to see the bigger picture first. Look 
+at the total range of the larger price move. 
+
+226
+00:20:05,280 --> 00:20:10,080
+Find where price sits compared 
+to recent highs and lows. 
+
+227
+00:20:10,080 --> 00:20:17,560
+Then spot the reference points market makers 
+watch - the fair value gaps and liquidity voids. 
+
+228
+00:20:17,560 --> 00:20:25,360
+The middle ground, called equilibrium, marks 
+the 50% point between swing highs and lows. 
+
+229
+00:20:25,360 --> 00:20:30,280
+This helps you know if price 
+sits in premium or discount. 
+  
+
+230
+00:20:30,280 --> 00:20:34,680
+Market mechanics make this 
+work. After big market moves,  
+
+231
+00:20:34,680 --> 00:20:39,320
+most traders chase the trend.
+Smart money does the opposite. 
+
+232
+00:20:39,320 --> 00:20:45,160
+They expect a pullback before the next move.
+These pullbacks often happen right at fair  
+
+233
+00:20:45,160 --> 00:20:52,280
+value gaps in premium or discount areas.
+The process shows up clearly on charts.  
+
+234
+00:20:52,280 --> 00:20:58,080
+Sharp price runs leave behind gaps - 
+areas where little trading happened. 
+
+235
+00:20:58,080 --> 00:21:04,880
+These spots become targets for future trades.
+When they sit in premium or discount zones,  
+
+236
+00:21:04,880 --> 00:21:10,280
+they mark prime trading opportunities.
+ 
+So watch how price behaves in these  
+
+237
+00:21:10,280 --> 00:21:16,680
+zones. In premium areas with a fair 
+value gap, look for selling pressure. 
+
+238
+00:21:16,680 --> 00:21:21,360
+In discount areas with gaps, 
+watch for buying pressure. 
+
+239
+00:21:21,360 --> 00:21:26,240
+The mix of zone location and the 
+gap, creates stronger signals.
+  
+
+240
+00:21:26,240 --> 00:21:31,560
+Remember what we talked before, 
+market structure plays a key role too. 
+
+241
+00:21:31,560 --> 00:21:38,400
+True breaks in structure often leave gaps 
+behind. These gaps confirm the break's strength. 
+
+242
+00:21:38,400 --> 00:21:44,640
+When they form in premium or discount 
+zones, they show even more power. 
+
+243
+00:21:44,640 --> 00:21:52,040
+Again, the best trades come when multiple 
+factors line up - zone location, gap presence,  
+
+244
+00:21:52,040 --> 00:21:58,520
+break in structure and clear price action.
+Market makers use these areas to build positions.  
+
+245
+00:21:59,560 --> 00:22:04,560
+They accumulate in discount zones 
+and distribute in premium zones. 
+
+246
+00:22:04,560 --> 00:22:10,800
+And finding gaps at these spots shows 
+you where they plan to move price next.
+  
+
+247
+00:22:10,800 --> 00:22:17,000
+The strategy works because it follows market 
+maker goals. They need to find fair value for  
+
+248
+00:22:17,000 --> 00:22:23,080
+positions. Premium and discount zones 
+mark places where they take action. 
+
+249
+00:22:23,080 --> 00:22:28,600
+Fair value gaps in these zones show 
+exactly where they moved with force. 
+
+250
+00:22:28,600 --> 00:22:33,960
+Best trades develop this way. Price 
+reaches a premium or discount zone. 
+
+251
+00:22:33,960 --> 00:22:39,160
+You find an FVG nearby. Then 
+price shows reversal signs. 
+
+252
+00:22:39,160 --> 00:22:46,520
+The whole process repeats in cycles. Price 
+moves between fair value, premium, and discount. 
+
+253
+00:22:46,520 --> 00:22:50,080
+And each cycle leaves gaps behind. 
+ 
+FVGs - Fibonacci confluence
+
+254
+00:22:50,080 --> 00:22:56,400
+Fibonacci levels match natural market moves, 
+and when they line up with Fair Value Gaps,  
+
+255
+00:22:56,400 --> 00:23:01,560
+they create strong trade opportunities.
+Think of it like using two different  
+
+256
+00:23:01,560 --> 00:23:08,000
+tools that point to the same spot - 
+it makes that spot much more special. 
+
+257
+00:23:08,000 --> 00:23:13,280
+The magic happens because different 
+types of traders watch different things. 
+
+258
+00:23:13,280 --> 00:23:20,120
+Some traders only trade fair value 
+gaps, while others only use Fibonacci. 
+
+259
+00:23:20,120 --> 00:23:25,760
+When these levels match up, both groups 
+of traders see a good trade opportunity. 
+
+260
+00:23:25,760 --> 00:23:31,160
+This creates more buying or selling 
+pressure at that exact spot.
+  
+
+261
+00:23:31,160 --> 00:23:39,240
+The golden zone between the 50% and 61% 
+Fibonacci levels attracts smart money attention. 
+
+262
+00:23:39,240 --> 00:23:45,400
+When a gap sits in this area, you've found 
+a place where two powerful forces meet. 
+
+263
+00:23:45,400 --> 00:23:49,280
+This double confirmation 
+makes your trades stronger.
+  
+
+264
+00:23:49,280 --> 00:23:56,000
+In an uptrend, look for gaps that line up with 
+Fibonacci levels for buying opportunities. 
+
+265
+00:23:56,000 --> 00:24:02,080
+In a downtrend, search for gaps matching 
+Fibonacci levels for selling chances. 
+
+266
+00:24:02,080 --> 00:24:09,800
+Think about how markets move. After a strong 
+push, price pulls back to test previous levels. 
+
+267
+00:24:09,800 --> 00:24:14,560
+Smart traders use Fibonacci to 
+find these pullback targets. 
+
+268
+00:24:14,560 --> 00:24:21,720
+When these levels match a fair value gap, they 
+show where big players plan their next moves.
+  
+
+269
+00:24:21,720 --> 00:24:25,120
+The process starts with 
+finding the right swing points. 
+
+270
+00:24:25,120 --> 00:24:31,480
+Draw your Fibonacci from the highest high to 
+the lowest low in the recent price action. 
+
+271
+00:24:31,480 --> 00:24:38,680
+This gives you the framework for finding the sweet 
+spots where a fair value gap might matter most. 
+
+272
+00:24:38,680 --> 00:24:45,320
+A lot of big traders watch these same levels. 
+Some use Fibonacci to plan their trades,  
+
+273
+00:24:45,320 --> 00:24:50,040
+looking for spots where they 
+can build or exit positions. 
+
+274
+00:24:50,040 --> 00:24:56,120
+And when you see a fair value gap at these 
+levels, you might want to take action.
+  
+
+275
+00:24:56,120 --> 00:25:00,920
+The real power comes from understanding 
+what these confluences mean. 
+
+276
+00:25:00,920 --> 00:25:06,000
+Fibonacci levels themselves don't 
+act as support or resistance. 
+
+277
+00:25:06,000 --> 00:25:10,040
+Instead, they help you find 
+liquidity blocks - places  
+
+278
+00:25:10,040 --> 00:25:17,600
+where fair value gaps show market imbalances.
+Then watch how price reacts at these spots. 
+
+279
+00:25:17,600 --> 00:25:23,160
+A strong gap needs a big, clean 
+separation between candle shadows. 
+
+280
+00:25:23,160 --> 00:25:29,720
+When this gap lines up with key Fibonacci 
+levels, especially the 50 and 61% zone,  
+
+281
+00:25:29,720 --> 00:25:35,240
+you've found a high-probability setup.
+ 
+The strategy works because it combines  
+
+282
+00:25:35,240 --> 00:25:40,400
+two types of market psychology.
+Fibonacci shows natural pullback  
+
+283
+00:25:40,400 --> 00:25:46,560
+points where traders expect reactions.
+Fair value gaps show where big money  
+
+284
+00:25:46,560 --> 00:25:53,440
+moved fast enough to leave traces.
+And together, they create stronger signals.
+  
+
+285
+00:25:53,440 --> 00:26:00,600
+Remember that trends make this work better. In a 
+strong uptrend, gaps that line up with Fibonacci  
+
+286
+00:26:00,600 --> 00:26:06,280
+levels make great buying zones.
+The opposite works in downtrends. 
+
+287
+00:26:06,280 --> 00:26:12,520
+The trend gives you another layer of 
+confluence, making your trades even stronger.
+  
+
+288
+00:26:12,520 --> 00:26:18,800
+The plan is simple. Wait for price to reach 
+the Fibonacci level, where your gap sits. 
+
+289
+00:26:18,800 --> 00:26:23,760
+Look for signs that price respects 
+both the level and the gap. 
+
+290
+00:26:23,760 --> 00:26:28,840
+The best trades come when price pierces 
+the confluence zone, and rejects it with  
+
+291
+00:26:28,840 --> 00:26:36,840
+a strong candlestick signal. I look mainly for 
+candles with large wicks, or engulfing patterns. 
+
+292
+00:26:36,840 --> 00:26:42,240
+Time frames matter too. While this 
+strategy works on any chart, I often  
+
+293
+00:26:42,240 --> 00:26:48,360
+watch the 4-hour and the hourly charts.
+These longer views help you spot the  
+
+294
+00:26:48,360 --> 00:26:53,280
+strongest confluences between 
+Fibonacci and fair value gaps.
+  
+
+295
+00:26:53,280 --> 00:26:58,920
+Again, the technical reason this works 
+ties to liquidity. Big players need  
+
+296
+00:26:58,920 --> 00:27:04,920
+certain price levels to build positions. 
+They use Fibonacci to find these spots. 
+
+297
+00:27:04,920 --> 00:27:10,720
+When they move fast enough to create gaps 
+at these levels, they show their hand twice. 
+
+298
+00:27:10,720 --> 00:27:15,360
+Trading becomes simpler with this 
+approach. You don't chase price. 
+
+299
+00:27:15,360 --> 00:27:22,960
+Instead, you wait for it to reach these special 
+spots where Fibonacci and fair value gaps meet. 
+
+300
+00:27:22,960 --> 00:27:27,680
+This patience puts you in position 
+for high-probability moves. 
+
+301
+00:27:27,680 --> 00:27:34,560
+The whole process flows naturally. Markets 
+move up or down with force, creating gaps. 
+
+302
+00:27:34,560 --> 00:27:40,240
+Price pulls back to Fibonacci levels. 
+When these align, you find spots where  
+
+303
+00:27:40,240 --> 00:27:45,280
+smart money are likely to act.
+ 
+ 
+Think of confluence like different  
+
+304
+00:27:45,280 --> 00:27:52,520
+layers. Each layer, like the gap, Fibonacci, 
+trend direction, the candlestick confirmation,  
+
+305
+00:27:52,520 --> 00:27:57,840
+makes your trade setup stronger.
+The more layers of confluence you have, the  
+
+306
+00:27:57,840 --> 00:28:05,800
+higher the probability of your trade working out.
+And use these confluence zones as areas, not exact  
+
+307
+00:28:05,800 --> 00:28:14,000
+prices. Markets rarely turn exactly at a specific 
+price. Instead, they often react within a zone. 
+
+308
+00:28:14,000 --> 00:28:20,440
+So give your trades room to breathe by 
+thinking in zones, rather than exact prices!
+  
+
+309
+00:28:20,440 --> 00:28:25,920
+I prefer this approach because it also 
+helps you avoid many fake breakouts. 
+
+310
+00:28:25,920 --> 00:28:32,440
+Instead of chasing price, you're waiting for 
+it to return to these high-probability zones. 
+
+311
+00:28:32,440 --> 00:28:39,760
+This patient approach will keep you out of those 
+common breakout traps that catch many traders. 
+
+312
+00:28:39,760 --> 00:28:43,040
+Now, if you want to learn 
+other smart money tactics,  
+
+313
+00:28:43,040 --> 00:28:53,200
+you need to watch one of these videos next.
+

@@ -1,0 +1,588 @@
+1
+00:00:00,799 --> 00:00:06,340
+Heikin-ashi is a visual representation which
+clearly shows trends and reversals.
+
+2
+00:00:06,340 --> 00:00:11,290
+More importantly, it is a quantifiable technique
+that is easy to implement and use.
+
+3
+00:00:11,290 --> 00:00:17,150
+While traditional price candles appeal to
+the more artistic and subjective judgement,
+
+4
+00:00:17,150 --> 00:00:21,529
+Heikin-Ashi is a far more evident way to display
+trends and reversals.
+
+5
+00:00:21,529 --> 00:00:27,640
+Japanese candlestick patterns have very flexible
+rules and interpretations "in the context."
+
+6
+00:00:27,640 --> 00:00:31,640
+everyone translates them, more or less, in
+a subjective manner.
+
+7
+00:00:31,640 --> 00:00:35,530
+My personal interpretations may be different
+from yours.
+
+8
+00:00:35,530 --> 00:00:41,129
+These facts lead to the reality that candlestick
+patterns are subjective, artistic, and challenging,
+
+9
+00:00:41,129 --> 00:00:45,390
+so traders need a more objective, quantifiable
+tool.
+
+10
+00:00:45,390 --> 00:00:47,609
+And that tool is the Heikin Ashi.
+
+11
+00:00:47,609 --> 00:00:52,379
+The very simple quantification makes the Heikin
+Ashi technique attractive to those who tend
+
+12
+00:00:52,379 --> 00:00:56,489
+to take a more analytical, more precise approach.
+
+13
+00:00:56,489 --> 00:01:03,530
+Any heikin-ashi chart filters out price noise;
+as a result, trends, consolidations, and reversals
+
+14
+00:01:03,530 --> 00:01:06,490
+are more visible and clearer to the naked
+eye.
+
+15
+00:01:06,490 --> 00:01:11,530
+Sentiment, trend, and momentum are three elements
+every trader should take into account-and
+
+16
+00:01:11,530 --> 00:01:15,320
+all are addressed by heikin-ashi.
+
+17
+00:01:15,320 --> 00:01:21,760
+A big advantage of the Japanese candles is
+that they show participants' sentiment.
+
+18
+00:01:21,760 --> 00:01:27,260
+Candle color and body length are reliable
+measures for determining the degree of bullishness
+
+19
+00:01:27,260 --> 00:01:29,060
+or bearishness.
+
+20
+00:01:29,060 --> 00:01:35,440
+Long-body candles with no or small shadows
+appear as a result of strong buying or selling.
+
+21
+00:01:35,440 --> 00:01:41,250
+Excessive shadows or wicks underscore buyers'
+and sellers' mood swings.
+
+22
+00:01:41,250 --> 00:01:45,690
+A doji shows indecision or waiting for the
+next action.
+
+23
+00:01:45,690 --> 00:01:51,030
+The closing price relative to the open is
+a clear indication about the bullish or bearish
+
+24
+00:01:51,030 --> 00:01:54,750
+clouds hanging above the trading period.
+
+25
+00:01:54,750 --> 00:01:59,690
+Heikin-ashi candles make it easier to identify
+and follow trends.
+
+26
+00:01:59,690 --> 00:02:03,640
+Green bodies with no lower shadows show an
+uptrend.
+
+27
+00:02:03,640 --> 00:02:09,920
+On the other hand, red bodies with no upper
+shadows represent the price being in a short
+
+28
+00:02:09,920 --> 00:02:11,270
+or longer downtrend.
+
+29
+00:02:11,270 --> 00:02:19,210
+A doji-like modified candle with shadows emerging
+after an uptrend or downtrend suggests a reversal.
+
+30
+00:02:19,210 --> 00:02:25,700
+Finally, price consolidations are translated
+as sequences of two or more heikin-ashi doji-like
+
+31
+00:02:25,700 --> 00:02:26,810
+candles.
+
+32
+00:02:26,810 --> 00:02:31,750
+With heikin-ashi candles, the sentiment is
+measured by the color and size of the candle
+
+33
+00:02:31,750 --> 00:02:35,560
+bodies together with the position of the shadows.
+
+34
+00:02:35,560 --> 00:02:41,640
+Big green and red bodies are features of solid
+underlying trends.
+
+35
+00:02:41,640 --> 00:02:44,650
+Smaller bodies warn about trend exhaustion.
+
+36
+00:02:44,650 --> 00:02:51,410
+A doji-like candle that follows a sequence
+of green or red modified candles raises caution
+
+37
+00:02:51,410 --> 00:02:57,480
+about either a reversal or the beginning of
+a consolidation.
+
+38
+00:02:57,480 --> 00:03:02,840
+While Japanese candlestick theory requires
+many definitions and flexible interpretation
+
+39
+00:03:02,840 --> 00:03:08,790
+rules for most common and exotic patterns,
+the heikin-ashi technique works with only
+
+40
+00:03:08,790 --> 00:03:10,290
+the five simple rules.
+
+41
+00:03:10,290 --> 00:03:11,290
+1.
+
+42
+00:03:11,290 --> 00:03:14,850
+A sequence of green bodies identifies an uptrend.
+
+43
+00:03:14,850 --> 00:03:18,550
+A sequence of red bodies identifies a downtrend.
+
+44
+00:03:18,550 --> 00:03:19,550
+2.
+
+45
+00:03:19,550 --> 00:03:25,319
+The uptrend gets stronger with longer green
+bodies and no lower shadows.
+
+46
+00:03:25,319 --> 00:03:30,100
+The downtrend gets stronger with longer red
+bodies and no upper shadows.
+
+47
+00:03:30,100 --> 00:03:31,100
+3.
+
+48
+00:03:31,100 --> 00:03:36,590
+The trend gets weaker with smaller bodies
+and, possibly, with the emergence of both
+
+49
+00:03:36,590 --> 00:03:38,170
+lower and upper shadows.
+
+50
+00:03:38,170 --> 00:03:39,170
+4.
+
+51
+00:03:39,170 --> 00:03:44,850
+A consolidation is revealed when a series
+of smaller bodies with both upper and lower
+
+52
+00:03:44,850 --> 00:03:46,140
+shadows emerge.
+
+53
+00:03:46,140 --> 00:03:47,140
+5.
+
+54
+00:03:47,140 --> 00:03:52,770
+A trend reversal is likely with the emergence
+of a small body with long upper and lower
+
+55
+00:03:52,770 --> 00:03:59,069
+shadows (doji-like candle) or a sudden color
+change.
+
+56
+00:03:59,069 --> 00:04:04,640
+Multiple time frame analysis in trading requires
+an increased attention because of the better
+
+57
+00:04:04,640 --> 00:04:08,450
+odds in catching trends and remaining in them
+longer.
+
+58
+00:04:08,450 --> 00:04:12,850
+Obviously if an uptrend is just starting in
+daily (tfi), weekly (tf2), and monthly (tf3)
+
+59
+00:04:12,850 --> 00:04:18,209
+time frames, the winning odds for a long entry
+now are far bigger than when the entry is
+
+60
+00:04:18,209 --> 00:04:24,240
+initiated in a daily time frame with weekly
+and monthly charts casting bearish signals.
+
+61
+00:04:24,240 --> 00:04:30,599
+The ideal scenario is to have trend alignment
+in all three time horizons and to initiate
+
+62
+00:04:30,599 --> 00:04:33,580
+the trade as early as possible in the trend.
+
+63
+00:04:33,580 --> 00:04:39,250
+As a compromise, two consecutive time frames
+may replace the ideal scenario.
+
+64
+00:04:39,250 --> 00:04:45,979
+So, one option is to work only with two consecutive
+time frames instead of three and to apply
+
+65
+00:04:45,979 --> 00:04:50,520
+a simple strategy:
+• buy when the current modified candle color
+
+66
+00:04:50,520 --> 00:04:55,449
+changes from red to green in the two consecutive
+time frames.
+
+67
+00:04:55,449 --> 00:05:00,439
+• sell when the current modified candle
+color changes from green to red in the two
+
+68
+00:05:00,439 --> 00:05:04,289
+consecutive time frames.
+
+69
+00:05:04,289 --> 00:05:08,319
+Another great strategy involves the RSI indicator.
+
+70
+00:05:08,319 --> 00:05:14,620
+There are three horizontal lines plotted on
+RSI indicator window: 30, 50, and 70.
+
+71
+00:05:14,620 --> 00:05:21,249
+RSI 50 level can be used as a strong tool
+to confirm the different kinds of trade setups
+
+72
+00:05:21,249 --> 00:05:22,889
+using Heikin Ashi.
+
+73
+00:05:22,889 --> 00:05:28,349
+I mainly prefer to use the relative strength
+index (RSI) indicator for centerline crossovers.
+
+74
+00:05:28,349 --> 00:05:33,690
+A movement from below the centerline (50)
+to above indicates a rising trend.
+
+75
+00:05:33,690 --> 00:05:39,360
+A rising centerline crossover occurs when
+the RSI value crosses above the 50 line on
+
+76
+00:05:39,360 --> 00:05:42,389
+the scale, moving towards the 70 line.
+
+77
+00:05:42,389 --> 00:05:48,089
+This indicates the market trend is increasing
+in strength, and is seen as a bullish signal
+
+78
+00:05:48,089 --> 00:05:51,710
+until the RSI approaches the 70 line.
+
+79
+00:05:51,710 --> 00:05:56,699
+A movement from above the centerline (50)
+to below indicates a falling trend.
+
+80
+00:05:56,699 --> 00:06:02,589
+A falling centerline crossover occurs when
+the RSI value crosses below the 50 line on
+
+81
+00:06:02,589 --> 00:06:06,289
+the scale, moving towards the 30 line.
+
+82
+00:06:06,289 --> 00:06:11,930
+This indicates the market trend is weakening
+in strength, and is seen as a bearish signal
+
+83
+00:06:11,930 --> 00:06:16,729
+until the RSI approaches the 30 line.
+
+84
+00:06:16,729 --> 00:06:21,869
+A simple strategy would be to
+• buy when the current modified candle color
+
+85
+00:06:21,869 --> 00:06:28,039
+changes from red to green and the RSI is above
+50
+
+86
+00:06:28,039 --> 00:06:33,389
+• sell when the current modified candle
+color changes from green to red and the RSI
+
+87
+00:06:33,389 --> 00:06:35,860
+in below 50.
+
+88
+00:06:35,860 --> 00:06:40,550
+This way you have additional confirmation
+that you are in a healthy trend, determined
+
+89
+00:06:40,550 --> 00:06:44,449
+by both Heikin Ashi and RSI centerline.
+
+90
+00:06:44,449 --> 00:06:49,819
+For an uptrend, you want to see the Heikin
+Ashi trend built primarily by bullish candles
+
+91
+00:06:49,819 --> 00:06:55,400
+and absent of lower candlewicks, with the
+RSI above 50.
+
+92
+00:06:55,400 --> 00:07:01,080
+When the price is shooting up, the price action
+creates very little to no lower shadows.
+
+93
+00:07:01,080 --> 00:07:07,800
+The bearish scenario has the same functions
+as the bullish one but in the opposite direction.
+
+94
+00:07:07,800 --> 00:07:12,669
+This means that it is built mainly by bearish
+Heikin Ashi candles.
+
+95
+00:07:12,669 --> 00:07:17,849
+You want to see a strong bearish trend on
+the Heikin Ashi graph that has very little
+
+96
+00:07:17,849 --> 00:07:23,870
+to no upper candle shadows, in addition to
+the RSI below 50 level.
+
+97
+00:07:23,870 --> 00:07:25,300
+Simple, and powerful.
+
+98
+00:07:25,300 --> 00:07:46,809
+Here are some examples of uptrends and downtrends,
+using this approach.
+
+99
+00:07:46,809 --> 00:07:50,749
+The second strategy involves the Ichimoku
+indicator.
+
+100
+00:07:50,749 --> 00:07:55,710
+The Ichimoku cloud consists of several components
+which give it a unique capacity to detect
+
+101
+00:07:55,710 --> 00:07:58,629
+trends, to determine whether we are in a trend,
+its direction and when the trend reverses.
+
+102
+00:07:58,629 --> 00:08:05,800
+One of the components is the Kumo cloud which
+is one of the most unique aspects of the Ichimoku.
+
+103
+00:08:05,800 --> 00:08:12,339
+The Kumo is typically looked at in terms of
+support and resistance; if it is thick, then
+
+104
+00:08:12,339 --> 00:08:17,559
+the support/resistance is strong (depending
+on the position of price in relation to the
+
+105
+00:08:17,559 --> 00:08:18,559
+cloud).
+
+106
+00:08:18,559 --> 00:08:24,319
+By contrast, if it is thin, then the s/r levels
+are considered weak.
+
+107
+00:08:24,319 --> 00:08:30,449
+Generally, if the price is above the Kumo,
+then there is an uptrend in place and/or more
+
+108
+00:08:30,449 --> 00:08:31,849
+buying opportunities.
+
+109
+00:08:31,849 --> 00:08:38,260
+If the price is below the Kumo, then it is
+under resistance and it is better to be looking
+
+110
+00:08:38,260 --> 00:08:41,810
+for shorts instead of longs.
+
+111
+00:08:41,810 --> 00:08:47,310
+The longer price action stays above or below
+the Kumo, the stronger the trend and the more
+
+112
+00:08:47,310 --> 00:08:52,050
+support/resistance the Kumo offers.
+
+113
+00:08:52,050 --> 00:08:57,180
+A simple strategy would be to
+• buy when the current modified candle color
+
+114
+00:08:57,180 --> 00:09:03,379
+changes from red to green, Kumo cloud is green
+and price is above the cloud
+
+115
+00:09:03,379 --> 00:09:10,430
+• sell when the current modified candle
+color changes from green to red, Kumo cloud
+
+116
+00:09:10,430 --> 00:09:16,339
+is red and price is below the cloud
+For an uptrend, you want to see the Heikin
+
+117
+00:09:16,339 --> 00:09:23,060
+Ashi trend built primarily by bullish candles
+and absent of lower candlewicks, and the candles
+
+118
+00:09:23,060 --> 00:09:25,209
+above the Kumo cloud.
+
+119
+00:09:25,209 --> 00:09:31,370
+A strong bearish trend consists of Heikin
+Ashi that has very little to no upper candle
+
+120
+00:09:31,370 --> 00:09:34,670
+shadows, in addition to the price below Kumo
+cloud.
+
+121
+00:09:34,670 --> 00:09:36,470
+Again, simple, and effective.
+
+122
+00:09:36,470 --> 00:09:58,029
+Here are other examples of trends using Heikin
+Ashi and Ichimoku cloud.
+
+123
+00:09:58,029 --> 00:10:02,839
+If you learned something new and found value,
+leave us a like to show your support and don’t
+
+124
+00:10:02,839 --> 00:10:07,269
+forget to subscribe and hit the bell icon
+to stay in touch with new uploads.
+
+125
+00:10:07,269 --> 00:10:07,630
+Until next time.
+

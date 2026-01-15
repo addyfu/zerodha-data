@@ -1,0 +1,681 @@
+1
+00:00:01,090 --> 00:00:05,630
+The VWAP is one of the best trading indicators
+for determining intraday momentum.
+
+2
+00:00:05,630 --> 00:00:10,750
+VWAP, meaning the Volume-Weighted-Average-Price,
+tells you a very important piece of information:
+
+3
+00:00:10,750 --> 00:00:15,030
+the average price at which an instrument is
+traded over a given period of time.
+
+4
+00:00:15,030 --> 00:00:20,360
+Basically, is the total amount of money transacted
+during some period divided by the total amount
+
+5
+00:00:20,360 --> 00:00:23,350
+of volume that traded over the same time frame.
+
+6
+00:00:23,350 --> 00:00:28,140
+While VWAP is no holy grail, it is an effective
+instrument for differentiating between random
+
+7
+00:00:28,140 --> 00:00:32,140
+(meaning choppy price action) and non-random
+(meaning trending behaviour).
+
+8
+00:00:32,140 --> 00:00:37,230
+That why, in today’s video I will share
+how I use the VWAP to time my entries and
+
+9
+00:00:37,230 --> 00:00:41,430
+I’ll show you the precise pattern I search
+for when I’m day trading stocks.
+
+10
+00:00:41,430 --> 00:00:47,060
+VWAP represents the market's True Average
+Price over the plotted length of time, most
+
+11
+00:00:47,060 --> 00:00:48,440
+commonly a trading day.
+
+12
+00:00:48,440 --> 00:00:53,399
+While the other popular technical indicators
+are displaying data based on a recent number
+
+13
+00:00:53,399 --> 00:00:56,300
+of candles, the VWAP has a cumulative nature.
+
+14
+00:00:56,300 --> 00:01:00,540
+That’s the problem with periodic indicators,
+like moving averages for example.
+
+15
+00:01:00,540 --> 00:01:06,159
+Let’s say you selected a 10ema or a 20sma
+to trade with.
+
+16
+00:01:06,159 --> 00:01:11,560
+Data from beyond the look-back period you’ve
+selected is no longer factored into the calculation,
+
+17
+00:01:11,560 --> 00:01:14,270
+leaving you with an incomplete picture of
+the market.
+
+18
+00:01:14,270 --> 00:01:18,979
+VWAP’s cumulative nature allows you to see
+the full picture develop over the course of
+
+19
+00:01:18,979 --> 00:01:21,719
+the day while factoring in each candle.
+
+20
+00:01:21,719 --> 00:01:26,340
+No piece of data gets left behind, as each
+transaction that has occurred should factor
+
+21
+00:01:26,340 --> 00:01:31,369
+into how you interpret the current state of
+the market and what's most likely to happen
+
+22
+00:01:31,369 --> 00:01:32,549
+next.
+
+23
+00:01:32,549 --> 00:01:36,819
+Unlike traditional moving averages which simply
+sum up the closing price of an instrument
+
+24
+00:01:36,819 --> 00:01:42,429
+traded and divide it by a number of predetermined
+periods, the VWAP gives you the true average
+
+25
+00:01:42,429 --> 00:01:49,719
+price of the instrument by additionally considering
+the transaction volume at a specific price.
+
+26
+00:01:49,719 --> 00:01:54,570
+In addition to providing increased context,
+the cumulative calculation of VWAP prevents
+
+27
+00:01:54,570 --> 00:01:59,989
+confusion regarding selected chart time frames
+and indicator settings that exist in nearly
+
+28
+00:01:59,989 --> 00:02:01,890
+every other piece of technical analysis.
+
+29
+00:02:01,890 --> 00:02:07,319
+It doesn’t matter if you use a 1-minute
+chart, a 30-min chart, or anything in between.
+
+30
+00:02:07,319 --> 00:02:09,230
+There is only one intraday VWAP.
+
+31
+00:02:09,230 --> 00:02:14,090
+Flipping between time frames will affect only
+the display of the VWAP behavior, but the
+
+32
+00:02:14,090 --> 00:02:16,230
+calculation remains constant.
+
+33
+00:02:16,230 --> 00:02:21,849
+The same can’t be said for periodic indicators,
+where a 20-period moving average on a 1-minute
+
+34
+00:02:21,849 --> 00:02:26,421
+chart will often look drastically different
+than it would with any other period, like
+
+35
+00:02:26,421 --> 00:02:29,069
+the 5-minute chart.
+
+36
+00:02:29,069 --> 00:02:34,209
+The reason why VWAP is highly effective is
+because it acts like a magnet, either attracting
+
+37
+00:02:34,209 --> 00:02:35,620
+or repelling the price.
+
+38
+00:02:35,620 --> 00:02:40,709
+For this reason, VWAP indicator can help you
+to identify support and resistance levels.
+
+39
+00:02:40,709 --> 00:02:45,629
+Since the indicator averages the total periods
+for the day, it has psychological meaning
+
+40
+00:02:45,629 --> 00:02:46,629
+on the chart.
+
+41
+00:02:46,629 --> 00:02:51,719
+If the price approaches the VWAP from below
+and starts hesitating in the area, then the
+
+42
+00:02:51,719 --> 00:02:53,550
+VWAP may be considered resistance.
+
+43
+00:02:53,550 --> 00:02:58,579
+If this happens in the opposite direction,
+then the indicator might be able to support
+
+44
+00:02:58,579 --> 00:03:01,400
+the price, creating a bullish movement.
+
+45
+00:03:01,400 --> 00:03:08,280
+Now that we covered the basics of VWAP, let’s
+see how we can apply it to day trading and
+
+46
+00:03:08,280 --> 00:03:09,280
+scalping.
+
+47
+00:03:09,280 --> 00:03:13,940
+Considering that the VWAP offers dynamic support
+or resistance through the day, the trading
+
+48
+00:03:13,940 --> 00:03:18,019
+plan would be:
+• to identify a probable trend that's expected
+
+49
+00:03:18,019 --> 00:03:21,580
+to continue
+• and to enter the trade around VWAP area
+
+50
+00:03:21,580 --> 00:03:23,640
+with defined risk
+
+51
+00:03:23,640 --> 00:03:28,230
+If you analyze any chart, you will notice
+that when stocks go on strong trends and get
+
+52
+00:03:28,230 --> 00:03:33,849
+extended from the VWAP, they will at some
+point pullback before the continuing trend.
+
+53
+00:03:33,849 --> 00:03:36,639
+Waiting for this pullback takes patience.
+
+54
+00:03:36,639 --> 00:03:41,459
+Most novice traders chase the stock when it
+is going up, and then sell for a loss because
+
+55
+00:03:41,459 --> 00:03:43,629
+they bought when it was extended.
+
+56
+00:03:43,629 --> 00:03:48,390
+The stock almost always pulls back to its
+VWAP at some point during the trading day.
+
+57
+00:03:48,390 --> 00:03:53,019
+That’s why it’s better to wait for the
+pullback and don’t chase the market.
+
+58
+00:03:53,019 --> 00:03:57,909
+This gives you better Reward vs Risk on your
+trades and helps you time your entries and
+
+59
+00:03:57,909 --> 00:03:58,909
+exits.
+
+60
+00:03:58,909 --> 00:04:05,040
+So the idea is to buy a retracement to VWAP
+after a strong upward move and to sell the
+
+61
+00:04:05,040 --> 00:04:08,319
+retracement after a strong downward move.
+
+62
+00:04:08,319 --> 00:04:13,639
+But this strategy alone isn’t enough to
+record consistent results.
+
+63
+00:04:13,639 --> 00:04:17,000
+Often times, the price will cut though the
+VWAP with ease.
+
+64
+00:04:17,000 --> 00:04:21,560
+It’s not about taking a signal, it’s about
+filtering and trading only the high quality
+
+65
+00:04:21,560 --> 00:04:22,600
+setups.
+
+66
+00:04:22,600 --> 00:04:27,190
+The greatest value of a trading setup is not
+the entry it offers, but the stop-loss it
+
+67
+00:04:27,190 --> 00:04:28,260
+implies.
+
+68
+00:04:28,260 --> 00:04:32,150
+For VWAP setups, our stop-loss is always on
+the other side of it.
+
+69
+00:04:32,150 --> 00:04:37,600
+A high quality setup offers a reliable stop-loss
+point that the market is unlikely to hit in
+
+70
+00:04:37,600 --> 00:04:38,930
+the near future.
+
+71
+00:04:38,930 --> 00:04:43,950
+The stop-loss of a high quality VWAP setup
+is often a solid support point in a bullish
+
+72
+00:04:43,950 --> 00:04:48,430
+market or a resistance point in a bearish
+market.
+
+73
+00:04:48,430 --> 00:04:53,830
+Remember this: a high quality VWAP setup usually
+occurs at a key support or resistance level.
+
+74
+00:04:53,830 --> 00:05:00,020
+A long trading setup at a support area is
+superior to one that is located in “no man’s
+
+75
+00:05:00,020 --> 00:05:01,020
+land”.
+
+76
+00:05:01,020 --> 00:05:05,550
+A short trading setup is more promising if
+it appears as the market tests a resistance
+
+77
+00:05:05,550 --> 00:05:07,729
+area.
+
+78
+00:05:07,729 --> 00:05:12,400
+So there are 2 factors you should consider
+in assessing the quality of a VWAP trading
+
+79
+00:05:12,400 --> 00:05:13,400
+setup.
+
+80
+00:05:13,400 --> 00:05:19,340
+First is the VWAP line on your chart and second,
+as we target a pullback of a stock, the 50%
+
+81
+00:05:19,340 --> 00:05:21,110
+Fibonacci retracement.
+
+82
+00:05:21,110 --> 00:05:25,430
+What I’ve found out when I was analyzing
+trends is that most major moves, and many
+
+83
+00:05:25,430 --> 00:05:30,389
+minor ones, will eventually retrace to around
+the 50% level of the move.
+
+84
+00:05:30,389 --> 00:05:35,259
+That’s why I started to pay extra attention
+to these areas.
+
+85
+00:05:35,259 --> 00:05:40,870
+To draw effective support/resistance levels
+using the concept of 50% retracement, the
+
+86
+00:05:40,870 --> 00:05:43,139
+key is the price move you choose.
+
+87
+00:05:43,139 --> 00:05:47,770
+The price move must be a strong one that has
+momentum on its side.
+
+88
+00:05:47,770 --> 00:05:53,590
+I primarily only use the 50% level, but for
+me it is an ‘approximate’ 50% retrace,
+
+89
+00:05:53,590 --> 00:06:00,060
+and that means if a valid signal forms near
+the 50% level, say anywhere from a 50% retrace
+
+90
+00:06:00,060 --> 00:06:05,430
+to a 60% retrace, I will also count that as
+a valid retrace.
+
+91
+00:06:05,430 --> 00:06:12,750
+Now, the strategy is all about finding confluence
+between VWAP and the 50% FIB level.
+
+92
+00:06:12,750 --> 00:06:16,169
+For a long signal:
+We look for a bullish price move that clears
+
+93
+00:06:16,169 --> 00:06:19,990
+above a previous swing high with strong momentum.
+
+94
+00:06:19,990 --> 00:06:26,199
+We mark out a “retracement zone” between
+50% and 61.8% of the price move.
+
+95
+00:06:26,199 --> 00:06:31,820
+If price falls down to the retracement zone
+and the VWAP offers additional support, we
+
+96
+00:06:31,820 --> 00:06:36,319
+aim to buy a possible rejection of that area.
+
+97
+00:06:36,319 --> 00:06:39,460
+In this example, we have a first strong upswing.
+
+98
+00:06:39,460 --> 00:06:44,229
+We have consecutive bullish bars which rose
+above the last swing high
+
+99
+00:06:44,229 --> 00:06:49,910
+We drew the 50% and 61.8% retracement levels
+of the bullish move.
+
+100
+00:06:49,910 --> 00:06:53,220
+The area between them is the retracement zone.
+
+101
+00:06:53,220 --> 00:06:58,229
+This sharp retracement down found support
+at the VWAP, right in the retracement zone.
+
+102
+00:06:58,229 --> 00:07:02,250
+The candlesticks that followed had lower shadows
+implying bullish pressure.
+
+103
+00:07:02,250 --> 00:07:07,910
+Thus, the confluence area between VWAP and
+50% zone was a valid signal and offered a
+
+104
+00:07:07,910 --> 00:07:09,419
+high probability trade.
+
+105
+00:07:09,419 --> 00:07:17,319
+Stop loss below the confluence area and ideally,
+aim for at least 1:1.5 risk reward ratio.
+
+106
+00:07:17,319 --> 00:07:21,849
+Please bear in mind that you should evaluate
+the market bias before assessing individual
+
+107
+00:07:21,849 --> 00:07:23,110
+trading setups.
+
+108
+00:07:23,110 --> 00:07:26,889
+The market bias trumps any individual VWAP
+trading setup.
+
+109
+00:07:26,889 --> 00:07:31,470
+If you get the market bias wrong, regardless
+of the quality of the trading setup, it will
+
+110
+00:07:31,470 --> 00:07:34,909
+not work out over the long run.
+
+111
+00:07:34,909 --> 00:07:38,479
+For a short signal:
+Look for a bearish price move that clears
+
+112
+00:07:38,479 --> 00:07:41,490
+below the previous swing low with strong momentum.
+
+113
+00:07:41,490 --> 00:07:48,110
+Mark out a “retracement zone” between
+50% and 61.8% of the price move.
+
+114
+00:07:48,110 --> 00:07:54,479
+If price rises up to the retracement zone
+and the VWAP offers additional resistance,
+
+115
+00:07:54,479 --> 00:07:58,729
+we aim to sell a possible rejection of that
+area.
+
+116
+00:07:58,729 --> 00:08:02,949
+Here we have a bearish move that brought the
+market to a new low for the day.
+
+117
+00:08:02,949 --> 00:08:08,860
+With this bearish move, we drew a 50% retracement
+zone, which also aligned with the VWAP
+
+118
+00:08:08,860 --> 00:08:13,470
+As the price reached the confluence area,
+we had a trendline breakout which offered
+
+119
+00:08:13,470 --> 00:08:17,570
+additional confirmation that the bears are
+in control of that area.
+
+120
+00:08:17,570 --> 00:08:22,240
+Given the confluence of resistance levels
+and VWAP, this trading signal was valid.
+
+121
+00:08:22,240 --> 00:08:26,889
+More specifically, the entry timing offered
+by the setup was appealing.
+
+122
+00:08:26,889 --> 00:08:32,860
+The advantage here is that VWAP is more responsive
+to price movements on significant volume versus
+
+123
+00:08:32,860 --> 00:08:34,730
+those with less money behind them.
+
+124
+00:08:34,730 --> 00:08:40,970
+As VWAP absorbs more price and volume data
+over time, it becomes more resistant to random
+
+125
+00:08:40,970 --> 00:08:42,810
+oscillations and sudden shifts
+
+126
+00:08:42,810 --> 00:08:54,850
+Here are other examples of valid VWAP trades.
+
+127
+00:08:54,850 --> 00:09:08,500
+One of the reasons I prefer trading with VWAP
+is its ability to eliminate the noise that
+
+128
+00:09:08,500 --> 00:09:10,400
+occurs throughout the trading session.
+
+129
+00:09:10,400 --> 00:09:15,710
+Knowing the price at which a majority of the
+volume has traded makes it easier to evaluate
+
+130
+00:09:15,710 --> 00:09:18,140
+a good level to buy or sell.
+
+131
+00:09:18,140 --> 00:09:22,960
+Also, remember that the best setups often
+appear together or close to one another.
+
+132
+00:09:22,960 --> 00:09:28,400
+By looking for a confluence of patterns, we
+are able to identify the high quality setups.
+
+133
+00:09:28,400 --> 00:09:33,170
+The point is that when you find clusters of
+trading setups pointing in the same direction,
+
+134
+00:09:33,170 --> 00:09:34,730
+you find quality.
+
+135
+00:09:34,730 --> 00:09:40,370
+An additional tip is to focus trading this
+setup on large-cap equities with sufficient
+
+136
+00:09:40,370 --> 00:09:46,540
+average daily volume, typically familiar names
+that move smoothly and follow VWAP levels.
+
+137
+00:09:46,540 --> 00:09:50,940
+Also avoid pre and post market and the first
+15 minutes after the open.
+
+138
+00:09:50,940 --> 00:09:57,560
+VWAP tends to be jumpy and unreliable during
+those periods while it establishes itself.
+
+139
+00:09:57,560 --> 00:10:02,260
+Remember to apply money management rules when
+trading based on the VWAP indicator, and it
+
+140
+00:10:02,260 --> 00:10:07,350
+would hurt to look for additional confirmation
+signals from candlestick patterns, chart patterns,
+
+141
+00:10:07,350 --> 00:10:10,090
+or other price action signals.
+
+142
+00:10:10,090 --> 00:10:13,650
+As always, if you learned something new and
+found value, leave us a like to show your
+
+143
+00:10:13,650 --> 00:10:18,260
+support, subscribe to our channel and hit
+the bell icon to stay notified when we upload
+
+144
+00:10:18,260 --> 00:10:19,300
+new videos.
+
+145
+00:10:19,300 --> 00:10:19,810
+Until next time.
+

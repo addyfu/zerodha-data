@@ -1,0 +1,931 @@
+1
+00:00:00,309 --> 00:00:05,570
+What if I told you the big banks and hedge
+funds can actually control the markets?
+
+2
+00:00:05,570 --> 00:00:11,559
+And that with a little observation, you could
+easily spot their moves before anyone else.
+
+3
+00:00:11,559 --> 00:00:14,290
+Volume price analysis is the answer.
+
+4
+00:00:14,290 --> 00:00:18,930
+The volume price analysis is based on the
+idea that big players like banks and hedge
+
+5
+00:00:18,930 --> 00:00:22,700
+funds manipulate the market behind the scenes.
+
+6
+00:00:22,700 --> 00:00:27,590
+Once you accept that, you can assume that
+these big players know where the market is
+
+7
+00:00:27,590 --> 00:00:30,180
+going before anyone else.
+
+8
+00:00:30,180 --> 00:00:34,379
+If that's true, then all you need to do is
+follow their moves.
+
+9
+00:00:34,379 --> 00:00:38,340
+You want to buy what they're buying and sell
+what they're selling.
+
+10
+00:00:38,340 --> 00:00:43,860
+And when they're not actively participating,
+you should stay out of the market too.
+
+11
+00:00:43,860 --> 00:00:47,010
+So these are the simple concepts behind this
+trading method.
+
+12
+00:00:47,010 --> 00:00:52,570
+And we can see what the big players are doing
+by paying attention to price and volume.
+
+13
+00:00:52,570 --> 00:00:58,079
+Basically, even though these big traders try
+to hide their moves, there's one thing they
+
+14
+00:00:58,079 --> 00:01:00,490
+can't hide - the volume.
+
+15
+00:01:00,490 --> 00:01:05,420
+Since they handle such huge amounts of money,
+it's obvious when they're getting into or
+
+16
+00:01:05,420 --> 00:01:09,020
+out of a market because the volume will increase.
+
+17
+00:01:09,020 --> 00:01:15,630
+On the other hand, if the price jumps but
+the volume stays low, that usually means the
+
+18
+00:01:15,630 --> 00:01:20,930
+big traders are just manipulating the market
+but not actually putting in any real money
+
+19
+00:01:20,930 --> 00:01:22,150
+themselves.
+
+20
+00:01:22,150 --> 00:01:25,930
+So you have to be careful of traps in those
+cases.
+
+21
+00:01:25,930 --> 00:01:30,940
+Only by keeping an eye on both price and volume
+together, you can read what those banks and
+
+22
+00:01:30,940 --> 00:01:32,479
+hedge funds are up to.
+
+23
+00:01:32,479 --> 00:01:37,710
+And once you know where they're putting their
+money to work, you've got a good idea of where
+
+24
+00:01:37,710 --> 00:01:40,700
+the market is likely headed next.
+
+25
+00:01:40,700 --> 00:01:47,000
+This Volume Price Analysis (VPA) method was
+developed by Richard Wyckoff back in the day.
+
+26
+00:01:47,000 --> 00:01:50,619
+He came up with three main laws that it's
+based on.
+
+27
+00:01:50,619 --> 00:01:53,250
+First law is about effort and result.
+
+28
+00:01:53,250 --> 00:01:59,290
+Basically, it means the volume, or effort,
+needs to match up with the price move, or
+
+29
+00:01:59,290 --> 00:02:00,490
+result.
+
+30
+00:02:00,490 --> 00:02:04,890
+So if volume is high, you should see a big
+change in price.
+
+31
+00:02:04,890 --> 00:02:08,140
+If they don't line up, something ain't right.
+
+32
+00:02:08,140 --> 00:02:13,620
+You can use anomalies between volume and price
+to figure out if the big players are buying
+
+33
+00:02:13,620 --> 00:02:14,620
+or selling.
+
+34
+00:02:14,620 --> 00:02:18,170
+We’ll talk about them later in the video.
+
+35
+00:02:18,170 --> 00:02:21,300
+Wyckoff's second law is about cause and effect.
+
+36
+00:02:21,300 --> 00:02:23,000
+Basically, about time.
+
+37
+00:02:23,000 --> 00:02:28,170
+If they take a long time to build up a new
+move, you can expect the resulting price change
+
+38
+00:02:28,170 --> 00:02:31,190
+to be large too when it happens.
+
+39
+00:02:31,190 --> 00:02:37,640
+The final law is supply and demand - if supply
+is greater than demand, price will drop.
+
+40
+00:02:37,640 --> 00:02:42,330
+But if demand is bigger than supply, then
+price goes up.
+
+41
+00:02:42,330 --> 00:02:48,610
+These three laws explain how price is always
+rotating between bull and bear markets over
+
+42
+00:02:48,610 --> 00:02:50,879
+different time periods.
+
+43
+00:02:50,879 --> 00:02:54,530
+And volume helps uncover what the big money
+are doing.
+
+44
+00:02:54,530 --> 00:03:00,450
+This trading cycle follows the same pattern
+no matter what time frame you look at, whether
+
+45
+00:03:00,450 --> 00:03:02,970
+it's a 1 minute chart or 1 month chart.
+
+46
+00:03:02,970 --> 00:03:07,720
+Of course, you have the odds in your favor
+when you’re analyzing higher time frames.
+
+47
+00:03:07,720 --> 00:03:11,640
+I prefer to monitor the daily chart when I’m
+analyzing volume.
+
+48
+00:03:11,640 --> 00:03:18,061
+It’s easier this way, 1 candle means 1 trading
+day, and it has more meaning than 1-min time
+
+49
+00:03:18,061 --> 00:03:19,061
+frame.
+
+50
+00:03:19,061 --> 00:03:25,610
+Now, a full rotation between market phases
+happens from the selling climax up to the
+
+51
+00:03:25,610 --> 00:03:29,049
+buying climax and back down again.
+
+52
+00:03:29,049 --> 00:03:34,069
+When I talk about a buying climax, that's
+when these big players are starting selling
+
+53
+00:03:34,069 --> 00:03:36,349
+near the top of a rally.
+
+54
+00:03:36,349 --> 00:03:41,459
+The selling climax is when they're start buying
+at the bottom of a drop.
+
+55
+00:03:41,459 --> 00:03:47,550
+At the buying climax, the market has been
+moving up so long that little guys are terrified
+
+56
+00:03:47,550 --> 00:03:48,950
+of missing out.
+
+57
+00:03:48,950 --> 00:03:54,800
+Eventually they cave and jump in right as
+the big players start their selling into a
+
+58
+00:03:54,800 --> 00:03:56,640
+weakening market.
+
+59
+00:03:56,640 --> 00:04:01,320
+Volatile price action and news are used to
+dump their positions.
+
+60
+00:04:01,320 --> 00:04:07,670
+FOMO, or fear of missing out, is a powerful
+emotion the big traders use to their full
+
+61
+00:04:07,670 --> 00:04:13,670
+advantage getting the little retail guys to
+buy at highs.
+
+62
+00:04:13,670 --> 00:04:18,980
+Once their positions are cleared, they start
+planning the next phase.
+
+63
+00:04:18,980 --> 00:04:24,350
+The selling climax happens when the big money
+players need to refill their positions.
+
+64
+00:04:24,350 --> 00:04:31,120
+At this point, fear of losing money triggers
+everyone else to bail their positions.
+
+65
+00:04:31,120 --> 00:04:36,759
+Quickly, the big players crash the price down
+usually because of some news.
+
+66
+00:04:36,759 --> 00:04:42,419
+Then retail traders panic sell right into
+the big guys' buy orders.
+
+67
+00:04:42,419 --> 00:04:49,009
+Once they've accumulated enough, the big guys
+jump in to stop the market from falling further.
+
+68
+00:04:49,009 --> 00:04:52,480
+And then a next phase begins.
+
+69
+00:04:52,480 --> 00:04:56,990
+This also explains why markets drop faster
+than they rise.
+
+70
+00:04:56,990 --> 00:05:02,580
+Smart money have all the time in the world
+to let prices rise to make their big profits.
+
+71
+00:05:02,580 --> 00:05:04,539
+They actually plan everything out.
+
+72
+00:05:04,539 --> 00:05:11,150
+The worst thing would be getting overwhelmed
+by too much buying or selling early, wrecking
+
+73
+00:05:11,150 --> 00:05:12,820
+their new plan.
+
+74
+00:05:12,820 --> 00:05:16,949
+That's why before starting a new campaign,
+they run a quick test.
+
+75
+00:05:16,949 --> 00:05:22,980
+Once the big accumulation phase finishes at
+the sellling climax, before they launch their
+
+76
+00:05:22,980 --> 00:05:26,100
+new campaign, they run a quick test.
+
+77
+00:05:26,100 --> 00:05:30,660
+This makes sure any leftover sellers have
+been soaked up.
+
+78
+00:05:30,660 --> 00:05:37,130
+Doing so ensures the upcoming bull run can
+unfold smoothly without any major sellers
+
+79
+00:05:37,130 --> 00:05:38,730
+pulling it down.
+
+80
+00:05:38,730 --> 00:05:44,080
+The test involves a small downward price push,
+below support.
+
+81
+00:05:44,080 --> 00:05:46,240
+Volume staying low confirms it.
+
+82
+00:05:46,240 --> 00:05:48,280
+They call it a "supply test".
+
+83
+00:05:48,280 --> 00:05:53,440
+If it passes with low volume, their next buying
+campaign has the green light.
+
+84
+00:05:53,440 --> 00:06:00,820
+Similarly, at the end of the big rally (buying
+climax), a "demand test" happens before the
+
+85
+00:06:00,820 --> 00:06:02,250
+bearish campaign.
+
+86
+00:06:02,250 --> 00:06:09,139
+The big guys briefly send it higher, often
+times above resistance – and no extra demand
+
+87
+00:06:09,139 --> 00:06:11,960
+means it will fail back with ease.
+
+88
+00:06:11,960 --> 00:06:15,050
+This confirms no major buyers are around.
+
+89
+00:06:15,050 --> 00:06:21,030
+So, the whole premise of understanding the
+volume price analysis is accepting the big
+
+90
+00:06:21,030 --> 00:06:25,320
+players control and manipulate everything
+behind the scenes.
+
+91
+00:06:25,320 --> 00:06:31,460
+The only thing we need to know is when they're
+actively buying, selling or sitting out a
+
+92
+00:06:31,460 --> 00:06:32,460
+move.
+
+93
+00:06:32,460 --> 00:06:38,690
+In my approach, watching each daily candle,
+monitoring price changes and volume, helps
+
+94
+00:06:38,690 --> 00:06:44,880
+me with that, by looking if those two factors
+sync up or contradict each other.
+
+95
+00:06:44,880 --> 00:06:50,080
+If the price and volume are high, then the
+big players are steering things and are in
+
+96
+00:06:50,080 --> 00:06:52,040
+the driver's seat.
+
+97
+00:06:52,040 --> 00:06:55,419
+But if they are in disagreement, things are
+suspect.
+
+98
+00:06:55,419 --> 00:07:01,699
+One of the most important areas on the price
+chart is when a market is in congestion, as
+
+99
+00:07:01,699 --> 00:07:10,350
+markets spend 70% to 80% of their time in
+such regions, and only 20% of the time trending.
+
+100
+00:07:10,350 --> 00:07:16,080
+It's real simple - these are the areas where
+new moves are cooked up by the big players
+
+101
+00:07:16,080 --> 00:07:19,560
+planning for the next part of their plan.
+
+102
+00:07:19,560 --> 00:07:26,539
+Could be huge areas like right before a big
+sell-off or rally, or even maybe smaller moves
+
+103
+00:07:26,539 --> 00:07:31,500
+where a market has paused in the primary trend.
+
+104
+00:07:31,500 --> 00:07:36,599
+Understanding congestion phases along with
+support and resistance or supply and demand
+
+105
+00:07:36,599 --> 00:07:39,780
+is a key element of volume price analysis.
+
+106
+00:07:39,780 --> 00:07:45,139
+And many traders don't get it or ignore it
+trying to chase trends all the time.
+
+107
+00:07:45,139 --> 00:07:50,789
+The longer a market remains at a price level,
+then the greater the concentration of volume,
+
+108
+00:07:50,789 --> 00:07:56,500
+and price will only continue to move on, once
+the balance of bearish or bullish sentiment
+
+109
+00:07:56,500 --> 00:07:57,950
+shifts.
+
+110
+00:07:57,950 --> 00:08:03,760
+And whenever a breakout happens, volume tells
+you if it's a real move or fake news.
+
+111
+00:08:03,760 --> 00:08:09,610
+So, support and resistance levels, supply
+and demand and price action must be part of
+
+112
+00:08:09,610 --> 00:08:12,590
+this volume analysis.
+
+113
+00:08:12,590 --> 00:08:17,550
+This example shows a wide range candle over
+one trading day.
+
+114
+00:08:17,550 --> 00:08:19,830
+Volume was way above normal.
+
+115
+00:08:19,830 --> 00:08:24,210
+So the trading activity backed up the price
+movement that day.
+
+116
+00:08:24,210 --> 00:08:30,169
+For a move to be real, the effort to push
+it higher should be seen in the volume.
+
+117
+00:08:30,169 --> 00:08:36,290
+That's Wyckoff's third law - it takes effort
+to drive prices up or down, so a big daily
+
+118
+00:08:36,290 --> 00:08:40,880
+change means heavy trading volume backing
+it up.
+
+119
+00:08:40,880 --> 00:08:43,090
+And that's exactly what we got here.
+
+120
+00:08:43,090 --> 00:08:47,920
+Therefore, the volume validates the price
+action as genuine.
+
+121
+00:08:47,920 --> 00:08:53,130
+So the move wasn't secretly manipulated by
+big players or market makers.
+
+122
+00:08:53,130 --> 00:08:58,850
+And for now, the trend is still bullish since
+we don't see anything telling us otherwise
+
+123
+00:08:58,850 --> 00:09:00,970
+yet.
+
+124
+00:09:00,970 --> 00:09:06,400
+This chart shows a narrow body candle with
+wicks on top and bottom.
+
+125
+00:09:06,400 --> 00:09:09,660
+Trading volume was way below average too.
+
+126
+00:09:09,660 --> 00:09:15,760
+Even though the price rose a bit, the move
+was really small so the candle is narrow.
+
+127
+00:09:15,760 --> 00:09:19,110
+Volume backing it up is also low.
+
+128
+00:09:19,110 --> 00:09:24,210
+That's because of Wyckoff's law again - effort
+and result need to match up.
+
+129
+00:09:24,210 --> 00:09:30,119
+If the price only increased a bit (the result),
+then volume (the effort) shouldn't be heavy.
+
+130
+00:09:30,119 --> 00:09:36,279
+So once more, the volume confirms that what
+we're seeing with price action is real.
+
+131
+00:09:36,279 --> 00:09:41,100
+A small daily price increase implies slim
+trading activity.
+
+132
+00:09:41,100 --> 00:09:47,750
+Volume is still validating the price movement
+as genuinely reflecting what's happening behind
+
+133
+00:09:47,750 --> 00:09:50,140
+the scenes.
+
+134
+00:09:50,140 --> 00:09:55,270
+Here we see a wide candle, so the volume should
+match that big move.
+
+135
+00:09:55,270 --> 00:10:02,370
+Instead, volume is low even though price had
+a wide range - and this is a divergence!
+
+136
+00:10:02,370 --> 00:10:08,220
+A large daily candle body usually means heavy
+trading to push it there.
+
+137
+00:10:08,220 --> 00:10:10,840
+But a low volume bar doesn't add up.
+
+138
+00:10:10,840 --> 00:10:17,120
+If I was already in a long position and saw
+this, I'd start questioning the move.
+
+139
+00:10:17,120 --> 00:10:18,630
+Could it be a trap forming?
+
+140
+00:10:18,630 --> 00:10:25,490
+You will see that this divergence pattern
+often shows up at the start of equity sessions.
+
+141
+00:10:25,490 --> 00:10:31,980
+Basically the big money is feeling out sentiment
+in the market by shooting price up to test
+
+142
+00:10:31,980 --> 00:10:33,860
+buyer interest.
+
+143
+00:10:33,860 --> 00:10:35,870
+But again, the move was fake.
+
+144
+00:10:35,870 --> 00:10:43,040
+It's designed to trick traders into weak longs
+and hit their stop losses before price reverses
+
+145
+00:10:43,040 --> 00:10:44,269
+hard.
+
+146
+00:10:44,269 --> 00:10:50,110
+That's why VSA is so powerful - volume reveals
+the truth behind prices.
+
+147
+00:10:50,110 --> 00:10:58,280
+It unmasks the intentions of big players setting
+traps versus real momentum shifts.
+
+148
+00:10:58,280 --> 00:11:03,970
+Now we see a narrow candle range but massive
+volume, which is another mixed signal.
+
+149
+00:11:03,970 --> 00:11:09,290
+By Wyckoff's law, a small price move should
+need low volume, but that's not happening
+
+150
+00:11:09,290 --> 00:11:10,440
+here.
+
+151
+00:11:10,440 --> 00:11:15,850
+There's really only one way to read this - the
+market is starting to look suspect.
+
+152
+00:11:15,850 --> 00:11:22,190
+Patterns like these often show up at turning
+points, like tops of price increases or bottoms
+
+153
+00:11:22,190 --> 00:11:23,889
+of down moves.
+
+154
+00:11:23,889 --> 00:11:30,769
+For example, in an established bullish phase,
+price rises a bit at the open but then the
+
+155
+00:11:30,769 --> 00:11:34,160
+big boys start cashing out their gains.
+
+156
+00:11:34,160 --> 00:11:39,720
+More buyers hop in, but price stops going
+up since the smart money are selling into
+
+157
+00:11:39,720 --> 00:11:43,510
+them and pocketing profits at this level.
+
+158
+00:11:43,510 --> 00:11:49,810
+What's actually happening is this price can't
+keep rising no matter how many buyers jump
+
+159
+00:11:49,810 --> 00:11:54,750
+in because the smart money are constantly
+selling to take profits.
+
+160
+00:11:54,750 --> 00:12:00,899
+So when price and volume tell different stories
+like this, it's signaling underlying weakness
+
+161
+00:12:00,899 --> 00:12:03,750
+in the overall trend.
+
+162
+00:12:03,750 --> 00:12:08,820
+Here we see a rising market with prices following
+volume higher.
+
+163
+00:12:08,820 --> 00:12:11,650
+That's exactly the sync we want to see.
+
+164
+00:12:11,650 --> 00:12:18,149
+The first candle has a small range and volume
+is low, matching the little price move.
+
+165
+00:12:18,149 --> 00:12:19,900
+No issues there.
+
+166
+00:12:19,900 --> 00:12:24,410
+The second candle is wider so its volume should
+be greater.
+
+167
+00:12:24,410 --> 00:12:28,700
+And yes, volume increased along with price
+action.
+
+168
+00:12:28,700 --> 00:12:35,280
+By the third candle's even bigger daily range,
+its volume needs to be really strong.
+
+169
+00:12:35,280 --> 00:12:39,420
+Once again, trading activity backed up the
+result.
+
+170
+00:12:39,420 --> 00:12:43,830
+Price action on the candles has been validated
+by the volume.
+
+171
+00:12:43,830 --> 00:12:50,149
+Price increased higher over the period while
+volume increased with it each step of the
+
+172
+00:12:50,149 --> 00:12:51,149
+way.
+
+173
+00:12:51,149 --> 00:12:57,220
+Everything is lining up between effort and
+result - bullish price action reinforced by
+
+174
+00:12:57,220 --> 00:12:59,490
+heavy buying volume.
+
+175
+00:12:59,490 --> 00:13:02,180
+This is the ideal trend validation.
+
+176
+00:13:02,180 --> 00:13:10,209
+In this example, we see a confirmed uptrend
+starting with a small candle on low volume
+
+177
+00:13:10,209 --> 00:13:12,209
+as expected.
+
+178
+00:13:12,209 --> 00:13:18,340
+The second candle's range increased a bit
+but volume was higher compared to the tiny
+
+179
+00:13:18,340 --> 00:13:20,260
+price action.
+
+180
+00:13:20,260 --> 00:13:26,470
+That's a divergence - a small price move shouldn't
+pump volume that much.
+
+181
+00:13:26,470 --> 00:13:31,920
+Candle no. three was wider but volume decreased
+versus the big move before.
+
+182
+00:13:31,920 --> 00:13:37,630
+It should've been higher too with the bigger
+daily price change.
+
+183
+00:13:37,630 --> 00:13:39,110
+Another warning.
+
+184
+00:13:39,110 --> 00:13:44,820
+Then candle four was a wide range one, yet
+volume dropped again.
+
+185
+00:13:44,820 --> 00:13:47,639
+Multiple mixed signals stacking up now.
+
+186
+00:13:47,639 --> 00:13:52,610
+A wide price swing shouldn't have volume declining
+more.
+
+187
+00:13:52,610 --> 00:13:56,610
+Falling volume conflicts with the ongoing
+bullish run.
+
+188
+00:13:56,610 --> 00:14:00,839
+We have several divergence problems in this
+supposed trend.
+
+189
+00:14:00,839 --> 00:14:06,449
+Things are no longer lining up like they should
+between effort and result.
+
+190
+00:14:06,449 --> 00:14:12,100
+I hope you see how price alone can only tell
+you what a market’s present technical position
+
+191
+00:14:12,100 --> 00:14:18,500
+really is, but not where the trend is probably
+headed, at least not accurately.
+
+192
+00:14:18,500 --> 00:14:24,490
+Volume helps to validate the trend with more
+accuracy and also detects turning points,
+
+193
+00:14:24,490 --> 00:14:27,060
+when to open or close trades.
+
+194
+00:14:27,060 --> 00:14:30,420
+And together, they form a complete picture.
+
+195
+00:14:30,420 --> 00:14:33,970
+Price must go hand in hand with volume.
+
+196
+00:14:33,970 --> 00:14:38,040
+Is it possible to make money trading using
+price action alone?
+
+197
+00:14:38,040 --> 00:14:39,040
+Sure.
+
+198
+00:14:39,040 --> 00:14:42,680
+But price in combination with volume is 10
+times better.
+
+199
+00:14:42,680 --> 00:14:48,079
+First, you see what the CANDLESTICK is telling
+you, then you check the volume, and see if
+
+200
+00:14:48,079 --> 00:14:51,320
+it’s validating or not with the recent price
+action.
+

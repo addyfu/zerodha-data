@@ -1,0 +1,669 @@
+1
+00:00:00,570 --> 00:00:05,560
+You’ve probably heard the word “pullback”
+or “retracement” or “correction” quite
+
+2
+00:00:05,560 --> 00:00:08,970
+frequently if you’re interested in trading
+the financial markets.
+
+3
+00:00:08,970 --> 00:00:10,340
+So, what is a pullback?
+
+4
+00:00:10,340 --> 00:00:15,320
+A pullback in a market is a pretty easy concept
+to define and understand.
+
+5
+00:00:15,320 --> 00:00:20,980
+It’s a period when price retraces back on
+a recent move, either up or down.
+
+6
+00:00:20,980 --> 00:00:25,220
+It’s basically a reversal of a recent price
+move.
+
+7
+00:00:25,220 --> 00:00:26,640
+Why are pullbacks important?
+
+8
+00:00:26,640 --> 00:00:33,070
+For a number of reasons: they are opportunities
+to enter the market at a “better price”,
+
+9
+00:00:33,070 --> 00:00:37,660
+they allow for optimal stop loss placement,
+improved risk reward and more.
+
+10
+00:00:37,660 --> 00:00:43,199
+A pullback entry is more conservative than
+a “market entry” for example and is considered
+
+11
+00:00:43,199 --> 00:00:44,870
+a “safer” entry type.
+
+12
+00:00:44,870 --> 00:00:50,449
+Ultimately, the goal of a trader is obtain
+the best entry price and manage risk as good
+
+13
+00:00:50,449 --> 00:00:56,440
+as possible whilst also increasing returns
+and the pullback entry is a tool that allows
+
+14
+00:00:56,440 --> 00:00:59,320
+you to do all three of these things.
+
+15
+00:00:59,320 --> 00:01:06,100
+So here is why pullback trading is very important:
+First, when identified correctly, will offer
+
+16
+00:01:06,100 --> 00:01:11,390
+you higher probability entries
+The very nature of a pullback means that price
+
+17
+00:01:11,390 --> 00:01:17,159
+is likely to continue moving in the direction
+of the initial move when the retrace ends.
+
+18
+00:01:17,159 --> 00:01:23,010
+Hence, if you see a strong price action signal
+at a level following a retracement, it’s
+
+19
+00:01:23,010 --> 00:01:29,579
+a high-probability entry because all signs
+are pointing to price bouncing from that point.
+
+20
+00:01:29,579 --> 00:01:35,530
+Now, it doesn’t always happen, but waiting
+for a retrace to a level with a signal, is
+
+21
+00:01:35,530 --> 00:01:38,920
+the highest-probability way you can trade.
+
+22
+00:01:38,920 --> 00:01:44,049
+Markets rotate back to the “mean” or “average”
+price over and over; this is clear by looking
+
+23
+00:01:44,049 --> 00:01:45,280
+at any price chart.
+
+24
+00:01:45,280 --> 00:01:50,439
+So, when you see this retrace happen, start
+looking for an entry point there because it’s
+
+25
+00:01:50,439 --> 00:01:55,759
+a much higher-probability entry point than
+simply entering “at market” like most
+
+26
+00:01:55,759 --> 00:01:57,549
+traders do.
+
+27
+00:01:57,549 --> 00:02:02,009
+Second, it offers better risk rewards.
+
+28
+00:02:02,009 --> 00:02:06,451
+Pullback entries theoretically allow you to
+place a “smaller” stop losses on a trade
+
+29
+00:02:06,451 --> 00:02:09,630
+because you’re entering closer to a key
+level.
+
+30
+00:02:09,630 --> 00:02:14,220
+So, if you choose to do so, you can place
+a stop much closer.
+
+31
+00:02:14,220 --> 00:02:22,160
+For example: a 100 pips stop and 200 pips
+target can easily become a 50 pip stop and
+
+32
+00:02:22,160 --> 00:02:26,140
+250 pip target on a retrace entry.
+
+33
+00:02:26,140 --> 00:02:31,390
+Of course: you don’t need to place a smaller
+stop loss, it’s optional, but the option
+
+34
+00:02:31,390 --> 00:02:34,100
+is there on a pullback entry if you want it.
+
+35
+00:02:34,100 --> 00:02:39,830
+And, at the same time, a pullback entry allows
+more flexibility with your stop loss placement.
+
+36
+00:02:39,830 --> 00:02:45,450
+Of course, there are some negative aspects
+in what concerns waiting for a pullback.
+
+37
+00:02:45,450 --> 00:02:47,170
+You will have less trades in general.
+
+38
+00:02:47,170 --> 00:02:52,510
+A lot of the time, markets simply don’t
+retrace enough to trigger the more conservative
+
+39
+00:02:52,510 --> 00:02:55,140
+entry that comes with a pull back.
+
+40
+00:02:55,140 --> 00:02:59,440
+Instead, they may just keep going with minimal
+retracements.
+
+41
+00:02:59,440 --> 00:03:04,860
+This means you will have less chances to trade
+as compared to someone who isn’t primarily
+
+42
+00:03:04,860 --> 00:03:06,100
+waiting for pullbacks.
+
+43
+00:03:06,100 --> 00:03:10,150
+Also, you will have more missed trades.
+
+44
+00:03:10,150 --> 00:03:15,060
+Some potential good trades will “get away”
+when waiting for a retracement that doesn’t
+
+45
+00:03:15,060 --> 00:03:16,060
+happen, for example.
+
+46
+00:03:16,060 --> 00:03:19,160
+This can test your nerves and will annoy you
+sometimes.
+
+47
+00:03:19,160 --> 00:03:24,970
+But, missing out on trades is not the worst
+thing in the world and it’s better to miss
+
+48
+00:03:24,970 --> 00:03:27,840
+out on some trades than to over-trade.
+
+49
+00:03:27,840 --> 00:03:34,172
+Now that you now the pros and cons of a pullback
+approach, let’s take a look at some of the
+
+50
+00:03:34,172 --> 00:03:37,870
+different pullback entry type, so that you
+can get a clear look at what they might look
+
+51
+00:03:37,870 --> 00:03:38,870
+like.
+
+52
+00:03:38,870 --> 00:03:39,870
+1.
+
+53
+00:03:39,870 --> 00:03:42,480
+Pullback entry without any price action signal
+
+54
+00:03:42,480 --> 00:03:49,410
+In this chart, you can see price pulled back
+to the key horizontal level shown in the chart.
+
+55
+00:03:49,410 --> 00:03:55,590
+There was no obvious price action signal here
+but we can see price quickly sold-off from
+
+56
+00:03:55,590 --> 00:03:59,790
+that level after just barely pushing above
+it.
+
+57
+00:03:59,790 --> 00:04:05,690
+This provided a very high potential risk reward
+scenario if you decided to enter on a “blind
+
+58
+00:04:05,690 --> 00:04:08,950
+entry” at that level with a tight stop loss.
+
+59
+00:04:08,950 --> 00:04:12,190
+That’s the most aggressive entry.
+
+60
+00:04:12,190 --> 00:04:18,620
+As soon as the price hits an important level,
+you sell or buy at market immediately.
+
+61
+00:04:18,620 --> 00:04:24,100
+You do not wait to confirm your buy or sell
+signals with reversal candlesticks or signals
+
+62
+00:04:24,100 --> 00:04:26,390
+from indicator.
+
+63
+00:04:26,390 --> 00:04:29,640
+You just immediately buy or sell at market.
+
+64
+00:04:29,640 --> 00:04:35,940
+If price hits the key level and bounces back,
+you make money, if not, you lose.
+
+65
+00:04:35,940 --> 00:04:39,220
+It’s that simple.
+
+66
+00:04:39,220 --> 00:04:41,760
+2.
+
+67
+00:04:41,760 --> 00:04:48,790
+Pullback to key level with price action confirmation
+A more conservative trading strategy is to
+
+68
+00:04:48,790 --> 00:04:53,840
+wait for price to retrace back up or down
+to an existing key level on the daily chart
+
+69
+00:04:53,840 --> 00:04:58,370
+time frame, then watch for an obvious price
+action signal to form there.
+
+70
+00:04:58,370 --> 00:05:01,630
+This is one of the highest-probability ways
+to trade.
+
+71
+00:05:01,630 --> 00:05:06,530
+A way to look for confirmation when using
+pullbacks would be to look at Japanese candlestick
+
+72
+00:05:06,530 --> 00:05:12,350
+formations because these tend to be reliable
+signals of a reversal in price action.
+
+73
+00:05:12,350 --> 00:05:19,500
+In particular, on this chart an engulfing
+pattern forming right on key level could be
+
+74
+00:05:19,500 --> 00:05:22,630
+a sign that price is ready to turn.
+
+75
+00:05:22,630 --> 00:05:28,020
+For additional confirmation, you can apply
+technical indicators such as stochastic or
+
+76
+00:05:28,020 --> 00:05:32,870
+MACD to determine if it’s a good time to
+enter a trade or not.
+
+77
+00:05:32,870 --> 00:05:38,070
+Take note though that using too many technical
+indicators doesn’t necessarily improve their
+
+78
+00:05:38,070 --> 00:05:39,070
+reliability.
+
+79
+00:05:39,070 --> 00:05:45,810
+In fact, too much indicators might lead to
+an extremely cautious trading strategy that
+
+80
+00:05:45,810 --> 00:05:50,410
+misses out on several valid trade signals.
+
+81
+00:05:50,410 --> 00:05:52,740
+3.
+
+82
+00:05:52,740 --> 00:05:57,400
+Pullback to a moving average
+Markets have a tendency to retrace to the
+
+83
+00:05:57,400 --> 00:06:03,700
+mean or average price, which you can see by
+putting a moving average on your charts.
+
+84
+00:06:03,700 --> 00:06:08,960
+Moving averages are useful for identifying
+and confirming support and resistance levels.
+
+85
+00:06:08,960 --> 00:06:14,400
+Most S/R levels, like market highs and lows,
+pivot points, round numbers etc.
+
+86
+00:06:14,400 --> 00:06:16,060
+Are static levels.
+
+87
+00:06:16,060 --> 00:06:21,370
+Moving averages offer dynamic zones of support
+and resistance because are changing depending
+
+88
+00:06:21,370 --> 00:06:23,830
+on recent price action.
+
+89
+00:06:23,830 --> 00:06:31,889
+On this daily chart we added a 20 EMA, a short-term
+moving average to identify the trend.
+
+90
+00:06:31,889 --> 00:06:38,800
+A simple EMA could be considered as a dynamic
+area of support or resistance but also the
+
+91
+00:06:38,800 --> 00:06:44,090
+area between two exponential moving averages
+could also be considered as a dynamic area
+
+92
+00:06:44,090 --> 00:06:46,510
+of support or resistance.
+
+93
+00:06:46,510 --> 00:06:52,610
+When price retraces back to this area you
+should watch closely for price action signals
+
+94
+00:06:52,610 --> 00:06:59,389
+forming there to get a high-probability entry
+and get in on a trending market.
+
+95
+00:06:59,389 --> 00:07:05,081
+Using candlestick patterns with a moving average
+helps to clarify the trend.
+
+96
+00:07:05,081 --> 00:07:08,600
+It also helps you to evaluate the pullback
+pattern better.
+
+97
+00:07:08,600 --> 00:07:14,260
+Hence, combining candlestick patterns with
+a moving average is a simple yet effective
+
+98
+00:07:14,260 --> 00:07:17,430
+approach for trading pullbacks.
+
+99
+00:07:17,430 --> 00:07:19,990
+This is EUR/JPY on the daily chart.
+
+100
+00:07:19,990 --> 00:07:28,960
+We have a pin bar right on the 20-period EMA,
+a high probability pullback trade.
+
+101
+00:07:28,960 --> 00:07:36,080
+So, start paying attention to price action
+patterns around moving averages.
+
+102
+00:07:36,080 --> 00:07:38,520
+4.
+
+103
+00:07:38,520 --> 00:07:45,020
+Pullbacks to the 50% - 61.8% Fibonacci area
+Price has a tendency to retrace approximately
+
+104
+00:07:45,020 --> 00:07:48,090
+50% of any major move and often times even
+short-term moves.
+
+105
+00:07:48,090 --> 00:07:53,840
+This is a well-documented phenomenon and if
+you look at any chart you can see it happens,
+
+106
+00:07:53,840 --> 00:07:54,889
+a lot.
+
+107
+00:07:54,889 --> 00:08:01,450
+Hence, you can watch for pull backs to these
+50% areas as they will very often be high
+
+108
+00:08:01,450 --> 00:08:08,710
+probability levels for price to move beyond,
+and as a result, price moves back in the direction
+
+109
+00:08:08,710 --> 00:08:12,080
+of the initial move from that 50% level.
+
+110
+00:08:12,080 --> 00:08:17,550
+It doesn’t happen every time of course,
+but it happens often enough to make it a critical
+
+111
+00:08:17,550 --> 00:08:20,340
+tool in your pullback trading tool box.
+
+112
+00:08:20,340 --> 00:08:27,150
+I prefer to pay an extra attention to the
+50%-61.8% fib area of a move, and look to
+
+113
+00:08:27,150 --> 00:08:29,080
+trade entries.
+
+114
+00:08:29,080 --> 00:08:33,550
+This chart shows the 4hour activity on the
+pound dollar.
+
+115
+00:08:33,550 --> 00:08:37,940
+This is the first strong upswing after a downwards
+move.
+
+116
+00:08:37,940 --> 00:08:41,479
+We drew the 50% and 61.8% retracement levels
+of the bullish thrust.
+
+117
+00:08:41,479 --> 00:08:42,700
+The area between them is the retracement zone.
+
+118
+00:08:42,700 --> 00:08:47,460
+This sharp retracement down found support
+at the retracement zone.
+
+119
+00:08:47,460 --> 00:08:51,920
+The candlesticks that followed confirmed the
+bullish pressure.
+
+120
+00:08:51,920 --> 00:08:58,060
+As you can see we had 2 pullbacks, unable
+to break below the 50% and 61.8% retracement
+
+121
+00:08:58,060 --> 00:08:59,830
+area.
+
+122
+00:08:59,830 --> 00:09:04,920
+You can use trend line breakouts for your
+pullback entry, or search for obvious candlestick
+
+123
+00:09:04,920 --> 00:09:12,180
+patterns, or even entries based on oscillators
+or indicators.
+
+124
+00:09:12,180 --> 00:09:16,680
+Trading pullbacks in a trending market is
+one of the most efficient trading strategies
+
+125
+00:09:16,680 --> 00:09:17,680
+out there.
+
+126
+00:09:17,680 --> 00:09:22,610
+The beauty of a pullback trading system is
+that you enter the market or place your first
+
+127
+00:09:22,610 --> 00:09:26,520
+trade only after confirming which way the
+market is going.
+
+128
+00:09:26,520 --> 00:09:32,089
+Doing this is going to help you eliminate
+entering the market with a false signal.
+
+129
+00:09:32,089 --> 00:09:38,660
+Since most markets remain within a range bound
+or consolidation phase most of the time, and
+
+130
+00:09:38,660 --> 00:09:44,420
+the market trends only about 20 to 30 percent
+of the time, finding an established trend
+
+131
+00:09:44,420 --> 00:09:47,630
+to trade pullbacks can be a challenging task.
+
+132
+00:09:47,630 --> 00:09:52,830
+As a trader when you are trying to apply a
+pullback strategy, you need to act like a
+
+133
+00:09:52,830 --> 00:09:53,830
+sniper.
+
+134
+00:09:53,830 --> 00:09:57,390
+You need to wait and have discipline and patience
+before pulling the trigger.
+
+135
+00:09:57,390 --> 00:10:02,560
+Also, very important, you need to make sure
+that you have identified the correct turning
+
+136
+00:10:02,560 --> 00:10:05,590
+point, where the pullback move is likely to
+end.
+
+137
+00:10:05,590 --> 00:10:11,090
+It’s your job to find a way to generate
+a high probability pullback signal where the
+
+138
+00:10:11,090 --> 00:10:13,650
+price is likely to resume the prevailing trend.
+
+139
+00:10:13,650 --> 00:10:19,000
+If you can successfully do this, you can buy
+low during an uptrend and sell high during
+
+140
+00:10:19,000 --> 00:10:24,110
+a downtrend, and this can only bring profits
+in the long run.
+
+141
+00:10:24,110 --> 00:10:28,480
+If you learned something new and found value,
+don’t forget to subscribe, click the bell
+
+142
+00:10:28,480 --> 00:10:34,020
+icon so you’ll be notified each time we
+upload and leave us a like to show your support.
+
+143
+00:10:34,020 --> 00:10:34,510
+Until next time.
+

@@ -1,0 +1,648 @@
+1
+00:00:01,170 --> 00:00:06,550
+Traders spend much of their time looking at
+charts and analyzing, using technical or fundamental
+
+2
+00:00:06,550 --> 00:00:09,630
+analysis, or a combination of both.
+
+3
+00:00:09,630 --> 00:00:14,710
+While these indeed are very good things to
+spend time on, not all traders take the time
+
+4
+00:00:14,710 --> 00:00:18,990
+to focus on, risk management, and more specific,
+position sizing.
+
+5
+00:00:18,990 --> 00:00:24,840
+I see a lot of new and old traders or investors
+which trade, only to have their accounts blown
+
+6
+00:00:24,840 --> 00:00:28,980
+up by taking random positions, with no plan
+whatsoever.
+
+7
+00:00:28,980 --> 00:00:34,399
+Proper position sizing is a key element in
+risk management and can determine whether
+
+8
+00:00:34,399 --> 00:00:36,739
+you live to trade another day or not.
+
+9
+00:00:36,739 --> 00:00:41,269
+Basically, your position size is the number
+of shares you take on a trade.
+
+10
+00:00:41,269 --> 00:00:46,469
+It can keep you from risking too much on a
+trade and blowing up your account.
+
+11
+00:00:46,469 --> 00:00:51,389
+Without knowing how to size your positions
+properly, you may end up taking trades that
+
+12
+00:00:51,389 --> 00:00:53,989
+are far too large for your account.
+
+13
+00:00:53,989 --> 00:00:58,980
+In such cases, you become highly vulnerable
+when the market moves even just a few points
+
+14
+00:00:58,980 --> 00:01:02,030
+against you.
+
+15
+00:01:02,030 --> 00:01:07,260
+Your position size, or trade size, is more
+important than your entry and exit when trading
+
+16
+00:01:07,260 --> 00:01:08,740
+or investing.
+
+17
+00:01:08,740 --> 00:01:13,740
+You can have the best strategy in the world,
+but if your trade size is too big or too small
+
+18
+00:01:13,740 --> 00:01:16,200
+you'll either take too much or too little
+risk.
+
+19
+00:01:16,200 --> 00:01:19,300
+So, how do you prevent yourself from risking
+too much?
+
+20
+00:01:19,300 --> 00:01:24,409
+How do you know the right quantity to buy
+or to sell when you initiate a position?
+
+21
+00:01:24,409 --> 00:01:31,359
+Let’s say you have $10,000 in your account
+and there’s a stock valued at $100 you like
+
+22
+00:01:31,359 --> 00:01:32,560
+and want to buy.
+
+23
+00:01:32,560 --> 00:01:36,399
+Do you buy 100 shares, 10 shares, or some
+other number?
+
+24
+00:01:36,399 --> 00:01:40,650
+This is the question you must answer—how
+to determine your position size.
+
+25
+00:01:40,650 --> 00:01:46,170
+If you decide to spend your entire account
+balance and buy 100 shares, then you will
+
+26
+00:01:46,170 --> 00:01:49,689
+have a 100% commitment in this stock.
+
+27
+00:01:49,689 --> 00:01:51,049
+And that’s not indicated.
+
+28
+00:01:51,049 --> 00:01:56,910
+Also, in taking a position that represents
+a large portion of your total portfolio, there
+
+29
+00:01:56,910 --> 00:01:59,829
+is also the opportunity cost involved.
+
+30
+00:01:59,829 --> 00:02:06,149
+You would have to pass up other trades that
+you may have liked to enter.
+
+31
+00:02:06,149 --> 00:02:11,319
+Position sizing is a critical issue that a
+trader needs to know beforehand and not do
+
+32
+00:02:11,319 --> 00:02:12,319
+on the fly.
+
+33
+00:02:12,319 --> 00:02:17,019
+It’s as important as picking the right stock
+or currency to invest.
+
+34
+00:02:17,019 --> 00:02:22,341
+Newer traders or investors like to calculate
+how much they could make on the upside, how
+
+35
+00:02:22,341 --> 00:02:27,870
+much money they could potentially make, and
+focus less on how much money they could potentially
+
+36
+00:02:27,870 --> 00:02:30,209
+lose.
+
+37
+00:02:30,209 --> 00:02:35,810
+There are several approaches to position sizing,
+and I will run down some of the more popular
+
+38
+00:02:35,810 --> 00:02:37,060
+ones.
+
+39
+00:02:37,060 --> 00:02:42,650
+The first one, and the most common one: Fixed
+percentage per trade
+
+40
+00:02:42,650 --> 00:02:46,799
+Position sizing can be based on the size of
+an overall portfolio.
+
+41
+00:02:46,799 --> 00:02:51,980
+This means a percentage of that overall capital
+will be predetermined per trade and will not
+
+42
+00:02:51,980 --> 00:02:53,659
+be exceeded.
+
+43
+00:02:53,659 --> 00:02:56,739
+That could be 1% or even 5%.
+
+44
+00:02:56,739 --> 00:03:02,299
+This fixed percentage is an easy way for you
+to know how much you are buying when you buy.
+
+45
+00:03:02,299 --> 00:03:09,181
+To use a simple example of fixed-percentage
+position sizing, take again a $10,000 account
+
+46
+00:03:09,181 --> 00:03:11,829
+size and a $100 stock.
+
+47
+00:03:11,829 --> 00:03:18,120
+If you take a simple 1% position based on
+your account size, that comes down to a single
+
+48
+00:03:18,120 --> 00:03:19,319
+share.
+
+49
+00:03:19,319 --> 00:03:24,530
+You may be thinking you are no better off
+than a person with a $100 account buying one
+
+50
+00:03:24,530 --> 00:03:25,640
+share.
+
+51
+00:03:25,640 --> 00:03:34,000
+The difference is that the $100 account holder
+has a 100% position size while the $10,000
+
+52
+00:03:34,000 --> 00:03:37,410
+account holder is putting just 1% at risk.
+
+53
+00:03:37,410 --> 00:03:41,100
+Which position size allows a trader to sleep
+better at night?
+
+54
+00:03:41,100 --> 00:03:43,180
+Of course the second one.
+
+55
+00:03:43,180 --> 00:03:45,599
+Position sizing helps control risk.
+
+56
+00:03:45,599 --> 00:03:52,849
+A 1% hard limit on each trade allows you to
+tolerate many losses in search of profits.
+
+57
+00:03:52,849 --> 00:03:55,719
+Protecting your capital is your primary job.
+
+58
+00:03:55,719 --> 00:04:01,650
+Your secondary job is allowing room in your
+portfolio to find other trading opportunities.
+
+59
+00:04:01,650 --> 00:04:07,849
+The fixed percentage amount is an easy approach
+to accomplish this.
+
+60
+00:04:07,849 --> 00:04:13,719
+The second risk management approach involves
+fixed-dollar amount per trade
+
+61
+00:04:13,719 --> 00:04:19,040
+This approach also uses a fixed amount but
+this time it’s a fixed-dollar amount per
+
+62
+00:04:19,040 --> 00:04:23,640
+trade rather than a percentage of the actual
+portfolio.
+
+63
+00:04:23,640 --> 00:04:26,230
+This involves choosing a number.
+
+64
+00:04:26,230 --> 00:04:32,010
+Again using that same $10,000 portfolio as
+an example, say you decide you won’t spend
+
+65
+00:04:32,010 --> 00:04:35,830
+any more than, say, $200 on any one trade.
+
+66
+00:04:35,830 --> 00:04:41,820
+For traders with small account sizes, this
+can be an attractive approach because it limits
+
+67
+00:04:41,820 --> 00:04:43,280
+how much you can lose.
+
+68
+00:04:43,280 --> 00:04:46,940
+However, it also limits what stocks you can
+buy.
+
+69
+00:04:46,940 --> 00:04:51,850
+You will have to rule out some securities
+based solely on their price.
+
+70
+00:04:51,850 --> 00:04:56,130
+Of course, this is not necessarily a bad thing.
+
+71
+00:04:56,130 --> 00:04:59,540
+The third approach: Volatility-based position
+sizing
+
+72
+00:04:59,540 --> 00:05:06,690
+A more complex approach but one that allows
+for more flexibility is position sizing based
+
+73
+00:05:06,690 --> 00:05:10,040
+on the volatility of the security you plan
+to purchase.
+
+74
+00:05:10,040 --> 00:05:14,810
+It’s more dynamic because it doesn’t treat
+each stock the same.
+
+75
+00:05:14,810 --> 00:05:21,060
+This approach allows you to really drill down
+and exercise finer control over your portfolio.
+
+76
+00:05:21,060 --> 00:05:27,440
+For example, growth stocks will invariably
+be more volatile and that volatility will
+
+77
+00:05:27,440 --> 00:05:29,940
+be reflected in your portfolio.
+
+78
+00:05:29,940 --> 00:05:35,940
+To reduce the overall risk of your portfolio,
+you would buy less of higher volatility stocks
+
+79
+00:05:35,940 --> 00:05:40,660
+than you would buy lower-volatility stocks.
+
+80
+00:05:40,660 --> 00:05:45,940
+You can measure volatility with something
+as simple as a standard deviation over a given
+
+81
+00:05:45,940 --> 00:05:49,690
+period, say, 15 or 10 trading days.
+
+82
+00:05:49,690 --> 00:05:55,770
+Then, depending on the deviation, you adjust
+the amount of shares you buy when you initiate
+
+83
+00:05:55,770 --> 00:05:57,220
+a position.
+
+84
+00:05:57,220 --> 00:06:03,500
+This allows lower-volatility stocks to have
+more weight in your portfolio than higher-volatility
+
+85
+00:06:03,500 --> 00:06:04,830
+ones.
+
+86
+00:06:04,830 --> 00:06:11,300
+Position sizing based on this ideology lowers
+overall volatility within a portfolio.
+
+87
+00:06:11,300 --> 00:06:16,540
+This strategy is frequently used in large
+portfolios and I use it personally in my own
+
+88
+00:06:16,540 --> 00:06:18,930
+portfolio.
+
+89
+00:06:18,930 --> 00:06:23,070
+Even longer-term traders and investors face
+position sizing questions.
+
+90
+00:06:23,070 --> 00:06:29,240
+For them, when the price of a security they
+are holding goes down, it represents more
+
+91
+00:06:29,240 --> 00:06:30,240
+value.
+
+92
+00:06:30,240 --> 00:06:35,500
+Adding to their position in this case is referred
+to as averaging down.
+
+93
+00:06:35,500 --> 00:06:41,090
+Long-term traders can decide to average down
+using similar position-sizing approaches,
+
+94
+00:06:41,090 --> 00:06:46,410
+by risking either a fixed-dollar amount or
+a percentage amount when the stock trades
+
+95
+00:06:46,410 --> 00:06:47,410
+down.
+
+96
+00:06:47,410 --> 00:06:52,880
+You can use standard deviation here as well
+to help figure out that amount.
+
+97
+00:06:52,880 --> 00:06:58,300
+Averaging down needs to be used with caution,
+because if your analysis is wrong, at some
+
+98
+00:06:58,300 --> 00:07:02,020
+point you’ll be in a position which is no
+longer worth holding.
+
+99
+00:07:02,020 --> 00:07:08,870
+You don’t want to average down to zero by
+buying all the way down.
+
+100
+00:07:08,870 --> 00:07:14,650
+Some additional common sense risk parameters
+seem worth mentioning and may be incorporated
+
+101
+00:07:14,650 --> 00:07:16,130
+into your trade plan.
+
+102
+00:07:16,130 --> 00:07:21,800
+For example, to be safe, you must be able
+to accept losing on any given trade and to
+
+103
+00:07:21,800 --> 00:07:26,710
+be able to survive taking losses on ten consecutive
+trades.
+
+104
+00:07:26,710 --> 00:07:33,870
+And those ten consecutive losses should not
+exceed a total 25 percent drawdown.
+
+105
+00:07:33,870 --> 00:07:39,400
+This means that no more than two percent of
+the portfolio should be put at risk on any
+
+106
+00:07:39,400 --> 00:07:42,610
+particular trade.
+
+107
+00:07:42,610 --> 00:07:48,090
+Once you figured out how much you are comfortable
+losing, a stop loss level for each trade should
+
+108
+00:07:48,090 --> 00:07:51,000
+be determined and placed in the market.
+
+109
+00:07:51,000 --> 00:07:56,060
+A seasoned trader will generally know where
+to put their stop loss orders after having
+
+110
+00:07:56,060 --> 00:08:02,430
+optimized their trading plan, and chart analysis
+is often performed when setting stop loss
+
+111
+00:08:02,430 --> 00:08:03,440
+levels.
+
+112
+00:08:03,440 --> 00:08:09,940
+Two rules of thumb should be followed when
+you use stops to manage risk on your positions:
+
+113
+00:08:09,940 --> 00:08:16,680
+First…Never adjust the stop loss to arrive
+at a desired position size, but instead adjust
+
+114
+00:08:16,680 --> 00:08:22,190
+the size of the position to meet your risk
+level and desired stop loss order placement
+
+115
+00:08:22,190 --> 00:08:24,740
+based on your analysis.
+
+116
+00:08:24,740 --> 00:08:31,120
+Second…Trade using the same risk parameters
+on every trade regardless of the distance
+
+117
+00:08:31,120 --> 00:08:33,130
+of the stop loss.
+
+118
+00:08:33,130 --> 00:08:38,919
+Avoid putting more money at risk to use a
+wider stop, and avoid risking any less money
+
+119
+00:08:38,919 --> 00:08:42,339
+on a stop closer to the trading level.
+
+120
+00:08:42,339 --> 00:08:45,899
+Adjust your position to meet your predetermined
+risk levels.
+
+121
+00:08:45,899 --> 00:08:52,520
+By now, I hope you realized that correct position
+sizing is crucial.
+
+122
+00:08:52,520 --> 00:08:57,120
+You should always consider how much you buy
+when you buy, and also, know how you came
+
+123
+00:08:57,120 --> 00:08:59,370
+up with that number.
+
+124
+00:08:59,370 --> 00:09:03,850
+Regardless of your account size, take the
+time to come up with a consistent approach
+
+125
+00:09:03,850 --> 00:09:05,959
+that matches your trading style.
+
+126
+00:09:05,959 --> 00:09:07,329
+And then stick to it.
+
+127
+00:09:07,329 --> 00:09:09,029
+You can incorporate flexibility.
+
+128
+00:09:09,029 --> 00:09:14,750
+For example, if you are willing to take more
+risk with your portfolio, you can dial up
+
+129
+00:09:14,750 --> 00:09:17,970
+the percentage you use.
+
+130
+00:09:17,970 --> 00:09:23,731
+Sound money management techniques can help
+make an average trader become better, and
+
+131
+00:09:23,731 --> 00:09:26,020
+a good trader become great.
+
+132
+00:09:26,020 --> 00:09:32,310
+For example, a trader that is only right half
+the time but gets out of losing trades before
+
+133
+00:09:32,310 --> 00:09:37,949
+the loss becomes significant, and knows to
+ride winners to a substantial profit, would
+
+134
+00:09:37,949 --> 00:09:42,649
+be way ahead of most others who trade with
+no clear plan of action whatsoever.
+
+135
+00:09:42,649 --> 00:09:48,770
+And you have to find the right balance because
+if you risk too little and your account won't
+
+136
+00:09:48,770 --> 00:09:55,640
+grow, and if risk too much and your account
+can be destroyed in few bad trades.
+
+137
+00:09:55,640 --> 00:10:00,060
+If you found value and learned something new,
+leave us a like to show your support and make
+
+138
+00:10:00,060 --> 00:10:05,730
+sure you subscribe and hit the bell icon to
+stay notified when we upload new videos.
+
+139
+00:10:05,730 --> 00:10:06,240
+Until next time.
+

@@ -1,0 +1,866 @@
+1
+00:00:00,269 --> 00:00:05,589
+Trading is a game of deceptions and traps,
+and you must learn to play accordingly.
+
+2
+00:00:05,589 --> 00:00:09,820
+I learned this the hard way, with my own money.
+
+3
+00:00:09,820 --> 00:00:14,610
+When you enter the trading game, one of the
+first concepts you learn about is the moving
+
+4
+00:00:14,610 --> 00:00:15,610
+averages.
+
+5
+00:00:15,610 --> 00:00:20,840
+And for a good reason, moving averages represent
+one of the most visually effective tools for
+
+6
+00:00:20,840 --> 00:00:22,620
+scanning markets.
+
+7
+00:00:22,620 --> 00:00:29,510
+Their simple concept of filtering out noise
+and to identify trend biases appears compelling.
+
+8
+00:00:29,510 --> 00:00:34,430
+Traders gravitate towards moving averages
+because of their clean visual communication
+
+9
+00:00:34,430 --> 00:00:36,829
+of uptrends and downtrends.
+
+10
+00:00:36,829 --> 00:00:43,420
+When prices cross above or below these lines,
+we get excited, it subconsciously triggers
+
+11
+00:00:43,420 --> 00:00:47,079
+decisions, seeking confirmation of emerging
+directions.
+
+12
+00:00:47,079 --> 00:00:52,390
+In fact, one of the foundational rules of
+technical analysis is the moving average breakout.
+
+13
+00:00:52,390 --> 00:00:57,810
+And I can show you a lot of textbook examples
+showing this principle in action.
+
+14
+00:00:57,810 --> 00:01:03,720
+A moving average acting as dynamic support
+turns to resistance once broken.
+
+15
+00:01:03,720 --> 00:01:10,610
+And the previous line acting as resistance
+morphed into perfect support on retest.
+
+16
+00:01:10,610 --> 00:01:14,250
+It's the kind of signal every technical trader
+lives for.
+
+17
+00:01:14,250 --> 00:01:16,880
+We all took this kind of trade in the past.
+
+18
+00:01:16,880 --> 00:01:21,740
+But as obvious as some of those patterns look
+in hindsight, there is an important thing
+
+19
+00:01:21,740 --> 00:01:23,720
+most people miss.
+
+20
+00:01:23,720 --> 00:01:30,650
+Only a small percentage, maybe 15-20%, of
+moving average breakouts actually play out
+
+21
+00:01:30,650 --> 00:01:34,140
+as cleanly as the textbook examples.
+
+22
+00:01:34,140 --> 00:01:38,130
+It all comes down to understanding how moving
+averages work.
+
+23
+00:01:38,130 --> 00:01:43,180
+A moving average shows the average price of
+market over a period of time, like the last
+
+24
+00:01:43,180 --> 00:01:44,860
+50 candles.
+
+25
+00:01:44,860 --> 00:01:49,930
+Traders pay close attention to when the price
+crosses above or below the moving average
+
+26
+00:01:49,930 --> 00:01:50,930
+line.
+
+27
+00:01:50,930 --> 00:01:57,130
+That's because it signals whether the trend
+is turning from up to down or vice versa.
+
+28
+00:01:57,130 --> 00:02:02,570
+But here's the thing - smart traders know
+other traders are watching those moving averages
+
+29
+00:02:02,570 --> 00:02:03,570
+too.
+
+30
+00:02:03,570 --> 00:02:09,560
+So sometimes they'll push the price briefly
+over or under the moving average, even if
+
+31
+00:02:09,560 --> 00:02:12,990
+the main trend is still going the other way.
+
+32
+00:02:12,990 --> 00:02:18,790
+Their goal is to trick people into thinking
+the trend has changed, so those traders jump
+
+33
+00:02:18,790 --> 00:02:24,560
+in - and then the big traders reverse the
+price back where it came from, trapping those
+
+34
+00:02:24,560 --> 00:02:27,370
+followers with big losses.
+
+35
+00:02:27,370 --> 00:02:33,980
+The reality is that the vast majority of moving
+average breakouts end up being fakeouts or
+
+36
+00:02:33,980 --> 00:02:37,050
+false breaks that fool traders.
+
+37
+00:02:37,050 --> 00:02:42,170
+Just because the moving average is broken,
+the new level doesn't guarantee anything about
+
+38
+00:02:42,170 --> 00:02:44,209
+what comes next.
+
+39
+00:02:44,209 --> 00:02:49,620
+More often than not, price action just wicks
+through this zone, then continues the initial
+
+40
+00:02:49,620 --> 00:02:50,780
+move.
+
+41
+00:02:50,780 --> 00:02:55,720
+Some call these "false breakouts", others
+see them as liquidity runs.
+
+42
+00:02:55,720 --> 00:03:01,311
+And while they cause trouble for traders who
+get trapped, if you spot them coming, you
+
+43
+00:03:01,311 --> 00:03:03,590
+have a chance to profit.
+
+44
+00:03:03,590 --> 00:03:06,790
+Those "false breakouts" can really mess with
+your head.
+
+45
+00:03:06,790 --> 00:03:12,840
+As I was losing most of my trades using this
+signal, I started to understand why it happens
+
+46
+00:03:12,840 --> 00:03:13,860
+though.
+
+47
+00:03:13,860 --> 00:03:20,690
+Common moving averages, like the 20, 50 or
+200, are like battle zones between buyers
+
+48
+00:03:20,690 --> 00:03:24,050
+and sellers pushing price both ways.
+
+49
+00:03:24,050 --> 00:03:30,840
+So it makes sense the price action wavers
+in and out sometimes before settling again.
+
+50
+00:03:30,840 --> 00:03:37,069
+What really sunk in for me is that chasing
+moving average breakouts after a strong trend
+
+51
+00:03:37,069 --> 00:03:41,760
+is likely to lose money overall, especially
+as a beginner.
+
+52
+00:03:41,760 --> 00:03:47,910
+Those massive explosive moves that seem so
+easy to catch are actually pretty rare.
+
+53
+00:03:47,910 --> 00:03:54,129
+And even if the break is real, actually hanging
+on through volatility and exiting at the right
+
+54
+00:03:54,129 --> 00:03:56,690
+time takes a lot of experience.
+
+55
+00:03:56,690 --> 00:04:03,220
+I had a major breakthrough when I finally
+grasped the concept of liquidity.
+
+56
+00:04:03,220 --> 00:04:08,989
+Liquidity is all the orders that are stacked
+up in the market waiting to be executed.
+
+57
+00:04:08,989 --> 00:04:14,450
+Liquidity usually builds up on both sides
+of the moving average, especially when there’s
+
+58
+00:04:14,450 --> 00:04:15,450
+a breakout.
+
+59
+00:04:15,450 --> 00:04:21,260
+This is because there are lots of traders
+using similar entries and exits.
+
+60
+00:04:21,260 --> 00:04:26,940
+Buyers who think the market's going up tend
+to buy when price moves above a moving average,
+
+61
+00:04:26,940 --> 00:04:30,040
+placing their stop losses below it.
+
+62
+00:04:30,040 --> 00:04:35,160
+Sellers who think price is going down put
+their stop losses above the moving average
+
+63
+00:04:35,160 --> 00:04:37,340
+when price moves below it.
+
+64
+00:04:37,340 --> 00:04:43,320
+And this is exactly why a lot of times moving
+average breakouts don't have real buying or
+
+65
+00:04:43,320 --> 00:04:45,940
+selling conviction behind them.
+
+66
+00:04:45,940 --> 00:04:53,130
+And as soon as stops get taken out above or
+below, prices whip right back the other way.
+
+67
+00:04:53,130 --> 00:04:58,970
+That ends up leaving a bunch of trapped traders
+who helped fuel the reversal with their stop
+
+68
+00:04:58,970 --> 00:05:00,130
+losses.
+
+69
+00:05:00,130 --> 00:05:05,100
+The momentum they provided can really move
+the market away from the moving average in
+
+70
+00:05:05,100 --> 00:05:06,880
+the opposite direction.
+
+71
+00:05:06,880 --> 00:05:12,389
+During strong trends, it's smarter to wait
+for these failed breakouts to happen before
+
+72
+00:05:12,389 --> 00:05:13,389
+entering.
+
+73
+00:05:13,389 --> 00:05:17,810
+The risk is way lower versus chasing the initial
+moves.
+
+74
+00:05:17,810 --> 00:05:24,250
+And the potential reward is way higher if
+price bounces hard after squeezing those stop
+
+75
+00:05:24,250 --> 00:05:25,310
+runs.
+
+76
+00:05:25,310 --> 00:05:27,810
+Let me explain the strategy I use.
+
+77
+00:05:27,810 --> 00:05:31,240
+The first thing I watch for is a strong trend.
+
+78
+00:05:31,240 --> 00:05:37,460
+To me that means the price has been steadily
+rising or falling for at least a couple days
+
+79
+00:05:37,460 --> 00:05:40,680
+without reversing more than a few percent.
+
+80
+00:05:40,680 --> 00:05:46,280
+You want to see higher highs, higher lows,
+multiple breaks of structure and no major
+
+81
+00:05:46,280 --> 00:05:48,310
+change of character.
+
+82
+00:05:48,310 --> 00:05:53,470
+During these trends, institutional traders
+have the market under their control and can
+
+83
+00:05:53,470 --> 00:05:56,020
+manipulate prices more easily.
+
+84
+00:05:56,020 --> 00:06:01,060
+Once a strong trend is in place, I'll monitor
+the moving averages.
+
+85
+00:06:01,060 --> 00:06:06,320
+Usually a 50-period is all I need, but you
+can select any period you want, just make
+
+86
+00:06:06,320 --> 00:06:11,670
+sure you use a common one, like the 20 or
+200.
+
+87
+00:06:11,670 --> 00:06:17,960
+I'm looking to see if the price crosses above
+or below that average line, but stays there
+
+88
+00:06:17,960 --> 00:06:22,139
+for only a very short time, only for a few
+candles.
+
+89
+00:06:22,139 --> 00:06:25,669
+That's a red flag it might be a false breakout.
+
+90
+00:06:25,669 --> 00:06:28,360
+The next thing I check is volume.
+
+91
+00:06:28,360 --> 00:06:34,770
+On a real trend change, you'd expect volume
+to spike as more orders pile in.
+
+92
+00:06:34,770 --> 00:06:39,789
+But with a false breakout, volume is often
+lower than normal.
+
+93
+00:06:39,789 --> 00:06:44,310
+That tells me not many people took the bait
+of the fake signal.
+
+94
+00:06:44,310 --> 00:06:49,160
+If I see a liquidity run, that’s the strongest
+signal I can get.
+
+95
+00:06:49,160 --> 00:06:55,070
+Armed with those signs, I'll enter a position
+against the false breakout - so if it crosses
+
+96
+00:06:55,070 --> 00:07:01,590
+above the moving average during a down trend,
+I'll short the market, and vice versa.
+
+97
+00:07:01,590 --> 00:07:04,940
+Let me give you an example to help explain
+it better.
+
+98
+00:07:04,940 --> 00:07:10,740
+In this chart, oil prices had been steadily
+increasing on high demand.
+
+99
+00:07:10,740 --> 00:07:16,450
+The 50-day moving average was rising strongly
+in line with the uptrend.
+
+100
+00:07:16,450 --> 00:07:19,070
+Multiple breaks of structure during this trend.
+
+101
+00:07:19,070 --> 00:07:25,810
+And here, price dipped under the 50-period
+average for just a couple of candles before
+
+102
+00:07:25,810 --> 00:07:28,160
+rebounding right back above.
+
+103
+00:07:28,160 --> 00:07:33,350
+Volume was surprisingly low for such a market-moving
+event.
+
+104
+00:07:33,350 --> 00:07:36,949
+And look at this liquidity run, below this
+level.
+
+105
+00:07:36,949 --> 00:07:38,889
+I call it a double trap.
+
+106
+00:07:38,889 --> 00:07:44,570
+This move below the moving average trapped
+price action traders, waiting for a break
+
+107
+00:07:44,570 --> 00:07:50,169
+below this level, and at the same time, trapped
+moving average traders.
+
+108
+00:07:50,169 --> 00:07:57,099
+To me, it seemed like a false breakout designed
+to attract short sellers before resuming the
+
+109
+00:07:57,099 --> 00:07:58,099
+rally.
+
+110
+00:07:58,099 --> 00:08:03,400
+Sure enough, prices had reversed all the way
+back up, causing big losses for anyone who
+
+111
+00:08:03,400 --> 00:08:05,229
+shorted the "breakdown".
+
+112
+00:08:05,229 --> 00:08:11,539
+The smart play here was going long against
+the fake signal, in line with the previous
+
+113
+00:08:11,539 --> 00:08:12,720
+trend.
+
+114
+00:08:12,720 --> 00:08:16,169
+On the flip side, there’s a similar situation.
+
+115
+00:08:16,169 --> 00:08:19,060
+Price has been tanking for days.
+
+116
+00:08:19,060 --> 00:08:21,420
+Multiple breaks of structure to the downside.
+
+117
+00:08:21,420 --> 00:08:24,200
+Lower lows and lower highs.
+
+118
+00:08:24,200 --> 00:08:27,530
+And the move above the 50-period line.
+
+119
+00:08:27,530 --> 00:08:33,380
+Again, it was barely above for a few candles,
+on lighter than usual volume.
+
+120
+00:08:33,380 --> 00:08:39,690
+Observe the liquidity run, trapping another
+group of buyers, to the upside.
+
+121
+00:08:39,690 --> 00:08:46,430
+And of course, price reversed direction and
+broke below the moving average once again,
+
+122
+00:08:46,430 --> 00:08:48,990
+accelerating its fall further.
+
+123
+00:08:48,990 --> 00:08:56,399
+The play here was going short against the
+fake signal, once price moved below the 50
+
+124
+00:08:56,399 --> 00:08:57,500
+SMA.
+
+125
+00:08:57,500 --> 00:09:01,610
+It doesn’t matter the market you trade,
+that’s the beauty of this strategy.
+
+126
+00:09:01,610 --> 00:09:08,130
+Here gold prices had been making higher highs
+and higher lows, in an upward trend, with
+
+127
+00:09:08,130 --> 00:09:12,430
+the 50-day moving average reflecting the positive
+momentum.
+
+128
+00:09:12,430 --> 00:09:17,360
+Then, gold took a quick nosedive below the
+moving average.
+
+129
+00:09:17,360 --> 00:09:20,920
+We even had a liquidity run during this period.
+
+130
+00:09:20,920 --> 00:09:26,769
+Despite the initial panic in the market, the
+volume during this drop was notably lower
+
+131
+00:09:26,769 --> 00:09:29,750
+than expected for a significant trend change.
+
+132
+00:09:29,750 --> 00:09:36,790
+The correct trade was a long one, once price
+moved above the 50 SMA.
+
+133
+00:09:36,790 --> 00:09:41,720
+After a prolonged downward trend, a false
+breakout presented an opportunity.
+
+134
+00:09:41,720 --> 00:09:48,420
+The price briefly rose above the 50-day moving
+average, moved past this level, that being
+
+135
+00:09:48,420 --> 00:09:52,820
+a liquidity run, causing a stir among traders.
+
+136
+00:09:52,820 --> 00:09:58,640
+We had low volume during this move, so long
+positions were off the table.
+
+137
+00:09:58,640 --> 00:10:04,310
+As price reversed direction and dipped back
+below the moving average, that was the time
+
+138
+00:10:04,310 --> 00:10:08,890
+to enter a sell position, in line with the
+previous trend.
+
+139
+00:10:08,890 --> 00:10:15,490
+In this recent trend where the market had
+been climbing steadily, the 50-period moving
+
+140
+00:10:15,490 --> 00:10:17,150
+average was on my radar.
+
+141
+00:10:17,150 --> 00:10:23,770
+As price briefly dipped below the moving average
+and registered also a liquidity run, this
+
+142
+00:10:23,770 --> 00:10:26,660
+move caught the attention of many traders.
+
+143
+00:10:26,660 --> 00:10:31,000
+But, the volume during this dip was surprisingly
+low.
+
+144
+00:10:31,000 --> 00:10:35,790
+A textbook false breakout, trapping sellers
+on the short side.
+
+145
+00:10:35,790 --> 00:10:41,120
+And true enough, within the next candles,
+the price bounced back above the moving average.
+
+146
+00:10:41,120 --> 00:10:47,550
+This was the ideal time to enter a long trade,
+capitalizing on the trapped traders below
+
+147
+00:10:47,550 --> 00:10:49,620
+the moving average.
+
+148
+00:10:49,620 --> 00:10:56,600
+Here the market had been on a positive trajectory
+for days, aligning well with the 50-day moving
+
+149
+00:10:56,600 --> 00:10:57,600
+average.
+
+150
+00:10:57,600 --> 00:11:03,570
+Then, out of the blue, the stock dipped below
+the moving average, setting off alarm bells
+
+151
+00:11:03,570 --> 00:11:05,290
+for many traders.
+
+152
+00:11:05,290 --> 00:11:10,550
+Observe also this liquidity run and the low
+volume during this dip.
+
+153
+00:11:10,550 --> 00:11:16,670
+All our conditions were met: strong trend,
+a move below the moving average, liquidity
+
+154
+00:11:16,670 --> 00:11:19,050
+run and low volume.
+
+155
+00:11:19,050 --> 00:11:24,649
+Fair enough, the stock swiftly climbed back
+above the moving average, and that was the
+
+156
+00:11:24,649 --> 00:11:27,579
+perfect moment to initiate a long trade.
+
+157
+00:11:27,579 --> 00:11:34,170
+By recognizing the patterns of smart money
+manipulating prices with false breakouts,
+
+158
+00:11:34,170 --> 00:11:36,620
+you take the emotion out of the trade.
+
+159
+00:11:36,620 --> 00:11:41,720
+You're not getting swept up by the crowd being
+baited by a fake signal.
+
+160
+00:11:41,720 --> 00:11:47,500
+Instead, you profit from the liquidity run
+that inevitably follows.
+
+161
+00:11:47,500 --> 00:11:52,690
+Some key aspects to remember:
+Only trade these set-ups during strong trends,
+
+162
+00:11:52,690 --> 00:11:58,829
+when major players have more control
+Watch for breakouts that last only a short
+
+163
+00:11:58,829 --> 00:12:04,899
+time, like a few candles
+Check volume - it should be unusually light
+
+164
+00:12:04,899 --> 00:12:08,730
+Take a tight stop in case it turns into a
+real breakout
+
+165
+00:12:08,730 --> 00:12:15,589
+It's an easy strategy, but it requires staying
+cool-headed and trusting your analysis of
+
+166
+00:12:15,589 --> 00:12:17,500
+the market structure.
+
+167
+00:12:17,500 --> 00:12:21,610
+Don't get fooled by hype and focus on the
+big picture trend.
+
+168
+00:12:21,610 --> 00:12:26,510
+Pay attention to the signs of possible manipulation
+by big money.
+
+169
+00:12:26,510 --> 00:12:32,870
+When you spot a false breakout, get in position
+to profit as the price retraces where it came
+
+170
+00:12:32,870 --> 00:12:33,870
+from.
+
+171
+00:12:33,870 --> 00:12:39,639
+By following trends and outsmarting the tricks
+of institutional traders, you will too start
+
+172
+00:12:39,639 --> 00:12:42,450
+seeing bigger gains.
+
+173
+00:12:42,450 --> 00:12:45,070
+Just keep practicing spotting the patterns.
+
+174
+00:12:45,070 --> 00:12:52,050
+Study old charts to compare tells of real
+versus fake signals above or below moving
+
+175
+00:12:52,050 --> 00:12:53,100
+averages.
+
+176
+00:12:53,100 --> 00:12:59,089
+And most important, when you find another
+liquidity run, above or below a previous key
+
+177
+00:12:59,089 --> 00:13:02,269
+level, you have found the strongest signal.
+
+178
+00:13:02,269 --> 00:13:09,089
+With experience, you'll get better and better
+at differentiating between genuine trend changes
+
+179
+00:13:09,089 --> 00:13:12,209
+and traps set by smart money.
+
+180
+00:13:12,209 --> 00:13:17,570
+This strategy won’t work perfectly each
+time, but it has served me well over the past
+
+181
+00:13:17,570 --> 00:13:18,570
+months.
+
+182
+00:13:18,570 --> 00:13:20,709
+There will always be ups and downs of course.
+
+183
+00:13:20,709 --> 00:13:27,269
+But as long as you focus on the big picture
+and remember your edge, you'll come out ahead
+
+184
+00:13:27,269 --> 00:13:29,149
+more often than not.
+
+185
+00:13:29,149 --> 00:13:34,779
+That's how I've succeeded trading moving average
+breakouts - by recognizing these traps and
+
+186
+00:13:34,779 --> 00:13:38,740
+turning them to my advantage instead of becoming
+victim to them.
+
+187
+00:13:38,740 --> 00:13:38,820
+Now it’s your turn!
+

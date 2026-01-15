@@ -1,0 +1,1597 @@
+1
+00:00:00,080 --> 00:00:04,360
+Today we're exploring some of 
+the best price action strategies. 
+
+2
+00:00:04,360 --> 00:00:06,600
+No clutter, no indicators,  
+
+3
+00:00:06,600 --> 00:00:10,560
+no lag…just pure price action!
+ 
+Engulfing momentum candlestick 
+
+4
+00:00:10,560 --> 00:00:14,320
+We’ll start with the engulfing 
+momentum candlestick. 
+
+5
+00:00:14,320 --> 00:00:20,720
+This signal occurs when a large candle fully 
+engulfs the body of the previous two candles. 
+
+6
+00:00:20,720 --> 00:00:27,080
+Basically, a big candle that completely 
+covers the smaller ones right before it. 
+  
+
+7
+00:00:27,080 --> 00:00:34,240
+This isn't just a regular occurrence—it's a sign, 
+a clear indicator of a strong move in the market. 
+
+8
+00:00:34,240 --> 00:00:40,360
+This is what we call an "engulfing" pattern. 
+ 
+The psychology behind this pattern is all about  
+
+9
+00:00:40,360 --> 00:00:46,400
+market sentiment and the sudden shift in 
+the balance between buyers and sellers. 
+
+10
+00:00:46,400 --> 00:00:51,320
+Before an engulfing pattern occurs, 
+there usually is a clear trend. 
+
+11
+00:00:51,320 --> 00:00:55,440
+This trend indicates a prevailing 
+direction where the majority of  
+
+12
+00:00:55,440 --> 00:01:02,600
+market participants are either buying or selling.
+ 
+At some point, the market starts showing signs of  
+
+13
+00:01:02,600 --> 00:01:09,600
+exhaustion. For a bullish engulfing momentum bar, 
+this might be at a support area, or at a demand  
+
+14
+00:01:09,600 --> 00:01:16,320
+zone where buyers believe the price is attractive 
+enough to start buying in large quantities. 
+
+15
+00:01:16,320 --> 00:01:21,200
+For a bearish engulfing one, this 
+could be at a resistance or at a  
+
+16
+00:01:21,200 --> 00:01:27,400
+supply zone where sellers feel the price 
+has peaked and it's a good time to sell.
+  
+
+17
+00:01:27,400 --> 00:01:32,280
+The engulfing momentum candle 
+represents a strong shift in sentiment. 
+
+18
+00:01:32,280 --> 00:01:38,080
+If it's bullish, buyers have overwhelmed the 
+sellers, pushing the price up and covering the  
+
+19
+00:01:38,080 --> 00:01:42,680
+range of the previous 2 candles.
+This suggests that the demand  
+
+20
+00:01:42,680 --> 00:01:49,720
+has suddenly outstripped the supply.
+ 
+In a bearish pattern, sellers have come in strong,  
+
+21
+00:01:49,720 --> 00:01:55,040
+indicating an excess of supply over demand .
+The immediate effect of an engulfing  
+
+22
+00:01:55,040 --> 00:02:02,680
+momentum bar is to signal a potential reversal.
+It shows a decisive change in market dynamics. 
+  
+
+23
+00:02:02,680 --> 00:02:09,720
+For bullish signals, it could mean the end of 
+a downtrend phase, with prices likely to rise. 
+
+24
+00:02:09,720 --> 00:02:16,520
+For bearish ones, it could suggest the end of 
+an uptrend wave, with prices expected to fall.
+  
+
+25
+00:02:16,520 --> 00:02:20,800
+For the engulfing momentum pattern 
+to be a reliable signal, it should  
+
+26
+00:02:20,800 --> 00:02:27,200
+ideally be accompanied by high trading volume.
+This volume is the evidence that a significant  
+
+27
+00:02:27,200 --> 00:02:33,000
+number of traders have participated in 
+creating the candle, thereby validating  
+
+28
+00:02:33,000 --> 00:02:37,040
+the shift in market sentiment. 
+ 
+And please wait for the candle  
+
+29
+00:02:37,040 --> 00:02:41,960
+to close, to confirm the signal.
+Prematurely reacting to what looks like  
+
+30
+00:02:41,960 --> 00:02:49,120
+an engulfing momentum pattern can lead to false 
+signals if the candle does not close as such.
+  
+
+31
+00:02:49,120 --> 00:02:55,160
+The psychology of this signal revolves around 
+the traders' perceptions of value and momentum. 
+
+32
+00:02:55,160 --> 00:03:00,120
+In a demand zone, seeing a bullish 
+pattern might lead buyers to believe  
+
+33
+00:03:00,120 --> 00:03:06,520
+that the market is turning in their favor, 
+hence they buy more, driving the price up. 
+
+34
+00:03:06,520 --> 00:03:13,160
+In a supply zone, a bearish pattern might 
+scare off buyers and encourage more selling,  
+
+35
+00:03:13,160 --> 00:03:16,000
+pushing the price down.
+ 
+Breakout buildup 
+
+36
+00:03:16,000 --> 00:03:22,320
+A breakout buildup occurs when the price action 
+compresses, indicating a balance or a struggle  
+
+37
+00:03:22,320 --> 00:03:28,920
+between supply and demand, before one side 
+eventually takes over, leading to a breakout.
+  
+
+38
+00:03:28,920 --> 00:03:32,440
+The market structures itself 
+around various phases,  
+
+39
+00:03:32,440 --> 00:03:38,640
+which include accumulation and distribution.
+During the accumulation phase, you often see  
+
+40
+00:03:38,640 --> 00:03:45,240
+smart money buying up the available supply, 
+without causing a significant price increase. 
+
+41
+00:03:45,240 --> 00:03:52,080
+In contrast, the distribution phase occurs after 
+the price has risen, and smart money begin to sell  
+
+42
+00:03:52,080 --> 00:03:57,800
+their positions, quietly and slowly.
+A breakout buildup typically forms  
+
+43
+00:03:57,800 --> 00:04:01,000
+during these phases.
+ 
+The price action during  
+
+44
+00:04:01,000 --> 00:04:06,920
+a buildup appears as a tight consolidation 
+where the price moves in a narrow range. 
+
+45
+00:04:06,920 --> 00:04:11,400
+This consolidation suggests that 
+neither buyers nor sellers are in  
+
+46
+00:04:11,400 --> 00:04:18,840
+full control, but both are actively involved.
+During this phase, the volume often diminishes,  
+
+47
+00:04:18,840 --> 00:04:24,400
+which might seem counterintuitive.
+However, this decrease in volume is  
+
+48
+00:04:24,400 --> 00:04:30,360
+a key indicator of a breakout buildup. 
+ 
+This is because it suggests that traders  
+
+49
+00:04:30,360 --> 00:04:36,040
+are waiting on the sidelines, watching 
+closely for a sign to enter the market. 
+
+50
+00:04:36,040 --> 00:04:39,820
+In a breakout buildup, the price 
+action doesn't make big jumps. 
+
+51
+00:04:39,820 --> 00:04:46,680
+Instead, it moves slowly, hugging close to a 
+key price level, like resistance or support. 
+
+52
+00:04:46,680 --> 00:04:51,840
+This slow, tightening movement is often 
+called "coiling". And a coiled market  
+
+53
+00:04:51,840 --> 00:04:59,040
+holds potential for a significant price move.
+ 
+Traders are watching closely, but they're hesitant  
+
+54
+00:04:59,040 --> 00:05:07,280
+to commit fully, not until a clear signal appears.
+This decrease in volume and smaller price range is  
+
+55
+00:05:07,280 --> 00:05:14,160
+a sign of weakening momentum in the current trend. 
+It's like the moment of silence before the storm.
+  
+
+56
+00:05:14,160 --> 00:05:20,960
+The real action happens when there's a breakout 
+– a strong price move out of the coiling pattern. 
+
+57
+00:05:20,960 --> 00:05:25,840
+This breakout can happen in either direction, 
+but it typically follows the prevailing  
+
+58
+00:05:25,840 --> 00:05:31,720
+trend or the pressure from the dominant 
+market side, before the buildup started. 
+
+59
+00:05:31,720 --> 00:05:37,440
+For example, if the buildup occurs near a 
+resistance level after a strong uptrend,  
+
+60
+00:05:37,440 --> 00:05:42,680
+the breakout is likely to push 
+upward, continuing the trend.
+  
+
+61
+00:05:42,680 --> 00:05:46,960
+However, not every buildup 
+leads to a breakout. Sometimes,  
+
+62
+00:05:46,960 --> 00:05:53,960
+the price might just hover around the level and 
+then drift away without any significant movement. 
+
+63
+00:05:53,960 --> 00:05:58,680
+This is why it's important to wait for 
+the breakout before making a trade. 
+  
+
+64
+00:05:58,680 --> 00:06:04,960
+Confirmation could come in the form of a price 
+action signal closing well beyond the level,  
+
+65
+00:06:04,960 --> 00:06:10,760
+or an increase in trading volume that 
+supports the direction of the breakout.
+  
+
+66
+00:06:10,760 --> 00:06:12,800
+Bull and bear trap
+Bull and bear traps happen  
+
+67
+00:06:12,800 --> 00:06:20,040
+every day, on all markets and all time frames.
+They are essentially false breakouts of major and  
+
+68
+00:06:20,040 --> 00:06:27,560
+minor levels, where the price quickly reverses. 
+ 
+A bull trap occurs when traders are misled into  
+
+69
+00:06:27,560 --> 00:06:33,960
+thinking that a rising price will continue going 
+up after breaking above a resistance level.  
+
+70
+00:06:33,960 --> 00:06:41,080
+However, the price reverses, and drops instead.
+A bear trap happens when the price breaks below  
+
+71
+00:06:41,080 --> 00:06:47,520
+a support level, suggesting a further 
+decline, but then it reverses and rises.
+  
+
+72
+00:06:47,520 --> 00:06:53,440
+To find these traps, you can start by 
+looking for a breakout that lacks conviction. 
+
+73
+00:06:53,440 --> 00:06:59,680
+This might manifest as a price that moves 
+beyond an obvious level, but with low volume. 
+
+74
+00:06:59,680 --> 00:07:04,560
+If the breakout volume is suspiciously 
+low, this could be a trap.
+  
+
+75
+00:07:04,560 --> 00:07:08,760
+Next, observe the price action 
+around these critical levels. 
+
+76
+00:07:08,760 --> 00:07:12,600
+In the case of a bull trap, you 
+might see the price pushing through  
+
+77
+00:07:12,600 --> 00:07:18,160
+a resistance level but then quickly 
+pulling back and closing below it. 
+
+78
+00:07:18,160 --> 00:07:22,040
+This indicates that the buyers 
+could not maintain their strength,  
+
+79
+00:07:22,040 --> 00:07:27,640
+and the sellers are taking control. 
+ 
+For a bear trap, it's the opposite;  
+
+80
+00:07:27,640 --> 00:07:33,520
+the price might dip below a support 
+level, only to rebound and close above it,  
+
+81
+00:07:33,520 --> 00:07:39,640
+showing that the sellers are losing their 
+grip and buyers are stepping back in.
+  
+
+82
+00:07:39,640 --> 00:07:42,920
+Another technique is to 
+analyze the market structure. 
+
+83
+00:07:42,920 --> 00:07:50,080
+False breakouts often occur in ranges or during 
+periods when the market lacks a clear trend. 
+
+84
+00:07:50,080 --> 00:07:55,120
+If you notice that the price is breaking 
+out of a range but the overall market  
+
+85
+00:07:55,120 --> 00:08:01,120
+conditions are not supportive of a strong 
+move, this could be a setup for a trap .
+  
+
+86
+00:08:01,120 --> 00:08:05,880
+It's also useful to track how 
+often a specific level is tested. 
+
+87
+00:08:05,880 --> 00:08:10,760
+A genuine breakout might initially 
+retreat back to the breakout point,  
+
+88
+00:08:10,760 --> 00:08:16,840
+but it usually won't penetrate back through it.
+If you see the price breaking a level and then  
+
+89
+00:08:16,840 --> 00:08:22,360
+retesting it multiple times, be wary.
+This could indicate that the breakout  
+
+90
+00:08:22,360 --> 00:08:28,000
+doesn't have enough strength and might 
+reverse, signaling a potential trap. 
+
+91
+00:08:28,000 --> 00:08:34,000
+Now, before we continue, let us know in the 
+comments what topics you’d like us to cover.  
+
+92
+00:08:34,000 --> 00:08:37,280
+Tell us what you want to watch next!
+ 
+ 
+Long wick engulfing candlestick 
+
+93
+00:08:37,280 --> 00:08:42,440
+The long wick engulfing candlestick 
+is my favorite price action strategy. 
+
+94
+00:08:42,440 --> 00:08:48,680
+This candlestick not only indicates a strong 
+rejection of prices, but also signals potential  
+
+95
+00:08:48,680 --> 00:08:54,440
+momentum shift in the market direction. 
+ 
+This candle typically shows a large body  
+
+96
+00:08:54,440 --> 00:08:58,800
+with a long wick that extends 
+far beyond the body's edges. 
+
+97
+00:08:58,800 --> 00:09:04,320
+The 'engulfing' part means that the body of this 
+candle is larger than the body of the previous  
+
+98
+00:09:04,320 --> 00:09:12,080
+candle, completely overshadowing or engulfing it.
+This visual on your chart is your first clue about  
+
+99
+00:09:12,080 --> 00:09:17,600
+a significant shift in market sentiment.
+ 
+The long wick represents a point where  
+
+100
+00:09:17,600 --> 00:09:23,040
+supply surpasses demand, pushing 
+the price back down, or vice versa,  
+
+101
+00:09:23,040 --> 00:09:28,400
+depending on the direction of the wick.
+Let's say the long wick is at the top of  
+
+102
+00:09:28,400 --> 00:09:34,600
+the candle. This suggests that as the price 
+went up, it hit a level where sellers were  
+
+103
+00:09:34,600 --> 00:09:40,520
+waiting to take profits or considered 
+the price too high, outweighing buyers. 
+
+104
+00:09:40,520 --> 00:09:47,680
+This results in the price being pushed back 
+down sharply, leaving behind a long upper wick.
+  
+
+105
+00:09:47,680 --> 00:09:53,120
+The rejection indicated by the long wick is 
+significant because it shows that a certain  
+
+106
+00:09:53,120 --> 00:09:58,320
+price level could not be sustained.
+Buyers tried to push the price up,  
+
+107
+00:09:58,320 --> 00:10:03,440
+but the overwhelming number of sellers 
+at that level rejected this move. 
+  
+
+108
+00:10:03,440 --> 00:10:10,120
+If the candle also engulfs the previous candle, 
+it shows increasing selling momentum. Despite  
+
+109
+00:10:10,120 --> 00:10:15,800
+any buying pressure that might have been 
+present initially, sellers took control  
+
+110
+00:10:15,800 --> 00:10:24,320
+and managed to push the close below the open of 
+the previous candle, indicating strong supply .
+  
+
+111
+00:10:24,320 --> 00:10:28,880
+If the wick is at the bottom, it 
+means sellers drove the price down,  
+
+112
+00:10:28,880 --> 00:10:35,320
+but buyers stepped in, finding the lower price 
+attractive, thus pushing the price back up,  
+
+113
+00:10:35,320 --> 00:10:40,520
+showing rejection of lower prices .
+If the body of the candlestick also  
+
+114
+00:10:40,520 --> 00:10:46,520
+engulfs the previous candle, it suggests 
+increasing buying momentum. Buyers were  
+
+115
+00:10:46,520 --> 00:10:52,760
+not only able to overcome the selling pressure 
+indicated by the long upper wick, but were also  
+
+116
+00:10:52,760 --> 00:10:59,720
+strong enough to close the candle higher than the 
+previous candle’s body, indicating strong demand.
+  
+
+117
+00:10:59,720 --> 00:11:04,240
+This is a powerful price action signal. 
+It provides a clear signal that the  
+
+118
+00:11:04,240 --> 00:11:10,800
+market sentiment might be changing direction.
+Look for these patterns at major resistance or  
+
+119
+00:11:10,800 --> 00:11:18,000
+support levels, because they can signal the end 
+of a trend or the reversal of a price direction. 
+
+120
+00:11:18,000 --> 00:11:23,440
+A bullish long wick engulfing candle 
+at a key support level might suggest  
+
+121
+00:11:23,440 --> 00:11:29,240
+a potential upward reversal, tempting buyers 
+to enter the market expecting future gains.
+  
+
+122
+00:11:30,680 --> 00:11:34,400
+The no retest breakout
+The no re-test breakout is a must-know signal. 
+
+123
+00:11:34,400 --> 00:11:41,560
+Imagine a scenario where the market has been 
+trending upwards, and suddenly, a breakout occurs.  
+
+124
+00:11:41,560 --> 00:11:48,080
+Unlike many breakouts that might retest the 
+breakout level, this one doesn't look back—it just  
+
+125
+00:11:48,080 --> 00:11:54,480
+keeps powering through, with intense momentum.
+This is a no retest breakout, with big momentum.
+ 
+
+126
+00:11:54,480 --> 00:12:00,440
+First, let’s consider the price action 
+psychology after, and before such a breakout. 
+
+127
+00:12:00,440 --> 00:12:05,760
+Many traders are watching the same resistance 
+level. Some might be waiting to buy just  
+
+128
+00:12:05,760 --> 00:12:10,560
+after the breakout, believing that 
+the price will continue to rise. 
+
+129
+00:12:10,560 --> 00:12:15,480
+Others might be skeptical, holding 
+off on buying until they see a retest  
+
+130
+00:12:15,480 --> 00:12:21,880
+of the level, to confirm it as a new support. 
+ 
+Now, when the price breaks through the resistance  
+
+131
+00:12:21,880 --> 00:12:29,160
+level with strong momentum and doesn't retest, two 
+main groups of traders are significantly impacted:  
+
+132
+00:12:29,840 --> 00:12:35,160
+those who missed entering at the breakout, 
+and those who bet against the breakout,  
+
+133
+00:12:35,160 --> 00:12:39,320
+assuming it wouldn’t last.
+ 
+For those who missed the breakout,  
+
+134
+00:12:39,320 --> 00:12:45,520
+the pain begins as they watch the price move 
+further and further away from the breakout level. 
+
+135
+00:12:45,520 --> 00:12:50,000
+They were waiting for a dip—a 
+retest—that never comes. 
+
+136
+00:12:50,000 --> 00:12:55,560
+This situation creates a psychological 
+urgency, a fear of missing out,  
+
+137
+00:12:55,560 --> 00:13:01,920
+prompting them to consider entering the trade at 
+much higher prices than they initially planned,  
+
+138
+00:13:01,920 --> 00:13:07,520
+often pushing the price even higher.
+ 
+On the flip side, consider the traders  
+
+139
+00:13:07,520 --> 00:13:13,360
+who took a short position, betting that 
+the price would not sustain its breakout. 
+
+140
+00:13:13,360 --> 00:13:19,400
+As the price climbs higher, these traders 
+find themselves in a losing position. 
+
+141
+00:13:19,400 --> 00:13:25,720
+The psychological discomfort, the "point of 
+pain" is located at the breakout level. 
+  
+
+142
+00:13:25,720 --> 00:13:29,480
+The plan here is to focus on 
+the moment the price finally  
+
+143
+00:13:29,480 --> 00:13:34,480
+returns to the initial breakout level, 
+the "point of pain", which is a critical  
+
+144
+00:13:34,480 --> 00:13:39,000
+moment for both groups of traders.
+For those who were waiting for a  
+
+145
+00:13:39,000 --> 00:13:45,360
+retest to confirm their buy, this might be 
+seen as a second chance to enter the trade. 
+
+146
+00:13:45,360 --> 00:13:49,880
+And for the traders who are trapped in 
+a losing position from their shorts,  
+
+147
+00:13:49,880 --> 00:13:56,840
+this is an opportunity to exit at a 
+break-even point or at least minimize losses.
+ 
+
+148
+00:13:56,840 --> 00:14:02,120
+The return to the breakout level will 
+often trigger a surge in trading activity. 
+
+149
+00:14:02,120 --> 00:14:07,680
+This can lead to a sharp price reaction.
+ 
+However, the reaction at the breakout  
+
+150
+00:14:07,680 --> 00:14:12,480
+level isn't always predictable.
+If too many traders are looking to exit  
+
+151
+00:14:12,480 --> 00:14:19,280
+their positions (both longs taking profits and 
+shorts covering losses), the supply might outweigh  
+
+152
+00:14:19,280 --> 00:14:25,840
+the demand, leading to a price drop instead.
+So don’t expect a major price swing at the  
+
+153
+00:14:25,840 --> 00:14:33,361
+“point of pain”. You will see a reaction, but 
+it won’t be that explosive as the first one. 
+ 
+
+154
+00:14:33,361 --> 00:14:35,680
+Multiple Rejection Wicks + Color Change
+When you see multiple rejection wicks,  
+
+155
+00:14:35,680 --> 00:14:40,760
+and candles are changing their color, 
+you are witnessing a strong signal. 
+  
+
+156
+00:14:40,760 --> 00:14:47,480
+In this example, observe these two consecutive 
+candles at a similar price level, where the first  
+
+157
+00:14:47,480 --> 00:14:55,200
+is bullish with a long upper wick, followed by 
+a bearish one with a similar long upper wick. 
+
+158
+00:14:55,200 --> 00:14:59,040
+This formation can tell you a lot 
+about what's happening in the market.
+  
+
+159
+00:15:00,000 --> 00:15:06,680
+Starting with supply and demand, the first candle, 
+the bullish one with a long upper wick, indicates  
+
+160
+00:15:06,680 --> 00:15:12,320
+that buyers initially pushed prices higher.
+However, the long upper wick shows that as  
+
+161
+00:15:12,320 --> 00:15:19,160
+the price reached higher levels, an ample supply 
+emerged, overpowering the buyers and pushing the  
+
+162
+00:15:19,160 --> 00:15:26,200
+price down from its peak before the candle closed.
+At these higher price levels, sellers are more  
+
+163
+00:15:26,200 --> 00:15:32,440
+than willing to step in and take control .
+ 
+Now, when the next candle opens, it starts  
+
+164
+00:15:32,440 --> 00:15:39,360
+where the first one left off, but turns bearish 
+with a long upper wick as well. This second  
+
+165
+00:15:39,360 --> 00:15:45,600
+candle confirms the presence of strong selling 
+interest at these levels. The fact that this  
+
+166
+00:15:45,600 --> 00:15:52,600
+candle is bearish and mirrors the wick of the 
+previous bullish candle intensifies the signal. 
+
+167
+00:15:52,600 --> 00:15:58,240
+The sellers are not just reacting spontaneously; 
+they are firmly establishing their ground,  
+
+168
+00:15:58,240 --> 00:16:04,360
+showing that they are prepared to sell at 
+these prices, thus increasing the supply. 
+  
+
+169
+00:16:04,360 --> 00:16:08,720
+The repeated rejection at this price 
+level signifies that the supply has  
+
+170
+00:16:08,720 --> 00:16:15,800
+surpassed the demand, possibly leading to a trend 
+reversal or at least a significant pullback.
+  
+
+171
+00:16:15,800 --> 00:16:21,440
+From a psychological perspective, this 
+signal plays a vital role. Consider  
+
+172
+00:16:21,440 --> 00:16:27,000
+the first bullish candle. Traders who 
+bought during, or just before the high,  
+
+173
+00:16:27,000 --> 00:16:32,840
+might have expected the momentum to continue.
+The subsequent price dip could lead to a change  
+
+174
+00:16:32,840 --> 00:16:40,240
+in sentiment from optimism to concern, or 
+even fear. This emotional shift is crucial  
+
+175
+00:16:40,240 --> 00:16:46,680
+as it might prompt those buyers to sell quickly 
+to cut losses when they see prices failing to go  
+
+176
+00:16:46,680 --> 00:16:52,440
+higher, which adds to the selling pressure.
+ 
+If this pattern appears at a known resistance  
+
+177
+00:16:52,440 --> 00:16:59,080
+level, the message it sends is even stronger.
+Traders often place their stops around these  
+
+178
+00:16:59,080 --> 00:17:04,840
+levels, and the activation of these stops 
+can accelerate the price movement downward,  
+
+179
+00:17:04,840 --> 00:17:08,320
+as the bearish sentiment takes hold.
+ 
+Supply/demand 
+
+180
+00:17:08,320 --> 00:17:12,840
+The next strategy involves choosing 
+the correct supply/demand zones. 
+
+181
+00:17:12,840 --> 00:17:19,080
+During uptrends, demand levels are 
+respected, and supply zones are taken out. 
+
+182
+00:17:19,080 --> 00:17:25,160
+This phenomenon occurs as buyers gain 
+confidence and control over the market. 
+
+183
+00:17:25,160 --> 00:17:29,080
+This buying pressure gradually 
+outweighs the selling pressure,  
+
+184
+00:17:29,080 --> 00:17:34,800
+leading to a sustained rise in price .
+In this phase, when price retraces to  
+
+185
+00:17:34,800 --> 00:17:40,680
+a lower level (a demand zone), 
+it finds strong buying interest. 
+
+186
+00:17:40,680 --> 00:17:47,000
+These zones are where buyers previously saw 
+good value and are likely to engage again,  
+
+187
+00:17:47,000 --> 00:17:52,960
+believing that the price will continue to rise. 
+ 
+The respect for these demand zones during an  
+
+188
+00:17:52,960 --> 00:17:58,040
+uptrend is due to the traders' 
+psychology of "buying on dips." 
+
+189
+00:17:58,040 --> 00:18:03,720
+They perceive these pullbacks as opportunities 
+to buy at a lower price in a market that  
+
+190
+00:18:03,720 --> 00:18:07,160
+is overall ascending.
+As the price reaches  
+
+191
+00:18:07,160 --> 00:18:13,040
+new highs, it encounters supply zones.
+These are levels where the price was previously  
+
+192
+00:18:13,040 --> 00:18:21,080
+sold off, and potential resistance might exist.
+However, in a strong uptrend, these zones are  
+
+193
+00:18:21,080 --> 00:18:27,680
+often breached. This breach happens because the 
+ongoing positive sentiment and the buying pressure  
+
+194
+00:18:27,680 --> 00:18:34,040
+overpower the sellers waiting at these levels. 
+ 
+Each time a supply zone is taken out,  
+
+195
+00:18:34,040 --> 00:18:39,960
+it reinforces the bullish sentiment.
+It's a psychological reinforcement loop - breaking  
+
+196
+00:18:39,960 --> 00:18:47,480
+through supply zones builds more confidence among 
+buyers, drawing more participants into the market. 
+
+197
+00:18:47,480 --> 00:18:52,920
+The point is, during uptrends, don’t 
+even try to trade supply zones. Focus  
+
+198
+00:18:52,920 --> 00:18:59,600
+only on buying on dips, at demand zones.
+ 
+During downtrends, you’ll see that supply zones  
+
+199
+00:18:59,600 --> 00:19:05,680
+are respected, and demand zones are taken out.
+When the price goes up to test a previous  
+
+200
+00:19:05,680 --> 00:19:11,160
+high (a supply zone), it often finds 
+strong selling interest. Traders who  
+
+201
+00:19:11,160 --> 00:19:17,000
+missed selling during the initial drop see 
+these rallies as second chances to sell. 
+
+202
+00:19:17,000 --> 00:19:23,640
+So, supply zones gain respect; they act as 
+barriers preventing the price from rising further  
+
+203
+00:19:23,640 --> 00:19:29,600
+because the prevailing sentiment is bearish.
+Traders expect prices to go lower,  
+
+204
+00:19:29,600 --> 00:19:35,880
+so these zones are defended by selling.
+ 
+On the other hand, demand zones, which supported  
+
+205
+00:19:35,880 --> 00:19:43,240
+the price on its way down, start to break.
+As the downtrend deepens, each rally is weaker,  
+
+206
+00:19:43,240 --> 00:19:49,640
+and previous demand zones fail to hold because 
+the selling pressure continues to mount. 
+
+207
+00:19:49,640 --> 00:19:54,920
+The failure of these zones is due to a 
+shift in market psychology. The fear of  
+
+208
+00:19:54,920 --> 00:20:01,000
+further declines becomes more dominant 
+than the desire to buy at lower prices. 
+
+209
+00:20:01,000 --> 00:20:05,320
+Thus, these demand zones are 
+taken out, leading to new lows. 
+  
+
+210
+00:20:05,320 --> 00:20:11,760
+Each breach of a demand zone further demoralizes 
+the buyers, reinforcing the bearish trend. 
+
+211
+00:20:11,760 --> 00:20:19,098
+So during downtrends, ignore the demand zones. 
+Focus only on selling at supply zones.
+ 
+  
+
+212
+00:20:19,098 --> 00:20:20,960
+Over and under pattern
+The over and under pattern is one  
+
+213
+00:20:20,960 --> 00:20:26,680
+of the most effective price action strategies.
+This pattern essentially signals a critical  
+
+214
+00:20:26,680 --> 00:20:33,000
+shift in the market dynamics, hinting at a 
+potential weakening or reversal of a trend. 
+  
+
+215
+00:20:33,000 --> 00:20:37,840
+So in any trading market, prices 
+are driven by supply and demand. 
+
+216
+00:20:37,840 --> 00:20:42,360
+These forces are represented by the 
+actions of buyers and sellers who  
+
+217
+00:20:42,360 --> 00:20:47,200
+push prices higher or lower.
+A trend, whether up or down,  
+
+218
+00:20:47,200 --> 00:20:53,000
+continues as long as there is an imbalance 
+favoring either buyers or sellers. 
+  
+
+219
+00:20:53,000 --> 00:21:00,040
+For example, in an uptrend, buyers prevail, 
+consistently willing to buy at higher prices,  
+
+220
+00:21:00,040 --> 00:21:04,560
+thus creating a sequence of 
+higher highs and higher lows. 
+
+221
+00:21:04,560 --> 00:21:07,680
+The over and under pattern 
+comes into play when there  
+
+222
+00:21:07,680 --> 00:21:13,840
+is a noticeable shift in this trend structure.
+When the price suddenly drops below a previous  
+
+223
+00:21:13,840 --> 00:21:20,120
+major low, and then makes a lower high, 
+it suggests a break in this structure. 
+
+224
+00:21:20,120 --> 00:21:25,000
+This is the first clue that the 
+prevailing buying pressure is weakening. 
+  
+
+225
+00:21:25,000 --> 00:21:30,800
+The scenario is similar but reversed in a 
+downtrend. When prices push above the previous  
+
+226
+00:21:30,800 --> 00:21:37,400
+low, but then form a higher high, it indicates 
+that the selling pressure is diminishing.
+  
+
+227
+00:21:37,400 --> 00:21:41,560
+Let's consider the psychological 
+aspects driving this pattern. 
+
+228
+00:21:41,560 --> 00:21:47,840
+In an uptrend, as the price drops to form 
+what initially appears as a normal pullback,  
+
+229
+00:21:47,840 --> 00:21:54,320
+buyers are typically prepared to jump in, 
+anticipating another push to higher highs. 
+  
+
+230
+00:21:54,320 --> 00:22:00,600
+However, as the price fails to reach a new 
+high and instead falls below the previous low,  
+
+231
+00:22:00,600 --> 00:22:04,920
+it disrupts the expectations 
+formed by the market participants. 
+
+232
+00:22:04,920 --> 00:22:10,560
+This unexpected change often leads to 
+uncertainty and a shift in sentiment,  
+
+233
+00:22:10,560 --> 00:22:17,200
+causing some of the buyers to step back and 
+reassess their positions, while potential sellers  
+
+234
+00:22:17,200 --> 00:22:23,720
+might see an opportunity to enter the market.
+ 
+The pivotal moment in the over and under pattern  
+
+235
+00:22:23,720 --> 00:22:29,800
+is when the price breaches a significant level.
+This action is a powerful signal because it  
+
+236
+00:22:29,800 --> 00:22:35,520
+challenges the established market structure.
+It's not just a simple breach; it's a signal  
+
+237
+00:22:35,520 --> 00:22:41,960
+that the previous consensus is no longer valid.
+This can lead to rapid shifts in supply and  
+
+238
+00:22:41,960 --> 00:22:49,560
+demand. Buyers who were previously supporting 
+the price by buying at dips might pull back,  
+
+239
+00:22:49,560 --> 00:22:56,560
+and sellers may start to dominate, pushing the 
+price down further in what was an uptrend.
+  
+
+240
+00:22:56,560 --> 00:23:02,120
+From a supply and demand perspective, this 
+pattern reflects a shift in the balance.  
+
+241
+00:23:02,120 --> 00:23:07,280
+The initial move past the previous 
+high increases the demand suddenly. 
+
+242
+00:23:07,280 --> 00:23:13,600
+This failure to continue in the same direction 
+indicates exhaustion and a possible reversal of  
+
+243
+00:23:13,600 --> 00:23:18,160
+roles between buyers and sellers.
+ 
+ 
+The weak break of structure 
+
+244
+00:23:18,160 --> 00:23:22,160
+Another important strategy is 
+the “weak break of structure”. 
+
+245
+00:23:22,160 --> 00:23:28,680
+This signal is subtle, but powerful.
+Now, a “weak” break of structure occurs when the  
+
+246
+00:23:28,680 --> 00:23:35,920
+price marginally surpasses a previous high in 
+an uptrend, or a low in a downtrend, but fails  
+
+247
+00:23:35,920 --> 00:23:42,960
+to sustain this momentum and quickly retraces.
+This scenario often indicates that the market  
+
+248
+00:23:42,960 --> 00:23:48,840
+does not have sufficient conviction to 
+support the new highs or lows, leading  
+
+249
+00:23:48,840 --> 00:23:55,680
+to what we call a weak break of structure.
+ 
+In any market, price movements are fundamentally  
+
+250
+00:23:55,680 --> 00:24:01,680
+driven by the imbalance between supply and 
+demand. A weak break of structure typically  
+
+251
+00:24:01,680 --> 00:24:07,360
+occurs at points where this balance 
+is delicate and easily disrupted.
+ 
+
+252
+00:24:07,360 --> 00:24:13,600
+Consider a scenario where a price level has 
+historically acted as resistance. As prices  
+
+253
+00:24:13,600 --> 00:24:19,880
+approach this level, sellers begin to dominate 
+the market, believing that the level will hold  
+
+254
+00:24:19,880 --> 00:24:24,480
+and prices will drop again.
+Buyers, on the other hand,  
+
+255
+00:24:24,480 --> 00:24:30,120
+push the price up, testing the resistance.
+If the buying pressure is strong enough,  
+
+256
+00:24:30,120 --> 00:24:36,520
+it might initially break the resistance level.
+However, if this break is weak—meaning it only  
+
+257
+00:24:36,520 --> 00:24:42,960
+goes slightly above the resistance level and 
+quickly retraces—it suggests that the buying  
+
+258
+00:24:42,960 --> 00:24:48,400
+pressure was not truly powerful enough to 
+shift the market sentiment decisively. 
+  
+
+259
+00:24:48,400 --> 00:24:52,520
+The sellers still have substantial 
+influence, and the demand was not  
+
+260
+00:24:52,520 --> 00:24:58,520
+sufficient to maintain the higher prices.
+If the price cannot sustain itself above the  
+
+261
+00:24:58,520 --> 00:25:03,280
+previous resistance, it indicates 
+that demand is weakening. 
+
+262
+00:25:03,280 --> 00:25:10,440
+The price often falls back to lower levels as 
+sellers regain control and buyers withdraw,  
+
+263
+00:25:10,440 --> 00:25:16,200
+waiting for more favorable conditions. 
+ 
+One instance of a weak break of structure  
+
+264
+00:25:16,200 --> 00:25:19,120
+may not be meaningful.
+But consecutive “weak”  
+
+265
+00:25:19,120 --> 00:25:25,840
+breaks of structure can form a pattern that 
+highlights a significant loss of momentum. 
+  
+
+266
+00:25:25,840 --> 00:25:32,680
+For instance, if the market attempts to break a 
+low multiple times but each time only succeeds  
+
+267
+00:25:32,680 --> 00:25:40,000
+marginally before retracing, it suggests a 
+consistent lack of supply at lower price levels. 
+
+268
+00:25:40,000 --> 00:25:45,200
+This scenario often precedes a stronger 
+move in the opposite direction. 
+
+269
+00:25:45,200 --> 00:25:51,410
+Consecutive “weak” breaks will allow you 
+to anticipate potential market turns. 
+  
+
+270
+00:25:51,410 --> 00:25:53,600
+Momentum gain vs Momentum Loss
+The next strategy involves finding  
+
+271
+00:25:53,600 --> 00:26:00,440
+instances of momentum gain and momentum loss.
+Momentum refers to the speed or strength of  
+
+272
+00:26:00,440 --> 00:26:05,760
+price movements. And this can be observed 
+through the lens of consecutive candles  
+
+273
+00:26:05,760 --> 00:26:11,360
+increasing or decreasing in size, 
+from a supply and demand perspective.
+  
+
+274
+00:26:11,360 --> 00:26:18,440
+When you see consecutive candles getting larger 
+and larger, this usually signals a momentum gain. 
+
+275
+00:26:18,440 --> 00:26:23,400
+Imagine a scenario where each 
+candle represents a day of trading. 
+
+276
+00:26:23,400 --> 00:26:28,720
+If each day the price moves higher than 
+the previous day and the size of the candle  
+
+277
+00:26:28,720 --> 00:26:32,560
+gets bigger, it indicates strong buying pressure. 
+
+278
+00:26:32,560 --> 00:26:38,440
+More buyers are entering the market, 
+willing to buy at even higher prices. 
+  
+
+279
+00:26:38,440 --> 00:26:44,360
+This buying pressure pushes the price 
+up, creating larger bullish candles. 
+
+280
+00:26:44,360 --> 00:26:49,720
+This can often be seen in an uptrend 
+where each candle is getting larger and  
+
+281
+00:26:49,720 --> 00:26:55,680
+moving a greater distance per candle, 
+showing a gain in bullish momentum. 
+
+282
+00:26:55,680 --> 00:27:01,800
+The increasing size of the candles indicates 
+that buyers are becoming more aggressive.
+  
+
+283
+00:27:01,800 --> 00:27:07,560
+Momentum loss can be found when the candles 
+start to decrease in size. This suggests  
+
+284
+00:27:07,560 --> 00:27:12,960
+that the movement in price is losing strength.
+For example, if you observe that after a series  
+
+285
+00:27:12,960 --> 00:27:19,680
+of large bullish candles, the candles begin 
+to shrink in size, it could be a warning sign. 
+
+286
+00:27:19,680 --> 00:27:23,680
+Shrinking candles suggest that 
+although the trend is still upward,  
+
+287
+00:27:23,680 --> 00:27:30,280
+the buyers are not as aggressive as before. 
+ 
+The distance traveled per candle gets shorter,  
+
+288
+00:27:30,280 --> 00:27:36,320
+signaling that the buyers are losing control 
+and the bullish momentum is weakening. 
+
+289
+00:27:36,320 --> 00:27:42,840
+This shift could be due to various reasons, such 
+as traders taking profits after a price surge,  
+
+290
+00:27:42,840 --> 00:27:48,000
+or simply the market running out of steam.
+When buyers begin to pull back,  
+
+291
+00:27:48,000 --> 00:27:54,440
+the supply may start to match or exceed the 
+demand, leading to smaller price movements.
+ 
+
+292
+00:27:54,440 --> 00:28:01,400
+Momentum loss is not only about shrinking candles 
+but also about where these candles appear. 
+
+293
+00:28:01,400 --> 00:28:07,120
+If this pattern occurs after a prolonged 
+uptrend at a key resistance level,  
+
+294
+00:28:07,120 --> 00:28:12,640
+it could be a strong indicator that the 
+trend might reverse or at least stall. 
+
+295
+00:28:12,640 --> 00:28:18,560
+This is because at resistance levels, the price 
+has historically struggled to move higher,  
+
+296
+00:28:18,560 --> 00:28:24,640
+and with weakening momentum, the likelihood 
+of breaking through these levels decreases.
+  
+
+297
+00:28:24,640 --> 00:28:31,640
+The plan here is to ride the wave of increasing 
+buyer enthusiasm, during momentum gain phases. 
+
+298
+00:28:31,640 --> 00:28:36,760
+On the other hand, noticing a momentum 
+loss with decreasing candle sizes  
+
+299
+00:28:36,760 --> 00:28:41,880
+could signal a time to be cautious. 
+ 
+Volume will confirm or contradict the  
+
+300
+00:28:41,880 --> 00:28:47,800
+momentum signals provided by candle sizes.
+Increasing volume alongside larger  
+
+301
+00:28:47,800 --> 00:28:53,800
+candles reinforces the momentum gain, 
+suggesting strong buyer commitment.
+  
+
+302
+00:28:53,800 --> 00:28:59,040
+If candle sizes diminish and volume 
+decreases, this further confirms  
+
+303
+00:28:59,040 --> 00:29:05,280
+momentum loss, indicating that the interest 
+in pushing the price higher is decreasing. 
+
+304
+00:29:05,280 --> 00:29:18,440
+Now, if you liked what you saw, we have 
+plenty more interesting guides for you!
+

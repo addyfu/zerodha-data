@@ -1,0 +1,1232 @@
+1
+00:00:00,799 --> 00:00:04,480
+most traders are familiar with
+
+2
+00:00:02,399 --> 00:00:06,240
+traditional moving average studies such
+
+3
+00:00:04,480 --> 00:00:08,080
+as the simple moving average or the
+
+4
+00:00:06,240 --> 00:00:09,519
+exponential moving average
+
+5
+00:00:08,080 --> 00:00:12,240
+and there's nothing wrong with these
+
+6
+00:00:09,519 --> 00:00:14,080
+indicators but if you want more accuracy
+
+7
+00:00:12,240 --> 00:00:15,920
+and less lag you can take a look at the
+
+8
+00:00:14,080 --> 00:00:17,119
+double or triple exponential moving
+
+9
+00:00:15,920 --> 00:00:19,119
+average
+
+10
+00:00:17,119 --> 00:00:20,720
+the double and triple emas are an
+
+11
+00:00:19,119 --> 00:00:22,800
+improvement over the traditional
+
+12
+00:00:20,720 --> 00:00:24,960
+exponential moving average because they
+
+13
+00:00:22,800 --> 00:00:27,680
+allocate more weight to recent data
+
+14
+00:00:24,960 --> 00:00:29,760
+points the reduced lag results in a more
+
+15
+00:00:27,680 --> 00:00:31,519
+responsive moving average which helps
+
+16
+00:00:29,760 --> 00:00:34,079
+short-term traders to spot price
+
+17
+00:00:31,519 --> 00:00:36,399
+reversals faster
+
+18
+00:00:34,079 --> 00:00:38,160
+the double ema was developed in order to
+
+19
+00:00:36,399 --> 00:00:40,480
+reduce the lack of traditional moving
+
+20
+00:00:38,160 --> 00:00:42,000
+average indicators and to provide more
+
+21
+00:00:40,480 --> 00:00:44,079
+timely entries
+
+22
+00:00:42,000 --> 00:00:46,480
+the double ema is more responsive to
+
+23
+00:00:44,079 --> 00:00:48,559
+recent price data since moving averages
+
+24
+00:00:46,480 --> 00:00:50,399
+tend to be lagging indicators they can
+
+25
+00:00:48,559 --> 00:00:51,360
+generate somewhat delayed trading
+
+26
+00:00:50,399 --> 00:00:53,920
+signals
+
+27
+00:00:51,360 --> 00:00:55,760
+the double ema tries to address this
+
+28
+00:00:53,920 --> 00:00:58,079
+disadvantage present with all moving
+
+29
+00:00:55,760 --> 00:01:00,000
+average studies
+
+30
+00:00:58,079 --> 00:01:02,399
+here's a price chart with several moving
+
+31
+00:01:00,000 --> 00:01:05,040
+average studies the red line represents
+
+32
+00:01:02,399 --> 00:01:07,200
+the 50 period simple moving average line
+
+33
+00:01:05,040 --> 00:01:09,119
+the blue line represents the 50 period
+
+34
+00:01:07,200 --> 00:01:11,280
+exponential moving average and the
+
+35
+00:01:09,119 --> 00:01:12,400
+yellow line represents the double ema
+
+36
+00:01:11,280 --> 00:01:14,880
+line
+
+37
+00:01:12,400 --> 00:01:16,880
+notice how the double ema hugs the price
+
+38
+00:01:14,880 --> 00:01:18,560
+action better than both the simple
+
+39
+00:01:16,880 --> 00:01:20,799
+moving average and the exponential
+
+40
+00:01:18,560 --> 00:01:23,280
+moving average we can observe that the
+
+41
+00:01:20,799 --> 00:01:26,000
+double ema is closest to the price
+
+42
+00:01:23,280 --> 00:01:28,240
+points and with the least deviations
+
+43
+00:01:26,000 --> 00:01:31,360
+since the double ema line mimics the
+
+44
+00:01:28,240 --> 00:01:34,880
+prices most closely it is therefore most
+
+45
+00:01:31,360 --> 00:01:36,799
+sensitive to the market volatility
+
+46
+00:01:34,880 --> 00:01:38,880
+the double exponential moving average
+
+47
+00:01:36,799 --> 00:01:39,920
+has a somewhat complicated formula
+
+48
+00:01:38,880 --> 00:01:42,399
+behind it
+
+49
+00:01:39,920 --> 00:01:44,640
+essentially the double ema indicator is
+
+50
+00:01:42,399 --> 00:01:47,119
+a combination of single and double
+
+51
+00:01:44,640 --> 00:01:49,439
+exponential moving averages that results
+
+52
+00:01:47,119 --> 00:01:52,159
+in another exponential moving average
+
+53
+00:01:49,439 --> 00:01:55,200
+the dima indicator is named so because
+
+54
+00:01:52,159 --> 00:01:57,280
+it uses an ema of another ema and not
+
+55
+00:01:55,200 --> 00:01:59,680
+because it uses two exponential moving
+
+56
+00:01:57,280 --> 00:02:01,920
+averages you don't need to memorize this
+
+57
+00:01:59,680 --> 00:02:03,759
+formula to implement a double ema you
+
+58
+00:02:01,920 --> 00:02:06,240
+just need to know that it will provide
+
+59
+00:02:03,759 --> 00:02:08,160
+earlier entry opportunities since it is
+
+60
+00:02:06,240 --> 00:02:10,560
+more sensitive and more responsive to
+
+61
+00:02:08,160 --> 00:02:12,560
+recent price action
+
+62
+00:02:10,560 --> 00:02:15,360
+here are two double emas on the sim
+
+63
+00:02:12,560 --> 00:02:17,680
+daily chart the red line is the 50 days
+
+64
+00:02:15,360 --> 00:02:19,680
+dima which is significantly detached
+
+65
+00:02:17,680 --> 00:02:22,400
+from the price compared to the 10 day
+
+66
+00:02:19,680 --> 00:02:24,480
+dimma which is the yellow line the lower
+
+67
+00:02:22,400 --> 00:02:26,560
+the number of days of the moving average
+
+68
+00:02:24,480 --> 00:02:27,760
+the higher the effect of the last data
+
+69
+00:02:26,560 --> 00:02:29,840
+point will be
+
+70
+00:02:27,760 --> 00:02:31,760
+and the lesser the number of days used
+
+71
+00:02:29,840 --> 00:02:33,440
+to calculate the moving average the
+
+72
+00:02:31,760 --> 00:02:34,800
+higher the volatility of that moving
+
+73
+00:02:33,440 --> 00:02:37,360
+average will be
+
+74
+00:02:34,800 --> 00:02:39,519
+so dima of a lower number of days will
+
+75
+00:02:37,360 --> 00:02:42,879
+be more volatile and will incorporate
+
+76
+00:02:39,519 --> 00:02:44,480
+the price changes more accurately
+
+77
+00:02:42,879 --> 00:02:46,319
+what's the difference between the double
+
+78
+00:02:44,480 --> 00:02:48,800
+exponential moving average and that
+
+79
+00:02:46,319 --> 00:02:51,599
+triple exponential moving average
+
+80
+00:02:48,800 --> 00:02:53,920
+essentially the triple ema utilizes a
+
+81
+00:02:51,599 --> 00:02:55,840
+triple smooth exponential moving average
+
+82
+00:02:53,920 --> 00:02:57,360
+along with a single and a double
+
+83
+00:02:55,840 --> 00:02:58,800
+smoother dmas
+
+84
+00:02:57,360 --> 00:03:01,040
+there's no need to know the exact
+
+85
+00:02:58,800 --> 00:03:02,959
+formula of the triple ema you just need
+
+86
+00:03:01,040 --> 00:03:05,040
+to understand that this indicator will
+
+87
+00:03:02,959 --> 00:03:07,840
+be even more sensitive to recent price
+
+88
+00:03:05,040 --> 00:03:09,920
+action than the double ema
+
+89
+00:03:07,840 --> 00:03:12,400
+here's a price chart that shows both the
+
+90
+00:03:09,920 --> 00:03:15,040
+dima and team indicators
+
+91
+00:03:12,400 --> 00:03:18,080
+the double ema line is shown in yellow
+
+92
+00:03:15,040 --> 00:03:20,400
+and the triple ema line is shown in red
+
+93
+00:03:18,080 --> 00:03:22,480
+it's obvious that the triple ema reacts
+
+94
+00:03:20,400 --> 00:03:24,959
+to price changes quicker than the double
+
+95
+00:03:22,480 --> 00:03:27,040
+ema line for this reason triple
+
+96
+00:03:24,959 --> 00:03:29,360
+exponential moving average is very well
+
+97
+00:03:27,040 --> 00:03:30,840
+suited for short-term trading due to its
+
+98
+00:03:29,360 --> 00:03:34,080
+more sensitive
+
+99
+00:03:30,840 --> 00:03:35,680
+nature how to trade using dima and team
+
+100
+00:03:34,080 --> 00:03:38,959
+indicators
+
+101
+00:03:35,680 --> 00:03:40,799
+first method trend analysis
+
+102
+00:03:38,959 --> 00:03:43,040
+without knowing what the current market
+
+103
+00:03:40,799 --> 00:03:45,440
+environment is it will be difficult to
+
+104
+00:03:43,040 --> 00:03:47,120
+consistently beat the market that's why
+
+105
+00:03:45,440 --> 00:03:49,440
+you need a method for identifying
+
+106
+00:03:47,120 --> 00:03:51,280
+whether the market is trending or not
+
+107
+00:03:49,440 --> 00:03:53,599
+although you can often glance at a price
+
+108
+00:03:51,280 --> 00:03:55,920
+chart to get an idea of what the general
+
+109
+00:03:53,599 --> 00:03:58,000
+trend of the market is you could apply a
+
+110
+00:03:55,920 --> 00:04:00,319
+more objective measure for defining the
+
+111
+00:03:58,000 --> 00:04:01,519
+current trend using double or triple
+
+112
+00:04:00,319 --> 00:04:03,200
+emas
+
+113
+00:04:01,519 --> 00:04:05,599
+the direction of the double or the
+
+114
+00:04:03,200 --> 00:04:07,599
+triple ema is the direction in which the
+
+115
+00:04:05,599 --> 00:04:08,720
+prices are expected to move in the
+
+116
+00:04:07,599 --> 00:04:11,200
+future
+
+117
+00:04:08,720 --> 00:04:13,120
+rising moving averages signifies a
+
+118
+00:04:11,200 --> 00:04:15,200
+probable rising price
+
+119
+00:04:13,120 --> 00:04:18,639
+whereas falling moving averages
+
+120
+00:04:15,200 --> 00:04:20,400
+signifies a probable price fall
+
+121
+00:04:18,639 --> 00:04:23,040
+when the price is trading above the
+
+122
+00:04:20,400 --> 00:04:25,280
+double or the triple ema and the line is
+
+123
+00:04:23,040 --> 00:04:26,880
+sloping upward then we can say that the
+
+124
+00:04:25,280 --> 00:04:28,479
+trend is up
+
+125
+00:04:26,880 --> 00:04:30,880
+when the price is trading below the
+
+126
+00:04:28,479 --> 00:04:33,280
+double or the triple ema line and the
+
+127
+00:04:30,880 --> 00:04:34,960
+line is sloping downward then we can say
+
+128
+00:04:33,280 --> 00:04:36,880
+that the trend is down
+
+129
+00:04:34,960 --> 00:04:39,199
+and finally when the price is trading
+
+130
+00:04:36,880 --> 00:04:41,360
+sideways and the moving average appears
+
+131
+00:04:39,199 --> 00:04:43,360
+relatively flat then we can say that
+
+132
+00:04:41,360 --> 00:04:45,120
+there is no trend in place or that there
+
+133
+00:04:43,360 --> 00:04:48,120
+is no clear direction currently in the
+
+134
+00:04:45,120 --> 00:04:48,120
+market
+
+135
+00:04:48,140 --> 00:04:59,180
+[Music]
+
+136
+00:05:02,450 --> 00:05:05,579
+[Music]
+
+137
+00:05:23,039 --> 00:05:27,360
+number two dynamic support and
+
+138
+00:05:25,039 --> 00:05:28,880
+resistance analysis
+
+139
+00:05:27,360 --> 00:05:31,199
+there are two main types of support and
+
+140
+00:05:28,880 --> 00:05:32,639
+resistance levels in the market fixed
+
+141
+00:05:31,199 --> 00:05:34,720
+and dynamic
+
+142
+00:05:32,639 --> 00:05:36,880
+fixed support and resistance represents
+
+143
+00:05:34,720 --> 00:05:38,479
+levels that are static or based on a
+
+144
+00:05:36,880 --> 00:05:40,560
+particular price level
+
+145
+00:05:38,479 --> 00:05:42,960
+the second class dynamic support and
+
+146
+00:05:40,560 --> 00:05:45,199
+resistance levels can change with each
+
+147
+00:05:42,960 --> 00:05:47,360
+new bar that prints on the price chart
+
+148
+00:05:45,199 --> 00:05:49,440
+the double and triple ema indicators can
+
+149
+00:05:47,360 --> 00:05:51,919
+be quite useful in finding levels of
+
+150
+00:05:49,440 --> 00:05:54,240
+support within uptrend or levels of
+
+151
+00:05:51,919 --> 00:05:55,840
+resistance within a downtrend
+
+152
+00:05:54,240 --> 00:05:58,240
+when price moves away from these
+
+153
+00:05:55,840 --> 00:06:00,639
+indicators to the upside and then pulls
+
+154
+00:05:58,240 --> 00:06:02,639
+back towards the ema line it often
+
+155
+00:06:00,639 --> 00:06:04,639
+creates an area of support
+
+156
+00:06:02,639 --> 00:06:07,120
+when prices move away from the ema
+
+157
+00:06:04,639 --> 00:06:09,600
+indicator to the downside and then pulls
+
+158
+00:06:07,120 --> 00:06:12,960
+back towards the line that interaction
+
+159
+00:06:09,600 --> 00:06:15,440
+can create an area of resistance
+
+160
+00:06:12,960 --> 00:06:16,960
+very important this movement depends on
+
+161
+00:06:15,440 --> 00:06:18,479
+the proper look back period for the
+
+162
+00:06:16,960 --> 00:06:20,160
+moving average
+
+163
+00:06:18,479 --> 00:06:22,960
+if you plan to use the double or the
+
+164
+00:06:20,160 --> 00:06:25,280
+triple ema indicator for finding dynamic
+
+165
+00:06:22,960 --> 00:06:27,680
+support and resistance areas the moving
+
+166
+00:06:25,280 --> 00:06:30,000
+averages should have already provided
+
+167
+00:06:27,680 --> 00:06:32,319
+support and resistance in the past
+
+168
+00:06:30,000 --> 00:06:34,479
+if the indicator didn't provide support
+
+169
+00:06:32,319 --> 00:06:38,600
+or resistance in the past it probably
+
+170
+00:06:34,479 --> 00:06:38,600
+won't be doing this in the future
+
+171
+00:06:47,130 --> 00:06:58,170
+[Music]
+
+172
+00:07:01,430 --> 00:07:04,569
+[Music]
+
+173
+00:07:13,599 --> 00:07:18,240
+number three entry trigger
+
+174
+00:07:16,400 --> 00:07:20,400
+the simplest method would be to wait for
+
+175
+00:07:18,240 --> 00:07:22,800
+a price crossover from below to the
+
+176
+00:07:20,400 --> 00:07:25,599
+upside of the double or the triple ema
+
+177
+00:07:22,800 --> 00:07:27,599
+line to signal a long entry
+
+178
+00:07:25,599 --> 00:07:29,680
+and you could wait for a price crossover
+
+179
+00:07:27,599 --> 00:07:33,039
+to the downside of the edema or the
+
+180
+00:07:29,680 --> 00:07:35,039
+timon line to signal a short entry
+
+181
+00:07:33,039 --> 00:07:37,120
+one of the most commonly used signals
+
+182
+00:07:35,039 --> 00:07:39,840
+produced by moving averages is when a
+
+183
+00:07:37,120 --> 00:07:42,000
+shorter term ema crosses above or below
+
+184
+00:07:39,840 --> 00:07:44,160
+a longer term moving average
+
+185
+00:07:42,000 --> 00:07:46,160
+the shorter term moving average crossing
+
+186
+00:07:44,160 --> 00:07:48,080
+above the longer term moving average is
+
+187
+00:07:46,160 --> 00:07:50,319
+considered a bully signal
+
+188
+00:07:48,080 --> 00:07:52,400
+whereas a cross below is considered a
+
+189
+00:07:50,319 --> 00:07:54,319
+very signal
+
+190
+00:07:52,400 --> 00:07:56,319
+the choice of length of the two moving
+
+191
+00:07:54,319 --> 00:07:57,599
+averages is important when monitoring
+
+192
+00:07:56,319 --> 00:08:00,080
+crossovers
+
+193
+00:07:57,599 --> 00:08:02,160
+a short to medium term crossover may
+
+194
+00:08:00,080 --> 00:08:04,639
+employ a 10-day and a 50-day moving
+
+195
+00:08:02,160 --> 00:08:07,120
+average while a longer-term system may
+
+196
+00:08:04,639 --> 00:08:08,080
+employ a 50-day and a 200-day moving
+
+197
+00:08:07,120 --> 00:08:09,680
+average
+
+198
+00:08:08,080 --> 00:08:12,160
+since moving averages are lagging
+
+199
+00:08:09,680 --> 00:08:13,919
+indicators keep in mind that a crossover
+
+200
+00:08:12,160 --> 00:08:16,800
+signal may come very late in the new
+
+201
+00:08:13,919 --> 00:08:18,240
+trend and this lightness is increased as
+
+202
+00:08:16,800 --> 00:08:19,360
+the length of the moving averages
+
+203
+00:08:18,240 --> 00:08:21,840
+increases
+
+204
+00:08:19,360 --> 00:08:23,759
+moving average crossovers are best used
+
+205
+00:08:21,840 --> 00:08:25,919
+when a strong continuing trend is
+
+206
+00:08:23,759 --> 00:08:27,919
+present and when confirmed with other
+
+207
+00:08:25,919 --> 00:08:30,000
+elements
+
+208
+00:08:27,919 --> 00:08:32,800
+moving average crossovers can also be
+
+209
+00:08:30,000 --> 00:08:35,279
+used as a system of free moving averages
+
+210
+00:08:32,800 --> 00:08:37,360
+in this case a bully signal is triggered
+
+211
+00:08:35,279 --> 00:08:39,680
+when a medium-term moving average is
+
+212
+00:08:37,360 --> 00:08:41,680
+above a long-term moving average and the
+
+213
+00:08:39,680 --> 00:08:43,919
+short-term moving average crosses above
+
+214
+00:08:41,680 --> 00:08:46,000
+the medium-term moving average
+
+215
+00:08:43,919 --> 00:08:47,920
+a berry signal is triggered when the
+
+216
+00:08:46,000 --> 00:08:49,920
+longer-term moving average is above the
+
+217
+00:08:47,920 --> 00:08:51,920
+medium-term moving average and the
+
+218
+00:08:49,920 --> 00:08:54,420
+short-term moving average crosses below
+
+219
+00:08:51,920 --> 00:08:57,470
+the medium-term moving average
+
+220
+00:08:54,420 --> 00:08:57,470
+[Music]
+
+221
+00:09:06,420 --> 00:09:09,490
+[Music]
+
+222
+00:09:12,160 --> 00:09:17,640
+[Music]
+
+223
+00:09:14,640 --> 00:09:17,640
+so
+
+224
+00:09:30,880 --> 00:09:35,120
+because moving averages in general lack
+
+225
+00:09:33,120 --> 00:09:37,519
+the price you can use other tools to
+
+226
+00:09:35,120 --> 00:09:39,839
+filter your signals one good filter is
+
+227
+00:09:37,519 --> 00:09:41,680
+volume the idea of this strategy is to
+
+228
+00:09:39,839 --> 00:09:42,880
+take signals that include high trading
+
+229
+00:09:41,680 --> 00:09:44,560
+volumes
+
+230
+00:09:42,880 --> 00:09:46,880
+as you probably know the market is
+
+231
+00:09:44,560 --> 00:09:49,279
+trending when volumes are high
+
+232
+00:09:46,880 --> 00:09:51,920
+during low volumes prices are likely to
+
+233
+00:09:49,279 --> 00:09:54,000
+range or not trend this means that low
+
+234
+00:09:51,920 --> 00:09:56,560
+volumes are the major causes for the
+
+235
+00:09:54,000 --> 00:09:58,399
+sideways price action for this reason
+
+236
+00:09:56,560 --> 00:10:00,399
+double or triple exponential moving
+
+237
+00:09:58,399 --> 00:10:04,000
+average signals which appear during
+
+238
+00:10:00,399 --> 00:10:06,079
+lower trading volumes tend to fail
+
+239
+00:10:04,000 --> 00:10:08,079
+using this approach it's better to enter
+
+240
+00:10:06,079 --> 00:10:10,560
+the market only when prices crosses
+
+241
+00:10:08,079 --> 00:10:12,720
+through the dima or team indicators when
+
+242
+00:10:10,560 --> 00:10:15,120
+trading volumes are high
+
+243
+00:10:12,720 --> 00:10:17,120
+in this example we added the 50 period
+
+244
+00:10:15,120 --> 00:10:19,920
+triple ema and at the bottom of the
+
+245
+00:10:17,120 --> 00:10:22,079
+chart we added our volume indicator the
+
+246
+00:10:19,920 --> 00:10:24,480
+chart starts with a range consisting of
+
+247
+00:10:22,079 --> 00:10:26,320
+light volume notice that for the crosses
+
+248
+00:10:24,480 --> 00:10:28,959
+beneath and above the triple exponential
+
+249
+00:10:26,320 --> 00:10:30,720
+moving average we ignored the signals
+
+250
+00:10:28,959 --> 00:10:32,959
+because of the light volume
+
+251
+00:10:30,720 --> 00:10:35,200
+as volume begins to increase the price
+
+252
+00:10:32,959 --> 00:10:37,279
+forms a bigger bullish candle and at the
+
+253
+00:10:35,200 --> 00:10:39,360
+same time the price begins to move above
+
+254
+00:10:37,279 --> 00:10:41,279
+the triple exponential moving average
+
+255
+00:10:39,360 --> 00:10:43,279
+and the price continues higher on high
+
+256
+00:10:41,279 --> 00:10:45,839
+volume
+
+257
+00:10:43,279 --> 00:10:47,920
+besides volume i mostly pay attention to
+
+258
+00:10:45,839 --> 00:10:49,760
+the slope of the moving averages
+
+259
+00:10:47,920 --> 00:10:52,079
+mainly the direction of the double or
+
+260
+00:10:49,760 --> 00:10:54,160
+the triple ema is angled indicates the
+
+261
+00:10:52,079 --> 00:10:56,160
+short-term price direction
+
+262
+00:10:54,160 --> 00:10:57,920
+when the line is sloping up that means
+
+263
+00:10:56,160 --> 00:10:59,680
+that the price is moving up
+
+264
+00:10:57,920 --> 00:11:00,880
+when it's angled down the price is
+
+265
+00:10:59,680 --> 00:11:02,959
+moving down
+
+266
+00:11:00,880 --> 00:11:05,279
+there is still a small amount of lag in
+
+267
+00:11:02,959 --> 00:11:07,600
+any heater so when prices changes
+
+268
+00:11:05,279 --> 00:11:10,920
+quickly the indicator may not change its
+
+269
+00:11:07,600 --> 00:11:10,920
+angle immediately
+
+270
+00:11:17,790 --> 00:11:20,870
+[Music]
+
+271
+00:11:23,530 --> 00:11:26,630
+[Music]
+
+272
+00:11:29,780 --> 00:11:32,870
+[Music]
+
+273
+00:11:46,079 --> 00:11:50,160
+double and triple exponential moving
+
+274
+00:11:47,839 --> 00:11:52,480
+averages tend to work well in trending
+
+275
+00:11:50,160 --> 00:11:54,880
+markets but provide little insight when
+
+276
+00:11:52,480 --> 00:11:56,639
+the market is choppy or range bound
+
+277
+00:11:54,880 --> 00:11:58,560
+during such times the price will
+
+278
+00:11:56,639 --> 00:11:59,680
+frequently cross back and forth across
+
+279
+00:11:58,560 --> 00:12:02,000
+the lines
+
+280
+00:11:59,680 --> 00:12:04,720
+also the reduced lag of the double and
+
+281
+00:12:02,000 --> 00:12:06,639
+triple ema can be good in some scenarios
+
+282
+00:12:04,720 --> 00:12:09,120
+like when the actual price reversal
+
+283
+00:12:06,639 --> 00:12:12,320
+occurs because gets you out of the trade
+
+284
+00:12:09,120 --> 00:12:14,720
+quicker yet reduced lag can also result
+
+285
+00:12:12,320 --> 00:12:16,480
+in over trading
+
+286
+00:12:14,720 --> 00:12:18,880
+double and triple exponential moving
+
+287
+00:12:16,480 --> 00:12:21,680
+averages provide more signals than a
+
+288
+00:12:18,880 --> 00:12:23,360
+traditional moving average for example
+
+289
+00:12:21,680 --> 00:12:25,519
+if you don't choose the correct length
+
+290
+00:12:23,360 --> 00:12:27,519
+for the moving average the indicator can
+
+291
+00:12:25,519 --> 00:12:29,519
+tell you to close your position when the
+
+292
+00:12:27,519 --> 00:12:31,279
+market makes only a minor move against
+
+293
+00:12:29,519 --> 00:12:32,959
+you you close your position only to
+
+294
+00:12:31,279 --> 00:12:34,639
+watch the price continuing in its
+
+295
+00:12:32,959 --> 00:12:36,959
+original direction
+
+296
+00:12:34,639 --> 00:12:38,880
+sometimes lag is good and sometimes it
+
+297
+00:12:36,959 --> 00:12:41,040
+isn't it depends on what you want from
+
+298
+00:12:38,880 --> 00:12:43,279
+the indicator that's why choosing the
+
+299
+00:12:41,040 --> 00:12:45,279
+correct length is very important
+
+300
+00:12:43,279 --> 00:12:47,440
+it's up to you to find the balance and
+
+301
+00:12:45,279 --> 00:12:49,120
+determine exactly how much lag works for
+
+302
+00:12:47,440 --> 00:12:51,120
+you
+
+303
+00:12:49,120 --> 00:12:53,200
+as always if you learned something new
+
+304
+00:12:51,120 --> 00:12:55,440
+and found value give us a like to show
+
+305
+00:12:53,200 --> 00:12:57,200
+support subscribe to our channel and
+
+306
+00:12:55,440 --> 00:12:59,680
+click the bell icon to stay notified
+
+307
+00:12:57,200 --> 00:13:03,160
+every time we upload a new video
+
+308
+00:12:59,680 --> 00:13:03,160
+until next time
+

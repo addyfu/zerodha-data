@@ -1,0 +1,758 @@
+1
+00:00:00,940 --> 00:00:06,320
+If you have a 9 to 5 job, becoming a trader
+in your spare time can be quite a challenge.
+
+2
+00:00:06,320 --> 00:00:10,549
+Many people have an interest in trading but
+don't want to pursue it as a full-time career
+
+3
+00:00:10,549 --> 00:00:13,009
+or to give up their day job to do it.
+
+4
+00:00:13,009 --> 00:00:17,030
+And you don’t have to quit your job because
+many traders only trade part-time, for one
+
+5
+00:00:17,030 --> 00:00:18,780
+or 2 hours per day.
+
+6
+00:00:18,780 --> 00:00:23,580
+So if you have other time commitments but
+you still want to trade part-time, the following
+
+7
+00:00:23,580 --> 00:00:28,570
+strategy can help you to maximize your efforts
+in the least amount of time and record consistent
+
+8
+00:00:28,570 --> 00:00:30,480
+results over the long term.
+
+9
+00:00:30,480 --> 00:00:33,060
+So let’s get started!
+
+10
+00:00:33,060 --> 00:00:38,920
+The strategy involves trading price extensions
+in 3-wave patterns, using only price action
+
+11
+00:00:38,920 --> 00:00:41,530
+and the Fibonacci 161.8 level.
+
+12
+00:00:41,530 --> 00:00:47,270
+Our aim is to trade price action that takes
+place primarily in the third wave of a 3-wave
+
+13
+00:00:47,270 --> 00:00:48,270
+pattern.
+
+14
+00:00:48,270 --> 00:00:52,430
+A 3-wave pattern is a simplified Elliot wave
+cycle.
+
+15
+00:00:52,430 --> 00:00:56,429
+If you are familiar with Elliot wave theory,
+you probably know that trying to trade it
+
+16
+00:00:56,429 --> 00:01:00,050
+in real time is quite difficult, especially
+for beginners.
+
+17
+00:01:00,050 --> 00:01:04,760
+The major problem is that you cannot really
+recognize an Elliot Wave until it has already
+
+18
+00:01:04,760 --> 00:01:05,760
+passed.
+
+19
+00:01:05,760 --> 00:01:09,120
+So, I decided to focus only on the first 3
+waves of the cycle.
+
+20
+00:01:09,120 --> 00:01:11,930
+And let me explain how I do this.
+
+21
+00:01:11,930 --> 00:01:17,490
+Prices within all major financial markets
+tend to move in a fairly predictable manner.
+
+22
+00:01:17,490 --> 00:01:22,980
+Essentially, the market is composed of impulsive
+price moves, and corrective price moves.
+
+23
+00:01:22,980 --> 00:01:25,660
+Elliot wave cycle is a 5-wave pattern.
+
+24
+00:01:25,660 --> 00:01:31,530
+Three of those waves (1, 3 and 5) move in
+the direction of the underlying trend, while
+
+25
+00:01:31,530 --> 00:01:37,360
+the two waves (2 and 4) act as countertrend
+interruptions, or retracements.
+
+26
+00:01:37,360 --> 00:01:42,960
+Well, because Elliot waves are subjective,
+I decided to focus only on the first 3-waves:
+
+27
+00:01:42,960 --> 00:01:48,580
+an impulsive wave, a corrective price move
+and another impulsive move, which is the price
+
+28
+00:01:48,580 --> 00:01:51,670
+movement we will trade.
+
+29
+00:01:51,670 --> 00:01:56,640
+The 3-wave pattern is used as a continuation
+trading setup that is designed to take advantage
+
+30
+00:01:56,640 --> 00:01:59,680
+of the second impulsive move of the market.
+
+31
+00:01:59,680 --> 00:02:03,990
+In any up trending market, there is a pattern
+of higher highs and higher lows.
+
+32
+00:02:03,990 --> 00:02:08,920
+In order for the trend to the upside to remain
+active, each successive impulse swing must
+
+33
+00:02:08,920 --> 00:02:11,700
+take out the point B in the formation.
+
+34
+00:02:11,700 --> 00:02:17,620
+When price surpasses the price at #2 swing,
+you can use this as confirmation that the
+
+35
+00:02:17,620 --> 00:02:20,560
+3-wave pattern is present.
+
+36
+00:02:20,560 --> 00:02:24,660
+This is a chart that explains the concept
+of the 3-wave trading pattern.
+
+37
+00:02:24,660 --> 00:02:28,100
+In an uptrend market situation, price will
+make 3 points
+
+38
+00:02:28,100 --> 00:02:32,590
+Point A is the lowest low point, which forms
+a support level.
+
+39
+00:02:32,590 --> 00:02:38,040
+Point B will be the highest point, and forms
+a level that we consider as potential resistance
+
+40
+00:02:38,040 --> 00:02:44,420
+Point C will be the 2nd low point, a support
+level (which must be higher than point A).
+
+41
+00:02:44,420 --> 00:02:50,080
+The breakout of price above point B signals
+the continuation of the uptrend.
+
+42
+00:02:50,080 --> 00:02:53,770
+In a downtrend market, the 3-wave pattern
+forms when:
+
+43
+00:02:53,770 --> 00:02:58,849
+Point A becomes the highest point when price
+finds resistance and moves down.
+
+44
+00:02:58,849 --> 00:03:03,510
+Point B becomes the lowest low point (and
+forms a level that we consider as potential
+
+45
+00:03:03,510 --> 00:03:07,470
+support) and
+Then price moves up and finds another resistance
+
+46
+00:03:07,470 --> 00:03:11,450
+at point C.
+When price breaks the point B support level,
+
+47
+00:03:11,450 --> 00:03:15,940
+it indicates that the market is most likely
+to continue downward
+
+48
+00:03:15,940 --> 00:03:21,490
+The most important variable in this strategy
+is the swing size, the first AB wave, because
+
+49
+00:03:21,490 --> 00:03:25,570
+our risk to reward ratio will depend on the
+strength of the first impulse wave.
+
+50
+00:03:25,570 --> 00:03:31,100
+A swing size that is too small can reduce
+profit targets to such narrow margins that
+
+51
+00:03:31,100 --> 00:03:33,470
+it becomes difficult to execute them.
+
+52
+00:03:33,470 --> 00:03:40,270
+If the swing size is too big, it could take
+weeks or even months to reach the target price.
+
+53
+00:03:40,270 --> 00:03:43,600
+The trading strategy requires the following
+steps:
+
+54
+00:03:43,600 --> 00:03:47,850
+• Defining a minimum swing size, meaning
+the first wave of the 3-wave pattern
+
+55
+00:03:47,850 --> 00:03:55,319
+• Applying the Fibonacci tool, with a small
+twist, to find the 1.618 ratio.
+
+56
+00:03:55,319 --> 00:03:58,660
+• Taking a trade at the 50% Fib level.
+
+57
+00:03:58,660 --> 00:04:02,239
+Now, stay with me for the next part because
+it’s important.
+
+58
+00:04:02,239 --> 00:04:07,150
+In order to find the 1.618 ratio, you could
+use FIB extentions.
+
+59
+00:04:07,150 --> 00:04:09,230
+But I like to do it in another way.
+
+60
+00:04:09,230 --> 00:04:14,030
+The correct way to apply a FIB retracement
+is from a swing low to the swing high in an
+
+61
+00:04:14,030 --> 00:04:20,910
+uptrend (from Point A to Point B), and from
+the swing high to the swing low in a downtrend.
+
+62
+00:04:20,910 --> 00:04:27,310
+To find the 1.618 ratio, I add the FIB retracement
+from Point B to point A, so the other way
+
+63
+00:04:27,310 --> 00:04:28,310
+around.
+
+64
+00:04:28,310 --> 00:04:34,690
+I know it might seem weird or incorrect, but
+this is how I like to find the 1.618 ratio.
+
+65
+00:04:34,690 --> 00:04:38,260
+Here are the main conditions in order to find
+the best signals:
+
+66
+00:04:38,260 --> 00:04:39,340
+1.
+
+67
+00:04:39,340 --> 00:04:43,270
+Trend line breakout
+A trendline acts as a support for the price
+
+68
+00:04:43,270 --> 00:04:48,410
+when applied to consecutive higher lows in
+an uptrend, and as a resistance when applied
+
+69
+00:04:48,410 --> 00:04:51,780
+to consecutive lower highs in a downtrend.
+
+70
+00:04:51,780 --> 00:04:56,770
+Once a rising trendline is broken, that trendline
+becomes a resistance for price.
+
+71
+00:04:56,770 --> 00:05:02,620
+Similarly, once a falling trendline is broken,
+that trendline becomes a support for the price.
+
+72
+00:05:02,620 --> 00:05:08,270
+Basically, the first wave, AB wave must be
+the wave that breaks the trendline, like in
+
+73
+00:05:08,270 --> 00:05:09,330
+this example.
+
+74
+00:05:09,330 --> 00:05:14,880
+If this sound complicated, don’t worry,
+we’ll have plenty of examples later.
+
+75
+00:05:14,880 --> 00:05:16,380
+2.
+
+76
+00:05:16,380 --> 00:05:21,350
+Point C must be higher than Point A for an
+up move and lower than point A for a down
+
+77
+00:05:21,350 --> 00:05:25,000
+move
+When AB wave ends, it will lead to a price
+
+78
+00:05:25,000 --> 00:05:30,180
+move lower in BC wave, that will retrace a
+portion of the wave one move.
+
+79
+00:05:30,180 --> 00:05:34,570
+However, the second wave must not fall below
+the start of wave one.
+
+80
+00:05:34,570 --> 00:05:36,710
+This is an extremely important rule.
+
+81
+00:05:36,710 --> 00:05:41,830
+The second wave must retrace to the 38.2 Fib
+level at most.
+
+82
+00:05:41,830 --> 00:05:47,389
+If it retraces to 23.6 Fib level, I personally
+ignore the setup.
+
+83
+00:05:47,389 --> 00:05:55,480
+The buy or sell zone, depending on the setup,
+is the area between 38.2 and 50 Fib level.
+
+84
+00:05:55,480 --> 00:05:56,480
+3.
+
+85
+00:05:56,480 --> 00:06:01,669
+If price fails to retrace to the 50% Fib level,
+ignore the setup.
+
+86
+00:06:01,669 --> 00:06:06,370
+In some cases, the trendline will be broken,
+but the price action won’t make a decent
+
+87
+00:06:06,370 --> 00:06:07,810
+retracement.
+
+88
+00:06:07,810 --> 00:06:13,000
+Sometimes it will retrace to the 61.8 level
+and then resume its move.
+
+89
+00:06:13,000 --> 00:06:17,230
+For this setup, we want price to retrace to
+the 50% level.
+
+90
+00:06:17,230 --> 00:06:19,680
+If it doesn’t, we find other opportunities.
+
+91
+00:06:19,680 --> 00:06:26,500
+So, trendline breakout, find the AB wave,
+apply FIB retracement from point B to point
+
+92
+00:06:26,500 --> 00:06:32,940
+A, and try to take a trade at around the 50%
+Fib level, targeting the 1.618 ratio.
+
+93
+00:06:32,940 --> 00:06:38,620
+It’s easy, and most important, price-action
+based.
+
+94
+00:06:38,620 --> 00:06:42,630
+Here we have the setup on the pound dollar
+on the 4-hour time frame.
+
+95
+00:06:42,630 --> 00:06:45,199
+We have a clear trendline breakout.
+
+96
+00:06:45,199 --> 00:06:49,840
+Point A is the lowest point in the chart,
+starting the AB wave.
+
+97
+00:06:49,840 --> 00:06:52,970
+Also the AB wave breaks the trend line.
+
+98
+00:06:52,970 --> 00:06:55,650
+Point B indicates a possible bullish trend.
+
+99
+00:06:55,650 --> 00:07:01,020
+A possible, because we don’t know yet, the
+price may reverse in the opposite direction.
+
+100
+00:07:01,020 --> 00:07:05,720
+So we apply the Fib retracement, remember,
+the other way around, from point B to point
+
+101
+00:07:05,720 --> 00:07:09,530
+A.
+Point C indicates the pullback, in this case
+
+102
+00:07:09,530 --> 00:07:13,509
+to the 38.2 Level, which is a valid condition.
+
+103
+00:07:13,509 --> 00:07:17,910
+If price stalls and rejects the level, you
+could switch to a lower time frame to time
+
+104
+00:07:17,910 --> 00:07:21,200
+your entry
+My preference is to enter the trade at the
+
+105
+00:07:21,200 --> 00:07:28,880
+50% FIB level, with a stop loss below the
+23.6 level and targeting the 1.618 ratio.
+
+106
+00:07:28,880 --> 00:07:34,470
+If price starts moving upwards, then the breakout
+of price at point B would add fuel to our
+
+107
+00:07:34,470 --> 00:07:35,850
+position.
+
+108
+00:07:35,850 --> 00:07:40,830
+Most trades would enter right here, at the
+breakout of point B, but we had a better,
+
+109
+00:07:40,830 --> 00:07:42,440
+a smarter entry.
+
+110
+00:07:42,440 --> 00:07:45,960
+At the moment of the breakout, we would be
+already in profit.
+
+111
+00:07:45,960 --> 00:07:49,530
+When price breaks point B, you could move
+your stop to break even.
+
+112
+00:07:49,530 --> 00:07:51,310
+I personally do it every time.
+
+113
+00:07:51,310 --> 00:07:56,200
+Sometime the prices retraces to the entry
+point, leaving us with a breakeven trade and
+
+114
+00:07:56,200 --> 00:07:59,050
+sometimes goes right to our target.
+
+115
+00:07:59,050 --> 00:08:06,590
+In this example, the price continued its upward
+direction and reached the 1.618 ratio.
+
+116
+00:08:06,590 --> 00:08:09,580
+Here we have Euro dollar on the daily time
+frame.
+
+117
+00:08:09,580 --> 00:08:11,680
+We have the trendline breakout.
+
+118
+00:08:11,680 --> 00:08:16,750
+Point A is the highest point in the chart
+starting the AB wave and this wave breaks
+
+119
+00:08:16,750 --> 00:08:18,280
+the trend line.
+
+120
+00:08:18,280 --> 00:08:21,259
+Point B indicates a possible bearish trend.
+
+121
+00:08:21,259 --> 00:08:25,699
+Then we apply the Fib retracement from point
+B to point A.
+
+122
+00:08:25,699 --> 00:08:31,830
+Price retraced to the 38.2 Fib Level, forming
+a pin bar, a reversal pattern.
+
+123
+00:08:31,830 --> 00:08:38,209
+We enter the trade at the 50% FIB level, with
+a stop loss above the 23.6 level and targeting
+
+124
+00:08:38,209 --> 00:08:41,099
+the 1.618 ratio.
+
+125
+00:08:41,099 --> 00:08:45,520
+After the breakout of price at point B, price
+came back to retest the level, which then
+
+126
+00:08:45,520 --> 00:08:48,020
+became a strong resistance area.
+
+127
+00:08:48,020 --> 00:08:51,620
+When price breaks point B, we moved our stop
+to break even
+
+128
+00:08:51,620 --> 00:08:56,870
+And the price continued its downward direction
+and reached the 1.618 ratio.
+
+129
+00:08:56,870 --> 00:08:59,170
+And look how powerful that level was.
+
+130
+00:08:59,170 --> 00:09:04,020
+As price reached that level, it immediately
+bounced back.
+
+131
+00:09:04,020 --> 00:09:07,000
+Another long position, this time a continuation
+trade.
+
+132
+00:09:07,000 --> 00:09:12,290
+Here’s the trendline breakout, with AB wave
+as the first impulsive move.
+
+133
+00:09:12,290 --> 00:09:18,000
+Price retraced more that 50%, remember, almost
+reaching the 38.2 level.
+
+134
+00:09:18,000 --> 00:09:24,770
+We enter at the 50% level, with a stop loss
+below this area and targeting the 1.618 ratio.
+
+135
+00:09:24,770 --> 00:09:31,000
+Observe once again, that after price broke
+the B point, that level became a support area.
+
+136
+00:09:31,000 --> 00:09:35,839
+Price retested the level, new traders enter
+the market, and took the price to our final
+
+137
+00:09:35,839 --> 00:09:39,630
+target at the 1.618 ratio.
+
+138
+00:09:39,630 --> 00:09:44,700
+The reward to risk ratio is maybe the most
+important metric in this trading strategy.
+
+139
+00:09:44,700 --> 00:09:52,020
+By entering at the 50% level and targeting
+the 1.618 level, you get at least 3:1 risk
+
+140
+00:09:52,020 --> 00:09:58,970
+reward ratio, at minimum, in most cases over
+4:1 risk to reward ratio.
+
+141
+00:09:58,970 --> 00:10:00,740
+Remember the rules we discussed before.
+
+142
+00:10:00,740 --> 00:10:07,460
+If the price retraces all the way to the 23.6
+level, ignore the setup.
+
+143
+00:10:07,460 --> 00:10:11,230
+And if the price doesn’t reach the 50% level,
+again, look elsewhere.
+
+144
+00:10:11,230 --> 00:10:15,110
+We need those conditions, for the highest
+probability setups.
+
+145
+00:10:15,110 --> 00:10:21,370
+IN this example, price retraced and even closed
+above the 38.2 level, which invalided the
+
+146
+00:10:21,370 --> 00:10:22,370
+setup.
+
+147
+00:10:22,370 --> 00:10:27,060
+And the price did retrace, most likely because
+of the initial trendline breakout, another
+
+148
+00:10:27,060 --> 00:10:28,060
+important condition.
+
+149
+00:10:28,060 --> 00:10:33,220
+And even if the price managed to close below
+the B point, it failed to reach our final
+
+150
+00:10:33,220 --> 00:10:34,450
+target.
+
+151
+00:10:34,450 --> 00:10:38,370
+You could try to trade this scenario, and
+squeeze some points, maybe to the 100% level.
+
+152
+00:10:38,370 --> 00:10:45,260
+The best part of this strategy is that you
+only have to spend 30 – 60 minutes each
+
+153
+00:10:45,260 --> 00:10:50,300
+day, which makes it perfect if you have a
+busy program and don’t have time to trade.
+
+154
+00:10:50,300 --> 00:10:56,510
+Make sure you analyze the Daily, 4H and 1H
+timeframes and avoid narrow range markets,
+
+155
+00:10:56,510 --> 00:11:00,470
+with too much or not enough volatility, and
+other bad conditions.
+
+156
+00:11:00,470 --> 00:11:06,490
+And yes, you could also use this strategy
+for day trading, on lower timeframes.
+
+157
+00:11:06,490 --> 00:12:59,760
+Here are other example of valid trades.
+
+158
+00:12:59,760 --> 00:13:03,330
+As always, if you learned something new and
+found value, leave us a like to show your
+
+159
+00:13:03,330 --> 00:13:07,490
+support and don’t forget to subscribe and
+hit the bell icon to get notified every time
+
+160
+00:13:07,490 --> 00:13:10,089
+we release new videos.
+
+161
+00:13:10,089 --> 00:13:10,500
+Until next time.
+

@@ -1,0 +1,1004 @@
+1
+00:00:00,400 --> 00:00:07,120
+Losing scalpers trade with lagging indicators 
+like RSI and moving averages. Professional  
+
+2
+00:00:07,120 --> 00:00:13,840
+scalpers read order flow and market microstructure 
+with tools that you've probably never even heard  
+
+3
+00:00:13,840 --> 00:00:20,880
+of. Here are eight scalping techniques 
+that separate losers from professionals.
+
+4
+00:00:20,880 --> 00:00:26,800
+Mark the previous day's high and low, then 
+watch how price interacts at those levels.  
+
+5
+00:00:26,800 --> 00:00:33,520
+This area often works like a magnet, drawing 
+attention from both buyers and sellers. You  
+
+6
+00:00:33,520 --> 00:00:40,240
+want to monitor if price breaks through or bounces 
+off, or rejects them. Scalpers keep their eyes on  
+
+7
+00:00:40,240 --> 00:00:46,640
+these breakouts looking for a quick burst. A 
+successful break can lead to short-term buys.  
+
+8
+00:00:46,640 --> 00:00:54,080
+If the break stalls or fails, they may close out 
+fast, expecting a slide back into the day's range.
+
+9
+00:00:54,080 --> 00:00:59,360
+That same logic applies to the previous 
+day's low. If price pushes below that  
+
+10
+00:00:59,360 --> 00:01:06,000
+point but struggles to go lower, it might 
+climb back, sparking quick trades. Volume  
+
+11
+00:01:06,000 --> 00:01:10,320
+flow at these points shows who 
+carries more weight on the chart:  
+
+12
+00:01:10,320 --> 00:01:16,720
+the group ready to push higher or the group 
+ready to defend and revert price lower.
+
+13
+00:01:16,720 --> 00:01:22,480
+For instance, day traders might see it with 
+a wider view if volume fails to rise and  
+
+14
+00:01:22,480 --> 00:01:28,960
+the price breaks. They see that as a weakness 
+that could hint at a chance to fade the move,  
+
+15
+00:01:28,960 --> 00:01:32,720
+expecting a drift back into the 
+range. In a bullish setting,  
+
+16
+00:01:32,720 --> 00:01:38,960
+though, a clear break above the past 
+high might signal bigger gains. Again,  
+
+17
+00:01:38,960 --> 00:01:45,280
+wait for retest of these highs or lows to 
+confirm support or resistance. A strong  
+
+18
+00:01:45,280 --> 00:01:52,560
+surge suggests bigger participants stepping in. 
+A weak spike suggests the break might not hold.
+
+19
+00:01:52,560 --> 00:01:57,200
+Another interesting strategy is to 
+mark highs and lows from multiple  
+
+20
+00:01:57,200 --> 00:02:02,800
+days to see confluence. If many 
+past highs cluster in one region,  
+
+21
+00:02:02,800 --> 00:02:09,360
+that marks a bigger level on the chart. Order 
+flow analysis also builds on these zones.  
+
+22
+00:02:09,360 --> 00:02:16,160
+In a bullish flow, price may seek buy stops 
+above a prior high. When price drives higher,  
+
+23
+00:02:16,160 --> 00:02:22,480
+that might feed more buying interest. In a 
+bearish flow, it might head for sell stops below  
+
+24
+00:02:22,480 --> 00:02:30,960
+a previous low. If momentum keeps running, price 
+extends further. If it fails, it can whip back.
+
+25
+00:02:30,960 --> 00:02:36,400
+Footprint charts split each candlestick 
+into two columns of executed orders.  
+
+26
+00:02:36,400 --> 00:02:42,160
+One column shows the volume on the bid side 
+and the other shows the volume on the ask  
+
+27
+00:02:42,160 --> 00:02:49,680
+side. This view helps you see who might be more 
+active at each price level. In a strong rally,  
+
+28
+00:02:49,680 --> 00:02:55,520
+the footprint can reveal if buyers are 
+pushing price upward in a steady way.  
+
+29
+00:02:55,520 --> 00:03:01,600
+In a strong drop, it can reveal if sellers 
+keep hitting the market with large orders.
+
+30
+00:03:01,600 --> 00:03:08,000
+This method is direct and numeric. A footprint 
+chart doesn't rely on a guess about patterns.  
+
+31
+00:03:08,000 --> 00:03:14,400
+It relies on actual trades. Each block of 
+traded contracts or shares is visible at  
+
+32
+00:03:14,400 --> 00:03:21,200
+each step. Imbalances come into play here. 
+An imbalance occurs when one side greatly  
+
+33
+00:03:21,200 --> 00:03:27,920
+exceeds the other at a given price level. On a 
+footprint chart, that might appear as a large  
+
+34
+00:03:27,920 --> 00:03:34,640
+difference between the bid-side volume and the 
+ask-side volume. This gap can hint at which side  
+
+35
+00:03:34,640 --> 00:03:40,800
+is more aggressive. It can also reveal if 
+big participants are stepping in with size.
+
+36
+00:03:40,800 --> 00:03:47,840
+In a fast-moving uptrend, repeated buy imbalances 
+can reinforce the bullish pressure. If you see  
+
+37
+00:03:47,840 --> 00:03:54,720
+repeated sell imbalances, you might guess that 
+big participants are forcing price lower. At  
+
+38
+00:03:54,720 --> 00:04:00,640
+key turning points, footprints might show 
+signs of absorption. Absorption means one  
+
+39
+00:04:00,640 --> 00:04:06,320
+side is absorbing the other side's orders. 
+That can appear on the footprint. If you see  
+
+40
+00:04:06,320 --> 00:04:13,840
+big numbers on both sides but no real progress 
+upward in an uptrend, a footprint might reveal  
+
+41
+00:04:13,840 --> 00:04:20,080
+hidden pockets of supply. If the bars show 
+large selling imbalances at certain levels,  
+
+42
+00:04:20,080 --> 00:04:27,040
+that might stop the move. The idea is to watch 
+the actual fight between buyers and sellers.  
+
+43
+00:04:27,040 --> 00:04:30,320
+The footprint is a lens into the order flow.
+
+44
+00:04:30,320 --> 00:04:37,360
+At times, the footprint view can show that even in 
+a strong uptrend, large sell orders keep popping  
+
+45
+00:04:37,360 --> 00:04:44,640
+up at certain levels. Price might stall there. If 
+the volume on the buy side absorbs those sellers,  
+
+46
+00:04:44,640 --> 00:04:51,520
+price might break higher anyway. But if large 
+sellers hold that line, price might turn. The  
+
+47
+00:04:51,520 --> 00:04:58,000
+footprint chart helps highlight these battles. 
+A normal chart might show a candle with a wick,  
+
+48
+00:04:58,000 --> 00:05:04,160
+but the footprint might show that this wick 
+printed huge trades on the left side. That can  
+
+49
+00:05:04,160 --> 00:05:11,920
+sometimes mean a sudden wave of sellers. For day 
+trading or scalping, footprint charts are a must.
+
+50
+00:05:11,920 --> 00:05:17,600
+Some charts show hidden pivot clusters. 
+These clusters happen when three or four  
+
+51
+00:05:17,600 --> 00:05:24,640
+pivot highs or lows stack near one price. 
+I personally like to watch to see if price  
+
+52
+00:05:24,640 --> 00:05:30,880
+builds a block of these points. Price might 
+respect these zones. It might hit that band  
+
+53
+00:05:30,880 --> 00:05:37,120
+and pause. It might bounce off it or break 
+through. These clusters can matter to many  
+
+54
+00:05:37,120 --> 00:05:43,360
+groups of traders. And I try to keep my chart 
+structure simple. If there are three or four  
+
+55
+00:05:43,360 --> 00:05:50,320
+pivot points in the same neighborhood, that can 
+form a hidden cluster. If I group them together,  
+
+56
+00:05:50,320 --> 00:05:56,800
+I see a stronger band. This can help 
+me spot places where price might react.
+
+57
+00:05:56,800 --> 00:06:02,960
+I treat these clusters like wide support or 
+resistance zones. They are not exact single  
+
+58
+00:06:02,960 --> 00:06:10,960
+lines. They are areas on the chart. Sometimes 
+these clusters coincide with pivot points. Many  
+
+59
+00:06:10,960 --> 00:06:18,640
+day traders and scalpers use daily pivot formulas. 
+If a cluster lines up with a pivot calculation,  
+
+60
+00:06:18,640 --> 00:06:24,880
+that might strengthen the zone further. 
+It might bring more eyes onto that spot.  
+
+61
+00:06:24,880 --> 00:06:30,000
+That can create a self-fulfilling 
+effect, at least for a short time.
+
+62
+00:06:30,000 --> 00:06:36,720
+I also look for clusters that might be hidden 
+inside candle wicks. The market spikes up or  
+
+63
+00:06:36,720 --> 00:06:44,320
+down and leaves a wick. That wick might mark a 
+pivot high or low. If I see multiple wicks that  
+
+64
+00:06:44,320 --> 00:06:50,960
+poke into the same area, I might highlight 
+that as a cluster. The candle body closes  
+
+65
+00:06:50,960 --> 00:06:57,440
+might not show the same price, but the wicks 
+might. That can still matter to me. If price  
+
+66
+00:06:57,440 --> 00:07:04,080
+returns there, it can trigger a new burst 
+of activity or it might hold as a barrier.
+
+67
+00:07:04,080 --> 00:07:10,160
+I also consider how wide the band is. If 
+the pivots are spread over a big range,  
+
+68
+00:07:10,160 --> 00:07:16,080
+it might be less precise. If the pivots are 
+very close together, the cluster might be  
+
+69
+00:07:16,080 --> 00:07:24,160
+tighter. Tight clusters can create sharp reversals 
+because many orders might be loaded at nearly the  
+
+70
+00:07:24,160 --> 00:07:32,080
+same price. Wide clusters can lead to choppier 
+action because price might drift within that zone.
+
+71
+00:07:32,080 --> 00:07:38,400
+Some see clusters of pivot highs as zones 
+full of potential sell orders. Clusters of  
+
+72
+00:07:38,400 --> 00:07:44,720
+pivot lows may hold buy orders. That might 
+be because each pivot left a memory in the  
+
+73
+00:07:44,720 --> 00:07:51,680
+market. Some participants may have open orders 
+there from before, or they see that zone as a  
+
+74
+00:07:51,680 --> 00:08:00,160
+logical place to set stops or limit entries. 
+This is why these clusters can become magnets.
+
+75
+00:08:00,160 --> 00:08:07,040
+TPO stands for Time Price Opportunity and is 
+a great tool for scalping and day trading.  
+
+76
+00:08:07,040 --> 00:08:13,920
+A TPO chart displays time at price in a 
+letter-based format. These charts break  
+
+77
+00:08:13,920 --> 00:08:20,000
+down each time frame into letters. Each letter 
+aligns with a price level in that time frame.  
+
+78
+00:08:20,000 --> 00:08:26,400
+One advantage of TPO charts is how they 
+strip away messy candle wicks. Instead,  
+
+79
+00:08:26,400 --> 00:08:30,400
+you see a clean layout of 
+time spent at each price.
+
+80
+00:08:30,400 --> 00:08:35,680
+A bar chart might show big upper 
+shadows or wide intraday ranges,  
+
+81
+00:08:35,680 --> 00:08:43,120
+but it can be unclear how much time was spent at 
+certain levels. TPO charts reveal that detail.  
+
+82
+00:08:43,120 --> 00:08:49,760
+If you see 10 letters at one level, that means 10 
+distinct time blocks spent some portion of trading  
+
+83
+00:08:49,760 --> 00:08:56,800
+at that price. That is a direct way to sense 
+how the market balanced or tested each zone.
+
+84
+00:08:56,800 --> 00:09:01,040
+If a big cluster forms around the 
+middle of the day, some interpret  
+
+85
+00:09:01,040 --> 00:09:06,080
+that as a balanced session. When you 
+see the cluster push up near the top,  
+
+86
+00:09:06,080 --> 00:09:10,720
+you might sense that participants 
+welcomed higher pricing. If you spot  
+
+87
+00:09:10,720 --> 00:09:16,800
+a cluster near the bottom, that can mean 
+persistent acceptance at lower levels.
+
+88
+00:09:16,800 --> 00:09:22,960
+A short stack of letters at a certain price 
+might show that the market tested that level  
+
+89
+00:09:22,960 --> 00:09:29,680
+but quickly moved away. That might reflect swift 
+rejection. If the price tried to stay there,  
+
+90
+00:09:29,680 --> 00:09:34,400
+you would see more letters added. 
+If you see only one or two letters,  
+
+91
+00:09:34,400 --> 00:09:38,880
+that can mean the market spent 
+just one or two time blocks there.
+
+92
+00:09:38,880 --> 00:09:44,800
+Some traders place special importance 
+on single TPO prints at extremes. That  
+
+93
+00:09:44,800 --> 00:09:50,400
+single print might highlight a strong 
+rejection. Market profile watchers may  
+
+94
+00:09:50,400 --> 00:09:56,480
+call that a sign that the market poked into 
+that territory, found no willingness to trade,  
+
+95
+00:09:56,480 --> 00:10:03,680
+and reversed. Rejection becomes visible because 
+the chart never built a tall column there.
+
+96
+00:10:03,680 --> 00:10:09,760
+The middle area often becomes the point of 
+control, referencing the price level with the most  
+
+97
+00:10:09,760 --> 00:10:18,000
+TPOs. In many sessions, the distribution might not 
+be symmetrical. It could skew higher or it might  
+
+98
+00:10:18,000 --> 00:10:25,840
+skew lower. That tilt can show that either buyers 
+or sellers took control for much of the session.
+
+99
+00:10:25,840 --> 00:10:32,560
+In an active bullish scenario, you might see 
+a heavy cluster of letters near the top. That  
+
+100
+00:10:32,560 --> 00:10:39,680
+can hint the market accepted higher prices, 
+finishing near the highs with a strong cluster.  
+
+101
+00:10:39,680 --> 00:10:45,040
+In a bearish environment, you might 
+see a thick cluster near the lows.  
+
+102
+00:10:45,040 --> 00:10:49,280
+That can mean repeated trading 
+activity in that lower region.
+
+103
+00:10:49,280 --> 00:10:56,880
+People also track the value area in a TPO chart. 
+The value area often covers the price range where  
+
+104
+00:10:56,880 --> 00:11:04,720
+70% of the day's TPO activity took place. 
+That area is presumably the day's fair zone.  
+
+105
+00:11:04,720 --> 00:11:11,120
+Day traders watch the open in relation to the 
+prior day's value area. If the market opens  
+
+106
+00:11:11,120 --> 00:11:18,160
+above it and keeps building letters at higher 
+levels, it can reflect bullish acceptance. If  
+
+107
+00:11:18,160 --> 00:11:25,760
+it drops back into the previous day's value area, 
+that might show a failure to sustain new ground.
+
+108
+00:11:25,760 --> 00:11:32,800
+Combine a trend line with a volume spike 
+test to see how price reacts on each retest.  
+
+109
+00:11:32,800 --> 00:11:38,880
+Draw a steady line through points on your 
+chart. Then watch how volume changes each  
+
+110
+00:11:38,880 --> 00:11:45,040
+time price touches that zone. Here 
+we have a rising line under price.  
+
+111
+00:11:45,040 --> 00:11:50,800
+Suppose price taps that line more than 
+once. Track the effort behind each tap.
+
+112
+00:11:50,800 --> 00:11:57,200
+If volume expands at the contact point but price 
+does not break lower, buyers might be holding the  
+
+113
+00:11:57,200 --> 00:12:04,960
+line. That reveal can guide you to think buyers 
+are present despite the test. If price closes  
+
+114
+00:12:04,960 --> 00:12:12,480
+firm above the line, that hints that buyers 
+outweigh sellers, so the uptrend may continue.
+
+115
+00:12:12,480 --> 00:12:18,560
+On the other hand, imagine volume spikes at 
+the trend line as the price breaks. The line  
+
+116
+00:12:18,560 --> 00:12:25,040
+can become a weaker barrier. A strong 
+close beyond it can mark a firm change.  
+
+117
+00:12:25,040 --> 00:12:30,880
+Sometimes you see a wide bar pushing 
+through that line with large activity  
+
+118
+00:12:30,880 --> 00:12:37,920
+and no bounce on the retest. That scenario 
+often signals a real shift. You might see a  
+
+119
+00:12:37,920 --> 00:12:45,120
+giant volume bar as the final push and price 
+continues well below the line. That can warn  
+
+120
+00:12:45,120 --> 00:12:51,040
+that sellers stepped in aggressively. 
+The line no longer stands in their way.
+
+121
+00:12:51,040 --> 00:12:58,640
+First, test your approach on past charts. Open 
+a chart and draw your rising or declining line.  
+
+122
+00:12:58,640 --> 00:13:04,560
+Then, wait for price to drift there. When 
+it does, watch the volume level. If volume  
+
+123
+00:13:04,560 --> 00:13:11,360
+exceeds the average by a visible margin, see how 
+the candle closes. Does it close well above the  
+
+124
+00:13:11,360 --> 00:13:18,240
+trend line or below it? That single data point 
+can speak volumes about the market intent.
+
+125
+00:13:18,240 --> 00:13:26,080
+Watch for sideways drifting near the line. If 
+price stalls near that line and volume bars climb,  
+
+126
+00:13:26,080 --> 00:13:32,480
+that might suggest big players are building 
+positions. Price might then explode above  
+
+127
+00:13:32,480 --> 00:13:40,000
+or below. A strong breakout with a wide range 
+bar plus large activity can confirm the path.  
+
+128
+00:13:40,000 --> 00:13:46,080
+A breakout with low volume will often fade. 
+Observing the spike helps you see if big  
+
+129
+00:13:46,080 --> 00:13:54,240
+participation is present. That is the advantage 
+of combining a trend line with volume spike tests.
+
+130
+00:13:54,240 --> 00:14:01,440
+Examining each bar's range is a simple way to 
+see if price might break free or stay quiet. The  
+
+131
+00:14:01,440 --> 00:14:08,000
+gap between the bar's high and low reflects 
+market energy. A bar's high reveals how far  
+
+132
+00:14:08,000 --> 00:14:15,840
+buyers try to push. A bar's low shows how far 
+sellers try to push in that same period. That  
+
+133
+00:14:15,840 --> 00:14:22,080
+difference in height, known as the range, 
+can show if the market is slow or alive.
+
+134
+00:14:22,080 --> 00:14:28,880
+A big range can hint that traders are pushing 
+and pulling with greater force. A small range  
+
+135
+00:14:28,880 --> 00:14:36,400
+can point to caution or waiting. This practice is 
+called range analysis and it starts with reading  
+
+136
+00:14:36,400 --> 00:14:43,680
+each bar in a straightforward way. It does not 
+require fancy tools. A day trader looks at the  
+
+137
+00:14:43,680 --> 00:14:51,520
+bar on the chart, notes the distance from high to 
+low, and compares it to prior bars. If the new bar  
+
+138
+00:14:51,520 --> 00:14:58,800
+towers over the one before it, that can be a sign 
+of more volatility. If the new bar is smaller,  
+
+139
+00:14:58,800 --> 00:15:05,600
+that can be a sign of reduced action. This is 
+a direct and practical way to gain insight.
+
+140
+00:15:05,600 --> 00:15:10,720
+Range expansions can show that something 
+has changed. A large bar might mean that  
+
+141
+00:15:10,720 --> 00:15:16,720
+many players jumped in during that period. 
+Traders holding positions could have strong  
+
+142
+00:15:16,720 --> 00:15:23,680
+opinions on direction. That strong opinion can 
+create a surge. When price covers more ground,  
+
+143
+00:15:23,680 --> 00:15:28,880
+it can catch some off guard. Some might 
+see the big bar and believe the market is  
+
+144
+00:15:28,880 --> 00:15:34,560
+on the move. Others might step aside, 
+not wanting to fight that momentum.
+
+145
+00:15:34,560 --> 00:15:39,920
+Contraction is the opposite. When bars 
+get smaller, it might show that traders  
+
+146
+00:15:39,920 --> 00:15:45,520
+are waiting. They might not see a clear 
+path. The highs are not too high. The lows  
+
+147
+00:15:45,520 --> 00:15:52,880
+are not too low. That can create a cluster of 
+narrow bars, each one marking a slim distance  
+
+148
+00:15:52,880 --> 00:15:59,840
+between high and low. Some traders anticipate 
+a breakout from such quiet stages. They keep  
+
+149
+00:15:59,840 --> 00:16:06,800
+watching for that first big bar that bursts 
+in one direction. That bar can bring energy,  
+
+150
+00:16:06,800 --> 00:16:13,280
+hooking new orders into the market. Others 
+remain cautious, unsure if the quiet phase  
+
+151
+00:16:13,280 --> 00:16:20,720
+will continue. Sometimes the quiet phase drags 
+on, frustrating those who wait for a spark.
+
+152
+00:16:20,720 --> 00:16:26,560
+Seeing expansions or contractions in 
+the bar range helps judge market tempo.  
+
+153
+00:16:26,560 --> 00:16:32,400
+It shows if the market is active or calm. 
+This direct reading helps keep the focus  
+
+154
+00:16:32,400 --> 00:16:38,880
+on price. Of course, you must pair it with 
+volume data. You want to see if the wide bar  
+
+155
+00:16:38,880 --> 00:16:44,800
+also had high volume. That suggests 
+strong commitment from big players.
+
+156
+00:16:44,800 --> 00:16:51,440
+Candle close location value shows how each 
+bar finishes relative to its high-low range.  
+
+157
+00:16:51,440 --> 00:16:56,880
+If a candle closes near its high, buyers 
+kept pushing until the end of that time  
+
+158
+00:16:56,880 --> 00:17:02,560
+frame. If a candle closes near the low, 
+it shows larger selling pressure toward  
+
+159
+00:17:02,560 --> 00:17:08,320
+that bar's finish. A close around the 
+midpoint marks a balance between buyers  
+
+160
+00:17:08,320 --> 00:17:16,240
+and sellers. Day traders watch these closes to 
+see who seems stronger over a series of bars.
+
+161
+00:17:16,240 --> 00:17:22,560
+If many bars close near their highs, it can 
+hint that buyers are consistently winning.  
+
+162
+00:17:22,560 --> 00:17:29,600
+In an uptrend, a streak of bars that finish 
+high suggests strong interest at each step.  
+
+163
+00:17:29,600 --> 00:17:36,960
+If a bar suddenly closes near its low after 
+that streak, it may point to a shift in mood.
+
+164
+00:17:36,960 --> 00:17:44,400
+This 5-minute chart shows consecutive closes near 
+the top. That can mean buyers are active on each  
+
+165
+00:17:44,400 --> 00:17:52,160
+bar's final trades. If the next bar closes deep 
+in the range, watch if buyers step aside. If that  
+
+166
+00:17:52,160 --> 00:18:00,960
+low close coincides with wider ranges or bigger 
+candles, it might reveal a sudden wave of selling.
+
+167
+00:18:00,960 --> 00:18:07,520
+Candle close location also helps you detect 
+subtle shifts. Suppose a market moves upward  
+
+168
+00:18:07,520 --> 00:18:13,440
+but the candles start closing near their 
+midpoints, creating shadows on top. You  
+
+169
+00:18:13,440 --> 00:18:19,360
+might guess that sellers are active even 
+if price is still climbing. Over time,  
+
+170
+00:18:19,360 --> 00:18:26,560
+those repeated mid-range closes could foreshadow 
+a stall. On the flip side, a market in a downtrend  
+
+171
+00:18:26,560 --> 00:18:33,040
+that begins closing near the high of each 
+bar might show stronger buying than before.
+
+172
+00:18:33,040 --> 00:18:38,640
+Traders sometimes calculate an average 
+candle close location over a set of bars.  
+
+173
+00:18:38,640 --> 00:18:44,880
+If a candle closes near its high, its 
+value is one. If it closes near its low,  
+
+174
+00:18:44,880 --> 00:18:52,240
+its value is zero. If it closes in the 
+middle, it has a value of 0.5. Then you  
+
+175
+00:18:52,240 --> 00:18:59,760
+consider the average value over a set of bars. 
+If that average stays near 0.8, for example,  
+
+176
+00:18:59,760 --> 00:19:07,440
+bullish pressure is steady. If it oscillates 
+around 0.5, the market looks indecisive. A  
+
+177
+00:19:07,440 --> 00:19:16,320
+swift drop toward 0.1 can point to a big change in 
+tone. Candle close location is straightforward and  
+
+178
+00:19:16,320 --> 00:19:25,680
+thrives on raw price action. That direct view can 
+help you sense if momentum is building or fading.
+
+179
+00:19:25,680 --> 00:19:32,880
+Identify a measured move to see how price might 
+extend in a trend. Picture a market that rises a  
+
+180
+00:19:32,880 --> 00:19:38,640
+certain distance, then pulls back, and then 
+drives higher again. That distance from the  
+
+181
+00:19:38,640 --> 00:19:45,280
+first surge often helps you estimate how far 
+the next wave might go. You take the size of  
+
+182
+00:19:45,280 --> 00:19:52,240
+the first move and project it above the pullback. 
+This is a measured move, a quick way to guess a  
+
+183
+00:19:52,240 --> 00:19:58,000
+possible target. If the market meets that 
+target and stalls, that might confirm the  
+
+184
+00:19:58,000 --> 00:20:04,960
+measured move idea. If the market blasts past 
+the target, that might reveal extra strength.
+
+185
+00:20:04,960 --> 00:20:13,600
+Imagine a clean uptrend. Price rallies 100 pips 
+from a swing low. Then it retraces about 50 pips,  
+
+186
+00:20:13,600 --> 00:20:22,000
+forming a short pause. Now price moves up again. 
+Some traders measure that first wave and plot that  
+
+187
+00:20:22,000 --> 00:20:28,320
+same distance from the swing low of the pullback. 
+That new level becomes a reference. They watch  
+
+188
+00:20:28,320 --> 00:20:35,600
+if price hits it or not. This approach feels 
+basic, but it can help you map out expectations.  
+
+189
+00:20:35,600 --> 00:20:42,000
+You look for symmetrical movement in a trending 
+environment. If a market makes a series of waves  
+
+190
+00:20:42,000 --> 00:20:48,880
+that mirror each other in size, that might confirm 
+the trend has a steady rhythm. If you see multiple  
+
+191
+00:20:48,880 --> 00:20:55,280
+measured moves that keep playing out, you get a 
+sense that the trend is healthy and consistent.
+
+192
+00:20:55,280 --> 00:21:01,360
+Of course, markets don't always honor the 
+symmetrical moves precisely. You might see  
+
+193
+00:21:01,360 --> 00:21:08,480
+it come close, then fade, or you might see it 
+power right through. Measured moves aim to give  
+
+194
+00:21:08,480 --> 00:21:14,320
+you a ballpark estimate, not an absolute 
+rule. But this concept can also help you  
+
+195
+00:21:14,320 --> 00:21:20,880
+with risk assessment and with your targets. 
+This is a simple chart geometry approach. You  
+
+196
+00:21:20,880 --> 00:21:27,040
+measure a prior leg and replicate it. You 
+see if the market respects that geometry.
+
+197
+00:21:27,040 --> 00:21:32,720
+So use symmetrical moves to project possible 
+targets and then interpret if the market  
+
+198
+00:21:32,720 --> 00:21:38,800
+exceeds or falls short of that measure. 
+If it overshoots, it might be a sign of  
+
+199
+00:21:38,800 --> 00:21:45,600
+strong momentum. If it undershoots, it might 
+warn that momentum is weaker than before.
+
+200
+00:21:45,600 --> 00:21:50,000
+And if you're ready to fit this 
+into a full A to Z trading system,  
+
+201
+00:21:50,000 --> 00:21:57,840
+that's what our academy is for. 
+Link is in the description.
+

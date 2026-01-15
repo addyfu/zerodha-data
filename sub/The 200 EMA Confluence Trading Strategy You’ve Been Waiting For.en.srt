@@ -1,0 +1,1248 @@
+1
+00:00:00,539 --> 00:00:04,799
+in day trading there are many
+
+2
+00:00:03,060 --> 00:00:07,859
+conflicting Concepts
+
+3
+00:00:04,799 --> 00:00:10,980
+trend lines are broken Fibonacci is
+
+4
+00:00:07,859 --> 00:00:13,980
+irrelevant chart patterns don't work
+
+5
+00:00:10,980 --> 00:00:16,320
+support and resistance trading is broken
+
+6
+00:00:13,980 --> 00:00:18,660
+if you are new to the game it's quite
+
+7
+00:00:16,320 --> 00:00:21,119
+hard to know which concepts are indeed
+
+8
+00:00:18,660 --> 00:00:23,300
+profitable and what is the best approach
+
+9
+00:00:21,119 --> 00:00:25,640
+you should take to make money trading
+
+10
+00:00:23,300 --> 00:00:28,740
+I'll tell you what worked for me
+
+11
+00:00:25,640 --> 00:00:31,320
+Confluence conference is when there is
+
+12
+00:00:28,740 --> 00:00:33,180
+more than one signal coming together at
+
+13
+00:00:31,320 --> 00:00:35,700
+the same point in the market
+
+14
+00:00:33,180 --> 00:00:38,520
+the more technical tools that validate
+
+15
+00:00:35,700 --> 00:00:40,860
+the price move or simply confirm the
+
+16
+00:00:38,520 --> 00:00:42,719
+significance of a price level the
+
+17
+00:00:40,860 --> 00:00:45,180
+stronger that level is
+
+18
+00:00:42,719 --> 00:00:48,059
+today I'm sharing a very simple strategy
+
+19
+00:00:45,180 --> 00:00:50,700
+to day trade and swing trade using
+
+20
+00:00:48,059 --> 00:00:51,719
+critical price levels and two moving
+
+21
+00:00:50,700 --> 00:00:55,199
+averages
+
+22
+00:00:51,719 --> 00:00:56,390
+so like subscribe and stick around for
+
+23
+00:00:55,199 --> 00:01:01,000
+the full video
+
+24
+00:00:56,390 --> 00:01:01,000
+[Music]
+
+25
+00:01:01,199 --> 00:01:06,659
+when you find a setup that has the same
+
+26
+00:01:03,899 --> 00:01:08,580
+price signal from multiple methodologies
+
+27
+00:01:06,659 --> 00:01:11,400
+you have found a high probability
+
+28
+00:01:08,580 --> 00:01:13,140
+trading opportunity and there is a high
+
+29
+00:01:11,400 --> 00:01:14,520
+chance of the trade working out
+
+30
+00:01:13,140 --> 00:01:17,340
+successfully
+
+31
+00:01:14,520 --> 00:01:19,500
+finding a Confluence is key and could
+
+32
+00:01:17,340 --> 00:01:22,320
+eliminate noise when it comes to
+
+33
+00:01:19,500 --> 00:01:25,020
+validating a signal Confluence can be
+
+34
+00:01:22,320 --> 00:01:28,259
+found in all forms of the markets price
+
+35
+00:01:25,020 --> 00:01:31,320
+patterns moving averages pivots support
+
+36
+00:01:28,259 --> 00:01:33,060
+and resistance levels trend lines or
+
+37
+00:01:31,320 --> 00:01:35,700
+Fibonacci levels
+
+38
+00:01:33,060 --> 00:01:37,860
+when some of these tools meet at the
+
+39
+00:01:35,700 --> 00:01:40,200
+single location on the chart it is
+
+40
+00:01:37,860 --> 00:01:42,720
+considered a point of confluence
+
+41
+00:01:40,200 --> 00:01:45,000
+conference trading is basically
+
+42
+00:01:42,720 --> 00:01:48,119
+combining more than one trading
+
+43
+00:01:45,000 --> 00:01:52,460
+technique or charge pattern or analysis
+
+44
+00:01:48,119 --> 00:01:55,550
+to increase your odds of winning a trade
+
+45
+00:01:52,460 --> 00:01:55,550
+[Music]
+
+46
+00:01:56,000 --> 00:02:01,500
+I always pay close attention to support
+
+47
+00:01:58,740 --> 00:02:03,960
+and resistance areas these are price
+
+48
+00:02:01,500 --> 00:02:06,659
+structures which show previous reaction
+
+49
+00:02:03,960 --> 00:02:10,739
+points and are usually used to find
+
+50
+00:02:06,659 --> 00:02:12,840
+turning points or breakouts in a market
+
+51
+00:02:10,739 --> 00:02:16,560
+there are many price levels that you can
+
+52
+00:02:12,840 --> 00:02:19,319
+trade from Major Market boundaries to
+
+53
+00:02:16,560 --> 00:02:22,800
+smaller price structures forming swing
+
+54
+00:02:19,319 --> 00:02:25,200
+lows and highs to huge zones where price
+
+55
+00:02:22,800 --> 00:02:27,780
+comes back regularly
+
+56
+00:02:25,200 --> 00:02:30,420
+the break and retest pattern is
+
+57
+00:02:27,780 --> 00:02:33,300
+especially important in our strategy
+
+58
+00:02:30,420 --> 00:02:35,879
+this is where price changes from using a
+
+59
+00:02:33,300 --> 00:02:38,640
+level as support first and after a
+
+60
+00:02:35,879 --> 00:02:41,160
+breakout it uses the same level as
+
+61
+00:02:38,640 --> 00:02:43,920
+resistance
+
+62
+00:02:41,160 --> 00:02:46,099
+and when a resistance level becomes a
+
+63
+00:02:43,920 --> 00:02:46,099
+support
+
+64
+00:02:47,160 --> 00:02:50,639
+[Music]
+
+65
+00:02:50,940 --> 00:02:55,620
+moving averages are another useful
+
+66
+00:02:53,040 --> 00:02:56,819
+Confluence tool because they are very
+
+67
+00:02:55,620 --> 00:03:00,000
+versatile
+
+68
+00:02:56,819 --> 00:03:02,160
+you can use them as entry filter and
+
+69
+00:03:00,000 --> 00:03:03,840
+only take trades in the direction of the
+
+70
+00:03:02,160 --> 00:03:07,440
+moving average
+
+71
+00:03:03,840 --> 00:03:11,159
+the time entries on a retest of a moving
+
+72
+00:03:07,440 --> 00:03:14,580
+average during a pullback plus they also
+
+73
+00:03:11,159 --> 00:03:16,980
+serve as Dynamic support and resistance
+
+74
+00:03:14,580 --> 00:03:19,260
+lately I've stopped using moving
+
+75
+00:03:16,980 --> 00:03:20,340
+averages which are applied to the close
+
+76
+00:03:19,260 --> 00:03:23,640
+price
+
+77
+00:03:20,340 --> 00:03:27,480
+I prefer to use two moving averages with
+
+78
+00:03:23,640 --> 00:03:29,700
+the same period in this case 200.
+
+79
+00:03:27,480 --> 00:03:32,459
+the first one is a moving average
+
+80
+00:03:29,700 --> 00:03:35,220
+applied to high prices
+
+81
+00:03:32,459 --> 00:03:37,519
+and the second one is applied to low
+
+82
+00:03:35,220 --> 00:03:37,519
+prices
+
+83
+00:03:37,739 --> 00:03:44,060
+this creates a channel which is much
+
+84
+00:03:40,560 --> 00:03:44,060
+better than a simple line
+
+85
+00:03:49,379 --> 00:03:54,540
+so the more trading techniques you have
+
+86
+00:03:51,659 --> 00:03:56,400
+indicating a certain direction the
+
+87
+00:03:54,540 --> 00:03:59,340
+higher the probability of the market
+
+88
+00:03:56,400 --> 00:04:02,760
+price going in that direction
+
+89
+00:03:59,340 --> 00:04:05,400
+strategy consists in finding areas where
+
+90
+00:04:02,760 --> 00:04:08,580
+critical price levels and the EMA
+
+91
+00:04:05,400 --> 00:04:11,239
+Channel converge one static support and
+
+92
+00:04:08,580 --> 00:04:15,599
+resistance level and a dynamic one
+
+93
+00:04:11,239 --> 00:04:18,479
+aligning on the same area on a chart
+
+94
+00:04:15,599 --> 00:04:19,560
+we trade Euro Yen on the 15 minute time
+
+95
+00:04:18,479 --> 00:04:22,919
+frame
+
+96
+00:04:19,560 --> 00:04:25,080
+price is below the 200 EMA Channel So
+
+97
+00:04:22,919 --> 00:04:28,320
+the plan is too short the currency pair
+
+98
+00:04:25,080 --> 00:04:31,500
+when price bounces off the channel
+
+99
+00:04:28,320 --> 00:04:34,620
+I also see a triple top here and a
+
+100
+00:04:31,500 --> 00:04:36,960
+breakout the breakout happened at the
+
+101
+00:04:34,620 --> 00:04:38,460
+same time with the breakout below the
+
+102
+00:04:36,960 --> 00:04:41,940
+channel
+
+103
+00:04:38,460 --> 00:04:44,460
+this area is an important one it was a
+
+104
+00:04:41,940 --> 00:04:45,960
+support Zone turning into potential
+
+105
+00:04:44,460 --> 00:04:49,080
+resistance
+
+106
+00:04:45,960 --> 00:04:51,660
+which aligns with the EMA Channel
+
+107
+00:04:49,080 --> 00:04:54,120
+so we found our value Zone
+
+108
+00:04:51,660 --> 00:04:58,040
+if price comes to this Confluence area
+
+109
+00:04:54,120 --> 00:04:58,040
+we'll enter a cell position
+
+110
+00:05:02,040 --> 00:05:08,160
+topless above the EMA Channel
+
+111
+00:05:05,400 --> 00:05:09,479
+and we target the next swing low in the
+
+112
+00:05:08,160 --> 00:05:12,780
+price structure
+
+113
+00:05:09,479 --> 00:05:14,740
+that's a risk to reward ratio of 3 which
+
+114
+00:05:12,780 --> 00:05:18,050
+is the minimum Target you should aim
+
+115
+00:05:14,740 --> 00:05:18,050
+[Music]
+
+116
+00:05:18,419 --> 00:05:23,220
+if you want to maximize profits when
+
+117
+00:05:20,820 --> 00:05:24,479
+price breaks an important level in the
+
+118
+00:05:23,220 --> 00:05:26,759
+price structure
+
+119
+00:05:24,479 --> 00:05:27,990
+you move your stop loss to lock in
+
+120
+00:05:26,759 --> 00:05:31,089
+profits
+
+121
+00:05:27,990 --> 00:05:31,089
+[Music]
+
+122
+00:05:33,419 --> 00:05:38,520
+I suspect this pullback to our
+
+123
+00:05:35,400 --> 00:05:40,330
+conference area also aligns with the
+
+124
+00:05:38,520 --> 00:05:41,940
+Fibonacci level
+
+125
+00:05:40,330 --> 00:05:43,800
+[Music]
+
+126
+00:05:41,940 --> 00:05:46,340
+foreign
+
+127
+00:05:43,800 --> 00:05:48,360
+just as I thought it was the 50
+
+128
+00:05:46,340 --> 00:05:52,139
+Fibonacci retracement
+
+129
+00:05:48,360 --> 00:05:54,360
+another layer of confidence
+
+130
+00:05:52,139 --> 00:05:55,680
+we moved to Nvidia on the five minute
+
+131
+00:05:54,360 --> 00:05:58,380
+time frame
+
+132
+00:05:55,680 --> 00:06:01,440
+this is a strong downtrend with price
+
+133
+00:05:58,380 --> 00:06:02,820
+making lower swing lows lower swing
+
+134
+00:06:01,440 --> 00:06:05,759
+highs
+
+135
+00:06:02,820 --> 00:06:08,940
+I also see this major swing low
+
+136
+00:06:05,759 --> 00:06:11,940
+again a firmware support potentially
+
+137
+00:06:08,940 --> 00:06:13,580
+turning into resistance
+
+138
+00:06:11,940 --> 00:06:16,620
+foreign
+
+139
+00:06:13,580 --> 00:06:19,680
+zone is more evident now
+
+140
+00:06:16,620 --> 00:06:22,620
+it's right here where the 200 EMA
+
+141
+00:06:19,680 --> 00:06:27,620
+Channel and the resistance area meet
+
+142
+00:06:22,620 --> 00:06:27,620
+if price reaches the Zone we'll go short
+
+143
+00:06:30,240 --> 00:06:36,180
+stop loss above the channel
+
+144
+00:06:32,699 --> 00:06:37,740
+and for our take profit we'll Target the
+
+145
+00:06:36,180 --> 00:06:40,319
+previous swing low in the price
+
+146
+00:06:37,740 --> 00:06:43,259
+structure a very good risk to reward
+
+147
+00:06:40,319 --> 00:06:45,440
+ratio of 5.
+
+148
+00:06:43,259 --> 00:06:45,440
+foreign
+
+149
+00:06:46,160 --> 00:06:51,539
+excellent trade and as in the previous
+
+150
+00:06:49,080 --> 00:06:53,960
+example let's add the Fibonacci
+
+151
+00:06:51,539 --> 00:06:53,960
+retracement
+
+152
+00:06:56,220 --> 00:07:02,660
+what do you know Fibonacci golden Zone
+
+153
+00:06:58,860 --> 00:07:02,660
+offered additional resistance
+
+154
+00:07:03,060 --> 00:07:08,280
+we change markets once again and we
+
+155
+00:07:05,699 --> 00:07:09,479
+trade the X index on the 30 minute time
+
+156
+00:07:08,280 --> 00:07:11,819
+frame
+
+157
+00:07:09,479 --> 00:07:15,720
+I see a strong uptrend
+
+158
+00:07:11,819 --> 00:07:19,080
+higher swing highs higher swing lows
+
+159
+00:07:15,720 --> 00:07:22,979
+price above the 200 EMA channel so
+
+160
+00:07:19,080 --> 00:07:26,400
+market conditions favor long trades
+
+161
+00:07:22,979 --> 00:07:29,280
+price broke this resistance level and
+
+162
+00:07:26,400 --> 00:07:31,450
+now we expect it to hold and act as a
+
+163
+00:07:29,280 --> 00:07:33,840
+new support
+
+164
+00:07:31,450 --> 00:07:36,900
+[Music]
+
+165
+00:07:33,840 --> 00:07:41,340
+price hit the moving average channel in
+
+166
+00:07:36,900 --> 00:07:44,680
+a conference area at this support level
+
+167
+00:07:41,340 --> 00:07:47,160
+when in doubt add a few retracement
+
+168
+00:07:44,680 --> 00:07:49,800
+[Music]
+
+169
+00:07:47,160 --> 00:07:52,139
+once again Fibonacci golden Zone
+
+170
+00:07:49,800 --> 00:07:54,680
+perfectly aligns with the other
+
+171
+00:07:52,139 --> 00:07:58,440
+Confluence vectors
+
+172
+00:07:54,680 --> 00:08:01,020
+so stop loss below the channel
+
+173
+00:07:58,440 --> 00:08:04,580
+and will aim for the minimum risk to
+
+174
+00:08:01,020 --> 00:08:04,580
+reward ratio of 3.
+
+175
+00:08:04,979 --> 00:08:10,680
+here's how to manage the trade once
+
+176
+00:08:08,099 --> 00:08:13,500
+price breaks an important swing in the
+
+177
+00:08:10,680 --> 00:08:17,780
+price structure remove the risk from the
+
+178
+00:08:13,500 --> 00:08:17,780
+trade and move your stop to break even
+
+179
+00:08:17,819 --> 00:08:23,900
+now we can't lose money we are in a
+
+180
+00:08:21,060 --> 00:08:23,900
+risk-free trade
+
+181
+00:08:29,340 --> 00:08:33,479
+in this chart I see a potential long
+
+182
+00:08:32,339 --> 00:08:36,360
+trade
+
+183
+00:08:33,479 --> 00:08:37,620
+we have an accumulation Zone after a
+
+184
+00:08:36,360 --> 00:08:40,380
+downtrend
+
+185
+00:08:37,620 --> 00:08:41,760
+and now price broke the upper side of
+
+186
+00:08:40,380 --> 00:08:46,140
+the range
+
+187
+00:08:41,760 --> 00:08:48,959
+and it also broke the 200 EMA Channel
+
+188
+00:08:46,140 --> 00:08:51,680
+around this area we have our potential
+
+189
+00:08:48,959 --> 00:08:51,680
+long trade
+
+190
+00:08:54,899 --> 00:09:01,820
+stop loss below the channel
+
+191
+00:08:57,420 --> 00:09:01,820
+take profit at the next swing High
+
+192
+00:09:05,220 --> 00:09:11,040
+okay this time we lost the trade
+
+193
+00:09:07,860 --> 00:09:13,260
+the conference zone wasn't strong enough
+
+194
+00:09:11,040 --> 00:09:16,220
+but let's continue maybe we'll find
+
+195
+00:09:13,260 --> 00:09:16,220
+another opportunity
+
+196
+00:09:21,120 --> 00:09:25,860
+route right here
+
+197
+00:09:23,279 --> 00:09:27,480
+which tells me this Market wants to go
+
+198
+00:09:25,860 --> 00:09:30,240
+higher
+
+199
+00:09:27,480 --> 00:09:33,360
+price breaks the EMA Channel once again
+
+200
+00:09:30,240 --> 00:09:35,880
+and makes a new high
+
+201
+00:09:33,360 --> 00:09:39,500
+let's see if the market will offer us a
+
+202
+00:09:35,880 --> 00:09:39,500
+pullback to the EMA Channel
+
+203
+00:09:41,880 --> 00:09:47,360
+here it is we have a support level and
+
+204
+00:09:45,360 --> 00:09:50,279
+dma Channel
+
+205
+00:09:47,360 --> 00:09:53,420
+nd151 round number which is another
+
+206
+00:09:50,279 --> 00:09:53,420
+conference Factor
+
+207
+00:09:53,880 --> 00:09:59,940
+stop goes below the 200 EMA Channel
+
+208
+00:09:57,600 --> 00:10:03,720
+and we'll set the take profit a few
+
+209
+00:09:59,940 --> 00:10:06,720
+points below the swing High
+
+210
+00:10:03,720 --> 00:10:06,720
+foreign
+
+211
+00:10:13,220 --> 00:10:19,080
+zone is part of a chart pattern
+
+212
+00:10:16,680 --> 00:10:20,279
+in this example I see a head and
+
+213
+00:10:19,080 --> 00:10:22,080
+shoulders
+
+214
+00:10:20,279 --> 00:10:25,080
+and a Breakout
+
+215
+00:10:22,080 --> 00:10:27,600
+we have the neckline here and the entry
+
+216
+00:10:25,080 --> 00:10:30,540
+point would be at the retest of this
+
+217
+00:10:27,600 --> 00:10:34,320
+resistance for more support
+
+218
+00:10:30,540 --> 00:10:36,300
+the 200 EMA Channel also offers Dynamic
+
+219
+00:10:34,320 --> 00:10:38,880
+resistance
+
+220
+00:10:36,300 --> 00:10:41,180
+this would be the sweet spot for an
+
+221
+00:10:38,880 --> 00:10:41,180
+entry
+
+222
+00:10:45,360 --> 00:10:51,660
+placed above the 200 EMA Channel
+
+223
+00:10:48,839 --> 00:10:53,940
+and let's target the swing low
+
+224
+00:10:51,660 --> 00:10:56,459
+a bigger price move
+
+225
+00:10:53,940 --> 00:10:58,220
+we'll monitor each swing low in the
+
+226
+00:10:56,459 --> 00:11:01,380
+price structure
+
+227
+00:10:58,220 --> 00:11:04,980
+[Music]
+
+228
+00:11:01,380 --> 00:11:07,500
+okay we broke the swing low I'll move my
+
+229
+00:11:04,980 --> 00:11:09,520
+stop to break even and now we removed
+
+230
+00:11:07,500 --> 00:11:13,399
+the risk from the trade
+
+231
+00:11:09,520 --> 00:11:16,740
+[Music]
+
+232
+00:11:13,399 --> 00:11:18,000
+here's another common chart pattern a
+
+233
+00:11:16,740 --> 00:11:21,060
+double bottom
+
+234
+00:11:18,000 --> 00:11:23,100
+which was broken to the upside
+
+235
+00:11:21,060 --> 00:11:25,320
+but the interesting thing was the fact
+
+236
+00:11:23,100 --> 00:11:28,620
+that the breakout occurred at the same
+
+237
+00:11:25,320 --> 00:11:29,880
+time with the breakout above the 200 EMA
+
+238
+00:11:28,620 --> 00:11:34,140
+Channel
+
+239
+00:11:29,880 --> 00:11:36,600
+I also see a major trendline breakout my
+
+240
+00:11:34,140 --> 00:11:39,079
+intuition says this Market wants to go
+
+241
+00:11:36,600 --> 00:11:39,079
+higher
+
+242
+00:11:39,360 --> 00:11:44,160
+this is the conference zone where
+
+243
+00:11:41,820 --> 00:11:45,660
+different signals are indicating the
+
+244
+00:11:44,160 --> 00:11:48,320
+same thing
+
+245
+00:11:45,660 --> 00:11:48,320
+foreign
+
+246
+00:11:50,540 --> 00:11:56,519
+goes below the channel
+
+247
+00:11:53,519 --> 00:12:01,079
+this swing high is our final Target
+
+248
+00:11:56,519 --> 00:12:04,560
+a risk to reward ratio of 5.
+
+249
+00:12:01,079 --> 00:12:07,079
+price broke they swing high this is the
+
+250
+00:12:04,560 --> 00:12:09,680
+moment when we eliminate the risk from
+
+251
+00:12:07,079 --> 00:12:09,680
+our trade
+
+252
+00:12:13,140 --> 00:12:17,160
+here I see a double tap
+
+253
+00:12:15,240 --> 00:12:20,820
+and a Breakout
+
+254
+00:12:17,160 --> 00:12:22,260
+there's also a breakout below this upper
+
+255
+00:12:20,820 --> 00:12:25,500
+trend line
+
+256
+00:12:22,260 --> 00:12:26,700
+so chart pattern Traders see a potential
+
+257
+00:12:25,500 --> 00:12:29,579
+down move
+
+258
+00:12:26,700 --> 00:12:31,500
+moving average Traders also see a
+
+259
+00:12:29,579 --> 00:12:34,560
+possible bearish Direction
+
+260
+00:12:31,500 --> 00:12:36,300
+trendline Traders also expect further
+
+261
+00:12:34,560 --> 00:12:38,579
+price decrease
+
+262
+00:12:36,300 --> 00:12:41,100
+all of these independent forms of
+
+263
+00:12:38,579 --> 00:12:43,579
+analysis indicate a similar price
+
+264
+00:12:41,100 --> 00:12:43,579
+movement
+
+265
+00:12:43,980 --> 00:12:49,139
+stop loss placement above the 200 EMA
+
+266
+00:12:47,279 --> 00:12:53,399
+Channel as usual
+
+267
+00:12:49,139 --> 00:12:57,740
+and take profit at this major support a
+
+268
+00:12:53,399 --> 00:12:57,740
+risk to reward ratio of around 3.
+
+269
+00:12:57,839 --> 00:13:03,839
+we remove the risk from the trade right
+
+270
+00:13:00,720 --> 00:13:05,959
+here as price broke this important swing
+
+271
+00:13:03,839 --> 00:13:05,959
+low
+
+272
+00:13:06,890 --> 00:13:12,779
+[Music]
+
+273
+00:13:10,860 --> 00:13:16,139
+here I see a double top
+
+274
+00:13:12,779 --> 00:13:18,660
+and a breakout below the support line
+
+275
+00:13:16,139 --> 00:13:19,760
+which now will possibly act as a
+
+276
+00:13:18,660 --> 00:13:24,540
+resistance
+
+277
+00:13:19,760 --> 00:13:27,480
+price also broke below the 200 EMA so
+
+278
+00:13:24,540 --> 00:13:30,300
+further price fall is expected
+
+279
+00:13:27,480 --> 00:13:33,720
+this would be our Confluence Zone
+
+280
+00:13:30,300 --> 00:13:37,079
+if we apply a fib retracement
+
+281
+00:13:33,720 --> 00:13:39,959
+we also observe this aligns perfectly
+
+282
+00:13:37,079 --> 00:13:41,380
+now let's wait for price to retest the
+
+283
+00:13:39,959 --> 00:13:45,600
+breakout Zone
+
+284
+00:13:41,380 --> 00:13:48,660
+[Music]
+
+285
+00:13:45,600 --> 00:13:50,820
+okay that's unlucky we anticipated a
+
+286
+00:13:48,660 --> 00:13:53,399
+further price decrease but the
+
+287
+00:13:50,820 --> 00:13:56,880
+retracement to our Confluence Zone never
+
+288
+00:13:53,399 --> 00:13:59,160
+came we only had a minor retracement and
+
+289
+00:13:56,880 --> 00:14:01,860
+price went straight down
+
+290
+00:13:59,160 --> 00:14:04,200
+it's important to remain disciplined and
+
+291
+00:14:01,860 --> 00:14:05,160
+patient and don't get frustrated or
+
+292
+00:14:04,200 --> 00:14:07,860
+angry
+
+293
+00:14:05,160 --> 00:14:09,779
+you will see many similar setups and you
+
+294
+00:14:07,860 --> 00:14:12,779
+will wait for a retracement to your
+
+295
+00:14:09,779 --> 00:14:15,800
+Confluence Zone but sometimes you'll
+
+296
+00:14:12,779 --> 00:14:15,800
+miss the opportunity
+
+297
+00:14:16,220 --> 00:14:33,440
+[Music]
+
+298
+00:14:30,779 --> 00:14:33,440
+foreign
+
+299
+00:14:35,750 --> 00:14:38,960
+[Music]
+
+300
+00:14:44,310 --> 00:14:50,749
+[Music]
+
+301
+00:14:55,150 --> 00:15:04,159
+[Music]
+
+302
+00:15:08,720 --> 00:15:17,589
+[Music]
+
+303
+00:15:21,600 --> 00:15:29,720
+[Music]
+
+304
+00:15:35,120 --> 00:15:43,940
+thank you thank you
+
+305
+00:15:36,740 --> 00:15:43,940
+[Music]
+
+306
+00:15:46,680 --> 00:15:52,260
+if you found value and learned something
+
+307
+00:15:49,139 --> 00:15:54,360
+new leave us a like this way we'll know
+
+308
+00:15:52,260 --> 00:15:55,500
+if you'd like to see more videos like
+
+309
+00:15:54,360 --> 00:15:57,959
+this one
+
+310
+00:15:55,500 --> 00:16:01,820
+and check out our Academy program if you
+
+311
+00:15:57,959 --> 00:16:01,820
+want to further level up your Trading
+
+312
+00:16:01,980 --> 00:16:04,820
+until next time
+

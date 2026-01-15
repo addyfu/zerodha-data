@@ -1,0 +1,1369 @@
+1
+00:00:00,445 --> 00:00:05,565
+The Anchored VWAP is one of the best 
+tools for finding potential entry points,  
+
+2
+00:00:05,565 --> 00:00:09,645
+especially in the stock market.
+While the traditional VWAP starts  
+
+3
+00:00:09,645 --> 00:00:14,205
+from the beginning of the trading 
+day to its end, the Anchored VWAP  
+
+4
+00:00:14,205 --> 00:00:20,045
+allows you to choose your starting point.
+This flexibility is a game-changer, as it  
+
+5
+00:00:20,045 --> 00:00:27,005
+lets you align the indicator with a significant 
+market event or at psychological turning points.
+  
+
+6
+00:00:27,005 --> 00:00:32,765
+So we’ll anchor the VWAP at a high-volume 
+bar, and this way, you can track how the  
+
+7
+00:00:32,765 --> 00:00:39,485
+market behaves relative to this important level.
+High volume often signals strong interest in the  
+
+8
+00:00:39,485 --> 00:00:45,805
+market, and when combined with a price move, it 
+can indicate momentum in a particular direction. 
+
+9
+00:00:46,445 --> 00:00:52,205
+The core of this strategy revolves around 
+trading pullbacks to the VWAP lines,  
+
+10
+00:00:52,205 --> 00:00:59,085
+when price temporarily moves against the main 
+trend, before resuming its original direction. 
+  
+
+11
+00:00:59,085 --> 00:01:03,645
+Selecting the right anchoring 
+point is crucial for this strategy. 
+
+12
+00:01:03,645 --> 00:01:10,365
+Ideally, you want to choose a point that marks 
+a clear shift in market structure or psychology. 
+
+13
+00:01:10,365 --> 00:01:16,525
+This could also be a significant swing 
+high or low, or a major news event. 
+
+14
+00:01:16,525 --> 00:01:21,245
+But a bar with exceptionally 
+high volume is something special. 
+
+15
+00:01:21,245 --> 00:01:26,925
+The goal is to capture a point where the 
+market's behavior changed significantly.
+  
+
+16
+00:01:26,925 --> 00:01:32,125
+So in this chart, we anchored the 
+VWAP on the highest volume bar. 
+
+17
+00:01:32,125 --> 00:01:36,605
+This high volume shows increased 
+participation from traders,  
+
+18
+00:01:36,605 --> 00:01:41,885
+often signaling important price 
+levels or potential trend changes. 
+
+19
+00:01:41,885 --> 00:01:47,085
+When this high volume coincides with a 
+strong price move, it can be a powerful  
+
+20
+00:01:47,085 --> 00:01:52,125
+indicator of market direction.
+ 
+Once you've anchored your VWAP,  
+
+21
+00:01:52,125 --> 00:01:56,685
+the strategy involves watching 
+for price pullbacks to this line. 
+
+22
+00:01:56,685 --> 00:02:04,125
+These pullbacks represent potential entry points 
+for trades in the direction of the overall trend. 
+
+23
+00:02:04,125 --> 00:02:09,085
+For example, in an uptrend, you might 
+look for buying opportunities when the  
+
+24
+00:02:09,085 --> 00:02:15,165
+price pulls back to the Anchored line, or 
+even at the bands below the main line.
+  
+
+25
+00:02:15,165 --> 00:02:20,045
+This strategy can be applied to all 
+timeframes, making it versatile for  
+
+26
+00:02:20,045 --> 00:02:25,325
+both day traders, and swing traders.
+The principle remains the same:  
+
+27
+00:02:25,325 --> 00:02:32,445
+identify the trend, anchor the VWAP at a 
+high volume bar, and trade the pullbacks.
+  
+
+28
+00:02:32,445 --> 00:02:38,205
+To enhance the effectiveness of this 
+strategy, you can also use the VWAP bands. 
+
+29
+00:02:38,205 --> 00:02:42,925
+These bands are typically set at 
+one, or two standard deviations,  
+
+30
+00:02:42,925 --> 00:02:48,525
+above and below the VWAP line.
+They can help confirm the strength of the trend,  
+
+31
+00:02:48,525 --> 00:02:55,005
+and provide additional support and resistance 
+levels. When price stays consistently above the  
+
+32
+00:02:55,005 --> 00:03:02,205
+upper VWAP band, it suggests a strong uptrend.
+Price consistently below the lower band  
+
+33
+00:03:02,205 --> 00:03:07,405
+indicates a strong downtrend.
+ 
+These VWAP bands can also help in  
+
+34
+00:03:07,405 --> 00:03:12,685
+identifying potential reversal points.
+If the price has been trending strongly,  
+
+35
+00:03:12,685 --> 00:03:20,285
+and suddenly penetrates the opposite VWAP band, 
+it might signal a potential trend reversal.
+  
+
+36
+00:03:20,285 --> 00:03:25,645
+The Anchored VWAP strategy aligns well 
+with the concept of trend following. 
+
+37
+00:03:25,645 --> 00:03:30,365
+By anchoring the VWAP at this 
+significant point and trading pullbacks,  
+
+38
+00:03:30,365 --> 00:03:35,725
+you're essentially trying to catch waves 
+in the direction of the overall trend. 
+  
+
+39
+00:03:35,725 --> 00:03:40,525
+But, VWAP, even when anchored, 
+is still a lagging indicator. 
+
+40
+00:03:40,525 --> 00:03:45,965
+It's based on historical price and volume 
+data, which means it can't predict future  
+
+41
+00:03:45,965 --> 00:03:50,125
+price movements with certainty.
+That’s why, another factor to  
+
+42
+00:03:50,125 --> 00:03:55,965
+consider is the overall market context.
+This Anchored VWAP strategy tends to  
+
+43
+00:03:55,965 --> 00:04:01,005
+work best in trending markets.
+In sideways or choppy markets,  
+
+44
+00:04:01,005 --> 00:04:09,405
+the pullbacks to VWAP might not be as reliable. 
+ 
+Volume analysis must complement this strategy. 
+
+45
+00:04:09,405 --> 00:04:15,805
+Not only volume is important for selecting the 
+anchoring point, but it's also key for confirming  
+
+46
+00:04:15,805 --> 00:04:22,525
+the strength of pullbacks and potential breakouts.
+When a pullback to the Anchored VWAP occurs on  
+
+47
+00:04:22,525 --> 00:04:27,245
+low volume, it often implies a 
+weak retracement and a higher  
+
+48
+00:04:27,245 --> 00:04:33,725
+probability that the main trend will continue.
+But if the pullback happens on high volume,  
+
+49
+00:04:33,725 --> 00:04:39,965
+it might indicate a stronger move, that 
+could potentially break the VWAP level.
+  
+
+50
+00:04:39,965 --> 00:04:45,165
+To further refine your entries using this 
+strategy, pay attention to price action  
+
+51
+00:04:45,165 --> 00:04:49,085
+around the Anchored VWAP.
+Look for rejection candles,  
+
+52
+00:04:49,085 --> 00:04:55,165
+or other signs that the price is respecting 
+the VWAP as a support or resistance level. 
+
+53
+00:04:55,165 --> 00:04:59,725
+These could include candles with 
+long wicks or engulfing bars.
+  
+
+54
+00:05:00,365 --> 00:05:04,205
+You might also use traditional 
+support and resistance levels,  
+
+55
+00:05:04,205 --> 00:05:08,605
+or even trend lines in conjunction 
+with the Anchored VWAP. 
+
+56
+00:05:08,605 --> 00:05:12,525
+This approach can provide 
+additional confirmation.
+  
+
+57
+00:05:12,525 --> 00:05:17,645
+One approach to setting stop losses with this 
+strategy, is to place them beyond the recent swing  
+
+58
+00:05:17,645 --> 00:05:24,205
+high or low, on the other side of the VWAP.
+For profit targets, you might look at  
+
+59
+00:05:24,205 --> 00:05:29,085
+previous support or resistance 
+levels, or at the next bands. 
+  
+
+60
+00:05:29,085 --> 00:05:33,565
+The Anchored VWAP strategy can be 
+particularly effective when combined  
+
+61
+00:05:33,565 --> 00:05:38,765
+with a multiple timeframe analysis.
+For instance, you might use a higher  
+
+62
+00:05:38,765 --> 00:05:45,805
+timeframe to determine the overall trend, and 
+to select your anchoring point for the VWAP. 
+
+63
+00:05:45,805 --> 00:05:50,845
+Then, you could drop down to a lower 
+timeframe, to fine-tune your entries  
+
+64
+00:05:50,845 --> 00:05:56,205
+based on pullbacks to the VWAP.
+ 
+We’re looking at an hourly chart  
+
+65
+00:05:56,205 --> 00:06:02,685
+of a stock that has been in a strong uptrend.
+You notice this bar with exceptionally high  
+
+66
+00:06:02,685 --> 00:06:10,525
+volume, which coincides with a strong upward move.
+This seems like a good place to anchor your VWAP. 
+
+67
+00:06:10,525 --> 00:06:16,205
+Over the next few days, the stock continues 
+to rise, but then starts to pull back. 
+
+68
+00:06:16,205 --> 00:06:22,045
+As the price approaches the Anchored VWAP 
+line, you see this previous support level,  
+
+69
+00:06:22,045 --> 00:06:29,085
+suggesting buyers are stepping in at this level.
+This could be a good opportunity to enter a long  
+
+70
+00:06:29,085 --> 00:06:34,845
+position, with a stop loss placed 
+just below the recent swing low.
+  
+
+71
+00:06:34,845 --> 00:06:39,645
+Now let’s consider a 15-minute 
+chart of a stock in a downtrend. 
+
+72
+00:06:39,645 --> 00:06:46,125
+You anchor the VWAP at this high-volume bar, 
+which marked the start of the current leg down. 
+
+73
+00:06:46,125 --> 00:06:52,525
+The price has been consistently trading 
+below the VWAP, confirming the downtrend. 
+
+74
+00:06:52,525 --> 00:06:58,925
+You notice the price starting to climb back 
+towards the VWAP line, on decreasing volume. 
+
+75
+00:06:58,925 --> 00:07:02,605
+This could be a good opportunity 
+to enter a short trade, with a  
+
+76
+00:07:02,605 --> 00:07:09,965
+stop loss just above the recent swing high.
+ 
+Here, the market has been in a strong uptrend. 
+
+77
+00:07:09,965 --> 00:07:15,965
+You've anchored the VWAP at a significant 
+high-volume bar, near the recent top. 
+
+78
+00:07:15,965 --> 00:07:23,645
+The price has started to fall and has consistently 
+traded below the VWAP for several bars. 
+
+79
+00:07:23,645 --> 00:07:29,805
+You notice that each attempt to rally back 
+to the VWAP is met with selling pressure. 
+
+80
+00:07:29,805 --> 00:07:36,605
+This could be an early sign of a trend reversal.
+You might consider entering a short trade on one  
+
+81
+00:07:36,605 --> 00:07:43,085
+of these failed rallies to the VWAP, with 
+a stop loss above the recent swing high. 
+
+82
+00:07:43,085 --> 00:07:50,205
+In all these examples, the Anchored VWAP serves as 
+a dynamic support/resistance level and a reference  
+
+83
+00:07:50,205 --> 00:08:19,645
+point for market psychology. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CPR strategy 
+
+84
+00:09:13,805 --> 00:09:19,325
+The Central Pivot Range method taps 
+into market sentiment and price action. 
+
+85
+00:09:19,325 --> 00:09:26,365
+This particular area shows where the market might 
+turn, being like a map of support and resistance. 
+
+86
+00:09:26,365 --> 00:09:33,565
+This is the pivot. Above and below are two 
+more lines. And all of these form a range. 
+
+87
+00:09:33,565 --> 00:09:39,805
+This range tells us a lot about what might 
+happen today, based on yesterday’s activity.
+  
+
+88
+00:09:39,805 --> 00:09:44,365
+So when you look at a chart, 
+you'll see the CPR as three lines. 
+
+89
+00:09:44,365 --> 00:09:49,805
+They might be close together or far apart.
+This distance matters, because it  
+
+90
+00:09:49,805 --> 00:09:56,765
+tells us how the market might move.
+ 
+A wide CPR means the market might stay calm. 
+
+91
+00:09:56,765 --> 00:10:01,805
+Price often bounces between the 
+lines, and market is taking a rest. 
+
+92
+00:10:01,805 --> 00:10:08,765
+These calm days can lead to big moves later.
+ 
+A narrow CPR is different. It's like  
+
+93
+00:10:08,765 --> 00:10:14,365
+the market is getting ready to sprint.
+When the lines are close, price can break out. 
+
+94
+00:10:14,365 --> 00:10:20,845
+These days often see strong trends. The 
+market picks a direction and runs with it.
+  
+
+95
+00:10:20,845 --> 00:10:27,005
+Now, let's talk about how to read the CPR.
+It's all about comparing today to yesterday. 
+
+96
+00:10:27,005 --> 00:10:32,685
+If today's CPR is higher than yesterday's, 
+we're looking up. The market mood is  
+
+97
+00:10:32,685 --> 00:10:38,845
+positive. Buyers are in control. This 
+is when you want to think about buying. 
+
+98
+00:10:38,845 --> 00:10:45,965
+But if today's CPR is lower than yesterday's, 
+it's time to look down. Sellers have taken charge.  
+
+99
+00:10:45,965 --> 00:10:50,925
+The market mood has shifted. This 
+is when you might want to sell.
+  
+
+100
+00:10:50,925 --> 00:10:57,965
+Here's a key point. The CPR doesn't just tell 
+us about today. It hints at tomorrow too. 
+
+101
+00:10:57,965 --> 00:11:06,605
+A rising CPR suggests more upside ahead.
+A falling CPR warns of possible drops.
+  
+
+102
+00:11:06,605 --> 00:11:12,285
+Let's see how this plays out. Say you 
+see the CPR moving up day after day. 
+
+103
+00:11:12,285 --> 00:11:17,805
+This is a strong sign. The market is in 
+an uptrend. Each new day confirms the  
+
+104
+00:11:17,805 --> 00:11:22,365
+move. This is when you want 
+to look for chances to buy. 
+
+105
+00:11:22,365 --> 00:11:27,885
+If the CPR keeps stepping down, we're in 
+a downtrend. The market is showing its  
+
+106
+00:11:27,885 --> 00:11:34,205
+hand. It wants to go lower. This is when 
+you search for selling opportunities.
+  
+
+107
+00:11:34,205 --> 00:11:39,565
+But the CPR isn't just about 
+direction. It's also about strength. 
+
+108
+00:11:39,565 --> 00:11:45,245
+A wide CPR is hard to break. 
+Price often respects these levels. 
+
+109
+00:11:45,245 --> 00:11:52,205
+They act as strong support or resistance. When 
+you see a wide CPR, expect the market to pause. 
+
+110
+00:11:52,205 --> 00:11:59,085
+It might bounce around inside the range.
+ 
+A narrow CPR is weaker. Price can push  
+
+111
+00:11:59,085 --> 00:12:06,205
+through it more easily. But don't ignore it.
+A narrow CPR can lead to explosive moves. 
+
+112
+00:12:06,205 --> 00:12:10,205
+The market often builds 
+energy here before a big run.
+  
+
+113
+00:12:10,845 --> 00:12:15,965
+Now, let's talk strategy. The CPR 
+gives you a framework for trading. 
+
+114
+00:12:15,965 --> 00:12:21,245
+It tells you where to look and what to expect.
+Here's how you can use it. 
+
+115
+00:12:21,245 --> 00:12:28,925
+First, check the CPR at the start of each day. 
+Compare it to yesterday. Is it higher or lower? 
+
+116
+00:12:28,925 --> 00:12:36,205
+This sets your bias. Higher means look 
+to buy. Lower means look to sell.
+  
+
+117
+00:12:36,205 --> 00:12:41,885
+Next, watch how price interacts with 
+the CPR. Does it bounce off the lines? 
+
+118
+00:12:41,885 --> 00:12:46,765
+Does it push through? This tells 
+you about the day's strength. Strong  
+
+119
+00:12:46,765 --> 00:12:53,245
+bounces mean the CPR is working well. 
+Clean breaks suggest a trending day.
+  
+
+120
+00:12:53,245 --> 00:13:01,245
+Here's a key tactic. In an uptrend, buy the 
+pullbacks to the CPR. The CPR acts as support. 
+
+121
+00:13:01,245 --> 00:13:07,805
+Price often bounces here. It's like the market 
+is taking a breath before the next push up.
+  
+
+122
+00:13:07,805 --> 00:13:16,045
+In a downtrend, do the opposite. Sell when price 
+rallies to the CPR. The CPR becomes resistance. 
+
+123
+00:13:16,045 --> 00:13:23,245
+It's where the market often turns back down.
+ 
+Now, don't just buy or sell blindly at the CPR.  
+
+124
+00:13:23,245 --> 00:13:32,925
+Wait for price to show its hand.
+. The more signs you see,  
+
+125
+00:13:32,925 --> 00:13:37,085
+the stronger your trade.
+ 
+Let's talk about timing.  
+
+126
+00:13:37,085 --> 00:13:44,045
+The CPR works best at certain times.
+It's strongest at the market open. This  
+
+127
+00:13:44,045 --> 00:13:50,125
+is when big players make their moves.
+They often use the CPR as a reference. 
+
+128
+00:13:50,125 --> 00:13:57,645
+As the day goes on, the CPR can lose some 
+power. By afternoon, it might not hold as well. 
+
+129
+00:13:57,645 --> 00:14:03,885
+Keep this in mind. Your morning trades might 
+need different rules than your afternoon ones.
+  
+
+130
+00:14:04,525 --> 00:14:11,485
+It's all about market psychology. The 
+CPR shows us where value was yesterday. 
+
+131
+00:14:11,485 --> 00:14:16,845
+Traders remember these levels. And they 
+often make decisions based on them. 
+
+132
+00:14:16,845 --> 00:14:24,045
+Think about it. If price is above the CPR, traders 
+feel bullish. They see the market as strong. 
+
+133
+00:14:24,045 --> 00:14:28,765
+This can become a self-fulfilling 
+prophecy. Buyers step in at support. 
+
+134
+00:14:29,885 --> 00:14:37,405
+Sellers hesitate to go against the trend.
+ 
+When price is below the CPR, the opposite happens.  
+
+135
+00:14:37,405 --> 00:14:44,525
+Traders turn bearish. They look to sell rallies.
+The market develops a downward bias. Again,  
+
+136
+00:14:44,525 --> 00:14:49,485
+this can feed on itself.
+This is why the CPR is so  
+
+137
+00:14:49,485 --> 00:14:55,965
+powerful. It taps into mass psychology.
+It shows us what the crowd is thinking.  
+
+138
+00:14:55,965 --> 00:15:04,925
+And in trading, understanding the crowd is key.
+ 
+Consider using the CPR with other indicators.  
+
+139
+00:15:04,925 --> 00:15:13,085
+Trend lines work well. So do moving averages.
+The CPR plus a trend line can be a potent combo.  
+
+140
+00:15:13,085 --> 00:15:19,805
+It gives you two reasons to take a trade.
+ 
+ 
+Another pro move is to use multiple timeframes.  
+
+141
+00:15:19,805 --> 00:15:27,485
+The daily CPR is great, but why stop there?
+Look at weekly CPRs for bigger moves. Or  
+
+142
+00:15:27,485 --> 00:15:35,565
+zoom in to hourly CPRs for day trading.
+Each timeframe adds a layer of insight.
+  
+
+143
+00:15:35,565 --> 00:15:43,085
+Now, let's talk about market conditions. The 
+CPR works differently in different markets. 
+
+144
+00:15:43,085 --> 00:15:47,725
+In trending markets, it's a 
+great tool for riding the waves. 
+
+145
+00:15:47,725 --> 00:15:54,925
+So buy dips to the CPR in uptrends.
+And sell rallies to the CPR in downtrends.
+  
+
+146
+00:15:54,925 --> 00:16:02,125
+In ranging markets, the CPR becomes even more 
+important. It often defines the range limits. 
+
+147
+00:16:02,125 --> 00:16:06,285
+You can buy at the bottom of 
+the CPR and sell at the top. 
+
+148
+00:16:06,285 --> 00:16:11,325
+Or look for breakouts when 
+price finally pushes through.
+ 
+  
+
+149
+00:16:11,325 --> 00:16:19,245
+Here's a subtle point many traders miss. The 
+CPR can show hidden strength or weakness. 
+
+150
+00:16:19,245 --> 00:16:26,125
+Say price is above the CPR, but struggling to 
+go higher. This might be a sign of weakness. 
+
+151
+00:16:26,125 --> 00:16:34,125
+The opposite is true too. Price below the CPR 
+but holding steady might signal hidden strength.
+  
+
+152
+00:16:34,125 --> 00:16:40,845
+As you use the CPR, you'll develop a feel 
+for it. You'll start to see patterns. 
+
+153
+00:16:40,845 --> 00:16:46,205
+Some days, the CPR is magnetic. 
+Price keeps coming back to it. 
+
+154
+00:16:46,205 --> 00:16:51,805
+Other days, it's more of a springboard. 
+Price touches it and moves away. 
+
+155
+00:16:51,805 --> 00:16:58,205
+But in the end, the CPR is about understanding 
+market structure. It shows you where the  
+
+156
+00:16:58,205 --> 00:17:02,845
+market thinks value is. 
+ 
+Also, you might want to mark  
+
+157
+00:17:02,845 --> 00:17:07,405
+the Fresh Central Pivot Ranges.
+This happens when price doesn't  
+
+158
+00:17:07,405 --> 00:17:12,205
+touch its CPR on a given day.
+This untouched CPR becomes a  
+
+159
+00:17:12,205 --> 00:17:18,685
+Fresh CPR for the next few days. This is 
+similar to supply and demand trading.
+  
+
+160
+00:17:18,685 --> 00:17:23,805
+Think of the Fresh CPR as a 
+magnet. It pulls price towards it. 
+
+161
+00:17:23,805 --> 00:17:27,885
+When price doesn't touch the 
+CPR, it creates an imbalance,  
+
+162
+00:17:27,885 --> 00:17:34,525
+like a gap. And markets don't like gaps.
+They try to fill them. This is why Fresh  
+
+163
+00:17:34,525 --> 00:17:39,565
+CPRs are so important. They show 
+us where price might go next.
+  
+
+164
+00:17:39,565 --> 00:17:43,245
+On a normal day, price 
+moves in and out of the CPR. 
+
+165
+00:17:44,845 --> 00:17:50,765
+But sometimes, price makes a big 
+move. It might go way up or way down. 
+
+166
+00:17:50,765 --> 00:17:57,725
+When this happens, it can miss the CPR 
+entirely. That's when we get a Fresh CPR.
+  
+
+167
+00:17:57,725 --> 00:18:02,925
+Now, here's the key. This Fresh 
+CPR stays important for the next  
+
+168
+00:18:02,925 --> 00:18:08,925
+few days. It's not just a one-day thing.
+It keeps its power. That’s why you must  
+
+169
+00:18:08,925 --> 00:18:14,445
+watch it closely, as it could be a 
+turning point in the next few days.
+  
+
+170
+00:18:14,445 --> 00:18:19,085
+Say the market drops hard one day.
+The next day, price stays  
+
+171
+00:18:19,085 --> 00:18:25,965
+below the CPR. It never touches it.
+That CPR is now fresh. It's a target for the  
+
+172
+00:18:25,965 --> 00:18:34,045
+market. Prices often try to climb back to it.
+ 
+Sometimes, price might get close to the CPR.  
+
+173
+00:18:34,045 --> 00:18:38,765
+It might even have a few wicks that 
+touch it. But if no full candlesticks  
+
+174
+00:18:38,765 --> 00:18:46,045
+form inside the CPR, it's still fresh. 
+ 
+And why does this matter? Well, because Fresh  
+
+175
+00:18:46,045 --> 00:18:53,085
+CPRs often act as strong support or resistance.
+If price is below a Fresh CPR,  
+
+176
+00:18:53,085 --> 00:18:59,405
+that CPR might stop price from going up.
+If price is above, the CPR might stop it from  
+
+177
+00:18:59,405 --> 00:19:07,725
+going down. It's like a barrier in the market.
+ 
+You can use Fresh CPRs in different ways. 
+
+178
+00:19:07,725 --> 00:19:14,685
+Some traders wait for price to reach the Fresh 
+CPR. Then they look for signs of a bounce or a  
+
+179
+00:19:14,685 --> 00:19:21,885
+reversal. Others use it as a target. If price 
+is far from the Fresh CPR, they might expect  
+
+180
+00:19:21,885 --> 00:19:51,645
+it to move towards it.
+ 
+Consecutive candles VSA 
+
+181
+00:20:44,765 --> 00:20:51,245
+The next strategy is based on the concept of 
+consecutive up or down days in the market. 
+
+182
+00:20:51,245 --> 00:20:57,005
+When a market closes up or down for several 
+days in a row, it often creates a specific  
+
+183
+00:20:57,005 --> 00:21:02,285
+psychological environment among traders.
+There's a natural tendency for people to  
+
+184
+00:21:02,285 --> 00:21:09,245
+believe that a streak can't continue indefinitely. 
+What goes up must come down, and vice versa. 
+
+185
+00:21:09,245 --> 00:21:16,605
+That’s why many traders use consecutive up or 
+down days as a basis for their trading decisions.
+  
+
+186
+00:21:16,605 --> 00:21:21,325
+Now, blindly trading against these 
+consecutive moves can be risky. 
+
+187
+00:21:21,325 --> 00:21:26,925
+It often means going against the prevailing 
+trend and momentum, which can lead to  
+
+188
+00:21:26,925 --> 00:21:32,525
+big losses if not done carefully.
+That's where this strategy comes in. 
+
+189
+00:21:32,525 --> 00:21:39,565
+Instead of simply betting against any streak of 
+consecutive up or down days, we focus on those  
+
+190
+00:21:39,565 --> 00:21:46,125
+that occur within a specific market context.
+ 
+The key to this strategy is understanding  
+
+191
+00:21:46,125 --> 00:21:51,565
+and respecting market structure.
+As you probably know, market structure refers  
+
+192
+00:21:51,565 --> 00:21:58,365
+to the overall trend of the market, typically 
+defined by a series of swing highs and lows. 
+
+193
+00:21:58,365 --> 00:22:04,525
+In an uptrend, you'll see higher highs 
+and higher lows, while a downtrend is  
+
+194
+00:22:04,525 --> 00:22:10,605
+defined by lower highs and lower lows.
+By considering market structure, you can  
+
+195
+00:22:10,605 --> 00:22:17,885
+filter out potentially dangerous trades, and focus 
+on those with a higher probability of success.
+  
+
+196
+00:22:17,885 --> 00:22:23,165
+For a long entry, we're looking for 
+four or more consecutive down days. 
+
+197
+00:22:23,165 --> 00:22:28,445
+These are defined as days where the 
+closing price is below the opening price. 
+
+198
+00:22:28,445 --> 00:22:34,605
+However, we don't just enter a trade 
+because we see four red candles in a row. 
+
+199
+00:22:34,605 --> 00:22:39,885
+The key factor is the market structure.
+We only consider this setup valid,  
+
+200
+00:22:39,885 --> 00:22:45,565
+if the price hasn't breached the last 
+swing low in the overall market structure.
+  
+
+201
+00:22:45,565 --> 00:22:51,725
+This approach essentially turns our strategy 
+into a trend continuation pullback play. 
+
+202
+00:22:51,725 --> 00:22:58,125
+We're looking for situations where the market 
+has been in an uptrend, experiences a short-term  
+
+203
+00:22:58,125 --> 00:23:04,525
+pullback (our consecutive down days), but 
+doesn't break the structure of the uptrend. 
+
+204
+00:23:04,525 --> 00:23:08,685
+This tells us that while there's been 
+some short-term selling pressure,  
+
+205
+00:23:08,685 --> 00:23:14,125
+the overall bullish trend remains intact.
+ 
+The entry trigger comes from the next  
+
+206
+00:23:14,125 --> 00:23:21,085
+bullish bar after our streak of down days.
+We're looking for a bar that shows momentum,  
+
+207
+00:23:21,085 --> 00:23:25,965
+a relatively large candle body 
+indicating strong buying pressure. 
+
+208
+00:23:25,965 --> 00:23:31,485
+Low spread candles or those with wicks 
+on both ends are generally avoided,  
+
+209
+00:23:31,485 --> 00:23:38,765
+as they don't show clear directional momentum.
+ 
+Volume plays a key role in confirming this setup. 
+
+210
+00:23:38,765 --> 00:23:39,725
+We want to see an  
+
+211
+00:23:39,725 --> 00:23:45,005
+increase in volume on our entry bar.
+In fact, the ideal scenario is to see  
+
+212
+00:23:45,005 --> 00:23:50,285
+the highest volume in the past bars. 
+ 
+This high volume tells us that there's  
+
+213
+00:23:50,285 --> 00:23:55,965
+significant interest in the market at this 
+level, and if it's accompanied by a price rise,  
+
+214
+00:23:55,965 --> 00:24:00,765
+it implies that the buying pressure 
+is overwhelming the selling pressure. 
+
+215
+00:24:00,765 --> 00:24:06,925
+In Wyckoff analysis terms, this would be 
+considered a "large effort, large result" day,  
+
+216
+00:24:06,925 --> 00:24:10,925
+indicating strong demand.
+ 
+For short trades,  
+
+217
+00:24:10,925 --> 00:24:17,005
+the process is essentially reversed.
+We look for four or more consecutive up days,  
+
+218
+00:24:17,005 --> 00:24:23,325
+where each day closes above its open.
+Again, we consider the market structure. 
+
+219
+00:24:23,325 --> 00:24:27,565
+We only take this setup if the price 
+hasn't breached the last swing high,  
+
+220
+00:24:27,565 --> 00:24:31,805
+in a downtrend structure.
+Our entry trigger is the  
+
+221
+00:24:31,805 --> 00:24:37,405
+next bearish bar, and we want to see it 
+accompanied by an increase in volume. 
+
+222
+00:24:37,405 --> 00:24:42,845
+The stop loss goes just above the 
+high of the bearish setup bar. 
+ 
+
+223
+00:24:42,845 --> 00:24:48,285
+One of the strengths of this strategy is 
+its versatility across different timeframes. 
+
+224
+00:24:48,285 --> 00:24:54,525
+While I like to apply it to daily charts, it 
+can also be effective on shorter timeframes. 
+
+225
+00:24:54,525 --> 00:25:01,005
+However, I would recommend you to stick to 
+higher timeframes, (4-hour and above).
+ 
+  
+
+226
+00:25:01,005 --> 00:25:05,645
+Another important consideration 
+is the overall market environment. 
+
+227
+00:25:05,645 --> 00:25:09,645
+This strategy tends to work 
+best in trending markets. 
+
+228
+00:25:09,645 --> 00:25:15,645
+In choppy markets, the consecutive up or 
+down pattern may occur more frequently,  
+
+229
+00:25:15,645 --> 00:25:20,045
+but be less meaningful. 
+ 
+Now, here’s an important tip. 
+
+230
+00:25:20,045 --> 00:25:26,525
+When it comes to analyzing volume, understand 
+that not all volume is created equal. 
+
+231
+00:25:26,525 --> 00:25:30,765
+While we're looking for an increase 
+in volume on our setup bar,  
+
+232
+00:25:30,765 --> 00:25:36,765
+the context of this volume increase matters.
+For example, if you see a large volume spike on  
+
+233
+00:25:36,765 --> 00:25:43,645
+a day with a very small price range, it might 
+indicate a battle between buyers and sellers,  
+
+234
+00:25:43,645 --> 00:25:49,085
+rather than a clear directional move.
+This type of volume is less ideal,  
+
+235
+00:25:49,085 --> 00:25:54,765
+than a volume increase followed by a 
+decisive price move in our direction.
+  
+
+236
+00:25:54,765 --> 00:26:01,965
+Another nuance to consider is the relative size 
+of the consecutive price bars. In an ideal setup,  
+
+237
+00:26:01,965 --> 00:26:08,205
+you'd want to see the magnitude of the moves 
+diminishing as the consecutive streak continues. 
+
+238
+00:26:08,205 --> 00:26:14,125
+For example, in a downward move, the first 
+few red candles might be quite large,  
+
+239
+00:26:14,125 --> 00:26:19,405
+but the latter ones should be smaller.
+This can indicate that selling pressure is  
+
+240
+00:26:19,405 --> 00:26:26,045
+decreasing, setting up for a potential reversal.
+ 
+As you gain experience with this strategy,  
+
+241
+00:26:26,045 --> 00:26:30,125
+you might find certain patterns.
+For instance, you might notice  
+
+242
+00:26:30,125 --> 00:26:37,405
+that setups that occur near recent support or 
+resistance levels tend to be more reliable.
+  
+
+243
+00:26:37,405 --> 00:26:41,245
+Moving averages can be useful 
+in confirming the overall trend,  
+
+244
+00:26:41,245 --> 00:26:46,205
+and identifying potential 
+support and resistance levels. 
+
+245
+00:26:46,205 --> 00:26:53,085
+A common approach is to use a combination 
+of short-term and long-term moving averages. 
+
+246
+00:26:53,085 --> 00:26:59,165
+For instance, you might use a 50-period 
+and a 200-period moving average. 
+
+247
+00:26:59,165 --> 00:27:05,645
+If the 50-period moving average is above 
+the 200-period one, it confirms an uptrend,  
+
+248
+00:27:05,645 --> 00:27:10,445
+making long setups more attractive.
+Consecutive candles which end up  
+
+249
+00:27:10,445 --> 00:27:16,445
+as a pullback to the moving average 
+dynamic zone are a great confirmation.
+  
+
+250
+00:27:16,445 --> 00:27:22,285
+First, you might see a strong trend. 
+The price is moving up or down steadily. 
+
+251
+00:27:22,285 --> 00:27:27,405
+Then, you start to see candles moving 
+back toward the moving averages. 
+
+252
+00:27:27,405 --> 00:27:33,565
+These are your consecutive candles. They're 
+moving against the main trend, but not too far. 
+
+253
+00:27:33,565 --> 00:27:40,365
+As these candles get close to the moving 
+average, they create what we call a dynamic zone. 
+
+254
+00:27:40,365 --> 00:27:46,525
+This zone is where the price might bounce 
+off the average, and continue the main trend. 
+
+255
+00:27:46,525 --> 00:27:50,845
+It's dynamic because it moves 
+as the moving averages move.
+  
+
+256
+00:27:50,845 --> 00:27:56,205
+When you see several candles in a row 
+touch this zone without going through it,  
+
+257
+00:27:56,205 --> 00:27:59,245
+that's a strong sign.
+It shows the trend is  
+
+258
+00:27:59,245 --> 00:28:05,085
+still strong. The price is respecting the 
+average as a support or resistance level. 
+
+259
+00:28:05,085 --> 00:28:14,765
+This can be a great time to enter a 
+trade in the direction of the main trend.
+

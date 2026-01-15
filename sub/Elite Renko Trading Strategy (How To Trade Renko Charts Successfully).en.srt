@@ -1,0 +1,640 @@
+1
+00:00:01,550 --> 00:00:05,470
+Renko charts are one of the most valuable
+and underrated instruments, which offer a
+
+2
+00:00:05,470 --> 00:00:07,930
+great value to patient traders.
+
+3
+00:00:07,930 --> 00:00:13,510
+Although Renko trading is not as popular and
+not as well-known as normal candlestick or
+
+4
+00:00:13,510 --> 00:00:18,609
+bar charts, you’ll be surprised about how
+profitable it can be if used correctly.
+
+5
+00:00:18,609 --> 00:00:24,119
+In this video, i’ll explain you the concept
+of Renko trading, I’ll show you the advantages
+
+6
+00:00:24,119 --> 00:00:29,570
+of using this type of chart and you’ll also
+discover a simple Renko strategy to trade
+
+7
+00:00:29,570 --> 00:00:31,499
+the stock market.
+
+8
+00:00:31,499 --> 00:00:35,989
+Before we continue, if you’re new to our
+channel, make sure you subscribe, hit the
+
+9
+00:00:35,989 --> 00:00:39,899
+notification bell and leave a like to show
+your support.
+
+10
+00:00:39,899 --> 00:00:42,460
+So, what is a Renko chart.
+
+11
+00:00:42,460 --> 00:00:47,039
+A Renko chart is a graphical display that
+only involves the price movement, because
+
+12
+00:00:47,039 --> 00:00:49,649
+the time and volume are not included.
+
+13
+00:00:49,649 --> 00:00:54,539
+The construction of a Renko chart is simple:
+a brick (or better said, the “body” of
+
+14
+00:00:54,539 --> 00:01:00,219
+a Renko bar) is formed in the next column
+once the price exceeds the top or bottom of
+
+15
+00:01:00,219 --> 00:01:06,760
+the previous brick by a predefined amount,
+in this case i use a 100 brick, but you could
+
+16
+00:01:06,760 --> 00:01:11,960
+use any brick size you want, 10, 20, it all
+depends on your trading style.
+
+17
+00:01:11,960 --> 00:01:15,920
+The difference between common charts and Renko
+is noticeable.
+
+18
+00:01:15,920 --> 00:01:20,970
+The conventional charts like candlestick charts
+or bar charts are plotting a new candlestick,
+
+19
+00:01:20,970 --> 00:01:22,830
+bar based on time.
+
+20
+00:01:22,830 --> 00:01:28,880
+The uniqueness of Renko charts is that this
+technique plots a brick only when the price
+
+21
+00:01:28,880 --> 00:01:36,200
+moves a certain amount of pips /ticks in one
+direction or the other.
+
+22
+00:01:36,200 --> 00:01:40,920
+Now you might wonder, how is this better than
+a classic candlestick chart.
+
+23
+00:01:40,920 --> 00:01:43,650
+Here are the main advantages of Renko trading.
+
+24
+00:01:43,650 --> 00:01:49,670
+First, Renko charts are very effective for
+traders to identify key support/resistance
+
+25
+00:01:49,670 --> 00:01:53,080
+levels
+In this chart, we notice how simple it is
+
+26
+00:01:53,080 --> 00:01:55,790
+to plot the support and resistance levels.
+
+27
+00:01:55,790 --> 00:02:01,960
+And most interestingly, notice how price reacts
+to these support/resistance levels from the
+
+28
+00:02:01,960 --> 00:02:03,770
+left side of the chart.
+
+29
+00:02:03,770 --> 00:02:10,090
+By using Renko chart for support and resistance,
+we can see price action being more responsive.
+
+30
+00:02:10,090 --> 00:02:17,000
+Second, Renko charts offer a simpler look
+of the market and indicate trends in a more
+
+31
+00:02:17,000 --> 00:02:21,340
+clean way
+Here we have the evolution of the price during
+
+32
+00:02:21,340 --> 00:02:23,480
+the past 7 months.
+
+33
+00:02:23,480 --> 00:02:27,010
+Look how OBVious is for you to identify the
+trends.
+
+34
+00:02:27,010 --> 00:02:33,000
+Since December to January, we have 2 months
+of downward price action, and after that we
+
+35
+00:02:33,000 --> 00:02:40,040
+have a clear uptrend, with the price making
+higher highs and higher lows.
+
+36
+00:02:40,040 --> 00:02:45,050
+Another important advantage is the fact that
+it removes the “market noise” seen on
+
+37
+00:02:45,050 --> 00:02:51,270
+typical candlestick charts or bar charts,
+including wicks, false breakouts and price
+
+38
+00:02:51,270 --> 00:02:53,220
+volatility.
+
+39
+00:02:53,220 --> 00:02:57,790
+In addition, Renko charts are suitable for
+scalping and short-term trading.
+
+40
+00:02:57,790 --> 00:03:03,650
+So, if you want to scalp the market, I would
+say it’s better to use a Renko chart than
+
+41
+00:03:03,650 --> 00:03:06,400
+trading on the 1-min timeframe.
+
+42
+00:03:06,400 --> 00:03:14,319
+Also, it allow traders to catch larger moves
+by filtering out minor price fluctuations
+
+43
+00:03:14,319 --> 00:03:19,870
+One of the most important advantages of Renko
+charts is a better determination of stop losses
+
+44
+00:03:19,870 --> 00:03:21,660
+and take profit targets.
+
+45
+00:03:21,660 --> 00:03:27,760
+With Renko charts, is very easy to place your
+orders, based on the previous bricks.
+
+46
+00:03:27,760 --> 00:03:32,790
+You just have to time your entry and make
+sure your orders are placed accordingly.
+
+47
+00:03:32,790 --> 00:03:39,990
+Also, what I’ve noticed over the years,
+is the fact that Renko trading minimize overtrading
+
+48
+00:03:39,990 --> 00:03:45,740
+and increase patience, which will make a better
+trader overall
+
+49
+00:03:45,740 --> 00:03:50,760
+Now enough with the theory and let’s dive
+right into a simple Renko strategy.
+
+50
+00:03:50,760 --> 00:03:52,580
+For this strategy, I use a 100 Renko brick.
+
+51
+00:03:52,580 --> 00:03:54,190
+How is a 100 Renko brick formed?
+
+52
+00:03:54,190 --> 00:04:01,040
+A new green Renko bar forms only after the
+current price exceeds the top of the previous
+
+53
+00:04:01,040 --> 00:04:04,290
+Renko bar by 100 points.
+
+54
+00:04:04,290 --> 00:04:09,800
+The closing price of a green Renko bar is
+also the high for the green Renko bar.
+
+55
+00:04:09,800 --> 00:04:16,639
+A new red Renko bar forms only after the current
+price surpasses the bottom of the previous
+
+56
+00:04:16,639 --> 00:04:23,419
+Renko bar by 100 pips
+The closing price of a red Renko bar is also
+
+57
+00:04:23,419 --> 00:04:26,870
+the low for the red Renko bar.
+
+58
+00:04:26,870 --> 00:04:33,840
+Besides the 100 brick I also prefer to add
+a 10 moving average in order to determine
+
+59
+00:04:33,840 --> 00:04:36,020
+the trend and the OBV.
+
+60
+00:04:36,020 --> 00:04:41,030
+So Renko bars are based only on price, but
+I don’t want to neglect the volume.
+
+61
+00:04:41,030 --> 00:04:46,529
+The on balance volume (OBV), is a momentum
+indicator that relates volume to price change
+
+62
+00:04:46,529 --> 00:04:51,710
+and shows if market’s volume is flowing
+into or out of a stock.
+
+63
+00:04:51,710 --> 00:04:57,199
+In other words, the OBV offers information
+regarding the strength of price movements.
+
+64
+00:04:57,199 --> 00:05:03,949
+OBV increases or decreases during each day
+in correlation on whether the price closes
+
+65
+00:05:03,949 --> 00:05:07,900
+higher or lower compared to the close during
+the previous period.
+
+66
+00:05:07,900 --> 00:05:14,319
+The main assumption is that on balance volume
+movements precede price changes.
+
+67
+00:05:14,319 --> 00:05:19,939
+As the volume is the main fuel behind the
+market, OBV is designed to anticipate when
+
+68
+00:05:19,939 --> 00:05:22,580
+major moves in the markets would occur.
+
+69
+00:05:22,580 --> 00:05:29,319
+For this reason, the OBV will play an important
+part in the strategy.
+
+70
+00:05:29,319 --> 00:05:35,710
+Here are the main rules of this strategy:
+We use the 100 Renko brick to identify key
+
+71
+00:05:35,710 --> 00:05:43,819
+support/resistance levels, to determine the
+market trends and to place our stop-loss and
+
+72
+00:05:43,819 --> 00:05:49,219
+take-profit targets
+We use 10 simple moving average to determine
+
+73
+00:05:49,219 --> 00:05:55,029
+the short-term trend
+We confirm our bias with the on balance volume
+
+74
+00:05:55,029 --> 00:06:04,430
+(OBV) to determine if market’s volume is
+flowing into or out of the traded instrument
+
+75
+00:06:04,430 --> 00:06:07,469
+Here is the setup for a long signal:
+1.
+
+76
+00:06:07,469 --> 00:06:12,900
+A new green Renko bar forms above the SMA10
+2.
+
+77
+00:06:12,900 --> 00:06:17,569
+We only take trades in the direction of the
+SMA.
+
+78
+00:06:17,569 --> 00:06:22,729
+When the Renko bars are traded above SMA10,
+we look for long entries
+
+79
+00:06:22,729 --> 00:06:24,129
+3.
+
+80
+00:06:24,129 --> 00:06:27,710
+We filter the signal with the on balance volume.
+
+81
+00:06:27,710 --> 00:06:35,051
+We look for a new high in the OBV, which indicates
+that buyers are stronger than sellers, and
+
+82
+00:06:35,051 --> 00:06:37,710
+the price is likely to increase.
+
+83
+00:06:37,710 --> 00:06:43,930
+When OBV increases in correlation with the
+price, the upward trend is confirmed.
+
+84
+00:06:43,930 --> 00:06:44,930
+4.
+
+85
+00:06:44,930 --> 00:06:49,569
+Stop loss will be placed 2 Renko bars below
+the entry point.
+
+86
+00:06:49,569 --> 00:06:50,569
+5.
+
+87
+00:06:50,569 --> 00:06:56,629
+We can exit the position manually if the price
+falls below the simple moving average.
+
+88
+00:06:56,629 --> 00:06:57,629
+6.
+
+89
+00:06:57,629 --> 00:07:03,969
+Minimum take profit should be 3 Renko bars
+into the future, to cover the spread and commissions.
+
+90
+00:07:03,969 --> 00:07:10,430
+When the price reach this target, we can move
+our stop loss to break even and let the trade
+
+91
+00:07:10,430 --> 00:07:17,710
+ride, or we can use a trailing stop to capture
+a larger part of the move.
+
+92
+00:07:17,710 --> 00:07:28,030
+In this example, we have 4 valid buy entries,
+all of them bringing decent returns.
+
+93
+00:07:28,030 --> 00:07:33,309
+And here we have another chart during which
+we had 5 signals.
+
+94
+00:07:33,309 --> 00:07:38,509
+Remember to always look at the OBV to confirm
+the entry.
+
+95
+00:07:38,509 --> 00:07:43,180
+Also, here’s another tip to reduce your
+losses.
+
+96
+00:07:43,180 --> 00:07:47,330
+Take a closer look at the slope of the 10
+SMA.
+
+97
+00:07:47,330 --> 00:07:56,499
+For better quality signals, try to enter the
+market when the ma is pointing upward.
+
+98
+00:07:56,499 --> 00:08:04,069
+In our case, the first 2 signals appeared
+when the 10 SMA was flat, so a conservative
+
+99
+00:08:04,069 --> 00:08:10,649
+trader would have ignored these entries and
+focused on the last ones, when the slope was
+
+100
+00:08:10,649 --> 00:08:14,729
+clearly pointing upward.
+
+101
+00:08:14,729 --> 00:08:17,039
+And here is the setup for a short signal:
+1.
+
+102
+00:08:17,039 --> 00:08:21,889
+A new red Renko bar forms below the SMA10
+2.
+
+103
+00:08:21,889 --> 00:08:24,960
+We only take trades in the direction of the
+SMA.
+
+104
+00:08:24,960 --> 00:08:30,899
+When the Renko bars are traded below SMA10,
+we look for short entries only
+
+105
+00:08:30,899 --> 00:08:31,899
+3.
+
+106
+00:08:31,899 --> 00:08:34,909
+We filter the signal with the on balance volume.
+
+107
+00:08:34,909 --> 00:08:41,130
+We look for a new low in the OBV, which indicates
+that sellers are stronger than buyers, and
+
+108
+00:08:41,130 --> 00:08:43,519
+the price is likely to decrease.
+
+109
+00:08:43,519 --> 00:08:48,600
+When OBV decreases in correlation with the
+price, the downward trend is confirmed.
+
+110
+00:08:48,600 --> 00:08:49,600
+4.
+
+111
+00:08:49,600 --> 00:08:53,440
+Stop loss will be placed 2 Renko bars above
+the entry point.
+
+112
+00:08:53,440 --> 00:08:54,440
+5.
+
+113
+00:08:54,440 --> 00:08:58,670
+We can exit the position manually if the price
+increases above the simple moving average.
+
+114
+00:08:58,670 --> 00:08:59,670
+6.
+
+115
+00:08:59,670 --> 00:09:04,220
+Minimum take profit should be 3 Renko bars
+into the future.
+
+116
+00:09:04,220 --> 00:09:09,560
+As in the case of a buy signal, when the price
+reaches this target, we can move our stop
+
+117
+00:09:09,560 --> 00:09:14,240
+loss to break even and let the trade ride,
+or we can use a trailing stop to capture a
+
+118
+00:09:14,240 --> 00:09:17,900
+larger part of the move.
+
+119
+00:09:17,900 --> 00:09:21,589
+On our example, we had 4 signals.
+
+120
+00:09:21,589 --> 00:09:27,290
+First one was a losing trade, but we could
+easily avoided if we looked at the slope of
+
+121
+00:09:27,290 --> 00:09:29,690
+the SMA, which was flat.
+
+122
+00:09:29,690 --> 00:09:37,690
+The next 3 signals were successful, as the
+price and OBV went head to head, the price
+
+123
+00:09:37,690 --> 00:09:41,220
+making lower lows and lower highs.
+
+124
+00:09:41,220 --> 00:09:44,730
+And in this example we have 3 entries.
+
+125
+00:09:44,730 --> 00:09:53,959
+The first entry here, with some risk because
+the SMA slope was pointing upward, the second
+
+126
+00:09:53,959 --> 00:10:02,569
+one here, with the perfect setup, from the
+SMA and OBV, and the third one here, also
+
+127
+00:10:02,569 --> 00:10:07,120
+riskier because the SMA was flat.
+
+128
+00:10:07,120 --> 00:10:13,670
+The price consolidated for a few days below
+the SMA, before it finally continued its downward
+
+129
+00:10:13,670 --> 00:10:15,300
+direction.
+
+130
+00:10:15,300 --> 00:10:22,720
+So, for you to record better results, pay
+attention to the slope of the 10 SMA and try
+
+131
+00:10:22,720 --> 00:10:26,459
+to enter when you see the slope in correlation
+with the market trend.
+
+132
+00:10:26,459 --> 00:10:32,730
+Also, pay attention to the recent market swings,
+try to enter long during long term upward
+
+133
+00:10:32,730 --> 00:10:36,449
+trends and go short during long-term downtrends.
+
+134
+00:10:36,449 --> 00:10:42,040
+Now, if you found value and enjoyed this type
+of content make sure you subscribe, hit the
+
+135
+00:10:42,040 --> 00:10:45,770
+notification bell and leave a like to show
+your support.
+
+136
+00:10:45,770 --> 00:10:46,259
+Until next time.
+

@@ -1,0 +1,6644 @@
+1
+00:00:00,480 --> 00:00:07,200
+Random entries, random exits, random 
+results. This is why you fail. This  
+
+2
+00:00:07,200 --> 00:00:13,200
+video is a professional trading blueprint. 
+It shows you the right path step-by-step,  
+
+3
+00:00:13,200 --> 00:00:18,560
+whether you've placed 1,000 trades 
+or you're a complete beginner.
+
+4
+00:00:18,560 --> 00:00:20,960
+Let's start with market structure.  
+
+5
+00:00:20,960 --> 00:00:27,280
+Market structure refers to the overall map of 
+the market, the patterns of highs and lows,  
+
+6
+00:00:27,280 --> 00:00:33,760
+and the price swings connecting them over time. 
+If you look at any price chart, you'll see the  
+
+7
+00:00:33,760 --> 00:00:40,080
+market structure laid out before your eyes—the 
+static record of how price moved in the past.
+
+8
+00:00:40,080 --> 00:00:45,280
+When prices keep rising or falling, 
+that creates a trend. In an uptrend,  
+
+9
+00:00:45,280 --> 00:00:51,920
+each new high is higher than the last one. We call 
+that a Break of Structure (BOS). At the same time,  
+
+10
+00:00:51,920 --> 00:00:57,520
+each low stays above the previous low 
+point. That bullish momentum continues  
+
+11
+00:00:57,520 --> 00:01:02,960
+until the price finally dips below a 
+prior major low, which is a Change of  
+
+12
+00:01:02,960 --> 00:01:08,000
+Character (CHoCH). You can tell a trend is 
+losing steam when the price fails to make  
+
+13
+00:01:08,000 --> 00:01:14,800
+a new high after the latest rise. That's 
+a sign buyers may be losing their grip.
+
+14
+00:01:14,800 --> 00:01:21,280
+In a downtrend, you'll see the opposite: 
+lower lows and highs that can't quite reach  
+
+15
+00:01:21,280 --> 00:01:27,680
+the last high. This bearish pressure from 
+sellers keeps pushing the price down. The  
+
+16
+00:01:27,680 --> 00:01:34,320
+trend stays in place as long as those lower 
+highs and lows keep coming. But if the price  
+
+17
+00:01:34,320 --> 00:01:40,400
+manages to top the last high, the trend 
+could be reversing to bullish territory.
+
+18
+00:01:40,400 --> 00:01:47,040
+Sometimes the market takes a breather and moves 
+sideways between trends. This happens when the  
+
+19
+00:01:47,040 --> 00:01:54,800
+highs and lows are roughly equal, creating a tight 
+range. We call this a consolidation period. The  
+
+20
+00:01:54,800 --> 00:02:00,720
+price stays stuck, bouncing between supply 
+and demand until it finally breaks out above  
+
+21
+00:02:00,720 --> 00:02:08,240
+the usual highs or below the normal lows of that 
+channel. That's when a new trend could be born.
+
+22
+00:02:08,240 --> 00:02:14,240
+For a trend to flex its muscle, it needs 
+to keep printing those new highs and lows.  
+
+23
+00:02:14,240 --> 00:02:20,640
+But only one candle testing highs doesn't mean 
+much. If you see several candles close above  
+
+24
+00:02:20,640 --> 00:02:27,200
+past resistance in a row, that's a stronger case 
+for buyer control. And the reverse is true for  
+
+25
+00:02:27,200 --> 00:02:35,120
+downtrends: a few candles breaking below support 
+strengthens the argument for seller dominance.
+
+26
+00:02:35,120 --> 00:02:41,600
+Another thing to watch is how far each new swing 
+travels. If every price leg is bigger than the  
+
+27
+00:02:41,600 --> 00:02:49,440
+last, this tells you the dominant force is gaining 
+momentum with every cycle. The growing imbalance  
+
+28
+00:02:49,440 --> 00:02:56,160
+between supply and demand is fueling increasingly 
+larger price movements. So, even if the market  
+
+29
+00:02:56,160 --> 00:03:03,520
+has entered a sideways phase, seeing progressively 
+larger waves suggests the current bigger trend may  
+
+30
+00:03:03,520 --> 00:03:12,080
+still be healthy. Speed matters, too. A swift move 
+to new highs or lows over fewer candles is more  
+
+31
+00:03:12,080 --> 00:03:20,320
+powerful than a gradual climb or descent. It's a 
+sign of intensifying pressure driving the price.
+
+32
+00:03:20,320 --> 00:03:26,640
+Trading is all about finding edges, and support 
+and resistance levels are one of the most powerful  
+
+33
+00:03:26,640 --> 00:03:33,680
+edges you can have. But these invisible lines 
+on your charts can make or break your trades.  
+
+34
+00:03:33,680 --> 00:03:38,880
+Basically, support and resistance are 
+price levels where the market tends  
+
+35
+00:03:38,880 --> 00:03:46,960
+to pause or reverse. Support is an area that 
+catches falling prices. Resistance is an area  
+
+36
+00:03:46,960 --> 00:03:52,320
+that stops prices from rising further. 
+And it's all about supply and demand.
+
+37
+00:03:52,320 --> 00:03:59,760
+At support, buyers step in. They see the price 
+as a bargain and start buying. At resistance,  
+
+38
+00:03:59,760 --> 00:04:06,320
+sellers take over. They think the price is 
+too high and start selling. Here's the key:  
+
+39
+00:04:06,320 --> 00:04:13,280
+these levels aren't exact prices. They are more 
+like zones where interesting things happen.
+
+40
+00:04:13,280 --> 00:04:18,960
+But why should you care about support and 
+resistance? First, they help you understand  
+
+41
+00:04:18,960 --> 00:04:26,000
+market structure. You can see where price is 
+likely to pause or reverse. This knowledge is  
+
+42
+00:04:26,000 --> 00:04:33,760
+gold for timing your entries and exits. Second, 
+these levels show you where other traders are  
+
+43
+00:04:33,760 --> 00:04:40,560
+placing their orders. Big players often cluster 
+their orders around support and resistance. And  
+
+44
+00:04:40,560 --> 00:04:48,080
+when you know where the big money is, that's your 
+edge. We'll talk about that later. Third, support  
+
+45
+00:04:48,080 --> 00:04:55,280
+and resistance levels are self-fulfilling. Traders 
+expect price to react at these levels, so they  
+
+46
+00:04:55,280 --> 00:05:02,720
+place their orders accordingly. This collective 
+action makes those areas even more interesting.
+
+47
+00:05:02,720 --> 00:05:09,280
+Now, let's dive into the minds of buyers and 
+sellers at these key price points. At support  
+
+48
+00:05:09,280 --> 00:05:15,440
+levels, buyers tend to step in, seeing the 
+price as a good deal. They believe the price  
+
+49
+00:05:15,440 --> 00:05:22,240
+is undervalued and expect it to rise from this 
+point. This buying pressure often causes the  
+
+50
+00:05:22,240 --> 00:05:29,360
+price to bounce off support. At resistance 
+levels, sellers become more active. They view  
+
+51
+00:05:29,360 --> 00:05:35,840
+the price as too high and anticipate a drop, 
+leading to increased selling pressure. This  
+
+52
+00:05:35,840 --> 00:05:43,040
+behavior creates a self-fulfilling prophecy. As 
+more traders watch these levels and act on them,  
+
+53
+00:05:43,040 --> 00:05:49,120
+their collective actions make the levels 
+more likely to hold, at least temporarily.
+
+54
+00:05:49,120 --> 00:05:53,520
+Market memory plays a crucial 
+role in shaping these zones.  
+
+55
+00:05:53,520 --> 00:05:59,920
+Traders remember past price levels where 
+significant buying or selling occurred. These  
+
+56
+00:05:59,920 --> 00:06:07,040
+memories influence future trading decisions. The 
+concept of "trapped traders" also contributes to  
+
+57
+00:06:07,040 --> 00:06:12,960
+market memory. Imagine a trader who bought 
+at a certain price only to see the market  
+
+58
+00:06:12,960 --> 00:06:19,920
+drop. He might be eager to sell at breakeven 
+when the price returns to his entry point.  
+
+59
+00:06:19,920 --> 00:06:26,000
+This creates resistance as these 
+trapped traders exit their positions.
+
+60
+00:06:26,000 --> 00:06:33,840
+Support and resistance zones often form around 
+round numbers ending in zero or double zeros.  
+
+61
+00:06:33,840 --> 00:06:39,120
+This is partly due to the psychological 
+comfort we find in round numbers. Many  
+
+62
+00:06:39,120 --> 00:06:44,800
+traders place orders at these levels, 
+creating natural support and resistance.
+
+63
+00:06:45,360 --> 00:06:50,800
+The strength of support and resistance 
+levels can change over time. A level that's  
+
+64
+00:06:50,800 --> 00:06:56,880
+been tested multiple times without breaking 
+becomes more significant in traders' minds,  
+
+65
+00:06:56,880 --> 00:07:03,360
+but it also becomes more likely to eventually 
+break as more traders are watching it and  
+
+66
+00:07:03,360 --> 00:07:09,600
+positioning themselves around it. When a 
+support or resistance level does break,  
+
+67
+00:07:09,600 --> 00:07:16,720
+the ensuing price move can be dramatic. This is 
+because many traders place their stop-loss orders  
+
+68
+00:07:16,720 --> 00:07:22,800
+just beyond these levels. When the level 
+breaks, it triggers a cascade of orders,  
+
+69
+00:07:22,800 --> 00:07:29,440
+accelerating the price move. This behavior 
+is often exploited by large market players  
+
+70
+00:07:29,440 --> 00:07:35,680
+who might push the price through a level to 
+trigger these stops before reversing the move.
+
+71
+00:07:36,480 --> 00:07:42,720
+High-quality support and resistance levels have 
+several special traits that make them stand out  
+
+72
+00:07:42,720 --> 00:07:48,960
+on a chart. One of the most prominent features 
+of strong levels is the presence of sharp,  
+
+73
+00:07:48,960 --> 00:07:54,720
+big reversals. These are points on the 
+chart where the price makes a sudden and  
+
+74
+00:07:54,720 --> 00:08:00,640
+significant change in direction. For 
+example, if price is falling rapidly  
+
+75
+00:08:00,640 --> 00:08:06,720
+and then suddenly bounces back up just as 
+quickly, this sharp reversal could indicate  
+
+76
+00:08:06,720 --> 00:08:12,720
+a strong support level. This dramatic price 
+movement suggests that there's a significant  
+
+77
+00:08:12,720 --> 00:08:19,760
+imbalance between buyers and sellers at 
+these levels, leading to quick reversals.
+
+78
+00:08:19,760 --> 00:08:26,000
+High-quality support and resistance levels often 
+show multiple instances of price bouncing off  
+
+79
+00:08:26,000 --> 00:08:32,720
+them. This repeated behavior reinforces the 
+importance of these levels. For instance,  
+
+80
+00:08:32,720 --> 00:08:37,760
+if you notice that a stock price has 
+bounced up from a level several times,  
+
+81
+00:08:37,760 --> 00:08:43,360
+this could be an important support level. 
+These multiple bounces demonstrate that  
+
+82
+00:08:43,360 --> 00:08:50,800
+traders consistently recognize these levels and 
+act on them, creating a self-fulfilling prophecy.
+
+83
+00:08:51,440 --> 00:08:57,200
+Swing highs and lows are another important 
+feature to look for because they represent  
+
+84
+00:08:57,200 --> 00:09:04,000
+areas where the balance between buyers and 
+sellers shifted significantly. High-quality  
+
+85
+00:09:04,000 --> 00:09:11,280
+levels often demonstrate the ability to act as 
+both support and resistance. This characteristic,  
+
+86
+00:09:11,280 --> 00:09:17,680
+known as role reversal, happens when a broken 
+support level becomes a new resistance level,  
+
+87
+00:09:17,680 --> 00:09:23,600
+or when a broken resistance level becomes a 
+new support level. This phenomenon happens  
+
+88
+00:09:23,600 --> 00:09:29,440
+because traders remember these levels 
+and adjust their behavior accordingly.
+
+89
+00:09:29,440 --> 00:09:35,280
+One of the key traits of high-quality support 
+and resistance levels is that they are visually  
+
+90
+00:09:35,280 --> 00:09:42,720
+obvious on a chart. These levels should stand 
+out clearly even to an inexperienced trader. If  
+
+91
+00:09:42,720 --> 00:09:49,760
+you have to squint your eyes to identify a level, 
+it might not be as significant as you think. The  
+
+92
+00:09:49,760 --> 00:09:55,200
+most powerful support and resistance levels are 
+those that are immediately apparent when you look  
+
+93
+00:09:55,200 --> 00:10:02,400
+at a chart. This visual prominence is important 
+because it means that many traders are likely to  
+
+94
+00:10:02,400 --> 00:10:09,280
+notice and act on these levels, increasing 
+their potential impact on price movements.
+
+95
+00:10:09,280 --> 00:10:13,840
+Support and resistance levels that 
+have been recently respected tend to  
+
+96
+00:10:13,840 --> 00:10:20,400
+be more reliable than older levels. This is 
+because market conditions change over time,  
+
+97
+00:10:20,400 --> 00:10:25,680
+and levels that were significant in the 
+distant past may no longer be relevant.  
+
+98
+00:10:26,240 --> 00:10:30,880
+Look for levels that have influenced 
+price movements in the recent past,  
+
+99
+00:10:30,880 --> 00:10:37,760
+as these are more likely to continue playing 
+a role in current and future price action.
+
+100
+00:10:37,760 --> 00:10:45,280
+Round numbers often act as psychological support 
+and resistance levels. For instance, many traders  
+
+101
+00:10:45,280 --> 00:10:52,560
+might set their take-profit orders at $100 if 
+a stock is approaching that level from below,  
+
+102
+00:10:52,560 --> 00:10:58,560
+or they might set stop-loss orders just 
+below $100 if the stock is trading above  
+
+103
+00:10:58,560 --> 00:11:06,640
+it. This clustering of orders around numbers can 
+create noticeable support and resistance effects.
+
+104
+00:11:06,640 --> 00:11:13,200
+The strongest support and resistance levels 
+typically combine multiple traits. For example, a  
+
+105
+00:11:13,200 --> 00:11:20,320
+level might be a round number, have acted as both 
+support and resistance in the past, show multiple  
+
+106
+00:11:20,320 --> 00:11:27,760
+bounces, and be easily visible on the chart. The 
+more of these characteristics a level exhibits,  
+
+107
+00:11:27,760 --> 00:11:33,760
+the more likely it is to be a significant support 
+or resistance point. And when drawing support  
+
+108
+00:11:33,760 --> 00:11:40,160
+and resistance lines on your charts, remember 
+that they don't always need to be exact. Prices  
+
+109
+00:11:40,160 --> 00:11:47,520
+can sometimes break slightly past these levels 
+before reversing (known as a false breakout), or  
+
+110
+00:11:47,520 --> 00:11:54,320
+they might reverse direction just before reaching 
+the level (an imperfect reversal). So, you might  
+
+111
+00:11:54,320 --> 00:12:01,680
+need to draw a wider zone rather than a precise 
+line to capture all the relevant price action.
+
+112
+00:12:01,680 --> 00:12:07,360
+Now, before we continue, let us know in the 
+comments what topics you'd like us to cover.  
+
+113
+00:12:07,360 --> 00:12:10,960
+Please tell us what you want to watch next.
+
+114
+00:12:10,960 --> 00:12:17,360
+Now, let's talk about support and resistance 
+flips. When price breaks through a support level,  
+
+115
+00:12:17,360 --> 00:12:24,720
+it shows a shift in power from buyers to sellers. 
+The former support level then often becomes a  
+
+116
+00:12:24,720 --> 00:12:30,960
+new resistance level. This happens because 
+traders who bought at a support level and  
+
+117
+00:12:30,960 --> 00:12:38,320
+are now facing losses may sell when the price 
+returns to that level, creating resistance.  
+
+118
+00:12:38,320 --> 00:12:44,480
+When price breaks above a resistance level, 
+that level can become a new support level,  
+
+119
+00:12:44,480 --> 00:12:49,600
+as traders who missed the initial move 
+up may buy at the former resistance,  
+
+120
+00:12:49,600 --> 00:12:55,280
+now viewing it as a good entry point. 
+These flips demonstrate the psychological  
+
+121
+00:12:55,280 --> 00:13:01,440
+aspects of trading. Traders remember price 
+levels where significant shifts occurred,  
+
+122
+00:13:01,440 --> 00:13:07,440
+and their collective actions around these 
+levels can create self-fulfilling prophecies.
+
+123
+00:13:07,440 --> 00:13:14,480
+The strength of these flipped levels often depends 
+on how decisively the original level was broken.  
+
+124
+00:13:14,480 --> 00:13:20,640
+A strong, high-volume break of a support or 
+resistance level is more likely to result in  
+
+125
+00:13:20,640 --> 00:13:26,880
+a reliable flip than a weak break on low 
+volume. The number of times a level has  
+
+126
+00:13:26,880 --> 00:13:33,840
+acted as support or resistance in the past 
+also influences its strength after a flip.  
+
+127
+00:13:33,840 --> 00:13:40,480
+A level that has been tested multiple times 
+before breaking is often more significant.
+
+128
+00:13:40,480 --> 00:13:46,720
+When a support or resistance level is broken, 
+wait for a retest of that level before entering  
+
+129
+00:13:46,720 --> 00:13:54,080
+a trade. If a former support level holds as new 
+resistance (or vice versa), it can confirm the  
+
+130
+00:13:54,080 --> 00:14:02,000
+breakout. Sometimes a level will fail to hold 
+after flipping. For example, a broken support  
+
+131
+00:14:02,000 --> 00:14:08,640
+level might not hold as resistance. These failed 
+flips can lead to strong moves in the opposite  
+
+132
+00:14:08,640 --> 00:14:16,240
+direction as traders who were counting on the 
+level holding are forced to exit their positions.
+
+133
+00:14:16,240 --> 00:14:22,720
+When trading support and resistance flips, 
+consider the overall market context. In strong  
+
+134
+00:14:22,720 --> 00:14:30,080
+trends, flipped levels are more likely to hold, 
+while in choppy or ranging markets, they may  
+
+135
+00:14:30,080 --> 00:14:38,080
+be less reliable. Volume can provide additional 
+confirmation. High volume on the initial break and  
+
+136
+00:14:38,080 --> 00:14:45,440
+again on the retest can increase the likelihood 
+of a successful flip. And it's also important to  
+
+137
+00:14:45,440 --> 00:14:52,800
+note that not all support and resistance levels 
+will flip cleanly or hold after flipping. The  
+
+138
+00:14:52,800 --> 00:14:59,200
+market is dynamic, and even strong levels 
+can be broken under the right circumstances.
+
+139
+00:14:59,200 --> 00:15:04,960
+One powerful aspect of support and resistance 
+flips is that they often mark the beginning  
+
+140
+00:15:04,960 --> 00:15:12,800
+of new trends. When a long-standing resistance 
+level is finally broken and then holds as support,  
+
+141
+00:15:12,800 --> 00:15:19,200
+it can signal the start of a significant 
+uptrend. When a strong support level breaks  
+
+142
+00:15:19,200 --> 00:15:24,800
+and then acts as resistance, it might 
+indicate the beginning of a downtrend.
+
+143
+00:15:25,600 --> 00:15:31,840
+Volume is a key tool in trading support and 
+resistance. It's like a secret code that  
+
+144
+00:15:31,840 --> 00:15:37,520
+reveals the strength of these levels. When 
+you mix volume with price action, you get a  
+
+145
+00:15:37,520 --> 00:15:44,880
+powerful method called Volume Price Analysis. As 
+you already know, not all levels are the same.  
+
+146
+00:15:44,880 --> 00:15:52,160
+Some are strong and some are weak. And how do you 
+know which is which? That's where volume comes in.
+
+147
+00:15:52,160 --> 00:15:57,920
+Think of volume as the fuel that drives the 
+market. When there's a lot of volume at a price  
+
+148
+00:15:57,920 --> 00:16:05,280
+level, it means there's a lot of interest there. 
+This can create strong support or resistance. The  
+
+149
+00:16:05,280 --> 00:16:11,760
+Volume Profile tool is great for finding these 
+key levels. It shows you where most trading  
+
+150
+00:16:11,760 --> 00:16:18,480
+happened. The areas with the most volume are 
+often important support and resistance zones.
+
+151
+00:16:18,480 --> 00:16:23,600
+When you look at a volume profile, 
+focus on three main levels. First,  
+
+152
+00:16:23,600 --> 00:16:28,960
+the Point of Control (POC). This is where 
+most trading occurred. It's often a strong  
+
+153
+00:16:28,960 --> 00:16:36,560
+support or resistance level. Then, the Profile 
+High. This can act as resistance. And lastly,  
+
+154
+00:16:36,560 --> 00:16:44,240
+the Profile Low. This can act as support. These 
+levels matter because they show where buyers and  
+
+155
+00:16:44,240 --> 00:16:50,960
+sellers were most active. They're like battle 
+lines where the big players fought over price.
+
+156
+00:16:50,960 --> 00:16:57,920
+When price nears a key level, watch the volume 
+closely. If price breaks through with high volume,  
+
+157
+00:16:57,920 --> 00:17:02,960
+it's often a real breakout. But if 
+it breaks through with low volume,  
+
+158
+00:17:02,960 --> 00:17:11,120
+it might be a fake-out. On the flip side, if price 
+touches a level and bounces off with high volume,  
+
+159
+00:17:11,120 --> 00:17:18,160
+that's a strong rejection. It means the level 
+held firm. But if it bounces with low volume,  
+
+160
+00:17:18,160 --> 00:17:21,680
+the level might not be as strong as it looks.
+
+161
+00:17:21,680 --> 00:17:28,880
+Here's a cool trick: when price makes a big move 
+away from a level, use the Volume Profile to see  
+
+162
+00:17:28,880 --> 00:17:35,200
+where the most trading happened during that 
+move. That spot often becomes a new support  
+
+163
+00:17:35,200 --> 00:17:42,320
+or resistance level when price returns to it 
+later. Let's say you see a big price drop.  
+
+164
+00:17:42,320 --> 00:17:49,840
+You can put a volume profile on that drop to find 
+where the most trading occurred. That area might  
+
+165
+00:17:49,840 --> 00:17:57,200
+become resistance when price rises again. If 
+it does, it could be a great place to sell.
+
+166
+00:17:57,200 --> 00:18:04,080
+Remember, the market moves in waves. It trends 
+for a while, then pauses in a congestion phase,  
+
+167
+00:18:04,080 --> 00:18:10,240
+then either keeps trending or reverses. 
+Understanding how volume works with these  
+
+168
+00:18:10,240 --> 00:18:16,720
+moves is key to reading the market. When you're 
+looking at a potential trade, don't just look  
+
+169
+00:18:16,720 --> 00:18:23,680
+at the price. Check the volume, too. Is it above 
+average? That's a sign of strength. Is it below  
+
+170
+00:18:23,680 --> 00:18:30,160
+average? That might mean the move is weak. If 
+you're thinking about buying at support, look  
+
+171
+00:18:30,160 --> 00:18:37,520
+for high volume as price touches that level; that 
+shows strong buying interest. If you're thinking  
+
+172
+00:18:37,520 --> 00:18:44,800
+about selling at resistance, look for high volume 
+there, too. That can mean strong selling pressure.
+
+173
+00:18:44,800 --> 00:18:51,840
+As we already talked about, false breakouts and 
+liquidity runs are common traps in trading. When  
+
+174
+00:18:51,840 --> 00:18:57,200
+price breaks through a key level, don't 
+just jump in right away. Wait for volume  
+
+175
+00:18:57,200 --> 00:19:02,960
+to confirm the move. A true breakout 
+should come with above-average volume.  
+
+176
+00:19:02,960 --> 00:19:08,880
+And if volume is low, it might be a 
+fake-out. But here's a cool trick:  
+
+177
+00:19:08,880 --> 00:19:15,280
+sometimes a failed breakout can be an even 
+better trade. If price breaks out on low  
+
+178
+00:19:15,280 --> 00:19:23,360
+volume and then quickly reverses, that can be a 
+strong signal to trade in the opposite direction.
+
+179
+00:19:23,360 --> 00:19:29,120
+Don't forget about timeframes. What looks 
+like a breakout on a 5-minute chart might  
+
+180
+00:19:29,120 --> 00:19:36,160
+just be noise on a daily chart. Always check 
+higher timeframes to get the big picture before  
+
+181
+00:19:36,160 --> 00:19:42,880
+making your decisions. Learning to read volume 
+in conjunction with support and resistance takes  
+
+182
+00:19:42,880 --> 00:19:50,480
+practice, but it's worth the effort. You'll see 
+trading opportunities you never noticed before.
+
+183
+00:19:50,480 --> 00:19:54,880
+Trading support and resistance will 
+differ considering if the markets are  
+
+184
+00:19:54,880 --> 00:20:00,320
+trending or they are ranging. And most 
+traders don't think about this aspect,  
+
+185
+00:20:00,320 --> 00:20:05,920
+which is a major mistake. In a strong 
+trend, support and resistance levels  
+
+186
+00:20:05,920 --> 00:20:11,600
+can help you catch big moves. When the 
+market is trending up or down with force,  
+
+187
+00:20:11,600 --> 00:20:18,320
+it's not wise to fight it. Instead, look 
+for ways to join the trend at good prices.
+
+188
+00:20:18,320 --> 00:20:24,000
+Here's how to use these levels in 
+a strong uptrend. As price climbs,  
+
+189
+00:20:24,000 --> 00:20:30,960
+it will often pause and drop back a bit. These 
+dips often stop at old resistance levels which  
+
+190
+00:20:30,960 --> 00:20:38,320
+now act as support. Sometimes price will move 
+sideways for a while. This is like a pause in the  
+
+191
+00:20:38,320 --> 00:20:45,840
+trend. It can form a small range near a support or 
+resistance level. Watch for breakouts. When price  
+
+192
+00:20:45,840 --> 00:20:51,440
+breaks above the high of the consolidation, 
+it can signal the trend is ready to continue.
+
+193
+00:20:52,400 --> 00:21:00,160
+In a strong downtrend, you'd use the same ideas 
+but in reverse. Look for bounces from resistance,  
+
+194
+00:21:00,160 --> 00:21:04,560
+consolidations, and breakdowns below support.
+
+195
+00:21:04,560 --> 00:21:09,760
+Ranging markets are trickier. Price bounces 
+between support and resistance without a  
+
+196
+00:21:09,760 --> 00:21:16,000
+clear direction. Here's how to use these 
+levels. First, identify the range. Look  
+
+197
+00:21:16,000 --> 00:21:22,720
+for clear areas where price has turned multiple 
+times. Wait for tests of these levels. As price  
+
+198
+00:21:22,720 --> 00:21:27,920
+approaches support or resistance, watch 
+closely. How it acts here can tell you  
+
+199
+00:21:27,920 --> 00:21:35,360
+a lot. You then look for rejection signals. If 
+price touches support and bounces up with force,  
+
+200
+00:21:35,360 --> 00:21:42,320
+it might be a good time to buy. If it hits 
+resistance and drops hard, consider selling.
+
+201
+00:21:42,320 --> 00:21:50,240
+Be cautious of false breakouts. Price often pokes 
+above resistance or below support only to reverse.  
+
+202
+00:21:50,240 --> 00:21:56,640
+Look for wicks or multiple wicks outside the 
+range. Watch for consolidations near the top  
+
+203
+00:21:56,640 --> 00:22:03,840
+or bottom of the range (a consolidation within 
+the consolidation). If price forms a tight range,  
+
+204
+00:22:03,840 --> 00:22:10,080
+it can signal a potential breakout. Of 
+course, use volume. High volume on a  
+
+205
+00:22:10,080 --> 00:22:18,400
+bounce off support can signal a strong move. Low 
+volume might mean the move is weak. In ranges,  
+
+206
+00:22:18,400 --> 00:22:25,040
+you're often looking to buy near support and sell 
+near resistance, but be ready to change your view  
+
+207
+00:22:25,040 --> 00:22:32,800
+if the range breaks and a new trend starts. And 
+consider the timeframe. Levels on a daily chart  
+
+208
+00:22:32,800 --> 00:22:41,280
+might not match what you see on a 5-minute 
+chart. Be clear about your trading horizon.
+
+209
+00:22:41,280 --> 00:22:48,480
+In the market, there are always two competing 
+forces: buyers, who represent demand, and sellers,  
+
+210
+00:22:48,480 --> 00:22:54,640
+who represent supply. When there are more 
+buyers than sellers at a certain price level,  
+
+211
+00:22:54,640 --> 00:23:00,720
+it creates a demand zone. When there are 
+more sellers than buyers at a price level,  
+
+212
+00:23:00,720 --> 00:23:06,960
+it forms a supply zone. In these zones, 
+you often see large unfilled orders from  
+
+213
+00:23:06,960 --> 00:23:13,280
+big institutional traders like banks and 
+hedge funds. Supply and demand trading is  
+
+214
+00:23:13,280 --> 00:23:19,600
+powerful because it allows you to trade in line 
+with what the institutions are doing. These big  
+
+215
+00:23:19,600 --> 00:23:25,520
+players can't hide their massive orders. 
+And by identifying supply and demand zones,  
+
+216
+00:23:25,520 --> 00:23:31,600
+retail traders like us can spot where they 
+are likely to be executing their trades.
+
+217
+00:23:31,600 --> 00:23:37,840
+You see, the price is constantly moving up and 
+down, and this movement is a direct result of the  
+
+218
+00:23:37,840 --> 00:23:43,600
+supply and demand from market participants. 
+When there are more buyers in the market,  
+
+219
+00:23:43,600 --> 00:23:50,320
+they bring demand, and this applies upward 
+pressure on prices, pushing them higher. When  
+
+220
+00:23:50,320 --> 00:23:56,720
+there are more sellers, they bring more supply to 
+the market, putting downward pressure on prices  
+
+221
+00:23:56,720 --> 00:24:03,920
+and pushing them lower. This dynamic between 
+buyers and sellers is what we call Order Flow,  
+
+222
+00:24:03,920 --> 00:24:09,360
+and it's the engine that actually 
+drives price action and market movement.
+
+223
+00:24:09,360 --> 00:24:14,160
+Now, there are two main types of 
+orders that make up this order flow:  
+
+224
+00:24:14,160 --> 00:24:21,280
+passive orders and aggressive orders. Passive 
+orders are limit orders placed by traders who  
+
+225
+00:24:21,280 --> 00:24:26,320
+are willing to wait for the price to come to 
+their desired level. They are not in a rush to  
+
+226
+00:24:26,320 --> 00:24:32,800
+get in. Aggressive orders are placed by traders 
+who want to execute immediately at the current  
+
+227
+00:24:32,800 --> 00:24:40,240
+market price. They are not waiting around for a 
+specific price; they want in fast. This constant  
+
+228
+00:24:40,240 --> 00:24:45,920
+battle between passive and aggressive orders 
+is really what causes those explosive price  
+
+229
+00:24:45,920 --> 00:24:52,240
+movements you see on your charts when there's a 
+significant imbalance between supply and demand.  
+
+230
+00:24:52,240 --> 00:24:58,960
+So, your job is to identify where 
+major imbalances are likely to occur.
+
+231
+00:24:58,960 --> 00:25:04,720
+Now let's break down how to actually identify 
+them on your charts. The first step is to  
+
+232
+00:25:04,720 --> 00:25:10,400
+look for those explosive movements where 
+price makes a strong push in one direction  
+
+233
+00:25:10,400 --> 00:25:16,640
+before quickly reversing. This could be 
+a sharp rally followed by a sudden drop,  
+
+234
+00:25:16,640 --> 00:25:23,280
+or a steep decline followed by a rapid bounce 
+back. These movements often signal that there  
+
+235
+00:25:23,280 --> 00:25:30,160
+was a significant imbalance between buyers 
+and sellers that caused price to spike. Once  
+
+236
+00:25:30,160 --> 00:25:34,640
+you've spotted one of these big moves, 
+the next step is to mark out the origin  
+
+237
+00:25:34,640 --> 00:25:40,880
+of that move—in other words, the area on 
+your chart where that explosive rally or  
+
+238
+00:25:40,880 --> 00:25:46,880
+decline actually started. This is going to 
+be your potential supply or demand zone.
+
+239
+00:25:47,520 --> 00:25:52,800
+Now, there are a few different types of 
+zones to look out for. First ones are  
+
+240
+00:25:52,800 --> 00:25:59,440
+Base Zones or Range Zones. These form when 
+price is consolidating in a tight range for  
+
+241
+00:25:59,440 --> 00:26:04,960
+an extended period of time before finally 
+breaking out. You can think of the edges  
+
+242
+00:26:04,960 --> 00:26:12,160
+of that range as areas of supply and demand 
+where a lot of orders have built up. So when  
+
+243
+00:26:12,160 --> 00:26:18,640
+price revisits those levels after a breakout, 
+there's a higher probability of a reaction.
+
+244
+00:26:18,640 --> 00:26:24,000
+We can also have Pivot Zones. These form 
+at key turning points in the market,  
+
+245
+00:26:24,000 --> 00:26:30,880
+like swing highs and lows, or where you see price 
+making a sudden change in direction. They're often  
+
+246
+00:26:30,880 --> 00:26:37,600
+marked by one or two candlesticks with distinct 
+characteristics. For a potential demand zone,  
+
+247
+00:26:37,600 --> 00:26:44,160
+you want to look for a strong bearish candle 
+where the next candle closes back above its high,  
+
+248
+00:26:44,160 --> 00:26:50,400
+signaling a shift from selling pressure 
+to buying pressure. For a supply zone,  
+
+249
+00:26:50,400 --> 00:26:56,640
+you are watching for a strong bullish candle 
+where the next candle closes below its low,  
+
+250
+00:26:56,640 --> 00:27:03,040
+indicating a shift from buying to selling. The 
+key is that these pivots are happening quickly;  
+
+251
+00:27:03,040 --> 00:27:08,560
+price isn't spending much time 
+in these areas before reversing.
+
+252
+00:27:08,560 --> 00:27:14,000
+To identify fresh zones, you also want to 
+pay attention to the overall structure of  
+
+253
+00:27:14,000 --> 00:27:21,360
+the price action. There are two main types of 
+structures to look for: Continuation and Reversal.
+
+254
+00:27:21,360 --> 00:27:27,520
+A continuation structure forms when there's an 
+existing trend in place and price is just pulling  
+
+255
+00:27:27,520 --> 00:27:33,920
+back or correcting against that trend before 
+continuing in the same direction. These are your  
+
+256
+00:27:33,920 --> 00:27:41,440
+Rally-Base-Rally and Drop-Base-Drop patterns. 
+If it's an uptrend, you'll see a strong rally,  
+
+257
+00:27:41,440 --> 00:27:48,480
+a tight range where price forms a small base, 
+and then another rally continuing the uptrend.  
+
+258
+00:27:48,480 --> 00:27:56,640
+For a downtrend, you'll see a sharp drop, a base, 
+and then another drop, resuming the downtrend.
+
+259
+00:27:56,640 --> 00:28:02,960
+Reversal structures form when price is reversing 
+from one trend direction to the other. These are  
+
+260
+00:28:02,960 --> 00:28:10,800
+your Drop-Base-Rally and Rally-Base-Drop patterns. 
+So, in an uptrend that's starting to lose steam,  
+
+261
+00:28:10,800 --> 00:28:15,920
+you might see price drop into a base 
+and then launch into a new rally,  
+
+262
+00:28:15,920 --> 00:28:22,160
+marking the start of a reversal. And in a 
+downtrend that's starting to turn around,  
+
+263
+00:28:22,160 --> 00:28:30,000
+you'd see a rally, a base, and then a strong 
+drop signaling the beginning of a new uptrend.
+
+264
+00:28:30,000 --> 00:28:35,440
+Now, let's talk about the key principles 
+that make this strategy so effective.  
+
+265
+00:28:35,440 --> 00:28:41,360
+The first thing to understand is that supply and 
+demand zones are not just random levels on your  
+
+266
+00:28:41,360 --> 00:28:48,240
+charts. They are areas where the imbalance 
+between buyers and sellers is most extreme.  
+
+267
+00:28:48,240 --> 00:28:55,040
+When you see explosive price movements like huge 
+rallies or steep drops, that's often a sign that  
+
+268
+00:28:55,040 --> 00:29:01,360
+there was a serious mismatch between the amount of 
+buying and selling pressure. What's happening in  
+
+269
+00:29:01,360 --> 00:29:07,120
+these situations is that the aggressive orders 
+from one side are rapidly consuming all the  
+
+270
+00:29:07,120 --> 00:29:14,000
+available orders from the other side until a new 
+equilibrium is found. The areas on your charts  
+
+271
+00:29:14,000 --> 00:29:21,280
+where these big clashes take place are what we 
+call fresh unmitigated supply and demand zones.
+
+272
+00:29:21,280 --> 00:29:26,720
+One of the key things that separates these 
+high-probability zones from ordinary support  
+
+273
+00:29:26,720 --> 00:29:32,000
+and resistance levels is the amount of 
+time price spends in the zone. You see,  
+
+274
+00:29:32,000 --> 00:29:36,000
+when there's a major imbalance 
+between buyers and sellers,  
+
+275
+00:29:36,000 --> 00:29:42,640
+the price won't hang around that area for very 
+long. It will quickly spike up or down. So,  
+
+276
+00:29:42,640 --> 00:29:47,600
+when you're analyzing your charts, one of 
+the things to look for is zones where the  
+
+277
+00:29:47,600 --> 00:29:54,800
+price only spent a short amount of time before 
+making a strong move in either direction. The  
+
+278
+00:29:54,800 --> 00:30:00,160
+less time price spends in that area, the 
+more out of balance supply and demand are,  
+
+279
+00:30:00,160 --> 00:30:06,240
+and the higher the probability of a successful 
+trade when the price returns to that zone.
+
+280
+00:30:06,880 --> 00:30:12,960
+Another key principle is to focus on fresh 
+unmitigated zones rather than ones that  
+
+281
+00:30:12,960 --> 00:30:19,280
+have already been tested multiple times. 
+When price revisits a zone, it can absorb  
+
+282
+00:30:19,280 --> 00:30:25,680
+some of the pending orders that were sitting 
+there, making the imbalance less extreme. So,  
+
+283
+00:30:25,680 --> 00:30:32,960
+as a general rule, the more times a zone has been 
+hit, the weaker it becomes. This is why it's so  
+
+284
+00:30:32,960 --> 00:30:38,960
+important to understand the difference between 
+an unmitigated zone and one that's already been  
+
+285
+00:30:38,960 --> 00:30:46,880
+tested a few times (a mitigated one). The trading 
+opportunities are very different. Now, of course,  
+
+286
+00:30:46,880 --> 00:30:53,360
+there are times when a zone can remain valid even 
+after being tested if there is still a significant  
+
+287
+00:30:53,360 --> 00:31:00,640
+order imbalance, but generally, you want to 
+prioritize fresh zones when planning your trades.
+
+288
+00:31:00,640 --> 00:31:03,040
+So, the key things to look for are:
+
+289
+00:31:03,040 --> 00:31:09,200
+Zones that form after explosive price movements.
+Zones where price only spends a short amount of  
+
+290
+00:31:09,200 --> 00:31:13,840
+time before spiking up or down.
+Fresh zones that haven't been  
+
+291
+00:31:13,840 --> 00:31:20,400
+tested or absorbed by the market yet.
+Now, let's talk about how to validate  
+
+292
+00:31:20,400 --> 00:31:26,320
+whether a zone is likely to hold. The first 
+thing you want to look for is a clear Break  
+
+293
+00:31:26,320 --> 00:31:32,480
+of Structure (BOS). This means price needs 
+to make a decisive move away from the zone  
+
+294
+00:31:32,480 --> 00:31:39,440
+and take out any nearby swing highs or lows. 
+If there's no clear break of structure and  
+
+295
+00:31:39,440 --> 00:31:46,400
+price just hovers around the zone, that's a sign 
+that the zone might not be as strong as it seems.
+
+296
+00:31:46,400 --> 00:31:52,560
+Another key concept is the idea of Flip Zones. 
+This is when a previous supply zone turns into  
+
+297
+00:31:52,560 --> 00:31:59,040
+a demand zone, or vice versa. For example, 
+let's say you have a strong supply zone  
+
+298
+00:31:59,040 --> 00:32:05,520
+that's been holding price down for a while, but 
+then suddenly price rips through that level and  
+
+299
+00:32:05,520 --> 00:32:12,160
+closes above it. That's a pretty good indication 
+that the zone has flipped from supply to demand  
+
+300
+00:32:12,160 --> 00:32:18,080
+and could now act as a support level for 
+future pullbacks. But here's the thing:  
+
+301
+00:32:18,080 --> 00:32:23,760
+in order for a flip zone to be valid, you need 
+to see that initial interaction between the two  
+
+302
+00:32:23,760 --> 00:32:30,560
+forces. Don't just assume a zone has flipped 
+because price moved past it. Look for that  
+
+303
+00:32:30,560 --> 00:32:38,800
+clear battle between buyers and sellers and wait 
+for one side to decisively overpower the other.
+
+304
+00:32:38,800 --> 00:32:44,240
+Another important factor to consider is 
+Inducement. This refers to the presence of  
+
+305
+00:32:44,240 --> 00:32:50,000
+liquidity in front of the zone that could 
+potentially absorb any move against it.  
+
+306
+00:32:50,000 --> 00:32:55,520
+For example, if you're looking at a demand 
+zone, you want to see some buy orders stacked  
+
+307
+00:32:55,520 --> 00:33:01,360
+up in front of that level. This could be in 
+the form of a swing low or a consolidation  
+
+308
+00:33:01,360 --> 00:33:07,520
+pattern—anything that suggests there are 
+traders waiting to buy at that price. If  
+
+309
+00:33:07,520 --> 00:33:12,400
+there's no liquidity in front of the 
+zone and price just slams into it,  
+
+310
+00:33:12,400 --> 00:33:17,920
+chances are those big players aren't going to 
+be too interested in getting involved. But if  
+
+311
+00:33:17,920 --> 00:33:24,400
+there are orders they can trade against, they're 
+much more likely to step in and defend the level.
+
+312
+00:33:24,400 --> 00:33:30,480
+Of course, even if a zone checks all these 
+boxes, it's not guaranteed to hold forever.  
+
+313
+00:33:30,480 --> 00:33:35,920
+That's why it's also important to look 
+at how fresh the zone is. In general,  
+
+314
+00:33:35,920 --> 00:33:39,680
+zones that have been tested 
+multiple times are less likely  
+
+315
+00:33:39,680 --> 00:33:45,040
+to produce strong reactions than those 
+that are being hit for the first time.
+
+316
+00:33:45,680 --> 00:33:51,120
+Now let's talk about the difference between 
+supply and demand zones and traditional support  
+
+317
+00:33:51,120 --> 00:33:57,920
+and resistance levels. While there are similar 
+concepts, there are some key distinctions. First  
+
+318
+00:33:57,920 --> 00:34:05,040
+off, support and resistance are levels where 
+price has previously reversed or consolidated  
+
+319
+00:34:05,040 --> 00:34:11,680
+multiple times in the past. Supply and demand 
+zones, on the other hand, are all about fresh  
+
+320
+00:34:11,680 --> 00:34:18,560
+unmitigated levels. Rather than focusing on areas 
+that have already been touched multiple times,  
+
+321
+00:34:18,560 --> 00:34:25,440
+these zones represent imbalances between buyers 
+and sellers that have just recently formed.  
+
+322
+00:34:25,440 --> 00:34:29,600
+The key difference is that support 
+and resistance trading relies on the  
+
+323
+00:34:29,600 --> 00:34:35,440
+assumption that past levels will continue to 
+hold in the future, whereas supply and demand  
+
+324
+00:34:35,440 --> 00:34:42,800
+trading looks for new untested zones where the 
+order flow is likely to be more significant.
+
+325
+00:34:42,800 --> 00:34:47,840
+Remember this: support and resistance 
+levels are essentially supply and demand  
+
+326
+00:34:47,840 --> 00:34:54,880
+zones that have already been confirmed. Once 
+a fresh demand zone gets tested and holds,  
+
+327
+00:34:54,880 --> 00:35:01,200
+it then becomes an established support level. 
+The same goes for supply zones; they become  
+
+328
+00:35:01,200 --> 00:35:07,520
+resistance after they've been touched. So, while 
+trading support and resistance can certainly be  
+
+329
+00:35:07,520 --> 00:35:13,600
+effective (especially if a level has proven itself 
+multiple times in the past), the probability of  
+
+330
+00:35:13,600 --> 00:35:20,960
+a reaction tends to diminish with each subsequent 
+test. This is why you should focus on fresh zones  
+
+331
+00:35:20,960 --> 00:35:28,240
+where the initial imbalance between buyers and 
+sellers is likely to be the most significant.
+
+332
+00:35:28,240 --> 00:35:34,400
+Now, let's talk about some specific entry and 
+exit strategies you can use around these key  
+
+333
+00:35:34,400 --> 00:35:40,960
+levels. One of the simplest and most effective 
+ways to enter a trade is to simply set a limit  
+
+334
+00:35:40,960 --> 00:35:46,640
+order directly on the level itself. This 
+approach assumes that the zone will hold  
+
+335
+00:35:46,640 --> 00:35:53,360
+and that price will reverse once it hits your 
+order. However, there are a couple of potential  
+
+336
+00:35:53,360 --> 00:35:59,200
+downsides to this aggressive strategy. If you 
+set your order too far away from the zone,  
+
+337
+00:35:59,200 --> 00:36:05,040
+you might miss out on the trade entirely if 
+price never quite reaches your price. Or,  
+
+338
+00:36:05,040 --> 00:36:10,400
+the second scenario: price might just 
+break through your zone with ease.
+
+339
+00:36:10,400 --> 00:36:15,840
+A more conservative approach is to wait for 
+a specific candlestick pattern to form at the  
+
+340
+00:36:15,840 --> 00:36:22,720
+level before entering a trade. For example, 
+you might look for a bullish reversal pattern  
+
+341
+00:36:22,720 --> 00:36:28,640
+like a pin bar or an engulfing candle 
+at a demand zone. The idea behind this  
+
+342
+00:36:28,640 --> 00:36:33,280
+strategy is that these candlestick 
+formations can give you a bit more  
+
+343
+00:36:33,280 --> 00:36:39,760
+confirmation that the zone is likely to hold 
+and that price is getting ready to reverse.
+
+344
+00:36:39,760 --> 00:36:45,200
+Another technique you can use to fine-tune your 
+entries is to look for specific structures on  
+
+345
+00:36:45,200 --> 00:36:51,920
+lower timeframes. For example, let's say you've 
+identified a strong demand zone on the 1-hour  
+
+346
+00:36:51,920 --> 00:36:58,240
+chart, but you want to get more precise with 
+your entry. Instead of just buying blindly at  
+
+347
+00:36:58,240 --> 00:37:04,240
+the level, you could drop down to the 15-minute 
+chart and look for a reversal pattern like a  
+
+348
+00:37:04,240 --> 00:37:09,920
+double bottom or a Change of Character 
+(CHoCH) to form at the zone. In this way,  
+
+349
+00:37:09,920 --> 00:37:15,600
+you can often get a tighter entry 
+with a better risk-to-reward ratio.
+
+350
+00:37:15,600 --> 00:37:21,920
+Now, let's talk about how to evaluate the strength 
+of a supply or demand zone. One of the first  
+
+351
+00:37:21,920 --> 00:37:28,720
+things to look at is how quickly price moves 
+away from the zone after it's formed. Generally  
+
+352
+00:37:28,720 --> 00:37:35,360
+speaking, the faster price shoots away from a 
+level, the stronger that level is likely to be.  
+
+353
+00:37:35,360 --> 00:37:41,600
+Quick and significant moves away from a zone 
+indicate a strong imbalance. So if you see  
+
+354
+00:37:41,600 --> 00:37:47,120
+price just rocketing away from a zone, that's 
+a pretty good sign that there is some serious  
+
+355
+00:37:47,120 --> 00:37:53,920
+order flow happening there and that institutions 
+are likely defending the level aggressively.
+
+356
+00:37:53,920 --> 00:37:58,960
+Another factor to consider is the amount 
+of time price spends at the zone before  
+
+357
+00:37:58,960 --> 00:38:04,240
+making that initial move. The less 
+time price hangs out at a level,  
+
+358
+00:38:04,240 --> 00:38:09,440
+the more likely it is to be a key turning 
+point in the market. So if you see price  
+
+359
+00:38:09,440 --> 00:38:15,040
+just kind of dip into a demand zone and 
+then immediately start rallying higher,  
+
+360
+00:38:15,040 --> 00:38:22,480
+that's often a signal that big buyers have stepped 
+in and are absorbing all the available supply.
+
+361
+00:38:22,480 --> 00:38:26,640
+The actual size of the move 
+is important, too. Obviously,  
+
+362
+00:38:26,640 --> 00:38:32,880
+if price barely budges after hitting a supply 
+or demand level, that's not exactly a big  
+
+363
+00:38:32,880 --> 00:38:38,160
+endorsement of its strength. But if you see 
+an extended move in the opposite direction  
+
+364
+00:38:38,160 --> 00:38:44,240
+after a zone is tested, that's a sign that 
+the level is probably pretty significant.
+
+365
+00:38:44,240 --> 00:38:50,560
+Another thing to watch for is the volume during 
+the formation of the zone. Generally speaking,  
+
+366
+00:38:50,560 --> 00:38:55,920
+you want to see a noticeable uptick 
+in volume as price is testing a key  
+
+367
+00:38:55,920 --> 00:39:01,280
+level. This indicates that there's a lot 
+of interest and activity happening at that  
+
+368
+00:39:01,280 --> 00:39:08,240
+specific price and that institutions are 
+likely absorbing or distributing there.
+
+369
+00:39:08,240 --> 00:39:13,760
+Another factor that can affect the strength 
+of a zone is whether or not it causes a break  
+
+370
+00:39:13,760 --> 00:39:19,920
+of market structure. A supply or demand 
+zone that causes a break of structure is  
+
+371
+00:39:19,920 --> 00:39:25,600
+generally stronger. It takes a significant 
+amount of money to break market structure,  
+
+372
+00:39:25,600 --> 00:39:32,160
+making the zones more likely to hold in the 
+future. So if you see a zone forms and then price  
+
+373
+00:39:32,160 --> 00:39:38,000
+just starts trending in the opposite direction 
+and breaking through key levels on the chart,  
+
+374
+00:39:38,000 --> 00:39:42,400
+that's often a sign that there is some 
+serious institutional backing behind the  
+
+375
+00:39:42,400 --> 00:39:48,240
+move and that the zone is likely to 
+be a key focal point going forward.
+
+376
+00:39:48,240 --> 00:39:53,520
+When it comes to candlesticks, most price 
+action books will advise you to memorize  
+
+377
+00:39:53,520 --> 00:39:59,760
+a plethora of candlestick patterns or spend 
+hours staring at charts. I'm going to give  
+
+378
+00:39:59,760 --> 00:40:04,800
+you a better method to read them. First 
+and foremost, when you open up a chart,  
+
+379
+00:40:04,800 --> 00:40:10,320
+take a look at the recent candles and focus 
+on their spread. The spread is the difference  
+
+380
+00:40:10,320 --> 00:40:16,480
+between a candle's opening and closing price, 
+which forms the real body of the candle.  
+
+381
+00:40:16,480 --> 00:40:22,320
+This spread reveals the market sentiment for 
+that particular time period. A wide spread  
+
+382
+00:40:22,320 --> 00:40:29,120
+indicates strong market sentiment, while a 
+low spread indicates less trading activity.
+
+383
+00:40:29,120 --> 00:40:33,040
+Next, you look at the upper and 
+lower wicks of candlesticks,  
+
+384
+00:40:33,040 --> 00:40:38,320
+also known as shadows. These wicks reflect 
+the buying and selling pressure in the  
+
+385
+00:40:38,320 --> 00:40:44,000
+market. Consider them as rejection areas 
+where the market simply didn't accept the  
+
+386
+00:40:44,000 --> 00:40:50,160
+prices represented by the wick. The length of the 
+wick, whether at the top or bottom of the candle,  
+
+387
+00:40:50,160 --> 00:40:56,080
+should always be a main point of focus. It 
+instantly reveals strength, weakness, or  
+
+388
+00:40:56,080 --> 00:41:04,080
+indecision in the market. And most importantly, it 
+shows you where buyers or sellers are stepping in.
+
+389
+00:41:04,080 --> 00:41:08,240
+Now, considering the spread of 
+the candlesticks and their wicks,  
+
+390
+00:41:08,240 --> 00:41:11,680
+here are the key patterns you should consider.
+
+391
+00:41:11,680 --> 00:41:17,360
+When the body of the candle takes up at least 
+half of the entire bar range, you are looking  
+
+392
+00:41:17,360 --> 00:41:24,400
+at a Trend Bar. Trend bars are the heart and 
+soul of market fluctuations. They represent  
+
+393
+00:41:24,400 --> 00:41:30,960
+strong market sentiment and suggest a likely 
+continuation in the direction of the candle.  
+
+394
+00:41:30,960 --> 00:41:36,880
+When you analyze a chart, pay attention to 
+instances of consecutive trend bars closing  
+
+395
+00:41:36,880 --> 00:41:43,200
+in the same direction. If you spot several trend 
+bars in a row, all pointing in the direction of  
+
+396
+00:41:43,200 --> 00:41:49,360
+the prevailing trend, it's a clear sign of 
+strength in that direction. If you notice an  
+
+397
+00:41:49,360 --> 00:41:56,640
+absence of trend bars over the past 10 or so 
+candles, the market is likely consolidating.
+
+398
+00:41:56,640 --> 00:42:02,960
+A Trend-Based Long Wick Candle is characterized 
+by a candle with a wick sticking out in the same  
+
+399
+00:42:02,960 --> 00:42:08,640
+direction as the moving trend. The smaller the 
+body and the longer the wick, the better the  
+
+400
+00:42:08,640 --> 00:42:16,240
+quality of the candle. Large wicks indicate price 
+moved a lot during the candle but got rejected,  
+
+401
+00:42:16,240 --> 00:42:22,960
+signaling supply or demand. The upper wick 
+acts as resistance while the lower wick acts  
+
+402
+00:42:22,960 --> 00:42:30,400
+as support. In an uptrend, if a long wick candle 
+forms at a key support level, it means sellers  
+
+403
+00:42:30,400 --> 00:42:36,960
+tried to push prices lower but failed to close 
+with momentum, causing the wick to stick out.  
+
+404
+00:42:36,960 --> 00:42:42,480
+This suggests a potential continuation of the 
+previous trend. The length of the wick is the  
+
+405
+00:42:42,480 --> 00:42:49,440
+first point of focus because it instantly shows 
+strength, weakness, and indecision in the market.
+
+406
+00:42:50,000 --> 00:42:56,400
+The Momentum Candle is characterized by a 
+larger spread compared to the previous candles,  
+
+407
+00:42:56,400 --> 00:43:03,200
+showing a clear directional movement in price. 
+In an uptrend, you'll notice each candle getting  
+
+408
+00:43:03,200 --> 00:43:10,720
+larger and larger, moving a greater distance per 
+candle. This shows a gain in bullish momentum.  
+
+409
+00:43:10,720 --> 00:43:17,840
+In a downtrend, each candle gets larger and 
+larger, moving a greater distance per candle,  
+
+410
+00:43:17,840 --> 00:43:24,640
+indicating a gain in bearish momentum. When 
+you see consecutive candles increasing in size,  
+
+411
+00:43:24,640 --> 00:43:31,120
+it's a clear signal that the trend is gaining 
+momentum in that direction. In an uptrend,  
+
+412
+00:43:31,120 --> 00:43:37,680
+it means buyers are in full control and there 
+aren't enough sellers to cause wide swings in  
+
+413
+00:43:37,680 --> 00:43:44,720
+the opposite direction. In a downtrend, growing 
+candles show sellers are dominating the market,  
+
+414
+00:43:44,720 --> 00:43:48,720
+and there aren't enough buyers 
+to counter their pressure.
+
+415
+00:43:48,720 --> 00:43:54,240
+An Inside Bar is characterized by a bar 
+that neither takes out the high nor the  
+
+416
+00:43:54,240 --> 00:44:00,640
+low of its predecessor. An inside bar is 
+easily recognizable due to its relatively  
+
+417
+00:44:00,640 --> 00:44:07,280
+small spread. The inside bar signifies a loss 
+of momentum and uncertainty in the market.  
+
+418
+00:44:07,280 --> 00:44:14,560
+The smaller candle suggests consolidation after a 
+larger move as neither buyers nor sellers are able  
+
+419
+00:44:14,560 --> 00:44:21,280
+to push the price beyond the previous bar's range. 
+The inside bar is also hinting at a potential  
+
+420
+00:44:21,280 --> 00:44:28,000
+breakout in either direction. When an inside 
+bar forms at a crucial spot, such as a major  
+
+421
+00:44:28,000 --> 00:44:35,360
+support or resistance, its break can trigger 
+quite a few traders in and out of position.
+
+422
+00:44:35,360 --> 00:44:41,360
+When you see several candles in a row failing to 
+break through a specific price level, each forming  
+
+423
+00:44:41,360 --> 00:44:47,920
+long wicks in the same direction, you're looking 
+at a Multiple Candle Rejection. In an uptrend,  
+
+424
+00:44:47,920 --> 00:44:55,360
+if multiple candles try to push above a resistance 
+level but fail each time, closing with long upper  
+
+425
+00:44:55,360 --> 00:45:03,200
+wicks, it's a clear sign of rejection at that 
+level. These wicks form a selling pressure zone.  
+
+426
+00:45:03,200 --> 00:45:09,440
+Multiple candle rejections show the repeated 
+failure of price to breach a key level,  
+
+427
+00:45:09,440 --> 00:45:16,320
+suggesting a strong buying or selling presence 
+at that point. When buyers try to push prices  
+
+428
+00:45:16,320 --> 00:45:22,960
+higher but fail multiple times, it indicates 
+that sellers are stepping in aggressively to  
+
+429
+00:45:22,960 --> 00:45:30,000
+defend that level. The long upper wicks represent 
+the failed attempts of buyers to gain control.  
+
+430
+00:45:30,000 --> 00:45:36,320
+Similarly, when sellers try to drive prices 
+lower but encounter repeated rejection,  
+
+431
+00:45:36,320 --> 00:45:42,240
+it suggests strong buying interest at 
+that level. The long lower wicks signal  
+
+432
+00:45:42,240 --> 00:45:49,520
+the inability of sellers to close below that 
+price. These wicks form a buying pressure zone.
+
+433
+00:45:49,520 --> 00:45:56,640
+As price approaches a key level, you'll notice the 
+candles getting smaller in size. Their spread gets  
+
+434
+00:45:56,640 --> 00:46:02,960
+lower and lower. This pattern of successive 
+candles shrinking in size is a clear sign of  
+
+435
+00:46:02,960 --> 00:46:10,320
+Decreasing Candles. Decreasing candles indicate 
+a loss of momentum as prices approach a critical  
+
+436
+00:46:10,320 --> 00:46:16,880
+point in the market. The smaller candles suggest 
+that the distance traveled per candle is getting  
+
+437
+00:46:16,880 --> 00:46:23,280
+shorter, which is an early signal that the 
+current trend is losing steam. For example,  
+
+438
+00:46:23,280 --> 00:46:28,480
+in an uptrend approaching resistance, 
+decreasing candles show that buyers  
+
+439
+00:46:28,480 --> 00:46:35,760
+are losing control and momentum. In a downtrend 
+nearing support, decreasing candles reveal that  
+
+440
+00:46:35,760 --> 00:46:42,000
+sellers are losing their grip on the market. 
+To increase the quality of your trade setup,  
+
+441
+00:46:42,000 --> 00:46:48,880
+look for decreasing candles that finish with 
+multiple long wick candles at the key level.  
+
+442
+00:46:48,880 --> 00:46:53,280
+This combination suggests 
+a strong loss of momentum.
+
+443
+00:46:53,280 --> 00:46:59,760
+With this method, you'll soon realize that reading 
+price action isn't about memorizing dozens of  
+
+444
+00:46:59,760 --> 00:47:05,680
+candlesticks. It's about observing price bars 
+as they form and understanding what the market  
+
+445
+00:47:05,680 --> 00:47:12,800
+has done and is currently doing. The context of 
+the price move is crucial. A candle can have a  
+
+446
+00:47:12,800 --> 00:47:18,800
+completely different meaning depending on where it 
+appears in a price trend. Is it at the beginning,  
+
+447
+00:47:18,800 --> 00:47:25,360
+middle, or end of a trend? Is it at a support or 
+resistance or in the middle of a consolidation  
+
+448
+00:47:25,360 --> 00:47:34,160
+phase? Always analyze candlesticks in the context 
+of the overall price move, never in isolation.
+
+449
+00:47:34,160 --> 00:47:39,840
+Now, let's talk a bit about pullbacks. 
+A pullback is a temporary price movement  
+
+450
+00:47:39,840 --> 00:47:46,160
+that goes against the prevailing trend. It's 
+a period of price retracement or correction  
+
+451
+00:47:46,160 --> 00:47:51,360
+before the trend resumes its original 
+direction. Pullbacks occur when price  
+
+452
+00:47:51,360 --> 00:47:57,440
+moves in the opposite direction of the trend 
+for at least one bar. The psychology behind  
+
+453
+00:47:57,440 --> 00:48:03,280
+pullbacks involves a temporary shift 
+in market sentiment. During an uptrend,  
+
+454
+00:48:03,280 --> 00:48:10,640
+a pullback occurs when bearish pressure briefly 
+overcomes bullish pressure, driving prices lower.  
+
+455
+00:48:10,640 --> 00:48:16,480
+However, this doesn't necessarily indicate a 
+trend reversal. If the lower prices fail to  
+
+456
+00:48:16,480 --> 00:48:22,080
+attract enough selling pressure to break the 
+previous swing low, it suggests the pullback  
+
+457
+00:48:22,080 --> 00:48:28,800
+is merely a correction within the larger 
+uptrend. As sentiment shifts back to bullish,  
+
+458
+00:48:28,800 --> 00:48:35,920
+more buying enters the market. Shorts will cover 
+their positions and the uptrend will resume.
+
+459
+00:48:35,920 --> 00:48:40,640
+Now, not all pullbacks are created 
+equal. We can classify them into  
+
+460
+00:48:40,640 --> 00:48:46,720
+two main types based on their depth: 
+Shallow Pullbacks and Deep Pullbacks.
+
+461
+00:48:46,720 --> 00:48:53,440
+Shallow pullbacks are corrections that 
+retrace only about 25% to 30% of the  
+
+462
+00:48:53,440 --> 00:48:58,560
+current leg of the trend. They indicate 
+that the trend is still quite strong as  
+
+463
+00:48:58,560 --> 00:49:05,120
+the counter-trend moves are relatively minor. 
+However, because the pullbacks are so shallow,  
+
+464
+00:49:05,120 --> 00:49:10,960
+it can be tricky to time your entries 
+and define your risk when trading these.
+
+465
+00:49:10,960 --> 00:49:17,920
+Deep pullbacks are corrections that retrace 
+roughly 50% or more of the current trend leg.  
+
+466
+00:49:17,920 --> 00:49:22,800
+These are often viewed as more favorable 
+trading opportunities as they allow you to  
+
+467
+00:49:22,800 --> 00:49:29,200
+get into the trend at a better price with 
+a more attractive risk-to-reward ratio.  
+
+468
+00:49:29,200 --> 00:49:34,240
+One of the main benefits of trading pullbacks 
+is the potential for higher probability  
+
+469
+00:49:34,240 --> 00:49:40,320
+entries. When a strong price action signal 
+occurs at a key level following a pullback,  
+
+470
+00:49:40,320 --> 00:49:45,760
+it indicates a high likelihood of the trend 
+continuing. Confirmation is key when trading  
+
+471
+00:49:45,760 --> 00:49:50,720
+pullbacks. Look for candlestick patterns 
+to confirm the pullback is ending and the  
+
+472
+00:49:50,720 --> 00:49:56,800
+trend is likely to resume. In an uptrend, the more 
+subdued the bearish pressure during the pullback,  
+
+473
+00:49:56,800 --> 00:50:01,600
+the higher the odds of a successful 
+trend continuation. If done correctly,  
+
+474
+00:50:01,600 --> 00:50:08,960
+trading pullbacks will allow you to buy low 
+in uptrends and sell high in downtrends.
+
+475
+00:50:08,960 --> 00:50:14,720
+When it comes to breakouts and false breakouts, 
+you need to understand how to distinguish between  
+
+476
+00:50:14,720 --> 00:50:21,760
+the two. A true breakout can lead to a powerful 
+new trend, while a false breakout can trap traders  
+
+477
+00:50:21,760 --> 00:50:28,640
+on the wrong side of the market. One key thing to 
+watch for is how price behaves after breaking out  
+
+478
+00:50:28,640 --> 00:50:34,640
+of a trading range. If it quickly reverses and 
+comes back into the range, that's a sign of a  
+
+479
+00:50:34,640 --> 00:50:41,600
+potential false breakout. Often these false moves 
+are engineered by large institutional traders to  
+
+480
+00:50:41,600 --> 00:50:47,680
+build liquidity before driving the market in the 
+opposite direction. To avoid getting caught in  
+
+481
+00:50:47,680 --> 00:50:54,640
+these traps, it's wise to wait for a retest of the 
+breakout level before entering a trade. Look for  
+
+482
+00:50:54,640 --> 00:51:01,120
+price to hold outside the breakout level on the 
+retest. In a true breakout, price should continue  
+
+483
+00:51:01,120 --> 00:51:09,120
+in the breakout direction, making new highs or 
+lows. However, if the breakout fails and price  
+
+484
+00:51:09,120 --> 00:51:16,080
+remains stuck in a larger trading range, that's a 
+sign that the attempted trend change has failed.
+
+485
+00:51:16,080 --> 00:51:22,480
+Another thing to consider is the overall market 
+context. In a bull market, upward breakouts tend  
+
+486
+00:51:22,480 --> 00:51:30,000
+to be more reliable and profitable, while bear 
+markets favor downward breakouts. Trading with a  
+
+487
+00:51:30,000 --> 00:51:36,480
+prevailing trend will tilt the odds in your favor. 
+Remember, the market doesn't have to respect the  
+
+488
+00:51:36,480 --> 00:51:43,840
+levels we draw on our charts. False breakouts 
+will occur with varying degrees of aggression.
+
+489
+00:51:43,840 --> 00:51:48,480
+There are two main types of patterns that 
+every price action trader should know:  
+
+490
+00:51:48,480 --> 00:51:52,080
+Reversal Patterns and Continuation Patterns.
+
+491
+00:51:52,080 --> 00:51:58,160
+Reversal patterns signal that the current trend 
+may be coming to an end and the price could change  
+
+492
+00:51:58,160 --> 00:52:04,560
+direction. The Head and Shoulders is the most 
+popular reversal pattern. It often signals that  
+
+493
+00:52:04,560 --> 00:52:11,520
+an uptrend is about to reverse into a downtrend. 
+The opposite is an Inverted Head and Shoulders,  
+
+494
+00:52:11,520 --> 00:52:18,000
+which can form at the bottom of a downtrend, 
+hinting at a potential bullish reversal. Double  
+
+495
+00:52:18,000 --> 00:52:24,240
+Tops and Double Bottoms should be your main focal 
+point. These form when price tests the level twice  
+
+496
+00:52:24,240 --> 00:52:30,560
+but can't break through, suggesting the trend 
+is losing momentum. A double top often leads  
+
+497
+00:52:30,560 --> 00:52:37,600
+to a bearish reversal, while a double bottom 
+can result in a bullish reversal. Triple Tops  
+
+498
+00:52:37,600 --> 00:52:44,080
+and Triple Bottoms are similar, with the price 
+testing a level three times before reversing.
+
+499
+00:52:44,080 --> 00:52:49,840
+Continuation patterns suggest that the current 
+trend is just taking a breather before likely  
+
+500
+00:52:49,840 --> 00:52:56,240
+resuming. Flags and Pennants form quite 
+often. These appear as brief consolidations  
+
+501
+00:52:56,240 --> 00:53:01,680
+or pullbacks against the prevailing trend. 
+They usually lead to the trend continuing  
+
+502
+00:53:01,680 --> 00:53:08,240
+once price breaks out of the pattern in the 
+direction of the prior trend. Triangles are  
+
+503
+00:53:08,240 --> 00:53:14,080
+usually continuation patterns with the trend 
+expected to resume in the direction it was going  
+
+504
+00:53:14,080 --> 00:53:19,760
+before the triangle formed. Rectangles 
+are my favorite continuation patterns.  
+
+505
+00:53:19,760 --> 00:53:26,320
+These are sideways channels where price bounces 
+between support and resistance. I like to trade  
+
+506
+00:53:26,320 --> 00:53:32,640
+false breakouts that occur contrary to the 
+prevailing trend. So in an uptrend, look  
+
+507
+00:53:32,640 --> 00:53:41,280
+to trade false breakouts below support. And in a 
+downtrend, trade false breakouts above resistance.
+
+508
+00:53:41,280 --> 00:53:45,760
+While knowing these classic patterns is 
+important, you need to look at them through  
+
+509
+00:53:45,760 --> 00:53:52,000
+the lens of price action. Simply memorizing 
+patterns is not enough. You must understand  
+
+510
+00:53:52,000 --> 00:53:57,840
+the market dynamics and psychology behind 
+them. This means paying close attention to  
+
+511
+00:53:57,840 --> 00:54:04,960
+market structure and the key levels on the chart. 
+Look for price zones where the market has changed  
+
+512
+00:54:04,960 --> 00:54:11,280
+direction multiple times before. If a chart 
+pattern forms near one of these key levels,  
+
+513
+00:54:11,280 --> 00:54:17,280
+it can add significance to the pattern 
+signal. The overall trend is also crucial.  
+
+514
+00:54:17,280 --> 00:54:23,120
+"Trend is your friend," as they say. In 
+an uptrend, bullish continuation patterns  
+
+515
+00:54:23,120 --> 00:54:29,440
+are more likely to succeed. In a downtrend, 
+bearish continuation patterns have a higher  
+
+516
+00:54:29,440 --> 00:54:35,520
+probability. You always want to trade in the 
+direction of the path of least resistance.
+
+517
+00:54:35,520 --> 00:54:41,200
+When a reversal pattern forms, it's signaling 
+that the trend may be in trouble, but it's not  
+
+518
+00:54:41,200 --> 00:54:48,240
+a guarantee. Often times reversal patterns 
+will fail and the prior trend will resume.  
+
+519
+00:54:48,240 --> 00:54:54,480
+Don't jump in on the first sign of a reversal. 
+Wait for price to confirm it. During pullbacks  
+
+520
+00:54:54,480 --> 00:55:00,000
+or retracements against the main trend, 
+continuation patterns can offer low-risk  
+
+521
+00:55:00,000 --> 00:55:07,200
+entries. If you expect the trend to resume again, 
+look for fake-outs against the current trend.  
+
+522
+00:55:07,200 --> 00:55:14,000
+When a pattern breakout fails and price quickly 
+reverses, these are good opportunities to enter,  
+
+523
+00:55:14,000 --> 00:55:19,360
+capitalizing on trapped traders who 
+thought the trend was about to change.
+
+524
+00:55:19,360 --> 00:55:25,760
+No two patterns are exactly alike in the real 
+world. As you analyze more and more charts,  
+
+525
+00:55:25,760 --> 00:55:32,160
+you'll develop a keener eye for the subtleties 
+that separate successful patterns from failures.  
+
+526
+00:55:32,160 --> 00:55:36,880
+You'll start to recognize how certain 
+patterns tend to play out in specific  
+
+527
+00:55:36,880 --> 00:55:42,960
+markets, timeframes, or conditions. 
+Of course, no pattern is guaranteed.  
+
+528
+00:55:42,960 --> 00:55:48,960
+Approach patterns with the combination 
+of respect and skepticism they deserve.
+
+529
+00:55:48,960 --> 00:55:55,600
+Price action becomes 10 times more effective with 
+the help of volume. Volume is the lifeblood of the  
+
+530
+00:55:55,600 --> 00:56:01,920
+markets. It reflects the actual buying and selling 
+pressure behind every price move. When you're  
+
+531
+00:56:01,920 --> 00:56:08,320
+looking at a chart, the price bars show you what's 
+happening, but the volume bars reveal why it's  
+
+532
+00:56:08,320 --> 00:56:15,840
+happening. Volume tells you about the intensity, 
+urgency, and commitment behind the price action.
+
+533
+00:56:15,840 --> 00:56:22,320
+Here's how you can use volume to confirm or 
+question what you're seeing in the price. First,  
+
+534
+00:56:22,320 --> 00:56:29,200
+look for convergence between volume and price. In 
+an uptrend, rising prices should be accompanied by  
+
+535
+00:56:29,200 --> 00:56:37,200
+rising volume. This shows genuine buying interest 
+that can sustain the move. In a downtrend, falling  
+
+536
+00:56:37,200 --> 00:56:44,000
+prices with increasing volume signals strong 
+selling pressure that could drive prices lower.
+
+537
+00:56:44,000 --> 00:56:49,760
+Be wary of divergences. If prices 
+are rising but volume is falling,  
+
+538
+00:56:49,760 --> 00:56:57,040
+it's a warning sign. The uptrend may be losing 
+steam. Buyers are less committed. An upside  
+
+539
+00:56:57,040 --> 00:57:05,040
+breakout on low volume is suspect. Likewise, 
+if prices are falling but volume is drying up,  
+
+540
+00:57:05,040 --> 00:57:10,720
+sellers may be losing control. The 
+downtrend could be nearing exhaustion.
+
+541
+00:57:10,720 --> 00:57:16,160
+Look for volume spikes near support and 
+resistance. Major players often show  
+
+542
+00:57:16,160 --> 00:57:23,360
+their hand at key levels. If there's a volume 
+surge as price tests a support level and holds,  
+
+543
+00:57:23,360 --> 00:57:27,840
+that's often a sign of strong demand 
+absorbing the selling pressure;  
+
+544
+00:57:27,840 --> 00:57:35,200
+the support is likely to hold. Also track 
+volume during breakouts. A valid breakout  
+
+545
+00:57:35,200 --> 00:57:42,080
+(up or down) should occur with an expansion 
+in volume. This confirms the price action.  
+
+546
+00:57:42,080 --> 00:57:49,360
+But a breakout on low volume is more likely to 
+fail, trapping traders in the wrong direction.
+
+547
+00:57:49,360 --> 00:57:56,240
+Also, watch for Climactic Volume. After a strong 
+run-up, a huge volume spike with a wide range  
+
+548
+00:57:56,240 --> 00:58:03,120
+price bar can signal buying exhaustion—a 
+Buying Climax. Supply may be taking over.  
+
+549
+00:58:03,120 --> 00:58:11,200
+The uptrend is in jeopardy. The reverse is true 
+for a Selling Climax after an extended decline.
+
+550
+00:58:11,200 --> 00:58:18,400
+Monitor the volume patterns in consolidations. 
+Is volume contracting as the price range narrows?  
+
+551
+00:58:18,400 --> 00:58:25,280
+This can be a sign of decreasing volatility 
+and building pressure for the next move. Also,  
+
+552
+00:58:25,280 --> 00:58:32,320
+look for high volume reversal bars. A wide range 
+bar on massive volume that reverses an existing  
+
+553
+00:58:32,320 --> 00:58:40,240
+trend is a red flag. For example, a bearish 
+momentum bar with huge volume after an uptrend  
+
+554
+00:58:40,240 --> 00:58:47,760
+is a sign that sellers have taken control. Think 
+of volume as the fuel and price as the vehicle.  
+
+555
+00:58:47,760 --> 00:58:54,480
+A rally or decline can only go as far as the fuel 
+in the tank. As a price action trader, you always  
+
+556
+00:58:54,480 --> 00:59:01,600
+want to be on the stronger side of the market—the 
+side with more aggressive volume behind it.
+
+557
+00:59:01,600 --> 00:59:08,400
+Market prices move based on the flow of buy and 
+sell orders. More buying pressure pushes prices  
+
+558
+00:59:08,400 --> 00:59:15,280
+up while more selling pressure pushes prices 
+down. For substantial price movements to occur,  
+
+559
+00:59:15,280 --> 00:59:22,720
+the market needs to interact with areas of high 
+order concentration, also known as liquidity. So,  
+
+560
+00:59:22,720 --> 00:59:28,960
+liquidity means all the buy and sell orders 
+waiting to be filled. Now, here's the interesting  
+
+561
+00:59:28,960 --> 00:59:36,080
+part. If there isn't enough liquidity, the big 
+players (the Smart Money) will create it. For big  
+
+562
+00:59:36,080 --> 00:59:42,480
+traders like banks or hedge funds, liquidity 
+is critical. They deal with large amounts of  
+
+563
+00:59:42,480 --> 00:59:49,120
+money. In less liquid markets, their big trades 
+can push prices around a lot. This makes it hard  
+
+564
+00:59:49,120 --> 00:59:55,520
+for them to buy or sell without losing money. 
+Now, if you understand where liquidity sits,  
+
+565
+00:59:55,520 --> 01:00:02,080
+you can identify Magnet Areas—those 
+price levels that attract price movement.
+
+566
+01:00:02,080 --> 01:00:07,680
+Your main task is to find Liquidity 
+Pools. Liquidity pools are like busy  
+
+567
+01:00:07,680 --> 01:00:13,760
+trading spots in the market. They're areas 
+where lots of buy and sell orders gather,  
+
+568
+01:00:13,760 --> 01:00:19,200
+and they form at key price levels. 
+These could be previous highs or lows,  
+
+569
+01:00:19,200 --> 01:00:25,040
+round numbers, or other important points. 
+We'll talk about these in a minute. Now,  
+
+570
+01:00:25,040 --> 01:00:32,080
+traders often place their orders at these 
+levels creating a cluster of potential trades.
+
+571
+01:00:32,080 --> 01:00:35,280
+There are different types of liquidity pools:
+
+572
+01:00:35,280 --> 01:00:41,920
+Major Liquidity Pools: These form at the highs 
+and lows of longer timeframes. These are big,  
+
+573
+01:00:41,920 --> 01:00:45,440
+important levels that many 
+traders watch. You might see  
+
+574
+01:00:45,440 --> 01:00:52,400
+them on weekly, monthly, or even yearly charts.
+Medium Liquidity Pools: These show up on shorter  
+
+575
+01:00:52,400 --> 01:01:00,160
+timeframes like 1-hour charts. These are still 
+significant but not as big as the major pools. 
+
+576
+01:01:00,160 --> 01:01:06,000
+Minor Liquidity Pools: These appear on 
+very short timeframes like 1-minute or  
+
+577
+01:01:06,000 --> 01:01:12,800
+5-minute charts. These are smaller and might 
+only matter for very short-term traders. 
+
+578
+01:01:12,800 --> 01:01:18,400
+Liquidity pools work by attracting price. 
+When price approaches a liquidity pool,  
+
+579
+01:01:18,400 --> 01:01:25,840
+a few things can happen. It might reverse as 
+lots of orders get filled at that level, or it  
+
+580
+01:01:25,840 --> 01:01:32,640
+might pause there before continuing. Sometimes it 
+might even break through quickly if there's enough  
+
+581
+01:01:32,640 --> 01:01:40,160
+momentum. And big players are constantly trying to 
+hunt these liquidity pools. They often push price  
+
+582
+01:01:40,160 --> 01:01:47,440
+to these levels to trigger a bunch of orders, 
+causing a sharp move. So, liquidity zones are  
+
+583
+01:01:47,440 --> 01:01:53,920
+key areas where Smart Money players often target 
+to protect their positions and to trap other  
+
+584
+01:01:53,920 --> 01:02:02,000
+traders. These zones act like magnets for price, 
+drawing it in and often causing significant moves.
+
+585
+01:02:02,000 --> 01:02:09,280
+So, let's talk about each type of liquidity zone 
+and how Smart Money uses them to their advantage.
+
+586
+01:02:09,280 --> 01:02:16,640
+First area is around Structural Highs and Lows. 
+These are major turning points in price action—the  
+
+587
+01:02:16,640 --> 01:02:22,960
+peaks and valleys you see on a chart that stand 
+out from the rest. Smart Money loves these  
+
+588
+01:02:22,960 --> 01:02:30,320
+spots because they know traders often place their 
+stop-losses just beyond them. Let's say we have a  
+
+589
+01:02:30,320 --> 01:02:38,320
+strong uptrend with a series of higher highs and 
+higher lows. Traders often jump on this trend,  
+
+590
+01:02:38,320 --> 01:02:45,120
+placing their stops just below the most recent 
+low. And Smart Money knows this. They often push  
+
+591
+01:02:45,120 --> 01:02:52,960
+the price down, breaking that low and triggering 
+all those stop-losses. This flood of sell orders  
+
+592
+01:02:52,960 --> 01:03:00,400
+drives the price down further, often before Smart 
+Money steps in to buy at a discount. The same  
+
+593
+01:03:00,400 --> 01:03:07,520
+happens in downtrends. Retail shorts place their 
+stops above recent highs. Smart Money spike the  
+
+594
+01:03:07,520 --> 01:03:14,640
+price up, hit those stops, then drive the price 
+back down. To spot these zones, look for clear  
+
+595
+01:03:14,640 --> 01:03:21,840
+swing highs and lows. The more obvious they are, 
+the more likely they are to attract attention.
+
+596
+01:03:21,840 --> 01:03:28,400
+Trend Lines are another favorite tool of traders. 
+The diagonal lines that connect a series of lows  
+
+597
+01:03:28,400 --> 01:03:35,920
+in an uptrend or highs in a downtrend. They 
+are simple to draw and easy to understand,  
+
+598
+01:03:35,920 --> 01:03:43,280
+which is why so many traders rely on them. Big 
+players often target these trend lines, especially  
+
+599
+01:03:43,280 --> 01:03:50,320
+long-standing ones. They know that many traders 
+will have stop-losses placed just beyond these  
+
+600
+01:03:50,320 --> 01:03:57,840
+lines. By breaking a significant trend line, they 
+can trigger a cascade of orders. For instance,  
+
+601
+01:03:57,840 --> 01:04:05,120
+in a long-standing uptrend, many traders will be 
+long with their stops just below the trend line.  
+
+602
+01:04:05,120 --> 01:04:11,840
+Smart Money might push the price down to break 
+this line. As stops are hit, more sell orders  
+
+603
+01:04:11,840 --> 01:04:19,840
+flood in. Smart Money can then step in and buy 
+at lower prices before resuming the uptrend.
+
+604
+01:04:19,840 --> 01:04:26,960
+Equal Highs and Lows, also known as Double Tops 
+and Double Bottoms, are also exploited by Smart  
+
+605
+01:04:26,960 --> 01:04:34,080
+Money. These patterns form when price reaches the 
+same level twice, creating a potential reversal  
+
+606
+01:04:34,080 --> 01:04:41,920
+point. Traders often see these patterns and 
+place their trades accordingly. For a double top,  
+
+607
+01:04:41,920 --> 01:04:47,760
+they might go short with a stop just above 
+the equal highs. For a double bottom,  
+
+608
+01:04:47,760 --> 01:04:54,800
+they might go long with a stop just below the 
+equal lows. Smart Money knows this and often  
+
+609
+01:04:54,800 --> 01:05:01,200
+pushes the price just beyond these levels 
+to trigger stop-losses before reversing.  
+
+610
+01:05:01,200 --> 01:05:06,160
+This creates a liquidity pool that 
+they can use to their advantage.
+
+611
+01:05:06,160 --> 01:05:12,800
+Trading Sessions, particularly the Asian, London, 
+and New York sessions, often create their own  
+
+612
+01:05:12,800 --> 01:05:19,120
+ranges. These ranges can become significant 
+liquidity zones, especially at their highs and  
+
+613
+01:05:19,120 --> 01:05:25,840
+lows. Big players often target the session's 
+highs because they know many traders use them  
+
+614
+01:05:25,840 --> 01:05:33,440
+for entries and stop placements. For example, 
+many traders use the Asian session range as a  
+
+615
+01:05:33,440 --> 01:05:40,960
+guide for the London session. They might place buy 
+orders above the Asian high and sell orders below  
+
+616
+01:05:40,960 --> 01:05:48,400
+the Asian low. Smart Money might push the price 
+just beyond these levels to trigger these orders,  
+
+617
+01:05:48,400 --> 01:05:54,400
+creating liquidity that they can trade against. 
+They might spike the price above the Asian high,  
+
+618
+01:05:54,400 --> 01:06:01,760
+triggering buy orders, only to sell into 
+this liquidity and push the price back down.
+
+619
+01:06:01,760 --> 01:06:07,920
+The Previous Day's High and Low are other 
+significant levels that many traders watch.  
+
+620
+01:06:07,920 --> 01:06:14,000
+They often serve as support and resistance 
+levels for the current day's trading. Again,  
+
+621
+01:06:14,000 --> 01:06:20,880
+the big boys frequently target these levels. 
+For instance, many traders place buy orders  
+
+622
+01:06:20,880 --> 01:06:27,040
+just above the previous day's high, expecting 
+the upward momentum to continue. Smart Money  
+
+623
+01:06:27,040 --> 01:06:32,880
+will push the price up to trigger these 
+orders, creating a pool of liquidity.  
+
+624
+01:06:32,880 --> 01:06:39,040
+They can then sell into this liquidity, 
+potentially reversing the price direction.
+
+625
+01:06:39,040 --> 01:06:45,200
+The Previous Week's High and Low also attract a 
+lot of attention. You might not even know where  
+
+626
+01:06:45,200 --> 01:06:52,560
+those levels are. These levels often act as key 
+support and resistance on higher timeframes,  
+
+627
+01:06:52,560 --> 01:06:59,680
+and Smart Money often exploit these levels knowing 
+that many swing traders and position traders use  
+
+628
+01:06:59,680 --> 01:07:07,120
+them for stop placement and entry orders. For 
+example, in a downtrend, many traders might  
+
+629
+01:07:07,120 --> 01:07:14,160
+place sell orders below the previous week's low, 
+expecting the trend to continue. Smart Money often  
+
+630
+01:07:14,160 --> 01:07:21,520
+push the price down to trigger these orders, 
+creating a liquidity pool they can buy into.
+
+631
+01:07:21,520 --> 01:07:28,800
+Supply and Demand Zones are other liquidity zones. 
+These are areas where price has shown significant  
+
+632
+01:07:28,800 --> 01:07:36,880
+rejection in the past, and these zones are prime 
+targets for Smart Money manipulation. Smart Money  
+
+633
+01:07:36,880 --> 01:07:43,520
+know many traders place their orders around 
+them. For example, many traders might place  
+
+634
+01:07:43,520 --> 01:07:50,640
+buy orders at a strong demand zone. Smart Money 
+might push the price into this zone, triggering  
+
+635
+01:07:50,640 --> 01:07:57,440
+these buy orders and creating liquidity. They 
+can then potentially sell into this liquidity,  
+
+636
+01:07:57,440 --> 01:08:03,680
+driving the price even lower. That's why you see 
+so many demand zones that should work in theory,  
+
+637
+01:08:03,680 --> 01:08:11,120
+but in reality, they fail. The same happens with 
+supply zones. Traders often place sell orders  
+
+638
+01:08:11,120 --> 01:08:18,080
+at these levels, expecting price to drop. Smart 
+Money might spike the price into the supply zone,  
+
+639
+01:08:18,080 --> 01:08:25,920
+triggering these sell orders, then buy into this 
+liquidity to potentially drive the price higher.
+
+640
+01:08:25,920 --> 01:08:33,680
+Fair Value Gaps (FVG) are also targeted. These are 
+areas on the chart where price has moved rapidly.  
+
+641
+01:08:33,680 --> 01:08:41,360
+These gaps often act as magnets for price, drawing 
+it back to fill the gap. Smart Money often uses  
+
+642
+01:08:41,360 --> 01:08:48,960
+these gaps as targets. For example, if there's a 
+bullish fair value gap below the current price,  
+
+643
+01:08:48,960 --> 01:08:56,640
+many traders might place buy orders in this area, 
+expecting price to come back and fill the gap.  
+
+644
+01:08:56,640 --> 01:09:00,480
+Smart Money might push the 
+price down through this level,  
+
+645
+01:09:00,480 --> 01:09:06,320
+triggering these buy orders and creating 
+liquidity. The same happens with bearish  
+
+646
+01:09:06,320 --> 01:09:12,400
+fair value gaps above the current price. 
+Traders often place sell orders in these  
+
+647
+01:09:12,400 --> 01:09:19,440
+areas. Smart Money might spike the price up 
+through the gap, triggering the sell orders.  
+
+648
+01:09:19,440 --> 01:09:25,280
+That's why maybe 90% of fair value gaps 
+fail, but that's a topic for another video.
+
+649
+01:09:26,160 --> 01:09:32,720
+Round Numbers ending in zero or double zeros 
+are psychologically significant levels that  
+
+650
+01:09:32,720 --> 01:09:39,360
+attract a lot of attention. These levels are 
+prime targets for Smart Money manipulation.  
+
+651
+01:09:39,360 --> 01:09:45,040
+Smart Money knows that many traders place 
+their orders around these round numbers.  
+
+652
+01:09:45,040 --> 01:09:51,600
+They might place buy orders just above a 
+round number or sell orders just below it.  
+
+653
+01:09:51,600 --> 01:09:57,760
+The big boys often push the price to these levels 
+to trigger these orders, creating liquidity that  
+
+654
+01:09:57,760 --> 01:10:04,080
+they can trade against. For instance, if 
+there's a round number at the $50 level,  
+
+655
+01:10:04,080 --> 01:10:11,440
+many traders might place buy orders slightly above 
+it, expecting the price to rise above this level.  
+
+656
+01:10:11,440 --> 01:10:18,720
+The big boys might push the price up to trigger 
+these buy orders, creating a pool of liquidity.  
+
+657
+01:10:18,720 --> 01:10:24,320
+They can then potentially sell into this 
+liquidity, driving the price back down.
+
+658
+01:10:24,320 --> 01:10:30,720
+Understanding all these liquidity zones and how 
+Smart Money targets them is key. It helps you  
+
+659
+01:10:30,720 --> 01:10:38,320
+avoid common traps. As you practice, you'll start 
+to see patterns. You might notice that price often  
+
+660
+01:10:38,320 --> 01:10:45,440
+reverses after taking out a previous high or 
+low. Or you might see that certain levels keep  
+
+661
+01:10:45,440 --> 01:10:52,080
+causing price to pause or reverse. And please 
+don't just draw liquidity zones all over your  
+
+662
+01:10:52,080 --> 01:10:59,920
+chart. Focus on the most important ones. Too many 
+zones can make your analysis confusing. Also,  
+
+663
+01:10:59,920 --> 01:11:05,360
+pay attention to how price reacts when 
+it reaches a liquidity zone. Does it  
+
+664
+01:11:05,360 --> 01:11:11,600
+reverse sharply? Does it pause and then 
+continue? Or does it blow right through?  
+
+665
+01:11:11,600 --> 01:11:17,680
+This can give you clues about the strength 
+of the move and what might happen next. You  
+
+666
+01:11:17,680 --> 01:11:23,120
+might notice that certain types of zones 
+work better in certain market conditions  
+
+667
+01:11:23,120 --> 01:11:29,600
+or for certain currency pairs or stocks. This 
+is where keeping a detailed trading journal  
+
+668
+01:11:29,600 --> 01:11:37,120
+with your findings can be incredibly valuable, 
+allowing you to refine your strategy over time.
+
+669
+01:11:37,120 --> 01:11:40,240
+Now, let's talk about Liquidity Inducement.  
+
+670
+01:11:40,240 --> 01:11:46,320
+Inducement is about creating situations that 
+make other traders want to trade at certain  
+
+671
+01:11:46,320 --> 01:11:52,240
+levels. This creates available liquidity 
+for bigger players to use when they want to  
+
+672
+01:11:52,240 --> 01:11:58,640
+enter or exit their positions. To understand 
+this better, let's look at how the market is  
+
+673
+01:11:58,640 --> 01:12:05,040
+structured. When we look at charts, we 
+see highs and lows. Above these highs,  
+
+674
+01:12:05,040 --> 01:12:12,480
+we assume there's buy-side liquidity, and below 
+the lows, we assume there's sell-side liquidity.
+
+675
+01:12:12,480 --> 01:12:18,960
+Buy-Side Liquidity is all the liquidity that 
+buyers will use, created mainly by stop-loss  
+
+676
+01:12:18,960 --> 01:12:26,880
+orders of sellers and buy-stop orders of buyers. 
+In a bullish market, price often uses buy-side  
+
+677
+01:12:26,880 --> 01:12:34,240
+liquidity to fuel the next upward move. To have a 
+big bullish move, the market needs sell orders to  
+
+678
+01:12:34,240 --> 01:12:41,920
+generate more liquidity. Also, the buy orders from 
+stop-losses of sellers generate more buy orders,  
+
+679
+01:12:41,920 --> 01:12:47,120
+which is why you often see a surge 
+in buying when price breaks out.
+
+680
+01:12:47,120 --> 01:12:52,240
+Sell-Side Liquidity is the opposite. 
+It's the liquidity that sellers will use,  
+
+681
+01:12:52,240 --> 01:12:58,320
+created mainly by stop-loss orders of 
+buyers and sell-stop orders of sellers.
+
+682
+01:12:58,320 --> 01:13:04,480
+Imagine you see a double bottom on your 
+chart. Price hits the same low point twice,  
+
+683
+01:13:04,480 --> 01:13:11,040
+forming a support level. Many traders might 
+want to buy at this support level. Now,  
+
+684
+01:13:11,040 --> 01:13:16,400
+think about where these traders would put 
+their stop-losses. They'd likely put them  
+
+685
+01:13:16,400 --> 01:13:22,800
+just below the lows. This creates a pool 
+of sell-side liquidity below the lows.  
+
+686
+01:13:22,800 --> 01:13:28,800
+This is important because big players need this 
+liquidity. They can't just jump into the market  
+
+687
+01:13:28,800 --> 01:13:35,920
+with huge orders. That would cause wild price 
+swings and could work against them. Instead,  
+
+688
+01:13:35,920 --> 01:13:42,800
+they use liquidity inducement to their advantage. 
+These big players create patterns or situations  
+
+689
+01:13:42,800 --> 01:13:49,840
+in the market that encourage other traders to 
+place their orders in predictable spots. This  
+
+690
+01:13:49,840 --> 01:13:57,280
+builds up pools of liquidity that the big players 
+can then use to enter or exit their positions.
+
+691
+01:13:57,280 --> 01:14:01,920
+Now, before we continue, let us know 
+in the comments what topics you'd like  
+
+692
+01:14:01,920 --> 01:14:08,240
+us to cover and please drop us a like 
+to help us with the YouTube algorithm.
+
+693
+01:14:08,240 --> 01:14:13,680
+Now, let's talk about how big players 
+use this liquidity. They often create  
+
+694
+01:14:13,680 --> 01:14:20,000
+what's called a Liquidity Sweep. It's when big 
+players in the market try to take advantage of  
+
+695
+01:14:20,000 --> 01:14:26,320
+areas where there's a lot of buy or sell 
+orders waiting. These areas are like pools  
+
+696
+01:14:26,320 --> 01:14:32,480
+of money just sitting there ready to be used. 
+For instance, if there's a strong support level  
+
+697
+01:14:32,480 --> 01:14:38,400
+with many stop-losses just below it, price 
+might sweep down to hit those stops before  
+
+698
+01:14:38,400 --> 01:14:45,120
+reversing. This action sweeps the liquidity, 
+letting larger players fill their orders.
+
+699
+01:14:45,840 --> 01:14:52,320
+Knowing about liquidity sweeps can help you in two 
+main ways. First, you can look for where sweeps  
+
+700
+01:14:52,320 --> 01:14:59,520
+have already happened as this might show where 
+big players have been active. Second, you can use  
+
+701
+01:14:59,520 --> 01:15:06,240
+this knowledge to guess future moves by spotting 
+where available liquidity might be. One way to  
+
+702
+01:15:06,240 --> 01:15:13,600
+trade these liquidity sweeps is by identifying the 
+inducement before a potential zone of interest.  
+
+703
+01:15:13,600 --> 01:15:20,400
+This is where price action might encourage traders 
+to enter positions, creating more liquidity for a  
+
+704
+01:15:20,400 --> 01:15:27,520
+potential move. For example, if you're looking at 
+a possible buy zone, you might see price dip below  
+
+705
+01:15:27,520 --> 01:15:34,560
+a previous low before the main move up. This 
+dip could make sellers enter short positions  
+
+706
+01:15:34,560 --> 01:15:42,720
+or exit longs, creating liquidity that larger 
+players can use to enter their long positions.
+
+707
+01:15:42,720 --> 01:15:48,960
+Liquidity goes hand-in-hand with the market 
+structure. Market structure refers to the  
+
+708
+01:15:48,960 --> 01:15:54,720
+overall pattern of price movement. It's 
+about identifying trends, key levels,  
+
+709
+01:15:54,720 --> 01:16:02,000
+and the flow of the market. Liquidity is about 
+where buying and selling activity clusters.  
+
+710
+01:16:02,000 --> 01:16:07,600
+These two concepts work together to shape 
+market behavior. Here's how they interact:
+
+711
+01:16:07,600 --> 01:16:12,960
+Areas of high liquidity often become key 
+points in the market structure. A level with  
+
+712
+01:16:12,960 --> 01:16:19,920
+lots of buy orders might become a strong support 
+level. If price keeps bouncing off this level,  
+
+713
+01:16:19,920 --> 01:16:25,920
+it becomes part of the market structure.
+Key structural levels tend to attract liquidity.  
+
+714
+01:16:26,560 --> 01:16:33,280
+Traders often place their orders around important 
+structural points like trend lines or previous  
+
+715
+01:16:33,280 --> 01:16:40,960
+highs and lows. This creates a feedback loop where 
+structure and liquidity reinforce each other. 
+
+716
+01:16:40,960 --> 01:16:47,200
+Breaks in structure can drain liquidity. When 
+price breaks through a key structural level,  
+
+717
+01:16:47,200 --> 01:16:53,760
+it often leads to a surge in trading activity. 
+This can temporarily drain liquidity from other  
+
+718
+01:16:53,760 --> 01:17:02,400
+areas as traders rush to adjust their positions.
+Liquidity flows with structure. In a strong trend,  
+
+719
+01:17:02,400 --> 01:17:08,880
+liquidity tends to cluster in the direction 
+of the trend. For example, in an uptrend,  
+
+720
+01:17:08,880 --> 01:17:15,520
+you might see more liquidity above the current 
+price as traders anticipate further rises. 
+
+721
+01:17:16,080 --> 01:17:22,480
+Structure helps predict liquidity. By reading 
+the market structure, you can often predict where  
+
+722
+01:17:22,480 --> 01:17:29,760
+liquidity might be. For instance, after a series 
+of higher lows in an uptrend, you can expect  
+
+723
+01:17:29,760 --> 01:17:37,360
+liquidity to gather below each of these lows.
+Liquidity confirms structure. Sometimes the way  
+
+724
+01:17:37,360 --> 01:17:42,240
+price interacts with liquidity can 
+confirm or deny the current market  
+
+725
+01:17:42,240 --> 01:17:48,240
+structure. If price easily breaks through 
+what should be a liquidity-rich level,  
+
+726
+01:17:48,240 --> 01:17:55,600
+it might signal a change in the overall structure.
+Both liquidity and market structure guide price  
+
+727
+01:17:55,600 --> 01:18:02,240
+movement. Price often moves towards liquidity 
+but within the constraints of the larger market  
+
+728
+01:18:02,240 --> 01:18:08,960
+structure, and institutional activity links 
+them. Big players in the market often use  
+
+729
+01:18:08,960 --> 01:18:14,720
+their understanding of both liquidity 
+and structure to plan their trades.  
+
+730
+01:18:14,720 --> 01:18:21,040
+Both liquidity and market structure change 
+over time. Just as market structure evolves,  
+
+731
+01:18:21,040 --> 01:18:27,280
+so does the distribution of liquidity. What 
+was a key liquidity level last week might  
+
+732
+01:18:27,280 --> 01:18:34,560
+not be as important now. So, keeping track of 
+both helps you stay in tune with the market.  
+
+733
+01:18:34,560 --> 01:18:40,560
+The interplay between liquidity and structure 
+can help you spot truly important levels in the  
+
+734
+01:18:40,560 --> 01:18:47,920
+market. Areas where structural levels align with 
+high liquidity are often the most significant.
+
+735
+01:18:47,920 --> 01:18:52,560
+In trading, we often talk about 
+Market Structure Shifts (MSS)—the  
+
+736
+01:18:52,560 --> 01:18:59,600
+big changes in the overall trend of the market. 
+Inducement often plays a role in these shifts.  
+
+737
+01:18:59,600 --> 01:19:05,120
+For example, before a major trend change, 
+you might see price action that looks like  
+
+738
+01:19:05,120 --> 01:19:11,280
+it's continuing the old trend. This can trick 
+traders into entering positions in the direction  
+
+739
+01:19:11,280 --> 01:19:18,480
+of the old trend, creating liquidity for the 
+Smart Money to use when reversing the market.
+
+740
+01:19:18,480 --> 01:19:25,360
+Liquidity inducement isn't something bad. If you 
+can spot it happening, you might find good trading  
+
+741
+01:19:25,360 --> 01:19:32,880
+signals for entries. Look for areas where there's 
+a lot of liquidity. When the market is going up,  
+
+742
+01:19:32,880 --> 01:19:39,520
+look for buy entries just below recent 
+lows. That's where big players often buy,  
+
+743
+01:19:39,520 --> 01:19:44,080
+scooping up all the sell orders. 
+When the market is going down,  
+
+744
+01:19:44,080 --> 01:19:52,400
+look to sell just above recent highs. That's where 
+big players often sell into all the buy orders.  
+
+745
+01:19:52,400 --> 01:19:57,440
+For exits, think about where other 
+traders might have their stop-losses  
+
+746
+01:19:57,440 --> 01:20:04,560
+or take-profit orders. These create pools of 
+liquidity. As price approaches these areas,  
+
+747
+01:20:04,560 --> 01:20:11,600
+be ready to exit your trade. The price might 
+reverse once it hits these liquidity pools.
+
+748
+01:20:11,600 --> 01:20:18,480
+Every time the market makes a new range, mark the 
+high and low. If you're trading in this range,  
+
+749
+01:20:18,480 --> 01:20:24,560
+you might enter at one end where there's 
+internal liquidity and exit at the other  
+
+750
+01:20:24,560 --> 01:20:30,960
+end where there's external liquidity. 
+Also, you want to trade where there's low  
+
+751
+01:20:30,960 --> 01:20:37,520
+resistance. This means there should be little 
+stopping for the price to move in your favor.
+
+752
+01:20:37,520 --> 01:20:44,240
+Start on a bigger timeframe like the daily 
+chart. Mark major liquidity levels. Move  
+
+753
+01:20:44,240 --> 01:20:50,640
+down to a smaller timeframe like the 1-hour chart. 
+Look for price approaching your marked liquidity  
+
+754
+01:20:50,640 --> 01:20:57,280
+levels. As price gets close to a liquidity 
+level, switch to an even smaller timeframe  
+
+755
+01:20:57,280 --> 01:21:03,760
+like the 15-minute chart. Watch for signs of 
+a Stop Hunt—a quick spike through the level  
+
+756
+01:21:03,760 --> 01:21:11,280
+followed by a reversal. If you see this, get ready 
+to enter a trade in the direction of the reversal.  
+
+757
+01:21:11,280 --> 01:21:17,280
+Also, don't jump on every breakout. Wait for 
+the price to show it's really going to keep  
+
+758
+01:21:17,280 --> 01:21:24,240
+moving in that direction. And always consult 
+multiple timeframes. Check larger timeframes  
+
+759
+01:21:24,240 --> 01:21:30,000
+to see if a move fits the bigger picture 
+or if it might be inducement. If you see  
+
+760
+01:21:30,000 --> 01:21:36,960
+the price quickly reject a level after breaking 
+it, be ready for a possible reversal. And don't  
+
+761
+01:21:36,960 --> 01:21:43,280
+put your stops right at obvious levels. 
+That's where inducement often targets.
+
+762
+01:21:43,280 --> 01:21:45,920
+There are several tools and indicators that can  
+
+763
+01:21:45,920 --> 01:21:49,680
+help you spot and analyze 
+liquidity in the markets.
+
+764
+01:21:50,800 --> 01:21:56,800
+Volume: This is one of the simplest and 
+most effective tools. High volume often  
+
+765
+01:21:56,800 --> 01:22:03,840
+shows high liquidity. So, look for volume 
+spikes which can indicate liquidity events. 
+
+766
+01:22:04,720 --> 01:22:10,000
+Market Depth Charts: These show pending 
+buy and sell orders at different price  
+
+767
+01:22:10,000 --> 01:22:15,120
+levels. They can help you see where 
+liquidity pools might be forming. 
+
+768
+01:22:15,920 --> 01:22:22,000
+Time and Sales (Tape Reading): This 
+shows real-time trades. Large trades  
+
+769
+01:22:22,000 --> 01:22:27,120
+or clusters of trades at certain 
+prices can indicate liquidity. 
+
+770
+01:22:27,680 --> 01:22:34,800
+Order Flow Indicators: These advanced tools try to 
+show the balance of buying and selling pressure. 
+
+771
+01:22:35,840 --> 01:22:42,080
+Volume Profile: This shows where most trading 
+has happened at different price levels,  
+
+772
+01:22:42,080 --> 01:22:48,400
+helping identify high liquidity zones.
+It's best to use a mix of tools and combine  
+
+773
+01:22:48,400 --> 01:22:56,000
+them with market structure and price action. Also, 
+these tools don't directly show liquidity; they  
+
+774
+01:22:56,000 --> 01:23:02,960
+show things that often relate to liquidity. You 
+still need to interpret what they're telling you.
+
+775
+01:23:02,960 --> 01:23:08,640
+Liquidity and order flow analysis are 
+closely linked. Order flow analysis is  
+
+776
+01:23:08,640 --> 01:23:13,760
+all about understanding the buying and 
+selling pressure in the market. This  
+
+777
+01:23:13,760 --> 01:23:19,920
+pressure often shows up as liquidity. Order 
+flow analysis looks at the actual orders  
+
+778
+01:23:19,920 --> 01:23:27,280
+coming into the market. It tries to spot where 
+big players are buying or selling. Basically,  
+
+779
+01:23:27,280 --> 01:23:32,160
+order flow analysis can help you 
+find where liquidity is building up,  
+
+780
+01:23:32,160 --> 01:23:39,440
+when liquidity is being used up, and potential 
+price levels where big players might be active.
+
+781
+01:23:39,440 --> 01:23:45,760
+In order flow analysis, you need to get 
+familiar with several concepts. First one:  
+
+782
+01:23:45,760 --> 01:23:53,280
+Volume Clusters. Order flow analysis often 
+looks for clusters of orders at certain prices.  
+
+783
+01:23:53,280 --> 01:24:01,200
+These clusters are actually liquidity pools. Next 
+concept is Absorption. When a price level absorbs  
+
+784
+01:24:01,200 --> 01:24:09,280
+a lot of orders without moving much, it's often a 
+sign of high liquidity. Here's a familiar concept:  
+
+785
+01:24:09,280 --> 01:24:17,360
+Imbalances. Order flow tools might show imbalances 
+between buy and sell orders. These imbalances can  
+
+786
+01:24:17,360 --> 01:24:23,520
+create or drain liquidity. It's a lot to talk 
+about, but that's a topic for another video.
+
+787
+01:24:24,160 --> 01:24:28,560
+Retail traders like you and me can 
+level the playing field by using  
+
+788
+01:24:28,560 --> 01:24:34,240
+liquidity analysis to compete with 
+institutional traders. Here's how:
+
+789
+01:24:34,240 --> 01:24:39,840
+Know the closest liquidity pools. Mark 
+the areas where lots of buy or sell  
+
+790
+01:24:39,840 --> 01:24:47,200
+orders cluster. When price hits these spots, 
+it often bounces or breaks through fast. You  
+
+791
+01:24:47,200 --> 01:24:53,280
+need to be ready for both scenarios.
+Watch for traps and liquidity sweeps.  
+
+792
+01:24:53,280 --> 01:24:58,400
+Big players set traps to trick small 
+traders. They often push price to key  
+
+793
+01:24:58,400 --> 01:25:05,280
+levels. Don't fall for these fake-outs.
+Use multiple timeframes. Check both  
+
+794
+01:25:05,280 --> 01:25:11,120
+higher and lower timeframes. This gives you a 
+fuller picture of liquidity across different  
+
+795
+01:25:11,120 --> 01:25:18,080
+market views. It helps you spot potential 
+reversals or continuations more accurately. 
+
+796
+01:25:18,080 --> 01:25:24,080
+Track order flow. Pay attention to how orders 
+are coming in. Look for big buy or sell walls  
+
+797
+01:25:24,080 --> 01:25:29,920
+in the order book. These can signal where 
+institutions are placing their orders. 
+
+798
+01:25:29,920 --> 01:25:36,080
+Identify liquidity gaps. These are areas on 
+the chart with little trading activity. Price  
+
+799
+01:25:36,080 --> 01:25:41,360
+often moves quickly through these zones. 
+Knowing where they are can help you set  
+
+800
+01:25:41,360 --> 01:25:46,480
+better entry and exit points.
+Study market structure. Look  
+
+801
+01:25:46,480 --> 01:25:52,960
+for key swing highs and lows. These 
+often mark areas of high liquidity. 
+
+802
+01:25:52,960 --> 01:25:58,640
+Focus on session overlaps. When major 
+trading sessions overlap, liquidity tends  
+
+803
+01:25:58,640 --> 01:26:05,737
+to increase. This can lead to bigger price 
+moves. Use these times to your advantage. 
+
+804
+01:26:05,737 --> 01:26:10,640
+Don't chase breakouts. Many traders jump 
+on breakouts only to get burnt. Instead,  
+
+805
+01:26:10,640 --> 01:26:18,560
+look for pullbacks to liquidity zones after a 
+breakout. This is often where Smart Money enters. 
+
+806
+01:26:18,560 --> 01:26:24,320
+Use Volume Profile. This tool shows you 
+where the most trading has happened at  
+
+807
+01:26:24,320 --> 01:26:30,960
+different price levels. High volume nodes 
+often act as strong liquidity areas. 
+
+808
+01:26:30,960 --> 01:26:37,120
+The Wyckoff Method is built on three key 
+laws that explain how markets work. These  
+
+809
+01:26:37,120 --> 01:26:42,640
+laws help you see what's really moving 
+prices, not just what's on the surface.
+
+810
+01:26:42,640 --> 01:26:49,360
+Let's start with the Law of Supply and Demand. 
+This law is the engine that drives the market.  
+
+811
+01:26:49,360 --> 01:26:56,560
+It's pretty simple: when more people want to buy 
+than sell, prices go up. When more want to sell  
+
+812
+01:26:56,560 --> 01:27:03,760
+than buy, prices go down. But it's not just about 
+numbers of buyers and sellers. It's about how  
+
+813
+01:27:03,760 --> 01:27:10,080
+much money they're willing to spend. It's about 
+the intensity of their actions. One big buyer  
+
+814
+01:27:10,080 --> 01:27:17,280
+can have more impact than many small sellers. The 
+Law of Supply and Demand says that price, volume,  
+
+815
+01:27:17,280 --> 01:27:25,120
+and trend all work together. Price shows which way 
+the market is going. Volume shows how strong that  
+
+816
+01:27:25,120 --> 01:27:32,880
+move is. When price and volume agree, it confirms 
+the market direction. We'll talk about this later.
+
+817
+01:27:32,880 --> 01:27:38,480
+The Law of Cause and Effect tells us that big 
+moves in the market don't just happen out of  
+
+818
+01:27:38,480 --> 01:27:44,880
+nowhere. They need preparation. It's like a 
+rocket launch. Before a rocket can take off,  
+
+819
+01:27:44,880 --> 01:27:52,240
+it needs a lot of fuel. In the market, that fuel 
+is buying or selling pressure building up over  
+
+820
+01:27:52,240 --> 01:28:00,000
+time. The size of the cause determines the size of 
+the effect. A small cause leads to a small move.  
+
+821
+01:28:00,000 --> 01:28:07,440
+A big cause can lead to a big move. This is why 
+Wyckoff traders look for signs of Accumulation  
+
+822
+01:28:07,440 --> 01:28:15,680
+(buying) or Distribution (selling). These are the 
+causes that can lead to big price moves. This law  
+
+823
+01:28:15,680 --> 01:28:22,240
+helps explain why markets sometimes seem to move 
+for no reason. There's always a reason, but it  
+
+824
+01:28:22,240 --> 01:28:28,640
+might have been building up for a while before you 
+noticed it. The Law of Cause and Effect also says  
+
+825
+01:28:28,640 --> 01:28:35,520
+that if there's no preparation, there will be 
+no move. This helps you avoid false signals. If  
+
+826
+01:28:35,520 --> 01:28:42,080
+you don't see a cause building up, you shouldn't 
+expect a big effect. It's all about preparation in  
+
+827
+01:28:42,080 --> 01:28:49,520
+the market. This often shows up as trading ranges. 
+These are periods where price moves sideways,  
+
+828
+01:28:49,520 --> 01:28:56,800
+bouncing between support and resistance levels. To 
+the untrained eye, these might look boring, but to  
+
+829
+01:28:56,800 --> 01:29:04,080
+a Wyckoff trader, they're exciting. They're where 
+the cause is building up for the next big move.
+
+830
+01:29:04,080 --> 01:29:10,880
+Lastly, we have the Law of Effort versus Result. 
+This law helps us spot when something's off in  
+
+831
+01:29:10,880 --> 01:29:17,200
+the market. It's about comparing the effort 
+(usually measured by volume) with the result  
+
+832
+01:29:17,200 --> 01:29:23,440
+(the price movement). Here's how it works: 
+the market is always trying to move one way  
+
+833
+01:29:23,440 --> 01:29:30,240
+or the other. These attempts can be short 
+or long. Either way, they represent effort,  
+
+834
+01:29:30,240 --> 01:29:37,520
+which we see as volume. If you see a lot of 
+volume (meaning effort) but prices barely move  
+
+835
+01:29:37,520 --> 01:29:44,560
+(meaning result), that's a red flag. It might 
+mean the current trend is running out of steam.  
+
+836
+01:29:44,560 --> 01:29:51,840
+On the flip side, if prices move a lot on 
+low volume, that move might not last. This  
+
+837
+01:29:51,840 --> 01:29:58,800
+law helps you spot divergences. A divergence 
+is when the effort and result don't match up.  
+
+838
+01:29:58,800 --> 01:30:04,480
+It's like a warning sign that something might 
+be about to change. The Law of Effort versus  
+
+839
+01:30:04,480 --> 01:30:10,240
+Result is like a lie detector for the market 
+and is especially useful for spotting trend  
+
+840
+01:30:10,240 --> 01:30:17,760
+changes. Often before a trend changes, you'll see 
+a mismatch between effort and result. It's like  
+
+841
+01:30:17,760 --> 01:30:24,560
+the market is trying hard to keep going in the 
+same direction, but it's running out of steam.
+
+842
+01:30:24,560 --> 01:30:29,120
+The Wyckoff Method breaks down 
+market action into four main phases:  
+
+843
+01:30:29,120 --> 01:30:34,320
+Accumulation, Markup, Distribution, and Markdown.
+
+844
+01:30:34,320 --> 01:30:40,480
+Accumulation is the first phase. It happens at 
+market bottoms. This is when big players start  
+
+845
+01:30:40,480 --> 01:30:48,160
+buying. They do this quietly so prices don't go 
+up too fast. During this phase, prices often move  
+
+846
+01:30:48,160 --> 01:30:55,200
+sideways. It might look boring, but a lot is 
+happening under the surface. In accumulation,  
+
+847
+01:30:55,200 --> 01:31:02,240
+most people are scared to buy. They think prices 
+might keep falling. But Smart Money sees value.  
+
+848
+01:31:02,240 --> 01:31:09,200
+They buy when others are afraid. This phase can 
+last a while. It takes time for big players to buy  
+
+849
+01:31:09,200 --> 01:31:15,920
+all they want without pushing prices up too 
+much. Look for these signs in accumulation:
+
+850
+01:31:15,920 --> 01:31:23,200
+Prices stop falling and move sideways.
+Volume is low but picks up on price dips. 
+
+851
+01:31:23,200 --> 01:31:29,120
+Price drops don't last long.
+Strong buying when prices fall a bit. 
+
+852
+01:31:29,120 --> 01:31:33,920
+The Uptrend or Markup phase comes 
+next. This is when prices start  
+
+853
+01:31:33,920 --> 01:31:38,880
+to climb. The big players who bought 
+during the first phase are now letting  
+
+854
+01:31:38,880 --> 01:31:45,040
+prices rise. They might even buy more, 
+pushing prices higher. In the uptrend,  
+
+855
+01:31:45,040 --> 01:31:50,080
+more people start to notice the market. 
+They see prices going up and want to join  
+
+856
+01:31:50,080 --> 01:31:57,680
+in. This extra buying helps push prices even 
+higher. Look for these signs in an uptrend:
+
+857
+01:31:57,680 --> 01:32:04,160
+Prices make higher highs and higher lows.
+Volume often increases as prices rise. 
+
+858
+01:32:04,720 --> 01:32:10,880
+Pullbacks are short and shallow.
+Each new high is met with strong buying. 
+
+859
+01:32:10,880 --> 01:32:17,920
+The third phase is Distribution. This happens 
+at market tops. Big players who bought low are  
+
+860
+01:32:17,920 --> 01:32:24,000
+now selling. They sell slowly, just like they 
+bought slowly. They don't want to crash the  
+
+861
+01:32:24,000 --> 01:32:30,560
+market by selling too fast. In distribution, 
+most people are excited. They think prices  
+
+862
+01:32:30,560 --> 01:32:36,480
+will keep going up forever. But Smart Money 
+knows better. They are quietly selling to  
+
+863
+01:32:36,480 --> 01:32:43,920
+these eager buyers. Distribution can also take 
+some time. Look for these signs in distribution:
+
+864
+01:32:43,920 --> 01:32:51,760
+Prices stop rising and move sideways.
+Volume might increase, but price rises don't last. 
+
+865
+01:32:51,760 --> 01:32:59,120
+More volatility with sharp ups and downs.
+Each new high is quickly sold into. 
+
+866
+01:32:59,120 --> 01:33:05,760
+The last phase is the Downtrend or Markdown. 
+This is when prices start to fall. The big  
+
+867
+01:33:05,760 --> 01:33:12,720
+players have finished selling. Now there aren't 
+enough buyers to keep prices up. In the downtrend,  
+
+868
+01:33:12,720 --> 01:33:20,000
+fear takes over. People who bought high start 
+to panic and sell. This pushes prices down even  
+
+869
+01:33:20,000 --> 01:33:26,880
+faster. Like the uptrend, the downtrend often 
+moves in waves. Again, look for these signs:
+
+870
+01:33:26,880 --> 01:33:31,840
+In a downtrend, prices make 
+lower lows and lower highs. 
+
+871
+01:33:31,840 --> 01:33:37,920
+Volume often increases as prices fall.
+Bounces are short and weak. 
+
+872
+01:33:37,920 --> 01:33:43,760
+Each new low is met with more selling.
+Most of the money in a trend is made  
+
+873
+01:33:43,760 --> 01:33:50,960
+in phase two (the uptrend) and phase four (the 
+downtrend). The transition phases (Accumulation  
+
+874
+01:33:50,960 --> 01:33:57,520
+and Distribution) are often trickier to trade. 
+They are more about preparing for the next trend.  
+
+875
+01:33:57,520 --> 01:34:04,000
+One key skill in using the Wyckoff Method 
+is identifying Changes in Market Character.  
+
+876
+01:34:04,000 --> 01:34:10,400
+This is when the market shifts from one phase to 
+another. For example, the shift from accumulation  
+
+877
+01:34:10,400 --> 01:34:17,200
+to uptrend or from distribution to downtrend. 
+These changes often happen gradually. The  
+
+878
+01:34:17,200 --> 01:34:23,760
+market doesn't suddenly switch from one phase 
+to another. Instead, it transitions slowly.
+
+879
+01:34:23,760 --> 01:34:27,440
+Now, let's break down Wyckoff 
+Events. They're like clues  
+
+880
+01:34:27,440 --> 01:34:31,440
+that help us figure out what's 
+really going on in the market.
+
+881
+01:34:31,440 --> 01:34:37,200
+First, we have the Preliminary Support 
+(PS). This is when big players start to buy,  
+
+882
+01:34:37,200 --> 01:34:43,040
+trying to stop prices from falling more. 
+It's like putting a floor under the market.  
+
+883
+01:34:43,040 --> 01:34:48,080
+You might see prices stop dropping 
+as fast or even bounce a little.
+
+884
+01:34:48,080 --> 01:34:51,040
+Next comes the Selling Climax (SC). This is a big  
+
+885
+01:34:51,040 --> 01:34:58,320
+moment. It's when scared sellers dump their 
+positions. Prices often fall hard and fast,  
+
+886
+01:34:58,320 --> 01:35:05,200
+but the big players are buying during this panic. 
+They're getting ready for prices to go up later.
+
+887
+01:35:05,200 --> 01:35:11,760
+After the selling climax, we see an Automatic 
+Rally (AR). Prices bounce up a bit. This happens  
+
+888
+01:35:11,760 --> 01:35:19,120
+because the selling pressure eases off. It's like 
+the market taking a breath after all that selling.
+
+889
+01:35:19,120 --> 01:35:22,720
+Then we have the Secondary 
+Test (ST). Prices fall again,  
+
+890
+01:35:22,720 --> 01:35:27,680
+but not as low as before. This is 
+important. It shows that the big  
+
+891
+01:35:27,680 --> 01:35:34,640
+drop might be over. Big players are still 
+buying, keeping prices from falling too far.
+
+892
+01:35:34,640 --> 01:35:40,960
+Now we come to the Spring. This is a tricky move. 
+Prices dip below the low point of the secondary  
+
+893
+01:35:40,960 --> 01:35:47,840
+test. It looks like the market might fall more, 
+but it's often a fake-out. Prices quickly jump  
+
+894
+01:35:47,840 --> 01:35:55,040
+back up. This is a key sign that big players are 
+done buying and are ready for prices to go up.
+
+895
+01:35:55,040 --> 01:36:00,000
+After the spring, we see a Sign of 
+Strength (SOS). This is a strong move up,  
+
+896
+01:36:00,000 --> 01:36:05,760
+often with lots of trading. It's like the 
+market saying, "We're ready to go up now."
+
+897
+01:36:05,760 --> 01:36:11,440
+And then we have the Last Point of Support 
+(LPS). This is one more dip before the real  
+
+898
+01:36:11,440 --> 01:36:17,360
+uptrend starts. It's like the market 
+taking one last breath before climbing.
+
+899
+01:36:17,360 --> 01:36:24,160
+These events don't always happen in this exact 
+order. Markets are tricky and always changing,  
+
+900
+01:36:24,160 --> 01:36:30,160
+but knowing these events helps you see the 
+big picture. If you see signs of accumulation,  
+
+901
+01:36:30,160 --> 01:36:35,040
+like the Preliminary Support or Spring, 
+it might be a good time to think about  
+
+902
+01:36:35,040 --> 01:36:41,680
+buying. If you see signs of distribution, 
+like a Buying Climax or Sign of Weakness,  
+
+903
+01:36:41,680 --> 01:36:48,400
+it might be time to be careful or even think 
+about selling. The end of an accumulation phase,  
+
+904
+01:36:48,400 --> 01:36:55,200
+like after a successful Spring, can be a great 
+time to buy. The end of a distribution phase  
+
+905
+01:36:55,200 --> 01:37:01,680
+can be a good time to sell. But remember, you 
+don't need to catch the exact bottom or top.  
+
+906
+01:37:01,680 --> 01:37:08,240
+What matters is catching the main move. And 
+don't get too hung up on naming each event.  
+
+907
+01:37:08,240 --> 01:37:13,920
+What's more important is understanding what these 
+events mean. They are showing you the transfer of  
+
+908
+01:37:13,920 --> 01:37:20,560
+risk in the market. Like I said before, in 
+accumulation, Smart Money is taking on risk,  
+
+909
+01:37:20,560 --> 01:37:27,280
+betting prices will go up. In distribution, 
+they are passing that risk to others.
+
+910
+01:37:27,280 --> 01:37:33,200
+Volume is a key part of the Wyckoff Method. 
+It helps confirm what price is telling us.  
+
+911
+01:37:33,200 --> 01:37:40,160
+The main idea is simple: volume should match 
+price moves. If prices go up, volume should  
+
+912
+01:37:40,160 --> 01:37:48,320
+too. If prices fall, volume should rise. When 
+volume and price don't match, it can mean trouble.  
+
+913
+01:37:48,320 --> 01:37:55,280
+Wyckoff saw the market as a fight between buyers 
+and sellers. Volume shows who's winning. High  
+
+914
+01:37:55,280 --> 01:38:03,840
+volume on up moves means buyers are strong. High 
+volume on down moves means sellers are in control.
+
+915
+01:38:03,840 --> 01:38:10,800
+We talked before about Wyckoff's Law of Effort 
+versus Result. This law says the effect of a  
+
+916
+01:38:10,800 --> 01:38:17,040
+price move should match the effort behind it. 
+The effort is shown by volume. The result is  
+
+917
+01:38:17,040 --> 01:38:23,600
+the price change. Here's how it works: big 
+volume (the effort) should lead to big price  
+
+918
+01:38:23,600 --> 01:38:30,480
+moves (the result). Small volume should lead 
+to small price moves. If there's a mismatch,  
+
+919
+01:38:30,480 --> 01:38:35,760
+it can signal a change coming. High 
+volume with little price change often  
+
+920
+01:38:35,760 --> 01:38:42,240
+means accumulation or distribution. Low 
+volume with big price moves usually isn't  
+
+921
+01:38:42,240 --> 01:38:49,120
+sustainable. Rising prices with falling 
+volume can mean the uptrend is weakening.
+
+922
+01:38:49,120 --> 01:38:55,360
+Volume helps confirm price action. It's like a 
+lie detector for price moves. Price alone can  
+
+923
+01:38:55,360 --> 01:39:02,000
+sometimes lie, but price and volume together 
+usually tell the truth. In accumulation,  
+
+924
+01:39:02,000 --> 01:39:09,280
+watch for high volume on down days that don't 
+push prices much lower. This can mean big players  
+
+925
+01:39:09,280 --> 01:39:16,880
+are buying, soaking up the supply. It's a sign 
+the downtrend might be ending. In distribution,  
+
+926
+01:39:16,880 --> 01:39:23,200
+look for high volume on up days that don't 
+push prices much higher. This often means  
+
+927
+01:39:23,200 --> 01:39:29,200
+big players are selling into strength. 
+It's a sign the uptrend might be ending.
+
+928
+01:39:29,200 --> 01:39:36,000
+During trends, volume should generally increase 
+in the direction of the trend. In an uptrend,  
+
+929
+01:39:36,000 --> 01:39:40,320
+volume should be higher on 
+up days. In a downtrend,  
+
+930
+01:39:40,320 --> 01:39:46,000
+volume should be higher on down days. But 
+it's not just about whether volume is high  
+
+931
+01:39:46,000 --> 01:39:53,120
+or low. The spread (the body of the price bar) 
+matters, too. Wyckoff and later traders like  
+
+932
+01:39:53,120 --> 01:39:59,760
+Tom Williams saw the relationship between 
+volume and spread. Here's what to look for:
+
+933
+01:39:59,760 --> 01:40:08,480
+Wide spread and high volume: usually bullish.
+Wide spread and high volume (down): usually  
+
+934
+01:40:08,480 --> 01:40:10,960
+bearish.
+Narrow spread  
+
+935
+01:40:10,960 --> 01:40:18,160
+and low volume: often means consolidation.
+One common pattern is a Climax. This is a  
+
+936
+01:40:18,160 --> 01:40:25,600
+day with very high volume and a wide price range. 
+It often marks the end of a move. In a downtrend,  
+
+937
+01:40:25,600 --> 01:40:30,960
+it might be a selling climax marking 
+the end of the drop. In an uptrend,  
+
+938
+01:40:30,960 --> 01:40:38,240
+it could be a buying climax signaling the end 
+of the rise. After a climax, watch for a Test.  
+
+939
+01:40:38,240 --> 01:40:45,200
+This is when prices return to near the climax 
+level but on lower volume. If the test holds,  
+
+940
+01:40:45,200 --> 01:40:50,400
+it can confirm the end of the old 
+trend and the start of a new one.
+
+941
+01:40:50,400 --> 01:40:56,560
+Volume can also help spot manipulation. If 
+you see a big price move on low volume, be  
+
+942
+01:40:56,560 --> 01:41:03,680
+suspicious. It might be a false move designed to 
+trick traders. We'll talk about this later. Real,  
+
+943
+01:41:03,680 --> 01:41:11,200
+sustainable moves usually come with solid volume. 
+In the Wyckoff Method, volume isn't just about  
+
+944
+01:41:11,200 --> 01:41:18,080
+quantity; it's about quality, too. A day with 
+steady buying is different from a day where all  
+
+945
+01:41:18,080 --> 01:41:25,680
+the volume comes in one big spike. Learn to read 
+the quality of volume, not just the quantity.
+
+946
+01:41:25,680 --> 01:41:30,560
+One key skill is spotting 
+divergences between price and volume.  
+
+947
+01:41:30,560 --> 01:41:36,240
+If prices are making new highs but volume 
+is dropping, it can mean the uptrend is  
+
+948
+01:41:36,240 --> 01:41:42,640
+weakening. If prices are making new lows but 
+volume is drying up, the downtrend might be  
+
+949
+01:41:42,640 --> 01:41:48,640
+running out of steam. Volume patterns can 
+also hint at what's coming. For example,  
+
+950
+01:41:48,640 --> 01:41:54,880
+expanding volume as prices move sideways 
+often precedes a breakout. The direction  
+
+951
+01:41:54,880 --> 01:42:01,760
+of the breakout is uncertain, but the increase 
+in volume suggests something big is cooking.
+
+952
+01:42:01,760 --> 01:42:07,440
+In accumulation, you might see a series 
+of high-volume down days that fail to  
+
+953
+01:42:07,440 --> 01:42:14,560
+push prices lower. This is often followed by 
+an upward surge on even higher volume. This  
+
+954
+01:42:14,560 --> 01:42:20,800
+pattern can signal the end of this phase 
+and the start of markup. In distribution,  
+
+955
+01:42:20,800 --> 01:42:27,520
+you might see a series of high-volume up days 
+that fail to push prices higher. This is often  
+
+956
+01:42:27,520 --> 01:42:34,160
+followed by a downward plunge on even higher 
+volume. This pattern can signal the end of  
+
+957
+01:42:34,160 --> 01:42:42,800
+distribution and the start of markdown. Volume can 
+also help with timing. In a strong trend, wait for  
+
+958
+01:42:42,800 --> 01:42:49,120
+a pullback on lower volume before entering. 
+This often provides a good entry point with  
+
+959
+01:42:49,120 --> 01:42:57,520
+lower risk. And one final point about this: volume 
+often leads price. You might see volume patterns  
+
+960
+01:42:57,520 --> 01:43:05,200
+change before price patterns do. This can give 
+you an early warning of potential trend changes.
+
+961
+01:43:05,200 --> 01:43:11,360
+The Spring and the Upthrust are key patterns 
+in the Wyckoff Method. A Spring is a quick  
+
+962
+01:43:11,360 --> 01:43:18,080
+drop below support that bounces back fast. 
+An Upthrust is a quick push above resistance  
+
+963
+01:43:18,080 --> 01:43:25,520
+that fails fast. Both are fake-outs that 
+run stops outside support and resistance.  
+
+964
+01:43:25,520 --> 01:43:32,720
+Smart Money concepts renamed them as liquidity 
+sweeps or liquidity runs. Why do they happen?  
+
+965
+01:43:32,720 --> 01:43:39,040
+Because big players often push price past 
+key levels to trigger stop-losses. This  
+
+966
+01:43:39,040 --> 01:43:45,840
+lets them buy or sell at better prices. It is 
+like shaking a tree to make the fruit fall.
+
+967
+01:43:45,840 --> 01:43:49,200
+Let's look at Springs first. In a trading range,  
+
+968
+01:43:49,200 --> 01:43:55,920
+price might dip below support. If it jumps back 
+up fast, that's a Spring. It means there's strong  
+
+969
+01:43:55,920 --> 01:44:02,240
+buying down there. It often leads to a 
+move up. Here's how to spot a Spring:
+
+970
+01:44:02,240 --> 01:44:05,760
+Price is in a range.
+It breaks below support. 
+
+971
+01:44:05,760 --> 01:44:11,440
+It doesn't stay there long.
+Then it jumps back above support fast. 
+
+972
+01:44:11,440 --> 01:44:18,080
+Upthrusts are the opposite. Price pops above 
+resistance but falls back quickly. It shows  
+
+973
+01:44:18,080 --> 01:44:25,280
+there is strong selling up there. It often leads 
+to a move down. Here's how to spot an Upthrust:
+
+974
+01:44:25,280 --> 01:44:29,040
+Price is in a range.
+It breaks above resistance. 
+
+975
+01:44:29,040 --> 01:44:34,240
+It doesn't stay there long.
+Then it drops back below resistance fast. 
+
+976
+01:44:34,240 --> 01:44:41,040
+Both patterns show a fight between buyers and 
+sellers. In a Spring, sellers try to push price  
+
+977
+01:44:41,040 --> 01:44:49,440
+down, but buyers win. In an Upthrust, buyers try 
+to push price up, but sellers win. For a Spring,  
+
+978
+01:44:49,440 --> 01:44:55,920
+the plan is to buy when price jumps back above 
+support. For an Upthrust, you sell when price  
+
+979
+01:44:55,920 --> 01:45:02,240
+drops back below resistance. But it's not always 
+that easy. You need to look at the bigger picture,  
+
+980
+01:45:02,240 --> 01:45:08,880
+too. For Springs, check if the overall 
+trend is up. A Spring in an uptrend is  
+
+981
+01:45:08,880 --> 01:45:15,040
+stronger than one in a downtrend. Look for 
+signs of accumulation before the Spring.  
+
+982
+01:45:15,040 --> 01:45:21,040
+This makes the pattern more likely to work. 
+For Upthrusts, check if the overall trend is  
+
+983
+01:45:21,040 --> 01:45:27,440
+down. An Upthrust in a downtrend is stronger 
+than one in an uptrend. Look for signs of  
+
+984
+01:45:27,440 --> 01:45:33,040
+distribution before the Upthrust. This 
+makes the pattern more likely to work.
+
+985
+01:45:33,040 --> 01:45:39,440
+Volume is key in these patterns. In a Spring, 
+you want to see high volume on the drop and  
+
+986
+01:45:39,440 --> 01:45:45,600
+even higher volume on the bounce. This 
+shows strong buying. In an Upthrust,  
+
+987
+01:45:45,600 --> 01:45:51,520
+you want high volume on the push-up and 
+even higher on the drop. This shows strong  
+
+988
+01:45:51,520 --> 01:45:59,120
+selling. Some traders do well without focusing 
+on volume; the price action itself can be enough.  
+
+989
+01:45:59,120 --> 01:46:06,560
+The context matters a lot. A Spring or Upthrust 
+at the end of a long trend is more powerful than  
+
+990
+01:46:06,560 --> 01:46:13,520
+one in the middle of a range. It might signal 
+a big trend change. One trick is to look for  
+
+991
+01:46:13,520 --> 01:46:20,960
+smaller ranges near the edge of bigger ranges. 
+These often lead to good breakouts. You might see  
+
+992
+01:46:20,960 --> 01:46:28,000
+Springs or Upthrusts in these smaller ranges 
+before a big move. Sometimes you won't see  
+
+993
+01:46:28,000 --> 01:46:35,040
+a Spring or Upthrust at all. This is called a 
+Structural Failure. It happens when price fails  
+
+994
+01:46:35,040 --> 01:46:42,320
+to reach one side of a range and then breaks out 
+the other way. This can be a strong signal, too.
+
+995
+01:46:42,320 --> 01:46:48,160
+Fibonacci's effectiveness depends on how you 
+apply them. And the key is to use them on the  
+
+996
+01:46:48,160 --> 01:46:53,920
+correct price swings. When you're looking at 
+a price chart, you'll see many price swings.  
+
+997
+01:46:53,920 --> 01:47:00,320
+You might connect two points on the chart that 
+seem significant to you, but another trader might  
+
+998
+01:47:00,320 --> 01:47:06,800
+choose different points. This doesn't mean one of 
+you is wrong; it just highlights the subjective  
+
+999
+01:47:06,800 --> 01:47:13,360
+nature of this tool. To apply Fib retracements 
+correctly, you need to start by determining the  
+
+1000
+01:47:13,360 --> 01:47:19,600
+dominant trend. Once you've identified the 
+trend, your next step is to find the most  
+
+1001
+01:47:19,600 --> 01:47:26,880
+obvious swing high and swing low. These are the 
+points you'll use to draw your Fibonacci lines.
+
+1002
+01:47:26,880 --> 01:47:32,240
+In a bullish trend, you'll draw the Fib 
+retracement from the swing low to the swing  
+
+1003
+01:47:32,240 --> 01:47:38,400
+high. This makes sense because in an uptrend, 
+you're looking for potential support levels  
+
+1004
+01:47:38,400 --> 01:47:45,440
+where the price might pause or reverse during a 
+pullback. In a bearish trend, you'll draw from  
+
+1005
+01:47:45,440 --> 01:47:51,760
+the swing high to the swing low. You're looking 
+for potential resistance levels where the price  
+
+1006
+01:47:51,760 --> 01:47:58,400
+might stall or reverse during a bounce. When 
+drawing these lines, it's important to use the  
+
+1007
+01:47:58,400 --> 01:48:05,040
+wicks of the candlesticks for your swings, not 
+just the bodies. The clarity of your chosen swing  
+
+1008
+01:48:05,040 --> 01:48:11,280
+points is probably the most important aspect. 
+The clearer the swing low and high, and the  
+
+1009
+01:48:11,280 --> 01:48:17,360
+more defined the trend between these points, the 
+more reliable your Fib levels are likely to be.
+
+1010
+01:48:17,920 --> 01:48:25,600
+One common mistake is trying to force Fib levels 
+to fit where they don't naturally apply. Remember,  
+
+1011
+01:48:25,600 --> 01:48:32,240
+not every price move will align perfectly with 
+Fib levels, and that's okay. The most helpful  
+
+1012
+01:48:32,240 --> 01:48:38,640
+Fib retracements are those that are obvious 
+on the chart without much effort to spot them.  
+
+1013
+01:48:38,640 --> 01:48:45,040
+If you find yourself squinting at the chart or 
+trying to convince yourself that a level fits,  
+
+1014
+01:48:45,040 --> 01:48:48,560
+it might be best to look for a clearer setup.
+
+1015
+01:48:48,560 --> 01:48:55,840
+When applying Fibonacci retracements, think about 
+the market structure. In an uptrend, for example,  
+
+1016
+01:48:55,840 --> 01:49:02,800
+you might look for buying opportunities near 
+these Fib levels as the price pulls back. The  
+
+1017
+01:49:02,800 --> 01:49:08,960
+idea is that the trend will eventually continue 
+and these retracement levels offer potential  
+
+1018
+01:49:08,960 --> 01:49:16,400
+entry points at a better price. Number one rule 
+is that Fibonacci levels work best in trending  
+
+1019
+01:49:16,400 --> 01:49:24,160
+markets. Without a clear trend, these levels lose 
+their significance and impact on price movement.
+
+1020
+01:49:24,160 --> 01:49:30,400
+When you spot a trend, look for the logical 
+price swings to place your Fib retracement tool.  
+
+1021
+01:49:30,400 --> 01:49:36,320
+This step is critical and often where most 
+traders struggle. The trick is to find the  
+
+1022
+01:49:36,320 --> 01:49:43,680
+most relevant high and low points that represent 
+the current market conditions. So in this uptrend,  
+
+1023
+01:49:43,680 --> 01:49:48,800
+I would draw the Fib retracement from 
+this swing low to this swing high. For  
+
+1024
+01:49:48,800 --> 01:49:53,920
+this downtrend, I would draw it from 
+this swing high to the swing low.
+
+1025
+01:49:53,920 --> 01:49:59,600
+Once you've placed your Fib levels, you'll 
+notice several key retracement levels.  
+
+1026
+01:49:59,600 --> 01:50:07,360
+The most commonly used are 23.6%, 38.2%, 
+50%, and 61.8% levels. These lines can act  
+
+1027
+01:50:07,360 --> 01:50:14,800
+as potential support areas in an uptrend 
+or resistance zones in a downtrend. Many  
+
+1028
+01:50:14,800 --> 01:50:22,720
+traders focus primarily on the 61.8% retracement 
+level as it's often considered the Golden Ratio,  
+
+1029
+01:50:22,720 --> 01:50:29,040
+but I wouldn't discount the power of other 
+levels. In strong trends, price might only  
+
+1030
+01:50:29,040 --> 01:50:36,400
+retrace to the 38.2% level before continuing 
+in the trend direction. In weaker trends,  
+
+1031
+01:50:36,400 --> 01:50:44,560
+price might extend to the 78.6% level. Now, it's 
+worth noting that these Fibonacci levels don't act  
+
+1032
+01:50:44,560 --> 01:50:52,480
+as exact support or resistance points. Instead, 
+they help you find areas where price might react.  
+
+1033
+01:50:52,480 --> 01:51:00,320
+So think of them as zones rather than precise 
+lines. Remember, Fibonacci levels often become  
+
+1034
+01:51:00,320 --> 01:51:06,240
+self-fulfilling prophecies in the market. 
+Many traders watch these same levels. This  
+
+1035
+01:51:06,240 --> 01:51:12,160
+collective action can create real support 
+and resistance zones. And please note that  
+
+1036
+01:51:12,160 --> 01:51:18,960
+Fib levels struggle in sideways or ranging 
+conditions. If the market is consolidating,  
+
+1037
+01:51:18,960 --> 01:51:25,520
+it's often better to wait for a clear 
+breakout before applying a Fibonacci analysis.
+
+1038
+01:51:25,520 --> 01:51:31,200
+Here's another common mistake: when you 
+apply Fibonacci retracements to very small  
+
+1039
+01:51:31,200 --> 01:51:38,800
+price moves or shorter timeframes, you might run 
+into some issues that can make your trading less  
+
+1040
+01:51:38,800 --> 01:51:46,000
+effective. Think about it this way: on shorter 
+timeframes, price movements are often more erratic  
+
+1041
+01:51:46,000 --> 01:51:52,560
+and less significant. These small, rapid price 
+changes don't always reflect the true market  
+
+1042
+01:51:52,560 --> 01:51:59,520
+trend or important levels. When you try to use 
+Fibonacci retracements on these short-term moves,  
+
+1043
+01:51:59,520 --> 01:52:06,560
+the levels you get are often too close together. 
+This closeness makes it hard to tell which levels  
+
+1044
+01:52:06,560 --> 01:52:13,280
+are truly important and which are just noise. 
+Another problem with using Fibonacci on short  
+
+1045
+01:52:13,280 --> 01:52:19,280
+timeframes is that you're more likely to see 
+false breakouts and price spikes. These quick,  
+
+1046
+01:52:19,280 --> 01:52:25,200
+sharp moves can trick you into thinking a 
+level has been broken when it hasn't really.  
+
+1047
+01:52:25,200 --> 01:52:32,320
+This can lead to poor signals like entering 
+a trade too early or exiting one too soon.
+
+1048
+01:52:32,320 --> 01:52:37,920
+Think about it. Stops and take-profit 
+points are key for managing your trades.  
+
+1049
+01:52:37,920 --> 01:52:43,600
+But when you use Fib retracements on short 
+timeframes, it becomes tricky to place these  
+
+1050
+01:52:43,600 --> 01:52:48,960
+effectively. The retracement levels are 
+so close together that they create narrow  
+
+1051
+01:52:48,960 --> 01:52:54,800
+confluences. This means there's not much 
+room between levels, making it hard to set  
+
+1052
+01:52:54,800 --> 01:53:01,440
+stops that protect you from normal market noise 
+while still giving your trade room to breathe.
+
+1053
+01:53:01,440 --> 01:53:07,440
+So, what's the solution? Focus on larger 
+timeframes. When you apply Fib levels,  
+
+1054
+01:53:07,440 --> 01:53:13,760
+you get a clearer view of the long-term trend. 
+This helps you apply Fibonacci retracements in  
+
+1055
+01:53:13,760 --> 01:53:20,320
+the right direction, aligning with the overall 
+market movement. When you use Fib retracements  
+
+1056
+01:53:20,320 --> 01:53:26,320
+on larger timeframes, you're looking at more 
+significant price moves. These bigger swings  
+
+1057
+01:53:26,320 --> 01:53:32,640
+are more likely to represent important market 
+levels. The levels drawn on these larger moves  
+
+1058
+01:53:32,640 --> 01:53:40,080
+are spaced further apart, making it easier to see 
+which levels might be important. And you don't  
+
+1059
+01:53:40,080 --> 01:53:46,000
+have to stick to just one timeframe. You can use 
+a Multi-Timeframe Approach. You might start with  
+
+1060
+01:53:46,000 --> 01:53:53,280
+a larger timeframe to find the overall trend and 
+major Fibonacci levels, then zoom in to a smaller  
+
+1061
+01:53:53,280 --> 01:54:00,560
+timeframe. Another benefit of placing Fibs on 
+larger timeframes is that it can help you avoid  
+
+1062
+01:54:00,560 --> 01:54:07,200
+overtrading. When you focus on smaller moves, 
+it's tempting to take many trades, thinking each  
+
+1063
+01:54:07,200 --> 01:54:14,080
+small retracement is significant. But by zooming 
+out and looking at the bigger picture, you can  
+
+1064
+01:54:14,080 --> 01:54:21,440
+be more selective with your trades, focusing on 
+the moves that are more likely to be significant.
+
+1065
+01:54:21,440 --> 01:54:28,960
+When we talk about retracements, we are looking at 
+how much a price pulls back after a strong move.  
+
+1066
+01:54:28,960 --> 01:54:32,640
+These pullbacks can be shallow or deep.
+
+1067
+01:54:32,640 --> 01:54:38,560
+Shallow Retracements happen in strong trends. 
+When a market is moving with conviction,  
+
+1068
+01:54:38,560 --> 01:54:44,240
+it doesn't pull back much before 
+continuing its journey. In these cases,  
+
+1069
+01:54:44,240 --> 01:54:50,880
+you'll often see the price only retreat 
+to the 23.6% or 38.2% areas. The trend  
+
+1070
+01:54:50,880 --> 01:54:56,560
+is so strong that it doesn't need much 
+time to refuel before zooming off again.  
+
+1071
+01:54:56,560 --> 01:55:03,440
+When you spot these shallow pullbacks, it's a sign 
+that the trend is healthy and likely to continue.
+
+1072
+01:55:03,440 --> 01:55:09,120
+Deep Retracements are more common when 
+a trend isn't fully established yet. The  
+
+1073
+01:55:09,120 --> 01:55:15,200
+price might make several ups and downs, 
+testing previous highs or lows without  
+
+1074
+01:55:15,200 --> 01:55:23,600
+breaking them. Deep retracements often reach 
+the 61.8%, 78.6%, or even 88.6% Fib levels.  
+
+1075
+01:55:23,600 --> 01:55:29,360
+And these deeper pullbacks can be tricky. 
+They might make you think the trend is over,  
+
+1076
+01:55:29,360 --> 01:55:34,880
+but it's not always the case. It's more 
+like the market is taking a longer break,  
+
+1077
+01:55:34,880 --> 01:55:39,760
+perhaps reassessing its direction 
+before deciding to continue.
+
+1078
+01:55:39,760 --> 01:55:44,480
+The key difference between shallow and 
+deep retracements is in what they tell  
+
+1079
+01:55:44,480 --> 01:55:51,280
+us about the strength of the trend. Shallow 
+retracements signal a strong, confident trend.  
+
+1080
+01:55:51,280 --> 01:55:59,280
+The market barely hesitates before pushing on. 
+Deep retracements suggest more uncertainty. The  
+
+1081
+01:55:59,280 --> 01:56:05,280
+trend might still continue, but it's taking its 
+time to gather strength. If you see a shallow  
+
+1082
+01:56:05,280 --> 01:56:10,800
+retracement in a strong trend, it might be a 
+good opportunity to join in the direction of  
+
+1083
+01:56:10,800 --> 01:56:17,680
+that trend. With deep retracements, you might 
+need to be more cautious. While they can still  
+
+1084
+01:56:17,680 --> 01:56:24,320
+lead to continuation of the trend, there's also 
+a higher chance the trend might be losing steam.  
+
+1085
+01:56:24,320 --> 01:56:32,880
+And if the price retraces 100% of the last move, 
+it might be a sign that the trend has failed.
+
+1086
+01:56:32,880 --> 01:56:38,480
+Now, when price reaches a Fib level, 
+look for specific candlestick patterns.  
+
+1087
+01:56:38,480 --> 01:56:43,520
+These patterns can confirm if the 
+level is likely to hold or break.  
+
+1088
+01:56:43,520 --> 01:56:49,120
+It's like getting a second opinion before 
+making a trade. There are a lot of candlesticks,  
+
+1089
+01:56:49,120 --> 01:56:56,160
+but the most useful patterns at Fib levels are 
+Engulfing Patterns and Candles with Long Wicks.
+
+1090
+01:56:56,160 --> 01:57:02,480
+Candles with a long lower wick show up at the 
+end of a down move. This long wick shows that  
+
+1091
+01:57:02,480 --> 01:57:08,400
+sellers tried to push price lower, but 
+buyers stepped in and pushed it back up.  
+
+1092
+01:57:08,400 --> 01:57:15,040
+When you see it at a Fibonacci support level, it 
+might mean the down move is over. If you spot a  
+
+1093
+01:57:15,040 --> 01:57:21,280
+candle with a long upper wick at a Fibonacci 
+resistance level, pay close attention. They  
+
+1094
+01:57:21,280 --> 01:57:28,720
+often signal the end of up moves. Buyers try 
+to push price higher, but sellers took control.
+
+1095
+01:57:28,720 --> 01:57:34,560
+Engulfing patterns are also decent 
+signals. In a bullish engulfing pattern,  
+
+1096
+01:57:34,560 --> 01:57:40,800
+a large green candle completely covers 
+the previous red candle. This shows buyers  
+
+1097
+01:57:40,800 --> 01:57:48,080
+taking control from sellers. A bearish engulfing 
+pattern is the opposite, with a large red candle  
+
+1098
+01:57:48,080 --> 01:57:55,360
+covering the previous green one. These patterns at 
+Fibonacci levels can be strong reversal signals.
+
+1099
+01:57:56,000 --> 01:58:01,920
+From my experience, using candlesticks 
+with Fibonacci levels works best on  
+
+1100
+01:58:01,920 --> 01:58:07,840
+longer timeframes. This is because bigger 
+moves tend to respect Fib levels more,  
+
+1101
+01:58:07,840 --> 01:58:14,880
+and candlestick patterns on longer timeframes 
+often carry more weight. Let's say price is in  
+
+1102
+01:58:14,880 --> 01:58:22,800
+an uptrend and pulls back to the 50% Fib level. 
+This level acts as a potential support. If you see  
+
+1103
+01:58:22,800 --> 01:58:28,960
+a candle with a long candlestick forming right at 
+this level, it's a decent sign that the pullback  
+
+1104
+01:58:28,960 --> 01:58:35,440
+might be over. The Fib level shows where buyers 
+might step in, and the candle shows that they  
+
+1105
+01:58:35,440 --> 01:58:44,320
+actually did. Here, price is in a downtrend 
+and bounces up to the 38.2% Fib level. This  
+
+1106
+01:58:44,320 --> 01:58:50,800
+level will act as a potential resistance in a 
+downtrend. If an engulfing candle forms here,  
+
+1107
+01:58:50,800 --> 01:58:57,280
+it implies the bounce might be over. So the 
+Fib level shows where sellers might return,  
+
+1108
+01:58:57,280 --> 01:59:03,760
+and the engulfing candle shows they're actually 
+taking control. These engulfing patterns at  
+
+1109
+01:59:03,760 --> 01:59:10,240
+Fib levels show a sudden, strong shift in who's 
+controlling the market. And an engulfing pattern  
+
+1110
+01:59:10,240 --> 01:59:17,280
+that completely swallows several previous candles 
+at a key Fibonacci level is hard to ignore.
+
+1111
+01:59:18,080 --> 01:59:24,560
+Volume can add another layer of confirmation 
+to candlestick patterns at Fibonacci levels.  
+
+1112
+01:59:24,560 --> 01:59:31,600
+A reversal candle with high volume at a Fibonacci 
+support level is more convincing than one with low  
+
+1113
+01:59:31,600 --> 01:59:38,000
+volume. The high volume shows strong buying 
+interest right where buyers were expected to  
+
+1114
+01:59:38,000 --> 01:59:47,440
+step in. Now, one common mistake is to focus only 
+on exact Fibonacci levels. As I said, in reality,  
+
+1115
+01:59:47,440 --> 01:59:53,680
+these levels are more like zones than exact 
+lines. A candlestick pattern doesn't have to  
+
+1116
+01:59:53,680 --> 02:00:01,680
+form exactly at a Fib level to be valid. If it's 
+close, it's worth paying attention to. And another  
+
+1117
+02:00:01,680 --> 02:00:08,000
+key point is to look at the bigger picture. 
+A candlestick pattern at a Fib level is more  
+
+1118
+02:00:08,000 --> 02:00:15,120
+meaningful if it aligns with the larger trend. 
+For example, a bullish pattern at a Fibonacci  
+
+1119
+02:00:15,120 --> 02:00:23,360
+support level in an overall uptrend is typically 
+stronger than one that goes against the trend.
+
+1120
+02:00:23,360 --> 02:00:30,720
+The Golden Zone Method is a smart way to trade 
+using Fibonacci levels. This method focuses on  
+
+1121
+02:00:30,720 --> 02:00:37,920
+the 50% and 61.8% area, which we call the 
+Golden Ratio. First, you find a clear trend  
+
+1122
+02:00:37,920 --> 02:00:44,720
+in the market. You then apply Fibonacci tools 
+to this trend. You've practically marked the  
+
+1123
+02:00:44,720 --> 02:00:50,320
+key levels where the price might turn around. 
+The strategy gets interesting when the price  
+
+1124
+02:00:50,320 --> 02:00:57,440
+starts to move against the trend. When price 
+starts going up, you watch closely as it moves  
+
+1125
+02:00:57,440 --> 02:01:05,920
+past the 50% Fib level. The key is to see if the 
+price can break and close above the 61.8% level.  
+
+1126
+02:01:05,920 --> 02:01:11,680
+In the perfect scenario, the price reaches 
+the zone but doesn't close above it. And  
+
+1127
+02:01:11,680 --> 02:01:17,600
+this could be a signal that the downtrend 
+is ready to continue. In the real market,  
+
+1128
+02:01:17,600 --> 02:01:25,200
+the price will touch and even go a bit above this 
+area, but this doesn't invalidate the setup. So,  
+
+1129
+02:01:25,200 --> 02:01:32,160
+it's okay if the price goes above the 61.8 line. 
+Once it returns below it, that's a good sign for  
+
+1130
+02:01:32,160 --> 02:01:38,800
+our strategy. This moment is when we get ready 
+to make a move. We are looking for signs that  
+
+1131
+02:01:38,800 --> 02:01:46,080
+the price is about to turn back down. Maybe it's a 
+bearish candle forming or other factors lining up.  
+
+1132
+02:01:46,080 --> 02:01:53,520
+The idea is to catch the market just as it's 
+deciding to follow the original trend again.
+
+1133
+02:01:53,520 --> 02:02:00,000
+In this chart, once we see the price bounce off 
+the Golden Zone, we start looking for a move back  
+
+1134
+02:02:00,000 --> 02:02:08,640
+up. The next target might be the 38.2% Fibonacci 
+level. If the price breaks above the 38.2% level,  
+
+1135
+02:02:08,640 --> 02:02:14,880
+it could mean the previous uptrend is picking 
+up steam again. After the 38.2% level,  
+
+1136
+02:02:14,880 --> 02:02:22,000
+the next stop might be the 23.6% level. This 
+is another place where the price might pause or  
+
+1137
+02:02:22,000 --> 02:02:29,040
+bounce a little. But if the uptrend is strong, 
+even this level might not hold. In that case,  
+
+1138
+02:02:29,040 --> 02:02:34,960
+we could see the price go all the way back to 
+where the downward move started. We call this  
+
+1139
+02:02:34,960 --> 02:02:43,280
+a 100% retracement. So, these Fib levels aren't 
+just targets for where the price might go. They're  
+
+1140
+02:02:43,280 --> 02:02:50,480
+also useful for managing your trade. You can use 
+these levels to decide when to take some profits.  
+
+1141
+02:02:50,480 --> 02:02:55,680
+For instance, you might decide to sell a 
+part of your position when the price hits  
+
+1142
+02:02:55,680 --> 02:03:04,480
+the 38.2% level and more at a 23.6% level. If 
+the price never got higher than the Golden Zone,  
+
+1143
+02:03:04,480 --> 02:03:09,040
+you might put your stop-loss 
+just above that line. This way,  
+
+1144
+02:03:09,040 --> 02:03:14,560
+if the market suddenly changes direction 
+after you entered, you're protected.
+
+1145
+02:03:15,360 --> 02:03:21,520
+Fibonacci and Moving Averages Combo is 
+also a viable method. When used together,  
+
+1146
+02:03:21,520 --> 02:03:28,400
+they create a synergy that can confirm your 
+signals. Fibonacci alone can point to possible  
+
+1147
+02:03:28,400 --> 02:03:34,160
+support or resistance levels, but they lack 
+the weight of confirmation. This is where  
+
+1148
+02:03:34,160 --> 02:03:41,680
+moving averages step in, adding an extra layer of 
+validation to your analysis. Moving averages serve  
+
+1149
+02:03:41,680 --> 02:03:49,040
+two key purposes in this partnership. First, they 
+help you spot trends. A simple look at the slope  
+
+1150
+02:03:49,040 --> 02:03:56,560
+of a moving average can tell you if the market is 
+trending up, down, or sideways. And second, moving  
+
+1151
+02:03:56,560 --> 02:04:05,120
+averages act as dynamic support and resistance. As 
+price moves, these lines shift, creating flexible  
+
+1152
+02:04:05,120 --> 02:04:12,080
+barriers that price often respects. And when a 
+Fibonacci level lines up with a moving average,  
+
+1153
+02:04:12,080 --> 02:04:19,120
+you've found a spot of Confluence. In this 
+example, price has been climbing steadily.  
+
+1154
+02:04:19,120 --> 02:04:26,320
+You draw your Fibonacci retracement from the 
+recent low to the high. The 50% retracement level  
+
+1155
+02:04:26,320 --> 02:04:32,880
+catches your eye. Now you notice the 200-period 
+Exponential Moving Average (EMA) is sitting  
+
+1156
+02:04:32,880 --> 02:04:39,200
+right at that same level. This is confluence 
+in action. The Fibonacci tool and the moving  
+
+1157
+02:04:39,200 --> 02:04:46,000
+average are both pointing to the same price 
+area as significant. This confluence increases  
+
+1158
+02:04:46,000 --> 02:04:52,960
+the odds of price reacting at this level. You 
+might see price pause, bounce, or even reverse  
+
+1159
+02:04:52,960 --> 02:05:00,240
+at this point. It's not a guarantee, but it's a 
+strong hint from the market. This combination is  
+
+1160
+02:05:00,240 --> 02:05:06,720
+powerful because Fib retracements can sometimes 
+seem arbitrary, and moving averages on their  
+
+1161
+02:05:06,720 --> 02:05:15,200
+own can lag behind price action, but together 
+they create a more robust analytical framework.
+
+1162
+02:05:15,200 --> 02:05:21,040
+Probably my favorite strategy is to look for 
+confluences between the Fib levels and Supply  
+
+1163
+02:05:21,040 --> 02:05:27,440
+or Demand Areas. It doesn't happen often, but 
+when it does, it can be a sign of something  
+
+1164
+02:05:27,440 --> 02:05:35,280
+special. In this example, notice that the price is 
+approaching a key demand area that lines up with  
+
+1165
+02:05:35,280 --> 02:05:42,160
+a Fib level. That's a confluence perfect for 
+a trade. If the price bounces off that area,  
+
+1166
+02:05:42,160 --> 02:05:48,720
+it could be the start of a beautiful uptrend 
+that you can ride. On the flip side, if you  
+
+1167
+02:05:48,720 --> 02:05:54,720
+see the price approaching a major supply 
+area and that coincides with a Fib level,  
+
+1168
+02:05:54,720 --> 02:05:59,600
+it could be a sign that the buyers are 
+about to run out of steam. If the price  
+
+1169
+02:05:59,600 --> 02:06:06,160
+gets rejected at that level, it might be time 
+to start hunting for short opportunities.
+
+1170
+02:06:06,160 --> 02:06:12,560
+Let's talk about demand areas first. These are 
+places where lots of people want to buy. When  
+
+1171
+02:06:12,560 --> 02:06:20,000
+the price gets near a demand area and it's also 
+close to a Fibonacci level, it's extra special.  
+
+1172
+02:06:20,000 --> 02:06:26,800
+This tells us that the price might start going up 
+soon. Think about it like this: you're looking at  
+
+1173
+02:06:26,800 --> 02:06:33,200
+an uptrend. Then the price is going down, but 
+then you notice it's getting close to a demand  
+
+1174
+02:06:33,200 --> 02:06:41,280
+area. The price is also near a key Fibonacci 
+level. You may want to monitor closely this area.
+
+1175
+02:06:42,320 --> 02:06:49,440
+Supply areas are spots where lots of people want 
+to sell. When the price climbs up to a supply area  
+
+1176
+02:06:49,440 --> 02:06:56,000
+and it matches a Fibonacci level, it's another 
+special moment. This might mean the price is  
+
+1177
+02:06:56,000 --> 02:07:03,680
+about to turn around and start falling. Picture 
+this: the market is in a general downtrend. Then  
+
+1178
+02:07:03,680 --> 02:07:10,320
+the price has been climbing for a while. Then you 
+see it's approaching a supply area. The price is  
+
+1179
+02:07:10,320 --> 02:07:17,200
+also near an important Fibonacci level. This is 
+when you start thinking the upward move might be  
+
+1180
+02:07:17,200 --> 02:07:24,160
+running out of steam. These confluences are like 
+secret messages in the market. They don't happen  
+
+1181
+02:07:24,160 --> 02:07:31,280
+all the time, but when they do, you pay attention. 
+Here, price bounced off a demand area that lines  
+
+1182
+02:07:31,280 --> 02:07:37,600
+up with the Fibonacci level. This is a good time 
+to enter a buy position and ride the price up as  
+
+1183
+02:07:37,600 --> 02:07:45,680
+it starts a new upward move. And here price hit 
+a supply area that matches a Fibonacci level  
+
+1184
+02:07:45,680 --> 02:07:53,440
+and then started to fall. This was a good time 
+to sell as price started a new downward move.
+
+1185
+02:07:53,440 --> 02:07:59,120
+We'll start with the Engulfing Momentum 
+Candlestick. This signal occurs when a large  
+
+1186
+02:07:59,120 --> 02:08:06,640
+candle fully engulfs the body of the previous two 
+candles. Basically, a big candle that completely  
+
+1187
+02:08:06,640 --> 02:08:12,800
+covers the smaller ones right before it. 
+This isn't just a regular occurrence. It's  
+
+1188
+02:08:12,800 --> 02:08:20,240
+a sign—a clear indicator of a strong move in the 
+market. This is what we call an engulfing pattern.  
+
+1189
+02:08:20,240 --> 02:08:26,080
+The psychology behind this pattern is all about 
+market sentiment and the sudden shift in the  
+
+1190
+02:08:26,080 --> 02:08:31,680
+balance between buyers and sellers. 
+Before an engulfing pattern occurs,  
+
+1191
+02:08:31,680 --> 02:08:37,440
+there usually is a clear trend. This trend 
+indicates a prevailing direction where  
+
+1192
+02:08:37,440 --> 02:08:43,440
+the majority of market participants are 
+either buying or selling. At some point,  
+
+1193
+02:08:43,440 --> 02:08:50,000
+the market starts showing signs of exhaustion. 
+For a bullish engulfing momentum bar, this might  
+
+1194
+02:08:50,000 --> 02:08:56,080
+be at a support area or at a demand zone where 
+buyers believe the price is attractive enough  
+
+1195
+02:08:56,080 --> 02:09:02,640
+to start buying in large quantities. For a 
+bearish engulfing one, this could be at a  
+
+1196
+02:09:02,640 --> 02:09:10,240
+resistance or at a supply zone where sellers feel 
+the price has peaked and it's a good time to sell.
+
+1197
+02:09:10,240 --> 02:09:17,200
+The engulfing momentum candle represents a strong 
+shift in sentiment. If it's bullish, buyers have  
+
+1198
+02:09:17,200 --> 02:09:23,920
+overwhelmed the sellers, pushing the price up and 
+covering the range of the previous two candles.  
+
+1199
+02:09:23,920 --> 02:09:30,400
+This suggests that the demand has suddenly 
+outstripped the supply. In a bearish pattern,  
+
+1200
+02:09:30,400 --> 02:09:37,280
+sellers have come in strong, indicating an excess 
+of supply over demand. The immediate effect of an  
+
+1201
+02:09:37,280 --> 02:09:44,400
+engulfing momentum bar is to signal a potential 
+reversal. It shows a decisive change in market  
+
+1202
+02:09:44,400 --> 02:09:51,680
+dynamics. For bullish signals, it could mean the 
+end of a downtrend phase with prices likely to  
+
+1203
+02:09:51,680 --> 02:09:59,600
+rise. For bearish ones, it could suggest the end 
+of an uptrend wave with prices expected to fall.
+
+1204
+02:09:59,600 --> 02:10:04,720
+The Long-Wick Engulfing Candlestick 
+is my favorite price action strategy.  
+
+1205
+02:10:04,720 --> 02:10:11,040
+This candlestick not only indicates a strong 
+rejection of prices but also signals a potential  
+
+1206
+02:10:11,040 --> 02:10:17,360
+momentum shift in the market direction. This 
+candle typically shows a large body with a long  
+
+1207
+02:10:17,360 --> 02:10:23,760
+wick that extends far beyond the body's edges. 
+The engulfing part means that the body of this  
+
+1208
+02:10:23,760 --> 02:10:31,280
+candle is larger than the body of the previous 
+candle, completely overshadowing or engulfing it.  
+
+1209
+02:10:31,280 --> 02:10:36,320
+This visual on your chart is your first 
+clue about a significant shift in market  
+
+1210
+02:10:36,320 --> 02:10:42,080
+sentiment. The long wick represents a 
+point where supply surpasses demand,  
+
+1211
+02:10:42,080 --> 02:10:48,400
+pushing the price back down (or vice versa, 
+depending on the direction of the wick).
+
+1212
+02:10:48,400 --> 02:10:54,960
+Let's say the long wick is at the top of the 
+candle. This suggests that as the price went up,  
+
+1213
+02:10:54,960 --> 02:11:00,880
+it hit a level where sellers were waiting to 
+take profits or considered the price too high,  
+
+1214
+02:11:00,880 --> 02:11:06,960
+outweighing buyers. This results in the 
+price being pushed back down sharply,  
+
+1215
+02:11:06,960 --> 02:11:14,160
+leaving behind a long upper wick. The rejection 
+indicated by the long wick is significant because  
+
+1216
+02:11:14,160 --> 02:11:20,560
+it shows that a certain price level could not 
+be sustained. Buyers tried to push the price up,  
+
+1217
+02:11:20,560 --> 02:11:26,160
+but the overwhelming number of sellers 
+at that level rejected this move. If the  
+
+1218
+02:11:26,160 --> 02:11:32,800
+candle also engulfed the previous candle, it 
+shows increasing selling momentum despite any  
+
+1219
+02:11:32,800 --> 02:11:38,800
+buying pressure that might have been present 
+initially. Sellers took control and managed  
+
+1220
+02:11:38,800 --> 02:11:46,640
+to push the closing price below the open one of 
+the previous candle, indicating strong supply.
+
+1221
+02:11:46,640 --> 02:11:53,120
+If the wick is at the bottom, it means sellers 
+drove the price down. But buyers stepped in,  
+
+1222
+02:11:53,120 --> 02:11:58,800
+finding the lower price attractive, thus 
+pushing the price back up, showing rejection  
+
+1223
+02:11:58,800 --> 02:12:05,760
+of lower prices. If the body of the candlestick 
+also engulfs the previous candle, it suggests  
+
+1224
+02:12:05,760 --> 02:12:12,560
+increasing buying momentum. Buyers were not only 
+able to overcome the selling pressure indicated by  
+
+1225
+02:12:12,560 --> 02:12:18,160
+the long upper wick, but were also strong enough 
+to close the candle higher than the previous  
+
+1226
+02:12:18,160 --> 02:12:25,280
+candle's body, indicating strong demand. This 
+is a powerful price action signal. It provides  
+
+1227
+02:12:25,280 --> 02:12:31,360
+a clear signal that the market sentiment might 
+be changing direction. Look for these patterns  
+
+1228
+02:12:31,360 --> 02:12:38,640
+at major resistance or support levels because they 
+can signal the end of a trend or the reversal of a  
+
+1229
+02:12:38,640 --> 02:12:46,000
+price direction. A bullish long-wick engulfing 
+candle at a key support level might suggest a  
+
+1230
+02:12:46,000 --> 02:12:52,320
+potential upward reversal, tempting buyers 
+to enter the market expecting future gains.
+
+1231
+02:12:53,040 --> 02:12:58,000
+When you see multiple rejection wicks 
+and candles are changing their color,  
+
+1232
+02:12:58,000 --> 02:13:04,400
+you are witnessing a strong signal. In this 
+example, observe these two consecutive candles  
+
+1233
+02:13:04,400 --> 02:13:10,800
+at a similar price level where the first is 
+bullish with a long upper wick followed by  
+
+1234
+02:13:10,800 --> 02:13:17,760
+a bearish one with a similar long upper wick. 
+This formation can tell you a lot about what's  
+
+1235
+02:13:17,760 --> 02:13:23,920
+happening in the market. Starting with supply 
+and demand, the first candle (the bullish one  
+
+1236
+02:13:23,920 --> 02:13:29,840
+with a long upper wick) indicates that 
+buyers initially pushed prices higher.  
+
+1237
+02:13:29,840 --> 02:13:36,320
+The long upper wick shows that as the price 
+reached higher levels, an ample supply emerged,  
+
+1238
+02:13:36,320 --> 02:13:42,960
+overpowering the buyers and pushing the price 
+down from its peak before the candle closed. At  
+
+1239
+02:13:42,960 --> 02:13:49,200
+these higher price levels, sellers are more 
+than willing to step in and take control.
+
+1240
+02:13:49,200 --> 02:13:55,920
+Now when the next candle opens, it starts where 
+the first one left off but turns bearish with  
+
+1241
+02:13:55,920 --> 02:14:02,800
+a long upper wick as well. This second candle 
+confirms the presence of strong selling interest  
+
+1242
+02:14:02,800 --> 02:14:08,800
+at these levels. The fact that this candle is 
+bearish and mirrors the wick of the previous  
+
+1243
+02:14:08,800 --> 02:14:15,440
+bullish candle intensifies the signal. The 
+sellers are not just reacting spontaneously.  
+
+1244
+02:14:15,440 --> 02:14:21,440
+They are firmly establishing their ground, showing 
+that they are prepared to sell at these prices,  
+
+1245
+02:14:21,440 --> 02:14:28,480
+thus increasing the supply. The repeated rejection 
+at this price level signifies that the supply has  
+
+1246
+02:14:28,480 --> 02:14:35,760
+surpassed the demand, possibly leading to a trend 
+reversal or at least a significant pullback. From  
+
+1247
+02:14:35,760 --> 02:14:43,040
+a psychological perspective, this signal plays 
+a vital role. Consider the first bullish candle.  
+
+1248
+02:14:43,040 --> 02:14:48,400
+Traders who bought during or just before 
+the high might have expected the momentum  
+
+1249
+02:14:48,400 --> 02:14:54,880
+to continue. The subsequent price dip could 
+lead to a change in sentiment from optimism  
+
+1250
+02:14:54,880 --> 02:15:02,240
+to concern or even fear. This emotional shift 
+is crucial as it might prompt those buyers to  
+
+1251
+02:15:02,240 --> 02:15:08,560
+sell quickly to cut losses when they see prices 
+failing to go higher, which adds to the selling  
+
+1252
+02:15:08,560 --> 02:15:14,800
+pressure. If this pattern appears at a known 
+resistance level, the message it sends is even  
+
+1253
+02:15:14,800 --> 02:15:20,800
+stronger. Traders often place their stops 
+around these levels, and the activation of  
+
+1254
+02:15:20,800 --> 02:15:27,920
+these stops can accelerate the price movement 
+downward as the bearish sentiment takes hold.
+
+1255
+02:15:27,920 --> 02:15:33,040
+The Over and Under Pattern is one of the 
+most effective price action strategies.  
+
+1256
+02:15:33,040 --> 02:15:38,560
+This pattern essentially signals a critical 
+shift in the market dynamics, hinting at a  
+
+1257
+02:15:38,560 --> 02:15:45,440
+potential weakening or reversal of a trend. So in 
+any trading market, prices are driven by supply  
+
+1258
+02:15:45,440 --> 02:15:51,600
+and demand. These forces are represented by 
+the actions of buyers and sellers who push  
+
+1259
+02:15:51,600 --> 02:15:58,880
+prices higher or lower. A trend, whether up or 
+down, continues as long as there is an imbalance  
+
+1260
+02:15:58,880 --> 02:16:06,800
+favoring either buyers or sellers. For example, in 
+an uptrend, buyers prevail, consistently willing  
+
+1261
+02:16:06,800 --> 02:16:13,440
+to buy at higher prices, thus creating a 
+sequence of higher highs and higher lows.
+
+1262
+02:16:13,440 --> 02:16:18,880
+The Over and Under pattern comes into play 
+when there is a noticeable shift in this trend  
+
+1263
+02:16:18,880 --> 02:16:26,000
+structure. When the price suddenly drops below a 
+previous major low and then makes a lower high,  
+
+1264
+02:16:26,000 --> 02:16:32,399
+it suggests a break in this structure. This is the 
+first clue that the prevailing buying pressure is  
+
+1265
+02:16:32,399 --> 02:16:39,679
+weakening. The scenario is similar but reversed in 
+a downtrend. When prices push above the previous  
+
+1266
+02:16:39,680 --> 02:16:46,240
+low but then form a higher high, it indicates 
+that the selling pressure is diminishing.
+
+1267
+02:16:46,240 --> 02:16:52,800
+Let's consider the psychological aspects driving 
+this pattern. In an uptrend, as the price drops  
+
+1268
+02:16:52,800 --> 02:16:58,720
+to form what initially appears as a normal 
+pullback, buyers are typically prepared to  
+
+1269
+02:16:58,720 --> 02:17:05,520
+jump in, anticipating another push to higher 
+highs. However, as the price fails to reach  
+
+1270
+02:17:05,520 --> 02:17:11,920
+a new high and instead falls below the previous 
+low, it disrupts the expectations formed by the  
+
+1271
+02:17:11,920 --> 02:17:19,439
+market participants. This unexpected change often 
+leads to uncertainty and a shift in sentiment,  
+
+1272
+02:17:19,439 --> 02:17:26,080
+causing some of the buyers to step back and 
+reassess their positions while potential sellers  
+
+1273
+02:17:26,080 --> 02:17:32,800
+might see an opportunity to enter the market. The 
+pivotal moment in the Over and Under pattern is  
+
+1274
+02:17:32,800 --> 02:17:38,720
+when the price breaches a significant level. 
+This action is a powerful signal because it  
+
+1275
+02:17:38,720 --> 02:17:44,319
+challenges the established market structure. 
+It's not just a simple breach; it's a signal  
+
+1276
+02:17:44,319 --> 02:17:50,880
+that the previous consensus is no longer valid. 
+This can lead to rapid shifts in supply and  
+
+1277
+02:17:50,880 --> 02:17:58,399
+demand. Buyers who were previously supporting 
+the price by buying at dips might pull back,  
+
+1278
+02:17:58,399 --> 02:18:05,679
+and sellers may start to dominate, pushing the 
+price down further in what was an uptrend. From  
+
+1279
+02:18:05,680 --> 02:18:11,600
+a supply and demand perspective, this pattern 
+reflects a shift in the balance. The initial  
+
+1280
+02:18:11,600 --> 02:18:18,240
+move past the previous high increases the demand 
+suddenly. But this failure to continue in the same  
+
+1281
+02:18:18,240 --> 02:18:26,960
+direction indicates exhaustion and the possible 
+reversal of roles between buyers and sellers.
+
+1282
+02:18:26,960 --> 02:18:34,160
+Another important strategy is the Weak Break of 
+Structure. This signal is subtle but powerful.  
+
+1283
+02:18:34,160 --> 02:18:40,800
+Now, a weak break of structure occurs when the 
+price marginally surpasses a previous high in  
+
+1284
+02:18:40,800 --> 02:18:49,280
+an uptrend (or a low in a downtrend) but fails to 
+sustain this momentum and quickly retraces. This  
+
+1285
+02:18:49,280 --> 02:18:55,120
+scenario often indicates that the market does 
+not have sufficient conviction to support the  
+
+1286
+02:18:55,120 --> 02:19:02,640
+new highs or lows, leading to what we call 
+a weak break of structure. In any market,  
+
+1287
+02:19:02,640 --> 02:19:09,080
+price movements are fundamentally driven by the 
+imbalance between supply and demand. A weak break  
+
+1288
+02:19:09,080 --> 02:19:16,240
+of structure typically occurs at points where 
+this balance is delicate and easily disrupted.
+
+1289
+02:19:16,240 --> 02:19:22,000
+Consider a scenario where a price level 
+has historically acted as resistance. As  
+
+1290
+02:19:22,000 --> 02:19:27,600
+prices approach this level, sellers begin 
+to dominate the market, believing that the  
+
+1291
+02:19:27,600 --> 02:19:34,800
+level will hold and prices will drop again. 
+Buyers, on the other hand, push the price up,  
+
+1292
+02:19:34,800 --> 02:19:40,560
+testing the resistance. If the buying pressure 
+is strong enough, it might initially break the  
+
+1293
+02:19:40,560 --> 02:19:46,880
+resistance level. However, if this break is 
+weak—meaning it only goes slightly above the  
+
+1294
+02:19:46,880 --> 02:19:53,760
+resistance level and quickly retraces—it suggests 
+that the buying pressure was not truly powerful  
+
+1295
+02:19:53,760 --> 02:19:59,920
+enough to shift the market sentiment decisively. 
+The sellers still have substantial influence,  
+
+1296
+02:19:59,920 --> 02:20:06,720
+and the demand was not sufficient to maintain the 
+higher prices. If the price cannot sustain itself  
+
+1297
+02:20:06,720 --> 02:20:14,080
+above the previous resistance, it indicates that 
+demand is weakening. The price often falls back to  
+
+1298
+02:20:14,080 --> 02:20:22,479
+lower levels as sellers regain control and buyers 
+withdraw, waiting for more favorable conditions.
+
+1299
+02:20:22,479 --> 02:20:28,559
+One instance of a weak break of structure may 
+not be meaningful, but consecutive weak breaks  
+
+1300
+02:20:28,560 --> 02:20:35,760
+of structure can form a pattern that highlights 
+a significant loss of momentum. For instance,  
+
+1301
+02:20:35,760 --> 02:20:42,399
+if the market attempts to break a low multiple 
+times, but each time only succeeds marginally  
+
+1302
+02:20:42,399 --> 02:20:48,879
+before retracing, it suggests a consistent 
+lack of supply at lower price levels.  
+
+1303
+02:20:48,880 --> 02:20:52,640
+This scenario often precedes a 
+stronger move in the opposite  
+
+1304
+02:20:52,640 --> 02:21:00,319
+direction. Consecutive weak breaks will allow 
+you to anticipate potential market turns.
+
+1305
+02:21:00,319 --> 02:21:07,519
+The next strategy involves finding instances of 
+Momentum Gain and Momentum Loss. Momentum refers  
+
+1306
+02:21:07,520 --> 02:21:12,960
+to the speed or strength of price movements. 
+And this can be observed through the lens of  
+
+1307
+02:21:12,960 --> 02:21:20,160
+consecutive candles increasing or decreasing 
+in size from a supply and demand perspective.
+
+1308
+02:21:20,160 --> 02:21:25,840
+When you see consecutive candles getting 
+larger and larger, this usually signals a  
+
+1309
+02:21:25,840 --> 02:21:32,800
+Momentum Gain. Imagine a scenario where each 
+candle represents a day of trading. If each  
+
+1310
+02:21:32,800 --> 02:21:38,720
+day the price moves higher than the previous 
+day and the size of the candle gets bigger,  
+
+1311
+02:21:38,720 --> 02:21:45,439
+it indicates strong buying pressure; more buyers 
+are entering the market, willing to buy at even  
+
+1312
+02:21:45,439 --> 02:21:53,120
+higher prices. This buying pressure pushes 
+the price up, creating larger bullish candles.  
+
+1313
+02:21:53,120 --> 02:21:58,319
+This can often be seen in an uptrend 
+where each candle is getting larger  
+
+1314
+02:21:58,319 --> 02:22:04,719
+and moving a greater distance per candle, 
+showing a gain in bullish momentum. The  
+
+1315
+02:22:04,720 --> 02:22:10,720
+increasing size of the candles indicates 
+that buyers are becoming more aggressive.
+
+1316
+02:22:10,720 --> 02:22:16,560
+Momentum Loss can be found when the candles 
+start to decrease in size. This suggests that  
+
+1317
+02:22:16,560 --> 02:22:23,040
+the movement in price is losing strength. If 
+you observe that after a series of large bullish  
+
+1318
+02:22:23,040 --> 02:22:29,680
+candles, the candles begin to shrink in size, 
+it could be a warning sign. Shrinking candles  
+
+1319
+02:22:29,680 --> 02:22:34,720
+suggest that although the trend is still 
+upward, the buyers are not as aggressive as  
+
+1320
+02:22:34,720 --> 02:22:41,359
+before. The distance traveled per candle gets 
+shorter, signaling that the buyers are losing  
+
+1321
+02:22:41,359 --> 02:22:47,839
+control and the bullish momentum is weakening. 
+This shift could be due to various reasons,  
+
+1322
+02:22:47,840 --> 02:22:53,200
+such as traders taking profits after a 
+price surge or simply the market running  
+
+1323
+02:22:53,200 --> 02:23:00,559
+out of steam. When buyers begin to pull back, the 
+supply may start to match or exceed the demand,  
+
+1324
+02:23:00,560 --> 02:23:06,880
+leading to smaller price movements. Momentum 
+loss is not only about shrinking candles,  
+
+1325
+02:23:06,880 --> 02:23:13,920
+but also about where these candles appear. If 
+this pattern occurs after a prolonged uptrend  
+
+1326
+02:23:13,920 --> 02:23:20,319
+at a key resistance level, it could be a strong 
+indicator that the trend might reverse or at least  
+
+1327
+02:23:20,319 --> 02:23:27,359
+stall. This is because at resistance levels, the 
+price has historically struggled to move higher,  
+
+1328
+02:23:27,359 --> 02:23:33,439
+and with weakening momentum, the likelihood 
+of breaking through these levels decreases.
+
+1329
+02:23:33,439 --> 02:23:36,479
+The plan here is to ride the wave of increasing  
+
+1330
+02:23:36,479 --> 02:23:41,759
+buyer enthusiasm during momentum 
+gain phases. On the other hand,  
+
+1331
+02:23:41,760 --> 02:23:48,399
+noticing a momentum loss with decreasing candle 
+sizes could signal a time to be cautious.
+
+1332
+02:23:48,399 --> 02:23:57,040
+Now, if you liked what you saw, we have 
+plenty more interesting guides for you.
+

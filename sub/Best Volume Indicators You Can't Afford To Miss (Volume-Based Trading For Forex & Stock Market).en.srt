@@ -1,0 +1,609 @@
+1
+00:00:01,170 --> 00:00:06,400
+Very few traders or investors know how to
+use volume to increase their profits and minimize
+
+2
+00:00:06,400 --> 00:00:12,889
+risk, and this is very strange because volume
+it is a very powerful tool but is often overlooked.
+
+3
+00:00:12,889 --> 00:00:19,050
+Also, volume information can be found on any
+trading platform, but strangely few traders
+
+4
+00:00:19,050 --> 00:00:23,360
+or investors know how to use this information
+to and maximize profits.
+
+5
+00:00:23,360 --> 00:00:29,300
+Volume is a not a precise entry and exit tool,
+however, with the help of some volume indicators,
+
+6
+00:00:29,300 --> 00:00:35,190
+you can generate decent entry and exit signals
+by combining them with price action or other
+
+7
+00:00:35,190 --> 00:00:36,190
+tools.
+
+8
+00:00:36,190 --> 00:00:40,829
+So, today, we’ll talk about volume indicators,
+you’ll learn why they are such a useful
+
+9
+00:00:40,829 --> 00:00:46,250
+tool and you’ll discover what are the best
+volume indicators to incorporate in your market
+
+10
+00:00:46,250 --> 00:00:47,409
+analysis.
+
+11
+00:00:47,409 --> 00:00:52,949
+Before we continue, if you are new to my channel,
+make sure you subscribe, turn on the notifications
+
+12
+00:00:52,949 --> 00:00:57,280
+and leave a like to show your support.
+
+13
+00:00:57,280 --> 00:01:02,309
+Volume indicators are mathematical formulas
+that are visually represented in almost all
+
+14
+00:01:02,309 --> 00:01:03,920
+trading platforms.
+
+15
+00:01:03,920 --> 00:01:09,829
+Each indicator uses a slightly different formula,
+and therefore, you should find the indicator
+
+16
+00:01:09,829 --> 00:01:13,520
+that works best for your particular market
+approach.
+
+17
+00:01:13,520 --> 00:01:19,320
+Volume indicators are not 100% required, but
+they can help you a lot in your trading decision
+
+18
+00:01:19,320 --> 00:01:20,659
+process.
+
+19
+00:01:20,659 --> 00:01:27,509
+There are many volume indicators, and let’s
+discuss briefly about the most important ones.
+
+20
+00:01:27,509 --> 00:01:30,130
+The first indicator, average volume.
+
+21
+00:01:30,130 --> 00:01:35,280
+The most basic of all volume indicators is
+the average one, and the calculation most
+
+22
+00:01:35,280 --> 00:01:41,100
+commonly used for the stock markets is 50
+days, although it may be reasonable to use
+
+23
+00:01:41,100 --> 00:01:45,560
+the same period as the price average that
+is being used.
+
+24
+00:01:45,560 --> 00:01:51,749
+Then, if you are tracking the 200-day moving
+average for example, a 200-day average of
+
+25
+00:01:51,749 --> 00:01:54,340
+the volume would make sense.
+
+26
+00:01:54,340 --> 00:02:01,340
+Anything less than 50 days is not likely to
+be smooth.
+
+27
+00:02:01,340 --> 00:02:06,539
+Another useful indicator, not known by many
+trades is the volume momentum.
+
+28
+00:02:06,539 --> 00:02:11,970
+The volume momentum indicator treats volume
+as it would be price.
+
+29
+00:02:11,970 --> 00:02:18,640
+For momentum, this means finding the change
+in volume over a specific time interval; volume
+
+30
+00:02:18,640 --> 00:02:24,540
+momentum basically measures the size of the
+volume change relative to the starting value.
+
+31
+00:02:24,540 --> 00:02:30,760
+The indicator sorts the volume based on negative
+or positive closes.
+
+32
+00:02:30,760 --> 00:02:37,489
+This indicator works in all timeframes but
+is quite strong in the smaller ones to notice
+
+33
+00:02:37,489 --> 00:02:42,720
+buying or selling power taking place.
+
+34
+00:02:42,720 --> 00:02:48,180
+Force index is another great volume indicator
+and represents the change in price multiplied
+
+35
+00:02:48,180 --> 00:02:49,989
+by the daily volume.
+
+36
+00:02:49,989 --> 00:02:55,319
+Force index is an oscillator that measures
+the force, or power, of bulls behind particular
+
+37
+00:02:55,319 --> 00:02:59,920
+market rallies and of bears behind every decline.
+
+38
+00:02:59,920 --> 00:03:05,069
+The force index indicator will be positive
+or negative if the price change was higher
+
+39
+00:03:05,069 --> 00:03:06,510
+or lower.
+
+40
+00:03:06,510 --> 00:03:12,120
+The three key components of the force index
+are the direction of price change, the extent
+
+41
+00:03:12,120 --> 00:03:14,569
+of the price change, and the trading volume.
+
+42
+00:03:14,569 --> 00:03:21,330
+A higher market will result in a positive
+force index, plotted above the center line;
+
+43
+00:03:21,330 --> 00:03:27,480
+A lower market points to a negative force
+index, below the center line.
+
+44
+00:03:27,480 --> 00:03:35,069
+An unchanged market will return a force index
+directly on the zero line.
+
+45
+00:03:35,069 --> 00:03:40,410
+When the force index is used in conjunction
+with a moving average, the resulting figure
+
+46
+00:03:40,410 --> 00:03:46,629
+can accurately measure significant changes
+in the power of bulls and bears.
+
+47
+00:03:46,629 --> 00:03:51,790
+For timing entries and exits, a 2-day exponential
+moving average (EMA) is recommended, to avoid
+
+48
+00:03:51,790 --> 00:03:54,720
+unnecessary noise in the indicator.
+
+49
+00:03:54,720 --> 00:04:02,329
+For longer-term analysis, a 13-day exponential
+moving average could be used.
+
+50
+00:04:02,329 --> 00:04:05,000
+Volume oscillator is another useful tool.
+
+51
+00:04:05,000 --> 00:04:12,069
+The volume oscillator consists of two moving
+averages of volume, one fast and one slow,
+
+52
+00:04:12,069 --> 00:04:17,110
+the fast volume moving average being subtracted
+from the slow moving average.
+
+53
+00:04:17,110 --> 00:04:22,420
+An increase or decrease in price accompanied
+by an increase in volume may be considered
+
+54
+00:04:22,420 --> 00:04:25,470
+a sign of strength in the prevailing trend.
+
+55
+00:04:25,470 --> 00:04:31,930
+Therefore, when the fast volume moving average
+(default 14-period) is above the slow volume
+
+56
+00:04:31,930 --> 00:04:38,560
+moving average (default 34-period), the volume
+oscillator is above the zero line and may
+
+57
+00:04:38,560 --> 00:04:44,060
+be confirming price direction, whether it
+be up or down.
+
+58
+00:04:44,060 --> 00:04:49,600
+An increase or decrease in price accompanied
+by a decrease in volume may be considered
+
+59
+00:04:49,600 --> 00:04:52,560
+a sign of weakness in the prevailing trend.
+
+60
+00:04:52,560 --> 00:04:57,891
+Therefore, when the fast volume moving average
+is below the slow volume moving average, the
+
+61
+00:04:57,891 --> 00:05:04,060
+volume oscillator is below the zero line and
+may be warning that the price direction is
+
+62
+00:05:04,060 --> 00:05:08,620
+lacking strength and conviction.
+
+63
+00:05:08,620 --> 00:05:13,420
+The next indicator is a familiar one, because
+i mentioned it in my past videos, and that’s
+
+64
+00:05:13,420 --> 00:05:15,650
+the on balance volume.
+
+65
+00:05:15,650 --> 00:05:20,590
+On balance volume (OBV) combines price and
+volume in an attempt to determine whether
+
+66
+00:05:20,590 --> 00:05:25,650
+price movements are strong or are weak and
+lacking conviction.
+
+67
+00:05:25,650 --> 00:05:32,100
+On balance volume has a simple calculation:
+On an up day, the volume is added to the previous
+
+68
+00:05:32,100 --> 00:05:36,810
+day's OBV
+On a down day, the volume is subtracted from
+
+69
+00:05:36,810 --> 00:05:39,470
+the previous day's OBV.
+
+70
+00:05:39,470 --> 00:05:45,300
+Increasing or decreasing price accompanied
+by increasing volume, suggests a confirmation
+
+71
+00:05:45,300 --> 00:05:47,270
+of the price trend.
+
+72
+00:05:47,270 --> 00:05:52,280
+Increasing or decreasing price accompanied
+by decreasing volume, suggests that the price
+
+73
+00:05:52,280 --> 00:05:57,500
+movement is weak and lacking conviction.
+
+74
+00:05:57,500 --> 00:06:00,340
+The next indicator is the money flow index.
+
+75
+00:06:00,340 --> 00:06:05,500
+The money flow index (MFI) is a momentum oscillator
+that measures the strength of money flowing
+
+76
+00:06:05,500 --> 00:06:09,080
+in and out of a security/stock.
+
+77
+00:06:09,080 --> 00:06:14,720
+Money flow index is related to the relative
+strength index, but with a twist.
+
+78
+00:06:14,720 --> 00:06:20,330
+While RSI only incorporates prices, the money
+flow index also incorporates the volume.
+
+79
+00:06:20,330 --> 00:06:25,860
+As the money flow index (MFI) is quite similar
+to RSI, the indicator can be used in a similar
+
+80
+00:06:25,860 --> 00:06:27,170
+way.
+
+81
+00:06:27,170 --> 00:06:34,190
+When the MFI is above 90, the price is considered
+overbought and a reversal or pullback could
+
+82
+00:06:34,190 --> 00:06:36,110
+be on the cards.
+
+83
+00:06:36,110 --> 00:06:43,180
+When the MFI is below 10, the price is considered
+oversold and a reversal or pullback might
+
+84
+00:06:43,180 --> 00:06:45,360
+occur on the market.
+
+85
+00:06:45,360 --> 00:06:51,680
+Since the money flow index uses volume in
+its calculation, this indicator can be effective
+
+86
+00:06:51,680 --> 00:06:54,340
+as a divergence indicator.
+
+87
+00:06:54,340 --> 00:07:02,860
+If prices rise, but the volume on the up days
+is less than the volume recorded on down days,
+
+88
+00:07:02,860 --> 00:07:10,080
+then money is secretly pouring out of the
+stock; this is called a bearish divergence.
+
+89
+00:07:10,080 --> 00:07:16,930
+And similarly, when prices fall, but the volume
+on the down days is less than the volume on
+
+90
+00:07:16,930 --> 00:07:25,430
+up days, then money is flowing back into the
+stock, and that’s a bullish divergence.
+
+91
+00:07:25,430 --> 00:07:28,400
+Accumulation and distribution indicator is
+next.
+
+92
+00:07:28,400 --> 00:07:32,820
+If you watched by pivot points strategy, you
+already know a few things about it.
+
+93
+00:07:32,820 --> 00:07:38,550
+The A/D line compares the strength of the
+close compared to the open divided by the
+
+94
+00:07:38,550 --> 00:07:40,260
+trading range.
+
+95
+00:07:40,260 --> 00:07:43,980
+It is also called money flow in some references.
+
+96
+00:07:43,980 --> 00:07:50,460
+Accumulation distribution uses volume to confirm
+price trends or warn of weak movements that
+
+97
+00:07:50,460 --> 00:07:52,580
+could result in price reversals.
+
+98
+00:07:52,580 --> 00:07:58,810
+Accumulation: volume is considered to be accumulated
+when the day's close is higher than the previous
+
+99
+00:07:58,810 --> 00:08:00,770
+day's closing price.
+
+100
+00:08:00,770 --> 00:08:05,640
+Thus the term "accumulation day"
+Distribution: volume is distributed when the
+
+101
+00:08:05,640 --> 00:08:09,590
+day's close is lower than the previous day's
+closing price.
+
+102
+00:08:09,590 --> 00:08:15,220
+This is also known as a "distribution day"
+The main use of the accumulation distribution
+
+103
+00:08:15,220 --> 00:08:22,540
+line is to detect divergences between the
+price movement and volume movement.
+
+104
+00:08:22,540 --> 00:08:25,920
+Another indicator is the price volume trend.
+
+105
+00:08:25,920 --> 00:08:31,800
+This indicator combines percentage price change
+and volume in an attempt to confirm the strength
+
+106
+00:08:31,800 --> 00:08:37,820
+of price trends or through divergences, warn
+of weak price movements.
+
+107
+00:08:37,820 --> 00:08:43,129
+Unlike other price-volume indicators, the
+price volume trend takes into consideration
+
+108
+00:08:43,129 --> 00:08:48,949
+the percentage increase or decrease in price,
+rather than just simply adding or subtracting
+
+109
+00:08:48,949 --> 00:08:54,250
+volume based on whether the current price
+is higher than the previous day's price
+
+110
+00:08:54,250 --> 00:08:55,250
+On an up day, the volume is multiplied by
+the percentage price increase between the
+
+111
+00:08:55,250 --> 00:08:56,250
+current close and the previous time-period's
+close.
+
+112
+00:08:56,250 --> 00:08:57,250
+This value is then added to the previous day's
+price volume trend value.
+
+113
+00:08:57,250 --> 00:08:58,250
+On a down day, the volume is multiplied by
+the percentage price decrease between the
+
+114
+00:08:58,250 --> 00:08:59,250
+current close and the previous time-period's
+close.
+
+115
+00:08:59,250 --> 00:09:00,250
+This value is then added to the previous day's
+price volume trend value.
+
+116
+00:09:00,250 --> 00:09:02,550
+Chaikin money flow is another volume indicator,
+which determines if an instrument is under
+
+117
+00:09:02,550 --> 00:09:04,900
+accumulation or distribution.
+
+118
+00:09:04,900 --> 00:09:10,250
+The Chaikin money flow indicator compares
+the closing price to the high-low range of
+
+119
+00:09:10,250 --> 00:09:11,449
+the trading session.
+
+120
+00:09:11,449 --> 00:09:18,279
+Chaikin money flow measures buying and selling
+pressure over a set period of time.
+
+121
+00:09:18,279 --> 00:09:25,509
+If the stock’s price closes near the high
+of the session with increased volume, the
+
+122
+00:09:25,509 --> 00:09:31,509
+Chaikin money flow increases in value
+If the stock’s price closes near the low
+
+123
+00:09:31,509 --> 00:09:38,740
+of the session with increased volume, the
+Chaikin money flow decreases in value.
+
+124
+00:09:38,740 --> 00:09:45,360
+Other useful indicators are the volume weighed
+moving average, volume weighted average price
+
+125
+00:09:45,360 --> 00:09:52,339
+and volume-weighted MACD, but these indicators
+will be discussed separately in future videos.
+
+126
+00:09:52,339 --> 00:09:57,000
+As always, if you got value from this this
+video or learned something new, make sure
+
+127
+00:09:57,000 --> 00:10:02,339
+you subscribe, turn on the notifications so
+you don’t miss future uploads and leave
+
+128
+00:10:02,339 --> 00:10:05,020
+us a like to show your support.
+
+129
+00:10:05,020 --> 00:10:05,580
+Until next time.
+

@@ -1,0 +1,2200 @@
+1
+00:00:00,160 --> 00:00:05,759
+If you are not using AI in your trades,
+
+2
+00:00:02,960 --> 00:00:09,040
+you risk falling behind while others
+
+3
+00:00:05,759 --> 00:00:11,519
+find their edge. AI is leaving old
+
+4
+00:00:09,040 --> 00:00:14,480
+methods in the past, and only traders
+
+5
+00:00:11,519 --> 00:00:16,960
+who adapt will win. So, copy my
+
+6
+00:00:14,480 --> 00:00:18,800
+blueprint and catch up before you are
+
+7
+00:00:16,960 --> 00:00:21,199
+left behind.
+
+8
+00:00:18,800 --> 00:00:24,560
+Chart analysis is where you see the
+
+9
+00:00:21,199 --> 00:00:27,760
+power of AI right away. So, start with a
+
+10
+00:00:24,560 --> 00:00:30,800
+raw price chart and take a screenshot.
+
+11
+00:00:27,760 --> 00:00:34,079
+Then simply upload that image to your AI
+
+12
+00:00:30,800 --> 00:00:36,800
+tool. Use a simple prompt like, "Show me
+
+13
+00:00:34,079 --> 00:00:39,520
+the key levels, trend structure, and
+
+14
+00:00:36,800 --> 00:00:42,160
+tell me where I should consider trades."
+
+15
+00:00:39,520 --> 00:00:45,920
+Then see if the AI analysis makes sense
+
+16
+00:00:42,160 --> 00:00:48,960
+to you. In this case, the AI spots the
+
+17
+00:00:45,920 --> 00:00:51,920
+main trend first, a clear downtrend from
+
+18
+00:00:48,960 --> 00:00:55,520
+the left side, making lower highs and
+
+19
+00:00:51,920 --> 00:00:59,840
+lower lows until that sharp spike near
+
+20
+00:00:55,520 --> 00:01:02,399
+184.5 level. The AI marked this as a
+
+21
+00:00:59,840 --> 00:01:05,280
+major demand zone. This isn't just
+
+22
+00:01:02,399 --> 00:01:07,920
+another bounce. This is where big money
+
+23
+00:01:05,280 --> 00:01:11,280
+stepped in hard, creating a liquidity
+
+24
+00:01:07,920 --> 00:01:14,240
+grab before pushing price higher. If
+
+25
+00:01:11,280 --> 00:01:17,360
+price returns here, the AI suggests
+
+26
+00:01:14,240 --> 00:01:20,960
+watching for long trades, but only after
+
+27
+00:01:17,360 --> 00:01:25,040
+seeing real buying pressure. The AI then
+
+28
+00:01:20,960 --> 00:01:27,439
+identified resistance around 189 level.
+
+29
+00:01:25,040 --> 00:01:30,799
+It's where sellers consistently showed
+
+30
+00:01:27,439 --> 00:01:34,000
+up. The AI flagged this as a key supply
+
+31
+00:01:30,799 --> 00:01:35,920
+zone. If you're thinking about shorts,
+
+32
+00:01:34,000 --> 00:01:37,439
+this is where you watch for rejection
+
+33
+00:01:35,920 --> 00:01:40,079
+signals.
+
+34
+00:01:37,439 --> 00:01:43,200
+Here's where AI gets smart about trade
+
+35
+00:01:40,079 --> 00:01:47,360
+location. That messy, choppy area
+
+36
+00:01:43,200 --> 00:01:50,720
+between 186 and 188 was marked as a no
+
+37
+00:01:47,360 --> 00:01:54,000
+trade zone. Small candles, overlapping
+
+38
+00:01:50,720 --> 00:01:56,960
+moves, no clear direction. This is where
+
+39
+00:01:54,000 --> 00:02:00,079
+traders lose money fighting noise. The
+
+40
+00:01:56,960 --> 00:02:02,719
+AI advised to skip these areas and wait
+
+41
+00:02:00,079 --> 00:02:06,399
+for price to hit the real levels where
+
+42
+00:02:02,719 --> 00:02:10,800
+big players fight. The AI also reads the
+
+43
+00:02:06,399 --> 00:02:14,319
+trend shift. After that spike from 184.5
+
+44
+00:02:10,800 --> 00:02:16,560
+level, price stops making new lows. The
+
+45
+00:02:14,319 --> 00:02:19,520
+trend structure changes from straight
+
+46
+00:02:16,560 --> 00:02:22,560
+down to sideways. This tells you to
+
+47
+00:02:19,520 --> 00:02:26,319
+adapt. No more blind selling. The market
+
+48
+00:02:22,560 --> 00:02:28,959
+is ranging now. For trading bias, the AI
+
+49
+00:02:26,319 --> 00:02:31,840
+showed the early trend was bearish, but
+
+50
+00:02:28,959 --> 00:02:34,480
+now we are neutral. For a beginner, this
+
+51
+00:02:31,840 --> 00:02:37,200
+is power at your fingertips. Instead of
+
+52
+00:02:34,480 --> 00:02:40,480
+guessing at levels or drawing random
+
+53
+00:02:37,200 --> 00:02:43,519
+lines, you feed the chart to AI. It
+
+54
+00:02:40,480 --> 00:02:45,840
+finds the zones where real money moves,
+
+55
+00:02:43,519 --> 00:02:48,800
+where trends change, where you should
+
+56
+00:02:45,840 --> 00:02:50,959
+trade, and where you should stay out.
+
+57
+00:02:48,800 --> 00:02:53,200
+The big edge comes from speed and
+
+58
+00:02:50,959 --> 00:02:56,560
+clarity. You don't spend hours
+
+59
+00:02:53,200 --> 00:02:59,840
+analyzing. You grab your screenshot, ask
+
+60
+00:02:56,560 --> 00:03:02,800
+AI, and get a clear map. Key levels
+
+61
+00:02:59,840 --> 00:03:06,000
+marked, trend structure defined,
+
+62
+00:03:02,800 --> 00:03:08,800
+dangerous zones identified, and now you
+
+63
+00:03:06,000 --> 00:03:11,440
+have a plan. You know exactly where to
+
+64
+00:03:08,800 --> 00:03:14,800
+watch for setups and where to avoid the
+
+65
+00:03:11,440 --> 00:03:17,599
+noise. AI can analyze different time
+
+66
+00:03:14,800 --> 00:03:20,080
+frames and combine insights into a
+
+67
+00:03:17,599 --> 00:03:22,560
+single recommendation. This is one of
+
+68
+00:03:20,080 --> 00:03:24,720
+the most common problems of traders.
+
+69
+00:03:22,560 --> 00:03:27,599
+It's when you look at the hourly chart
+
+70
+00:03:24,720 --> 00:03:30,640
+and see a strong uptrend. Then you drop
+
+71
+00:03:27,599 --> 00:03:33,519
+down to a 5-minute chart and see a messy
+
+72
+00:03:30,640 --> 00:03:36,080
+sideways chop. That's the reality of
+
+73
+00:03:33,519 --> 00:03:38,640
+multiple time frames. Each time frame
+
+74
+00:03:36,080 --> 00:03:41,760
+tells a different part of the story.
+
+75
+00:03:38,640 --> 00:03:44,799
+This is where AI helps. Again, you feed
+
+76
+00:03:41,760 --> 00:03:47,760
+it the daily chart, the 4hour chart, or
+
+77
+00:03:44,799 --> 00:03:50,560
+any other intervals you like. and AI
+
+78
+00:03:47,760 --> 00:03:53,120
+scans each time frame, identifies the
+
+79
+00:03:50,560 --> 00:03:54,959
+main trend, the key levels, and then
+
+80
+00:03:53,120 --> 00:03:56,640
+combines them into a single
+
+81
+00:03:54,959 --> 00:03:59,040
+recommendation.
+
+82
+00:03:56,640 --> 00:04:02,480
+So, let's try this. Let's take another
+
+83
+00:03:59,040 --> 00:04:06,080
+screenshot with the 4hour and 30 minute
+
+84
+00:04:02,480 --> 00:04:08,720
+and 5 minute charts of pound yen, upload
+
+85
+00:04:06,080 --> 00:04:11,040
+it to the AI, and say, "Give me a
+
+86
+00:04:08,720 --> 00:04:14,080
+complete analysis across all time
+
+87
+00:04:11,040 --> 00:04:16,479
+frames." Then simply watch how AI
+
+88
+00:04:14,080 --> 00:04:19,840
+connects the dots that many traders
+
+89
+00:04:16,479 --> 00:04:22,720
+miss. So the AI starts with the 4hour
+
+90
+00:04:19,840 --> 00:04:25,759
+chart, the biggest time frame. It spots
+
+91
+00:04:22,720 --> 00:04:28,880
+a strong uptrend with higher highs and
+
+92
+00:04:25,759 --> 00:04:32,080
+higher lows. The recent candles are big
+
+93
+00:04:28,880 --> 00:04:35,280
+and green showing buyers in control. No
+
+94
+00:04:32,080 --> 00:04:38,320
+reversal signs yet. This is pure bullish
+
+95
+00:04:35,280 --> 00:04:41,120
+momentum on the larger scale. Moving to
+
+96
+00:04:38,320 --> 00:04:43,919
+the 30inut chart, AI sees price
+
+97
+00:04:41,120 --> 00:04:46,960
+stairstepping up. After some sideways
+
+98
+00:04:43,919 --> 00:04:50,320
+chop, buyers took charge and started
+
+99
+00:04:46,960 --> 00:04:53,120
+making steady progress. Each push higher
+
+100
+00:04:50,320 --> 00:04:56,320
+leads to a small pause, then another
+
+101
+00:04:53,120 --> 00:04:59,040
+push up. The AI notes price might be
+
+102
+00:04:56,320 --> 00:05:02,479
+getting overextended here as it's moved
+
+103
+00:04:59,040 --> 00:05:05,280
+up a lot without much rest. On the
+
+104
+00:05:02,479 --> 00:05:08,080
+5-minut chart, the smallest time frame
+
+105
+00:05:05,280 --> 00:05:11,039
+AI confirms the uptrend but adds a
+
+106
+00:05:08,080 --> 00:05:13,039
+warning. While price is climbing, these
+
+107
+00:05:11,039 --> 00:05:16,160
+small time frames can see quick
+
+108
+00:05:13,039 --> 00:05:18,960
+pullbacks even in strong trends. The
+
+109
+00:05:16,160 --> 00:05:21,199
+most recent move shows a sharp rally,
+
+110
+00:05:18,960 --> 00:05:24,240
+possibly after breaking out of a tight
+
+111
+00:05:21,199 --> 00:05:27,520
+range. Then the AI combined all three
+
+112
+00:05:24,240 --> 00:05:30,160
+time frames into one clear picture. All
+
+113
+00:05:27,520 --> 00:05:33,039
+charts point up. The momentum is strong
+
+114
+00:05:30,160 --> 00:05:36,240
+across the board with no major reversal
+
+115
+00:05:33,039 --> 00:05:39,280
+signals. But on those smaller charts,
+
+116
+00:05:36,240 --> 00:05:42,240
+price looks like it needs a breather. So
+
+117
+00:05:39,280 --> 00:05:45,360
+AI suggests waiting for small dips to
+
+118
+00:05:42,240 --> 00:05:48,000
+buy rather than chasing the highs. For
+
+119
+00:05:45,360 --> 00:05:50,720
+actual trading, the AI mapped out a
+
+120
+00:05:48,000 --> 00:05:54,800
+simple plan. You wait for a pullback on
+
+121
+00:05:50,720 --> 00:05:58,080
+the 5-minut or 30inut chart. The AI also
+
+122
+00:05:54,800 --> 00:06:00,880
+spots danger zones. Don't try selling
+
+123
+00:05:58,080 --> 00:06:03,520
+just because price has gone up a lot.
+
+124
+00:06:00,880 --> 00:06:06,560
+When all time frames align like this,
+
+125
+00:06:03,520 --> 00:06:09,039
+fighting the trend usually ends badly.
+
+126
+00:06:06,560 --> 00:06:11,440
+Instead, he advised to use those small
+
+127
+00:06:09,039 --> 00:06:14,720
+pullbacks as chances to join the
+
+128
+00:06:11,440 --> 00:06:17,440
+uptrend. This is how AI transforms
+
+129
+00:06:14,720 --> 00:06:19,120
+multi-time frame analysis. No more
+
+130
+00:06:17,440 --> 00:06:21,520
+confusion.
+
+131
+00:06:19,120 --> 00:06:23,840
+Now, if you're like me, you probably
+
+132
+00:06:21,520 --> 00:06:26,800
+have dozens of ideas for a special
+
+133
+00:06:23,840 --> 00:06:29,440
+indicator, but you're not a coder. This
+
+134
+00:06:26,800 --> 00:06:31,520
+is when you call on AI. It can help
+
+135
+00:06:29,440 --> 00:06:34,240
+write code for your own custom
+
+136
+00:06:31,520 --> 00:06:37,039
+indicators. You can describe what you
+
+137
+00:06:34,240 --> 00:06:39,840
+want and AI can generate the code for
+
+138
+00:06:37,039 --> 00:06:43,120
+you. So, I was thinking about creating
+
+139
+00:06:39,840 --> 00:06:45,039
+an indicator focusing on volume spikes,
+
+140
+00:06:43,120 --> 00:06:47,680
+something that could spot what the big
+
+141
+00:06:45,039 --> 00:06:50,560
+money players are doing. You see,
+
+142
+00:06:47,680 --> 00:06:52,800
+regular indicators miss this. But I had
+
+143
+00:06:50,560 --> 00:06:56,160
+an idea for something that could catch
+
+144
+00:06:52,800 --> 00:06:58,880
+these major players in action. So, I
+
+145
+00:06:56,160 --> 00:07:01,360
+asked AI to create me an indicator that
+
+146
+00:06:58,880 --> 00:07:04,080
+spots volume spikes above average
+
+147
+00:07:01,360 --> 00:07:07,120
+levels. I wanted to make it show when
+
+148
+00:07:04,080 --> 00:07:09,599
+big players step in. I've asked it to
+
+149
+00:07:07,120 --> 00:07:12,720
+compare current volume to a moving
+
+150
+00:07:09,599 --> 00:07:15,120
+average of volume and to color the bar
+
+151
+00:07:12,720 --> 00:07:18,400
+differently when it exceeds a certain
+
+152
+00:07:15,120 --> 00:07:20,880
+threshold. After you get your code, you
+
+153
+00:07:18,400 --> 00:07:23,120
+open your trading view chart and look
+
+154
+00:07:20,880 --> 00:07:26,639
+down at the bottom of your screen for
+
+155
+00:07:23,120 --> 00:07:29,520
+the pine editor button. Now look for the
+
+156
+00:07:26,639 --> 00:07:31,759
+new button and click it. Then choose
+
+157
+00:07:29,520 --> 00:07:34,800
+indicator from the drop-own menu that
+
+158
+00:07:31,759 --> 00:07:37,599
+appears. This creates a fresh pine
+
+159
+00:07:34,800 --> 00:07:39,599
+script file for us to work with. You'll
+
+160
+00:07:37,599 --> 00:07:42,400
+probably see some template code in
+
+161
+00:07:39,599 --> 00:07:45,680
+there. So you just delete all of that.
+
+162
+00:07:42,400 --> 00:07:48,639
+Then simply paste the code. After saving
+
+163
+00:07:45,680 --> 00:07:51,520
+it, look for the add to chart button and
+
+164
+00:07:48,639 --> 00:07:54,560
+click it. This is where you'll see if
+
+165
+00:07:51,520 --> 00:07:56,879
+everything works properly. If all goes
+
+166
+00:07:54,560 --> 00:07:59,840
+well, you'll see your indicator appear
+
+167
+00:07:56,879 --> 00:08:02,720
+on your chart right away. If you see any
+
+168
+00:07:59,840 --> 00:08:05,599
+error messages pop up, don't worry.
+
+169
+00:08:02,720 --> 00:08:08,400
+That's totally normal when coding. Just
+
+170
+00:08:05,599 --> 00:08:11,120
+grab a screenshot of the error or copy
+
+171
+00:08:08,400 --> 00:08:14,800
+the error message text and simply ask
+
+172
+00:08:11,120 --> 00:08:16,879
+the AI to fix any issues. Now, when we
+
+173
+00:08:14,800 --> 00:08:19,759
+look at this British pound futures
+
+174
+00:08:16,879 --> 00:08:22,639
+chart, we see that this indicator works
+
+175
+00:08:19,759 --> 00:08:25,680
+beautifully. The volume spikes often
+
+176
+00:08:22,639 --> 00:08:28,319
+come right before major moves. That's
+
+177
+00:08:25,680 --> 00:08:31,039
+because volume reveals supply and demand
+
+178
+00:08:28,319 --> 00:08:33,919
+imbalances, something most technical
+
+179
+00:08:31,039 --> 00:08:36,800
+indicators completely miss. The real
+
+180
+00:08:33,919 --> 00:08:40,000
+power shows up in the price action after
+
+181
+00:08:36,800 --> 00:08:43,279
+the signals. Notice how some uptrends
+
+182
+00:08:40,000 --> 00:08:45,680
+started right after those volume spikes.
+
+183
+00:08:43,279 --> 00:08:48,240
+That's not random. It's showing you
+
+184
+00:08:45,680 --> 00:08:50,720
+exactly what professional floor traders
+
+185
+00:08:48,240 --> 00:08:53,839
+watch. They know where the big money
+
+186
+00:08:50,720 --> 00:08:57,120
+moves. And now this simple AI indicator
+
+187
+00:08:53,839 --> 00:08:59,600
+spots it too. And the beauty is you
+
+188
+00:08:57,120 --> 00:09:03,200
+don't need to understand complex coding
+
+189
+00:08:59,600 --> 00:09:05,839
+or market mechanics. AI builds the tool
+
+190
+00:09:03,200 --> 00:09:08,560
+and you watch for the signals. Just
+
+191
+00:09:05,839 --> 00:09:11,120
+describe what you want to track and AI
+
+192
+00:09:08,560 --> 00:09:14,800
+will create professionalgrade indicators
+
+193
+00:09:11,120 --> 00:09:18,240
+in just a few minutes. Stock analysis is
+
+194
+00:09:14,800 --> 00:09:20,240
+another clever use of AI in trading. You
+
+195
+00:09:18,240 --> 00:09:23,200
+simply take screenshots of stocks
+
+196
+00:09:20,240 --> 00:09:26,480
+fundamentals you're analyzing or upload
+
+197
+00:09:23,200 --> 00:09:30,560
+full documents and ask AI to point out
+
+198
+00:09:26,480 --> 00:09:33,600
+key findings about financial ratios. AI
+
+199
+00:09:30,560 --> 00:09:36,160
+can also summarize earnings reports,
+
+200
+00:09:33,600 --> 00:09:39,120
+highlighting key findings faster than
+
+201
+00:09:36,160 --> 00:09:41,760
+reading the full document. So, let's say
+
+202
+00:09:39,120 --> 00:09:43,600
+you are looking at Apple's stock and you
+
+203
+00:09:41,760 --> 00:09:46,240
+want to understand its financials
+
+204
+00:09:43,600 --> 00:09:49,519
+quickly rather than spending hours
+
+205
+00:09:46,240 --> 00:09:52,480
+analyzing numbers. You turn to AI for
+
+206
+00:09:49,519 --> 00:09:55,440
+instant clarity. So paste Apple's
+
+207
+00:09:52,480 --> 00:09:58,560
+fundamentals, the revenue, earnings,
+
+208
+00:09:55,440 --> 00:10:02,080
+main ratios, market cap, and even price
+
+209
+00:09:58,560 --> 00:10:04,720
+movements. The beauty of AI analysis is
+
+210
+00:10:02,080 --> 00:10:08,320
+its speed and precision. Instead of
+
+211
+00:10:04,720 --> 00:10:11,200
+manually comparing dozens of metrics, AI
+
+212
+00:10:08,320 --> 00:10:14,000
+processed everything in seconds. You
+
+213
+00:10:11,200 --> 00:10:16,720
+simply fed the numbers into AI and it
+
+214
+00:10:14,000 --> 00:10:19,440
+will immediately spot key patterns that
+
+215
+00:10:16,720 --> 00:10:22,880
+matter. The real advantage comes from
+
+216
+00:10:19,440 --> 00:10:26,000
+AI's unbiased view. While humans might
+
+217
+00:10:22,880 --> 00:10:29,680
+get emotional about a company, AI sticks
+
+218
+00:10:26,000 --> 00:10:32,000
+to pure numbers and facts. Ask him to
+
+219
+00:10:29,680 --> 00:10:34,959
+and it will quickly point out both
+
+220
+00:10:32,000 --> 00:10:37,360
+strengths and potential concerns. Think
+
+221
+00:10:34,959 --> 00:10:39,519
+about how this speeds up your research.
+
+222
+00:10:37,360 --> 00:10:42,720
+What used to take hours of reading
+
+223
+00:10:39,519 --> 00:10:45,200
+financial statements now takes minutes.
+
+224
+00:10:42,720 --> 00:10:48,959
+AI acts like your personal financial
+
+225
+00:10:45,200 --> 00:10:51,360
+advisor, but faster and without bias.
+
+226
+00:10:48,959 --> 00:10:54,959
+You feed it the numbers and it tells you
+
+227
+00:10:51,360 --> 00:10:56,800
+what matters most. For newer traders,
+
+228
+00:10:54,959 --> 00:10:59,360
+this removes the confusion of
+
+229
+00:10:56,800 --> 00:11:02,399
+fundamental analysis. Instead of
+
+230
+00:10:59,360 --> 00:11:05,120
+drowning in financial terms and ratios,
+
+231
+00:11:02,399 --> 00:11:07,760
+AI translates everything into clear
+
+232
+00:11:05,120 --> 00:11:10,640
+insights. It's like having a smart
+
+233
+00:11:07,760 --> 00:11:14,399
+friend explain complex numbers in simple
+
+234
+00:11:10,640 --> 00:11:17,839
+terms. For Apple, AI quickly showed its
+
+235
+00:11:14,399 --> 00:11:20,399
+healthy profits, reasonable PE ratio,
+
+236
+00:11:17,839 --> 00:11:23,279
+and current price discount from recent
+
+237
+00:11:20,399 --> 00:11:26,399
+highs. This approach can give you a
+
+238
+00:11:23,279 --> 00:11:29,360
+trading edge, an accurate analysis of
+
+239
+00:11:26,399 --> 00:11:31,680
+any stocks fundamentals combined with a
+
+240
+00:11:29,360 --> 00:11:34,880
+decent trading strategy. More
+
+241
+00:11:31,680 --> 00:11:37,040
+importantly, AI helps you understand why
+
+242
+00:11:34,880 --> 00:11:40,480
+these numbers matter for trading
+
+243
+00:11:37,040 --> 00:11:43,440
+decisions. The AI process catches things
+
+244
+00:11:40,480 --> 00:11:46,320
+humans might miss. Looking at Apple's
+
+245
+00:11:43,440 --> 00:11:49,440
+data, it immediately connected the lower
+
+246
+00:11:46,320 --> 00:11:52,160
+forward PE ratio with analyst growth
+
+247
+00:11:49,440 --> 00:11:55,040
+expectations, showing potential future
+
+248
+00:11:52,160 --> 00:11:58,160
+value that might not be obvious at first
+
+249
+00:11:55,040 --> 00:12:00,880
+glance. For newer traders, this means
+
+250
+00:11:58,160 --> 00:12:04,320
+you can understand company fundamentals
+
+251
+00:12:00,880 --> 00:12:07,200
+without being a Wall Street expert.
+
+252
+00:12:04,320 --> 00:12:10,000
+The next smart use is to have AI review
+
+253
+00:12:07,200 --> 00:12:12,480
+your trading strategy to identify
+
+254
+00:12:10,000 --> 00:12:15,120
+potential blind spots or market
+
+255
+00:12:12,480 --> 00:12:16,639
+conditions where your strategy might
+
+256
+00:12:15,120 --> 00:12:19,360
+underperform.
+
+257
+00:12:16,639 --> 00:12:21,760
+So I asked AI to analyze my trading
+
+258
+00:12:19,360 --> 00:12:25,360
+approach and give me straight answers
+
+259
+00:12:21,760 --> 00:12:28,959
+about what works and what needs fixing.
+
+260
+00:12:25,360 --> 00:12:31,760
+First, I told AI my exact trading rules,
+
+261
+00:12:28,959 --> 00:12:34,880
+when I enter trades, how I manage them,
+
+262
+00:12:31,760 --> 00:12:37,040
+and where I place my exits. The AI
+
+263
+00:12:34,880 --> 00:12:39,920
+immediately spotted patterns in my
+
+264
+00:12:37,040 --> 00:12:42,880
+approach that I hadn't noticed. The
+
+265
+00:12:39,920 --> 00:12:45,279
+process opened my eyes. AI pointed out
+
+266
+00:12:42,880 --> 00:12:47,680
+that a lot of my trading errors came
+
+267
+00:12:45,279 --> 00:12:50,639
+from mental perception, not market
+
+268
+00:12:47,680 --> 00:12:53,279
+conditions. While I was hunting for the
+
+269
+00:12:50,639 --> 00:12:55,839
+perfect signals, AI showed me that
+
+270
+00:12:53,279 --> 00:12:58,720
+optimization should focus on improving
+
+271
+00:12:55,839 --> 00:13:01,600
+my decision-making process. You can do
+
+272
+00:12:58,720 --> 00:13:04,399
+this, too. Simply tell AI about your
+
+273
+00:13:01,600 --> 00:13:08,000
+trading rules and watch it uncover blind
+
+274
+00:13:04,399 --> 00:13:11,040
+spots you never noticed. For example,
+
+275
+00:13:08,000 --> 00:13:13,440
+when I shared my entry criteria, AI
+
+276
+00:13:11,040 --> 00:13:15,920
+showed me I didn't have a solid way of
+
+277
+00:13:13,440 --> 00:13:19,279
+telling if market is trending or
+
+278
+00:13:15,920 --> 00:13:22,320
+rangebound. When I described my momentum
+
+279
+00:13:19,279 --> 00:13:24,959
+based entries, AI pointed out that I
+
+280
+00:13:22,320 --> 00:13:27,920
+needed to compare multiple price swings
+
+281
+00:13:24,959 --> 00:13:30,079
+to confirm true strength or weakness.
+
+282
+00:13:27,920 --> 00:13:32,160
+When I described my riskmanagement
+
+283
+00:13:30,079 --> 00:13:35,360
+rules, it quickly spotted
+
+284
+00:13:32,160 --> 00:13:38,160
+inconsistencies between my goals and my
+
+285
+00:13:35,360 --> 00:13:41,519
+actual trading behavior. The power of
+
+286
+00:13:38,160 --> 00:13:44,399
+this approach is its brutal honesty. AI
+
+287
+00:13:41,519 --> 00:13:47,120
+can sometimes be a yes man agreeing with
+
+288
+00:13:44,399 --> 00:13:49,920
+most things you say. So tell it you
+
+289
+00:13:47,120 --> 00:13:52,320
+don't need a sugarcoat feedback. Ask it
+
+290
+00:13:49,920 --> 00:13:55,839
+to analyze your strategy purely on
+
+291
+00:13:52,320 --> 00:13:58,079
+merit. It will then show you exactly if
+
+292
+00:13:55,839 --> 00:14:00,800
+your trading edge exists and where
+
+293
+00:13:58,079 --> 00:14:03,199
+you're just gambling. This modern
+
+294
+00:14:00,800 --> 00:14:06,240
+approach beats traditional strategy
+
+295
+00:14:03,199 --> 00:14:09,040
+review. Try this and you'll see yourself
+
+296
+00:14:06,240 --> 00:14:11,440
+how AI will shift your perspective on
+
+297
+00:14:09,040 --> 00:14:13,680
+strategy analysis.
+
+298
+00:14:11,440 --> 00:14:16,639
+Stock and crypto scanning becomes a
+
+299
+00:14:13,680 --> 00:14:18,639
+whole new game with AI at your side.
+
+300
+00:14:16,639 --> 00:14:21,440
+Think of scanning as searching through
+
+301
+00:14:18,639 --> 00:14:24,240
+thousands of stocks. But now you have a
+
+302
+00:14:21,440 --> 00:14:27,040
+smart assistant who sees patterns you
+
+303
+00:14:24,240 --> 00:14:29,680
+might miss. Let's say you start with
+
+304
+00:14:27,040 --> 00:14:32,639
+Trading Views stock screener, a tool
+
+305
+00:14:29,680 --> 00:14:35,040
+that shows you tons of stocks at once.
+
+306
+00:14:32,639 --> 00:14:38,560
+AI can analyze your Trading View
+
+307
+00:14:35,040 --> 00:14:41,199
+screener to spot hidden patterns. Just
+
+308
+00:14:38,560 --> 00:14:43,600
+share a screenshot and ask something
+
+309
+00:14:41,199 --> 00:14:46,480
+like, "What trends do you notice in
+
+310
+00:14:43,600 --> 00:14:49,760
+today's market? Any sector standing
+
+311
+00:14:46,480 --> 00:14:52,959
+out?" The AI will quickly identify
+
+312
+00:14:49,760 --> 00:14:55,360
+sector rotations, performance clusters,
+
+313
+00:14:52,959 --> 00:14:58,000
+and stand out stocks that you might miss
+
+314
+00:14:55,360 --> 00:15:01,040
+on your own. When looking at your
+
+315
+00:14:58,000 --> 00:15:04,160
+trading view data, AI can be your second
+
+316
+00:15:01,040 --> 00:15:07,120
+set of eyes for spotting the weird stuff
+
+317
+00:15:04,160 --> 00:15:10,079
+that doesn't quite fit. So, simply
+
+318
+00:15:07,120 --> 00:15:12,399
+request AI to identify any unusual
+
+319
+00:15:10,079 --> 00:15:14,160
+metrics in the screener.
+
+320
+00:15:12,399 --> 00:15:17,360
+It can also help you with sector
+
+321
+00:15:14,160 --> 00:15:20,320
+analysis. Just ask AI to group and
+
+322
+00:15:17,360 --> 00:15:23,360
+analyze performance by sector based on
+
+323
+00:15:20,320 --> 00:15:26,560
+what's showing in your screener.
+
+324
+00:15:23,360 --> 00:15:29,680
+Filter optimization is another use. You
+
+325
+00:15:26,560 --> 00:15:31,839
+send AI your current screener setup and
+
+326
+00:15:29,680 --> 00:15:34,959
+ask for suggestions on additional
+
+327
+00:15:31,839 --> 00:15:37,360
+filters that might improve your results.
+
+328
+00:15:34,959 --> 00:15:40,079
+You can also ask AI to suggest
+
+329
+00:15:37,360 --> 00:15:43,360
+additional useful columns to add to your
+
+330
+00:15:40,079 --> 00:15:45,519
+screener based on your trading style.
+
+331
+00:15:43,360 --> 00:15:48,800
+Finding the sweet spot for your stock
+
+332
+00:15:45,519 --> 00:15:51,600
+filters can be frustrating guesswork.
+
+333
+00:15:48,800 --> 00:15:54,480
+Instead of blindly adjusting numbers,
+
+334
+00:15:51,600 --> 00:15:57,519
+show AI your trading view screener and
+
+335
+00:15:54,480 --> 00:16:00,320
+ask something like, "What PE ratio range
+
+336
+00:15:57,519 --> 00:16:03,519
+would make sense for finding undervalued
+
+337
+00:16:00,320 --> 00:16:06,560
+tech stocks in this market?" The AI can
+
+338
+00:16:03,519 --> 00:16:09,600
+suggest practical parameter ranges based
+
+339
+00:16:06,560 --> 00:16:12,079
+on current market conditions. Instead of
+
+340
+00:16:09,600 --> 00:16:15,040
+starting from scratch every time market
+
+341
+00:16:12,079 --> 00:16:17,920
+conditions shift, let AI design your
+
+342
+00:16:15,040 --> 00:16:20,560
+custom trading view templates. Just
+
+343
+00:16:17,920 --> 00:16:23,759
+share your current setup and ask AI to
+
+344
+00:16:20,560 --> 00:16:25,759
+create three screener templates. One for
+
+345
+00:16:23,759 --> 00:16:28,320
+finding opportunities in a bullish
+
+346
+00:16:25,759 --> 00:16:31,279
+market. One for protecting capital
+
+347
+00:16:28,320 --> 00:16:34,720
+during bearish periods and one for
+
+348
+00:16:31,279 --> 00:16:36,959
+volatile conditions. The AI will suggest
+
+349
+00:16:34,720 --> 00:16:39,199
+specific filters, columns, and
+
+350
+00:16:36,959 --> 00:16:42,000
+parameters tailored to each market
+
+351
+00:16:39,199 --> 00:16:44,639
+environment, saving you hours of
+
+352
+00:16:42,000 --> 00:16:47,040
+configuration time, and ensuring you're
+
+353
+00:16:44,639 --> 00:16:50,160
+looking at the right metrics when market
+
+354
+00:16:47,040 --> 00:16:52,800
+conditions change. When earning season
+
+355
+00:16:50,160 --> 00:16:56,160
+hits, finding the best setups among
+
+356
+00:16:52,800 --> 00:16:58,480
+hundreds of reports can be overwhelming.
+
+357
+00:16:56,160 --> 00:17:01,600
+Just share your Trading View screener
+
+358
+00:16:58,480 --> 00:17:04,319
+and ask which stocks here have upcoming
+
+359
+00:17:01,600 --> 00:17:07,039
+earnings that might be worth playing.
+
+360
+00:17:04,319 --> 00:17:10,160
+The AI will identify the most promising
+
+361
+00:17:07,039 --> 00:17:13,039
+candidates. This instantly narrows your
+
+362
+00:17:10,160 --> 00:17:16,160
+focus to the handful of earnings plays
+
+363
+00:17:13,039 --> 00:17:18,959
+with the highest probability of success.
+
+364
+00:17:16,160 --> 00:17:21,120
+Let's say you find two similar setups.
+
+365
+00:17:18,959 --> 00:17:24,319
+When trying to choose between similar
+
+366
+00:17:21,120 --> 00:17:27,600
+stocks, AI can give you a sidebyside
+
+367
+00:17:24,319 --> 00:17:29,919
+breakdown. Just highlight a few tickers
+
+368
+00:17:27,600 --> 00:17:33,039
+and asked to compare them based on
+
+369
+00:17:29,919 --> 00:17:34,960
+several metrics. The AI will instantly
+
+370
+00:17:33,039 --> 00:17:37,840
+analyze the key differences in
+
+371
+00:17:34,960 --> 00:17:40,880
+valuation, growth rates, and technical
+
+372
+00:17:37,840 --> 00:17:42,880
+setup. In just a few seconds, you'll
+
+373
+00:17:40,880 --> 00:17:44,559
+know which stock might be the better
+
+374
+00:17:42,880 --> 00:17:47,120
+opportunity.
+
+375
+00:17:44,559 --> 00:17:50,400
+AI can also help you with a valuation
+
+376
+00:17:47,120 --> 00:17:53,280
+perspective. have AI explain whether
+
+377
+00:17:50,400 --> 00:17:55,280
+certain stocks appear overvalued or
+
+378
+00:17:53,280 --> 00:17:58,240
+undervalued based on the metrics
+
+379
+00:17:55,280 --> 00:18:01,120
+displayed. It can spot stocks where
+
+380
+00:17:58,240 --> 00:18:03,919
+certain ratios suggest growth isn't
+
+381
+00:18:01,120 --> 00:18:06,320
+properly priced in or find companies
+
+382
+00:18:03,919 --> 00:18:08,000
+where recent sell-offs have created
+
+383
+00:18:06,320 --> 00:18:10,960
+opportunity.
+
+384
+00:18:08,000 --> 00:18:13,600
+And remember, for best results, be
+
+385
+00:18:10,960 --> 00:18:16,320
+specific about what you're looking for
+
+386
+00:18:13,600 --> 00:18:19,520
+when using AI to analyze your Trading
+
+387
+00:18:16,320 --> 00:18:22,480
+View screener. Now, I'm sure you have an
+
+388
+00:18:19,520 --> 00:18:25,280
+indicator you love. It might give decent
+
+389
+00:18:22,480 --> 00:18:27,919
+signals, but it's not yet a full trading
+
+390
+00:18:25,280 --> 00:18:30,960
+system, and you want to see how it would
+
+391
+00:18:27,919 --> 00:18:33,360
+perform if traded systematically.
+
+392
+00:18:30,960 --> 00:18:36,799
+Well, AI can help you convert your
+
+393
+00:18:33,360 --> 00:18:39,280
+indicator into a back testable strategy.
+
+394
+00:18:36,799 --> 00:18:42,320
+You simply hand over the code or the
+
+395
+00:18:39,280 --> 00:18:45,520
+logic to the AI and it transforms it
+
+396
+00:18:42,320 --> 00:18:48,720
+into a strategy script. So, here I have
+
+397
+00:18:45,520 --> 00:18:51,440
+the chandelier exit code on my screen.
+
+398
+00:18:48,720 --> 00:18:54,559
+It's a solid indicator that many traders
+
+399
+00:18:51,440 --> 00:18:57,600
+use. The chandelier exit uses average
+
+400
+00:18:54,559 --> 00:19:00,799
+true range to set stop- losses that
+
+401
+00:18:57,600 --> 00:19:03,280
+trail behind the price. It's smart, but
+
+402
+00:19:00,799 --> 00:19:06,080
+as an indicator alone, it just sits
+
+403
+00:19:03,280 --> 00:19:08,640
+there. We need to make it act. So, I'll
+
+404
+00:19:06,080 --> 00:19:11,280
+copy the pine script code and paste it
+
+405
+00:19:08,640 --> 00:19:13,919
+into clawed AI. And I've asked it to
+
+406
+00:19:11,280 --> 00:19:16,320
+turn the indicator into a strategy.
+
+407
+00:19:13,919 --> 00:19:18,400
+We'll keep it very simple. So, I've
+
+408
+00:19:16,320 --> 00:19:21,679
+requested it to always stay in the
+
+409
+00:19:18,400 --> 00:19:24,559
+market, either long or short. When the
+
+410
+00:19:21,679 --> 00:19:27,840
+chandelier exit shows a buy signal, we
+
+411
+00:19:24,559 --> 00:19:30,640
+go long. When it shows a sell signal, we
+
+412
+00:19:27,840 --> 00:19:34,000
+go short. So, the strategy always keeps
+
+413
+00:19:30,640 --> 00:19:36,880
+a position. If it exits a long trade, it
+
+414
+00:19:34,000 --> 00:19:39,840
+enters a short trade right away. After
+
+415
+00:19:36,880 --> 00:19:42,720
+the AI wrote the code, I then copied it
+
+416
+00:19:39,840 --> 00:19:45,600
+into the Pine editor. The settings we
+
+417
+00:19:42,720 --> 00:19:48,720
+used are pretty straightforward. We set
+
+418
+00:19:45,600 --> 00:19:51,440
+the ATR period to 50, which means the
+
+419
+00:19:48,720 --> 00:19:55,039
+strategy calculates volatility based on
+
+420
+00:19:51,440 --> 00:19:57,520
+the last 50 bars. The ATR multiplier is
+
+421
+00:19:55,039 --> 00:20:00,640
+set to one, which determines how
+
+422
+00:19:57,520 --> 00:20:04,000
+sensitive our exits will be. We are also
+
+423
+00:20:00,640 --> 00:20:07,120
+using close prices. This back test runs
+
+424
+00:20:04,000 --> 00:20:09,520
+on the 1 hour time frame for Tesla. You
+
+425
+00:20:07,120 --> 00:20:12,559
+can see all those trade signals marked
+
+426
+00:20:09,520 --> 00:20:15,679
+on the chart. The strategy flips between
+
+427
+00:20:12,559 --> 00:20:18,160
+positions rather than ever sitting flat,
+
+428
+00:20:15,679 --> 00:20:21,440
+which was exactly what we wanted when we
+
+429
+00:20:18,160 --> 00:20:24,320
+built it. What jumps out immediately is
+
+430
+00:20:21,440 --> 00:20:27,919
+the equity curve at the bottom. I see a
+
+431
+00:20:24,320 --> 00:20:30,240
+steady climb and a return of over 60%.
+
+432
+00:20:27,919 --> 00:20:33,120
+That's a solid performance for a simple
+
+433
+00:20:30,240 --> 00:20:36,960
+strategy. The draw down stats show a
+
+434
+00:20:33,120 --> 00:20:39,520
+maximum equity drawd down of around 4%.
+
+435
+00:20:36,960 --> 00:20:42,400
+That's remarkably small for a strategy
+
+436
+00:20:39,520 --> 00:20:44,799
+that's constantly in the market. Many
+
+437
+00:20:42,400 --> 00:20:47,600
+trend following systems have draw downs
+
+438
+00:20:44,799 --> 00:20:50,480
+of 20% or more. So, this is really
+
+439
+00:20:47,600 --> 00:20:54,080
+promising. Look at the total number of
+
+440
+00:20:50,480 --> 00:20:56,480
+trades. We have over 1,000 signals.
+
+441
+00:20:54,080 --> 00:20:59,120
+That's plenty of data to judge if our
+
+442
+00:20:56,480 --> 00:21:02,400
+system works. The profitable trades
+
+443
+00:20:59,120 --> 00:21:05,520
+column shows that around 25% of our
+
+444
+00:21:02,400 --> 00:21:08,400
+trades made money. That might seem low
+
+445
+00:21:05,520 --> 00:21:11,360
+at first glance, but remember this is an
+
+446
+00:21:08,400 --> 00:21:14,559
+always in strategy that flips positions
+
+447
+00:21:11,360 --> 00:21:17,520
+frequently. Many of those trades are
+
+448
+00:21:14,559 --> 00:21:20,320
+quick exits to switch direction. What
+
+449
+00:21:17,520 --> 00:21:23,440
+matters more is the profit factor, which
+
+450
+00:21:20,320 --> 00:21:26,960
+sits at around 1.7.
+
+451
+00:21:23,440 --> 00:21:30,240
+Anything above 1.5 is considered decent
+
+452
+00:21:26,960 --> 00:21:33,360
+for an automated strategy. This confirms
+
+453
+00:21:30,240 --> 00:21:36,720
+what I hoped. The chandelier exit works
+
+454
+00:21:33,360 --> 00:21:39,360
+well as a trend following system. It
+
+455
+00:21:36,720 --> 00:21:41,360
+gives trades room to breathe while still
+
+456
+00:21:39,360 --> 00:21:44,799
+protecting profits when the trend
+
+457
+00:21:41,360 --> 00:21:47,520
+reverses. Of course, I will test this on
+
+458
+00:21:44,799 --> 00:21:50,240
+other time frames and symbols to see if
+
+459
+00:21:47,520 --> 00:21:52,480
+the results hold up. My biggest concern
+
+460
+00:21:50,240 --> 00:21:55,760
+is whether we could actually stick with
+
+461
+00:21:52,480 --> 00:21:58,000
+this strategy during choppy periods. But
+
+462
+00:21:55,760 --> 00:22:01,039
+overall, this looks like a solid
+
+463
+00:21:58,000 --> 00:22:04,159
+foundation. For a strategy that took
+
+464
+00:22:01,039 --> 00:22:07,440
+less than 5 minutes to create, these
+
+465
+00:22:04,159 --> 00:22:10,080
+results are promising. Once the AI sets
+
+466
+00:22:07,440 --> 00:22:12,640
+up your own strategy, you can then ask
+
+467
+00:22:10,080 --> 00:22:15,280
+the AI for improvements. If the draw
+
+468
+00:22:12,640 --> 00:22:18,080
+down is too high, can we add a trailing
+
+469
+00:22:15,280 --> 00:22:21,200
+stop? If the average loss is bigger than
+
+470
+00:22:18,080 --> 00:22:24,799
+the average win, can we modify our exit
+
+471
+00:22:21,200 --> 00:22:27,840
+logic? The AI will then modify the code
+
+472
+00:22:24,799 --> 00:22:29,840
+or the logic. You keep doing this until
+
+473
+00:22:27,840 --> 00:22:32,960
+you find a version that suits your
+
+474
+00:22:29,840 --> 00:22:35,280
+style. Maybe you discover your indicator
+
+475
+00:22:32,960 --> 00:22:37,919
+works best only when aligned with the
+
+476
+00:22:35,280 --> 00:22:41,039
+larger trend. So, you need to add a
+
+477
+00:22:37,919 --> 00:22:44,480
+trend filter. The AI will merge that
+
+478
+00:22:41,039 --> 00:22:46,880
+filter into the strategy code. And this
+
+479
+00:22:44,480 --> 00:22:49,600
+simple process reveals the truth about
+
+480
+00:22:46,880 --> 00:22:52,080
+your indicator. Sometimes you discover
+
+481
+00:22:49,600 --> 00:22:55,360
+that your favorite tool underperforms
+
+482
+00:22:52,080 --> 00:22:57,919
+during choppy markets. AI ensures you
+
+483
+00:22:55,360 --> 00:23:00,559
+see the actual raw numbers, not
+
+484
+00:22:57,919 --> 00:23:03,520
+illusions. Once you have a tested
+
+485
+00:23:00,559 --> 00:23:07,200
+strategy, you can forward test it in a
+
+486
+00:23:03,520 --> 00:23:10,400
+live or demo account. AI makes creating
+
+487
+00:23:07,200 --> 00:23:12,880
+a personal trading journal simple. Start
+
+488
+00:23:10,400 --> 00:23:15,840
+by asking AI to build your trading
+
+489
+00:23:12,880 --> 00:23:18,559
+journal. Be clear about what you want to
+
+490
+00:23:15,840 --> 00:23:20,960
+track. Your spreadsheet template must
+
+491
+00:23:18,559 --> 00:23:24,480
+include the date, trading market,
+
+492
+00:23:20,960 --> 00:23:27,600
+position type, entry price, exit price,
+
+493
+00:23:24,480 --> 00:23:30,320
+position size, stop-loss level, risk
+
+494
+00:23:27,600 --> 00:23:32,799
+percentage, profit or loss, and note
+
+495
+00:23:30,320 --> 00:23:35,679
+sections for strategy used, and lessons
+
+496
+00:23:32,799 --> 00:23:38,240
+learned. AI will give you the structure
+
+497
+00:23:35,679 --> 00:23:41,919
+in seconds, and this saves you hours of
+
+498
+00:23:38,240 --> 00:23:44,880
+setup time. Also, you could ask AI to
+
+499
+00:23:41,919 --> 00:23:47,280
+add calculation fields. Ask it to add
+
+500
+00:23:44,880 --> 00:23:49,440
+formulas to calculate your win rate,
+
+501
+00:23:47,280 --> 00:23:52,559
+average win, average loss, and
+
+502
+00:23:49,440 --> 00:23:54,799
+risk-to-reward ratio. These numbers tell
+
+503
+00:23:52,559 --> 00:23:57,919
+you if your strategy works or needs
+
+504
+00:23:54,799 --> 00:24:01,440
+fixing. The spreadsheet now does the
+
+505
+00:23:57,919 --> 00:24:04,080
+math automatically as you add trades.
+
+506
+00:24:01,440 --> 00:24:07,120
+Next, customize your journal for your
+
+507
+00:24:04,080 --> 00:24:09,919
+trading style. If you're a swing trader,
+
+508
+00:24:07,120 --> 00:24:13,279
+maybe ask AI to add columns for market
+
+509
+00:24:09,919 --> 00:24:15,919
+conditions or sector performance. Your
+
+510
+00:24:13,279 --> 00:24:18,640
+journal should match how you trade. You
+
+511
+00:24:15,919 --> 00:24:21,919
+can also tell AI to add a screenshot
+
+512
+00:24:18,640 --> 00:24:24,799
+link column. After each trade, take a
+
+513
+00:24:21,919 --> 00:24:27,520
+picture of your chart setup and save it.
+
+514
+00:24:24,799 --> 00:24:29,840
+Then paste the link in your journal.
+
+515
+00:24:27,520 --> 00:24:32,480
+Looking at these images later shows
+
+516
+00:24:29,840 --> 00:24:35,039
+patterns you missed. Visual records are
+
+517
+00:24:32,480 --> 00:24:37,360
+powerful learning tools. The most
+
+518
+00:24:35,039 --> 00:24:40,559
+valuable part of your journal is the
+
+519
+00:24:37,360 --> 00:24:42,720
+lesson section. Ask AI to create a
+
+520
+00:24:40,559 --> 00:24:45,520
+template for the notes section with
+
+521
+00:24:42,720 --> 00:24:49,039
+prompts for strategy used, rules
+
+522
+00:24:45,520 --> 00:24:51,760
+followed or broken, emotional state, and
+
+523
+00:24:49,039 --> 00:24:55,279
+lessons learned. This structure forces
+
+524
+00:24:51,760 --> 00:24:57,679
+you to reflect on each trait. Ask AI to
+
+525
+00:24:55,279 --> 00:25:00,320
+suggest a routine for updating your
+
+526
+00:24:57,679 --> 00:25:03,520
+journal. The best time is right after
+
+527
+00:25:00,320 --> 00:25:05,919
+closing a position. Make this a habit.
+
+528
+00:25:03,520 --> 00:25:08,960
+No trade is complete until it's in your
+
+529
+00:25:05,919 --> 00:25:11,919
+journal. AI can even help you create
+
+530
+00:25:08,960 --> 00:25:15,120
+reminders to maintain this discipline.
+
+531
+00:25:11,919 --> 00:25:17,919
+For review purposes, ask AI to create a
+
+532
+00:25:15,120 --> 00:25:20,799
+weekly review template. This helps you
+
+533
+00:25:17,919 --> 00:25:23,840
+spot trends in your trading. The real
+
+534
+00:25:20,799 --> 00:25:26,480
+magic happens when you have enough data.
+
+535
+00:25:23,840 --> 00:25:29,679
+After a month of consistent journaling,
+
+536
+00:25:26,480 --> 00:25:32,080
+ask AI to analyze your trading patterns.
+
+537
+00:25:29,679 --> 00:25:34,080
+What are the things you're doing well?
+
+538
+00:25:32,080 --> 00:25:37,039
+Where are the mistakes you're constantly
+
+539
+00:25:34,080 --> 00:25:39,919
+making? AI finds patterns you might
+
+540
+00:25:37,039 --> 00:25:42,640
+miss, like trading poorly on certain
+
+541
+00:25:39,919 --> 00:25:45,440
+days or taking too much risk when you're
+
+542
+00:25:42,640 --> 00:25:47,840
+down. A good journal doesn't need to be
+
+543
+00:25:45,440 --> 00:25:51,679
+complex. It just needs to be used
+
+544
+00:25:47,840 --> 00:25:53,760
+consistently, and AI helps with both.
+
+545
+00:25:51,679 --> 00:25:56,799
+This might be one of the most important
+
+546
+00:25:53,760 --> 00:25:59,039
+trading tools you'll create. Now, if
+
+547
+00:25:56,799 --> 00:26:01,360
+you're curious about mastering other
+
+548
+00:25:59,039 --> 00:26:05,210
+trading techniques, go ahead and watch
+
+549
+00:26:01,360 --> 00:26:12,589
+one of these videos next.
+
+550
+00:26:05,210 --> 00:26:12,589
+[Music]
+

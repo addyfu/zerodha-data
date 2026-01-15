@@ -1,0 +1,853 @@
+1
+00:00:00,700 --> 00:00:05,430
+When you’re trading supply and demand zones,
+I bet you use classic candlestick charts.
+
+2
+00:00:05,430 --> 00:00:10,110
+But here’s an idea: what if you used Heiken
+Ashi candles?
+
+3
+00:00:10,110 --> 00:00:11,790
+Would it improve your results?
+
+4
+00:00:11,790 --> 00:00:13,749
+100% yes.
+
+5
+00:00:13,749 --> 00:00:19,330
+Today I’m showing you my unique way to trade
+supply and demand areas, without noise, using
+
+6
+00:00:21,092 --> 00:00:26,782
+The only reason why price moves in any market
+is because of an imbalance in supply and demand.
+
+7
+00:00:26,782 --> 00:00:29,712
+The greater the imbalance, the greater the
+move.
+
+8
+00:00:29,712 --> 00:00:33,752
+A strong uptrend can only exist if buyers
+outnumber sellers.
+
+9
+00:00:33,752 --> 00:00:39,792
+During a trend, price moves up until enough
+sellers enter the market to absorb the buy
+
+10
+00:00:39,792 --> 00:00:40,792
+orders.
+
+11
+00:00:40,792 --> 00:00:46,072
+The origin of strong bullish trends is called
+an accumulation or a demand zone.
+
+12
+00:00:46,072 --> 00:00:49,672
+Bearish trends are created when sellers outnumber
+buy orders.
+
+13
+00:00:49,672 --> 00:00:55,912
+Then, price falls until a new balance is created
+and buyers become interested again.
+
+14
+00:00:55,912 --> 00:01:00,902
+The origin of a bearish trend wave is called
+a distribution or a supply zone.
+
+15
+00:01:00,902 --> 00:01:06,592
+A Demand Zone is a price area below the current
+price action where there is strong buying
+
+16
+00:01:06,592 --> 00:01:07,861
+interest.
+
+17
+00:01:07,861 --> 00:01:12,592
+Looking at this chart, we can see that there
+was a lot of buying interest at this demand
+
+18
+00:01:12,592 --> 00:01:13,592
+zone.
+
+19
+00:01:13,592 --> 00:01:18,421
+For this reason, when the price reaches the
+level, you will notice a sharp price reaction
+
+20
+00:01:18,421 --> 00:01:20,391
+from the Demand Zone.
+
+21
+00:01:20,391 --> 00:01:23,561
+The Supply Zone is the exact opposite of the
+Demand Zone.
+
+22
+00:01:23,561 --> 00:01:28,751
+A Supply area is located above the price action
+and it typically contains a relatively big
+
+23
+00:01:28,751 --> 00:01:30,901
+volume of sell orders.
+
+24
+00:01:30,901 --> 00:01:35,511
+When the price action reaches this level,
+the price reverses to the downside.
+
+25
+00:01:35,511 --> 00:01:38,721
+Now, let’s introduce Heiken Ashi into equation.
+
+26
+00:01:38,721 --> 00:01:43,361
+Heikin Ashi has proven to be one of the best
+strategies to use to gain a deeper view of
+
+27
+00:01:43,361 --> 00:01:48,571
+the market, because with these tools it’s
+easier to read candlestick charts and analyze
+
+28
+00:01:48,571 --> 00:01:50,561
+market trends.
+
+29
+00:01:50,561 --> 00:01:55,361
+Traders use the Heikin Ashi to get information
+such as when to stay in a trend trade or if
+
+30
+00:01:55,361 --> 00:01:58,181
+it’s time to get out because the trend has
+reversed.
+
+31
+00:01:58,181 --> 00:02:03,142
+I don’t want to insist too much on this
+topic, as I have several videos on this channel
+
+32
+00:02:03,142 --> 00:02:05,922
+explaining how these candlesticks work.
+
+33
+00:02:05,922 --> 00:02:12,042
+Just remember that Heikin Ashi filter noise
+and help you to see trend better.
+
+34
+00:02:12,042 --> 00:02:15,702
+So why trading supply and demand areas using
+Heiken Ashi?
+
+35
+00:02:15,702 --> 00:02:21,062
+As you know, the candles on traditional candlestick
+chart usually change from green to red, making
+
+36
+00:02:21,062 --> 00:02:23,831
+it difficult for some traders to read them
+properly.
+
+37
+00:02:23,831 --> 00:02:29,462
+However, the candles on a Heikin Ashi chart
+display more consecutive colored candles,
+
+38
+00:02:29,462 --> 00:02:35,362
+making it easy for traders to identify past
+price movements, current trends and of course,
+
+39
+00:02:35,362 --> 00:02:36,572
+supply and demand zones.
+
+40
+00:02:36,572 --> 00:02:41,851
+With Heikin Ashi, trends usually stay green
+in an uptrend and red in a downtrend.
+
+41
+00:02:41,851 --> 00:02:48,312
+For me personally, is much easier to find
+supply and demand areas using these candles.
+
+42
+00:02:48,312 --> 00:02:52,631
+This isn’t the case with the traditional
+candlestick charts where colors are different
+
+43
+00:02:52,631 --> 00:02:55,422
+even if the price is moving strongly in one
+direction.
+
+44
+00:02:55,422 --> 00:03:01,002
+How do you mark a supply and demand zone using
+Heiken Ashi?
+
+45
+00:03:01,002 --> 00:03:06,292
+The idea is to find the place on the chart
+where demand overcame supply (for long trades)
+
+46
+00:03:06,292 --> 00:03:09,902
+or where supply overcame demand (for short
+trades).
+
+47
+00:03:09,902 --> 00:03:16,182
+STEP 1: Identify current market price
+STEP 2: Look left on the chart
+
+48
+00:03:16,182 --> 00:03:20,232
+STEP 3: Look for big green or big red Heiken
+ashi candles
+
+49
+00:03:20,232 --> 00:03:29,232
+STEP 4: Find the origin of the big candles
+STEP 5: Mark the zone around this ‘origin’
+
+50
+00:03:29,232 --> 00:03:33,822
+Since the Heiken Ashi candles start from the
+middle of the previous candle, I had to come
+
+51
+00:03:33,822 --> 00:03:39,732
+up with a slightly different way to mark these
+areas, compared to classic candles.
+
+52
+00:03:39,732 --> 00:03:44,572
+For a supply zone, I search the last BULLISH
+Heiken Ashi candle before the drop.
+
+53
+00:03:44,572 --> 00:03:50,042
+Once you’ve done this, you need to drag
+a rectangle up to the most recent high before
+
+54
+00:03:50,042 --> 00:04:01,051
+the drop.
+
+55
+00:04:01,051 --> 00:04:17,692
+For a demand zone, I look for the most recent
+BEARISH candle before the up move and drag
+
+56
+00:04:17,692 --> 00:04:43,692
+a rectangle down to the most recent low before
+the up move.
+
+57
+00:04:43,692 --> 00:04:48,322
+Supply and demand levels can be:
+• Fresh: It means price has not pulled back
+
+58
+00:04:48,322 --> 00:04:54,412
+yet, it’s an untested level
+• Non-fresh: Price has pulled back to it
+
+59
+00:04:54,412 --> 00:04:58,982
+at least once
+• Used up: Price has pulled back to level
+
+60
+00:04:58,982 --> 00:05:05,822
+several times, and these are not good for
+trading full swings, maybe some scalping trades
+
+61
+00:05:05,822 --> 00:05:09,762
+Plotting these areas should be done with a
+logical and organized approach.
+
+62
+00:05:09,762 --> 00:05:14,812
+Often, supply and demand traders tend to pollute
+charts with tens of levels, where the whole
+
+63
+00:05:14,812 --> 00:05:18,752
+meaning of anticipating the rejections loses
+the value.
+
+64
+00:05:18,752 --> 00:05:21,692
+So try to keep your charts clean.
+
+65
+00:05:21,692 --> 00:05:26,402
+When it comes to efficient plotting of supply
+and demand zones on the Heiken Ashi chart,
+
+66
+00:05:26,402 --> 00:05:31,532
+here are main variables that you should follow,
+which will increase your efficiency a lot:
+
+67
+00:05:31,532 --> 00:05:36,562
+-focus on the freshest supply and demand zones
+-focus on the strongest zones, those where
+
+68
+00:05:36,562 --> 00:05:42,742
+price left the zone in a quick, strong move
+-focus on nearest zones, so do not plot 50
+
+69
+00:05:42,742 --> 00:05:47,362
+levels on charts, have only the nearest ones
+in sight to keep the chart clean
+
+70
+00:05:47,362 --> 00:05:52,742
+-focus as much as possible on dense zones
+where the price was consolidating for a while
+
+71
+00:05:52,742 --> 00:05:55,322
+before forming zone
+
+72
+00:05:55,322 --> 00:06:00,472
+The fresh zone always has priority over the
+old historical supply or demand zone because
+
+73
+00:06:00,472 --> 00:06:06,302
+the statistical chance for order flow to be
+still participating in the fresh zone is higher
+
+74
+00:06:06,302 --> 00:06:08,662
+than in the old historical zone.
+
+75
+00:06:08,662 --> 00:06:13,912
+As the time passes, the traders will slowly
+liquidate positions over time, that is the
+
+76
+00:06:13,912 --> 00:06:14,912
+fact.
+
+77
+00:06:14,912 --> 00:06:18,932
+Thus the fresher the zone, the more focus
+the trader should put on it.
+
+78
+00:06:18,932 --> 00:06:24,822
+Personally, I only draw 3 to a maximum of
+5 zones on chart at most, on different time
+
+79
+00:06:24,822 --> 00:06:27,662
+frames, no more than that.
+
+80
+00:06:27,662 --> 00:06:32,662
+Now let me show you how you find the best
+supply and demand Heiken Ashi zone to trade.
+
+81
+00:06:32,662 --> 00:06:33,732
+I look for several clues:
+
+82
+00:06:33,732 --> 00:06:34,732
+1.
+
+83
+00:06:34,732 --> 00:06:37,902
+STRENGTH OF SUPPLY AND DEMAND ZONE
+First, you determine the STRENGTH OF THE MOVE.
+
+84
+00:06:37,902 --> 00:06:39,812
+How did price leave the level?
+
+85
+00:06:39,812 --> 00:06:44,572
+The stronger the price moves away from a zone,
+the more out-of-balance supply and demand
+
+86
+00:06:44,572 --> 00:06:46,312
+are at that zone.
+
+87
+00:06:46,312 --> 00:06:49,252
+It means a heavy order is placed by smart
+money.
+
+88
+00:06:49,252 --> 00:06:53,032
+Here’s an example showing different types
+of zones.
+
+89
+00:06:53,032 --> 00:06:58,082
+The first one is the strongest, with large
+bearish candles forming after the price left
+
+90
+00:06:58,082 --> 00:06:59,552
+the area.
+
+91
+00:06:59,552 --> 00:07:04,992
+The second one is a strong zone, with big
+Heiken Ashi candles with no upper wicks and
+
+92
+00:07:04,992 --> 00:07:07,372
+a few candles having wicks.
+
+93
+00:07:07,372 --> 00:07:13,092
+And the third one is a weak zone, price moving
+down in an unconvincing manner.
+
+94
+00:07:13,092 --> 00:07:32,042
+This is very powerful, so please remember
+this part.
+
+95
+00:07:32,042 --> 00:07:48,452
+2.
+
+96
+00:07:48,452 --> 00:07:51,092
+TIME AT SUPPLY AND DEMAND LEVEL
+
+97
+00:07:51,092 --> 00:07:54,082
+How much time did the price spend at the zone?
+
+98
+00:07:54,082 --> 00:07:58,882
+The less time price spends at a zone, the
+more out-of-balance supply and demand are
+
+99
+00:07:58,882 --> 00:08:00,622
+at that price level.
+
+100
+00:08:00,622 --> 00:08:03,962
+This means Smart money are aggressively entering.
+
+101
+00:08:03,962 --> 00:08:10,022
+The first example is the strongest zone, with
+one bearish candle rejecting the area.
+
+102
+00:08:10,022 --> 00:08:15,122
+The second one is a strong zone, with several
+Heiken Ashi inside the zone.
+
+103
+00:08:15,122 --> 00:08:20,412
+And the third one is a weak zone, with many
+candles and a lot of time spent around this
+
+104
+00:08:20,412 --> 00:08:36,632
+area.
+
+105
+00:08:36,632 --> 00:08:52,862
+3.
+
+106
+00:08:52,862 --> 00:08:58,562
+THE MOVE AWAY FROM THE SUPPLY AND DEMAND LEVEL
+Here you analyze how far did the price move
+
+107
+00:08:58,562 --> 00:09:02,622
+away from the zone before returning back around
+the area?
+
+108
+00:09:02,622 --> 00:09:07,582
+The longer the distance the price moves away
+from a zone before returning to that zone,
+
+109
+00:09:07,582 --> 00:09:11,102
+the greater the reward to risk and probability.
+
+110
+00:09:11,102 --> 00:09:15,642
+When price goes from selling off to a strong
+bullish trend for example, there had to be
+
+111
+00:09:15,642 --> 00:09:21,312
+a significant amount of buy interest entering
+the market, absorbing sell orders AND then
+
+112
+00:09:21,312 --> 00:09:23,292
+driving price higher.
+
+113
+00:09:23,292 --> 00:09:44,272
+Always look for extremely strong turning points;
+these are the high probability price levels.
+
+114
+00:09:44,272 --> 00:10:00,652
+4.
+
+115
+00:10:00,652 --> 00:10:05,732
+FRESHNESS OF BASE
+Number one rule in supply and demand trading:
+
+116
+00:10:05,732 --> 00:10:09,952
+First-time retrace to the base is the strongest
+to enter.
+
+117
+00:10:09,952 --> 00:10:14,452
+If you trade of supply areas, always make
+sure the zone is still “fresh” which means
+
+118
+00:10:14,452 --> 00:10:19,832
+that after the initial creation of the zone,
+price has not come back to it yet.
+
+119
+00:10:19,832 --> 00:10:26,042
+Each time price revisits a supply zone, more
+and more previously unfilled orders are filled
+
+120
+00:10:26,042 --> 00:10:28,902
+and the level is weakened continuously.
+
+121
+00:10:28,902 --> 00:10:33,712
+This is also true for support and resistance
+trading where levels get weaker with each
+
+122
+00:10:33,712 --> 00:11:06,142
+following bounce.
+
+123
+00:11:06,142 --> 00:11:10,152
+The rules of supply and demand trading using
+Heikin Ashi are simple.
+
+124
+00:11:10,152 --> 00:11:15,052
+You should buy when the price action approaches
+a demand level and bounces upwards forming
+
+125
+00:11:15,052 --> 00:11:19,002
+a green Heiken Ashi candle, ideally with no
+lower wick.
+
+126
+00:11:19,002 --> 00:11:23,132
+You expect the price to increase and you want
+to trade an upcoming price swing.
+
+127
+00:11:23,132 --> 00:11:28,492
+And you should sell when the price reaches
+a supply level and bounces downwards, forming
+
+128
+00:11:28,492 --> 00:11:32,942
+a red Heiken Ashi candle, ideally with no
+upper shadows.
+
+129
+00:11:32,942 --> 00:11:38,042
+You would put a stop loss order right below
+the demand area when you are long in the market.
+
+130
+00:11:38,042 --> 00:11:42,532
+Conversely, put your stop loss order right
+above the supply area.
+
+131
+00:11:42,532 --> 00:11:47,282
+The most common approach is to hold your trades
+until the price action reaches an opposite
+
+132
+00:11:47,282 --> 00:11:48,752
+level on the chart.
+
+133
+00:11:48,752 --> 00:11:53,892
+So, if you are trading long a demand level,
+you should hold your trade until the price
+
+134
+00:11:53,892 --> 00:11:56,792
+action reaches the next supply zone on the
+chart.
+
+135
+00:11:56,792 --> 00:12:03,042
+Or you could close a part of your position
+after a Heiken Ashi color change.
+
+136
+00:12:03,042 --> 00:12:07,112
+How to define a trend using supply and demand
+and heiken ashi
+
+137
+00:12:07,112 --> 00:12:12,352
+Since we are primarily working with supply
+and demand imbalances on Heiken ashi chart,
+
+138
+00:12:12,352 --> 00:12:17,832
+making a higher high or a lower low does not
+necessarily mean the existing trend will continue.
+
+139
+00:12:17,832 --> 00:12:20,362
+Here’s my PRO TIP.
+1.
+
+140
+00:12:20,362 --> 00:12:27,302
+In an UPTREND: demand areas are being respected,
+supply areas are being taken out.
+
+141
+00:12:27,302 --> 00:12:31,592
+So a higher high SHOULD remove previous supply
+to validate the demand zone
+
+142
+00:12:31,592 --> 00:12:32,792
+2.
+
+143
+00:12:32,792 --> 00:12:39,402
+In a DOWNTREND: supply areas are being respected,
+demand areas are being taken out.
+
+144
+00:12:39,402 --> 00:13:15,372
+A lower low SHOULD remove previous demand
+to validate the supply zone.
+
+145
+00:13:15,372 --> 00:13:19,743
+This type of analysis will help you a lot
+in defining the strongest Heiken ashi supply
+
+146
+00:13:19,743 --> 00:13:21,432
+or demand zones.
+
+147
+00:13:21,432 --> 00:13:26,642
+• In a downtrend: supply areas are consistently
+respected and demand areas are taken out
+
+148
+00:13:26,642 --> 00:13:32,412
+• In an uptrend: supply areas are taken
+out, while demand areas are respected
+
+149
+00:13:32,412 --> 00:13:34,282
+AS SIMPLE AS THAT.
+
+150
+00:13:34,282 --> 00:13:39,572
+And another tip is to look at your D1 or H4
+chart and see what is going on with the supply
+
+151
+00:13:39,572 --> 00:13:43,802
+and demand areas in control and decide which
+direction to trade.
+
+152
+00:13:43,802 --> 00:13:48,882
+Once you know what direction you want to go,
+locate lower timeframe supply or demand areas
+
+153
+00:13:48,882 --> 00:13:53,742
+with a strong move away, little time at the
+level and also a fresh level.
+
+154
+00:13:53,742 --> 00:13:59,032
+Now, it’s important to understand that there
+can be several periods of accumulation during
+
+155
+00:13:59,032 --> 00:14:03,592
+an uptrend and several periods of distribution
+during downtrends.
+
+156
+00:14:03,592 --> 00:14:08,742
+This means that there are supply and demand
+reversal patterns and supply and demand continuation
+
+157
+00:14:08,742 --> 00:14:10,092
+patterns.
+
+158
+00:14:10,092 --> 00:14:13,452
+The Drop-Base-Rally is a bullish reversal
+pattern
+
+159
+00:14:13,452 --> 00:14:17,552
+The Rally-Base-Drop is a bearish reversal
+pattern
+
+160
+00:14:17,552 --> 00:14:20,662
+The Rally-Base-Rally is a bullish continuation
+pattern
+
+161
+00:14:20,662 --> 00:14:26,202
+The Drop-Base-Drop is a bearish continuation
+pattern
+
+162
+00:14:26,202 --> 00:14:31,072
+This is important because understanding which
+phase the market is in, what is the underlying
+
+163
+00:14:31,072 --> 00:14:36,842
+trend and how long has it been in place, determines
+which are the best demand and supply zones
+
+164
+00:14:36,842 --> 00:14:38,181
+to look for.
+
+165
+00:14:38,181 --> 00:14:41,512
+In an old trend, you will want to look for
+reversals.
+
+166
+00:14:41,512 --> 00:14:45,302
+In a new trend you will want to look for continuations.
+
+167
+00:14:45,302 --> 00:15:32,952
+You search for Rally-Base-Rally zones during
+uptrends and for Drop-Base-Drop during downtrends.
+
+168
+00:15:32,952 --> 00:15:38,052
+And remember that every timeframe has its
+own trend and multiple trends coexist.
+
+169
+00:15:38,052 --> 00:15:42,842
+You may be trading in an uptrend on H1, but
+the D1 is in a downtrend
+
+170
+00:15:42,842 --> 00:15:48,602
+So, the first thing you need to do is to decide
+the time frames you will be using for a multiple
+
+171
+00:15:48,602 --> 00:15:50,752
+timeframe analysis of the trend.
+
+172
+00:15:50,752 --> 00:15:53,272
+You need at least 2 time frames.
+
+173
+00:15:53,272 --> 00:15:57,882
+When several timeframes are combined to evaluate
+a market, you will easily improve the odds
+
+174
+00:15:57,882 --> 00:16:02,772
+of success for your supply and demand trades,
+regardless of the other rules applied.
+
+175
+00:16:02,772 --> 00:16:07,612
+This alone lowers risk as there is a higher
+probability that price action will eventually
+
+176
+00:16:07,612 --> 00:16:10,712
+continue on the longer trend.
+
+177
+00:16:10,712 --> 00:16:15,312
+As always, if you got any value from this
+and learned something new, drop a like to
+
+178
+00:16:15,312 --> 00:16:19,822
+help us with Youtube algorithm, and make sure
+you click the bell icon to stay in touch when
+
+179
+00:16:19,822 --> 00:16:22,322
+new videos are released.
+
+180
+00:16:22,322 --> 00:16:22,862
+Until next time.
+

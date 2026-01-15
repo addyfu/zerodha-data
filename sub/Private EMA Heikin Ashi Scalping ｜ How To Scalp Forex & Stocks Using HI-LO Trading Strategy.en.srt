@@ -1,0 +1,1208 @@
+1
+00:00:00,880 --> 00:00:04,799
+here's the main problem why many day
+
+2
+00:00:02,720 --> 00:00:07,520
+traders fail to trade effectively using
+
+3
+00:00:04,799 --> 00:00:09,840
+moving averages it's the false breakouts
+
+4
+00:00:07,520 --> 00:00:11,599
+or whipsaws that occur when price moves
+
+5
+00:00:09,840 --> 00:00:13,280
+back and forth crossing the line you
+
+6
+00:00:11,599 --> 00:00:15,120
+apply on your chart
+
+7
+00:00:13,280 --> 00:00:16,880
+you know the drill as the price moves
+
+8
+00:00:15,120 --> 00:00:19,359
+above the moving average that's a buy
+
+9
+00:00:16,880 --> 00:00:22,080
+signal as the price moves below that's a
+
+10
+00:00:19,359 --> 00:00:24,080
+sell signal but the market isn't perfect
+
+11
+00:00:22,080 --> 00:00:26,320
+you get one signal to move across the
+
+12
+00:00:24,080 --> 00:00:27,599
+moving average followed shortly by an
+
+13
+00:00:26,320 --> 00:00:29,920
+opposite signal
+
+14
+00:00:27,599 --> 00:00:32,160
+these false signals almost always result
+
+15
+00:00:29,920 --> 00:00:33,920
+in a small loss
+
+16
+00:00:32,160 --> 00:00:36,000
+the same problem happens when you apply
+
+17
+00:00:33,920 --> 00:00:36,960
+a crossover system for sculpting or day
+
+18
+00:00:36,000 --> 00:00:39,120
+trading
+
+19
+00:00:36,960 --> 00:00:40,879
+moving average crossovers only work when
+
+20
+00:00:39,120 --> 00:00:42,960
+the market trend for a substantial
+
+21
+00:00:40,879 --> 00:00:44,960
+period of time that is when the moving
+
+22
+00:00:42,960 --> 00:00:46,239
+averages you see on your charts look all
+
+23
+00:00:44,960 --> 00:00:48,160
+nice and pretty
+
+24
+00:00:46,239 --> 00:00:50,399
+only problem is that those nice and
+
+25
+00:00:48,160 --> 00:00:52,320
+clean trends don't always happen when
+
+26
+00:00:50,399 --> 00:00:54,320
+the ranging markets come and the false
+
+27
+00:00:52,320 --> 00:00:56,320
+breakouts start to happen the moving
+
+28
+00:00:54,320 --> 00:00:58,480
+average traders tend to start taking
+
+29
+00:00:56,320 --> 00:01:00,320
+losses as the markets tend to reverse
+
+30
+00:00:58,480 --> 00:01:02,000
+once the moving averages trigger an
+
+31
+00:01:00,320 --> 00:01:03,920
+entry
+
+32
+00:01:02,000 --> 00:01:06,080
+so how to reduce the false signals
+
+33
+00:01:03,920 --> 00:01:07,680
+because we can completely remove them
+
+34
+00:01:06,080 --> 00:01:09,680
+the problem is that when we apply a
+
+35
+00:01:07,680 --> 00:01:11,920
+moving average study we focus on the
+
+36
+00:01:09,680 --> 00:01:14,240
+line that appears on our charts which is
+
+37
+00:01:11,920 --> 00:01:16,240
+plotted based on the closing price
+
+38
+00:01:14,240 --> 00:01:18,000
+and that's a very small margin
+
+39
+00:01:16,240 --> 00:01:20,000
+instead of plotting the moving average
+
+40
+00:01:18,000 --> 00:01:21,680
+based on the closing price i use a
+
+41
+00:01:20,000 --> 00:01:23,920
+moving average channel
+
+42
+00:01:21,680 --> 00:01:26,000
+here's how it works we have two moving
+
+43
+00:01:23,920 --> 00:01:28,720
+averages forming a channel which are
+
+44
+00:01:26,000 --> 00:01:31,119
+applied to the bar's high and low prices
+
+45
+00:01:28,720 --> 00:01:33,280
+instead of the bar's close price
+
+46
+00:01:31,119 --> 00:01:35,520
+so instead of one moving average you'll
+
+47
+00:01:33,280 --> 00:01:37,759
+have two moving averages on a chart
+
+48
+00:01:35,520 --> 00:01:39,200
+instead of focusing on just one line
+
+49
+00:01:37,759 --> 00:01:41,360
+you'll have an area
+
+50
+00:01:39,200 --> 00:01:43,600
+this moving average channel will filter
+
+51
+00:01:41,360 --> 00:01:46,479
+a lot of all signals and will save you a
+
+52
+00:01:43,600 --> 00:01:48,320
+lot of losing trades and lost money
+
+53
+00:01:46,479 --> 00:01:50,479
+the moving average high low channel
+
+54
+00:01:48,320 --> 00:01:52,159
+tries to find trending markets and is
+
+55
+00:01:50,479 --> 00:01:53,680
+extremely useful for staying out of
+
+56
+00:01:52,159 --> 00:01:55,360
+sideways markets
+
+57
+00:01:53,680 --> 00:01:57,119
+the channel turns a simple moving
+
+58
+00:01:55,360 --> 00:01:58,479
+average into a zone of support and
+
+59
+00:01:57,119 --> 00:02:00,640
+resistance
+
+60
+00:01:58,479 --> 00:02:02,399
+in a market with a strong trend prices
+
+61
+00:02:00,640 --> 00:02:04,799
+may trade either above or below the
+
+62
+00:02:02,399 --> 00:02:07,040
+channel some traders prefer to buy or
+
+63
+00:02:04,799 --> 00:02:08,479
+sell breakouts above or below the moving
+
+64
+00:02:07,040 --> 00:02:10,399
+average high low channel
+
+65
+00:02:08,479 --> 00:02:12,640
+others tend to use the resistance and
+
+66
+00:02:10,399 --> 00:02:14,319
+support areas as zones to establish a
+
+67
+00:02:12,640 --> 00:02:16,720
+market position in the direction of the
+
+68
+00:02:14,319 --> 00:02:18,640
+dominant market trend
+
+69
+00:02:16,720 --> 00:02:20,720
+remember that the moving average lags
+
+70
+00:02:18,640 --> 00:02:22,480
+and responds to price this is why you
+
+71
+00:02:20,720 --> 00:02:24,400
+must analyze it together with price
+
+72
+00:02:22,480 --> 00:02:27,120
+action and my favorite way to trade
+
+73
+00:02:24,400 --> 00:02:29,040
+price action is by using hikanashi bars
+
+74
+00:02:27,120 --> 00:02:30,800
+when using hikanashi you can treat it
+
+75
+00:02:29,040 --> 00:02:33,280
+the same way as you would a traditional
+
+76
+00:02:30,800 --> 00:02:35,599
+candlestick chart the difference is that
+
+77
+00:02:33,280 --> 00:02:38,319
+prices have been smoothed out to reflect
+
+78
+00:02:35,599 --> 00:02:39,920
+directional bias as with candlesticks
+
+79
+00:02:38,319 --> 00:02:42,480
+you might use chart patterns with the
+
+80
+00:02:39,920 --> 00:02:44,400
+hakanashi but your view might be better
+
+81
+00:02:42,480 --> 00:02:46,720
+informed by the consistency in the color
+
+82
+00:02:44,400 --> 00:02:48,239
+coding which may indicate reversal bars
+
+83
+00:02:46,720 --> 00:02:50,319
+more clearly and sometimes more
+
+84
+00:02:48,239 --> 00:02:52,239
+accurately
+
+85
+00:02:50,319 --> 00:02:54,239
+so by using the moving average channel
+
+86
+00:02:52,239 --> 00:02:56,480
+and hiking ashy combination we plan to
+
+87
+00:02:54,239 --> 00:02:58,959
+remove the noise and fall signals and to
+
+88
+00:02:56,480 --> 00:03:00,560
+catch longer and persistent trends
+
+89
+00:02:58,959 --> 00:03:02,640
+trend detection is one of the main
+
+90
+00:03:00,560 --> 00:03:04,400
+functions of this strategy because both
+
+91
+00:03:02,640 --> 00:03:06,400
+high kanashii and the moving average
+
+92
+00:03:04,400 --> 00:03:07,440
+channel put an emphasis on persistent
+
+93
+00:03:06,400 --> 00:03:09,440
+trends
+
+94
+00:03:07,440 --> 00:03:11,440
+small corrections and consolidation are
+
+95
+00:03:09,440 --> 00:03:13,360
+left behind and they are very visible on
+
+96
+00:03:11,440 --> 00:03:15,599
+the chart you'll notice that when the
+
+97
+00:03:13,360 --> 00:03:17,360
+direction changes on a hikinashi graph
+
+98
+00:03:15,599 --> 00:03:19,760
+the price most likely starts on your
+
+99
+00:03:17,360 --> 00:03:21,760
+move this helps to distinguish between
+
+100
+00:03:19,760 --> 00:03:23,760
+the potential beginning and the end of a
+
+101
+00:03:21,760 --> 00:03:25,599
+trending move
+
+102
+00:03:23,760 --> 00:03:27,920
+with the heckiness chart you can
+
+103
+00:03:25,599 --> 00:03:29,280
+distinguish strong trends from weak
+
+104
+00:03:27,920 --> 00:03:31,519
+price action
+
+105
+00:03:29,280 --> 00:03:33,200
+at first glance the bullish ikanashi
+
+106
+00:03:31,519 --> 00:03:34,640
+trend looks like a normal japanese
+
+107
+00:03:33,200 --> 00:03:36,080
+candlestick trend
+
+108
+00:03:34,640 --> 00:03:38,159
+however you will notice that the
+
+109
+00:03:36,080 --> 00:03:40,640
+hakenashi trend is built primarily by
+
+110
+00:03:38,159 --> 00:03:42,080
+bullish candles and is absent of lower
+
+111
+00:03:40,640 --> 00:03:44,159
+candlewicks
+
+112
+00:03:42,080 --> 00:03:46,000
+when the price is shooting up the price
+
+113
+00:03:44,159 --> 00:03:47,360
+action creates very little to no lower
+
+114
+00:03:46,000 --> 00:03:49,280
+shadows
+
+115
+00:03:47,360 --> 00:03:51,280
+the bearish akanashi trend has the same
+
+116
+00:03:49,280 --> 00:03:52,720
+functions as the bullish one but in the
+
+117
+00:03:51,280 --> 00:03:54,480
+opposite direction
+
+118
+00:03:52,720 --> 00:03:57,120
+this means that is built mainly by
+
+119
+00:03:54,480 --> 00:03:58,959
+bearish candles also a strong bearish
+
+120
+00:03:57,120 --> 00:04:02,720
+trend on the hiking nation graph has
+
+121
+00:03:58,959 --> 00:04:04,799
+very little to no upper candle shadows
+
+122
+00:04:02,720 --> 00:04:06,959
+here we are using a 50 period high low
+
+123
+00:04:04,799 --> 00:04:08,480
+channel on a high canashi chart however
+
+124
+00:04:06,959 --> 00:04:10,560
+you can experiment with different
+
+125
+00:04:08,480 --> 00:04:11,840
+lookback periods to see which one works
+
+126
+00:04:10,560 --> 00:04:13,599
+best for you
+
+127
+00:04:11,840 --> 00:04:15,840
+higher settings tend to work well for
+
+128
+00:04:13,599 --> 00:04:18,160
+observing trends and the lower look back
+
+129
+00:04:15,840 --> 00:04:19,759
+periods are good for timing
+
+130
+00:04:18,160 --> 00:04:22,160
+first aspect we need to do is to
+
+131
+00:04:19,759 --> 00:04:24,160
+determine market direction the primary
+
+132
+00:04:22,160 --> 00:04:25,680
+function of this day trading strategy is
+
+133
+00:04:24,160 --> 00:04:27,600
+to smooth trends
+
+134
+00:04:25,680 --> 00:04:29,520
+when the channel is pointing up we have
+
+135
+00:04:27,600 --> 00:04:32,240
+a bull trend when the channel is
+
+136
+00:04:29,520 --> 00:04:34,000
+pointing down we have a bear trend
+
+137
+00:04:32,240 --> 00:04:35,120
+by the way i use this indicator on
+
+138
+00:04:34,000 --> 00:04:36,479
+trading view
+
+139
+00:04:35,120 --> 00:04:38,960
+when the moving average channel is
+
+140
+00:04:36,479 --> 00:04:41,440
+sloping upwards the lines are green when
+
+141
+00:04:38,960 --> 00:04:43,360
+it's loping downwards the channel is red
+
+142
+00:04:41,440 --> 00:04:45,759
+and when the moving averages are flat
+
+143
+00:04:43,360 --> 00:04:47,199
+the channel is gray
+
+144
+00:04:45,759 --> 00:04:48,720
+but the markets aren't always that
+
+145
+00:04:47,199 --> 00:04:50,320
+simple to analyze
+
+146
+00:04:48,720 --> 00:04:52,160
+to make sure that you are not trapped at
+
+147
+00:04:50,320 --> 00:04:54,560
+the end of a trend we need to examine
+
+148
+00:04:52,160 --> 00:04:56,240
+price action using high kanashii
+
+149
+00:04:54,560 --> 00:04:58,160
+when the high canadian price structure
+
+150
+00:04:56,240 --> 00:04:59,919
+aligns with the moving average channel
+
+151
+00:04:58,160 --> 00:05:01,919
+the market is trending
+
+152
+00:04:59,919 --> 00:05:04,000
+when they oppose each other the market
+
+153
+00:05:01,919 --> 00:05:05,840
+is slowing down and might be reversing
+
+154
+00:05:04,000 --> 00:05:07,680
+or retracing
+
+155
+00:05:05,840 --> 00:05:09,759
+for an uptrend the price is above the
+
+156
+00:05:07,680 --> 00:05:11,759
+moving average channel the channel is
+
+157
+00:05:09,759 --> 00:05:12,639
+green and the hike and ashy candles are
+
+158
+00:05:11,759 --> 00:05:14,880
+green
+
+159
+00:05:12,639 --> 00:05:17,039
+for a downtrend the price is below the
+
+160
+00:05:14,880 --> 00:05:17,840
+moving average channel the channel is
+
+161
+00:05:17,039 --> 00:05:22,199
+red
+
+162
+00:05:17,840 --> 00:05:22,199
+and high kanashii candles are red
+
+163
+00:05:25,730 --> 00:05:41,100
+[Music]
+
+164
+00:05:44,250 --> 00:05:56,189
+[Music]
+
+165
+00:05:56,720 --> 00:06:00,080
+the range of the channel is related to
+
+166
+00:05:58,479 --> 00:06:02,319
+the look back period
+
+167
+00:06:00,080 --> 00:06:04,479
+fast moving averages respond quickly to
+
+168
+00:06:02,319 --> 00:06:05,360
+new price data and could form steep
+
+169
+00:06:04,479 --> 00:06:07,199
+lights
+
+170
+00:06:05,360 --> 00:06:09,919
+but slow moving averages are weighted
+
+171
+00:06:07,199 --> 00:06:12,160
+down and show more stable slopes
+
+172
+00:06:09,919 --> 00:06:14,560
+when the price is inside the channel i
+
+173
+00:06:12,160 --> 00:06:16,960
+avoid opening any position this is the
+
+174
+00:06:14,560 --> 00:06:19,039
+no man's land a period of indecision
+
+175
+00:06:16,960 --> 00:06:20,639
+where you want a clear breakout on any
+
+176
+00:06:19,039 --> 00:06:22,720
+side of the channel
+
+177
+00:06:20,639 --> 00:06:24,560
+i also avoid opening positions when the
+
+178
+00:06:22,720 --> 00:06:26,720
+slope of the channel changes from
+
+179
+00:06:24,560 --> 00:06:29,280
+upwards to downwards to flat in a very
+
+180
+00:06:26,720 --> 00:06:31,199
+short period of time when this happens
+
+181
+00:06:29,280 --> 00:06:32,960
+you can see the price breaks the channel
+
+182
+00:06:31,199 --> 00:06:35,199
+in both directions the market
+
+183
+00:06:32,960 --> 00:06:37,120
+consolidates so there is no clear trend
+
+184
+00:06:35,199 --> 00:06:38,880
+on the market
+
+185
+00:06:37,120 --> 00:06:40,720
+you must also analyze the distance
+
+186
+00:06:38,880 --> 00:06:42,400
+between the moving average channel and
+
+187
+00:06:40,720 --> 00:06:44,560
+high canada candles
+
+188
+00:06:42,400 --> 00:06:47,039
+in a sideways market price tangles with
+
+189
+00:06:44,560 --> 00:06:49,039
+the moving average there is little or no
+
+190
+00:06:47,039 --> 00:06:50,080
+gap between price and the moving average
+
+191
+00:06:49,039 --> 00:06:52,400
+channel
+
+192
+00:06:50,080 --> 00:06:54,319
+in a healthy bull trend the price stays
+
+193
+00:06:52,400 --> 00:06:57,520
+a fair distance above the moving average
+
+194
+00:06:54,319 --> 00:07:00,000
+channel and stays below in vertrans
+
+195
+00:06:57,520 --> 00:07:01,840
+in an overextended trend you'll find the
+
+196
+00:07:00,000 --> 00:07:04,960
+striking distance between high kanashii
+
+197
+00:07:01,840 --> 00:07:07,120
+candles and the moving average channel
+
+198
+00:07:04,960 --> 00:07:09,039
+so the strategy is very simple and very
+
+199
+00:07:07,120 --> 00:07:10,720
+effective at the same time
+
+200
+00:07:09,039 --> 00:07:12,960
+a breakout above the moving average
+
+201
+00:07:10,720 --> 00:07:14,880
+channel with green high kanashii candles
+
+202
+00:07:12,960 --> 00:07:16,639
+signals buying pressure
+
+203
+00:07:14,880 --> 00:07:18,639
+a breakout below the moving average
+
+204
+00:07:16,639 --> 00:07:20,639
+channel with red high kanashii candle
+
+205
+00:07:18,639 --> 00:07:22,160
+signals selling pressure
+
+206
+00:07:20,639 --> 00:07:24,160
+pay attention to the slope of the
+
+207
+00:07:22,160 --> 00:07:25,919
+channel the distance between the candles
+
+208
+00:07:24,160 --> 00:07:28,860
+and the channel and you'll eliminate a
+
+209
+00:07:25,919 --> 00:07:56,630
+lot of whole signals
+
+210
+00:07:28,860 --> 00:07:56,630
+[Music]
+
+211
+00:08:04,319 --> 00:08:08,160
+depending on your level of experience
+
+212
+00:08:06,400 --> 00:08:09,440
+you can add other filters to find the
+
+213
+00:08:08,160 --> 00:08:12,240
+best setups
+
+214
+00:08:09,440 --> 00:08:14,319
+here's a great one the adx indicator the
+
+215
+00:08:12,240 --> 00:08:16,639
+average directional index will confirm
+
+216
+00:08:14,319 --> 00:08:18,479
+if the market is ranging or a new trend
+
+217
+00:08:16,639 --> 00:08:20,720
+is likely to take place
+
+218
+00:08:18,479 --> 00:08:23,840
+adx is plotted as a single line with
+
+219
+00:08:20,720 --> 00:08:25,919
+values ranging from 0 to 100 adx is
+
+220
+00:08:23,840 --> 00:08:27,919
+non-directional and registers trend
+
+221
+00:08:25,919 --> 00:08:28,879
+strength whether price is trending up or
+
+222
+00:08:27,919 --> 00:08:31,199
+down
+
+223
+00:08:28,879 --> 00:08:33,919
+adx values will help you to identify the
+
+224
+00:08:31,199 --> 00:08:36,080
+strongest and most profitable signals
+
+225
+00:08:33,919 --> 00:08:38,399
+i personally ignore all signals if the
+
+226
+00:08:36,080 --> 00:08:40,800
+adx line is below 20.
+
+227
+00:08:38,399 --> 00:08:42,560
+adx readings above 20 suggest that a
+
+228
+00:08:40,800 --> 00:08:43,760
+trend is strong enough for trend trading
+
+229
+00:08:42,560 --> 00:08:45,760
+strategies
+
+230
+00:08:43,760 --> 00:08:47,760
+low atx is usually a sign of
+
+231
+00:08:45,760 --> 00:08:50,560
+accumulation or distribution
+
+232
+00:08:47,760 --> 00:08:52,959
+when adx is below 20 for more than 20 or
+
+233
+00:08:50,560 --> 00:08:55,440
+30 bars you will see that price enters
+
+234
+00:08:52,959 --> 00:08:57,120
+range conditions so ignore the signals
+
+235
+00:08:55,440 --> 00:09:00,240
+that we find because they will have a
+
+236
+00:08:57,120 --> 00:09:02,880
+low probability of working out
+
+237
+00:09:00,240 --> 00:09:04,880
+when adx is below 20 price will usually
+
+238
+00:09:02,880 --> 00:09:06,959
+move up and down between resistance and
+
+239
+00:09:04,880 --> 00:09:10,080
+support to find selling and buying
+
+240
+00:09:06,959 --> 00:09:12,320
+interest when the adx line is rising
+
+241
+00:09:10,080 --> 00:09:14,640
+trends trend is increasing and the price
+
+242
+00:09:12,320 --> 00:09:16,720
+moves in the direction of the trend
+
+243
+00:09:14,640 --> 00:09:18,800
+when the line is falling trend's trend
+
+244
+00:09:16,720 --> 00:09:21,519
+is decreasing and the price enters a
+
+245
+00:09:18,800 --> 00:09:23,839
+period of retracement or consolidation
+
+246
+00:09:21,519 --> 00:09:26,839
+here are several examples with adx
+
+247
+00:09:23,839 --> 00:09:26,839
+filter
+
+248
+00:09:30,130 --> 00:09:35,650
+[Music]
+
+249
+00:09:39,300 --> 00:09:44,919
+[Music]
+
+250
+00:09:47,690 --> 00:10:45,839
+[Music]
+
+251
+00:10:43,360 --> 00:10:48,000
+another filter is the regular divergence
+
+252
+00:10:45,839 --> 00:10:50,399
+i'm a big fan of combining leading with
+
+253
+00:10:48,000 --> 00:10:52,399
+lagging signals to confirm my traits and
+
+254
+00:10:50,399 --> 00:10:54,640
+one of the most powerful trading signals
+
+255
+00:10:52,399 --> 00:10:56,640
+that combines price action analysis with
+
+256
+00:10:54,640 --> 00:10:57,600
+the use of indicators is the divergent
+
+257
+00:10:56,640 --> 00:10:59,760
+signal
+
+258
+00:10:57,600 --> 00:11:01,839
+regular divergence is used to forecast
+
+259
+00:10:59,760 --> 00:11:03,279
+an upcoming price reversal
+
+260
+00:11:01,839 --> 00:11:05,440
+when you spot a regular bullish
+
+261
+00:11:03,279 --> 00:11:07,760
+divergence you expect the price to
+
+262
+00:11:05,440 --> 00:11:09,360
+cancel its bearish move and to switch to
+
+263
+00:11:07,760 --> 00:11:10,720
+an upward move
+
+264
+00:11:09,360 --> 00:11:12,880
+when you see a regular bearish
+
+265
+00:11:10,720 --> 00:11:15,120
+divergence you expect the price to
+
+266
+00:11:12,880 --> 00:11:16,640
+cancel its bullish move and switch to a
+
+267
+00:11:15,120 --> 00:11:18,399
+downward move
+
+268
+00:11:16,640 --> 00:11:20,560
+divergence trading is an extremely
+
+269
+00:11:18,399 --> 00:11:21,920
+effective way to confirm our strategy
+
+270
+00:11:20,560 --> 00:11:23,519
+the reason for this is because
+
+271
+00:11:21,920 --> 00:11:24,560
+divergence formations are leading
+
+272
+00:11:23,519 --> 00:11:26,240
+signals
+
+273
+00:11:24,560 --> 00:11:28,079
+this means that the divergence pattern
+
+274
+00:11:26,240 --> 00:11:28,880
+is likely to occur before the actual
+
+275
+00:11:28,079 --> 00:11:31,040
+move
+
+276
+00:11:28,880 --> 00:11:33,519
+this way we are able to anticipate and
+
+277
+00:11:31,040 --> 00:11:36,079
+enter the trade using our strategy right
+
+278
+00:11:33,519 --> 00:11:38,240
+at the beginning of a new emerging move
+
+279
+00:11:36,079 --> 00:11:41,610
+here are several examples with macd
+
+280
+00:11:38,240 --> 00:11:47,720
+histogram divergence s filter
+
+281
+00:11:41,610 --> 00:11:47,720
+[Music]
+
+282
+00:11:50,850 --> 00:11:54,289
+[Music]
+
+283
+00:11:56,640 --> 00:11:59,760
+[Music]
+
+284
+00:12:02,860 --> 00:12:11,990
+[Music]
+
+285
+00:12:15,140 --> 00:12:36,070
+[Music]
+
+286
+00:12:38,860 --> 00:12:47,920
+[Music]
+
+287
+00:12:45,839 --> 00:12:54,190
+so
+
+288
+00:12:47,920 --> 00:12:54,190
+[Music]
+
+289
+00:12:59,519 --> 00:13:03,760
+being a day trading and scoping strategy
+
+290
+00:13:01,839 --> 00:13:05,680
+you could use any time frame between one
+
+291
+00:13:03,760 --> 00:13:07,120
+minute and 15 minutes
+
+292
+00:13:05,680 --> 00:13:09,120
+and when it comes to selecting the
+
+293
+00:13:07,120 --> 00:13:11,279
+markets for using this strategy it's
+
+294
+00:13:09,120 --> 00:13:12,800
+vital to pick one that is volatile so
+
+295
+00:13:11,279 --> 00:13:14,880
+that you are more likely to see a high
+
+296
+00:13:12,800 --> 00:13:16,639
+number of moves
+
+297
+00:13:14,880 --> 00:13:18,720
+as always if you learned something new
+
+298
+00:13:16,639 --> 00:13:20,880
+and found value give us a like to show
+
+299
+00:13:18,720 --> 00:13:22,560
+support subscribe to our channel and
+
+300
+00:13:20,880 --> 00:13:25,200
+click the bell icon to stay notified
+
+301
+00:13:22,560 --> 00:13:28,760
+every time we upload a new video
+
+302
+00:13:25,200 --> 00:13:28,760
+until next time
+

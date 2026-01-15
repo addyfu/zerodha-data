@@ -1,0 +1,1600 @@
+1
+00:00:00,120 --> 00:00:05,200
+Let me tell you a secret: the charts 
+look different to professional traders! 
+
+2
+00:00:05,200 --> 00:00:07,400
+That’s because they see the “manipulation”  
+
+3
+00:00:07,400 --> 00:00:09,444
+candles that you don't!
+These candles are the key  
+
+4
+00:00:09,444 --> 00:00:11,560
+to understanding true market intent!
+Stay till the end and I'll show you  
+
+5
+00:00:11,560 --> 00:00:14,920
+what you've been missing!
+ 
+When you place a trade,  
+
+6
+00:00:14,920 --> 00:00:19,800
+you're full of hope and expectations.
+Every time you enter, you're very  
+
+7
+00:00:19,800 --> 00:00:26,440
+confident the market will move in your favor. 
+ 
+But often, almost as soon as you enter a trade,  
+
+8
+00:00:26,440 --> 00:00:32,520
+the price starts moving in the opposite direction.
+And in most cases, it all starts with  
+
+9
+00:00:32,520 --> 00:00:36,280
+a manipulation candle.
+A manipulation candle is  
+
+10
+00:00:36,280 --> 00:00:43,720
+a price action pattern used by market makers, to 
+trick novice traders into taking losing positions. 
+
+11
+00:00:43,720 --> 00:00:47,240
+These candles are designed 
+to create false signals,  
+
+12
+00:00:47,240 --> 00:00:53,440
+that often lead to poor trading decisions.
+ 
+Market makers, who have significant capital,  
+
+13
+00:00:53,440 --> 00:00:59,600
+can move prices in ways that trigger 
+stop losses and create false breakouts. 
+
+14
+00:00:59,600 --> 00:01:05,000
+They do this to collect liquidity from 
+other traders who often enter and place  
+
+15
+00:01:05,000 --> 00:01:11,400
+their stop losses in predictable locations.
+ 
+And it's not just a single candle, but a whole  
+
+16
+00:01:11,400 --> 00:01:18,240
+sequence of price moves designed to trick traders.
+So let’s talk about it, these are the most common  
+
+17
+00:01:18,240 --> 00:01:22,257
+manipulation candles.
+ 
+Candles with Big Wicks
+
+18
+00:01:22,257 --> 00:01:24,640
+Candles with big wicks are 
+some of the most deceptive and  
+
+19
+00:01:24,640 --> 00:01:31,040
+manipulative tools used in the market.
+At the core, big wicks represent areas  
+
+20
+00:01:31,040 --> 00:01:36,520
+where the price moved significantly 
+in one direction, but failed to hold. 
+
+21
+00:01:36,520 --> 00:01:41,240
+The long wick shows price rejection, 
+meaning it reached a point where the  
+
+22
+00:01:41,240 --> 00:01:47,240
+market didn’t want to stay. This happens 
+because large players are moving the price,  
+
+23
+00:01:47,240 --> 00:01:53,880
+to trigger certain actions from retail traders.
+ 
+Big players know where most retail traders  
+
+24
+00:01:53,880 --> 00:01:59,040
+place their stop-losses, or where 
+breakout traders are waiting to enter. 
+
+25
+00:01:59,040 --> 00:02:04,080
+And by pushing the price to these 
+levels, they can activate these orders,  
+
+26
+00:02:04,080 --> 00:02:11,760
+only to reverse the price and trap those traders.
+The wick is the aftermath of this manipulation.
+  
+
+27
+00:02:11,760 --> 00:02:17,440
+The manipulation works because most 
+novice traders react to price movements,  
+
+28
+00:02:17,440 --> 00:02:23,480
+without considering the intention behind them.
+The big players push the price up or down  
+
+29
+00:02:23,480 --> 00:02:30,000
+aggressively, creating a sense of urgency.
+Traders see this sudden move and think they’re  
+
+30
+00:02:30,000 --> 00:02:34,600
+missing out on a potential 
+breakout or trend continuation. 
+
+31
+00:02:34,600 --> 00:02:40,360
+The wick itself is the result of this push.
+ 
+Breakout traders also enter the market,  
+
+32
+00:02:40,360 --> 00:02:44,680
+thinking the move is real.
+At the same time, traders who  
+
+33
+00:02:44,680 --> 00:02:50,880
+had their stop losses set just beyond key 
+levels, get forced out of their trades. 
+
+34
+00:02:50,880 --> 00:02:57,520
+These traders think the market is breaking out 
+of a range, or continuing in a strong direction.
+  
+
+35
+00:02:57,520 --> 00:03:02,960
+And once the big players have triggered 
+enough orders and collected liquidity,  
+
+36
+00:03:02,960 --> 00:03:07,080
+they reverse the price.
+The candle closes far from  
+
+37
+00:03:07,080 --> 00:03:14,520
+the extreme point of the wick, showing a large 
+rejection of that price level. Retail traders  
+
+38
+00:03:14,520 --> 00:03:20,200
+who entered the market on the breakout are 
+now trapped in losing positions, while those  
+
+39
+00:03:20,200 --> 00:03:26,480
+who got stopped out are left frustrated.
+This manipulation relies on the fact that  
+
+40
+00:03:26,480 --> 00:03:31,240
+traders tend to follow price blindly, 
+without understanding that the price  
+
+41
+00:03:31,240 --> 00:03:38,400
+move was intentionally created to trap them.
+ 
+Once you understand how this manipulation works,  
+
+42
+00:03:38,400 --> 00:03:43,840
+you can use it to your advantage.
+First, don’t jump into trades just  
+
+43
+00:03:43,840 --> 00:03:50,640
+because the price moves past a key level.
+Instead, wait to see how the candle closes. 
+  
+
+44
+00:03:50,640 --> 00:03:57,720
+If the candle has a big wick and closes near its 
+opening price (indicating rejection), this is a  
+
+45
+00:03:57,720 --> 00:04:03,760
+sign that the previous breakout might be false.
+You can then consider entering a trade in  
+
+46
+00:04:03,760 --> 00:04:08,160
+the opposite direction.
+ 
+Second, big wicks often  
+
+47
+00:04:08,160 --> 00:04:14,640
+occur around major levels. These are areas 
+where big players know that traders have  
+
+48
+00:04:14,640 --> 00:04:21,680
+placed their stop losses or breakout orders.
+If you see a long wick forming at a key level,  
+
+49
+00:04:21,680 --> 00:04:25,920
+it’s a sign that the big players 
+are hunting for liquidity. 
+
+50
+00:04:25,920 --> 00:04:31,840
+You can use this as a signal to enter a 
+trade in the opposite direction of the wick.
+  
+
+51
+00:04:31,840 --> 00:04:36,640
+Also, wicks are more common during 
+certain phases of the market. 
+
+52
+00:04:36,640 --> 00:04:41,920
+In consolidation phases, big 
+players are accumulating positions,  
+
+53
+00:04:41,920 --> 00:04:47,680
+and they use wicks to mislead traders 
+into thinking the market is breaking out. 
+
+54
+00:04:47,680 --> 00:04:53,280
+Once they’ve accumulated enough positions, 
+they’ll move the market in the real direction,  
+
+55
+00:04:53,280 --> 00:04:58,840
+often leaving a series of wicks 
+behind as a trail of manipulation.
+  
+
+56
+00:04:58,840 --> 00:05:04,320
+The longer the wick, the stronger the 
+manipulation. A very long wick shows  
+
+57
+00:05:04,320 --> 00:05:10,800
+that big players pushed the price far in 
+one direction, only to reverse it quickly. 
+
+58
+00:05:10,800 --> 00:05:14,920
+This is a sign that they’re 
+actively trying to trap traders. 
+
+59
+00:05:14,920 --> 00:05:21,960
+Shorter wicks, on the other hand, might just 
+be a sign of indecision or weak momentum. 
+  
+
+60
+00:05:21,960 --> 00:05:27,400
+If you see multiple long wicks forming 
+at the same level, it’s a strong sign. 
+
+61
+00:05:27,400 --> 00:05:33,040
+The big players are repeatedly pushing 
+the price to that level to trigger orders,  
+
+62
+00:05:33,040 --> 00:05:37,680
+but the price keeps getting rejected.
+This is a sign that the market is about  
+
+63
+00:05:37,680 --> 00:05:42,000
+to move in the opposite direction.
+If you see this setup,  
+
+64
+00:05:42,000 --> 00:05:48,040
+it’s a good opportunity to enter a trade 
+against the direction of the wicks.
+ 
+  
+
+65
+00:05:48,040 --> 00:05:50,640
+Large Candles in Sideways Markets
+Large candles in sideways markets are  
+
+66
+00:05:50,640 --> 00:05:56,480
+another classic manipulation tactic.
+These candles may even break out of a range,  
+
+67
+00:05:56,480 --> 00:05:59,640
+causing traders to believe 
+a strong movement has begun,  
+
+68
+00:06:00,320 --> 00:06:06,800
+only for the price to reverse shortly afterward. 
+ 
+When the market is moving sideways, it means  
+
+69
+00:06:06,800 --> 00:06:12,600
+there’s a period of accumulation or indecision.
+Prices are stuck within a range, bouncing between  
+
+70
+00:06:12,600 --> 00:06:17,040
+support and resistance levels.
+And big players use these  
+
+71
+00:06:17,040 --> 00:06:22,480
+periods to build their positions.
+But they also need liquidity to execute large  
+
+72
+00:06:22,480 --> 00:06:29,160
+trades, without moving the market too much. 
+ 
+This is where large candles come into play. 
+
+73
+00:06:29,160 --> 00:06:36,240
+What happens is that these big players push the 
+price suddenly in one direction, to create FOMO. 
+
+74
+00:06:36,240 --> 00:06:42,080
+Reactive traders see the large candle and 
+enter the market, expecting the price to  
+
+75
+00:06:42,080 --> 00:06:47,880
+continue in the direction of the candle. 
+ 
+This adds more liquidity for the big players,  
+
+76
+00:06:47,880 --> 00:06:53,760
+to take the opposite side of the trade.
+The large candle is essentially a trap. It  
+
+77
+00:06:53,760 --> 00:06:59,640
+gives the illusion of a strong directional 
+move, but in reality, it’s a manipulation  
+
+78
+00:06:59,640 --> 00:07:03,600
+tactic to create liquidity.
+ 
+The candle may even break  
+
+79
+00:07:03,600 --> 00:07:07,840
+outside the previous range.
+This is a classic liquidity grab,  
+
+80
+00:07:07,840 --> 00:07:13,240
+where big players need stop-loss 
+orders to fill their own positions. 
+
+81
+00:07:13,240 --> 00:07:19,720
+These candles create emotional reactions in 
+traders. A sudden big move can make traders think  
+
+82
+00:07:19,720 --> 00:07:26,480
+they’re missing out on an opportunity, causing 
+them to enter trades without proper confirmation.  
+
+83
+00:07:26,480 --> 00:07:32,840
+This is a classic case of “Fear of Missing Out”. 
+ 
+I’ve personally done it dozens of times,  
+
+84
+00:07:32,840 --> 00:07:38,800
+rushing into the market, thinking a large 
+candle signals the start of a new trend. 
+
+85
+00:07:38,800 --> 00:07:45,320
+To avoid getting trapped, volume is my go-to 
+indicator when I’m facing a large candle. 
+
+86
+00:07:45,320 --> 00:07:50,800
+If the candle forms on high volume but 
+the price quickly reverses, it’s a strong  
+
+87
+00:07:50,800 --> 00:07:56,240
+sign that the move was actually a trap.
+Big players were likely using the volume  
+
+88
+00:07:56,240 --> 00:08:03,400
+spike to create liquidity for their own trades.
+On the other hand, if a large candle forms on low  
+
+89
+00:08:03,400 --> 00:08:10,960
+volume, it might be a sign of weak conviction, 
+and the breakout might not be sustainable.
+  
+
+90
+00:08:10,960 --> 00:08:16,520
+Sometimes, you’ll see multiple large 
+candles forming in quick succession. 
+
+91
+00:08:16,520 --> 00:08:22,320
+This is another manipulation tactic. Big 
+players will push the price in one direction,  
+
+92
+00:08:22,320 --> 00:08:28,200
+then reverse it, then push it again, 
+creating a series of large candles. 
+
+93
+00:08:28,200 --> 00:08:34,560
+This confuses traders, making them unsure 
+of whether the move is real or false. 
+
+94
+00:08:34,560 --> 00:08:38,560
+If you see multiple large candles 
+forming in a sideways market,  
+
+95
+00:08:38,560 --> 00:08:45,200
+it’s a sign that manipulation is at play, and 
+you should be cautious about entering a trade.
+ 
+  
+
+96
+00:08:45,200 --> 00:08:48,720
+Inside Bars Followed by Weak Breakouts
+Inside bars followed by weak breakouts are  
+
+97
+00:08:48,720 --> 00:08:52,840
+one of the classic setups that 
+can often lead to losing trades. 
+
+98
+00:08:52,840 --> 00:08:59,080
+An inside bar is a candle that forms completely 
+within the range of the previous candle. 
+
+99
+00:08:59,080 --> 00:09:04,320
+Think of it as a sign of indecision 
+or consolidation in the market. 
+
+100
+00:09:04,320 --> 00:09:09,720
+The price isn’t moving much, and traders 
+are waiting for something to happen. 
+  
+
+101
+00:09:09,720 --> 00:09:13,880
+Because the price is “stuck” within 
+the range of the previous candle,  
+
+102
+00:09:13,880 --> 00:09:19,520
+traders know a breakout could be coming, 
+and they start preparing to enter trades,  
+
+103
+00:09:19,520 --> 00:09:23,760
+based on whether the breakout 
+is bullish or bearish. 
+
+104
+00:09:23,760 --> 00:09:29,360
+And when a series of inside bars form, 
+it amplifies the anticipation even more. 
+
+105
+00:09:30,000 --> 00:09:33,960
+Traders are waiting for the 
+market to break out of this chop. 
+
+106
+00:09:33,960 --> 00:09:39,600
+They know that once the price breaks out of 
+the range, it could lead to a strong move. 
+  
+
+107
+00:09:39,600 --> 00:09:43,040
+This is where the manipulation 
+starts to take root. 
+
+108
+00:09:43,040 --> 00:09:47,600
+Well, during this time, big players 
+are building their positions. 
+
+109
+00:09:47,600 --> 00:09:52,720
+They don’t want to reveal their hand, so 
+they keep the market within a tight range. 
+
+110
+00:09:52,720 --> 00:09:57,360
+Novice traders, on the other hand, 
+are getting ready for a breakout. 
+
+111
+00:09:57,360 --> 00:10:03,920
+A lot of retail traders start placing orders 
+just outside the range of the inside bars. 
+
+112
+00:10:03,920 --> 00:10:10,040
+Buyers will place buy orders just above 
+the high of the inside bar, while sellers  
+
+113
+00:10:10,040 --> 00:10:16,840
+will place sell orders just below the low.
+This is exactly what big players want. They  
+
+114
+00:10:16,840 --> 00:10:23,400
+are setting a trap by making the market look 
+like it’s ready to explode in one direction.
+  
+
+115
+00:10:23,400 --> 00:10:29,640
+Then, the breakout happens. A candle breaks 
+out of the range of the inside bars. This  
+
+116
+00:10:29,640 --> 00:10:37,800
+breakout candle may look extremely convincing.
+It’s big, fast, and it creates a sense of urgency. 
+
+117
+00:10:37,800 --> 00:10:44,000
+Many traders enter the market at this point. They 
+believe the breakout is real, and they don’t want  
+
+118
+00:10:44,000 --> 00:10:49,000
+to miss out on the potential profits. 
+ 
+And this is exactly what the big players  
+
+119
+00:10:49,000 --> 00:10:54,720
+want. They’ve lured the traders into 
+the market at the worst possible moment. 
+
+120
+00:10:54,720 --> 00:11:00,840
+Then the price reverses sharply. The breakout 
+candle that looked so convincing is suddenly  
+
+121
+00:11:00,840 --> 00:11:06,320
+followed by a reversal candle, and the 
+price moves in the other direction. 
+
+122
+00:11:06,320 --> 00:11:12,120
+Traders who entered on the breakout 
+are now trapped in losing positions. 
+  
+
+123
+00:11:12,120 --> 00:11:17,520
+This manipulation works because it preys 
+on the natural instincts of traders. 
+
+124
+00:11:17,520 --> 00:11:25,320
+Inside bars create a sense of anticipation, 
+and breakout candles create a sense of urgency. 
+
+125
+00:11:25,320 --> 00:11:29,560
+When we see a large candle breaking 
+out of a consolidation zone,  
+
+126
+00:11:29,560 --> 00:11:35,000
+we assume it’s the start of a new trend.
+We don’t want to miss out on the move, so we  
+
+127
+00:11:35,000 --> 00:11:41,480
+enter the market without waiting for confirmation.
+This is exactly the reaction that big players  
+
+128
+00:11:41,480 --> 00:11:44,200
+are counting on.
+ 
+The key to avoiding  
+
+129
+00:11:44,200 --> 00:11:50,200
+this type of setup is confirmation.
+After the breakout candle forms, wait to see the  
+
+130
+00:11:50,200 --> 00:11:56,680
+price reaction when it retests the breakout level.
+If the breakout is real, the price will often  
+
+131
+00:11:56,680 --> 00:12:02,400
+pull back to the breakout level, and then 
+continue in the direction of the breakout. 
+
+132
+00:12:02,400 --> 00:12:09,120
+If the price breaks out and then quickly reverses, 
+it’s a sign that the breakout was false.
+  
+
+133
+00:12:09,120 --> 00:12:15,200
+And second, a real breakout is often 
+accompanied by a significant increase in volume. 
+
+134
+00:12:15,200 --> 00:12:20,400
+If the breakout candle forms but there’s no 
+increase in volume, it could be a sign that the  
+
+135
+00:12:20,400 --> 00:12:24,440
+breakout is weak and likely to reverse. 
+ 
+ 
+Bullish/Bearish Kicker 
+
+136
+00:12:24,440 --> 00:12:30,240
+Bullish and Bearish Kicker patterns 
+are also common manipulate on patterns. 
+
+137
+00:12:30,240 --> 00:12:35,720
+These often involve a gap, followed by a strong 
+move in the opposite direction of the previous  
+
+138
+00:12:35,720 --> 00:12:42,720
+trend, catching many traders by surprise. 
+ 
+A Bullish Kicker happens after a downtrend, right  
+
+139
+00:12:42,720 --> 00:12:48,600
+at the New York open. The market gaps down at the 
+open, but instead of continuing in the direction  
+
+140
+00:12:48,600 --> 00:12:55,880
+of the downtrend, it reverses sharply and moves 
+upward, forming a strong bullish candle.  
+  
+
+141
+00:12:55,880 --> 00:13:01,920
+A Bearish Kicker happens after an uptrend. 
+The market gaps up at the open, but instead  
+
+142
+00:13:01,920 --> 00:13:09,560
+of continuing higher, it reverses sharply and 
+moves downward, forming a strong bearish candle. 
+  
+
+143
+00:13:09,560 --> 00:13:15,280
+Kicker patterns primarily occur because of 
+a sudden shift in sentiment in the market. 
+
+144
+00:13:15,280 --> 00:13:21,760
+But this shift isn’t always organic. 
+Often, it’s manufactured by bigger players. 
+
+145
+00:13:21,760 --> 00:13:25,440
+Just like with many other 
+manipulative tactics, the main goal  
+
+146
+00:13:25,440 --> 00:13:32,240
+of a Kicker pattern is to create liquidity. 
+ 
+For instance, in a Bearish Kicker, traders who  
+
+147
+00:13:32,240 --> 00:13:39,280
+are long will typically have their stop-loss 
+orders placed just below key support levels. 
+
+148
+00:13:39,280 --> 00:13:44,560
+By pushing the price up and then sharply 
+reversing, big players can trigger those  
+
+149
+00:13:44,560 --> 00:13:50,760
+stop-losses, creating the liquidity they 
+need to enter their own short positions.
+  
+
+150
+00:13:50,760 --> 00:13:57,720
+Kicker patterns prey on traders’ emotions.
+In a Bullish Kicker, the market may gap down,  
+
+151
+00:13:57,720 --> 00:14:03,400
+and traders will assume that the downtrend 
+will continue. But when the price suddenly  
+
+152
+00:14:03,400 --> 00:14:09,720
+reverses and moves upward, traders 
+get confused and start to panic. 
+
+153
+00:14:09,720 --> 00:14:16,480
+This panic leads many traders to exit their 
+positions at a loss or reverse their trades,  
+
+154
+00:14:16,480 --> 00:14:22,400
+which plays into the hands of big players.
+ 
+The manipulation process in Kicker patterns  
+
+155
+00:14:22,400 --> 00:14:27,480
+works because of a combination of 
+psychological and technical traps. 
+
+156
+00:14:27,480 --> 00:14:31,160
+The first part of the 
+manipulation involves the gap. 
+
+157
+00:14:31,160 --> 00:14:36,040
+This gap is designed to make traders 
+think the trend is going to continue. 
+  
+
+158
+00:14:36,040 --> 00:14:40,040
+For example, when the market 
+gaps down in a Bullish Kicker,  
+
+159
+00:14:40,040 --> 00:14:46,360
+traders believe that the downtrend is still 
+intact and that the price will continue to fall. 
+
+160
+00:14:46,360 --> 00:14:51,320
+So, at the market open, many 
+traders enter short positions. 
+
+161
+00:14:51,320 --> 00:14:58,160
+But after the gap, the price suddenly reverses 
+and moves strongly in the opposite direction. 
+
+162
+00:14:58,160 --> 00:15:02,600
+This is where the manipulation 
+becomes obvious. Traders who  
+
+163
+00:15:02,600 --> 00:15:09,400
+entered short positions after the gap are now 
+trapped. as the price moves against them. 
+  
+
+164
+00:15:09,400 --> 00:15:12,160
+As the price moves in the opposite direction,  
+
+165
+00:15:12,160 --> 00:15:18,520
+it triggers stop-losses that were placed 
+by sellers on the wrong side of the market. 
+
+166
+00:15:18,520 --> 00:15:23,320
+This creates liquidity for big 
+players to enter their positions. 
+
+167
+00:15:23,320 --> 00:15:29,320
+This allows them to buy at lower prices 
+before the price continues higher.
+  
+
+168
+00:15:29,320 --> 00:15:34,760
+Big players create the Kicker pattern 
+to induce fear and confusion, causing  
+
+169
+00:15:34,760 --> 00:15:41,040
+reactive traders to make emotional decisions.
+Many of them will exit their positions in a  
+
+170
+00:15:41,040 --> 00:15:47,120
+panic, while others will reverse their 
+trades, trying to catch the new move. 
+ 
+
+171
+00:15:47,120 --> 00:15:53,160
+Volume can provide clues about whether 
+the Kicker pattern is real or manipulated. 
+
+172
+00:15:53,160 --> 00:15:59,120
+If the gap and the strong move in the opposite 
+direction are accompanied by high volume,  
+
+173
+00:15:59,120 --> 00:16:05,120
+it’s more likely that the move is legitimate. 
+ 
+One of the best ways to capitalize on Kicker  
+
+174
+00:16:05,120 --> 00:16:09,920
+patterns is to trade the reversal.
+Once you see that the initial breakout  
+
+175
+00:16:09,920 --> 00:16:16,480
+was false and the price is reversing, you 
+can enter a trade in the opposite direction. 
+
+176
+00:16:16,480 --> 00:16:23,080
+For example, if you see a Bullish Kicker and 
+the price quickly reverses after the gap,  
+
+177
+00:16:23,080 --> 00:16:29,080
+you can enter a short position, expecting 
+the price to continue downwards 
+ 
+  
+
+178
+00:16:29,080 --> 00:16:29,827
+Spinning Top
+
+179
+00:16:29,827 --> 00:16:35,120
+Spinning top candles are fascinating because 
+they represent indecision in the market. 
+
+180
+00:16:35,120 --> 00:16:39,240
+These candles have small real 
+bodies, regardless of whether  
+
+181
+00:16:39,240 --> 00:16:45,080
+they are bullish or bearish, and they 
+come with long wicks on both sides. 
+
+182
+00:16:45,080 --> 00:16:51,120
+The small body shows that there wasn’t much 
+movement between the opening and closing prices. 
+
+183
+00:16:51,120 --> 00:16:55,440
+The long wicks indicate that 
+both buyers and sellers had their  
+
+184
+00:16:55,440 --> 00:17:00,800
+moments of control during the period. 
+ 
+The result is a candle that tells us the  
+
+185
+00:17:00,800 --> 00:17:07,600
+market isn’t sure where it wants to go next.
+This candle traps both buyers and sellers,  
+
+186
+00:17:07,600 --> 00:17:10,628
+having large wicks on both sides.
+But spinning tops aren’t just about  
+
+187
+00:17:10,628 --> 00:17:15,040
+indecision. They also present opportunities 
+for manipulation, especially when they  
+
+188
+00:17:15,040 --> 00:17:20,280
+appear at key levels in the market. 
+ 
+So here, the market is in an uptrend,  
+
+189
+00:17:20,280 --> 00:17:25,040
+and then a spinning top appears.
+It implies that neither the buyers nor  
+
+190
+00:17:25,040 --> 00:17:30,440
+the sellers had enough momentum to push 
+the price decisively in one direction. 
+
+191
+00:17:30,440 --> 00:17:35,800
+The market is essentially “taking a 
+break,” reassessing its next move.
+  
+
+192
+00:17:35,800 --> 00:17:39,560
+These candles often appear 
+at the end of a big move,  
+
+193
+00:17:39,560 --> 00:17:46,000
+signaling that the trend might be losing steam.
+This spinning top might indicate that the buyers  
+
+194
+00:17:46,000 --> 00:17:53,320
+are getting tired, and the sellers might soon 
+take control, potentially leading to a reversal. 
+ 
+
+195
+00:17:53,320 --> 00:17:59,000
+However, spinning tops are often used 
+as tools for market manipulation because  
+
+196
+00:17:59,000 --> 00:18:03,840
+they play on traders’ emotions.
+When traders see a spinning top,  
+
+197
+00:18:03,840 --> 00:18:09,280
+they know it represents indecision in the market.
+Many traders interpret this as a sign that  
+
+198
+00:18:09,280 --> 00:18:15,120
+a big move is coming, especially if the 
+spinning top forms at the end of a trend. 
+
+199
+00:18:15,120 --> 00:18:20,680
+They believe that the market is “pausing” 
+before making its next big move, and they  
+
+200
+00:18:20,680 --> 00:18:27,080
+start positioning themselves for that move.
+Beginners are taught to place buy orders above  
+
+201
+00:18:27,080 --> 00:18:32,080
+the high of the spinning top, 
+or sell orders below the low.
+  
+
+202
+00:18:32,080 --> 00:18:37,200
+This is where the manipulation comes 
+in. Big players know that novice traders  
+
+203
+00:18:37,200 --> 00:18:42,480
+are waiting for a breakout. They use 
+this anticipation to their advantage. 
+
+204
+00:18:42,480 --> 00:18:49,040
+They’ll push the price just high enough to 
+trigger the buy orders placed by bullish traders,  
+
+205
+00:18:49,040 --> 00:18:54,200
+or just low enough to trigger the 
+sell orders placed by bearish traders. 
+
+206
+00:18:54,200 --> 00:18:58,720
+And once the big players have triggered 
+these orders, they reverse the price. 
+  
+
+207
+00:18:59,680 --> 00:19:04,760
+For example, let’s say a spinning 
+top forms after a momentum up move. 
+
+208
+00:19:04,760 --> 00:19:10,680
+Traders place buy orders above the high of the 
+spinning top, thinking the market will continue  
+
+209
+00:19:10,680 --> 00:19:18,280
+higher. The big players push the price just above 
+the high to trigger those buy orders, then quickly  
+
+210
+00:19:18,280 --> 00:19:24,400
+reverse the price, causing the market to drop.
+The traders who entered long positions  
+
+211
+00:19:24,400 --> 00:19:29,400
+are now trapped in losing trades.
+ 
+And they rush to close their positions,  
+
+212
+00:19:29,400 --> 00:19:36,000
+adding even more momentum to the reversal.
+This is exactly what the big players want. 
+
+213
+00:19:36,000 --> 00:19:41,680
+They’ve engineered the move to create panic 
+and force traders to exit their positions at  
+
+214
+00:19:41,680 --> 00:19:48,120
+a loss, all while profiting from the 
+liquidity created by those exits.
+ 
+  
+
+215
+00:19:48,120 --> 00:19:51,600
+Volume can confirm whether a 
+spinning top is likely to lead  
+
+216
+00:19:51,600 --> 00:19:57,760
+to a real move or if it’s just a trap.
+If the spinning top forms on low volume,  
+
+217
+00:19:57,760 --> 00:20:03,240
+it could be a sign that the market is 
+indecisive and that the breakout will be weak. 
+
+218
+00:20:03,240 --> 00:20:09,160
+On the other hand, if the spinning top forms on 
+high volume, it could indicate that there’s real  
+
+219
+00:20:09,160 --> 00:20:16,120
+buying or selling pressure behind the move. 
+ 
+One of the best ways to avoid getting trapped  
+
+220
+00:20:16,120 --> 00:20:22,720
+is to wait for a retest of the breakout level.
+For instance, if a spinning top forms at the end  
+
+221
+00:20:22,720 --> 00:20:28,000
+of an uptrend and the price breaks 
+below the low of the spinning top,  
+
+222
+00:20:28,000 --> 00:20:33,480
+wait to see if the price retests that 
+level before entering a short position. 
+
+223
+00:20:33,480 --> 00:20:40,480
+If the price bounces off the retest and continues 
+lower, it’s a sign that the breakdown is real. 
+
+224
+00:20:40,480 --> 00:20:45,920
+If the price moves back above the level, 
+it’s a sign that the breakdown was false,  
+
+225
+00:20:45,920 --> 00:20:52,880
+and you should avoid entering a short position.
+ 
+And be aware of key levels. Spinning tops are  
+
+226
+00:20:52,880 --> 00:20:58,120
+most effective when they form at 
+key support or resistance levels. 
+
+227
+00:20:58,120 --> 00:21:03,400
+Sometimes, you’ll see multiple spinning tops 
+forming in a row. This is a sign that the  
+
+228
+00:21:03,400 --> 00:21:09,760
+market is in a prolonged state of indecision. 
+ 
+While this might seem like a strong signal that  
+
+229
+00:21:09,760 --> 00:21:15,080
+a big move is coming, be careful.
+Big players know that traders are  
+
+230
+00:21:15,080 --> 00:21:22,040
+watching these patterns, and they’ll often use the 
+series of spinning tops to set up a bigger trap. 
+
+231
+00:21:22,040 --> 00:21:27,800
+If you see multiple spinning tops forming, 
+it’s a sign that you should be extra cautious  
+
+232
+00:21:27,800 --> 00:21:30,360
+about entering a trade.
+ 
+Weekly Candle Manipulation
+
+233
+00:21:30,360 --> 00:21:36,400
+On higher timeframes like the weekly chart, 
+manipulation tends to follow a pattern. 
+  
+
+234
+00:21:36,400 --> 00:21:40,560
+For example, the price opens at 
+the start of the week and trades  
+
+235
+00:21:40,560 --> 00:21:45,800
+near the opening level for a few days.
+Then, the price moves sharply in one  
+
+236
+00:21:45,800 --> 00:21:51,600
+direction. Traders think this is a 
+real move and enter their trades. 
+
+237
+00:21:51,600 --> 00:21:58,920
+Finally, the price reverses, trapping those 
+traders and completing the manipulation phase. 
+
+238
+00:21:58,920 --> 00:22:04,400
+This type of manipulation is powerful 
+because it plays out over several days,  
+
+239
+00:22:04,400 --> 00:22:10,480
+making it harder for traders to spot.
+Big players use this strategy to build their  
+
+240
+00:22:10,480 --> 00:22:17,720
+positions slowly before making the real move.
+ 
+So on higher timeframes like the weekly chart,  
+
+241
+00:22:17,720 --> 00:22:22,560
+manipulation plays out in a more 
+deliberate and extended manner,  
+
+242
+00:22:22,560 --> 00:22:29,200
+making it harder for retail traders to detect.
+This manipulation process occurs in distinct  
+
+243
+00:22:29,200 --> 00:22:34,600
+phases, allowing big players to 
+build and distribute their positions,  
+
+244
+00:22:34,600 --> 00:22:41,480
+while misleading retail traders along the way. 
+ 
+The weekly chart, in particular, is an ideal  
+
+245
+00:22:41,480 --> 00:22:47,680
+playground for large institutions, because the 
+moves are more spread out, giving the illusion  
+
+246
+00:22:47,680 --> 00:22:55,000
+of a natural price progression over several days.
+At the start of the week, the price often opens  
+
+247
+00:22:55,000 --> 00:23:02,120
+and trades near the opening level for a few days.
+This is the accumulation phase. During this time,  
+
+248
+00:23:02,120 --> 00:23:06,160
+the big players are quietly 
+building their positions. 
+
+249
+00:23:06,160 --> 00:23:11,720
+The price moves within a narrow range, 
+often showing little volatility. 
+
+250
+00:23:11,720 --> 00:23:18,080
+To the untrained eye, this sideways movement 
+may seem uneventful, but this is where the  
+
+251
+00:23:18,080 --> 00:23:25,240
+groundwork for the upcoming manipulation is laid.
+ 
+Accumulation can be deceptive because it often  
+
+252
+00:23:25,240 --> 00:23:32,800
+looks like a period of indecision in the market.
+Retail traders might interpret this as a lack  
+
+253
+00:23:32,800 --> 00:23:38,080
+of opportunity, but in reality, 
+the big players are positioning  
+
+254
+00:23:38,080 --> 00:23:44,920
+themselves for the move that’s about to come.
+During this phase, large players are collecting  
+
+255
+00:23:44,920 --> 00:23:51,240
+liquidity, by filling their orders without 
+causing much movement in price, which could  
+
+256
+00:23:51,240 --> 00:23:57,280
+otherwise draw attention from other traders.
+The price may oscillate slightly, but it  
+
+257
+00:23:57,280 --> 00:24:03,360
+remains close to the weekly open, keeping 
+traders guessing about the next big move.
+  
+
+258
+00:24:03,360 --> 00:24:09,360
+After 1 or 2 days of trading near the open, 
+the next phase of manipulation begins. 
+
+259
+00:24:09,360 --> 00:24:16,280
+The price suddenly moves sharply in one direction. 
+This move is quick and decisive, designed to lure  
+
+260
+00:24:16,280 --> 00:24:23,080
+traders into thinking that a breakout is underway.
+For example, if the weekly candle opens and  
+
+261
+00:24:23,080 --> 00:24:28,760
+trades near the opening level for a few 
+days, and suddenly the price shoots down,  
+
+262
+00:24:28,760 --> 00:24:33,960
+most retail traders will interpret 
+this as a strong bearish signal. 
+
+263
+00:24:33,960 --> 00:24:39,440
+They believe that the market is about to 
+go down, and rush to place sell orders.
+  
+
+264
+00:24:39,440 --> 00:24:45,120
+This is exactly what the big players want. 
+By creating this sharp move, they trigger  
+
+265
+00:24:45,120 --> 00:24:53,200
+sell orders from traders and, more importantly, 
+stop-loss orders placed by traders who were long. 
+
+266
+00:24:53,200 --> 00:24:58,840
+This sharp move creates a liquidity pool. The 
+traders who enter the market after seeing the  
+
+267
+00:24:58,840 --> 00:25:04,680
+sharp move, are providing liquidity for 
+the big players to execute their trades. 
+
+268
+00:25:04,680 --> 00:25:10,760
+At this point, the big players have not 
+yet fully entered their desired positions. 
+
+269
+00:25:10,760 --> 00:25:16,680
+They are using this move to mislead the market, 
+making other traders believe that the price will  
+
+270
+00:25:16,680 --> 00:25:23,320
+continue, in the direction of the sharp move. 
+ 
+The sharp move creates a sense of urgency,  
+
+271
+00:25:23,320 --> 00:25:28,320
+and traders often forget to wait for 
+confirmation before entering trades. 
+
+272
+00:25:29,080 --> 00:25:35,160
+They see the price moving quickly and assume 
+that they are missing out on an opportunity.  
+
+273
+00:25:35,160 --> 00:25:40,880
+This emotional reaction is precisely 
+what the big players are counting on. 
+
+274
+00:25:40,880 --> 00:25:45,600
+Unlike shorter timeframes, where 
+manipulation might happen in minutes  
+
+275
+00:25:45,600 --> 00:25:52,400
+or hours, the weekly chart stretches the 
+process over one or even several days. 
+
+276
+00:25:52,400 --> 00:25:57,000
+This makes it harder for retail 
+traders to spot the manipulation,  
+
+277
+00:25:57,000 --> 00:26:02,800
+because the price action seems more legitimate 
+when viewed over a longer timeframe.
+  
+
+278
+00:26:02,800 --> 00:26:07,560
+After trapping retail traders with the 
+sharp move, the big players are ready  
+
+279
+00:26:07,560 --> 00:26:12,440
+for the final phase: distribution.
+This is where the real trickery  
+
+280
+00:26:12,440 --> 00:26:18,000
+happens. The price, now reverses.
+The long wick that formed on the weekly  
+
+281
+00:26:18,000 --> 00:26:24,400
+candle is a classic sign of this reversal.
+Traders who entered positions based on the  
+
+282
+00:26:24,400 --> 00:26:28,240
+sharp move are now trapped, as 
+the price moves against them.
+  
+
+283
+00:26:29,800 --> 00:26:37,400
+For example, as the price shot down earlier in the 
+week, it now creates a long wick to the downside,  
+
+284
+00:26:37,400 --> 00:26:42,280
+and reverses, moving upward.
+Retail traders who sold into  
+
+285
+00:26:42,280 --> 00:26:48,760
+the sharp downward move are stuck in losing 
+positions, as the market turns against them. 
+
+286
+00:26:48,760 --> 00:26:55,400
+Their stop-losses get triggered, or they 
+panic and close their positions at a loss. 
+  
+
+287
+00:26:55,400 --> 00:27:01,120
+The distribution phase allows the big 
+players to exit their positions profitably. 
+
+288
+00:27:01,120 --> 00:27:04,880
+They had built their positions 
+during the accumulation phase and  
+
+289
+00:27:04,880 --> 00:27:11,400
+used the sharp move to trigger liquidity.
+Now, as the price reverses, they begin to  
+
+290
+00:27:11,400 --> 00:27:18,180
+unwind their positions, selling to traders who are 
+desperately trying to exit their losing trades. 
+  
+
+291
+00:27:18,180 --> 00:27:22,600
+Again, if you trade on lower time 
+frames, you will get trapped. 
+
+292
+00:27:22,600 --> 00:27:27,840
+One of the reasons why this type of manipulation 
+is so effective on higher timeframes,  
+
+293
+00:27:27,840 --> 00:27:33,160
+is that it plays out over several days.
+Traders are more likely to believe that  
+
+294
+00:27:33,160 --> 00:27:39,920
+a move is genuine, as it unfolds slowly over 
+time, especially when compared to the rapid  
+
+295
+00:27:39,920 --> 00:27:46,880
+manipulation that occurs on lower timeframes.
+ 
+On a weekly chart, the manipulation doesn’t  
+
+296
+00:27:46,880 --> 00:27:54,120
+happen in a single candle or a quick spike. 
+Instead, it stretches across multiple days,  
+
+297
+00:27:54,120 --> 00:27:58,320
+making it harder to detect.
+Traders might see the price  
+
+298
+00:27:58,320 --> 00:28:03,720
+moving sharply in one direction and 
+assume that the momentum will continue,  
+
+299
+00:28:03,720 --> 00:28:11,160
+not realizing that they are being led into a trap.
+The longer timeframe also gives big players  
+
+300
+00:28:11,160 --> 00:28:17,640
+more room to build, and distribute their 
+positions without drawing too much attention.
+  
+
+301
+00:28:17,640 --> 00:28:23,920
+Additionally, the longer timeframe allows the 
+big players to manipulate the market in a way  
+
+302
+00:28:23,920 --> 00:28:30,120
+that makes the move seem more believable.
+A sharp move on a lower timeframe might  
+
+303
+00:28:30,120 --> 00:28:36,680
+be dismissed as a “fakeout” by experienced 
+traders, but on a weekly chart, the same move  
+
+304
+00:28:36,680 --> 00:28:42,680
+can look like the start of a legitimate trend.
+This makes it easier for the big players to  
+
+305
+00:28:42,680 --> 00:28:50,040
+mislead traders and trap them in losing positions.
+Now, if you want to learn other smart money  
+
+306
+00:28:50,040 --> 00:28:58,040
+tactics, you need to watch 
+one of these videos next.
+

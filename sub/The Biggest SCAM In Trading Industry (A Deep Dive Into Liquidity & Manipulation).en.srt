@@ -1,0 +1,1300 @@
+1
+00:00:00,359 --> 00:00:05,640
+for many years I've always looked at CH
+
+2
+00:00:02,760 --> 00:00:08,760
+patterns thinking they provide clear buy
+
+3
+00:00:05,640 --> 00:00:11,200
+and sell signals things like triangles
+
+4
+00:00:08,760 --> 00:00:13,679
+flags and head and shoulders seemed very
+
+5
+00:00:11,200 --> 00:00:15,759
+simple as long as the price formed the
+
+6
+00:00:13,679 --> 00:00:18,600
+right shaped on the chart you knew a
+
+7
+00:00:15,759 --> 00:00:21,439
+move was coming at least that's what all
+
+8
+00:00:18,600 --> 00:00:24,240
+the trading books told me but over the
+
+9
+00:00:21,439 --> 00:00:27,000
+past years I've started to realize chart
+
+10
+00:00:24,240 --> 00:00:30,039
+patterns may not be as reliable as they
+
+11
+00:00:27,000 --> 00:00:32,559
+are made out to be in fact I'm beginning
+
+12
+00:00:30,039 --> 00:00:35,040
+to think many of the classic patterns
+
+13
+00:00:32,559 --> 00:00:37,600
+retailers like myself look for on the
+
+14
+00:00:35,040 --> 00:00:41,520
+charts are intentionally set up by the
+
+15
+00:00:37,600 --> 00:00:44,239
+smart money specifically to trap retail
+
+16
+00:00:41,520 --> 00:00:46,640
+Traders when I first started trading I
+
+17
+00:00:44,239 --> 00:00:49,559
+would eagerly scan charts looking for
+
+18
+00:00:46,640 --> 00:00:52,320
+well-defined triangles Flags double tops
+
+19
+00:00:49,559 --> 00:00:55,039
+or bottoms anything that resembled a
+
+20
+00:00:52,320 --> 00:00:57,359
+textbook pattern as soon as I spotted
+
+21
+00:00:55,039 --> 00:00:59,680
+one starting to form I would plot my
+
+22
+00:00:57,359 --> 00:01:01,840
+entry and exit levels based on the
+
+23
+00:00:59,680 --> 00:01:04,439
+target markets described in most trading
+
+24
+00:01:01,840 --> 00:01:06,640
+books more often than not the price
+
+25
+00:01:04,439 --> 00:01:09,280
+would promptly reverse against me
+
+26
+00:01:06,640 --> 00:01:12,280
+leaving me scratching my head wondering
+
+27
+00:01:09,280 --> 00:01:15,560
+what went wrong and at first I blamed it
+
+28
+00:01:12,280 --> 00:01:18,520
+on my inexperience but it kept happening
+
+29
+00:01:15,560 --> 00:01:20,360
+over and over with different markets no
+
+30
+00:01:18,520 --> 00:01:22,880
+matter how perfectly the pattern
+
+31
+00:01:20,360 --> 00:01:26,079
+appeared as soon as I took the bait the
+
+32
+00:01:22,880 --> 00:01:28,880
+move fell flat I started to suspect the
+
+33
+00:01:26,079 --> 00:01:31,560
+big players must be aware of this common
+
+34
+00:01:28,880 --> 00:01:34,520
+retail strategy and we're deliberately
+
+35
+00:01:31,560 --> 00:01:37,159
+setting traps to liquidate our
+
+36
+00:01:34,520 --> 00:01:40,119
+positions it was around this time I
+
+37
+00:01:37,159 --> 00:01:42,119
+first came across the idea of orderflow
+
+38
+00:01:40,119 --> 00:01:45,119
+manipulation I discovered how
+
+39
+00:01:42,119 --> 00:01:48,200
+institutions monitor retail order flow
+
+40
+00:01:45,119 --> 00:01:50,399
+to see where we concentrated then the
+
+41
+00:01:48,200 --> 00:01:53,680
+engineer fake outs in the opposite
+
+42
+00:01:50,399 --> 00:01:55,680
+direction to flush us out and at first I
+
+43
+00:01:53,680 --> 00:01:58,520
+didn't want to believe such a thing was
+
+44
+00:01:55,680 --> 00:02:00,880
+possible sounded like a conspiracy but
+
+45
+00:01:58,520 --> 00:02:02,960
+the more examples I saw saw the more it
+
+46
+00:02:00,880 --> 00:02:05,280
+started to make sense and if you're
+
+47
+00:02:02,960 --> 00:02:08,319
+being honest to yourself you know that
+
+48
+00:02:05,280 --> 00:02:11,640
+retail J patterns seem to not be as
+
+49
+00:02:08,319 --> 00:02:14,280
+effective as they once were these big
+
+50
+00:02:11,640 --> 00:02:16,760
+institutions have immense resources and
+
+51
+00:02:14,280 --> 00:02:18,840
+Technology on their side is it really
+
+52
+00:02:16,760 --> 00:02:22,319
+that far-fetched that they manipulate
+
+53
+00:02:18,840 --> 00:02:24,959
+prices to profit at our expense the
+
+54
+00:02:22,319 --> 00:02:27,319
+answer lies in the subtle yet powerful
+
+55
+00:02:24,959 --> 00:02:29,920
+influence of the smart money and how it
+
+56
+00:02:27,319 --> 00:02:32,040
+manipulates the market it might sound
+
+57
+00:02:29,920 --> 00:02:34,920
+bit harsh but I believe this is an
+
+58
+00:02:32,040 --> 00:02:37,200
+ongoing reality in the financial markets
+
+59
+00:02:34,920 --> 00:02:40,440
+the rich keep getting richer and the
+
+60
+00:02:37,200 --> 00:02:42,920
+poor stay poor and why does this happen
+
+61
+00:02:40,440 --> 00:02:45,319
+it's often due to Market
+
+62
+00:02:42,920 --> 00:02:47,680
+manipulation so let me ask you do you
+
+63
+00:02:45,319 --> 00:02:51,319
+keep all your life savings in physical
+
+64
+00:02:47,680 --> 00:02:53,560
+cash chances are you don't your money is
+
+65
+00:02:51,319 --> 00:02:55,879
+sitting in various Banks or large
+
+66
+00:02:53,560 --> 00:02:58,640
+institutions the banks are the ones who
+
+67
+00:02:55,879 --> 00:03:01,239
+control the mass amounts of money in
+
+68
+00:02:58,640 --> 00:03:04,159
+Banks just like any other business are
+
+69
+00:03:01,239 --> 00:03:07,159
+out to make a profit so it's safe to say
+
+70
+00:03:04,159 --> 00:03:09,599
+that we and them have the same goal but
+
+71
+00:03:07,159 --> 00:03:12,560
+here's the thing it takes a substantial
+
+72
+00:03:09,599 --> 00:03:15,080
+amount of money to influence the market
+
+73
+00:03:12,560 --> 00:03:18,200
+and these banks are the actual ones with
+
+74
+00:03:15,080 --> 00:03:19,560
+the power to shape and steer prices as
+
+75
+00:03:18,200 --> 00:03:22,519
+they see
+
+76
+00:03:19,560 --> 00:03:25,440
+fit a smart money has a few tricks up
+
+77
+00:03:22,519 --> 00:03:27,920
+its sleeve one of these tricks is stop
+
+78
+00:03:25,440 --> 00:03:30,920
+plusus hunting so let's consider this
+
+79
+00:03:27,920 --> 00:03:33,480
+double bottom almost all Traders set a
+
+80
+00:03:30,920 --> 00:03:36,319
+stop loss below the pattern which
+
+81
+00:03:33,480 --> 00:03:38,840
+automatically exit their position if the
+
+82
+00:03:36,319 --> 00:03:40,959
+price reaches a certain level but if
+
+83
+00:03:38,840 --> 00:03:43,239
+enough people have stop losses set
+
+84
+00:03:40,959 --> 00:03:45,480
+around the same price and the smart
+
+85
+00:03:43,239 --> 00:03:48,360
+money can push the price down to this
+
+86
+00:03:45,480 --> 00:03:51,680
+level all the stop losses will trigger
+
+87
+00:03:48,360 --> 00:03:54,079
+at once causing a rapid drop in price
+
+88
+00:03:51,680 --> 00:03:57,720
+the smart money can then scoop up these
+
+89
+00:03:54,079 --> 00:03:59,840
+cheap prices before the market rebounds
+
+90
+00:03:57,720 --> 00:04:02,319
+then there are Market traps this is is
+
+91
+00:03:59,840 --> 00:04:05,640
+when the smart money purposely creates a
+
+92
+00:04:02,319 --> 00:04:08,200
+chart pattern like a flag or a triangle
+
+93
+00:04:05,640 --> 00:04:11,280
+knowing that retail Traders will see it
+
+94
+00:04:08,200 --> 00:04:13,920
+and start buying or selling once the
+
+95
+00:04:11,280 --> 00:04:16,120
+retail Traders have taken the bait the
+
+96
+00:04:13,920 --> 00:04:17,759
+smart money goes the other way causing
+
+97
+00:04:16,120 --> 00:04:20,079
+the price to move in the opposite
+
+98
+00:04:17,759 --> 00:04:21,079
+direction of what the retail Traders
+
+99
+00:04:20,079 --> 00:04:24,080
+were
+
+100
+00:04:21,079 --> 00:04:26,479
+expecting one of my most common mistakes
+
+101
+00:04:24,080 --> 00:04:29,320
+was placing too much faith in Char
+
+102
+00:04:26,479 --> 00:04:32,520
+patterns and a lot of years I've ignored
+
+103
+00:04:29,320 --> 00:04:35,360
+other key factors like volume market
+
+104
+00:04:32,520 --> 00:04:38,120
+news or fundamentals and I was instead
+
+105
+00:04:35,360 --> 00:04:41,199
+relying solely on patterns to guide my
+
+106
+00:04:38,120 --> 00:04:43,800
+trading decisions and at first I wasn't
+
+107
+00:04:41,199 --> 00:04:46,400
+aware of liquidity runs the main
+
+108
+00:04:43,800 --> 00:04:49,919
+strategy used by smart money to quickly
+
+109
+00:04:46,400 --> 00:04:52,160
+buy or sell large quantities of a market
+
+110
+00:04:49,919 --> 00:04:54,639
+they do this by pushing the price to
+
+111
+00:04:52,160 --> 00:04:56,960
+levels where they know lots of orders
+
+112
+00:04:54,639 --> 00:04:59,199
+are waiting like the stop losses we
+
+113
+00:04:56,960 --> 00:05:00,120
+talked about earlier triggering them all
+
+114
+00:04:59,199 --> 00:05:03,039
+at once
+
+115
+00:05:00,120 --> 00:05:05,600
+and creating a sudden surge in demand or
+
+116
+00:05:03,039 --> 00:05:07,759
+Supply that allows them to execute their
+
+117
+00:05:05,600 --> 00:05:09,360
+large orders without drastically
+
+118
+00:05:07,759 --> 00:05:12,880
+affecting the
+
+119
+00:05:09,360 --> 00:05:16,000
+price in fact one of my biggest losses
+
+120
+00:05:12,880 --> 00:05:18,319
+came after a Char pattern few years ago
+
+121
+00:05:16,000 --> 00:05:20,520
+I noticed Apple was forming a pretty
+
+122
+00:05:18,319 --> 00:05:23,120
+obvious symmetrical triangle on its
+
+123
+00:05:20,520 --> 00:05:26,080
+daily chart over the course of about 3
+
+124
+00:05:23,120 --> 00:05:28,319
+weeks as the pattern developed the stock
+
+125
+00:05:26,080 --> 00:05:31,319
+was bouncing consistently between the
+
+126
+00:05:28,319 --> 00:05:34,000
+upper and the lower trend lines to me it
+
+127
+00:05:31,319 --> 00:05:36,880
+was a textbook so I bought the next day
+
+128
+00:05:34,000 --> 00:05:40,360
+the price broke out and within a couple
+
+129
+00:05:36,880 --> 00:05:42,680
+of days without any clear news the stock
+
+130
+00:05:40,360 --> 00:05:45,880
+abruptly reversed its direction and
+
+131
+00:05:42,680 --> 00:05:48,280
+plunged back below the breakout level by
+
+132
+00:05:45,880 --> 00:05:51,400
+the following week it had completely
+
+133
+00:05:48,280 --> 00:05:53,759
+negated the whole triangle move and
+
+134
+00:05:51,400 --> 00:05:56,520
+thinking back in hindsight this was a
+
+135
+00:05:53,759 --> 00:05:59,479
+liquidity run based on a classic retail
+
+136
+00:05:56,520 --> 00:06:02,360
+pattern big players likely noticed the
+
+137
+00:05:59,479 --> 00:06:05,120
+buildup of long retail positions from
+
+138
+00:06:02,360 --> 00:06:08,120
+people like me reacting to the confirmed
+
+139
+00:06:05,120 --> 00:06:10,560
+triangle breakout once our buys were
+
+140
+00:06:08,120 --> 00:06:13,759
+established based on the pattern they
+
+141
+00:06:10,560 --> 00:06:16,919
+started selling into our stops trapping
+
+142
+00:06:13,759 --> 00:06:19,639
+us all with losses in the process and
+
+143
+00:06:16,919 --> 00:06:22,160
+with their vast Financial capabilities
+
+144
+00:06:19,639 --> 00:06:24,440
+such an orchestrated price decrease
+
+145
+00:06:22,160 --> 00:06:28,039
+wouldn't be hard to engineer and would
+
+146
+00:06:24,440 --> 00:06:30,560
+yield massive profits at our expense
+
+147
+00:06:28,039 --> 00:06:33,520
+after seeing so many textbook patterns
+
+148
+00:06:30,560 --> 00:06:35,919
+fail me in similar fashion over time
+
+149
+00:06:33,520 --> 00:06:38,720
+I've became increasingly skeptical that
+
+150
+00:06:35,919 --> 00:06:42,240
+chart Reading Alone provides any real
+
+151
+00:06:38,720 --> 00:06:44,360
+Edge whatsoever at my retail level of
+
+152
+00:06:42,240 --> 00:06:47,319
+course technical analysis still has
+
+153
+00:06:44,360 --> 00:06:49,960
+Merit but this strategies relying purely
+
+154
+00:06:47,319 --> 00:06:52,880
+on pattern recognition seem hopelessly
+
+155
+00:06:49,960 --> 00:06:56,560
+naive when factoring in the reality of
+
+156
+00:06:52,880 --> 00:07:00,039
+orderflow manipulation by the bigger
+
+157
+00:06:56,560 --> 00:07:02,840
+players like I said looking back I was
+
+158
+00:07:00,039 --> 00:07:05,319
+repeatedly taken for a soccer anytime I
+
+159
+00:07:02,840 --> 00:07:08,360
+followed one of these textbook retail
+
+160
+00:07:05,319 --> 00:07:10,840
+setups to the letter lons learned the
+
+161
+00:07:08,360 --> 00:07:13,360
+hard way one of the patterns I got
+
+162
+00:07:10,840 --> 00:07:15,800
+burned on repeatedly was The Head and
+
+163
+00:07:13,360 --> 00:07:18,759
+Shoulders it's supposed to be a very
+
+164
+00:07:15,800 --> 00:07:21,039
+reliable reversal indicator yet they
+
+165
+00:07:18,759 --> 00:07:23,440
+would form only to promptly get
+
+166
+00:07:21,039 --> 00:07:26,800
+invalidated by a big spike in the
+
+167
+00:07:23,440 --> 00:07:29,720
+opposite direction soon as I entered I
+
+168
+00:07:26,800 --> 00:07:32,360
+clearly recall entering short position
+
+169
+00:07:29,720 --> 00:07:35,400
+multiple times as prices would break
+
+170
+00:07:32,360 --> 00:07:38,000
+below the neckline only to mysteriously
+
+171
+00:07:35,400 --> 00:07:39,639
+reverse Direction and move right back
+
+172
+00:07:38,000 --> 00:07:42,680
+above it in no
+
+173
+00:07:39,639 --> 00:07:44,960
+time and another mistake I've made was
+
+174
+00:07:42,680 --> 00:07:48,039
+not validating the breakout with the
+
+175
+00:07:44,960 --> 00:07:51,240
+volume most breakouts below the neckline
+
+176
+00:07:48,039 --> 00:07:53,960
+happened on low volume these apparently
+
+177
+00:07:51,240 --> 00:07:56,800
+staged fake outs strongly suggest the
+
+178
+00:07:53,960 --> 00:07:59,319
+pattern was deliberately engineered to
+
+179
+00:07:56,800 --> 00:08:02,720
+attract our counter Trend shorts only
+
+180
+00:07:59,319 --> 00:08:06,000
+only to be violently flushed out for a
+
+181
+00:08:02,720 --> 00:08:08,599
+loss flags were other chart formations I
+
+182
+00:08:06,000 --> 00:08:11,400
+used to consider based on textbook
+
+183
+00:08:08,599 --> 00:08:14,560
+continuation patterns but much like the
+
+184
+00:08:11,400 --> 00:08:17,199
+others they fooled me too many times the
+
+185
+00:08:14,560 --> 00:08:19,960
+signals seem so Cut and Clear price
+
+186
+00:08:17,199 --> 00:08:23,080
+pauses horizontally consolidating its
+
+187
+00:08:19,960 --> 00:08:25,879
+gains before resuming the prior Trend
+
+188
+00:08:23,080 --> 00:08:28,720
+yet time and time again as soon as I
+
+189
+00:08:25,879 --> 00:08:31,280
+entered assuming the breakout the price
+
+190
+00:08:28,720 --> 00:08:34,240
+would often reverse Direction against me
+
+191
+00:08:31,280 --> 00:08:37,399
+often on relatively light
+
+192
+00:08:34,240 --> 00:08:39,839
+volume like I said those were valuable
+
+193
+00:08:37,399 --> 00:08:42,519
+lessons I've learned while retail
+
+194
+00:08:39,839 --> 00:08:45,360
+Traders like myself are busy scanning
+
+195
+00:08:42,519 --> 00:08:48,160
+the charts looking for textbook setups
+
+196
+00:08:45,360 --> 00:08:50,600
+based purely on price the bigger players
+
+197
+00:08:48,160 --> 00:08:53,240
+are no doubt leveraging their much
+
+198
+00:08:50,600 --> 00:08:56,200
+richer Intel and experience to
+
+199
+00:08:53,240 --> 00:08:58,680
+manipulate against our positions with
+
+200
+00:08:56,200 --> 00:09:01,600
+access to order information sentiment
+
+201
+00:08:58,680 --> 00:09:04,200
+readings and many other data streams
+
+202
+00:09:01,600 --> 00:09:07,600
+they can pinpoint exactly where waterers
+
+203
+00:09:04,200 --> 00:09:10,640
+are concentrated and engineer fake moves
+
+204
+00:09:07,600 --> 00:09:13,279
+to liquidate those positions the reality
+
+205
+00:09:10,640 --> 00:09:16,399
+is that our trading activity is
+
+206
+00:09:13,279 --> 00:09:18,959
+completely transparent to them and this
+
+207
+00:09:16,399 --> 00:09:21,839
+allows them to set off liquidity runs
+
+208
+00:09:18,959 --> 00:09:24,839
+with these conditions where temporary
+
+209
+00:09:21,839 --> 00:09:27,720
+imbalances lead to Sharp irrational
+
+210
+00:09:24,839 --> 00:09:31,399
+moves that defy any chart
+
+211
+00:09:27,720 --> 00:09:34,399
+logic so knowing this how can we retail
+
+212
+00:09:31,399 --> 00:09:37,519
+Traders compete with the smart money are
+
+213
+00:09:34,399 --> 00:09:40,079
+we doomed to lose every single time the
+
+214
+00:09:37,519 --> 00:09:43,160
+key is understanding how market prices
+
+215
+00:09:40,079 --> 00:09:45,800
+move prices tend to gravitate toward
+
+216
+00:09:43,160 --> 00:09:49,000
+levels where a significant number of
+
+217
+00:09:45,800 --> 00:09:52,040
+unexecuted orders are waiting these
+
+218
+00:09:49,000 --> 00:09:54,720
+orders can be located either below or
+
+219
+00:09:52,040 --> 00:09:57,360
+above the current market price or
+
+220
+00:09:54,720 --> 00:10:00,640
+sometimes both the type of orders I'm
+
+221
+00:09:57,360 --> 00:10:04,079
+referring to are buy stop sell stops
+
+222
+00:10:00,640 --> 00:10:06,320
+stop losses and trailing stops in my
+
+223
+00:10:04,079 --> 00:10:09,360
+personal approach to trading I now
+
+224
+00:10:06,320 --> 00:10:11,839
+prefer to identify general areas where
+
+225
+00:10:09,360 --> 00:10:14,760
+these orders might be clustered on my
+
+226
+00:10:11,839 --> 00:10:17,560
+charts and when I notice a notable
+
+227
+00:10:14,760 --> 00:10:20,000
+reaction from one of these areas it
+
+228
+00:10:17,560 --> 00:10:21,440
+often presents an opportunity for me to
+
+229
+00:10:20,000 --> 00:10:24,240
+enter the
+
+230
+00:10:21,440 --> 00:10:27,000
+market once pending orders have been
+
+231
+00:10:24,240 --> 00:10:29,839
+triggered and liquidity dries up in a
+
+232
+00:10:27,000 --> 00:10:32,480
+specific price area it often leads to a
+
+233
+00:10:29,839 --> 00:10:35,440
+reversal from the current levels these
+
+234
+00:10:32,480 --> 00:10:38,160
+reversals can frequently Mark the low or
+
+235
+00:10:35,440 --> 00:10:40,839
+high point of a trend and finding your
+
+236
+00:10:38,160 --> 00:10:43,240
+entry into the market can set you up for
+
+237
+00:10:40,839 --> 00:10:46,360
+potentially significant gains with
+
+238
+00:10:43,240 --> 00:10:49,040
+minimal risk while this phenomenon can
+
+239
+00:10:46,360 --> 00:10:51,839
+occur across various time frames it's
+
+240
+00:10:49,040 --> 00:10:54,440
+more noticeable on smaller time frames
+
+241
+00:10:51,839 --> 00:10:56,839
+compared to larger ones and from my
+
+242
+00:10:54,440 --> 00:10:59,040
+experience this tends to happen most
+
+243
+00:10:56,839 --> 00:11:01,480
+frequently during the London Trading
+
+244
+00:10:59,040 --> 00:11:03,959
+session in the overlap between the
+
+245
+00:11:01,480 --> 00:11:06,680
+London and the US
+
+246
+00:11:03,959 --> 00:11:09,120
+session you have to ditch the retail
+
+247
+00:11:06,680 --> 00:11:11,560
+mentality the conventional approach of
+
+248
+00:11:09,120 --> 00:11:14,519
+the retail trading presented in most
+
+249
+00:11:11,560 --> 00:11:16,959
+trading books me personally I seek
+
+250
+00:11:14,519 --> 00:11:19,560
+buying opportunities where others are
+
+251
+00:11:16,959 --> 00:11:21,720
+getting stopped out instead of following
+
+252
+00:11:19,560 --> 00:11:25,200
+the crowd I now prefer to take a
+
+253
+00:11:21,720 --> 00:11:27,720
+contrarian approach from my experience
+
+254
+00:11:25,200 --> 00:11:30,800
+markets often Pro the crowd wrong
+
+255
+00:11:27,720 --> 00:11:32,920
+especially at price streams therefore
+
+256
+00:11:30,800 --> 00:11:35,600
+aligning your position against the
+
+257
+00:11:32,920 --> 00:11:38,760
+prevailing consensus can often lead to
+
+258
+00:11:35,600 --> 00:11:41,760
+more favorable outcomes my new mindset
+
+259
+00:11:38,760 --> 00:11:45,000
+when I see a textbook pattern is that
+
+260
+00:11:41,760 --> 00:11:47,480
+many stop-loss orders exist just below
+
+261
+00:11:45,000 --> 00:11:50,200
+the market and I know that smart money
+
+262
+00:11:47,480 --> 00:11:53,120
+will try to run the market down to take
+
+263
+00:11:50,200 --> 00:11:56,120
+out or activate the stops and then run
+
+264
+00:11:53,120 --> 00:11:58,320
+the price back up again with this new
+
+265
+00:11:56,120 --> 00:12:01,079
+perspective on the market I encourage
+
+266
+00:11:58,320 --> 00:12:03,600
+you to go back to your own charts and
+
+267
+00:12:01,079 --> 00:12:06,519
+observe what happens in real Market
+
+268
+00:12:03,600 --> 00:12:08,920
+scenarios for those of you who felt the
+
+269
+00:12:06,519 --> 00:12:11,399
+frustration of being stopped out just
+
+270
+00:12:08,920 --> 00:12:14,360
+before the market moves in your favor
+
+271
+00:12:11,399 --> 00:12:17,360
+despite correct analysis you now have an
+
+272
+00:12:14,360 --> 00:12:20,240
+explanation for why this
+
+273
+00:12:17,360 --> 00:12:23,800
+occurs now you might ask should we
+
+274
+00:12:20,240 --> 00:12:26,360
+abandon chart patterns altogether not
+
+275
+00:12:23,800 --> 00:12:29,040
+necessarily while it's true that smart
+
+276
+00:12:26,360 --> 00:12:31,399
+money manipulation can lead to fail
+
+277
+00:12:29,040 --> 00:12:33,720
+patterns this doesn't mean that chart
+
+278
+00:12:31,399 --> 00:12:36,920
+patterns are useless they can still
+
+279
+00:12:33,720 --> 00:12:39,680
+provide some insights into market trends
+
+280
+00:12:36,920 --> 00:12:42,600
+however it's crucial for us as retail
+
+281
+00:12:39,680 --> 00:12:45,279
+traders to be aware of these tactics and
+
+282
+00:12:42,600 --> 00:12:47,920
+not to rely solely on chart patterns
+
+283
+00:12:45,279 --> 00:12:50,279
+when making our trading decisions we
+
+284
+00:12:47,920 --> 00:12:53,000
+need to remember that trading isn't just
+
+285
+00:12:50,279 --> 00:12:55,399
+about recognizing shapes on a chart it's
+
+286
+00:12:53,000 --> 00:12:58,639
+a complex game involving numerous
+
+287
+00:12:55,399 --> 00:13:01,079
+factors we need to be flexible adaptable
+
+288
+00:12:58,639 --> 00:13:03,399
+and and always ready to learn
+
+289
+00:13:01,079 --> 00:13:06,440
+understanding how smart money operates
+
+290
+00:13:03,399 --> 00:13:08,959
+will help us become better Traders so
+
+291
+00:13:06,440 --> 00:13:11,279
+keep an eye on those Char patterns but
+
+292
+00:13:08,959 --> 00:13:14,560
+don't let them be your only
+
+293
+00:13:11,279 --> 00:13:17,600
+guide so technical analysis still has
+
+294
+00:13:14,560 --> 00:13:20,880
+value but textbook chart patterns might
+
+295
+00:13:17,600 --> 00:13:23,880
+be doing naive Traders like my past self
+
+296
+00:13:20,880 --> 00:13:26,360
+a great disservice signals that worked
+
+297
+00:13:23,880 --> 00:13:29,519
+for decades are now intentionally
+
+298
+00:13:26,360 --> 00:13:32,760
+manipulated precisely to bait and flush
+
+299
+00:13:29,519 --> 00:13:35,639
+out unassuming ril positions classic
+
+300
+00:13:32,760 --> 00:13:38,000
+moves like triangles flags and wedges
+
+301
+00:13:35,639 --> 00:13:41,120
+have all personally failed me too many
+
+302
+00:13:38,000 --> 00:13:44,040
+times to plausibly assign them the same
+
+303
+00:13:41,120 --> 00:13:46,680
+credibility as for myself I aim to
+
+304
+00:13:44,040 --> 00:13:49,199
+evolve Beyond pure pattern Reliance
+
+305
+00:13:46,680 --> 00:13:52,519
+going forward combining traditional
+
+306
+00:13:49,199 --> 00:13:55,600
+chart tactics with orderflow monitoring
+
+307
+00:13:52,519 --> 00:13:58,040
+sentiment analysis and volume analysis
+
+308
+00:13:55,600 --> 00:14:00,680
+for potential liquidity events has
+
+309
+00:13:58,040 --> 00:14:04,320
+become my quest to level the playing
+
+310
+00:14:00,680 --> 00:14:07,600
+field against smart money so here are my
+
+311
+00:14:04,320 --> 00:14:09,920
+key takeaways going forward trading
+
+312
+00:14:07,600 --> 00:14:12,959
+isn't as simple as searching and
+
+313
+00:14:09,920 --> 00:14:16,240
+recognizing different shapes if it were
+
+314
+00:14:12,959 --> 00:14:18,759
+everyone would be rich markets can and
+
+315
+00:14:16,240 --> 00:14:22,199
+will be manipulated to trigger stop
+
+316
+00:14:18,759 --> 00:14:24,519
+orders retail Traders don't have control
+
+317
+00:14:22,199 --> 00:14:27,680
+over the price movements but liquidity
+
+318
+00:14:24,519 --> 00:14:30,000
+runs executed by smart money can present
+
+319
+00:14:27,680 --> 00:14:32,920
+trading opportunity is for us retail
+
+320
+00:14:30,000 --> 00:14:35,639
+Traders and always remember that prices
+
+321
+00:14:32,920 --> 00:14:38,600
+tend to gravitate toward levels where a
+
+322
+00:14:35,639 --> 00:14:40,440
+significant number of unexecuted orders
+
+323
+00:14:38,600 --> 00:14:47,130
+are
+
+324
+00:14:40,440 --> 00:14:47,130
+[Music]
+
+325
+00:14:49,040 --> 00:14:52,040
+waiting
+

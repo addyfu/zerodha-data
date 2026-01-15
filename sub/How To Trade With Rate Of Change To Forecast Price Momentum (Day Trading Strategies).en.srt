@@ -1,0 +1,672 @@
+1
+00:00:01,140 --> 00:00:06,170
+The price rate of change (ROC) represents
+a momentum oscillator, measuring the speed
+
+2
+00:00:06,170 --> 00:00:10,520
+at which the price is changing within a defined
+time period.
+
+3
+00:00:10,520 --> 00:00:15,830
+The rate of change (ROC) calculates the percentage
+change between the most recent price and the
+
+4
+00:00:15,830 --> 00:00:19,199
+price registered a certain number of periods
+ago.
+
+5
+00:00:19,199 --> 00:00:24,279
+The plot forms an oscillator moving above
+and below the zero line as the rate of change
+
+6
+00:00:24,279 --> 00:00:26,099
+moves from positive to negative.
+
+7
+00:00:26,099 --> 00:00:32,189
+So the ROC indicator is plotted against zero,
+with the indicator moving upwards into positive
+
+8
+00:00:32,189 --> 00:00:38,160
+territory if price changes are to the upside,
+and moving into negative territory if price
+
+9
+00:00:38,160 --> 00:00:41,890
+changes are to the downside.
+
+10
+00:00:41,890 --> 00:00:48,620
+Like other momentum indicators (Stochastic
+oscillator, for example), ROC can be interpreted
+
+11
+00:00:48,620 --> 00:00:52,640
+in numerous ways, traders using this oscillator
+for overbought/oversold signals, divergences
+
+12
+00:00:52,640 --> 00:00:54,309
+and zero-line crossovers.
+
+13
+00:00:54,309 --> 00:01:04,250
+A value above zero indicates an increase in
+bullish momentum and a negative value suggests
+
+14
+00:01:04,250 --> 00:01:06,439
+an increase in downward momentum.
+
+15
+00:01:06,439 --> 00:01:11,200
+A rising ROC typically confirms an uptrend.
+
+16
+00:01:11,200 --> 00:01:16,660
+But this can be misleading, as the indicator
+is only comparing the current price to the
+
+17
+00:01:16,660 --> 00:01:18,200
+price N periods ago.
+
+18
+00:01:18,200 --> 00:01:25,100
+A falling ROC indicates the current price
+is below the price N periods ago.
+
+19
+00:01:25,100 --> 00:01:31,070
+This usually helps confirm a downtrend, but
+isn't always accurate.
+
+20
+00:01:31,070 --> 00:01:35,380
+When the price is consolidating, the ROC will
+hover near zero.
+
+21
+00:01:35,380 --> 00:01:41,090
+In this case, it is important traders watch
+the overall price trend since the ROC will
+
+22
+00:01:41,090 --> 00:01:46,540
+provide little insight except for confirming
+the sideways movement.
+
+23
+00:01:46,540 --> 00:01:51,969
+Overbought and oversold levels are not fixed
+on the ROC, and each asset will generate its
+
+24
+00:01:51,969 --> 00:01:54,110
+own extreme levels.
+
+25
+00:01:54,110 --> 00:01:59,600
+Traders can see what these levels are by looking
+to past readings and observing the extreme
+
+26
+00:01:59,600 --> 00:02:05,640
+levels the ROC reached before the price reversed.
+
+27
+00:02:05,640 --> 00:02:09,380
+All markets can work well with the ROC indicator.
+
+28
+00:02:09,380 --> 00:02:14,930
+There are no right or wrong settings to use,
+but every trader has to make decisions depending
+
+29
+00:02:14,930 --> 00:02:19,640
+on the market conditions and the volatility
+of the financial markets.
+
+30
+00:02:19,640 --> 00:02:23,090
+The ROC indicator can be used on various time
+frames.
+
+31
+00:02:23,090 --> 00:02:28,349
+It can be used for short-term trading but
+in general, the value of the ROC indicator
+
+32
+00:02:28,349 --> 00:02:32,200
+is better used for identifying the long-term
+trend.
+
+33
+00:02:32,200 --> 00:02:37,760
+There are various settings that can be used
+for the ROC oscillator.
+
+34
+00:02:37,760 --> 00:02:42,010
+The common settings used for this indicator
+is 9-periods.
+
+35
+00:02:42,010 --> 00:02:47,040
+Other commonly used settings include 14, 21
+and even 50.
+
+36
+00:02:47,040 --> 00:02:51,560
+Remember that there is no absolute number
+that can magically give the right settings.
+
+37
+00:02:51,560 --> 00:02:56,950
+Rather, it is important to analyze the behavior
+of the stock or currency you’re trading
+
+38
+00:02:56,950 --> 00:03:02,890
+in order to use the right or the most appropriate
+settings for the price ROC oscillator.
+
+39
+00:03:02,890 --> 00:03:08,670
+The volatility of the market being analyzed
+is of course of utmost importance.
+
+40
+00:03:08,670 --> 00:03:14,690
+Using too small a number (like 9 for example)
+can lead to very choppy readings, while using
+
+41
+00:03:14,690 --> 00:03:21,280
+a higher configuration setting could potentially
+lag the ROC to the point that signals can
+
+42
+00:03:21,280 --> 00:03:23,590
+be very delayed.
+
+43
+00:03:23,590 --> 00:03:28,620
+If we take a look at this market, you can
+see that when using a 5-period setting for
+
+44
+00:03:28,620 --> 00:03:32,620
+the oscillator, the ROC can be choppy.
+
+45
+00:03:32,620 --> 00:03:37,530
+While it might look easy in hindsight, it
+is important to note that this oscillator
+
+46
+00:03:37,530 --> 00:03:43,170
+will have problems to pick up the tops and
+bottoms or in other words, rising and falling
+
+47
+00:03:43,170 --> 00:03:44,860
+momentum in price.
+
+48
+00:03:44,860 --> 00:03:50,379
+So you need to find the right balance suited
+for the market you’re trading and the timeframe
+
+49
+00:03:50,379 --> 00:03:53,670
+you’re mainly using.
+
+50
+00:03:53,670 --> 00:04:00,130
+How to trade with the price rate of change
+First strategy, using the ROC indicator as
+
+51
+00:04:00,130 --> 00:04:06,250
+a timing tool within a trend analysis
+We already know that price never moves in
+
+52
+00:04:06,250 --> 00:04:07,560
+a straight line.
+
+53
+00:04:07,560 --> 00:04:11,750
+The price posts a series of highs and lows
+within the trend.
+
+54
+00:04:11,750 --> 00:04:17,000
+The challenge is of course in buying near
+the low point or the dip in the uptrend or
+
+55
+00:04:17,000 --> 00:04:20,700
+selling near the high point or the rally in
+the downtrend.
+
+56
+00:04:20,700 --> 00:04:25,140
+The ROC indicator can help you to find these
+points.
+
+57
+00:04:25,140 --> 00:04:30,500
+Trends can be analyzed either by looking at
+the highs and lows or by looking at the signals
+
+58
+00:04:30,500 --> 00:04:34,550
+from the technical indicators such as moving
+averages.
+
+59
+00:04:34,550 --> 00:04:39,790
+In this first approach of using the ROC to
+analyze a market, let’s look at a simple
+
+60
+00:04:39,790 --> 00:04:44,450
+set up that involves one moving averages and
+the ROC.
+
+61
+00:04:44,450 --> 00:04:51,050
+Now, maybe the most common way traders use
+the ROC oscillator is entering the market
+
+62
+00:04:51,050 --> 00:04:54,350
+when the plotted line crosses the zero line.
+
+63
+00:04:54,350 --> 00:04:59,070
+A breakout in either direction indicates increasing
+/decreasing momentum.
+
+64
+00:04:59,070 --> 00:05:02,600
+By itself, this signal is not reliable.
+
+65
+00:05:02,600 --> 00:05:08,950
+Because sometimes, the ROC can dip below the
+zero-line only to reverse back higher.
+
+66
+00:05:08,950 --> 00:05:11,290
+And this is an important point to note.
+
+67
+00:05:11,290 --> 00:05:15,680
+The ROC reacts to the price and not the other
+way around.
+
+68
+00:05:15,680 --> 00:05:20,760
+Therefore, you need to focus on the price
+and price action as well before trading this
+
+69
+00:05:20,760 --> 00:05:23,790
+simple method with the ROC indicator.
+
+70
+00:05:23,790 --> 00:05:29,340
+We can improve the zero line crossover approach
+when we combine the price rate of change with
+
+71
+00:05:29,340 --> 00:05:31,980
+a trend indicator.
+
+72
+00:05:31,980 --> 00:05:37,740
+As we can observe in this example, when used
+in combination with a moving average the ROC
+
+73
+00:05:37,740 --> 00:05:43,090
+offers several entries in the market, when
+the line crosses below the zero-line.
+
+74
+00:05:43,090 --> 00:05:49,610
+As most of the oscillators, the rate of change
+works well in a trending scenario.
+
+75
+00:05:49,610 --> 00:05:53,390
+The first step is to determine the prevailing
+trend on the market.
+
+76
+00:05:53,390 --> 00:05:58,360
+You can use the classic moving averages (50,
+100 or 200).
+
+77
+00:05:58,360 --> 00:06:02,970
+In this example I opted for a 50-period simple
+moving average
+
+78
+00:06:02,970 --> 00:06:07,870
+When the price trades above the 50-period
+simple moving average, consider taking only
+
+79
+00:06:07,870 --> 00:06:09,510
+long entries.
+
+80
+00:06:09,510 --> 00:06:14,480
+And when the price trades below the 50-period
+SMA search for short entries
+
+81
+00:06:14,480 --> 00:06:19,940
+Then you monitor the rate of change indicator
+and take the zero line crossovers only in
+
+82
+00:06:19,940 --> 00:06:23,720
+confirmation with the 50-period moving average.
+
+83
+00:06:23,720 --> 00:06:28,620
+Consider exiting your position when the slope
+of the rate of change turns in the opposite
+
+84
+00:06:28,620 --> 00:06:30,340
+direction.
+
+85
+00:06:30,340 --> 00:06:52,220
+Here are some examples of zero line crossovers
+confirmed by the moving average.
+
+86
+00:06:52,220 --> 00:06:57,150
+The second strategy involves using the ROC
+for divergences
+
+87
+00:06:57,150 --> 00:07:02,140
+The concept of divergence is the same, whether
+you are using the Relative Strength Index
+
+88
+00:07:02,140 --> 00:07:05,520
+(RSI), the Stochastics or the Price rate of
+change.
+
+89
+00:07:05,520 --> 00:07:08,820
+A divergence is common to all oscillators.
+
+90
+00:07:08,820 --> 00:07:14,800
+When the oscillator forms a fresh low but
+price does not, or when price forms a high
+
+91
+00:07:14,800 --> 00:07:20,920
+but the oscillator does not, it can indicate
+a possible divergence and signals a correction.
+
+92
+00:07:20,920 --> 00:07:26,340
+Using this knowledge, you can apply the price
+rate of change and look for divergences with
+
+93
+00:07:26,340 --> 00:07:27,340
+price.
+
+94
+00:07:27,340 --> 00:07:32,960
+So a divergence occurs when the price of a
+stock or another asset moves in one direction
+
+95
+00:07:32,960 --> 00:07:37,440
+while its ROC moves in the opposite direction.
+
+96
+00:07:37,440 --> 00:07:44,300
+For example, if a stock's price is rising
+over a period of time while the ROC is progressively
+
+97
+00:07:44,300 --> 00:07:51,050
+moving lower, then the ROC is indicating bearish
+divergence from price, which signals a possible
+
+98
+00:07:51,050 --> 00:07:53,810
+trend change to the downside.
+
+99
+00:07:53,810 --> 00:08:00,040
+The same concept applies if the price is moving
+down and ROC is moving higher.
+
+100
+00:08:00,040 --> 00:08:03,880
+This could signal a price move to the upside.
+
+101
+00:08:03,880 --> 00:08:09,810
+A divergence is a leading signal but could
+prove to be a notoriously poor timing signal
+
+102
+00:08:09,810 --> 00:08:15,960
+since a divergence can last a long time and
+won't always result in a price reversal.
+
+103
+00:08:15,960 --> 00:08:20,120
+Timing a divergence is maybe even more important
+than spotting the pattern.
+
+104
+00:08:20,120 --> 00:08:24,220
+This example shows the ROC indicator posting
+a long term divergence.
+
+105
+00:08:24,220 --> 00:08:30,520
+There are several peaks for the ROC reading,
+and all of them would have given wrong trading
+
+106
+00:08:30,520 --> 00:08:31,960
+signals.
+
+107
+00:08:31,960 --> 00:08:37,490
+One method to time the divergence and filter
+the bad signals is to wait for a trend line
+
+108
+00:08:37,490 --> 00:08:39,580
+breakout on the chart.
+
+109
+00:08:39,580 --> 00:08:44,360
+Also, you could wait for the price rate of
+change to cross below zero level.
+
+110
+00:08:44,360 --> 00:08:50,200
+In this example, we can see an instance of
+divergence that is forming.
+
+111
+00:08:50,200 --> 00:08:56,250
+Here, price posted a lower low, but the ROC
+oscillator posted a higher low.
+
+112
+00:08:56,250 --> 00:09:02,180
+This divergence, known as bullish divergence
+can be used in two ways.
+
+113
+00:09:02,180 --> 00:09:08,980
+You can go long on the market after this trend
+line breakout and after the ROC indicator
+
+114
+00:09:08,980 --> 00:09:14,100
+crosses above 0, indicating a bullish momentum.
+
+115
+00:09:14,100 --> 00:09:19,380
+The third approach involves Overbought and
+Oversold Conditions
+
+116
+00:09:19,380 --> 00:09:24,830
+These levels are not fixed, but will vary
+depending on the market being traded.
+
+117
+00:09:24,830 --> 00:09:30,630
+Traders look to see what ROC values resulted
+in price reversals in the past.
+
+118
+00:09:30,630 --> 00:09:35,700
+They try to find both positive and negative
+values where the price reversed with some
+
+119
+00:09:35,700 --> 00:09:37,880
+regularity in the past.
+
+120
+00:09:37,880 --> 00:09:43,650
+When the ROC reaches these extreme readings
+again, they will watch for the price to start
+
+121
+00:09:43,650 --> 00:09:46,580
+reversing to confirm the ROC signal.
+
+122
+00:09:46,580 --> 00:09:51,000
+Honestly, I don’t like this approach at
+all.
+
+123
+00:09:51,000 --> 00:09:56,580
+This strategy might work in a non-trending
+market, but during strong trends traders often
+
+124
+00:09:56,580 --> 00:10:01,070
+get false signals, as shown in this example.
+
+125
+00:10:01,070 --> 00:10:07,250
+As I said before, the ROC show readings at
+extreme values, but it has no boundaries.
+
+126
+00:10:07,250 --> 00:10:14,560
+In a very strong uptrend the ROC oscillator
+could show readings outside the usual range
+
+127
+00:10:14,560 --> 00:10:17,190
+within a specific time period.
+
+128
+00:10:17,190 --> 00:10:22,810
+These overbought or oversold extremes could
+be monitored as they could indicate a trend
+
+129
+00:10:22,810 --> 00:10:26,350
+reversal, but these extreme values are highly
+subjective.
+
+130
+00:10:26,350 --> 00:10:33,680
+So, I wouldn’t concentrate my attention
+on overbought or oversold levels.
+
+131
+00:10:33,680 --> 00:10:39,990
+Another potential problem with using the ROC
+indicator is that its calculation gives equal
+
+132
+00:10:39,990 --> 00:10:45,450
+weight to the most recent price and the price
+formed a number of periods ago, despite the
+
+133
+00:10:45,450 --> 00:10:52,210
+fact that some traders consider more recent
+price action to be of more importance in determining
+
+134
+00:10:52,210 --> 00:10:54,750
+likely future price movements.
+
+135
+00:10:54,750 --> 00:10:58,420
+This can result in multiple false signals
+for trend trades.
+
+136
+00:10:58,420 --> 00:11:03,930
+That’s why it’s important to keep an eye
+on the price action, on recent market swings
+
+137
+00:11:03,930 --> 00:11:09,190
+and always look at the big picture, on multiple
+time frames, to increase you odds of trading
+
+138
+00:11:09,190 --> 00:11:11,990
+in the right direction.
+
+139
+00:11:11,990 --> 00:11:16,690
+As always, if you learned something new and
+found value, leave us a like to show your
+
+140
+00:11:16,690 --> 00:11:21,370
+support, subscribe to our channel and hit
+the bell icon to stay notified when we upload
+
+141
+00:11:21,370 --> 00:11:23,040
+new videos.
+
+142
+00:11:23,040 --> 00:11:23,790
+Until next time.
+

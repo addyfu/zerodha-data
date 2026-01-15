@@ -1,0 +1,609 @@
+1
+00:00:01,110 --> 00:00:06,390
+When a market makes a strong move on volume,
+this means that the price movement is confirmed
+
+2
+00:00:06,390 --> 00:00:08,660
+by a simultaneous rise in volume.
+
+3
+00:00:08,660 --> 00:00:10,900
+So volume means strength.
+
+4
+00:00:10,900 --> 00:00:15,790
+Volume must increase as the trend develops,
+whether it is a bull or bear market.
+
+5
+00:00:15,790 --> 00:00:21,830
+But what if you combine a moving average and
+the volume in order read the market momentum
+
+6
+00:00:21,830 --> 00:00:24,110
+or to analyze a breakout strength.
+
+7
+00:00:24,110 --> 00:00:28,050
+Would this tool help you make better decisions
+when trading or investing?
+
+8
+00:00:28,050 --> 00:00:32,910
+Sure it can, and this tool is called volume
+weighted moving average.
+
+9
+00:00:32,910 --> 00:00:37,220
+So today we’ll talk about the volume weighted
+moving average, you’ll learn the importance
+
+10
+00:00:37,220 --> 00:00:41,570
+of using it and I’ll show you how to use
+it in a trading strategy.
+
+11
+00:00:41,570 --> 00:00:47,140
+Before we continue, if you are new to my channel,
+make sure you subscribe, turn on the notifications
+
+12
+00:00:47,140 --> 00:00:51,590
+and leave a like to show your support.
+
+13
+00:00:51,590 --> 00:00:56,630
+The volume weighted moving average is a moving
+average indicator which includes volume in
+
+14
+00:00:56,630 --> 00:00:58,239
+its calculation.
+
+15
+00:00:58,239 --> 00:01:04,400
+This moving average places more importance
+on the closing prices which had a higher volume.
+
+16
+00:01:04,400 --> 00:01:10,409
+It incorporates not only the last number of
+periods of price into its calculation but
+
+17
+00:01:10,409 --> 00:01:13,520
+also the average volume during those periods.
+
+18
+00:01:13,520 --> 00:01:19,160
+The volume-weighted moving average (VWMA)
+emphasizes volume by weighting prices based
+
+19
+00:01:19,160 --> 00:01:23,380
+on the amount of trading activity in a given
+period of time.
+
+20
+00:01:23,380 --> 00:01:29,660
+Prices with heavy trading activity get more
+weight than prices with light trading activity.
+
+21
+00:01:29,660 --> 00:01:34,190
+This is very important information because
+you can make better decisions when you add
+
+22
+00:01:34,190 --> 00:01:37,890
+volume into your trading strategy.
+
+23
+00:01:37,890 --> 00:01:42,340
+You could read the volume weighted moving
+average in a similar manner to other moving
+
+24
+00:01:42,340 --> 00:01:43,340
+averages.
+
+25
+00:01:43,340 --> 00:01:48,049
+Its main use, however, arises when it is used
+in conjunction with a SMA.
+
+26
+00:01:48,049 --> 00:01:55,540
+So, let’s analyze a chart with a 50 SMA
+and a 50 volume weighted moving average.
+
+27
+00:01:55,540 --> 00:01:59,829
+At a first glance, you will see that they
+pretty much follow the same trajectory.
+
+28
+00:01:59,829 --> 00:02:06,729
+However, on further analysis, you will notice
+the averages don’t mirror each other exactly.
+
+29
+00:02:06,729 --> 00:02:12,130
+The reason for this, as I previously said,
+is because the volume weighted ma emphasizes
+
+30
+00:02:12,130 --> 00:02:18,910
+volume, while the SMA only factors the average
+of the closing price per period.
+
+31
+00:02:18,910 --> 00:02:24,480
+So, if you pay attention at the volume at
+the bottom of the screen you will notice that
+
+32
+00:02:24,480 --> 00:02:30,090
+when we have a big volume candlestick, the
+volume weighted moving average starts moving
+
+33
+00:02:30,090 --> 00:02:33,700
+away from the trajectory of the simple moving
+average.
+
+34
+00:02:33,700 --> 00:02:39,290
+Then, when we have lower market volumes, the
+simple moving average and the volume weighted
+
+35
+00:02:39,290 --> 00:02:42,800
+moving average are very close in value.
+
+36
+00:02:42,800 --> 00:02:49,170
+When the volume is stronger, the volume weighted
+moving average will follow price more closely,
+
+37
+00:02:49,170 --> 00:02:55,599
+and when volume decreases, it will mimic a
+simple moving average.
+
+38
+00:02:55,599 --> 00:03:01,709
+When the 50 volume weighted moving average
+is between price and the 50 simple moving
+
+39
+00:03:01,709 --> 00:03:06,660
+average SMA(50), then volume confirms we are
+trending in that direction.
+
+40
+00:03:06,660 --> 00:03:07,750
+Look at this example.
+
+41
+00:03:07,750 --> 00:03:14,150
+At the exact moment of the breakout, the volume
+weighted moving average was well above the
+
+42
+00:03:14,150 --> 00:03:20,319
+SMA already, showing us that volume confirms
+the uptrend.
+
+43
+00:03:20,319 --> 00:03:26,260
+The retrace even bounced off from the volume
+weighted moving average instead of the SMA
+
+44
+00:03:26,260 --> 00:03:28,360
+as support.
+
+45
+00:03:28,360 --> 00:03:32,209
+So, how do you read the volume weighted moving
+average?
+
+46
+00:03:32,209 --> 00:03:39,250
+A volume weighted ma moving below an simple
+moving average indicates bearish conditions.
+
+47
+00:03:39,250 --> 00:03:45,379
+So, if the volume weighted moving average
+crosses below the simple moving average, this
+
+48
+00:03:45,379 --> 00:03:49,210
+implies that a bearish move is on the horizon.
+
+49
+00:03:49,210 --> 00:03:53,500
+This could lead to a weakening in the bullish
+trend or a possible reversal.
+
+50
+00:03:53,500 --> 00:04:00,980
+If the price is able to break through both
+the volume weighted ma and the SMA a bearish
+
+51
+00:04:00,980 --> 00:04:05,819
+trend is confirmed and you can start searching
+for short positions.
+
+52
+00:04:05,819 --> 00:04:12,730
+A volume weighted ma above an SMA indicates
+bullish conditions.
+
+53
+00:04:12,730 --> 00:04:18,629
+So, if the volume weighted moving average
+moves above the simple moving average, a bullish
+
+54
+00:04:18,629 --> 00:04:21,529
+trend change is likely.
+
+55
+00:04:21,529 --> 00:04:28,819
+Once the price is able to break both the volume
+weighted ma and the SMA to the upside, you
+
+56
+00:04:28,819 --> 00:04:34,500
+can start searching for long opportunities.
+
+57
+00:04:34,500 --> 00:04:41,569
+Separation between a volume weighted ma and
+the simple ma indicates a trending market.
+
+58
+00:04:41,569 --> 00:04:47,009
+In other words, if the volume weighted moving
+average is between the chart and the simple
+
+59
+00:04:47,009 --> 00:04:50,780
+moving average, then we have a signal for
+a trending market.
+
+60
+00:04:50,780 --> 00:04:56,659
+Keep in mind that sometimes the volume weighted
+moving average will test the simple moving
+
+61
+00:04:56,659 --> 00:05:02,960
+average as a support and resistance, depending
+on the primary direction of the traded instrument.
+
+62
+00:05:02,960 --> 00:05:06,919
+These tests can be considered as potential
+trend reversals.
+
+63
+00:05:06,919 --> 00:05:12,879
+It doesn’t mean that the market will reverse,
+it may continue its direction, like in this
+
+64
+00:05:12,879 --> 00:05:18,979
+example, you just have to pay attention to
+possible turning points.
+
+65
+00:05:18,979 --> 00:05:24,240
+Both moving averages closer together might
+suggest an exit point.
+
+66
+00:05:24,240 --> 00:05:27,710
+This signal is pretty much the opposite of
+the previous one.
+
+67
+00:05:27,710 --> 00:05:31,240
+You look for a contrary signal to the primary
+trend.
+
+68
+00:05:31,240 --> 00:05:37,369
+For example, you have taken a long position
+and you notice no separation between the volume
+
+69
+00:05:37,369 --> 00:05:41,089
+weighted ma and the simple ma.
+
+70
+00:05:41,089 --> 00:05:46,210
+This is the moment where you might want to
+consider exiting the market and to collecting
+
+71
+00:05:46,210 --> 00:05:47,439
+your profits.
+
+72
+00:05:47,439 --> 00:05:53,830
+Now, let’s see how you could use the volume
+weighted ma by its own, without the simple
+
+73
+00:05:53,830 --> 00:05:59,250
+ma
+First, to identify and confirm market trend
+
+74
+00:05:59,250 --> 00:06:03,889
+If you want to trade in the direction of the
+prevailing trend on the market, a volume weighted
+
+75
+00:06:03,889 --> 00:06:06,659
+ma can offer some important clues.
+
+76
+00:06:06,659 --> 00:06:11,849
+However, don’t forget that a moving average
+is a lagging indicator, so it doesn’t predict
+
+77
+00:06:11,849 --> 00:06:16,789
+new trends, just confirms the market trends
+once they have been developed.
+
+78
+00:06:16,789 --> 00:06:20,230
+So how you find and confirm trends with the
+volume weighted ma:
+
+79
+00:06:20,230 --> 00:06:27,149
+A possible uptrend is when the price is above
+a moving average and the slope of the moving
+
+80
+00:06:27,149 --> 00:06:32,279
+average is upward
+A possible downtrend is when the price is
+
+81
+00:06:32,279 --> 00:06:37,009
+below the moving average and its slope is
+downward
+
+82
+00:06:37,009 --> 00:06:41,800
+The slope of volume weighted ma is simply
+the direction of the moving average plotted
+
+83
+00:06:41,800 --> 00:06:44,589
+on the chart.
+
+84
+00:06:44,589 --> 00:06:49,679
+Another way to trade using volume weighted
+moving averages is to look at them as dynamic
+
+85
+00:06:49,679 --> 00:06:51,020
+support and resistance.
+
+86
+00:06:51,020 --> 00:06:57,370
+They are referred to as dynamic because they
+are not like the traditional support and resistance
+
+87
+00:06:57,370 --> 00:06:59,430
+lines on the chart.
+
+88
+00:06:59,430 --> 00:07:02,229
+They tend to change as price changes.
+
+89
+00:07:02,229 --> 00:07:07,979
+Being so common and followed by so many people,
+we can often see on charts that the price
+
+90
+00:07:07,979 --> 00:07:14,330
+often stalls or bounces when hitting popular
+moving averages.
+
+91
+00:07:14,330 --> 00:07:19,199
+Although volume weighted moving averages are
+not like the normal support and resistance,
+
+92
+00:07:19,199 --> 00:07:21,990
+they tend to behave the same way.
+
+93
+00:07:21,990 --> 00:07:27,360
+As price stays below the volume weighted moving
+average several times, it shows high selling
+
+94
+00:07:27,360 --> 00:07:29,550
+pressure in the market.
+
+95
+00:07:29,550 --> 00:07:34,789
+As the price finds it hard to break through,
+it means that the sellers are stronger than
+
+96
+00:07:34,789 --> 00:07:36,249
+buyers.
+
+97
+00:07:36,249 --> 00:07:41,869
+The volume weighted moving average above the
+price becomes a resistance and price is likely
+
+98
+00:07:41,869 --> 00:07:45,680
+to bounce back offering short opportunities.
+
+99
+00:07:45,680 --> 00:07:52,099
+Likewise when price stays above at the volume
+weighted moving average, it becomes a support
+
+100
+00:07:52,099 --> 00:07:59,199
+and therefore is likely to bounce back, offering
+buy opportunities.
+
+101
+00:07:59,199 --> 00:08:04,949
+Like any other support and resistance level,
+price cannot hold forever, and sometimes these
+
+102
+00:08:04,949 --> 00:08:08,860
+levels are violated and price breaks through.
+
+103
+00:08:08,860 --> 00:08:13,699
+You can also take advantage of a strong break
+below or above the volume weighted moving
+
+104
+00:08:13,699 --> 00:08:15,280
+average to trade a breakout.
+
+105
+00:08:15,280 --> 00:08:21,949
+A classic way to trade a break out is to wait
+for a price retest after the break, to avoid
+
+106
+00:08:21,949 --> 00:08:23,460
+a fake out.
+
+107
+00:08:23,460 --> 00:08:29,479
+Another strategy for overcoming the problem
+with false signals is to wait a certain number
+
+108
+00:08:29,479 --> 00:08:34,719
+of candles after the moving average line has
+been crossed by the price before you enter
+
+109
+00:08:34,719 --> 00:08:35,780
+your trade.
+
+110
+00:08:35,780 --> 00:08:42,099
+This way, you filter out a lot of the choppy
+price movements during times when the market
+
+111
+00:08:42,099 --> 00:08:45,680
+is not showing any clear direction.
+
+112
+00:08:45,680 --> 00:08:50,740
+Volume weighted moving average helps a lot
+to smooth out price action.
+
+113
+00:08:50,740 --> 00:08:56,190
+What you need to know is that the longer the
+moving average, the smother it becomes and
+
+114
+00:08:56,190 --> 00:09:00,220
+the slower it gets to reacting to price movements.
+
+115
+00:09:00,220 --> 00:09:07,130
+Also, the shorter the moving average the choppier
+it gets and the quicker it reacts to price
+
+116
+00:09:07,130 --> 00:09:08,130
+movements.
+
+117
+00:09:08,130 --> 00:09:13,240
+In a fast-moving trend, you will want to use
+a faster moving average, in a slow-moving
+
+118
+00:09:13,240 --> 00:09:18,019
+trend, a slower moving average sometimes works
+better.
+
+119
+00:09:18,019 --> 00:09:22,550
+You can set the length of the moving average
+to suit your trading style.
+
+120
+00:09:22,550 --> 00:09:28,140
+Just remember that prices with heavy trading
+activity get more weight than prices with
+
+121
+00:09:28,140 --> 00:09:31,830
+light trading activity.
+
+122
+00:09:31,830 --> 00:09:37,269
+The volume weighted moving average is suited
+to trend following strategies, because this
+
+123
+00:09:37,269 --> 00:09:41,120
+indicator performs best in trending markets.
+
+124
+00:09:41,120 --> 00:09:46,620
+You can also use the volume weighted moving
+in combination with other signals and techniques,
+
+125
+00:09:46,620 --> 00:09:50,180
+to get a more comprehensive analysis of the
+market.
+
+126
+00:09:50,180 --> 00:09:56,040
+Now, if you got value from this this video
+or learned something new, make sure you subscribe,
+
+127
+00:09:56,040 --> 00:10:00,889
+turn on the notifications so you don’t miss
+future uploads and leave us a like to show
+
+128
+00:10:00,889 --> 00:10:02,610
+your support.
+
+129
+00:10:02,610 --> 00:10:03,189
+Until next time.
+

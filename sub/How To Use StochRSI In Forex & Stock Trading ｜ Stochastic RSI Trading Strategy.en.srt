@@ -1,0 +1,616 @@
+1
+00:00:01,280 --> 00:00:05,960
+hey guys in this video I will show you
+
+2
+00:00:03,760 --> 00:00:09,679
+the correct way of using the stochastic
+
+3
+00:00:05,960 --> 00:00:12,679
+RSI indicator for day trading and swing
+
+4
+00:00:09,679 --> 00:00:15,679
+trading the stochastic RSI is one of my
+
+5
+00:00:12,679 --> 00:00:17,520
+favorite indicators because it combines
+
+6
+00:00:15,679 --> 00:00:19,720
+the features of the stochastic
+
+7
+00:00:17,520 --> 00:00:22,480
+oscillator and the relative strength
+
+8
+00:00:19,720 --> 00:00:25,359
+index the indicator increases the
+
+9
+00:00:22,480 --> 00:00:28,519
+sensitivity and the reliability of the
+
+10
+00:00:25,359 --> 00:00:31,720
+regular RSI indicator as it applies the
+
+11
+00:00:28,519 --> 00:00:34,559
+stochastic formula to the RSI values
+
+12
+00:00:31,720 --> 00:00:37,480
+instead of the price value so the
+
+13
+00:00:34,559 --> 00:00:40,680
+stochastic RSI is basically an indicator
+
+14
+00:00:37,480 --> 00:00:43,559
+of an indicator but also meaning that
+
+15
+00:00:40,680 --> 00:00:46,160
+this is a lagging oscillator by itself
+
+16
+00:00:43,559 --> 00:00:48,800
+the stochastic RSI is not a reliable
+
+17
+00:00:46,160 --> 00:00:51,760
+indicator if you want to swing trade or
+
+18
+00:00:48,800 --> 00:00:55,160
+day trade only with this indicator it
+
+19
+00:00:51,760 --> 00:00:58,440
+will be a very hard task to find valid
+
+20
+00:00:55,160 --> 00:01:00,199
+signals now you might wonder what are
+
+21
+00:00:58,440 --> 00:01:03,920
+the differences between the stochastic
+
+22
+00:01:00,199 --> 00:01:06,400
+indicator the RSI and the stochastic RSI
+
+23
+00:01:03,920 --> 00:01:08,920
+let's look at this Bitcoin chart to see
+
+24
+00:01:06,400 --> 00:01:11,320
+if we can spot some visual differences
+
+25
+00:01:08,920 --> 00:01:14,520
+between the simple RSI the stochastic
+
+26
+00:01:11,320 --> 00:01:16,680
+and the stochastic RSI indicator from a
+
+27
+00:01:14,520 --> 00:01:19,759
+simple glance we immediately see that
+
+28
+00:01:16,680 --> 00:01:22,200
+the stochastic RSI indicator is more
+
+29
+00:01:19,759 --> 00:01:24,960
+volatile compared to the other two
+
+30
+00:01:22,200 --> 00:01:28,000
+indicators what this means is that it
+
+31
+00:01:24,960 --> 00:01:29,920
+will generate a lot of noise also we can
+
+32
+00:01:28,000 --> 00:01:32,600
+observe that the stochastic RSI just
+
+33
+00:01:29,920 --> 00:01:35,439
+generates more overbought and overs
+
+34
+00:01:32,600 --> 00:01:37,960
+signals than the simple stochastic
+
+35
+00:01:35,439 --> 00:01:40,640
+oscillator if we look closely at the
+
+36
+00:01:37,960 --> 00:01:43,439
+chart there are more false signals
+
+37
+00:01:40,640 --> 00:01:45,960
+offered by the stochastic RSI compared
+
+38
+00:01:43,439 --> 00:01:48,320
+to the other two indicators we can
+
+39
+00:01:45,960 --> 00:01:51,000
+safely say that during trending
+
+40
+00:01:48,320 --> 00:01:53,040
+conditions the stochastic RSI is not a
+
+41
+00:01:51,000 --> 00:01:55,439
+reliable indicator for spotting
+
+42
+00:01:53,040 --> 00:01:56,280
+overbought or oval Sal entry points on
+
+43
+00:01:55,439 --> 00:01:58,719
+the
+
+44
+00:01:56,280 --> 00:02:00,119
+market in what concerns Trading
+
+45
+00:01:58,719 --> 00:02:03,640
+divergencies
+
+46
+00:02:00,119 --> 00:02:05,799
+the stochastic RSI also lacks I don't
+
+47
+00:02:03,640 --> 00:02:08,520
+know about you but I can spot the
+
+48
+00:02:05,799 --> 00:02:10,959
+divergencies more clearly on the simple
+
+49
+00:02:08,520 --> 00:02:14,040
+stochastic oscillator and the
+
+50
+00:02:10,959 --> 00:02:16,959
+RSI so how do we trade with a stochastic
+
+51
+00:02:14,040 --> 00:02:20,040
+RSI first we forget about overbought and
+
+52
+00:02:16,959 --> 00:02:22,519
+overso signals as many Traders use the
+
+53
+00:02:20,040 --> 00:02:24,440
+RSI in a wrong way there is a high
+
+54
+00:02:22,519 --> 00:02:27,120
+chance that they will also use the
+
+55
+00:02:24,440 --> 00:02:29,080
+stochastic RSI in a similar manner
+
+56
+00:02:27,120 --> 00:02:31,319
+entering counter Trend positions
+
+57
+00:02:29,080 --> 00:02:34,480
+whenever the sto IC RSI indicates
+
+58
+00:02:31,319 --> 00:02:37,480
+overbought or oversold conditions will
+
+59
+00:02:34,480 --> 00:02:40,519
+only lead to losing positions being a
+
+60
+00:02:37,480 --> 00:02:42,640
+lagging indicator my advice is to forget
+
+61
+00:02:40,519 --> 00:02:45,879
+about using stochastic RSI for trading
+
+62
+00:02:42,640 --> 00:02:48,400
+overb and oversaw conditions in a non-
+
+63
+00:02:45,879 --> 00:02:51,879
+trending Market this indicator will
+
+64
+00:02:48,400 --> 00:02:53,560
+generate a lot of false signals tell me
+
+65
+00:02:51,879 --> 00:02:57,440
+do you see any clear entries on the
+
+66
+00:02:53,560 --> 00:03:00,280
+Bitcoin chart cuz I don't the smarter
+
+67
+00:02:57,440 --> 00:03:02,879
+use of the stochastic RSI is to look for
+
+68
+00:03:00,280 --> 00:03:05,640
+divergencies between the indicator and
+
+69
+00:03:02,879 --> 00:03:07,959
+the price of the traded instrument but
+
+70
+00:03:05,640 --> 00:03:11,040
+here's the trick if you want to search
+
+71
+00:03:07,959 --> 00:03:14,920
+for divergencies we only need to display
+
+72
+00:03:11,040 --> 00:03:18,560
+the d% on the chart the reason I only
+
+73
+00:03:14,920 --> 00:03:21,599
+display the d%c is simple I like Clean
+
+74
+00:03:18,560 --> 00:03:23,640
+and Clear charts and the stochastic RSI
+
+75
+00:03:21,599 --> 00:03:26,239
+could be quite
+
+76
+00:03:23,640 --> 00:03:28,799
+confusing here's another Bitcoin chart
+
+77
+00:03:26,239 --> 00:03:32,040
+with the 200 exponential moving average
+
+78
+00:03:28,799 --> 00:03:34,959
+and the Deep % of the stochastic RSI
+
+79
+00:03:32,040 --> 00:03:37,120
+added what we need to do is to search
+
+80
+00:03:34,959 --> 00:03:39,920
+for divergencies between the stochastic
+
+81
+00:03:37,120 --> 00:03:42,879
+RSI and the prise but only in the
+
+82
+00:03:39,920 --> 00:03:46,599
+direction of the main Trend indicated by
+
+83
+00:03:42,879 --> 00:03:48,879
+the exponential moving average so we
+
+84
+00:03:46,599 --> 00:03:50,959
+never take counter Trend entries when
+
+85
+00:03:48,879 --> 00:03:54,159
+trading the stochastic RSI divergencies
+
+86
+00:03:50,959 --> 00:03:57,680
+we just stick with the main trend on the
+
+87
+00:03:54,159 --> 00:04:00,400
+market in this example as we are in a
+
+88
+00:03:57,680 --> 00:04:04,519
+clear downtrend we only only look for
+
+89
+00:04:00,400 --> 00:04:07,720
+divergencies that allow us to short the
+
+90
+00:04:04,519 --> 00:04:10,920
+market here is my favorite way of using
+
+91
+00:04:07,720 --> 00:04:13,000
+the stochastic RSI what I prefer to do
+
+92
+00:04:10,920 --> 00:04:16,239
+in order to make the indicator more
+
+93
+00:04:13,000 --> 00:04:19,280
+reliable is to smooth it while using
+
+94
+00:04:16,239 --> 00:04:22,440
+longer periods for this setup to be
+
+95
+00:04:19,280 --> 00:04:26,320
+profitable I prefer to use the 100
+
+96
+00:04:22,440 --> 00:04:29,240
+period for the RSI and the 100 period
+
+97
+00:04:26,320 --> 00:04:33,320
+for the stochastic the trick here is to
+
+98
+00:04:29,240 --> 00:04:36,440
+add a 50 level and watch for bullish and
+
+99
+00:04:33,320 --> 00:04:39,600
+bearish periods remember how I said to
+
+100
+00:04:36,440 --> 00:04:42,639
+ignore the overbought and oversaw levels
+
+101
+00:04:39,600 --> 00:04:44,960
+While most Traders seek to enter counter
+
+102
+00:04:42,639 --> 00:04:47,639
+Trend positions when they see stochastic
+
+103
+00:04:44,960 --> 00:04:51,240
+RSI in overbought and oversold
+
+104
+00:04:47,639 --> 00:04:54,600
+areas I prefer to look for continuation
+
+105
+00:04:51,240 --> 00:04:57,000
+movements but that isn't enough even
+
+106
+00:04:54,600 --> 00:05:00,759
+with this setup the stochastic RSI will
+
+107
+00:04:57,000 --> 00:05:04,000
+also offer a lot of noise that's why we
+
+108
+00:05:00,759 --> 00:05:07,080
+have to adjust our entry points my
+
+109
+00:05:04,000 --> 00:05:11,720
+preference is to add a macd indicator
+
+110
+00:05:07,080 --> 00:05:15,199
+with 10 101 settings basically these
+
+111
+00:05:11,720 --> 00:05:20,280
+macd settings are tracking the crossover
+
+112
+00:05:15,199 --> 00:05:22,440
+between the 10 EMA and the 100 EMA so
+
+113
+00:05:20,280 --> 00:05:26,280
+when the stochastic RSI indicator is
+
+114
+00:05:22,440 --> 00:05:29,360
+above 50 this signals bullish pressure
+
+115
+00:05:26,280 --> 00:05:32,880
+and when the indicator is below 50 this
+
+116
+00:05:29,360 --> 00:05:35,280
+trend translates into bearish pressure I
+
+117
+00:05:32,880 --> 00:05:38,800
+prefer to confirm the entries with the
+
+118
+00:05:35,280 --> 00:05:42,479
+macd macd above zero level suggests a
+
+119
+00:05:38,800 --> 00:05:45,280
+bullish Outlook while macd below zero
+
+120
+00:05:42,479 --> 00:05:48,759
+level indicates a bearish
+
+121
+00:05:45,280 --> 00:05:51,479
+scenario the setup is simple we look for
+
+122
+00:05:48,759 --> 00:05:54,400
+Market strength with the stochastic RSI
+
+123
+00:05:51,479 --> 00:05:57,080
+and the macd
+
+124
+00:05:54,400 --> 00:06:00,240
+aligned now let's look at this down
+
+125
+00:05:57,080 --> 00:06:03,319
+Jones index chart we simply search for
+
+126
+00:06:00,240 --> 00:06:06,960
+buy entries when the stochastic RSI is
+
+127
+00:06:03,319 --> 00:06:11,560
+above its 50 level only if the macd
+
+128
+00:06:06,960 --> 00:06:14,639
+confirms the move also we aim to short
+
+129
+00:06:11,560 --> 00:06:20,599
+the market when the stochastic RSI is
+
+130
+00:06:14,639 --> 00:06:23,800
+below 50 and the macd is in negative
+
+131
+00:06:20,599 --> 00:06:27,520
+territory here's another chart this time
+
+132
+00:06:23,800 --> 00:06:30,599
+the Dex index we look for buy signals
+
+133
+00:06:27,520 --> 00:06:34,520
+when the stochastic RSI is over over 50
+
+134
+00:06:30,599 --> 00:06:37,319
+and the macd above zero and we look for
+
+135
+00:06:34,520 --> 00:06:43,120
+short opportunities when the stochastic
+
+136
+00:06:37,319 --> 00:06:46,880
+RSI is below 50 and the macd below zero
+
+137
+00:06:43,120 --> 00:06:50,080
+by using the stochastic RSI this way we
+
+138
+00:06:46,880 --> 00:06:53,120
+gain an important Advantage by looking
+
+139
+00:06:50,080 --> 00:06:56,879
+differently at this indicator we don't
+
+140
+00:06:53,120 --> 00:06:59,639
+trade overbought and oversold levels and
+
+141
+00:06:56,879 --> 00:07:02,639
+we don't chase tops and bottoms as much
+
+142
+00:06:59,639 --> 00:07:04,039
+most Traders do we are searching for
+
+143
+00:07:02,639 --> 00:07:07,560
+Market
+
+144
+00:07:04,039 --> 00:07:09,160
+strength as I was saying before when day
+
+145
+00:07:07,560 --> 00:07:12,400
+trading or swing trading with a
+
+146
+00:07:09,160 --> 00:07:14,319
+stochastic RSI we must use it in
+
+147
+00:07:12,400 --> 00:07:17,680
+conjunction with other technical
+
+148
+00:07:14,319 --> 00:07:19,960
+indicators or chart patterns in order to
+
+149
+00:07:17,680 --> 00:07:22,240
+maximize its
+
+150
+00:07:19,960 --> 00:07:24,520
+Effectiveness if you got any value from
+
+151
+00:07:22,240 --> 00:07:27,599
+this please consider subscribing to our
+
+152
+00:07:24,520 --> 00:07:30,280
+Channel and leave us a like as it will
+
+153
+00:07:27,599 --> 00:07:33,520
+help us massively in the future until
+
+154
+00:07:30,280 --> 00:07:33,520
+next time
+

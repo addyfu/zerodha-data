@@ -1,0 +1,723 @@
+1
+00:00:01,180 --> 00:00:05,600
+Support and resistance levels and supply and
+demand zones are two trading concepts which
+
+2
+00:00:05,600 --> 00:00:07,669
+are closely related to one another.
+
+3
+00:00:07,669 --> 00:00:11,710
+They each define points in the market where
+the price is likely to reverse.
+
+4
+00:00:11,710 --> 00:00:15,900
+The main difference between the two, is that
+supply and demand areas have a zone which
+
+5
+00:00:15,900 --> 00:00:20,820
+you can use to look for entries, and support
+and resistance levels are simply lines which
+
+6
+00:00:20,820 --> 00:00:22,210
+you can monitor for entries.
+
+7
+00:00:22,210 --> 00:00:27,220
+In today’s video I will share an effective
+swing trading strategy and I will show you
+
+8
+00:00:27,220 --> 00:00:34,440
+how I combine both trading concepts to time
+the markets and find high probability signals.
+
+9
+00:00:34,440 --> 00:00:38,780
+Many traders think there aren’t many differences
+between supply and demand zones and support
+
+10
+00:00:38,780 --> 00:00:43,170
+and resistance levels, but in reality there
+are actually quite significant, because having
+
+11
+00:00:43,170 --> 00:00:47,550
+a zone you can use to watch for entries is
+much easier than having a line.
+
+12
+00:00:47,550 --> 00:00:52,140
+That, coupled with the fact that supply and
+demand zones form less frequently than support
+
+13
+00:00:52,140 --> 00:00:56,969
+and resistance levels, means that it’s easier
+to trade reversals from supply and demand
+
+14
+00:00:56,969 --> 00:00:59,640
+zones than it is from support and resistance
+levels.
+
+15
+00:00:59,640 --> 00:01:03,390
+And this is why the strategy of combining
+both concepts work.
+
+16
+00:01:03,390 --> 00:01:08,100
+The aim here is to combine the preciseness
+of support and resistance levels with the
+
+17
+00:01:08,100 --> 00:01:10,450
+area aspect of supply and demand.
+
+18
+00:01:10,450 --> 00:01:16,350
+In this way, we will be able to pinpoint entries
+into supply and demand zones.
+
+19
+00:01:16,350 --> 00:01:20,610
+The main problem with trading support and
+resistance levels alone is the fact that the
+
+20
+00:01:20,610 --> 00:01:23,470
+market will often fail to turn exactly on
+the level itself.
+
+21
+00:01:23,470 --> 00:01:25,630
+Tell me if this sound familiar.
+
+22
+00:01:25,630 --> 00:01:31,170
+A lot of the time, price will either move
+slightly beyond the level before reversing,
+
+23
+00:01:31,170 --> 00:01:34,240
+or will reverse before touching the level.
+
+24
+00:01:34,240 --> 00:01:39,880
+This can make trading support and resistance
+levels quite a frustrating experience.
+
+25
+00:01:39,880 --> 00:01:43,900
+You almost never have this problem when trading
+supply and demand zones.
+
+26
+00:01:43,900 --> 00:01:48,150
+The reason why is because the zones give you
+an area in which you know the market should
+
+27
+00:01:48,150 --> 00:01:49,150
+reverse in.
+
+28
+00:01:49,150 --> 00:01:54,030
+You don’t really have to worry about a reversal
+signal forming at an exact point, like you
+
+29
+00:01:54,030 --> 00:01:58,450
+do when trading support and resistance levels,
+because you’ve got a whole zone you can
+
+30
+00:01:58,450 --> 00:02:00,400
+use to watch for entries into trades.
+
+31
+00:02:00,400 --> 00:02:05,030
+You know that no matter where the reversal
+signal ends up forming, as long as it’s
+
+32
+00:02:05,030 --> 00:02:09,709
+found to be somewhere inside the supply or
+demand zone, it’s a sign a reversal could
+
+33
+00:02:09,709 --> 00:02:12,180
+be taking place.
+
+34
+00:02:12,180 --> 00:02:16,739
+Determining where support and resistance lines
+are located is quite a simple process.
+
+35
+00:02:16,739 --> 00:02:20,560
+For those of you who don’t know, support
+and resistance lines are points where the
+
+36
+00:02:20,560 --> 00:02:23,139
+market has a high probability of reversing.
+
+37
+00:02:23,139 --> 00:02:27,250
+The reason they have a high chance of causing
+the market to reverse, is because the lines
+
+38
+00:02:27,250 --> 00:02:31,230
+are derived from the points where the market
+has reversed in the past.
+
+39
+00:02:31,230 --> 00:02:36,069
+The idea is if the market has reversed multiple
+times from roughly the same point in the past,
+
+40
+00:02:36,069 --> 00:02:39,719
+then it has a good chance of doing the same
+in the future.
+
+41
+00:02:39,719 --> 00:02:43,999
+This means all we need to do to identify where
+support and resistance lines are located in
+
+42
+00:02:43,999 --> 00:02:49,469
+the market, is look for the points where multiple
+reversals originated from similar prices to
+
+43
+00:02:49,469 --> 00:02:50,609
+one another.
+
+44
+00:02:50,609 --> 00:02:55,689
+Here’s an example with multiple reversals
+which took place.
+
+45
+00:02:55,689 --> 00:03:01,370
+You can see that each of the reversals originated
+from prices which are quite close to one another.
+
+46
+00:03:01,370 --> 00:03:06,599
+This tells us that a resistance line must
+be found somewhere close to where these reversals
+
+47
+00:03:06,599 --> 00:03:07,599
+started.
+
+48
+00:03:07,599 --> 00:03:10,059
+And here are other multiple reversals.
+
+49
+00:03:10,059 --> 00:03:15,889
+Again, each one of the reversals you see here
+started from similar prices, which means there’s
+
+50
+00:03:15,889 --> 00:03:18,370
+a support line around here.
+
+51
+00:03:18,370 --> 00:03:23,839
+Now, because this is a swing trading approach,
+meaning the lowest time frame I would analyze
+
+52
+00:03:23,839 --> 00:03:29,010
+the market is the one hour chart, I look for
+the big round numbers which are closest to
+
+53
+00:03:29,010 --> 00:03:33,530
+the lines I marked through the reversals which
+took place at similar prices.
+
+54
+00:03:33,530 --> 00:03:37,629
+The reason why support and resistance lines
+are always found to be at big round number
+
+55
+00:03:37,629 --> 00:03:42,370
+levels is because of a phenomenon called order
+clustering.
+
+56
+00:03:42,370 --> 00:03:48,229
+Order clustering is where orders will accumulate
+around round number levels in the market.
+
+57
+00:03:48,229 --> 00:03:53,359
+So, in the first step of our strategy, you
+have to identify the support and resistance
+
+58
+00:03:53,359 --> 00:03:57,609
+lines by marking the points where multiple
+reversals occurred on your chart.
+
+59
+00:03:57,609 --> 00:04:03,879
+Then you have to mark the round numbers, which
+are found closest to these reversals, and
+
+60
+00:04:03,879 --> 00:04:10,499
+finally, you have to move the lines so they
+sit on top of the round number prices.
+
+61
+00:04:10,499 --> 00:04:14,930
+Here you can see what the chart looks like
+once I’ve adjusted the reversals lines to
+
+62
+00:04:14,930 --> 00:04:16,669
+go through the round numbers.
+
+63
+00:04:16,669 --> 00:04:20,909
+These lines are now the correct support and
+resistance lines you will use to look for
+
+64
+00:04:20,909 --> 00:04:26,909
+entries into buy trades if the market returns
+to the lines in the future.
+
+65
+00:04:26,909 --> 00:04:31,050
+The second step consists in drawing supply
+and demand zones.
+
+66
+00:04:31,050 --> 00:04:36,080
+Supply zones can be located by looking for
+a major drop away from either a single candle
+
+67
+00:04:36,080 --> 00:04:38,610
+or small consolidation structure.
+
+68
+00:04:38,610 --> 00:04:43,560
+You mark the supply zone from the open of
+last BULLISH candle before the drop and the
+
+69
+00:04:43,560 --> 00:04:47,680
+most recent high before the drop.
+
+70
+00:04:47,680 --> 00:04:51,879
+Demand zones are found when the market makes
+a large move up from a single candle or a
+
+71
+00:04:51,879 --> 00:04:53,120
+consolidation structure.
+
+72
+00:04:53,120 --> 00:04:58,530
+You mark the demand zone from the open of
+last BEARISH candle before the drop and the
+
+73
+00:04:58,530 --> 00:05:01,550
+most recent low before the up move.
+
+74
+00:05:01,550 --> 00:05:05,389
+If you want more details about supply and
+demand zones, make sure you watch this video
+
+75
+00:05:05,389 --> 00:05:07,469
+first.
+
+76
+00:05:07,469 --> 00:05:10,620
+Third step is to identify confluence areas.
+
+77
+00:05:10,620 --> 00:05:14,759
+If you combine support and resistance levels
+with supply and demand zones you can get the
+
+78
+00:05:14,759 --> 00:05:16,800
+best of both worlds.
+
+79
+00:05:16,800 --> 00:05:21,240
+You can eliminate the issue not knowing if
+the market failing to touch the level or just
+
+80
+00:05:21,240 --> 00:05:26,580
+moving beyond the level is still a reversal
+signal, whilst also having a better idea of
+
+81
+00:05:26,580 --> 00:05:30,870
+where a reversal out of the supply or demand
+zone is likely to take place from.
+
+82
+00:05:30,870 --> 00:05:36,630
+Here’s an example of a demand zone which
+caused a reversal to take place.
+
+83
+00:05:36,630 --> 00:05:41,439
+The lines you see here are all the support
+and resistance levels which had formed inside
+
+84
+00:05:41,439 --> 00:05:43,210
+the demand zone.
+
+85
+00:05:43,210 --> 00:05:47,960
+The market reversed out of the zone after
+hitting the lower support level found at this
+
+86
+00:05:47,960 --> 00:05:49,530
+round number.
+
+87
+00:05:49,530 --> 00:05:52,830
+Here’s another demand zone.
+
+88
+00:05:52,830 --> 00:05:57,520
+This zone also contained three support levels
+which had the potential to cause the market
+
+89
+00:05:57,520 --> 00:06:00,069
+to reverse once it entered the zone.
+
+90
+00:06:00,069 --> 00:06:04,599
+In real time, you wouldn’t know which of
+these levels the market was going to reverse
+
+91
+00:06:04,599 --> 00:06:09,419
+at before the price dropped into it, you would
+just know that it’s almost certain for it
+
+92
+00:06:09,419 --> 00:06:12,100
+to reverse at one of these levels.
+
+93
+00:06:12,100 --> 00:06:17,449
+In this instance it ended up turning once
+it hit the support level found at this round
+
+94
+00:06:17,449 --> 00:06:18,990
+number price.
+
+95
+00:06:18,990 --> 00:06:24,310
+If we go onto the 15 minute chart you can
+see that when the market hit the support level
+
+96
+00:06:24,310 --> 00:06:28,190
+a couple of bullish engulfing candles began
+to form.
+
+97
+00:06:28,190 --> 00:06:32,389
+You could have used these engulfing candles
+to get a buy trade placed to take advantage
+
+98
+00:06:32,389 --> 00:06:37,330
+of the reversal, knowing that any reversal
+out of the demand zone is likely to begin
+
+99
+00:06:37,330 --> 00:06:41,520
+once the market has hit one of the support
+levels inside the zone.
+
+100
+00:06:41,520 --> 00:06:46,280
+How To Trade Support And Resistance Levels
+Inside Supply And Demand Zones
+
+101
+00:06:46,280 --> 00:06:51,509
+Like I said, the reality is that that you
+don’t know which support or resistance level
+
+102
+00:06:51,509 --> 00:06:56,520
+inside the zone is going to cause the market
+to reverse, and this means that you can’t
+
+103
+00:06:56,520 --> 00:06:59,270
+really use a pending order to enter a trade.
+
+104
+00:06:59,270 --> 00:07:04,409
+The only other option is to watch for a price
+action signal to form when the market hits
+
+105
+00:07:04,409 --> 00:07:06,830
+one of the support or resistance levels.
+
+106
+00:07:06,830 --> 00:07:11,919
+Now, once you’ve got the support and resistance
+levels and supply and demand zones marked
+
+107
+00:07:11,919 --> 00:07:15,999
+correctly, you need to begin watching the
+levels for potential entries.
+
+108
+00:07:15,999 --> 00:07:21,129
+The best way of doing this is to switch to
+a lower time-frame and monitor the price action
+
+109
+00:07:21,129 --> 00:07:27,270
+that forms when the market starts to encounter
+each of the levels inside the zone.
+
+110
+00:07:27,270 --> 00:07:32,180
+This example shows the price structure which
+formed on the 15 minute chart when the market
+
+111
+00:07:32,180 --> 00:07:35,939
+hit each support level found inside the demand
+zone.
+
+112
+00:07:35,939 --> 00:07:40,719
+You can see that when the market hit the first
+support level a bullish engulfing candle formed
+
+113
+00:07:40,719 --> 00:07:44,060
+and caused a slight move higher to take place.
+
+114
+00:07:44,060 --> 00:07:48,320
+This move ended up failing and caused the
+market to fall down to the other support level
+
+115
+00:07:48,320 --> 00:07:50,150
+found below.
+
+116
+00:07:50,150 --> 00:07:54,889
+The second support level caused another engulfing
+candle to form and pushed the market above
+
+117
+00:07:54,889 --> 00:07:58,949
+the high of the upswing created.
+
+118
+00:07:58,949 --> 00:08:03,199
+There are two ways in which you could have
+traded the bullish engulfing candles.
+
+119
+00:08:03,199 --> 00:08:06,990
+After seeing one of the engulfing candles
+form, you could have entered a buy trade with
+
+120
+00:08:06,990 --> 00:08:10,060
+your stop loss placed below the nearest support
+level.
+
+121
+00:08:10,060 --> 00:08:14,200
+Or you could have entered a trade with a stop
+loss placed at the edge of the demand zone
+
+122
+00:08:14,200 --> 00:08:15,840
+itself.
+
+123
+00:08:15,840 --> 00:08:20,389
+Usually having the stop placed at the edge
+of the zone is the better option, because
+
+124
+00:08:20,389 --> 00:08:24,969
+it will save you from any spikes which may
+occur after getting your trade.
+
+125
+00:08:24,969 --> 00:08:26,979
+Lets take a look at another example.
+
+126
+00:08:26,979 --> 00:08:29,050
+Here’s another demand zone.
+
+127
+00:08:29,050 --> 00:08:34,610
+I’ve marked the support and resistance levels
+found in and around this demand zone on the
+
+128
+00:08:34,610 --> 00:08:35,610
+chart.
+
+129
+00:08:35,610 --> 00:08:40,000
+Lets now go down to the 15 minute chart to
+see if there was a price action signal we
+
+130
+00:08:40,000 --> 00:08:45,110
+could have used to get a buy trade placed
+when the market was inside this demand zone.
+
+131
+00:08:45,110 --> 00:08:50,199
+On the 15 minute chart we can see that when
+the market hit the support level found in
+
+132
+00:08:50,199 --> 00:08:54,370
+the middle of the demand zone two bullish
+engulfing candles formed.
+
+133
+00:08:54,370 --> 00:08:58,529
+The first caused the market to move out of
+the zone, but did not cause it to reverse
+
+134
+00:08:58,529 --> 00:09:03,709
+completely, while the second did cause the
+market to reverse out of the zone.
+
+135
+00:09:03,709 --> 00:09:08,519
+You can also look for other price action patterns
+to get your signal, pin bars representing
+
+136
+00:09:08,519 --> 00:09:10,910
+other great price action signals.
+
+137
+00:09:10,910 --> 00:09:14,709
+Your entry into this trade would be on one
+of the bullish engulfing candles that formed
+
+138
+00:09:14,709 --> 00:09:17,490
+after the market hit the support level.
+
+139
+00:09:17,490 --> 00:09:22,139
+Your stop loss on either trade would be placed
+at the support level which makes up the edge
+
+140
+00:09:22,139 --> 00:09:24,990
+of the demand zone.
+
+141
+00:09:24,990 --> 00:09:28,670
+When you’ve got yourself into a profitable
+trade, and the market has reversed out of
+
+142
+00:09:28,670 --> 00:09:33,240
+the supply or demand zone, the final step
+to do is take some profits off the trade,
+
+143
+00:09:33,240 --> 00:09:37,050
+to make sure you don’t end up coming out
+of the trade with nothing if the price action
+
+144
+00:09:37,050 --> 00:09:41,060
+changes and causes the market to move against
+your position.
+
+145
+00:09:41,060 --> 00:09:45,421
+The best time to take profits is after you’ve
+seen the market makes a new higher high, if
+
+146
+00:09:45,421 --> 00:09:50,190
+you’ve got a buy trade placed into the market,
+or after a new lower low has formed, if you’ve
+
+147
+00:09:50,190 --> 00:09:51,310
+got a sell trade placed.
+
+148
+00:09:51,310 --> 00:09:57,029
+You either move you stop loss higher or you
+partially close half of your position.
+
+149
+00:09:57,029 --> 00:10:02,759
+Of course, exiting the trade always comes
+down to your personal preference.
+
+150
+00:10:02,759 --> 00:10:06,860
+As always, if you learned something new and
+found value, leave us a like to show your
+
+151
+00:10:06,860 --> 00:10:10,940
+support, subscribe to our channel and hit
+the bell icon to stay notified when we upload
+
+152
+00:10:10,940 --> 00:10:12,579
+new videos.
+
+153
+00:10:12,579 --> 00:10:13,759
+Until next time.
+

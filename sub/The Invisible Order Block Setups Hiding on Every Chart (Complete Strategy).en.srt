@@ -1,0 +1,1701 @@
+1
+00:00:00,360 --> 00:00:05,560
+Today we’re gonna talk about day trading
+using order blocks and how I use them in combination
+
+2
+00:00:05,560 --> 00:00:06,720
+with price action.
+
+3
+00:00:06,720 --> 00:00:08,580
+So, order blocks.
+
+4
+00:00:08,580 --> 00:00:14,290
+These are areas with significant volume orders,
+typically placed by large trading institutions.
+
+5
+00:00:14,290 --> 00:00:19,199
+The key concept behind trading with order
+blocks involves finding specific points in
+
+6
+00:00:19,199 --> 00:00:24,439
+the market where price has experienced a substantial
+upward or downward movement.
+
+7
+00:00:24,439 --> 00:00:29,850
+A bullish order block is marked at a price
+level where the market has displayed a strong
+
+8
+00:00:29,850 --> 00:00:33,270
+advance, indicating the presence of buying
+pressure.
+
+9
+00:00:33,270 --> 00:00:39,290
+A bearish order block is identified when the
+market has undergone a sharp decline, indicating
+
+10
+00:00:39,290 --> 00:00:40,930
+selling pressure.
+
+11
+00:00:40,930 --> 00:00:46,410
+The fundamental principle of order block trading
+revolves around the notion that when the market
+
+12
+00:00:46,410 --> 00:00:52,120
+executes a swift and substantial move, the
+smart money are unable to enter their entire
+
+13
+00:00:52,120 --> 00:00:53,730
+trade at once.
+
+14
+00:00:53,730 --> 00:01:00,379
+So, they strategically leave pending orders
+to buy or sell within the order block zone,
+
+15
+00:01:00,379 --> 00:01:05,630
+anticipating that the market will retrace
+back to that zone, allowing them to fill the
+
+16
+00:01:05,630 --> 00:01:08,890
+remaining portion of their trading position.
+
+17
+00:01:08,890 --> 00:01:15,580
+A Bullish Order Block refers to the last downward
+candle or series of downward candles that
+
+18
+00:01:15,580 --> 00:01:19,130
+occur before an upward impulse in price.
+
+19
+00:01:19,130 --> 00:01:23,190
+It serves as a support level that pushes the
+price higher.
+
+20
+00:01:23,190 --> 00:01:28,549
+These order blocks signify the presence of
+buy orders from institutional traders and
+
+21
+00:01:28,549 --> 00:01:34,950
+banks, essentially representing an accumulation
+of orders at that specific price level.
+
+22
+00:01:34,950 --> 00:01:40,979
+A Bearish Order Block is the last up candle
+or series of up candles before a downward
+
+23
+00:01:40,979 --> 00:01:42,740
+impulse in price.
+
+24
+00:01:42,740 --> 00:01:45,009
+And it will act as a resistance.
+
+25
+00:01:45,009 --> 00:01:49,750
+These order blocks indicate the presence of
+sell orders from institutional traders and
+
+26
+00:01:49,750 --> 00:01:54,610
+banks, representing a distribution of orders
+at that particular price level.
+
+27
+00:01:54,610 --> 00:01:59,619
+When the price eventually breaks out of an
+order block, it often retraces back into its
+
+28
+00:01:59,619 --> 00:02:00,810
+range.
+
+29
+00:02:00,810 --> 00:02:06,170
+This retracement offers you a chance to enter
+trades within the order block range, taking
+
+30
+00:02:06,170 --> 00:02:12,020
+advantage of the potential market orders that
+are expected to be executed.
+
+31
+00:02:12,020 --> 00:02:17,470
+A significant part of traders struggle when
+it comes to effectively trading these zones,
+
+32
+00:02:17,470 --> 00:02:21,220
+and one of the key factors at play is liquidity.
+
+33
+00:02:21,220 --> 00:02:26,660
+Liquidity is the ability to buy or sell something
+without causing a large price change.
+
+34
+00:02:26,660 --> 00:02:32,050
+When a large player enters the market with
+a market order, it immediately removes liquidity
+
+35
+00:02:32,050 --> 00:02:37,110
+from the market because he is demanding an
+immediate execution of his trade.
+
+36
+00:02:37,110 --> 00:02:42,629
+His market order is then matched with someone
+who has a pending order to sell.
+
+37
+00:02:42,629 --> 00:02:47,550
+If the market order is bigger in size than
+the opposing pending order, what will happen
+
+38
+00:02:47,550 --> 00:02:52,790
+is part of the market order will be filled,
+but the rest will remain unfilled.
+
+39
+00:02:52,790 --> 00:02:58,610
+So the market must move higher in order to
+seek out additional pending orders, to fill
+
+40
+00:02:58,610 --> 00:03:00,879
+what remains of his market order.
+
+41
+00:03:00,879 --> 00:03:05,840
+Essentially, this implies that pending orders
+contribute liquidity to the market since they
+
+42
+00:03:05,840 --> 00:03:09,910
+are the orders against which market orders
+are matched.
+
+43
+00:03:09,910 --> 00:03:15,879
+These pending orders act as a buffer, providing
+opportunities for market orders to be executed
+
+44
+00:03:15,879 --> 00:03:20,040
+without causing significant price disruptions.
+
+45
+00:03:20,040 --> 00:03:26,239
+As a retail trader, your trade sizes are typically
+not large enough to significantly impact market
+
+46
+00:03:26,239 --> 00:03:31,920
+prices, so you rarely need to worry about
+the placement and execution of our trades.
+
+47
+00:03:31,920 --> 00:03:37,240
+But for large institutions however, getting
+in and out of trades can be a big problem.
+
+48
+00:03:37,240 --> 00:03:42,819
+Given the substantial size of the trades they
+enter, professional traders face the challenge
+
+49
+00:03:42,819 --> 00:03:46,400
+of minimizing their impact on the market price.
+
+50
+00:03:46,400 --> 00:03:52,640
+Therefore, one of their primary goals is to
+find areas in the market where there is ample
+
+51
+00:03:52,640 --> 00:03:53,640
+liquidity.
+
+52
+00:03:53,640 --> 00:03:58,800
+And these pockets of liquidity are often located
+at levels where retail traders have placed
+
+53
+00:03:58,800 --> 00:04:00,129
+their stop losses.
+
+54
+00:04:00,129 --> 00:04:06,409
+The reason why stop hunts are seen frequently
+in any market is down to professional traders.
+
+55
+00:04:06,409 --> 00:04:11,970
+They are strategically placing large trades
+with the intention of pushing the price into
+
+56
+00:04:11,970 --> 00:04:14,510
+the stop loss zones.
+
+57
+00:04:14,510 --> 00:04:19,500
+When it comes to order block trading, one
+common rule is to consider how long the market
+
+58
+00:04:19,500 --> 00:04:21,900
+has been away from a particular zone.
+
+59
+00:04:21,900 --> 00:04:27,580
+It's believed that the longer the market stays
+away from an order block, the higher the chance
+
+60
+00:04:27,580 --> 00:04:31,490
+of a successful trade when it eventually returns.
+
+61
+00:04:31,490 --> 00:04:34,889
+However, this belief is actually incorrect.
+
+62
+00:04:34,889 --> 00:04:40,430
+Think about it this way: if a bank places
+an order to buy or sell when the market returns
+
+63
+00:04:40,430 --> 00:04:46,330
+to an order block, do you think they would
+wait around for a long time for this to happen?
+
+64
+00:04:46,330 --> 00:04:50,750
+No, they want to act quickly to seize the
+opportunity.
+
+65
+00:04:50,750 --> 00:04:54,699
+Let's compare older order blocks with more
+recent zones.
+
+66
+00:04:54,699 --> 00:05:00,699
+It’s clear that trading in recently created
+zones tends to be more profitable than trading
+
+67
+00:05:00,699 --> 00:05:04,240
+in zones that were created a long time ago.
+
+68
+00:05:04,240 --> 00:05:09,340
+In simpler terms, it's better to focus on
+recently created order blocks because they
+
+69
+00:05:09,340 --> 00:05:13,500
+have a higher chance of resulting in successful
+trades.
+
+70
+00:05:13,500 --> 00:05:19,250
+Just imagine if you had traded these recent
+order blocks I marked on the chart.
+
+71
+00:05:19,250 --> 00:05:22,090
+Each zone would have given you a decent trade.
+
+72
+00:05:22,090 --> 00:05:27,350
+But if you had traded the older zones, the
+success rate is much lower.
+
+73
+00:05:27,350 --> 00:05:32,470
+So here's the key takeaway: when the market
+quickly returns to an order block, there's
+
+74
+00:05:32,470 --> 00:05:34,940
+a higher chance of getting a successful trade.
+
+75
+00:05:34,940 --> 00:05:40,580
+On the other hand, older blocks don't usually
+work out well, so it's better to focus on
+
+76
+00:05:40,580 --> 00:05:44,760
+zones that have been created recently.
+
+77
+00:05:44,760 --> 00:05:49,660
+Another order block rule says: "The stronger
+the move away from an order block, the higher
+
+78
+00:05:49,660 --> 00:05:53,800
+the chance of a strong move when it eventually
+returns."
+
+79
+00:05:53,800 --> 00:05:59,259
+Basically, if you mark an order block on your
+charts and there was a big move away from
+
+80
+00:05:59,259 --> 00:06:04,819
+it, the likelihood of having a successful
+trade in that zone depends on how significant
+
+81
+00:06:04,819 --> 00:06:06,000
+the move was.
+
+82
+00:06:06,000 --> 00:06:11,490
+But here's the thing: the strength of the
+move out of the zone doesn't really determine
+
+83
+00:06:11,490 --> 00:06:13,650
+the success of the trade.
+
+84
+00:06:13,650 --> 00:06:19,910
+Many times, you may have placed a trade at
+an order block with a strong move away, only
+
+85
+00:06:19,910 --> 00:06:23,720
+to see the market go straight through it when
+it returns.
+
+86
+00:06:23,720 --> 00:06:28,569
+This has happened to me too, and I used to
+base my entries on this idea.
+
+87
+00:06:28,569 --> 00:06:34,360
+The truth is, the strength of the move away
+doesn't necessarily indicate how strong the
+
+88
+00:06:34,360 --> 00:06:35,520
+order block is.
+
+89
+00:06:35,520 --> 00:06:41,660
+Even though common teachings would consider
+this a strong area, as you can see, the market
+
+90
+00:06:41,660 --> 00:06:44,389
+can easily break through without stopping.
+
+91
+00:06:44,389 --> 00:06:50,050
+So, it's important to understand that the
+strength of the move away from an order block
+
+92
+00:06:50,050 --> 00:06:55,639
+doesn't guarantee a successful trade, and
+you shouldn't solely rely on it when making
+
+93
+00:06:55,639 --> 00:06:57,990
+trading decisions.
+
+94
+00:06:57,990 --> 00:07:02,250
+So how do you determine which order blocks
+are stronger than others?
+
+95
+00:07:02,250 --> 00:07:08,020
+The best order blocks must include a liquidity
+run, and a break in market structure or change
+
+96
+00:07:08,020 --> 00:07:09,550
+in character.
+
+97
+00:07:09,550 --> 00:07:14,680
+In this example, whoever brought when the
+market was down here had a lot of money at
+
+98
+00:07:14,680 --> 00:07:16,360
+their disposal.
+
+99
+00:07:16,360 --> 00:07:21,560
+As a trending movement increases in length,
+more and more people begin trading in the
+
+100
+00:07:21,560 --> 00:07:23,190
+same direction.
+
+101
+00:07:23,190 --> 00:07:27,550
+Look at the last down swing before the bullish
+order block is created.
+
+102
+00:07:27,550 --> 00:07:32,919
+At the time of this drop a lot of traders
+are beginning to go short expecting lower
+
+103
+00:07:32,919 --> 00:07:33,919
+prices.
+
+104
+00:07:33,919 --> 00:07:40,139
+In order for the market to be able to move
+up from here, someone needs to come into the
+
+105
+00:07:40,139 --> 00:07:44,669
+market and buy from all the traders who are
+going short.
+
+106
+00:07:44,669 --> 00:07:47,430
+This would take a huge amount of money.
+
+107
+00:07:47,430 --> 00:07:53,050
+Look at this obvious liquidity run, taking
+stops below this level and triggering new
+
+108
+00:07:53,050 --> 00:07:54,790
+sell positions.
+
+109
+00:07:54,790 --> 00:07:56,509
+This is the first condition.
+
+110
+00:07:56,509 --> 00:08:02,389
+The market eventually stops falling lower
+and begins advancing higher, breaking above
+
+111
+00:08:02,389 --> 00:08:06,690
+the previous lower high, making a higher high.
+
+112
+00:08:06,690 --> 00:08:08,530
+This is a change or character.
+
+113
+00:08:08,530 --> 00:08:10,430
+The second condition.
+
+114
+00:08:10,430 --> 00:08:16,450
+This bullish order block has a very high probability
+of giving you a successful trade, not because
+
+115
+00:08:16,450 --> 00:08:22,479
+it has a strong move away, but because we
+know whoever brought down here creating the
+
+116
+00:08:22,479 --> 00:08:26,690
+zone has invested a lot of money into the
+market.
+
+117
+00:08:26,690 --> 00:08:31,970
+So we first had a liquidity run, a change
+of character, with the order block forming
+
+118
+00:08:31,970 --> 00:08:34,510
+between these 2 phases.
+
+119
+00:08:34,510 --> 00:08:39,550
+When price returned to this area, that was
+your chance to enter, with the smart money
+
+120
+00:08:39,550 --> 00:08:42,550
+positions on your side.
+
+121
+00:08:42,550 --> 00:08:43,930
+Take a look here.
+
+122
+00:08:43,930 --> 00:08:49,779
+First we have a significant uptrend which
+is very obvious, then we have a strong, near
+
+123
+00:08:49,779 --> 00:08:51,750
+vertical move down.
+
+124
+00:08:51,750 --> 00:08:57,150
+This move down tells you that smart money
+entered the market and absorbed all the buy
+
+125
+00:08:57,150 --> 00:09:01,280
+orders from the traders going long into the
+uptrend.
+
+126
+00:09:01,280 --> 00:09:06,829
+Look at the obvious liquidity run, taking
+stops above this level and trapping buyers
+
+127
+00:09:06,829 --> 00:09:08,410
+on the wrong side.
+
+128
+00:09:08,410 --> 00:09:14,110
+And as I said, the order blocks which have
+the highest probability of working out successfully
+
+129
+00:09:14,110 --> 00:09:18,460
+are the ones that trigger a break of structure
+of a change of character.
+
+130
+00:09:18,460 --> 00:09:22,200
+In this case, we have a change of character.
+
+131
+00:09:22,200 --> 00:09:23,750
+Which is right here.
+
+132
+00:09:23,750 --> 00:09:29,269
+The price broke below this previous higher
+low, forming a new lower low.
+
+133
+00:09:29,269 --> 00:09:35,170
+A bearish order block created after the market
+has been going up for a long duration of time,
+
+134
+00:09:35,170 --> 00:09:40,529
+and which includes a liquidity clear-out and
+change of character, has a much better chance
+
+135
+00:09:40,529 --> 00:09:43,680
+of working out profitably.
+
+136
+00:09:43,680 --> 00:09:49,829
+In this example, we can see a bullish order
+block formed after the market has been falling.
+
+137
+00:09:49,829 --> 00:09:54,490
+We have lower lows and lower highs, and a
+break of structure here.
+
+138
+00:09:54,490 --> 00:10:00,740
+A large percentage of retail traders entered
+into short trades at this point which meant
+
+139
+00:10:00,740 --> 00:10:06,380
+there was a lot of profit to be made by the
+banks if they came into the market and caused
+
+140
+00:10:06,380 --> 00:10:07,850
+a reversal.
+
+141
+00:10:07,850 --> 00:10:13,570
+When banks enter into their long trades, they
+consume all the sell orders coming into the
+
+142
+00:10:13,570 --> 00:10:20,339
+market and the price begins to increase, eventually
+breaking the swing high found at the top of
+
+143
+00:10:20,339 --> 00:10:22,540
+the last move lower.
+
+144
+00:10:22,540 --> 00:10:26,680
+The previous break of structure was in fact
+a liquidity run.
+
+145
+00:10:26,680 --> 00:10:28,550
+And this is the change of character.
+
+146
+00:10:28,550 --> 00:10:31,880
+Both of our conditions were met.
+
+147
+00:10:31,880 --> 00:10:37,000
+Soon after the break of the high we see another
+drop taking place.
+
+148
+00:10:37,000 --> 00:10:42,370
+This drop causes a lot of retail traders to
+start shorting again, believing the move higher
+
+149
+00:10:42,370 --> 00:10:46,339
+was simply just a pullback to the downtrend.
+
+150
+00:10:46,339 --> 00:10:51,540
+When the market comes into contact with the
+order block which was created by the first
+
+151
+00:10:51,540 --> 00:10:57,650
+round of buying, smart money will buy again
+to get more trades placed in the direction
+
+152
+00:10:57,650 --> 00:10:59,280
+of the reversal.
+
+153
+00:10:59,280 --> 00:11:04,709
+If the banks didn’t buy and the market fell
+below the order block then they would be put
+
+154
+00:11:04,709 --> 00:11:10,180
+at a loss on their positions and would have
+to liquidate their buy trades.
+
+155
+00:11:10,180 --> 00:11:14,490
+In this example, we spot a bearish order block.
+
+156
+00:11:14,490 --> 00:11:20,810
+The market had a significant move up, followed
+by a liquidity run that hits stops above this
+
+157
+00:11:20,810 --> 00:11:25,340
+particular area, triggering new buy positions.
+
+158
+00:11:25,340 --> 00:11:30,810
+After the liquidity run, the market starts
+declining, breaking below the previous higher
+
+159
+00:11:30,810 --> 00:11:31,810
+low.
+
+160
+00:11:31,810 --> 00:11:33,680
+This is the change of character.
+
+161
+00:11:33,680 --> 00:11:36,750
+The bearish order block forms between these
+two phases.
+
+162
+00:11:36,750 --> 00:11:41,610
+This area has a high probability of being
+successful.
+
+163
+00:11:41,610 --> 00:11:46,790
+When the price eventually revisits the order
+block, it provides a chance to enter a short
+
+164
+00:11:46,790 --> 00:11:51,770
+position, in line with the smart money positions.
+
+165
+00:11:51,770 --> 00:11:52,770
+Another example.
+
+166
+00:11:52,770 --> 00:11:56,980
+The market shows a bearish order block after
+a significant uptrend.
+
+167
+00:11:56,980 --> 00:12:03,530
+As the banks enter their short trades, they
+absorb all the buy orders in the market, causing
+
+168
+00:12:03,530 --> 00:12:08,149
+the price to decline and eventually break
+the previous swing low.
+
+169
+00:12:08,149 --> 00:12:11,810
+The previous break of structure was a liquidity
+run.
+
+170
+00:12:11,810 --> 00:12:17,120
+Lower lows and lower highs are then observed,
+and this is the change of character.
+
+171
+00:12:17,120 --> 00:12:22,680
+This indicates that big players entered into
+short trades, providing a potential trade
+
+172
+00:12:22,680 --> 00:12:25,459
+if the price returns to the order block.
+
+173
+00:12:25,459 --> 00:12:31,899
+And as expected, a sharp drop takes place,
+when the market revisits the order block created
+
+174
+00:12:31,899 --> 00:12:39,740
+by the first round of selling, as smart money
+will sell again to reinforce the reversal.
+
+175
+00:12:39,740 --> 00:12:41,590
+Let's analyze another trade.
+
+176
+00:12:41,590 --> 00:12:47,590
+We had a previous downtrend where the price
+consistently made lower lows and lower highs.
+
+177
+00:12:47,590 --> 00:12:52,190
+Now, pay attention to the first rally out
+of the zone.
+
+178
+00:12:52,190 --> 00:12:58,320
+During this rally, we saw bullish large range
+candles that pushed the market significantly
+
+179
+00:12:58,320 --> 00:13:01,810
+against the previous downward movement.
+
+180
+00:13:01,810 --> 00:13:08,220
+Here's the key: Those bullish candles indicate
+that there was very little selling pressure.
+
+181
+00:13:08,220 --> 00:13:13,750
+It's unlikely that banks were placing sell
+trades as the market rallied higher.
+
+182
+00:13:13,750 --> 00:13:19,180
+The rally also managed to break the most recent
+swing high.
+
+183
+00:13:19,180 --> 00:13:24,470
+When you trade order blocks, the best advice
+I can give you is to make sure that the zone
+
+184
+00:13:24,470 --> 00:13:28,690
+you're trading breaks a recent swing high
+or low.
+
+185
+00:13:28,690 --> 00:13:34,260
+This break represents either a change of character
+or a break in the market structure, aligning
+
+186
+00:13:34,260 --> 00:13:36,390
+with the current trend.
+
+187
+00:13:36,390 --> 00:13:41,620
+The reason why this change of character gives
+the zone a better chance of working out, is
+
+188
+00:13:41,620 --> 00:13:47,519
+partly down to the retail traders who enter
+into long trades on the candle which breaks
+
+189
+00:13:47,519 --> 00:13:49,100
+the swing high.
+
+190
+00:13:49,100 --> 00:13:55,150
+When the market breaches a high/low traders
+using technical analysis will know a possible
+
+191
+00:13:55,150 --> 00:14:01,920
+trend change is taking place as the majority
+of traders primarily use higher highs and
+
+192
+00:14:01,920 --> 00:14:05,910
+lower lows to determine current trend direction.
+
+193
+00:14:05,910 --> 00:14:11,490
+Another factor to keep in mind is the impact
+of traders who find themselves stuck in losing
+
+194
+00:14:11,490 --> 00:14:15,410
+trades when the market fails to make a new
+swing low.
+
+195
+00:14:15,410 --> 00:14:21,790
+Let me explain: When the market is close to
+breaking below a swing low, breakout traders
+
+196
+00:14:21,790 --> 00:14:27,160
+place orders in advance at that low, anticipating
+a breakout to happen.
+
+197
+00:14:27,160 --> 00:14:34,639
+Once the market moves below the low and triggers
+their pending orders, they enter their trades.
+
+198
+00:14:34,639 --> 00:14:39,820
+However, when the price fails to continue
+moving in the direction of the breakout and
+
+199
+00:14:39,820 --> 00:14:44,699
+starts moving in the opposite direction, these
+breakout traders find themselves trapped in
+
+200
+00:14:44,699 --> 00:14:47,820
+trades that are no longer profitable.
+
+201
+00:14:47,820 --> 00:14:54,360
+At this point, often around the order block
+area, these traders decide to close their
+
+202
+00:14:54,360 --> 00:14:55,400
+losing trades.
+
+203
+00:14:55,400 --> 00:15:00,610
+Now, here's the interesting part: When these
+breakout traders start closing their losing
+
+204
+00:15:00,610 --> 00:15:05,980
+trades, a significant number of buy orders
+come into the market.
+
+205
+00:15:05,980 --> 00:15:11,810
+This influx of buy orders actually contributes
+to the upward momentum of the market.
+
+206
+00:15:11,810 --> 00:15:18,959
+Now, most of the traders who trade order blocks
+try to predict where a movement will end instead
+
+207
+00:15:18,959 --> 00:15:22,240
+of trading in the direction of the movement
+itself.
+
+208
+00:15:22,240 --> 00:15:28,089
+What these traders typically tend to do is
+mark all the order blocks which the market
+
+209
+00:15:28,089 --> 00:15:34,029
+hasn’t encountered yet and wait for the
+price to enter these zones before going either
+
+210
+00:15:34,029 --> 00:15:36,300
+long or short.
+
+211
+00:15:36,300 --> 00:15:41,870
+Usually these zones were created a long time
+ago which means they don’t have a high chance
+
+212
+00:15:41,870 --> 00:15:44,140
+of causing a reversal anyway.
+
+213
+00:15:44,140 --> 00:15:45,720
+We talked about that.
+
+214
+00:15:45,720 --> 00:15:52,050
+Meanwhile, as these traders wait for the market
+to hit these old zones, there are plenty of
+
+215
+00:15:52,050 --> 00:15:58,150
+new zones forming in the direction of the
+current movement that they are ignoring.
+
+216
+00:15:58,150 --> 00:16:03,430
+Instead of being so fixated on predicting
+where the entire market will reverse, you
+
+217
+00:16:03,430 --> 00:16:09,440
+would have more success if you focus on trading
+order blocks that form in the direction of
+
+218
+00:16:09,440 --> 00:16:11,330
+the most recent high or low.
+
+219
+00:16:11,330 --> 00:16:18,769
+A new high or low in the trend, meaning a
+break of structure, or a BOS, is a signal
+
+220
+00:16:18,769 --> 00:16:25,600
+that the current momentum is to the upside
+or downside, by trading against this momentum
+
+221
+00:16:25,600 --> 00:16:30,590
+you are unnecessarily putting yourself at
+risk of losing money because you’re trying
+
+222
+00:16:30,590 --> 00:16:33,009
+to trade against the trend.
+
+223
+00:16:33,009 --> 00:16:37,269
+Let's take a look at an example to illustrate
+this point.
+
+224
+00:16:37,269 --> 00:16:42,700
+Imagine a trader who had already marked a
+bearish order block on their charts before
+
+225
+00:16:42,700 --> 00:16:44,769
+the price made a new high.
+
+226
+00:16:44,769 --> 00:16:50,720
+However, when a bullish move occurred and
+a new high was reached, instead of recognizing
+
+227
+00:16:50,720 --> 00:16:57,250
+it as a signal that the price wants to continue
+moving higher, the trader decides to place
+
+228
+00:16:57,250 --> 00:17:03,019
+a short trade because he believes the order
+block will cause a market reversal.
+
+229
+00:17:03,019 --> 00:17:09,610
+And, after reaching the marked area, the price
+only experiences a small drop before breaking
+
+230
+00:17:09,610 --> 00:17:16,949
+higher again, forming another new high and
+creating a bullish order block in the process.
+
+231
+00:17:16,949 --> 00:17:22,970
+When the market returns to this area, it triggers
+another upward movement.
+
+232
+00:17:22,970 --> 00:17:28,549
+By always trading in the direction of the
+most recent high or low, you give yourself
+
+233
+00:17:28,549 --> 00:17:31,780
+the best opportunity to have winning trades.
+
+234
+00:17:31,780 --> 00:17:37,460
+It's important to recognize the current momentum
+and follow the direction indicated by the
+
+235
+00:17:37,460 --> 00:17:44,309
+most recent high or low, rather than trying
+to predict reversals based solely on order
+
+236
+00:17:44,309 --> 00:17:45,309
+blocks.
+
+237
+00:17:45,309 --> 00:17:50,549
+Here another example of an order block after
+a break of structure.
+
+238
+00:17:50,549 --> 00:17:55,990
+Remember what I previously said: the quicker
+the price returns to the order block the more
+
+239
+00:17:55,990 --> 00:17:59,440
+likely you are to end up with a profitable
+trade.
+
+240
+00:17:59,440 --> 00:18:04,909
+When the price moves up or down, forming a
+trading zone, it's possible that banks and
+
+241
+00:18:04,909 --> 00:18:11,320
+large traders may have remaining trades that
+they were not able to execute during that
+
+242
+00:18:11,320 --> 00:18:12,500
+initial movement.
+
+243
+00:18:12,500 --> 00:18:18,610
+In such cases, these market participants may
+choose to take some profits off their trades
+
+244
+00:18:18,610 --> 00:18:24,610
+and manipulate the market to return to the
+region where their remaining trades were intended
+
+245
+00:18:24,610 --> 00:18:25,610
+to be placed.
+
+246
+00:18:25,610 --> 00:18:30,110
+This allows them to enter the rest of their
+positions into the market.
+
+247
+00:18:30,110 --> 00:18:38,320
+In this example, when the price shoots up
+creating the order block and forming the BOS,
+
+248
+00:18:38,320 --> 00:18:42,143
+the banks still have a few more buy trades
+left which they need to be placed.
+
+249
+00:18:42,143 --> 00:18:47,890
+To bring the price back into the trading zone,
+banks may take some profits from their existing
+
+250
+00:18:47,890 --> 00:18:49,500
+buy trades.
+
+251
+00:18:49,500 --> 00:18:55,890
+By doing so, the buy orders that were supporting
+the price are consumed, resulting in a downward
+
+252
+00:18:55,890 --> 00:18:56,890
+movement.
+
+253
+00:18:56,890 --> 00:19:02,549
+As the price falls into the region where the
+banks initially placed their buy trades, they
+
+254
+00:19:02,549 --> 00:19:07,650
+leverage the new sell orders that have entered
+the market due to the drop.
+
+255
+00:19:07,650 --> 00:19:13,740
+These sell orders are generated by traders
+on lower timeframes who are selling in response
+
+256
+00:19:13,740 --> 00:19:15,280
+to the price decline.
+
+257
+00:19:15,280 --> 00:19:22,090
+The banks utilize these sell orders to facilitate
+the execution of the remaining buy trades
+
+258
+00:19:22,090 --> 00:19:25,809
+they intended to enter into the market.
+
+259
+00:19:25,809 --> 00:19:30,600
+Let's consider another instance of an order
+block following a break of structure.
+
+260
+00:19:30,600 --> 00:19:37,220
+In this particular example, we see the price
+moving down, creating the order block and
+
+261
+00:19:37,220 --> 00:19:40,580
+forming the break of Structure (BOS).
+
+262
+00:19:40,580 --> 00:19:46,410
+If the banks still have some sell trades remaining
+that were not executed when the price initially
+
+263
+00:19:46,410 --> 00:19:52,030
+formed the order block, they will book some
+profits from their existing sell trades and
+
+264
+00:19:52,030 --> 00:19:57,830
+manipulate the market to move back into the
+area where their trades were intended.
+
+265
+00:19:57,830 --> 00:20:04,080
+So to entice the price to rise into the order
+block zone, the banks may take partial profits
+
+266
+00:20:04,080 --> 00:20:05,900
+from their sell trades.
+
+267
+00:20:05,900 --> 00:20:11,630
+Once the price reaches the region where the
+banks initially placed their first sell trades,
+
+268
+00:20:11,630 --> 00:20:17,780
+they utilize the newly emerged buy orders
+from traders on lower timeframes, who entered
+
+269
+00:20:17,780 --> 00:20:21,010
+buy positions due to the upward movement.
+
+270
+00:20:21,010 --> 00:20:27,710
+These buy orders assist the banks in executing
+the remaining of their sell trades.
+
+271
+00:20:27,710 --> 00:20:33,520
+You can see how the banks strategically navigate
+the market to maximize their trade entries
+
+272
+00:20:33,520 --> 00:20:37,950
+while maintaining control over price movements.
+
+273
+00:20:37,950 --> 00:20:43,330
+When I started trading order blocks, I used
+to enter trades by placing pending orders
+
+274
+00:20:43,330 --> 00:20:47,790
+at the zones, which is a common approach in
+many trading methods.
+
+275
+00:20:47,790 --> 00:20:55,059
+However, I discovered that using pending orders
+at the order blocks often resulted in losses.
+
+276
+00:20:55,059 --> 00:21:00,650
+The market would often disregard the zone
+and continue moving strongly in the opposite
+
+277
+00:21:00,650 --> 00:21:04,809
+direction, causing my trades to fail almost
+immediately.
+
+278
+00:21:04,809 --> 00:21:10,529
+Many times when I first began trading these
+zones, I found many order blocks which met
+
+279
+00:21:10,529 --> 00:21:16,380
+all the criteria, but when it came to trading
+these zones with pending orders most of the
+
+280
+00:21:16,380 --> 00:21:23,309
+time the market would just blow past the zone
+and I would almost instantly lose my trades.
+
+281
+00:21:23,309 --> 00:21:30,720
+One way is to navigate on lower time frames,
+and try to find another OB or a break of structure
+
+282
+00:21:30,720 --> 00:21:32,780
+or a change of character.
+
+283
+00:21:32,780 --> 00:21:35,310
+And this is a valid way to enter.
+
+284
+00:21:35,310 --> 00:21:38,580
+Using candlestick patterns to enter trades
+is another method.
+
+285
+00:21:38,580 --> 00:21:44,559
+I like to use pin bars and engulfing candles
+as my trigger for entering trades at order
+
+286
+00:21:44,559 --> 00:21:46,320
+blocks.
+
+287
+00:21:46,320 --> 00:21:51,770
+The strongest price action setup you can use
+in conjunction with order blocks is the engulfing
+
+288
+00:21:51,770 --> 00:21:53,340
+candle.
+
+289
+00:21:53,340 --> 00:21:58,150
+Engulfing candles, when found around order
+blocks show you that bank traders have an
+
+290
+00:21:58,150 --> 00:22:02,250
+interest in making the market move away from
+a zone.
+
+291
+00:22:02,250 --> 00:22:07,540
+The candle itself is the result of bank traders
+entering into the market.
+
+292
+00:22:07,540 --> 00:22:13,910
+The way we would have traded this is by first
+locating the order block on our charts, then,
+
+293
+00:22:13,910 --> 00:22:19,390
+when the market returns to the zone we will
+switch to a lower time frame to see if an
+
+294
+00:22:19,390 --> 00:22:25,130
+engulfing candle appears, which we can use
+as an entry trigger into our trades.
+
+295
+00:22:25,130 --> 00:22:30,140
+When switching to lower time frames to look
+for trades I suggest you go no lower than
+
+296
+00:22:30,140 --> 00:22:31,909
+the 5 minute chart.
+
+297
+00:22:31,909 --> 00:22:37,090
+It's important to avoid going too low in time
+frames, such as the 1-minute chart, as it
+
+298
+00:22:37,090 --> 00:22:40,840
+can generate many false signals.
+
+299
+00:22:40,840 --> 00:22:45,150
+Here we are looking at an order block on the
+5 minute chart, we can see an engulfing candle
+
+300
+00:22:45,150 --> 00:22:49,190
+appears shortly after price entered the zone.
+
+301
+00:22:49,190 --> 00:22:54,039
+This is your trigger for entering the trade,
+when you see this candle form.
+
+302
+00:22:54,039 --> 00:22:58,840
+While it's possible to enter trades using
+the same time frame on which the order block
+
+303
+00:22:58,840 --> 00:23:03,460
+is identified, it is often beneficial to switch
+to a lower time frame.
+
+304
+00:23:03,460 --> 00:23:09,360
+By doing so, you can reduce your risk and
+potentially increase your reward.
+
+305
+00:23:09,360 --> 00:23:14,000
+If you chose to enter the market based on
+the engulfing candle observed on this time
+
+306
+00:23:14,000 --> 00:23:18,960
+frame, for example, the distance between your
+entry point and the stop-loss level would
+
+307
+00:23:18,960 --> 00:23:20,990
+be 20 pips.
+
+308
+00:23:20,990 --> 00:23:26,049
+However, if you switched to a lower chart,
+and entered the trade based on the engulfing
+
+309
+00:23:26,049 --> 00:23:31,230
+candle seen there, your risk would be reduced
+to only 10 pips.
+
+310
+00:23:31,230 --> 00:23:36,350
+By doing so, you have effectively decreased
+the risk on the trade by 50%.
+
+311
+00:23:36,350 --> 00:23:43,340
+Over a series of 10 to 20 trades, this reduction
+in risk can accumulate to a significant amount
+
+312
+00:23:43,340 --> 00:23:45,770
+of money saved or earned.
+
+313
+00:23:45,770 --> 00:23:51,700
+Furthermore, by entering the trade on lower
+chart using the engulfing candle, you not
+
+314
+00:23:51,700 --> 00:23:56,230
+only decreased your risk but also you increased
+the potential gain.
+
+315
+00:23:56,230 --> 00:24:01,690
+This is because your entry occurred right
+at the beginning of the downward movement.
+
+316
+00:24:01,690 --> 00:24:06,820
+If you had traded based on the engulfing candle
+seen on the higher time frame, you would have
+
+317
+00:24:06,820 --> 00:24:11,220
+entered the trade after the market had already
+moved down slightly.
+
+318
+00:24:11,220 --> 00:24:17,409
+As a result, the potential profit you could
+make from the trade would have decreased.
+
+319
+00:24:17,409 --> 00:24:22,080
+The two candles which make up an engulfing
+pattern are directly linked to whether the
+
+320
+00:24:22,080 --> 00:24:24,780
+zone is likely to work out or not.
+
+321
+00:24:24,780 --> 00:24:27,539
+I want you to look at this engulfing pattern.
+
+322
+00:24:27,539 --> 00:24:31,870
+There’s two candles which make up this engulfing
+structure.
+
+323
+00:24:31,870 --> 00:24:39,120
+The first is a small bullish candle and the
+second is this bearish engulfing candle.
+
+324
+00:24:39,120 --> 00:24:44,799
+Whenever you see a small candlestick engulfed
+by a large candlestick in an order block,
+
+325
+00:24:44,799 --> 00:24:50,700
+it’s a good indication that the market is
+going to move out of the order block.
+
+326
+00:24:50,700 --> 00:24:56,270
+The first bullish candle makes retail traders
+think the market is going up, so they begin
+
+327
+00:24:56,270 --> 00:24:57,390
+to buy.
+
+328
+00:24:57,390 --> 00:25:02,711
+And when the engulfing candle shows up and
+pushes the market down really quickly, it
+
+329
+00:25:02,711 --> 00:25:08,909
+has the effect of putting the buyers under
+intense pressure to close their positions.
+
+330
+00:25:08,909 --> 00:25:14,399
+This is the important bit, the aspect of how
+time affects the actions of the traders.
+
+331
+00:25:14,399 --> 00:25:20,289
+If the bearish engulfing candle was small
+and only just managed to engulf the small
+
+332
+00:25:20,289 --> 00:25:26,370
+bullish candle, the buyers would feel less
+compelled to close their trades, the loss
+
+333
+00:25:26,370 --> 00:25:32,059
+they are in is small, therefore they would
+be more willing to continue holding their
+
+334
+00:25:32,059 --> 00:25:33,059
+trades.
+
+335
+00:25:33,059 --> 00:25:38,680
+When the engulfing candle is big, the traders
+are faced with a loss much greater.
+
+336
+00:25:38,680 --> 00:25:43,659
+This is the reason these types of engulfing
+structures tend to work so well.
+
+337
+00:25:43,659 --> 00:25:50,270
+As the loss for traders who have bought increases,
+they become more inclined to close their positions.
+
+338
+00:25:50,270 --> 00:25:55,700
+This action of closing their losing trades
+can create a swift movement away from the
+
+339
+00:25:55,700 --> 00:25:58,000
+order block.
+
+340
+00:25:58,000 --> 00:26:02,789
+The other price action signal you’re able
+to use when looking for entries into order
+
+341
+00:26:02,789 --> 00:26:04,760
+blocks is the pin bar.
+
+342
+00:26:04,760 --> 00:26:10,029
+Pin bars, as you should already know, show
+a rejection is taking place in the market,
+
+343
+00:26:10,029 --> 00:26:15,120
+usually from a support and resistance level
+or recent swing highs and lows.
+
+344
+00:26:15,120 --> 00:26:16,930
+Here’s an order block.
+
+345
+00:26:16,930 --> 00:26:22,320
+When price returns to the zone you will then
+need to switch to a lower time frame to look
+
+346
+00:26:22,320 --> 00:26:27,289
+for a pin bar that you can use as an entry
+trigger into your trade.
+
+347
+00:26:27,289 --> 00:26:32,770
+As you can see when the market enters the
+zone it produces a bearish pin bar.
+
+348
+00:26:32,770 --> 00:26:38,490
+The way you would have traded this would be
+to first wait for the pin bar to close, then
+
+349
+00:26:38,490 --> 00:26:41,789
+you place a trade sell trade using a market
+order.
+
+350
+00:26:41,789 --> 00:26:46,200
+with the stop-loss placed above the high of
+the pin.
+
+351
+00:26:46,200 --> 00:26:51,740
+In this example, we have a pin bar formation
+on the 4-hour chart.
+
+352
+00:26:51,740 --> 00:26:56,539
+While you could potentially trade this setup
+directly from the 4-hour chart, it is more
+
+353
+00:26:56,539 --> 00:27:02,789
+advantageous to decrease risk and increase
+potential profit by scanning lower time frames
+
+354
+00:27:02,789 --> 00:27:05,220
+for additional pin bars.
+
+355
+00:27:05,220 --> 00:27:11,080
+Looking at the 30-minute chart, we can see
+another pin bar within the same order block
+
+356
+00:27:11,080 --> 00:27:12,080
+zone.
+
+357
+00:27:12,080 --> 00:27:18,210
+It's interesting how this pin bar is actually
+nested within the larger pin bar seen on the
+
+358
+00:27:18,210 --> 00:27:19,460
+4-hour chart.
+
+359
+00:27:19,460 --> 00:27:23,340
+To trade this setup, we would follow the same
+approach as before.
+
+360
+00:27:23,340 --> 00:27:29,830
+We would enter a buy trade once the pin bar
+has closed, placing our stop-loss order below
+
+361
+00:27:29,830 --> 00:30:04,050
+the low of the pin bar.
+

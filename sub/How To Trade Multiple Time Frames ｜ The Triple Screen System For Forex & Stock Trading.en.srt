@@ -1,0 +1,640 @@
+1
+00:00:00,659 --> 00:00:06,080
+Many traders adopt a single screen or indicator
+that they apply to each and every trade.
+
+2
+00:00:06,080 --> 00:00:10,740
+In principle, there is nothing wrong with
+adopting and adhering to a single indicator
+
+3
+00:00:10,740 --> 00:00:12,400
+for decision making.
+
+4
+00:00:12,400 --> 00:00:17,510
+In fact, the discipline involved in maintaining
+a focus on a single measure is related to
+
+5
+00:00:17,510 --> 00:00:22,220
+the trader's discipline and is, perhaps, one
+of the main determinants of achieving success
+
+6
+00:00:22,220 --> 00:00:23,689
+as a trader.
+
+7
+00:00:23,689 --> 00:00:27,580
+But what if your chosen indicator is fundamentally
+flawed?
+
+8
+00:00:27,580 --> 00:00:32,470
+What if conditions in the market change so
+that your single screen can no longer account
+
+9
+00:00:32,470 --> 00:00:37,700
+for all of the eventual outcomes operating
+outside of its measurement?
+
+10
+00:00:37,700 --> 00:00:43,760
+The point is, because the market is very complex,
+even the most advanced indicators can't work
+
+11
+00:00:43,760 --> 00:00:47,250
+all of the time and under every market condition.
+
+12
+00:00:47,250 --> 00:00:53,950
+For example, in a market uptrend, trend-following
+indicators rise and issue "buy" signals while
+
+13
+00:00:53,950 --> 00:00:59,130
+oscillators suggest that the market is overbought
+and issue "sell" signals.
+
+14
+00:00:59,130 --> 00:01:04,970
+In downtrends, trend-following indicators
+suggest selling short, but oscillators become
+
+15
+00:01:04,970 --> 00:01:08,520
+oversold and issue signals to buy.
+
+16
+00:01:08,520 --> 00:01:13,840
+In a market moving strongly higher or lower,
+trend-following indicators are ideal, but
+
+17
+00:01:13,840 --> 00:01:19,070
+they are prone to rapid and abrupt changes
+when markets trade in ranges.
+
+18
+00:01:19,070 --> 00:01:23,790
+Within trading ranges, oscillators are the
+best choice, but when the markets begin to
+
+19
+00:01:23,790 --> 00:01:29,450
+follow a trend, oscillators issue premature
+signals.
+
+20
+00:01:29,450 --> 00:01:33,920
+This is why alexander elder came up with the
+triple screen system.
+
+21
+00:01:33,920 --> 00:01:38,830
+The triple screen system was first proposed
+by elder as a stock trading strategy – but
+
+22
+00:01:38,830 --> 00:01:42,460
+it’s regularly used in forex and other markets
+as well.
+
+23
+00:01:42,460 --> 00:01:45,200
+So, what is the triple screen?
+
+24
+00:01:45,200 --> 00:01:50,280
+Triple screen is essentially a trend following
+system, but the main characteristic, is that
+
+25
+00:01:50,280 --> 00:01:54,460
+it works by analyzing charts at multiple timeframes.
+
+26
+00:01:54,460 --> 00:01:59,860
+The root of elder’s triple screen is that
+it tries to time trade entries to coincide
+
+27
+00:01:59,860 --> 00:02:02,320
+with market corrections or pullbacks.
+
+28
+00:02:02,320 --> 00:02:05,600
+These can happen in both bull trends and bear
+trends.
+
+29
+00:02:05,600 --> 00:02:11,730
+The strategy only buys or sells when the signals
+between different screens at different timeframes
+
+30
+00:02:11,730 --> 00:02:13,450
+are in agreement.
+
+31
+00:02:13,450 --> 00:02:17,750
+Here are the steps you should follow if you
+want to implement the triple screen:
+
+32
+00:02:17,750 --> 00:02:21,610
+The first step is to choose which charts to
+use.
+
+33
+00:02:21,610 --> 00:02:27,310
+Most traders who use triple screen choose
+a time ratio of between 3 and 5.
+
+34
+00:02:27,310 --> 00:02:33,530
+This means that the period of each chart reduces
+by a factor of 3, 4 or 5 from the longest
+
+35
+00:02:33,530 --> 00:02:36,460
+duration chart to the shortest duration chart.
+
+36
+00:02:36,460 --> 00:02:42,910
+If the long range chart is the weekly, we
+divide by 5 to get the tactical chart, then
+
+37
+00:02:42,910 --> 00:02:45,930
+by 5 again to for the executional chart.
+
+38
+00:02:45,930 --> 00:02:50,920
+If the exact period chart doesn’t exist
+on applying this rule, the closest one is
+
+39
+00:02:50,920 --> 00:02:52,270
+used.
+
+40
+00:02:52,270 --> 00:02:58,190
+If you prefer to hold your trades longer,
+you might use the weekly, daily and h4.
+
+41
+00:02:58,190 --> 00:03:03,840
+For swing traders, the daily chart, the 4h
+and 1 hour charts are best suited.
+
+42
+00:03:03,840 --> 00:03:09,200
+The 4 hour, 1 hour and 15 minutes are perfect
+if you prefer day trading.
+
+43
+00:03:09,200 --> 00:03:12,550
+Choosing the right chart set depends on your
+trading goals.
+
+44
+00:03:12,550 --> 00:03:17,260
+If you are a buy and hold, or sell and wait
+trader, then a longer range setup is perhaps
+
+45
+00:03:17,260 --> 00:03:19,190
+going to be the best choice.
+
+46
+00:03:19,190 --> 00:03:24,680
+If you trade intraday on the other hand, you
+might prefer short range set of charts.
+
+47
+00:03:24,680 --> 00:03:27,790
+Now, how to read the triple screen.
+
+48
+00:03:27,790 --> 00:03:34,100
+In order to identify the entries, elder’s
+original system used a combination of MACD
+
+49
+00:03:34,100 --> 00:03:39,620
+and the force index, which are types of momentum
+oscillators.
+
+50
+00:03:39,620 --> 00:03:44,700
+In practice though, there are a variety of
+other indicators that will do the same job,
+
+51
+00:03:44,700 --> 00:03:46,990
+and work equally well or better.
+
+52
+00:03:46,990 --> 00:03:54,209
+I personally use the hull ma on the longer
+term chart, the RSI on the intermediate chart
+
+53
+00:03:54,209 --> 00:03:59,510
+and I use price action on the short term chart,
+to pinpoint the entry.
+
+54
+00:03:59,510 --> 00:04:03,950
+Timing is everything with most strategies,
+and this one is no exception.
+
+55
+00:04:03,950 --> 00:04:07,540
+Triple screen doesn’t have a definitive
+buy or sell signal.
+
+56
+00:04:07,540 --> 00:04:12,950
+It works as a system of confirmations from
+one time frame to the next.
+
+57
+00:04:12,950 --> 00:04:18,630
+This is done in order to find a suitable time
+to enter a trend in the likely direction the
+
+58
+00:04:18,630 --> 00:04:19,959
+market is moving.
+
+59
+00:04:19,959 --> 00:04:22,720
+This can be both a good thing and a bad thing.
+
+60
+00:04:22,720 --> 00:04:27,880
+Because while there are no rigid criteria,
+this does mean you can incorporate your own
+
+61
+00:04:27,880 --> 00:04:30,030
+thinking into the strategy.
+
+62
+00:04:30,030 --> 00:04:35,550
+It also means you can make it simpler by using
+fewer indicators.
+
+63
+00:04:35,550 --> 00:04:37,800
+So when to enter the market?
+
+64
+00:04:37,800 --> 00:04:43,180
+The time to buy in the triple screen is when
+a bull trend has just undergone a correction
+
+65
+00:04:43,180 --> 00:04:45,840
+and is beginning to turn up again.
+
+66
+00:04:45,840 --> 00:04:51,900
+Conversely, the time to sell in the triple
+screen is when a bear trend has just undergone
+
+67
+00:04:51,900 --> 00:04:55,280
+a correction and is beginning to turn down
+again.
+
+68
+00:04:55,280 --> 00:05:02,650
+Here’s how it works: to identify this, first
+pull up the longest range screen – in this
+
+69
+00:05:02,650 --> 00:05:04,260
+example we’ll use the daily chart.
+
+70
+00:05:04,260 --> 00:05:11,120
+First step: determine the trend: I use the
+100 hull moving average line to confirm the
+
+71
+00:05:11,120 --> 00:05:12,320
+trend.
+
+72
+00:05:12,320 --> 00:05:16,500
+In this particular chart we see the general
+direction of the trend is bearish.
+
+73
+00:05:16,500 --> 00:05:22,620
+Keep in mind that you can use any other tool
+to determine the trend, elder used the MACD,
+
+74
+00:05:22,620 --> 00:05:28,800
+I use the 100 Hull ma, you can use your favorite
+trend indicator.
+
+75
+00:05:28,800 --> 00:05:34,150
+Next we need to check the middle chart, and
+in this example it is the h4 chart.
+
+76
+00:05:34,150 --> 00:05:38,240
+We use this chart to determine the market
+momentum.
+
+77
+00:05:38,240 --> 00:05:43,949
+Using the RSI, I look at the chart to confirm
+if a correction is completing.
+
+78
+00:05:43,949 --> 00:05:48,550
+What we are trying to determine here is that
+the upward buying pressure from the correction
+
+79
+00:05:48,550 --> 00:05:50,120
+is reducing.
+
+80
+00:05:50,120 --> 00:05:56,010
+This means the flow of profit taking and other
+buy orders has hit a peak.
+
+81
+00:05:56,010 --> 00:06:00,270
+It’s essential here as well that we check
+to confirm this isn’t the start of a new
+
+82
+00:06:00,270 --> 00:06:01,960
+bull market.
+
+83
+00:06:01,960 --> 00:06:06,139
+If the upward correction is particularly strong,
+you need to wait.
+
+84
+00:06:06,139 --> 00:06:11,680
+So we know that the daily trend is down, and
+we also identified an upward correction on
+
+85
+00:06:11,680 --> 00:06:12,910
+the h4.
+
+86
+00:06:12,910 --> 00:06:20,290
+I’m also interested in the RSI value, I
+want it to below 50 and stay below it.
+
+87
+00:06:20,290 --> 00:06:24,919
+Now, we add the execution chart, the 1 hour
+chart.
+
+88
+00:06:24,919 --> 00:06:29,620
+On this chart we’re looking for the optimum
+time to execute the sell order.
+
+89
+00:06:29,620 --> 00:06:34,900
+That means we look for evidence that the pullback
+is completing and the market is reaching an
+
+90
+00:06:34,900 --> 00:06:38,370
+overbought point on this time scale.
+
+91
+00:06:38,370 --> 00:06:44,130
+I prefer to use simple price action, most
+of the times i search for trendline breakouts.
+
+92
+00:06:44,130 --> 00:06:49,520
+In this case we see this upslope trendline,
+which was broken to the downside, after a
+
+93
+00:06:49,520 --> 00:06:54,280
+correction, in the direction of the primary
+trend on the daily chart.
+
+94
+00:06:54,280 --> 00:06:55,930
+When to exit the trade?
+
+95
+00:06:55,930 --> 00:06:59,850
+Normally there isn’t any take profit defined
+for each order.
+
+96
+00:06:59,850 --> 00:07:02,889
+I prefer to use a trailing stop loss.
+
+97
+00:07:02,889 --> 00:07:08,440
+For this sell order, the exit stop loss is
+gradually moved downwards as the market makes
+
+98
+00:07:08,440 --> 00:07:10,080
+lower lows.
+
+99
+00:07:10,080 --> 00:07:12,710
+This is done to lock in the profit.
+
+100
+00:07:12,710 --> 00:07:18,400
+The loss amount and the order sizes are set
+according to your desired risk limits.
+
+101
+00:07:18,400 --> 00:07:21,620
+Let’s take another example.
+
+102
+00:07:21,620 --> 00:07:26,770
+The first screen – we analyze this time
+frame to identify the direction of the larger
+
+103
+00:07:26,770 --> 00:07:29,180
+trend with a trend indicator.
+
+104
+00:07:29,180 --> 00:07:33,270
+Again, I use the 100 Hull ma.
+
+105
+00:07:33,270 --> 00:07:37,690
+Once the first screen identifies the direction
+of the tide, this is the only direction in
+
+106
+00:07:37,690 --> 00:07:42,000
+which you will be allowed to trade when looking
+at your intermediate chart.
+
+107
+00:07:42,000 --> 00:07:47,640
+So if your trend indicator signals that it
+is an uptrend, like in this example, you can
+
+108
+00:07:47,640 --> 00:07:49,480
+only buy.
+
+109
+00:07:49,480 --> 00:07:53,850
+Second screen: once we know the direction
+of the trend, we are looking for a wave in
+
+110
+00:07:53,850 --> 00:07:59,820
+the contrary direction on our intermediate
+chart that will give us a beneficial entry.
+
+111
+00:07:59,820 --> 00:08:04,199
+So you are looking at the h4 chart as your
+intermediate time frame, as the daily chart
+
+112
+00:08:04,199 --> 00:08:06,530
+showed that the larger trend is upward.
+
+113
+00:08:06,530 --> 00:08:13,330
+You are now looking for an h4 decline which
+would provide you with an advantageous opportunity
+
+114
+00:08:13,330 --> 00:08:14,520
+to buy the market.
+
+115
+00:08:14,520 --> 00:08:18,710
+You would do this by searching for a buy signal
+from your oscillator.
+
+116
+00:08:18,710 --> 00:08:20,919
+In this example, I use the RSI.
+
+117
+00:08:20,919 --> 00:08:25,330
+I want to see the RSI above 50.
+
+118
+00:08:25,330 --> 00:08:30,370
+Any sell signals in this case would be ignored
+because the uptrend from the first screen
+
+119
+00:08:30,370 --> 00:08:33,269
+has already filtered those out.
+
+120
+00:08:33,269 --> 00:08:38,800
+We move to the third screen once we get an
+agreement from the first and second screen:
+
+121
+00:08:38,800 --> 00:08:43,579
+that is, when the larger trend is up, and
+an intermediate decline has generated a buy
+
+122
+00:08:43,579 --> 00:08:46,189
+signal from our oscillator.
+
+123
+00:08:46,189 --> 00:08:48,800
+In the third screen you determine the specific
+entry point.
+
+124
+00:08:48,800 --> 00:08:50,790
+So you are aiming to go long in the market
+with a h4 chart used in the second screen.
+
+125
+00:08:50,790 --> 00:08:54,019
+Like in the previous example, i prefer to
+rely on price action to enter the market,
+
+126
+00:08:54,019 --> 00:08:56,980
+as I don’t like to use many indicators.
+
+127
+00:08:56,980 --> 00:09:02,350
+We have a nice trend line breakout on the
+h1 chart, which gave us the green light to
+
+128
+00:09:02,350 --> 00:09:04,250
+enter long.
+
+129
+00:09:04,250 --> 00:09:34,429
+Here are other examples of triple screen trades.
+
+130
+00:09:34,429 --> 00:09:40,399
+The triple screen system can serve as a very
+good basis for building your own trading strategy.
+
+131
+00:09:40,399 --> 00:09:46,389
+Its big advantage is the confluence of time
+frames, with following only a long-term trend.
+
+132
+00:09:46,389 --> 00:09:52,100
+It’s not a perfect system by any means,
+but it surely reduces the risk of entering
+
+133
+00:09:52,100 --> 00:09:54,350
+at wrong times in the market.
+
+134
+00:09:54,350 --> 00:09:58,480
+If you got any value from this and learned
+something new, don’t forget to subscribe,
+
+135
+00:09:58,480 --> 00:10:03,470
+click the bell icon to stay in touch with
+new uploads and leave us a like to show your
+
+136
+00:10:03,470 --> 00:10:04,470
+support.
+
+137
+00:10:04,470 --> 00:10:04,473
+Until next time.
+

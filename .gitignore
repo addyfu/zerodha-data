@@ -1,0 +1,32 @@
+# Secrets - NEVER commit these!
+secrets.py
+enctoken.txt
+config.py
+
+# Data files (stored in releases instead)
+data/*.db
+data/*.csv
+exports/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

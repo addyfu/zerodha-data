@@ -1,0 +1,875 @@
+1
+00:00:00,979 --> 00:00:05,810
+If I show you this chart, can you tell which
+time frame I’m using?
+
+2
+00:00:05,810 --> 00:00:06,810
+NO!
+
+3
+00:00:06,810 --> 00:00:11,340
+If you view a chart on a one minute, hourly
+or daily timeframe, you wouldn’t be able
+
+4
+00:00:11,340 --> 00:00:13,950
+to distinguish one from the other.
+
+5
+00:00:13,950 --> 00:00:18,539
+That is because the price action on the charts
+have fractal characteristics.
+
+6
+00:00:18,539 --> 00:00:22,660
+We can see similar patterns at various time
+frequencies.
+
+7
+00:00:22,660 --> 00:00:26,589
+This is a very important topic in trading
+and today you’ll learn how to correctly
+
+8
+00:00:26,589 --> 00:00:28,820
+trade market fractals.
+
+9
+00:00:28,820 --> 00:00:36,670
+So if you could, like, subscribe to the channel
+and stick around for the full video.
+
+10
+00:00:36,670 --> 00:00:39,910
+What are Fractals?
+
+11
+00:00:39,910 --> 00:00:45,489
+At the very core, a market fractal is the
+basic building block of price movements up
+
+12
+00:00:45,489 --> 00:00:46,989
+and down.
+
+13
+00:00:46,989 --> 00:00:50,700
+Fractals indicate market turning points or
+swing points.
+
+14
+00:00:50,700 --> 00:00:55,770
+Every support or resistance formed in your
+charts first start with a fractal.
+
+15
+00:00:55,770 --> 00:01:01,000
+You can see why fractals are one of the best
+tools especially when trading price action.
+
+16
+00:01:01,000 --> 00:01:05,800
+In any trading decision, it is critical to
+find support and resistance areas, whatever
+
+17
+00:01:05,800 --> 00:01:09,320
+timeframe we are looking at.
+
+18
+00:01:09,320 --> 00:01:14,550
+Fractals were introduced by Bill Williams
+in his book "Trading Chaos".
+
+19
+00:01:14,550 --> 00:01:19,490
+Fractals are centered on the idea that there
+is repetition in price behavior and they can
+
+20
+00:01:19,490 --> 00:01:22,870
+provide an insight into the repetition patterns.
+
+21
+00:01:22,870 --> 00:01:28,360
+The indicator usually looks like a five bars
+model which is aimed to identify possible
+
+22
+00:01:28,360 --> 00:01:32,420
+reversal points and detect the direction of
+the price.
+
+23
+00:01:32,420 --> 00:01:37,850
+In order to detect a fractal formation you
+must look at five successive price bars where
+
+24
+00:01:37,850 --> 00:01:43,000
+the third (or the middle) bar represents the
+highest high or the lowest low.
+
+25
+00:01:43,000 --> 00:01:48,650
+In an up fractal the middle bar will have
+a higher high than both of the bars at either
+
+26
+00:01:48,650 --> 00:01:50,200
+side of it.
+
+27
+00:01:50,200 --> 00:01:55,460
+In a down fractal the middle bar will have
+a lower low than both of the bars at either
+
+28
+00:01:55,460 --> 00:01:56,700
+side of it.
+
+29
+00:01:56,700 --> 00:02:02,290
+Keep in mind that the fractal arrow appears
+only above or below the third candlestick
+
+30
+00:02:02,290 --> 00:02:07,230
+if it is the highest or the lowest of the
+five bars.
+
+31
+00:02:07,230 --> 00:02:12,760
+A bearish fractal pattern, which indicates
+a market reversal to the downside, forms when
+
+32
+00:02:12,760 --> 00:02:18,230
+each of three successive candlesticks shows
+price recoding a higher high, followed by
+
+33
+00:02:18,230 --> 00:02:23,920
+two candlesticks showing price action with
+a lower high than the high of the preceding
+
+34
+00:02:23,920 --> 00:02:24,920
+candlestick.
+
+35
+00:02:24,920 --> 00:02:28,400
+Bearish fractal pattern serves as resistance.
+
+36
+00:02:28,400 --> 00:02:33,620
+A bullish fractal pattern, which indicates
+a market reversal to the upside, forms when
+
+37
+00:02:33,620 --> 00:02:38,890
+each of three successive candlesticks show
+price moving to a lower low, followed by two
+
+38
+00:02:38,890 --> 00:02:44,959
+candlesticks showing price action with a higher
+low than the low of the preceding candlestick.
+
+39
+00:02:44,959 --> 00:02:48,870
+This fractal acts as a support level.
+
+40
+00:02:48,870 --> 00:02:53,810
+Fractals provide more reliable signals on
+higher time frames, but it will also display
+
+41
+00:02:53,810 --> 00:02:55,420
+fewer signals.
+
+42
+00:02:55,420 --> 00:03:00,790
+Obviously, depending on what time frame you’re
+using, the absolute amount of time required
+
+43
+00:03:00,790 --> 00:03:03,370
+to form a fractal pattern varies.
+
+44
+00:03:03,370 --> 00:03:08,659
+If you’re using the hourly chart, a fractal
+pattern can form in five hours.
+
+45
+00:03:08,659 --> 00:03:13,230
+If you trade the daily chart, you will see
+fractal patterns that form over the course
+
+46
+00:03:13,230 --> 00:03:14,600
+of five days.
+
+47
+00:03:14,600 --> 00:03:19,920
+One of the advantages of fractal pattern is
+that it is relatively easy to spot on a chart.
+
+48
+00:03:19,920 --> 00:03:25,209
+Notice here how the middle bar within the
+up fractal has the highest high of the entire
+
+49
+00:03:25,209 --> 00:03:31,189
+five bar structure, and how each of the two
+bars preceding it and following it have a
+
+50
+00:03:31,189 --> 00:03:32,689
+lower high.
+
+51
+00:03:32,689 --> 00:03:37,230
+This creates a level of resistance in the
+market, and the expectation is for price to
+
+52
+00:03:37,230 --> 00:03:42,049
+continue lower until the next down fractal
+forms in the market.
+
+53
+00:03:42,049 --> 00:03:46,760
+When you look at the middle bar within a down
+fractal, you can see that it has the lowest
+
+54
+00:03:46,760 --> 00:03:52,930
+low of the entire five bar structure, and
+that each of the two bars immediately before
+
+55
+00:03:52,930 --> 00:03:55,500
+and after it have a higher low.
+
+56
+00:03:55,500 --> 00:04:00,279
+This creates a level of support in the market
+and an expectation for price to move higher
+
+57
+00:04:00,279 --> 00:04:04,930
+until the next up fractal forms in the price
+action.
+
+58
+00:04:04,930 --> 00:04:09,040
+The structure of the market fractals is fairly
+simple to understand.
+
+59
+00:04:09,040 --> 00:04:13,940
+You can build many different trading rules
+and models around the concept of fractals.
+
+60
+00:04:13,940 --> 00:04:15,519
+But, very important.
+
+61
+00:04:15,519 --> 00:04:21,390
+The fifth candle in a fractal pattern must
+close before you make trading decisions.
+
+62
+00:04:21,390 --> 00:04:26,190
+This is because the price can move during
+the time the fifth candle is forming.
+
+63
+00:04:26,190 --> 00:04:32,000
+If price moves either above the higher high
+or below the lower low, while the pattern
+
+64
+00:04:32,000 --> 00:04:37,410
+is still forming, the fractal indicator will
+disappear from your price chart.
+
+65
+00:04:37,410 --> 00:04:42,260
+So you must wait for the pattern to complete
+in order to make sure that the fractal is
+
+66
+00:04:42,260 --> 00:04:43,260
+confirmed.
+
+67
+00:04:43,260 --> 00:04:51,630
+How To Read And Trade Market Fractals
+The fractal pattern reveals a “V” or “U”
+
+68
+00:04:51,630 --> 00:04:53,790
+shaped bottom or top.
+
+69
+00:04:53,790 --> 00:04:58,570
+Such a pattern of price action may indicate
+a market reversal – either a previous up
+
+70
+00:04:58,570 --> 00:05:03,720
+trending market gradually turning over to
+the downside, or a previous down trending
+
+71
+00:05:03,720 --> 00:05:05,480
+market turning to the upside.
+
+72
+00:05:05,480 --> 00:05:12,220
+At a minimum, a fractal pattern is useful
+for identifying at least a temporary level
+
+73
+00:05:12,220 --> 00:05:18,760
+of price support (with a bullish fractal)
+or price resistance (with a bearish fractal).
+
+74
+00:05:18,760 --> 00:05:23,470
+So you can use fractals to determine the possible
+direction of price.
+
+75
+00:05:23,470 --> 00:05:28,130
+One way in which you could do this, is by
+looking for broken fractals.
+
+76
+00:05:28,130 --> 00:05:33,570
+A fractal is considered broken when it has
+been confirmed and then the price breaks through
+
+77
+00:05:33,570 --> 00:05:36,350
+either the high or the low of the pattern.
+
+78
+00:05:36,350 --> 00:05:43,130
+If the price breaks an up fractal then the
+direction of the market is considered up and
+
+79
+00:05:43,130 --> 00:05:49,300
+if the price breaks a down fractal then the
+market is considered down.
+
+80
+00:05:49,300 --> 00:05:50,880
+But this is not enough.
+
+81
+00:05:50,880 --> 00:05:54,820
+On their own, fractals will offer many false
+signals.
+
+82
+00:05:54,820 --> 00:05:59,880
+As a standalone price action tool, fractals
+are quite unreliable.
+
+83
+00:05:59,880 --> 00:06:03,560
+The main problem with fractals is that there
+are so many of them.
+
+84
+00:06:03,560 --> 00:06:09,240
+Therefore, to get the best out of them, you
+must filter the signals with some other indicators
+
+85
+00:06:09,240 --> 00:06:11,280
+or forms of analysis.
+
+86
+00:06:11,280 --> 00:06:17,960
+You must view a fractal pattern in relation
+to other confluence factors, such as support/resistance
+
+87
+00:06:17,960 --> 00:06:24,640
+levels, supply and demand areas, pivot points,
+Fibonacci levels or round numbers, in order
+
+88
+00:06:24,640 --> 00:06:27,660
+to evaluate the strength of the fractal.
+
+89
+00:06:27,660 --> 00:06:33,670
+For example, if the high point of a bearish
+fractal coincides with a supply area that
+
+90
+00:06:33,670 --> 00:06:39,660
+also identifies that price point as a potential
+resistance level, then the fractal pattern
+
+91
+00:06:39,660 --> 00:06:45,950
+is more reliable – and more likely to be
+an accurate indicator of a market reversal.
+
+92
+00:06:45,950 --> 00:06:52,740
+Trend Continuation & Breakouts
+Fractals can help assessing the potential
+
+93
+00:06:52,740 --> 00:06:54,460
+direction of a price move.
+
+94
+00:06:54,460 --> 00:07:00,330
+For example, if a down fractal has recently
+printed on the price chart and the overall
+
+95
+00:07:00,330 --> 00:07:05,050
+trend is higher, then we can expect price
+to continue higher.
+
+96
+00:07:05,050 --> 00:07:11,170
+Along the same lines, if an up fractal has
+recently been breached by a new price leg
+
+97
+00:07:11,170 --> 00:07:17,360
+that is moving higher, that upside breakout
+can indicate that price momentum may continue
+
+98
+00:07:17,360 --> 00:07:18,360
+higher.
+
+99
+00:07:18,360 --> 00:07:24,470
+So, if the market is in a strong uptrend,
+there will be more fractals that are broken
+
+100
+00:07:24,470 --> 00:07:27,090
+to the upside than the downside.
+
+101
+00:07:27,090 --> 00:07:32,510
+That being said, the inability to break through
+the previous fractal can give you a hint that
+
+102
+00:07:32,510 --> 00:07:38,130
+the market is getting ready to consolidate,
+or perhaps even change trends.
+
+103
+00:07:38,130 --> 00:07:43,490
+The question then is whether or not the market
+is going to turn around and break through
+
+104
+00:07:43,490 --> 00:07:48,380
+the opposite direction fractal, because at
+that point, the previous trend very well could
+
+105
+00:07:48,380 --> 00:07:50,820
+be rolling over and changing.
+
+106
+00:07:50,820 --> 00:07:56,370
+Fractals + Moving Average or AVWAP
+
+107
+00:07:56,370 --> 00:08:00,930
+Another way to use Fractals is with a moving
+average or with Anchored VWAP.
+
+108
+00:08:00,930 --> 00:08:05,120
+I’ve talked about the power of this tool
+in this video.
+
+109
+00:08:05,120 --> 00:08:10,700
+Adding a dynamic level of support and resistance
+allows you to stay on the right side of the
+
+110
+00:08:10,700 --> 00:08:11,700
+trend.
+
+111
+00:08:11,700 --> 00:08:17,030
+For example, if you get a fractal that forms
+in the other direction of the trend, you simply
+
+112
+00:08:17,030 --> 00:08:23,050
+ignore it, at least until the moving average
+or VWAP tell you it’s time to go in that
+
+113
+00:08:23,050 --> 00:08:25,270
+direction as well.
+
+114
+00:08:25,270 --> 00:08:30,300
+If you have a 50 period exponential moving
+average that is moving to the upside, then
+
+115
+00:08:30,300 --> 00:08:36,209
+you are looking for up fractals being broken
+as you not only have the fractal indicator
+
+116
+00:08:36,209 --> 00:08:41,649
+pointing in that direction, but you have the
+longer-term traders supporting the move as
+
+117
+00:08:41,649 --> 00:08:42,649
+well.
+
+118
+00:08:42,649 --> 00:08:49,290
+Or, if a down fractal appears and is located
+near the moving average, then you can treat
+
+119
+00:08:49,290 --> 00:08:55,140
+the previous move as a pullback, with price
+founding support in an uptrend, near a moving
+
+120
+00:08:55,140 --> 00:08:56,140
+average.
+
+121
+00:08:56,140 --> 00:09:02,389
+3 confluence factors that signal that the
+price is more likely to continue higher.
+
+122
+00:09:02,389 --> 00:09:07,660
+Fractals & Trade management process
+
+123
+00:09:07,660 --> 00:09:11,300
+Fractals can also be used during the trade
+management process.
+
+124
+00:09:11,300 --> 00:09:17,620
+We know that an up fractal can serve as resistance
+during a rising market, and that a down fractal
+
+125
+00:09:17,620 --> 00:09:20,800
+can serve as support during a declining market.
+
+126
+00:09:20,800 --> 00:09:27,140
+As such, you can use these important levels
+for the placement of stop loss and take profit
+
+127
+00:09:27,140 --> 00:09:28,300
+orders.
+
+128
+00:09:28,300 --> 00:09:33,980
+When multiple fractals appear around the same
+area, let’s say a resistance area, you can
+
+129
+00:09:33,980 --> 00:09:39,740
+set your stop loss level when entering a short
+position above the highest fractal.
+
+130
+00:09:39,740 --> 00:09:45,350
+Make sure you don’t place it right above
+or below a fractal, leave a bigger margin,
+
+131
+00:09:45,350 --> 00:09:49,580
+in case there’s some sort of liquidity hunt.
+
+132
+00:09:49,580 --> 00:09:54,379
+Taking profits could also involve the use
+of fractals.
+
+133
+00:09:54,379 --> 00:09:59,240
+For example, if going long on a fractal, you
+could exit the position once a price hits
+
+134
+00:09:59,240 --> 00:10:00,370
+a bearish fractal.
+
+135
+00:10:00,370 --> 00:10:06,009
+I heard some traders close their positions
+when an opposite fractal appears, but this
+
+136
+00:10:06,009 --> 00:10:12,129
+is a bad money management approach, because
+the fractal signal will lag by a couple of
+
+137
+00:10:12,129 --> 00:10:13,129
+bars.
+
+138
+00:10:13,129 --> 00:10:18,220
+At least two closed bars are needed for a
+fractal to be completed, meaning that when
+
+139
+00:10:18,220 --> 00:10:23,570
+it provides a signal, the price may be at
+another level compared to the signal.
+
+140
+00:10:23,570 --> 00:10:27,760
+So don’t rely on this approach to take profits.
+
+141
+00:10:27,760 --> 00:10:33,790
+Fractals are excellent for visualizing major
+highs and lows and act as a support and resistance
+
+142
+00:10:33,790 --> 00:10:34,790
+level.
+
+143
+00:10:34,790 --> 00:10:40,660
+A better approach to take profits is a few
+points above or below previous fractals.
+
+144
+00:10:40,660 --> 00:10:44,420
+Multiple time frames approach
+
+145
+00:10:44,420 --> 00:10:50,140
+It is best to plot fractals in multiple time
+frames.
+
+146
+00:10:50,140 --> 00:10:55,350
+For example, trade short-term fractals in
+the direction of the long-term ones.
+
+147
+00:10:55,350 --> 00:11:03,149
+And focus on long signals during larger uptrends,
+and on short signals during larger downtrends.
+
+148
+00:11:03,149 --> 00:11:08,149
+In day trading setups for example, you could
+base your trades on support and resistance
+
+149
+00:11:08,149 --> 00:11:13,269
+areas offered by fractals on 4hour and daily
+chart.
+
+150
+00:11:13,269 --> 00:11:18,720
+You can check the 30 minutes or the hourly
+time frame to look for entries, but you’ll
+
+151
+00:11:18,720 --> 00:11:25,589
+use fractal periods on the higher timeframes
+to spot support and resistance areas.
+
+152
+00:11:25,589 --> 00:11:31,589
+In this example, you look for reactions at
+this resistance level, given by the fractals
+
+153
+00:11:31,589 --> 00:11:37,430
+on H4 and Daily time frame and trade on 30M
+timeframe.
+
+154
+00:11:37,430 --> 00:11:43,199
+Trading in lower timeframe lets you to read
+price action while watching important support
+
+155
+00:11:43,199 --> 00:11:46,189
+/ resistance levels on higher timeframe.
+
+156
+00:11:46,189 --> 00:11:52,649
+If price breaks this major resistance here,
+it can be a potential breakout setup.
+
+157
+00:11:52,649 --> 00:11:57,790
+If it rejects the resistance, it can be a
+decent reversal setup.
+
+158
+00:11:57,790 --> 00:12:03,800
+This price action approach might not be suited
+for beginner traders, but if you are an experienced
+
+159
+00:12:03,800 --> 00:12:10,410
+trader, fractals could be of great help, perfect
+for finding areas of value on your chart.
+
+160
+00:12:10,410 --> 00:12:13,470
+Look for areas where multiple fractals form.
+
+161
+00:12:13,470 --> 00:12:15,910
+And mark those areas.
+
+162
+00:12:15,910 --> 00:12:22,139
+If multiple fractals form around a certain
+level, and price is unable to go through,
+
+163
+00:12:22,139 --> 00:12:25,490
+that zone is an important one.
+
+164
+00:12:25,490 --> 00:12:29,329
+Fractals limitations
+
+165
+00:12:29,329 --> 00:12:33,129
+Now let’s be clear, Fractals do not predict
+the price.
+
+166
+00:12:33,129 --> 00:12:35,499
+They offer lagging signals.
+
+167
+00:12:35,499 --> 00:12:41,200
+The arrows for the pattern are typically drawn
+over the high or low point, which is the middle
+
+168
+00:12:41,200 --> 00:12:44,579
+of the fractal, not where the fractal completes.
+
+169
+00:12:44,579 --> 00:12:47,730
+Therefore, the arrows can be visually deceiving.
+
+170
+00:12:47,730 --> 00:12:54,360
+So be careful, since the pattern is actually
+completing two bars to the right of the arrow,
+
+171
+00:12:54,360 --> 00:13:00,110
+the first available entry point after seeing
+an arrow is the opening price of the third
+
+172
+00:13:00,110 --> 00:13:02,269
+bar to the right of the arrow.
+
+173
+00:13:02,269 --> 00:13:07,660
+I wouldn’t base my entries on the appearance
+of a single fractal.
+
+174
+00:13:07,660 --> 00:13:13,399
+Fractals has practical meaning only as part
+of a comprehensive strategy, and only for
+
+175
+00:13:13,399 --> 00:13:17,240
+periods of more than one hour.
+
+176
+00:13:17,240 --> 00:13:22,649
+Another disadvantage of trading fractals is
+the fact they occur quite frequently in the
+
+177
+00:13:22,649 --> 00:13:29,580
+ordinary course of price action movement – therefore,
+the pattern is prone to giving many false
+
+178
+00:13:29,580 --> 00:13:30,580
+signals.
+
+179
+00:13:30,580 --> 00:13:36,670
+That’s why few traders rely only on the
+fractal indicator for trading signals, instead
+
+180
+00:13:36,670 --> 00:13:41,559
+they are using it in conjunction with other
+technical indicators.
+
+181
+00:13:41,559 --> 00:13:48,009
+Remember: the longer the time period of the
+chart, the more reliable the pattern.
+
+182
+00:13:48,009 --> 00:13:53,759
+So look for fractals on the hourly, H4 and
+daily time frames.
+
+183
+00:13:53,759 --> 00:13:57,580
+If you found value and learned something new,
+leave us a like.
+
+184
+00:13:57,580 --> 00:14:01,689
+This way we’ll know if you'd like to see
+more videos like this one.
+
+185
+00:14:01,689 --> 00:14:06,790
+And check out our academy program if you want
+to further level up your trading.
+
+186
+00:14:06,790 --> 00:14:07,239
+Until next time.
+

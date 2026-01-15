@@ -1,0 +1,840 @@
+1
+00:00:00,740 --> 00:00:01,740
+Hello and welcome.
+
+2
+00:00:01,740 --> 00:00:07,649
+Today I’m sharing my trading experience,
+what trading is all about, some of its complexities
+
+3
+00:00:07,649 --> 00:00:11,080
+and how your approach should be when day trading.
+
+4
+00:00:11,080 --> 00:00:16,170
+So if you could, like, subscribe to the channel,
+and stick around for the full video.
+
+5
+00:00:16,170 --> 00:00:22,539
+Technical indicators are inherently lagging
+so they cannot be relied upon on their own.
+
+6
+00:00:22,539 --> 00:00:24,869
+Most new traders start with indicators.
+
+7
+00:00:24,869 --> 00:00:26,769
+That’s the first step in day trading.
+
+8
+00:00:26,769 --> 00:00:31,259
+In my first 2 years in trading, price action
+didn’t matter to me because I was relying
+
+9
+00:00:31,259 --> 00:00:35,650
+on a random set of lagging indicators to make
+decisions for me.
+
+10
+00:00:35,650 --> 00:00:40,360
+The truth is I was being lazy, hoping that
+I’d stumble across some magical combination
+
+11
+00:00:40,360 --> 00:00:43,260
+of indicators that would make me wealthy.
+
+12
+00:00:43,260 --> 00:00:48,620
+I was just making decisions because a few
+dots and lines said it was time to buy or
+
+13
+00:00:48,620 --> 00:00:49,730
+sell.
+
+14
+00:00:49,730 --> 00:00:55,780
+But to rely 100% on them without first learning
+how to read price action is a major mistake.
+
+15
+00:00:55,780 --> 00:00:57,020
+Don’t get me wrong.
+
+16
+00:00:57,020 --> 00:01:01,870
+I’m not saying all indicators are bad or
+that traders who use them are wrong to do
+
+17
+00:01:01,870 --> 00:01:02,870
+so.
+
+18
+00:01:02,870 --> 00:01:07,100
+I also use trading indicators, but price action
+comes first.
+
+19
+00:01:07,100 --> 00:01:11,630
+Before you apply any indicator to the chart,
+you first need to understand price action.
+
+20
+00:01:11,630 --> 00:01:16,070
+Even If you feel that indicators are the way
+to go, that’s okay.
+
+21
+00:01:16,070 --> 00:01:19,659
+Just be sure to spend some time learning how
+to read price action.
+
+22
+00:01:19,659 --> 00:01:27,210
+It’ll help you in the long run even if you
+decide to use an indicator-based strategy.
+
+23
+00:01:27,210 --> 00:01:31,159
+If a trade doesn’t let you sleep, you are
+not trading correctly
+
+24
+00:01:31,159 --> 00:01:34,579
+A simple rule you should apply is to think
+about your sleep.
+
+25
+00:01:34,579 --> 00:01:39,119
+If you are able to place a trade, set the
+appropriate stop loss and take profit orders
+
+26
+00:01:39,119 --> 00:01:44,810
+in your platform, and then go to sleep, this
+is the trade size that fits your risk profile.
+
+27
+00:01:44,810 --> 00:01:50,021
+If, however, when you place a trade you find
+it difficult to sleep, you find that you are
+
+28
+00:01:50,021 --> 00:01:54,810
+always thinking about the trade while away
+from your computer, that you feel the urge
+
+29
+00:01:54,810 --> 00:01:58,659
+to constantly check your smartphone, then
+the trade is too big.
+
+30
+00:01:58,659 --> 00:02:00,329
+That’s a common mistake.
+
+31
+00:02:00,329 --> 00:02:05,299
+When people are new to trading, they tend
+to feel pressure throughout the day and especially
+
+32
+00:02:05,299 --> 00:02:07,170
+when a trade is open.
+
+33
+00:02:07,170 --> 00:02:12,140
+You need to reduce your trading to the sleeping
+point, the point at which you can place a
+
+34
+00:02:12,140 --> 00:02:16,440
+trade, accept the risk, and have a peaceful
+state of mind.
+
+35
+00:02:16,440 --> 00:02:22,500
+Although trading risk is important, your emotional
+and mental health risks are more important.
+
+36
+00:02:22,500 --> 00:02:28,070
+The first and most important way to control
+stress levels with regards to trading, is
+
+37
+00:02:28,070 --> 00:02:30,290
+to control your position sizes.
+
+38
+00:02:30,290 --> 00:02:34,940
+You will find yourself remarkably less stressed
+if you keep your percentage at risk on each
+
+39
+00:02:34,940 --> 00:02:35,940
+trade lower.
+
+40
+00:02:35,940 --> 00:02:39,170
+Always watch more than one time-frame.
+
+41
+00:02:39,170 --> 00:02:42,970
+Zoom out to see the bigger picture.
+
+42
+00:02:42,970 --> 00:02:48,020
+Day trading is considered a riskier alternative
+to the more traditional investing or swing
+
+43
+00:02:48,020 --> 00:02:49,020
+trading.
+
+44
+00:02:49,020 --> 00:02:54,030
+When trading short timeframes, it is not enough
+to simply analyze one time frame.
+
+45
+00:02:54,030 --> 00:02:58,930
+Sometimes there is very little time to catch
+the perfect moment to enter and if you are
+
+46
+00:02:58,930 --> 00:03:03,990
+late even a little bit, you won’t be able
+to take advantage of the price movement.
+
+47
+00:03:03,990 --> 00:03:10,260
+If you see a good trade on an M15 chart, see
+how it looks on the hourly chart and H4 too.
+
+48
+00:03:10,260 --> 00:03:12,690
+Zoom out to see the bigger picture.
+
+49
+00:03:12,690 --> 00:03:18,090
+Sometimes an opportunity may be less obvious
+on a smaller chart timeframe and more obvious
+
+50
+00:03:18,090 --> 00:03:22,290
+if you zoom out and look at the bigger picture,
+and vice versa.
+
+51
+00:03:22,290 --> 00:03:27,450
+Sometimes a move on a 10-minute chart can
+look so scary; but when you step back, it’s
+
+52
+00:03:27,450 --> 00:03:30,420
+very minor when viewed on a daily time frame.
+
+53
+00:03:30,420 --> 00:03:35,250
+Evaluating a market on different timeframes
+will help confirm a trend and make a better
+
+54
+00:03:35,250 --> 00:03:36,540
+informed decisions.
+
+55
+00:03:36,540 --> 00:03:43,510
+Never make a trade, change your mind for little
+to no reason and take it off
+
+56
+00:03:43,510 --> 00:03:45,510
+Here’s a familiar experience.
+
+57
+00:03:45,510 --> 00:03:50,750
+You analyze a chart for some time, you see
+a decent trade, you pull the trigger, confident
+
+58
+00:03:50,750 --> 00:03:55,850
+that your analysis will pay off, and after
+5 minutes, when you’re down a few points,
+
+59
+00:03:55,850 --> 00:03:57,680
+you close your position.
+
+60
+00:03:57,680 --> 00:04:02,280
+When day trading, emotions will come from
+market noises coming your way.
+
+61
+00:04:02,280 --> 00:04:07,010
+Whether markets are in an uptrend or downtrend,
+you will witness a lot of noise.
+
+62
+00:04:07,010 --> 00:04:10,320
+And noise can impact your trading strategy
+and decisions.
+
+63
+00:04:10,320 --> 00:04:15,450
+So, you must filter it to keep your emotions
+under control.
+
+64
+00:04:15,450 --> 00:04:19,739
+The lesson is to always give your trades enough
+time to come good.
+
+65
+00:04:19,739 --> 00:04:24,860
+If you often engage in emotional exits, this
+will only destroy your confidence and eat
+
+66
+00:04:24,860 --> 00:04:27,659
+into your profits
+This doesn’t mean you can’t change your
+
+67
+00:04:27,659 --> 00:04:30,169
+mind when new information comes in.
+
+68
+00:04:30,169 --> 00:04:36,020
+If a support level is broken for example,
+or a huge pin bar forms on high volume.
+
+69
+00:04:36,020 --> 00:04:38,639
+This should all be considered in your plan.
+
+70
+00:04:38,639 --> 00:04:43,620
+Always question yourself as to whether your
+decisions are emotionally driven or are backed
+
+71
+00:04:43,620 --> 00:04:45,169
+by technicals or fundamentals.
+
+72
+00:04:45,169 --> 00:04:47,810
+Learn all you can about the Kelly Formula.
+
+73
+00:04:47,810 --> 00:04:52,439
+This is the mathematical answer to how much
+you should risk on a trade.
+
+74
+00:04:52,439 --> 00:04:58,870
+The reality is that even a wildly profitable
+system will go bust if your risk is too big.
+
+75
+00:04:58,870 --> 00:05:04,370
+The Kelly criterion is an advanced money management
+tool that helps you work out how much money
+
+76
+00:05:04,370 --> 00:05:08,879
+you can risk on each new trading position,
+based on how well you have done with similar
+
+77
+00:05:08,879 --> 00:05:10,979
+trades in the past.
+
+78
+00:05:10,979 --> 00:05:16,719
+Calculating the Kelly criterion is relatively
+simple and relies on two basic components:
+
+79
+00:05:16,719 --> 00:05:22,380
+your trading strategy's win percentage probability
+and its win to loss ratio.
+
+80
+00:05:22,380 --> 00:05:26,699
+These will help you arrive at a number called
+the Kelly percentage.
+
+81
+00:05:26,699 --> 00:05:31,379
+This gives you a guide to what percentage
+of your trading account is the maximum amount
+
+82
+00:05:31,379 --> 00:05:34,060
+you should risk on any given trade.
+
+83
+00:05:34,060 --> 00:05:40,779
+Kelly formula is probably the best money management
+tool for judging position sizes and risk tolerance
+
+84
+00:05:40,779 --> 00:05:42,380
+in trading.
+
+85
+00:05:42,380 --> 00:05:48,270
+You don’t need to trade.
+
+86
+00:05:48,270 --> 00:05:49,270
+If the market is quiet or behaving strangely,
+just wait it out.
+
+87
+00:05:49,270 --> 00:05:53,900
+If you find yourself jumping into low conviction
+trades because you can’t find anything better,
+
+88
+00:05:53,900 --> 00:05:57,550
+the most likely reason is that you need to
+do more work.
+
+89
+00:05:57,550 --> 00:06:02,849
+Spend less time looking at charts and more
+time researching, reading, back testing and
+
+90
+00:06:02,849 --> 00:06:04,249
+analyzing.
+
+91
+00:06:04,249 --> 00:06:09,270
+If you take more trades than your strategy
+dictates, that’s a warning sign.
+
+92
+00:06:09,270 --> 00:06:13,259
+This is often a result of boredom or lack
+of discipline.
+
+93
+00:06:13,259 --> 00:06:19,169
+Since these trades occur outside of your trading
+plan, they are less likely to perform well.
+
+94
+00:06:19,169 --> 00:06:22,060
+So trade what your strategy dictates.
+
+95
+00:06:22,060 --> 00:06:27,540
+If the market is quiet or the trade entry
+conditions are not there, just wait out.
+
+96
+00:06:27,540 --> 00:06:30,029
+A new opportunity always comes along.
+
+97
+00:06:30,029 --> 00:06:33,509
+You only need a few big trades to have a green
+week.
+
+98
+00:06:33,509 --> 00:06:39,818
+Learn to plan and structure every trade so
+that you know what to do in any eventuality.
+
+99
+00:06:39,818 --> 00:06:44,819
+You need to make a specific plan regarding
+when you’ll enter and exit a trade.
+
+100
+00:06:44,819 --> 00:06:48,250
+Decide which signals will be your green light
+to enter.
+
+101
+00:06:48,250 --> 00:06:51,449
+Consider what you’ll do if a trade starts
+going against you.
+
+102
+00:06:51,449 --> 00:06:53,259
+What’s your stop loss?
+
+103
+00:06:53,259 --> 00:06:55,960
+When will you get out if things don’t go
+your way?
+
+104
+00:06:55,960 --> 00:06:59,559
+How much of your portfolio should you risk
+on one trade?
+
+105
+00:06:59,559 --> 00:07:03,659
+What you’ll do if the market doesn’t move
+and you’re stuck in the trade.
+
+106
+00:07:03,659 --> 00:07:06,150
+What you’ll do when you’re in profit?
+
+107
+00:07:06,150 --> 00:07:11,550
+You need to plan and structure every trade
+so that you know what to do in any scenario.
+
+108
+00:07:11,550 --> 00:07:16,779
+Your trading plan should be complicated enough
+to be effective, but simple enough to make
+
+109
+00:07:16,779 --> 00:07:18,539
+snap decisions.
+
+110
+00:07:18,539 --> 00:07:23,639
+If you have 20 conditions that must be met
+and many are subjective, you will find it
+
+111
+00:07:23,639 --> 00:07:26,559
+difficult (if not impossible) to actually
+make trades.
+
+112
+00:07:26,559 --> 00:07:28,710
+More hours does not mean more profit.
+
+113
+00:07:28,710 --> 00:07:33,620
+Sitting in front of a screen for many hours
+can lead to diminishing returns and burnout.
+
+114
+00:07:33,620 --> 00:07:38,320
+Sitting in front of a computer screen all
+day, watching the price action, might sound
+
+115
+00:07:38,320 --> 00:07:43,280
+like fun, but I have found it can also be
+a detriment to my performance.
+
+116
+00:07:43,280 --> 00:07:48,460
+There is no another job in the world that
+will take money from you by trading your time.
+
+117
+00:07:48,460 --> 00:07:51,189
+You can make thousands of dollars in a few
+seconds.
+
+118
+00:07:51,189 --> 00:07:55,550
+But you can also trade for 7 hours and lose
+a lot of capital.
+
+119
+00:07:55,550 --> 00:07:59,259
+The market doesn’t care how much time you
+are trading for.
+
+120
+00:07:59,259 --> 00:08:02,199
+Day trading is often chaotic and full of stress.
+
+121
+00:08:02,199 --> 00:08:05,719
+It’s so easy to lose your ability to concentrate.
+
+122
+00:08:05,719 --> 00:08:11,180
+You can be highly motivated to day trade and
+have a decent strategy, but if you lack concentration,
+
+123
+00:08:11,180 --> 00:08:13,479
+you’ll have big problems.
+
+124
+00:08:13,479 --> 00:08:18,490
+When day trading, it’s essential that you
+learn to concentrate while executing a trade
+
+125
+00:08:18,490 --> 00:08:21,129
+and monitor the market action during a trade.
+
+126
+00:08:21,129 --> 00:08:26,580
+It’s useful to remember that concentration
+takes psychological energy and your energy
+
+127
+00:08:26,580 --> 00:08:28,279
+has its limits.
+
+128
+00:08:28,279 --> 00:08:32,860
+If you want to maintain your focus, you must
+be rested and relaxed.
+
+129
+00:08:32,860 --> 00:08:38,330
+Four hours of concentrated trading or research
+is usually the limit for most people.
+
+130
+00:08:38,330 --> 00:08:40,159
+Don’t overdo it.
+
+131
+00:08:40,159 --> 00:08:42,820
+More hours does not mean more profit.
+
+132
+00:08:42,820 --> 00:08:43,820
+Value your time.
+
+133
+00:08:43,820 --> 00:08:45,251
+You don’t have to spend all day trading.
+
+134
+00:08:45,251 --> 00:08:46,251
+Don’t quit your job to become a full time
+trader.
+
+135
+00:08:46,251 --> 00:08:52,709
+Don’t start with the intention of trading
+for regular income.
+
+136
+00:08:52,709 --> 00:08:55,850
+Day trading is not something that should be
+taken lightly.
+
+137
+00:08:55,850 --> 00:08:58,709
+It takes years of building up knowledge and
+experience.
+
+138
+00:08:58,709 --> 00:09:04,560
+I get triggered when I see influencers on
+different platforms telling people to quit
+
+139
+00:09:04,560 --> 00:09:10,279
+their jobs to day trade stocks or crypto,
+showing off their expensive cars and luxurious
+
+140
+00:09:10,279 --> 00:09:11,810
+life style.
+
+141
+00:09:11,810 --> 00:09:15,649
+You can’t simply walk out of your day job
+to start trading.
+
+142
+00:09:15,649 --> 00:09:20,149
+There are many traders that are successful
+and have full-time jobs.
+
+143
+00:09:20,149 --> 00:09:23,820
+Remember, in trading, you do not have a set
+salary.
+
+144
+00:09:23,820 --> 00:09:28,880
+The market owes you nothing, your winning
+strategy might stop working in a year.
+
+145
+00:09:28,880 --> 00:09:32,170
+And your mistakes have big consequences in
+trading.
+
+146
+00:09:32,170 --> 00:09:36,839
+You don’t know how much money you will make
+or lose before any given trading day.
+
+147
+00:09:36,839 --> 00:09:40,920
+This is the most important piece of advice
+I can give to 9-5 traders.
+
+148
+00:09:40,920 --> 00:09:44,779
+Do NOT give up your primary source of income.
+
+149
+00:09:44,779 --> 00:09:48,160
+In general, you don’t want to lose streams
+of income.
+
+150
+00:09:48,160 --> 00:09:52,240
+The more streams of income you have, the more
+stability you have.
+
+151
+00:09:52,240 --> 00:09:56,480
+Better income stability will allow you to
+trade better, as you view the market with
+
+152
+00:09:56,480 --> 00:09:59,290
+less emotional attachment to money!
+
+153
+00:09:59,290 --> 00:10:03,050
+Keep your job as long as you can while you
+build up your trading skill-set.
+
+154
+00:10:03,050 --> 00:10:04,970
+Don’t rush the process.
+
+155
+00:10:04,970 --> 00:10:12,139
+Don’t believe anything you read until you
+have tested and tried it out for yourself.
+
+156
+00:10:12,139 --> 00:10:17,339
+What used to work ten years ago, on a certain
+market, may not work today.
+
+157
+00:10:17,339 --> 00:10:23,940
+A strategy I use on the H4 time frame on Tesla
+may not work for you on a 5-min chart of Bitcoin.
+
+158
+00:10:23,940 --> 00:10:26,519
+That’s a common mistake amongst new traders.
+
+159
+00:10:26,519 --> 00:10:31,160
+They don’t understand that different strategies
+work on different markets.
+
+160
+00:10:31,160 --> 00:10:36,090
+You only find out what works for you by rigorous
+testing and analysis.
+
+161
+00:10:36,090 --> 00:10:41,110
+Back testing is the most under-utilized weapon
+in trading.
+
+162
+00:10:41,110 --> 00:10:45,490
+Many traders find it to be boring, difficult,
+and even pointless.
+
+163
+00:10:45,490 --> 00:10:50,569
+But back testing allows you to witness how
+your plan would have theoretically performed
+
+164
+00:10:50,569 --> 00:10:53,779
+had you been trading it for the past months.
+
+165
+00:10:53,779 --> 00:10:58,940
+With this information you can objectively
+confirm whether or not your trading plan will
+
+166
+00:10:58,940 --> 00:11:01,779
+make you money.
+
+167
+00:11:01,779 --> 00:11:04,130
+Backtesting is like a mirror to reality.
+
+168
+00:11:04,130 --> 00:11:09,410
+You might have the best trading idea, but
+if you backtest it over the past few months
+
+169
+00:11:09,410 --> 00:11:15,079
+and it’s not profitable, chances are this
+strategy isn’t going to suddenly start working
+
+170
+00:11:15,079 --> 00:11:16,079
+now.
+
+171
+00:11:16,079 --> 00:11:21,449
+Likewise if you come up with a clever idea
+that you think probably doesn’t work, you
+
+172
+00:11:21,449 --> 00:11:26,640
+may surprise yourself to discover through
+your back testing that it in fact does work.
+
+173
+00:11:26,640 --> 00:11:32,380
+Of course, the past is never an indication
+of the future, or at least not a consistently
+
+174
+00:11:32,380 --> 00:11:33,970
+reliable one.
+
+175
+00:11:33,970 --> 00:11:38,769
+But without back testing you are essentially
+trading blind.
+
+176
+00:11:38,769 --> 00:11:42,140
+If you found value and learned something new,
+leave us a like.
+
+177
+00:11:42,140 --> 00:11:45,730
+This way we’ll know if you'd like to see
+more videos like this one.
+
+178
+00:11:45,730 --> 00:11:50,060
+And check out our academy program if you want
+to further level up your trading.
+
+179
+00:11:50,060 --> 00:11:51,510
+Until next time.
+

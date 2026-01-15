@@ -1,0 +1,1619 @@
+1
+00:00:00,000 --> 00:00:07,080
+$100 a day from trading! Pocket change for some, 
+life-changing for others! If you stay till the  
+
+2
+00:00:07,080 --> 00:00:14,904
+end, you’ll discover how to day trade using smart 
+money concepts, to hit this target every day!
+  
+
+3
+00:00:14,904 --> 00:00:16,680
+Market structure
+So when I started trading,  
+
+4
+00:00:16,680 --> 00:00:20,960
+I had no clue what I was doing.
+I thought fancy indicators  
+
+5
+00:00:20,960 --> 00:00:24,400
+were the key to success.
+I just wanted to know the  
+
+6
+00:00:24,400 --> 00:00:29,200
+trend and find a simple entry point!
+But I couldn't figure out which way  
+
+7
+00:00:29,200 --> 00:00:32,640
+the market was going!
+It was confusing because  
+
+8
+00:00:32,640 --> 00:00:38,880
+different time frames showed different trends.
+All changed when I ditched all indicators  
+
+9
+00:00:38,880 --> 00:00:45,440
+and started reading market structure!
+This the foundation of everything we do!
+ 
+  
+
+10
+00:00:45,440 --> 00:00:52,400
+A bullish market is when prices keep going 
+up. You'll see higher highs and higher lows. 
+
+11
+00:00:52,400 --> 00:00:57,760
+This means each time the price drops, 
+it doesn't go as low as before. 
+
+12
+00:00:57,760 --> 00:01:02,000
+And when it goes up, it goes 
+higher than the last peak. 
+
+13
+00:01:02,000 --> 00:01:07,200
+When price breaks through a previous 
+high, we call it a "break of structure". 
+
+14
+00:01:07,200 --> 00:01:12,000
+This is a key moment. It shows 
+the market is getting stronger.
+  
+
+15
+00:01:12,000 --> 00:01:16,520
+Now, real markets aren't perfect. 
+They don't move in straight lines. 
+
+16
+00:01:16,520 --> 00:01:22,800
+That's why we need to focus on these swing highs 
+and lows. These are the big turns in price. 
+
+17
+00:01:22,800 --> 00:01:27,640
+A swing low is the lowest 
+point that led to a swing high. 
+
+18
+00:01:27,640 --> 00:01:34,880
+So, when you see a new high form, look back. The 
+lowest point before that high, is your swing low! 
+
+19
+00:01:34,880 --> 00:01:40,760
+This might sound basic, but it's super 
+important and many traders get it wrong. 
+
+20
+00:01:40,760 --> 00:01:46,280
+They zoom in too close and miss the bigger 
+picture. They might think the market is going  
+
+21
+00:01:46,280 --> 00:01:52,400
+down when it's really still going up overall.
+ 
+Let's say you're looking at a small part of  
+
+22
+00:01:52,400 --> 00:01:59,480
+the chart. You might see lower lows and lower 
+highs. You might think the market is going down. 
+
+23
+00:01:59,480 --> 00:02:04,840
+But if you zoom out, you might see that 
+this is just a small dip in a bigger  
+
+24
+00:02:04,840 --> 00:02:11,000
+upward trend. If you sell here, you will 
+lose money when the price keeps going up. 
+
+25
+00:02:11,000 --> 00:02:16,320
+That's why it's crucial to map out 
+your swing highs and lows correctly.  
+
+26
+00:02:16,320 --> 00:02:21,520
+It helps you see the big picture 
+and trade in the right direction.
+  
+
+27
+00:02:21,520 --> 00:02:26,960
+In a bearish market, it's the opposite. 
+You're looking for lower highs and lower  
+
+28
+00:02:26,960 --> 00:02:32,760
+lows. The highest point that led to 
+a new low becomes your swing high. 
+
+29
+00:02:32,760 --> 00:02:39,160
+And, everything between a swing high and 
+a swing low is just "internal structure". 
+
+30
+00:02:39,160 --> 00:02:44,680
+It's the small moves within the bigger trend. 
+Don't get too caught up in these small moves.  
+
+31
+00:02:44,680 --> 00:02:49,880
+Keep your eye on the bigger trend.
+ 
+Here's another important point: After a  
+
+32
+00:02:49,880 --> 00:02:56,160
+break of structure, always expect a pullback.
+This means after the price breaks through a  
+
+33
+00:02:56,160 --> 00:03:03,440
+previous high or low, it will usually come back 
+a bit, before continuing in the same direction. 
+
+34
+00:03:03,440 --> 00:03:09,160
+Many new traders make this mistake here.
+They see the price break through a level  
+
+35
+00:03:09,160 --> 00:03:14,080
+and immediately want to buy or sell.
+But the smart move is to wait for the  
+
+36
+00:03:14,080 --> 00:03:21,320
+pullback. This gives you a better entry point.
+ 
+Now, let's talk about strong and weak highs and  
+
+37
+00:03:21,320 --> 00:03:26,360
+lows. This concept can really boost your trading.
+A low's job is to make a high. A high's job is to  
+
+38
+00:03:26,360 --> 00:03:33,400
+make a low. In a bullish market, we have a 
+series of strong lows. A strong low is one  
+
+39
+00:03:33,400 --> 00:03:38,840
+that succeeds in making a higher high.
+If a high fails to make a lower low,  
+
+40
+00:03:38,840 --> 00:03:45,360
+we call it a weak high. This is important for 
+setting targets. In a bullish market, we like  
+
+41
+00:03:45,360 --> 00:03:52,600
+to buy at strong lows and target weak highs.
+Think about it this way: In a bullish market,  
+
+42
+00:03:52,600 --> 00:03:59,360
+we're trying to catch higher lows. These are 
+the easy trades, the continuations. In a bearish  
+
+43
+00:03:59,360 --> 00:04:05,400
+market, we're looking to catch lower highs.
+This concept gives you a clean framework  
+
+44
+00:04:05,400 --> 00:04:12,520
+for mapping structure and setting targets. 
+ 
+Now let's look at trend changes, also known as  
+
+45
+00:04:12,520 --> 00:04:19,720
+changes of character. A bullish market doesn't 
+last forever, and neither does a bearish one. 
+
+46
+00:04:19,720 --> 00:04:26,480
+In a bullish market, we're seeing higher 
+highs and higher lows. But at some point,  
+
+47
+00:04:26,480 --> 00:04:33,480
+price will break below a strong low and form 
+a lower low. This is where the trend changes. 
+
+48
+00:04:33,480 --> 00:04:40,720
+Some traders want to see both a lower low and a 
+lower high before they confirm a trend change. 
+
+49
+00:04:40,720 --> 00:04:46,400
+That’s because sometimes, what looks 
+like a trend change can be a fake-out. 
+
+50
+00:04:46,400 --> 00:04:52,480
+The market might grab some liquidity 
+below a low and then continue up.
+  
+
+51
+00:04:52,480 --> 00:04:59,720
+I like to keep it simple. As soon as I see that 
+lower low form, I consider it a trend change. 
+
+52
+00:04:59,720 --> 00:05:05,240
+I then look for the lower high to form 
+so I can trade the new bearish trend. 
+
+53
+00:05:05,240 --> 00:05:09,680
+This links back to our strong 
+and weak highs and lows concept. 
+
+54
+00:05:09,680 --> 00:05:15,920
+When a strong low is taken out, it means a lot 
+of money stepped in to push the price down. 
+
+55
+00:05:15,920 --> 00:05:21,240
+This creates a strong high. We can 
+use this to build our trade ideas. 
+
+56
+00:05:21,240 --> 00:05:26,080
+The same applies in reverse for a 
+bearish to bullish trend change. 
+
+57
+00:05:26,080 --> 00:05:31,760
+We look for that higher high, then try 
+to catch the higher low that follows.
+  
+
+58
+00:05:31,760 --> 00:05:34,720
+These changes of character aren't perfect. 
+
+59
+00:05:34,720 --> 00:05:39,680
+They will often give false signals, 
+because we bet on a reversal. 
+
+60
+00:05:39,680 --> 00:05:43,960
+A reversal is much harder 
+to spot that a continuation. 
+
+61
+00:05:43,960 --> 00:05:50,360
+In a bullish trend, we look for that first 
+bearish change of character, to signal the  
+
+62
+00:05:50,360 --> 00:05:56,800
+start of a pullback. Then we wait for a bullish 
+change of character to signal the end of the  
+
+63
+00:05:56,800 --> 00:06:03,720
+pullback and the formation of a higher low.
+This approach works for both continuations  
+
+64
+00:06:03,720 --> 00:06:06,080
+and reversals. 
+ 
+ 
+Supply/demand 
+
+65
+00:06:06,080 --> 00:06:11,840
+After the market structure, the next concept 
+you should master is supply and demand. 
+
+66
+00:06:11,840 --> 00:06:18,560
+Supply and demand zones are key spots on 
+charts where big players make their moves. 
+
+67
+00:06:18,560 --> 00:06:23,880
+These zones show where there's a big 
+gap between buyers and sellers. 
+  
+
+68
+00:06:23,880 --> 00:06:29,320
+To find them, look for quick, strong 
+price moves that suddenly reverse. 
+
+69
+00:06:29,320 --> 00:06:33,200
+This shows a big imbalance 
+that made the price jump. 
+
+70
+00:06:33,200 --> 00:06:37,840
+To mark these zones, find 
+where the big move started. 
+  
+
+71
+00:06:37,840 --> 00:06:44,320
+There are different types of zones to watch for.
+First are the base zones: These form when price  
+
+72
+00:06:44,320 --> 00:06:50,600
+stays in a small range for a while, then 
+breaks out. The edges of this range are where  
+
+73
+00:06:50,600 --> 00:06:58,320
+orders build up. When price comes back to these 
+levels after a breakout, it's likely to react.
+  
+
+74
+00:06:58,320 --> 00:07:05,640
+We also have pivot zones: These form at key 
+turning points, like swing highs and lows. They're  
+
+75
+00:07:05,640 --> 00:07:12,680
+often marked by one or two special candles.
+For a demand zone, look for a strong down candle,  
+
+76
+00:07:12,680 --> 00:07:19,760
+where the next candle closes above its high. 
+This shows a shift from selling to buying. 
+
+77
+00:07:19,760 --> 00:07:24,360
+For a supply zone, it's the 
+opposite: a strong up candle,  
+
+78
+00:07:24,360 --> 00:07:30,840
+where the next candle closes below its low.
+ 
+ 
+Considering the price action structure,  
+
+79
+00:07:30,840 --> 00:07:35,880
+there are two main types of zones:
+First are continuation ones:  
+
+80
+00:07:35,880 --> 00:07:41,720
+This happens when there's a trend and price 
+pulls back before continuing. These are  
+
+81
+00:07:41,720 --> 00:07:48,960
+called rally-base-rally zones in uptrends, 
+and drop-base-drop zones in downtrends.
+  
+
+82
+00:07:48,960 --> 00:07:55,440
+The second type is reversal zones: This 
+happens when price changes trend direction.  
+
+83
+00:07:55,440 --> 00:07:59,440
+These are called drop-base-rally 
+or rally-base-drop patterns.
+ 
+  
+
+84
+00:08:00,880 --> 00:08:06,880
+Supply and demand zones aren't random. They 
+show where buyers and sellers are most out  
+
+85
+00:08:06,880 --> 00:08:14,360
+of balance. Big price moves often mean there was 
+a mismatch between buying and selling pressure. 
+
+86
+00:08:14,360 --> 00:08:18,440
+The key is how long price stays 
+in the zone. When there's a big  
+
+87
+00:08:18,440 --> 00:08:23,680
+imbalance, price won't stay long.
+It will quickly move up or down. 
+
+88
+00:08:23,680 --> 00:08:29,440
+So, look for zones where price only stayed 
+for a short time before making a strong move. 
+
+89
+00:08:30,800 --> 00:08:35,840
+The less time spent there, the more 
+out of balance supply and demand are. 
+
+90
+00:08:35,840 --> 00:08:41,160
+This means a higher chance of a 
+good trade when price comes back.
+  
+
+91
+00:08:41,160 --> 00:08:45,640
+Also focus on fresh zones 
+that haven't been tested yet. 
+
+92
+00:08:45,640 --> 00:08:50,600
+When price revisits a zone, it can 
+use up some of the waiting orders. 
+
+93
+00:08:50,600 --> 00:08:55,840
+This makes the imbalance less extreme.
+So, the more times a zone is hit,  
+
+94
+00:08:55,840 --> 00:09:01,320
+the weaker it gets. That's why it's important 
+to know the difference between an untested  
+
+95
+00:09:01,320 --> 00:09:08,040
+zone and one that's been hit a few times.
+The trading chances are very different.
+ 
+ 
+  
+
+96
+00:09:08,040 --> 00:09:11,960
+To check if a zone will 
+hold, look for these things: 
+
+97
+00:09:11,960 --> 00:09:17,480
+First, clear break of structure: Price 
+needs to make a strong move away from  
+
+98
+00:09:17,480 --> 00:09:24,960
+the zone and break nearby swing highs or 
+lows. If price just hangs around the zone,  
+
+99
+00:09:24,960 --> 00:09:29,840
+it might not be strong.
+ 
+And second, inducement:  
+
+100
+00:09:29,840 --> 00:09:35,480
+This means there's liquidity in front of 
+the zone that could absorb moves against it. 
+
+101
+00:09:35,480 --> 00:09:40,640
+For a demand zone, you want to see 
+buy orders stacked up in front. 
+
+102
+00:09:40,640 --> 00:09:44,560
+This could be a swing low 
+or a consolidation pattern. 
+
+103
+00:09:44,560 --> 00:09:51,200
+It shows traders are waiting to buy at that price. 
+If there's no liquidity and price just hits the  
+
+104
+00:09:51,200 --> 00:09:59,560
+zone, big players might not get involved.
+ 
+To judge how strong a supply or demand zone is,  
+
+105
+00:09:59,560 --> 00:10:03,800
+look at these things:
+First, speed of price movement:  
+
+106
+00:10:03,800 --> 00:10:10,880
+How fast does price move away from the zone after 
+it forms? Faster moves usually mean stronger  
+
+107
+00:10:10,880 --> 00:10:19,240
+zones. Quick, big moves show a strong imbalance.
+ 
+Second, time spent at the zone: How long does  
+
+108
+00:10:19,240 --> 00:10:25,800
+price stay at the level before moving? Less 
+time often means it's a key turning point. If  
+
+109
+00:10:25,800 --> 00:10:31,960
+price just touches a demand zone and starts 
+rising right away, it might mean big buyers  
+
+110
+00:10:31,960 --> 00:10:40,120
+stepped in, and bought up all the supply.
+ 
+Third, size of the move: How far does price go  
+
+111
+00:10:40,120 --> 00:10:47,520
+after hitting the zone? Bigger moves usually 
+mean stronger zones. If price barely moves,  
+
+112
+00:10:47,520 --> 00:10:52,560
+it's not a good sign. But a long move in 
+the opposite direction after testing a  
+
+113
+00:10:52,560 --> 00:10:59,680
+zone means it's probably important.
+ 
+Fourth, volume: Look for more volume  
+
+114
+00:10:59,680 --> 00:11:05,120
+when the zone forms. This shows there's 
+a lot of interest at that price, and big  
+
+115
+00:11:05,120 --> 00:11:12,440
+players might be buying or selling there.
+ 
+And fifth, break of market structure: Does the  
+
+116
+00:11:12,440 --> 00:11:19,680
+zone cause a break in the market structure? Zones 
+that do this are usually stronger. It takes a lot  
+
+117
+00:11:19,680 --> 00:11:26,720
+of money to break market structure, so these 
+zones are more likely to hold in the future.
+  
+
+118
+00:11:26,720 --> 00:11:31,880
+So when you're trading with supply and 
+demand zones, remember these key points: 
+
+119
+00:11:31,880 --> 00:11:37,320
+Look for explosive price movements.
+Find zones where price only stays  
+
+120
+00:11:37,320 --> 00:11:45,280
+for a short time before moving sharply.
+Focus on fresh zones that haven't been tested yet. 
+
+121
+00:11:45,280 --> 00:11:51,640
+Check for clear breaks of structure.
+Look for inducement in front of the zone. 
+
+122
+00:11:51,640 --> 00:11:55,800
+And consider how fresh the zone is.
+ 
+Liquidity 
+
+123
+00:11:55,800 --> 00:12:02,760
+Day trading is all about understanding how the 
+market moves. And one key concept is liquidity,  
+
+124
+00:12:02,760 --> 00:12:07,520
+the amount of orders in the market.
+It's essentially how much supply and  
+
+125
+00:12:07,520 --> 00:12:14,400
+demand exists at different price levels.
+Liquidity is what drives market movement. 
+  
+
+126
+00:12:14,400 --> 00:12:20,080
+Every day, millions of traders jump 
+in. Many use similar strategies. 
+
+127
+00:12:20,080 --> 00:12:27,120
+Buyers, thinking the market will go up, buy at 
+support. They put their stops just below it! 
+
+128
+00:12:27,120 --> 00:12:33,560
+Sellers do the opposite. They sell at 
+resistance and put their stops above the highs. 
+
+129
+00:12:33,560 --> 00:12:39,000
+Then there are breakout traders! They 
+set buy and sell orders around the range. 
+
+130
+00:12:39,000 --> 00:12:44,600
+All these orders create a lot of 
+liquidity on both sides of a range.
+  
+
+131
+00:12:44,600 --> 00:12:50,160
+And why does this matter? Well, it helps 
+you understand how the market moves based on  
+
+132
+00:12:50,160 --> 00:12:57,280
+supply and demand. It's not as simple as just 
+buying at support and selling at resistance . 
+
+133
+00:12:57,280 --> 00:13:02,920
+You might see a trading range after a downtrend.
+Some traders, not knowing how  
+
+134
+00:13:02,920 --> 00:13:08,720
+order flow works, might sell here.
+Others might try to buy. And there are still  
+
+135
+00:13:08,720 --> 00:13:15,600
+stop orders and breakout trades on both sides .
+This is where big players come in. Banks and  
+
+136
+00:13:15,600 --> 00:13:21,640
+hedge funds trade huge orders. They 
+need a lot of liquidity to do this. 
+  
+
+137
+00:13:21,640 --> 00:13:26,920
+Let's say a big institution wants to sell a 
+lot. They need to free up orders in the market. 
+
+138
+00:13:26,920 --> 00:13:32,200
+This is done by triggering stop losses. 
+They might push the price up first,  
+
+139
+00:13:32,200 --> 00:13:38,120
+hitting those stops, before selling big.
+ 
+Liquidity tends to accumulate in certain  
+
+140
+00:13:38,120 --> 00:13:44,120
+areas of the chart. These are often popular 
+chart patterns that many retail traders use. 
+
+141
+00:13:44,120 --> 00:13:51,440
+First ones are old highs/lows - significant price 
+points from the past that stand out on the chart. 
+
+142
+00:13:51,440 --> 00:13:57,920
+These areas are like liquidity magnets. Traders 
+often put their stops just beyond these levels,  
+
+143
+00:13:57,920 --> 00:14:04,480
+creating clusters of orders. Smart 
+money loves to target these clusters.
+  
+
+144
+00:14:04,480 --> 00:14:10,760
+Major swings, double tops and bottoms, 
+or any pattern with equal highs or lows,  
+
+145
+00:14:10,760 --> 00:14:14,720
+are prime liquidity areas. Other common spots are  
+
+146
+00:14:14,720 --> 00:14:19,880
+triangles, wedges and flags .
+So when analyzing charts,  
+
+147
+00:14:19,880 --> 00:14:26,320
+look for areas where significant buying or 
+selling orders are likely to be executed. 
+
+148
+00:14:26,320 --> 00:14:30,480
+These often coincide with key 
+support and resistance levels,  
+
+149
+00:14:30,480 --> 00:14:37,480
+breakouts, or areas of price congestion .
+ 
+ 
+ 
+This is the simplest way to find the closest  
+
+150
+00:14:37,480 --> 00:14:43,360
+liquidity zones. It’s all about recent 
+price pivots, the ups and downs in price  
+
+151
+00:14:43,360 --> 00:14:47,800
+that stand out on a chart.
+A pivot low is a low point  
+
+152
+00:14:47,800 --> 00:14:53,280
+with higher lows on both sides.
+A pivot high is the opposite - a high  
+
+153
+00:14:53,280 --> 00:14:59,040
+point with lower highs on both sides.
+ 
+And why do these matter? Well,  
+
+154
+00:14:59,040 --> 00:15:03,200
+it's all about how traders think.
+If someone buys when the price is  
+
+155
+00:15:03,200 --> 00:15:08,800
+going up, they often put their stop-loss 
+order just below the last swing low. 
+
+156
+00:15:08,800 --> 00:15:12,280
+If they're selling when the price 
+is going down, they put their  
+
+157
+00:15:12,280 --> 00:15:18,320
+stop just above the last swing high.
+This creates two types of liquidity: 
+
+158
+00:15:18,320 --> 00:15:23,880
+Sell-side liquidity, where sell 
+stops pile up below swing lows. 
+
+159
+00:15:23,880 --> 00:15:28,960
+And buy-side liquidity, where buy 
+stops gather above swing highs. 
+
+160
+00:15:29,560 --> 00:15:35,840
+Big players in the market, the smart money, 
+love to hunt these areas. They place orders  
+
+161
+00:15:35,840 --> 00:15:43,120
+to buy below the lows and sell above the 
+highs, hoping to trigger all those stops.
+  
+
+162
+00:15:43,120 --> 00:15:47,800
+Now, let’s find the closest pivot 
+highs and lows on this chart. 
+
+163
+00:15:47,800 --> 00:15:53,800
+We see a low point with higher lows on 
+each side - that's sell-side liquidity. 
+
+164
+00:15:53,800 --> 00:16:01,400
+And here we spot a high with lower highs 
+on each side - that's buy-side liquidity. 
+
+165
+00:16:01,400 --> 00:16:07,320
+As the market moves, these points change.
+When price breaks above a swing high,  
+
+166
+00:16:07,320 --> 00:16:12,400
+that buy-side liquidity is gone, 
+and we look for the next one. 
+
+167
+00:16:12,400 --> 00:16:19,840
+Same thing when price drops below a swing low 
+- we find the next sell-side liquidity spot.
+  
+
+168
+00:16:19,840 --> 00:16:23,920
+Sometimes, you'll see multiple 
+swing points close together. 
+
+169
+00:16:23,920 --> 00:16:30,880
+These create what we call "equal highs" or 
+"equal lows." They're like liquidity hotspots,  
+
+170
+00:16:30,880 --> 00:16:37,360
+where lots of stops cluster together.
+ 
+Now, let's talk about some key liquidity  
+
+171
+00:16:37,360 --> 00:16:43,560
+levels you should always keep an eye on:
+First ones are previous week's high and low:  
+
+172
+00:16:43,560 --> 00:16:49,280
+These are great for framing reversals 
+or as targets for price moves.
+  
+
+173
+00:16:49,280 --> 00:16:57,440
+Second, previous day's high and low: These can 
+also frame reversals or act as price targets.
+  
+
+174
+00:16:59,160 --> 00:17:07,880
+Session highs and lows: These include the high and 
+low from the Asian, London, and New York session. 
+
+175
+00:17:07,880 --> 00:17:12,600
+These liquidity levels, plus the swing 
+pivots, give you a roadmap for the  
+
+176
+00:17:12,600 --> 00:17:18,080
+market. They show you where big moves 
+might start or end. They're very useful  
+
+177
+00:17:18,080 --> 00:17:25,600
+for planning trades within each trading day.
+ 
+ 
+Smart money depend on these liquidity levels.  
+
+178
+00:17:25,600 --> 00:17:29,520
+They often set up trades around them.
+For example, if price is going up and  
+
+179
+00:17:29,520 --> 00:17:35,600
+nearing a buy-side liquidity level, they might 
+get ready to sell. Because they expect a lot  
+
+180
+00:17:35,600 --> 00:17:41,960
+of buy orders to be triggered there, which 
+could push price up sharply before it falls. 
+
+181
+00:17:41,960 --> 00:17:47,240
+On the flip side, if price is dropping 
+towards a sell-side liquidity level,  
+
+182
+00:17:47,240 --> 00:17:53,320
+they might prepare to buy. They're betting that 
+all those sell orders will create a quick drop  
+
+183
+00:17:53,320 --> 00:17:56,520
+before price bounces back up.
+ 
+ 
+Discount and premium areas 
+
+184
+00:17:56,520 --> 00:18:03,120
+When you day trade, you should always aim to 
+take your trade from a discount and premium area. 
+
+185
+00:18:03,120 --> 00:18:07,160
+Let's say you have a range.
+Or you have a break of structure,  
+
+186
+00:18:07,160 --> 00:18:12,720
+and you mark the swing low that started 
+the move, and the end point of the move. 
+
+187
+00:18:12,720 --> 00:18:18,160
+Mark this range from the low to the 
+high using the Fibonacci tool. This  
+
+188
+00:18:18,160 --> 00:18:25,040
+shows the middle of the range, at the 50% 
+Fib level. We call this the equilibrium. 
+
+189
+00:18:25,040 --> 00:18:32,200
+Anything above the 50% is at a premium. 
+Anything below is at a discount. 
+ 
+  
+
+190
+00:18:32,200 --> 00:18:37,400
+Let's say you want to buy at the middle of 
+the range. If you put your stop at the low  
+
+191
+00:18:37,400 --> 00:18:45,080
+and your target at the high, your risk to reward 
+is 1 to 1. But the deeper into discount you go,  
+
+192
+00:18:45,080 --> 00:18:50,680
+the better your risk to reward gets.
+The same goes for selling. If you sell  
+
+193
+00:18:50,680 --> 00:18:56,240
+at the middle, stop at the high, and 
+target the low, you have a 1 to 1 risk  
+
+194
+00:18:56,240 --> 00:19:03,680
+to reward. But as you get deeper into 
+premium, your risk to reward improves.
+ 
+  
+
+195
+00:19:03,680 --> 00:19:11,480
+We're looking at crude oil. First, we find a 
+range. We have a swing low here, then price  
+
+196
+00:19:11,480 --> 00:19:20,160
+moves up. We mark from this low to this high.
+Very important, ranges expand as price moves.  
+
+197
+00:19:20,160 --> 00:19:25,840
+So as price goes higher, we move our 
+Fibonacci tool up too. We keep doing  
+
+198
+00:19:25,840 --> 00:19:30,640
+this until we see a high form.
+Now, if we're looking to buy,  
+
+199
+00:19:30,640 --> 00:19:38,200
+we want to find an entry in the discount zone.
+Do we have one? Yes, there's a demand zone here. 
+
+200
+00:19:38,200 --> 00:19:44,240
+And as price reaches into that discount 
+zone, it moves higher from there.
+  
+
+201
+00:19:44,240 --> 00:19:52,320
+Another range, from this high down to this low. 
+So we mark this one out. From here, we want to see  
+
+202
+00:19:52,320 --> 00:19:58,800
+price reach into a premium of the previous range.
+We're looking for short positions, so we want  
+
+203
+00:19:58,800 --> 00:20:04,280
+an entry in the premium zone.
+Looking left, we have a supply zone. 
+
+204
+00:20:04,280 --> 00:20:09,240
+Price reaches into here, into a 
+premium, and rejects the zone.
+ 
+
+205
+00:20:09,240 --> 00:20:10,120
+Inducement
+
+206
+00:20:10,120 --> 00:20:15,080
+If you want to succeed in day trading, 
+you also need to master inducement. 
+
+207
+00:20:15,080 --> 00:20:20,840
+Inducement is simply a move that lures 
+buyers or sellers into the market,  
+
+208
+00:20:20,840 --> 00:20:26,360
+creating liquidity pools that smart 
+money players use to their advantage. 
+  
+
+209
+00:20:26,360 --> 00:20:32,160
+Inducement can help you spot potential 
+reversals and entry points for trades. 
+
+210
+00:20:32,160 --> 00:20:37,600
+Basically, you need to spot when the market's 
+trying to trick you. That's where inducement  
+
+211
+00:20:37,600 --> 00:20:42,800
+comes in. It's a smart way to figure 
+out what the market's really up to.
+  
+
+212
+00:20:42,800 --> 00:20:46,760
+So picture this: the price is 
+going up, and it looks like it's  
+
+213
+00:20:46,760 --> 00:20:51,560
+about to break through a high point.
+Traders who like to buy when prices  
+
+214
+00:20:51,560 --> 00:20:56,680
+break out will be itching to get in!
+And anyone who's betting on the price  
+
+215
+00:20:56,680 --> 00:21:02,680
+going down will have their stop losses 
+ready to go if it breaks that high.
+  
+
+216
+00:21:02,680 --> 00:21:08,960
+This is exactly when the big players, the smart 
+money, decide to sell. They're betting the price  
+
+217
+00:21:08,960 --> 00:21:15,880
+will drop. This is inducement: the market shows 
+you one thing, but plans to do the opposite. 
+
+218
+00:21:15,880 --> 00:21:22,640
+First, the big players gather up their positions. 
+That's the build-up. Then, they make it look  
+
+219
+00:21:22,640 --> 00:21:27,600
+like the price is going one way.
+That's the inducement. Finally,  
+
+220
+00:21:27,600 --> 00:21:32,800
+they do the opposite of what everyone 
+expects. That's when they cash in.
+  
+
+221
+00:21:32,800 --> 00:21:37,360
+So, when you're looking at a chart, 
+keep an eye out for these fake-outs. 
+
+222
+00:21:37,360 --> 00:21:42,960
+If the trend's been going down, watch for 
+a quick jump up before it drops again. 
+
+223
+00:21:42,960 --> 00:21:46,920
+That's your chance to sell.
+If the trend's been going up,  
+
+224
+00:21:46,920 --> 00:21:52,080
+look for a quick dip before it climbs 
+again. That's when you want to buy.
+  
+
+225
+00:21:52,080 --> 00:21:55,800
+To find inducement, you 
+need to look for liquidity. 
+
+226
+00:21:55,800 --> 00:22:01,720
+We talked before about strong highs and 
+lows and buy-side and sell-side liquidity. 
+
+227
+00:22:01,720 --> 00:22:08,440
+For instance, when you see equal lows forming 
+a double bottom, that creates a support level. 
+
+228
+00:22:08,440 --> 00:22:15,320
+Traders buying at this support will place their 
+stop losses below these lows, creating a pool  
+
+229
+00:22:15,320 --> 00:22:23,080
+of sell-side liquidity . Smart money players can 
+use this liquidity to fill their own positions.
+  
+
+230
+00:22:23,080 --> 00:22:27,840
+To profit from inducement, you need 
+to think like the big players. They're  
+
+231
+00:22:27,840 --> 00:22:32,960
+looking to execute large orders without 
+moving the market against themselves. 
+
+232
+00:22:32,960 --> 00:22:38,760
+So they use these liquidity pools to their 
+advantage. When you see price approaching a  
+
+233
+00:22:38,760 --> 00:22:46,360
+strong high or low, be prepared for a potential 
+fake-out move before the real trend continues.
+  
+
+234
+00:22:46,360 --> 00:22:51,960
+One way to use inducement in your trading 
+is to focus on "liquidity sweeps". 
+
+235
+00:22:51,960 --> 00:22:57,800
+This is when price briefly moves beyond 
+a key level, triggering stop losses and  
+
+236
+00:22:57,800 --> 00:23:03,400
+creating liquidity, before reversing.
+These sweeps often occur just before a  
+
+237
+00:23:03,400 --> 00:23:08,920
+significant move in the opposite direction.
+ 
+ 
+When looking for inducement setups,  
+
+238
+00:23:08,920 --> 00:23:15,760
+pay attention to fair value gaps and supply and 
+demand zones. These are areas on the chart where  
+
+239
+00:23:15,760 --> 00:23:22,480
+price has moved quickly, leaving unfilled 
+orders. Price often returns to these areas,  
+
+240
+00:23:22,480 --> 00:23:28,840
+creating opportunities for trades.
+ 
+In this example, the price has been dropping. 
+
+241
+00:23:28,840 --> 00:23:33,000
+Then, it tries to go lower 
+but can't quite make it. 
+
+242
+00:23:33,000 --> 00:23:37,880
+There's this pivot high point nearby. 
+If the price breaks above that,  
+
+243
+00:23:37,880 --> 00:23:40,640
+it could signal a change in direction. 
+
+244
+00:23:40,640 --> 00:23:45,120
+And that's exactly what happens. 
+This creates what a demand zone,  
+
+245
+00:23:45,120 --> 00:23:52,680
+and a fair value gap. It's like a magnet for 
+the price - it often comes back to these spots. 
+
+246
+00:23:52,680 --> 00:23:58,560
+And watch what happens next. Before it takes 
+off higher, price does something tricky.  
+
+247
+00:23:58,560 --> 00:24:04,360
+It creates a new low point, getting more 
+buyers interested. Then it quickly drops  
+
+248
+00:24:04,360 --> 00:24:11,960
+below that low. This is the inducement - it's 
+tricking people into thinking it's going lower.
+  
+
+249
+00:24:11,960 --> 00:24:15,600
+This is how inducement works 
+in trending markets too. 
+
+250
+00:24:15,600 --> 00:24:21,880
+When the price is in an uptrend, look for 
+lows to be taken out before the next leg up. 
+
+251
+00:24:21,880 --> 00:24:27,600
+In this particular case, we can spot several 
+potential entry points where the price ran  
+
+252
+00:24:27,600 --> 00:24:32,640
+a low before continuing higher.
+The key thing to watch for is how  
+
+253
+00:24:32,640 --> 00:24:38,120
+the price closes around these old lows.
+If it quickly bounces back after taking  
+
+254
+00:24:38,120 --> 00:24:43,600
+out a low, that's a strong sign 
+that the uptrend is still intact.
+  
+
+255
+00:24:43,600 --> 00:24:46,920
+And you need to be patient.
+If you're looking at a bullish  
+
+256
+00:24:46,920 --> 00:24:52,240
+inducement setup (where you think the price 
+will go up after tricking people into thinking  
+
+257
+00:24:52,240 --> 00:24:58,040
+it's going down), wait for the price to 
+actually start moving up before you enter. 
+
+258
+00:24:58,040 --> 00:25:04,160
+You might miss the absolute bottom, but 
+you'll also avoid a lot of false signals. 
+
+259
+00:25:04,160 --> 00:25:08,720
+Market structure mapping will make 
+the difference here. I repeat,  
+
+260
+00:25:08,720 --> 00:25:15,640
+inducement works best when it's aligned with 
+the overall trend or at key reversal points. 
+
+261
+00:25:15,640 --> 00:25:22,360
+If the market's been trending up for days, an 
+inducement to the downside at a major demand could  
+
+262
+00:25:22,360 --> 00:25:25,560
+signal a significant reversal.
+ 
+ 
+Volume profile 
+
+263
+00:25:25,560 --> 00:25:33,080
+In my own day trading journey, I saw immediate 
+improvement once I started using volume profile. 
+
+264
+00:25:33,080 --> 00:25:37,120
+Volume profiles are one of the 
+most powerful trading tools. 
+
+265
+00:25:37,120 --> 00:25:41,920
+They show how much volume 
+occurred at specific price levels. 
+
+266
+00:25:41,920 --> 00:25:47,760
+This is key because it gives more useful info 
+than traditional volume tools, as they only  
+
+267
+00:25:47,760 --> 00:25:52,560
+show total daily volume.
+To use volume profiles,  
+
+268
+00:25:52,560 --> 00:25:58,240
+go to the left side of your chart platform.
+Look for "forecasting and measurement tools". 
+
+269
+00:25:59,200 --> 00:26:04,200
+And add the "anchored volume profile". 
+Then, click on your chart where you want  
+
+270
+00:26:04,200 --> 00:26:08,480
+to apply the profile. 
+ 
+ 
+The bars in the profile  
+
+271
+00:26:08,480 --> 00:26:16,080
+show trading volume at each price level.
+Bigger bars mean more volume at that price. 
+
+272
+00:26:16,080 --> 00:26:21,920
+The middle line is the point of control 
+- the level with the most trading volume. 
+
+273
+00:26:21,920 --> 00:26:28,400
+High trading volume matters because it shows 
+where buyers and sellers had lots of interest. 
+
+274
+00:26:28,400 --> 00:26:34,640
+They took big action at those levels. If price 
+comes back to these levels in the future,  
+
+275
+00:26:34,640 --> 00:26:38,400
+there might be interest again.
+This creates potential trade  
+
+276
+00:26:38,400 --> 00:26:45,480
+entry and exit opportunities.
+ 
+But don't use volume profiles alone. Combine them  
+
+277
+00:26:45,480 --> 00:26:52,840
+with the concepts we talked before, key points in 
+the market structure, or supply and demand areas. 
+
+278
+00:26:52,840 --> 00:26:59,400
+Start by applying the anchored volume profile at 
+the beginning of a price move. The profile will  
+
+279
+00:26:59,400 --> 00:27:04,640
+only calculate data after that point.
+The point of control shows  
+
+280
+00:27:04,640 --> 00:27:11,840
+where the most volume occurred.
+This high-volume zone becomes an area of interest. 
+
+281
+00:27:11,840 --> 00:27:16,000
+If price returns there, it could 
+present long trade chances. 
+
+282
+00:27:16,000 --> 00:27:19,800
+Or it could be a good exit 
+target for short trades.
+  
+
+283
+00:27:19,800 --> 00:27:25,480
+The real power comes from pairing 
+high-volume areas with key levels. 
+
+284
+00:27:25,480 --> 00:27:31,000
+Zoom out and look for important 
+reversal points that create a key level. 
+
+285
+00:27:31,000 --> 00:27:36,880
+If these align with your high-volume 
+zone, it makes that zone even stronger. 
+
+286
+00:27:36,880 --> 00:27:43,000
+The higher quality the zone, the more likely 
+price will react there in the future.
+  
+
+287
+00:27:43,000 --> 00:27:48,880
+Also, look for other high-volume bars 
+that line up with reversal points too. 
+
+288
+00:27:48,880 --> 00:27:56,400
+These combos of volume and key levels create 
+high-quality zones to watch for your trades. 
+
+289
+00:27:56,400 --> 00:28:02,640
+You can also apply the volume profile tool to 
+larger chart areas. This helps find the best  
+
+290
+00:28:02,640 --> 00:28:07,760
+key zones across a wider range.
+Look for points of control that  
+
+291
+00:28:07,760 --> 00:28:14,742
+line up with multiple reversal points. 
+These give you key zones to focus on.
+  
+
+292
+00:28:14,742 --> 00:28:17,680
+10 SMA daily chart
+Now, in my first 2 years of day trading,  
+
+293
+00:28:17,680 --> 00:28:22,800
+my biggest problem was trading the wrong trends.
+I kept getting caught in false  
+
+294
+00:28:22,800 --> 00:28:27,480
+moves and choppy markets.
+One time frame would show an uptrend,  
+
+295
+00:28:27,480 --> 00:28:31,760
+and another one a downtrend.
+You might have this problem too! 
+
+296
+00:28:31,760 --> 00:28:35,640
+Which one should you trade?
+In my case, the solution was  
+
+297
+00:28:35,640 --> 00:28:43,200
+extremely simple! I simply monitored the 10-period 
+Simple Moving Average on the daily chart. 
+  
+
+298
+00:28:43,200 --> 00:28:49,760
+If you need a simple way to filter “buy” and 
+“sell” trades, just use this simple method. 
+
+299
+00:28:49,760 --> 00:28:55,920
+Price above the moving average on the daily 
+chart? Look for buys on shorter time frames.  
+
+300
+00:28:55,920 --> 00:29:02,640
+If the line slopes up, it's a bullish trend.
+Price below the moving average? Look for sell  
+
+301
+00:29:02,640 --> 00:29:09,280
+trades. A downward slope means a bearish trend.
+Price near or crossing the moving average  
+
+302
+00:29:09,280 --> 00:29:17,360
+often? Wait for a clear trend or avoid trading.
+ 
+It's that easy. Once you spot the daily trend with  
+
+303
+00:29:17,360 --> 00:29:25,360
+the 10-day SMA, use this info to trade on shorter 
+time frames. Monitor the market structure, find  
+
+304
+00:29:25,360 --> 00:29:32,840
+your liquidity areas, mark your supply and demand 
+zone and confirm these with the volume profile. 
+
+305
+00:29:32,840 --> 00:29:39,720
+This way, you dodge false signals and choppy price 
+action. You only trade with the bigger trend. 
+
+306
+00:29:39,720 --> 00:29:43,560
+This is how you day trade 
+using smart money concepts. 
+
+307
+00:29:43,560 --> 00:29:47,280
+You won't get lost in a sea of 
+conflicting signals. Instead, you  
+
+308
+00:29:47,280 --> 00:29:51,120
+align your trades with the main market flow. And,  
+
+309
+00:29:51,120 --> 00:29:58,040
+you’re ready for more smart money secrets, 
+go ahead and watch one of these videos!
+

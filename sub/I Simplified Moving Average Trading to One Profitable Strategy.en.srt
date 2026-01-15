@@ -1,0 +1,1484 @@
+1
+00:00:00,240 --> 00:00:06,480
+Forget everything you’ve heard about moving 
+averages! 99% of traders use them wrong,  
+
+2
+00:00:06,480 --> 00:00:11,040
+and it’s killing their accounts!
+In this video, I'm going to show YOU  
+
+3
+00:00:11,040 --> 00:00:16,880
+exactly how I win consistently, using 
+a moving-average trading strategy! 
+  
+
+4
+00:00:16,880 --> 00:00:22,080
+Here's the exact path YOU'RE taking today.
+We'll start with the most profitable  
+
+5
+00:00:22,080 --> 00:00:27,440
+pullback patterns. Then I'll reveal 
+why the slope matters more than price. 
+
+6
+00:00:27,440 --> 00:00:33,120
+We’ll talk fake-outs: this one trick 
+saved me from hundreds of losing trades. 
+
+7
+00:00:33,120 --> 00:00:36,000
+Some of these strategies might surprise YOU,  
+
+8
+00:00:36,000 --> 00:00:41,120
+especially when you see the power of 
+displaced and adaptive moving averages. 
+
+9
+00:00:41,120 --> 00:00:45,360
+So by the end, you’ll have a complete 
+moving-average trading strategy  
+
+10
+00:00:45,360 --> 00:00:48,127
+system that actually works.
+ 
+ 
+**CHAPTER 1: 1ST PULLBACK TO  
+
+11
+00:00:48,127 --> 00:00:51,440
+MOVING-AVERAGE AFTER A BREAKOUT**
+Here's where traders mess up a  
+
+12
+00:00:51,440 --> 00:00:57,840
+moving-average strategy completely. They chase 
+breakouts instead of waiting for the pullback. 
+
+13
+00:00:57,840 --> 00:01:03,200
+Most people see price break above the 
+50-period moving-average for instance  
+
+14
+00:01:03,200 --> 00:01:07,680
+and buy immediately. Bad move. The smart 
+money waits. I learned this after losing  
+
+15
+00:01:07,680 --> 00:01:13,360
+so much money doing exactly that mistake.
+ 
+Watch what happens when YOU wait for the  
+
+16
+00:01:13,360 --> 00:01:20,000
+first pullback after a breakout instead. Price 
+breaks above your moving average. Everyone gets  
+
+17
+00:01:20,000 --> 00:01:27,280
+excited. Price shoots up 10-20 pips. Then it 
+happens - the pullback. Price comes back down  
+
+18
+00:01:27,280 --> 00:01:34,800
+to kiss that moving average. That's YOUR entry.
+ 
+Here's how YOU implement this. Set your 50-period  
+
+19
+00:01:34,800 --> 00:01:40,960
+exponential moving-average on your chart. 
+Wait for a clean break above it with strong  
+
+20
+00:01:40,960 --> 00:01:47,440
+volume. Don't chase. Let price pull back 
+to the moving average. When it touches and  
+
+21
+00:01:47,440 --> 00:01:54,000
+shows signs of bouncing, that's YOUR signal.
+ 
+Look at my screen right now. See how price  
+
+22
+00:01:54,000 --> 00:01:59,680
+broke above the moving average. Everyone 
+bought there. Price went up fast, then  
+
+23
+00:01:59,680 --> 00:02:07,520
+pulled back. That pullback to the moving-average 
+was my entry. Made easy 30 pips on that trade. 
+
+24
+00:02:07,520 --> 00:02:12,480
+It’s a simple mindset switch. YOU'RE not 
+chasing breakouts anymore. YOU'RE waiting  
+
+25
+00:02:12,480 --> 00:02:14,683
+for the market to come to YOU.
+ 
+**CHAPTER 2: MOVING-AVERAGE  
+
+26
+00:02:14,683 --> 00:02:16,960
+SLOPE (ACCELERATION / DECELERATION)**
+Now, what I'm about to show YOU about  
+
+27
+00:02:16,960 --> 00:02:24,160
+slope literally changed how I see every chart.
+Most traders look at moving averages as static  
+
+28
+00:02:24,160 --> 00:02:30,000
+lines. But they miss the most important 
+part - the angle. The slope tells YOU  
+
+29
+00:02:30,000 --> 00:02:36,400
+if momentum is building or dying. When the 
+moving-average points up sharply, momentum is  
+
+30
+00:02:36,400 --> 00:02:43,600
+strong. When it flattens, momentum weakens.
+ 
+Here's the secret. Steep slope equals strong  
+
+31
+00:02:43,600 --> 00:02:50,000
+trades. Flat slope equals weak trades. I 
+avoid trades when the moving-average slope  
+
+32
+00:02:50,000 --> 00:02:57,280
+is flat. Because flat slopes mean sideways 
+markets. And sideways markets chop YOU up.
+  
+
+33
+00:02:57,280 --> 00:03:02,880
+Look at YOUR chart right now. Draw a line 
+along your moving average. Is it pointing  
+
+34
+00:03:02,880 --> 00:03:10,000
+up aggressively? That's acceleration. Good 
+for long trades. Is it starting to flatten?  
+
+35
+00:03:10,000 --> 00:03:16,320
+That's deceleration. Time to be careful.
+I use a simple rule. If I can't see a  
+
+36
+00:03:16,320 --> 00:03:20,960
+clear angle on the moving average, 
+I don't trade. This saved me from  
+
+37
+00:03:20,960 --> 00:03:28,160
+countless losing trades in choppy markets.
+ 
+Here's how YOU implement this. Before every trade,  
+
+38
+00:03:28,160 --> 00:03:33,440
+check your moving-average slope. 
+If the steep is up, look for longs. 
+
+39
+00:03:33,440 --> 00:03:39,920
+If the steep is down, look for shorts.
+If it’s flat, you stay out. This simple  
+
+40
+00:03:39,920 --> 00:03:45,360
+check improves win rates dramatically.
+The slope is telling YOU the story of  
+
+41
+00:03:45,360 --> 00:03:48,594
+momentum before price even moves.
+ 
+**CHAPTER 3: MOVING-AVERAGE HIGH LOW  
+
+42
+00:03:48,594 --> 00:03:52,960
+CHANNEL (PRICE POSITION RELATIVE TO CHANNEL)**
+99% of people use moving averages based on the  
+
+43
+00:03:52,960 --> 00:03:59,680
+close price. I prefer to use a moving-average 
+channel, based on high and low price. 
+
+44
+00:03:59,680 --> 00:04:05,920
+You see, people get this wrong by treating 
+the average like a single line in the sand.  
+
+45
+00:04:05,920 --> 00:04:12,320
+But price often moves above or below that 
+line before reversing. A high-low channel  
+
+46
+00:04:12,320 --> 00:04:16,880
+can give YOU a margin of safety.
+Price rarely goes straight up or  
+
+47
+00:04:16,880 --> 00:04:22,000
+down after a breakout. It moves in 
+waves around the moving average. 
+  
+
+48
+00:04:22,000 --> 00:04:28,080
+Here's the pattern. In an uptrend, price 
+pushes above the moving-average channel,  
+
+49
+00:04:28,080 --> 00:04:33,920
+pulls back to it, then pushes higher 
+again. Each high gets a bit higher.  
+
+50
+00:04:33,920 --> 00:04:39,440
+Each low comes back to the moving average. 
+ 
+Watch what happens when YOU start seeing this  
+
+51
+00:04:39,440 --> 00:04:46,000
+channel. Instead of random price movement, YOU 
+see structure. If price is above the channel  
+
+52
+00:04:46,000 --> 00:04:52,160
+you have a bullish bias, with opportunities 
+to go long at the top of the channel. Below  
+
+53
+00:04:52,160 --> 00:04:57,840
+the channel means a bearish bias. You look 
+for shorts at the bottom of the channel.
+  
+
+54
+00:04:57,840 --> 00:05:03,440
+Take a look at this. The moving-average 
+channel acts like a magnet, pulling price  
+
+55
+00:05:03,440 --> 00:05:07,680
+back when it gets too far away.
+The moving-average channel in  
+
+56
+00:05:07,680 --> 00:05:13,957
+combination with price position makes 
+the next concept even more powerful.
+ 
+  
+
+57
+00:05:13,957 --> 00:05:17,120
+**CHAPTER 4: FAKE-OUTS AT MOVING AVERAGES**
+Now, here's where most traders completely mess  
+
+58
+00:05:17,120 --> 00:05:22,560
+up a moving-average trading strategy.
+Many assume that if price touches the  
+
+59
+00:05:22,560 --> 00:05:30,240
+moving-average and bounces once, it will bounce 
+forever. That’s not always true. Fake-outs happen  
+
+60
+00:05:30,240 --> 00:05:37,920
+when price momentarily breaks below or above the 
+average, luring YOU in, then flips course again.
+  
+
+61
+00:05:37,920 --> 00:05:44,160
+The market tricks YOU into thinking the trend 
+changed. Then it snaps back like a rubber band. 
+
+62
+00:05:44,160 --> 00:05:50,960
+I personally fell for this trap hundreds of 
+times. Price would break below my moving average,  
+
+63
+00:05:50,960 --> 00:05:57,920
+I'd sell, then it would rocket back up above 
+the moving average. Frustrating and expensive!
+  
+
+64
+00:05:57,920 --> 00:06:05,360
+The secret is recognizing fake-out patterns. Real 
+breaks have volume and momentum behind them. Fake  
+
+65
+00:06:05,360 --> 00:06:12,400
+breaks look weak and hesitant. Real breaks 
+hold the new level. Fake breaks fail quickly. 
+
+66
+00:06:12,400 --> 00:06:16,800
+Here's my fake-out filter. When 
+price breaks a moving average,  
+
+67
+00:06:16,800 --> 00:06:23,440
+I wait 15 minutes. If it can't stay on the 
+new side with volume, it's probably fake.  
+
+68
+00:06:23,440 --> 00:06:30,000
+If it creeps back above the moving-average 
+within those 15 minutes, I ignore the break.
+  
+
+69
+00:06:30,000 --> 00:06:35,520
+Watch closely here! See how price dipped 
+below the moving-average around the market  
+
+70
+00:06:35,520 --> 00:06:43,520
+open. But no volume. Weak momentum. Within 10 
+minutes, it was back above the moving average.  
+
+71
+00:06:43,520 --> 00:06:47,920
+This is a classic fake-out.
+Also check the slope again.  
+
+72
+00:06:47,920 --> 00:06:54,000
+If the slope is still firmly in your 
+favor, that quick breach might be noise.
+  
+
+73
+00:06:54,000 --> 00:06:58,880
+Watch what happens when YOU see a big 
+candle that closes under the average,  
+
+74
+00:06:58,880 --> 00:07:04,800
+but the slope is still pointing up. 
+Many times, that move reverses swiftly. 
+
+75
+00:07:04,800 --> 00:07:11,120
+Here's how YOU implement this. Never trade 
+immediately on moving-average breaks. Wait  
+
+76
+00:07:11,120 --> 00:07:17,120
+for confirmation. Watch volume. 
+Watch momentum. Watch the slope.  
+
+77
+00:07:17,120 --> 00:07:22,960
+Let the market prove the break is real.
+ 
+And here’s the best part! Failed fake-outs  
+
+78
+00:07:22,960 --> 00:07:28,800
+often create the strongest moves in the 
+opposite direction. When that fake breakdown  
+
+79
+00:07:28,800 --> 00:07:32,640
+fails, the bounce can be explosive.
+ 
+**CHAPTER 5: DISPLACED MOVING AVERAGES** 
+
+80
+00:07:32,640 --> 00:07:38,320
+Most people have never heard of this. A 
+displaced moving-average is the same line,  
+
+81
+00:07:38,320 --> 00:07:44,480
+but shifted to the right on your chart. This 
+changes how YOU view price relative to that  
+
+82
+00:07:44,480 --> 00:07:50,320
+average. If YOU shift it forward, you might 
+catch turning points a bit earlier because  
+
+83
+00:07:50,320 --> 00:07:56,640
+the line doesn’t clutter the present bar. 
+ 
+You see, standard moving averages lag behind  
+
+84
+00:07:56,640 --> 00:08:02,000
+price. They tell YOU what happened, 
+not what's happening now. Displaced  
+
+85
+00:08:02,000 --> 00:08:07,200
+moving averages solve this problem by 
+shifting the line forward in time.
+  
+
+86
+00:08:07,200 --> 00:08:14,080
+This creates something magical. The moving-average 
+appears to predict where price wants to go. It's  
+
+87
+00:08:14,080 --> 00:08:20,320
+not really predicting - it's showing YOU where 
+price would be if the current trend continues.
+  
+
+88
+00:08:20,320 --> 00:08:26,960
+Here's where it gets crazy. Price often respects 
+these displaced moving averages. The market  
+
+89
+00:08:26,960 --> 00:08:34,160
+seems to know where these future levels sit.
+In this chart I use a 50-period EMA displaced  
+
+90
+00:08:34,160 --> 00:08:41,680
+forward by 10 periods. This gives me support and 
+resistance levels that most traders can't see. 
+  
+
+91
+00:08:41,680 --> 00:08:47,440
+Look at that line ahead of current price! 
+That's my displaced moving average. Most  
+
+92
+00:08:47,440 --> 00:08:54,000
+traders had no idea that level existed.
+Here's how YOU implement this. Take your  
+
+93
+00:08:54,000 --> 00:09:00,880
+favorite moving average. Shift it forward by 
+10 of 20 candles, depending on your time frame. 
+
+94
+00:09:00,880 --> 00:09:07,120
+For example, a 20-period MA gets 
+shifted forward 10 periods. Now YOU  
+
+95
+00:09:07,120 --> 00:09:10,720
+have future support and resistance levels.
+ 
+**CHAPTER 6: MOVING-AVERAGE CROSSOVERS ** 
+
+96
+00:09:10,720 --> 00:09:16,640
+Okay, here's where it gets controversial. 
+Moving-average crossovers are probably the worst  
+
+97
+00:09:16,640 --> 00:09:22,400
+moving-average trading strategy ever created.
+YOU might be thinking, everyone uses crossovers.  
+
+98
+00:09:22,400 --> 00:09:28,800
+That's exactly the problem. When everyone 
+uses the same strategy, it stops working.
+  
+
+99
+00:09:28,800 --> 00:09:35,520
+The classic crossover setup goes like this. A 
+fast moving-average crosses above a slow one,  
+
+100
+00:09:35,520 --> 00:09:40,000
+so you buy. Sounds simple, and works terribly. 
+
+101
+00:09:40,000 --> 00:09:45,920
+Crossovers fail because they're too late. By 
+the time the fast line crosses the slow line,  
+
+102
+00:09:45,920 --> 00:09:51,280
+the move is often over. YOU end up 
+buying tops and selling bottoms.
+  
+
+103
+00:09:51,280 --> 00:09:58,160
+I tried to make this work, I tested hundreds 
+of combinations. Win rate was always under  
+
+104
+00:09:58,160 --> 00:10:05,920
+20%. Average losing trade was bigger than 
+average winning trade. Mathematical disaster. 
+
+105
+00:10:05,920 --> 00:10:11,360
+Here's the brutal truth about crossovers. 
+They work in trending markets but kill YOU  
+
+106
+00:10:11,360 --> 00:10:17,920
+in choppy markets. And the problem 
+is, markets chop 70% of the time. 
+  
+
+107
+00:10:17,920 --> 00:10:23,600
+Look at YOUR chart right now. Count the 
+crossovers from last week. How many actually  
+
+108
+00:10:23,600 --> 00:10:31,040
+led to profitable moves? Probably less than half.
+Instead of crossovers, focus on price action  
+
+109
+00:10:31,040 --> 00:10:36,640
+around single moving averages. Much 
+more reliable. Much better timing.
+  
+
+110
+00:10:36,640 --> 00:10:43,360
+Here's what YOU should do instead. Use one 
+moving-average as your trend filter. Trade  
+
+111
+00:10:43,360 --> 00:10:48,880
+pullbacks to it in trending markets. 
+Ignore crossover signals completely. 
+
+112
+00:10:48,880 --> 00:10:53,555
+The best traders I know stopped 
+using crossovers years ago. 
+  
+
+113
+00:10:53,555 --> 00:10:56,960
+**CHAPTER 7: MOVING-AVERAGE BOUNCE PATTERNS**
+This next part about bounce patterns was a huge  
+
+114
+00:10:56,960 --> 00:11:04,000
+lightbulb for me. If YOU only remember one thing, 
+let it be this. Price loves to revisit a certain  
+
+115
+00:11:04,000 --> 00:11:11,840
+moving-average and bounce off it in a strong 
+trend. Maybe it’s the 20MA if the trend is hot,  
+
+116
+00:11:11,840 --> 00:11:19,360
+or the 50MA if it’s slower. Those bounces 
+can be safer entries than chasing breakouts. 
+
+117
+00:11:19,360 --> 00:11:23,280
+The key is reading the signs 
+before the bounce happens.
+  
+
+118
+00:11:23,280 --> 00:11:29,760
+Strong trends create reliable bounces. You 
+see it all the time: price pulls back to  
+
+119
+00:11:29,760 --> 00:11:35,520
+the moving average, finds support, then 
+continues the trend. This happens because  
+
+120
+00:11:35,520 --> 00:11:43,280
+the moving-average acts like a magnet for price.
+I look for three things in bounce patterns. First,  
+
+121
+00:11:43,280 --> 00:11:49,760
+strong trend before the pullback. Second, 
+clean approach to the moving average. Third,  
+
+122
+00:11:49,760 --> 00:11:54,640
+signs of buying interest as price 
+reaches the moving average.
+  
+
+123
+00:11:54,640 --> 00:12:02,000
+Here's my favorite bounce setup. Price trends 
+up strongly. Pulls back to the 50-period EMA.  
+
+124
+00:12:02,000 --> 00:12:08,000
+Shows a pin bar or an engulfing candle 
+at the moving average. Next candle  
+
+125
+00:12:08,000 --> 00:12:13,040
+breaks above it. That's my entry.
+Watch what happens when YOU start  
+
+126
+00:12:13,040 --> 00:12:19,200
+seeing these patterns. Instead of random 
+bounces, YOU see predictable setups.
+  
+
+127
+00:12:19,200 --> 00:12:25,280
+Look at this market. See how price 
+bounced perfectly off the EMA three times.  
+
+128
+00:12:25,280 --> 00:12:31,360
+Each bounce led to perfect moves. This 
+is what consistent profits look like. 
+
+129
+00:12:31,360 --> 00:12:37,920
+Here's how YOU implement this. In uptrends, 
+watch for pullbacks to your moving average.  
+
+130
+00:12:37,920 --> 00:12:44,320
+Identify if the slope is solid. Look for 
+reversal candles at the moving average.  
+
+131
+00:12:44,320 --> 00:12:51,360
+Enter on the break of the reversal candle high.
+ 
+The opposite works for downtrends. Price bounces  
+
+132
+00:12:51,360 --> 00:12:57,920
+down from the moving-average after pullbacks.
+You might ask, “How do I pick which average to  
+
+133
+00:12:57,920 --> 00:13:03,040
+watch for the bounce” That depends 
+on the personality of the market.  
+
+134
+00:13:03,040 --> 00:13:10,320
+Some markets respect shorter lines, like 
+the 20 EMA. Others might use the 50 EMA. 
+
+135
+00:13:10,320 --> 00:13:15,440
+You need to experiment and back test, 
+there’s no magical average that will work  
+
+136
+00:13:15,440 --> 00:13:22,480
+on all markets. Once YOU find a line that price 
+respects, that bounce pattern can be gold.
+ 
+ 
+
+137
+00:13:22,480 --> 00:13:24,960
+**CHAPTER 8: MOVING-AVERAGE RIBBONS**
+This part can be a game-changer,  
+
+138
+00:13:24,960 --> 00:13:30,640
+if used correctly. You’ll be surprised 
+how simple a moving-average ribbon can be. 
+
+139
+00:13:30,640 --> 00:13:36,800
+A ribbon is a set of averages for different 
+periods, spaced out. Picture a colorful band  
+
+140
+00:13:36,800 --> 00:13:42,400
+on your screen. If all lines are stacked 
+in order, from shortest to longest,  
+
+141
+00:13:42,400 --> 00:13:48,800
+that often signals a strong trend. If they 
+tangle or flatten, the trend might be weak.
+  
+
+142
+00:13:48,800 --> 00:13:56,320
+So a ribbon is multiple moving averages plotted 
+together. Instead of one line, YOU have 8-12  
+
+143
+00:13:56,320 --> 00:14:03,120
+lines of different periods. When they align, 
+they create powerful trend signals. They help  
+
+144
+00:14:03,120 --> 00:14:09,120
+YOU see the market’s structure at a glance.
+Think of it like this. One moving-average  
+
+145
+00:14:09,120 --> 00:14:14,480
+can lie. Two can be coincidence. 
+But when 8-10 moving averages all  
+
+146
+00:14:14,480 --> 00:14:20,880
+point the same direction, the trend is real.
+ 
+The ribbon works like a traffic light. Green  
+
+147
+00:14:20,880 --> 00:14:27,760
+when all averages point up and stay separated. 
+Red when they point down and stay separated. 
+
+148
+00:14:27,760 --> 00:14:34,560
+Here's the secret most traders miss. The space 
+between the ribbon lines tells YOU trend strength.  
+
+149
+00:14:34,560 --> 00:14:42,640
+Wide spaces mean strong trends. Narrow spaces 
+mean weak trends. Tangled lines mean no trend.
+  
+
+150
+00:14:42,640 --> 00:14:50,720
+For starters, you can use a 12-ribbon system. 
+Periods from 5 to 50. When they fan out nicely,  
+
+151
+00:14:50,720 --> 00:14:57,520
+trade with the trend. When they tangle up, stay 
+out. The bigger the separation among the lines,  
+
+152
+00:14:57,520 --> 00:15:03,760
+the stronger the momentum. If YOU see them 
+pinch together, that can mean a slowdown.
+  
+
+153
+00:15:03,760 --> 00:15:09,680
+I used to ignore these. I thought one average 
+was enough. But then I realized that a ribbon  
+
+154
+00:15:09,680 --> 00:15:16,400
+can give me early warnings about trend changes. 
+If the fastest average starts to roll over and  
+
+155
+00:15:16,400 --> 00:15:21,840
+crosses beneath the next line, that’s the 
+first sign. If the rest follow, that’s even  
+
+156
+00:15:21,840 --> 00:15:28,960
+clearer. And the slope of the entire ribbon can 
+reveal if the market is accelerating or not. 
+
+157
+00:15:28,960 --> 00:15:33,520
+The ribbon eliminates a lot of bad 
+trades because it keeps YOU out of  
+
+158
+00:15:33,520 --> 00:15:40,240
+choppy markets. Clean ribbon means clean 
+trends. Messy ribbon means messy markets. 
+
+159
+00:15:40,240 --> 00:15:44,240
+This filter will improve YOUR 
+trade selection dramatically. 
+
+160
+00:15:44,240 --> 00:15:49,241
+Speaking of filters, let me show YOU 
+something that works even better...
+ 
+  
+
+161
+00:15:49,241 --> 00:15:53,600
+**CHAPTER 9: MOVING-AVERAGE ENVELOPES**
+99% of traders have never heard of envelopes, but  
+
+162
+00:15:53,600 --> 00:16:00,480
+they're game-changers for moving-average traders.
+Envelopes are bands drawn above and below a  
+
+163
+00:16:00,480 --> 00:16:09,600
+moving average. Usually 2-3% above and below. They 
+create channels that contain most price movement.
+  
+
+164
+00:16:09,600 --> 00:16:16,320
+When price hits the upper envelope, it often 
+reverses down. When it hits the lower envelope,  
+
+165
+00:16:16,320 --> 00:16:22,560
+it often reverses up. The moving-average 
+in the middle acts as the balance point. 
+
+166
+00:16:22,560 --> 00:16:30,000
+So envelopes expand or contract based on a 
+percentage or volatility measure around a single  
+
+167
+00:16:30,000 --> 00:16:37,680
+moving average. This helps YOU see potential 
+overbought or oversold conditions in real time. 
+
+168
+00:16:37,680 --> 00:16:45,280
+And this is exactly why envelopes work better than 
+other indicators. They adapt to market volatility  
+
+169
+00:16:45,280 --> 00:16:53,040
+automatically. In quiet markets, the bands 
+are tight. In volatile markets, they expand.
+  
+
+170
+00:16:53,040 --> 00:16:57,520
+Envelopes work most of the time 
+because they move with the market. 
+
+171
+00:16:57,520 --> 00:17:05,120
+The beauty of envelopes is mean reversion. Price 
+rarely stays at extreme levels long. It wants to  
+
+172
+00:17:05,120 --> 00:17:10,800
+return to the average. The envelopes 
+show YOU where extreme levels are.
+  
+
+173
+00:17:10,800 --> 00:17:16,720
+Take a look at this. See how price bounced 
+perfectly between the envelope bands. Upper  
+
+174
+00:17:16,720 --> 00:17:23,680
+band rejections led to profitable shorts. 
+Lower band bounces led to profitable longs.
+  
+
+175
+00:17:23,680 --> 00:17:29,440
+Now, don’t think envelopes are only for 
+sideways markets. Actually, a trending  
+
+176
+00:17:29,440 --> 00:17:36,400
+market can also ride the upper envelope band. 
+If YOU see price clinging to the top band, that  
+
+177
+00:17:36,400 --> 00:17:44,000
+might signal strong momentum. If price wanders 
+inside the envelope, momentum may be fading.
+  
+
+178
+00:17:44,000 --> 00:17:51,360
+Here's how YOU implement this. Set a percentage 
+offset around your 20 or 50 moving average. Maybe  
+
+179
+00:17:51,360 --> 00:17:59,760
+2% or 3%. Watch how price interacts with those 
+boundaries. When price hits the upper envelope,  
+
+180
+00:17:59,760 --> 00:18:06,000
+look for short setups. When it hits the 
+lower envelope, look for long setups. 
+
+181
+00:18:06,000 --> 00:18:10,514
+This concept gets even more 
+powerful when we add volume.
+ 
+
+182
+00:18:10,514 --> 00:18:13,280
+**CHAPTER 10: VOLUME-WEIGHTED MOVING AVERAGE**
+If YOU only look at price, YOU might miss a  
+
+183
+00:18:13,280 --> 00:18:18,240
+piece of the puzzle. You see, regular 
+moving averages treat every price point  
+
+184
+00:18:18,240 --> 00:18:23,920
+equally. A big volume day has the 
+same weight as low volume day. This  
+
+185
+00:18:23,920 --> 00:18:28,720
+creates problems because volume 
+shows institutional interest.
+  
+
+186
+00:18:28,720 --> 00:18:34,960
+Volume-weighted moving averages solve this 
+by giving more weight to high-volume periods.  
+
+187
+00:18:34,960 --> 00:18:40,560
+When institutions trade heavily, those 
+prices get more influence on the average. 
+
+188
+00:18:40,560 --> 00:18:47,440
+Think of it like voting. Regular moving averages 
+give everyone one vote. Volume-weighted averages  
+
+189
+00:18:47,440 --> 00:18:54,480
+give bigger traders more votes. Since bigger 
+traders move markets, this makes sense.
+  
+
+190
+00:18:54,480 --> 00:19:00,480
+The volume-weighted average reacts faster 
+to price changes when volume is high. It  
+
+191
+00:19:00,480 --> 00:19:07,600
+reacts slower when volume is low. This creates 
+more accurate support and resistance levels. 
+
+192
+00:19:07,600 --> 00:19:13,840
+Here's where it gets interesting. Price often 
+respects volume-weighted average levels better  
+
+193
+00:19:13,840 --> 00:19:20,240
+than regular moving averages. Because these 
+are lines where the real money changed hands.
+  
+
+194
+00:19:20,240 --> 00:19:25,760
+I started using volume-weighted lines 
+for scalping, after noticing my regular  
+
+195
+00:19:25,760 --> 00:19:32,000
+EMAs were giving too many false signals. The 
+volume-weighted lines kept me in good trades  
+
+196
+00:19:32,000 --> 00:19:39,680
+longer and got me out of bad trades faster.
+Watch closely here. Compare a regular 20-period  
+
+197
+00:19:39,680 --> 00:19:46,000
+average with a 20-period volume-weighted average.
+Observe how the volume line hugs  
+
+198
+00:19:46,000 --> 00:19:49,440
+price action better.
+The volume-weighted line  
+
+199
+00:19:49,440 --> 00:19:56,030
+works especially well during breakouts. That’s 
+because breakouts need volume to sustain. 
+ 
+
+200
+00:19:56,030 --> 00:19:59,200
+**CHAPTER 11: MULTIPLE TIMEFRAME MOVING AVERAGES**
+Now, here's where most traders completely mess  
+
+201
+00:19:59,200 --> 00:20:03,840
+up their moving-average strategies 
+- they only look at one timeframe. 
+
+202
+00:20:03,840 --> 00:20:09,920
+That’s a missed opportunity. If YOU track a 
+daily average, and then an intraday average,  
+
+203
+00:20:09,920 --> 00:20:16,240
+YOU can align your trades with the bigger trend.
+ 
+If the higher timeframe average is bullish,  
+
+204
+00:20:16,240 --> 00:20:21,520
+but your lower timeframe average turns 
+bearish, maybe YOU only take short-term  
+
+205
+00:20:21,520 --> 00:20:28,160
+quick trades. Or skip the short side entirely.
+The daily chart average shows the big picture  
+
+206
+00:20:28,160 --> 00:20:35,680
+trend. The 1-hour chart shows entry timing.
+When all timeframes align, trades work better.  
+
+207
+00:20:35,680 --> 00:20:42,240
+When they conflict, you will struggle. This 
+is why YOU need multiple timeframe analysis.
+  
+
+208
+00:20:42,240 --> 00:20:48,160
+Here's my timeframe system. Daily chart 
+for trend direction. 1-hour chart for  
+
+209
+00:20:48,160 --> 00:20:56,400
+entry timing. Both must agree before I risk money.
+I use a 10-period simple moving-average on daily  
+
+210
+00:20:56,400 --> 00:21:01,040
+and 20-period on the hourly one. 
+ 
+You might say, “I don’t want to  
+
+211
+00:21:01,040 --> 00:21:07,680
+juggle multiple charts.” But it’s worth it.
+Last week I took a long trade on the hourly chart,  
+
+212
+00:21:07,680 --> 00:21:14,880
+not realizing the daily average was sloping 
+downward. That daily line crushed my trade. 
+  
+
+213
+00:21:14,880 --> 00:21:20,560
+Here’s how YOU do it. Check a lower period 
+average on a higher time frame. Price  
+
+214
+00:21:20,560 --> 00:21:26,480
+above it? Is it sloping up? That means 
+the long-term trend might be strong. 
+
+215
+00:21:26,480 --> 00:21:33,920
+Now see a higher period average, on a lower chart. 
+If that’s also bullish, that’s more confirmation. 
+
+216
+00:21:33,920 --> 00:21:39,280
+And never trade when timeframes disagree.
+This filter alone will improve  
+
+217
+00:21:39,280 --> 00:21:42,800
+YOUR win rate by 20-30%. 
+ 
+**CHAPTER 12: MOVING-AVERAGE REVERSION TRADES** 
+
+218
+00:21:42,800 --> 00:21:48,960
+Now, most traders think moving averages 
+are only for trend following. Not really,  
+
+219
+00:21:48,960 --> 00:21:53,760
+they're equally powerful for mean 
+reversion in the right conditions. 
+
+220
+00:21:53,760 --> 00:21:59,600
+Mean reversion means price returns to 
+average after extreme moves. When price  
+
+221
+00:21:59,600 --> 00:22:05,360
+gets too far from a moving average, it 
+usually snaps back like a rubber band.
+  
+
+222
+00:22:05,360 --> 00:22:11,120
+You’ll be surprised how simple this reversion 
+plan can be. It might be dangerous if the  
+
+223
+00:22:11,120 --> 00:22:18,000
+trend is super strong, but in a range or mild 
+trend, a reversion can bring quick profits. 
+
+224
+00:22:18,000 --> 00:22:23,440
+I used to ignore reversion trades. Then 
+I realized that markets rarely move in a  
+
+225
+00:22:23,440 --> 00:22:30,880
+straight line. Even in a robust uptrend, price 
+might get overheated and revert to the line. 
+ 
+  
+
+226
+00:22:30,880 --> 00:22:35,040
+If YOU see that price is extremely 
+distant from the average, that can  
+
+227
+00:22:35,040 --> 00:22:41,040
+be a short-term fade opportunity. Just 
+watch for slope. If slope is steeply up,  
+
+228
+00:22:41,040 --> 00:22:48,320
+it might be risky to fade. But if slope is 
+gentle or flat, a reversion trade can work.
+  
+
+229
+00:22:48,320 --> 00:22:55,120
+The key is identifying when price has moved 
+too far. I use a simple rule. If price is  
+
+230
+00:22:55,120 --> 00:23:03,840
+more than 3% away from the 200-period EMA, it's 
+extended. Extended price often reverts quickly. 
+
+231
+00:23:03,840 --> 00:23:10,800
+I enter only if I see a divergence at the top or 
+bottom of the channel. Or if I see a trendline  
+
+232
+00:23:10,800 --> 00:23:18,160
+breakout. That are my confirmation filters.
+ 
+Look at this trade. Observe how price gapped  
+
+233
+00:23:18,160 --> 00:23:26,720
+down 4% below the 200 EMA. That long trade was a 
+good candidate for reversion setup. Price was back  
+
+234
+00:23:26,720 --> 00:23:35,520
+at the EMA by the next day. Easy 100 pip profit.
+ 
+So here's how YOU implement this. Use envelopes,  
+
+235
+00:23:35,520 --> 00:23:42,320
+or another reversion channel. When price moves 
+more than 3% away from YOUR moving average,  
+
+236
+00:23:42,320 --> 00:23:48,240
+look for reversion trades back to the 
+average. Enter on the first sign of reversal,  
+
+237
+00:23:48,240 --> 00:23:54,600
+after a divergence, or a trendline breakout. 
+And simply target the moving average.
+  
+
+238
+00:23:54,600 --> 00:23:57,680
+**CHAPTER 13: ADAPTIVE MOVING AVERAGES**
+Now very important, most traders pick a  
+
+239
+00:23:57,680 --> 00:24:05,120
+fixed period. For example, they use a 50 period 
+average no matter the conditions. But an adaptive  
+
+240
+00:24:05,120 --> 00:24:10,720
+moving-average adjusts its calculation 
+based on market volatility or price  
+
+241
+00:24:10,720 --> 00:24:17,600
+behavior. That helps YOU respond better 
+if conditions shift from quiet to wild.
+  
+
+242
+00:24:17,600 --> 00:24:25,040
+You see, regular moving averages never adjust to 
+market conditions. Adaptive moving averages change  
+
+243
+00:24:25,040 --> 00:24:30,960
+their sensitivity based on market volatility.
+When markets are trending strongly,  
+
+244
+00:24:30,960 --> 00:24:37,360
+adaptive moving averages speed up to follow 
+the trend closely. When markets turn choppy,  
+
+245
+00:24:37,360 --> 00:24:42,400
+they slow down to filter out noise.
+Think of it like cruise control that  
+
+246
+00:24:42,400 --> 00:24:46,800
+adjusts to road conditions. 
+ 
+The most popular adaptive  
+
+247
+00:24:46,800 --> 00:24:52,880
+moving-average is the Kaufman one. It uses 
+an efficiency ratio to determine how much  
+
+248
+00:24:52,880 --> 00:25:00,400
+to adapt. High efficiency means trending 
+market. Low efficiency means choppy market. 
+
+249
+00:25:00,400 --> 00:25:07,440
+The result is a line that’s dynamic, not 
+static. It might hug price closer when things  
+
+250
+00:25:07,440 --> 00:25:14,480
+get crazy and drift away when things settle.
+ 
+Here's why this matters for YOUR moving-average  
+
+251
+00:25:14,480 --> 00:25:20,960
+strategy. Fixed period moving averages give 
+false signals in changing conditions. But  
+
+252
+00:25:20,960 --> 00:25:28,080
+adaptive moving averages adjust automatically.
+I discovered Kaufman adaptive moving-average a  
+
+253
+00:25:28,080 --> 00:25:35,600
+few years ago, after getting whipsawed repeatedly 
+during market transitions. My regular EMAs kept  
+
+254
+00:25:35,600 --> 00:25:42,480
+giving false signals. The back test showed that 
+the adaptive average stayed smooth and reliable.
+  
+
+255
+00:25:42,480 --> 00:25:50,320
+Compare the regular 20 EMA with a 20-period 
+adaptive average during trends and choppy period.  
+
+256
+00:25:50,320 --> 00:25:55,200
+See how the adaptive average speeds 
+up to follow the trend closely.  
+
+257
+00:25:55,200 --> 00:26:01,920
+Then it slows down to filter out noise
+And a bonus tip: the adaptive average works  
+
+258
+00:26:01,920 --> 00:26:09,321
+especially well during news events and during the 
+market open, when volatility changes rapidly.
+ 
+ 
+ 
+  
+
+259
+00:26:09,321 --> 00:26:11,600
+**CHAPTER 14: MOVING-AVERAGE CLUSTERS**
+Most people miss this completely,  
+
+260
+00:26:11,600 --> 00:26:18,240
+but moving-average clusters create the strongest 
+support and resistance levels YOU'll ever see. 
+
+261
+00:26:18,240 --> 00:26:23,040
+A cluster happens when multiple moving 
+averages converge at the same price  
+
+262
+00:26:23,040 --> 00:26:29,680
+level. Instead of one moving average, 
+YOU have 2 or lines all sitting together. 
+
+263
+00:26:29,680 --> 00:26:35,200
+If YOU see the 20, 50, and 100 
+averages all near the same price,  
+
+264
+00:26:35,200 --> 00:26:42,560
+that can be a magnet for the market. Price 
+might stall there, bounce, or break with force.
+  
+
+265
+00:26:42,560 --> 00:26:47,840
+Here's why clusters work so well. Each 
+moving-average represents a different  
+
+266
+00:26:47,840 --> 00:26:52,880
+group of traders. The 20-period 
+represents short-term traders.  
+
+267
+00:26:52,880 --> 00:27:00,480
+The 50-period represents medium-term traders. 
+The 200-period represents long-term traders. 
+
+268
+00:27:00,480 --> 00:27:04,400
+When all these groups agree on a 
+price level, that level becomes  
+
+269
+00:27:04,400 --> 00:27:11,360
+incredibly important. Bounces are sharp. 
+Breakouts are violent. No middle ground.
+  
+
+270
+00:27:11,360 --> 00:27:16,960
+I hunt for clusters every morning before 
+the market opens. They show me exactly  
+
+271
+00:27:16,960 --> 00:27:23,920
+where the big moves will happen that day.
+Check this out! Observe how the 20, 50,  
+
+272
+00:27:23,920 --> 00:27:30,480
+and 100-period moving averages all converged 
+around this area. Well, price bounced over  
+
+273
+00:27:30,480 --> 00:27:36,800
+100 pips off that cluster level.
+The plan is simple: if price bounces  
+
+274
+00:27:36,800 --> 00:27:42,880
+off a cluster, trade the bounce direction. If 
+price breaks through a cluster with volume,  
+
+275
+00:27:42,880 --> 00:27:47,680
+trade the breakout direction.
+ 
+YOU now have many angles to refine  
+
+276
+00:27:47,680 --> 00:27:53,840
+your own moving-average trading strategy.
+Use each chapter’s insights in a way that  
+
+277
+00:27:53,840 --> 00:27:54,674
+fits YOU. If YOU like quick scalping trades, 
+check slope changes or the bounce pattern. 
+
+278
+00:27:54,674 --> 00:27:54,748
+If YOU prefer a big-picture method, 
+try multiple timeframes or envelopes. 
+
+279
+00:27:54,748 --> 00:27:54,800
+If YOU love nuance, add 
+adaptive lines or clusters. 
+
+280
+00:27:54,800 --> 00:27:55,035
+And remember what I showed YOU 
+about fake-outs and crossovers. 
+
+281
+00:27:55,035 --> 00:27:55,680
+Now, if you're curious about 
+mastering more techniques, go ahead  
+
+282
+00:27:56,640 --> 00:28:06,000
+and watch one of these videos next!
+

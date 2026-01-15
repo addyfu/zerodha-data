@@ -1,0 +1,2444 @@
+1
+00:00:00,080 --> 00:00:05,440
+order blocks are special candlesticks
+
+2
+00:00:02,520 --> 00:00:07,799
+that start big price moves they're not
+
+3
+00:00:05,440 --> 00:00:11,120
+just any candles they're the ones big
+
+4
+00:00:07,799 --> 00:00:13,519
+Market players use to kick off trends
+
+5
+00:00:11,120 --> 00:00:15,960
+when you see a big Market move it didn't
+
+6
+00:00:13,519 --> 00:00:18,439
+just happen by chance it started
+
+7
+00:00:15,960 --> 00:00:21,400
+somewhere and that starting point is an
+
+8
+00:00:18,439 --> 00:00:24,080
+order Block it's where the big players
+
+9
+00:00:21,400 --> 00:00:26,760
+the market makers set up and get ready
+
+10
+00:00:24,080 --> 00:00:29,439
+to push the price around order blocks
+
+11
+00:00:26,760 --> 00:00:31,920
+form because of liquidity the big
+
+12
+00:00:29,439 --> 00:00:34,239
+players need a lot of liquidity to make
+
+13
+00:00:31,920 --> 00:00:36,760
+their moves and when they can't find
+
+14
+00:00:34,239 --> 00:00:39,520
+enough liquidity to fill their orders
+
+15
+00:00:36,760 --> 00:00:42,480
+they make it themselves they do this by
+
+16
+00:00:39,520 --> 00:00:45,640
+opening positions in both directions
+
+17
+00:00:42,480 --> 00:00:48,239
+creating fake counter liquidity this
+
+18
+00:00:45,640 --> 00:00:50,199
+lets them fill up the volume they need
+
+19
+00:00:48,239 --> 00:00:53,079
+and then push the price where they want
+
+20
+00:00:50,199 --> 00:00:55,719
+it to go there are two main types of
+
+21
+00:00:53,079 --> 00:00:58,199
+order blocks you need to know about
+
+22
+00:00:55,719 --> 00:01:00,239
+bullish order blocks which show up when
+
+23
+00:00:58,199 --> 00:01:03,719
+the price drops then sudden suddenly
+
+24
+00:01:00,239 --> 00:01:06,960
+shoots up and bearish Order blocks the
+
+25
+00:01:03,719 --> 00:01:09,280
+price climbs up then suddenly drops
+
+26
+00:01:06,960 --> 00:01:12,240
+order blocks are like pressure points in
+
+27
+00:01:09,280 --> 00:01:15,200
+the market they're areas where the big
+
+28
+00:01:12,240 --> 00:01:17,720
+players the market makers have put a lot
+
+29
+00:01:15,200 --> 00:01:20,119
+of their orders when the price comes
+
+30
+00:01:17,720 --> 00:01:22,560
+back to these areas there's a lot of
+
+31
+00:01:20,119 --> 00:01:25,159
+potential energy waiting to be
+
+32
+00:01:22,560 --> 00:01:27,840
+released think about it when a big
+
+33
+00:01:25,159 --> 00:01:30,799
+player wants to buy a lot of stock or
+
+34
+00:01:27,840 --> 00:01:33,560
+currency they can't just place one big
+
+35
+00:01:30,799 --> 00:01:35,960
+order that would spike the price and
+
+36
+00:01:33,560 --> 00:01:38,840
+they'd end up paying way more than they
+
+37
+00:01:35,960 --> 00:01:42,320
+want to so instead they break up their
+
+38
+00:01:38,840 --> 00:01:44,719
+big order into smaller pieces they might
+
+39
+00:01:42,320 --> 00:01:47,439
+start by selling a little bit this
+
+40
+00:01:44,719 --> 00:01:50,479
+pushes the price down and scare some
+
+41
+00:01:47,439 --> 00:01:52,680
+other Traders into selling too now
+
+42
+00:01:50,479 --> 00:01:55,560
+there's more Supply in the market which
+
+43
+00:01:52,680 --> 00:01:58,119
+is exactly what the smart money wants
+
+44
+00:01:55,560 --> 00:02:01,039
+they can now start buying at these lower
+
+45
+00:01:58,119 --> 00:02:03,799
+prices this process creates our order
+
+46
+00:02:01,039 --> 00:02:06,680
+block the initial selling creates the
+
+47
+00:02:03,799 --> 00:02:09,520
+block part the area on the chart where a
+
+48
+00:02:06,680 --> 00:02:11,520
+lot of orders were placed and because
+
+49
+00:02:09,520 --> 00:02:13,800
+this is where the smart money started
+
+50
+00:02:11,520 --> 00:02:16,400
+their buying we know they're likely to
+
+51
+00:02:13,800 --> 00:02:19,360
+defend this area if the price comes back
+
+52
+00:02:16,400 --> 00:02:21,640
+to it that's why order blocks are so
+
+53
+00:02:19,360 --> 00:02:24,120
+powerful to trade you're not just
+
+54
+00:02:21,640 --> 00:02:25,920
+guessing where the price might go you're
+
+55
+00:02:24,120 --> 00:02:28,959
+looking at where the big money has
+
+56
+00:02:25,920 --> 00:02:32,120
+already shown its hand this is why order
+
+57
+00:02:28,959 --> 00:02:34,280
+blocks will help you place better trades
+
+58
+00:02:32,120 --> 00:02:37,480
+they give you a solid spot to put your
+
+59
+00:02:34,280 --> 00:02:40,519
+own orders when you're entering a trade
+
+60
+00:02:37,480 --> 00:02:42,640
+this isn't just guesswork it's based on
+
+61
+00:02:40,519 --> 00:02:45,080
+where the big players are putting their
+
+62
+00:02:42,640 --> 00:02:47,599
+money you're not just picking random
+
+63
+00:02:45,080 --> 00:02:50,000
+points you're using levels that have
+
+64
+00:02:47,599 --> 00:02:53,200
+real significance in the
+
+65
+00:02:50,000 --> 00:02:55,920
+market now here's the reality order
+
+66
+00:02:53,200 --> 00:02:57,760
+blocks aren't Magic Bullets they only
+
+67
+00:02:55,920 --> 00:03:00,720
+work if you know how to spot real
+
+68
+00:02:57,760 --> 00:03:03,760
+liquidity in the market on their own
+
+69
+00:03:00,720 --> 00:03:06,239
+order blocks don't mean much in fact
+
+70
+00:03:03,760 --> 00:03:09,000
+most of them break as soon as the price
+
+71
+00:03:06,239 --> 00:03:11,640
+comes back to them I'll explain later
+
+72
+00:03:09,000 --> 00:03:14,720
+the secret to find the best areas but
+
+73
+00:03:11,640 --> 00:03:17,799
+for now think about this why does the
+
+74
+00:03:14,720 --> 00:03:20,040
+price bounce off these order blocks well
+
+75
+00:03:17,799 --> 00:03:23,200
+it's all about the big players average
+
+76
+00:03:20,040 --> 00:03:26,840
+price if the price drops below a bullish
+
+77
+00:03:23,200 --> 00:03:29,799
+order block or jumps above a bearish one
+
+78
+00:03:26,840 --> 00:03:32,920
+those big players start losing money and
+
+79
+00:03:29,799 --> 00:03:35,040
+trust me they don't like losing money so
+
+80
+00:03:32,920 --> 00:03:37,560
+they push the price back it's like
+
+81
+00:03:35,040 --> 00:03:39,959
+they're protecting their Turf this is
+
+82
+00:03:37,560 --> 00:03:42,560
+why you often see that price returns to
+
+83
+00:03:39,959 --> 00:03:45,879
+an order block before continuing its
+
+84
+00:03:42,560 --> 00:03:48,680
+main move remember this part order
+
+85
+00:03:45,879 --> 00:03:51,840
+blocks are based on a lack of liquidity
+
+86
+00:03:48,680 --> 00:03:54,040
+when smart money needs to open positions
+
+87
+00:03:51,840 --> 00:03:56,560
+the market makers aren't just reacting
+
+88
+00:03:54,040 --> 00:03:59,040
+to the market they're actively shaping
+
+89
+00:03:56,560 --> 00:04:02,000
+it they're creating the conditions they
+
+90
+00:03:59,040 --> 00:04:04,680
+need to make their moves let's say we
+
+91
+00:04:02,000 --> 00:04:07,040
+have a bullish order block the price has
+
+92
+00:04:04,680 --> 00:04:09,640
+gone up from this area but now it's
+
+93
+00:04:07,040 --> 00:04:13,120
+coming back down as it approaches the
+
+94
+00:04:09,640 --> 00:04:15,480
+order block several things might happen
+
+95
+00:04:13,120 --> 00:04:18,400
+first the big players who bought here
+
+96
+00:04:15,480 --> 00:04:21,079
+before might buy again they know this
+
+97
+00:04:18,400 --> 00:04:24,680
+level worked before so they're happy to
+
+98
+00:04:21,079 --> 00:04:27,280
+add to their position second traders who
+
+99
+00:04:24,680 --> 00:04:29,800
+missed the first move up might see this
+
+100
+00:04:27,280 --> 00:04:32,840
+as their second chance they'll start
+
+101
+00:04:29,800 --> 00:04:35,520
+buying adding to the upward pressure
+
+102
+00:04:32,840 --> 00:04:38,880
+also traders who sold short after the
+
+103
+00:04:35,520 --> 00:04:41,360
+first move up might start to get nervous
+
+104
+00:04:38,880 --> 00:04:44,639
+if the price bounces here they'll be in
+
+105
+00:04:41,360 --> 00:04:47,800
+trouble some of them might start buying
+
+106
+00:04:44,639 --> 00:04:50,600
+to close their shorts adding even more
+
+107
+00:04:47,800 --> 00:04:52,800
+upward pressure all of these factors
+
+108
+00:04:50,600 --> 00:04:55,720
+combined to make the order block a
+
+109
+00:04:52,800 --> 00:04:58,240
+strong support level and if the price
+
+110
+00:04:55,720 --> 00:05:00,560
+does bounce here it confirms the
+
+111
+00:04:58,240 --> 00:05:03,840
+strength of the order block making it
+
+112
+00:05:00,560 --> 00:05:06,639
+even more likely to work again in the
+
+113
+00:05:03,840 --> 00:05:09,360
+future now let's break down the anatomy
+
+114
+00:05:06,639 --> 00:05:12,039
+of an order block we are looking for a
+
+115
+00:05:09,360 --> 00:05:14,759
+specific shape here for a bullish order
+
+116
+00:05:12,039 --> 00:05:17,639
+block we want to see a move down then
+
+117
+00:05:14,759 --> 00:05:20,600
+price shooting up for a bearish order
+
+118
+00:05:17,639 --> 00:05:23,440
+block price climbs up then suddenly
+
+119
+00:05:20,600 --> 00:05:26,600
+drops now we're not just looking at a
+
+120
+00:05:23,440 --> 00:05:29,720
+basic reversal we want the last push the
+
+121
+00:05:26,600 --> 00:05:32,120
+last candle before the Big Move it's the
+
+122
+00:05:29,720 --> 00:05:35,160
+final gasp of the old Trend before the
+
+123
+00:05:32,120 --> 00:05:37,720
+new one takes over this is where the big
+
+124
+00:05:35,160 --> 00:05:40,840
+players make their move you're looking
+
+125
+00:05:37,720 --> 00:05:43,400
+for the last candle before the reversal
+
+126
+00:05:40,840 --> 00:05:46,319
+in a bullish scenario it's often the
+
+127
+00:05:43,400 --> 00:05:49,520
+last Red candle before a string of green
+
+128
+00:05:46,319 --> 00:05:52,240
+ones for bearish setups it's the last
+
+129
+00:05:49,520 --> 00:05:55,520
+green one before the red candles take
+
+130
+00:05:52,240 --> 00:05:57,960
+over so for a bullish order block we are
+
+131
+00:05:55,520 --> 00:06:00,360
+looking at a down candle but not just
+
+132
+00:05:57,960 --> 00:06:03,639
+any down candle we want want the lowest
+
+133
+00:06:00,360 --> 00:06:06,280
+red candle in the sequence for a bearish
+
+134
+00:06:03,639 --> 00:06:09,360
+order Block it's the highest green
+
+135
+00:06:06,280 --> 00:06:11,800
+candle these are our signal flares they
+
+136
+00:06:09,360 --> 00:06:14,440
+tell us where the action is happening
+
+137
+00:06:11,800 --> 00:06:17,199
+some Traders use the mean threshold for
+
+138
+00:06:14,440 --> 00:06:20,120
+identifying these zones it's like the
+
+139
+00:06:17,199 --> 00:06:22,800
+equator of order block we draw it right
+
+140
+00:06:20,120 --> 00:06:25,720
+through the middle at the 50% level of
+
+141
+00:06:22,800 --> 00:06:28,759
+the candle it's like a discount premium
+
+142
+00:06:25,720 --> 00:06:31,720
+zone for the order block this is where
+
+143
+00:06:28,759 --> 00:06:34,120
+we expect the price to behave itself if
+
+144
+00:06:31,720 --> 00:06:37,560
+price respects this level it's a good
+
+145
+00:06:34,120 --> 00:06:40,639
+sign our order block is legit it's all
+
+146
+00:06:37,560 --> 00:06:42,919
+about validation a strong order block
+
+147
+00:06:40,639 --> 00:06:46,039
+shouldn't see price dip below this
+
+148
+00:06:42,919 --> 00:06:49,720
+midpoint for bullish blocks or rise
+
+149
+00:06:46,039 --> 00:06:52,520
+above it for bearish blocks if it does
+
+150
+00:06:49,720 --> 00:06:55,240
+it might be telling us our block isn't
+
+151
+00:06:52,520 --> 00:06:57,879
+as solid as we thought for a bullish
+
+152
+00:06:55,240 --> 00:07:00,440
+order block to be confirmed we need to
+
+153
+00:06:57,879 --> 00:07:02,919
+see a more recent candle trade through
+
+154
+00:07:00,440 --> 00:07:05,879
+the high of our red candle marking the
+
+155
+00:07:02,919 --> 00:07:08,199
+zone for a bearish block we need a
+
+156
+00:07:05,879 --> 00:07:11,560
+candle to trade through the low of our
+
+157
+00:07:08,199 --> 00:07:14,240
+highest green candle and for a top-notch
+
+158
+00:07:11,560 --> 00:07:16,879
+bullish order block we don't want to see
+
+159
+00:07:14,240 --> 00:07:20,199
+price trading below the midpoint of that
+
+160
+00:07:16,879 --> 00:07:22,240
+candle for a bearish block we don't want
+
+161
+00:07:20,199 --> 00:07:26,160
+price popping above the midpoint of the
+
+162
+00:07:22,240 --> 00:07:28,720
+green candle now let's zoom out a bit
+
+163
+00:07:26,160 --> 00:07:30,680
+where do we find these order blocks we
+
+164
+00:07:28,720 --> 00:07:33,199
+need to look at the the highs and lows
+
+165
+00:07:30,680 --> 00:07:35,879
+of the market these are the optimal
+
+166
+00:07:33,199 --> 00:07:38,080
+reversal spots the turning points where
+
+167
+00:07:35,879 --> 00:07:41,440
+the smart money makes its
+
+168
+00:07:38,080 --> 00:07:44,400
+move now let's talk about the mitigation
+
+169
+00:07:41,440 --> 00:07:47,360
+of order blocks mitigation is just a
+
+170
+00:07:44,400 --> 00:07:50,240
+fancy word for cleaning up leftover
+
+171
+00:07:47,360 --> 00:07:52,919
+orders after a big player has bought
+
+172
+00:07:50,240 --> 00:07:55,560
+what they wanted the price often swings
+
+173
+00:07:52,919 --> 00:07:57,759
+back to the order block that's because
+
+174
+00:07:55,560 --> 00:08:00,440
+that's where those initial orders are
+
+175
+00:07:57,759 --> 00:08:04,120
+sitting the big player wants to close
+
+176
+00:08:00,440 --> 00:08:06,319
+them out ideally at break even this back
+
+177
+00:08:04,120 --> 00:08:09,599
+and forth creates the swings we see in
+
+178
+00:08:06,319 --> 00:08:12,479
+the market it's like a dance buy and
+
+179
+00:08:09,599 --> 00:08:16,159
+then sell create an order block then
+
+180
+00:08:12,479 --> 00:08:18,840
+mitigate it so how can you use this info
+
+181
+00:08:16,159 --> 00:08:21,039
+well it gives you a road map of sorts
+
+182
+00:08:18,840 --> 00:08:23,199
+when you spot an order block you can
+
+183
+00:08:21,039 --> 00:08:25,720
+expect price to come back to it at some
+
+184
+00:08:23,199 --> 00:08:28,720
+point that's your chance to hop on the
+
+185
+00:08:25,720 --> 00:08:31,520
+right if you see a bullish order block
+
+186
+00:08:28,720 --> 00:08:33,959
+you're looking for buy opportunities for
+
+187
+00:08:31,520 --> 00:08:36,599
+bearish ones you're thinking about
+
+188
+00:08:33,959 --> 00:08:39,959
+selling remember it's all about
+
+189
+00:08:36,599 --> 00:08:41,959
+liquidity or rather the lack of it when
+
+190
+00:08:39,959 --> 00:08:45,000
+the market makers need to open a
+
+191
+00:08:41,959 --> 00:08:46,920
+position they often face a problem
+
+192
+00:08:45,000 --> 00:08:49,080
+there's not enough liquidity to fill
+
+193
+00:08:46,920 --> 00:08:52,600
+their orders without moving the price
+
+194
+00:08:49,080 --> 00:08:55,279
+too much so they get creative they open
+
+195
+00:08:52,600 --> 00:08:57,200
+positions in both directions it's like
+
+196
+00:08:55,279 --> 00:09:00,160
+they're creating their own liquidity
+
+197
+00:08:57,200 --> 00:09:02,120
+pool they fill up the volume they need
+
+198
+00:09:00,160 --> 00:09:05,040
+then push the price where they want it
+
+199
+00:09:02,120 --> 00:09:08,000
+to go this is what creates our order
+
+200
+00:09:05,040 --> 00:09:10,320
+block when they do this they are left
+
+201
+00:09:08,000 --> 00:09:13,760
+with some positions that are now losing
+
+202
+00:09:10,320 --> 00:09:17,519
+money and like I said big players don't
+
+203
+00:09:13,760 --> 00:09:19,720
+like losing money as us retail Traders
+
+204
+00:09:17,519 --> 00:09:22,760
+they want to close this positions at
+
+205
+00:09:19,720 --> 00:09:25,640
+break even and the break even point is
+
+206
+00:09:22,760 --> 00:09:28,000
+right back at our order block this is
+
+207
+00:09:25,640 --> 00:09:31,040
+why price often comes back to test an
+
+208
+00:09:28,000 --> 00:09:33,079
+order block if it's not random it's the
+
+209
+00:09:31,040 --> 00:09:36,240
+big money trying to clean up their
+
+210
+00:09:33,079 --> 00:09:37,320
+positions and for us smaller Traders
+
+211
+00:09:36,240 --> 00:09:40,000
+this is an
+
+212
+00:09:37,320 --> 00:09:43,040
+opportunity here's the difficult part
+
+213
+00:09:40,000 --> 00:09:45,839
+not every order block gets hit and some
+
+214
+00:09:43,040 --> 00:09:49,079
+get blown right through how do you know
+
+215
+00:09:45,839 --> 00:09:52,120
+which ones to trust it all comes down to
+
+216
+00:09:49,079 --> 00:09:54,760
+liquidity liquidity is just a fancy word
+
+217
+00:09:52,120 --> 00:09:58,200
+for where the money is it's where a lot
+
+218
+00:09:54,760 --> 00:10:01,519
+of buy or sell orders pile up often
+
+219
+00:09:58,200 --> 00:10:04,160
+these are at old highs or lows big
+
+220
+00:10:01,519 --> 00:10:05,839
+players love to Target these spots
+
+221
+00:10:04,160 --> 00:10:08,079
+because that's where they can find
+
+222
+00:10:05,839 --> 00:10:10,160
+enough orders to fill their big
+
+223
+00:10:08,079 --> 00:10:13,040
+positions so when you're looking at
+
+224
+00:10:10,160 --> 00:10:15,480
+order blocks pay attention to nearby
+
+225
+00:10:13,040 --> 00:10:18,200
+liquidity if there's a juicy pool of
+
+226
+00:10:15,480 --> 00:10:20,240
+orders just beyond the order block
+
+227
+00:10:18,200 --> 00:10:22,600
+chances are good that price will come
+
+228
+00:10:20,240 --> 00:10:25,360
+back to hit it this is part of the
+
+229
+00:10:22,600 --> 00:10:27,880
+mitigation phase mitigation is when
+
+230
+00:10:25,360 --> 00:10:30,200
+price swings back to the order block
+
+231
+00:10:27,880 --> 00:10:33,000
+remember those leftover orders from the
+
+232
+00:10:30,200 --> 00:10:35,560
+initial move this is the time when smart
+
+233
+00:10:33,000 --> 00:10:39,000
+money cleaned those up they're closing
+
+234
+00:10:35,560 --> 00:10:42,279
+out positions getting back to even for
+
+235
+00:10:39,000 --> 00:10:44,920
+us retail Traders this is opportunity
+
+236
+00:10:42,279 --> 00:10:47,720
+knocking when price swings back to an
+
+237
+00:10:44,920 --> 00:10:50,639
+order Block it's often setting up for
+
+238
+00:10:47,720 --> 00:10:53,360
+another move in the original Direction
+
+239
+00:10:50,639 --> 00:10:56,079
+so if it was a bullish order block and
+
+240
+00:10:53,360 --> 00:10:59,320
+price comes back down to it that might
+
+241
+00:10:56,079 --> 00:11:01,920
+be your chance to buy some may buy as
+
+242
+00:10:59,320 --> 00:11:03,600
+soon as price touches the order block
+
+243
+00:11:01,920 --> 00:11:06,920
+others wait for signs that the
+
+244
+00:11:03,600 --> 00:11:09,839
+mitigation is done price action close
+
+245
+00:11:06,920 --> 00:11:12,440
+maybe a rejection candle or a break of a
+
+246
+00:11:09,839 --> 00:11:13,800
+small trend line we'll talk about the
+
+247
+00:11:12,440 --> 00:11:16,600
+best entries
+
+248
+00:11:13,800 --> 00:11:19,519
+later there's also a concept called a
+
+249
+00:11:16,600 --> 00:11:22,600
+mitigation Block it's like a cousin to
+
+250
+00:11:19,519 --> 00:11:25,760
+the order Block it's all about how price
+
+251
+00:11:22,600 --> 00:11:28,000
+behaves afterwards a mitigation block
+
+252
+00:11:25,760 --> 00:11:31,240
+forms when the market fails to make a
+
+253
+00:11:28,000 --> 00:11:33,320
+new high or L it's a sign that the
+
+254
+00:11:31,240 --> 00:11:37,079
+current move might be running out of
+
+255
+00:11:33,320 --> 00:11:39,680
+steam it's a failure swing here's how it
+
+256
+00:11:37,079 --> 00:11:43,560
+plays out let's say the Market's been
+
+257
+00:11:39,680 --> 00:11:46,839
+going up it hits a high pulls back then
+
+258
+00:11:43,560 --> 00:11:49,600
+tries to push higher again but this time
+
+259
+00:11:46,839 --> 00:11:52,480
+it can't quite reach the old high that's
+
+260
+00:11:49,600 --> 00:11:55,800
+a mitigation Block it's a hint that the
+
+261
+00:11:52,480 --> 00:11:58,720
+uptrend might be in trouble the opposite
+
+262
+00:11:55,800 --> 00:12:02,760
+can happen in a downtrend price makes a
+
+263
+00:11:58,720 --> 00:12:05,600
+low bounces then tries to go lower again
+
+264
+00:12:02,760 --> 00:12:08,079
+but it can't quite break the old low
+
+265
+00:12:05,600 --> 00:12:10,920
+that's a bullish mitigation block it
+
+266
+00:12:08,079 --> 00:12:13,480
+suggests the downtrend might be losing
+
+267
+00:12:10,920 --> 00:12:16,720
+steam now don't confuse these with
+
+268
+00:12:13,480 --> 00:12:20,800
+breaker blocks a breaker actually does
+
+269
+00:12:16,720 --> 00:12:25,079
+make a new high or low it breaks the old
+
+270
+00:12:20,800 --> 00:12:28,320
+level a mitigation block falls short and
+
+271
+00:12:25,079 --> 00:12:30,279
+why does this matter well it's all about
+
+272
+00:12:28,320 --> 00:12:33,720
+understanding what the big players are
+
+273
+00:12:30,279 --> 00:12:36,480
+up to a mitigation block suggests they
+
+274
+00:12:33,720 --> 00:12:38,959
+couldn't push price where they wanted
+
+275
+00:12:36,480 --> 00:12:41,880
+maybe there wasn't enough liquidity or
+
+276
+00:12:38,959 --> 00:12:44,320
+maybe opposing players stepped in for
+
+277
+00:12:41,880 --> 00:12:46,920
+you it's a heads up if you see a
+
+278
+00:12:44,320 --> 00:12:49,880
+mitigation block form it might be time
+
+279
+00:12:46,920 --> 00:12:52,160
+to start looking for a reversal now
+
+280
+00:12:49,880 --> 00:12:54,360
+before we continue let us know in the
+
+281
+00:12:52,160 --> 00:12:57,320
+comments what topics you'd like us to
+
+282
+00:12:54,360 --> 00:12:59,800
+cover in future videos and drop us a
+
+283
+00:12:57,320 --> 00:13:02,320
+like to help us with YouTube
+
+284
+00:12:59,800 --> 00:13:04,920
+algorithm order blocks fit into the
+
+285
+00:13:02,320 --> 00:13:07,760
+bigger picture of Market structure
+
+286
+00:13:04,920 --> 00:13:10,480
+Market structure shows the overall flow
+
+287
+00:13:07,760 --> 00:13:13,079
+with its twists and turns order blocks
+
+288
+00:13:10,480 --> 00:13:16,279
+are areas where the flow can suddenly
+
+289
+00:13:13,079 --> 00:13:19,040
+change direction in a bullish Market
+
+290
+00:13:16,279 --> 00:13:22,519
+you'll see a series of higher highs and
+
+291
+00:13:19,040 --> 00:13:25,480
+higher lows and each swing up is usually
+
+292
+00:13:22,519 --> 00:13:27,920
+kicked off by a bullish order block
+
+293
+00:13:25,480 --> 00:13:31,120
+these blocks are like stepping stones
+
+294
+00:13:27,920 --> 00:13:33,680
+marking the path of the uptrend Now flip
+
+295
+00:13:31,120 --> 00:13:36,920
+that for a bearish market you've got
+
+296
+00:13:33,680 --> 00:13:40,320
+lower lows and lower highs each drop
+
+297
+00:13:36,920 --> 00:13:42,639
+often starts with a bearish order block
+
+298
+00:13:40,320 --> 00:13:45,360
+but here's where it gets interesting
+
+299
+00:13:42,639 --> 00:13:47,399
+order blocks don't just go with the flow
+
+300
+00:13:45,360 --> 00:13:50,279
+they can signal when the flow is about
+
+301
+00:13:47,399 --> 00:13:53,440
+to change this is where Market structure
+
+302
+00:13:50,279 --> 00:13:56,079
+breaks come in a market structure break
+
+303
+00:13:53,440 --> 00:13:59,279
+happens when price bust through a key
+
+304
+00:13:56,079 --> 00:14:02,440
+level in an uptrend it's when price
+
+305
+00:13:59,279 --> 00:14:06,000
+makes a lower low in a downtrend it's a
+
+306
+00:14:02,440 --> 00:14:08,040
+higher high these brakes are big deals
+
+307
+00:14:06,000 --> 00:14:10,839
+they're like road signs telling you the
+
+308
+00:14:08,040 --> 00:14:13,720
+trend might be changing now guess what
+
+309
+00:14:10,839 --> 00:14:16,480
+often comes right before this breaks
+
+310
+00:14:13,720 --> 00:14:18,839
+that's right order blocks the market
+
+311
+00:14:16,480 --> 00:14:21,759
+coils up at the order block then a
+
+312
+00:14:18,839 --> 00:14:24,320
+structure break follows here's how it
+
+313
+00:14:21,759 --> 00:14:27,440
+might play out let's say we're in an
+
+314
+00:14:24,320 --> 00:14:30,360
+uptrend we've got those higher highs and
+
+315
+00:14:27,440 --> 00:14:33,240
+higher lows then then price forms a
+
+316
+00:14:30,360 --> 00:14:35,920
+bearish order block price drops from
+
+317
+00:14:33,240 --> 00:14:38,959
+there and this time it doesn't just make
+
+318
+00:14:35,920 --> 00:14:41,800
+a higher low it smashes right through
+
+319
+00:14:38,959 --> 00:14:45,079
+the previous low that's a structure
+
+320
+00:14:41,800 --> 00:14:48,240
+break this combo order block plus
+
+321
+00:14:45,079 --> 00:14:50,440
+structure breake is very powerful it's
+
+322
+00:14:48,240 --> 00:14:52,800
+telling you something big might be
+
+323
+00:14:50,440 --> 00:14:56,279
+happening the trend that's been chugging
+
+324
+00:14:52,800 --> 00:14:58,880
+along might be running out of steam when
+
+325
+00:14:56,279 --> 00:15:02,240
+you spot an order block don't just focus
+
+326
+00:14:58,880 --> 00:15:05,120
+on on that single level zoom out look at
+
+327
+00:15:02,240 --> 00:15:07,920
+the bigger picture where is this block
+
+328
+00:15:05,120 --> 00:15:10,120
+in relation to the overall trend if it's
+
+329
+00:15:07,920 --> 00:15:12,680
+going with the trend it might be a
+
+330
+00:15:10,120 --> 00:15:15,279
+continuation signal price could bounce
+
+331
+00:15:12,680 --> 00:15:18,120
+off it and keep moving in the same
+
+332
+00:15:15,279 --> 00:15:20,920
+direction but if it's against the trend
+
+333
+00:15:18,120 --> 00:15:23,720
+it could be setting up for a reversal if
+
+334
+00:15:20,920 --> 00:15:25,839
+price respects the block and bounces it
+
+335
+00:15:23,720 --> 00:15:28,399
+could be a continuation of the current
+
+336
+00:15:25,839 --> 00:15:31,519
+Trend but if it breaks through
+
+337
+00:15:28,399 --> 00:15:34,399
+especially with a strong move watch out
+
+338
+00:15:31,519 --> 00:15:36,279
+that could be the start of a new trend
+
+339
+00:15:34,399 --> 00:15:38,959
+this is where those Market structure
+
+340
+00:15:36,279 --> 00:15:41,880
+breaks come in if you see price break
+
+341
+00:15:38,959 --> 00:15:45,000
+through a significant high or low after
+
+342
+00:15:41,880 --> 00:15:47,079
+hitting an order block that's a big deal
+
+343
+00:15:45,000 --> 00:15:50,000
+it's like the market is shouting at you
+
+344
+00:15:47,079 --> 00:15:53,000
+that something's changing another setup
+
+345
+00:15:50,000 --> 00:15:54,800
+to watch for is the failed order block
+
+346
+00:15:53,000 --> 00:15:57,240
+this is when price comes back to an
+
+347
+00:15:54,800 --> 00:16:00,440
+order block but doesn't bounce off it
+
+348
+00:15:57,240 --> 00:16:03,079
+like expected in instead it pushes right
+
+349
+00:16:00,440 --> 00:16:06,399
+through this can also be a tradable
+
+350
+00:16:03,079 --> 00:16:08,759
+signal failed order blocks often lead to
+
+351
+00:16:06,399 --> 00:16:11,639
+strong moves that's because a lot of
+
+352
+00:16:08,759 --> 00:16:13,959
+Traders are caught on the wrong side
+
+353
+00:16:11,639 --> 00:16:16,680
+they were expecting the block to hold
+
+354
+00:16:13,959 --> 00:16:19,399
+and now they're scrambling to get out
+
+355
+00:16:16,680 --> 00:16:22,319
+this can fuel a big move in the opposite
+
+356
+00:16:19,399 --> 00:16:25,360
+direction a quick word on time frames
+
+357
+00:16:22,319 --> 00:16:27,279
+order blocks work on all time frames but
+
+358
+00:16:25,360 --> 00:16:31,199
+they are most powerful on the higher
+
+359
+00:16:27,279 --> 00:16:34,279
+ones an hour order block is usually more
+
+360
+00:16:31,199 --> 00:16:36,199
+significant than a 5-minute one but that
+
+361
+00:16:34,279 --> 00:16:39,319
+doesn't mean you should ignore the lower
+
+362
+00:16:36,199 --> 00:16:42,319
+time frames in fact you can use multiple
+
+363
+00:16:39,319 --> 00:16:45,160
+time frames together find the big order
+
+364
+00:16:42,319 --> 00:16:48,279
+blocks on the higher time frames then
+
+365
+00:16:45,160 --> 00:16:51,639
+zoom in the lower ones for more precise
+
+366
+00:16:48,279 --> 00:16:54,079
+entries it's like using a map and a GPS
+
+367
+00:16:51,639 --> 00:16:57,079
+together we'll talk about this
+
+368
+00:16:54,079 --> 00:16:59,720
+later high probability order blocks are
+
+369
+00:16:57,079 --> 00:17:01,959
+followed by fair value gaps
+
+370
+00:16:59,720 --> 00:17:04,799
+these happen when price jumps from one
+
+371
+00:17:01,959 --> 00:17:07,199
+level to another leaving a gap but
+
+372
+00:17:04,799 --> 00:17:09,839
+unlike a regular Gap there's some
+
+373
+00:17:07,199 --> 00:17:12,679
+trading activity in between this
+
+374
+00:17:09,839 --> 00:17:15,439
+imbalance signifies a sudden surge in
+
+375
+00:17:12,679 --> 00:17:18,439
+buying or selling pressure indicating
+
+376
+00:17:15,439 --> 00:17:20,839
+the presence of institutional orders
+
+377
+00:17:18,439 --> 00:17:23,640
+these gaps show up as big candles on
+
+378
+00:17:20,839 --> 00:17:27,160
+charts the candles next to them don't
+
+379
+00:17:23,640 --> 00:17:29,559
+touch fully to spot a fair value Gap
+
+380
+00:17:27,160 --> 00:17:32,000
+look at three candles in a row
+
+381
+00:17:29,559 --> 00:17:35,240
+in a bullish Gap the low of the third
+
+382
+00:17:32,000 --> 00:17:37,760
+candle is above the high of the first
+
+383
+00:17:35,240 --> 00:17:41,039
+for a bearish gap the high of the third
+
+384
+00:17:37,760 --> 00:17:43,679
+candle is below the low of the first
+
+385
+00:17:41,039 --> 00:17:46,320
+these gaps aren't just random they show
+
+386
+00:17:43,679 --> 00:17:49,000
+where big players made Moves when a
+
+387
+00:17:46,320 --> 00:17:51,840
+large order hits the market it can cause
+
+388
+00:17:49,000 --> 00:17:55,320
+a gap and the market often wants to fill
+
+389
+00:17:51,840 --> 00:17:58,240
+these gaps later both order blocks and
+
+390
+00:17:55,320 --> 00:18:01,760
+fair value gaps are about imbalances in
+
+391
+00:17:58,240 --> 00:18:05,679
+the market when price jumps it means one
+
+392
+00:18:01,760 --> 00:18:08,440
+side buyers or sellers took control fast
+
+393
+00:18:05,679 --> 00:18:11,440
+this quick move can leave some trades
+
+394
+00:18:08,440 --> 00:18:14,559
+unfilled fair value gaps are all about
+
+395
+00:18:11,440 --> 00:18:17,360
+speed when price moves too fast it can
+
+396
+00:18:14,559 --> 00:18:20,200
+leave these gaps behind and the market
+
+397
+00:18:17,360 --> 00:18:22,840
+wants to fill them that's why they often
+
+398
+00:18:20,200 --> 00:18:26,120
+act like magnets pulling price back to
+
+399
+00:18:22,840 --> 00:18:29,000
+them later order blocks and fair value
+
+400
+00:18:26,120 --> 00:18:31,600
+gaps work well together you will often
+
+401
+00:18:29,000 --> 00:18:34,640
+and bullish order block followed by a
+
+402
+00:18:31,600 --> 00:18:37,960
+fair value Gap this is like a double
+
+403
+00:18:34,640 --> 00:18:40,440
+confirmation of a key buy level or you
+
+404
+00:18:37,960 --> 00:18:44,280
+might see price move away from a bearish
+
+405
+00:18:40,440 --> 00:18:47,120
+order block followed by a fair value Gap
+
+406
+00:18:44,280 --> 00:18:50,760
+later when price comes back to fill that
+
+407
+00:18:47,120 --> 00:18:53,080
+Gap it might also retest the order block
+
+408
+00:18:50,760 --> 00:18:56,520
+this could be a high probability
+
+409
+00:18:53,080 --> 00:19:00,039
+setup also don't forget about the bigger
+
+410
+00:18:56,520 --> 00:19:03,240
+picture order blocks and fair value gaps
+
+411
+00:19:00,039 --> 00:19:06,360
+are just parts of Market structure they
+
+412
+00:19:03,240 --> 00:19:08,919
+fit into larger Trends and patterns
+
+413
+00:19:06,360 --> 00:19:09,760
+always keep the overall Market Direction
+
+414
+00:19:08,919 --> 00:19:12,559
+in
+
+415
+00:19:09,760 --> 00:19:15,720
+mind the best order blocks have three
+
+416
+00:19:12,559 --> 00:19:18,960
+key Parts a liquidity run a Breakin
+
+417
+00:19:15,720 --> 00:19:22,280
+Market structure and a fair value Gap
+
+418
+00:19:18,960 --> 00:19:25,480
+let's break this down first a liquidity
+
+419
+00:19:22,280 --> 00:19:28,559
+run this is when price moves fast to hit
+
+420
+00:19:25,480 --> 00:19:31,360
+a bunch of orders it's like a quick rate
+
+421
+00:19:28,559 --> 00:19:34,720
+but price shoots up or down grabbing
+
+422
+00:19:31,360 --> 00:19:37,159
+liquidity this move often tricks Traders
+
+423
+00:19:34,720 --> 00:19:40,760
+they think the trend will keep going but
+
+424
+00:19:37,159 --> 00:19:43,559
+it's just a setup for a reversal next we
+
+425
+00:19:40,760 --> 00:19:46,320
+have a break in Market structure this
+
+426
+00:19:43,559 --> 00:19:48,880
+means the Market's Behavior changes it
+
+427
+00:19:46,320 --> 00:19:51,400
+could be a shift from an uptrend to a
+
+428
+00:19:48,880 --> 00:19:54,440
+downtrend or a continuation in the
+
+429
+00:19:51,400 --> 00:19:57,799
+previous Trend or it might be a big move
+
+430
+00:19:54,440 --> 00:20:00,960
+after a quiet period this break shows
+
+431
+00:19:57,799 --> 00:20:04,280
+something new happening a new high or a
+
+432
+00:20:00,960 --> 00:20:07,840
+low must be formed from the order block
+
+433
+00:20:04,280 --> 00:20:09,600
+last the presence of a fair value Gap
+
+434
+00:20:07,840 --> 00:20:11,760
+when you find all three of these
+
+435
+00:20:09,600 --> 00:20:14,679
+conditions together you've got a high
+
+436
+00:20:11,760 --> 00:20:15,840
+quality order Block it's like a perfect
+
+437
+00:20:14,679 --> 00:20:18,559
+storm for
+
+438
+00:20:15,840 --> 00:20:21,039
+trading let's say price has been going
+
+439
+00:20:18,559 --> 00:20:24,159
+up for a while then it makes a quick
+
+440
+00:20:21,039 --> 00:20:27,200
+Spike higher this Spike might hit a
+
+441
+00:20:24,159 --> 00:20:29,640
+bunch of stop losses above the market
+
+442
+00:20:27,200 --> 00:20:32,799
+that's our liquidity run
+
+443
+00:20:29,640 --> 00:20:36,200
+right after this Spike price drops hard
+
+444
+00:20:32,799 --> 00:20:39,440
+it falls below recent lows this is our
+
+445
+00:20:36,200 --> 00:20:43,120
+break in Market structure the uptrend is
+
+446
+00:20:39,440 --> 00:20:46,280
+now in question as price Falls it leaves
+
+447
+00:20:43,120 --> 00:20:49,520
+a fair value Gap just below the order
+
+448
+00:20:46,280 --> 00:20:52,840
+block there's also a liquidity Zone this
+
+449
+00:20:49,520 --> 00:20:56,200
+whole setup the spike up the drop down
+
+450
+00:20:52,840 --> 00:20:59,200
+the fair value Gap and the liquidity Run
+
+451
+00:20:56,200 --> 00:21:01,799
+Forms our order block if price comes
+
+452
+00:20:59,200 --> 00:21:03,200
+back to test it later that's a decent
+
+453
+00:21:01,799 --> 00:21:05,799
+short
+
+454
+00:21:03,200 --> 00:21:08,080
+opportunity the same for a bullish order
+
+455
+00:21:05,799 --> 00:21:11,400
+Block it's all about reading the big
+
+456
+00:21:08,080 --> 00:21:14,039
+player moves the liquidity run is smart
+
+457
+00:21:11,400 --> 00:21:16,760
+money pushing price to an extreme
+
+458
+00:21:14,039 --> 00:21:18,960
+they're shaking out weak hands the
+
+459
+00:21:16,760 --> 00:21:22,360
+breaking structure shows their true
+
+460
+00:21:18,960 --> 00:21:25,600
+intent and the Gap shows how fast and
+
+461
+00:21:22,360 --> 00:21:28,360
+strong their move was these high quality
+
+462
+00:21:25,600 --> 00:21:30,960
+order blocks are rare you won't see them
+
+463
+00:21:28,360 --> 00:21:32,600
+in every day but when you do they are
+
+464
+00:21:30,960 --> 00:21:36,760
+worth paying attention
+
+465
+00:21:32,600 --> 00:21:39,720
+to another signal price has been falling
+
+466
+00:21:36,760 --> 00:21:42,400
+then it makes a quick drop lower this
+
+467
+00:21:39,720 --> 00:21:45,080
+might trigger a bunch of sell stops
+
+468
+00:21:42,400 --> 00:21:48,640
+there's our liquidity run but right
+
+469
+00:21:45,080 --> 00:21:51,320
+after price jumps apart it breaks above
+
+470
+00:21:48,640 --> 00:21:54,679
+recent highs this is our change in
+
+471
+00:21:51,320 --> 00:21:58,120
+Market structure the downtrend is now in
+
+472
+00:21:54,679 --> 00:22:01,480
+doubt as price moves up it leaves a fair
+
+473
+00:21:58,120 --> 00:22:04,799
+value Gap above the order block a
+
+474
+00:22:01,480 --> 00:22:08,200
+potential liquidity Zone this makes it a
+
+475
+00:22:04,799 --> 00:22:11,120
+spot to watch for future buy trades
+
+476
+00:22:08,200 --> 00:22:14,000
+again the liquidity run is smart money
+
+477
+00:22:11,120 --> 00:22:17,000
+pushing price to extremes the breaking
+
+478
+00:22:14,000 --> 00:22:20,320
+structure is them showing their hand and
+
+479
+00:22:17,000 --> 00:22:22,240
+the Gap shows the power of their move
+
+480
+00:22:20,320 --> 00:22:25,679
+always consider the current market
+
+481
+00:22:22,240 --> 00:22:27,679
+context When selecting your order blocks
+
+482
+00:22:25,679 --> 00:22:30,440
+prioritize those that align with the
+
+483
+00:22:27,679 --> 00:22:33,640
+prevailing trend Direction and fall
+
+484
+00:22:30,440 --> 00:22:36,799
+within the most recent price swing in an
+
+485
+00:22:33,640 --> 00:22:39,400
+uptrend focus on bullish order blocks
+
+486
+00:22:36,799 --> 00:22:41,679
+that form within the current upswing
+
+487
+00:22:39,400 --> 00:22:42,760
+rather than bearish order blocks from
+
+488
+00:22:41,679 --> 00:22:45,159
+previous
+
+489
+00:22:42,760 --> 00:22:48,200
+downswings and when you find these high
+
+490
+00:22:45,159 --> 00:22:50,919
+quality blocks it's best to wait wait
+
+491
+00:22:48,200 --> 00:22:53,640
+for price to come back to the block then
+
+492
+00:22:50,919 --> 00:22:56,200
+look for signs it's reacting maybe it
+
+493
+00:22:53,640 --> 00:22:59,360
+stalls there or it might make a small
+
+494
+00:22:56,200 --> 00:23:02,720
+move and reverse these are are clues for
+
+495
+00:22:59,360 --> 00:23:05,039
+potential trades and please be realist
+
+496
+00:23:02,720 --> 00:23:06,000
+not every order block will lead to a
+
+497
+00:23:05,039 --> 00:23:09,279
+good
+
+498
+00:23:06,000 --> 00:23:12,080
+trade a successful order block strategy
+
+499
+00:23:09,279 --> 00:23:15,480
+combines Trend analysis order block
+
+500
+00:23:12,080 --> 00:23:17,640
+identification and precise entry timing
+
+501
+00:23:15,480 --> 00:23:20,039
+first you need to figure out which way
+
+502
+00:23:17,640 --> 00:23:23,000
+the market is moving you'll want to look
+
+503
+00:23:20,039 --> 00:23:25,159
+at a bigger picture so use a higher time
+
+504
+00:23:23,000 --> 00:23:28,000
+frame chart let's say you pick the
+
+505
+00:23:25,159 --> 00:23:30,120
+hourly chart on this chart you are
+
+506
+00:23:28,000 --> 00:23:33,039
+looking for for the current order flow
+
+507
+00:23:30,120 --> 00:23:35,600
+in this case an uptrend now that you
+
+508
+00:23:33,039 --> 00:23:37,799
+know which way the market is moving it's
+
+509
+00:23:35,600 --> 00:23:40,320
+time to find a good spot to enter your
+
+510
+00:23:37,799 --> 00:23:43,360
+trade the order block should match the
+
+511
+00:23:40,320 --> 00:23:46,039
+overall trend as the trend is up look
+
+512
+00:23:43,360 --> 00:23:48,200
+for a bullish order block before the
+
+513
+00:23:46,039 --> 00:23:51,240
+order block forms price should have
+
+514
+00:23:48,200 --> 00:23:54,520
+taken out some liquidity a bunch of stop
+
+515
+00:23:51,240 --> 00:23:57,840
+losses sitting just below a low point in
+
+516
+00:23:54,520 --> 00:24:00,200
+an uptrend if price dips down and
+
+517
+00:23:57,840 --> 00:24:03,799
+triggers that stops before shooting back
+
+518
+00:24:00,200 --> 00:24:06,440
+up that's a liquidity run then the order
+
+519
+00:24:03,799 --> 00:24:08,640
+block should trigger a break in Market
+
+520
+00:24:06,440 --> 00:24:11,320
+structure this shows strength and
+
+521
+00:24:08,640 --> 00:24:14,760
+commitment to the move the size of the
+
+522
+00:24:11,320 --> 00:24:17,000
+order block candle matters to generally
+
+523
+00:24:14,760 --> 00:24:20,279
+the bigger it is the more significant it
+
+524
+00:24:17,000 --> 00:24:22,559
+might be it's like a bigger footprint it
+
+525
+00:24:20,279 --> 00:24:25,760
+shows that more Traders were
+
+526
+00:24:22,559 --> 00:24:28,720
+involved also pay attention to how price
+
+527
+00:24:25,760 --> 00:24:31,360
+reacts after the order block forms If It
+
+528
+00:24:28,720 --> 00:24:35,399
+Moves away quickly and forms a fair
+
+529
+00:24:31,360 --> 00:24:38,240
+value Gap even better remember not every
+
+530
+00:24:35,399 --> 00:24:40,360
+order block will lead to a good trade
+
+531
+00:24:38,240 --> 00:24:42,960
+your job is to find the best
+
+532
+00:24:40,360 --> 00:24:46,120
+opportunities not to trade every signal
+
+533
+00:24:42,960 --> 00:24:48,960
+you see another tip look for order
+
+534
+00:24:46,120 --> 00:24:51,640
+blocks that line up with other technical
+
+535
+00:24:48,960 --> 00:24:54,960
+factors maybe it's at a key Fibonacci
+
+536
+00:24:51,640 --> 00:24:57,840
+level or it matches up with a trend line
+
+537
+00:24:54,960 --> 00:24:59,279
+or a moving average the more reasons you
+
+538
+00:24:57,840 --> 00:25:02,640
+have to believe believe in an order
+
+539
+00:24:59,279 --> 00:25:05,080
+block the better once you've spotted a
+
+540
+00:25:02,640 --> 00:25:08,080
+promising order block on the higher time
+
+541
+00:25:05,080 --> 00:25:11,320
+frame it's time to zoom in for a closer
+
+542
+00:25:08,080 --> 00:25:13,799
+look this step is all about finding the
+
+543
+00:25:11,320 --> 00:25:16,600
+perfect moment to enter your trade
+
+544
+00:25:13,799 --> 00:25:19,000
+timing your entry so you switch to a
+
+545
+00:25:16,600 --> 00:25:21,559
+lower time frame chart if you were
+
+546
+00:25:19,000 --> 00:25:24,679
+looking at an hourly chart before you
+
+547
+00:25:21,559 --> 00:25:27,120
+might zoom in to a 5-minute chart this
+
+548
+00:25:24,679 --> 00:25:30,440
+gives you a much more detailed view of
+
+549
+00:25:27,120 --> 00:25:32,279
+price action your plan here is to wait
+
+550
+00:25:30,440 --> 00:25:35,919
+for price to come back to your
+
+551
+00:25:32,279 --> 00:25:38,799
+identified order block Zone first check
+
+552
+00:25:35,919 --> 00:25:41,080
+for realignment this means the price
+
+553
+00:25:38,799 --> 00:25:43,240
+action on your lower time frame should
+
+554
+00:25:41,080 --> 00:25:46,080
+match up with the trend you saw on the
+
+555
+00:25:43,240 --> 00:25:48,919
+higher time frame as the bigger trend is
+
+556
+00:25:46,080 --> 00:25:51,559
+up you want to see bullish signs on the
+
+557
+00:25:48,919 --> 00:25:53,679
+smaller time frame too look for a
+
+558
+00:25:51,559 --> 00:25:56,960
+smaller version of the order block you
+
+559
+00:25:53,679 --> 00:25:58,880
+found earlier as you're in an uptrend
+
+560
+00:25:56,960 --> 00:26:02,240
+you're searching for a bullet order
+
+561
+00:25:58,880 --> 00:26:05,760
+block on this lower time frame an order
+
+562
+00:26:02,240 --> 00:26:07,919
+block inside the bigger order block you
+
+563
+00:26:05,760 --> 00:26:11,240
+could also look for a small liquidity
+
+564
+00:26:07,919 --> 00:26:14,000
+grab just before your entry this is like
+
+565
+00:26:11,240 --> 00:26:16,640
+a mini version of the liquidity run you
+
+566
+00:26:14,000 --> 00:26:19,200
+saw on the bigger time frame it might
+
+567
+00:26:16,640 --> 00:26:22,320
+look like price dipping down to trigger
+
+568
+00:26:19,200 --> 00:26:23,640
+some nearby stop losses before moving in
+
+569
+00:26:22,320 --> 00:26:26,120
+your expected
+
+570
+00:26:23,640 --> 00:26:28,840
+direction another tip to pinpoint your
+
+571
+00:26:26,120 --> 00:26:31,640
+entry look for any patterns forming on
+
+572
+00:26:28,840 --> 00:26:34,120
+your lower time frame chart if you see
+
+573
+00:26:31,640 --> 00:26:37,360
+small double bottoms that's a decent
+
+574
+00:26:34,120 --> 00:26:39,840
+setup or maybe there are small change of
+
+575
+00:26:37,360 --> 00:26:43,320
+character price is breaking previous
+
+576
+00:26:39,840 --> 00:26:45,960
+swing highs and it's ready to go higher
+
+577
+00:26:43,320 --> 00:26:48,240
+remember the goal here is to fine-tune
+
+578
+00:26:45,960 --> 00:26:50,760
+your entry you're not changing your
+
+579
+00:26:48,240 --> 00:26:53,039
+overall view of the market you're just
+
+580
+00:26:50,760 --> 00:26:56,279
+trying to get the best possible entry
+
+581
+00:26:53,039 --> 00:26:58,399
+price the plan is to enter your trade on
+
+582
+00:26:56,279 --> 00:27:01,960
+the breakout of the lower time frame
+
+583
+00:26:58,399 --> 00:27:04,840
+order block for this buy order you place
+
+584
+00:27:01,960 --> 00:27:07,520
+your stop loss just below a recent swing
+
+585
+00:27:04,840 --> 00:27:10,039
+low and please give it enough room to
+
+586
+00:27:07,520 --> 00:27:12,880
+breathe don't try to be too precise with
+
+587
+00:27:10,039 --> 00:27:15,640
+your stop your take profit should be
+
+588
+00:27:12,880 --> 00:27:18,279
+ideally at least three times higher that
+
+589
+00:27:15,640 --> 00:27:21,080
+your risk but don't just pick a random
+
+590
+00:27:18,279 --> 00:27:23,760
+number look at the chart and find the
+
+591
+00:27:21,080 --> 00:27:26,440
+next logical High Point within the
+
+592
+00:27:23,760 --> 00:27:29,279
+higher time frame Trend and consider
+
+593
+00:27:26,440 --> 00:27:31,320
+using multiple take-profit levels you
+
+594
+00:27:29,279 --> 00:27:34,200
+could close half your position at your
+
+595
+00:27:31,320 --> 00:27:35,159
+first Target then let the rest run to a
+
+596
+00:27:34,200 --> 00:27:38,440
+higher
+
+597
+00:27:35,159 --> 00:27:41,519
+Target here's a pro tip order blocks
+
+598
+00:27:38,440 --> 00:27:44,440
+must have a liquidity pool to Target
+
+599
+00:27:41,519 --> 00:27:47,519
+identify clear liquidity pools above
+
+600
+00:27:44,440 --> 00:27:50,440
+your chosen order block these pools act
+
+601
+00:27:47,519 --> 00:27:53,240
+as magnets for price they are like a
+
+602
+00:27:50,440 --> 00:27:56,159
+road map for potential price movement
+
+603
+00:27:53,240 --> 00:27:58,399
+after the order block is triggered in
+
+604
+00:27:56,159 --> 00:28:01,159
+this case we see a bullish order order
+
+605
+00:27:58,399 --> 00:28:04,279
+block with a cluster of previous swing
+
+606
+00:28:01,159 --> 00:28:07,039
+highs above it this presents a clear
+
+607
+00:28:04,279 --> 00:28:10,760
+liquidity pool that price is likely to
+
+608
+00:28:07,039 --> 00:28:12,760
+Target once the order block is triggered
+
+609
+00:28:10,760 --> 00:28:15,159
+now if you want to learn other smart
+
+610
+00:28:12,760 --> 00:28:19,000
+money tactics you need to watch one of
+
+611
+00:28:15,159 --> 00:28:19,000
+these videos next
+

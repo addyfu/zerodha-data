@@ -1,0 +1,1708 @@
+1
+00:00:00,160 --> 00:00:04,799
+If you want to trade with the same edge
+
+2
+00:00:02,399 --> 00:00:07,520
+that bank traders use to move millions
+
+3
+00:00:04,799 --> 00:00:10,000
+of dollars without losing money, I'm
+
+4
+00:00:07,520 --> 00:00:12,480
+revealing the VWAP system that access
+
+5
+00:00:10,000 --> 00:00:14,320
+their secret road map for every major
+
+6
+00:00:12,480 --> 00:00:16,560
+market move.
+
+7
+00:00:14,320 --> 00:00:19,920
+You've been looking at VWAP completely
+
+8
+00:00:16,560 --> 00:00:22,480
+wrong this entire time. I know because I
+
+9
+00:00:19,920 --> 00:00:24,960
+made the same mistake for years. I used
+
+10
+00:00:22,480 --> 00:00:28,160
+to think VWAP was just another moving
+
+11
+00:00:24,960 --> 00:00:31,119
+average. maybe a fancier one, but still
+
+12
+00:00:28,160 --> 00:00:34,000
+just a line on my chart that price would
+
+13
+00:00:31,119 --> 00:00:36,880
+bounce off sometimes. Then I watched the
+
+14
+00:00:34,000 --> 00:00:39,680
+former institutional trader execute a
+
+15
+00:00:36,880 --> 00:00:42,239
+massive position and everything clicked.
+
+16
+00:00:39,680 --> 00:00:45,280
+The way he used VWAP wasn't anything
+
+17
+00:00:42,239 --> 00:00:47,680
+like what retail traders do. It was like
+
+18
+00:00:45,280 --> 00:00:50,399
+watching someone play chess while
+
+19
+00:00:47,680 --> 00:00:53,120
+everyone else was playing checkers.
+
+20
+00:00:50,399 --> 00:00:55,680
+Here's what VWAP really is. Volume
+
+21
+00:00:53,120 --> 00:00:58,719
+weighted average price. It shows the
+
+22
+00:00:55,680 --> 00:01:01,920
+average price where real money actually
+
+23
+00:00:58,719 --> 00:01:04,239
+changed hands throughout the day. VWAP
+
+24
+00:01:01,920 --> 00:01:07,680
+is actually the institutional anchor
+
+25
+00:01:04,239 --> 00:01:10,400
+point. Most traders treat VWAP like
+
+26
+00:01:07,680 --> 00:01:13,040
+basic support and resistance. They see
+
+27
+00:01:10,400 --> 00:01:15,840
+price bounce off it a few times and
+
+28
+00:01:13,040 --> 00:01:18,799
+think they've discovered the holy grail.
+
+29
+00:01:15,840 --> 00:01:21,439
+But this completely misses why VWAP
+
+30
+00:01:18,799 --> 00:01:24,080
+actually works. The real secret is
+
+31
+00:01:21,439 --> 00:01:26,960
+understanding that institutional traders
+
+32
+00:01:24,080 --> 00:01:29,840
+must use VWAP. When a hedge fund needs
+
+33
+00:01:26,960 --> 00:01:32,799
+to buy 1 million shares of Apple, they
+
+34
+00:01:29,840 --> 00:01:35,200
+can't just market buy it all at once.
+
+35
+00:01:32,799 --> 00:01:38,720
+That would spike the price and cost them
+
+36
+00:01:35,200 --> 00:01:41,600
+millions extra. Instead, they use VWAP
+
+37
+00:01:38,720 --> 00:01:44,079
+as their execution benchmark. Their
+
+38
+00:01:41,600 --> 00:01:46,799
+algorithms are programmed to accumulate
+
+39
+00:01:44,079 --> 00:01:49,680
+shares throughout the day, keeping their
+
+40
+00:01:46,799 --> 00:01:52,880
+average price as close to VWAP as
+
+41
+00:01:49,680 --> 00:01:55,759
+possible. This creates a gravitational
+
+42
+00:01:52,880 --> 00:01:57,759
+pool that retail traders can exploit
+
+43
+00:01:55,759 --> 00:02:00,399
+once they understand what's really
+
+44
+00:01:57,759 --> 00:02:03,200
+happening. Now, pay attention to this
+
+45
+00:02:00,399 --> 00:02:05,920
+part because it changes everything about
+
+46
+00:02:03,200 --> 00:02:09,039
+how you'll use VWAP. There are three
+
+47
+00:02:05,920 --> 00:02:12,480
+VWAP types that actually matter. Daily
+
+48
+00:02:09,039 --> 00:02:15,840
+VWAP resets every session and shows you
+
+49
+00:02:12,480 --> 00:02:18,480
+intraday institutional activity. Weekly
+
+50
+00:02:15,840 --> 00:02:20,000
+VWAP captures the bigger swing trade
+
+51
+00:02:18,480 --> 00:02:23,440
+positioning.
+
+52
+00:02:20,000 --> 00:02:26,640
+Monthly VWAP reveals the major trend and
+
+53
+00:02:23,440 --> 00:02:29,280
+where long-term players are anchored.
+
+54
+00:02:26,640 --> 00:02:32,800
+Each one controls price action at
+
+55
+00:02:29,280 --> 00:02:36,000
+different times. Daily VWAP dominates
+
+56
+00:02:32,800 --> 00:02:39,360
+your day trades. Weekly VWAP becomes
+
+57
+00:02:36,000 --> 00:02:42,000
+magnetic during multi-day moves. Monthly
+
+58
+00:02:39,360 --> 00:02:45,200
+VWAP acts like a massive support or
+
+59
+00:02:42,000 --> 00:02:48,640
+resistance during trend changes. The
+
+60
+00:02:45,200 --> 00:02:51,760
+mindset shift is this. Stop seeing VWAP
+
+61
+00:02:48,640 --> 00:02:54,800
+as just another indicator. Start seeing
+
+62
+00:02:51,760 --> 00:02:57,280
+it as the institutional road map. Every
+
+63
+00:02:54,800 --> 00:02:59,760
+time price approaches VWAP, you're
+
+64
+00:02:57,280 --> 00:03:02,879
+watching a battle between traders who
+
+65
+00:02:59,760 --> 00:03:05,680
+bought above it and are now underwater
+
+66
+00:03:02,879 --> 00:03:08,560
+and traders who bought below it and are
+
+67
+00:03:05,680 --> 00:03:11,200
+protecting profits. Once you see VWAP
+
+68
+00:03:08,560 --> 00:03:13,360
+this way, every price movement starts
+
+69
+00:03:11,200 --> 00:03:16,000
+making sense.
+
+70
+00:03:13,360 --> 00:03:19,120
+Here's an insider secret that changes
+
+71
+00:03:16,000 --> 00:03:21,599
+everything about how you read VWAP. Most
+
+72
+00:03:19,120 --> 00:03:25,440
+retail traders see VWAP as a simple
+
+73
+00:03:21,599 --> 00:03:28,879
+line. Price above equals bullish. Price
+
+74
+00:03:25,440 --> 00:03:32,080
+below equals bearish. This kindergarten
+
+75
+00:03:28,879 --> 00:03:35,040
+approach misses 90% of what VWAP
+
+76
+00:03:32,080 --> 00:03:37,840
+actually tells you. Smart money reads
+
+77
+00:03:35,040 --> 00:03:40,640
+VWAP completely differently. They
+
+78
+00:03:37,840 --> 00:03:43,920
+combine it with volume profile to create
+
+79
+00:03:40,640 --> 00:03:46,959
+power zones. Here's how it works. When
+
+80
+00:03:43,920 --> 00:03:49,519
+VWAP intersects with a high volume node
+
+81
+00:03:46,959 --> 00:03:52,640
+from the volume profile, you get what
+
+82
+00:03:49,519 --> 00:03:55,599
+institutions call a confluence anchor.
+
+83
+00:03:52,640 --> 00:03:58,400
+This isn't just any VWAP level. This is
+
+84
+00:03:55,599 --> 00:04:00,640
+where massive institutional orders are
+
+85
+00:03:58,400 --> 00:04:04,080
+likely sitting. But the real
+
+86
+00:04:00,640 --> 00:04:06,560
+intelligence is in the VWOP slope. A
+
+87
+00:04:04,080 --> 00:04:09,840
+flat VWOP means the market is in
+
+88
+00:04:06,560 --> 00:04:12,480
+balance. Buyers and sellers are evenly
+
+89
+00:04:09,840 --> 00:04:16,479
+matched. Price will likely chop around
+
+90
+00:04:12,480 --> 00:04:19,280
+this level. A steep VWOP slope means one
+
+91
+00:04:16,479 --> 00:04:21,040
+side is winning decisively. The steeper
+
+92
+00:04:19,280 --> 00:04:23,840
+the angle, the stronger the
+
+93
+00:04:21,040 --> 00:04:26,400
+institutional flow. This is how you
+
+94
+00:04:23,840 --> 00:04:29,199
+identify trending versus ranging market
+
+95
+00:04:26,400 --> 00:04:31,759
+conditions. Instead of guessing market
+
+96
+00:04:29,199 --> 00:04:35,759
+direction, Smart Money uses the
+
+97
+00:04:31,759 --> 00:04:39,120
+multi-timeframe VWOP stack. When daily,
+
+98
+00:04:35,759 --> 00:04:41,120
+weekly, and monthly VWOP all point in
+
+99
+00:04:39,120 --> 00:04:44,160
+the same direction, you have
+
+100
+00:04:41,120 --> 00:04:46,960
+institutional alignment. This create the
+
+101
+00:04:44,160 --> 00:04:49,520
+most explosive moves. Watch for this
+
+102
+00:04:46,960 --> 00:04:52,960
+pattern. When all three VWAPs are
+
+103
+00:04:49,520 --> 00:04:55,840
+stacked bullishly, daily above weekly,
+
+104
+00:04:52,960 --> 00:04:58,320
+above monthly, and price is above all
+
+105
+00:04:55,840 --> 00:05:01,280
+three, you have what we call
+
+106
+00:04:58,320 --> 00:05:03,680
+institutional consensus. Every time
+
+107
+00:05:01,280 --> 00:05:06,560
+frame of smart money agrees on
+
+108
+00:05:03,680 --> 00:05:09,440
+direction. The opposite is true for
+
+109
+00:05:06,560 --> 00:05:12,639
+bearish stacks. When monthly is above
+
+110
+00:05:09,440 --> 00:05:15,680
+weekly, is above daily and price is
+
+111
+00:05:12,639 --> 00:05:18,880
+below all three institutional money is
+
+112
+00:05:15,680 --> 00:05:22,240
+aligned to the downside. This is how you
+
+113
+00:05:18,880 --> 00:05:25,600
+avoid fighting against billiondoll flows
+
+114
+00:05:22,240 --> 00:05:27,840
+and start trading with them instead.
+
+115
+00:05:25,600 --> 00:05:31,120
+Let me show you a hidden pattern that
+
+116
+00:05:27,840 --> 00:05:33,600
+most traders never discover. Standard
+
+117
+00:05:31,120 --> 00:05:36,800
+session VWOP isn't the only game in
+
+118
+00:05:33,600 --> 00:05:39,600
+town. Here's the situation. You're using
+
+119
+00:05:36,800 --> 00:05:42,800
+regular VWAP, but the levels don't seem
+
+120
+00:05:39,600 --> 00:05:45,199
+to matter. Price blows through them like
+
+121
+00:05:42,800 --> 00:05:48,400
+they're not even there. You start
+
+122
+00:05:45,199 --> 00:05:50,960
+questioning if VWAP even works. The
+
+123
+00:05:48,400 --> 00:05:54,400
+problem is you're using the wrong anchor
+
+124
+00:05:50,960 --> 00:05:57,199
+point. Session VWAP resets every day at
+
+125
+00:05:54,400 --> 00:06:00,240
+market open. But institutions don't
+
+126
+00:05:57,199 --> 00:06:03,520
+think in daily sessions. They think in
+
+127
+00:06:00,240 --> 00:06:06,960
+events. What you really want is custom
+
+128
+00:06:03,520 --> 00:06:09,919
+anchor points. VWAP anchored to major
+
+129
+00:06:06,960 --> 00:06:13,440
+events, earnings announcements, Fed
+
+130
+00:06:09,919 --> 00:06:16,160
+meetings, company keynotes. These create
+
+131
+00:06:13,440 --> 00:06:19,199
+much more powerful levels than random
+
+132
+00:06:16,160 --> 00:06:21,600
+daily resets. The result is that you
+
+133
+00:06:19,199 --> 00:06:24,479
+start seeing VWOP levels that
+
+134
+00:06:21,600 --> 00:06:27,680
+institutions actually respect.
+
+135
+00:06:24,479 --> 00:06:30,800
+Evented VWOP shows you where the big
+
+136
+00:06:27,680 --> 00:06:34,240
+money positioned themselves around major
+
+137
+00:06:30,800 --> 00:06:36,560
+news. Here's a perfect example. Anchor
+
+138
+00:06:34,240 --> 00:06:38,160
+VWAP to Tesla's last earnings
+
+139
+00:06:36,560 --> 00:06:40,639
+announcement.
+
+140
+00:06:38,160 --> 00:06:43,440
+That level will act like a magnet for
+
+141
+00:06:40,639 --> 00:06:46,400
+weeks because that's where institutions
+
+142
+00:06:43,440 --> 00:06:47,759
+made their big decisions about Tesla's
+
+143
+00:06:46,400 --> 00:06:51,199
+value.
+
+144
+00:06:47,759 --> 00:06:53,759
+The key takeaway is this. Think like an
+
+145
+00:06:51,199 --> 00:06:56,880
+institution. They don't care about
+
+146
+00:06:53,759 --> 00:07:00,000
+arbitrary time periods. They care about
+
+147
+00:06:56,880 --> 00:07:02,720
+information events. Anchor your VWAP to
+
+148
+00:07:00,000 --> 00:07:04,880
+the same events they do. But you're
+
+149
+00:07:02,720 --> 00:07:07,360
+probably wondering how to choose the
+
+150
+00:07:04,880 --> 00:07:10,800
+right anchor. Here are the selection
+
+151
+00:07:07,360 --> 00:07:13,039
+rules. First, the event must have moved
+
+152
+00:07:10,800 --> 00:07:16,000
+the stock significantly.
+
+153
+00:07:13,039 --> 00:07:18,720
+Second, it must have generated massive
+
+154
+00:07:16,000 --> 00:07:20,880
+volume. Third, it should be
+
+155
+00:07:18,720 --> 00:07:23,759
+fundamentally important to the company
+
+156
+00:07:20,880 --> 00:07:26,720
+or market. And now you have the
+
+157
+00:07:23,759 --> 00:07:29,919
+foundation for institutional level VWOP
+
+158
+00:07:26,720 --> 00:07:32,639
+analysis. While other traders use
+
+159
+00:07:29,919 --> 00:07:35,199
+generic daily VWOP, you're anchoring to
+
+160
+00:07:32,639 --> 00:07:36,960
+the events that actually matter to smart
+
+161
+00:07:35,199 --> 00:07:39,360
+money.
+
+162
+00:07:36,960 --> 00:07:42,720
+Look at this chart. See these bands
+
+163
+00:07:39,360 --> 00:07:45,360
+around VWAP. Most traders have no idea
+
+164
+00:07:42,720 --> 00:07:48,000
+what they're actually looking at. These
+
+165
+00:07:45,360 --> 00:07:50,560
+are standard deviation bands and they're
+
+166
+00:07:48,000 --> 00:07:53,520
+showing you mathematical probability in
+
+167
+00:07:50,560 --> 00:07:56,319
+real time. The statistical boundaries of
+
+168
+00:07:53,520 --> 00:07:59,120
+normal price action. When price hits
+
+169
+00:07:56,319 --> 00:08:03,120
+these bands, specific probability plays
+
+170
+00:07:59,120 --> 00:08:06,960
+emerge. The +1 and minus1 bands contain
+
+171
+00:08:03,120 --> 00:08:09,680
+about 68% of price action. This is the
+
+172
+00:08:06,960 --> 00:08:12,319
+normal trading range. When price is
+
+173
+00:08:09,680 --> 00:08:15,360
+between these bands, nothing special is
+
+174
+00:08:12,319 --> 00:08:18,800
+happening. But watch what happens at the
+
+175
+00:08:15,360 --> 00:08:21,919
+plus two and minus2 bands. This is where
+
+176
+00:08:18,800 --> 00:08:25,120
+95% of price action should stay
+
+177
+00:08:21,919 --> 00:08:27,840
+contained. When price hits these levels,
+
+178
+00:08:25,120 --> 00:08:30,560
+you get mean reversion signals. The
+
+179
+00:08:27,840 --> 00:08:34,080
+probability heavily favors a move back
+
+180
+00:08:30,560 --> 00:08:38,640
+toward VWOP. The plus three and minus3
+
+181
+00:08:34,080 --> 00:08:41,680
+bands are the extreme levels. only 0.3%
+
+182
+00:08:38,640 --> 00:08:44,480
+of price action should reach here. When
+
+183
+00:08:41,680 --> 00:08:47,519
+it does, you're either seeing a genuine
+
+184
+00:08:44,480 --> 00:08:50,399
+breakout or an extreme overshoot that
+
+185
+00:08:47,519 --> 00:08:52,880
+will snap back violently.
+
+186
+00:08:50,399 --> 00:08:56,000
+Check this out. When the bands squeeze
+
+187
+00:08:52,880 --> 00:08:58,560
+together, volatility is contracting.
+
+188
+00:08:56,000 --> 00:09:00,880
+This compression almost always leads to
+
+189
+00:08:58,560 --> 00:09:02,800
+explosive moves. The tighter the
+
+190
+00:09:00,880 --> 00:09:05,839
+squeeze, the bigger the eventual
+
+191
+00:09:02,800 --> 00:09:09,519
+expansion. Here's a pattern that makes
+
+192
+00:09:05,839 --> 00:09:12,399
+money consistently. The bandwalk. In
+
+193
+00:09:09,519 --> 00:09:16,000
+strong trends, price will ride along the
+
+194
+00:09:12,399 --> 00:09:19,360
+plus one or minus one band. It doesn't
+
+195
+00:09:16,000 --> 00:09:22,800
+return to VWAP. Instead, it uses the
+
+196
+00:09:19,360 --> 00:09:24,800
+band as dynamic support or resistance.
+
+197
+00:09:22,800 --> 00:09:28,240
+This tells you the difference between
+
+198
+00:09:24,800 --> 00:09:31,200
+mean reversion and trend continuation.
+
+199
+00:09:28,240 --> 00:09:33,760
+If price immediately returns to VWAP
+
+200
+00:09:31,200 --> 00:09:35,279
+after hitting a band, trade mean
+
+201
+00:09:33,760 --> 00:09:38,160
+reversion.
+
+202
+00:09:35,279 --> 00:09:40,320
+If price walks along the band, trade
+
+203
+00:09:38,160 --> 00:09:42,880
+trend continuation.
+
+204
+00:09:40,320 --> 00:09:45,279
+You've just learned to read VWAP like a
+
+205
+00:09:42,880 --> 00:09:47,760
+probability distribution instead of a
+
+206
+00:09:45,279 --> 00:09:50,399
+simple line. This is exactly how
+
+207
+00:09:47,760 --> 00:09:53,120
+institutional algorithms are programmed
+
+208
+00:09:50,399 --> 00:09:56,000
+to interpret these levels.
+
+209
+00:09:53,120 --> 00:09:58,800
+Most traders think this VWAP bounce is
+
+210
+00:09:56,000 --> 00:10:01,760
+bullish, but they're completely wrong
+
+211
+00:09:58,800 --> 00:10:04,560
+about what's actually happening. I used
+
+212
+00:10:01,760 --> 00:10:07,600
+to make this exact mistake. I'd see
+
+213
+00:10:04,560 --> 00:10:10,320
+price bounce and immediately go long,
+
+214
+00:10:07,600 --> 00:10:13,120
+thinking I'd caught the perfect entry.
+
+215
+00:10:10,320 --> 00:10:16,240
+Then I'd watch in frustration as price
+
+216
+00:10:13,120 --> 00:10:18,560
+would reverse and blow through my stop.
+
+217
+00:10:16,240 --> 00:10:21,760
+The mistake was treating all VWAP
+
+218
+00:10:18,560 --> 00:10:24,800
+touches the same. The key is reading the
+
+219
+00:10:21,760 --> 00:10:27,760
+candles at each touch. A long weak
+
+220
+00:10:24,800 --> 00:10:30,640
+rejection shows institutional defense.
+
+221
+00:10:27,760 --> 00:10:33,760
+They're actively protecting that level.
+
+222
+00:10:30,640 --> 00:10:36,240
+A weak dogee shows uncertainty.
+
+223
+00:10:33,760 --> 00:10:39,440
+But a strong close through VWAP with
+
+224
+00:10:36,240 --> 00:10:42,240
+volume. That's capitulation.
+
+225
+00:10:39,440 --> 00:10:45,120
+Volume tells you everything here. High
+
+226
+00:10:42,240 --> 00:10:47,920
+volume at VWAP means institutions are
+
+227
+00:10:45,120 --> 00:10:50,320
+active. They're either accumulating or
+
+228
+00:10:47,920 --> 00:10:51,920
+distributing. But they are definitely
+
+229
+00:10:50,320 --> 00:10:54,320
+participating.
+
+230
+00:10:51,920 --> 00:10:57,839
+Here's the false break trap that gets
+
+231
+00:10:54,320 --> 00:11:00,720
+everyone. Price breaks below VWOP by a
+
+232
+00:10:57,839 --> 00:11:03,680
+few candles, triggers all the stops,
+
+233
+00:11:00,720 --> 00:11:06,320
+then immediately reverses back above.
+
+234
+00:11:03,680 --> 00:11:08,800
+This isn't random. It's institutions
+
+235
+00:11:06,320 --> 00:11:11,040
+grabbing liquidity before the real move
+
+236
+00:11:08,800 --> 00:11:14,480
+higher. The difference between
+
+237
+00:11:11,040 --> 00:11:17,440
+acceptance and rejection is time. If
+
+238
+00:11:14,480 --> 00:11:20,480
+price breaks VWAP and stays below for
+
+239
+00:11:17,440 --> 00:11:22,800
+more than three candles, it's accepted.
+
+240
+00:11:20,480 --> 00:11:26,160
+If it immediately snaps back, it's
+
+241
+00:11:22,800 --> 00:11:29,519
+rejected. This simple rule filters out
+
+242
+00:11:26,160 --> 00:11:32,079
+80% of false signals.
+
+243
+00:11:29,519 --> 00:11:34,880
+Here's a myth that destroys traders.
+
+244
+00:11:32,079 --> 00:11:38,079
+VWAP works the same way in all market
+
+245
+00:11:34,880 --> 00:11:40,720
+conditions. This is completely false.
+
+246
+00:11:38,079 --> 00:11:43,920
+VWAP behaves totally differently in
+
+247
+00:11:40,720 --> 00:11:47,040
+trending markets versus ranging markets
+
+248
+00:11:43,920 --> 00:11:49,600
+versus volatile markets. Use the same
+
+249
+00:11:47,040 --> 00:11:52,160
+strategy in all conditions and you'll
+
+250
+00:11:49,600 --> 00:11:54,880
+get crushed. Let me show you the real
+
+251
+00:11:52,160 --> 00:11:58,399
+way institutions adapt their VWAP
+
+252
+00:11:54,880 --> 00:12:01,440
+strategies. In trending markets, VWAP
+
+253
+00:11:58,399 --> 00:12:04,240
+becomes dynamic support or resistance.
+
+254
+00:12:01,440 --> 00:12:08,240
+In an uptrend, price will pull back to
+
+255
+00:12:04,240 --> 00:12:10,880
+VWOP, find support and continue higher.
+
+256
+00:12:08,240 --> 00:12:13,519
+The key is that VWOP itself is sloping
+
+257
+00:12:10,880 --> 00:12:16,480
+in the direction of the trend. But in
+
+258
+00:12:13,519 --> 00:12:19,760
+ranging markets, VWAP becomes the center
+
+259
+00:12:16,480 --> 00:12:23,360
+of gravity. Price oscillates around it
+
+260
+00:12:19,760 --> 00:12:27,120
+like a pendulum. Above VWOP, look for
+
+261
+00:12:23,360 --> 00:12:29,839
+shorts back to VWOP. Below VWOP, look
+
+262
+00:12:27,120 --> 00:12:31,440
+for longs back to VWOP.
+
+263
+00:12:29,839 --> 00:12:34,560
+Instead of fighting the market
+
+264
+00:12:31,440 --> 00:12:36,880
+condition, smart money adapts their VWOP
+
+265
+00:12:34,560 --> 00:12:39,600
+strategy to match what the market is
+
+266
+00:12:36,880 --> 00:12:42,079
+actually doing. Trend strategies in
+
+267
+00:12:39,600 --> 00:12:45,600
+trending markets, mean reversion
+
+268
+00:12:42,079 --> 00:12:48,000
+strategies in ranging markets. Volatile
+
+269
+00:12:45,600 --> 00:12:51,279
+markets create a different situation
+
+270
+00:12:48,000 --> 00:12:53,920
+entirely. The VWOP bands expand
+
+271
+00:12:51,279 --> 00:12:56,720
+dramatically. Normal mean reversion
+
+272
+00:12:53,920 --> 00:12:58,720
+levels stop working. You need wider
+
+273
+00:12:56,720 --> 00:13:00,240
+bands and different probability
+
+274
+00:12:58,720 --> 00:13:02,880
+thresholds.
+
+275
+00:13:00,240 --> 00:13:05,519
+Low volume periods make VWAP less
+
+276
+00:13:02,880 --> 00:13:08,320
+reliable. Without institutional
+
+277
+00:13:05,519 --> 00:13:11,040
+participation, VWOP levels become
+
+278
+00:13:08,320 --> 00:13:13,839
+meaningless. This is when you switch to
+
+279
+00:13:11,040 --> 00:13:17,279
+alternative strategies or simply stay
+
+280
+00:13:13,839 --> 00:13:20,240
+out of the market. News events create
+
+281
+00:13:17,279 --> 00:13:22,800
+the most interesting VWAP behavior.
+
+282
+00:13:20,240 --> 00:13:26,160
+earnings, Fed announcements, and major
+
+283
+00:13:22,800 --> 00:13:29,040
+economic data can completely reset VWAP
+
+284
+00:13:26,160 --> 00:13:32,160
+dynamics. The preuse VWOP becomes
+
+285
+00:13:29,040 --> 00:13:35,839
+irrelevant. You need new anchor points.
+
+286
+00:13:32,160 --> 00:13:38,800
+The key insight is this. VWAP is a tool,
+
+287
+00:13:35,839 --> 00:13:40,880
+not a strategy. You must adapt how you
+
+288
+00:13:38,800 --> 00:13:42,880
+use it based on current market
+
+289
+00:13:40,880 --> 00:13:45,440
+conditions.
+
+290
+00:13:42,880 --> 00:13:47,760
+You now have the foundation, but here's
+
+291
+00:13:45,440 --> 00:13:51,040
+the complete blueprint for actually
+
+292
+00:13:47,760 --> 00:13:53,600
+trading VWAP like a professional. The
+
+293
+00:13:51,040 --> 00:13:56,480
+problem with most VWAP trading is that
+
+294
+00:13:53,600 --> 00:13:59,760
+it's too discretionary. Traders see
+
+295
+00:13:56,480 --> 00:14:02,000
+price near VWAP and just wing it. No
+
+296
+00:13:59,760 --> 00:14:05,040
+consistent rules, no systematic
+
+297
+00:14:02,000 --> 00:14:08,079
+approach. Here's how it works. For
+
+298
+00:14:05,040 --> 00:14:11,920
+entries, you need three confirmations.
+
+299
+00:14:08,079 --> 00:14:14,160
+First, price action signal at VWAP.
+
+300
+00:14:11,920 --> 00:14:17,120
+Second, volume confirmation of
+
+301
+00:14:14,160 --> 00:14:19,760
+institutional activity. Third,
+
+302
+00:14:17,120 --> 00:14:23,519
+directional bias from higher time frame
+
+303
+00:14:19,760 --> 00:14:26,800
+VWAP stack. Stop-loss placement uses
+
+304
+00:14:23,519 --> 00:14:29,360
+VWAP bands and volume profiles.
+
+305
+00:14:26,800 --> 00:14:33,760
+Your stop goes at the next significant
+
+306
+00:14:29,360 --> 00:14:36,079
+VWAP band or volume note. This ensures
+
+307
+00:14:33,760 --> 00:14:39,040
+your stopped out only when institutional
+
+308
+00:14:36,079 --> 00:14:42,560
+opinion changes. Target selection
+
+309
+00:14:39,040 --> 00:14:45,120
+follows VWAP logic. Your first target is
+
+310
+00:14:42,560 --> 00:14:48,160
+the next VWAP level or standard
+
+311
+00:14:45,120 --> 00:14:51,680
+deviation band. Your second target is
+
+312
+00:14:48,160 --> 00:14:54,880
+the next volume note. Exit signals are
+
+313
+00:14:51,680 --> 00:14:58,399
+just as important as entries. When VWAP
+
+314
+00:14:54,880 --> 00:15:01,120
+slope changes direction, volume dries up
+
+315
+00:14:58,399 --> 00:15:03,920
+or bands compress. Institutional
+
+316
+00:15:01,120 --> 00:15:07,120
+activity is shifting. Time to reassess
+
+317
+00:15:03,920 --> 00:15:10,240
+your position. The key takeaway is
+
+318
+00:15:07,120 --> 00:15:13,920
+systematic execution. Every decision is
+
+319
+00:15:10,240 --> 00:15:15,760
+based on VWAP structure, not emotions or
+
+320
+00:15:13,920 --> 00:15:17,839
+hunches.
+
+321
+00:15:15,760 --> 00:15:20,800
+Let me share something that completely
+
+322
+00:15:17,839 --> 00:15:24,000
+changed how I view market structure.
+
+323
+00:15:20,800 --> 00:15:26,399
+Monthly VWOP isn't just another line.
+
+324
+00:15:24,000 --> 00:15:29,360
+It's the ultimate trend filter that
+
+325
+00:15:26,399 --> 00:15:32,480
+institutions can't hide from. When price
+
+326
+00:15:29,360 --> 00:15:34,720
+is above monthly VWOP, every dip is a
+
+327
+00:15:32,480 --> 00:15:37,760
+buying opportunity until proven
+
+328
+00:15:34,720 --> 00:15:39,839
+otherwise. Below it, every rip is a
+
+329
+00:15:37,760 --> 00:15:42,079
+shorting opportunity.
+
+330
+00:15:39,839 --> 00:15:45,680
+But here's what most traders never
+
+331
+00:15:42,079 --> 00:15:48,639
+realize about yearly VWOP. This level
+
+332
+00:15:45,680 --> 00:15:52,160
+defines entire market regimes. Bull
+
+333
+00:15:48,639 --> 00:15:55,120
+market price stays above yearly VWOP for
+
+334
+00:15:52,160 --> 00:15:57,839
+months, even during corrections.
+
+335
+00:15:55,120 --> 00:16:00,639
+Bare market, yearly VWOP becomes
+
+336
+00:15:57,839 --> 00:16:04,399
+impenetrable resistance that caps every
+
+337
+00:16:00,639 --> 00:16:07,360
+rally. The quarterly VWOP strategy is
+
+338
+00:16:04,399 --> 00:16:10,000
+pure gold during earning season.
+
+339
+00:16:07,360 --> 00:16:13,279
+Institutions position their portfolios
+
+340
+00:16:10,000 --> 00:16:15,759
+around quarterly performance. That makes
+
+341
+00:16:13,279 --> 00:16:19,199
+quarterly VWAP the anchor point for
+
+342
+00:16:15,759 --> 00:16:22,480
+major funds. Now, here's the hierarchy
+
+343
+00:16:19,199 --> 00:16:26,000
+rule that governs everything. When daily
+
+344
+00:16:22,480 --> 00:16:30,000
+says buy, but weekly says sell, weekly
+
+345
+00:16:26,000 --> 00:16:33,920
+wins. When weekly says buy but monthly
+
+346
+00:16:30,000 --> 00:16:36,320
+says sell, monthly wins. The longer time
+
+347
+00:16:33,920 --> 00:16:39,199
+frame always has more institutional
+
+348
+00:16:36,320 --> 00:16:42,160
+commitment behind it. This creates
+
+349
+00:16:39,199 --> 00:16:46,000
+incredible opportunities. When all time
+
+350
+00:16:42,160 --> 00:16:48,639
+frames align, daily, weekly, monthly,
+
+351
+00:16:46,000 --> 00:16:51,040
+and yearly VWAP all broken in the same
+
+352
+00:16:48,639 --> 00:16:53,839
+direction, you are witnessing
+
+353
+00:16:51,040 --> 00:16:56,079
+institutional hurting. These moves
+
+354
+00:16:53,839 --> 00:16:58,639
+typically run three times farther than
+
+355
+00:16:56,079 --> 00:17:01,839
+normal because every algorithm is
+
+356
+00:16:58,639 --> 00:17:04,160
+triggered at once. For position sizing
+
+357
+00:17:01,839 --> 00:17:06,400
+on longer time frame trades, the
+
+358
+00:17:04,160 --> 00:17:09,919
+distance from VWOP determines
+
+359
+00:17:06,400 --> 00:17:13,120
+everything. If you're 5% extended from
+
+360
+00:17:09,919 --> 00:17:16,880
+monthly VWAP, use half size. If you're
+
+361
+00:17:13,120 --> 00:17:19,360
+within 1%, use full size. This simple
+
+362
+00:17:16,880 --> 00:17:23,199
+rule keeps you from buying tops and
+
+363
+00:17:19,360 --> 00:17:26,160
+selling bottoms. Here's when VWAP stops
+
+364
+00:17:23,199 --> 00:17:30,640
+working and most traders have no backup
+
+365
+00:17:26,160 --> 00:17:34,240
+plan. Low volume kills VWAP reliability.
+
+366
+00:17:30,640 --> 00:17:37,039
+When volume drops below 30% of average,
+
+367
+00:17:34,240 --> 00:17:40,080
+VWAP moves on so few shares that it
+
+368
+00:17:37,039 --> 00:17:43,039
+loses meaning. During these dead zones,
+
+369
+00:17:40,080 --> 00:17:46,000
+price can drift through VWAP with zero
+
+370
+00:17:43,039 --> 00:17:47,600
+resistance because no institutions are
+
+371
+00:17:46,000 --> 00:17:49,760
+participating.
+
+372
+00:17:47,600 --> 00:17:53,919
+The problem gets worse with overnight
+
+373
+00:17:49,760 --> 00:17:56,880
+gaps. A 3% gap completely breaks VWAP
+
+374
+00:17:53,919 --> 00:17:59,440
+continuity. The session VWOP starts in
+
+375
+00:17:56,880 --> 00:18:02,160
+no man's land. While the real battle
+
+376
+00:17:59,440 --> 00:18:04,320
+happens at yesterday's VWAP, most
+
+377
+00:18:02,160 --> 00:18:07,280
+traders don't realize they're using the
+
+378
+00:18:04,320 --> 00:18:09,440
+wrong reference point. The whipsaw
+
+379
+00:18:07,280 --> 00:18:13,120
+problem destroys more accounts than
+
+380
+00:18:09,440 --> 00:18:15,840
+anything. Price crosses VWAP 15 times in
+
+381
+00:18:13,120 --> 00:18:19,280
+an hour, triggering both longs and
+
+382
+00:18:15,840 --> 00:18:22,080
+shorts. Each cross looks valid but
+
+383
+00:18:19,280 --> 00:18:24,960
+immediately reverses. The key is
+
+384
+00:18:22,080 --> 00:18:27,440
+recognizing the choppy price action and
+
+385
+00:18:24,960 --> 00:18:30,720
+wider bands that signal a whipssaw
+
+386
+00:18:27,440 --> 00:18:33,760
+environment. Also, alternative anchors
+
+387
+00:18:30,720 --> 00:18:36,240
+save you when standard VWOP fails.
+
+388
+00:18:33,760 --> 00:18:40,320
+Switch to the previous days high or low
+
+389
+00:18:36,240 --> 00:18:43,840
+VWOP. Use the weekly open VWOP.
+
+390
+00:18:40,320 --> 00:18:47,120
+Anchor to the last major volume spike.
+
+391
+00:18:43,840 --> 00:18:49,919
+The key takeaway is adaptability. VWAP
+
+392
+00:18:47,120 --> 00:18:52,080
+is powerful, but not perfect. Knowing
+
+393
+00:18:49,919 --> 00:18:55,440
+when it doesn't work is just as
+
+394
+00:18:52,080 --> 00:18:57,840
+important as knowing when it does.
+
+395
+00:18:55,440 --> 00:19:00,559
+Before this video, you had VWAP
+
+396
+00:18:57,840 --> 00:19:02,640
+knowledge scattered in pieces. But now
+
+397
+00:19:00,559 --> 00:19:05,039
+you're going to organize it into a
+
+398
+00:19:02,640 --> 00:19:07,440
+complete battle plan. Here's your
+
+399
+00:19:05,039 --> 00:19:10,640
+complete pre-market VWAP analysis
+
+400
+00:19:07,440 --> 00:19:15,039
+routine. First, identify all relevant
+
+401
+00:19:10,640 --> 00:19:16,799
+VWAP levels. daily, weekly, monthly for
+
+402
+00:19:15,039 --> 00:19:19,600
+each instrument.
+
+403
+00:19:16,799 --> 00:19:23,120
+Second, note any custom anchors from
+
+404
+00:19:19,600 --> 00:19:26,160
+recent events. Third, check the VWOP
+
+405
+00:19:23,120 --> 00:19:29,120
+hierarchy for directional bias. Your
+
+406
+00:19:26,160 --> 00:19:32,160
+VWAP watch list focuses on markets with
+
+407
+00:19:29,120 --> 00:19:34,480
+the highest probability setups. Look for
+
+408
+00:19:32,160 --> 00:19:37,039
+instruments where multiple VWAP time
+
+409
+00:19:34,480 --> 00:19:40,480
+frames are aligned. Price near
+
+410
+00:19:37,039 --> 00:19:43,600
+significant VWAP levels. Volume patterns
+
+411
+00:19:40,480 --> 00:19:45,600
+suggesting institutional activity. Your
+
+412
+00:19:43,600 --> 00:19:49,440
+VWAP playbook becomes a simple
+
+413
+00:19:45,600 --> 00:19:52,160
+checklist. Is price at VWAP? Is volume
+
+414
+00:19:49,440 --> 00:19:54,480
+above average? Are multiple time frames
+
+415
+00:19:52,160 --> 00:19:57,280
+aligned? Is the broader market
+
+416
+00:19:54,480 --> 00:20:00,720
+supporting this direction? Are VWOP
+
+417
+00:19:57,280 --> 00:20:03,600
+bands expanding or contracting? Check
+
+418
+00:20:00,720 --> 00:20:06,080
+all five or skip the trade. You are now
+
+419
+00:20:03,600 --> 00:20:08,559
+equipped with the same VWAP knowledge
+
+420
+00:20:06,080 --> 00:20:11,919
+that market makers and institutional
+
+421
+00:20:08,559 --> 00:20:14,640
+traders use to move billions of dollars.
+
+422
+00:20:11,919 --> 00:20:17,039
+This isn't retail trader education. This
+
+423
+00:20:14,640 --> 00:20:19,440
+is professional level training. And if
+
+424
+00:20:17,039 --> 00:20:21,840
+you're ready to fit this into a full a
+
+425
+00:20:19,440 --> 00:20:24,080
+toz trading system, that's what our
+
+426
+00:20:21,840 --> 00:20:27,080
+academy is for. Link is in the
+
+427
+00:20:24,080 --> 00:20:27,080
+description.
+

@@ -1,0 +1,2256 @@
+1
+00:00:00,080 --> 00:00:05,520
+if you are a scalper or a day trader you
+
+2
+00:00:03,120 --> 00:00:08,880
+definitely must try out these
+
+3
+00:00:05,520 --> 00:00:11,880
+strategies the failed new high or low of
+
+4
+00:00:08,880 --> 00:00:14,200
+the day is the first scalping setup that
+
+5
+00:00:11,880 --> 00:00:17,240
+takes advantage of price action and
+
+6
+00:00:14,200 --> 00:00:20,039
+Market structure this strategy aims to
+
+7
+00:00:17,240 --> 00:00:22,519
+catch quick moves when price fails to
+
+8
+00:00:20,039 --> 00:00:26,320
+sustain a break above the previous day's
+
+9
+00:00:22,519 --> 00:00:29,000
+high or below the previous day's low so
+
+10
+00:00:26,320 --> 00:00:32,360
+the core idea is to look for Price
+
+11
+00:00:29,000 --> 00:00:34,960
+attempts to make new highs or lows
+
+12
+00:00:32,360 --> 00:00:37,079
+compared to the previous trading day
+
+13
+00:00:34,960 --> 00:00:40,079
+when these attempts fail it often
+
+14
+00:00:37,079 --> 00:00:42,960
+signals a potential reversal creating a
+
+15
+00:00:40,079 --> 00:00:46,039
+scalping opportunity you see previous
+
+16
+00:00:42,960 --> 00:00:49,280
+day highs and lows are important levels
+
+17
+00:00:46,039 --> 00:00:51,960
+watched by many big Traders these levels
+
+18
+00:00:49,280 --> 00:00:54,520
+often act as significant support and
+
+19
+00:00:51,960 --> 00:00:57,120
+resistance when price approaches these
+
+20
+00:00:54,520 --> 00:01:00,000
+levels it's testing the balance of
+
+21
+00:00:57,120 --> 00:01:02,600
+supply and demand when price breaks up
+
+22
+00:01:00,000 --> 00:01:05,439
+above the previous day's High it implies
+
+23
+00:01:02,600 --> 00:01:08,439
+demand is overcoming Supply if this
+
+24
+00:01:05,439 --> 00:01:11,640
+break quickly fails it shows that Supply
+
+25
+00:01:08,439 --> 00:01:13,720
+is still strong at these levels the
+
+26
+00:01:11,640 --> 00:01:16,840
+opposite is true for breaks below the
+
+27
+00:01:13,720 --> 00:01:20,079
+previous day's low this failure often
+
+28
+00:01:16,840 --> 00:01:23,320
+traps traders who entered on the brake
+
+29
+00:01:20,079 --> 00:01:26,640
+as these Traders exit their positions it
+
+30
+00:01:23,320 --> 00:01:29,479
+adds fuel to the reversal move this is
+
+31
+00:01:26,640 --> 00:01:31,880
+how to trade this setup first identify
+
+32
+00:01:29,479 --> 00:01:34,720
+the previous previous days high and low
+
+33
+00:01:31,880 --> 00:01:37,000
+these are your key reference points then
+
+34
+00:01:34,720 --> 00:01:39,360
+watch price action as it approaches
+
+35
+00:01:37,000 --> 00:01:42,600
+these levels look for signs of
+
+36
+00:01:39,360 --> 00:01:46,040
+hesitation or rejection as price nears
+
+37
+00:01:42,600 --> 00:01:48,920
+the previous day's high or low wait for
+
+38
+00:01:46,040 --> 00:01:51,920
+the break and failure if price breaks
+
+39
+00:01:48,920 --> 00:01:54,759
+the level but quickly reverses this is
+
+40
+00:01:51,920 --> 00:01:57,399
+your potential entry trigger it's best
+
+41
+00:01:54,759 --> 00:01:59,600
+to look for confirmation this could be
+
+42
+00:01:57,399 --> 00:02:02,439
+in the form of a reversal Candlestick
+
+43
+00:01:59,600 --> 00:02:04,399
+pattern turn a shift in momentum or
+
+44
+00:02:02,439 --> 00:02:07,240
+increased volume on the
+
+45
+00:02:04,399 --> 00:02:09,720
+reversal once you have confirmation
+
+46
+00:02:07,240 --> 00:02:12,720
+enter in the direction of the failure
+
+47
+00:02:09,720 --> 00:02:16,560
+for a failed High you would go short for
+
+48
+00:02:12,720 --> 00:02:19,400
+a failed low You' go long this scalping
+
+49
+00:02:16,560 --> 00:02:21,599
+setup works well because it aligns you
+
+50
+00:02:19,400 --> 00:02:24,840
+with the likely intentions of big
+
+51
+00:02:21,599 --> 00:02:27,480
+players this key levels are often where
+
+52
+00:02:24,840 --> 00:02:30,480
+large institutions Place their orders
+
+53
+00:02:27,480 --> 00:02:32,959
+creating liquidity pools when price
+
+54
+00:02:30,480 --> 00:02:35,120
+fails to break these levels it often
+
+55
+00:02:32,959 --> 00:02:36,680
+indicates these big players are
+
+56
+00:02:35,120 --> 00:02:39,800
+defending their
+
+57
+00:02:36,680 --> 00:02:42,480
+positions perfect strategy for beginners
+
+58
+00:02:39,800 --> 00:02:45,400
+as this setup offers a clear mechanical
+
+59
+00:02:42,480 --> 00:02:48,080
+approach to entering trades in this
+
+60
+00:02:45,400 --> 00:02:51,440
+example we've marked the previous day
+
+61
+00:02:48,080 --> 00:02:54,560
+levels as the new trading day begins we
+
+62
+00:02:51,440 --> 00:02:58,239
+see price trending downwards towards the
+
+63
+00:02:54,560 --> 00:03:00,680
+previous low as price approaches it you
+
+64
+00:02:58,239 --> 00:03:02,879
+start paying close attention
+
+65
+00:03:00,680 --> 00:03:06,239
+there's a quick Spike down breaking
+
+66
+00:03:02,879 --> 00:03:08,920
+below the previous day's low however the
+
+67
+00:03:06,239 --> 00:03:12,080
+next candle's immediately reverse
+
+68
+00:03:08,920 --> 00:03:15,319
+closing back above the previous day low
+
+69
+00:03:12,080 --> 00:03:17,879
+this is a failed new low we also notice
+
+70
+00:03:15,319 --> 00:03:20,360
+that the volume on the reversal candles
+
+71
+00:03:17,879 --> 00:03:23,280
+is higher than the previous candles
+
+72
+00:03:20,360 --> 00:03:26,560
+implying strong buying interest this is
+
+73
+00:03:23,280 --> 00:03:28,480
+your confirmation so long trade here
+
+74
+00:03:26,560 --> 00:03:31,080
+just above the high of the reversal
+
+75
+00:03:28,480 --> 00:03:33,959
+candle the stop loss goes below the
+
+76
+00:03:31,080 --> 00:03:37,360
+failed low for your Target you might
+
+77
+00:03:33,959 --> 00:03:39,879
+look at a previous swing High sometimes
+
+78
+00:03:37,360 --> 00:03:43,439
+price will even go to test the previous
+
+79
+00:03:39,879 --> 00:03:46,400
+day's high in this chart we've marked
+
+80
+00:03:43,439 --> 00:03:49,599
+the previous day's levels as the new day
+
+81
+00:03:46,400 --> 00:03:52,480
+starts we see price pushing upwards
+
+82
+00:03:49,599 --> 00:03:55,159
+towards the previous High we see a quick
+
+83
+00:03:52,480 --> 00:03:58,400
+Spike above it but the next candle
+
+84
+00:03:55,159 --> 00:04:01,159
+closes back below it this is our failed
+
+85
+00:03:58,400 --> 00:04:04,560
+new high this this is almost a textbook
+
+86
+00:04:01,159 --> 00:04:08,040
+setup with a pin bar with a large Wick
+
+87
+00:04:04,560 --> 00:04:10,840
+above the previous High short trade just
+
+88
+00:04:08,040 --> 00:04:14,280
+below the low of the pin candle stop
+
+89
+00:04:10,840 --> 00:04:16,759
+loss goes above the failed High one key
+
+90
+00:04:14,280 --> 00:04:19,199
+aspect of this scalping method is
+
+91
+00:04:16,759 --> 00:04:21,880
+understanding the concept of liquidity
+
+92
+00:04:19,199 --> 00:04:24,759
+previous day highs and lows are often
+
+93
+00:04:21,880 --> 00:04:27,759
+areas with lots of stop- losses and
+
+94
+00:04:24,759 --> 00:04:30,240
+limit orders big players in the market
+
+95
+00:04:27,759 --> 00:04:32,880
+may push price into today's area us to
+
+96
+00:04:30,240 --> 00:04:35,680
+hunt these orders creating the failed
+
+97
+00:04:32,880 --> 00:04:38,160
+break we're looking to trade so with
+
+98
+00:04:35,680 --> 00:04:41,199
+this setup you're essentially trying to
+
+99
+00:04:38,160 --> 00:04:43,840
+align yourself with the smart money for
+
+100
+00:04:41,199 --> 00:04:46,639
+more advanced Traders you might consider
+
+101
+00:04:43,840 --> 00:04:48,880
+incorporating additional factors for
+
+102
+00:04:46,639 --> 00:04:51,400
+example you could look at the overall
+
+103
+00:04:48,880 --> 00:04:54,840
+Market structure is the market in a
+
+104
+00:04:51,400 --> 00:04:57,520
+larger uptrend or downtrend failed
+
+105
+00:04:54,840 --> 00:04:59,320
+breaks that align with the larger Trend
+
+106
+00:04:57,520 --> 00:05:00,759
+might have a higher probability of
+
+107
+00:04:59,320 --> 00:05:03,280
+success
+
+108
+00:05:00,759 --> 00:05:05,759
+you could also consider the time of day
+
+109
+00:05:03,280 --> 00:05:09,039
+failed breaks that happen during Major
+
+110
+00:05:05,759 --> 00:05:11,360
+Market opens like London or New York
+
+111
+00:05:09,039 --> 00:05:14,160
+might be more significant due to the
+
+112
+00:05:11,360 --> 00:05:17,870
+increased volume in participation of
+
+113
+00:05:14,160 --> 00:05:21,050
+institutional Traders at these times
+
+114
+00:05:17,870 --> 00:05:21,050
+[Music]
+
+115
+00:05:25,080 --> 00:05:32,759
+[Music]
+
+116
+00:05:40,040 --> 00:05:45,600
+[Music]
+
+117
+00:05:57,840 --> 00:06:02,879
+in
+
+118
+00:05:59,800 --> 00:06:02,879
+[Music]
+
+119
+00:06:18,160 --> 00:06:22,919
+the first major pullback after a market
+
+120
+00:06:20,759 --> 00:06:25,360
+structure shift is another great
+
+121
+00:06:22,919 --> 00:06:28,400
+scalping setup that combines price
+
+122
+00:06:25,360 --> 00:06:31,120
+action and smart money Concepts this
+
+123
+00:06:28,400 --> 00:06:33,280
+strategy aims to cat catch quick moves
+
+124
+00:06:31,120 --> 00:06:35,919
+right after a significant change in
+
+125
+00:06:33,280 --> 00:06:38,360
+Market structure a market structure
+
+126
+00:06:35,919 --> 00:06:41,919
+shift refers to a clear change in the
+
+127
+00:06:38,360 --> 00:06:44,440
+overall trend or direction of the market
+
+128
+00:06:41,919 --> 00:06:48,160
+this usually happens when price breaks a
+
+129
+00:06:44,440 --> 00:06:50,120
+key level like a previous high or low
+
+130
+00:06:48,160 --> 00:06:52,400
+when we see this shift we know big
+
+131
+00:06:50,120 --> 00:06:55,319
+players are likely changing their stance
+
+132
+00:06:52,400 --> 00:06:58,319
+on the market and after a shift we often
+
+133
+00:06:55,319 --> 00:07:01,199
+see a pullback this is when price moves
+
+134
+00:06:58,319 --> 00:07:03,599
+back towards the level just broke smart
+
+135
+00:07:01,199 --> 00:07:06,000
+money often uses these pullbacks to add
+
+136
+00:07:03,599 --> 00:07:09,199
+to their positions before the next big
+
+137
+00:07:06,000 --> 00:07:12,319
+move when price breaks a key level it
+
+138
+00:07:09,199 --> 00:07:15,560
+shows that demand for an upward break or
+
+139
+00:07:12,319 --> 00:07:18,800
+supply for a downward break has overcome
+
+140
+00:07:15,560 --> 00:07:21,680
+the opposite Force at that level but
+
+141
+00:07:18,800 --> 00:07:24,039
+markets rarely move in straight lines
+
+142
+00:07:21,680 --> 00:07:26,840
+after the break some Traders take
+
+143
+00:07:24,039 --> 00:07:30,319
+profits causing a temporary shift in the
+
+144
+00:07:26,840 --> 00:07:33,160
+supply demand balance this creates the
+
+145
+00:07:30,319 --> 00:07:36,479
+pullback however if the structure shift
+
+146
+00:07:33,160 --> 00:07:39,000
+is real and not a false break the supply
+
+147
+00:07:36,479 --> 00:07:42,240
+demand imbalance that caused the break
+
+148
+00:07:39,000 --> 00:07:45,599
+still exists so when price pulls back to
+
+149
+00:07:42,240 --> 00:07:48,280
+the broken level we often see a reaction
+
+150
+00:07:45,599 --> 00:07:51,240
+as the dominant Force buyers in an
+
+151
+00:07:48,280 --> 00:07:55,039
+upward break and sellers in a downward
+
+152
+00:07:51,240 --> 00:07:58,319
+break step in again so this is how to
+
+153
+00:07:55,039 --> 00:08:01,960
+trade this setup first look for a clear
+
+154
+00:07:58,319 --> 00:08:04,360
+break of a previous high or low this is
+
+155
+00:08:01,960 --> 00:08:07,599
+your first clue that smart money might
+
+156
+00:08:04,360 --> 00:08:10,520
+be changing direction after the break
+
+157
+00:08:07,599 --> 00:08:12,759
+don't chase the move instead wait
+
+158
+00:08:10,520 --> 00:08:15,280
+patiently for price to come back to the
+
+159
+00:08:12,759 --> 00:08:18,240
+broken level this is where you'll look
+
+160
+00:08:15,280 --> 00:08:20,960
+to enter as price approaches the broken
+
+161
+00:08:18,240 --> 00:08:24,080
+level watch for signs that the dominant
+
+162
+00:08:20,960 --> 00:08:26,759
+force is stepping in again this could be
+
+163
+00:08:24,080 --> 00:08:30,360
+a strong rejection candle a shift in
+
+164
+00:08:26,759 --> 00:08:32,919
+momentum or a volume Spike if you see
+
+165
+00:08:30,360 --> 00:08:36,240
+confirmation enter in the direction of
+
+166
+00:08:32,919 --> 00:08:39,120
+the break your stop loss should go just
+
+167
+00:08:36,240 --> 00:08:42,159
+beyond the broken level since this is a
+
+168
+00:08:39,120 --> 00:08:44,920
+scalping strategy look to take profits
+
+169
+00:08:42,159 --> 00:08:47,040
+quickly this setup works well because it
+
+170
+00:08:44,920 --> 00:08:49,320
+aligns you with the intentions of big
+
+171
+00:08:47,040 --> 00:08:52,120
+players you're not trying to catch the
+
+172
+00:08:49,320 --> 00:08:55,480
+exact bottom or top but rather jumping
+
+173
+00:08:52,120 --> 00:08:58,360
+on board after smart money has shown its
+
+174
+00:08:55,480 --> 00:09:01,160
+hand this strategy offers a clear
+
+175
+00:08:58,360 --> 00:09:03,480
+mechanical approach to entering trades
+
+176
+00:09:01,160 --> 00:09:05,480
+you are not trying to predict anything
+
+177
+00:09:03,480 --> 00:09:06,440
+just reacting to what the market is
+
+178
+00:09:05,480 --> 00:09:10,040
+showing
+
+179
+00:09:06,440 --> 00:09:13,200
+you in this chart we notice that price
+
+180
+00:09:10,040 --> 00:09:15,880
+has been in a downtrend then we see a
+
+181
+00:09:13,200 --> 00:09:18,440
+strong bullish candle that breaks above
+
+182
+00:09:15,880 --> 00:09:21,880
+the previous swing high this is our
+
+183
+00:09:18,440 --> 00:09:25,000
+Market structure shift after this break
+
+184
+00:09:21,880 --> 00:09:26,880
+price starts to pull back we watch as it
+
+185
+00:09:25,000 --> 00:09:29,480
+approaches the level of the previous
+
+186
+00:09:26,880 --> 00:09:32,240
+High which is now likely to act as
+
+187
+00:09:29,480 --> 00:09:35,680
+support as price gets close to this
+
+188
+00:09:32,240 --> 00:09:38,680
+level we see a longtailed pin bar form
+
+189
+00:09:35,680 --> 00:09:41,360
+showing rejection of lower prices this
+
+190
+00:09:38,680 --> 00:09:44,720
+is our confirmation we enter a long
+
+191
+00:09:41,360 --> 00:09:47,760
+trade just above the high of the pin
+
+192
+00:09:44,720 --> 00:09:50,640
+bar here we notice that price has been
+
+193
+00:09:47,760 --> 00:09:53,360
+in an uptrend but we suddenly see a
+
+194
+00:09:50,640 --> 00:09:56,240
+strong bearish candle that breaks below
+
+195
+00:09:53,360 --> 00:09:59,440
+a significant swing low this is our
+
+196
+00:09:56,240 --> 00:10:01,800
+Market structure shift to the downside
+
+197
+00:09:59,440 --> 00:10:05,079
+price then starts to Rally back towards
+
+198
+00:10:01,800 --> 00:10:08,240
+the broken level as price approaches our
+
+199
+00:10:05,079 --> 00:10:10,959
+value area we notice volume starting to
+
+200
+00:10:08,240 --> 00:10:13,800
+increase this indicates that sellers
+
+201
+00:10:10,959 --> 00:10:16,839
+might be stepping in we also see an
+
+202
+00:10:13,800 --> 00:10:19,760
+inside bar form just below the broken
+
+203
+00:10:16,839 --> 00:10:22,680
+level this often indicates hesitation in
+
+204
+00:10:19,760 --> 00:10:26,120
+the market a short trade can be taken
+
+205
+00:10:22,680 --> 00:10:29,680
+once price breaks below this inside
+
+206
+00:10:26,120 --> 00:10:32,560
+bar also be aware that false break outs
+
+207
+00:10:29,680 --> 00:10:35,519
+can happen sometimes price will break a
+
+208
+00:10:32,560 --> 00:10:38,519
+level pull back but then continue in the
+
+209
+00:10:35,519 --> 00:10:41,320
+original Direction This Is Why waiting
+
+210
+00:10:38,519 --> 00:10:44,320
+for confirmation on the pullback is
+
+211
+00:10:41,320 --> 00:10:46,560
+crucial for advanced Traders this
+
+212
+00:10:44,320 --> 00:10:49,720
+strategy can be combined with other
+
+213
+00:10:46,560 --> 00:10:54,279
+techniques like volume analysis or order
+
+214
+00:10:49,720 --> 00:10:54,279
+flow to increase its effectiveness
+
+215
+00:10:59,440 --> 00:11:09,490
+he
+
+216
+00:11:01,910 --> 00:11:09,490
+[Music]
+
+217
+00:11:49,890 --> 00:11:53,010
+[Music]
+
+218
+00:11:53,519 --> 00:11:58,320
+another scalping setup uses the volume
+
+219
+00:11:56,000 --> 00:12:00,839
+weighted average price as a key
+
+220
+00:11:58,320 --> 00:12:04,279
+reference point in combination with
+
+221
+00:12:00,839 --> 00:12:06,959
+engulfing candle basically this strategy
+
+222
+00:12:04,279 --> 00:12:09,760
+combines price action analysis with the
+
+223
+00:12:06,959 --> 00:12:12,200
+volume weighted line we'll use this
+
+224
+00:12:09,760 --> 00:12:14,279
+indicator as a trading Benchmark that
+
+225
+00:12:12,200 --> 00:12:18,480
+shows the average price a market has
+
+226
+00:12:14,279 --> 00:12:20,480
+traded at based on both volume and price
+
+227
+00:12:18,480 --> 00:12:23,360
+the engulfing candle is the second
+
+228
+00:12:20,480 --> 00:12:25,639
+component a price action pattern where
+
+229
+00:12:23,360 --> 00:12:28,160
+one candle's body completely engulfes
+
+230
+00:12:25,639 --> 00:12:31,040
+the body of the previous candle it's
+
+231
+00:12:28,160 --> 00:12:32,680
+seen as a strong Ral signal especially
+
+232
+00:12:31,040 --> 00:12:35,120
+when it occurs around the
+
+233
+00:12:32,680 --> 00:12:37,360
+mainline the perfect signal looks like
+
+234
+00:12:35,120 --> 00:12:40,120
+this price approaches the volume
+
+235
+00:12:37,360 --> 00:12:43,839
+weighted line an engulfing candle forms
+
+236
+00:12:40,120 --> 00:12:45,920
+at or near this area then price bounces
+
+237
+00:12:43,839 --> 00:12:48,240
+off the main line in the direction
+
+238
+00:12:45,920 --> 00:12:50,600
+indicated by the engulfing
+
+239
+00:12:48,240 --> 00:12:53,480
+candle from a supply and demand
+
+240
+00:12:50,600 --> 00:12:56,000
+perspective here's what's happening the
+
+241
+00:12:53,480 --> 00:12:59,360
+vwap represents the equilibrium price
+
+242
+00:12:56,000 --> 00:13:02,079
+for the day when price is above vwap
+
+243
+00:12:59,360 --> 00:13:04,839
+buyers are in control when price
+
+244
+00:13:02,079 --> 00:13:06,880
+approaches VW up it's entering a Zone
+
+245
+00:13:04,839 --> 00:13:09,720
+where supply and demand are roughly
+
+246
+00:13:06,880 --> 00:13:12,079
+balanced the engulfing candle that forms
+
+247
+00:13:09,720 --> 00:13:15,360
+here represents a sudden shift in this
+
+248
+00:13:12,079 --> 00:13:18,560
+balance a bullish engulfing candle shows
+
+249
+00:13:15,360 --> 00:13:21,639
+demand dominating Supply while a bearish
+
+250
+00:13:18,560 --> 00:13:25,160
+engulfing candle shows Supply overcoming
+
+251
+00:13:21,639 --> 00:13:27,680
+demand the bounce of vwap confirms this
+
+252
+00:13:25,160 --> 00:13:30,399
+shift and implies that a new Supply
+
+253
+00:13:27,680 --> 00:13:32,560
+demand balance is like likely to persist
+
+254
+00:13:30,399 --> 00:13:36,160
+at least for a short
+
+255
+00:13:32,560 --> 00:13:39,920
+while this is how to trade this setup
+
+256
+00:13:36,160 --> 00:13:42,600
+first monitor the vew up on your chart
+
+257
+00:13:39,920 --> 00:13:45,399
+as price nears the line start paying
+
+258
+00:13:42,600 --> 00:13:49,240
+close attention watch for an engulfing
+
+259
+00:13:45,399 --> 00:13:51,959
+candle to form this is your key signal
+
+260
+00:13:49,240 --> 00:13:54,920
+after the engulfing candle forms look
+
+261
+00:13:51,959 --> 00:13:57,120
+for price to move away from vwap in the
+
+262
+00:13:54,920 --> 00:13:59,839
+direction indicated by the engulfing
+
+263
+00:13:57,120 --> 00:14:02,519
+candle once you have confir of the
+
+264
+00:13:59,839 --> 00:14:05,560
+bounce you simply enter in the direction
+
+265
+00:14:02,519 --> 00:14:07,399
+of the engulfing candle place your stop
+
+266
+00:14:05,560 --> 00:14:10,079
+just beyond the opposite side of the
+
+267
+00:14:07,399 --> 00:14:12,920
+engulfing candle you might set your
+
+268
+00:14:10,079 --> 00:14:16,160
+first Target at the next significant
+
+269
+00:14:12,920 --> 00:14:18,160
+level this scalping method works well
+
+270
+00:14:16,160 --> 00:14:21,839
+because it combines multiple high
+
+271
+00:14:18,160 --> 00:14:24,480
+probability factors vwap is a key level
+
+272
+00:14:21,839 --> 00:14:27,399
+watched by many Traders especially
+
+273
+00:14:24,480 --> 00:14:29,839
+institutions engulfing candles are
+
+274
+00:14:27,399 --> 00:14:32,399
+strong reversal signals the bounce
+
+275
+00:14:29,839 --> 00:14:35,759
+confirms the reversal and shows that the
+
+276
+00:14:32,399 --> 00:14:38,199
+new trend has some momentum one key
+
+277
+00:14:35,759 --> 00:14:41,360
+aspect of this strategy is understanding
+
+278
+00:14:38,199 --> 00:14:44,240
+the significance of vwap institutional
+
+279
+00:14:41,360 --> 00:14:47,040
+Traders often use vwap as a benchmark
+
+280
+00:14:44,240 --> 00:14:49,480
+for their trades if they're buying they
+
+281
+00:14:47,040 --> 00:14:52,519
+want to buy below the line if they're
+
+282
+00:14:49,480 --> 00:14:55,320
+selling they want to sell above it this
+
+283
+00:14:52,519 --> 00:14:57,360
+is why vwap often acts as a dynamic
+
+284
+00:14:55,320 --> 00:15:00,360
+support and resistance
+
+285
+00:14:57,360 --> 00:15:03,680
+level in this example example we see
+
+286
+00:15:00,360 --> 00:15:05,759
+price approach the line from below this
+
+287
+00:15:03,680 --> 00:15:08,519
+suggests that sellers have been in
+
+288
+00:15:05,759 --> 00:15:11,519
+control but price is now entering the
+
+289
+00:15:08,519 --> 00:15:14,839
+equilibrium Zone as price touches the
+
+290
+00:15:11,519 --> 00:15:17,959
+main line we see a large bearish candle
+
+291
+00:15:14,839 --> 00:15:21,279
+form this candle completely engulfs the
+
+292
+00:15:17,959 --> 00:15:24,560
+body of the previous candle this is our
+
+293
+00:15:21,279 --> 00:15:27,800
+signal the next candle continues to move
+
+294
+00:15:24,560 --> 00:15:30,199
+downward this confirms the bounce we
+
+295
+00:15:27,800 --> 00:15:33,800
+enter a short trade at the low of the
+
+296
+00:15:30,199 --> 00:15:36,519
+signal candle stop loss goes just below
+
+297
+00:15:33,800 --> 00:15:38,759
+the high of the engulfing candle for the
+
+298
+00:15:36,519 --> 00:15:40,959
+first Target you might look at the
+
+299
+00:15:38,759 --> 00:15:44,600
+previous swing
+
+300
+00:15:40,959 --> 00:15:47,759
+lows another signal again we have our
+
+301
+00:15:44,600 --> 00:15:50,279
+vwap clearly visible we see price
+
+302
+00:15:47,759 --> 00:15:53,279
+approach the line from Above This
+
+303
+00:15:50,279 --> 00:15:55,000
+implies that buyers have been in control
+
+304
+00:15:53,279 --> 00:15:57,959
+but price is now entering the
+
+305
+00:15:55,000 --> 00:16:00,600
+equilibrium Zone as price touches the
+
+306
+00:15:57,959 --> 00:16:03,480
+line with see a large bullish candle
+
+307
+00:16:00,600 --> 00:16:06,519
+form the candle completely engulfes the
+
+308
+00:16:03,480 --> 00:16:09,480
+body of the previous one the next candle
+
+309
+00:16:06,519 --> 00:16:13,079
+continues to move upward this confirms
+
+310
+00:16:09,480 --> 00:16:16,360
+our bounce we enter a Buy trade as the
+
+311
+00:16:13,079 --> 00:16:20,079
+high of the engulfing candle is taken
+
+312
+00:16:16,360 --> 00:16:22,040
+out very important market conditions can
+
+313
+00:16:20,079 --> 00:16:25,680
+affect the effectiveness of your
+
+314
+00:16:22,040 --> 00:16:28,920
+scalping results in very choppy markets
+
+315
+00:16:25,680 --> 00:16:31,560
+price might cross vwap frequently making
+
+316
+00:16:28,920 --> 00:16:34,160
+making it less reliable as a support or
+
+317
+00:16:31,560 --> 00:16:37,560
+resistance level you don't want to see
+
+318
+00:16:34,160 --> 00:16:40,720
+the line being tested in recent
+
+319
+00:16:37,560 --> 00:16:43,319
+candles for more advanced Traders you
+
+320
+00:16:40,720 --> 00:16:47,000
+might consider incorporating additional
+
+321
+00:16:43,319 --> 00:16:49,639
+factors for example volume analysis
+
+322
+00:16:47,000 --> 00:16:51,880
+engulfing candles that form on higher
+
+323
+00:16:49,639 --> 00:16:54,399
+volume might be more
+
+324
+00:16:51,880 --> 00:16:57,920
+significant Market structure also
+
+325
+00:16:54,399 --> 00:17:01,800
+matters is this vwap bounce happening at
+
+326
+00:16:57,920 --> 00:17:04,640
+a significant swing high or low also
+
+327
+00:17:01,800 --> 00:17:07,280
+vwap tends to be more significant during
+
+328
+00:17:04,640 --> 00:17:09,400
+the middle of the trading session early
+
+329
+00:17:07,280 --> 00:17:12,760
+in the day it's still establishing
+
+330
+00:17:09,400 --> 00:17:14,839
+itself and late in the day other factors
+
+331
+00:17:12,760 --> 00:17:17,720
+might become more
+
+332
+00:17:14,839 --> 00:17:20,880
+important another factor to consider is
+
+333
+00:17:17,720 --> 00:17:23,120
+the distance of price from vwap the
+
+334
+00:17:20,880 --> 00:17:25,199
+further price moves from the line the
+
+335
+00:17:23,120 --> 00:17:28,039
+more likely it is to eventually return
+
+336
+00:17:25,199 --> 00:17:30,120
+to it this can help you anticipate
+
+337
+00:17:28,039 --> 00:17:32,440
+potential setup
+
+338
+00:17:30,120 --> 00:17:34,919
+also please note that this scalping
+
+339
+00:17:32,440 --> 00:17:38,280
+setup doesn't always require an exact
+
+340
+00:17:34,919 --> 00:17:41,240
+bounce of the line sometimes price might
+
+341
+00:17:38,280 --> 00:17:45,799
+hover around the line and won't touch it
+
+342
+00:17:41,240 --> 00:17:45,799
+before the engulfing candle forms
+
+343
+00:17:46,230 --> 00:17:49,680
+[Music]
+
+344
+00:18:03,170 --> 00:18:12,200
+[Music]
+
+345
+00:18:20,020 --> 00:18:38,410
+[Music]
+
+346
+00:18:45,120 --> 00:18:50,679
+next scalping setup involves a fair
+
+347
+00:18:47,360 --> 00:18:53,039
+value Gap fill after a breakout this
+
+348
+00:18:50,679 --> 00:18:55,520
+strategy takes advantage of markeet
+
+349
+00:18:53,039 --> 00:18:58,559
+inefficiencies and price action
+
+350
+00:18:55,520 --> 00:19:01,080
+Dynamics fair value gaps are created
+
+351
+00:18:58,559 --> 00:19:03,440
+with within a three candle sequence they
+
+352
+00:19:01,080 --> 00:19:06,080
+are typically seen on charts as a large
+
+353
+00:19:03,440 --> 00:19:08,679
+candle whose neighboring candles upper
+
+354
+00:19:06,080 --> 00:19:12,039
+and lower weeks don't fully overlap the
+
+355
+00:19:08,679 --> 00:19:14,400
+large candle here's how it works price
+
+356
+00:19:12,039 --> 00:19:16,880
+breaks out of a significant level
+
+357
+00:19:14,400 --> 00:19:20,280
+support or resistance during this
+
+358
+00:19:16,880 --> 00:19:22,760
+breakout a fair value Gap forms due to
+
+359
+00:19:20,280 --> 00:19:25,840
+the rapid price movement after the
+
+360
+00:19:22,760 --> 00:19:28,720
+breakout price often retraces to fill
+
+361
+00:19:25,840 --> 00:19:31,120
+the Gap this retracement provides a
+
+362
+00:19:28,720 --> 00:19:32,960
+potential entry point for a trade in the
+
+363
+00:19:31,120 --> 00:19:35,280
+direction of the original
+
+364
+00:19:32,960 --> 00:19:38,080
+breakout from a supply and demand
+
+365
+00:19:35,280 --> 00:19:40,640
+perspective here's what's happening the
+
+366
+00:19:38,080 --> 00:19:43,440
+breakout represents a significant shift
+
+367
+00:19:40,640 --> 00:19:46,159
+in the balance of supply and demand the
+
+368
+00:19:43,440 --> 00:19:49,280
+fair value Gap forms because the price
+
+369
+00:19:46,159 --> 00:19:51,960
+movement is so Swift that normal price
+
+370
+00:19:49,280 --> 00:19:54,000
+Discovery doesn't occur in that area
+
+371
+00:19:51,960 --> 00:19:57,400
+this creates an inefficiency in the
+
+372
+00:19:54,000 --> 00:20:00,080
+market that often gets filled later when
+
+373
+00:19:57,400 --> 00:20:02,440
+price returns to fill Gap it's testing
+
+374
+00:20:00,080 --> 00:20:05,600
+the new Supply demand Balance
+
+375
+00:20:02,440 --> 00:20:08,240
+established by the breakout this retest
+
+376
+00:20:05,600 --> 00:20:09,760
+often provides a high probability entry
+
+377
+00:20:08,240 --> 00:20:12,280
+in the breakout
+
+378
+00:20:09,760 --> 00:20:15,320
+Direction This is how to trade this
+
+379
+00:20:12,280 --> 00:20:18,039
+setup first you identify important
+
+380
+00:20:15,320 --> 00:20:21,640
+levels on your chart these are potential
+
+381
+00:20:18,039 --> 00:20:24,200
+breakout points then watch for breakouts
+
+382
+00:20:21,640 --> 00:20:27,080
+when price breaks a key level with
+
+383
+00:20:24,200 --> 00:20:29,640
+strong momentum pay attention this is
+
+384
+00:20:27,080 --> 00:20:32,640
+the first part of our setup
+
+385
+00:20:29,640 --> 00:20:35,640
+next identify the Gap look for the three
+
+386
+00:20:32,640 --> 00:20:38,440
+candle pattern during the breakout move
+
+387
+00:20:35,640 --> 00:20:41,919
+after the breakout and GAP formation
+
+388
+00:20:38,440 --> 00:20:44,480
+price will often retrace to fill the Gap
+
+389
+00:20:41,919 --> 00:20:46,960
+as price approaches the fair value Gap
+
+390
+00:20:44,480 --> 00:20:49,159
+get ready for a potential trade entry
+
+391
+00:20:46,960 --> 00:20:51,720
+look for signs that price is likely to
+
+392
+00:20:49,159 --> 00:20:54,640
+continue in the breakout Direction after
+
+393
+00:20:51,720 --> 00:20:57,120
+filling the Gap this could be a reversal
+
+394
+00:20:54,640 --> 00:21:00,400
+Candlestick pattern or a bounce off the
+
+395
+00:20:57,120 --> 00:21:02,840
+broken level once you have confirmation
+
+396
+00:21:00,400 --> 00:21:05,840
+enter in the direction of the original
+
+397
+00:21:02,840 --> 00:21:08,799
+breakout this strategy offers a clear
+
+398
+00:21:05,840 --> 00:21:11,799
+systematic approach breakouts often lead
+
+399
+00:21:08,799 --> 00:21:14,240
+to strong trending moves gaps tend to
+
+400
+00:21:11,799 --> 00:21:17,360
+get filled due to the Market's nature to
+
+401
+00:21:14,240 --> 00:21:20,200
+seek fair value and retests of broken
+
+402
+00:21:17,360 --> 00:21:23,919
+levels often provide good entry
+
+403
+00:21:20,200 --> 00:21:26,840
+points in this example we've identified
+
+404
+00:21:23,919 --> 00:21:28,840
+a key resistance level that price has
+
+405
+00:21:26,840 --> 00:21:31,960
+been respecting for the past few few
+
+406
+00:21:28,840 --> 00:21:34,960
+days we see a break above it with a
+
+407
+00:21:31,960 --> 00:21:38,279
+strong candle this three candle sequence
+
+408
+00:21:34,960 --> 00:21:40,480
+has created Our Fair Value Gap after
+
+409
+00:21:38,279 --> 00:21:43,480
+this sequence we see price start to
+
+410
+00:21:40,480 --> 00:21:45,600
+retrace pulling back towards the Gap
+
+411
+00:21:43,480 --> 00:21:48,840
+giving us our potential entry
+
+412
+00:21:45,600 --> 00:21:51,960
+opportunity as price enters the Gap area
+
+413
+00:21:48,840 --> 00:21:54,919
+we see a bullish pin bar form this is
+
+414
+00:21:51,960 --> 00:21:57,640
+the confirmation signal a long trade is
+
+415
+00:21:54,919 --> 00:22:01,200
+the play here just above the pin Bar's
+
+416
+00:21:57,640 --> 00:22:03,159
+High the stop loss is placed just below
+
+417
+00:22:01,200 --> 00:22:05,919
+the original breakout
+
+418
+00:22:03,159 --> 00:22:08,640
+level here's a cell setup we've
+
+419
+00:22:05,919 --> 00:22:11,240
+identified a key support level that
+
+420
+00:22:08,640 --> 00:22:14,159
+price has been bouncing off for the past
+
+421
+00:22:11,240 --> 00:22:16,799
+few hours we see price approach this
+
+422
+00:22:14,159 --> 00:22:20,200
+level and then break below it with a
+
+423
+00:22:16,799 --> 00:22:23,880
+strong candle this three candle sequence
+
+424
+00:22:20,200 --> 00:22:26,679
+has created Our Fair Value Gap as price
+
+425
+00:22:23,880 --> 00:22:29,520
+retraces to fill the Gap we have our
+
+426
+00:22:26,679 --> 00:22:32,039
+potential entry opportunity a bearish
+
+427
+00:22:29,520 --> 00:22:33,480
+engulfing candle this is our
+
+428
+00:22:32,039 --> 00:22:36,279
+confirmation
+
+429
+00:22:33,480 --> 00:22:39,000
+signal the key aspect of this scalping
+
+430
+00:22:36,279 --> 00:22:39,960
+setup is understanding the concept of
+
+431
+00:22:39,000 --> 00:22:43,360
+Market
+
+432
+00:22:39,960 --> 00:22:45,520
+inefficiencies Fair Value gaps are areas
+
+433
+00:22:43,360 --> 00:22:48,440
+where normal price Discovery didn't
+
+434
+00:22:45,520 --> 00:22:51,240
+occur creating a sort of vacuum in the
+
+435
+00:22:48,440 --> 00:22:54,360
+market prices often return to these
+
+436
+00:22:51,240 --> 00:22:56,320
+areas to fill this vacuum which is what
+
+437
+00:22:54,360 --> 00:22:59,039
+creates our trading
+
+438
+00:22:56,320 --> 00:23:01,159
+opportunity for more advanced Trad ERS
+
+439
+00:22:59,039 --> 00:23:04,720
+you might consider adding additional
+
+440
+00:23:01,159 --> 00:23:06,799
+factors one of them is Market structure
+
+441
+00:23:04,720 --> 00:23:09,720
+a breakout that changes the market
+
+442
+00:23:06,799 --> 00:23:12,760
+structure from bearish to bullish or
+
+443
+00:23:09,720 --> 00:23:16,039
+vice versa might be more significant
+
+444
+00:23:12,760 --> 00:23:19,159
+time of day also matters gaps that form
+
+445
+00:23:16,039 --> 00:23:22,120
+during Major Market opens like London or
+
+446
+00:23:19,159 --> 00:23:24,960
+New York might be more significant due
+
+447
+00:23:22,120 --> 00:23:27,960
+to the increased volume another factor
+
+448
+00:23:24,960 --> 00:23:30,320
+to consider the size of the Gap larger
+
+449
+00:23:27,960 --> 00:23:32,159
+gaps might might be more significant and
+
+450
+00:23:30,320 --> 00:23:35,159
+have a higher probability of being
+
+451
+00:23:32,159 --> 00:23:35,159
+filled
+
+452
+00:23:35,870 --> 00:23:53,619
+[Music]
+
+453
+00:23:59,520 --> 00:24:16,109
+[Music]
+
+454
+00:24:20,670 --> 00:24:23,739
+[Music]
+
+455
+00:24:31,840 --> 00:24:36,559
+[Music]
+
+456
+00:24:34,039 --> 00:24:39,399
+another powerful method combines Market
+
+457
+00:24:36,559 --> 00:24:42,120
+structure analysis with Fibonacci
+
+458
+00:24:39,399 --> 00:24:44,760
+retracements this approach aims to catch
+
+459
+00:24:42,120 --> 00:24:47,399
+quick moves by entering trades at Key
+
+460
+00:24:44,760 --> 00:24:50,279
+Fibonacci levels after a significant
+
+461
+00:24:47,399 --> 00:24:52,480
+break of structure a break of structure
+
+462
+00:24:50,279 --> 00:24:55,399
+occurs when price breaks above a
+
+463
+00:24:52,480 --> 00:24:58,960
+previous high in an uptrend or below a
+
+464
+00:24:55,399 --> 00:25:01,520
+previous low in a downtrend it signals a
+
+465
+00:24:58,960 --> 00:25:04,000
+shift in market dynamics and often
+
+466
+00:25:01,520 --> 00:25:06,640
+precedes a strong move in the New
+
+467
+00:25:04,000 --> 00:25:09,039
+Direction once you found a major break
+
+468
+00:25:06,640 --> 00:25:12,200
+of structure you add the Fibonacci
+
+469
+00:25:09,039 --> 00:25:14,760
+retracement on it this tool is used to
+
+470
+00:25:12,200 --> 00:25:17,360
+identify hidden support and resistance
+
+471
+00:25:14,760 --> 00:25:22,039
+levels we are interested in the golden
+
+472
+00:25:17,360 --> 00:25:25,080
+Zone the area between the 61 and 78%
+
+473
+00:25:22,039 --> 00:25:27,320
+levels when a break of structure occurs
+
+474
+00:25:25,080 --> 00:25:30,640
+it shows that either Supply in a
+
+475
+00:25:27,320 --> 00:25:33,440
+downtrend or demand in an uptrend has
+
+476
+00:25:30,640 --> 00:25:36,520
+been overwhelmed the subsequent pullback
+
+477
+00:25:33,440 --> 00:25:39,039
+to the Fibonacci golden zone is a period
+
+478
+00:25:36,520 --> 00:25:41,120
+where the market is Seeking a new
+
+479
+00:25:39,039 --> 00:25:43,960
+equilibrium you are betting that the
+
+480
+00:25:41,120 --> 00:25:46,200
+original imbalance will reassert itself
+
+481
+00:25:43,960 --> 00:25:49,440
+at these key Fibonacci
+
+482
+00:25:46,200 --> 00:25:51,760
+levels this is how to trade this setup
+
+483
+00:25:49,440 --> 00:25:54,440
+first you identify the break of
+
+484
+00:25:51,760 --> 00:25:56,760
+structure watch for price to break above
+
+485
+00:25:54,440 --> 00:25:59,840
+a significant previous high for an
+
+486
+00:25:56,760 --> 00:26:02,679
+uptrend or below a significant previous
+
+487
+00:25:59,840 --> 00:26:05,440
+low for a downtrend once you've
+
+488
+00:26:02,679 --> 00:26:07,919
+identified the break Mark the swing that
+
+489
+00:26:05,440 --> 00:26:10,600
+includes the break of structure from the
+
+490
+00:26:07,919 --> 00:26:12,840
+low to the high in an uptrend or from
+
+491
+00:26:10,600 --> 00:26:16,039
+the high to the low in a
+
+492
+00:26:12,840 --> 00:26:18,840
+downtrend then simply draw the Fibonacci
+
+493
+00:26:16,039 --> 00:26:21,480
+retracement after the break of structure
+
+494
+00:26:18,840 --> 00:26:24,080
+price will often pull back in the golden
+
+495
+00:26:21,480 --> 00:26:26,399
+Zone look for signs that price is ready
+
+496
+00:26:24,080 --> 00:26:29,159
+to resume the trend this could be
+
+497
+00:26:26,399 --> 00:26:31,279
+Candlestick patterns a volume shift or
+
+498
+00:26:29,159 --> 00:26:32,120
+simply price action showing rejection
+
+499
+00:26:31,279 --> 00:26:35,080
+from The
+
+500
+00:26:32,120 --> 00:26:37,279
+Zone once you have your confirmation
+
+501
+00:26:35,080 --> 00:26:40,360
+enter the trade in the direction of the
+
+502
+00:26:37,279 --> 00:26:42,440
+original break place your stop just
+
+503
+00:26:40,360 --> 00:26:45,840
+beyond the opposite side of the golden
+
+504
+00:26:42,440 --> 00:26:48,279
+Zone as for take profits you might set
+
+505
+00:26:45,840 --> 00:26:49,640
+your target at the next key levels in
+
+506
+00:26:48,279 --> 00:26:52,120
+the market
+
+507
+00:26:49,640 --> 00:26:54,919
+structure this scalping method works
+
+508
+00:26:52,120 --> 00:26:57,279
+well because it combines multiple high
+
+509
+00:26:54,919 --> 00:26:59,880
+probability factors the break of
+
+510
+00:26:57,279 --> 00:27:02,640
+structure shows a clear shift in market
+
+511
+00:26:59,880 --> 00:27:05,320
+dynamics Fibonacci levels are widely
+
+512
+00:27:02,640 --> 00:27:07,960
+watched by Traders and often act as
+
+513
+00:27:05,320 --> 00:27:10,440
+support and resistance and the golden
+
+514
+00:27:07,960 --> 00:27:13,679
+zone is considered a high probability
+
+515
+00:27:10,440 --> 00:27:16,320
+reversal area this strategy offers a
+
+516
+00:27:13,679 --> 00:27:18,200
+structured approach to entering trades
+
+517
+00:27:16,320 --> 00:27:21,120
+you are looking for a clear break of
+
+518
+00:27:18,200 --> 00:27:23,799
+structure then waiting for a pullback to
+
+519
+00:27:21,120 --> 00:27:26,960
+a specific Zone before
+
+520
+00:27:23,799 --> 00:27:30,039
+entering in this chart we see price
+
+521
+00:27:26,960 --> 00:27:32,440
+break above a significant previous High
+
+522
+00:27:30,039 --> 00:27:34,919
+signaling a break of structure to the
+
+523
+00:27:32,440 --> 00:27:37,760
+upside we marked the swing from the
+
+524
+00:27:34,919 --> 00:27:40,480
+recent low to the high of the break of
+
+525
+00:27:37,760 --> 00:27:43,840
+structure candle we then draw our
+
+526
+00:27:40,480 --> 00:27:46,440
+Fibonacci retracement on this swing then
+
+527
+00:27:43,840 --> 00:27:49,159
+price pulls back and we see it enter the
+
+528
+00:27:46,440 --> 00:27:52,159
+golden zone now we start looking for
+
+529
+00:27:49,159 --> 00:27:54,880
+entry signals here we see a strong
+
+530
+00:27:52,159 --> 00:27:56,159
+bullish engulfing candle this is our
+
+531
+00:27:54,880 --> 00:27:59,360
+entry
+
+532
+00:27:56,159 --> 00:28:02,159
+signal now we see price braks below a
+
+533
+00:27:59,360 --> 00:28:04,919
+significant previous low signaling a
+
+534
+00:28:02,159 --> 00:28:07,320
+break of structure to the downside we
+
+535
+00:28:04,919 --> 00:28:10,559
+Mark the swing from the recent High to
+
+536
+00:28:07,320 --> 00:28:13,039
+the low of the breakoff structure candle
+
+537
+00:28:10,559 --> 00:28:16,320
+we then draw our Fibonacci retracement
+
+538
+00:28:13,039 --> 00:28:19,159
+on this swing price pulls back and we
+
+539
+00:28:16,320 --> 00:28:22,279
+see it enter the golden zone so we start
+
+540
+00:28:19,159 --> 00:28:25,880
+looking for entry signals this time a
+
+541
+00:28:22,279 --> 00:28:28,159
+candle with a long Wick is rejecting The
+
+542
+00:28:25,880 --> 00:28:30,399
+Zone the length of the break of
+
+543
+00:28:28,159 --> 00:28:32,840
+structure can affect the effectiveness
+
+544
+00:28:30,399 --> 00:28:35,480
+of this strategy you want to see price
+
+545
+00:28:32,840 --> 00:28:38,720
+breaking a previous swing with
+
+546
+00:28:35,480 --> 00:28:41,159
+conviction in very choppy markets false
+
+547
+00:28:38,720 --> 00:28:43,840
+breakouts are more common which can lead
+
+548
+00:28:41,159 --> 00:28:46,120
+to failed setups so keep in mind this
+
+549
+00:28:43,840 --> 00:28:49,120
+aspect before taking any
+
+550
+00:28:46,120 --> 00:28:51,840
+trade for more advanced Traders you
+
+551
+00:28:49,120 --> 00:28:55,919
+might consider add a momentum indicator
+
+552
+00:28:51,840 --> 00:28:58,279
+to find divergences at the value area if
+
+553
+00:28:55,919 --> 00:29:00,640
+the golden Zone aligns with other ke
+
+554
+00:28:58,279 --> 00:29:04,519
+levels it can also increase the
+
+555
+00:29:00,640 --> 00:29:04,519
+probability of a reversal
+
+556
+00:29:05,490 --> 00:29:20,029
+[Music]
+
+557
+00:29:22,940 --> 00:29:26,009
+[Music]
+
+558
+00:29:29,700 --> 00:29:32,869
+[Music]
+
+559
+00:29:38,540 --> 00:29:46,649
+[Music]
+
+560
+00:30:02,700 --> 00:30:06,600
+[Music]
+
+561
+00:30:04,320 --> 00:30:08,880
+now if you want to learn other scalping
+
+562
+00:30:06,600 --> 00:30:13,519
+and day trading tactics you need to
+
+563
+00:30:08,880 --> 00:30:13,519
+watch one of these videos next
+
+564
+00:30:16,670 --> 00:30:19,739
+[Music]
+

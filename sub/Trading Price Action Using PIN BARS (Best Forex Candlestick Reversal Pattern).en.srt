@@ -1,0 +1,864 @@
+1
+00:00:00,120 --> 00:00:05,400
+the pinbar is without a doubt one of the
+
+2
+00:00:03,270 --> 00:00:07,890
+most powerful and reliable price action
+
+3
+00:00:05,400 --> 00:00:09,630
+trading signals that can be traded
+
+4
+00:00:07,890 --> 00:00:12,599
+across many different markets and
+
+5
+00:00:09,630 --> 00:00:13,950
+timeframes the beauty of using a pin bar
+
+6
+00:00:12,599 --> 00:00:15,560
+is that a firm offer
+
+7
+00:00:13,950 --> 00:00:18,270
+and they appear on all time frames
+
+8
+00:00:15,560 --> 00:00:21,029
+showing a simple approach to technical
+
+9
+00:00:18,270 --> 00:00:23,310
+analysis the main advantage of using a
+
+10
+00:00:21,029 --> 00:00:25,890
+pin bar trading strategy is its
+
+11
+00:00:23,310 --> 00:00:28,140
+simplicity nowadays traders use
+
+12
+00:00:25,890 --> 00:00:31,140
+sophisticated trading strategies to come
+
+13
+00:00:28,140 --> 00:00:32,520
+up with less productive trades you don't
+
+14
+00:00:31,140 --> 00:00:34,950
+have to do that when you are trading a
+
+15
+00:00:32,520 --> 00:00:37,469
+pin bar you just need to read price
+
+16
+00:00:34,950 --> 00:00:39,870
+action today we will talk about one of
+
+17
+00:00:37,469 --> 00:00:41,610
+my favorite candlestick formations the
+
+18
+00:00:39,870 --> 00:00:43,770
+pin bar and I'll show you how to
+
+19
+00:00:41,610 --> 00:00:46,230
+correctly identify them in order to
+
+20
+00:00:43,770 --> 00:00:47,969
+increase your winning ratio if you're
+
+21
+00:00:46,230 --> 00:00:49,410
+new here make sure you subscribe and
+
+22
+00:00:47,969 --> 00:00:52,230
+click the bell icon to enable
+
+23
+00:00:49,410 --> 00:00:57,360
+notifications and also leave a select to
+
+24
+00:00:52,230 --> 00:00:59,670
+show support a pin bar is a press action
+
+25
+00:00:57,360 --> 00:01:02,070
+pattern which signals that the reversal
+
+26
+00:00:59,670 --> 00:01:05,159
+may be about to take place in the market
+
+27
+00:01:02,070 --> 00:01:07,200
+the great thing about being bars and the
+
+28
+00:01:05,159 --> 00:01:10,110
+reason I prefer them is the fact they're
+
+29
+00:01:07,200 --> 00:01:11,850
+really easy to spot on your charts there
+
+30
+00:01:10,110 --> 00:01:13,950
+can be no confusion as whether the
+
+31
+00:01:11,850 --> 00:01:16,860
+candle you are looking at is a pin bar
+
+32
+00:01:13,950 --> 00:01:18,299
+or a different type of candlestick let's
+
+33
+00:01:16,860 --> 00:01:19,770
+take a look at what pin bars are
+
+34
+00:01:18,299 --> 00:01:23,549
+supposed to look like when they are
+
+35
+00:01:19,770 --> 00:01:26,909
+formed on your charts this is a simple
+
+36
+00:01:23,549 --> 00:01:28,950
+example of a bearish pin bar notice how
+
+37
+00:01:26,909 --> 00:01:32,220
+the body is found at the bottom of the
+
+38
+00:01:28,950 --> 00:01:36,210
+candlestick and the long wick is found
+
+39
+00:01:32,220 --> 00:01:38,490
+at the top all very spin bars you'll see
+
+40
+00:01:36,210 --> 00:01:41,549
+form in the market will follow this
+
+41
+00:01:38,490 --> 00:01:44,579
+basic structure they all have their body
+
+42
+00:01:41,549 --> 00:01:48,360
+at the bottom candlestick and they're
+
+43
+00:01:44,579 --> 00:01:50,790
+weak at the top sometimes the body of
+
+44
+00:01:48,360 --> 00:01:53,390
+the candle will not be found right at
+
+45
+00:01:50,790 --> 00:01:56,369
+the bottom like you see in this chart
+
+46
+00:01:53,390 --> 00:02:00,140
+but it will always be found in the
+
+47
+00:01:56,369 --> 00:02:00,140
+bottom half of the candlestick
+
+48
+00:02:00,180 --> 00:02:05,490
+here we have a bullish pin bar as you
+
+49
+00:02:03,420 --> 00:02:08,040
+can see bullish pin bars look very
+
+50
+00:02:05,490 --> 00:02:10,440
+similar to bearish ones the only real
+
+51
+00:02:08,040 --> 00:02:12,540
+difference between the two is the body
+
+52
+00:02:10,440 --> 00:02:14,190
+of the bullish pin bar is found at the
+
+53
+00:02:12,540 --> 00:02:17,250
+top of the candle instead of the bottom
+
+54
+00:02:14,190 --> 00:02:20,520
+and most of the wick is found at the
+
+55
+00:02:17,250 --> 00:02:22,560
+bottom instead of the top similar to the
+
+56
+00:02:20,520 --> 00:02:25,350
+previous example the body of this
+
+57
+00:02:22,560 --> 00:02:28,410
+bullish pin bar doesn't manage to close
+
+58
+00:02:25,350 --> 00:02:30,360
+right at the top of the candle but like
+
+59
+00:02:28,410 --> 00:02:32,520
+I said before this doesn't make a
+
+60
+00:02:30,360 --> 00:02:35,490
+difference it's still a bullish pin bar
+
+61
+00:02:32,520 --> 00:02:38,250
+and should be treated the same as all
+
+62
+00:02:35,490 --> 00:02:43,110
+other bullish pin bar you see form in
+
+63
+00:02:38,250 --> 00:02:45,209
+the market now here comes the missing
+
+64
+00:02:43,110 --> 00:02:48,510
+piece of puzzle and the reason why many
+
+65
+00:02:45,209 --> 00:02:51,150
+traders fail to tray them correctly how
+
+66
+00:02:48,510 --> 00:02:53,280
+to make sure it's a pin bar simply
+
+67
+00:02:51,150 --> 00:02:55,830
+knowing that the body of the candlestick
+
+68
+00:02:53,280 --> 00:02:57,990
+needs to close towards the bottom or the
+
+69
+00:02:55,830 --> 00:03:00,360
+top of the candle in order to be a
+
+70
+00:02:57,990 --> 00:03:03,060
+bullish or bearish pinbar is a bit of
+
+71
+00:03:00,360 --> 00:03:04,860
+incomplete advice especially for new
+
+72
+00:03:03,060 --> 00:03:07,280
+traders who have little experience
+
+73
+00:03:04,860 --> 00:03:10,560
+identifying pin bars of the market I
+
+74
+00:03:07,280 --> 00:03:14,280
+consider a valid pin bar a candle that
+
+75
+00:03:10,560 --> 00:03:18,660
+meets three conditions the open and
+
+76
+00:03:14,280 --> 00:03:21,300
+closed with in previous bar the wick is
+
+77
+00:03:18,660 --> 00:03:26,400
+minimum three times the length of the
+
+78
+00:03:21,300 --> 00:03:29,010
+body and the weak must stick out from
+
+79
+00:03:26,400 --> 00:03:32,820
+all other candles and must be very
+
+80
+00:03:29,010 --> 00:03:36,000
+obvious here's the common mistake among
+
+81
+00:03:32,820 --> 00:03:38,760
+traders they don't know how to correctly
+
+82
+00:03:36,000 --> 00:03:41,160
+identify pin bars the less well-defined
+
+83
+00:03:38,760 --> 00:03:43,560
+pin bars and smaller pin bars are
+
+84
+00:03:41,160 --> 00:03:46,320
+generally the traits you don't want to
+
+85
+00:03:43,560 --> 00:03:48,870
+be trading the rules for a pin bar are
+
+86
+00:03:46,320 --> 00:03:51,750
+straightforward the price opens and
+
+87
+00:03:48,870 --> 00:03:53,610
+closes within a previous candle the wick
+
+88
+00:03:51,750 --> 00:03:56,400
+should be three times the length of the
+
+89
+00:03:53,610 --> 00:03:59,910
+body and the wick itself must stick out
+
+90
+00:03:56,400 --> 00:04:03,560
+from all candles here are a few examples
+
+91
+00:03:59,910 --> 00:04:03,560
+of valid pin bars
+
+92
+00:04:11,320 --> 00:04:15,930
+[Music]
+
+93
+00:04:13,579 --> 00:04:18,449
+another important thing is the fact that
+
+94
+00:04:15,930 --> 00:04:21,539
+pinbar is a reversal signal and not a
+
+95
+00:04:18,449 --> 00:04:23,400
+continuation the major reason why many
+
+96
+00:04:21,539 --> 00:04:26,130
+traders lose money over and over again
+
+97
+00:04:23,400 --> 00:04:28,139
+trading pin bars is because they try to
+
+98
+00:04:26,130 --> 00:04:31,470
+trade the pin bar as a continuation
+
+99
+00:04:28,139 --> 00:04:33,900
+signal to trade a pin bar as a reversal
+
+100
+00:04:31,470 --> 00:04:37,050
+it means we have to pick the price to
+
+101
+00:04:33,900 --> 00:04:38,669
+reverse and form between points if we
+
+102
+00:04:37,050 --> 00:04:40,830
+want to trade a bearish pinbar
+
+103
+00:04:38,669 --> 00:04:43,650
+and anticipate the price to move lower
+
+104
+00:04:40,830 --> 00:04:47,280
+we first need to see price moving higher
+
+105
+00:04:43,650 --> 00:04:50,220
+so we can pick priced reverse we can
+
+106
+00:04:47,280 --> 00:04:53,270
+play a bearish pinbar reversal signal if
+
+107
+00:04:50,220 --> 00:04:56,760
+the price has not first moved higher
+
+108
+00:04:53,270 --> 00:04:59,789
+notice in this example our price first
+
+109
+00:04:56,760 --> 00:05:05,099
+moves higher and after this the price
+
+110
+00:04:59,789 --> 00:05:08,699
+forms a bearish pinbar here's an example
+
+111
+00:05:05,099 --> 00:05:11,039
+of what not to do in this chart the pin
+
+112
+00:05:08,699 --> 00:05:13,590
+bar is traded as a continuation rather
+
+113
+00:05:11,039 --> 00:05:17,220
+than a reversal as all pin bars should
+
+114
+00:05:13,590 --> 00:05:19,800
+be this pin bar is a bearish pin bar but
+
+115
+00:05:17,220 --> 00:05:23,280
+the pin has not been traded after the
+
+116
+00:05:19,800 --> 00:05:25,260
+price made a move higher this pin bar
+
+117
+00:05:23,280 --> 00:05:28,440
+has been traded to see if the price can
+
+118
+00:05:25,260 --> 00:05:31,080
+continue to move lower if you decide to
+
+119
+00:05:28,440 --> 00:05:33,590
+trade this pin bar you will be selling a
+
+120
+00:05:31,080 --> 00:05:37,169
+low and hoping to buy back even lower
+
+121
+00:05:33,590 --> 00:05:39,449
+which is the wrong approach the number
+
+122
+00:05:37,169 --> 00:05:42,360
+one rule in trading and investing is buy
+
+123
+00:05:39,449 --> 00:05:45,570
+low and sell high trading pin bars as a
+
+124
+00:05:42,360 --> 00:05:48,810
+continuation means you buy high and hope
+
+125
+00:05:45,570 --> 00:05:49,560
+to sell even higher or sell low and buy
+
+126
+00:05:48,810 --> 00:05:53,010
+even lower
+
+127
+00:05:49,560 --> 00:05:55,800
+it might work in some cases but the high
+
+128
+00:05:53,010 --> 00:05:59,540
+probability trade is to treat pin bars
+
+129
+00:05:55,800 --> 00:06:02,390
+as reversal signals
+
+130
+00:05:59,540 --> 00:06:04,970
+Trading BIM bars from incorrect areas on
+
+131
+00:06:02,390 --> 00:06:06,830
+the chart is another big problem which
+
+132
+00:06:04,970 --> 00:06:09,560
+is getting traders into trouble
+
+133
+00:06:06,830 --> 00:06:12,380
+you cannot enter a trade just because
+
+134
+00:06:09,560 --> 00:06:14,900
+you see a valid BIM bar the pin bar has
+
+135
+00:06:12,380 --> 00:06:17,120
+a higher chance of reversal if it occurs
+
+136
+00:06:14,900 --> 00:06:21,340
+at a strong area of support or
+
+137
+00:06:17,120 --> 00:06:25,120
+resistance pay attention at this chart
+
+138
+00:06:21,340 --> 00:06:28,370
+you will notice that it has two pin bars
+
+139
+00:06:25,120 --> 00:06:30,980
+the major problem of trading this pin
+
+140
+00:06:28,370 --> 00:06:33,890
+bars is the fact that there is no wrong
+
+141
+00:06:30,980 --> 00:06:36,650
+you are trading straight back into the
+
+142
+00:06:33,890 --> 00:06:40,280
+recent high which represents the
+
+143
+00:06:36,650 --> 00:06:42,830
+near-term resistance as you can see on
+
+144
+00:06:40,280 --> 00:06:48,170
+this chart this resistance held and
+
+145
+00:06:42,830 --> 00:06:50,180
+pushed price lower trading pin bar
+
+146
+00:06:48,170 --> 00:06:52,700
+signals with support and resistance
+
+147
+00:06:50,180 --> 00:06:55,220
+confirmation this perhaps one of the
+
+148
+00:06:52,700 --> 00:06:57,350
+most effective ways to trade when
+
+149
+00:06:55,220 --> 00:06:59,750
+combined with a strong support or
+
+150
+00:06:57,350 --> 00:07:01,460
+resistance level pin bars can be one of
+
+151
+00:06:59,750 --> 00:07:04,700
+the most accurate straining signals
+
+152
+00:07:01,460 --> 00:07:07,100
+available the best pin bar setups occur
+
+153
+00:07:04,700 --> 00:07:09,260
+near confluent levels of previous price
+
+154
+00:07:07,100 --> 00:07:11,990
+action as the market moves in one
+
+155
+00:07:09,260 --> 00:07:13,340
+direction and then regresses back to
+
+156
+00:07:11,990 --> 00:07:16,130
+retest the previous support or
+
+157
+00:07:13,340 --> 00:07:19,010
+resistance level we can see in this
+
+158
+00:07:16,130 --> 00:07:21,200
+chart two successive pin bar testing of
+
+159
+00:07:19,010 --> 00:07:26,900
+previous report and resistance level and
+
+160
+00:07:21,200 --> 00:07:29,030
+then resuming downward momentum the more
+
+161
+00:07:26,900 --> 00:07:31,220
+confluence you can combine with a pin
+
+162
+00:07:29,030 --> 00:07:34,190
+bar signal the higher its accuracy
+
+163
+00:07:31,220 --> 00:07:37,040
+becomes in this example we are looking
+
+164
+00:07:34,190 --> 00:07:39,650
+at a bearish pinbar sell signal that
+
+165
+00:07:37,040 --> 00:07:42,590
+formed in the context of a Down trending
+
+166
+00:07:39,650 --> 00:07:45,710
+market and formed at the confluent area
+
+167
+00:07:42,590 --> 00:07:47,720
+in the market the confluence between the
+
+168
+00:07:45,710 --> 00:07:50,960
+dynamic moving average resistance zone
+
+169
+00:07:47,720 --> 00:07:53,960
+the horizontal resistance and the
+
+170
+00:07:50,960 --> 00:07:57,770
+downtrend gave a lot of weight to the
+
+171
+00:07:53,960 --> 00:08:01,280
+pin bar signal when we get well-defined
+
+172
+00:07:57,770 --> 00:08:04,010
+pin bars like this that has formed at
+
+173
+00:08:01,280 --> 00:08:05,240
+the confident area or a level the market
+
+174
+00:08:04,010 --> 00:08:09,039
+like this
+
+175
+00:08:05,240 --> 00:08:12,080
+it's a very high probability setup and
+
+176
+00:08:09,039 --> 00:08:14,599
+here's another important tip the very
+
+177
+00:08:12,080 --> 00:08:16,940
+best pin bars stick out they are not
+
+178
+00:08:14,599 --> 00:08:19,370
+hidden in your charts a big
+
+179
+00:08:16,940 --> 00:08:21,860
+misconception with new traders is the
+
+180
+00:08:19,370 --> 00:08:25,250
+fact they want to find the smallest bin
+
+181
+00:08:21,860 --> 00:08:28,190
+bars they can because it will offer them
+
+182
+00:08:25,250 --> 00:08:30,680
+the smallest stop and the biggest risk
+
+183
+00:08:28,190 --> 00:08:33,320
+reward this is completely wrong
+
+184
+00:08:30,680 --> 00:08:36,050
+the bigger the rejection and the bigger
+
+185
+00:08:33,320 --> 00:08:39,589
+the pin bar the more powerful the signal
+
+186
+00:08:36,050 --> 00:08:42,529
+the best pin bars are large and obvious
+
+187
+00:08:39,589 --> 00:08:44,920
+candles that as soon as you flick over
+
+188
+00:08:42,529 --> 00:08:47,660
+to your charts you will notice them
+
+189
+00:08:44,920 --> 00:08:50,060
+these are the pin bars that stick out
+
+190
+00:08:47,660 --> 00:08:53,240
+and are practically screaming at you to
+
+191
+00:08:50,060 --> 00:08:55,550
+trade all good pin bars need to have
+
+192
+00:08:53,240 --> 00:08:58,850
+their wicks sticking out from all
+
+193
+00:08:55,550 --> 00:09:01,160
+candles and if they don't then they
+
+194
+00:08:58,850 --> 00:09:06,200
+don't fit the basic criteria I've talked
+
+195
+00:09:01,160 --> 00:09:08,390
+about this chart is a great example of a
+
+196
+00:09:06,200 --> 00:09:12,110
+pin bar that sticks out from all other
+
+197
+00:09:08,390 --> 00:09:14,360
+candles first notice how it opens and
+
+198
+00:09:12,110 --> 00:09:16,190
+closes within the previous candle and
+
+199
+00:09:14,360 --> 00:09:20,089
+then notice how the price has moved
+
+200
+00:09:16,190 --> 00:09:22,579
+higher before forming the pin bar this
+
+201
+00:09:20,089 --> 00:09:26,149
+pin bar is being played as a reversal
+
+202
+00:09:22,579 --> 00:09:27,950
+and it has space to move down the really
+
+203
+00:09:26,149 --> 00:09:31,190
+great thing about pin bars is the
+
+204
+00:09:27,950 --> 00:09:35,209
+variety of different ways in how you can
+
+205
+00:09:31,190 --> 00:09:37,970
+trade them in this video we've talked
+
+206
+00:09:35,209 --> 00:09:38,750
+about the basics of pin bars but in the
+
+207
+00:09:37,970 --> 00:09:40,640
+next ones
+
+208
+00:09:38,750 --> 00:09:42,709
+we'll go even deeper and I'll show you
+
+209
+00:09:40,640 --> 00:09:45,050
+how to trade with them how to find the
+
+210
+00:09:42,709 --> 00:09:47,390
+best areas to trade them how to set up
+
+211
+00:09:45,050 --> 00:09:50,240
+stop losses and how to establish take
+
+212
+00:09:47,390 --> 00:09:51,950
+profit targets as always if you learned
+
+213
+00:09:50,240 --> 00:09:54,770
+something new make sure you subscribe
+
+214
+00:09:51,950 --> 00:09:58,510
+click the notification icon and give us
+
+215
+00:09:54,770 --> 00:10:00,570
+a like to show support at the next time
+
+216
+00:09:58,510 --> 00:10:00,570
+you
+

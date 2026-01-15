@@ -1,0 +1,767 @@
+1
+00:00:01,110 --> 00:00:07,590
+At some time during a bearish move, prices
+will start to resist further down-moves.
+
+2
+00:00:07,590 --> 00:00:12,379
+And when these moves are followed by an ultra
+high volume bar, this is a very good signal
+
+3
+00:00:12,379 --> 00:00:14,700
+to enter into a trade.
+
+4
+00:00:14,700 --> 00:00:20,170
+When you see an ultra high volume bar, something
+is going to happen in the market.
+
+5
+00:00:20,170 --> 00:00:25,630
+A high volume suggests a high participation,
+a lot of interest in trading that particular
+
+6
+00:00:25,630 --> 00:00:28,920
+area, around that particular price.
+
+7
+00:00:28,920 --> 00:00:34,790
+The question you must ask yourself is why
+there are traders interested in participating
+
+8
+00:00:34,790 --> 00:00:38,200
+in that zone, what are their intentions?
+
+9
+00:00:38,200 --> 00:00:43,580
+To answer these questions you have to analyze
+the volume along with the price action.
+
+10
+00:00:43,580 --> 00:00:47,830
+It's about seeing what the price does with
+that volume.
+
+11
+00:00:47,830 --> 00:00:54,100
+Today I will share a very powerful way to
+day trade, a scalping strategy more exactly,
+
+12
+00:00:54,100 --> 00:00:58,079
+using ultra high volume bars, on the 1-min
+time frame.
+
+13
+00:00:58,079 --> 00:01:07,420
+So, like, subscribe, and stick around for
+the full video.
+
+14
+00:01:07,420 --> 00:01:10,910
+The power ultra high volume bar
+Stopping volume is a well-known concept in
+
+15
+00:01:10,910 --> 00:01:13,230
+volume spread analysis (VSA).
+
+16
+00:01:13,230 --> 00:01:19,330
+It refers to a dramatic increase in volume
+that stops the market from falling further.
+
+17
+00:01:19,330 --> 00:01:24,140
+This is your ultra high volume bar, which
+appears after a downward move.
+
+18
+00:01:24,140 --> 00:01:28,350
+There are many ways to integrate volume with
+price action.
+
+19
+00:01:28,350 --> 00:01:33,540
+But I find that the best technique involves
+spotting extreme volumes.
+
+20
+00:01:33,540 --> 00:01:38,240
+These signals are not frequent, but they are
+reliable, showing that professional money
+
+21
+00:01:38,240 --> 00:01:44,540
+has stepped in and has taken an opportunity
+to accept the selling – usually from weak
+
+22
+00:01:44,540 --> 00:01:45,680
+participants.
+
+23
+00:01:45,680 --> 00:01:54,020
+Volume Spread For VSA Indicator
+One of the main benefits of volume is that
+
+24
+00:01:54,020 --> 00:01:59,270
+it’s a leading indicator, giving you early
+signals when the price movement is going to
+
+25
+00:01:59,270 --> 00:02:02,170
+continue or reverse.
+
+26
+00:02:02,170 --> 00:02:07,740
+One of the main principles involving volume
+is related to Wyckoff’s law of effort versus
+
+27
+00:02:07,740 --> 00:02:08,940
+result.
+
+28
+00:02:08,940 --> 00:02:13,200
+This provides an early warning of a possible
+change in momentum.
+
+29
+00:02:13,200 --> 00:02:18,950
+Divergences between volume and price often
+signal a change in price direction.
+
+30
+00:02:18,950 --> 00:02:26,650
+For example, when there are several high-volume
+but narrow-range price bars after a substantial
+
+31
+00:02:26,650 --> 00:02:32,900
+rally, with the price failing to make a new
+high, this suggests that we might have a change
+
+32
+00:02:32,900 --> 00:02:35,220
+in trend.
+
+33
+00:02:35,220 --> 00:02:40,930
+This indicator tells us whether the volume
+is ultra high,high, low or average.
+
+34
+00:02:40,930 --> 00:02:43,980
+It’s called Volume spread for VSA.
+
+35
+00:02:43,980 --> 00:02:47,750
+It’s very easy to read volume using it.
+
+36
+00:02:47,750 --> 00:02:54,709
+Red means ultra high volume, Yellow – high
+volume, Green – average volume and blue
+
+37
+00:02:54,709 --> 00:02:56,580
+– low volume.
+
+38
+00:02:56,580 --> 00:03:02,870
+You just need to focus on the red lines, because
+these are the ultra high volume bars on the
+
+39
+00:03:02,870 --> 00:03:04,239
+chart.
+
+40
+00:03:04,239 --> 00:03:12,530
+The trading plan
+Now, the scalping strategy involves fading
+
+41
+00:03:12,530 --> 00:03:13,800
+the ultra high volume.
+
+42
+00:03:13,800 --> 00:03:16,190
+Here’s the trading plan.
+
+43
+00:03:16,190 --> 00:03:20,879
+• The market is decreasing
+• Then, it experiences a significant surge
+
+44
+00:03:20,879 --> 00:03:22,390
+in volume.
+
+45
+00:03:22,390 --> 00:03:26,620
+This is when an ultra-high volume bar appears.
+
+46
+00:03:26,620 --> 00:03:31,819
+• After you spot the ultra high volume,
+you find the candlestick associated with the
+
+47
+00:03:31,819 --> 00:03:33,069
+surge in volume.
+
+48
+00:03:33,069 --> 00:03:37,930
+• Then you simply draw a channel, from the
+candlestick’s high and low price
+
+49
+00:03:37,930 --> 00:03:44,209
+• In theory, the ultra high volume should
+stop the price decrease.
+
+50
+00:03:44,209 --> 00:03:50,959
+• So, the plan is to fade the downward move,
+and buy if and when the price goes on the
+
+51
+00:03:50,959 --> 00:03:54,610
+other side of the channel.
+
+52
+00:03:54,610 --> 00:04:00,390
+• Stop loss goes below the ultra high volume
+candle and the minimum target is a risk to
+
+53
+00:04:00,390 --> 00:04:03,470
+reward ratio of 2.
+
+54
+00:04:03,470 --> 00:04:09,980
+But the profit potential is much higher, as
+this might be the beginning of a new trend.
+
+55
+00:04:09,980 --> 00:04:17,310
+Ultra high volume + price action
+When an ultra high volume bar appears, after
+
+56
+00:04:17,310 --> 00:04:21,220
+a down move, what sort of price action should
+you expect?
+
+57
+00:04:21,220 --> 00:04:26,809
+In the best-case scenario, it spots the end
+of a short term bear trend.
+
+58
+00:04:26,809 --> 00:04:32,340
+In this case, the signal will potentially
+lead you into the start of a bull trend.
+
+59
+00:04:32,340 --> 00:04:38,690
+And at the same time, a lot of trend traders
+will be trapped on the down side.
+
+60
+00:04:38,690 --> 00:04:45,659
+At times, instead of preceding a bullish reversal,
+it pushes the market into a trading range.
+
+61
+00:04:45,659 --> 00:04:51,969
+And, of course, there’s also the possibility
+that the market will continue to decrease
+
+62
+00:04:51,969 --> 00:04:56,289
+despite the signal, implying powerful bearish
+momentum.
+
+63
+00:04:56,289 --> 00:05:02,680
+That’s why, to filter bad trades, it’s
+better to draw the channel on the ultra high
+
+64
+00:05:02,680 --> 00:05:08,289
+volume candlestick, and trade when there’s
+some sort of activity to the upside.
+
+65
+00:05:08,289 --> 00:05:17,780
+Narrow Spread Candles + Ultra high volume
+A narrow spread candle should have low volume.
+
+66
+00:05:17,780 --> 00:05:23,999
+However, the ones that are of high or ultra
+high volume are special.
+
+67
+00:05:23,999 --> 00:05:26,740
+This should instantly alert you.
+
+68
+00:05:26,740 --> 00:05:33,059
+If you have a down candle with a narrow spread
+and ultra high volume, then the market is
+
+69
+00:05:33,059 --> 00:05:34,909
+showing some signs of strength.
+
+70
+00:05:34,909 --> 00:05:42,879
+As we know, high volume should result in a
+wide spread candle, not a narrow spread.
+
+71
+00:05:42,879 --> 00:05:44,430
+Effort vs result.
+
+72
+00:05:44,430 --> 00:05:45,430
+Wyckoff.
+
+73
+00:05:45,430 --> 00:05:50,490
+The sellers are starting to struggle at this
+price level.
+
+74
+00:05:50,490 --> 00:05:57,330
+Equally, if we see ultra high volume on an
+up candle then the reverse applies.
+
+75
+00:05:57,330 --> 00:06:03,559
+Here, the buyers are starting to see signs
+of bearish sentiment enter the market.
+
+76
+00:06:03,559 --> 00:06:09,979
+The candle is narrow, with sellers coming
+in, and supporting the market at this level.
+
+77
+00:06:09,979 --> 00:06:16,889
+Again, this is the first sign of a potential
+reversal from bullish to bearish.
+
+78
+00:06:16,889 --> 00:06:21,930
+Future price action will confirm or invalidate
+this premise.
+
+79
+00:06:21,930 --> 00:06:28,210
+A downward breakout, below the ultra high
+volume candlestick is your confirmation to
+
+80
+00:06:28,210 --> 00:06:30,930
+enter short.
+
+81
+00:06:30,930 --> 00:06:35,569
+We trade Visa on the 1-min time frame.
+
+82
+00:06:35,569 --> 00:06:43,020
+I see a range after the market opened and
+another down leg.
+
+83
+00:06:43,020 --> 00:06:50,630
+As price was traded at the previous support,
+we see not one, but 2, ultra high volume bars.
+
+84
+00:06:50,630 --> 00:06:52,610
+And there are narrow spread bars.
+
+85
+00:06:52,610 --> 00:06:59,709
+By spread, I mean the difference between the
+high price and the low price of the candle.
+
+86
+00:06:59,709 --> 00:07:05,819
+We have our channel, which is right at the
+support, the ultra high volume after a down
+
+87
+00:07:05,819 --> 00:07:09,449
+leg, and 2 narrow range bars.
+
+88
+00:07:09,449 --> 00:07:15,800
+If price breaks the upper side of the channel,
+the plan is to go long.
+
+89
+00:07:15,800 --> 00:07:19,340
+Stop loss goes below support.
+
+90
+00:07:19,340 --> 00:07:22,669
+We target the next major swing in price structure.
+
+91
+00:07:22,669 --> 00:07:29,069
+That’s a risk to reward ratio of around
+2.2.
+
+92
+00:07:29,069 --> 00:07:39,819
+Remember we are scalping, so we want to get
+in, with a narrow stop loss, and get out quickly.
+
+93
+00:07:39,819 --> 00:07:45,159
+When you trade the 1-min time frame, you will
+find many ultra high volume bars, but you
+
+94
+00:07:45,159 --> 00:07:48,379
+won’t trade each signal you see.
+
+95
+00:07:48,379 --> 00:07:51,979
+Focus on volume bars which stand out.
+
+96
+00:07:51,979 --> 00:07:55,389
+Here we see a potential signal.
+
+97
+00:07:55,389 --> 00:08:00,939
+We have an up leg, an ultra high volume bar
+and a narrow candle.
+
+98
+00:08:00,939 --> 00:08:08,849
+A break below the channel, with a very small
+stop loss, targeting the previous swing low
+
+99
+00:08:08,849 --> 00:08:20,400
+offers a decent risk to reward ratio, of around
+2.
+
+100
+00:08:20,400 --> 00:08:25,939
+We have another signal, this time a potential
+long trade.
+
+101
+00:08:25,939 --> 00:08:33,159
+I see a potential double bottom, and an ultra
+high volume bar, on a narrow spread up bar.
+
+102
+00:08:33,159 --> 00:08:39,070
+This isn’t a text book example, because
+this is a green candle, and not a red one,
+
+103
+00:08:39,070 --> 00:08:45,180
+but we are still in a down leg, so if price
+is breaking above the high of the candle,
+
+104
+00:08:45,180 --> 00:08:48,730
+I’ll still risk a long trade.
+
+105
+00:08:48,730 --> 00:08:50,880
+Which indeed happens.
+
+106
+00:08:50,880 --> 00:08:55,050
+Stop loss below the most recent swing low.
+
+107
+00:08:55,050 --> 00:08:57,839
+Take profit at the next major swing.
+
+108
+00:08:57,839 --> 00:09:05,490
+That’s a risk to reward ratio of around
+2.5.
+
+109
+00:09:05,490 --> 00:09:15,000
+We’ll use the same 1-min time frame, on
+euro-yen.
+
+110
+00:09:15,000 --> 00:09:22,600
+We have a minor uptrend and this is our ultra
+high volume bar, which appeared on an average
+
+111
+00:09:22,600 --> 00:09:25,399
+spread green candle.
+
+112
+00:09:25,399 --> 00:09:31,100
+The plan is to go short below the channel,
+if price breaks it.
+
+113
+00:09:31,100 --> 00:09:35,800
+And here’s our breakout.
+
+114
+00:09:35,800 --> 00:09:43,120
+Stop loss above the channel, and take profit
+a few points above this support level.
+
+115
+00:09:43,120 --> 00:09:53,829
+A risk to reward ratio of around 2.
+
+116
+00:09:53,829 --> 00:10:00,920
+We move to pound dollar.
+
+117
+00:10:00,920 --> 00:10:05,410
+We see an ultra high volume bar at the London
+open.
+
+118
+00:10:05,410 --> 00:10:07,649
+The candlestick is a high spread one.
+
+119
+00:10:07,649 --> 00:10:11,779
+So this is a high effort, high result situation.
+
+120
+00:10:11,779 --> 00:10:14,800
+Not the stopping volume we want to trade.
+
+121
+00:10:14,800 --> 00:10:18,689
+This looks more like a continuation than a
+reversal.
+
+122
+00:10:18,689 --> 00:10:28,240
+But if price breaks below the channel, we’ll
+still risk a trade.
+
+123
+00:10:28,240 --> 00:10:32,660
+Price indeed went higher, and consolidated
+above the channel.
+
+124
+00:10:32,660 --> 00:10:40,850
+So this was a no trade in the end.
+
+125
+00:10:40,850 --> 00:10:43,560
+We have another potential signal here.
+
+126
+00:10:43,560 --> 00:10:51,939
+I see a triple top, a major resistance and
+a break of structure right here, which signals
+
+127
+00:10:51,939 --> 00:10:56,480
+that sellers might be interested in pushing
+the market down.
+
+128
+00:10:56,480 --> 00:11:02,050
+If you saw my previous video regarding the
+break of structure, you know this is a perfect
+
+129
+00:11:02,050 --> 00:11:06,610
+opportunity to short the market.
+
+130
+00:11:06,610 --> 00:11:10,850
+The signal came after the breakout of this
+candle.
+
+131
+00:11:10,850 --> 00:11:16,560
+Stop loss, as usual, above the channel and
+above this previous high.
+
+132
+00:11:16,560 --> 00:11:22,120
+As a side note, it gives me more confidence
+when I see that the signal appeared at a major
+
+133
+00:11:22,120 --> 00:11:25,269
+intraday resistance.
+
+134
+00:11:25,269 --> 00:11:28,860
+Take profit at the next swing low in the price
+structure.
+
+135
+00:11:28,860 --> 00:11:36,000
+Again, a risk to reward of around 2.
+
+136
+00:11:36,000 --> 00:11:41,250
+Again, you are scalping.
+
+137
+00:11:41,250 --> 00:11:46,350
+And if you’re trading on the 1-min time
+frame, there will be lot of noise.
+
+138
+00:11:46,350 --> 00:11:51,220
+And many ultra high volumes, which might confuse
+you.
+
+139
+00:11:51,220 --> 00:11:57,519
+If you’re using Tradingview, the 3-minute
+time frame is a decent alternative to filter
+
+140
+00:11:57,519 --> 00:11:58,519
+signals.
+
+141
+00:11:58,519 --> 00:12:07,990
+In this example, we see an intraday downtrend,
+and an ultra high volume bar.
+
+142
+00:12:07,990 --> 00:12:13,990
+The signal appeared at a support level, so
+this is an opportunity to scalp a few points,
+
+143
+00:12:13,990 --> 00:12:17,379
+on the long side.
+
+144
+00:12:17,379 --> 00:12:24,300
+Price breaks the upper level of the channel
+and this is our signal to enter.
+
+145
+00:12:24,300 --> 00:12:29,889
+Stop loss below this swing low, or below the
+low of the day.
+
+146
+00:12:29,889 --> 00:12:35,579
+And we target this swing high.
+
+147
+00:12:35,579 --> 00:12:43,070
+Unlucky, we lost this one.
+
+148
+00:12:43,070 --> 00:12:47,509
+The main limitation of this strategy involves
+the market noise.
+
+149
+00:12:47,509 --> 00:12:54,139
+To reduce it and to reduce false signals,
+I advise you to trade ultra high volume candles
+
+150
+00:12:54,139 --> 00:12:56,649
+during active market hours.
+
+151
+00:12:56,649 --> 00:13:03,430
+For example, if you’re trading Forex, most
+pairs are traded the most between the time
+
+152
+00:13:03,430 --> 00:13:09,310
+the London trading session begins and when
+the US sessions ends.
+
+153
+00:13:09,310 --> 00:13:16,020
+Volume patterns you see form during low activity
+periods,during Tokio session for example,
+
+154
+00:13:16,020 --> 00:13:21,240
+have a lower probability of working out successfully.
+
+155
+00:13:21,240 --> 00:13:27,529
+If you trade stocks, you’ll usually see
+several ultra high volume candles, right at
+
+156
+00:13:27,529 --> 00:13:29,430
+the New York open.
+
+157
+00:13:29,430 --> 00:13:35,879
+I would advise you to avoid trading during
+the first 30 minutes, after the open, if you’re
+
+158
+00:13:35,879 --> 00:13:41,279
+not experienced, and try to find volume spikes
+when volatility turns down.
+
+159
+00:13:41,279 --> 00:13:47,759
+And I’ll say it once again: location of
+the signal is very important.
+
+160
+00:13:47,759 --> 00:13:54,660
+Look for volume spikes around support and
+resistance levels, supply/demand areas, Fibonacci
+
+161
+00:13:54,660 --> 00:13:59,680
+levels or near VWAP or common moving averages.
+
+162
+00:13:59,680 --> 00:14:30,699
+These are the high probability signals which
+will bring you profits.
+
+163
+00:14:30,699 --> 00:15:30,570
+As always, if you learned something new, drop
+a like to show your support.
+
+164
+00:15:30,570 --> 00:15:35,269
+And check out our Academy program, if you
+want to further level up your trading.
+
+165
+00:15:35,269 --> 00:15:37,139
+Until next time.
+

@@ -1,0 +1,682 @@
+1
+00:00:00,440 --> 00:00:05,480
+The stochastic indicator is one of the most
+popular technical analysis indicators used
+
+2
+00:00:05,480 --> 00:00:08,260
+by forex and stock market traders.
+
+3
+00:00:08,260 --> 00:00:13,679
+Once you understand how to correctly use it,
+the stochastic indicator can be an invaluable
+
+4
+00:00:13,679 --> 00:00:17,450
+tool to help predict momentum changes.
+
+5
+00:00:17,450 --> 00:00:23,120
+Most traders get confused about how to correctly
+read the stochastic oscillator signals under
+
+6
+00:00:23,120 --> 00:00:24,700
+varying market conditions.
+
+7
+00:00:24,700 --> 00:00:30,250
+You see, you need to apply a specific type
+of stochastic trading strategy when the market
+
+8
+00:00:30,250 --> 00:00:35,609
+is trending, but you need to read the stochastic
+indicator very differently under range bound
+
+9
+00:00:35,609 --> 00:00:37,320
+market conditions.
+
+10
+00:00:37,320 --> 00:00:42,929
+If you misinterpret the market environment,
+the same stochastic oscillator value can translate
+
+11
+00:00:42,929 --> 00:00:45,300
+into a very different signal.
+
+12
+00:00:45,300 --> 00:00:47,719
+This is where most forex traders fail.
+
+13
+00:00:47,719 --> 00:00:52,960
+They simply apply the stochastic oscillator
+in the same manner, regardless of the underlying
+
+14
+00:00:52,960 --> 00:00:56,839
+market condition, and end up losing money
+as a result.
+
+15
+00:00:56,839 --> 00:01:00,170
+So, what is the stochastic oscillator?
+
+16
+00:01:00,170 --> 00:01:05,860
+Stochastic oscillator is a momentum indicator
+which compares where the price closed relative
+
+17
+00:01:05,860 --> 00:01:08,800
+to the price range over a given time period.
+
+18
+00:01:08,800 --> 00:01:14,050
+The stochastic is displayed as two lines,
+the main line called “%k” and the second
+
+19
+00:01:14,050 --> 00:01:19,960
+line, called “%d,” representing a moving
+average of %k.
+
+20
+00:01:19,960 --> 00:01:25,320
+Traders use two types of stochastic oscillators:
+fast stochastic and slow stochastic.
+
+21
+00:01:25,320 --> 00:01:30,580
+The fast stochastic oscillator is very volatile,
+its reaction to market price will generate
+
+22
+00:01:30,580 --> 00:01:32,060
+many signals.
+
+23
+00:01:32,060 --> 00:01:37,900
+In a strong trending market, the fast stochastic
+isn’t able to filter noise and will offer
+
+24
+00:01:37,900 --> 00:01:41,890
+a lot of false signals, which will lead to
+bad trades.
+
+25
+00:01:41,890 --> 00:01:48,220
+In order to manage the signal in a more efficient
+way, the slow stochastic oscillator was developed.
+
+26
+00:01:48,220 --> 00:01:54,310
+The slow stochastic oscillator helps to smooth
+the noise and replaces the %k line with the
+
+27
+00:01:54,310 --> 00:02:01,700
+%d line and replaces the %d line with a 3
+day moving average of %d.
+
+28
+00:02:01,700 --> 00:02:06,950
+Slow stochastic oscillator was basically designed
+to reduce volatility but in a strong trending
+
+29
+00:02:06,950 --> 00:02:13,930
+market suffers from the same problem as the
+fast one, it offers many false signals.
+
+30
+00:02:13,930 --> 00:02:18,890
+Stochastic oscillator comes with the standard
+5.3.3 settings.
+
+31
+00:02:18,890 --> 00:02:23,140
+Other common settings are 8.3.3 and even 14.3.3.
+
+32
+00:02:23,140 --> 00:02:28,390
+Now, depending on your trading style, you
+have to decide how much noise you’re willing
+
+33
+00:02:28,390 --> 00:02:30,890
+to accept with the stochastic.
+
+34
+00:02:30,890 --> 00:02:35,350
+Low values for the stochastic oscillator will
+make the indicator over-sensitive.
+
+35
+00:02:35,350 --> 00:02:41,870
+A stochastic with lower settings will offer
+a lot of signals, but also comes with a lot
+
+36
+00:02:41,870 --> 00:02:43,860
+of market noise.
+
+37
+00:02:43,860 --> 00:02:49,990
+Higher values for the stochastic indicator
+will make it less sensitive to market noise.
+
+38
+00:02:49,990 --> 00:02:54,890
+This will lead to fewer signals, as the indicator
+is smoothed.
+
+39
+00:02:54,890 --> 00:03:00,080
+If you want a higher number of signals when
+you trend-trade, then lower settings on the
+
+40
+00:03:00,080 --> 00:03:02,670
+stochastic will suit you.
+
+41
+00:03:02,670 --> 00:03:08,450
+If you are a swing trader or a position trader
+and want to eliminate market noise, then higher
+
+42
+00:03:08,450 --> 00:03:11,600
+settings on the stochastic will help you do
+that.
+
+43
+00:03:11,600 --> 00:03:16,240
+A lot of traders look for the “perfect settings”
+on the stochastic indicator when they trade
+
+44
+00:03:16,240 --> 00:03:18,390
+the forex market or the stock market.
+
+45
+00:03:18,390 --> 00:03:20,360
+The reality is that there isn’t one.
+
+46
+00:03:20,360 --> 00:03:22,930
+You just have to know your trading style.
+
+47
+00:03:22,930 --> 00:03:27,989
+You then have to back test different settings,
+depending on the market you are trading and
+
+48
+00:03:27,989 --> 00:03:30,530
+the timeframe you are analyzing.
+
+49
+00:03:30,530 --> 00:03:36,489
+I prefer to use the stochastic oscillator
+with 8.3.5, on higher timeframes.
+
+50
+00:03:36,489 --> 00:03:40,040
+Now, how to use stochastic indicator.
+
+51
+00:03:40,040 --> 00:03:45,990
+The most popular method of generating entry
+signals (but not the smart one) is to consider
+
+52
+00:03:45,990 --> 00:03:50,660
+the stochastics indicator as an overbought/oversold
+indicator.
+
+53
+00:03:50,660 --> 00:03:56,430
+The majority of trading books teach you that
+a buy signal occurs when the stochastic moves
+
+54
+00:03:56,430 --> 00:04:02,160
+below 20 level, into oversold area, and then
+crosses back above that threshold.
+
+55
+00:04:02,160 --> 00:04:09,379
+And a sell signal occurs when the oscillator
+moves above 80 level, into overbought area,
+
+56
+00:04:09,379 --> 00:04:12,500
+and then crosses below that threshold.
+
+57
+00:04:12,500 --> 00:04:18,660
+Here’s the reality: this strategy works
+only during non-trending conditions and will
+
+58
+00:04:18,660 --> 00:04:22,220
+fail during strong trending phases.
+
+59
+00:04:22,220 --> 00:04:27,400
+During a non-trending market, the stochastic
+generates some pretty good signals.
+
+60
+00:04:27,400 --> 00:04:35,100
+In a trending market however, the stochastic
+oscillator generates a lot of false signals.
+
+61
+00:04:35,100 --> 00:04:40,449
+The misconception of overbought and oversold
+is one of biggest problems and faults in trading
+
+62
+00:04:40,449 --> 00:04:42,050
+with stochastic.
+
+63
+00:04:42,050 --> 00:04:47,500
+After many years and a lot of money lost I’ve
+realized that the stochastic indicator does
+
+64
+00:04:47,500 --> 00:04:51,090
+not show oversold or overbought prices.
+
+65
+00:04:51,090 --> 00:04:53,380
+It shows momentum.
+
+66
+00:04:53,380 --> 00:04:59,020
+When the stochastic is above 80 it means that
+the trend is strong and not, that it is overbought
+
+67
+00:04:59,020 --> 00:05:01,000
+and likely to reverse.
+
+68
+00:05:01,000 --> 00:05:07,910
+A high stochastic means that the price is
+able to close near the top and it keeps pushing
+
+69
+00:05:07,910 --> 00:05:08,910
+higher.
+
+70
+00:05:08,910 --> 00:05:15,810
+A trend where the stochastic stays above 80
+for a long time signals that momentum is high
+
+71
+00:05:15,810 --> 00:05:19,270
+and not that you should get ready to short
+the market.
+
+72
+00:05:19,270 --> 00:05:22,350
+You see this concept on every chart.
+
+73
+00:05:22,350 --> 00:05:27,780
+The price enters an overbought area during
+a strong trend, and stays overbought for a
+
+74
+00:05:27,780 --> 00:05:28,780
+long period.
+
+75
+00:05:28,780 --> 00:05:33,680
+You don’t want to be in the position of
+traders that shorted the market, hoping for
+
+76
+00:05:33,680 --> 00:05:34,950
+a reversal.
+
+77
+00:05:34,950 --> 00:05:40,970
+A smarter entry would be on the long side,
+against traders that consider the price to
+
+78
+00:05:40,970 --> 00:05:45,050
+be overbought and incapable of going higher.
+
+79
+00:05:45,050 --> 00:05:51,169
+The second most utilized stochastic oscillator
+signal is the crossover signal, which happens
+
+80
+00:05:51,169 --> 00:05:56,889
+when the %k line crosses above the %d line
+and generates a buy signal.
+
+81
+00:05:56,889 --> 00:06:04,979
+On the other hand, when the %k line crosses
+below the %d line, it generates a sell signal.
+
+82
+00:06:04,979 --> 00:06:10,280
+Once again, these stochastic oscillator crossover
+signals are reliable during a range bound
+
+83
+00:06:10,280 --> 00:06:16,090
+market, but these signals tend to become a
+lot less reliable when the market is in a
+
+84
+00:06:16,090 --> 00:06:17,840
+strong trend.
+
+85
+00:06:17,840 --> 00:06:23,100
+You can still rely on the stochastic oscillator
+crossover signals as a trend continuation
+
+86
+00:06:23,100 --> 00:06:24,100
+signal.
+
+87
+00:06:24,100 --> 00:06:30,199
+For example, if the market is in an uptrend,
+you search only for crossover buy signals
+
+88
+00:06:30,199 --> 00:06:31,560
+on the stochastic oscillator.
+
+89
+00:06:31,560 --> 00:06:37,770
+So you’re not interested to short the market,
+you simply want to ride the trend by taking
+
+90
+00:06:37,770 --> 00:06:39,610
+buy crossovers.
+
+91
+00:06:39,610 --> 00:06:45,430
+Similarly, if you see a crossover sell signal
+during a downtrend, you can also rely on the
+
+92
+00:06:45,430 --> 00:06:52,820
+signal as supporting evidence that the downtrend
+is likely to continue, ignoring buy opportunities.
+
+93
+00:06:52,820 --> 00:06:58,039
+Maybe the most elegant approach is to look
+for price/oscillator divergences.
+
+94
+00:06:58,039 --> 00:07:04,740
+A divergence occurs when price action differs
+from the action of the stochastics indicator.
+
+95
+00:07:04,740 --> 00:07:10,220
+In other words, the market momentum isn’t
+reflected in the price, which could be an
+
+96
+00:07:10,220 --> 00:07:12,470
+early indicator of a reversal.
+
+97
+00:07:12,470 --> 00:07:19,350
+A classic divergence occurs when prices form
+a lower low while the stochastic forms a higher
+
+98
+00:07:19,350 --> 00:07:26,830
+low (indicating a possible buy), or when prices
+form a higher high while the oscillator forms
+
+99
+00:07:26,830 --> 00:07:30,060
+a lower high (indicating a possible sell).
+
+100
+00:07:30,060 --> 00:07:35,880
+When a divergence occurs, a potential change
+in price direction could be on the cards.
+
+101
+00:07:35,880 --> 00:07:39,090
+This is my favorite method to trade with stochastics
+oscillator.
+
+102
+00:07:39,090 --> 00:07:44,950
+I determine the main trend with a 200-period
+exponential moving average, and i only trade
+
+103
+00:07:44,950 --> 00:07:48,310
+classic divergences in the direction of the
+main trend.
+
+104
+00:07:48,310 --> 00:07:54,150
+So, i ignore the divergences that occur on
+the pullbacks or corrections of the main trend.
+
+105
+00:07:54,150 --> 00:07:59,880
+Basically, when the price is above the 200
+EMA, I search for divergences on the lower
+
+106
+00:07:59,880 --> 00:08:05,759
+side of the stochastic, and when is below
+the 200 EMA, I look at the upper side of the
+
+107
+00:08:05,759 --> 00:08:06,759
+indicator.
+
+108
+00:08:06,759 --> 00:08:14,340
+Also, I only trade on h1, h4 and d1 timeframes,
+in order to reduce market noise and filter
+
+109
+00:08:14,340 --> 00:08:18,690
+the bad signals occurring on shorter time
+frames.
+
+110
+00:08:18,690 --> 00:08:24,130
+The stochastic oscillator is an excellent
+tool for spotting hidden divergences.
+
+111
+00:08:24,130 --> 00:08:29,960
+If you are a trend trader, hidden divergences
+should be one of your most important tools.
+
+112
+00:08:29,960 --> 00:08:35,130
+Hidden divergences signal momentum coming
+into the main trend, suggesting a possible
+
+113
+00:08:35,130 --> 00:08:38,630
+continuation in the main direction of the
+trend.
+
+114
+00:08:38,630 --> 00:08:43,919
+For some reason, hidden divergences are harder
+to spot by many traders, despite the fact
+
+115
+00:08:43,919 --> 00:08:47,150
+that represent a high probability pattern.
+
+116
+00:08:47,150 --> 00:08:52,170
+When trading hidden divergences with the stochastics
+oscillator, you have to look for:
+
+117
+00:08:52,170 --> 00:08:58,800
+Higher lows of the price but lower stochastic
+values during an uptrend
+
+118
+00:08:58,800 --> 00:09:04,050
+Lower highs of the price and higher stochastic
+values during a downtrend
+
+119
+00:09:04,050 --> 00:09:07,270
+Pay attention at this chart.
+
+120
+00:09:07,270 --> 00:09:13,870
+The price action indicated a downward momentum,
+with the price making lower highs.
+
+121
+00:09:13,870 --> 00:09:20,000
+However, despite the fact the price was making
+lower highs, the stochastic oscillator recorded
+
+122
+00:09:20,000 --> 00:09:23,940
+higher highs, thus forming a hidden divergence.
+
+123
+00:09:23,940 --> 00:09:29,820
+As you can observe, several bearish hidden
+divergences occurred during this period, signaling
+
+124
+00:09:29,820 --> 00:09:34,800
+that sellers were in strong positions to enter
+the market.
+
+125
+00:09:34,800 --> 00:09:39,560
+The trick is to determine the main trend and
+only take positions in the direction of the
+
+126
+00:09:39,560 --> 00:09:40,560
+trend.
+
+127
+00:09:40,560 --> 00:09:44,470
+So, don’t chase all the divergences that
+occur on the chart.
+
+128
+00:09:44,470 --> 00:09:51,430
+Go for the ones with a higher probability:
+the ones in the direction of the main trend.
+
+129
+00:09:51,430 --> 00:09:56,890
+Another way in which traders use the Stochastic
+oscillator is to take signals when the indicator
+
+130
+00:09:56,890 --> 00:09:59,470
+crosses the 50-level.
+
+131
+00:09:59,470 --> 00:10:05,240
+When stochastic indicator crosses above the
+50-level, this signals buying pressure
+
+132
+00:10:05,240 --> 00:10:11,010
+When stochastic indicator crosses below 50-level,
+this signals selling pressure
+
+133
+00:10:11,010 --> 00:10:14,370
+This method is not used often by traders.
+
+134
+00:10:14,370 --> 00:10:19,740
+I would say that this is an underrated method
+of trading with the stochastic indicator.
+
+135
+00:10:19,740 --> 00:10:24,490
+Like i said before, the big problem is that
+many traders see the stochastic indicator
+
+136
+00:10:24,490 --> 00:10:28,470
+mainly as an overbought/oversold indicator.
+
+137
+00:10:28,470 --> 00:10:33,750
+Instead of thinking in terms of buying pressure
+and selling pressure, their first impulse
+
+138
+00:10:33,750 --> 00:10:36,440
+is to seek for overbought and oversold areas.
+
+139
+00:10:36,440 --> 00:10:42,610
+That’s why a smarter way is to look for
+trend strength and continuation movements.
+
+140
+00:10:42,610 --> 00:10:48,990
+A 50-level crossover of the stochastic indicator
+could be a solution, but only in combination
+
+141
+00:10:48,990 --> 00:10:50,620
+with another tools.
+
+142
+00:10:50,620 --> 00:10:56,050
+By combining it with other tools, you will
+avoid getting beaten by the market because
+
+143
+00:10:56,050 --> 00:10:58,899
+after all, stochastic is a lagging oscillator.
+
+144
+00:10:58,899 --> 00:11:04,540
+As always, if you learned something new, make
+sure you subscribe, click the notification
+
+145
+00:11:04,540 --> 00:11:08,170
+icon and leave us a like to show your support.
+
+146
+00:11:08,170 --> 00:11:08,610
+Until next time
+

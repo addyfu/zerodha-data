@@ -1,0 +1,775 @@
+1
+00:00:00,559 --> 00:00:05,890
+Does it feel time and time again like you
+are being watched and your stops are being
+
+2
+00:00:05,890 --> 00:00:06,890
+hunted?
+
+3
+00:00:06,890 --> 00:00:08,050
+Then you are not alone.
+
+4
+00:00:08,050 --> 00:00:11,360
+This is a common complaint of many retail
+traders.
+
+5
+00:00:11,360 --> 00:00:16,139
+The problem is that you probably are entering
+at the wrong times in the market.
+
+6
+00:00:16,139 --> 00:00:22,310
+Today we’ll fix this and I’ll share a
+very simple scalping and day trading strategy,
+
+7
+00:00:22,310 --> 00:00:24,349
+to trade any market.
+
+8
+00:00:24,349 --> 00:00:30,239
+The concept of the strategy is derived from
+the 2 major phases of price movement: expansion
+
+9
+00:00:30,239 --> 00:00:31,669
+and contraction.
+
+10
+00:00:31,669 --> 00:00:41,080
+So, like, subscribe, and stick around for
+the full video.
+
+11
+00:00:41,080 --> 00:00:45,980
+Contraction/expansion
+Markets go through periods of contraction
+
+12
+00:00:45,980 --> 00:00:51,340
+when prices move in narrow range while traders’
+interest comes down.
+
+13
+00:00:51,340 --> 00:00:55,030
+These periods of narrow range are called contraction.
+
+14
+00:00:55,030 --> 00:01:00,210
+When markets are doing nothing, they are giving
+a message: we have a balance between bulls
+
+15
+00:01:00,210 --> 00:01:01,470
+and bears.
+
+16
+00:01:01,470 --> 00:01:05,159
+Neither is strong enough to take the market
+in their direction.
+
+17
+00:01:05,159 --> 00:01:10,609
+Soon enough, one of these forces – either
+the bulls or the bears will emerge as the
+
+18
+00:01:10,609 --> 00:01:12,509
+stronger force.
+
+19
+00:01:12,509 --> 00:01:17,069
+Then comes a period of expansion, when the
+winning force will take the market sharply
+
+20
+00:01:17,069 --> 00:01:20,729
+in its favor, trapping the losing force.
+
+21
+00:01:20,729 --> 00:01:27,479
+This is the period when markets will move
+outside the previous ranges, in one direction.
+
+22
+00:01:27,479 --> 00:01:33,380
+Inside bar contraction
+
+23
+00:01:33,380 --> 00:01:38,789
+Identifying the waves of contraction and expansion
+is a powerful skill to have and one of the
+
+24
+00:01:38,789 --> 00:01:44,040
+simplest way to find these periods is by analyzing
+inside bars.
+
+25
+00:01:44,040 --> 00:01:49,179
+Inside bars on a candlestick chart represent
+the consolidation of price action where the
+
+26
+00:01:49,179 --> 00:01:54,799
+bulls and bears are both struggling to move
+the price higher or lower from its current
+
+27
+00:01:54,799 --> 00:01:56,039
+position.
+
+28
+00:01:56,039 --> 00:02:02,049
+You can easily spot an inside bar when a given
+bar’s high and low are fully contained by
+
+29
+00:02:02,049 --> 00:02:05,280
+the bar directly preceding it.
+
+30
+00:02:05,280 --> 00:02:11,009
+This signals a narrowing of price action,
+a contraction that can be used to anticipate
+
+31
+00:02:11,009 --> 00:02:14,819
+upcoming movements outside of this range.
+
+32
+00:02:14,819 --> 00:02:19,560
+Basically, when there is contraction, pressure
+is building.
+
+33
+00:02:19,560 --> 00:02:28,879
+Double inside bar trick
+On their own, inside bars can be quite tricky,
+
+34
+00:02:28,879 --> 00:02:31,319
+especially if you are unexperienced.
+
+35
+00:02:31,319 --> 00:02:37,280
+You can find hundreds of inside bars during
+a trading day, if you trade lower time frames.
+
+36
+00:02:37,280 --> 00:02:43,110
+A double inside bar setup will solve this
+problem and will highlight the period of contraction
+
+37
+00:02:43,110 --> 00:02:44,640
+even better.
+
+38
+00:02:44,640 --> 00:02:50,329
+A double inside bar is when there are two
+consecutive ‘inside bars’ which have failed
+
+39
+00:02:50,329 --> 00:02:54,120
+to breach the high and low of the previous
+bar.
+
+40
+00:02:54,120 --> 00:02:57,799
+It reflects contraction and indecision.
+
+41
+00:02:57,799 --> 00:03:03,720
+This price action set-up, although rare, is
+more significant than just an inside bar.
+
+42
+00:03:03,720 --> 00:03:09,860
+The colors of the bars are irrelevant – the
+fact that we have two consecutive bars inside
+
+43
+00:03:09,860 --> 00:03:15,140
+the previous bars range is the main aspect
+here.
+
+44
+00:03:15,140 --> 00:03:18,510
+Double inside bars are a rare contraction
+signal.
+
+45
+00:03:18,510 --> 00:03:22,270
+So rare, it would be a shame to miss the opportunity!
+
+46
+00:03:22,270 --> 00:03:27,510
+You can trade both trend continuations and
+key reversals.
+
+47
+00:03:27,510 --> 00:03:33,590
+If this setup is present at a key technical
+level, maybe a key support, at a round number
+
+48
+00:03:33,590 --> 00:03:40,230
+or a FIB level, or at a pivot level, or near
+a moving average, it can often reflect a change
+
+49
+00:03:40,230 --> 00:03:41,519
+in sentiment.
+
+50
+00:03:41,519 --> 00:03:44,470
+And a great opportunity for you to take advantage
+of.
+
+51
+00:03:44,470 --> 00:03:48,000
+We’ll cover many scenarios later in the
+video.
+
+52
+00:03:48,000 --> 00:03:53,019
+If there is no technical level in the way,
+then the safest way is to trade the setup
+
+53
+00:03:53,019 --> 00:03:57,439
+as a continuation one, with the prevailing
+trend.
+
+54
+00:03:57,439 --> 00:04:05,890
+Inside bar indicator
+Let’s simplify the process of searching
+
+55
+00:04:05,890 --> 00:04:11,620
+and analyzing candlesticks, and let’s use
+an indicator which displays inside bars.
+
+56
+00:04:11,620 --> 00:04:13,370
+I use this one.
+
+57
+00:04:13,370 --> 00:04:18,280
+It finds and reveals all inside bars on the
+chart.
+
+58
+00:04:18,280 --> 00:04:24,630
+Your job is to simply find the double inside
+bar setup, when you see two consecutive arrows.
+
+59
+00:04:24,630 --> 00:04:29,930
+Here’s the trading plan:
+• In a trending market, you will trade only
+
+60
+00:04:29,930 --> 00:04:34,650
+with the trend, by trading continuation breakouts.
+
+61
+00:04:34,650 --> 00:04:41,380
+• In a range bound market, you will sell
+the top of the range and buy the bottom
+
+62
+00:04:41,380 --> 00:04:47,060
+In both cases, the location of the double
+inside bar is very important.
+
+63
+00:04:47,060 --> 00:04:49,930
+My preferred locations to trade are near:
+1.
+
+64
+00:04:49,930 --> 00:04:51,930
+Levels of support and resistance
+2.
+
+65
+00:04:51,930 --> 00:04:52,970
+Trend lines
+3.
+
+66
+00:04:52,970 --> 00:04:54,280
+Moving averages
+4.
+
+67
+00:04:54,280 --> 00:04:55,800
+Fibonacci levels
+5.
+
+68
+00:04:55,800 --> 00:04:57,759
+Daily Pivots
+6.
+
+69
+00:04:57,759 --> 00:05:00,259
+Round numbers
+
+70
+00:05:00,259 --> 00:05:05,870
+We trade Bitcoin, on the 5 minutes time frame.
+
+71
+00:05:05,870 --> 00:05:13,509
+We see a clear downtrend, with price making
+lower lows and lower highs.
+
+72
+00:05:13,509 --> 00:05:16,740
+And now we are in a range.
+
+73
+00:05:16,740 --> 00:05:23,300
+In this case I would prefer short trades,
+in the direction of the dominant trend.
+
+74
+00:05:23,300 --> 00:05:28,340
+Here’s our double inside bar setup.
+
+75
+00:05:28,340 --> 00:05:33,780
+As we are near the resistance level of the
+range, the plan is to short a breakout to
+
+76
+00:05:33,780 --> 00:05:37,000
+the downside.
+
+77
+00:05:37,000 --> 00:05:41,020
+Price broke the upper level of the channel,
+but we ignore the signal.
+
+78
+00:05:41,020 --> 00:05:45,940
+Remember, you don’t want to fight the existing
+trend.
+
+79
+00:05:45,940 --> 00:05:51,389
+Next candle brought a downside breakout, so
+we entered short.
+
+80
+00:05:51,389 --> 00:05:57,370
+Stop loss goes on the other side of the channel,
+or above the previous swing high.
+
+81
+00:05:57,370 --> 00:06:01,970
+It all depends on the size of the channel
+and recent price action.
+
+82
+00:06:01,970 --> 00:06:07,830
+As for take profits, as I’m trading the
+5 minutes charts and I’m scalping, I target
+
+83
+00:06:07,830 --> 00:06:11,639
+the next swing in the price structure, at
+least.
+
+84
+00:06:11,639 --> 00:06:17,389
+In this case this swing.
+
+85
+00:06:17,389 --> 00:06:22,900
+Then you can use a trailing stop, a breakeven
+stop, or whatever money management technique
+
+86
+00:06:22,900 --> 00:06:24,750
+you prefer.
+
+87
+00:06:24,750 --> 00:06:30,600
+But your trade should offer a positive risk
+to reward ratio.
+
+88
+00:06:30,600 --> 00:06:35,449
+Now we see another double inside bar below
+the first signal.
+
+89
+00:06:35,449 --> 00:06:43,400
+As we are already in a trade, we ignore this
+one.
+
+90
+00:06:43,400 --> 00:06:50,729
+Let’s find another trade.
+
+91
+00:06:50,729 --> 00:06:54,949
+Price again seemed to form another range,
+again, in a downtrend.
+
+92
+00:06:54,949 --> 00:06:58,919
+So, we’ll keep looking to sell the market.
+
+93
+00:06:58,919 --> 00:07:07,430
+Here’s our signal, 2 consecutive inside
+bars.
+
+94
+00:07:07,430 --> 00:07:13,780
+If we zoom out, we see that the signal appeared
+below this breakout.
+
+95
+00:07:13,780 --> 00:07:19,771
+This seems like a break and retest situation,
+and the location of the double inside bar
+
+96
+00:07:19,771 --> 00:07:23,190
+setup favors a short trade.
+
+97
+00:07:23,190 --> 00:07:29,009
+Here’s our breakout.
+
+98
+00:07:29,009 --> 00:07:36,240
+Stop loss on the other side of the channel,
+or above this swing high.
+
+99
+00:07:36,240 --> 00:07:42,580
+As we are already very near the previous swing
+low, we expect price to break it and to continue
+
+100
+00:07:42,580 --> 00:07:43,800
+the downtrend.
+
+101
+00:07:43,800 --> 00:07:56,650
+Let’s try a risk to reward ratio of 3, but
+we’ll keep an eye on price action.
+
+102
+00:07:56,650 --> 00:08:00,700
+Another good trade and we even left some profits
+on the table.
+
+103
+00:08:00,700 --> 00:08:08,259
+Again, you can play with the take profit,
+and try different techniques.
+
+104
+00:08:08,259 --> 00:08:15,120
+Let’s continue.
+
+105
+00:08:15,120 --> 00:08:25,419
+Here’s our signal.
+
+106
+00:08:25,419 --> 00:08:30,190
+We have a double bottom here and a small break
+of structure.
+
+107
+00:08:30,190 --> 00:08:37,050
+But at the same time, the setup appear at
+this swing high, in a downtrend.
+
+108
+00:08:37,050 --> 00:08:40,279
+So, this situation isn’t so clear.
+
+109
+00:08:40,279 --> 00:08:45,630
+I still favor the short trade, but if the
+breakout occurs to the upside, I’ll still
+
+110
+00:08:45,630 --> 00:08:47,560
+risk a long trade.
+
+111
+00:08:47,560 --> 00:08:55,410
+Okey, we have a downward breakout, so a short
+trade it is.
+
+112
+00:08:55,410 --> 00:09:00,980
+Stop loss above this swing high, above the
+channel.
+
+113
+00:09:00,980 --> 00:09:12,550
+Take profit at this swing low, a few points
+above it.
+
+114
+00:09:12,550 --> 00:09:30,980
+Let’s change the market, let’s trade GBP/USD,
+and let’s add a moving average.
+
+115
+00:09:30,980 --> 00:09:37,570
+If price is above the 200 EMA, you’ll trade
+only long breakouts above the double inside
+
+116
+00:09:37,570 --> 00:09:45,010
+bar setup
+If price is below the 200 EMA, you’ll trade
+
+117
+00:09:45,010 --> 00:09:48,940
+only short breakouts below the double inside
+bar pattern
+
+118
+00:09:48,940 --> 00:10:03,720
+In this example, price is below the 200 EMA,
+so in this case we’ll target short positions.
+
+119
+00:10:03,720 --> 00:10:08,420
+Here’s the signal.
+
+120
+00:10:08,420 --> 00:10:14,130
+We have consecutive inside bars around this
+resistance area.
+
+121
+00:10:14,130 --> 00:10:22,250
+We have a triple rejection in a small amount
+of time.
+
+122
+00:10:22,250 --> 00:10:30,220
+As price broke the channel to the downside,
+we entered short with a stop above the channel
+
+123
+00:10:30,220 --> 00:10:33,010
+and a take profit around this swing low.
+
+124
+00:10:33,010 --> 00:10:44,450
+That’s a risk to reward ratio of 2.
+
+125
+00:10:44,450 --> 00:10:46,970
+We move on.
+
+126
+00:10:46,970 --> 00:10:58,579
+Price broke above the 200 EMA, so now we are
+looking to buy the market.
+
+127
+00:10:58,579 --> 00:11:01,990
+And here’s the signal to enter.
+
+128
+00:11:01,990 --> 00:11:10,540
+Consecutive inside bars, right at the 200
+EMA.
+
+129
+00:11:10,540 --> 00:11:14,350
+You buy here, at the breakout of the channel.
+
+130
+00:11:14,350 --> 00:11:18,860
+Stop loss below the channel and below the
+200 EMA.
+
+131
+00:11:18,860 --> 00:11:21,310
+Take profit at the next swing high.
+
+132
+00:11:21,310 --> 00:11:30,170
+That’s a risk to reward ratio of 4.
+
+133
+00:11:30,170 --> 00:11:36,350
+We lost the trade, despite the fact it was
+actually a pretty good signal.
+
+134
+00:11:36,350 --> 00:11:44,430
+Let’s once again change the market and trade
+Tesla.
+
+135
+00:11:44,430 --> 00:11:52,170
+I see a downtrend, lower lows, lower highs.
+
+136
+00:11:52,170 --> 00:11:55,620
+And here’s the double inside bar pattern.
+
+137
+00:11:55,620 --> 00:12:05,019
+I favor short trades, but if price breaks
+to the upside, I’ll still take a long trade.
+
+138
+00:12:05,019 --> 00:12:10,850
+The pressure remained to the downside, so
+we had a downward breakout, in line with the
+
+139
+00:12:10,850 --> 00:12:14,820
+previous trend.
+
+140
+00:12:14,820 --> 00:12:21,399
+Stop goes above this swing high and we target
+the previous swing low.
+
+141
+00:12:21,399 --> 00:12:34,980
+This offers a risk to reward ratio of 2.3.
+
+142
+00:12:34,980 --> 00:12:40,709
+Another signal, after we closed the previous
+trade with a profit.
+
+143
+00:12:40,709 --> 00:12:49,680
+The location of the pattern, below the previous
+swing low, favors another short trade.
+
+144
+00:12:49,680 --> 00:12:57,550
+Which indeed happened, as price broke once
+again the previous low.
+
+145
+00:12:57,550 --> 00:13:01,000
+Stop loss above the channel.
+
+146
+00:13:01,000 --> 00:13:06,160
+As we don’t have an immediate swing low
+to target, we set a risk to reward ratio of
+
+147
+00:13:06,160 --> 00:13:11,230
+2.
+
+148
+00:13:11,230 --> 00:13:22,450
+The beauty of double inside bars is that they
+can be traded as both continuations and key
+
+149
+00:13:22,450 --> 00:13:23,450
+reversals.
+
+150
+00:13:23,450 --> 00:13:26,089
+And it’s all price action based.
+
+151
+00:13:26,089 --> 00:13:31,649
+By scanning the market for trends that are
+in place, you can start to identify periods
+
+152
+00:13:31,649 --> 00:13:38,500
+of price contraction where a trend has stopped
+making higher highs and higher lows in a bullish
+
+153
+00:13:38,500 --> 00:13:44,380
+trend, and lower lows and lower highs in a
+bearish trend.
+
+154
+00:13:44,380 --> 00:13:50,630
+When price breaks from these contracted areas,
+it reveals that either the buyers or sellers
+
+155
+00:13:50,630 --> 00:14:18,149
+have regained control of the trend and can
+help you time your entry and ride 
+
+156
+00:14:18,149 --> 00:15:09,009
+the momentum.
+
+157
+00:15:09,009 --> 00:15:15,269
+This is not a perfect strategy, you will encounter
+losing trades and for this reason you could
+
+158
+00:15:15,269 --> 00:15:21,829
+put your own spin on it, additional confirmations
+or other types of analysis.
+
+159
+00:15:21,829 --> 00:15:27,829
+If you can back up consecutive inside bars
+with other technical tools, it might be worth
+
+160
+00:15:27,829 --> 00:15:30,660
+opening a position.
+
+161
+00:15:30,660 --> 00:15:36,220
+Just make sure you don’t overcomplicate
+it and stick to the main concepts of this
+
+162
+00:15:36,220 --> 00:15:44,480
+strategy: finding periods of contraction and
+ride the momentum move after the breakout.
+
+163
+00:15:44,480 --> 00:15:50,510
+As always, if you learned something new and
+found value, leave us a like to show your
+
+164
+00:15:50,510 --> 00:15:51,529
+support.
+
+165
+00:15:51,529 --> 00:15:57,649
+And check out our academy program, if you
+want to further level up your trading.
+
+166
+00:15:57,649 --> 00:15:58,370
+Until next time.
+

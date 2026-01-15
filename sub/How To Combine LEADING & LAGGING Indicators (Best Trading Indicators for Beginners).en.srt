@@ -1,0 +1,703 @@
+1
+00:00:01,270 --> 00:00:07,060
+Many traders and investors use indicators
+to spot market patterns and trends and most
+
+2
+00:00:07,060 --> 00:00:11,440
+of these indicators fall into two types: leading
+and lagging.
+
+3
+00:00:11,440 --> 00:00:16,580
+A leading indicator is a tool designed to
+anticipate the future direction of a market,
+
+4
+00:00:16,580 --> 00:00:20,510
+in order to enable traders to predict market
+movements ahead of time.
+
+5
+00:00:20,510 --> 00:00:26,350
+In theory, if a leading indicator gives the
+correct signal, a trader can get in before
+
+6
+00:00:26,350 --> 00:00:29,880
+the market movement and ride the entire trend.
+
+7
+00:00:29,880 --> 00:00:35,930
+However, leading indicators are by no means
+100% accurate, which is why they are often
+
+8
+00:00:35,930 --> 00:00:40,480
+combined with other forms of technical analysis.
+
+9
+00:00:40,480 --> 00:00:46,370
+A lagging indicator is a tool that provides
+delayed feedback, which means it gives a signal
+
+10
+00:00:46,370 --> 00:00:50,850
+once the price movement has already passed
+or is in progress.
+
+11
+00:00:50,850 --> 00:00:55,739
+These are used by traders to confirm the price
+trend before they enter a trade.
+
+12
+00:00:55,739 --> 00:01:00,640
+These indicators are commonly used by trend
+traders, they don’t show any upcoming price
+
+13
+00:01:00,640 --> 00:01:04,040
+moves but confirm that a trend is underway.
+
+14
+00:01:04,040 --> 00:01:08,450
+This tends to give traders more confidence
+that they are correct in their assumptions,
+
+15
+00:01:08,450 --> 00:01:12,840
+rather than providing a specific trigger for
+entering the market.
+
+16
+00:01:12,840 --> 00:01:18,279
+So, what’s the difference between Leading
+and lagging technical indicators?
+
+17
+00:01:18,279 --> 00:01:23,709
+The most obvious difference is that leading
+indicators predict market movements, while
+
+18
+00:01:23,709 --> 00:01:28,840
+lagging indicators confirm trends that are
+already taking place.
+
+19
+00:01:28,840 --> 00:01:33,969
+Both leading and lagging indicators have their
+own advantages and drawbacks, so it’s crucial
+
+20
+00:01:33,969 --> 00:01:39,840
+to analyze yourself with how each works and
+decide which fits in with your strategy.
+
+21
+00:01:39,840 --> 00:01:44,780
+Leading indicators react to prices quickly,
+which can be great for short-term traders,
+
+22
+00:01:44,780 --> 00:01:47,819
+but makes them prone to giving out false signals.
+
+23
+00:01:47,819 --> 00:01:48,907
+Conversely, lagging indicators are far slower
+to react, which means that traders would have
+
+24
+00:01:48,907 --> 00:01:49,907
+more accuracy but could be late in entering
+the market.
+
+25
+00:01:49,907 --> 00:01:50,907
+Leading indicators react to prices quickly,
+which can be great for short-term traders,
+
+26
+00:01:50,907 --> 00:01:51,907
+but makes them prone to giving out false signals.
+
+27
+00:01:51,907 --> 00:01:53,919
+Conversely, lagging indicators are far slower
+to react, which means that traders would have
+
+28
+00:01:53,919 --> 00:01:59,399
+more accuracy but could be late in entering
+the market.
+
+29
+00:01:59,399 --> 00:02:04,590
+Lagging indicators are tools used by traders
+to analyze the market using an average of
+
+30
+00:02:04,590 --> 00:02:06,959
+previous price action data.
+
+31
+00:02:06,959 --> 00:02:10,780
+As the name implies, these indicators lag
+the market.
+
+32
+00:02:10,780 --> 00:02:15,610
+This means that traders can witness a move
+before the indicator confirms it – meaning
+
+33
+00:02:15,610 --> 00:02:19,030
+that the trader could lose out the start of
+the move.
+
+34
+00:02:19,030 --> 00:02:24,860
+Many consider this as a necessary cost in
+order to confirm if the move gathers momentum.
+
+35
+00:02:24,860 --> 00:02:30,060
+Others view this as a lost opportunity as
+traders are missing getting into a trade at
+
+36
+00:02:30,060 --> 00:02:32,340
+the very start of a move.
+
+37
+00:02:32,340 --> 00:02:39,660
+A lagging indicator often makes use of price
+as an input variable and in most cases, requires
+
+38
+00:02:39,660 --> 00:02:43,780
+a longer look back period in order to ascertain
+trends.
+
+39
+00:02:43,780 --> 00:02:48,890
+Even with the delayed feedback, many traders
+prefer to use lagging technical indicators
+
+40
+00:02:48,890 --> 00:02:54,210
+as it helps them to trade with more confidence
+by validating their trade decisions.
+
+41
+00:02:54,210 --> 00:03:00,210
+Usually traders make use of two or more lagging
+indicators to confirm price trends before
+
+42
+00:03:00,210 --> 00:03:01,960
+entering the trade.
+
+43
+00:03:01,960 --> 00:03:06,440
+This can be viewed as a conservative way to
+trade, but do not let this draw you into a
+
+44
+00:03:06,440 --> 00:03:12,390
+false sense of security that you can make
+the best decisions and make money consistently.
+
+45
+00:03:12,390 --> 00:03:18,020
+Let’s look at a classic example of a lagging
+indicator, namely the moving average.
+
+46
+00:03:18,020 --> 00:03:24,340
+In this set up we added a 50-period and a
+200-period moving average, to trade the golden
+
+47
+00:03:24,340 --> 00:03:31,200
+and a death crosses, which are bullish and
+bearish crossovers of the 50 and 200 SMA’s.
+
+48
+00:03:31,200 --> 00:03:37,970
+Generally, the asset is said to be bearish
+when the 50 SMA crosses below the 200 SMA
+
+49
+00:03:37,970 --> 00:03:43,130
+and bullish when the 50 SMA crosses above
+the 200 SMA.
+
+50
+00:03:43,130 --> 00:03:47,990
+In this chart notice that the signals generated
+by the bullish and the bearish crossovers
+
+51
+00:03:47,990 --> 00:03:51,270
+of the 200 and 50 period moving averages occur
+very late.
+
+52
+00:03:51,270 --> 00:03:56,080
+In the first signal for example, if you went
+short after the bearish signal, it would have
+
+53
+00:03:56,080 --> 00:03:57,520
+been a losing trade.
+
+54
+00:03:57,520 --> 00:04:03,401
+This is because by the time price moved lower
+and the moving average reacted to this, price
+
+55
+00:04:03,401 --> 00:04:07,440
+already fell significantly and started to
+pull back higher.
+
+56
+00:04:07,440 --> 00:04:14,260
+I’ve also read a lot of false information
+regarding RSI, Stochastic and other Momentum
+
+57
+00:04:14,260 --> 00:04:18,709
+oscillators, which were associated with the
+leading indicators category.
+
+58
+00:04:18,709 --> 00:04:21,290
+No, they are not leading indicators.
+
+59
+00:04:21,290 --> 00:04:26,260
+Although those indicators will generate a
+lot of good signals if traded correctly, they
+
+60
+00:04:26,260 --> 00:04:28,500
+will not lead the price.
+
+61
+00:04:28,500 --> 00:04:33,310
+Just because they tell you how overbought
+or oversold a market is, this doesn’t mean
+
+62
+00:04:33,310 --> 00:04:35,240
+that they are leading the price.
+
+63
+00:04:35,240 --> 00:04:41,180
+Now, I’m not saying you shouldn’t use
+lagging indicators, because they can help
+
+64
+00:04:41,180 --> 00:04:43,509
+you make informed decisions.
+
+65
+00:04:43,509 --> 00:04:48,599
+Just remember that lagging indicators can
+only provide “today’s “value based on
+
+66
+00:04:48,599 --> 00:04:50,620
+the historical data.
+
+67
+00:04:50,620 --> 00:04:56,050
+Since these indicators lag the price of the
+asset, a significant move in the market generally
+
+68
+00:04:56,050 --> 00:04:59,560
+occurs before the indicator can provide a
+signal.
+
+69
+00:04:59,560 --> 00:05:03,840
+The truth is that almost every technical indicator
+is a lagging indicator.
+
+70
+00:05:03,840 --> 00:05:10,039
+Moving averages, MACD, the RSI, Stochastics,
+you name it, are lagging.
+
+71
+00:05:10,039 --> 00:05:15,749
+First there's a move in price, then sometime
+later in the game, the indicator signals buy
+
+72
+00:05:15,749 --> 00:05:17,080
+or sell signal.
+
+73
+00:05:17,080 --> 00:05:19,469
+They lag behind market action.
+
+74
+00:05:19,469 --> 00:05:22,099
+They give signals after the fact.
+
+75
+00:05:22,099 --> 00:05:27,379
+It is really important for you to understand
+how the lagging indicators work and how the
+
+76
+00:05:27,379 --> 00:05:32,860
+data is compiled before incorporating them
+into trading strategies and risking capital
+
+77
+00:05:32,860 --> 00:05:34,710
+on those strategies.
+
+78
+00:05:34,710 --> 00:05:39,169
+Always remember that the price moves indicators
+– not the other way around.
+
+79
+00:05:39,169 --> 00:05:44,229
+This is why they always look profitable when
+you look at them at the left side of the chart
+
+80
+00:05:44,229 --> 00:05:48,289
+when the price action is already unfolded.
+
+81
+00:05:48,289 --> 00:05:50,110
+Leading indicators are different.
+
+82
+00:05:50,110 --> 00:05:54,949
+Leading indicators are indicators able to
+precede the price movements of an asset due
+
+83
+00:05:54,949 --> 00:05:56,770
+to their predictive qualities.
+
+84
+00:05:56,770 --> 00:06:02,639
+While, lagging indicators follow price movements
+and don’t have reliable predictive qualities,
+
+85
+00:06:02,639 --> 00:06:07,120
+leading indicators are able to anticipate
+when major moves in the markets would occur.
+
+86
+00:06:07,120 --> 00:06:11,930
+A leading technical indicator is designed
+to anticipate future price moves in order
+
+87
+00:06:11,930 --> 00:06:13,470
+to give an edge.
+
+88
+00:06:13,470 --> 00:06:20,800
+As magical as this sounds, a leading indicator
+relies upon the most common variable – price.
+
+89
+00:06:20,800 --> 00:06:25,770
+A Leading indicator will allow you to anticipate
+future price movements and therefore, you
+
+90
+00:06:25,770 --> 00:06:29,770
+will be able to enter trades potentially at
+the start of the move.
+
+91
+00:06:29,770 --> 00:06:34,969
+The downside is that traders are anticipating
+a move before it actually happens and the
+
+92
+00:06:34,969 --> 00:06:36,939
+market could move in the opposite direction.
+
+93
+00:06:36,939 --> 00:06:42,819
+As a result, it isn’t uncommon to witness
+false breakouts, or, signs of a trend reversal
+
+94
+00:06:42,819 --> 00:06:47,479
+that just land up being minor retracements.
+
+95
+00:06:47,479 --> 00:06:51,849
+So which indicators or tools I consider to
+be leading indicators.
+
+96
+00:06:51,849 --> 00:06:55,069
+Well, pivot points are leading indicators.
+
+97
+00:06:55,069 --> 00:07:00,199
+Pivot Points are levels that were used by
+floor traders to determine directional movement
+
+98
+00:07:00,199 --> 00:07:03,270
+and potential support/resistance levels.
+
+99
+00:07:03,270 --> 00:07:08,580
+By analyzing today’s high, low, and close,
+you are able to calculate the next day’s
+
+100
+00:07:08,580 --> 00:07:12,539
+pivot point, as well as potential support
+and resistance levels.
+
+101
+00:07:12,539 --> 00:07:17,190
+Part of what makes the Pivots Points so reliable
+is the fact that they are based purely on
+
+102
+00:07:17,190 --> 00:07:18,190
+price.
+
+103
+00:07:18,190 --> 00:07:23,419
+Plotting these levels allows you to know in
+advance some key levels for the next day.
+
+104
+00:07:23,419 --> 00:07:29,059
+You know that if the price reaches this area,
+for example, there will be a reaction: a rejection
+
+105
+00:07:29,059 --> 00:07:31,599
+or a breakout.
+
+106
+00:07:31,599 --> 00:07:35,939
+Fibonacci Retracements and extensions are
+also leading tools.
+
+107
+00:07:35,939 --> 00:07:40,639
+This means that you can decide on the likely
+direction ahead of it happening as compared
+
+108
+00:07:40,639 --> 00:07:45,740
+to a lagging indicator which only predicts
+movements after it has already started to
+
+109
+00:07:45,740 --> 00:07:46,740
+occur.
+
+110
+00:07:46,740 --> 00:07:51,509
+As Fibonacci is a leading indicator you will
+see the entry point and place an order in
+
+111
+00:07:51,509 --> 00:07:56,009
+advance of the market reaching your desired
+level.
+
+112
+00:07:56,009 --> 00:08:02,719
+Other traders also consider volume as a leading
+indicator, but only in conjunction with price.
+
+113
+00:08:02,719 --> 00:08:07,139
+Trend lines, support and resistance levels
+can also be considered leading tools, because
+
+114
+00:08:07,139 --> 00:08:12,330
+you can plot them on your chart and find levels
+where the price can react.
+
+115
+00:08:12,330 --> 00:08:16,280
+Leading indicators tell you ahead of time
+where the market is likely to find support
+
+116
+00:08:16,280 --> 00:08:19,529
+or where the market is likely to find resistance.
+
+117
+00:08:19,529 --> 00:08:23,860
+Now, SHOULD YOU USE LEADING OR LAGGING INDICATORS?
+
+118
+00:08:23,860 --> 00:08:28,189
+For traders, it is often the dilemma of finding
+a balance between them.
+
+119
+00:08:28,189 --> 00:08:33,690
+Rely only on leading indicators and chances
+are you will see a lot of false signals.
+
+120
+00:08:33,690 --> 00:08:38,400
+Rely only on lagging indicators and you will
+likely enter late and hold on your trades
+
+121
+00:08:38,400 --> 00:08:42,210
+too long and give back most of the profits.
+
+122
+00:08:42,210 --> 00:08:46,950
+Traders looking for fast signals will tend
+to favor leading indicators.
+
+123
+00:08:46,950 --> 00:08:53,000
+Traders seeking a greater degree of confidence
+will tend to favor lagging indicators.
+
+124
+00:08:53,000 --> 00:08:57,810
+The trick is to achieve the proper balance
+by mixing leading and lagging indicators across
+
+125
+00:08:57,810 --> 00:08:59,090
+time frames.
+
+126
+00:08:59,090 --> 00:09:02,990
+If you can accomplish this objective, you
+can come up with a trading approach which
+
+127
+00:09:02,990 --> 00:09:06,990
+is far superior to using either of the two
+exclusively.
+
+128
+00:09:06,990 --> 00:09:12,090
+With these obvious drawbacks, it is best to
+develop a trading strategy that combines both
+
+129
+00:09:12,090 --> 00:09:15,910
+leading and lagging indicators.
+
+130
+00:09:15,910 --> 00:09:22,431
+For example, you can use a lagging indicator,
+like a 200 EMA and a leading one, the pivot
+
+131
+00:09:22,431 --> 00:09:23,431
+points.
+
+132
+00:09:23,431 --> 00:09:27,750
+First, determine the context for the trade
+using the lagging indicators.
+
+133
+00:09:27,750 --> 00:09:34,550
+So if the price is below the 200 EMA, we have
+a downtrend, and above 200 EMA, an uptrend.
+
+134
+00:09:34,550 --> 00:09:39,970
+Then establish the entry level using the leading
+indicator, namely the pivot point.
+
+135
+00:09:39,970 --> 00:09:44,680
+You can buy a pullback for example, at the
+central pivot point, when the market is above
+
+136
+00:09:44,680 --> 00:09:48,150
+200 EMA, in the direction of the trend.
+
+137
+00:09:48,150 --> 00:09:52,660
+You can continue to use the leading indicator
+to find a stop placement point, meaning your
+
+138
+00:09:52,660 --> 00:09:54,220
+stop loss order.
+
+139
+00:09:54,220 --> 00:09:59,250
+In the case of this uptrend, this would be
+below a substantial support level, maybe below
+
+140
+00:09:59,250 --> 00:10:01,910
+S1 level.
+
+141
+00:10:01,910 --> 00:10:07,160
+Or you can use a Fibonacci retracement and
+an oscillator, like the Stochastic, again
+
+142
+00:10:07,160 --> 00:10:10,410
+a leading and a lagging tool, side by side.
+
+143
+00:10:10,410 --> 00:10:15,900
+You can enter after a Stochastic divergence,
+or an oversold Stochastic, when the price
+
+144
+00:10:15,900 --> 00:10:18,260
+rejected an important FIB level.
+
+145
+00:10:18,260 --> 00:10:24,300
+Again, try find the proper balance by mixing
+leading and lagging indicators, with the aim
+
+146
+00:10:24,300 --> 00:10:27,590
+of stacking the odds in your favor.
+
+147
+00:10:27,590 --> 00:10:31,990
+If you learned something new and found value,
+leave us a like to show your support, subscribe
+
+148
+00:10:31,990 --> 00:10:37,330
+to our channel and click the bell icon to
+stay in touch when we upload new videos.
+
+149
+00:10:37,330 --> 00:10:37,810
+Until next time.
+

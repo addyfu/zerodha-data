@@ -1,0 +1,632 @@
+1
+00:00:00,989 --> 00:00:06,109
+The Schaff trend cycle (STC) is a forward-looking,
+leading indicator that generates faster, more
+
+2
+00:00:06,109 --> 00:00:11,719
+accurate signals than other indicators, such
+as the MACD because it considers both time
+
+3
+00:00:11,719 --> 00:00:14,730
+(through cycles) and moving averages.
+
+4
+00:00:14,730 --> 00:00:19,590
+The Schaff trend cycle (STC) is commonly used
+to identify market trends and provide buy
+
+5
+00:00:19,590 --> 00:00:22,030
+and sell signals to traders.
+
+6
+00:00:22,030 --> 00:00:27,600
+Schaff trend cycle is a type of oscillator
+and is based on the assumption that, regardless
+
+7
+00:00:27,600 --> 00:00:33,860
+of time frame, trends accelerate and decelerate
+in cyclical patterns.
+
+8
+00:00:33,860 --> 00:00:39,320
+Many traders are familiar with the MACD charting
+tool, which is an indicator that is used to
+
+9
+00:00:39,320 --> 00:00:44,720
+forecast price action and is notorious for
+lagging due to its slow responsive signal
+
+10
+00:00:44,720 --> 00:00:45,720
+line.
+
+11
+00:00:45,720 --> 00:00:50,920
+By contrast, STC’s signal line enables it
+to detect trends sooner.
+
+12
+00:00:50,920 --> 00:00:57,680
+In fact, it typically identifies up and downtrends
+long before MACD indicator.
+
+13
+00:00:57,680 --> 00:01:03,680
+While the Schaff trend cycle is computed using
+the same exponential moving averages as MACD,
+
+14
+00:01:03,680 --> 00:01:09,369
+it adds a novel cycle component to improve
+accuracy and reliability.
+
+15
+00:01:09,369 --> 00:01:16,700
+While MACD is simply computed using a series
+of moving average, the cycle aspect of STC
+
+16
+00:01:16,700 --> 00:01:20,509
+is based on time (for example, number of days).
+
+17
+00:01:20,509 --> 00:01:27,020
+Although STC was developed primarily for currency
+markets, it may be effectively employed across
+
+18
+00:01:27,020 --> 00:01:28,049
+all markets.
+
+19
+00:01:28,049 --> 00:01:33,520
+It can be applied to intraday charts, such
+as five minutes or one hour charts, as well
+
+20
+00:01:33,520 --> 00:01:37,819
+as daily, weekly, or monthly time frames.
+
+21
+00:01:37,819 --> 00:01:43,630
+What makes this indicator interesting is that
+it is a combination of MACD and fast stochastics
+
+22
+00:01:43,630 --> 00:01:48,929
+with a cycle component and a smoother to capture
+market prices more comprehensively.
+
+23
+00:01:48,929 --> 00:01:52,679
+It’s basically a combination of leading
+and lagging indicators.
+
+24
+00:01:52,679 --> 00:01:58,270
+So let’s discuss the main problems of MACD
+and stochastic.
+
+25
+00:01:58,270 --> 00:02:04,090
+The MACD follows prices with its 12- and 26-period
+exponential moving average (EMA) components
+
+26
+00:02:04,090 --> 00:02:06,210
+and nine-day EMA signal line.
+
+27
+00:02:06,210 --> 00:02:09,170
+In this capacity, it is a trend indicator.
+
+28
+00:02:09,170 --> 00:02:14,970
+Yet it is lagging because it doesn’t always
+lead prices and is prone to false signals
+
+29
+00:02:14,970 --> 00:02:17,300
+especially in fast-moving markets.
+
+30
+00:02:17,300 --> 00:02:24,080
+So you have to adjust the settings to satisfy
+your price and market objectives.
+
+31
+00:02:24,080 --> 00:02:26,510
+The stochastic is also lagging.
+
+32
+00:02:26,510 --> 00:02:31,620
+The problem with stochastic is its ability
+to generate false signals, while markets can
+
+33
+00:02:31,620 --> 00:02:34,540
+take off before signals are generated.
+
+34
+00:02:34,540 --> 00:02:40,460
+Part of the problem with stochastic oscillator
+is its concentration on the 3-day simple moving
+
+35
+00:02:40,460 --> 00:02:42,840
+average as the signal line.
+
+36
+00:02:42,840 --> 00:02:47,630
+False signals and slow reactions are just
+the beginning of problems, especially for
+
+37
+00:02:47,630 --> 00:02:53,410
+short-term and day traders because the three-day
+simple moving average is too short a term
+
+38
+00:02:53,410 --> 00:02:57,570
+to represent fast markets and act as a true
+trigger line.
+
+39
+00:02:57,570 --> 00:03:03,140
+The Schaff trend cycle (STC) indicator tries
+to fix these problems by incorporating a shorter-term
+
+40
+00:03:03,140 --> 00:03:10,090
+EMA set with a default at 23 with a longer-term
+EMA with a default at 50.
+
+41
+00:03:10,090 --> 00:03:13,910
+This remedies the MACD and fast stochastic
+false signal.
+
+42
+00:03:13,910 --> 00:03:18,740
+This combination can be employed to capture
+trends, but it doesn’t incorporate entries
+
+43
+00:03:18,740 --> 00:03:20,670
+and exits fully.
+
+44
+00:03:20,670 --> 00:03:23,430
+To fix this, a signal was needed.
+
+45
+00:03:23,430 --> 00:03:29,380
+The MACD’s nine-day exponential signal line
+was not always effective, while fast stochastic
+
+46
+00:03:29,380 --> 00:03:31,580
+%d signal line was also a failure.
+
+47
+00:03:31,580 --> 00:03:35,180
+You need a true signal that would capture
+a true trend.
+
+48
+00:03:35,180 --> 00:03:40,570
+This came from cycle theory, a theory never
+fully incorporated into an indicator.
+
+49
+00:03:40,570 --> 00:03:47,670
+This signal line was derived from theories
+and practices of 10-, 20-, and 40-day currency
+
+50
+00:03:47,670 --> 00:03:49,000
+cycles.
+
+51
+00:03:49,000 --> 00:03:56,500
+The halfway point between the 23- and 50-day
+EMA is, in cycle theory, 10 so the cycle default
+
+52
+00:03:56,500 --> 00:03:59,160
+is set as a standard 10.
+
+53
+00:03:59,160 --> 00:04:05,130
+But this cycle can also be viewed as a halfway
+point of a 20-day cycle as well.
+
+54
+00:04:05,130 --> 00:04:10,310
+This is the signal line that denotes trends,
+ranges, or congestion.
+
+55
+00:04:10,310 --> 00:04:15,940
+The developer of this indicator considered
+that currency cycles generally come in 10-,
+
+56
+00:04:15,940 --> 00:04:18,459
+20-, and 40-day cycles.
+
+57
+00:04:18,459 --> 00:04:21,199
+These are measured by daily and weekly candlesticks.
+
+58
+00:04:21,199 --> 00:04:27,990
+In addition, you must know that not all highs
+are cycle highs and not all lows are cycle
+
+59
+00:04:27,990 --> 00:04:28,990
+lows.
+
+60
+00:04:28,990 --> 00:04:34,379
+One of the problems with the STC indicator
+is that the signal line can get stuck in overbought
+
+61
+00:04:34,379 --> 00:04:38,030
+or oversold territories for extended periods.
+
+62
+00:04:38,030 --> 00:04:41,199
+This is because cycles haven’t completed
+their time.
+
+63
+00:04:41,199 --> 00:04:45,479
+But, we’ll discuss these problems later.
+
+64
+00:04:45,479 --> 00:04:47,199
+So how does it work?
+
+65
+00:04:47,199 --> 00:04:53,210
+The main idea behind this oscillator is to
+combine the benefits of trend and cycle indicators
+
+66
+00:04:53,210 --> 00:04:57,819
+and minimize their drawbacks such as lags
+or false signals.
+
+67
+00:04:57,819 --> 00:05:03,990
+The main goal of the STC is to identify or
+confirm price direction and market turning
+
+68
+00:05:03,990 --> 00:05:05,099
+points.
+
+69
+00:05:05,099 --> 00:05:07,449
+Here is how to understand its readings.
+
+70
+00:05:07,449 --> 00:05:12,349
+There are two thresholds: 25 and 75.
+
+71
+00:05:12,349 --> 00:05:17,180
+When the indicator crosses above the 25 line,
+an uptrend is observed.
+
+72
+00:05:17,180 --> 00:05:23,610
+When the indicator crosses below the 75 line,
+a downtrend is believed to be present.
+
+73
+00:05:23,610 --> 00:05:29,680
+When the indicator is between the 25 and the
+75 lines, the trend is developing in one of
+
+74
+00:05:29,680 --> 00:05:31,660
+these two directions.
+
+75
+00:05:31,660 --> 00:05:37,620
+When the indicator turns into a straight line
+(which only happens in its uppermost and lowermost
+
+76
+00:05:37,620 --> 00:05:44,461
+points), the asset is either overbought — when
+above the 75 line, or oversold — when below
+
+77
+00:05:44,461 --> 00:05:46,850
+the 25 line.
+
+78
+00:05:46,850 --> 00:05:55,419
+In both cases, a trend reversal can be expected,
+but no exact time timeline is provided.
+
+79
+00:05:55,419 --> 00:05:59,120
+How to apply the STC indicator in trading?
+
+80
+00:05:59,120 --> 00:06:04,740
+The Schaff trend cycle (STC) is a pretty straightforward
+indicator, as there are not so many ways in
+
+81
+00:06:04,740 --> 00:06:06,740
+which it can be used.
+
+82
+00:06:06,740 --> 00:06:12,349
+And remember, though originally designed for
+forex trading, it can be effectively applied
+
+83
+00:06:12,349 --> 00:06:15,550
+to all asset types and on all time frames.
+
+84
+00:06:15,550 --> 00:06:19,689
+Here’s how traders usually use Schaff trend
+cycle.
+
+85
+00:06:19,689 --> 00:06:25,009
+When the indicator goes above the 25 line,
+the trend is believed to be taking a positive
+
+86
+00:06:25,009 --> 00:06:27,380
+turn (according to the indicator).
+
+87
+00:06:27,380 --> 00:06:32,900
+It is when traders consider opening a buy
+position, but only if the confirmation is
+
+88
+00:06:32,900 --> 00:06:33,990
+received.
+
+89
+00:06:33,990 --> 00:06:39,120
+For example, a candle after current one that
+moves in the same direction can be considered
+
+90
+00:06:39,120 --> 00:06:40,680
+a confirmation.
+
+91
+00:06:40,680 --> 00:06:48,090
+Readings of other indicators that go in line
+with STC can also be treated as a confirmation.
+
+92
+00:06:48,090 --> 00:06:51,349
+The same rules apply to negative trends.
+
+93
+00:06:51,349 --> 00:06:57,009
+When the indicator goes below the 75, some
+traders consider opening a sell position,
+
+94
+00:06:57,009 --> 00:06:58,870
+of course with confirmation.
+
+95
+00:06:58,870 --> 00:07:05,039
+STC is a leading indicator, which means that
+it sends a signal before the price move has
+
+96
+00:07:05,039 --> 00:07:06,080
+occurred.
+
+97
+00:07:06,080 --> 00:07:12,410
+It also means that it lacks the accuracy of
+lagging indicators and should be used in conjunction
+
+98
+00:07:12,410 --> 00:07:15,830
+with other technical analysis tools, never
+on its own.
+
+99
+00:07:15,830 --> 00:07:21,949
+So, buy and sell signals are generated when
+the signal line breaches 25 at the bottom
+
+100
+00:07:21,949 --> 00:07:24,610
+and 75 at the top.
+
+101
+00:07:24,610 --> 00:07:30,749
+When the signal line breaches 25 and is heading
+up, this is a possible buy, or a long position,
+
+102
+00:07:30,749 --> 00:07:36,339
+when the signal line breaches 75 and is pointing
+down, this is a potential short.
+
+103
+00:07:36,339 --> 00:07:42,430
+One exit possibility is when the short trade
+hits the bottom and breaches the 25 level
+
+104
+00:07:42,430 --> 00:07:47,360
+and when the long trade hits the top and breaches
+75 level.
+
+105
+00:07:47,360 --> 00:07:51,949
+But if the signal line is pointing in the
+right direction, you may choose to stay in
+
+106
+00:07:51,949 --> 00:07:58,789
+the trade since currencies can easily trend
+to the high 90 level at the top and near zero
+
+107
+00:07:58,789 --> 00:08:00,059
+at the bottom.
+
+108
+00:08:00,059 --> 00:08:04,900
+It is a good idea to find confirmation through
+candles.
+
+109
+00:08:04,900 --> 00:08:10,039
+Before the long position, make sure you have
+an upward candle and a downward candle for
+
+110
+00:08:10,039 --> 00:08:11,039
+shorts.
+
+111
+00:08:11,039 --> 00:08:16,020
+Doug Schaff, the developer of the indicator,
+recommended a confirmation by entering on
+
+112
+00:08:16,020 --> 00:08:22,120
+the second candle up for longs and the second
+candle down for shorts.
+
+113
+00:08:22,120 --> 00:08:27,139
+Simple price action, like paying attention
+at market swings like higher highs and higher
+
+114
+00:08:27,139 --> 00:08:29,710
+lows are even better.
+
+115
+00:08:29,710 --> 00:08:36,380
+Looking at this Tesla chart, we can first
+apply the trend filter, in this case an uptrend,
+
+116
+00:08:36,380 --> 00:08:41,900
+and look to take only buy signals, when the
+indicator breaches 25.
+
+117
+00:08:41,900 --> 00:08:47,050
+We had some decent signals just by paying
+attention to the main trend.
+
+118
+00:08:47,050 --> 00:08:48,350
+The same for a downtrend.
+
+119
+00:08:48,350 --> 00:08:56,610
+We have lower lows and lower highs, so we
+take only shorts when the STC crosses below
+
+120
+00:08:56,610 --> 00:08:58,019
+75.
+
+121
+00:08:58,019 --> 00:09:17,779
+Here are a few trade examples using Schaff
+trend cycle indicator.
+
+122
+00:09:17,779 --> 00:09:21,279
+Settings can be adjusted according to various
+time frames.
+
+123
+00:09:21,279 --> 00:09:28,029
+For example, Schaff recommended you try smaller
+EMAs for longer time frames and longer EMAs
+
+124
+00:09:28,029 --> 00:09:29,860
+for shorter time frames.
+
+125
+00:09:29,860 --> 00:09:35,300
+The smaller the number used for cycles, the
+more turns you will witness while the higher
+
+126
+00:09:35,300 --> 00:09:40,230
+numbers will forecast fewer turns with more
+cycle accuracy.
+
+127
+00:09:40,230 --> 00:09:45,790
+What you want from adjustments is for the
+signal line to perfectly follow prices and
+
+128
+00:09:45,790 --> 00:09:47,290
+candles.
+
+129
+00:09:47,290 --> 00:09:52,280
+While I find this indicator to be reliable
+when the signal is caught correctly, there
+
+130
+00:09:52,280 --> 00:09:53,759
+is one problem.
+
+131
+00:09:53,759 --> 00:09:58,930
+The signal can stay in overbought or oversold
+conditions for extended periods.
+
+132
+00:09:58,930 --> 00:10:04,321
+So you need to have an alternative exit plan,
+maybe a trailing stop, or a fib target, to
+
+133
+00:10:04,321 --> 00:10:07,680
+get the most profit out of your trade.
+
+134
+00:10:07,680 --> 00:10:12,069
+If you and found value and learned something
+new, leave us a like to show your support
+
+135
+00:10:12,069 --> 00:10:17,180
+and make sure you subscribe and hit the bell
+icon to stay notified when we upload new videos.
+
+136
+00:10:17,180 --> 00:10:18,350
+Until next time.
+

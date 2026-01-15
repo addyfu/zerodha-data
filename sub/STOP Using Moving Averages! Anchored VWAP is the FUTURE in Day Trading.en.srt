@@ -1,0 +1,1412 @@
+1
+00:00:00,320 --> 00:00:02,159
+[Music]
+
+2
+00:00:00,719 --> 00:00:04,319
+hello and welcome
+
+3
+00:00:02,159 --> 00:00:06,480
+today we'll look at the anchored view up
+
+4
+00:00:04,319 --> 00:00:08,960
+we'll cover its features as well as
+
+5
+00:00:06,480 --> 00:00:11,360
+discuss how they're useful to trading
+
+6
+00:00:08,960 --> 00:00:13,280
+and additionally we'll reveal several
+
+7
+00:00:11,360 --> 00:00:16,880
+strategies you could apply for day
+
+8
+00:00:13,280 --> 00:00:19,760
+trading sculpting and even swing trading
+
+9
+00:00:16,880 --> 00:00:21,600
+so if you could like subscribe to the
+
+10
+00:00:19,760 --> 00:00:23,439
+channel and stick around for the full
+
+11
+00:00:21,600 --> 00:00:25,359
+video
+
+12
+00:00:23,439 --> 00:00:27,519
+i'm using trading view and you can find
+
+13
+00:00:25,359 --> 00:00:30,400
+the anchored view app right here
+
+14
+00:00:27,519 --> 00:00:31,359
+trendline tools open the menu and there
+
+15
+00:00:30,400 --> 00:00:33,680
+it is
+
+16
+00:00:31,359 --> 00:00:35,840
+you can add it to your favorites it goes
+
+17
+00:00:33,680 --> 00:00:38,960
+into your toolbar and it will be right
+
+18
+00:00:35,840 --> 00:00:40,399
+there on your chart at all times
+
+19
+00:00:38,960 --> 00:00:41,600
+so what is the anchored view up
+
+20
+00:00:40,399 --> 00:00:43,840
+indicator
+
+21
+00:00:41,600 --> 00:00:46,559
+the anchored view up ties view up
+
+22
+00:00:43,840 --> 00:00:48,239
+calculations to a specific price bar
+
+23
+00:00:46,559 --> 00:00:50,640
+chosen by the trader
+
+24
+00:00:48,239 --> 00:00:53,039
+traditional view app calculations always
+
+25
+00:00:50,640 --> 00:00:55,600
+start with the first bar of the day and
+
+26
+00:00:53,039 --> 00:00:57,920
+end with the final bar of the day
+
+27
+00:00:55,600 --> 00:01:00,239
+but in some situations you would prefer
+
+28
+00:00:57,920 --> 00:01:02,399
+to analyze the view up line based on a
+
+29
+00:01:00,239 --> 00:01:04,879
+less arbitrary starting point
+
+30
+00:01:02,399 --> 00:01:07,200
+and be able to extend that view up line
+
+31
+00:01:04,879 --> 00:01:09,520
+beyond the end of the trading day
+
+32
+00:01:07,200 --> 00:01:12,400
+anchored view up allows you to specify
+
+33
+00:01:09,520 --> 00:01:14,720
+the price bar where calculations begin
+
+34
+00:01:12,400 --> 00:01:17,119
+making it easy to see whether the bulls
+
+35
+00:01:14,720 --> 00:01:19,920
+or bears have been in charge since a
+
+36
+00:01:17,119 --> 00:01:21,920
+very specific point in time
+
+37
+00:01:19,920 --> 00:01:24,159
+the price level represented by the
+
+38
+00:01:21,920 --> 00:01:27,040
+anchored view up is important because it
+
+39
+00:01:24,159 --> 00:01:29,040
+serves as a benchmark when large orders
+
+40
+00:01:27,040 --> 00:01:30,799
+are executed by banks and large
+
+41
+00:01:29,040 --> 00:01:32,880
+financial institutions
+
+42
+00:01:30,799 --> 00:01:35,520
+they will be executed over a period of
+
+43
+00:01:32,880 --> 00:01:37,520
+time to minimize market impact
+
+44
+00:01:35,520 --> 00:01:39,759
+the benchmark price for the execution
+
+45
+00:01:37,520 --> 00:01:42,000
+period is the view up
+
+46
+00:01:39,759 --> 00:01:44,799
+banks and large traders have developed
+
+47
+00:01:42,000 --> 00:01:46,960
+sophisticated order execution algorithms
+
+48
+00:01:44,799 --> 00:01:50,320
+in order to achieve an average price
+
+49
+00:01:46,960 --> 00:01:53,119
+equivalent to or better than the view up
+
+50
+00:01:50,320 --> 00:01:55,840
+on an up trending day such algorithms
+
+51
+00:01:53,119 --> 00:01:57,840
+will issue buy orders when price drops
+
+52
+00:01:55,840 --> 00:02:00,000
+below the view up to take advantage of
+
+53
+00:01:57,840 --> 00:02:01,920
+prices below the average
+
+54
+00:02:00,000 --> 00:02:04,079
+on a down trending day
+
+55
+00:02:01,920 --> 00:02:06,240
+the same algorithms will issue sell
+
+56
+00:02:04,079 --> 00:02:08,560
+orders when the price breaks above the
+
+57
+00:02:06,240 --> 00:02:10,800
+view up to take advantage of the prices
+
+58
+00:02:08,560 --> 00:02:13,040
+above the average
+
+59
+00:02:10,800 --> 00:02:15,280
+anchored view up is better than the
+
+60
+00:02:13,040 --> 00:02:17,599
+traditional view up indicator
+
+61
+00:02:15,280 --> 00:02:20,080
+with traditional view up the calculation
+
+62
+00:02:17,599 --> 00:02:22,319
+starts with the first bar of the day and
+
+63
+00:02:20,080 --> 00:02:24,640
+ends with the last bar of the day
+
+64
+00:02:22,319 --> 00:02:27,440
+because it only incorporates one trading
+
+65
+00:02:24,640 --> 00:02:29,760
+day of data traditional v web can only
+
+66
+00:02:27,440 --> 00:02:32,160
+be used on intraday charts
+
+67
+00:02:29,760 --> 00:02:32,959
+with anchored view up you choose a first
+
+68
+00:02:32,160 --> 00:02:34,879
+bar
+
+69
+00:02:32,959 --> 00:02:35,680
+you are anchoring the indicator to the
+
+70
+00:02:34,879 --> 00:02:37,680
+bar
+
+71
+00:02:35,680 --> 00:02:39,360
+and the last bar is always the most
+
+72
+00:02:37,680 --> 00:02:41,760
+recent bar available
+
+73
+00:02:39,360 --> 00:02:43,920
+you have full control you get flexible
+
+74
+00:02:41,760 --> 00:02:46,640
+starting and ending points
+
+75
+00:02:43,920 --> 00:02:49,519
+because of this anchored view up is not
+
+76
+00:02:46,640 --> 00:02:51,599
+limited to intraday charts
+
+77
+00:02:49,519 --> 00:02:52,720
+so how to trade using the anchored view
+
+78
+00:02:51,599 --> 00:02:54,720
+up
+
+79
+00:02:52,720 --> 00:02:57,680
+a good strategy is to look for key
+
+80
+00:02:54,720 --> 00:03:00,560
+events or turning points or moments in
+
+81
+00:02:57,680 --> 00:03:02,879
+the price history to anchor the view up
+
+82
+00:03:00,560 --> 00:03:06,640
+in this case we're looking at the chart
+
+83
+00:03:02,879 --> 00:03:08,640
+of netflix and this is the corona crash
+
+84
+00:03:06,640 --> 00:03:10,800
+we should anchor the view up to this low
+
+85
+00:03:08,640 --> 00:03:12,560
+price of the crash because you know
+
+86
+00:03:10,800 --> 00:03:13,440
+there was a massive exchange of hands
+
+87
+00:03:12,560 --> 00:03:15,440
+here
+
+88
+00:03:13,440 --> 00:03:17,360
+look at the volume spikes
+
+89
+00:03:15,440 --> 00:03:19,680
+at this point something really big
+
+90
+00:03:17,360 --> 00:03:22,159
+happened there were tons of buyers and
+
+91
+00:03:19,680 --> 00:03:24,319
+sellers lots of volatility
+
+92
+00:03:22,159 --> 00:03:25,519
+so this looks like a good point in time
+
+93
+00:03:24,319 --> 00:03:28,239
+to anchor
+
+94
+00:03:25,519 --> 00:03:30,400
+let's click the scandal the absolute low
+
+95
+00:03:28,239 --> 00:03:32,560
+and there's our anchor view up
+
+96
+00:03:30,400 --> 00:03:35,360
+and now we see a few things
+
+97
+00:03:32,560 --> 00:03:37,599
+for one the bulls are in control the
+
+98
+00:03:35,360 --> 00:03:39,920
+price traded consistently above the
+
+99
+00:03:37,599 --> 00:03:42,720
+anchored view up and that is a bullish
+
+100
+00:03:39,920 --> 00:03:45,120
+sign most of the buying on average has
+
+101
+00:03:42,720 --> 00:03:47,120
+occurred above the line
+
+102
+00:03:45,120 --> 00:03:50,080
+the most common strategy using the
+
+103
+00:03:47,120 --> 00:03:52,560
+anchored view up is the pullback trade
+
+104
+00:03:50,080 --> 00:03:55,120
+a pullback occurs when a price that's on
+
+105
+00:03:52,560 --> 00:03:56,879
+an extended move upward or downward
+
+106
+00:03:55,120 --> 00:03:58,959
+makes a small movement in the opposite
+
+107
+00:03:56,879 --> 00:04:01,280
+direction toward the end card view
+
+108
+00:03:58,959 --> 00:04:04,159
+upline pullbacks are a common price
+
+109
+00:04:01,280 --> 00:04:06,720
+movement especially in heavy trends
+
+110
+00:04:04,159 --> 00:04:09,120
+to trade a pullback setup you find an
+
+111
+00:04:06,720 --> 00:04:10,400
+uptrend with price making higher highs
+
+112
+00:04:09,120 --> 00:04:12,480
+and higher lows
+
+113
+00:04:10,400 --> 00:04:15,040
+price trades of course above the
+
+114
+00:04:12,480 --> 00:04:16,799
+anchored view up and you patiently wait
+
+115
+00:04:15,040 --> 00:04:17,919
+for the price to make a pullback to the
+
+116
+00:04:16,799 --> 00:04:20,079
+downside
+
+117
+00:04:17,919 --> 00:04:23,040
+returning to the view up line
+
+118
+00:04:20,079 --> 00:04:25,360
+this is a chance to buy the stock
+
+119
+00:04:23,040 --> 00:04:27,919
+another strategy is to look for moments
+
+120
+00:04:25,360 --> 00:04:29,759
+of euphoria where the distance between
+
+121
+00:04:27,919 --> 00:04:31,759
+the anchored view up and the current
+
+122
+00:04:29,759 --> 00:04:34,800
+price is very high
+
+123
+00:04:31,759 --> 00:04:37,120
+and you trade a reversion to the mean
+
+124
+00:04:34,800 --> 00:04:39,840
+for example let's use our price range
+
+125
+00:04:37,120 --> 00:04:42,720
+tool to measure the distance between the
+
+126
+00:04:39,840 --> 00:04:45,120
+anchored view up and the actual price
+
+127
+00:04:42,720 --> 00:04:47,759
+so if we measure the distance between
+
+128
+00:04:45,120 --> 00:04:52,080
+the anchored view upline and this high
+
+129
+00:04:47,759 --> 00:04:54,560
+it's 17 higher almost 84 dollars
+
+130
+00:04:52,080 --> 00:04:57,759
+in some cases this percentage will be
+
+131
+00:04:54,560 --> 00:05:01,199
+even higher generally it's best to avoid
+
+132
+00:04:57,759 --> 00:05:03,360
+buying when price is overextended
+
+133
+00:05:01,199 --> 00:05:05,199
+if you are adventurous you could try a
+
+134
+00:05:03,360 --> 00:05:07,360
+reversion to the mean
+
+135
+00:05:05,199 --> 00:05:10,479
+let's add another anchored view up at
+
+136
+00:05:07,360 --> 00:05:13,199
+this year's high right here starting
+
+137
+00:05:10,479 --> 00:05:15,039
+january till april price was traded
+
+138
+00:05:13,199 --> 00:05:17,759
+below this view upline
+
+139
+00:05:15,039 --> 00:05:19,919
+we were also in a clear trading range
+
+140
+00:05:17,759 --> 00:05:22,240
+so the best approach is to sell at the
+
+141
+00:05:19,919 --> 00:05:23,680
+top of the range and buy at the bottom
+
+142
+00:05:22,240 --> 00:05:26,000
+of it
+
+143
+00:05:23,680 --> 00:05:27,039
+when price dipped below the second view
+
+144
+00:05:26,000 --> 00:05:29,440
+upline
+
+145
+00:05:27,039 --> 00:05:31,840
+perhaps this was a time to short or to
+
+146
+00:05:29,440 --> 00:05:34,960
+reduce your existing positions to take
+
+147
+00:05:31,840 --> 00:05:37,520
+some risk off or just to reevaluate and
+
+148
+00:05:34,960 --> 00:05:40,639
+have some patience until price returns
+
+149
+00:05:37,520 --> 00:05:43,280
+to the lower anchored view up
+
+150
+00:05:40,639 --> 00:05:45,360
+so how to read the anchored view up
+
+151
+00:05:43,280 --> 00:05:47,919
+the anchored view upline can be used to
+
+152
+00:05:45,360 --> 00:05:50,639
+confirm trends and identify areas of
+
+153
+00:05:47,919 --> 00:05:52,960
+support and resistance on the chart
+
+154
+00:05:50,639 --> 00:05:55,199
+as you saw before the advantage of using
+
+155
+00:05:52,960 --> 00:05:57,600
+this line is that you can set your own
+
+156
+00:05:55,199 --> 00:05:59,919
+starting point in order to include only
+
+157
+00:05:57,600 --> 00:06:02,080
+relevant data on your chart
+
+158
+00:05:59,919 --> 00:06:04,400
+typically you must choose a particular
+
+159
+00:06:02,080 --> 00:06:05,440
+event as the starting price bar for the
+
+160
+00:06:04,400 --> 00:06:07,440
+overlay
+
+161
+00:06:05,440 --> 00:06:09,600
+these events generally must signal a
+
+162
+00:06:07,440 --> 00:06:11,919
+change in market psychology and the
+
+163
+00:06:09,600 --> 00:06:14,720
+price action prior to that change should
+
+164
+00:06:11,919 --> 00:06:16,319
+be excluded from the calculations since
+
+165
+00:06:14,720 --> 00:06:18,160
+it doesn't reflect the same market
+
+166
+00:06:16,319 --> 00:06:20,560
+psychology
+
+167
+00:06:18,160 --> 00:06:23,120
+the previous example was more of a swing
+
+168
+00:06:20,560 --> 00:06:25,120
+trading approach which i prefer
+
+169
+00:06:23,120 --> 00:06:26,479
+but what if you prefer day trading or
+
+170
+00:06:25,120 --> 00:06:29,120
+sculpting
+
+171
+00:06:26,479 --> 00:06:31,600
+in this tesla one minute chart the view
+
+172
+00:06:29,120 --> 00:06:32,400
+up line in blue is based on the opening
+
+173
+00:06:31,600 --> 00:06:35,199
+bar
+
+174
+00:06:32,400 --> 00:06:37,360
+while the anchored view upline in red is
+
+175
+00:06:35,199 --> 00:06:39,759
+set at the low of the morning
+
+176
+00:06:37,360 --> 00:06:42,479
+the traditional view upline includes
+
+177
+00:06:39,759 --> 00:06:44,160
+data for the first 30 minutes of trading
+
+178
+00:06:42,479 --> 00:06:46,479
+as well as the drop to the low of the
+
+179
+00:06:44,160 --> 00:06:48,400
+day making for a view upline that
+
+180
+00:06:46,479 --> 00:06:49,759
+doesn't quite reflect the price action
+
+181
+00:06:48,400 --> 00:06:52,000
+at the midday
+
+182
+00:06:49,759 --> 00:06:54,479
+the red anchored view upline includes
+
+183
+00:06:52,000 --> 00:06:56,639
+only data since reaching the low and
+
+184
+00:06:54,479 --> 00:06:58,479
+more accurately reflects the midday
+
+185
+00:06:56,639 --> 00:07:00,960
+market psychology
+
+186
+00:06:58,479 --> 00:07:02,880
+if your strategy was to buy dips at the
+
+187
+00:07:00,960 --> 00:07:05,199
+view upline you could see why the
+
+188
+00:07:02,880 --> 00:07:06,639
+anchored line was much better than the
+
+189
+00:07:05,199 --> 00:07:08,240
+standard one
+
+190
+00:07:06,639 --> 00:07:11,199
+i can see at least two buying
+
+191
+00:07:08,240 --> 00:07:13,680
+opportunities using the anchored view up
+
+192
+00:07:11,199 --> 00:07:16,240
+trades which weren't so obvious if you
+
+193
+00:07:13,680 --> 00:07:18,960
+use the normal view up
+
+194
+00:07:16,240 --> 00:07:21,120
+now as i said the starting price bar
+
+195
+00:07:18,960 --> 00:07:23,199
+that you choose must mark a shift in
+
+196
+00:07:21,120 --> 00:07:25,440
+market psychology it must be an
+
+197
+00:07:23,199 --> 00:07:27,599
+important event or turning point in the
+
+198
+00:07:25,440 --> 00:07:29,360
+market you're not going to add it in the
+
+199
+00:07:27,599 --> 00:07:32,000
+middle of price action
+
+200
+00:07:29,360 --> 00:07:33,840
+it must be in obvious places where other
+
+201
+00:07:32,000 --> 00:07:36,880
+traders would place it
+
+202
+00:07:33,840 --> 00:07:39,199
+think about it if more traders see the
+
+203
+00:07:36,880 --> 00:07:41,360
+same point meaning they apply the
+
+204
+00:07:39,199 --> 00:07:43,840
+anchored view up on the same location
+
+205
+00:07:41,360 --> 00:07:46,160
+the more chances you will get a reaction
+
+206
+00:07:43,840 --> 00:07:48,400
+when the price returns to it
+
+207
+00:07:46,160 --> 00:07:51,599
+so let's showcase the most important
+
+208
+00:07:48,400 --> 00:07:54,960
+starting points to apply the line
+
+209
+00:07:51,599 --> 00:07:57,199
+first the highest volume candle
+
+210
+00:07:54,960 --> 00:07:59,680
+high volume means there's an interest in
+
+211
+00:07:57,199 --> 00:08:01,520
+the asset whether it's a stock currency
+
+212
+00:07:59,680 --> 00:08:03,520
+pair or other market
+
+213
+00:08:01,520 --> 00:08:05,680
+and if it's combined with a move higher
+
+214
+00:08:03,520 --> 00:08:08,160
+in price then it's often used as a
+
+215
+00:08:05,680 --> 00:08:10,319
+signal of strong upward momentum
+
+216
+00:08:08,160 --> 00:08:11,919
+keeping an eye on volume will ensure
+
+217
+00:08:10,319 --> 00:08:13,360
+that you are on the right side of the
+
+218
+00:08:11,919 --> 00:08:15,599
+trade
+
+219
+00:08:13,360 --> 00:08:16,560
+so here's amd on the 15 minute time
+
+220
+00:08:15,599 --> 00:08:18,000
+frame
+
+221
+00:08:16,560 --> 00:08:19,440
+here's the highest volume in the
+
+222
+00:08:18,000 --> 00:08:22,160
+previous week
+
+223
+00:08:19,440 --> 00:08:24,400
+we added the anchored view up and online
+
+224
+00:08:22,160 --> 00:08:26,879
+immediately offered two opportunities to
+
+225
+00:08:24,400 --> 00:08:29,360
+buy the dip this is more of a day
+
+226
+00:08:26,879 --> 00:08:31,759
+trading and sculping approach you go
+
+227
+00:08:29,360 --> 00:08:34,320
+with the flow of the highest volume and
+
+228
+00:08:31,759 --> 00:08:36,240
+try to catch another swing to the upside
+
+229
+00:08:34,320 --> 00:08:38,080
+when price comes back to the anchored
+
+230
+00:08:36,240 --> 00:08:41,680
+view up
+
+231
+00:08:38,080 --> 00:08:44,000
+second a major swing high or low
+
+232
+00:08:41,680 --> 00:08:46,480
+many view of trading strategies involve
+
+233
+00:08:44,000 --> 00:08:48,000
+looking for the best prices to enter or
+
+234
+00:08:46,480 --> 00:08:50,320
+looking for value
+
+235
+00:08:48,000 --> 00:08:52,880
+to help us find areas of value to look
+
+236
+00:08:50,320 --> 00:08:56,160
+for potential traits we need to identify
+
+237
+00:08:52,880 --> 00:08:58,160
+potential swing highs and swing lows
+
+238
+00:08:56,160 --> 00:09:00,880
+these are important levels used by
+
+239
+00:08:58,160 --> 00:09:03,120
+traders to hunt reversal trades
+
+240
+00:09:00,880 --> 00:09:05,440
+but if we add the anchored view up to
+
+241
+00:09:03,120 --> 00:09:07,760
+them we will see some hidden support and
+
+242
+00:09:05,440 --> 00:09:09,440
+resistance areas which are invisible to
+
+243
+00:09:07,760 --> 00:09:11,519
+novice traders
+
+244
+00:09:09,440 --> 00:09:13,040
+look how price reacted to the anchored
+
+245
+00:09:11,519 --> 00:09:15,360
+view appliance
+
+246
+00:09:13,040 --> 00:09:17,839
+the first pullback after we applied the
+
+247
+00:09:15,360 --> 00:09:19,440
+line on the swing low was a perfect
+
+248
+00:09:17,839 --> 00:09:21,600
+bounce trade
+
+249
+00:09:19,440 --> 00:09:24,000
+and again when we applied the anchored
+
+250
+00:09:21,600 --> 00:09:27,360
+view up to the high the first pullback
+
+251
+00:09:24,000 --> 00:09:30,080
+to it was again a great short trade
+
+252
+00:09:27,360 --> 00:09:32,000
+this is useful mostly for swing trading
+
+253
+00:09:30,080 --> 00:09:34,640
+but you could also use this strategy for
+
+254
+00:09:32,000 --> 00:09:38,480
+day trading and scoping if you apply the
+
+255
+00:09:34,640 --> 00:09:40,160
+anchored view up on intraday swings
+
+256
+00:09:38,480 --> 00:09:43,120
+third anchor point
+
+257
+00:09:40,160 --> 00:09:47,040
+earnings report for stock trading or
+
+258
+00:09:43,120 --> 00:09:48,880
+non-farm payroll for forex trading
+
+259
+00:09:47,040 --> 00:09:51,600
+the earnings season is the most
+
+260
+00:09:48,880 --> 00:09:53,760
+interesting period for any stock trader
+
+261
+00:09:51,600 --> 00:09:55,680
+it comes after every three months when
+
+262
+00:09:53,760 --> 00:09:56,720
+companies release their quarterly
+
+263
+00:09:55,680 --> 00:09:58,640
+earnings
+
+264
+00:09:56,720 --> 00:10:00,959
+this is when a company tells you how
+
+265
+00:09:58,640 --> 00:10:02,079
+much money they earned if they beat the
+
+266
+00:10:00,959 --> 00:10:03,600
+estimates
+
+267
+00:10:02,079 --> 00:10:05,360
+this is the period when the market
+
+268
+00:10:03,600 --> 00:10:07,440
+sentiment can change
+
+269
+00:10:05,360 --> 00:10:10,240
+so we should track those periods to
+
+270
+00:10:07,440 --> 00:10:12,320
+apply our anchored view up
+
+271
+00:10:10,240 --> 00:10:14,079
+here we applied two lines on the
+
+272
+00:10:12,320 --> 00:10:16,320
+previous earnings
+
+273
+00:10:14,079 --> 00:10:18,959
+after the first one we see a clear
+
+274
+00:10:16,320 --> 00:10:21,200
+trading range with price moving above
+
+275
+00:10:18,959 --> 00:10:23,120
+and below the line although the price
+
+276
+00:10:21,200 --> 00:10:24,720
+dipped above and below the line it
+
+277
+00:10:23,120 --> 00:10:26,000
+clearly offered good support and
+
+278
+00:10:24,720 --> 00:10:28,079
+resistance
+
+279
+00:10:26,000 --> 00:10:30,560
+the view up line remained flat during
+
+280
+00:10:28,079 --> 00:10:32,880
+this time so no aggressive movements
+
+281
+00:10:30,560 --> 00:10:34,959
+happened during this period
+
+282
+00:10:32,880 --> 00:10:37,200
+after the second earning report the
+
+283
+00:10:34,959 --> 00:10:39,760
+sentiment shifted to bullish
+
+284
+00:10:37,200 --> 00:10:42,000
+price stayed well above the line
+
+285
+00:10:39,760 --> 00:10:44,240
+this technique is useful mainly for
+
+286
+00:10:42,000 --> 00:10:46,640
+swing trading but you could also use it
+
+287
+00:10:44,240 --> 00:10:49,120
+for day trading when the price is near
+
+288
+00:10:46,640 --> 00:10:50,320
+the anchored view upline
+
+289
+00:10:49,120 --> 00:10:53,440
+number 4
+
+290
+00:10:50,320 --> 00:10:55,120
+year to date previous month or previous
+
+291
+00:10:53,440 --> 00:10:57,120
+week
+
+292
+00:10:55,120 --> 00:10:59,440
+you can actually anchor the view up to
+
+293
+00:10:57,120 --> 00:11:00,640
+big starting dates it's easy if you use
+
+294
+00:10:59,440 --> 00:11:03,440
+trading view
+
+295
+00:11:00,640 --> 00:11:05,760
+you just click year-to-date down here
+
+296
+00:11:03,440 --> 00:11:08,640
+then you select the anchor the view up
+
+297
+00:11:05,760 --> 00:11:11,200
+and you apply it on the first candle
+
+298
+00:11:08,640 --> 00:11:13,600
+if you're a swing trader or investor you
+
+299
+00:11:11,200 --> 00:11:16,240
+pay close attention to this line
+
+300
+00:11:13,600 --> 00:11:18,800
+when price will revisit the area it can
+
+301
+00:11:16,240 --> 00:11:21,120
+potentially bounce off it
+
+302
+00:11:18,800 --> 00:11:23,600
+if you like to day trade you select one
+
+303
+00:11:21,120 --> 00:11:25,519
+month and you add the anchored view up
+
+304
+00:11:23,600 --> 00:11:27,440
+on the first scandal
+
+305
+00:11:25,519 --> 00:11:29,360
+look how the line offered at least two
+
+306
+00:11:27,440 --> 00:11:31,360
+trades during the month
+
+307
+00:11:29,360 --> 00:11:33,839
+one buy position here
+
+308
+00:11:31,360 --> 00:11:35,760
+when the price broke above the line and
+
+309
+00:11:33,839 --> 00:11:38,240
+retested the area
+
+310
+00:11:35,760 --> 00:11:39,839
+basically the first pullback after the
+
+311
+00:11:38,240 --> 00:11:42,640
+view up breakout
+
+312
+00:11:39,839 --> 00:11:44,160
+and the second one here again a first
+
+313
+00:11:42,640 --> 00:11:46,160
+pullback trade
+
+314
+00:11:44,160 --> 00:11:48,240
+price broke below the anchored view up
+
+315
+00:11:46,160 --> 00:11:50,480
+line quite aggressively
+
+316
+00:11:48,240 --> 00:11:52,639
+returned to the line and rejected the
+
+317
+00:11:50,480 --> 00:11:55,360
+line once again
+
+318
+00:11:52,639 --> 00:11:58,480
+and if you select 5 days and apply the
+
+319
+00:11:55,360 --> 00:12:00,560
+view up you get data from the past week
+
+320
+00:11:58,480 --> 00:12:02,880
+past five trading days
+
+321
+00:12:00,560 --> 00:12:03,839
+again you can see several by the deep
+
+322
+00:12:02,880 --> 00:12:05,920
+trades
+
+323
+00:12:03,839 --> 00:12:08,480
+around the line
+
+324
+00:12:05,920 --> 00:12:11,040
+i firmly believe that the anchor view up
+
+325
+00:12:08,480 --> 00:12:13,360
+can provide invaluable insights into the
+
+326
+00:12:11,040 --> 00:12:15,200
+sentiment of the market you are trading
+
+327
+00:12:13,360 --> 00:12:18,160
+the anchored view up is the perfect
+
+328
+00:12:15,200 --> 00:12:20,560
+combination of price volume and time
+
+329
+00:12:18,160 --> 00:12:22,720
+and you have full control you apply it
+
+330
+00:12:20,560 --> 00:12:25,360
+on any point you want on the chart
+
+331
+00:12:22,720 --> 00:12:27,760
+because of its dynamic properties the
+
+332
+00:12:25,360 --> 00:12:30,079
+anchored view up can be analyzed in ways
+
+333
+00:12:27,760 --> 00:12:32,959
+like a traditional moving average
+
+334
+00:12:30,079 --> 00:12:35,120
+so pay extra attention to the direction
+
+335
+00:12:32,959 --> 00:12:38,079
+and slope of the view up
+
+336
+00:12:35,120 --> 00:12:40,800
+or how far above or below price action
+
+337
+00:12:38,079 --> 00:12:43,760
+is in relation to the view up
+
+338
+00:12:40,800 --> 00:12:46,800
+so experiment with various anchor points
+
+339
+00:12:43,760 --> 00:12:49,600
+in your targeted markets crypto stocks
+
+340
+00:12:46,800 --> 00:12:52,399
+forex on different time frames and you
+
+341
+00:12:49,600 --> 00:12:55,200
+will immediately recognize its value
+
+342
+00:12:52,399 --> 00:12:58,000
+as a standalone study or in combination
+
+343
+00:12:55,200 --> 00:13:00,079
+with other oscillators and indicators i
+
+344
+00:12:58,000 --> 00:13:02,160
+think the anchor view up is likely to
+
+345
+00:13:00,079 --> 00:13:03,600
+become one of your favorite trading
+
+346
+00:13:02,160 --> 00:13:05,440
+tools
+
+347
+00:13:03,600 --> 00:13:08,160
+if you found value and learn something
+
+348
+00:13:05,440 --> 00:13:10,079
+new give us a like and subscribe this
+
+349
+00:13:08,160 --> 00:13:11,760
+way we'll know if you'd like to see more
+
+350
+00:13:10,079 --> 00:13:14,000
+videos like this one
+
+351
+00:13:11,760 --> 00:13:17,279
+and check out our academy program if you
+
+352
+00:13:14,000 --> 00:13:20,760
+want to further level up your trading
+
+353
+00:13:17,279 --> 00:13:20,760
+until next time
+

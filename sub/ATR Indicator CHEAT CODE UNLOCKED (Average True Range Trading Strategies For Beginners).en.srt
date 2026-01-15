@@ -1,0 +1,727 @@
+1
+00:00:00,789 --> 00:00:04,740
+The average true range is a great tool, when
+it comes to adapting to the ever-changing
+
+2
+00:00:04,740 --> 00:00:09,210
+market environment, being a useful indicator
+in measuring volatility.
+
+3
+00:00:09,210 --> 00:00:13,560
+The average true range measures the price
+range of an asset – the higher the volatility
+
+4
+00:00:13,560 --> 00:00:14,929
+the higher the ATR.
+
+5
+00:00:14,929 --> 00:00:18,820
+The average true range is one of the most
+useful indicators because it helps the trader
+
+6
+00:00:18,820 --> 00:00:23,550
+deciding on where will set a stop loss or
+profit target, or if he even should open a
+
+7
+00:00:23,550 --> 00:00:24,950
+trade in the first place.
+
+8
+00:00:24,950 --> 00:00:30,360
+The ATR is measured as the greatest of any
+of the following 3 metrics:
+
+9
+00:00:30,360 --> 00:00:33,090
+• the value of the current high minus the
+low;
+
+10
+00:00:33,090 --> 00:00:36,520
+• the distance of the current high minus
+the previous close;
+
+11
+00:00:36,520 --> 00:00:41,090
+• the distance of the current low minus
+the previous close
+
+12
+00:00:41,090 --> 00:00:45,240
+Despite the fact the Average True Range is
+not so common among traders, this indicator
+
+13
+00:00:45,240 --> 00:00:48,350
+can assist them in entering and exiting trades.
+
+14
+00:00:48,350 --> 00:00:53,620
+The ATR indicator moves up and down as price
+movements become larger or smaller.
+
+15
+00:00:53,620 --> 00:00:57,440
+A new ATR reading is calculated as each time
+period passes.
+
+16
+00:00:57,440 --> 00:01:02,170
+On a one-minute chart, a new ATR reading is
+calculated every minute.
+
+17
+00:01:02,170 --> 00:01:05,710
+On a daily chart, a new ATR is calculated
+every day.
+
+18
+00:01:05,710 --> 00:01:10,960
+All these readings are plotted to form a continuous
+line, so traders can see how volatility has
+
+19
+00:01:10,960 --> 00:01:12,820
+changed over time.
+
+20
+00:01:12,820 --> 00:01:18,350
+An asset’s range is the difference between
+the highest price and lowest price on a given
+
+21
+00:01:18,350 --> 00:01:19,350
+day.
+
+22
+00:01:19,350 --> 00:01:23,780
+The Average True Range reveals information
+about how volatile the asset actually is.
+
+23
+00:01:23,780 --> 00:01:29,460
+High ranges reveal high volatility while small
+ranges suggest low volatility.
+
+24
+00:01:29,460 --> 00:01:32,640
+The average true range (ATR) is basically
+an exponential moving average of the true
+
+25
+00:01:32,640 --> 00:01:33,940
+range.
+
+26
+00:01:33,940 --> 00:01:37,780
+Most common settings of this indicator are
+the 14-day ATR.
+
+27
+00:01:37,780 --> 00:01:42,640
+Depending on their trading objectives or the
+time frames, traders can use shorter or longer
+
+28
+00:01:42,640 --> 00:01:45,630
+inputs of the ATR.
+
+29
+00:01:45,630 --> 00:01:49,909
+longer ATR will be slower and will generate
+fewer trading signals
+
+30
+00:01:49,909 --> 00:01:54,970
+shorter ATR will generate a higher number
+of trading signals and will increase trading
+
+31
+00:01:54,970 --> 00:01:57,299
+activity
+For example:
+
+32
+00:01:57,299 --> 00:02:02,170
+An average true range of only 5 periods would
+not offer a large enough sample to generate
+
+33
+00:02:02,170 --> 00:02:05,630
+an accurate indication of the true range of
+the security
+
+34
+00:02:05,630 --> 00:02:09,979
+An average true range of 50 periods would
+generate a more smooth average true range
+
+35
+00:02:09,979 --> 00:02:14,340
+on the chart, with fewer and possibly high-quality
+signals.
+
+36
+00:02:14,340 --> 00:02:19,790
+Let’s assume that you are using a swing
+trading strategy and you’re using an ATR
+
+37
+00:02:19,790 --> 00:02:21,680
+with a 50-period input.
+
+38
+00:02:21,680 --> 00:02:26,029
+You should keep in mind that if you’re trading
+on the daily chart, the ATR indicator will
+
+39
+00:02:26,029 --> 00:02:30,120
+indicate the average volatility over the past
+50 days.
+
+40
+00:02:30,120 --> 00:02:35,450
+However, if you’re trading on the H4 chart,
+the ATR indicator will display the average
+
+41
+00:02:35,450 --> 00:02:39,129
+volatility over the past 50 H4 candles.
+
+42
+00:02:39,129 --> 00:02:46,360
+So ATR’s value differs from time frame to
+time frame, is not a unique value.
+
+43
+00:02:46,360 --> 00:02:52,079
+How To Read Average True Range Indicator
+First, ATR represents a range indicator for
+
+44
+00:02:52,079 --> 00:02:56,150
+filtering out trades
+If you prefer volatile markets or if your
+
+45
+00:02:56,150 --> 00:03:01,430
+trading strategy is based on huge market moves,
+then ATR can filter out markets that are low
+
+46
+00:03:01,430 --> 00:03:03,230
+in volatility.
+
+47
+00:03:03,230 --> 00:03:07,269
+Even if you prefer calm, quiet markets the
+average true range indicator will help you
+
+48
+00:03:07,269 --> 00:03:11,329
+to filter out those periods of times that
+you would prefer to avoid.
+
+49
+00:03:11,329 --> 00:03:15,829
+It is important to remember that the ATR does
+not measure the market direction.
+
+50
+00:03:15,829 --> 00:03:20,909
+By tracking the average true range, a trader
+cannot identify the prevailing trend on the
+
+51
+00:03:20,909 --> 00:03:21,909
+market.
+
+52
+00:03:21,909 --> 00:03:26,480
+The ATR only tracks the magnitude of range,
+so it has limited use for generating accurate
+
+53
+00:03:26,480 --> 00:03:27,480
+trading signals.
+
+54
+00:03:27,480 --> 00:03:32,650
+It’s a useful indicator only for giving
+an idea about how much the price may move
+
+55
+00:03:32,650 --> 00:03:35,810
+in a defined time frame.
+
+56
+00:03:35,810 --> 00:03:39,040
+Assume a stock moves $1 a day, on average.
+
+57
+00:03:39,040 --> 00:03:43,879
+There is no significant news out, but price
+has already moved let’s say 30% more than
+
+58
+00:03:43,879 --> 00:03:47,980
+the average, and now you're getting a buy
+signal from a strategy.
+
+59
+00:03:47,980 --> 00:03:52,430
+The buy signal may be valid but, since the
+price has already moved significantly more
+
+60
+00:03:52,430 --> 00:03:56,959
+than average, betting that the price will
+continue to go up and expand the range even
+
+61
+00:03:56,959 --> 00:03:59,489
+further may not be a prudent decision.
+
+62
+00:03:59,489 --> 00:04:01,919
+The trade goes against the odds.
+
+63
+00:04:01,919 --> 00:04:06,549
+Since the price is already up substantially
+and has moved more than the average, the price
+
+64
+00:04:06,549 --> 00:04:11,159
+is more likely to fall and stay within the
+price range already established.
+
+65
+00:04:11,159 --> 00:04:16,459
+While buying once the price is near the top
+of the daily range isn't prudent, shorting
+
+66
+00:04:16,459 --> 00:04:20,610
+is probably a good option, assuming a valid
+sell signal occurs.
+
+67
+00:04:20,610 --> 00:04:27,110
+Now, very important: Entries and exits should
+not be based on the ATR alone.
+
+68
+00:04:27,110 --> 00:04:32,890
+The ATR is a tool that should be used in conjunction
+with a strategy to help filtering trades.
+
+69
+00:04:32,890 --> 00:04:37,190
+For example, in the previous situation, you
+shouldn't sell simply because the price has
+
+70
+00:04:37,190 --> 00:04:40,930
+moved up and the daily range is larger than
+usual.
+
+71
+00:04:40,930 --> 00:04:45,630
+You short only if a valid sell signal occurs,
+based on your particular strategy.
+
+72
+00:04:45,630 --> 00:04:51,620
+Second, the ATR formula will assist you in
+setting profit targets
+
+73
+00:04:51,620 --> 00:04:56,680
+Knowing the average range is extremely useful
+since it allows the trader to estimate how
+
+74
+00:04:56,680 --> 00:04:59,630
+much profit potential there is in the market.
+
+75
+00:04:59,630 --> 00:05:04,880
+For example, there is no point looking for
+200 pips of profit from a trade in a currency
+
+76
+00:05:04,880 --> 00:05:11,260
+pair, if the average true range for that market
+over the last 14 days is only 60 points.
+
+77
+00:05:11,260 --> 00:05:17,130
+A simpler solution is to halve the 14-day
+ATR of the instrument and use this figure
+
+78
+00:05:17,130 --> 00:05:18,730
+as your profit target.
+
+79
+00:05:18,730 --> 00:05:24,400
+Thus, after entering a trade in, you could
+set yourself a profit target of around 30
+
+80
+00:05:24,400 --> 00:05:25,840
+points.
+
+81
+00:05:25,840 --> 00:05:27,320
+How To Trade With Average True Range
+
+82
+00:05:27,320 --> 00:05:33,670
+ATR Indicator is useful to identify low levels
+of volatility
+
+83
+00:05:33,670 --> 00:05:37,250
+Average True Range doesn’t tell the trader
+anything about market direction.
+
+84
+00:05:37,250 --> 00:05:39,670
+Don’t get confused about its direction.
+
+85
+00:05:39,670 --> 00:05:43,470
+If the Average True Range is going up on the
+chart, that doesn’t mean that the trend
+
+86
+00:05:43,470 --> 00:05:44,470
+is up.
+
+87
+00:05:44,470 --> 00:05:49,630
+A viable strategy would be to search for low
+volatility levels, in order to find a trade
+
+88
+00:05:49,630 --> 00:05:53,000
+in the direction of the main trend.
+
+89
+00:05:53,000 --> 00:05:57,930
+The first thing we need to do is to identify
+where the low volatility actually is.
+
+90
+00:05:57,930 --> 00:06:02,690
+Keep in mind that the low volatility itself
+is not enough for a new trend.
+
+91
+00:06:02,690 --> 00:06:07,430
+This translates into the fact that the current
+trend has run out of steam, it doesn’t tell
+
+92
+00:06:07,430 --> 00:06:08,820
+us that a new trend has begun.
+
+93
+00:06:08,820 --> 00:06:13,700
+So, we must use the Average True Range in
+conjunction with other oscillators or price
+
+94
+00:06:13,700 --> 00:06:14,790
+action.
+
+95
+00:06:14,790 --> 00:06:19,730
+For example, in this example we identified
+low levels of volatility, but we cannot enter
+
+96
+00:06:19,730 --> 00:06:20,850
+the market blindly.
+
+97
+00:06:20,850 --> 00:06:26,150
+A smarter approach would be to wait for the
+average true range to exit from that level
+
+98
+00:06:26,150 --> 00:06:31,150
+and confirm the volatility increase with a
+trend line breakout on the chart, or a rising
+
+99
+00:06:31,150 --> 00:06:38,520
+Stochastic for example, or a divergence on
+the RSI or CCI, depending on your strategy.
+
+100
+00:06:38,520 --> 00:06:41,930
+Second strategy involves using ATR as a trailing
+stop loss
+
+101
+00:06:41,930 --> 00:06:48,490
+A trailing stop loss is a way to exit a trade
+if the asset price moves against you but also
+
+102
+00:06:48,490 --> 00:06:53,020
+enables you to move the exit point if the
+price is moving in your favor.
+
+103
+00:06:53,020 --> 00:06:57,310
+Many day traders use the ATR to figure out
+where to put their trailing stop loss.
+
+104
+00:06:57,310 --> 00:07:02,340
+Here’s how it works: at the time of a trade,
+look at the current ATR reading.
+
+105
+00:07:02,340 --> 00:07:07,960
+A rule of thumb is to multiply the ATR by
+two to determine a reasonable stop loss point.
+
+106
+00:07:07,960 --> 00:07:13,730
+So if you're buying a stock, you might place
+a stop loss at a level twice the ATR below
+
+107
+00:07:13,730 --> 00:07:14,880
+the entry price.
+
+108
+00:07:14,880 --> 00:07:19,540
+If you're shorting a stock, you would place
+a stop loss at a level twice the ATR above
+
+109
+00:07:19,540 --> 00:07:21,320
+the entry price.
+
+110
+00:07:21,320 --> 00:07:25,910
+If you're long and the price moves favorably,
+continue to move the stop loss to twice the
+
+111
+00:07:25,910 --> 00:07:27,590
+ATR below the price.
+
+112
+00:07:27,590 --> 00:07:31,620
+In this scenario, the stop loss only moves
+up, not down.
+
+113
+00:07:31,620 --> 00:07:37,680
+Once it is moved up, it stays there until
+it can be moved up again or the trade is closed
+
+114
+00:07:37,680 --> 00:07:42,220
+as a result of the price dropping to hit the
+trailing stop loss level.
+
+115
+00:07:42,220 --> 00:07:47,260
+The same process works for short trades, only
+in that case, the stop loss only moves down.
+
+116
+00:07:47,260 --> 00:07:54,240
+For example, say you take a long trade at
+$10 and the ATR is $0.10.
+
+117
+00:07:54,240 --> 00:08:00,419
+You would place a stop loss at $9.80 (the
+10 cents ATR multiplied by 2).
+
+118
+00:08:00,419 --> 00:08:05,250
+The price rises to $10.20, and the ATR remains
+at $0.10.
+
+119
+00:08:05,250 --> 00:08:08,260
+The trailing stop loss is now moved up to
+$10.
+
+120
+00:08:08,260 --> 00:08:16,169
+When the price moves up to $10.50, the stop
+loss moves up to $10.30, locking in at least
+
+121
+00:08:16,169 --> 00:08:18,640
+a 30 cent profit on the trade.
+
+122
+00:08:18,640 --> 00:08:22,390
+This would continue until the price falls
+to hit the stop-loss point.
+
+123
+00:08:22,390 --> 00:08:25,680
+Now, here’s an interesting indicator.
+
+124
+00:08:25,680 --> 00:08:30,000
+In order to make it easier to visually see
+where those stops would be, you could use
+
+125
+00:08:30,000 --> 00:08:31,850
+the ATR bands.
+
+126
+00:08:31,850 --> 00:08:36,620
+This indicator will show an upper and lower
+band around the price, showing where you can
+
+127
+00:08:36,620 --> 00:08:40,329
+put your stops (or trail them in open positions).
+
+128
+00:08:40,329 --> 00:08:45,209
+You can use ATR bands in a number of ways:
+• it’s an easy visual way to see where
+
+129
+00:08:45,209 --> 00:08:49,120
+you can place your stop loss
+• you can use a multiple of ATR as your
+
+130
+00:08:49,120 --> 00:08:52,520
+target
+• you can trail your stops alongside the
+
+131
+00:08:52,520 --> 00:08:53,520
+ATR bands
+
+132
+00:08:53,520 --> 00:08:59,809
+ATR bands indicator has only 2 variables:
+the period and the multiplier.
+
+133
+00:08:59,809 --> 00:09:06,899
+By default, ATR period is set to 24 with the
+rationale that one day has 24 hours so that
+
+134
+00:09:06,899 --> 00:09:10,079
+way, we’re getting the average price movement
+for the past day.
+
+135
+00:09:10,079 --> 00:09:14,921
+However, if you’re day trading, it could
+be useful to have a shorter ATR period, for
+
+136
+00:09:14,921 --> 00:09:19,140
+example if you want to make recent price volatility
+more relevant.
+
+137
+00:09:19,140 --> 00:09:22,839
+ATR multiplier also depends on your trading
+style.
+
+138
+00:09:22,839 --> 00:09:28,970
+Let’s say your current ATR value is 20 pips
+and you use a multiplier of 2, then the bands
+
+139
+00:09:28,970 --> 00:09:31,139
+will be 40 pips on each side.
+
+140
+00:09:31,139 --> 00:09:36,240
+If you use a multiplier of 3, the bands will
+be 60 pips on each side.
+
+141
+00:09:36,240 --> 00:09:40,240
+There is no universal rule for setting stops
+according to the ATR.
+
+142
+00:09:40,240 --> 00:09:45,639
+It depends on each trader’s individual risk
+tolerance while also allowing the trade “breathing
+
+143
+00:09:45,639 --> 00:09:47,319
+room” to develop.
+
+144
+00:09:47,319 --> 00:09:52,959
+So backtest and choose the settings that are
+in line with your strategy.
+
+145
+00:09:52,959 --> 00:09:57,720
+As you probably know, one of the most important
+aspects of trading and investing is having
+
+146
+00:09:57,720 --> 00:10:00,439
+a disciplined risk management process.
+
+147
+00:10:00,439 --> 00:10:05,250
+Because the ATR does not measure direction
+and simply considers the magnitude of range,
+
+148
+00:10:05,250 --> 00:10:08,910
+it has limited utility as a means for generating
+trading signals.
+
+149
+00:10:08,910 --> 00:10:14,860
+But it is a useful tool for providing an idea
+about how much a market may move and will
+
+150
+00:10:14,860 --> 00:10:20,660
+help you to apply a proper position size and
+a proper stop placement.
+
+151
+00:10:20,660 --> 00:10:25,019
+If you learned something new and found value,
+leave us a like to show your support, subscribe
+
+152
+00:10:25,019 --> 00:10:30,329
+to our channel and click the bell icon to
+stay notified when we release new videos.
+
+153
+00:10:30,329 --> 00:10:30,660
+Until next time.
+

@@ -1,0 +1,2628 @@
+1
+00:00:00,480 --> 00:00:05,940
+so you have a small trading account and
+
+2
+00:00:03,240 --> 00:00:09,300
+you don't have much time to trade what's
+
+3
+00:00:05,940 --> 00:00:11,880
+the solution well scalping based on
+
+4
+00:00:09,300 --> 00:00:14,519
+price action and smart money Concepts
+
+5
+00:00:11,880 --> 00:00:16,800
+without using lagging indicators
+
+6
+00:00:14,519 --> 00:00:19,380
+the first scalping strategy involves
+
+7
+00:00:16,800 --> 00:00:21,779
+trading supply and demand areas in
+
+8
+00:00:19,380 --> 00:00:22,920
+combination with the pin bar inside bar
+
+9
+00:00:21,779 --> 00:00:26,220
+combo
+
+10
+00:00:22,920 --> 00:00:29,099
+the pin bar inside bar is my go-to entry
+
+11
+00:00:26,220 --> 00:00:31,920
+trigger a pin bar is a Candlestick that
+
+12
+00:00:29,099 --> 00:00:34,079
+has a long week and a small body the
+
+13
+00:00:31,920 --> 00:00:37,020
+longer the weak the more powerful the
+
+14
+00:00:34,079 --> 00:00:39,420
+rejection the inside bar is a two candle
+
+15
+00:00:37,020 --> 00:00:42,300
+formation with the second candle's
+
+16
+00:00:39,420 --> 00:00:45,540
+entire Range located inside the previous
+
+17
+00:00:42,300 --> 00:00:48,420
+candles range so the high and low of the
+
+18
+00:00:45,540 --> 00:00:51,300
+second candle must completely fit within
+
+19
+00:00:48,420 --> 00:00:53,340
+the range of the previous candle the
+
+20
+00:00:51,300 --> 00:00:56,160
+inside bar is not technically a direct
+
+21
+00:00:53,340 --> 00:00:58,860
+signal it's what we call a consolidation
+
+22
+00:00:56,160 --> 00:01:01,559
+phase this is because during the entire
+
+23
+00:00:58,860 --> 00:01:04,080
+period the candle was open the market
+
+24
+00:01:01,559 --> 00:01:05,339
+didn't make any real ground in terms of
+
+25
+00:01:04,080 --> 00:01:08,520
+movement
+
+26
+00:01:05,339 --> 00:01:10,979
+the pin bar inside bar combo consists of
+
+27
+00:01:08,520 --> 00:01:14,400
+a pin bar that is immediately followed
+
+28
+00:01:10,979 --> 00:01:16,380
+by a small inside bar with this price
+
+29
+00:01:14,400 --> 00:01:18,540
+action sequence you can capture
+
+30
+00:01:16,380 --> 00:01:21,840
+potential tops and bottoms to price
+
+31
+00:01:18,540 --> 00:01:24,420
+movements you identify smart money traps
+
+32
+00:01:21,840 --> 00:01:26,700
+that can lead to powerful price reversal
+
+33
+00:01:24,420 --> 00:01:29,280
+moves and you position yourself into
+
+34
+00:01:26,700 --> 00:01:30,900
+trending moves around supply and demand
+
+35
+00:01:29,280 --> 00:01:33,840
+areas
+
+36
+00:01:30,900 --> 00:01:36,180
+this combination forms quite often but
+
+37
+00:01:33,840 --> 00:01:38,820
+that doesn't mean all pin bars followed
+
+38
+00:01:36,180 --> 00:01:42,060
+by an inside bar are valid trading
+
+39
+00:01:38,820 --> 00:01:44,400
+signals in scalping candlesticks have
+
+40
+00:01:42,060 --> 00:01:47,520
+very little value if you don't see them
+
+41
+00:01:44,400 --> 00:01:50,939
+in the right price action context namely
+
+42
+00:01:47,520 --> 00:01:53,220
+near a supply or demand Zone so when you
+
+43
+00:01:50,939 --> 00:01:56,460
+see a beam bar forming at the supply or
+
+44
+00:01:53,220 --> 00:01:59,100
+demand area followed by an inside bar or
+
+45
+00:01:56,460 --> 00:02:01,200
+even multiple inside bars it's time to
+
+46
+00:01:59,100 --> 00:02:04,200
+take notice because you might have a
+
+47
+00:02:01,200 --> 00:02:06,600
+potential trade entry on your hands you
+
+48
+00:02:04,200 --> 00:02:09,479
+simply Mark the area containing the pin
+
+49
+00:02:06,600 --> 00:02:11,940
+bar and the inside bar and you trade the
+
+50
+00:02:09,479 --> 00:02:14,099
+breakout of that area
+
+51
+00:02:11,940 --> 00:02:16,860
+if you back test pin bars and inside
+
+52
+00:02:14,099 --> 00:02:19,860
+bars and you take the trades at an area
+
+53
+00:02:16,860 --> 00:02:21,840
+of Supply or demand you will notice they
+
+54
+00:02:19,860 --> 00:02:24,660
+continuously produce consistent
+
+55
+00:02:21,840 --> 00:02:26,700
+responses from the market the odds are
+
+56
+00:02:24,660 --> 00:02:29,400
+in your favor simply because you found
+
+57
+00:02:26,700 --> 00:02:31,500
+the point of Confluence in the market I
+
+58
+00:02:29,400 --> 00:02:33,480
+prefer Supply demand zones to the
+
+59
+00:02:31,500 --> 00:02:36,599
+classic support and resistance levels
+
+60
+00:02:33,480 --> 00:02:38,760
+because these are areas of Market where
+
+61
+00:02:36,599 --> 00:02:40,920
+there is a lot of liquidity at a
+
+62
+00:02:38,760 --> 00:02:43,379
+particular price these are basically
+
+63
+00:02:40,920 --> 00:02:45,840
+accumulation and distribution zones
+
+64
+00:02:43,379 --> 00:02:47,519
+where there have been huge volumes of
+
+65
+00:02:45,840 --> 00:02:50,340
+orders
+
+66
+00:02:47,519 --> 00:02:52,739
+here's a short trade on crude oil on the
+
+67
+00:02:50,340 --> 00:02:55,980
+5 minute time frame which involved
+
+68
+00:02:52,739 --> 00:02:59,459
+taking a trade at this drop base drop
+
+69
+00:02:55,980 --> 00:03:02,280
+Supply area with a trigger being a pin
+
+70
+00:02:59,459 --> 00:03:05,519
+bar followed by an inside bar
+
+71
+00:03:02,280 --> 00:03:08,819
+at this Supply area sellers of number
+
+72
+00:03:05,519 --> 00:03:11,400
+buyers and push the price down when
+
+73
+00:03:08,819 --> 00:03:13,739
+price returned to it first we had the
+
+74
+00:03:11,400 --> 00:03:16,379
+pin bar indicating a rejection of that
+
+75
+00:03:13,739 --> 00:03:18,900
+level then the inside bar completely
+
+76
+00:03:16,379 --> 00:03:21,540
+within the range of the previous candle
+
+77
+00:03:18,900 --> 00:03:24,300
+was indicating a consolidation or
+
+78
+00:03:21,540 --> 00:03:27,180
+indecision confirming that the market
+
+79
+00:03:24,300 --> 00:03:30,300
+was poised for a breakout you place a
+
+80
+00:03:27,180 --> 00:03:33,120
+sale stop order below the low of the pin
+
+81
+00:03:30,300 --> 00:03:35,459
+bar with the stop loss above the high of
+
+82
+00:03:33,120 --> 00:03:38,040
+the beam bar or above the supply Zone
+
+83
+00:03:35,459 --> 00:03:40,799
+and even though it's a scalping setup
+
+84
+00:03:38,040 --> 00:03:45,720
+you target the next major demand level
+
+85
+00:03:40,799 --> 00:03:48,659
+taking partial profits at the minor ones
+
+86
+00:03:45,720 --> 00:03:51,540
+here's a Buy trade on Apple on the 5
+
+87
+00:03:48,659 --> 00:03:54,840
+minute time frame first I identified
+
+88
+00:03:51,540 --> 00:03:55,739
+this drop base rally the main area on
+
+89
+00:03:54,840 --> 00:03:58,140
+the chart
+
+90
+00:03:55,739 --> 00:04:01,319
+which is a Zone where price tends to
+
+91
+00:03:58,140 --> 00:04:03,900
+bounce up from we Mark The Zone and wait
+
+92
+00:04:01,319 --> 00:04:06,060
+for price to come back to it then I
+
+93
+00:04:03,900 --> 00:04:08,760
+looked for the trigger confirming the
+
+94
+00:04:06,060 --> 00:04:11,459
+direction of the trade in this case we
+
+95
+00:04:08,760 --> 00:04:14,459
+want a bullish reversal pattern a pin
+
+96
+00:04:11,459 --> 00:04:16,739
+bar followed by an inside bar the pin
+
+97
+00:04:14,459 --> 00:04:19,380
+bar showed that price rejected lower
+
+98
+00:04:16,739 --> 00:04:22,079
+levels and the inside bar showed that
+
+99
+00:04:19,380 --> 00:04:25,199
+price Consolidated after the pin bar
+
+100
+00:04:22,079 --> 00:04:28,979
+these two candles together indicate that
+
+101
+00:04:25,199 --> 00:04:31,800
+buyers may push price higher so a buy
+
+102
+00:04:28,979 --> 00:04:34,979
+stop order above the high of the pin bar
+
+103
+00:04:31,800 --> 00:04:37,860
+with a stop loss below the demand Zone
+
+104
+00:04:34,979 --> 00:04:40,500
+Target is the next Supply area on the
+
+105
+00:04:37,860 --> 00:04:42,300
+chart or a risk reward ratio of about
+
+106
+00:04:40,500 --> 00:04:45,180
+two
+
+107
+00:04:42,300 --> 00:04:47,820
+another powerful scalping setup is a
+
+108
+00:04:45,180 --> 00:04:50,940
+view up rejection with an engulfing pin
+
+109
+00:04:47,820 --> 00:04:53,040
+bar formation as the trigger I've talked
+
+110
+00:04:50,940 --> 00:04:55,440
+about it in a previous video the
+
+111
+00:04:53,040 --> 00:04:57,720
+engulfing pinboard is a hybrid of two
+
+112
+00:04:55,440 --> 00:05:01,199
+candlesticks a candle which is an
+
+113
+00:04:57,720 --> 00:05:03,240
+engulfing candle but with a large wig so
+
+114
+00:05:01,199 --> 00:05:05,820
+the candle body must completely cover
+
+115
+00:05:03,240 --> 00:05:08,040
+the previous candle body signaling
+
+116
+00:05:05,820 --> 00:05:10,860
+buying or selling pressure
+
+117
+00:05:08,040 --> 00:05:12,960
+and the candle must contain a wick the
+
+118
+00:05:10,860 --> 00:05:15,479
+wig shows the area of price that was
+
+119
+00:05:12,960 --> 00:05:17,699
+rejected and the implication is that
+
+120
+00:05:15,479 --> 00:05:19,979
+price will continue to move in the
+
+121
+00:05:17,699 --> 00:05:22,139
+opposite direction of the week
+
+122
+00:05:19,979 --> 00:05:25,199
+the engulfing pin bar is one of the best
+
+123
+00:05:22,139 --> 00:05:27,960
+triggers to scalp or day trade just as
+
+124
+00:05:25,199 --> 00:05:29,940
+momentum is picking up these candles
+
+125
+00:05:27,960 --> 00:05:33,360
+indicate a strong shift in Direction
+
+126
+00:05:29,940 --> 00:05:35,759
+because they contain not one but two
+
+127
+00:05:33,360 --> 00:05:38,460
+signals in one candle
+
+128
+00:05:35,759 --> 00:05:41,280
+this pattern in combination with a v-wop
+
+129
+00:05:38,460 --> 00:05:43,500
+will offer pretty decent scalping setups
+
+130
+00:05:41,280 --> 00:05:45,840
+first consider view up as a trend
+
+131
+00:05:43,500 --> 00:05:48,780
+indicator depending on where the price
+
+132
+00:05:45,840 --> 00:05:51,539
+is trading above or below the view
+
+133
+00:05:48,780 --> 00:05:54,900
+upline price trading above the view up
+
+134
+00:05:51,539 --> 00:05:57,660
+as the line Rises shows that buyers are
+
+135
+00:05:54,900 --> 00:06:00,539
+in control and trading below the view up
+
+136
+00:05:57,660 --> 00:06:02,759
+as the line declines shows that sellers
+
+137
+00:06:00,539 --> 00:06:05,580
+are in control and if you find an
+
+138
+00:06:02,759 --> 00:06:07,620
+engulfing pin bar forming near the view
+
+139
+00:06:05,580 --> 00:06:09,900
+of line you have a good chance to
+
+140
+00:06:07,620 --> 00:06:12,660
+initiate a trade
+
+141
+00:06:09,900 --> 00:06:15,539
+in this example we added the daily view
+
+142
+00:06:12,660 --> 00:06:17,880
+up only one minute time frame price is
+
+143
+00:06:15,539 --> 00:06:21,060
+trading above the view up testing the
+
+144
+00:06:17,880 --> 00:06:24,180
+area forming a small range and here's
+
+145
+00:06:21,060 --> 00:06:27,060
+the signal candle first the candle acts
+
+146
+00:06:24,180 --> 00:06:29,699
+as an engulfing bar signifying that the
+
+147
+00:06:27,060 --> 00:06:33,000
+strength of balls have overcome the
+
+148
+00:06:29,699 --> 00:06:36,479
+strength of bears we also have a wake
+
+149
+00:06:33,000 --> 00:06:39,240
+below the bar rejecting The View outline
+
+150
+00:06:36,479 --> 00:06:42,060
+you have two entry methods you can enter
+
+151
+00:06:39,240 --> 00:06:45,180
+right away after the candle was formed
+
+152
+00:06:42,060 --> 00:06:47,100
+or you can place a buy stop at the high
+
+153
+00:06:45,180 --> 00:06:49,560
+of the trigger candle
+
+154
+00:06:47,100 --> 00:06:52,440
+stop loss is placed below the engulfing
+
+155
+00:06:49,560 --> 00:06:55,080
+pin bar or below the view up and your
+
+156
+00:06:52,440 --> 00:06:57,180
+target double the amount you risked or
+
+157
+00:06:55,080 --> 00:06:59,280
+you set the take profit at the previous
+
+158
+00:06:57,180 --> 00:07:02,039
+Market swing
+
+159
+00:06:59,280 --> 00:07:04,860
+we are analyzing euron on the five
+
+160
+00:07:02,039 --> 00:07:07,560
+minute time frame notice that the price
+
+161
+00:07:04,860 --> 00:07:09,840
+was trading above and below the view of
+
+162
+00:07:07,560 --> 00:07:12,000
+line which indicated a period of
+
+163
+00:07:09,840 --> 00:07:14,639
+choppiness not the ideal market
+
+164
+00:07:12,000 --> 00:07:17,460
+conditions to scalp but look at this
+
+165
+00:07:14,639 --> 00:07:19,819
+bullish engulfing pin bar formation add
+
+166
+00:07:17,460 --> 00:07:22,440
+the view upline breaking above the line
+
+167
+00:07:19,819 --> 00:07:25,680
+this shows that buyers have taken
+
+168
+00:07:22,440 --> 00:07:28,500
+initiative and are pushing the price up
+
+169
+00:07:25,680 --> 00:07:31,620
+the very large week is another sign of
+
+170
+00:07:28,500 --> 00:07:34,440
+strength from buyers we also have a
+
+171
+00:07:31,620 --> 00:07:37,319
+decent week on top of the candle which
+
+172
+00:07:34,440 --> 00:07:39,780
+shows increased volatility it's a large
+
+173
+00:07:37,319 --> 00:07:44,039
+spread candle so the trade management
+
+174
+00:07:39,780 --> 00:07:45,960
+must be on point being a large candle I
+
+175
+00:07:44,039 --> 00:07:49,620
+would place the stop loss below the view
+
+176
+00:07:45,960 --> 00:07:52,680
+up and not below the candle
+
+177
+00:07:49,620 --> 00:07:55,560
+in this example I noticed that price was
+
+178
+00:07:52,680 --> 00:07:58,080
+approaching a strong demand area where
+
+179
+00:07:55,560 --> 00:08:00,599
+buyers had previously stepped in and
+
+180
+00:07:58,080 --> 00:08:03,720
+pushed the price higher once price
+
+181
+00:08:00,599 --> 00:08:06,419
+returned to the Zone a Buy Signal came
+
+182
+00:08:03,720 --> 00:08:08,880
+in the form of a bullish engulfing pin
+
+183
+00:08:06,419 --> 00:08:11,400
+bar this gamble stick indicates a
+
+184
+00:08:08,880 --> 00:08:14,220
+possible reversal of the correction and
+
+185
+00:08:11,400 --> 00:08:17,039
+the continuation of the bullish Trend as
+
+186
+00:08:14,220 --> 00:08:18,300
+the market is making higher highs and
+
+187
+00:08:17,039 --> 00:08:20,940
+higher lows
+
+188
+00:08:18,300 --> 00:08:23,639
+the candle also rejected the view of
+
+189
+00:08:20,940 --> 00:08:25,979
+line they seted more Confluence to the
+
+190
+00:08:23,639 --> 00:08:29,520
+trade as it showed that the price was
+
+191
+00:08:25,979 --> 00:08:32,279
+undervalued and likely to rise not only
+
+192
+00:08:29,520 --> 00:08:34,620
+we had the engulfing pin bar we also had
+
+193
+00:08:32,279 --> 00:08:37,380
+the demand Zone and the view applying
+
+194
+00:08:34,620 --> 00:08:40,680
+rejection this is the strongest type of
+
+195
+00:08:37,380 --> 00:08:44,219
+signal entry at the close of the trigger
+
+196
+00:08:40,680 --> 00:08:45,420
+candle with a stop loss below the low of
+
+197
+00:08:44,219 --> 00:08:47,940
+the Gamble
+
+198
+00:08:45,420 --> 00:08:50,760
+aim for a risk to reorder ratio of
+
+199
+00:08:47,940 --> 00:08:53,820
+minimum 2 and try to take partial
+
+200
+00:08:50,760 --> 00:08:55,980
+profits at the next Supply areas to
+
+201
+00:08:53,820 --> 00:08:58,200
+minimize your risk
+
+202
+00:08:55,980 --> 00:09:00,959
+another price action scalping setup
+
+203
+00:08:58,200 --> 00:09:01,860
+involves the inside bar liquidity clear
+
+204
+00:09:00,959 --> 00:09:04,380
+route
+
+205
+00:09:01,860 --> 00:09:08,160
+price initially breaks from an inside
+
+206
+00:09:04,380 --> 00:09:10,920
+bar or consecutive inside bars but then
+
+207
+00:09:08,160 --> 00:09:12,959
+snaps back the other direction creating
+
+208
+00:09:10,920 --> 00:09:15,899
+a false break of the inside bar
+
+209
+00:09:12,959 --> 00:09:18,540
+structure a liquidity clear out
+
+210
+00:09:15,899 --> 00:09:21,360
+smart money ran the stop losses of small
+
+211
+00:09:18,540 --> 00:09:24,180
+retail Traders removing them out of
+
+212
+00:09:21,360 --> 00:09:26,760
+their positions and creating a vacuum
+
+213
+00:09:24,180 --> 00:09:28,920
+for price to reverse back in the
+
+214
+00:09:26,760 --> 00:09:31,920
+opposite direction the inside bar
+
+215
+00:09:28,920 --> 00:09:34,320
+liquidity clear out is a strong scalping
+
+216
+00:09:31,920 --> 00:09:36,779
+signal that price may continue to move
+
+217
+00:09:34,320 --> 00:09:37,800
+in the opposite direction of the false
+
+218
+00:09:36,779 --> 00:09:40,740
+Breakout
+
+219
+00:09:37,800 --> 00:09:45,000
+the easiest way to spot this pattern is
+
+220
+00:09:40,740 --> 00:09:47,640
+to find the pin bar after an inside bar
+
+221
+00:09:45,000 --> 00:09:49,980
+so if you find this setup you know that
+
+222
+00:09:47,640 --> 00:09:52,260
+smart money are driving prices to a
+
+223
+00:09:49,980 --> 00:09:54,720
+certain level where there are stop loss
+
+224
+00:09:52,260 --> 00:09:58,620
+orders and the goal is to create
+
+225
+00:09:54,720 --> 00:10:01,440
+liquidity for their future trades once
+
+226
+00:09:58,620 --> 00:10:04,200
+stop losses are hit the market goes in
+
+227
+00:10:01,440 --> 00:10:06,779
+their desired Direction when you spot a
+
+228
+00:10:04,200 --> 00:10:09,660
+large candle and then several inside
+
+229
+00:10:06,779 --> 00:10:13,680
+bars be ready to witness a false
+
+230
+00:10:09,660 --> 00:10:15,540
+breakout in most cases banks will try to
+
+231
+00:10:13,680 --> 00:10:18,540
+trap retail Traders
+
+232
+00:10:15,540 --> 00:10:22,740
+my advice is to trade the inside bar
+
+233
+00:10:18,540 --> 00:10:25,500
+liquidity clear out in a trending Market
+
+234
+00:10:22,740 --> 00:10:27,779
+so we are looking at pound dollar on the
+
+235
+00:10:25,500 --> 00:10:31,339
+5 minute time frame the market was
+
+236
+00:10:27,779 --> 00:10:34,680
+trending up higher highs and higher lows
+
+237
+00:10:31,339 --> 00:10:38,220
+buyers are in control So the plan is to
+
+238
+00:10:34,680 --> 00:10:39,779
+find the scalping by trade ideally near
+
+239
+00:10:38,220 --> 00:10:42,899
+a support level
+
+240
+00:10:39,779 --> 00:10:45,839
+in this case you expect big players to
+
+241
+00:10:42,899 --> 00:10:48,300
+hunt retail Trader stops before pushing
+
+242
+00:10:45,839 --> 00:10:52,200
+the market to go up and here's the
+
+243
+00:10:48,300 --> 00:10:56,339
+signal first an inside bar then a pin
+
+244
+00:10:52,200 --> 00:10:59,640
+bar taking stops below the small range
+
+245
+00:10:56,339 --> 00:11:02,940
+in this example we have two inside bars
+
+246
+00:10:59,640 --> 00:11:05,399
+within the motherboard structure this is
+
+247
+00:11:02,940 --> 00:11:09,600
+relatively common and sometimes you live
+
+248
+00:11:05,399 --> 00:11:11,160
+on C3 or 4 inside bars before the false
+
+249
+00:11:09,600 --> 00:11:14,160
+breakout occurs
+
+250
+00:11:11,160 --> 00:11:17,399
+you place a buy stop on the other side
+
+251
+00:11:14,160 --> 00:11:20,760
+of the inside bar with a stop loss below
+
+252
+00:11:17,399 --> 00:11:23,579
+the liquidity run or below the pin bar
+
+253
+00:11:20,760 --> 00:11:25,860
+with this setup you take advantage of
+
+254
+00:11:23,579 --> 00:11:28,140
+this manipulation instead of being
+
+255
+00:11:25,860 --> 00:11:31,019
+trapped by the market
+
+256
+00:11:28,140 --> 00:11:33,600
+the key is to trade this setup in the
+
+257
+00:11:31,019 --> 00:11:36,000
+direction of the most recent trend on
+
+258
+00:11:33,600 --> 00:11:39,180
+the time frame you are monitoring
+
+259
+00:11:36,000 --> 00:11:42,420
+in this example there's a small uptrend
+
+260
+00:11:39,180 --> 00:11:46,260
+and we find the setup right here inside
+
+261
+00:11:42,420 --> 00:11:49,500
+bar followed by a pin bar taking stops
+
+262
+00:11:46,260 --> 00:11:51,839
+above the previous range but this signal
+
+263
+00:11:49,500 --> 00:11:55,019
+isn't something you should trade
+
+264
+00:11:51,839 --> 00:11:57,959
+if you short the market here you are
+
+265
+00:11:55,019 --> 00:12:00,420
+trading against the current momentum you
+
+266
+00:11:57,959 --> 00:12:03,540
+would have lost the trade the point is
+
+267
+00:12:00,420 --> 00:12:06,839
+trade the setup as a continuation one
+
+268
+00:12:03,540 --> 00:12:10,320
+and not a reversal one
+
+269
+00:12:06,839 --> 00:12:13,380
+this chart shows a valid example of the
+
+270
+00:12:10,320 --> 00:12:16,500
+inside bar liquidity clear out a cell
+
+271
+00:12:13,380 --> 00:12:20,160
+signal with a pin bar in a downtrending
+
+272
+00:12:16,500 --> 00:12:21,540
+market price is making lower lows and
+
+273
+00:12:20,160 --> 00:12:24,120
+lower highs
+
+274
+00:12:21,540 --> 00:12:26,940
+we are trading right at the previous
+
+275
+00:12:24,120 --> 00:12:29,880
+support level potentially turning into
+
+276
+00:12:26,940 --> 00:12:32,940
+resistance another important factor to
+
+277
+00:12:29,880 --> 00:12:35,940
+consider in the pin bar testing the
+
+278
+00:12:32,940 --> 00:12:36,899
+level and hunting stops above the small
+
+279
+00:12:35,940 --> 00:12:40,500
+range
+
+280
+00:12:36,899 --> 00:12:43,860
+this was a valid short trade cell stop
+
+281
+00:12:40,500 --> 00:12:47,220
+below the low of the inside bar with a
+
+282
+00:12:43,860 --> 00:12:50,040
+stop loss above the pin bar
+
+283
+00:12:47,220 --> 00:12:51,899
+a series of candlesticks with long Wicks
+
+284
+00:12:50,040 --> 00:12:54,720
+is something you should paying attention
+
+285
+00:12:51,899 --> 00:12:57,540
+to because this can potentially indicate
+
+286
+00:12:54,720 --> 00:13:00,120
+a change in Trend this is one of my
+
+287
+00:12:57,540 --> 00:13:03,600
+favorite setups the plan is to look for
+
+288
+00:13:00,120 --> 00:13:05,700
+periods when momentum is fading away and
+
+289
+00:13:03,600 --> 00:13:08,399
+the potential price change may happen
+
+290
+00:13:05,700 --> 00:13:10,500
+but first you must analyze the shape
+
+291
+00:13:08,399 --> 00:13:13,500
+size and the direction of the
+
+292
+00:13:10,500 --> 00:13:16,200
+candlesticks in an uptrend the plan is
+
+293
+00:13:13,500 --> 00:13:18,779
+to find Corrections pullbacks with
+
+294
+00:13:16,200 --> 00:13:21,839
+candlesticks starting to become smaller
+
+295
+00:13:18,779 --> 00:13:24,480
+and more evenly sized this is the first
+
+296
+00:13:21,839 --> 00:13:27,120
+sign that the uptrend is losing momentum
+
+297
+00:13:24,480 --> 00:13:30,720
+then you look for consecutive candles
+
+298
+00:13:27,120 --> 00:13:32,880
+with lower Wicks during this period to
+
+299
+00:13:30,720 --> 00:13:35,459
+reveal bullish pressure
+
+300
+00:13:32,880 --> 00:13:38,040
+in a downtrend again you look for
+
+301
+00:13:35,459 --> 00:13:41,040
+pullbacks weight candlesticks becoming
+
+302
+00:13:38,040 --> 00:13:44,100
+smaller a downtrend is losing momentum
+
+303
+00:13:41,040 --> 00:13:47,339
+when you find consecutive candles with
+
+304
+00:13:44,100 --> 00:13:49,260
+upper Wicks revealing bearish pressure
+
+305
+00:13:47,339 --> 00:13:52,380
+so you are not looking for a single
+
+306
+00:13:49,260 --> 00:13:55,320
+price bar with a large Wick if you don't
+
+307
+00:13:52,380 --> 00:13:57,779
+have a decent location to trade it one
+
+308
+00:13:55,320 --> 00:14:00,959
+single candle might not be sufficiently
+
+309
+00:13:57,779 --> 00:14:03,600
+reliable for an entry this is why a
+
+310
+00:14:00,959 --> 00:14:07,079
+group of candles with Wicks is a much
+
+311
+00:14:03,600 --> 00:14:09,899
+better way to filter full signals So the
+
+312
+00:14:07,079 --> 00:14:13,380
+plan is to find two or three consecutive
+
+313
+00:14:09,899 --> 00:14:16,260
+bars with overlapping upper or lower
+
+314
+00:14:13,380 --> 00:14:19,500
+Wicks more even better
+
+315
+00:14:16,260 --> 00:14:22,380
+remember weeks indicate potential buying
+
+316
+00:14:19,500 --> 00:14:25,620
+or selling pressure when these Shadows
+
+317
+00:14:22,380 --> 00:14:28,620
+overlap they create a price Zone that is
+
+318
+00:14:25,620 --> 00:14:31,500
+more likely to display the buying or the
+
+319
+00:14:28,620 --> 00:14:34,560
+selling pressure you anticipate
+
+320
+00:14:31,500 --> 00:14:37,079
+as usual instead of scalping all over
+
+321
+00:14:34,560 --> 00:14:40,680
+the place the better setups usually
+
+322
+00:14:37,079 --> 00:14:43,139
+happen at Key price levels here's a
+
+323
+00:14:40,680 --> 00:14:45,899
+bearish pressure Zone observe the
+
+324
+00:14:43,139 --> 00:14:49,199
+consecutive weeks indicating buyers are
+
+325
+00:14:45,899 --> 00:14:52,860
+losing their strength on its own this
+
+326
+00:14:49,199 --> 00:14:55,920
+area is not relevant but it appeared at
+
+327
+00:14:52,860 --> 00:14:59,160
+the supply Zone where sellers started a
+
+328
+00:14:55,920 --> 00:15:01,860
+strong downward wave this is a decent
+
+329
+00:14:59,160 --> 00:15:05,279
+setup stop loss placement is obvious
+
+330
+00:15:01,860 --> 00:15:07,980
+above the multiple weeks and you target
+
+331
+00:15:05,279 --> 00:15:10,680
+the next demand zone or double the
+
+332
+00:15:07,980 --> 00:15:13,320
+amount you've risk either way take
+
+333
+00:15:10,680 --> 00:15:15,120
+partial profits as the price goes in
+
+334
+00:15:13,320 --> 00:15:18,240
+your favor
+
+335
+00:15:15,120 --> 00:15:20,519
+in this example a possible trade on
+
+336
+00:15:18,240 --> 00:15:23,519
+dollar Yen on the 5 minute time frame
+
+337
+00:15:20,519 --> 00:15:26,639
+the setup involves entering a long
+
+338
+00:15:23,519 --> 00:15:29,279
+position at the demand area right here
+
+339
+00:15:26,639 --> 00:15:32,880
+where the price has previously bounced
+
+340
+00:15:29,279 --> 00:15:35,579
+up the trigger for entering the trade is
+
+341
+00:15:32,880 --> 00:15:39,060
+this area with multiple consecutive
+
+342
+00:15:35,579 --> 00:15:42,120
+candles having lower weeks indicating
+
+343
+00:15:39,060 --> 00:15:44,459
+that buyers are pushing the price up and
+
+344
+00:15:42,120 --> 00:15:47,160
+rejecting lower prices
+
+345
+00:15:44,459 --> 00:15:50,279
+stop loss is placed below the demand
+
+346
+00:15:47,160 --> 00:15:51,779
+area and the take profit is set at the
+
+347
+00:15:50,279 --> 00:15:55,139
+next Supply area
+
+348
+00:15:51,779 --> 00:15:58,199
+and I repeat take partial profits when
+
+349
+00:15:55,139 --> 00:16:01,500
+price hits a minor Supply area
+
+350
+00:15:58,199 --> 00:16:04,079
+in our example the final Target isn't
+
+351
+00:16:01,500 --> 00:16:08,339
+reached but we have the chance to secure
+
+352
+00:16:04,079 --> 00:16:10,320
+some profits when price hits this area I
+
+353
+00:16:08,339 --> 00:16:12,959
+can't stress enough the importance to
+
+354
+00:16:10,320 --> 00:16:16,019
+take partial profits especially when you
+
+355
+00:16:12,959 --> 00:16:19,260
+are scalping or day trading okay the
+
+356
+00:16:16,019 --> 00:16:21,660
+price didn't hit the final Target but at
+
+357
+00:16:19,260 --> 00:16:23,820
+least you took some profits and removed
+
+358
+00:16:21,660 --> 00:16:25,560
+your risk by moving the stop to break
+
+359
+00:16:23,820 --> 00:16:27,660
+even
+
+360
+00:16:25,560 --> 00:16:31,079
+we are looking at the three minute chart
+
+361
+00:16:27,660 --> 00:16:34,620
+of Tesla first notice that the market
+
+362
+00:16:31,079 --> 00:16:37,019
+had a gap up at the market open this
+
+363
+00:16:34,620 --> 00:16:39,180
+means that the opening price was higher
+
+364
+00:16:37,019 --> 00:16:40,139
+than the previous close a bullish
+
+365
+00:16:39,180 --> 00:16:43,199
+pressure
+
+366
+00:16:40,139 --> 00:16:45,899
+I see this resistance here which was
+
+367
+00:16:43,199 --> 00:16:47,759
+broken to the upside potentially turning
+
+368
+00:16:45,899 --> 00:16:50,880
+into a support level
+
+369
+00:16:47,759 --> 00:16:53,639
+as the price is falling look for signs
+
+370
+00:16:50,880 --> 00:16:56,759
+of reversal notice that the candles
+
+371
+00:16:53,639 --> 00:16:59,100
+started to have lower weeks which means
+
+372
+00:16:56,759 --> 00:17:01,620
+that the price was rejected at lower
+
+373
+00:16:59,100 --> 00:17:04,079
+levels this indicates that there is
+
+374
+00:17:01,620 --> 00:17:07,079
+bullish pressure and that buyers are
+
+375
+00:17:04,079 --> 00:17:09,360
+stepping in I've also added the daily
+
+376
+00:17:07,079 --> 00:17:12,600
+view up as an additional factor of
+
+377
+00:17:09,360 --> 00:17:16,140
+Confluence a good Buy trade was when
+
+378
+00:17:12,600 --> 00:17:18,660
+price moved above the view up as these
+
+379
+00:17:16,140 --> 00:17:22,199
+consecutive candles with lower Wicks
+
+380
+00:17:18,660 --> 00:17:25,699
+rejected the line with a stop loss below
+
+381
+00:17:22,199 --> 00:17:28,740
+the lowest point of the weeks
+
+382
+00:17:25,699 --> 00:17:31,559
+candlesticks with a very large body or
+
+383
+00:17:28,740 --> 00:17:34,740
+spread or something special I call them
+
+384
+00:17:31,559 --> 00:17:37,440
+power candles in volume spread analysis
+
+385
+00:17:34,740 --> 00:17:39,539
+a widespread between the open and the
+
+386
+00:17:37,440 --> 00:17:42,299
+clothes indicates strong Market
+
+387
+00:17:39,539 --> 00:17:44,600
+sentiment either bullish or bearish
+
+388
+00:17:42,299 --> 00:17:46,919
+depending on the color of the candle
+
+389
+00:17:44,600 --> 00:17:50,520
+there are two main types of large
+
+390
+00:17:46,919 --> 00:17:52,860
+candles with and without Wicks when
+
+391
+00:17:50,520 --> 00:17:56,280
+price action displays a solid candle
+
+392
+00:17:52,860 --> 00:17:58,860
+with little or no Wick at the top or the
+
+393
+00:17:56,280 --> 00:18:01,080
+bottom is suggesting strong and
+
+394
+00:17:58,860 --> 00:18:03,900
+continued sentiment in the direction of
+
+395
+00:18:01,080 --> 00:18:06,240
+the candle so at the closing end of the
+
+396
+00:18:03,900 --> 00:18:08,760
+candle there shouldn't be any large
+
+397
+00:18:06,240 --> 00:18:11,520
+Wicks and the closing price must be
+
+398
+00:18:08,760 --> 00:18:13,980
+located aggressively towards the closing
+
+399
+00:18:11,520 --> 00:18:16,679
+direction of the candle in the second
+
+400
+00:18:13,980 --> 00:18:19,380
+case the price action initially creates
+
+401
+00:18:16,679 --> 00:18:22,080
+a solid candle but then the sentiment
+
+402
+00:18:19,380 --> 00:18:24,480
+starts to change and the candle finishes
+
+403
+00:18:22,080 --> 00:18:27,299
+with the wick at the top or at the
+
+404
+00:18:24,480 --> 00:18:30,000
+bottom the qualify fires a power candle
+
+405
+00:18:27,299 --> 00:18:32,700
+the spread of the candle must be larger
+
+406
+00:18:30,000 --> 00:18:34,559
+than the surrounding candles the candle
+
+407
+00:18:32,700 --> 00:18:37,200
+must have a dominant presence on the
+
+408
+00:18:34,559 --> 00:18:40,140
+chart that communicates a decisive move
+
+409
+00:18:37,200 --> 00:18:42,960
+took place the structure of this power
+
+410
+00:18:40,140 --> 00:18:46,740
+candles is caused by a decisive and
+
+411
+00:18:42,960 --> 00:18:49,080
+aggressive move in one clear Direction
+
+412
+00:18:46,740 --> 00:18:52,140
+the price action of the widespread
+
+413
+00:18:49,080 --> 00:18:54,960
+candle is sending a clear signal with
+
+414
+00:18:52,140 --> 00:18:58,080
+one message sentiment for the candle is
+
+415
+00:18:54,960 --> 00:19:00,660
+strong and the associated volume should
+
+416
+00:18:58,080 --> 00:19:03,179
+therefore reflect the strong sentiment
+
+417
+00:19:00,660 --> 00:19:06,299
+with strong volume
+
+418
+00:19:03,179 --> 00:19:09,120
+as we can see here this power candle was
+
+419
+00:19:06,299 --> 00:19:11,520
+formed with a high volume this is what
+
+420
+00:19:09,120 --> 00:19:14,520
+you should expect to see volume to
+
+421
+00:19:11,520 --> 00:19:17,700
+validate price if the volume is below
+
+422
+00:19:14,520 --> 00:19:20,160
+average or low this is not a valid
+
+423
+00:19:17,700 --> 00:19:23,580
+candle to trade the price is being
+
+424
+00:19:20,160 --> 00:19:26,940
+marked higher but with little effort
+
+425
+00:19:23,580 --> 00:19:29,100
+a very high spread candle confirmed by
+
+426
+00:19:26,940 --> 00:19:31,559
+the volume that appears during an
+
+427
+00:19:29,100 --> 00:19:34,559
+uptrend for example and break some
+
+428
+00:19:31,559 --> 00:19:37,080
+important resistance level might be a
+
+429
+00:19:34,559 --> 00:19:39,780
+decent indication of the continuation of
+
+430
+00:19:37,080 --> 00:19:42,120
+the trend the higher the volume when the
+
+431
+00:19:39,780 --> 00:19:45,120
+power candle is being formed the
+
+432
+00:19:42,120 --> 00:19:48,240
+stronger the signal is if this candle is
+
+433
+00:19:45,120 --> 00:19:49,919
+formed at a low trading volume you skip
+
+434
+00:19:48,240 --> 00:19:52,740
+the trade
+
+435
+00:19:49,919 --> 00:19:54,720
+here we have a great trade on Tesla on
+
+436
+00:19:52,740 --> 00:19:57,120
+the three minute time frame we are
+
+437
+00:19:54,720 --> 00:20:00,000
+looking for a short opportunity in a
+
+438
+00:19:57,120 --> 00:20:03,299
+minor downtrend I see the support level
+
+439
+00:20:00,000 --> 00:20:05,760
+that was holding for a while this also
+
+440
+00:20:03,299 --> 00:20:09,299
+resembles a head and shoulders pattern
+
+441
+00:20:05,760 --> 00:20:11,460
+with this support being the neckline So
+
+442
+00:20:09,299 --> 00:20:15,240
+the plan is to wait for a clear breakout
+
+443
+00:20:11,460 --> 00:20:17,760
+of this level the entry signal was a
+
+444
+00:20:15,240 --> 00:20:21,419
+very high spread Candlestick with a
+
+445
+00:20:17,760 --> 00:20:23,760
+large body and high volume observe also
+
+446
+00:20:21,419 --> 00:20:26,280
+that volume increased during the recent
+
+447
+00:20:23,760 --> 00:20:28,980
+price action this shows that the sellers
+
+448
+00:20:26,280 --> 00:20:32,220
+were in control and that momentum was
+
+449
+00:20:28,980 --> 00:20:34,980
+strong with power candles the trade
+
+450
+00:20:32,220 --> 00:20:37,080
+management is tricky depending on the
+
+451
+00:20:34,980 --> 00:20:39,780
+range of the candle you have to be
+
+452
+00:20:37,080 --> 00:20:43,020
+flexible with the stop loss and the take
+
+453
+00:20:39,780 --> 00:20:45,419
+profit the entry is simple when the
+
+454
+00:20:43,020 --> 00:20:47,580
+candle breaks below the support level
+
+455
+00:20:45,419 --> 00:20:50,640
+because we also have the volume
+
+456
+00:20:47,580 --> 00:20:53,820
+confirmation the obvious stop location
+
+457
+00:20:50,640 --> 00:20:57,059
+is above the high of the candle but in
+
+458
+00:20:53,820 --> 00:20:59,340
+some cases they stop loss will not offer
+
+459
+00:20:57,059 --> 00:21:01,919
+an appropriate risk to reward ratio
+
+460
+00:20:59,340 --> 00:21:05,039
+because the take profit would be placed
+
+461
+00:21:01,919 --> 00:21:07,679
+far away from the entry a solution would
+
+462
+00:21:05,039 --> 00:21:10,559
+be to wait for a retest of the breakouts
+
+463
+00:21:07,679 --> 00:21:14,160
+and then place a stop loss above this
+
+464
+00:21:10,559 --> 00:21:16,620
+area but be warned in some cases you
+
+465
+00:21:14,160 --> 00:21:18,900
+won't have the chance for a retest the
+
+466
+00:21:16,620 --> 00:21:23,520
+power candle breaking on important level
+
+467
+00:21:18,900 --> 00:21:26,520
+will lead price with even more momentum
+
+468
+00:21:23,520 --> 00:21:28,940
+here's another setup this time of very
+
+469
+00:21:26,520 --> 00:21:31,860
+high spread candle on high volume
+
+470
+00:21:28,940 --> 00:21:34,860
+breaking through resistance the breakout
+
+471
+00:21:31,860 --> 00:21:38,100
+candle was a big green Candlestick and
+
+472
+00:21:34,860 --> 00:21:40,140
+in this case no retest and that's why I
+
+473
+00:21:38,100 --> 00:21:42,360
+previously said that if you wait for a
+
+474
+00:21:40,140 --> 00:21:45,240
+retest you might not get the chance to
+
+475
+00:21:42,360 --> 00:21:47,640
+enter the retest will come and there's
+
+476
+00:21:45,240 --> 00:21:51,059
+another opportunity to enter but it
+
+477
+00:21:47,640 --> 00:21:54,000
+won't come right away and here's why as
+
+478
+00:21:51,059 --> 00:21:56,340
+price continues to increase sellers who
+
+479
+00:21:54,000 --> 00:21:59,820
+shorted the market before the breakout
+
+480
+00:21:56,340 --> 00:22:02,159
+are trapped they wait for price to come
+
+481
+00:21:59,820 --> 00:22:05,640
+back down to the previous resistance
+
+482
+00:22:02,159 --> 00:22:07,799
+level which will now act as a support to
+
+483
+00:22:05,640 --> 00:22:09,539
+exit their trades in the hopes of
+
+484
+00:22:07,799 --> 00:22:11,880
+limiting their losses
+
+485
+00:22:09,539 --> 00:22:14,760
+and look at the reaction at that level
+
+486
+00:22:11,880 --> 00:22:17,880
+when price returned to the breakout area
+
+487
+00:22:14,760 --> 00:22:18,780
+three days later instant bombs from the
+
+488
+00:22:17,880 --> 00:22:21,720
+level
+
+489
+00:22:18,780 --> 00:22:24,419
+this is another scalping opportunity
+
+490
+00:22:21,720 --> 00:22:27,780
+short Traders were trapped finally
+
+491
+00:22:24,419 --> 00:22:30,600
+closed their positions meaning more buy
+
+492
+00:22:27,780 --> 00:22:32,640
+orders are released in the market and
+
+493
+00:22:30,600 --> 00:22:35,580
+the price spiked up
+
+494
+00:22:32,640 --> 00:22:38,100
+so look for these retest after a power
+
+495
+00:22:35,580 --> 00:22:40,440
+candle breakout these are excellent
+
+496
+00:22:38,100 --> 00:22:43,380
+trade opportunities
+
+497
+00:22:40,440 --> 00:22:46,020
+the tower top or Tower bottom formation
+
+498
+00:22:43,380 --> 00:22:48,840
+is probably one of the most underrated
+
+499
+00:22:46,020 --> 00:22:50,640
+signals in trading but you should try to
+
+500
+00:22:48,840 --> 00:22:53,400
+incorporate them in your strategies
+
+501
+00:22:50,640 --> 00:22:56,760
+because they are really effective it's a
+
+502
+00:22:53,400 --> 00:22:58,679
+reversal pattern after an up move you'll
+
+503
+00:22:56,760 --> 00:23:01,620
+see one long bullish Candlestick
+
+504
+00:22:58,679 --> 00:23:04,559
+followed by a few smaller candlesticks
+
+505
+00:23:01,620 --> 00:23:07,260
+marking a small range a small period
+
+506
+00:23:04,559 --> 00:23:09,419
+with a lack of momentum one large
+
+507
+00:23:07,260 --> 00:23:12,059
+bearish Candlestick completes the
+
+508
+00:23:09,419 --> 00:23:15,659
+pattern indicating a slow change in
+
+509
+00:23:12,059 --> 00:23:19,020
+momentum from bullish to bearish
+
+510
+00:23:15,659 --> 00:23:21,600
+its bullish equivalent forms after a
+
+511
+00:23:19,020 --> 00:23:24,419
+down wave or a downward momentum move
+
+512
+00:23:21,600 --> 00:23:26,340
+the first Candlestick will be a long
+
+513
+00:23:24,419 --> 00:23:29,220
+bearish candlestick
+
+514
+00:23:26,340 --> 00:23:32,280
+several small Body candles will follow
+
+515
+00:23:29,220 --> 00:23:35,340
+marking a small range you'll often find
+
+516
+00:23:32,280 --> 00:23:38,220
+small Dodges or spinning bottom candles
+
+517
+00:23:35,340 --> 00:23:40,440
+and the last Candlestick completing the
+
+518
+00:23:38,220 --> 00:23:43,320
+pattern will be a big bullish
+
+519
+00:23:40,440 --> 00:23:46,980
+Candlestick indicating a slow change in
+
+520
+00:23:43,320 --> 00:23:50,820
+momentum from bearish to bullish
+
+521
+00:23:46,980 --> 00:23:53,280
+this is AMD on the 5 minute time frame a
+
+522
+00:23:50,820 --> 00:23:55,980
+large bullish Candlestick makes a new
+
+523
+00:23:53,280 --> 00:23:58,260
+recent high and is followed by several
+
+524
+00:23:55,980 --> 00:24:01,740
+relatively small bodied candlesticks
+
+525
+00:23:58,260 --> 00:24:04,440
+then a large bearish Candlestick forms a
+
+526
+00:24:01,740 --> 00:24:07,740
+sign that a small range has ended and
+
+527
+00:24:04,440 --> 00:24:10,140
+the potential down move May begin as
+
+528
+00:24:07,740 --> 00:24:11,940
+always location will validate or
+
+529
+00:24:10,140 --> 00:24:14,580
+invalidate the setup
+
+530
+00:24:11,940 --> 00:24:17,460
+it appeared as an obvious resistance
+
+531
+00:24:14,580 --> 00:24:20,100
+level we even had the liquidity clear
+
+532
+00:24:17,460 --> 00:24:22,980
+out trapping Traders on the long side
+
+533
+00:24:20,100 --> 00:24:26,340
+another reason to take the short trade
+
+534
+00:24:22,980 --> 00:24:29,340
+and here's the trick the volume of the
+
+535
+00:24:26,340 --> 00:24:31,919
+bearish candle must be higher than the
+
+536
+00:24:29,340 --> 00:24:34,440
+previous two candles this is very
+
+537
+00:24:31,919 --> 00:24:37,620
+important and it tells you that sellers
+
+538
+00:24:34,440 --> 00:24:40,260
+are gaining strength if you don't have
+
+539
+00:24:37,620 --> 00:24:43,919
+the volume confirmation you simply skip
+
+540
+00:24:40,260 --> 00:24:46,620
+the trade the entry is right after the
+
+541
+00:24:43,919 --> 00:24:49,559
+large bearish Candlestick forms with a
+
+542
+00:24:46,620 --> 00:24:52,320
+stop above the bearish candle
+
+543
+00:24:49,559 --> 00:24:55,500
+here's another example here we have a
+
+544
+00:24:52,320 --> 00:24:58,559
+big red candle followed by another small
+
+545
+00:24:55,500 --> 00:25:01,919
+one and another low spread candle
+
+546
+00:24:58,559 --> 00:25:04,860
+forming a pin bar then we have the big
+
+547
+00:25:01,919 --> 00:25:07,799
+green candle showing the upward momentum
+
+548
+00:25:04,860 --> 00:25:10,679
+the signal is located at a clear level
+
+549
+00:25:07,799 --> 00:25:13,919
+of support we even have a liquidity
+
+550
+00:25:10,679 --> 00:25:15,960
+clear out trapping sellers after the
+
+551
+00:25:13,919 --> 00:25:17,880
+spin bar was formed
+
+552
+00:25:15,960 --> 00:25:21,179
+but we don't have the volume
+
+553
+00:25:17,880 --> 00:25:23,820
+confirmation the volume is lower than
+
+554
+00:25:21,179 --> 00:25:26,760
+the previous candle I would have skipped
+
+555
+00:25:23,820 --> 00:25:29,100
+this trade even though in hindsight I
+
+556
+00:25:26,760 --> 00:25:31,020
+see that it continued to increase it
+
+557
+00:25:29,100 --> 00:25:32,520
+would have allowed for a quick scalping
+
+558
+00:25:31,020 --> 00:25:35,400
+trade
+
+559
+00:25:32,520 --> 00:25:38,220
+if you see the pattern and you also spot
+
+560
+00:25:35,400 --> 00:25:41,640
+a liquidity Road the setup is even more
+
+561
+00:25:38,220 --> 00:25:45,000
+powerful as usual first you must
+
+562
+00:25:41,640 --> 00:25:48,419
+identify the tower top formation which
+
+563
+00:25:45,000 --> 00:25:51,900
+is right here green candle consolidation
+
+564
+00:25:48,419 --> 00:25:53,520
+and the aggressive red candle but do you
+
+565
+00:25:51,900 --> 00:25:56,039
+see anything special
+
+566
+00:25:53,520 --> 00:25:59,039
+look at the red candle completing the
+
+567
+00:25:56,039 --> 00:26:01,559
+setup it's an engulfing pin bar the
+
+568
+00:25:59,039 --> 00:26:04,440
+candle body completely covers the
+
+569
+00:26:01,559 --> 00:26:05,580
+previous candle's body signaling selling
+
+570
+00:26:04,440 --> 00:26:08,279
+pressure
+
+571
+00:26:05,580 --> 00:26:11,580
+the candle contains a wick showing
+
+572
+00:26:08,279 --> 00:26:13,640
+another sign of selling pressure we also
+
+573
+00:26:11,580 --> 00:26:16,380
+have the liquidity clear of condition
+
+574
+00:26:13,640 --> 00:26:19,860
+this pattern takes the stop losses
+
+575
+00:26:16,380 --> 00:26:23,159
+located above the swing high and at the
+
+576
+00:26:19,860 --> 00:26:24,000
+same time traps new buyers Above This
+
+577
+00:26:23,159 --> 00:26:26,159
+level
+
+578
+00:26:24,000 --> 00:26:28,980
+and let's check the volume spread
+
+579
+00:26:26,159 --> 00:26:31,500
+analysis condition the volume of the
+
+580
+00:26:28,980 --> 00:26:34,559
+bearish candle is higher than the
+
+581
+00:26:31,500 --> 00:26:37,080
+previous two candles in fact it's the
+
+582
+00:26:34,559 --> 00:26:40,500
+highest volume in the previous 10 or 12
+
+583
+00:26:37,080 --> 00:26:43,260
+candles this is very important and tells
+
+584
+00:26:40,500 --> 00:26:46,440
+you that sellers are taking control
+
+585
+00:26:43,260 --> 00:26:50,520
+stop loss above the high of the candle
+
+586
+00:26:46,440 --> 00:26:52,740
+and you target the next demand area
+
+587
+00:26:50,520 --> 00:26:56,039
+now if you want to scalp the market
+
+588
+00:26:52,740 --> 00:26:57,840
+successfully you must follow some rules
+
+589
+00:26:56,039 --> 00:27:00,779
+the first rule is that you should
+
+590
+00:26:57,840 --> 00:27:02,820
+minimize the use of indicators it may be
+
+591
+00:27:00,779 --> 00:27:05,700
+tempting to start adding a couple of
+
+592
+00:27:02,820 --> 00:27:07,380
+indicators to confirm a setup but you
+
+593
+00:27:05,700 --> 00:27:10,260
+should avoid doing this
+
+594
+00:27:07,380 --> 00:27:12,960
+as a scalpar you want to catch minor
+
+595
+00:27:10,260 --> 00:27:15,539
+movements in a market which means you
+
+596
+00:27:12,960 --> 00:27:18,240
+need to make quick decisions I prefer
+
+597
+00:27:15,539 --> 00:27:21,000
+scalping based on price action and smart
+
+598
+00:27:18,240 --> 00:27:23,880
+money Concepts without using lagging
+
+599
+00:27:21,000 --> 00:27:26,100
+indicators but if you find a setup and
+
+600
+00:27:23,880 --> 00:27:29,460
+you're not sure if it's worth taking or
+
+601
+00:27:26,100 --> 00:27:31,980
+not add your go-to indicator to see if
+
+602
+00:27:29,460 --> 00:27:34,020
+it confirms your bias but that's it
+
+603
+00:27:31,980 --> 00:27:36,600
+don't overdo it
+
+604
+00:27:34,020 --> 00:27:38,760
+another tip is to avoid marrying a
+
+605
+00:27:36,600 --> 00:27:41,360
+position this is when you become
+
+606
+00:27:38,760 --> 00:27:43,559
+emotionally attached to holding a trait
+
+607
+00:27:41,360 --> 00:27:46,200
+especially in the face of strong
+
+608
+00:27:43,559 --> 00:27:48,960
+evidence that this is not the right
+
+609
+00:27:46,200 --> 00:27:52,380
+position to be in this will lead to
+
+610
+00:27:48,960 --> 00:27:54,659
+excessive losses and wasted margin this
+
+611
+00:27:52,380 --> 00:27:58,380
+mistake goes hand in hand with another
+
+612
+00:27:54,659 --> 00:28:00,960
+one not using stop loss orders it goes
+
+613
+00:27:58,380 --> 00:28:03,600
+without saying always use a stop loss
+
+614
+00:28:00,960 --> 00:28:07,919
+when you are scalping and always respect
+
+615
+00:28:03,600 --> 00:28:10,919
+it also try to avoid over trading and
+
+616
+00:28:07,919 --> 00:28:13,320
+revenge trading this is when after a
+
+617
+00:28:10,919 --> 00:28:16,260
+series of losing trades you try to
+
+618
+00:28:13,320 --> 00:28:19,200
+compensate your losses by opening more
+
+619
+00:28:16,260 --> 00:28:22,080
+and more positions each one bigger in
+
+620
+00:28:19,200 --> 00:28:24,960
+size than the previous one if you lose
+
+621
+00:28:22,080 --> 00:28:26,840
+three or four trades in a row just stop
+
+622
+00:28:24,960 --> 00:28:29,880
+scalping for that day
+
+623
+00:28:26,840 --> 00:28:32,340
+also given the number of Trades a
+
+624
+00:28:29,880 --> 00:28:35,580
+scalper makes in a single day please
+
+625
+00:28:32,340 --> 00:28:38,460
+lower the amount of margin dedicated to
+
+626
+00:28:35,580 --> 00:28:41,100
+any single trade and always try to
+
+627
+00:28:38,460 --> 00:28:43,620
+minimize your risk I personally never
+
+628
+00:28:41,100 --> 00:28:46,500
+risk more than one percent of my Capital
+
+629
+00:28:43,620 --> 00:28:48,960
+when I'm scalping this will allow you to
+
+630
+00:28:46,500 --> 00:28:51,900
+place multiple trades at a time without
+
+631
+00:28:48,960 --> 00:28:53,520
+affecting your margin even if you have a
+
+632
+00:28:51,900 --> 00:28:56,400
+small trading account
+
+633
+00:28:53,520 --> 00:28:59,340
+by keeping your position small you keep
+
+634
+00:28:56,400 --> 00:29:02,580
+your scalping process under control even
+
+635
+00:28:59,340 --> 00:29:06,179
+if you record a few losses along the way
+
+636
+00:29:02,580 --> 00:29:08,460
+also scalping is not for everybody you
+
+637
+00:29:06,179 --> 00:29:11,340
+will need to be at your screen staring
+
+638
+00:29:08,460 --> 00:29:14,520
+at the lower charts facing Market noise
+
+639
+00:29:11,340 --> 00:29:17,220
+you need to be completely focused and to
+
+640
+00:29:14,520 --> 00:29:20,100
+be able to react very quickly when you
+
+641
+00:29:17,220 --> 00:29:22,740
+find a signal scalping is very fast
+
+642
+00:29:20,100 --> 00:29:25,140
+paced especially if you are trading the
+
+643
+00:29:22,740 --> 00:29:27,779
+one minute time frame if it's too quick
+
+644
+00:29:25,140 --> 00:29:30,659
+for you move to the three minutes or
+
+645
+00:29:27,779 --> 00:29:33,779
+even better to the 5 minute time frame
+
+646
+00:29:30,659 --> 00:29:36,419
+if it's still too fast you can always go
+
+647
+00:29:33,779 --> 00:29:39,000
+on a higher time frame and adapt the
+
+648
+00:29:36,419 --> 00:29:41,940
+strategies for day trading and even
+
+649
+00:29:39,000 --> 00:29:43,080
+swing trading the principles remain the
+
+650
+00:29:41,940 --> 00:29:45,600
+same
+
+651
+00:29:43,080 --> 00:29:48,179
+if you learn something new please leave
+
+652
+00:29:45,600 --> 00:29:50,460
+us a like And subscribe and if you
+
+653
+00:29:48,179 --> 00:29:53,880
+haven't watched our previous day trading
+
+654
+00:29:50,460 --> 00:29:56,159
+course you definitely must watch it and
+
+655
+00:29:53,880 --> 00:29:59,039
+check out our Academy program if you
+
+656
+00:29:56,159 --> 00:30:01,880
+want to further level up your Trading
+
+657
+00:29:59,039 --> 00:30:01,880
+until next time
+

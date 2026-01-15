@@ -1,0 +1,868 @@
+1
+00:00:00,530 --> 00:00:05,370
+trading breakouts appeal to many forex
+
+2
+00:00:03,270 --> 00:00:07,980
+traders because support and resistance
+
+3
+00:00:05,370 --> 00:00:09,000
+levels are supposed to be price floors
+
+4
+00:00:07,980 --> 00:00:11,490
+and ceilings
+
+5
+00:00:09,000 --> 00:00:13,710
+if these levels are broken you would
+
+6
+00:00:11,490 --> 00:00:15,929
+expect for the price to continue in the
+
+7
+00:00:13,710 --> 00:00:18,449
+same direction as the breakout if a
+
+8
+00:00:15,929 --> 00:00:20,460
+support level is broken that means that
+
+9
+00:00:18,449 --> 00:00:23,189
+the general price movement is downwards
+
+10
+00:00:20,460 --> 00:00:26,189
+and people are more likely to sell than
+
+11
+00:00:23,189 --> 00:00:28,710
+buy conversely if a resistance level is
+
+12
+00:00:26,189 --> 00:00:30,900
+broken and the crowd believes that the
+
+13
+00:00:28,710 --> 00:00:33,180
+price is more likely to rally even
+
+14
+00:00:30,900 --> 00:00:35,940
+higher and will tend to buy rather than
+
+15
+00:00:33,180 --> 00:00:38,489
+sell many retail forex traders have
+
+16
+00:00:35,940 --> 00:00:40,410
+greedy mentalities they believe in
+
+17
+00:00:38,489 --> 00:00:43,579
+trading in the direction of the breakout
+
+18
+00:00:40,410 --> 00:00:46,739
+they believe in huge gains on huge moves
+
+19
+00:00:43,579 --> 00:00:49,920
+they want to catch the big trend in a
+
+20
+00:00:46,739 --> 00:00:52,039
+perfect world this would be true but the
+
+21
+00:00:49,920 --> 00:00:55,289
+trading world is far from being perfect
+
+22
+00:00:52,039 --> 00:00:57,600
+breakouts fail simply because the smart
+
+23
+00:00:55,289 --> 00:01:00,600
+minority has to make money of the
+
+24
+00:00:57,600 --> 00:01:03,149
+majority don't feel so bad the smart
+
+25
+00:01:00,600 --> 00:01:05,460
+minority tends to be comprised of big
+
+26
+00:01:03,149 --> 00:01:08,640
+players with huge accounts and bias sell
+
+27
+00:01:05,460 --> 00:01:11,400
+orders in order to sell something there
+
+28
+00:01:08,640 --> 00:01:13,830
+must be a buyer however if everyone
+
+29
+00:01:11,400 --> 00:01:16,470
+wants to buy above a resistance level or
+
+30
+00:01:13,830 --> 00:01:18,630
+sell below a support level the market
+
+31
+00:01:16,470 --> 00:01:21,630
+maker has to take the other side of the
+
+32
+00:01:18,630 --> 00:01:24,030
+equation retail traders like to trade
+
+33
+00:01:21,630 --> 00:01:25,939
+breakouts the smart minority the
+
+34
+00:01:24,030 --> 00:01:29,369
+institution of more seasoned traders
+
+35
+00:01:25,939 --> 00:01:31,500
+prefer to fade breakouts the smarter
+
+36
+00:01:29,369 --> 00:01:33,450
+forex traders take advantage of the
+
+37
+00:01:31,500 --> 00:01:36,150
+collective thinking of the crowd or
+
+38
+00:01:33,450 --> 00:01:38,850
+inexperienced traders and win at their
+
+39
+00:01:36,150 --> 00:01:41,250
+expense that's why trading alongside
+
+40
+00:01:38,850 --> 00:01:46,020
+with a more experienced forex traders
+
+41
+00:01:41,250 --> 00:01:48,149
+could be very profitable as well that's
+
+42
+00:01:46,020 --> 00:01:50,729
+why today I'll present you a London
+
+43
+00:01:48,149 --> 00:01:52,890
+breakout Forex strategy one of my most
+
+44
+00:01:50,729 --> 00:01:55,649
+useful and practical breakout trading
+
+45
+00:01:52,890 --> 00:01:58,020
+strategies the strategy is specifically
+
+46
+00:01:55,649 --> 00:02:00,869
+designed to benefit from a sudden spike
+
+47
+00:01:58,020 --> 00:02:03,360
+of trading volume near the London open
+
+48
+00:02:00,869 --> 00:02:05,579
+session the London breakout trading
+
+49
+00:02:03,360 --> 00:02:08,190
+strategy is one of the simplest training
+
+50
+00:02:05,579 --> 00:02:10,379
+strategies that you can use the strategy
+
+51
+00:02:08,190 --> 00:02:12,400
+makes use of the increased volume that
+
+52
+00:02:10,379 --> 00:02:15,010
+you will see during the start of the lon
+
+53
+00:02:12,400 --> 00:02:17,470
+training session I'm sure you know that
+
+54
+00:02:15,010 --> 00:02:20,290
+the forex markets are categorized into
+
+55
+00:02:17,470 --> 00:02:22,390
+three main trading time zones the Tokyo
+
+56
+00:02:20,290 --> 00:02:25,450
+session the London session in the New
+
+57
+00:02:22,390 --> 00:02:28,200
+York session the London session is known
+
+58
+00:02:25,450 --> 00:02:30,609
+to be the start of strong volatility as
+
+59
+00:02:28,200 --> 00:02:31,659
+London is one of the biggest capital
+
+60
+00:02:30,609 --> 00:02:33,790
+markets in the world
+
+61
+00:02:31,659 --> 00:02:36,250
+this is because the beginning of the
+
+62
+00:02:33,790 --> 00:02:38,709
+London session is also the end of the
+
+63
+00:02:36,250 --> 00:02:41,530
+Asian session right before the London
+
+64
+00:02:38,709 --> 00:02:44,140
+open the Asian markets are beginning to
+
+65
+00:02:41,530 --> 00:02:46,659
+close down and square off their open
+
+66
+00:02:44,140 --> 00:02:48,970
+positions and avoiding big position
+
+67
+00:02:46,659 --> 00:02:51,609
+trades knowing that along the open
+
+68
+00:02:48,970 --> 00:02:54,519
+volatility might affect their position
+
+69
+00:02:51,609 --> 00:02:56,739
+prior to finding its direction that's
+
+70
+00:02:54,519 --> 00:02:59,079
+why during the London open hours a
+
+71
+00:02:56,739 --> 00:03:03,400
+sudden spike in volatility occurs
+
+72
+00:02:59,079 --> 00:03:05,590
+causing momentum in the forex market the
+
+73
+00:03:03,400 --> 00:03:07,780
+main point of this trading strategy is
+
+74
+00:03:05,590 --> 00:03:10,299
+that you need to focus on the short-term
+
+75
+00:03:07,780 --> 00:03:13,209
+aspects of the price movements that
+
+76
+00:03:10,299 --> 00:03:15,069
+comes with this method of trading this
+
+77
+00:03:13,209 --> 00:03:18,310
+trading strategy is particularly suited
+
+78
+00:03:15,069 --> 00:03:22,690
+for traders who trade intraday or prefer
+
+79
+00:03:18,310 --> 00:03:25,239
+to scalp a few points from the market if
+
+80
+00:03:22,690 --> 00:03:27,250
+you look closely at this chart you will
+
+81
+00:03:25,239 --> 00:03:29,430
+see that a price action during the asian
+
+82
+00:03:27,250 --> 00:03:31,810
+session is quite range-bound
+
+83
+00:03:29,430 --> 00:03:35,109
+prices don't make any big moves during
+
+84
+00:03:31,810 --> 00:03:37,419
+this period this is often the case most
+
+85
+00:03:35,109 --> 00:03:40,290
+of the time unless there are some big
+
+86
+00:03:37,419 --> 00:03:43,150
+news releases during the asian session
+
+87
+00:03:40,290 --> 00:03:45,669
+after you identify the session the next
+
+88
+00:03:43,150 --> 00:03:47,949
+step is to plot auras on two lines to
+
+89
+00:03:45,669 --> 00:03:50,470
+establish the range from the asian
+
+90
+00:03:47,949 --> 00:03:53,079
+session after the start of the london
+
+91
+00:03:50,470 --> 00:03:56,290
+session you will wait in for the price
+
+92
+00:03:53,079 --> 00:03:58,449
+to break from this range here is what
+
+93
+00:03:56,290 --> 00:04:01,030
+you've probably been taught to trade the
+
+94
+00:03:58,449 --> 00:04:02,560
+london breakout so first you need to
+
+95
+00:04:01,030 --> 00:04:05,379
+draw a support and resistance lines
+
+96
+00:04:02,560 --> 00:04:08,409
+during the asian session then place a
+
+97
+00:04:05,379 --> 00:04:11,260
+buy stop order approximately two or five
+
+98
+00:04:08,409 --> 00:04:14,379
+pips above the resistance zone afterward
+
+99
+00:04:11,260 --> 00:04:16,720
+place a sell stop order two or five pips
+
+100
+00:04:14,379 --> 00:04:20,500
+below the support zone and wait for the
+
+101
+00:04:16,720 --> 00:04:23,039
+breakout that's a losing system with no
+
+102
+00:04:20,500 --> 00:04:25,730
+chance of consistency on the long term
+
+103
+00:04:23,039 --> 00:04:28,480
+anyone who's tried a breakout strategy
+
+104
+00:04:25,730 --> 00:04:31,760
+we'll know how challenging it can be to
+
+105
+00:04:28,480 --> 00:04:34,670
+many breakouts don't work out the way
+
+106
+00:04:31,760 --> 00:04:37,130
+you expect them to many breakouts that
+
+107
+00:04:34,670 --> 00:04:39,740
+start off strongly quickly fade and
+
+108
+00:04:37,130 --> 00:04:42,530
+start to track back into a range
+
+109
+00:04:39,740 --> 00:04:45,020
+I've personally lost a lot of trades
+
+110
+00:04:42,530 --> 00:04:47,780
+trying to catch London breakouts this
+
+111
+00:04:45,020 --> 00:04:50,450
+way until I realize that I have to think
+
+112
+00:04:47,780 --> 00:04:52,970
+differently that's why during London
+
+113
+00:04:50,450 --> 00:04:55,580
+session I don't take trades in the
+
+114
+00:04:52,970 --> 00:04:57,890
+direction of the breakout I fail the
+
+115
+00:04:55,580 --> 00:05:00,430
+breakout I won't take the normal route
+
+116
+00:04:57,890 --> 00:05:03,800
+with the breakout I go the opposite way
+
+117
+00:05:00,430 --> 00:05:06,530
+if the price breaks above I search for
+
+118
+00:05:03,800 --> 00:05:08,810
+short trades if the price breaks below
+
+119
+00:05:06,530 --> 00:05:13,940
+the Tokyo range I love to buy the
+
+120
+00:05:08,810 --> 00:05:17,330
+breakout that's the concept of fading in
+
+121
+00:05:13,940 --> 00:05:19,310
+Trading fading breakouts simply means
+
+122
+00:05:17,330 --> 00:05:21,890
+trading in the opposite direction of the
+
+123
+00:05:19,310 --> 00:05:23,930
+breakout you would fail the breakout
+
+124
+00:05:21,890 --> 00:05:26,390
+if you believe that a breakout from a
+
+125
+00:05:23,930 --> 00:05:28,580
+support or resistance level is false and
+
+126
+00:05:26,390 --> 00:05:31,250
+unable to keep moving in the same
+
+127
+00:05:28,580 --> 00:05:32,750
+direction in cases in which the support
+
+128
+00:05:31,250 --> 00:05:35,570
+and resistance network end is
+
+129
+00:05:32,750 --> 00:05:37,520
+significant fading breakouts may prove
+
+130
+00:05:35,570 --> 00:05:39,890
+to be even smarter than trading the
+
+131
+00:05:37,520 --> 00:05:41,930
+breakout keep in mind that fading
+
+132
+00:05:39,890 --> 00:05:45,710
+breakouts during London session is a
+
+133
+00:05:41,930 --> 00:05:48,320
+great short term strategy breakouts tend
+
+134
+00:05:45,710 --> 00:05:51,590
+to fail at the first few attempts but
+
+135
+00:05:48,320 --> 00:05:54,290
+may succeed eventually so how to fail
+
+136
+00:05:51,590 --> 00:05:57,080
+the london breakout before the London
+
+137
+00:05:54,290 --> 00:06:00,440
+open draw a support and resistance line
+
+138
+00:05:57,080 --> 00:06:03,050
+around the last candlesticks that formed
+
+139
+00:06:00,440 --> 00:06:05,900
+in the Asian session I usually look for
+
+140
+00:06:03,050 --> 00:06:08,930
+ranges in the last hour before the
+
+141
+00:06:05,900 --> 00:06:11,930
+London open you don't need three or four
+
+142
+00:06:08,930 --> 00:06:14,450
+hours of Candlestick activity you just
+
+143
+00:06:11,930 --> 00:06:17,660
+need a small range of few candles prior
+
+144
+00:06:14,450 --> 00:06:20,030
+to the London open then wait for the
+
+145
+00:06:17,660 --> 00:06:23,900
+price to break that range either below
+
+146
+00:06:20,030 --> 00:06:26,000
+or above it when this happens you simply
+
+147
+00:06:23,900 --> 00:06:28,760
+wait for the price to break on the other
+
+148
+00:06:26,000 --> 00:06:31,550
+side of the range so you don't need to
+
+149
+00:06:28,760 --> 00:06:34,040
+trade the breakout you fade it you want
+
+150
+00:06:31,550 --> 00:06:36,130
+to see trapped traders attempting to
+
+151
+00:06:34,040 --> 00:06:38,770
+catch that breakout
+
+152
+00:06:36,130 --> 00:06:41,440
+if the price returns into the range and
+
+153
+00:06:38,770 --> 00:06:43,180
+breaks it on the other side you can
+
+154
+00:06:41,440 --> 00:06:45,630
+search for crates in the opposite
+
+155
+00:06:43,180 --> 00:06:48,190
+direction of the london breakout I
+
+156
+00:06:45,630 --> 00:06:50,890
+usually place my stop loss on the other
+
+157
+00:06:48,190 --> 00:06:55,150
+side of the breakout and I aim for small
+
+158
+00:06:50,890 --> 00:06:57,460
+profits the most ideal currency pairs to
+
+159
+00:06:55,150 --> 00:07:01,000
+trade the london breakout system is the
+
+160
+00:06:57,460 --> 00:07:03,520
+jpp USD and the JPB JPY what your
+
+161
+00:07:01,000 --> 00:07:06,580
+choices are not just limited for these
+
+162
+00:07:03,520 --> 00:07:09,370
+pairs you can also trade other major
+
+163
+00:07:06,580 --> 00:07:12,910
+currency pairs such as the euro USD and
+
+164
+00:07:09,370 --> 00:07:15,130
+usd/jpy - you should not get too caught
+
+165
+00:07:12,910 --> 00:07:18,070
+up with which currency pairs to trade a
+
+166
+00:07:15,130 --> 00:07:20,590
+lot of other currencies also experience
+
+167
+00:07:18,070 --> 00:07:22,620
+a lot of volatility during the overlap
+
+168
+00:07:20,590 --> 00:07:25,210
+of these two training sessions
+
+169
+00:07:22,620 --> 00:07:27,460
+therefore you should firstly pick a few
+
+170
+00:07:25,210 --> 00:07:30,850
+currency pairs and see how they behave
+
+171
+00:07:27,460 --> 00:07:34,120
+during this overlap period based on this
+
+172
+00:07:30,850 --> 00:07:36,430
+and depending on your familiarity with a
+
+173
+00:07:34,120 --> 00:07:38,740
+currency pair then you can narrow down
+
+174
+00:07:36,430 --> 00:07:43,660
+to trading one or two currency pairs
+
+175
+00:07:38,740 --> 00:07:47,530
+during this time period so here is
+
+176
+00:07:43,660 --> 00:07:50,890
+gbp/usd on a 5-minute chart we have the
+
+177
+00:07:47,530 --> 00:07:54,190
+Tokyo range here the market opened with
+
+178
+00:07:50,890 --> 00:07:56,500
+a downward breakout at this point we
+
+179
+00:07:54,190 --> 00:07:58,810
+know that we want to go long when the
+
+180
+00:07:56,500 --> 00:08:01,690
+price returns on the other side of that
+
+181
+00:07:58,810 --> 00:08:03,820
+range the market returned almost
+
+182
+00:08:01,690 --> 00:08:06,430
+immediately on the other side of the
+
+183
+00:08:03,820 --> 00:08:09,940
+range offering a good rate to the upside
+
+184
+00:08:06,430 --> 00:08:15,430
+with a lot of traders trapped below the
+
+185
+00:08:09,940 --> 00:08:17,260
+range the same pattern once again we
+
+186
+00:08:15,430 --> 00:08:22,390
+have the range during the asian session
+
+187
+00:08:17,260 --> 00:08:26,740
+a false London breakout and the move in
+
+188
+00:08:22,390 --> 00:08:28,630
+the opposite direction this London
+
+189
+00:08:26,740 --> 00:08:31,660
+breakout trading system is not a
+
+190
+00:08:28,630 --> 00:08:34,000
+foolproof system so you will have
+
+191
+00:08:31,660 --> 00:08:37,060
+trading losses and days with a true
+
+192
+00:08:34,000 --> 00:08:39,400
+breakout you will encounter days where
+
+193
+00:08:37,060 --> 00:08:41,830
+the price breaks the range and trades
+
+194
+00:08:39,400 --> 00:08:44,710
+above it or below it for the rest of the
+
+195
+00:08:41,830 --> 00:08:45,740
+day and that's okay you have to do some
+
+196
+00:08:44,710 --> 00:08:48,800
+work and
+
+197
+00:08:45,740 --> 00:08:50,899
+back test to see which bears offer most
+
+198
+00:08:48,800 --> 00:08:54,170
+false breakouts during the London
+
+199
+00:08:50,899 --> 00:09:18,320
+session here are other examples of
+
+200
+00:08:54,170 --> 00:09:20,330
+London breakout trades the main
+
+201
+00:09:18,320 --> 00:09:22,910
+advantage of trading the London breakout
+
+202
+00:09:20,330 --> 00:09:25,430
+trading strategy is that is very simple
+
+203
+00:09:22,910 --> 00:09:27,649
+there is no complicated use of multiple
+
+204
+00:09:25,430 --> 00:09:30,440
+indicators you just need to draw
+
+205
+00:09:27,649 --> 00:09:32,140
+correctly the Asian range that's the
+
+206
+00:09:30,440 --> 00:09:34,910
+most important part of this technique
+
+207
+00:09:32,140 --> 00:09:37,220
+once the trade has reached the day's
+
+208
+00:09:34,910 --> 00:09:39,230
+profit you don't need to stay glued to
+
+209
+00:09:37,220 --> 00:09:42,080
+your chart and wait for other training
+
+210
+00:09:39,230 --> 00:09:44,450
+opportunities as mentioned when you
+
+211
+00:09:42,080 --> 00:09:46,550
+stick to one or two currency pairs using
+
+212
+00:09:44,450 --> 00:09:48,890
+the London breakout trading strategy you
+
+213
+00:09:46,550 --> 00:09:52,339
+can make small profits on a daily basis
+
+214
+00:09:48,890 --> 00:09:54,290
+as always if you learn something new
+
+215
+00:09:52,339 --> 00:09:56,839
+make sure to subscribe click the
+
+216
+00:09:54,290 --> 00:10:01,209
+notification icon and it was a like to
+
+217
+00:09:56,839 --> 00:10:01,209
+show support until next time
+

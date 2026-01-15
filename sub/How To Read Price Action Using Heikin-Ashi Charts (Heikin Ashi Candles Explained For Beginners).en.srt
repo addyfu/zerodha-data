@@ -1,0 +1,689 @@
+1
+00:00:01,130 --> 00:00:05,690
+Have you ever heard of the phrase “the trend
+is your friend” when trading or investing”?
+
+2
+00:00:05,690 --> 00:00:06,690
+Sure you have.
+
+3
+00:00:06,690 --> 00:00:11,570
+Of course, most profits are generated when
+markets are trending, but, I have to disagree
+
+4
+00:00:11,570 --> 00:00:12,980
+with this quote.
+
+5
+00:00:12,980 --> 00:00:17,790
+The correct phrase is “the trend is your
+friend, if it can be found”.
+
+6
+00:00:17,790 --> 00:00:23,289
+If you cannot tell if a market is trending
+or not, the trend has no use to you, you cannot
+
+7
+00:00:23,289 --> 00:00:24,929
+profit from it.
+
+8
+00:00:24,929 --> 00:00:30,300
+There are many ways that can help you to spot
+a trend, and one of the best approaches is
+
+9
+00:00:30,300 --> 00:00:32,540
+with Heikin-Ashi candlesticks.
+
+10
+00:00:32,540 --> 00:00:37,730
+So, today we’ll talk about Heikin-Ashi charts,
+you’ll discover the importance of adding
+
+11
+00:00:37,730 --> 00:00:43,490
+them into your trading arsenal and you’ll
+learn how to use them to stay on the right
+
+12
+00:00:43,490 --> 00:00:45,110
+side of the market.
+
+13
+00:00:45,110 --> 00:00:50,710
+Before we continue, if you’re new here,
+make sure you subscribe, turn on the notifications
+
+14
+00:00:50,710 --> 00:00:53,970
+and leave us a like to show your support.
+
+15
+00:00:53,970 --> 00:01:01,900
+So, Heikin-Ashi is a Japanese technique based
+on the candlestick theory but taking it to
+
+16
+00:01:01,900 --> 00:01:05,380
+a higher level for trend determination.
+
+17
+00:01:05,380 --> 00:01:12,880
+Heiken means average and ashi means pace,
+taken together Heikin-Ashi represents the
+
+18
+00:01:12,880 --> 00:01:14,759
+average pace of prices.
+
+19
+00:01:14,759 --> 00:01:19,670
+A Heikin-Ashi chart look like the classic
+candlestick chart.
+
+20
+00:01:19,670 --> 00:01:24,549
+But the method of calculating and plotting
+the candlesticks on the Heikin-Ashi chart
+
+21
+00:01:24,549 --> 00:01:27,640
+is different from the regular candlestick
+chart.
+
+22
+00:01:27,640 --> 00:01:34,430
+On the candlestick charts, each candlestick
+is independent and has no relationship with
+
+23
+00:01:34,430 --> 00:01:36,789
+the previous or next candlesticks.
+
+24
+00:01:36,789 --> 00:01:43,229
+But Heikin-Ashi candlesticks are different
+and each candlestick is calculated and plotted
+
+25
+00:01:43,229 --> 00:01:46,229
+using some information from the previous candlestick:
+
+26
+00:01:46,229 --> 00:01:47,229
+1.
+
+27
+00:01:47,229 --> 00:01:51,140
+Open price:
+The open price in a Heikin-Ashi candlestick,
+
+28
+00:01:51,140 --> 00:01:55,990
+is the average of the open and close price
+of the previous candlestick.
+
+29
+00:01:55,990 --> 00:01:56,990
+2.
+
+30
+00:01:56,990 --> 00:01:59,849
+Close price:
+The close price in a Heikin-Ashi candlestick,
+
+31
+00:01:59,849 --> 00:02:04,240
+is the average of the open, close, high and
+low prices.
+
+32
+00:02:04,240 --> 00:02:05,240
+3.
+
+33
+00:02:05,240 --> 00:02:08,679
+High price:
+The high price in a Heikin-Ashi candlestick,
+
+34
+00:02:08,679 --> 00:02:15,140
+is chosen from one of the high, open and close
+price of which has the highest value.
+
+35
+00:02:15,140 --> 00:02:16,140
+4.
+
+36
+00:02:16,140 --> 00:02:18,940
+Low price:
+The low price in a Heikin-Ashi candlestick
+
+37
+00:02:18,940 --> 00:02:27,110
+is chosen from one of the low, open and close
+price of which has the lowest value.
+
+38
+00:02:27,110 --> 00:02:32,020
+The major difference between Heikin-Ashi and
+regular candlestick chart is the way up candles
+
+39
+00:02:32,020 --> 00:02:34,170
+and down candles are formed.
+
+40
+00:02:34,170 --> 00:02:39,330
+In order for an up candle to form on a traditional
+candlestick chart, the closing price must
+
+41
+00:02:39,330 --> 00:02:44,550
+be above the opening price; a down candle
+forms when the closing price is below the
+
+42
+00:02:44,550 --> 00:02:45,930
+opening price.
+
+43
+00:02:45,930 --> 00:02:52,440
+In a Heikin-Ashi chart, an up candle forms
+when the price closes above the midpoint of
+
+44
+00:02:52,440 --> 00:02:58,410
+the prior candle and a down candle forms when
+price closes below the midpoint of the prior
+
+45
+00:02:58,410 --> 00:02:59,410
+candle.
+
+46
+00:02:59,410 --> 00:03:05,010
+This important difference is why Heikin-Ashi
+charts make it easier to spot the current
+
+47
+00:03:05,010 --> 00:03:07,420
+trend.
+
+48
+00:03:07,420 --> 00:03:13,180
+So candlesticks in a Heikin-Ashi chart are
+related to each other, because the open price
+
+49
+00:03:13,180 --> 00:03:19,600
+of each candlestick is calculated using the
+previous candlestick’s close and open prices.
+
+50
+00:03:19,600 --> 00:03:25,560
+Also the high and low prices of each candlestick
+is determined by the previous candlestick.
+
+51
+00:03:25,560 --> 00:03:32,180
+So a Heikin-Ashi chart is slower than a candlestick
+chart and its signals are delayed.
+
+52
+00:03:32,180 --> 00:03:35,190
+They work somehow like a moving average.
+
+53
+00:03:35,190 --> 00:03:40,110
+When reading these candlestick charts, there
+are a few important things to pay attention
+
+54
+00:03:40,110 --> 00:03:41,160
+to.
+
+55
+00:03:41,160 --> 00:03:46,720
+The size of the candlestick, the relative
+direction of the candlestick, and even the
+
+56
+00:03:46,720 --> 00:03:53,560
+color of the candlestick (red versus green)
+can all help traders draw conclusions about
+
+57
+00:03:53,560 --> 00:03:55,950
+what trends may be occurring.
+
+58
+00:03:55,950 --> 00:04:01,560
+The charts themselves can be easily adjusted
+depending on the desired timeframe used by
+
+59
+00:04:01,560 --> 00:04:02,880
+each trader.
+
+60
+00:04:02,880 --> 00:04:09,080
+Five minute, fifteen minute, hourly, and daily
+Heikin-Ashi candlesticks are all among the
+
+61
+00:04:09,080 --> 00:04:11,540
+most commonly used.
+
+62
+00:04:11,540 --> 00:04:18,791
+When the market is bullish, Heikin-Ashi candlesticks
+have big bodies and long upper shadows, but
+
+63
+00:04:18,791 --> 00:04:21,000
+no lower shadow.
+
+64
+00:04:21,000 --> 00:04:23,760
+Pay attention at the big uptrend in this chart.
+
+65
+00:04:23,760 --> 00:04:31,400
+As you see, almost all of the candlesticks
+have big bodies, long upper shadows and no
+
+66
+00:04:31,400 --> 00:04:32,400
+lower shadow.
+
+67
+00:04:32,400 --> 00:04:39,400
+At first glance, the bullish Heikin-Ashi trend
+looks like a normal Japanese candlestick trend.
+
+68
+00:04:39,400 --> 00:04:45,750
+However, you will notice that the Heikin-Ashi
+trend is built primarily by bullish candles
+
+69
+00:04:45,750 --> 00:04:49,380
+and is absent of lower candlewicks.
+
+70
+00:04:49,380 --> 00:04:57,180
+When the price is shooting up, the price action
+creates very little to no lower shadows.
+
+71
+00:04:57,180 --> 00:05:04,571
+When the market is bearish, Heikin-Ashi candlesticks
+have big bodies and long lower shadows, but
+
+72
+00:05:04,571 --> 00:05:06,900
+no upper shadow.
+
+73
+00:05:06,900 --> 00:05:13,910
+So here is a big downtrend and as you see,
+almost all of the candlesticks have big bodies,
+
+74
+00:05:13,910 --> 00:05:18,720
+long lower shadows and no upper shadow.
+
+75
+00:05:18,720 --> 00:05:24,480
+This indicates that the declining momentum
+is very strong.
+
+76
+00:05:24,480 --> 00:05:30,650
+Reversal candlesticks in the Heikin-Ashi charts
+look like regular doji candlesticks.
+
+77
+00:05:30,650 --> 00:05:38,020
+They have no or very small bodies but long
+upper and lower shadows.
+
+78
+00:05:38,020 --> 00:05:44,790
+The doji, when it appears after a directional
+move, has a reversal potential and indicates
+
+79
+00:05:44,790 --> 00:05:51,790
+that the price action is stalling and might
+be poised to start a counter trend move.
+
+80
+00:05:51,790 --> 00:05:55,770
+So, in short how do you analyze a Heikin-Ashi
+chart?
+
+81
+00:05:55,770 --> 00:05:57,040
+It’s simple.
+
+82
+00:05:57,040 --> 00:06:02,310
+When prices are trending up, Heikin-Ashi bars
+have no lower shadow.
+
+83
+00:06:02,310 --> 00:06:08,550
+When prices are trending down, Heikin-Ashi
+bars have no upper shadow.
+
+84
+00:06:08,550 --> 00:06:15,120
+Doji bars with both lower and upper shadows
+are possible turning points and can also appear
+
+85
+00:06:15,120 --> 00:06:17,440
+during choppy price action.
+
+86
+00:06:17,440 --> 00:06:23,590
+Now, Heikin-Ashi chart is much smoother looking
+in terms of price action.
+
+87
+00:06:23,590 --> 00:06:26,710
+Easier to identify trend and profit from it.
+
+88
+00:06:26,710 --> 00:06:31,330
+But the problem is that Heikin-Ashi candles
+do not show true prices.
+
+89
+00:06:31,330 --> 00:06:37,919
+Yes, we derive these candlesticks from true
+prices, but we need to treat it as more of
+
+90
+00:06:37,919 --> 00:06:40,310
+an indicator than a price chart itself.
+
+91
+00:06:40,310 --> 00:06:46,360
+So, that’s why it’s very important to
+highlight the pros and the cons of using Heikin-Ashi
+
+92
+00:06:46,360 --> 00:06:47,930
+.
+
+93
+00:06:47,930 --> 00:06:52,510
+There are a few benefits to the Heikin-Ashi
+chart that can be seen immediately.
+
+94
+00:06:52,510 --> 00:06:54,460
+The first is the smoothness.
+
+95
+00:06:54,460 --> 00:07:00,430
+The Heikin-Ashi chart creates a much smoother
+flow of price movement without the gaps and
+
+96
+00:07:00,430 --> 00:07:03,639
+choppy movements typical price action can
+make.
+
+97
+00:07:03,639 --> 00:07:09,950
+Heikin-Ashi indicator compared to the regular
+price chart slows down the speed of the market,
+
+98
+00:07:09,950 --> 00:07:13,030
+eliminating unnecessary false signals.
+
+99
+00:07:13,030 --> 00:07:19,790
+Also, it’s easy to read trends: both the
+size, direction, and color of a Heikin-Ashi
+
+100
+00:07:19,790 --> 00:07:25,860
+candlestick will tell you a lot about the
+trend in a short amount of time.
+
+101
+00:07:25,860 --> 00:07:31,080
+This is extremely valuable for day traders
+who need to make quick decisions.
+
+102
+00:07:31,080 --> 00:07:37,080
+Another advantage of Heikin-Ashi is the fact
+that it will allow you to stay in the trade
+
+103
+00:07:37,080 --> 00:07:41,449
+without being nervous or making any unnecessary
+moves.
+
+104
+00:07:41,449 --> 00:07:45,580
+Also, the adaptability is another benefit.
+
+105
+00:07:45,580 --> 00:07:51,610
+The “trading period” on Heikin-Ashi charts
+can be easily adjusted to reflect different
+
+106
+00:07:51,610 --> 00:07:53,169
+time periods.
+
+107
+00:07:53,169 --> 00:07:59,229
+Some traders will look at 15 minute and daily
+charts side by side in order to develop a
+
+108
+00:07:59,229 --> 00:08:01,850
+more comprehensive analysis.
+
+109
+00:08:01,850 --> 00:08:07,450
+These charts can also be applied in many different
+markets including stocks, forex, indexes,
+
+110
+00:08:07,450 --> 00:08:09,930
+and various others.
+
+111
+00:08:09,930 --> 00:08:17,070
+However, a Heikin-Ashi chart has some disadvantages:
+Every indicator that is based on slowing down
+
+112
+00:08:17,070 --> 00:08:21,400
+the signals does its best on trends only.
+
+113
+00:08:21,400 --> 00:08:26,800
+Heikin-Ashi smoothed signals don’t let you
+to notice the reversal in time.
+
+114
+00:08:26,800 --> 00:08:32,940
+Any Heikin-Ashi strategy should take into
+consideration that lagging indicators not
+
+115
+00:08:32,940 --> 00:08:38,610
+only dismiss useless signals to open the trade
+but also provide you with a late signal for
+
+116
+00:08:38,610 --> 00:08:39,940
+closing the trade.
+
+117
+00:08:39,940 --> 00:08:46,330
+That is why you will often see the market
+slowly destroying your profit and later on,
+
+118
+00:08:46,330 --> 00:08:49,760
+you will understand that the trend has already
+changed.
+
+119
+00:08:49,760 --> 00:08:56,330
+In other words, don’t rely too much on Heikin-Ashi
+when you want to take your profits.
+
+120
+00:08:56,330 --> 00:09:01,650
+Another important drawback is the fact that
+this indicator does not fit short-term and
+
+121
+00:09:01,650 --> 00:09:02,970
+scalping strategies.
+
+122
+00:09:02,970 --> 00:09:09,300
+I’ve talked with many traders that used
+Heikin-Ashi on the 1-min or 5-min chart, trying
+
+123
+00:09:09,300 --> 00:09:12,510
+to scalp the market, and all of them were
+disappointed.
+
+124
+00:09:12,510 --> 00:09:17,620
+So, short term trading could be inefficient
+when using Heikin-Ashi .
+
+125
+00:09:17,620 --> 00:09:24,150
+Now, developing a Heikin-Ashi trading strategy
+is surprisingly easy.
+
+126
+00:09:24,150 --> 00:09:29,279
+These charts rarely contradict other technical
+indicators, rather, they simply amplify the
+
+127
+00:09:29,279 --> 00:09:32,880
+trend to make it easier to identify.
+
+128
+00:09:32,880 --> 00:09:37,430
+When used correctly, Heikin-Ashi charts are
+incredibly reliable.
+
+129
+00:09:37,430 --> 00:09:42,730
+If your goal is to catch longer and persistent
+trends, then using a Heikin-Ashi chart will
+
+130
+00:09:42,730 --> 00:09:44,490
+help you toward that end.
+
+131
+00:09:44,490 --> 00:09:51,630
+A simple way to use Heikin-Ashi is to add
+them to a h4 or daily chart and apply price
+
+132
+00:09:51,630 --> 00:09:54,300
+action rules.
+
+133
+00:09:54,300 --> 00:10:00,480
+On higher timeframes like the 4 h or d1, the
+Heikin-Ashi trading style puts an emphasis
+
+134
+00:10:00,480 --> 00:10:02,600
+on persistent trends.
+
+135
+00:10:02,600 --> 00:10:08,430
+Small corrections and consolidations are left
+behind and they are barely visible on the
+
+136
+00:10:08,430 --> 00:10:09,640
+chart.
+
+137
+00:10:09,640 --> 00:10:15,870
+You will notice that when the direction changes
+on a Heikin-Ashi graph, the price most likely
+
+138
+00:10:15,870 --> 00:10:17,890
+starts a new move.
+
+139
+00:10:17,890 --> 00:10:23,360
+This helps to distinguish between the potential
+beginning and the end of a trend.
+
+140
+00:10:23,360 --> 00:10:29,850
+Since chart noise is filtered, you basically
+see the naked trend.
+
+141
+00:10:29,850 --> 00:10:35,060
+Heikin-Ashi charting is very powerful when
+combined with price action analysis.
+
+142
+00:10:35,060 --> 00:10:41,240
+Look for the emergence of new trends, or for
+the reversal of already existing ones.
+
+143
+00:10:41,240 --> 00:10:46,740
+Look for support and resistance levels and
+important swing points, and keep in mind that
+
+144
+00:10:46,740 --> 00:10:50,260
+these could act as future turning points on
+the chart.
+
+145
+00:10:50,260 --> 00:10:55,910
+Now, if you found value and learned something
+new, make sure you subscribe to our channel,
+
+146
+00:10:55,910 --> 00:11:00,370
+turn on the notifications so you don’t miss
+future uploads and leave us a like to show
+
+147
+00:11:00,370 --> 00:11:02,010
+your support.
+
+148
+00:11:02,010 --> 00:11:02,510
+Until next time
+

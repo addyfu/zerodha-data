@@ -1,0 +1,1312 @@
+1
+00:00:00,240 --> 00:00:07,840
+Classic patterns like triangles, wedges or head 
+and shoulders are just bait for retail traders. 
+
+2
+00:00:07,840 --> 00:00:12,960
+And the market is built to trap those 
+who follow the same old chart setups. 
+
+3
+00:00:12,960 --> 00:00:17,644
+Today it’s time to learn the 
+patterns the pros actually chase!
+  
+
+4
+00:00:17,644 --> 00:00:20,320
+Over-and-Under – Quasimodo pattern
+The Over-and-Under pattern, also called  
+
+5
+00:00:20,320 --> 00:00:26,960
+Quasimodo, is one of smart money’s favorite 
+setups. It’s about sudden changes and traps. 
+
+6
+00:00:26,960 --> 00:00:32,480
+It all starts with a strong move up. 
+Price makes a high. It pulls back,  
+
+7
+00:00:32,480 --> 00:00:37,920
+then pushes higher, making a new 
+high. After that, price falls sharply,  
+
+8
+00:00:37,920 --> 00:00:44,480
+breaking below the low of the last dip. 
+ 
+This is the key moment! Price makes a lower low,  
+
+9
+00:00:44,480 --> 00:00:51,840
+taking out stops placed by traders who went long 
+earlier. This dip below the last low is fast,  
+
+10
+00:00:51,840 --> 00:00:58,640
+almost like someone grabs liquidity and runs.
+The move is deep enough to scare holders out. But  
+
+11
+00:00:58,640 --> 00:01:05,840
+instead of rolling over, price snaps back up right 
+away. Sellers who chased the low get trapped. 
+
+12
+00:01:05,840 --> 00:01:10,880
+Now, the market shifts. Price climbs, 
+but this time, it doesn’t reach the old  
+
+13
+00:01:10,880 --> 00:01:17,520
+high. It stalls and starts to turn down 
+earlier. This creates a “lower high.” 
+  
+
+14
+00:01:17,520 --> 00:01:24,000
+The Over-and-Under pattern gets its name from 
+this exact sequence: a fake-out higher high,  
+
+15
+00:01:24,000 --> 00:01:30,640
+a fake-out lower low, followed by a lower 
+high. The pattern is about the trap. Big  
+
+16
+00:01:30,640 --> 00:01:37,680
+money creates the lower low to pull in sellers 
+and force out buyers, then reverses back up so  
+
+17
+00:01:37,680 --> 00:01:44,560
+quickly that most can’t react. The new lower 
+high is the spot where the trap closes.
+  
+
+18
+00:01:44,560 --> 00:01:50,960
+Here’s how to trade it. When you see price drop 
+below support and snap back, mark that low as  
+
+19
+00:01:50,960 --> 00:01:57,840
+the “liquidity grab.” Watch as price rises 
+again. If it fails to reach the old high and  
+
+20
+00:01:57,840 --> 00:02:05,040
+starts to fall, this is the “over-and-under.”
+The lower high is your entry zone. Sell short  
+
+21
+00:02:05,040 --> 00:02:10,400
+as price turns down from this area. 
+Your stop goes just above the lower  
+
+22
+00:02:10,400 --> 00:02:18,160
+high. If price returns above that, the pattern 
+failed. If not, you’re in for the ride down.
+  
+
+23
+00:02:18,160 --> 00:02:25,200
+This pattern works because many traders put their 
+stops under the old low. When price drops and  
+
+24
+00:02:25,200 --> 00:02:32,640
+breaks that level, those stops trigger, giving big 
+players the liquidity they need to enter or exit  
+
+25
+00:02:32,640 --> 00:02:40,080
+quietly. After the trap, the market structure 
+changes. It’s no longer making higher highs.  
+
+26
+00:02:40,080 --> 00:02:47,360
+Instead, it prints a lower low and then a lower 
+high. This switch signals that the uptrend is  
+
+27
+00:02:47,360 --> 00:02:54,000
+likely over, and a downtrend may be starting.
+ 
+The best Over-and-Under patterns happen after  
+
+28
+00:02:54,000 --> 00:03:00,880
+a clear uptrend, when lots of traders are 
+caught off guard. Volume often spikes during  
+
+29
+00:03:00,880 --> 00:03:07,920
+the liquidity grab, showing that big players 
+are active. The lower high forms quickly,  
+
+30
+00:03:07,920 --> 00:03:13,600
+often with less energy than the earlier 
+moves up. The rejection is sharp.
+  
+
+31
+00:03:13,600 --> 00:03:20,960
+So to spot this in real time, watch for three 
+things. First, a strong move up with a clear high  
+
+32
+00:03:20,960 --> 00:03:29,600
+and a clear low. Second, a sudden break below the 
+low, followed by a quick reversal back up. Third,  
+
+33
+00:03:29,600 --> 00:03:35,600
+a lower high forming as price fails to 
+reach the old high. When you see this,  
+
+34
+00:03:35,600 --> 00:03:42,240
+get ready. The lower high is your short entry. 
+Set your stop above it, and look for price to  
+
+35
+00:03:42,240 --> 00:03:46,712
+make new lows as the trend shifts down.
+ 
+Wyckoff “Spring” (after Accumulation) 
+
+36
+00:03:46,712 --> 00:03:52,400
+Wyckoff Spring is one of the most common fake 
+breakout patterns, to shake out weak traders. 
+
+37
+00:03:52,400 --> 00:03:58,320
+Picture a price chart with sideways movement.
+The price bounces up and down between two  
+
+38
+00:03:58,320 --> 00:04:01,200
+lines, a top and a bottom.
+Traders call this a range.  
+
+39
+00:04:01,200 --> 00:04:07,760
+They buy at the bottom, sell at the top. But the 
+market has a trick up its sleeve. This is where  
+
+40
+00:04:07,760 --> 00:04:12,640
+the Wyckoff “Spring” pattern comes in.
+ 
+The “Spring” happens after a time of  
+
+41
+00:04:12,640 --> 00:04:19,440
+sideways trading, near the bottom of that range.
+Price slowly drops right through the support line,  
+
+42
+00:04:19,440 --> 00:04:26,080
+just enough to make everyone think the range is 
+broken. Traders panic. Some who bought at the  
+
+43
+00:04:26,080 --> 00:04:33,360
+bottom sell fast to cut their losses. Others go 
+short, betting the market will keep falling. This  
+
+44
+00:04:33,360 --> 00:04:39,840
+is what big players want. They set the trap.
+ 
+Here’s the key: the drop below support doesn’t  
+
+45
+00:04:39,840 --> 00:04:45,920
+last. It’s quick, sharp, and then, just as 
+suddenly, price snaps straight back inside  
+
+46
+00:04:45,920 --> 00:04:51,840
+the range. The bounce is hard and fast. 
+The market shakes out the “weak hands”,  
+
+47
+00:04:51,840 --> 00:04:58,800
+traders who panic and sell at the worst time. 
+This flush is not random. The large players,  
+
+48
+00:04:58,800 --> 00:05:05,120
+the ones with deep pockets, use this moment to buy 
+what the weak hands are selling. They want to buy  
+
+49
+00:05:05,120 --> 00:05:12,240
+big, but they want to do it quietly. If they just 
+buy in the range, the price would rise too soon,  
+
+50
+00:05:12,240 --> 00:05:18,320
+so they use the “Spring” to buy from scared 
+sellers without tipping off the crowd.
+  
+
+51
+00:05:18,320 --> 00:05:24,560
+You can spot the Spring by watching for a dip 
+below the lowest point of the range, followed by a  
+
+52
+00:05:24,560 --> 00:05:32,880
+fast return inside the range. Volume often spikes. 
+It shows big players are active. When price comes  
+
+53
+00:05:32,880 --> 00:05:39,600
+back inside the range, that’s the signal. Now, 
+you want to buy! Place your stop just under the  
+
+54
+00:05:39,600 --> 00:05:46,400
+lowest tick of the Spring. If price returns 
+below that point, the pattern failed. If not,  
+
+55
+00:05:46,400 --> 00:05:53,040
+you ride the next move up, when the market finally 
+breaks out for real and price runs higher.
+  
+
+56
+00:05:53,040 --> 00:05:59,760
+On the flip side, after an uptrend and a period 
+of distribution (where big players sell to late  
+
+57
+00:05:59,760 --> 00:06:05,920
+buyers), you get the opposite pattern: the 
+Up-Thrust After Distribution. The price sneaks  
+
+58
+00:06:05,920 --> 00:06:13,360
+above the top of the range, often in a sharp move. 
+Traders think this is a breakout. They pile in,  
+
+59
+00:06:13,360 --> 00:06:20,400
+buying the “new high.” But then, price slams back 
+below the range top. That breakout was a fake.  
+
+60
+00:06:20,400 --> 00:06:25,840
+The big players used it to dump their 
+inventory on eager buyers. The market  
+
+61
+00:06:25,840 --> 00:06:32,720
+can’t hold the higher price. The reversal is fast 
+and deep. This is the last bull trap before the  
+
+62
+00:06:32,720 --> 00:06:39,360
+markdown phase, where price drops hard.
+ 
+Both the Spring and Up-Thrust show how big  
+
+63
+00:06:39,360 --> 00:06:47,120
+players use traps. They create fake breakouts to 
+shake out weak traders and fill their own orders.  
+
+64
+00:06:47,120 --> 00:06:52,960
+These patterns show up every day, on all 
+markets and time frames, and they offer  
+
+65
+00:06:52,960 --> 00:06:59,734
+strong entries. That’s how you know the big 
+players are moving and the pattern is real.
+  
+
+66
+00:06:59,734 --> 00:07:02,800
+Volume-Climax + Tight Coil
+Volume-Climax followed by a tight Coil  
+
+67
+00:07:02,800 --> 00:07:09,120
+is a pattern that tells you when the big players 
+just made their move, finished their business,  
+
+68
+00:07:09,120 --> 00:07:15,680
+and are getting ready for the next big swing. 
+ 
+Here’s how it works. First, you’ll spot a giant  
+
+69
+00:07:15,680 --> 00:07:21,120
+candle. It’s much bigger than all the 
+candles before it. The price shoots up  
+
+70
+00:07:21,120 --> 00:07:27,040
+or down, covering more ground in a few 
+minutes or hours than it did all day. 
+
+71
+00:07:27,040 --> 00:07:33,440
+The volume on this candle is huge, maybe the 
+highest you’ve seen in days or even weeks. This  
+
+72
+00:07:33,440 --> 00:07:39,600
+isn’t normal trading. This is when big money is 
+at work. They’re either dumping a huge position  
+
+73
+00:07:39,600 --> 00:07:46,720
+(unloading) or snapping up shares (loading up).
+This giant candle is the climax. It’s the end  
+
+74
+00:07:46,720 --> 00:07:52,960
+of one story and the start of another.
+ 
+Right after this, everything goes quiet.  
+
+75
+00:07:52,960 --> 00:07:58,880
+Price stops moving fast. Instead, you get 
+a group of tiny candles. They barely move  
+
+76
+00:07:58,880 --> 00:08:06,400
+up or down. They sit in a small box, trapped 
+between two tight lines. This is the coil.  
+
+77
+00:08:06,400 --> 00:08:13,440
+It’s like the market is holding its breath. 
+Volatility drops. Traders get bored or nervous.  
+
+78
+00:08:13,440 --> 00:08:19,440
+This is where the big players finished their 
+work. They bought or sold what they needed,  
+
+79
+00:08:19,440 --> 00:08:25,280
+and now they’re waiting for the next move.
+ 
+So why does this pattern matter? Because big  
+
+80
+00:08:25,280 --> 00:08:31,360
+money doesn’t just smash the market for fun. 
+They move size when they’re ready for a change.  
+
+81
+00:08:31,360 --> 00:08:38,080
+That giant volume candle means they needed 
+to get in or out, fast. The tight coil that  
+
+82
+00:08:38,080 --> 00:08:44,960
+follows means the rest of the market is stuck, 
+waiting, not sure what will happen next. But  
+
+83
+00:08:44,960 --> 00:08:52,240
+volatility always comes back. The market can’t 
+stay quiet forever. Sooner or later, price will  
+
+84
+00:08:52,240 --> 00:09:00,160
+break out of that coil. When it does, it’s usually 
+fast and sharp and the next big move is here.
+  
+
+85
+00:09:00,160 --> 00:09:06,080
+The trick is watching which way to trade. The 
+direction of the giant volume candle tells you  
+
+86
+00:09:06,080 --> 00:09:12,800
+which way the big money moved. If the climax 
+candle is up, it means they bought in a rush.  
+
+87
+00:09:12,800 --> 00:09:20,080
+If it’s down, they sold hard. After the coil, you 
+want to trade in the same direction as the climax,  
+
+88
+00:09:20,080 --> 00:09:25,680
+because that’s where the force is most likely 
+to come back. The break from the coil is your  
+
+89
+00:09:25,680 --> 00:09:32,880
+entry. The stop goes just outside the coil, 
+if the breakout fails, you’re out quick.
+  
+
+90
+00:09:32,880 --> 00:09:38,000
+Volume is the key to this setup. If 
+the big candle happens with low volume,  
+
+91
+00:09:38,000 --> 00:09:45,040
+it’s a fake. Only the real, heavy volume bars 
+matter. You want to see the spike, the kind of  
+
+92
+00:09:45,040 --> 00:09:51,360
+volume that stands out on your chart, way above 
+normal. That’s when you know the big players are  
+
+93
+00:09:51,360 --> 00:09:58,320
+active. The coil should have low volume, too. 
+That means all the excitement is gone, and the  
+
+94
+00:09:58,320 --> 00:10:04,880
+market is quiet, waiting for the next jolt.
+ 
+Some traders call this pattern a volatility  
+
+95
+00:10:04,880 --> 00:10:12,160
+squeeze. But the combination of a volume climax 
+followed by a tight coil is special. It tells you  
+
+96
+00:10:12,160 --> 00:10:18,480
+the market just had all the noise, and now it’s 
+setting up for the next big burst. The breakout  
+
+97
+00:10:18,480 --> 00:10:26,240
+that follows is often fast, with price moving 
+quickly and cleanly. You won’t have to wait long.
+  
+
+98
+00:10:26,240 --> 00:10:32,640
+This pattern works on all timeframes. You can 
+spot it on a one-minute chart, a daily chart,  
+
+99
+00:10:32,640 --> 00:10:40,800
+even weekly bars. The story is always the same: 
+big spike, then silence, then explosion. The key  
+
+100
+00:10:40,800 --> 00:10:47,520
+is to wait for the breakout. When price busts out 
+of the coil in the direction of the volume spike,  
+
+101
+00:10:47,520 --> 00:10:49,360
+that’s your trade.
+ 
+ 
+Gap-and-Go 
+
+102
+00:10:49,360 --> 00:10:55,520
+Gap-and-Go pattern is loud, fast, and 
+full of energy. Most traders freeze.  
+
+103
+00:10:55,520 --> 00:11:00,880
+Some try to fade the move, thinking the 
+gap will fill. But in the Gap-and-Go,  
+
+104
+00:11:00,880 --> 00:11:06,640
+the market leaves those traders behind.
+When the market opens, price isn’t where  
+
+105
+00:11:06,640 --> 00:11:14,160
+it closed last night. It’s far above resistance 
+or below support. This isn’t a small gap. It’s  
+
+106
+00:11:14,160 --> 00:11:22,160
+big enough to wake up momentum traders everywhere. 
+They see it and get ready to trade. Shorts panic.  
+
+107
+00:11:22,160 --> 00:11:30,560
+They rush to cover. Buyers want in before the move 
+gets away. The first minutes of trading are wild.
+  
+
+108
+00:11:30,560 --> 00:11:37,680
+This gap matters because it’s not random. It comes 
+after a long range or a clear area where price  
+
+109
+00:11:37,680 --> 00:11:45,280
+kept bouncing. The gap blasts right past that. 
+It doesn’t pause. Buyers rush in and push price  
+
+110
+00:11:45,280 --> 00:11:52,560
+even higher. Sellers who bet against the gap can’t 
+get out fast enough. The market never comes back  
+
+111
+00:11:52,560 --> 00:12:00,640
+to fill the gap. That’s the key. Most gaps fill 
+later. But not this one. The move holds strong.
+  
+
+112
+00:12:00,640 --> 00:12:06,880
+This pattern is all about momentum. You see a 
+small range in the first one to five minutes  
+
+113
+00:12:06,880 --> 00:12:15,520
+after the open. Price chops up and down, setting 
+its boundaries. Traders watch this range closely. 
+
+114
+00:12:15,520 --> 00:12:20,960
+As soon as price breaks out, either above 
+the high of this mini-range for an up gap,  
+
+115
+00:12:20,960 --> 00:12:27,680
+or below the low for a down gap, they jump 
+in. That’s the entry. The stop goes just under  
+
+116
+00:12:27,680 --> 00:12:34,560
+the low of the small range if you’re long. If 
+you’re short, put the stop just above the high.
+  
+
+117
+00:12:34,560 --> 00:12:41,520
+Volume is huge. This isn’t like other days. It’s 
+a sign that big money is moving. The crowd wants  
+
+118
+00:12:41,520 --> 00:12:48,080
+in. The move feeds on itself. People who 
+missed the first entry chase. Shorts who  
+
+119
+00:12:48,080 --> 00:12:54,960
+didn’t cover at the open now scramble. Each 
+new high pulls in more buyers. Each new low  
+
+120
+00:12:54,960 --> 00:13:02,400
+for a down gap brings in more panic sellers.
+ 
+Most traders think: “The gap will fill. It always  
+
+121
+00:13:02,400 --> 00:13:09,280
+fills!” They try to fade it. But the Gap-and-Go 
+pattern is different. The news is too strong,  
+
+122
+00:13:09,280 --> 00:13:17,120
+or the surprise is too big. The market moves fast. 
+The gap becomes the new base. Price almost never  
+
+123
+00:13:17,120 --> 00:13:24,320
+comes back to fill it, at least not right away.
+ 
+Sometimes, you see a series of gaps like this  
+
+124
+00:13:24,320 --> 00:13:31,280
+in a strong trend. These are called runaway or 
+measuring gaps. They show up when a trend gets  
+
+125
+00:13:31,280 --> 00:13:38,240
+even stronger and momentum explodes. Each 
+new gap is a sign that buyers (or sellers)  
+
+126
+00:13:38,240 --> 00:13:44,480
+are even more eager than before. The chart 
+looks like a staircase, jumping from one  
+
+127
+00:13:44,480 --> 00:13:50,400
+level to the next without looking back.
+ 
+To catch the Gap-and-Go, you need to act  
+
+128
+00:13:50,400 --> 00:13:57,440
+fast. Watch for the big gap at the open. Check 
+that it’s above clear resistance or below clear  
+
+129
+00:13:57,440 --> 00:14:03,760
+support. Watch the first one to five minutes. 
+Wait for the range to break. Enter with the  
+
+130
+00:14:03,760 --> 00:14:10,880
+direction of the gap. Use a tight stop. If the 
+move fails and price falls back into the gap,  
+
+131
+00:14:10,880 --> 00:14:17,120
+get out. But if the move holds, you’re in the 
+flow with the strongest traders of the day. 
+
+132
+00:14:17,120 --> 00:14:23,163
+So momentum, volume and speed. That’s 
+what the Gap-and-Go is all about. 
+  
+
+133
+00:14:23,163 --> 00:14:25,360
+Rounded Bottom with Volume Divergence
+Rounded Bottom with Volume Divergence  
+
+134
+00:14:25,360 --> 00:14:31,440
+is one of the best reversal patterns.
+In this chart, sellers control the market.  
+
+135
+00:14:31,440 --> 00:14:38,240
+The chart has a clear downward slope. But then, 
+the speed slows. The drops get smaller. The  
+
+136
+00:14:38,240 --> 00:14:45,840
+bounces start to last longer. Price stops making 
+sharp new lows and instead drifts sideways. The  
+
+137
+00:14:45,840 --> 00:14:52,800
+curve starts to look round, almost like a bowl. 
+This is the early sign of a rounded bottom.
+
+138
+00:14:52,800 --> 00:14:58,640
+At the start of the rounded bottom, volume 
+is still strong. People are still selling.  
+
+139
+00:14:58,640 --> 00:15:06,000
+But as price sinks lower, the volume falls too. 
+Each wave down has fewer sellers than before.  
+
+140
+00:15:06,000 --> 00:15:13,280
+Buyers are not rushing in yet. They’re waiting, 
+watching. The market feels quiet. This tells you  
+
+141
+00:15:13,280 --> 00:15:19,680
+supply is drying up. Sellers are tired. Big 
+money might be stepping in, but they don’t  
+
+142
+00:15:19,680 --> 00:15:26,960
+want to show their hand yet. Price keeps moving 
+sideways and slowly curling upwards. It’s not a  
+
+143
+00:15:26,960 --> 00:15:34,080
+sharp reversal. It’s slow, gentle, and calm.
+ 
+Now, here’s the interesting part. The price  
+
+144
+00:15:34,080 --> 00:15:40,640
+starts to rise, but volume stays low. Most 
+people think that rising prices mean buyers  
+
+145
+00:15:40,640 --> 00:15:49,200
+are strong. But here, the rise is soft. It’s not 
+about enthusiasm. It’s about no one left to sell.  
+
+146
+00:15:49,200 --> 00:15:55,760
+The big players are quietly buying. They want 
+to keep the price low while they collect shares.  
+
+147
+00:15:55,760 --> 00:16:00,880
+If they bought fast, the price would 
+jump and everyone would notice. But  
+
+148
+00:16:00,880 --> 00:16:06,480
+they want to buy cheap and unnoticed. 
+ 
+As the bottom of the curve forms, you notice  
+
+149
+00:16:06,480 --> 00:16:13,680
+something else. Each little dip has less volume 
+than before. Each bounce up is a bit stronger,  
+
+150
+00:16:13,680 --> 00:16:20,800
+but still mostly on low volume. This is volume 
+divergence. Price is starting to move up,  
+
+151
+00:16:20,800 --> 00:16:25,760
+but volume hasn’t picked up yet. That’s 
+the clue. It’s not the crowd driving  
+
+152
+00:16:25,760 --> 00:16:32,240
+the price. It’s smart money buying slow 
+and careful, soaking up all the supply.
+  
+
+153
+00:16:32,240 --> 00:16:39,440
+At some point, things change fast. Suddenly 
+more big candles appear. Volume increases.  
+
+154
+00:16:39,440 --> 00:16:45,680
+The price shoots up, breaking above the top of 
+the bowl. This is the signal. It’s the moment  
+
+155
+00:16:45,680 --> 00:16:52,560
+when the big players have finished buying. Now, 
+they want the price to move. They push hard and  
+
+156
+00:16:52,560 --> 00:16:58,960
+everyone else sees the move. This is when the 
+new trend begins. The burst in volume confirms  
+
+157
+00:16:58,960 --> 00:17:05,760
+the shift. It isn’t just a slow drift anymore. 
+This is a real move, with force behind it.
+  
+
+158
+00:17:05,760 --> 00:17:11,760
+The rounded bottom with volume divergence is a 
+strong sign that the market has changed. Supply  
+
+159
+00:17:11,760 --> 00:17:19,600
+is gone. Demand is building. Control has shifted 
+from sellers to buyers. The new trend is here,  
+
+160
+00:17:19,600 --> 00:17:24,240
+and it’s not just a bounce. It’s 
+a move backed by big money.
+  
+
+161
+00:17:24,240 --> 00:17:29,360
+If you want to trade it, you wait for 
+the slow curve at the bottom. Watch for  
+
+162
+00:17:29,360 --> 00:17:35,920
+price to rise while volume stays weak. When 
+the big candle appears and volume bursts,  
+
+163
+00:17:35,920 --> 00:17:42,880
+that’s your entry. The trend is ready to go. Place 
+your stop under the lowest point of the curve. 
+  
+
+164
+00:17:42,880 --> 00:17:49,520
+Most traders miss this pattern because it’s slow. 
+It doesn’t look exciting. But that’s the point.  
+
+165
+00:17:49,520 --> 00:17:56,400
+The slow, rounded shape and the quiet volume tell 
+you big players are at work. The sudden burst in  
+
+166
+00:17:56,400 --> 00:18:03,440
+volume is their signal that the game has changed. 
+If you spot the pattern and act on the breakout,  
+
+167
+00:18:03,440 --> 00:18:06,080
+you’re with the money that matters.
+ 
+Inside-Outside-Inside 
+
+168
+00:18:06,080 --> 00:18:13,920
+The Inside-Outside-Inside pattern is not common. 
+Most traders miss it. But when it shows up,  
+
+169
+00:18:13,920 --> 00:18:20,320
+it means something big might be coming.
+ 
+First, price prints an inside bar. This  
+
+170
+00:18:20,320 --> 00:18:26,160
+candle sits inside the range of the one 
+before. It’s small. It shows the market  
+
+171
+00:18:26,160 --> 00:18:33,280
+is quiet. Buyers and sellers are holding 
+back. Some call this a pause or a squeeze. 
+  
+
+172
+00:18:33,280 --> 00:18:39,280
+Then comes the outside bar. This candle is 
+wide. It breaks above the high and drops  
+
+173
+00:18:39,280 --> 00:18:45,040
+below the low of the last bar. It engulfs both 
+sides. The market wakes up. This outside bar  
+
+174
+00:18:45,040 --> 00:18:51,760
+means there’s a fight. Volume often jumps. 
+Both buyers and sellers try to take control.  
+
+175
+00:18:51,760 --> 00:18:58,720
+The range expands fast. Anyone with tight 
+stops gets hit. The outside bar is noisy,  
+
+176
+00:18:58,720 --> 00:19:03,760
+messy, and full of action. This 
+is the wide part of the pattern.
+  
+
+177
+00:19:03,760 --> 00:19:10,960
+Right after, another inside bar forms. This 
+candle is tight again, sitting inside the high  
+
+178
+00:19:10,960 --> 00:19:17,520
+and low of the outside bar that just happened. 
+The market settles down. The burst of energy  
+
+179
+00:19:17,520 --> 00:19:24,400
+is gone, but tension is still there. People are 
+waiting. No one wants to make the first move. 
+  
+
+180
+00:19:24,400 --> 00:19:31,360
+This whole sequence means pressure is building up. 
+The first inside bar shows the market is waiting.  
+
+181
+00:19:31,360 --> 00:19:38,240
+The outside bar is the spark. The final inside 
+bar shows the waiting isn’t over. Something is  
+
+182
+00:19:38,240 --> 00:19:44,720
+about to break loose. This is what traders call 
+a “pending breakout.” Price is about to move,  
+
+183
+00:19:44,720 --> 00:19:48,640
+but nobody knows which way.
+But when price breaks out,  
+
+184
+00:19:48,640 --> 00:19:56,480
+you follow. If the upper range is broken, you go 
+long. If the lower one triggers, you go short. 
+  
+
+185
+00:19:56,480 --> 00:20:03,280
+This pattern works because it traps traders on 
+both sides. The first inside bar makes people  
+
+186
+00:20:03,280 --> 00:20:10,160
+think nothing will happen. The outside bar shakes 
+them up, but it’s over so fast, they don’t trust  
+
+187
+00:20:10,160 --> 00:20:18,000
+it. The last inside bar makes most give up. Then, 
+when price finally breaks, it’s strong. There’s no  
+
+188
+00:20:18,000 --> 00:20:25,120
+resistance left. The move can be fast and clean.
+ 
+You see this most on lower timeframes, but it can  
+
+189
+00:20:25,120 --> 00:20:32,240
+show up anywhere. It means the same thing: the 
+market is ready to move big. Patterns like this  
+
+190
+00:20:32,240 --> 00:20:38,640
+highlight points in market structure where buying 
+and selling pressure is about to tip over. 
+  
+
+191
+00:20:38,640 --> 00:20:43,680
+Most traders ignore the inside-outside-inside 
+pattern. But it works! If you learn to spot it,  
+
+192
+00:20:43,680 --> 00:20:47,600
+you can catch eruptions 
+before the crowd even notices. 
+
+193
+00:20:47,600 --> 00:20:54,000
+The pattern gives you tight levels for entry 
+and stops. If the move fails and reverses,  
+
+194
+00:20:54,000 --> 00:20:59,583
+you’re out quick. If it works, you’re 
+in when the move is just starting.
+ 
+ 
+  
+
+195
+00:20:59,583 --> 00:21:02,480
+Three-Line Strike
+The Three-Line Strike pattern makes it easy  
+
+196
+00:21:02,480 --> 00:21:08,800
+to spot when the market is about to move fast.
+First you see price moving in a clear trend,  
+
+197
+00:21:08,800 --> 00:21:16,000
+but it’s slow. Each candle is small, and they line 
+up in the direction of the trend, maybe three tiny  
+
+198
+00:21:16,000 --> 00:21:23,760
+green bars in a slow uptrend, or three red ones in 
+a slow downtrend. These candles show the move is  
+
+199
+00:21:23,760 --> 00:21:30,400
+still going, but it’s not strong. People trading 
+with the trend are getting tired. Some might  
+
+200
+00:21:30,400 --> 00:21:37,120
+even start to think about trading the other way.
+ 
+That’s when the big move happens. Out of nowhere,  
+
+201
+00:21:37,120 --> 00:21:43,280
+a huge candle appears. This one is fast and 
+strong, and it moves in the opposite direction  
+
+202
+00:21:43,280 --> 00:21:50,320
+to the three before. If you were looking at three 
+green candles, now you have a big red candle. If  
+
+203
+00:21:50,320 --> 00:21:56,880
+you were watching three reds, now a green one 
+appears. This candle doesn’t just close over  
+
+204
+00:21:56,880 --> 00:22:03,840
+one or two of the small bars, it swallows all 
+three. The body of this big candle completely  
+
+205
+00:22:03,840 --> 00:22:10,080
+covers the bodies of the three smaller trend 
+bars. This is the Three-Line Strike pattern.
+  
+
+206
+00:22:10,080 --> 00:22:16,160
+The pattern is more than just a reversal. 
+It’s a small shock. The market was drifting,  
+
+207
+00:22:16,160 --> 00:22:23,120
+and then someone stepped in with force. The big 
+candle shows a sudden change in control. Buyers  
+
+208
+00:22:23,120 --> 00:22:29,200
+or sellers who tried to fight the trend are 
+now wiped out. The pattern tells you there’s  
+
+209
+00:22:29,200 --> 00:22:35,760
+energy building up. The trend looked weak, 
+then got hit by a big move the other way.
+  
+
+210
+00:22:35,760 --> 00:22:40,320
+Now you simply mark the high 
+and low of the engulfing candle.  
+
+211
+00:22:40,320 --> 00:22:46,000
+These two prices are now your channel.
+And you wait and focus on the breakout.  
+
+212
+00:22:46,000 --> 00:22:52,800
+Watch for price to push above the high of the 
+big candle, or drop below its low. That’s your  
+
+213
+00:22:52,800 --> 00:22:59,760
+trigger. If price breaks out above the high, you 
+enter a long trade. If it breaks below the low,  
+
+214
+00:22:59,760 --> 00:23:05,600
+you go short. Don’t guess which way it will 
+go. Let the market show you. As soon as the  
+
+215
+00:23:05,600 --> 00:23:11,680
+breakout happens, you enter with the move.
+ 
+Your stop is simple. Place it just on the  
+
+216
+00:23:11,680 --> 00:23:16,880
+other side of the channel. If you buy the 
+breakout above the high, put your stop just  
+
+217
+00:23:16,880 --> 00:23:22,880
+under the low of the big candle. If you sell 
+the breakout below the low, your stop goes  
+
+218
+00:23:22,880 --> 00:23:30,640
+just above the high. This keeps your risk tight. 
+ 
+The Three-Line Strike pattern tells a story. Small  
+
+219
+00:23:30,640 --> 00:23:37,440
+candles mean the trend is running out of steam. 
+The big candle means a fight for control. This  
+
+220
+00:23:37,440 --> 00:23:44,400
+strategy works because the big engulfing candle 
+is a signal that something important has changed.  
+
+221
+00:23:44,400 --> 00:23:50,960
+Big traders just made their move, and now the 
+rest of the market reacts. The channel gives you  
+
+222
+00:23:50,960 --> 00:23:58,943
+clear levels to watch. You don’t need to guess or 
+hope, you just wait for price to show its hand.
+  
+
+223
+00:23:58,943 --> 00:24:00,880
+Hidden Divergence
+Hidden divergence is a pattern  
+
+224
+00:24:00,880 --> 00:24:08,720
+that most people miss. This pattern happens when 
+price and an indicator, like RSI or MACD don’t  
+
+225
+00:24:08,720 --> 00:24:15,520
+agree. This is not regular divergence, which 
+usually signals a reversal. Hidden divergence  
+
+226
+00:24:15,520 --> 00:24:21,440
+points to the trend continuing, even when 
+price action looks tricky. It’s a pattern pros  
+
+227
+00:24:21,440 --> 00:24:29,280
+use to spot real momentum before everyone else.
+ 
+A Bullish hidden divergence happens in an uptrend.  
+
+228
+00:24:29,280 --> 00:24:34,960
+Price pulls back and makes a higher low, 
+but it doesn’t drop as far as before. But  
+
+229
+00:24:34,960 --> 00:24:40,800
+the indicator makes a lower low. This 
+means that, even though price held up,  
+
+230
+00:24:40,800 --> 00:24:47,920
+the indicator dipped more. The hidden divergence 
+says the uptrend will likely continue. You look  
+
+231
+00:24:47,920 --> 00:24:55,600
+for this when price is near support in an uptrend. 
+If you spot it, you can plan to enter long trades,  
+
+232
+00:24:55,600 --> 00:25:01,040
+betting the trend will keep going.
+ 
+Bearish hidden divergence shows up in  
+
+233
+00:25:01,040 --> 00:25:07,840
+a downtrend. Price bounces, making a lower 
+high. But the indicator makes a higher high.  
+
+234
+00:25:07,840 --> 00:25:14,320
+The indicator shows more force, even though 
+price couldn’t break past the last high. This  
+
+235
+00:25:14,320 --> 00:25:20,640
+is a sign the downtrend wants to continue. You 
+look for this when price is near resistance in  
+
+236
+00:25:20,640 --> 00:25:28,000
+a downtrend. If you find it, you can plan to 
+enter short trades, following the main trend.
+  
+
+237
+00:25:28,000 --> 00:25:33,600
+The steps to spot hidden divergence 
+are simple. First, mark the trend:  
+
+238
+00:25:33,600 --> 00:25:41,600
+look for clear up or down moves. Second, wait 
+for price to make a swing high or low. Third,  
+
+239
+00:25:41,600 --> 00:25:48,240
+compare these points to your indicator and see 
+if price and the indicator disagree. So price  
+
+240
+00:25:48,240 --> 00:25:54,800
+makes a higher low, but the indicator makes 
+a lower low; or price makes a lower high,  
+
+241
+00:25:54,800 --> 00:26:00,000
+and the indicator makes a higher high.
+ 
+Hidden divergence tells you something  
+
+242
+00:26:00,000 --> 00:26:06,880
+about the market that price alone won’t reveal. 
+It shows when the crowd tries to fight the trend  
+
+243
+00:26:06,880 --> 00:26:13,600
+but fails. The indicator exposes this hidden 
+strength. You don’t see it on price bars,  
+
+244
+00:26:13,600 --> 00:26:19,120
+but the oscillator drops important clues. 
+The market might look weak, but hidden  
+
+245
+00:26:19,120 --> 00:26:25,120
+divergence says the trend is still alive.
+ 
+You can trade hidden divergence by entering  
+
+246
+00:26:25,120 --> 00:26:32,000
+in the direction of the main trend. For bullish 
+setups, go long when price starts to rise after  
+
+247
+00:26:32,000 --> 00:26:38,560
+the divergence. For bearish setups, go 
+short when price starts to fall. Use  
+
+248
+00:26:38,560 --> 00:26:46,000
+the last swing high or low for your stop. This 
+keeps your risk small, in case the setup fails. 
+
+249
+00:26:46,000 --> 00:26:53,760
+This pattern works on any market. But it’s best 
+on clear trends, not in choppy sideways action.
+
+250
+00:26:53,760 --> 00:26:57,280
+Now, if you’re ready for more 
+interesting trading guides,  
+
+251
+00:26:57,280 --> 00:27:00,720
+go ahead and watch one of these videos next!
+

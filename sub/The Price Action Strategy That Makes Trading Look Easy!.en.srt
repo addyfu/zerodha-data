@@ -1,0 +1,928 @@
+1
+00:00:00,599 --> 00:00:06,310
+Price action is the simplest and easiest form
+of reading and analyzing a market.
+
+2
+00:00:06,310 --> 00:00:12,309
+But the problem is that many traders are complicating
+their process, and analyze things on the chart
+
+3
+00:00:12,309 --> 00:00:14,400
+that are irrelevant.
+
+4
+00:00:14,400 --> 00:00:19,949
+Let me show you an easy method to read price
+action, without needing to memorize dozens
+
+5
+00:00:19,949 --> 00:00:24,699
+of candlesticks or stare at the charts for
+hours to find patterns.
+
+6
+00:00:24,699 --> 00:00:31,180
+You know the drill: like, subscribe, and stick
+around for the full video.
+
+7
+00:00:31,180 --> 00:00:35,890
+TREND BARS
+
+8
+00:00:35,890 --> 00:00:40,730
+The first thing you should look for when you
+are analyzing a chart, is the spread of recent
+
+9
+00:00:40,730 --> 00:00:42,070
+candles.
+
+10
+00:00:42,070 --> 00:00:48,120
+The spread is the difference between a candle’s
+open and its close (this is the real body
+
+11
+00:00:48,120 --> 00:00:49,820
+of the candle).
+
+12
+00:00:49,820 --> 00:00:52,960
+The spread reveals the sentiment for that
+candle.
+
+13
+00:00:52,960 --> 00:00:58,510
+A wide spread between the open and the close
+indicates strong market sentiment, either
+
+14
+00:00:58,510 --> 00:01:04,409
+bullish or bearish, depending on whether the
+closing price finished above the opening price
+
+15
+00:01:04,409 --> 00:01:05,640
+or below it.
+
+16
+00:01:05,640 --> 00:01:12,580
+And if the body of the candle takes up at
+least 50% of the entire bar range, then you
+
+17
+00:01:12,580 --> 00:01:15,259
+are seeing a trend Bar.
+
+18
+00:01:15,259 --> 00:01:19,150
+Trend bars represent the meat of the market
+fluctuations.
+
+19
+00:01:19,150 --> 00:01:22,110
+The concept of Trend Bars is very simple.
+
+20
+00:01:22,110 --> 00:01:28,259
+Price action simply creates a solid candle
+with small wicks at the top or the bottom,
+
+21
+00:01:28,259 --> 00:01:34,399
+and is suggesting a strong and a likely continued
+sentiment in the direction of the candle.
+
+22
+00:01:34,399 --> 00:01:41,220
+A trend candle represents strong market sentiment
+and a narrow spread one shows a weak market
+
+23
+00:01:41,220 --> 00:01:44,450
+sentiment.
+
+24
+00:01:44,450 --> 00:01:51,180
+If we analyze this chart, between these two
+points, there were no instances of consecutive
+
+25
+00:01:51,180 --> 00:01:54,840
+Trend Bars that closed in the same direction.
+
+26
+00:01:54,840 --> 00:01:59,960
+We had several Trend Bars, but they were isolated
+instances.
+
+27
+00:01:59,960 --> 00:02:06,049
+When we had consecutive Trend Bars, they actually
+closed in opposing directions.
+
+28
+00:02:06,049 --> 00:02:09,500
+Here we see consecutive bullish Trend Bars.
+
+29
+00:02:09,500 --> 00:02:12,160
+It shows evident bullish strength.
+
+30
+00:02:12,160 --> 00:02:18,860
+Very important: when the trend is strong,
+you’ll see many trend bars in the direction
+
+31
+00:02:18,860 --> 00:02:19,860
+of the trend.
+
+32
+00:02:19,860 --> 00:02:26,180
+And, if there are no Trend Bars for the past
+ten bars, for example, then the market is
+
+33
+00:02:26,180 --> 00:02:29,500
+likely consolidating.
+
+34
+00:02:29,500 --> 00:02:37,680
+LONG SHADOWS
+The upper and lower wicks of candlesticks
+
+35
+00:02:37,680 --> 00:02:42,030
+reflect the buying and selling pressure.
+
+36
+00:02:42,030 --> 00:02:47,230
+Consider wicks as ‘rejection’ areas where
+the market simply rejected the prices of the
+
+37
+00:02:47,230 --> 00:02:48,879
+wick.
+
+38
+00:02:48,879 --> 00:02:54,810
+When you see a wick that is large, that wick
+is clearly telling you that the market was
+
+39
+00:02:54,810 --> 00:02:58,629
+not accepting the previous prices.
+
+40
+00:02:58,629 --> 00:03:02,610
+Time frame is important here and we’ll talk
+about this later.
+
+41
+00:03:02,610 --> 00:03:08,450
+If you are trading on the 5min charts, then
+the market has rejected that price level with
+
+42
+00:03:08,450 --> 00:03:14,250
+that wick, but for only the past 5 minutes,
+which is not that significant.
+
+43
+00:03:14,250 --> 00:03:22,470
+However, when you start to look at 4hr or
+daily charts, that wick is more significant.
+
+44
+00:03:22,470 --> 00:03:27,460
+The length of any wick, either to the top
+or bottom of the candle is ALWAYS the first
+
+45
+00:03:27,460 --> 00:03:34,850
+point of focus because it instantly shows,
+strength, weakness, or indecision, and most
+
+46
+00:03:34,850 --> 00:03:39,140
+important where buyers or sellers are entering
+the market.
+
+47
+00:03:39,140 --> 00:03:45,930
+In fact, the wick itself is not important,
+the price level at which the wick occurred
+
+48
+00:03:45,930 --> 00:03:49,620
+is what matters.
+
+49
+00:03:49,620 --> 00:03:55,489
+Taking a look at this chart, notice how every
+time the market reversed, it did so with a
+
+50
+00:03:55,489 --> 00:04:00,800
+large wick and almost at the same price level.
+
+51
+00:04:00,800 --> 00:04:06,840
+This is telling you the market simply did
+not accept prices at these levels, with sellers
+
+52
+00:04:06,840 --> 00:04:12,030
+aggressively entering the market quickly,
+causing the price to drop faster.
+
+53
+00:04:12,030 --> 00:04:18,540
+CONSECUTIVE BARS CLOSING IN THE SAME DIRECTION
+
+54
+00:04:18,540 --> 00:04:24,919
+So, when you analyze a chart, you start by
+paying more attention to trend bars and bars
+
+55
+00:04:24,919 --> 00:04:26,050
+with long shadows.
+
+56
+00:04:26,050 --> 00:04:32,259
+Now, in a market, there are trends at various
+levels.
+
+57
+00:04:32,259 --> 00:04:38,300
+Consecutive bars closing in the same direction
+is one of the easiest ways to identify minor
+
+58
+00:04:38,300 --> 00:04:39,750
+trends.
+
+59
+00:04:39,750 --> 00:04:42,650
+The number of successive bars matters too.
+
+60
+00:04:42,650 --> 00:04:45,660
+The more, the better.
+
+61
+00:04:45,660 --> 00:04:52,009
+When you have consecutive trend bars in the
+same direction, you have lots of momentum.
+
+62
+00:04:52,009 --> 00:05:00,310
+In many cases, consecutive price bars will
+help you to identify sustained price movements.
+
+63
+00:05:00,310 --> 00:05:05,333
+OVERLAP WITH THE PREVIOUS BAR
+
+64
+00:05:05,333 --> 00:05:11,000
+The degree of overlap with the previous bar
+tells you the current market phase and the
+
+65
+00:05:11,000 --> 00:05:13,990
+power of the price bar.
+
+66
+00:05:13,990 --> 00:05:20,880
+In a strong trend, there is very little overlap
+of the bodies of consecutive bars.
+
+67
+00:05:20,880 --> 00:05:30,009
+For example, in a minor uptrend, many candles
+have lows that are at or just below the closes
+
+68
+00:05:30,009 --> 00:05:32,730
+of the prior candles.
+
+69
+00:05:32,730 --> 00:05:38,949
+Some candles don’t even test the close of
+the prior bar, and traders trying to enter
+
+70
+00:05:38,949 --> 00:05:44,650
+with a limit order at the close of the prior
+bar won’t get their orders filled, so they
+
+71
+00:05:44,650 --> 00:05:47,419
+have to buy higher.
+
+72
+00:05:47,419 --> 00:05:53,740
+The point is, if you find minimal overlap
+between a candle and the preceding one, it
+
+73
+00:05:53,740 --> 00:05:55,000
+implies urgency.
+
+74
+00:05:55,000 --> 00:05:58,009
+And start paying more attention to this.
+
+75
+00:05:58,009 --> 00:06:05,280
+Again, in this bearish down move, many bars
+have highs that are at or just above the closes
+
+76
+00:06:05,280 --> 00:06:07,270
+of the prior bar.
+
+77
+00:06:07,270 --> 00:06:13,889
+This shows strength and it’s an important
+sign because the market is unable to go higher
+
+78
+00:06:13,889 --> 00:06:17,840
+and it keeps pushing lower.
+
+79
+00:06:17,840 --> 00:06:24,280
+So if no wick or a very small wick is created,
+then this signals strong market sentiment
+
+80
+00:06:24,280 --> 00:06:27,639
+in the direction of the closing price.
+
+81
+00:06:27,639 --> 00:06:30,430
+It indicates urgency in the market.
+
+82
+00:06:30,430 --> 00:06:36,479
+If the bar you are looking at overlaps entirely
+with the previous bar, the market doesn’t
+
+83
+00:06:36,479 --> 00:06:39,120
+have the greatest momentum.
+
+84
+00:06:39,120 --> 00:06:41,860
+This is especially true with inside bars.
+
+85
+00:06:41,860 --> 00:06:47,580
+Inside bar are smaller and within the range
+of the prior bar.
+
+86
+00:06:47,580 --> 00:06:54,729
+100% overlap bars and consecutive candles
+that are overlapping are a clear sign of market
+
+87
+00:06:54,729 --> 00:06:55,729
+congestion.
+
+88
+00:06:55,729 --> 00:07:02,730
+Wicks below bullish bars and above bearish
+bars
+
+89
+00:07:02,730 --> 00:07:08,099
+In a strong uptrend, you will see wicks below
+the bullish bars.
+
+90
+00:07:08,099 --> 00:07:13,509
+This represents a good signal that the buyers
+are in control of the market and that are
+
+91
+00:07:13,509 --> 00:07:17,600
+trying to push the prices upwards.
+
+92
+00:07:17,600 --> 00:07:23,680
+You will also see wicks above the bearish
+bars in a strong downtrend.
+
+93
+00:07:23,680 --> 00:07:29,349
+This shows that the sellers are in control
+and that are successfully pushing the prices
+
+94
+00:07:29,349 --> 00:07:30,349
+downwards.
+
+95
+00:07:30,349 --> 00:07:39,960
+REACTION AFTER A TEST OF SUPPORT/RESISTANCE
+Pay more attention to candlesticks that test
+
+96
+00:07:39,960 --> 00:07:43,180
+any support/resistance areas.
+
+97
+00:07:43,180 --> 00:07:48,550
+You may find that the candle has difficulty
+breaking through the level.
+
+98
+00:07:48,550 --> 00:07:55,409
+Or you may find that the candle completely
+ignores the level and breaks it with ease.
+
+99
+00:07:55,409 --> 00:08:00,120
+In either case, they help you to formulate
+a trading approach.
+
+100
+00:08:00,120 --> 00:08:06,919
+If we look at the recent price action, I see
+a test of this support level, which resulted
+
+101
+00:08:06,919 --> 00:08:09,039
+in a bullish Pin Bar.
+
+102
+00:08:09,039 --> 00:08:15,740
+As I said before, a long shadow implies bullish
+pressure.
+
+103
+00:08:15,740 --> 00:08:23,069
+On the other hand, the market completely ignored
+this resistance level and broke above it decisively.
+
+104
+00:08:23,069 --> 00:08:32,279
+No retest of previous breakouts
+So let’s assume that price broke a significant
+
+105
+00:08:32,279 --> 00:08:33,279
+resistance level.
+
+106
+00:08:33,279 --> 00:08:39,000
+And of course, all trading manuals say that
+in order to trade a breakout, you must wait
+
+107
+00:08:39,000 --> 00:08:42,269
+for price to re-test the breakout level.
+
+108
+00:08:42,269 --> 00:08:48,380
+But, very important, in a strong market, you
+will not get a retest.
+
+109
+00:08:48,380 --> 00:08:53,080
+The buyers are unwilling to let the price
+drop lower.
+
+110
+00:08:53,080 --> 00:09:00,610
+There is little profit taking after the breakout,
+so price won’t come to retest the breakout
+
+111
+00:09:00,610 --> 00:09:02,680
+level.
+
+112
+00:09:02,680 --> 00:09:09,370
+So when you see an important level, and price
+breaks it, and has strong upward momentum,
+
+113
+00:09:09,370 --> 00:09:16,430
+without re-testing the level, there’s again
+a sense of urgency, a higher volatility and
+
+114
+00:09:16,430 --> 00:09:19,300
+high momentum.
+
+115
+00:09:19,300 --> 00:09:26,581
+TOP-DOWN ANALYSIS
+When you’re reading price action, analyzing
+
+116
+00:09:26,581 --> 00:09:32,700
+only the 15 min chart, for example, won’t
+bring you consistency in the longer term.
+
+117
+00:09:32,700 --> 00:09:34,730
+You need more information.
+
+118
+00:09:34,730 --> 00:09:40,140
+When a particular timeframe DON’T make sense,
+then move to the next higher time frame, at
+
+119
+00:09:40,140 --> 00:09:49,330
+least, for the big picture or even on a lower
+timeframe for the microstructure of move.
+
+120
+00:09:49,330 --> 00:09:54,390
+When you’re trading price action, you need
+a top-down analysis, which is a more efficient
+
+121
+00:09:54,390 --> 00:09:56,830
+and effective way to trade.
+
+122
+00:09:56,830 --> 00:10:03,579
+A simple top-down approach means marking out
+the support and resistance first on higher
+
+123
+00:10:03,579 --> 00:10:05,750
+time frames.
+
+124
+00:10:05,750 --> 00:10:10,820
+Then you read price action of the higher time
+frames, and see what the price is telling
+
+125
+00:10:10,820 --> 00:10:13,990
+you and where it may be heading.
+
+126
+00:10:13,990 --> 00:10:20,610
+Then, with that market structure in mind,
+zoom into the lower-level details.
+
+127
+00:10:20,610 --> 00:10:27,890
+Context of the price move
+
+128
+00:10:27,890 --> 00:10:35,320
+Now, reading price action is not about finding
+pin bars, engulfing patterns, or seeing if
+
+129
+00:10:35,320 --> 00:10:38,440
+there are more green candles than red ones.
+
+130
+00:10:38,440 --> 00:10:44,610
+It is about observing price bars as they form
+and understanding what the market has done
+
+131
+00:10:44,610 --> 00:10:46,050
+and is doing.
+
+132
+00:10:46,050 --> 00:10:52,519
+A candle of the same type will have a completely
+different meaning depending on where it appears
+
+133
+00:10:52,519 --> 00:10:54,520
+in a price trend.
+
+134
+00:10:54,520 --> 00:10:59,810
+• Is it at a start of trend or in the middle
+of the trend or end of it.
+
+135
+00:10:59,810 --> 00:11:08,240
+• Is it at support or resistance or in the
+middle of a consolidation phase.
+
+136
+00:11:08,240 --> 00:11:11,800
+Candlesticks should be analyzed in the context
+of the price move.
+
+137
+00:11:11,800 --> 00:11:16,560
+You should never try and read the candle in
+isolation.
+
+138
+00:11:16,560 --> 00:11:24,110
+Analyzing multiple bars as a group, on several
+time frames offers a lot more analytical value.
+
+139
+00:11:24,110 --> 00:11:26,700
+Here we have 2 similar pin bars.
+
+140
+00:11:26,700 --> 00:11:30,310
+But this one is the more important.
+
+141
+00:11:30,310 --> 00:11:39,040
+It appeared in the context of an uptrend,
+with multiple trend bars at a support level.
+
+142
+00:11:39,040 --> 00:11:46,750
+While this one appeared after many candles
+are overlapping, so in a congestion area.
+
+143
+00:11:46,750 --> 00:11:52,990
+The point is: start reading the current candle
+in relation to the previous bars.
+
+144
+00:11:52,990 --> 00:11:57,620
+• Is the current candlestick larger or smaller
+than previous ones?
+
+145
+00:11:57,620 --> 00:12:02,040
+• Which recent candles are showing momentum
+increases or decreases
+
+146
+00:12:02,040 --> 00:12:06,110
+• Is the size of the body meaningful or
+not?
+
+147
+00:12:06,110 --> 00:12:08,420
+• Are you seeing buying or selling pressure
+
+148
+00:12:08,420 --> 00:12:18,329
+Volume validates price
+Price goes hand in hand with volume.
+
+149
+00:12:18,329 --> 00:12:22,600
+Is it possible to make money trading using
+price action alone?
+
+150
+00:12:22,600 --> 00:12:23,600
+Sure.
+
+151
+00:12:23,600 --> 00:12:28,070
+But price in combination with volume is 10
+times better.
+
+152
+00:12:28,070 --> 00:12:34,380
+First, you see what the CANDLESTICK is telling
+you, then you check the volume, and see if
+
+153
+00:12:34,380 --> 00:12:38,700
+it’s validating or not with the recent price
+action.
+
+154
+00:12:38,700 --> 00:12:40,000
+Volume validates price.
+
+155
+00:12:40,000 --> 00:12:46,200
+It’s the fuel that drives the market, and
+the more fuel there is, the greater the market
+
+156
+00:12:46,200 --> 00:12:49,000
+momentum.
+
+157
+00:12:49,000 --> 00:12:55,240
+Volume confirms the strength of a candlestick
+or suggests its weakness.
+
+158
+00:12:55,240 --> 00:13:01,430
+If the market is rising with a trend bar,
+and we have volume which is increasing, then
+
+159
+00:13:01,430 --> 00:13:07,140
+this suggests that we have a strong price
+move supported by an increasing number of
+
+160
+00:13:07,140 --> 00:13:08,920
+buyers.
+
+161
+00:13:08,920 --> 00:13:16,010
+This is BUYING volume, and you expect the
+price move to continue in this case.
+
+162
+00:13:16,010 --> 00:13:23,020
+If you have a trend bar, but you see decreasing
+volume, then this is WEAK price move.
+
+163
+00:13:23,020 --> 00:13:29,199
+If strong buyers were still in the market,
+then this would be represented by RISING volume,
+
+164
+00:13:29,199 --> 00:13:35,170
+and in this case we have FALLING volume, so
+this is a warning sign that the buyers are
+
+165
+00:13:35,170 --> 00:13:37,139
+NO LONGER INTERESTED.
+
+166
+00:13:37,139 --> 00:13:40,079
+The trend may be running out of steam.
+
+167
+00:13:40,079 --> 00:13:44,540
+This is the first sign of a POSSIBLE change
+in trend.
+
+168
+00:13:44,540 --> 00:13:49,731
+Combining Volume and Price
+
+169
+00:13:49,731 --> 00:13:55,180
+Price alone can only tell you what a market’s
+present technical position really is, and
+
+170
+00:13:55,180 --> 00:13:58,670
+where the trend is probably headed.
+
+171
+00:13:58,670 --> 00:14:05,290
+Volume help to validate the trend with more
+accuracy and also detects turning points,
+
+172
+00:14:05,290 --> 00:14:08,180
+when to open or close trades.
+
+173
+00:14:08,180 --> 00:14:10,980
+And together, they form a complete picture.
+
+174
+00:14:10,980 --> 00:14:17,029
+I’ve talked about the Volume spread analysis
+in this video, and if you haven’t seen it
+
+175
+00:14:17,029 --> 00:14:20,310
+yet, this must be your next video to watch.
+
+176
+00:14:20,310 --> 00:14:26,880
+VSA seeks to establish the cause of price
+movements by considering the imbalance between
+
+177
+00:14:26,880 --> 00:14:28,899
+buying and selling.
+
+178
+00:14:28,899 --> 00:14:35,570
+If you think about it, volume expresses interest
+and enthusiasm in one simple bar.
+
+179
+00:14:35,570 --> 00:14:42,399
+All the buying and selling decisions of investors,
+retail traders and smart money are all contained
+
+180
+00:14:42,399 --> 00:14:44,860
+in one volume bar.
+
+181
+00:14:44,860 --> 00:14:50,699
+All the millions of trading decisions, whether
+to buy or to sell are all captured in this
+
+182
+00:14:50,699 --> 00:14:53,500
+one bar.
+
+183
+00:14:53,500 --> 00:14:56,690
+Volume exposes the truth of a candlestick.
+
+184
+00:14:56,690 --> 00:14:59,709
+It reveals the conviction in the recent price
+move.
+
+185
+00:14:59,709 --> 00:15:06,110
+If the market is moving higher, but with falling
+or low volume, then this is simply telling
+
+186
+00:15:06,110 --> 00:15:09,459
+you that this is not a genuine move.
+
+187
+00:15:09,459 --> 00:15:16,120
+Equally, if the market is decreasing with
+falling volume, then once again this is not
+
+188
+00:15:16,120 --> 00:15:18,740
+a genuine move.
+
+189
+00:15:18,740 --> 00:15:26,910
+The more volume associated with a price move,
+then the more that price move is validated.
+
+190
+00:15:26,910 --> 00:15:34,019
+When there is low volume, few sellers in this
+example, then this price may simply not be
+
+191
+00:15:34,019 --> 00:15:36,040
+validated.
+
+192
+00:15:36,040 --> 00:15:42,670
+But when we have many sellers, this will reflect
+in high volume, and then our price is validated.
+
+193
+00:15:42,670 --> 00:15:46,240
+It really is that simple.
+
+194
+00:15:46,240 --> 00:15:51,690
+I hope that you can start to see how volume
+and price are the only two aspects of a chart
+
+195
+00:15:51,690 --> 00:15:53,260
+that you need to understand.
+
+196
+00:15:53,260 --> 00:15:58,880
+Learn how these work together, and you will
+join the elite group of traders who have the
+
+197
+00:15:58,880 --> 00:16:04,290
+ability to literally “read the market”
+and are able to anticipate where price is
+
+198
+00:16:04,290 --> 00:16:08,420
+likely to be heading, before it happens.
+
+199
+00:16:08,420 --> 00:16:14,190
+If you want to see more videos like this one,
+leave us a like and subscribe.
+
+200
+00:16:14,190 --> 00:16:20,630
+And check out our academy program, if you
+want to further level up your trading.
+
+201
+00:16:20,630 --> 00:16:21,320
+Until next time!
+

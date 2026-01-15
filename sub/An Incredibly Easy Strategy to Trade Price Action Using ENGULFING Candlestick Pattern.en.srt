@@ -1,0 +1,992 @@
+1
+00:00:00,079 --> 00:00:03,780
+trading with the trend is one of the
+
+2
+00:00:02,250 --> 00:00:06,690
+most effective things a trade that
+
+3
+00:00:03,780 --> 00:00:09,179
+learns and using an engulfing pattern is
+
+4
+00:00:06,690 --> 00:00:12,030
+one way to get into trending modes just
+
+5
+00:00:09,179 --> 00:00:13,980
+as momentum is picking up this engulfing
+
+6
+00:00:12,030 --> 00:00:16,379
+candles indicate a strong shift in
+
+7
+00:00:13,980 --> 00:00:18,150
+direction and when combined with
+
+8
+00:00:16,379 --> 00:00:20,160
+observation of the price trending
+
+9
+00:00:18,150 --> 00:00:21,779
+direction that precedes it
+
+10
+00:00:20,160 --> 00:00:24,390
+this combination creates the opportunity
+
+11
+00:00:21,779 --> 00:00:26,760
+for an efficient trading strategy on
+
+12
+00:00:24,390 --> 00:00:28,859
+engulfed in candle is a candle whose
+
+13
+00:00:26,760 --> 00:00:31,590
+length completely covers the previous
+
+14
+00:00:28,859 --> 00:00:34,860
+candle with a close above the high or
+
+15
+00:00:31,590 --> 00:00:36,360
+below the low of the previous candle if
+
+16
+00:00:34,860 --> 00:00:38,399
+the closes above the high of the
+
+17
+00:00:36,360 --> 00:00:40,829
+previous candle then it's a bullish
+
+18
+00:00:38,399 --> 00:00:44,129
+engulfing candle and the signals buying
+
+19
+00:00:40,829 --> 00:00:45,629
+pressure while if the closes below the
+
+20
+00:00:44,129 --> 00:00:48,780
+low of the previous candle
+
+21
+00:00:45,629 --> 00:00:50,969
+it's a bearish engulfing candle and this
+
+22
+00:00:48,780 --> 00:00:53,340
+signals a selling pressure in other
+
+23
+00:00:50,969 --> 00:00:57,960
+words engulfing candle sticks our
+
+24
+00:00:53,340 --> 00:01:00,210
+reversal patterns a bullish engulfing
+
+25
+00:00:57,960 --> 00:01:02,879
+candlestick formation implies that
+
+26
+00:01:00,210 --> 00:01:05,430
+wolves are in full control of bears as
+
+27
+00:01:02,879 --> 00:01:07,409
+the pattern shows the green body covers
+
+28
+00:01:05,430 --> 00:01:09,600
+completely the red bodied candle
+
+29
+00:01:07,409 --> 00:01:11,600
+this shows the readiness of the market
+
+30
+00:01:09,600 --> 00:01:15,150
+participants to drive the price higher
+
+31
+00:01:11,600 --> 00:01:17,430
+what about the shadows or the tails do
+
+32
+00:01:15,150 --> 00:01:19,049
+we include them in our analysis in a
+
+33
+00:01:17,430 --> 00:01:21,600
+perfect scenario a bullish engulfing
+
+34
+00:01:19,049 --> 00:01:23,729
+pattern should include the shadows of
+
+35
+00:01:21,600 --> 00:01:26,430
+the candles a real bullish engulfing
+
+36
+00:01:23,729 --> 00:01:29,130
+pattern forms when the green body of the
+
+37
+00:01:26,430 --> 00:01:32,579
+second candle fully engulfed the whole
+
+38
+00:01:29,130 --> 00:01:34,799
+previous candle including the tails here
+
+39
+00:01:32,579 --> 00:01:37,409
+the opinions diverge into two schools
+
+40
+00:01:34,799 --> 00:01:39,840
+one is preaching that the best bullish
+
+41
+00:01:37,409 --> 00:01:42,689
+engulfing pattern forms when both the
+
+42
+00:01:39,840 --> 00:01:44,460
+body and the tails are engulfed the
+
+43
+00:01:42,689 --> 00:01:46,619
+second school believes that for a
+
+44
+00:01:44,460 --> 00:01:48,899
+bullish engulfing pattern it does not
+
+45
+00:01:46,619 --> 00:01:51,750
+really matter if the tails are engulfed
+
+46
+00:01:48,899 --> 00:01:54,210
+or not what matters is only the real
+
+47
+00:01:51,750 --> 00:01:56,759
+body of the candle my personal style
+
+48
+00:01:54,210 --> 00:01:59,250
+towards the bullish engulfing pattern is
+
+49
+00:01:56,759 --> 00:02:01,829
+that the real body is the most important
+
+50
+00:01:59,250 --> 00:02:04,290
+element it is great if tails are
+
+51
+00:02:01,829 --> 00:02:06,159
+engulfed but it is not the end of the
+
+52
+00:02:04,290 --> 00:02:08,289
+world if they are not
+
+53
+00:02:06,159 --> 00:02:10,569
+sometimes the weeks can offer a degree
+
+54
+00:02:08,289 --> 00:02:13,629
+of noise in the market that's why I
+
+55
+00:02:10,569 --> 00:02:15,760
+concentrate on the real bodies I use the
+
+56
+00:02:13,629 --> 00:02:18,220
+weeks as an indication of where to place
+
+57
+00:02:15,760 --> 00:02:20,349
+stop losses and potential targets but
+
+58
+00:02:18,220 --> 00:02:21,959
+for me they are not as important to
+
+59
+00:02:20,349 --> 00:02:24,700
+validate the bullish engulfing pattern
+
+60
+00:02:21,959 --> 00:02:26,830
+so here are some great examples of
+
+61
+00:02:24,700 --> 00:02:29,799
+bullish engulfing patterns I would have
+
+62
+00:02:26,830 --> 00:02:32,260
+considered as valid as you can see the
+
+63
+00:02:29,799 --> 00:02:35,230
+red body of the first candle is fully
+
+64
+00:02:32,260 --> 00:02:37,390
+engulfed by the second green candle the
+
+65
+00:02:35,230 --> 00:02:40,299
+lower tail of the red candle is not
+
+66
+00:02:37,390 --> 00:02:43,150
+engulfed by the green candle but for me
+
+67
+00:02:40,299 --> 00:02:46,060
+this is not important what matters is
+
+68
+00:02:43,150 --> 00:02:48,010
+the real body of the candle as long as
+
+69
+00:02:46,060 --> 00:02:49,840
+it's fully engulfed I would classify
+
+70
+00:02:48,010 --> 00:02:53,530
+this pattern as a bullish engulfing
+
+71
+00:02:49,840 --> 00:02:56,230
+candle how to read a bullish engulfing
+
+72
+00:02:53,530 --> 00:02:58,959
+pattern when a bullish engulfing pattern
+
+73
+00:02:56,230 --> 00:03:01,840
+forms I expect the price to go higher
+
+74
+00:02:58,959 --> 00:03:03,730
+more market participants are willing to
+
+75
+00:03:01,840 --> 00:03:06,310
+buy than to sell that particular
+
+76
+00:03:03,730 --> 00:03:08,500
+instrument that is an indication for
+
+77
+00:03:06,310 --> 00:03:11,109
+price action traders that more buyers
+
+78
+00:03:08,500 --> 00:03:14,170
+will join the trend and it will be
+
+79
+00:03:11,109 --> 00:03:16,269
+extended to new highs here's an
+
+80
+00:03:14,170 --> 00:03:18,340
+important observation there are many
+
+81
+00:03:16,269 --> 00:03:21,280
+variations of bullish engulfing patterns
+
+82
+00:03:18,340 --> 00:03:23,799
+one thing to remember is to learn how to
+
+83
+00:03:21,280 --> 00:03:26,380
+read the pattern you need to understand
+
+84
+00:03:23,799 --> 00:03:29,470
+that if you have a red body and then a
+
+85
+00:03:26,380 --> 00:03:30,900
+series of wind body candles you might
+
+86
+00:03:29,470 --> 00:03:34,000
+still have a bullish engulfing pattern
+
+87
+00:03:30,900 --> 00:03:36,459
+what matters is to have the green bodies
+
+88
+00:03:34,000 --> 00:03:40,419
+engulfing the red body of the previous
+
+89
+00:03:36,459 --> 00:03:41,980
+candle have a look at this example we
+
+90
+00:03:40,419 --> 00:03:45,280
+have a two bodied bullish engulfing
+
+91
+00:03:41,980 --> 00:03:47,650
+pattern so very important it doesn't
+
+92
+00:03:45,280 --> 00:03:49,750
+matter how many candles you have forming
+
+93
+00:03:47,650 --> 00:03:52,389
+a bullish engulfing candlestick pattern
+
+94
+00:03:49,750 --> 00:03:55,239
+what matters is that the body of the red
+
+95
+00:03:52,389 --> 00:03:57,400
+candle is fully engulfed here we have
+
+96
+00:03:55,239 --> 00:04:00,700
+multiple candles forming a bullish
+
+97
+00:03:57,400 --> 00:04:02,859
+engulfing pattern again what matters is
+
+98
+00:04:00,700 --> 00:04:05,980
+that a red body of the first candle is
+
+99
+00:04:02,859 --> 00:04:09,579
+covered by one or more consecutive
+
+100
+00:04:05,980 --> 00:04:11,829
+bullish four green candles if you are a
+
+101
+00:04:09,579 --> 00:04:13,389
+price action trader don't restrict
+
+102
+00:04:11,829 --> 00:04:15,610
+yourself to the classic and often
+
+103
+00:04:13,389 --> 00:04:17,530
+pattern open your eyes and
+
+104
+00:04:15,610 --> 00:04:20,560
+search for multiple candles forming a
+
+105
+00:04:17,530 --> 00:04:22,360
+bullish engulfing pattern the beverage
+
+106
+00:04:20,560 --> 00:04:24,310
+engulfing candlestick pattern is the
+
+107
+00:04:22,360 --> 00:04:26,860
+complete opposite a bearish engulfing
+
+108
+00:04:24,310 --> 00:04:29,800
+candlestick this is more bullish candle
+
+109
+00:04:26,860 --> 00:04:32,440
+followed by a larger red bearish candle
+
+110
+00:04:29,800 --> 00:04:34,770
+covering or engulfing the small green
+
+111
+00:04:32,440 --> 00:04:37,020
+candle just like the bullish engulfing
+
+112
+00:04:34,770 --> 00:04:40,690
+behind the bearish engulfing pattern
+
+113
+00:04:37,020 --> 00:04:43,030
+stands pure price action what matters is
+
+114
+00:04:40,690 --> 00:04:45,280
+that a number of sellers outweigh the
+
+115
+00:04:43,030 --> 00:04:47,680
+number of buyers from a price action
+
+116
+00:04:45,280 --> 00:04:50,140
+standpoint this means that the balls are
+
+117
+00:04:47,680 --> 00:04:52,480
+too weak and Bears take control of the
+
+118
+00:04:50,140 --> 00:04:54,910
+action thus pushing the price down so
+
+119
+00:04:52,480 --> 00:04:56,770
+bearish engulfing candlestick patterns
+
+120
+00:04:54,910 --> 00:04:59,650
+are extremely strong continuation
+
+121
+00:04:56,770 --> 00:05:01,990
+patterns in downtrends the power of the
+
+122
+00:04:59,650 --> 00:05:04,330
+bearish and bullish engulfing pattern is
+
+123
+00:05:01,990 --> 00:05:06,400
+in following the trend they are most
+
+124
+00:05:04,330 --> 00:05:08,980
+powerful when the market takes a break
+
+125
+00:05:06,400 --> 00:05:11,290
+makes a collection and then forms an
+
+126
+00:05:08,980 --> 00:05:13,180
+Engel think pattern this is probably the
+
+127
+00:05:11,290 --> 00:05:16,690
+best place for an engulfing pattern to
+
+128
+00:05:13,180 --> 00:05:19,210
+form so how to trade using all think
+
+129
+00:05:16,690 --> 00:05:20,979
+patterns the first step in applying an
+
+130
+00:05:19,210 --> 00:05:22,780
+engulfing candle strategy is to
+
+131
+00:05:20,979 --> 00:05:24,840
+determine the dominant trend direction
+
+132
+00:05:22,780 --> 00:05:27,850
+namely the direction you will trade in
+
+133
+00:05:24,840 --> 00:05:30,250
+an uptrend is defined by higher highs
+
+134
+00:05:27,850 --> 00:05:33,130
+and higher lows in price in an uptrend
+
+135
+00:05:30,250 --> 00:05:33,700
+the advancing waves are larger than the
+
+136
+00:05:33,130 --> 00:05:36,430
+pullbacks
+
+137
+00:05:33,700 --> 00:05:38,140
+pushing the market higher during an
+
+138
+00:05:36,430 --> 00:05:40,780
+uptrend you should take only long
+
+139
+00:05:38,140 --> 00:05:42,400
+positions buying with the intention of
+
+140
+00:05:40,780 --> 00:05:45,070
+selling later at the higher price
+
+141
+00:05:42,400 --> 00:05:47,919
+a downtrend is defined by lower lows and
+
+142
+00:05:45,070 --> 00:05:50,260
+lower highs in price in a downtrend the
+
+143
+00:05:47,919 --> 00:05:53,740
+declining waves are larger than the
+
+144
+00:05:50,260 --> 00:05:55,960
+pullbacks pushing the market lower once
+
+145
+00:05:53,740 --> 00:05:58,030
+the trend is established you wait for a
+
+146
+00:05:55,960 --> 00:06:00,370
+pullback waiting for a pullback means
+
+147
+00:05:58,030 --> 00:06:02,910
+you're getting a better price for the
+
+148
+00:06:00,370 --> 00:06:06,430
+next wave of the trend when it unfolds
+
+149
+00:06:02,910 --> 00:06:08,830
+very important if the trend is up watch
+
+150
+00:06:06,430 --> 00:06:11,020
+for the downward pull back the pullback
+
+151
+00:06:08,830 --> 00:06:13,570
+should not drop below the low of the
+
+152
+00:06:11,020 --> 00:06:15,220
+prior pullback as this violates the
+
+153
+00:06:13,570 --> 00:06:17,950
+rules of an uptrend
+
+154
+00:06:15,220 --> 00:06:20,290
+if the trend is down watch for an upward
+
+155
+00:06:17,950 --> 00:06:22,270
+pullback the pullback should not rally
+
+156
+00:06:20,290 --> 00:06:24,870
+above the high of the prior pullback
+
+157
+00:06:22,270 --> 00:06:27,009
+this violates the rules of a downtrend
+
+158
+00:06:24,870 --> 00:06:29,080
+also take note the
+
+159
+00:06:27,009 --> 00:06:31,749
+fullbacks may move in the opposite
+
+160
+00:06:29,080 --> 00:06:33,969
+direction of the trend or may just move
+
+161
+00:06:31,749 --> 00:06:36,490
+sideways so you have to read carefully
+
+162
+00:06:33,969 --> 00:06:38,439
+the price action with the trend
+
+163
+00:06:36,490 --> 00:06:40,839
+determined and the pullback occurring
+
+164
+00:06:38,439 --> 00:06:43,930
+you just wait for the engulfing candle
+
+165
+00:06:40,839 --> 00:06:46,689
+trade signal during the downtrend wait
+
+166
+00:06:43,930 --> 00:06:50,319
+until a down candle engulf an up candle
+
+167
+00:06:46,689 --> 00:06:52,149
+and vice versa for an uptrend no need to
+
+168
+00:06:50,319 --> 00:06:53,889
+take a bullish engulfing candle in a
+
+169
+00:06:52,149 --> 00:06:57,339
+downtrend what a bearish engulfing
+
+170
+00:06:53,889 --> 00:06:59,409
+candle in an uptrend if you do so you're
+
+171
+00:06:57,339 --> 00:07:02,169
+practically trading against the main
+
+172
+00:06:59,409 --> 00:07:03,969
+direction once the trade is initiated
+
+173
+00:07:02,169 --> 00:07:06,249
+losing the engulfed in candle strategy
+
+174
+00:07:03,969 --> 00:07:08,499
+you could place a stop-loss above the
+
+175
+00:07:06,249 --> 00:07:10,949
+reason high for a short position and
+
+176
+00:07:08,499 --> 00:07:13,749
+below the recent low for a long position
+
+177
+00:07:10,949 --> 00:07:16,240
+Jean coughing candle that occurs after a
+
+178
+00:07:13,749 --> 00:07:18,669
+pullback in an overall trend is designed
+
+179
+00:07:16,240 --> 00:07:21,580
+to get you into a trade as the next wave
+
+180
+00:07:18,669 --> 00:07:23,529
+of the trend is likely to unfold a rule
+
+181
+00:07:21,580 --> 00:07:26,080
+of thumb is to make sure your winners
+
+182
+00:07:23,529 --> 00:07:26,979
+are introduced two times bigger than
+
+183
+00:07:26,080 --> 00:07:29,469
+your losers
+
+184
+00:07:26,979 --> 00:07:31,839
+therefore measure the distance between
+
+185
+00:07:29,469 --> 00:07:35,050
+your entry point and where you placed
+
+186
+00:07:31,839 --> 00:07:38,620
+the stop-loss for example if it's 30
+
+187
+00:07:35,050 --> 00:07:41,559
+pips or 30 cents that is your risk your
+
+188
+00:07:38,620 --> 00:07:44,289
+target price should be at least 60 pips
+
+189
+00:07:41,559 --> 00:07:48,069
+or 60 cents to compensate yourself for
+
+190
+00:07:44,289 --> 00:07:49,990
+the risk you have taken in technical
+
+191
+00:07:48,069 --> 00:07:51,729
+analysis there are different tools that
+
+192
+00:07:49,990 --> 00:07:54,189
+could be used in conjunction with
+
+193
+00:07:51,729 --> 00:07:55,990
+candlestick patterns the most efficient
+
+194
+00:07:54,189 --> 00:07:58,449
+ones is the concept of support and
+
+195
+00:07:55,990 --> 00:08:00,939
+resistance as you can see from this
+
+196
+00:07:58,449 --> 00:08:03,009
+example the red candle was followed by
+
+197
+00:08:00,939 --> 00:08:05,830
+two consecutive green bullish candles
+
+198
+00:08:03,009 --> 00:08:08,559
+forming on top of a major support area
+
+199
+00:08:05,830 --> 00:08:10,300
+this gives even further confidence to
+
+200
+00:08:08,559 --> 00:08:13,449
+market participants
+
+201
+00:08:10,300 --> 00:08:15,220
+and pushes the price higher as you can
+
+202
+00:08:13,449 --> 00:08:17,770
+see after the bullish engulfing pattern
+
+203
+00:08:15,220 --> 00:08:20,590
+has formed the next candle is a long
+
+204
+00:08:17,770 --> 00:08:23,800
+candle and thus marks the bullish bias
+
+205
+00:08:20,590 --> 00:08:26,080
+of the market in this chart you can see
+
+206
+00:08:23,800 --> 00:08:28,000
+the opposite scenario there is a
+
+207
+00:08:26,080 --> 00:08:30,490
+resistance area and the bearish
+
+208
+00:08:28,000 --> 00:08:32,680
+engulfing pattern as we have already
+
+209
+00:08:30,490 --> 00:08:35,289
+decided what matters is not the number
+
+210
+00:08:32,680 --> 00:08:38,289
+of the candles but the ability of the
+
+211
+00:08:35,289 --> 00:08:40,510
+Bears to engulf the balls thus showing
+
+212
+00:08:38,289 --> 00:08:43,659
+market participants the readiness of
+
+213
+00:08:40,510 --> 00:08:46,000
+sellers so trade the pattern when it
+
+214
+00:08:43,659 --> 00:08:48,459
+occurs at a strong area of support or
+
+215
+00:08:46,000 --> 00:08:50,500
+resistance that's very important you
+
+216
+00:08:48,459 --> 00:08:53,110
+cannot just enter a trade every time you
+
+217
+00:08:50,500 --> 00:08:55,240
+see the engulfing pattern is smart you
+
+218
+00:08:53,110 --> 00:09:00,399
+support and resistance and trade the
+
+219
+00:08:55,240 --> 00:09:02,950
+pattern near those levels I also like to
+
+220
+00:09:00,399 --> 00:09:06,370
+use the 200 EMA in my training analysis
+
+221
+00:09:02,950 --> 00:09:09,250
+in this example you can see a 200 PMA
+
+222
+00:09:06,370 --> 00:09:11,470
+and the bullish engulfing pattern that
+
+223
+00:09:09,250 --> 00:09:13,660
+is a great confluence of factors which
+
+224
+00:09:11,470 --> 00:09:16,209
+leads to an increased bullish enthusiasm
+
+225
+00:09:13,660 --> 00:09:18,700
+and here's a tree bodied bearish
+
+226
+00:09:16,209 --> 00:09:20,320
+engulfing pattern you can see how large
+
+227
+00:09:18,700 --> 00:09:23,560
+the candle forming the bearish engulfing
+
+228
+00:09:20,320 --> 00:09:25,510
+is the reason for that is that the
+
+229
+00:09:23,560 --> 00:09:28,420
+market is indicating a confluence of
+
+230
+00:09:25,510 --> 00:09:31,120
+bearish factors which lead to a lot of
+
+231
+00:09:28,420 --> 00:09:32,589
+market participants shorting it after
+
+232
+00:09:31,120 --> 00:09:35,890
+the completion of the bearish engulfing
+
+233
+00:09:32,589 --> 00:09:37,660
+pattern there are other tools that could
+
+234
+00:09:35,890 --> 00:09:39,640
+be used in conjunction with the bullish
+
+235
+00:09:37,660 --> 00:09:43,020
+engulfing and bearish angles in patterns
+
+236
+00:09:39,640 --> 00:09:45,190
+like pivot points or Fibonacci levels
+
+237
+00:09:43,020 --> 00:09:47,380
+don't forget a bullish and bearish
+
+238
+00:09:45,190 --> 00:09:49,149
+engulfing candle sticks are extremely
+
+239
+00:09:47,380 --> 00:09:51,040
+powerful when they are used in
+
+240
+00:09:49,149 --> 00:09:53,350
+conjunction with the existing trend and
+
+241
+00:09:51,040 --> 00:09:55,750
+are having an extremely strong
+
+242
+00:09:53,350 --> 00:09:57,640
+connotation especially around support
+
+243
+00:09:55,750 --> 00:10:00,130
+and resistance areas and moving averages
+
+244
+00:09:57,640 --> 00:10:02,199
+if you got any value from this make sure
+
+245
+00:10:00,130 --> 00:10:03,610
+you subscribe click the bell icon so
+
+246
+00:10:02,199 --> 00:10:06,449
+you'll be notified each time we upload
+
+247
+00:10:03,610 --> 00:10:09,839
+and give us a like to show your support
+
+248
+00:10:06,449 --> 00:10:09,839
+until next time
+

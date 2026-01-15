@@ -1,0 +1,2740 @@
+1
+00:00:00,240 --> 00:00:04,799
+Make no mistake, volume is the missing
+
+2
+00:00:02,720 --> 00:00:07,279
+puzzle piece that completes the picture
+
+3
+00:00:04,799 --> 00:00:09,519
+of chart patterns, the secret weapon in
+
+4
+00:00:07,279 --> 00:00:11,920
+your trading arsenal. So, starting
+
+5
+00:00:09,519 --> 00:00:14,320
+today, no more guessing or relying on
+
+6
+00:00:11,920 --> 00:00:16,240
+luck. Now, when applying volume spread
+
+7
+00:00:14,320 --> 00:00:18,960
+analysis, there are two important
+
+8
+00:00:16,240 --> 00:00:22,080
+factors to consider. First, you look for
+
+9
+00:00:18,960 --> 00:00:24,480
+validation between price and volume. And
+
+10
+00:00:22,080 --> 00:00:27,599
+second, you look for any disagreements
+
+11
+00:00:24,480 --> 00:00:30,240
+between them. Validation occurs when any
+
+12
+00:00:27,599 --> 00:00:33,440
+price movement is supported or confirmed
+
+13
+00:00:30,240 --> 00:00:34,880
+by the corresponding volume activity. On
+
+14
+00:00:33,440 --> 00:00:37,360
+the other hand, if there is a
+
+15
+00:00:34,880 --> 00:00:39,440
+disagreement between price and volume,
+
+16
+00:00:37,360 --> 00:00:42,320
+it signals a potential change in the
+
+17
+00:00:39,440 --> 00:00:44,800
+market. So, if the price is rising but
+
+18
+00:00:42,320 --> 00:00:47,600
+the volume is decreasing or not keeping
+
+19
+00:00:44,800 --> 00:00:49,920
+pace, it may indicate a weakening of the
+
+20
+00:00:47,600 --> 00:00:51,600
+trend and a possible reversal in the
+
+21
+00:00:49,920 --> 00:00:53,760
+near future.
+
+22
+00:00:51,600 --> 00:00:57,120
+Validation and divergence are the key
+
+23
+00:00:53,760 --> 00:00:59,440
+concepts in VSA. Traders using VSA are
+
+24
+00:00:57,120 --> 00:01:02,160
+not just looking at price action after
+
+25
+00:00:59,440 --> 00:01:05,119
+it already happened. They also analyze
+
+26
+00:01:02,160 --> 00:01:07,680
+volume in real time to anticipate future
+
+27
+00:01:05,119 --> 00:01:10,479
+chart patterns. By understanding whether
+
+28
+00:01:07,680 --> 00:01:12,080
+the volume supports or diverges from the
+
+29
+00:01:10,479 --> 00:01:14,320
+price movement, you will better
+
+30
+00:01:12,080 --> 00:01:17,360
+anticipate the market's potential for
+
+31
+00:01:14,320 --> 00:01:19,360
+continuation or reversal.
+
+32
+00:01:17,360 --> 00:01:21,840
+Now, there are numerous patterns that
+
+33
+00:01:19,360 --> 00:01:24,320
+traders use to analyze the market. But
+
+34
+00:01:21,840 --> 00:01:27,920
+we won't talk about triangles, wedges,
+
+35
+00:01:24,320 --> 00:01:30,240
+flags or other ineffective retail junk.
+
+36
+00:01:27,920 --> 00:01:32,720
+No, we will analyze the patterns that
+
+37
+00:01:30,240 --> 00:01:35,280
+have proven to be highly effective and
+
+38
+00:01:32,720 --> 00:01:37,680
+occur frequently. Some of the patterns
+
+39
+00:01:35,280 --> 00:01:40,479
+are retail, but some of them are related
+
+40
+00:01:37,680 --> 00:01:42,560
+to smart money concepts.
+
+41
+00:01:40,479 --> 00:01:45,280
+The first one is the trend continuation
+
+42
+00:01:42,560 --> 00:01:48,479
+pattern or if you study ICT, the break
+
+43
+00:01:45,280 --> 00:01:50,720
+of structure pattern. The BOS in a
+
+44
+00:01:48,479 --> 00:01:53,439
+bullish trend continuation pattern we
+
+45
+00:01:50,720 --> 00:01:55,840
+observe a series of upward movements and
+
+46
+00:01:53,439 --> 00:01:57,759
+corrective pullbacks. The highest points
+
+47
+00:01:55,840 --> 00:02:00,000
+in the price are higher than the
+
+48
+00:01:57,759 --> 00:02:02,560
+previous highest points and the lowest
+
+49
+00:02:00,000 --> 00:02:05,200
+points in the price are also higher than
+
+50
+00:02:02,560 --> 00:02:07,280
+the previous lowest points. This pattern
+
+51
+00:02:05,200 --> 00:02:10,080
+indicates a continuation of bullish
+
+52
+00:02:07,280 --> 00:02:12,879
+momentum as buyers push the price to new
+
+53
+00:02:10,080 --> 00:02:15,920
+higher levels showing a sustained upward
+
+54
+00:02:12,879 --> 00:02:17,760
+trend. When a market is moving up, it
+
+55
+00:02:15,920 --> 00:02:19,920
+needs buying pressure to sustain the
+
+56
+00:02:17,760 --> 00:02:21,920
+upward movement. This buying is
+
+57
+00:02:19,920 --> 00:02:24,640
+typically seen when the present bar
+
+58
+00:02:21,920 --> 00:02:26,640
+closes higher than the previous bar. And
+
+59
+00:02:24,640 --> 00:02:29,440
+it's important to pay attention to the
+
+60
+00:02:26,640 --> 00:02:32,239
+volume of the up bar. The volume should
+
+61
+00:02:29,440 --> 00:02:34,160
+be increasing but not excessively.
+
+62
+00:02:32,239 --> 00:02:36,400
+Excessive volume may indicate that there
+
+63
+00:02:34,160 --> 00:02:38,879
+is more supply in the market in the
+
+64
+00:02:36,400 --> 00:02:41,599
+background. If you notice that the
+
+65
+00:02:38,879 --> 00:02:44,560
+volume is low as the market moves up,
+
+66
+00:02:41,599 --> 00:02:46,640
+it's a false indication. The low volume
+
+67
+00:02:44,560 --> 00:02:48,480
+suggests that smart money who have
+
+68
+00:02:46,640 --> 00:02:50,879
+significant influence are not
+
+69
+00:02:48,480 --> 00:02:53,680
+participating in the upward movement
+
+70
+00:02:50,879 --> 00:02:55,760
+because they perceive the market as weak
+
+71
+00:02:53,680 --> 00:02:58,239
+and without the involvement of this
+
+72
+00:02:55,760 --> 00:03:01,599
+smart money, the market is unlikely to
+
+73
+00:02:58,239 --> 00:03:04,080
+rise significantly in the future. In a
+
+74
+00:03:01,599 --> 00:03:06,480
+bearish trend continuation pattern, we
+
+75
+00:03:04,080 --> 00:03:08,879
+see a series of downward movements and
+
+76
+00:03:06,480 --> 00:03:11,519
+corrective pullbacks. The highest points
+
+77
+00:03:08,879 --> 00:03:14,159
+in the price are lower than the previous
+
+78
+00:03:11,519 --> 00:03:16,480
+highest points and the lowest points in
+
+79
+00:03:14,159 --> 00:03:19,599
+the price are lower than the previous
+
+80
+00:03:16,480 --> 00:03:22,319
+lowest points. This pattern signifies a
+
+81
+00:03:19,599 --> 00:03:24,720
+continuation of bearish momentum as
+
+82
+00:03:22,319 --> 00:03:27,519
+sellers drive the price to new lower
+
+83
+00:03:24,720 --> 00:03:30,560
+levels indicating a sustained downward
+
+84
+00:03:27,519 --> 00:03:33,200
+trend. During this pattern, you may see
+
+85
+00:03:30,560 --> 00:03:35,680
+temporary upward movements on low
+
+86
+00:03:33,200 --> 00:03:37,760
+volume. This implies that professional
+
+87
+00:03:35,680 --> 00:03:39,920
+traders are not interested in higher
+
+88
+00:03:37,760 --> 00:03:42,720
+prices and are not actively
+
+89
+00:03:39,920 --> 00:03:45,120
+participating. A legitimate downward
+
+90
+00:03:42,720 --> 00:03:47,840
+movement requires evidence of selling
+
+91
+00:03:45,120 --> 00:03:50,640
+pressure which is reflected in increased
+
+92
+00:03:47,840 --> 00:03:53,200
+volume on down bars. When the present
+
+93
+00:03:50,640 --> 00:03:56,319
+candle closes lower than the previous
+
+94
+00:03:53,200 --> 00:03:59,120
+candle, however, if the volume increase
+
+95
+00:03:56,319 --> 00:04:01,599
+is excessive, it's a warning sign that
+
+96
+00:03:59,120 --> 00:04:04,000
+there may be demand in the background.
+
+97
+00:04:01,599 --> 00:04:06,560
+If you notice the volume drying up on
+
+98
+00:04:04,000 --> 00:04:08,640
+down bars, it indicates a reduction in
+
+99
+00:04:06,560 --> 00:04:11,120
+selling pressure. The market may
+
+100
+00:04:08,640 --> 00:04:13,120
+continue to fall, but be aware that it
+
+101
+00:04:11,120 --> 00:04:15,760
+could quickly reverse and rise
+
+102
+00:04:13,120 --> 00:04:18,320
+momentarily due to the lack of supply.
+
+103
+00:04:15,760 --> 00:04:20,000
+Decreasing volume on down bars suggests
+
+104
+00:04:18,320 --> 00:04:22,240
+that there is no significant
+
+105
+00:04:20,000 --> 00:04:24,960
+professional interest in further
+
+106
+00:04:22,240 --> 00:04:27,199
+downside movement.
+
+107
+00:04:24,960 --> 00:04:29,680
+The next pattern is the double top which
+
+108
+00:04:27,199 --> 00:04:31,759
+contains a liquidity run. In a double
+
+109
+00:04:29,680 --> 00:04:34,080
+top pattern, we start with an upward
+
+110
+00:04:31,759 --> 00:04:36,960
+trend. The price reaches two similar
+
+111
+00:04:34,080 --> 00:04:39,360
+highs creating a resistance level. The
+
+112
+00:04:36,960 --> 00:04:41,759
+swing low between the highs is known as
+
+113
+00:04:39,360 --> 00:04:44,320
+the neckline. This pattern suggests a
+
+114
+00:04:41,759 --> 00:04:46,160
+loss of momentum in the previous uptrend
+
+115
+00:04:44,320 --> 00:04:49,199
+indicating a weakening of buyer
+
+116
+00:04:46,160 --> 00:04:51,759
+interest. Basically, the two high points
+
+117
+00:04:49,199 --> 00:04:54,320
+represent unsuccessful attempts by
+
+118
+00:04:51,759 --> 00:04:56,800
+buyers to push the price higher. When
+
+119
+00:04:54,320 --> 00:04:59,759
+the price falls below this neckline, it
+
+120
+00:04:56,800 --> 00:05:01,680
+confirms the double top pattern. Now, I
+
+121
+00:04:59,759 --> 00:05:04,240
+have more confidence to trade this
+
+122
+00:05:01,680 --> 00:05:06,639
+pattern if it includes a liquidity run
+
+123
+00:05:04,240 --> 00:05:08,720
+on the second high point. It's quite
+
+124
+00:05:06,639 --> 00:05:11,520
+common to see the market clearing the
+
+125
+00:05:08,720 --> 00:05:13,840
+double top with the spike, triggering
+
+126
+00:05:11,520 --> 00:05:16,479
+stop- losses before moving in the
+
+127
+00:05:13,840 --> 00:05:19,199
+intended direction. During the formation
+
+128
+00:05:16,479 --> 00:05:21,759
+of the first high, volume can provide
+
+129
+00:05:19,199 --> 00:05:23,840
+valuable insights. If the volume is
+
+130
+00:05:21,759 --> 00:05:26,560
+high, it suggests strong buying
+
+131
+00:05:23,840 --> 00:05:29,440
+interest. At this point, you don't know
+
+132
+00:05:26,560 --> 00:05:31,840
+if a double top is forming. It's just a
+
+133
+00:05:29,440 --> 00:05:35,039
+simple break of structure pattern.
+
+134
+00:05:31,840 --> 00:05:36,720
+However, if the volume is low, it could
+
+135
+00:05:35,039 --> 00:05:39,759
+indicate a lack of conviction from
+
+136
+00:05:36,720 --> 00:05:42,320
+buyers. After the first high, there is
+
+137
+00:05:39,759 --> 00:05:45,280
+usually a pullback phase where the price
+
+138
+00:05:42,320 --> 00:05:48,000
+retraces slightly. During this phase, a
+
+139
+00:05:45,280 --> 00:05:50,800
+decrease in volume is common, indicating
+
+140
+00:05:48,000 --> 00:05:53,360
+a decrease in buying pressure. As the
+
+141
+00:05:50,800 --> 00:05:55,919
+price climbs towards the second high,
+
+142
+00:05:53,360 --> 00:05:58,320
+observe the volume again. If the volume
+
+143
+00:05:55,919 --> 00:06:00,479
+is lower than during the formation of
+
+144
+00:05:58,320 --> 00:06:02,560
+the first high, it could indicate
+
+145
+00:06:00,479 --> 00:06:05,199
+diminishing buying interest and
+
+146
+00:06:02,560 --> 00:06:07,600
+potential exhaustion of the uptrend. It
+
+147
+00:06:05,199 --> 00:06:10,720
+suggests that fewer traders are willing
+
+148
+00:06:07,600 --> 00:06:13,120
+to buy at higher prices. This volume
+
+149
+00:06:10,720 --> 00:06:15,440
+decline acts as a warning sign,
+
+150
+00:06:13,120 --> 00:06:18,639
+suggesting a weakening trend. The
+
+151
+00:06:15,440 --> 00:06:21,919
+liquidity run on low volume is another
+
+152
+00:06:18,639 --> 00:06:23,680
+sign that something is suspect. The most
+
+153
+00:06:21,919 --> 00:06:26,479
+critical phase of the double top
+
+154
+00:06:23,680 --> 00:06:29,840
+formation is when the price breaks below
+
+155
+00:06:26,479 --> 00:06:32,319
+the neckline. Here volume plays a vital
+
+156
+00:06:29,840 --> 00:06:34,800
+role in confirming the pattern. If the
+
+157
+00:06:32,319 --> 00:06:37,440
+price falls below the neckline on high
+
+158
+00:06:34,800 --> 00:06:40,479
+volume, it suggests a strong shift in
+
+159
+00:06:37,440 --> 00:06:42,960
+sentiment with sellers taking control.
+
+160
+00:06:40,479 --> 00:06:45,360
+High volume during the breakdown adds
+
+161
+00:06:42,960 --> 00:06:48,560
+credibility to the pattern and increases
+
+162
+00:06:45,360 --> 00:06:51,039
+the likelihood of a trend reversal.
+
+163
+00:06:48,560 --> 00:06:53,280
+In a double bottom pattern containing a
+
+164
+00:06:51,039 --> 00:06:55,840
+liquidity run, we start with a bearish
+
+165
+00:06:53,280 --> 00:06:59,039
+trend continuation pattern, a bearish
+
+166
+00:06:55,840 --> 00:07:02,160
+BOS. The price reaches two approximately
+
+167
+00:06:59,039 --> 00:07:04,880
+equal lows creating a support level.
+
+168
+00:07:02,160 --> 00:07:07,599
+Again, I like to see a liquidity run on
+
+169
+00:07:04,880 --> 00:07:10,080
+the second low taking stops and trapping
+
+170
+00:07:07,599 --> 00:07:12,000
+traders on the short side. The swing
+
+171
+00:07:10,080 --> 00:07:14,479
+high between the lows forms the
+
+172
+00:07:12,000 --> 00:07:17,199
+neckline. This pattern suggests a loss
+
+173
+00:07:14,479 --> 00:07:19,280
+of momentum in the previous downtrend,
+
+174
+00:07:17,199 --> 00:07:22,240
+indicating a weakening of sellers
+
+175
+00:07:19,280 --> 00:07:24,319
+interest and a potential trend reversal.
+
+176
+00:07:22,240 --> 00:07:27,440
+The two low points represent
+
+177
+00:07:24,319 --> 00:07:30,160
+unsuccessful attempts by sellers to push
+
+178
+00:07:27,440 --> 00:07:32,400
+the price lower. When the price rises
+
+179
+00:07:30,160 --> 00:07:35,120
+above this neckline, it confirms the
+
+180
+00:07:32,400 --> 00:07:37,280
+double bottom pattern. When the price
+
+181
+00:07:35,120 --> 00:07:39,599
+reaches the first low point, pay
+
+182
+00:07:37,280 --> 00:07:41,919
+attention to the volume. If the volume
+
+183
+00:07:39,599 --> 00:07:45,039
+is high, it suggests strong selling
+
+184
+00:07:41,919 --> 00:07:47,120
+interest. But if the volume is low, it
+
+185
+00:07:45,039 --> 00:07:50,080
+could indicate a lack of conviction from
+
+186
+00:07:47,120 --> 00:07:52,319
+sellers. After the first low, there is
+
+187
+00:07:50,080 --> 00:07:55,199
+usually a pullback phase where the price
+
+188
+00:07:52,319 --> 00:07:57,680
+retraces. During this phase, a decrease
+
+189
+00:07:55,199 --> 00:08:00,400
+in volume is common, indicating a
+
+190
+00:07:57,680 --> 00:08:02,879
+decrease in selling pressure. During the
+
+191
+00:08:00,400 --> 00:08:06,000
+formation of the second low point, look
+
+192
+00:08:02,879 --> 00:08:07,919
+at the volume. If the volume is lower
+
+193
+00:08:06,000 --> 00:08:10,560
+than during the formation of the first
+
+194
+00:08:07,919 --> 00:08:12,879
+low point, it could suggest diminishing
+
+195
+00:08:10,560 --> 00:08:15,759
+selling interest and potential
+
+196
+00:08:12,879 --> 00:08:17,919
+exhaustion of the downtrend. This volume
+
+197
+00:08:15,759 --> 00:08:20,560
+decline acts as a warning sign
+
+198
+00:08:17,919 --> 00:08:23,280
+indicating a possible trend reversal.
+
+199
+00:08:20,560 --> 00:08:26,639
+The liquidity run should ideally occur
+
+200
+00:08:23,280 --> 00:08:29,120
+on low volume. The most critical phase
+
+201
+00:08:26,639 --> 00:08:32,320
+of the double bottom pattern is when the
+
+202
+00:08:29,120 --> 00:08:34,320
+price breaks above the neckline. Here
+
+203
+00:08:32,320 --> 00:08:36,959
+volume provides the confirmation you
+
+204
+00:08:34,320 --> 00:08:39,919
+need. If the price rises above the
+
+205
+00:08:36,959 --> 00:08:42,640
+neckline on higher volume compared to
+
+206
+00:08:39,919 --> 00:08:45,279
+the previous low point, it suggest a
+
+207
+00:08:42,640 --> 00:08:47,279
+strong shift in sentiment with buyers
+
+208
+00:08:45,279 --> 00:08:49,360
+taking control.
+
+209
+00:08:47,279 --> 00:08:51,360
+Now let's briefly discuss how you can
+
+210
+00:08:49,360 --> 00:08:53,839
+incorporate these patterns into your
+
+211
+00:08:51,360 --> 00:08:56,880
+trading strategy. There are four main
+
+212
+00:08:53,839 --> 00:08:59,519
+variations to consider. First is the
+
+213
+00:08:56,880 --> 00:09:02,240
+neckline breakout entry in a double top
+
+214
+00:08:59,519 --> 00:09:05,760
+pattern. Once the price breaks below the
+
+215
+00:09:02,240 --> 00:09:08,160
+neckline and makes a new lower low, it
+
+216
+00:09:05,760 --> 00:09:10,720
+confirms a reversal and a change in
+
+217
+00:09:08,160 --> 00:09:13,040
+trend direction in a double bottom
+
+218
+00:09:10,720 --> 00:09:16,160
+pattern. Once the price breaks above the
+
+219
+00:09:13,040 --> 00:09:18,320
+neckline and makes a higher high, it
+
+220
+00:09:16,160 --> 00:09:20,880
+confirms the reversal and the possible
+
+221
+00:09:18,320 --> 00:09:23,360
+change in trend direction. The second
+
+222
+00:09:20,880 --> 00:09:26,160
+aspect is the pattern formation at the
+
+223
+00:09:23,360 --> 00:09:29,120
+key level. Identifying a key level of
+
+224
+00:09:26,160 --> 00:09:32,160
+supply or demand is crucial. If a double
+
+225
+00:09:29,120 --> 00:09:34,480
+bottom pattern forms at the demand area
+
+226
+00:09:32,160 --> 00:09:37,279
+or a double top pattern forms at the
+
+227
+00:09:34,480 --> 00:09:38,800
+supply area, it strengthens the pattern
+
+228
+00:09:37,279 --> 00:09:41,680
+significance.
+
+229
+00:09:38,800 --> 00:09:44,560
+My favorite entry is the pullback into a
+
+230
+00:09:41,680 --> 00:09:46,959
+recent supply or demand area. Instead of
+
+231
+00:09:44,560 --> 00:09:49,279
+entering a trade immediately after a
+
+232
+00:09:46,959 --> 00:09:51,839
+breakout, you may prefer to wait for a
+
+233
+00:09:49,279 --> 00:09:54,080
+pullback to a lower time frame supply or
+
+234
+00:09:51,839 --> 00:09:56,399
+demand area. This provides an
+
+235
+00:09:54,080 --> 00:09:59,120
+opportunity to enter the trade at a
+
+236
+00:09:56,399 --> 00:10:00,880
+better price and you don't blindly chase
+
+237
+00:09:59,120 --> 00:10:03,200
+the breakout.
+
+238
+00:10:00,880 --> 00:10:05,440
+Consider candlestick patterns at these
+
+239
+00:10:03,200 --> 00:10:07,519
+key levels. Combining candlestick
+
+240
+00:10:05,440 --> 00:10:09,760
+patterns with double top or double
+
+241
+00:10:07,519 --> 00:10:12,080
+bottom patterns can provide additional
+
+242
+00:10:09,760 --> 00:10:14,320
+confirmation. Look for candlestick
+
+243
+00:10:12,080 --> 00:10:17,440
+reactions at the moment of the neckline
+
+244
+00:10:14,320 --> 00:10:20,160
+breakout or at the pullback to a supply
+
+245
+00:10:17,440 --> 00:10:23,200
+or demand zone. pin bars and engulfing
+
+246
+00:10:20,160 --> 00:10:25,839
+bars in particular. For example, a
+
+247
+00:10:23,200 --> 00:10:29,040
+double top pattern forming with a long
+
+248
+00:10:25,839 --> 00:10:31,519
+weak candle at a resistance level can
+
+249
+00:10:29,040 --> 00:10:34,959
+confirm a trend change from an uptrend
+
+250
+00:10:31,519 --> 00:10:37,519
+to a downtrend. Or an engulfing candle
+
+251
+00:10:34,959 --> 00:10:40,880
+after the price tests the neckline after
+
+252
+00:10:37,519 --> 00:10:43,600
+the breakout is another good sign.
+
+253
+00:10:40,880 --> 00:10:45,760
+A trend change pattern, also known as a
+
+254
+00:10:43,600 --> 00:10:48,560
+change of character, occurs when the
+
+255
+00:10:45,760 --> 00:10:51,440
+price breaks a significant swing high or
+
+256
+00:10:48,560 --> 00:10:53,600
+low for the first time. This signals a
+
+257
+00:10:51,440 --> 00:10:56,560
+potential shift in the market's order
+
+258
+00:10:53,600 --> 00:10:59,600
+flow. For instance, if the market has
+
+259
+00:10:56,560 --> 00:11:02,160
+been in a downtrend with lower lows and
+
+260
+00:10:59,600 --> 00:11:04,959
+lower highs and the price breaks above a
+
+261
+00:11:02,160 --> 00:11:07,120
+previous major swing high, it indicates
+
+262
+00:11:04,959 --> 00:11:09,680
+a change of character. From a price
+
+263
+00:11:07,120 --> 00:11:12,640
+action standpoint, these patterns show a
+
+264
+00:11:09,680 --> 00:11:15,680
+loss of momentum from sellers. Instead
+
+265
+00:11:12,640 --> 00:11:18,480
+of continuing to make lower lows, the
+
+266
+00:11:15,680 --> 00:11:21,040
+price creates a reversal pattern. Buyers
+
+267
+00:11:18,480 --> 00:11:24,399
+are gaining control, suggesting a trend
+
+268
+00:11:21,040 --> 00:11:26,880
+change from a downtrend to an uptrend.
+
+269
+00:11:24,399 --> 00:11:29,600
+During the formation of the lowest low,
+
+270
+00:11:26,880 --> 00:11:32,240
+keep an eye on the volume. If the volume
+
+271
+00:11:29,600 --> 00:11:34,560
+is lower compared to the previous swing
+
+272
+00:11:32,240 --> 00:11:36,560
+low, it could suggest diminishing
+
+273
+00:11:34,560 --> 00:11:39,600
+selling interest and potential
+
+274
+00:11:36,560 --> 00:11:42,399
+exhaustion of the downtrend. This volume
+
+275
+00:11:39,600 --> 00:11:44,640
+decline is the first warning sign. The
+
+276
+00:11:42,399 --> 00:11:47,519
+most critical phase is when price breaks
+
+277
+00:11:44,640 --> 00:11:50,320
+above the previous major swing high. If
+
+278
+00:11:47,519 --> 00:11:52,800
+the price rises above this level on
+
+279
+00:11:50,320 --> 00:11:55,360
+higher volume compared to the previous
+
+280
+00:11:52,800 --> 00:11:59,279
+swing low, it confirms the shift in
+
+281
+00:11:55,360 --> 00:12:02,000
+sentiment with buyers taking control.
+
+282
+00:11:59,279 --> 00:12:04,720
+Conversely, in an uptrend with higher
+
+283
+00:12:02,000 --> 00:12:07,519
+highs and higher lows, when a price
+
+284
+00:12:04,720 --> 00:12:10,160
+breaks below a significant level, it
+
+285
+00:12:07,519 --> 00:12:12,880
+forms a new lower low, indicating a
+
+286
+00:12:10,160 --> 00:12:14,800
+potential trend reversal. From a price
+
+287
+00:12:12,880 --> 00:12:17,040
+action perspective, this pattern
+
+288
+00:12:14,800 --> 00:12:20,000
+indicates a loss of momentum from the
+
+289
+00:12:17,040 --> 00:12:22,560
+buyers. Instead of continuing to make
+
+290
+00:12:20,000 --> 00:12:25,279
+new higher highs, the price creates a
+
+291
+00:12:22,560 --> 00:12:28,160
+reversal pattern, suggesting a potential
+
+292
+00:12:25,279 --> 00:12:30,480
+shift in order flow. After a minor
+
+293
+00:12:28,160 --> 00:12:33,600
+pullback, if the price continues to
+
+294
+00:12:30,480 --> 00:12:36,399
+create lower lows and lower highs, it
+
+295
+00:12:33,600 --> 00:12:39,360
+indicates a new bearish trend. If the
+
+296
+00:12:36,399 --> 00:12:41,200
+volume during this high point is lower
+
+297
+00:12:39,360 --> 00:12:44,000
+than the volume during the previous
+
+298
+00:12:41,200 --> 00:12:45,920
+swing high, it indicates a decrease in
+
+299
+00:12:44,000 --> 00:12:48,560
+buying interest and the possible
+
+300
+00:12:45,920 --> 00:12:51,120
+exhaustion of the uptrend. This decline
+
+301
+00:12:48,560 --> 00:12:53,680
+in volume serves as an initial warning
+
+302
+00:12:51,120 --> 00:12:56,320
+sign. You don't know yet if a reversal
+
+303
+00:12:53,680 --> 00:12:58,480
+is on the cards. However, the most
+
+304
+00:12:56,320 --> 00:13:01,839
+crucial phase is when the price breaks
+
+305
+00:12:58,480 --> 00:13:04,399
+below this previous major swing low. If
+
+306
+00:13:01,839 --> 00:13:07,200
+the price breaks this level and does so
+
+307
+00:13:04,399 --> 00:13:09,519
+on higher volume compared to the volume
+
+308
+00:13:07,200 --> 00:13:11,040
+during the previous swing high, it
+
+309
+00:13:09,519 --> 00:13:14,079
+confirms the shift in the market
+
+310
+00:13:11,040 --> 00:13:16,240
+sentiment. Buyers have taken control,
+
+311
+00:13:14,079 --> 00:13:18,240
+further supporting the potential trend
+
+312
+00:13:16,240 --> 00:13:20,399
+reversal.
+
+313
+00:13:18,240 --> 00:13:23,360
+The head and shoulders pattern, although
+
+314
+00:13:20,399 --> 00:13:25,920
+a retail one, is a decent one to monitor
+
+315
+00:13:23,360 --> 00:13:28,959
+as it marks the transition point between
+
+316
+00:13:25,920 --> 00:13:31,519
+an uptrend and a downtrend with the left
+
+317
+00:13:28,959 --> 00:13:33,519
+side representing the end of the uptrend
+
+318
+00:13:31,519 --> 00:13:36,000
+and the right side representing the
+
+319
+00:13:33,519 --> 00:13:38,639
+beginning of the downtrend. The pattern
+
+320
+00:13:36,000 --> 00:13:41,519
+starts as a series of higher highs and
+
+321
+00:13:38,639 --> 00:13:44,320
+higher lows. That sequence is altered
+
+322
+00:13:41,519 --> 00:13:46,800
+when a low point is formed that has the
+
+323
+00:13:44,320 --> 00:13:49,600
+same approximate values as the previous
+
+324
+00:13:46,800 --> 00:13:52,480
+low. If it contains a liquidity run,
+
+325
+00:13:49,600 --> 00:13:54,959
+it's even better. The price rallies from
+
+326
+00:13:52,480 --> 00:13:57,600
+this low point, but instead of resuming
+
+327
+00:13:54,959 --> 00:14:00,720
+the sequence of higher highs, a lower
+
+328
+00:13:57,600 --> 00:14:04,240
+high occurs. Then the price slides back
+
+329
+00:14:00,720 --> 00:14:06,480
+to the previous low for a third time. If
+
+330
+00:14:04,240 --> 00:14:09,279
+a higher high occurs on expanding
+
+331
+00:14:06,480 --> 00:14:12,480
+volume, this is considered healthy and
+
+332
+00:14:09,279 --> 00:14:14,880
+normal in an uptrend. However, in an
+
+333
+00:14:12,480 --> 00:14:17,760
+ideal scenario, the head and shoulders
+
+334
+00:14:14,880 --> 00:14:20,399
+pattern sees volume diminish on each
+
+335
+00:14:17,760 --> 00:14:22,720
+successive high. The higher high that
+
+336
+00:14:20,399 --> 00:14:25,519
+forms the highest point of the head
+
+337
+00:14:22,720 --> 00:14:27,839
+should ideally occur on lower volume
+
+338
+00:14:25,519 --> 00:14:30,560
+than the previous high which formed the
+
+339
+00:14:27,839 --> 00:14:33,120
+left shoulder. Volume should diminish
+
+340
+00:14:30,560 --> 00:14:36,160
+further on the third high as the right
+
+341
+00:14:33,120 --> 00:14:38,800
+shoulder forms. This demonstrates a lack
+
+342
+00:14:36,160 --> 00:14:41,360
+of enthusiasm from the buyers who are
+
+343
+00:14:38,800 --> 00:14:44,560
+losing their will to continue buying at
+
+344
+00:14:41,360 --> 00:14:47,600
+higher prices. If and when the neckline
+
+345
+00:14:44,560 --> 00:14:51,120
+breaks, that break should occur on high
+
+346
+00:14:47,600 --> 00:14:54,000
+volume. Observe how volume decreased as
+
+347
+00:14:51,120 --> 00:14:56,959
+the pattern formed. The volume under the
+
+348
+00:14:54,000 --> 00:15:00,000
+head is low compared to the rally that
+
+349
+00:14:56,959 --> 00:15:02,480
+preceded it. In fact, volume is
+
+350
+00:15:00,000 --> 00:15:05,839
+extremely low on this bounce from the
+
+351
+00:15:02,480 --> 00:15:08,320
+neckline. Once the neckline was broken,
+
+352
+00:15:05,839 --> 00:15:11,279
+volume began to increase as the price
+
+353
+00:15:08,320 --> 00:15:13,519
+moved lower. In fact, it started to
+
+354
+00:15:11,279 --> 00:15:16,639
+increase prior to the breakout, which
+
+355
+00:15:13,519 --> 00:15:18,880
+confirms the selling pressure.
+
+356
+00:15:16,639 --> 00:15:21,519
+This also works if it's not a head and
+
+357
+00:15:18,880 --> 00:15:24,160
+shoulders. Maybe you have a triple top,
+
+358
+00:15:21,519 --> 00:15:26,720
+which includes a liquidity run. The
+
+359
+00:15:24,160 --> 00:15:29,279
+neckline is the focal point if you wish
+
+360
+00:15:26,720 --> 00:15:31,600
+to use this pattern to your advantage.
+
+361
+00:15:29,279 --> 00:15:34,480
+This is the area where many buyers
+
+362
+00:15:31,600 --> 00:15:36,240
+remain trapped with losing positions.
+
+363
+00:15:34,480 --> 00:15:38,959
+Since the price moved up from the
+
+364
+00:15:36,240 --> 00:15:41,600
+neckline on several occasions, we can
+
+365
+00:15:38,959 --> 00:15:44,639
+assume that many traders were buying at
+
+366
+00:15:41,600 --> 00:15:47,279
+that level. We know that those buyers
+
+367
+00:15:44,639 --> 00:15:49,920
+along with any buyers who entered at
+
+368
+00:15:47,279 --> 00:15:52,240
+higher levels and are still in the trade
+
+369
+00:15:49,920 --> 00:15:54,800
+will be holding losing positions if the
+
+370
+00:15:52,240 --> 00:15:57,199
+neckline should break. These losing
+
+371
+00:15:54,800 --> 00:16:00,480
+traders will be forced to sell which
+
+372
+00:15:57,199 --> 00:16:02,480
+should help push the price lower. Also,
+
+373
+00:16:00,480 --> 00:16:05,600
+aggressive traders will close long
+
+374
+00:16:02,480 --> 00:16:08,320
+positions and start to sell as the price
+
+375
+00:16:05,600 --> 00:16:11,279
+breaks through the neckline. This adds
+
+376
+00:16:08,320 --> 00:16:14,560
+momentum. Entering this phase, you must
+
+377
+00:16:11,279 --> 00:16:17,199
+see increasing volume.
+
+378
+00:16:14,560 --> 00:16:19,839
+The double liquidity run pattern, also
+
+379
+00:16:17,199 --> 00:16:22,320
+known as the master pattern, is another
+
+380
+00:16:19,839 --> 00:16:25,759
+common smart money formation. It's a
+
+381
+00:16:22,320 --> 00:16:28,959
+trap to attract both buyers and sellers
+
+382
+00:16:25,759 --> 00:16:31,519
+to take losing positions. First, price
+
+383
+00:16:28,959 --> 00:16:34,480
+breaks a swing high, but then it quickly
+
+384
+00:16:31,519 --> 00:16:37,120
+reverses, deceiving all buyers who took
+
+385
+00:16:34,480 --> 00:16:38,959
+the bait of the breakout. Amateurs will
+
+386
+00:16:37,120 --> 00:16:41,199
+enter what looks like an obvious
+
+387
+00:16:38,959 --> 00:16:44,000
+breakout. Then the professionals will
+
+388
+00:16:41,199 --> 00:16:46,480
+push the market back the other way. This
+
+389
+00:16:44,000 --> 00:16:48,959
+is the first liquidity run. The second
+
+390
+00:16:46,480 --> 00:16:52,079
+part of the pattern consists in another
+
+391
+00:16:48,959 --> 00:16:54,800
+trap. Price will decrease and will break
+
+392
+00:16:52,079 --> 00:16:57,600
+a swing low this time and trapping
+
+393
+00:16:54,800 --> 00:17:00,079
+sellers on the wrong side. This is the
+
+394
+00:16:57,600 --> 00:17:03,120
+second liquidity run designed to trap
+
+395
+00:17:00,079 --> 00:17:05,679
+the weak hands in the market. very hard
+
+396
+00:17:03,120 --> 00:17:08,079
+to make money as a retail trader if you
+
+397
+00:17:05,679 --> 00:17:10,480
+don't know what you're doing. If you
+
+398
+00:17:08,079 --> 00:17:12,720
+analyze this pattern, you'll observe it
+
+399
+00:17:10,480 --> 00:17:16,079
+contains three market phases:
+
+400
+00:17:12,720 --> 00:17:18,720
+contraction, expansion, and trend.
+
+401
+00:17:16,079 --> 00:17:20,959
+Firstly, we have the contraction phase.
+
+402
+00:17:18,720 --> 00:17:23,280
+This is when the market is setting up.
+
+403
+00:17:20,959 --> 00:17:25,919
+The contraction phase occurs on low
+
+404
+00:17:23,280 --> 00:17:28,960
+institutional trading volume resulting
+
+405
+00:17:25,919 --> 00:17:31,440
+in mostly sideways movement. It's not an
+
+406
+00:17:28,960 --> 00:17:33,919
+ideal phase for trading, but a part of
+
+407
+00:17:31,440 --> 00:17:36,720
+retail traders are taking the bait
+
+408
+00:17:33,919 --> 00:17:39,840
+hoping to catch a breakout. You'll often
+
+409
+00:17:36,720 --> 00:17:42,960
+see this phase during the Tokyo session.
+
+410
+00:17:39,840 --> 00:17:44,960
+Secondly, we have the expansion phase.
+
+411
+00:17:42,960 --> 00:17:47,280
+This seems like an exciting phase for
+
+412
+00:17:44,960 --> 00:17:49,360
+retail traders. Expansion is
+
+413
+00:17:47,280 --> 00:17:52,000
+characterized by a minor increase in
+
+414
+00:17:49,360 --> 00:17:54,559
+trading volume. The market becomes more
+
+415
+00:17:52,000 --> 00:17:57,600
+active, breaking previous highs and
+
+416
+00:17:54,559 --> 00:18:00,160
+lows. Smart money takes advantage of
+
+417
+00:17:57,600 --> 00:18:03,200
+this phase to accumulate positions at
+
+418
+00:18:00,160 --> 00:18:06,000
+discounted prices while inexperienced
+
+419
+00:18:03,200 --> 00:18:08,880
+traders often get caught in the whips
+
+420
+00:18:06,000 --> 00:18:11,280
+movements. It can be a challenging phase
+
+421
+00:18:08,880 --> 00:18:14,799
+because market breaks on both sides of
+
+422
+00:18:11,280 --> 00:18:17,360
+the range trapping most retail traders.
+
+423
+00:18:14,799 --> 00:18:19,200
+Finally, we have the trend phase. This
+
+424
+00:18:17,360 --> 00:18:21,679
+is the phase where the market makes a
+
+425
+00:18:19,200 --> 00:18:25,039
+significant and aggressive move in one
+
+426
+00:18:21,679 --> 00:18:27,520
+direction with increasing volume. During
+
+427
+00:18:25,039 --> 00:18:30,080
+this phase, institutional traders use
+
+428
+00:18:27,520 --> 00:18:33,200
+the market's liquidity to exit their
+
+429
+00:18:30,080 --> 00:18:35,919
+previously accumulated positions.
+
+430
+00:18:33,200 --> 00:18:38,880
+These three phases complete one market
+
+431
+00:18:35,919 --> 00:18:40,880
+cycle. Once they've played out, you can
+
+432
+00:18:38,880 --> 00:18:44,320
+expect the market to go through these
+
+433
+00:18:40,880 --> 00:18:46,559
+phases once again. One more example.
+
+434
+00:18:44,320 --> 00:18:49,120
+During the contraction phase, you'll see
+
+435
+00:18:46,559 --> 00:18:52,160
+periods of sideways movements. You'll
+
+436
+00:18:49,120 --> 00:18:54,320
+notice low institutional volume. As a
+
+437
+00:18:52,160 --> 00:18:56,480
+beginner, it's wise to avoid the
+
+438
+00:18:54,320 --> 00:18:58,960
+contraction phase.
+
+439
+00:18:56,480 --> 00:19:01,760
+Then we have the expansion phase, the
+
+440
+00:18:58,960 --> 00:19:05,600
+double manipulation with two liquidity
+
+441
+00:19:01,760 --> 00:19:07,840
+runs. First, a breakout below the range.
+
+442
+00:19:05,600 --> 00:19:11,039
+As soon as they see the market breaking
+
+443
+00:19:07,840 --> 00:19:13,919
+down, retail traders start selling
+
+444
+00:19:11,039 --> 00:19:16,400
+believing it will continue to decline.
+
+445
+00:19:13,919 --> 00:19:19,679
+Then later, when they see the market
+
+446
+00:19:16,400 --> 00:19:21,679
+breaking up, they start buying, assuming
+
+447
+00:19:19,679 --> 00:19:24,000
+it will rise further.
+
+448
+00:19:21,679 --> 00:19:26,799
+However, what they fail to understand is
+
+449
+00:19:24,000 --> 00:19:28,880
+that smart money operates differently.
+
+450
+00:19:26,799 --> 00:19:32,400
+They sell when the price is above
+
+451
+00:19:28,880 --> 00:19:34,799
+average and buy when it's below average.
+
+452
+00:19:32,400 --> 00:19:37,200
+If you look at the volume at the time of
+
+453
+00:19:34,799 --> 00:19:40,480
+the fake breakouts, you'll see that it's
+
+454
+00:19:37,200 --> 00:19:41,919
+low. Lastly, we have the trend phase
+
+455
+00:19:40,480 --> 00:19:44,720
+where we see the price move
+
+456
+00:19:41,919 --> 00:19:47,440
+significantly and you'll notice a volume
+
+457
+00:19:44,720 --> 00:19:50,559
+increase during this phase. You cannot
+
+458
+00:19:47,440 --> 00:19:52,880
+control when or how these phases occur.
+
+459
+00:19:50,559 --> 00:19:55,039
+But if you try to understand them, you
+
+460
+00:19:52,880 --> 00:19:56,799
+can improve your trading approach and
+
+461
+00:19:55,039 --> 00:19:58,880
+have a better grasp of the market
+
+462
+00:19:56,799 --> 00:20:01,039
+dynamics.
+
+463
+00:19:58,880 --> 00:20:03,440
+Now, let's go deeper with some advanced
+
+464
+00:20:01,039 --> 00:20:06,000
+smart money patterns. First is the
+
+465
+00:20:03,440 --> 00:20:08,480
+accumulation one. Accumulation is
+
+466
+00:20:06,000 --> 00:20:10,320
+nothing but a sideways market activity
+
+467
+00:20:08,480 --> 00:20:12,799
+that happens after an extended
+
+468
+00:20:10,320 --> 00:20:15,520
+downtrend. This is the phase where smart
+
+469
+00:20:12,799 --> 00:20:17,360
+money try to acquire positions without
+
+470
+00:20:15,520 --> 00:20:20,240
+moving the prices too much to the
+
+471
+00:20:17,360 --> 00:20:22,799
+upside. So let me explain why events
+
+472
+00:20:20,240 --> 00:20:25,360
+during accumulation. First we have the
+
+473
+00:20:22,799 --> 00:20:28,000
+preliminary support. This is when a lot
+
+474
+00:20:25,360 --> 00:20:30,960
+of buying starts happening after a long
+
+475
+00:20:28,000 --> 00:20:33,760
+period of prices going down. The volume
+
+476
+00:20:30,960 --> 00:20:37,280
+increases and the difference between the
+
+477
+00:20:33,760 --> 00:20:39,840
+highest and the lowest prices widens.
+
+478
+00:20:37,280 --> 00:20:41,679
+Then we have the selling climax. This is
+
+479
+00:20:39,840 --> 00:20:44,159
+the point where the selling pressure
+
+480
+00:20:41,679 --> 00:20:46,320
+reaches its peak and the difference
+
+481
+00:20:44,159 --> 00:20:49,919
+between the highest and the lowest
+
+482
+00:20:46,320 --> 00:20:52,960
+prices widens even more. Riddle traders
+
+483
+00:20:49,919 --> 00:20:57,120
+continue to sell but smart money start
+
+484
+00:20:52,960 --> 00:20:59,600
+buying at or near the bottom. Then we
+
+485
+00:20:57,120 --> 00:21:02,000
+have the automatic rally. After the
+
+486
+00:20:59,600 --> 00:21:04,720
+intense selling pressure decreases,
+
+487
+00:21:02,000 --> 00:21:07,840
+there is a wave of buying that easily
+
+488
+00:21:04,720 --> 00:21:10,080
+pushes the prices up. This rally helps
+
+489
+00:21:07,840 --> 00:21:13,120
+us define the upper boundary of the
+
+490
+00:21:10,080 --> 00:21:15,840
+trading range during the accumulation.
+
+491
+00:21:13,120 --> 00:21:18,400
+Next is the secondary test. The price
+
+492
+00:21:15,840 --> 00:21:20,559
+revisits the level of the selling climax
+
+493
+00:21:18,400 --> 00:21:23,840
+to see if there is a balance between
+
+494
+00:21:20,559 --> 00:21:26,159
+supply and demand at that level. For a
+
+495
+00:21:23,840 --> 00:21:28,720
+bottom to be confirmed, the volume
+
+496
+00:21:26,159 --> 00:21:31,039
+should be significantly lower as the
+
+497
+00:21:28,720 --> 00:21:34,240
+market approaches the support level
+
+498
+00:21:31,039 --> 00:21:36,799
+around the selling climax area. And it's
+
+499
+00:21:34,240 --> 00:21:39,120
+common to have multiple secondary tests
+
+500
+00:21:36,799 --> 00:21:41,200
+after a selling climax.
+
+501
+00:21:39,120 --> 00:21:43,919
+And then we have the sign of strength.
+
+502
+00:21:41,200 --> 00:21:45,840
+This happens when the price goes up with
+
+503
+00:21:43,919 --> 00:21:49,360
+increasing price difference and
+
+504
+00:21:45,840 --> 00:21:52,480
+relatively higher trading volume. A sign
+
+505
+00:21:49,360 --> 00:21:54,960
+of strength often occurs after a spring,
+
+506
+00:21:52,480 --> 00:21:57,760
+which is a fake breakout, a liquidity
+
+507
+00:21:54,960 --> 00:22:00,559
+run trapping retail traders on the short
+
+508
+00:21:57,760 --> 00:22:03,520
+side. A spring is when the price falls
+
+509
+00:22:00,559 --> 00:22:07,120
+below its usual range and then quickly
+
+510
+00:22:03,520 --> 00:22:09,919
+jumps back up into that range. And then
+
+511
+00:22:07,120 --> 00:22:12,480
+we have the last point of support. This
+
+512
+00:22:09,919 --> 00:22:15,679
+is the lowest point during a pullback
+
+513
+00:22:12,480 --> 00:22:18,000
+after a sign of strength. It marks the
+
+514
+00:22:15,679 --> 00:22:20,480
+final push toward the bottom of the
+
+515
+00:22:18,000 --> 00:22:23,520
+accumulation phase before the upward
+
+516
+00:22:20,480 --> 00:22:26,159
+trend begins. The last point of support
+
+517
+00:22:23,520 --> 00:22:29,840
+creates a higher low and then the price
+
+518
+00:22:26,159 --> 00:22:31,840
+starts going up again aggressively.
+
+519
+00:22:29,840 --> 00:22:34,559
+Now let's analyze the different phases
+
+520
+00:22:31,840 --> 00:22:38,080
+of an accumulation taking into account
+
+521
+00:22:34,559 --> 00:22:40,000
+the volume. First is the phase A. This
+
+522
+00:22:38,080 --> 00:22:43,039
+is where the sellers have been dominant
+
+523
+00:22:40,000 --> 00:22:45,280
+until now. We see a decrease in supply
+
+524
+00:22:43,039 --> 00:22:48,080
+during the preliminary support and the
+
+525
+00:22:45,280 --> 00:22:50,799
+selling climax. These events are usually
+
+526
+00:22:48,080 --> 00:22:54,240
+obvious on the charts with wider price
+
+527
+00:22:50,799 --> 00:22:57,360
+differences in high trading volume. In
+
+528
+00:22:54,240 --> 00:23:00,320
+phase B, smart money start buying at
+
+529
+00:22:57,360 --> 00:23:02,960
+relatively low prices in anticipation of
+
+530
+00:23:00,320 --> 00:23:06,640
+the next increase. The price swings are
+
+531
+00:23:02,960 --> 00:23:08,720
+wide with high trading volume. But as
+
+532
+00:23:06,640 --> 00:23:10,960
+smart traders absorb the available
+
+533
+00:23:08,720 --> 00:23:13,679
+supply, the volume during downward
+
+534
+00:23:10,960 --> 00:23:15,280
+swings within the trading range tends to
+
+535
+00:23:13,679 --> 00:23:17,840
+decrease.
+
+536
+00:23:15,280 --> 00:23:20,640
+In phase C, the price goes through a
+
+537
+00:23:17,840 --> 00:23:23,280
+decisive test of the remaining supply to
+
+538
+00:23:20,640 --> 00:23:26,320
+determine if it's ready for an increase.
+
+539
+00:23:23,280 --> 00:23:28,480
+It's like a trap for those who sold. A
+
+540
+00:23:26,320 --> 00:23:30,799
+successful test of supply with the
+
+541
+00:23:28,480 --> 00:23:34,400
+spring provides a good opportunity to
+
+542
+00:23:30,799 --> 00:23:36,640
+initiate a long position. In phase D,
+
+543
+00:23:34,400 --> 00:23:39,280
+demand starts dominating supply
+
+544
+00:23:36,640 --> 00:23:42,720
+consistently. we see a pattern of price
+
+545
+00:23:39,280 --> 00:23:45,200
+advances, signs of strength with wider
+
+546
+00:23:42,720 --> 00:23:48,000
+price differences and increasing trading
+
+547
+00:23:45,200 --> 00:23:50,799
+volume. There is also a last point of
+
+548
+00:23:48,000 --> 00:23:54,240
+support with smaller price differences
+
+549
+00:23:50,799 --> 00:23:56,880
+and lower trading volume. And finally,
+
+550
+00:23:54,240 --> 00:23:59,280
+we have phase E. This is when the price
+
+551
+00:23:56,880 --> 00:24:02,400
+leaves the trading range and demand
+
+552
+00:23:59,280 --> 00:24:05,440
+takes full control leading to an obvious
+
+553
+00:24:02,400 --> 00:24:08,640
+increase. New trading ranges can also
+
+554
+00:24:05,440 --> 00:24:11,440
+occur known as reaccumulation by smart
+
+555
+00:24:08,640 --> 00:24:15,760
+money. These ranges are like stepping
+
+556
+00:24:11,440 --> 00:24:18,240
+stones toward even higher price targets.
+
+557
+00:24:15,760 --> 00:24:19,760
+Let's also talk about woff events during
+
+558
+00:24:18,240 --> 00:24:22,400
+distribution.
+
+559
+00:24:19,760 --> 00:24:25,039
+First is the preliminary supply. This is
+
+560
+00:24:22,400 --> 00:24:27,520
+when smart money starts selling after
+
+561
+00:24:25,039 --> 00:24:29,679
+prices have been going up. the trading
+
+562
+00:24:27,520 --> 00:24:31,600
+volume increases and the difference
+
+563
+00:24:29,679 --> 00:24:34,640
+between the highest and the lowest
+
+564
+00:24:31,600 --> 00:24:37,600
+prices widens. This suggests that the
+
+565
+00:24:34,640 --> 00:24:40,080
+trend might be changing. Next, we have
+
+566
+00:24:37,600 --> 00:24:42,159
+the buying climax. During a buying
+
+567
+00:24:40,080 --> 00:24:45,039
+climax, there is a peak in buying
+
+568
+00:24:42,159 --> 00:24:48,080
+activity with higher price differences.
+
+569
+00:24:45,039 --> 00:24:51,679
+A buying climax often marks a top in the
+
+570
+00:24:48,080 --> 00:24:54,320
+market. Next is the automatic reaction.
+
+571
+00:24:51,679 --> 00:24:56,480
+After the buying climax, the intense
+
+572
+00:24:54,320 --> 00:24:59,200
+buying pressure decreases and the
+
+573
+00:24:56,480 --> 00:25:01,200
+sell-off occurs. This reaction helps
+
+574
+00:24:59,200 --> 00:25:04,080
+define the lower boundary of the
+
+575
+00:25:01,200 --> 00:25:06,720
+distribution trading range. Next is the
+
+576
+00:25:04,080 --> 00:25:09,360
+secondary test. The price revisits the
+
+577
+00:25:06,720 --> 00:25:11,919
+level of the buying climax to test the
+
+578
+00:25:09,360 --> 00:25:14,240
+balance between supply and demand. So,
+
+579
+00:25:11,919 --> 00:25:16,480
+the trading volume and price differences
+
+580
+00:25:14,240 --> 00:25:18,480
+should decrease as the price approaches
+
+581
+00:25:16,480 --> 00:25:22,159
+the resistance level of the buying
+
+582
+00:25:18,480 --> 00:25:24,880
+climax. Sometimes a secondary test takes
+
+583
+00:25:22,159 --> 00:25:27,520
+the form of an up thrust, a liquidity
+
+584
+00:25:24,880 --> 00:25:29,840
+run, where the price briefly moves above
+
+585
+00:25:27,520 --> 00:25:32,799
+the resistance level before quickly
+
+586
+00:25:29,840 --> 00:25:35,520
+reversing back below it. Next is the
+
+587
+00:25:32,799 --> 00:25:38,720
+sign of weakness. This is observed as a
+
+588
+00:25:35,520 --> 00:25:41,520
+downward move to or slightly below the
+
+589
+00:25:38,720 --> 00:25:43,679
+lower boundary of the trading range. It
+
+590
+00:25:41,520 --> 00:25:46,720
+usually happens with increased price
+
+591
+00:25:43,679 --> 00:25:48,799
+differences and increased volume. The
+
+592
+00:25:46,720 --> 00:25:51,200
+automatic reaction and the sign of
+
+593
+00:25:48,799 --> 00:25:54,400
+weakness indicate that supply is now
+
+594
+00:25:51,200 --> 00:25:56,960
+dominant in the market. And finally, we
+
+595
+00:25:54,400 --> 00:25:59,440
+have the last point of supply. After
+
+596
+00:25:56,960 --> 00:26:01,840
+testing support on a sign of weakness,
+
+597
+00:25:59,440 --> 00:26:04,320
+there may be a rally with narrow price
+
+598
+00:26:01,840 --> 00:26:07,120
+differences. The market struggles to
+
+599
+00:26:04,320 --> 00:26:09,600
+advance during this rally, indicating a
+
+600
+00:26:07,120 --> 00:26:11,279
+weak demand.
+
+601
+00:26:09,600 --> 00:26:14,400
+Now, let's look at the phases of
+
+602
+00:26:11,279 --> 00:26:16,960
+distribution. In phase A, the prior
+
+603
+00:26:14,400 --> 00:26:19,760
+uptrend stops and the supply starts
+
+604
+00:26:16,960 --> 00:26:23,200
+entering the market. We see preliminary
+
+605
+00:26:19,760 --> 00:26:25,679
+supply and the buying climax followed by
+
+606
+00:26:23,200 --> 00:26:29,440
+an automatic reaction and a secondary
+
+607
+00:26:25,679 --> 00:26:32,159
+test of the buying climax. In phase B,
+
+608
+00:26:29,440 --> 00:26:35,200
+smart money initiate short positions in
+
+609
+00:26:32,159 --> 00:26:37,279
+anticipation of the next decline. Signs
+
+610
+00:26:35,200 --> 00:26:40,080
+of weakness are often followed by
+
+611
+00:26:37,279 --> 00:26:42,480
+significant downward price movements and
+
+612
+00:26:40,080 --> 00:26:45,200
+increased trading volume.
+
+613
+00:26:42,480 --> 00:26:48,240
+Phase C is an interesting phase. This is
+
+614
+00:26:45,200 --> 00:26:50,880
+where up thrusts may occur. Price moves
+
+615
+00:26:48,240 --> 00:26:53,840
+above the trading range and then sharply
+
+616
+00:26:50,880 --> 00:26:56,640
+reverses back down. Many retail traders
+
+617
+00:26:53,840 --> 00:27:00,559
+fall into the trap of going long during
+
+618
+00:26:56,640 --> 00:27:02,880
+this phase. In phase D, signs of demand
+
+619
+00:27:00,559 --> 00:27:05,840
+decrease and the price may break the
+
+620
+00:27:02,880 --> 00:27:08,559
+trading range support or decline below
+
+621
+00:27:05,840 --> 00:27:11,039
+the midpoint of the range. It's a good
+
+622
+00:27:08,559 --> 00:27:13,679
+time to go short at the last point of
+
+623
+00:27:11,039 --> 00:27:16,480
+supply. It's also the last opportunity
+
+624
+00:27:13,679 --> 00:27:20,080
+for long position holders to close their
+
+625
+00:27:16,480 --> 00:27:21,520
+positions and go short. In phase E,
+
+626
+00:27:20,080 --> 00:27:24,400
+which is the final phase of
+
+627
+00:27:21,520 --> 00:27:26,559
+distribution, supply is in control and
+
+628
+00:27:24,400 --> 00:27:28,880
+price breaks below the trading range
+
+629
+00:27:26,559 --> 00:27:31,440
+support.
+
+630
+00:27:28,880 --> 00:27:34,799
+The high volume supply breakout pattern
+
+631
+00:27:31,440 --> 00:27:37,279
+is one of my personal edges. When smart
+
+632
+00:27:34,799 --> 00:27:40,080
+money push up through a potential area
+
+633
+00:27:37,279 --> 00:27:42,640
+of supply which is known as a resistance
+
+634
+00:27:40,080 --> 00:27:45,440
+level, they face a challenge. Many
+
+635
+00:27:42,640 --> 00:27:47,760
+traders who bought within that area are
+
+636
+00:27:45,440 --> 00:27:50,640
+still holding their positions and want
+
+637
+00:27:47,760 --> 00:27:52,640
+to sell to recover their investments.
+
+638
+00:27:50,640 --> 00:27:55,279
+These traders represent potential
+
+639
+00:27:52,640 --> 00:27:57,360
+supply, meaning they can act as a
+
+640
+00:27:55,279 --> 00:28:00,559
+resistance to the market's upward
+
+641
+00:27:57,360 --> 00:28:03,679
+movement. If market makers are expecting
+
+642
+00:28:00,559 --> 00:28:06,240
+higher prices and want a rally, they
+
+643
+00:28:03,679 --> 00:28:09,200
+need to avoid being forced to buy from
+
+644
+00:28:06,240 --> 00:28:12,480
+these traders at what may seem like high
+
+645
+00:28:09,200 --> 00:28:15,120
+prices. So, they use a strategy called
+
+646
+00:28:12,480 --> 00:28:17,520
+gapping, which means quickly and
+
+647
+00:28:15,120 --> 00:28:20,559
+significantly pushing the price up
+
+648
+00:28:17,520 --> 00:28:22,799
+through the supply zone. By the way, I
+
+649
+00:28:20,559 --> 00:28:25,520
+learned this from Tom Williams book,
+
+650
+00:28:22,799 --> 00:28:28,320
+Master the Markets, a must readad if you
+
+651
+00:28:25,520 --> 00:28:31,200
+want to learn more about this. This
+
+652
+00:28:28,320 --> 00:28:33,600
+momentum candle on high volume
+
+653
+00:28:31,200 --> 00:28:36,240
+discourages the trap traders from
+
+654
+00:28:33,600 --> 00:28:38,559
+selling. As the market approaches the
+
+655
+00:28:36,240 --> 00:28:40,960
+point where these sellers can sell
+
+656
+00:28:38,559 --> 00:28:44,000
+without a loss, the price suddenly
+
+657
+00:28:40,960 --> 00:28:47,120
+shoots up, often creating a gap on the
+
+658
+00:28:44,000 --> 00:28:50,480
+chart. This gives these traders a profit
+
+659
+00:28:47,120 --> 00:28:53,679
+and reduces their inclination to sell.
+
+660
+00:28:50,480 --> 00:28:56,799
+Gapping up through supply on high volume
+
+661
+00:28:53,679 --> 00:28:59,600
+is a tactic used by smart money to limit
+
+662
+00:28:56,799 --> 00:29:02,880
+the amount they need to buy to sustain
+
+663
+00:28:59,600 --> 00:29:06,320
+the rally. It helps them avoid buying at
+
+664
+00:29:02,880 --> 00:29:09,039
+high prices. When high volume follows
+
+665
+00:29:06,320 --> 00:29:11,120
+this wide spreads, it indicates that
+
+666
+00:29:09,039 --> 00:29:14,000
+professional traders were willing to
+
+667
+00:29:11,120 --> 00:29:17,039
+absorb the selling from the trap traders
+
+668
+00:29:14,000 --> 00:29:19,600
+who did decide to sell and this is known
+
+669
+00:29:17,039 --> 00:29:22,080
+as absorption volume.
+
+670
+00:29:19,600 --> 00:29:25,200
+This breakout triggers a new wave of
+
+671
+00:29:22,080 --> 00:29:28,240
+buying as traders who shorted the market
+
+672
+00:29:25,200 --> 00:29:30,559
+need to cover their positions and others
+
+673
+00:29:28,240 --> 00:29:33,279
+looking for breakouts also enter the
+
+674
+00:29:30,559 --> 00:29:35,919
+market. Traders who were not previously
+
+675
+00:29:33,279 --> 00:29:39,279
+participating may feel they are missing
+
+676
+00:29:35,919 --> 00:29:41,520
+out and start buying as well. All these
+
+677
+00:29:39,279 --> 00:29:44,640
+factors contribute to the professional
+
+678
+00:29:41,520 --> 00:29:48,960
+traders bullish positions. If you see
+
+679
+00:29:44,640 --> 00:29:51,440
+any testing or down bars on low volume
+
+680
+00:29:48,960 --> 00:29:54,480
+after the gapping event, it is
+
+681
+00:29:51,440 --> 00:29:56,480
+considered a strong buy signal. This
+
+682
+00:29:54,480 --> 00:29:59,039
+suggests that the market is likely to
+
+683
+00:29:56,480 --> 00:30:02,360
+continue its upward trend after the
+
+684
+00:29:59,039 --> 00:30:02,360
+initial breakout.
+
+685
+00:30:05,000 --> 00:30:09,509
+[Music]
+

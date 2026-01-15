@@ -1,0 +1,748 @@
+1
+00:00:00,140 --> 00:00:06,000
+if you're a trend trader and prefer the
+
+2
+00:00:03,179 --> 00:00:07,950
+swing trading I'm sure that you face the
+
+3
+00:00:06,000 --> 00:00:10,469
+same problems I was facing when I
+
+4
+00:00:07,950 --> 00:00:12,870
+started trading the main struggle as
+
+5
+00:00:10,469 --> 00:00:15,839
+traders is to exactly pinpoint the
+
+6
+00:00:12,870 --> 00:00:18,840
+market entry in order to catch the next
+
+7
+00:00:15,839 --> 00:00:21,180
+big move but what if you developed a
+
+8
+00:00:18,840 --> 00:00:23,689
+simple swing trading setup that would
+
+9
+00:00:21,180 --> 00:00:26,820
+generate high probability entry signals
+
+10
+00:00:23,689 --> 00:00:29,099
+hey traders this is marios and if you
+
+11
+00:00:26,820 --> 00:00:31,260
+stick with me for a few minutes I will
+
+12
+00:00:29,099 --> 00:00:34,230
+share with you a simple and an easy
+
+13
+00:00:31,260 --> 00:00:36,840
+swing trading strategy that will improve
+
+14
+00:00:34,230 --> 00:00:39,899
+your trading results the core of this
+
+15
+00:00:36,840 --> 00:00:42,390
+system relies on divergences between the
+
+16
+00:00:39,899 --> 00:00:44,370
+price and the stochastic indicator in
+
+17
+00:00:42,390 --> 00:00:47,570
+the direction of the prevailing trend on
+
+18
+00:00:44,370 --> 00:00:50,850
+the market indicated by the 200 EMA
+
+19
+00:00:47,570 --> 00:00:53,520
+let's dive right into a dis strategy and
+
+20
+00:00:50,850 --> 00:00:55,770
+see how it works here's the first rule
+
+21
+00:00:53,520 --> 00:00:58,350
+of the strategy we need to spot
+
+22
+00:00:55,770 --> 00:01:01,920
+divergences between the price action and
+
+23
+00:00:58,350 --> 00:01:05,040
+the stochastic indicator if you are a
+
+24
+00:01:01,920 --> 00:01:07,740
+trend trader divergences should be one
+
+25
+00:01:05,040 --> 00:01:10,799
+of your most important tools because the
+
+26
+00:01:07,740 --> 00:01:13,490
+divergence signals momentum coming into
+
+27
+00:01:10,799 --> 00:01:16,020
+the main trend suggesting a possible
+
+28
+00:01:13,490 --> 00:01:19,110
+continuation in the prevailing direction
+
+29
+00:01:16,020 --> 00:01:21,570
+of the market as you probably know there
+
+30
+00:01:19,110 --> 00:01:25,470
+are two types of divergences a regular
+
+31
+00:01:21,570 --> 00:01:28,740
+and hidden a regular divergence involves
+
+32
+00:01:25,470 --> 00:01:32,070
+higher high prices and lower indicator
+
+33
+00:01:28,740 --> 00:01:34,860
+values during an uptrend and lower low
+
+34
+00:01:32,070 --> 00:01:38,130
+prices and higher indicator values
+
+35
+00:01:34,860 --> 00:01:40,439
+during a downtrend when this happens
+
+36
+00:01:38,130 --> 00:01:43,049
+that's an indication of market
+
+37
+00:01:40,439 --> 00:01:45,479
+exhaustion a possible sign of market
+
+38
+00:01:43,049 --> 00:01:48,689
+reversal or at least a short-term
+
+39
+00:01:45,479 --> 00:01:51,299
+correction a hidden divergence is a
+
+40
+00:01:48,689 --> 00:01:54,180
+visual non confirmation which involves
+
+41
+00:01:51,299 --> 00:01:56,930
+higher lows of the price but lower
+
+42
+00:01:54,180 --> 00:01:59,670
+indicator values during an uptrend and
+
+43
+00:01:56,930 --> 00:02:02,159
+lower highs of the price but higher
+
+44
+00:01:59,670 --> 00:02:05,130
+indicator values during a downtrend a
+
+45
+00:02:02,159 --> 00:02:07,740
+hidden divergence signals a continuation
+
+46
+00:02:05,130 --> 00:02:10,979
+move in the direction of the prevailing
+
+47
+00:02:07,740 --> 00:02:13,110
+trend that's why if you prefer to take
+
+48
+00:02:10,979 --> 00:02:15,690
+positions in the direction of the
+
+49
+00:02:13,110 --> 00:02:18,500
+main trend the hidden divergence can
+
+50
+00:02:15,690 --> 00:02:21,630
+generate some pretty accurate signals
+
+51
+00:02:18,500 --> 00:02:24,300
+for spotting divergences you can use
+
+52
+00:02:21,630 --> 00:02:27,570
+many tools but I prefer to use the
+
+53
+00:02:24,300 --> 00:02:30,240
+stochastic indicator now here's the key
+
+54
+00:02:27,570 --> 00:02:34,020
+to our system we don't trade all the
+
+55
+00:02:30,240 --> 00:02:36,180
+divergences during strong trends the
+
+56
+00:02:34,020 --> 00:02:39,330
+stochastic will generate divergence
+
+57
+00:02:36,180 --> 00:02:42,240
+after divergence and most of the signals
+
+58
+00:02:39,330 --> 00:02:45,540
+will probably fail you look at this
+
+59
+00:02:42,240 --> 00:02:48,150
+Bitcoin chart and as you can see the
+
+60
+00:02:45,540 --> 00:02:51,630
+price was in a strong upward trend and
+
+61
+00:02:48,150 --> 00:02:55,170
+the stochastic indicator generated
+
+62
+00:02:51,630 --> 00:02:58,020
+several divergences but most of these
+
+63
+00:02:55,170 --> 00:03:00,600
+signals were false that's a wrong
+
+64
+00:02:58,020 --> 00:03:03,270
+approach in what concerns trading the
+
+65
+00:03:00,600 --> 00:03:05,489
+divergences we have to be smart and
+
+66
+00:03:03,270 --> 00:03:08,970
+filter this technique in order to
+
+67
+00:03:05,489 --> 00:03:11,310
+eliminate false signals now here's the
+
+68
+00:03:08,970 --> 00:03:14,220
+second rule of this strategy will
+
+69
+00:03:11,310 --> 00:03:17,100
+establish the main trend with a 200
+
+70
+00:03:14,220 --> 00:03:19,769
+period exponential moving average and we
+
+71
+00:03:17,100 --> 00:03:23,910
+only trade divergences in the direction
+
+72
+00:03:19,769 --> 00:03:26,790
+of the main trend also I only trade on
+
+73
+00:03:23,910 --> 00:03:29,580
+the hourly on the 4 hours and on a daily
+
+74
+00:03:26,790 --> 00:03:32,610
+timeframes in order to reduce the market
+
+75
+00:03:29,580 --> 00:03:37,170
+noise and filter the bad signals
+
+76
+00:03:32,610 --> 00:03:39,540
+generated on shorter timeframes here's
+
+77
+00:03:37,170 --> 00:03:42,209
+how it takes signals with this swing
+
+78
+00:03:39,540 --> 00:03:45,000
+trading setup when the price trades
+
+79
+00:03:42,209 --> 00:03:48,000
+above the 200 EMA we consider taking
+
+80
+00:03:45,000 --> 00:03:51,150
+only long entries when the price trades
+
+81
+00:03:48,000 --> 00:03:53,840
+below the 200 EMA we consider taking
+
+82
+00:03:51,150 --> 00:03:55,830
+only short entries we search for
+
+83
+00:03:53,840 --> 00:03:58,709
+divergences between the stochastic
+
+84
+00:03:55,830 --> 00:04:00,989
+indicator and the price only in the
+
+85
+00:03:58,709 --> 00:04:04,110
+direction of the main trend indicated by
+
+86
+00:04:00,989 --> 00:04:07,799
+the 200 EMA if the price trades above
+
+87
+00:04:04,110 --> 00:04:10,380
+the 200 EMA we search for divergences on
+
+88
+00:04:07,799 --> 00:04:13,739
+the lower side of the stochastic and if
+
+89
+00:04:10,380 --> 00:04:16,260
+the price trades below the 200 EMA we
+
+90
+00:04:13,739 --> 00:04:19,169
+search for divergences on the upper side
+
+91
+00:04:16,260 --> 00:04:21,209
+of the stochastic a very important we
+
+92
+00:04:19,169 --> 00:04:23,539
+are not interested in trading
+
+93
+00:04:21,209 --> 00:04:26,190
+divergences that signal reversals
+
+94
+00:04:23,539 --> 00:04:28,090
+possible pull backs or counter trend
+
+95
+00:04:26,190 --> 00:04:30,889
+positions
+
+96
+00:04:28,090 --> 00:04:33,800
+here's the pound dollar on the four
+
+97
+00:04:30,889 --> 00:04:36,919
+hours time frame we determine the upward
+
+98
+00:04:33,800 --> 00:04:39,469
+trend with the 200 EMA and we start
+
+99
+00:04:36,919 --> 00:04:42,050
+searching for divergences on the lower
+
+100
+00:04:39,469 --> 00:04:45,979
+side of the indicator and we only
+
+101
+00:04:42,050 --> 00:04:48,710
+consider to go along on the market the
+
+102
+00:04:45,979 --> 00:04:53,180
+first signal was the buy entry after a
+
+103
+00:04:48,710 --> 00:04:56,389
+hidden divergence around 200 EMA observe
+
+104
+00:04:53,180 --> 00:05:00,800
+how the price was making higher lows but
+
+105
+00:04:56,389 --> 00:05:03,830
+the indicator was making lower lows the
+
+106
+00:05:00,800 --> 00:05:07,039
+second signal was the buy entry after a
+
+107
+00:05:03,830 --> 00:05:10,279
+classic divergence also around the 200
+
+108
+00:05:07,039 --> 00:05:16,759
+EMA see how the price is making lower
+
+109
+00:05:10,279 --> 00:05:19,580
+lows but indicator makes higher lows the
+
+110
+00:05:16,759 --> 00:05:22,779
+third opportunity was generated after a
+
+111
+00:05:19,580 --> 00:05:28,310
+classic divergence also around the same
+
+112
+00:05:22,779 --> 00:05:31,279
+200 EMA the fourth signal was also
+
+113
+00:05:28,310 --> 00:05:34,599
+classic divergence if we look at the
+
+114
+00:05:31,279 --> 00:05:38,650
+chart we see the price making lower lows
+
+115
+00:05:34,599 --> 00:05:42,789
+but the stochastic making higher lows
+
+116
+00:05:38,650 --> 00:05:45,740
+the fifth signal was a hidden divergence
+
+117
+00:05:42,789 --> 00:05:49,669
+observe how the price was making higher
+
+118
+00:05:45,740 --> 00:05:54,050
+lows but the indicator was making lower
+
+119
+00:05:49,669 --> 00:05:57,279
+lows the sixth signal was also hidden
+
+120
+00:05:54,050 --> 00:06:01,939
+divergence with the same setup as before
+
+121
+00:05:57,279 --> 00:06:05,979
+the market price making higher loss but
+
+122
+00:06:01,939 --> 00:06:09,500
+the stochastic generated lower loss as
+
+123
+00:06:05,979 --> 00:06:12,949
+you can see we ignored all the signals
+
+124
+00:06:09,500 --> 00:06:15,949
+offered by the divergences on the upper
+
+125
+00:06:12,949 --> 00:06:19,939
+side of the stochastic as we are in a
+
+126
+00:06:15,949 --> 00:06:22,279
+strong upward trend let's look at this
+
+127
+00:06:19,939 --> 00:06:25,099
+goal chart also on the four hours
+
+128
+00:06:22,279 --> 00:06:28,219
+timeframe we establish the downward
+
+129
+00:06:25,099 --> 00:06:30,379
+trend with a 200 EMA and we start
+
+130
+00:06:28,219 --> 00:06:33,229
+searching for divergences on the upper
+
+131
+00:06:30,379 --> 00:06:35,270
+side of the indicator this time the
+
+132
+00:06:33,229 --> 00:06:38,779
+first signal was a short entry after
+
+133
+00:06:35,270 --> 00:06:40,460
+hidden divergence observe how the price
+
+134
+00:06:38,779 --> 00:06:44,210
+was making
+
+135
+00:06:40,460 --> 00:06:47,900
+highs but stochastic was making higher
+
+136
+00:06:44,210 --> 00:06:51,050
+highs the second entry was a short
+
+137
+00:06:47,900 --> 00:06:54,259
+signal after a classic divergence see
+
+138
+00:06:51,050 --> 00:06:58,250
+how the price is making higher highs but
+
+139
+00:06:54,259 --> 00:07:00,500
+the indicator is making lower highs the
+
+140
+00:06:58,250 --> 00:07:05,419
+third opportunity was a classic
+
+141
+00:07:00,500 --> 00:07:09,319
+divergence around the 200 EMA the fourth
+
+142
+00:07:05,419 --> 00:07:11,210
+signal was also classic divergence if we
+
+143
+00:07:09,319 --> 00:07:14,570
+look at the chart we can see the price
+
+144
+00:07:11,210 --> 00:07:19,039
+making higher highs but the indicator
+
+145
+00:07:14,570 --> 00:07:21,530
+making lower highs the fifth signal was
+
+146
+00:07:19,039 --> 00:07:24,889
+a hidden divergence observe how the
+
+147
+00:07:21,530 --> 00:07:28,669
+price was making lower highs but the
+
+148
+00:07:24,889 --> 00:07:31,250
+indicator was making higher highs the
+
+149
+00:07:28,669 --> 00:07:34,970
+sixth signal was a classic divergence
+
+150
+00:07:31,250 --> 00:07:38,080
+the price was making higher highs but
+
+151
+00:07:34,970 --> 00:07:41,330
+the stochastic was making lower highs as
+
+152
+00:07:38,080 --> 00:07:43,669
+you can see we ignored all the signals
+
+153
+00:07:41,330 --> 00:07:46,280
+offered by the divergences on the lower
+
+154
+00:07:43,669 --> 00:07:50,090
+side of the stochastic as we're in a
+
+155
+00:07:46,280 --> 00:07:52,789
+strong downward trend the trick of the
+
+156
+00:07:50,090 --> 00:07:56,030
+strategy is to determine the main trend
+
+157
+00:07:52,789 --> 00:07:59,240
+with the 200 EMA and only take positions
+
+158
+00:07:56,030 --> 00:08:01,430
+in the direction of the trend so we
+
+159
+00:07:59,240 --> 00:08:03,919
+don't chase all the divergences that
+
+160
+00:08:01,430 --> 00:08:06,500
+occur on the chart we only trade the
+
+161
+00:08:03,919 --> 00:08:08,750
+ones with a higher probability meaning
+
+162
+00:08:06,500 --> 00:08:11,000
+the ones in the direction of the main
+
+163
+00:08:08,750 --> 00:08:13,969
+trend if you are a trend-following
+
+164
+00:08:11,000 --> 00:08:16,669
+trader you should train your eyes to
+
+165
+00:08:13,969 --> 00:08:19,909
+spot the divergences on different charts
+
+166
+00:08:16,669 --> 00:08:22,039
+please keep in mind that this system is
+
+167
+00:08:19,909 --> 00:08:25,849
+more reliable when you are using higher
+
+168
+00:08:22,039 --> 00:08:28,849
+timeframes a signal that is produced on
+
+169
+00:08:25,849 --> 00:08:31,159
+the 4-hour or on the daily chart is more
+
+170
+00:08:28,849 --> 00:08:34,370
+reliable than a signal produced on the
+
+171
+00:08:31,159 --> 00:08:37,430
+15-minute chart but divergence is more
+
+172
+00:08:34,370 --> 00:08:40,010
+reliable on higher time frames because
+
+173
+00:08:37,430 --> 00:08:42,919
+the market does not move as fast and is
+
+174
+00:08:40,010 --> 00:08:45,110
+easier to define trends by using higher
+
+175
+00:08:42,919 --> 00:08:47,240
+time frames you will see the patterns
+
+176
+00:08:45,110 --> 00:08:50,300
+developing and you'll have time to make
+
+177
+00:08:47,240 --> 00:08:52,220
+the correct decisions testy strategy on
+
+178
+00:08:50,300 --> 00:08:53,740
+your charts and I look forward to
+
+179
+00:08:52,220 --> 00:08:56,649
+hearing from you in the comment
+
+180
+00:08:53,740 --> 00:08:59,410
+section about your results if you got
+
+181
+00:08:56,649 --> 00:09:01,450
+any value from this video please
+
+182
+00:08:59,410 --> 00:09:04,060
+consider subscribing to this channel and
+
+183
+00:09:01,450 --> 00:09:06,610
+give us a like as it would help us to
+
+184
+00:09:04,060 --> 00:09:07,950
+grow our channel in the future until
+
+185
+00:09:06,610 --> 00:09:11,789
+next time
+
+186
+00:09:07,950 --> 00:09:11,789
+[Music]
+
+187
+00:09:14,530 --> 00:09:17,610
+[Music]
+

@@ -1,0 +1,6828 @@
+1
+00:00:00,299 --> 00:00:04,200
+in this course I'm going to teach you
+
+2
+00:00:02,760 --> 00:00:06,839
+everything you need to know about
+
+3
+00:00:04,200 --> 00:00:09,000
+getting started with day trading we'll
+
+4
+00:00:06,839 --> 00:00:10,740
+break down day trading into easy to
+
+5
+00:00:09,000 --> 00:00:13,019
+understand Concepts from Market
+
+6
+00:00:10,740 --> 00:00:16,080
+structure and price action to volume
+
+7
+00:00:13,019 --> 00:00:18,779
+spread analysis trading indicators and
+
+8
+00:00:16,080 --> 00:00:23,100
+strategies we'll cover it all in a clear
+
+9
+00:00:18,779 --> 00:00:26,000
+and concise manner so like subscribe and
+
+10
+00:00:23,100 --> 00:00:26,000
+let's get started
+
+11
+00:00:29,880 --> 00:00:34,739
+the price chart of any Market may appear
+
+12
+00:00:32,460 --> 00:00:37,440
+like a random distribution but this is
+
+13
+00:00:34,739 --> 00:00:40,200
+not so recent studies show that around
+
+14
+00:00:37,440 --> 00:00:42,719
+30 percent of the time a market will be
+
+15
+00:00:40,200 --> 00:00:45,540
+in a definite Trend the rest of the time
+
+16
+00:00:42,719 --> 00:00:48,600
+price will trade more or less in a
+
+17
+00:00:45,540 --> 00:00:51,360
+sideways range your job is to recognize
+
+18
+00:00:48,600 --> 00:00:54,300
+Trends early as they emerge from
+
+19
+00:00:51,360 --> 00:00:55,440
+non-trends or as reversals of Prior
+
+20
+00:00:54,300 --> 00:00:58,020
+trends
+
+21
+00:00:55,440 --> 00:01:00,420
+so first you must know the basics of
+
+22
+00:00:58,020 --> 00:01:03,780
+Market structure and how to find Trends
+
+23
+00:01:00,420 --> 00:01:06,060
+on any Market Market structure refers to
+
+24
+00:01:03,780 --> 00:01:08,159
+the overall state of the market which
+
+25
+00:01:06,060 --> 00:01:11,960
+can be labeled as either an uptrend
+
+26
+00:01:08,159 --> 00:01:14,220
+downtrend or consolidation
+
+27
+00:01:11,960 --> 00:01:16,500
+identifying the current state of the
+
+28
+00:01:14,220 --> 00:01:19,560
+market is the first step when you want
+
+29
+00:01:16,500 --> 00:01:22,439
+to day trade an uptrend is characterized
+
+30
+00:01:19,560 --> 00:01:23,340
+by a series of higher highs and higher
+
+31
+00:01:22,439 --> 00:01:26,400
+lows
+
+32
+00:01:23,340 --> 00:01:28,979
+this means that each Peak and Valley on
+
+33
+00:01:26,400 --> 00:01:31,860
+a chart is higher than the previous one
+
+34
+00:01:28,979 --> 00:01:33,140
+indicating that buyers are in control of
+
+35
+00:01:31,860 --> 00:01:35,579
+the market
+
+36
+00:01:33,140 --> 00:01:39,180
+downtrends can be identified by looking
+
+37
+00:01:35,579 --> 00:01:41,939
+for lower lows and lower highs in a
+
+38
+00:01:39,180 --> 00:01:44,220
+downtrend each subsequent high and low
+
+39
+00:01:41,939 --> 00:01:46,619
+should be lower than the previous one
+
+40
+00:01:44,220 --> 00:01:48,360
+indicating that sellers are in control
+
+41
+00:01:46,619 --> 00:01:50,939
+of the market
+
+42
+00:01:48,360 --> 00:01:53,700
+the consolidation occurs when the market
+
+43
+00:01:50,939 --> 00:01:56,640
+is neither in an uptrend nor a downtrend
+
+44
+00:01:53,700 --> 00:01:58,740
+this means that the price is moving in a
+
+45
+00:01:56,640 --> 00:02:01,439
+range-bound manner with no clear
+
+46
+00:01:58,740 --> 00:02:05,040
+direction to determine a consolidation
+
+47
+00:02:01,439 --> 00:02:08,459
+look for a series of highs and lows that
+
+48
+00:02:05,040 --> 00:02:11,160
+don't show a clear uptrend or downtrend
+
+49
+00:02:08,459 --> 00:02:14,220
+a change in Trend occurs when the market
+
+50
+00:02:11,160 --> 00:02:17,700
+transitions from an uptrend or downtrend
+
+51
+00:02:14,220 --> 00:02:20,340
+to consolidation or vice versa to
+
+52
+00:02:17,700 --> 00:02:22,860
+identify a change in Trend look for a
+
+53
+00:02:20,340 --> 00:02:26,160
+series of lower lows and lower highs
+
+54
+00:02:22,860 --> 00:02:27,360
+that transition to higher highs and
+
+55
+00:02:26,160 --> 00:02:30,959
+higher lows
+
+56
+00:02:27,360 --> 00:02:33,239
+or vice versa it sounds basic but
+
+57
+00:02:30,959 --> 00:02:35,580
+understanding Market structure is
+
+58
+00:02:33,239 --> 00:02:38,000
+essential to any successful day trading
+
+59
+00:02:35,580 --> 00:02:38,000
+activity
+
+60
+00:02:41,700 --> 00:02:46,560
+so day trading success is quite
+
+61
+00:02:44,160 --> 00:02:49,440
+dependent upon being on the right side
+
+62
+00:02:46,560 --> 00:02:52,260
+of the trend but also executing the
+
+63
+00:02:49,440 --> 00:02:54,360
+trade at an optimal time the main
+
+64
+00:02:52,260 --> 00:02:57,060
+problem is that not all Trends are
+
+65
+00:02:54,360 --> 00:02:59,760
+created equal and there are multiple
+
+66
+00:02:57,060 --> 00:03:02,879
+Trends spread across many many time
+
+67
+00:02:59,760 --> 00:03:06,540
+frames that exist simultaneously
+
+68
+00:03:02,879 --> 00:03:09,780
+how do you determine a strong trend you
+
+69
+00:03:06,540 --> 00:03:11,819
+have two choices to use price action or
+
+70
+00:03:09,780 --> 00:03:14,760
+to use trading indicators
+
+71
+00:03:11,819 --> 00:03:17,940
+many day Traders especially beginners
+
+72
+00:03:14,760 --> 00:03:20,879
+are drawn to indicators hoping that an
+
+73
+00:03:17,940 --> 00:03:24,060
+indicator will show them when to enter a
+
+74
+00:03:20,879 --> 00:03:26,879
+trade I prefer to rely first on price
+
+75
+00:03:24,060 --> 00:03:29,580
+action I also use indicators in my
+
+76
+00:03:26,879 --> 00:03:32,819
+trading and I will show you later which
+
+77
+00:03:29,580 --> 00:03:35,819
+are the best ones to use but price comes
+
+78
+00:03:32,819 --> 00:03:39,300
+first you don't need an oscillator to
+
+79
+00:03:35,819 --> 00:03:42,420
+tell you if there's a trend happening
+
+80
+00:03:39,300 --> 00:03:45,299
+price is mainly a consensus between the
+
+81
+00:03:42,420 --> 00:03:47,879
+sellers and the buyers and is influenced
+
+82
+00:03:45,299 --> 00:03:51,659
+by human psychology and by supply and
+
+83
+00:03:47,879 --> 00:03:53,459
+demand now individual candlesticks will
+
+84
+00:03:51,659 --> 00:03:56,340
+give you a great insight into human
+
+85
+00:03:53,459 --> 00:03:58,980
+psychology if you learn how to analyze
+
+86
+00:03:56,340 --> 00:04:01,140
+them correctly I don't want to bore you
+
+87
+00:03:58,980 --> 00:04:03,500
+with the basics you just have to know
+
+88
+00:04:01,140 --> 00:04:07,379
+that each Candlestick displays the Open
+
+89
+00:04:03,500 --> 00:04:10,260
+high low and close of the time frame the
+
+90
+00:04:07,379 --> 00:04:13,379
+direction upward or downward of the time
+
+91
+00:04:10,260 --> 00:04:15,900
+frame and the range of the time frame
+
+92
+00:04:13,379 --> 00:04:19,199
+the Candlestick has a wide part called
+
+93
+00:04:15,900 --> 00:04:21,600
+the real body this real body represents
+
+94
+00:04:19,199 --> 00:04:22,620
+the range between the open and the close
+
+95
+00:04:21,600 --> 00:04:25,620
+price
+
+96
+00:04:22,620 --> 00:04:28,860
+and the long thin lines below and above
+
+97
+00:04:25,620 --> 00:04:31,320
+the body are referred to as wigs Tails
+
+98
+00:04:28,860 --> 00:04:34,380
+or Shadows
+
+99
+00:04:31,320 --> 00:04:37,440
+in day trading you need to have momentum
+
+100
+00:04:34,380 --> 00:04:39,900
+on your side momentum refers to the
+
+101
+00:04:37,440 --> 00:04:42,660
+sustained increase or decrease in the
+
+102
+00:04:39,900 --> 00:04:45,840
+price of a market it's a measure of the
+
+103
+00:04:42,660 --> 00:04:48,540
+Velocity at which the price changes and
+
+104
+00:04:45,840 --> 00:04:51,199
+momentum analysis is one of the most
+
+105
+00:04:48,540 --> 00:04:53,400
+important skills a day trader can learn
+
+106
+00:04:51,199 --> 00:04:56,639
+there are two ways of looking at
+
+107
+00:04:53,400 --> 00:04:59,520
+momentum the first one just looks at the
+
+108
+00:04:56,639 --> 00:05:02,220
+overall trend strength and a price is in
+
+109
+00:04:59,520 --> 00:05:05,759
+a strong or healthy Trend you can say
+
+110
+00:05:02,220 --> 00:05:08,759
+that the momentum is bullish or bearish
+
+111
+00:05:05,759 --> 00:05:10,860
+at the same time momentum also exists
+
+112
+00:05:08,759 --> 00:05:13,740
+when we just look at individual
+
+113
+00:05:10,860 --> 00:05:16,020
+candlesticks so by analyzing recent
+
+114
+00:05:13,740 --> 00:05:18,680
+candlesticks you can determine the price
+
+115
+00:05:16,020 --> 00:05:18,680
+momentum
+
+116
+00:05:20,840 --> 00:05:26,419
+here are the main rules for determining
+
+117
+00:05:23,699 --> 00:05:29,699
+the strength of a trend and its momentum
+
+118
+00:05:26,419 --> 00:05:32,580
+number one the market breaks its
+
+119
+00:05:29,699 --> 00:05:35,160
+previous swing high or low we talked
+
+120
+00:05:32,580 --> 00:05:38,340
+about this before a trend is generally
+
+121
+00:05:35,160 --> 00:05:40,860
+defined by a series of higher highs and
+
+122
+00:05:38,340 --> 00:05:42,000
+higher lows in the case of a bullish
+
+123
+00:05:40,860 --> 00:05:44,880
+trend
+
+124
+00:05:42,000 --> 00:05:48,060
+or a series of lower highs and lower
+
+125
+00:05:44,880 --> 00:05:49,680
+lows as a bearish trend that's the first
+
+126
+00:05:48,060 --> 00:05:52,500
+condition of a trend
+
+127
+00:05:49,680 --> 00:05:56,340
+number two the distance between swing
+
+128
+00:05:52,500 --> 00:05:59,220
+highs or lows meaning how far the swing
+
+129
+00:05:56,340 --> 00:06:02,039
+highs or lows are apart is a sign of
+
+130
+00:05:59,220 --> 00:06:04,800
+trend strength if the most recent swing
+
+131
+00:06:02,039 --> 00:06:07,320
+high was far above the previous swing
+
+132
+00:06:04,800 --> 00:06:10,680
+high that shows that the market has a
+
+133
+00:06:07,320 --> 00:06:13,320
+lot of buying interest and strength if a
+
+134
+00:06:10,680 --> 00:06:16,020
+swing High forms just barely above the
+
+135
+00:06:13,320 --> 00:06:18,479
+prior swing High the price may still be
+
+136
+00:06:16,020 --> 00:06:19,680
+in an uptrend but is not moving as
+
+137
+00:06:18,479 --> 00:06:22,680
+strongly
+
+138
+00:06:19,680 --> 00:06:25,380
+three most of the candlesticks are Trend
+
+139
+00:06:22,680 --> 00:06:28,020
+candles in the direction of the trend
+
+140
+00:06:25,380 --> 00:06:30,720
+a trend candle has a body that is
+
+141
+00:06:28,020 --> 00:06:32,160
+greater than 50 percent of the entire
+
+142
+00:06:30,720 --> 00:06:34,620
+bar range
+
+143
+00:06:32,160 --> 00:06:37,919
+if a candle closes above its opening
+
+144
+00:06:34,620 --> 00:06:40,680
+price it's a bullish Trend candle
+
+145
+00:06:37,919 --> 00:06:42,960
+and if the candle closes below its
+
+146
+00:06:40,680 --> 00:06:45,960
+opening price it's a bearish trend
+
+147
+00:06:42,960 --> 00:06:48,240
+candle so when you day trade and read
+
+148
+00:06:45,960 --> 00:06:51,539
+candlesticks search for Trend
+
+149
+00:06:48,240 --> 00:06:53,940
+candlesticks by analyzing the bodies if
+
+150
+00:06:51,539 --> 00:06:56,520
+you see many recent green Trend candles
+
+151
+00:06:53,940 --> 00:06:58,160
+for example you're probably in a strong
+
+152
+00:06:56,520 --> 00:07:01,319
+uptrend
+
+153
+00:06:58,160 --> 00:07:04,560
+number four there is very little overlap
+
+154
+00:07:01,319 --> 00:07:06,960
+of the bodies of consecutive candles
+
+155
+00:07:04,560 --> 00:07:09,060
+the degree of overlap with the previous
+
+156
+00:07:06,960 --> 00:07:12,539
+candle tells you the current market
+
+157
+00:07:09,060 --> 00:07:14,580
+phase and the power of the price bar in
+
+158
+00:07:12,539 --> 00:07:17,280
+a strong Trend there is very little
+
+159
+00:07:14,580 --> 00:07:18,419
+overlap of the bodies of consecutive
+
+160
+00:07:17,280 --> 00:07:21,780
+candles
+
+161
+00:07:18,419 --> 00:07:25,139
+for example in a minor uptrend many
+
+162
+00:07:21,780 --> 00:07:28,560
+candles have lows that are at or just
+
+163
+00:07:25,139 --> 00:07:31,139
+below the closes of the prior candles
+
+164
+00:07:28,560 --> 00:07:34,319
+some candles don't even test the clothes
+
+165
+00:07:31,139 --> 00:07:37,259
+of the prior bar the point is if you
+
+166
+00:07:34,319 --> 00:07:41,280
+find a minimal overlap between a candle
+
+167
+00:07:37,259 --> 00:07:44,520
+and the preceding one it implies urgency
+
+168
+00:07:41,280 --> 00:07:47,520
+again and this bearish down move many
+
+169
+00:07:44,520 --> 00:07:50,699
+bars have highs that are at or just
+
+170
+00:07:47,520 --> 00:07:52,919
+above the closes of the prior bar
+
+171
+00:07:50,699 --> 00:07:55,199
+this shows strength and it's an
+
+172
+00:07:52,919 --> 00:07:57,960
+important sign because the market is
+
+173
+00:07:55,199 --> 00:07:59,580
+unable to go higher and it keeps pushing
+
+174
+00:07:57,960 --> 00:08:02,759
+lower
+
+175
+00:07:59,580 --> 00:08:06,479
+number five there are bars with no Wicks
+
+176
+00:08:02,759 --> 00:08:08,720
+or small wicks in either direction this
+
+177
+00:08:06,479 --> 00:08:12,060
+again indicates urgency in the market
+
+178
+00:08:08,720 --> 00:08:14,699
+for example in an uptrend if a green
+
+179
+00:08:12,060 --> 00:08:18,300
+Trend candle opens and immediately
+
+180
+00:08:14,699 --> 00:08:20,699
+Trends up it means Traders were eager to
+
+181
+00:08:18,300 --> 00:08:23,539
+buy it as soon as the prior candle was
+
+182
+00:08:20,699 --> 00:08:26,940
+formed if it closes near its high
+
+183
+00:08:23,539 --> 00:08:29,340
+Traders continue their strong buying in
+
+184
+00:08:26,940 --> 00:08:32,459
+anticipation of new buyers entering
+
+185
+00:08:29,340 --> 00:08:36,479
+right after the bar closes
+
+186
+00:08:32,459 --> 00:08:38,820
+6 gaps between the bodies occasionally
+
+187
+00:08:36,479 --> 00:08:42,060
+you will find gaps between the bodies of
+
+188
+00:08:38,820 --> 00:08:44,640
+the candles for example the open of a
+
+189
+00:08:42,060 --> 00:08:48,600
+candle might be above the close of the
+
+190
+00:08:44,640 --> 00:08:52,019
+prior candle in an uptrend or below the
+
+191
+00:08:48,600 --> 00:08:55,800
+close of the prior candle in a downtrend
+
+192
+00:08:52,019 --> 00:08:58,140
+again a gap is a sign of urgency and a
+
+193
+00:08:55,800 --> 00:09:01,680
+sign of Market strength
+
+194
+00:08:58,140 --> 00:09:04,620
+7. Trend candles after a gap
+
+195
+00:09:01,680 --> 00:09:07,140
+this is even more powerful not only the
+
+196
+00:09:04,620 --> 00:09:10,200
+market formed a knob Gap like in this
+
+197
+00:09:07,140 --> 00:09:13,019
+example but it continued with a strong
+
+198
+00:09:10,200 --> 00:09:15,899
+Trend bar indicating the conviction of
+
+199
+00:09:13,019 --> 00:09:17,839
+buyers and their willingness to push
+
+200
+00:09:15,899 --> 00:09:21,959
+price higher
+
+201
+00:09:17,839 --> 00:09:24,420
+8. no retest of previous breakouts we'll
+
+202
+00:09:21,959 --> 00:09:26,339
+talk about breakouts later but you
+
+203
+00:09:24,420 --> 00:09:29,519
+probably know the classic way to trade
+
+204
+00:09:26,339 --> 00:09:32,820
+them you must wait for prices to retest
+
+205
+00:09:29,519 --> 00:09:35,880
+the breakout level a retest refers to
+
+206
+00:09:32,820 --> 00:09:38,940
+prices reversing Direction after a break
+
+207
+00:09:35,880 --> 00:09:42,060
+and returning to the breakout level to
+
+208
+00:09:38,940 --> 00:09:44,399
+see if it holds the tendency is for
+
+209
+00:09:42,060 --> 00:09:47,519
+prices to return to the break-off level
+
+210
+00:09:44,399 --> 00:09:50,339
+which should now act as a support and
+
+211
+00:09:47,519 --> 00:09:52,860
+attract buying interest but in a strong
+
+212
+00:09:50,339 --> 00:09:55,440
+Market you will not get a retest
+
+213
+00:09:52,860 --> 00:09:57,480
+the buyers are unwilling to let the
+
+214
+00:09:55,440 --> 00:10:00,240
+price drop lower
+
+215
+00:09:57,480 --> 00:10:01,440
+number nine no significant trend line
+
+216
+00:10:00,240 --> 00:10:03,899
+breakouts
+
+217
+00:10:01,440 --> 00:10:06,300
+plotting trend lines on a chart is one
+
+218
+00:10:03,899 --> 00:10:09,300
+of the easiest ways to get a quick idea
+
+219
+00:10:06,300 --> 00:10:12,000
+of a market strand or Direction
+
+220
+00:10:09,300 --> 00:10:14,940
+when drawing trend lines in a downtrend
+
+221
+00:10:12,000 --> 00:10:17,399
+you draw them above the price
+
+222
+00:10:14,940 --> 00:10:19,740
+connecting the high points
+
+223
+00:10:17,399 --> 00:10:23,339
+when you draw trend lines in an uptrend
+
+224
+00:10:19,740 --> 00:10:25,260
+you draw them below the price connecting
+
+225
+00:10:23,339 --> 00:10:28,260
+the low points
+
+226
+00:10:25,260 --> 00:10:30,720
+at least two swing highs or swing lows
+
+227
+00:10:28,260 --> 00:10:32,100
+are needed to draw a trend line in
+
+228
+00:10:30,720 --> 00:10:34,980
+either direction
+
+229
+00:10:32,100 --> 00:10:37,380
+now a broken trend line is a technical
+
+230
+00:10:34,980 --> 00:10:40,560
+signal that can suggest a change in
+
+231
+00:10:37,380 --> 00:10:42,839
+Trend but in a strong Trend you don't
+
+232
+00:10:40,560 --> 00:10:44,519
+experience breakouts of significant
+
+233
+00:10:42,839 --> 00:10:47,820
+trend lines
+
+234
+00:10:44,519 --> 00:10:50,940
+number 10 sideways corrections after
+
+235
+00:10:47,820 --> 00:10:53,760
+trendline breakouts in a strong Trend
+
+236
+00:10:50,940 --> 00:10:56,160
+when a trendline breakout occurs there's
+
+237
+00:10:53,760 --> 00:10:58,740
+no momentum behind the move
+
+238
+00:10:56,160 --> 00:11:01,079
+there is sideways price action a
+
+239
+00:10:58,740 --> 00:11:03,600
+sideways drift occurs when the price
+
+240
+00:11:01,079 --> 00:11:06,420
+trades within a fairly stable range
+
+241
+00:11:03,600 --> 00:11:09,300
+without forming any distinct Trends
+
+242
+00:11:06,420 --> 00:11:12,480
+price action instead oscillates in an
+
+243
+00:11:09,300 --> 00:11:15,660
+horizontal range or Channel with neither
+
+244
+00:11:12,480 --> 00:11:17,339
+the buyers nor sellers taking control of
+
+245
+00:11:15,660 --> 00:11:20,940
+prices
+
+246
+00:11:17,339 --> 00:11:22,079
+11 small Corrections and sideways
+
+247
+00:11:20,940 --> 00:11:25,200
+pullbacks
+
+248
+00:11:22,079 --> 00:11:28,500
+in an uptrend we have more green candles
+
+249
+00:11:25,200 --> 00:11:30,720
+than red ones this means that the buyers
+
+250
+00:11:28,500 --> 00:11:33,060
+have more power and are increasingly
+
+251
+00:11:30,720 --> 00:11:35,880
+moving the market upwards
+
+252
+00:11:33,060 --> 00:11:38,339
+also during a market controlled by
+
+253
+00:11:35,880 --> 00:11:41,880
+buyers the red candles are getting
+
+254
+00:11:38,339 --> 00:11:43,079
+smaller as the sellers can drive the
+
+255
+00:11:41,880 --> 00:11:45,899
+price down
+
+256
+00:11:43,079 --> 00:11:48,000
+so the corrections will be small and in
+
+257
+00:11:45,899 --> 00:11:49,940
+some cases the price section will appear
+
+258
+00:11:48,000 --> 00:11:53,100
+in a sideways range
+
+259
+00:11:49,940 --> 00:11:55,500
+conversely during a market controlled by
+
+260
+00:11:53,100 --> 00:11:58,620
+sellers the green candles are getting
+
+261
+00:11:55,500 --> 00:12:00,779
+smaller again Corrections will be
+
+262
+00:11:58,620 --> 00:12:02,519
+smaller when you compare them with
+
+263
+00:12:00,779 --> 00:12:05,760
+downward waves
+
+264
+00:12:02,519 --> 00:12:09,300
+12. breakout candles have large bodies
+
+265
+00:12:05,760 --> 00:12:11,940
+and small wigs when the price finds
+
+266
+00:12:09,300 --> 00:12:14,700
+support or resistance in its way it
+
+267
+00:12:11,940 --> 00:12:17,820
+usually manages the push through with a
+
+268
+00:12:14,700 --> 00:12:20,940
+strong candle a breakout candle that has
+
+269
+00:12:17,820 --> 00:12:24,300
+a large Trend body for example and small
+
+270
+00:12:20,940 --> 00:12:27,060
+leaks or no Wicks is a sign of strength
+
+271
+00:12:24,300 --> 00:12:29,519
+the larger the candle the more likely
+
+272
+00:12:27,060 --> 00:12:32,820
+the breakout will succeed
+
+273
+00:12:29,519 --> 00:12:35,459
+13 weeks below green candles during
+
+274
+00:12:32,820 --> 00:12:36,839
+uptrends and above red ones during
+
+275
+00:12:35,459 --> 00:12:40,200
+downtrends
+
+276
+00:12:36,839 --> 00:12:43,740
+so in a strong uptrend you will also see
+
+277
+00:12:40,200 --> 00:12:46,079
+a lot of Wicks below the green bars this
+
+278
+00:12:43,740 --> 00:12:48,420
+represents a good signal that the buyers
+
+279
+00:12:46,079 --> 00:12:51,420
+are in control of the market and that
+
+280
+00:12:48,420 --> 00:12:54,180
+are trying to push the prices upwards
+
+281
+00:12:51,420 --> 00:12:57,600
+you will also see a lot of Wicks above
+
+282
+00:12:54,180 --> 00:12:59,399
+the red bars in a strong downtrend this
+
+283
+00:12:57,600 --> 00:13:02,160
+shows that the sellers are in control
+
+284
+00:12:59,399 --> 00:13:04,980
+and that are successfully pushing the
+
+285
+00:13:02,160 --> 00:13:07,019
+prices downward despite the initial
+
+286
+00:13:04,980 --> 00:13:09,480
+reaction of the buyers
+
+287
+00:13:07,019 --> 00:13:12,000
+I hope you realize that candlesticks
+
+288
+00:13:09,480 --> 00:13:14,399
+provide a lot of information about who
+
+289
+00:13:12,000 --> 00:13:17,700
+is in control of the market than most
+
+290
+00:13:14,399 --> 00:13:20,459
+Traders realize almost every candle
+
+291
+00:13:17,700 --> 00:13:21,839
+offers important Clues as to where the
+
+292
+00:13:20,459 --> 00:13:24,420
+market is going
+
+293
+00:13:21,839 --> 00:13:27,000
+stay close because in a future module
+
+294
+00:13:24,420 --> 00:13:29,600
+we'll add the volume component for this
+
+295
+00:13:27,000 --> 00:13:29,600
+analysis
+
+296
+00:13:33,260 --> 00:13:38,519
+now I don't want to bore you with a
+
+297
+00:13:36,360 --> 00:13:41,519
+multitude of candlesticks used in day
+
+298
+00:13:38,519 --> 00:13:44,579
+trading when I'm trading I tend to
+
+299
+00:13:41,519 --> 00:13:47,880
+heavily rely on two special patterns as
+
+300
+00:13:44,579 --> 00:13:50,760
+the entry trigger the first one is the
+
+301
+00:13:47,880 --> 00:13:53,399
+PIN bar a pin bar is a price action
+
+302
+00:13:50,760 --> 00:13:55,860
+pattern which is supposed to Signal a
+
+303
+00:13:53,399 --> 00:13:56,880
+reversal maybe about to take place in a
+
+304
+00:13:55,860 --> 00:13:59,760
+market
+
+305
+00:13:56,880 --> 00:14:01,860
+notice of the red body of the candle is
+
+306
+00:13:59,760 --> 00:14:05,220
+found at the bottom of the Candlestick
+
+307
+00:14:01,860 --> 00:14:08,040
+and the long week is found at the top
+
+308
+00:14:05,220 --> 00:14:10,800
+sometimes the body of the candle will
+
+309
+00:14:08,040 --> 00:14:12,899
+not be found right at the bottom but it
+
+310
+00:14:10,800 --> 00:14:15,600
+will always be found in the bottom half
+
+311
+00:14:12,899 --> 00:14:18,060
+of the Candlestick in the case of a
+
+312
+00:14:15,600 --> 00:14:20,160
+bullish pin bar the body of the bullish
+
+313
+00:14:18,060 --> 00:14:23,100
+pin bar is found at the top of the
+
+314
+00:14:20,160 --> 00:14:25,019
+candle and most of the wick is found at
+
+315
+00:14:23,100 --> 00:14:27,540
+the bottom
+
+316
+00:14:25,019 --> 00:14:29,519
+another Candlestick which must be highly
+
+317
+00:14:27,540 --> 00:14:31,860
+important in your day trading activity
+
+318
+00:14:29,519 --> 00:14:35,459
+is the engulfing candle
+
+319
+00:14:31,860 --> 00:14:37,579
+firstly engulfing candlesticks begin and
+
+320
+00:14:35,459 --> 00:14:40,079
+end every movement in the market
+
+321
+00:14:37,579 --> 00:14:42,899
+whenever you see the market go from
+
+322
+00:14:40,079 --> 00:14:44,820
+being in an uptrend to a downtrend at
+
+323
+00:14:42,899 --> 00:14:47,459
+the beginning of that movement an
+
+324
+00:14:44,820 --> 00:14:50,519
+engulfing Candlestick is present in some
+
+325
+00:14:47,459 --> 00:14:52,980
+shape or form engulfing candles are the
+
+326
+00:14:50,519 --> 00:14:56,160
+result of big money coming into the
+
+327
+00:14:52,980 --> 00:14:58,860
+market usually by large Banks or other
+
+328
+00:14:56,160 --> 00:15:01,019
+financial institutions this is what
+
+329
+00:14:58,860 --> 00:15:03,779
+makes engulfing candles such a great
+
+330
+00:15:01,019 --> 00:15:05,399
+entry trigger the one defining
+
+331
+00:15:03,779 --> 00:15:08,040
+characteristic of the engulfing
+
+332
+00:15:05,399 --> 00:15:10,980
+candlesticks is they have a large body
+
+333
+00:15:08,040 --> 00:15:13,320
+which is always bigger in size than the
+
+334
+00:15:10,980 --> 00:15:16,560
+body of the candlesticks in immediately
+
+335
+00:15:13,320 --> 00:15:19,800
+before it the engulfing candle wraps
+
+336
+00:15:16,560 --> 00:15:22,380
+itself around the previous candle the
+
+337
+00:15:19,800 --> 00:15:24,839
+setup begins when we see a large bullish
+
+338
+00:15:22,380 --> 00:15:27,720
+candle which happens to be immediately
+
+339
+00:15:24,839 --> 00:15:30,079
+followed by a bearish candle the second
+
+340
+00:15:27,720 --> 00:15:32,820
+candle being the bearish engulfing one
+
+341
+00:15:30,079 --> 00:15:35,760
+notice of the body of the bearish
+
+342
+00:15:32,820 --> 00:15:39,680
+engulfing one is bigger than the body of
+
+343
+00:15:35,760 --> 00:15:39,680
+the bullish candle seen before it
+
+344
+00:15:43,800 --> 00:15:48,660
+if you want to increase your chances to
+
+345
+00:15:46,139 --> 00:15:51,839
+succeed at day trading you must align
+
+346
+00:15:48,660 --> 00:15:55,320
+yourself with big players in a market I
+
+347
+00:15:51,839 --> 00:15:57,959
+do this by using supply and demand when
+
+348
+00:15:55,320 --> 00:16:00,600
+I first started day trading I focused on
+
+349
+00:15:57,959 --> 00:16:02,579
+support and resistance levels these are
+
+350
+00:16:00,600 --> 00:16:04,860
+the specific price points on a chart
+
+351
+00:16:02,579 --> 00:16:07,260
+which are expected to attract the
+
+352
+00:16:04,860 --> 00:16:10,620
+maximum amount of either buying or
+
+353
+00:16:07,260 --> 00:16:13,139
+selling a support is a price area at
+
+354
+00:16:10,620 --> 00:16:14,339
+which you can expect more buyers than
+
+355
+00:16:13,139 --> 00:16:17,579
+sellers
+
+356
+00:16:14,339 --> 00:16:21,120
+a resistance is a price area at which
+
+357
+00:16:17,579 --> 00:16:23,880
+you can expect more sellers than buyers
+
+358
+00:16:21,120 --> 00:16:26,279
+but over the last years I've slowly
+
+359
+00:16:23,880 --> 00:16:29,519
+Incorporated supply and demand in my day
+
+360
+00:16:26,279 --> 00:16:32,279
+trading plan this trading approach takes
+
+361
+00:16:29,519 --> 00:16:36,180
+the best of support and resistance and
+
+362
+00:16:32,279 --> 00:16:39,000
+adds the concept of Supply instrument
+
+363
+00:16:36,180 --> 00:16:41,759
+news events speculation and General
+
+364
+00:16:39,000 --> 00:16:44,839
+market action caused different groups of
+
+365
+00:16:41,759 --> 00:16:47,579
+traders to place buy and sell positions
+
+366
+00:16:44,839 --> 00:16:50,339
+resulting in changes to the supply and
+
+367
+00:16:47,579 --> 00:16:53,699
+demand in a market these changes
+
+368
+00:16:50,339 --> 00:16:56,279
+manifest visually as the Rises declines
+
+369
+00:16:53,699 --> 00:16:59,279
+and consolidations you see on your
+
+370
+00:16:56,279 --> 00:17:01,860
+charts when you see price Rising it
+
+371
+00:16:59,279 --> 00:17:04,319
+means demand outweight Supply
+
+372
+00:17:01,860 --> 00:17:07,740
+when you see a price following Supply
+
+373
+00:17:04,319 --> 00:17:10,559
+alt weights demand now changes in Supply
+
+374
+00:17:07,740 --> 00:17:13,199
+and demands happen when the banks and
+
+375
+00:17:10,559 --> 00:17:16,919
+other big players decide to enter their
+
+376
+00:17:13,199 --> 00:17:19,439
+positions we retail Traders can cause
+
+377
+00:17:16,919 --> 00:17:22,079
+price to rise or fall because we don't
+
+378
+00:17:19,439 --> 00:17:24,660
+have enough money only the smart money
+
+379
+00:17:22,079 --> 00:17:28,199
+with their high buying and selling power
+
+380
+00:17:24,660 --> 00:17:30,720
+can make price move and the banks never
+
+381
+00:17:28,199 --> 00:17:33,900
+Place their full positions all at once
+
+382
+00:17:30,720 --> 00:17:36,780
+their positions are very large so they
+
+383
+00:17:33,900 --> 00:17:39,600
+must break them into smaller pieces and
+
+384
+00:17:36,780 --> 00:17:42,000
+place each trade individually around a
+
+385
+00:17:39,600 --> 00:17:44,640
+similar price to avoid pushing price
+
+386
+00:17:42,000 --> 00:17:46,260
+away and potentially forcing the entry
+
+387
+00:17:44,640 --> 00:17:49,260
+at the bad price
+
+388
+00:17:46,260 --> 00:17:51,720
+in day trading it is all about finding
+
+389
+00:17:49,260 --> 00:17:54,660
+points where the banks have initiated
+
+390
+00:17:51,720 --> 00:17:57,900
+positions and then jumping into trades
+
+391
+00:17:54,660 --> 00:18:00,419
+when the price returns to the supply or
+
+392
+00:17:57,900 --> 00:18:03,059
+demand area
+
+393
+00:18:00,419 --> 00:18:05,520
+supply and demand trading is a method
+
+394
+00:18:03,059 --> 00:18:07,679
+where the idea is to find points in the
+
+395
+00:18:05,520 --> 00:18:10,980
+market where the price has made a strong
+
+396
+00:18:07,679 --> 00:18:14,820
+Advance or decline and Mark these areas
+
+397
+00:18:10,980 --> 00:18:17,820
+as supply and demand zones demand zones
+
+398
+00:18:14,820 --> 00:18:20,760
+form when Banks place a large number of
+
+399
+00:18:17,820 --> 00:18:23,340
+buy positions this creates an imbalance
+
+400
+00:18:20,760 --> 00:18:25,679
+and results in the price aggressively
+
+401
+00:18:23,340 --> 00:18:29,039
+moving higher these are the support
+
+402
+00:18:25,679 --> 00:18:31,799
+levels of supply and demand Trading
+
+403
+00:18:29,039 --> 00:18:33,720
+Supply zones are points where the banks
+
+404
+00:18:31,799 --> 00:18:35,940
+place a significant number of cell
+
+405
+00:18:33,720 --> 00:18:38,220
+positions resulting in price
+
+406
+00:18:35,940 --> 00:18:40,860
+aggressively moving lower
+
+407
+00:18:38,220 --> 00:18:42,360
+these are the resistance points where
+
+408
+00:18:40,860 --> 00:18:45,120
+price could fall
+
+409
+00:18:42,360 --> 00:18:47,880
+and if price returns to a certain Supply
+
+410
+00:18:45,120 --> 00:18:51,799
+or demand Zone it has a high probability
+
+411
+00:18:47,880 --> 00:18:51,799
+of rejecting these areas
+
+412
+00:18:55,020 --> 00:19:00,539
+so how to identify the best supply and
+
+413
+00:18:57,720 --> 00:19:03,600
+demand areas do they trade here's my
+
+414
+00:19:00,539 --> 00:19:07,200
+process in the first place you look for
+
+415
+00:19:03,600 --> 00:19:09,600
+Sharp Rises and the coins in price these
+
+416
+00:19:07,200 --> 00:19:11,820
+are the first signs that smart money are
+
+417
+00:19:09,600 --> 00:19:15,000
+active you can call them Market
+
+418
+00:19:11,820 --> 00:19:16,080
+imbalances big price shifts in One
+
+419
+00:19:15,000 --> 00:19:19,140
+Direction
+
+420
+00:19:16,080 --> 00:19:22,679
+to find the main zones you look for fast
+
+421
+00:19:19,140 --> 00:19:25,799
+impulse up moves keep an eye on big
+
+422
+00:19:22,679 --> 00:19:28,620
+green candles Trend candles we talked
+
+423
+00:19:25,799 --> 00:19:31,320
+about them in the previous modules
+
+424
+00:19:28,620 --> 00:19:32,340
+the long bodies and with little to no
+
+425
+00:19:31,320 --> 00:19:35,340
+wicks
+
+426
+00:19:32,340 --> 00:19:38,160
+once you have identified a fast impulse
+
+427
+00:19:35,340 --> 00:19:40,860
+move it becomes a lot easier to find the
+
+428
+00:19:38,160 --> 00:19:44,039
+base of the zone you find the most
+
+429
+00:19:40,860 --> 00:19:48,059
+recent red candle before the impulse
+
+430
+00:19:44,039 --> 00:19:50,940
+move and place a line at its high price
+
+431
+00:19:48,059 --> 00:19:53,700
+and another line at the most recent
+
+432
+00:19:50,940 --> 00:19:54,840
+swing low that formed at the source of
+
+433
+00:19:53,700 --> 00:19:57,480
+the move
+
+434
+00:19:54,840 --> 00:20:00,780
+some may choose to place the first line
+
+435
+00:19:57,480 --> 00:20:03,419
+at the open price and the second one at
+
+436
+00:20:00,780 --> 00:20:05,160
+the most recent low you can choose any
+
+437
+00:20:03,419 --> 00:20:07,799
+method you want
+
+438
+00:20:05,160 --> 00:20:11,220
+to find Supply Zones look for fast
+
+439
+00:20:07,799 --> 00:20:14,700
+declines again yellow 4 Trend red
+
+440
+00:20:11,220 --> 00:20:16,080
+candles with long bodies and little or
+
+441
+00:20:14,700 --> 00:20:18,840
+no wicks
+
+442
+00:20:16,080 --> 00:20:21,960
+you then find the most recent up candle
+
+443
+00:20:18,840 --> 00:20:24,900
+before the sharp down move and place a
+
+444
+00:20:21,960 --> 00:20:27,720
+line at its low price and another line
+
+445
+00:20:24,900 --> 00:20:30,360
+at the most recent swing high that
+
+446
+00:20:27,720 --> 00:20:33,059
+formed at the source of the move
+
+447
+00:20:30,360 --> 00:20:36,360
+in theory price has a high probability
+
+448
+00:20:33,059 --> 00:20:39,380
+of reversing once it returns to the
+
+449
+00:20:36,360 --> 00:20:39,380
+source of the decline
+
+450
+00:20:42,299 --> 00:20:46,980
+before you start day trading supply and
+
+451
+00:20:44,340 --> 00:20:49,380
+demand there are two key rules you need
+
+452
+00:20:46,980 --> 00:20:51,480
+to understand to find the right zones on
+
+453
+00:20:49,380 --> 00:20:53,520
+the chart and to trade them correctly
+
+454
+00:20:51,480 --> 00:20:56,960
+using your entry method
+
+455
+00:20:53,520 --> 00:21:00,179
+first rule is that all zones rarely work
+
+456
+00:20:56,960 --> 00:21:02,520
+a big misconception is that the longer
+
+457
+00:21:00,179 --> 00:21:05,220
+the market has been away from a supply
+
+458
+00:21:02,520 --> 00:21:07,440
+or demand Zone the better chance the
+
+459
+00:21:05,220 --> 00:21:10,320
+market has of reversing when it
+
+460
+00:21:07,440 --> 00:21:13,140
+eventually reaches the Zone this is
+
+461
+00:21:10,320 --> 00:21:16,080
+wrong recent zones are far more
+
+462
+00:21:13,140 --> 00:21:19,080
+important supply and demand areas which
+
+463
+00:21:16,080 --> 00:21:21,660
+have been created recently are far more
+
+464
+00:21:19,080 --> 00:21:23,640
+effective than zones which were created
+
+465
+00:21:21,660 --> 00:21:27,059
+a long time ago
+
+466
+00:21:23,640 --> 00:21:30,299
+second rule is to trade only fresh on
+
+467
+00:21:27,059 --> 00:21:32,520
+touch zones another big misconception is
+
+468
+00:21:30,299 --> 00:21:35,700
+the idea that supply and demand zones
+
+469
+00:21:32,520 --> 00:21:38,100
+have the power to cause reversals more
+
+470
+00:21:35,700 --> 00:21:41,580
+than once like support and resistance
+
+471
+00:21:38,100 --> 00:21:44,760
+levels too again this isn't true supply
+
+472
+00:21:41,580 --> 00:21:48,059
+and demand zones are one-time use when
+
+473
+00:21:44,760 --> 00:21:51,659
+price hits a Zone and reverses the Zone
+
+474
+00:21:48,059 --> 00:21:54,480
+loses its power the probability it will
+
+475
+00:21:51,659 --> 00:21:56,780
+cause another reversal in the future is
+
+476
+00:21:54,480 --> 00:21:56,780
+lower
+
+477
+00:21:57,299 --> 00:21:59,480
+foreign
+
+478
+00:22:00,020 --> 00:22:05,220
+ERS get confused between the concepts of
+
+479
+00:22:03,299 --> 00:22:07,559
+supply and demand and support and
+
+480
+00:22:05,220 --> 00:22:09,360
+resistance so let's talk about the
+
+481
+00:22:07,559 --> 00:22:12,299
+difference between these two concepts
+
+482
+00:22:09,360 --> 00:22:15,419
+supply and demand zones are advanced
+
+483
+00:22:12,299 --> 00:22:17,760
+concepts of support and resistance they
+
+484
+00:22:15,419 --> 00:22:20,400
+both indicate points where the price can
+
+485
+00:22:17,760 --> 00:22:23,460
+reverse the big difference between the
+
+486
+00:22:20,400 --> 00:22:26,400
+two is that support and resistance often
+
+487
+00:22:23,460 --> 00:22:28,740
+works on historical older and tested
+
+488
+00:22:26,400 --> 00:22:32,100
+levels while supply and demand
+
+489
+00:22:28,740 --> 00:22:34,500
+especially on Fresh levels
+
+490
+00:22:32,100 --> 00:22:37,260
+support and resistance trading is
+
+491
+00:22:34,500 --> 00:22:39,960
+particularly strong in multiple touches
+
+492
+00:22:37,260 --> 00:22:42,059
+of the previous levels when you day
+
+493
+00:22:39,960 --> 00:22:44,159
+trade based on support and resistance
+
+494
+00:22:42,059 --> 00:22:46,799
+you mainly look for points where
+
+495
+00:22:44,159 --> 00:22:48,059
+multiple reversals started from similar
+
+496
+00:22:46,799 --> 00:22:50,580
+prices
+
+497
+00:22:48,059 --> 00:22:53,220
+here's a level with multiple reversals
+
+498
+00:22:50,580 --> 00:22:55,980
+you can see that each of the reversals
+
+499
+00:22:53,220 --> 00:22:58,020
+originated from prices which are quite
+
+500
+00:22:55,980 --> 00:23:00,419
+close to one another
+
+501
+00:22:58,020 --> 00:23:02,760
+so a support level must be found
+
+502
+00:23:00,419 --> 00:23:06,059
+somewhere close to where this price
+
+503
+00:23:02,760 --> 00:23:08,760
+movement started now when trading supply
+
+504
+00:23:06,059 --> 00:23:10,860
+and demand things are different if you
+
+505
+00:23:08,760 --> 00:23:13,919
+want to day trade using this concept
+
+506
+00:23:10,860 --> 00:23:16,520
+you'll mainly look for new zones
+
+507
+00:23:13,919 --> 00:23:19,679
+a supply or demand zones is a fresh
+
+508
+00:23:16,520 --> 00:23:22,679
+untouched area where price spent less
+
+509
+00:23:19,679 --> 00:23:25,440
+time you don't watch in the history of a
+
+510
+00:23:22,679 --> 00:23:27,780
+market for the validity of the zone you
+
+511
+00:23:25,440 --> 00:23:29,280
+don't wait for multiple retests of the
+
+512
+00:23:27,780 --> 00:23:31,919
+same area
+
+513
+00:23:29,280 --> 00:23:34,559
+another difference if price will break
+
+514
+00:23:31,919 --> 00:23:37,799
+the support Zone then the support will
+
+515
+00:23:34,559 --> 00:23:40,140
+become resistance and vice versa this is
+
+516
+00:23:37,799 --> 00:23:42,059
+a common day trading strategy which is
+
+517
+00:23:40,140 --> 00:23:44,100
+actually very powerful when traded
+
+518
+00:23:42,059 --> 00:23:46,500
+correctly we'll talk about this later
+
+519
+00:23:44,100 --> 00:23:50,220
+but in the case of supply and demand
+
+520
+00:23:46,500 --> 00:23:52,980
+this concept doesn't apply a supply Zone
+
+521
+00:23:50,220 --> 00:23:54,419
+which is broken doesn't turn into a
+
+522
+00:23:52,980 --> 00:23:56,880
+demand Zone
+
+523
+00:23:54,419 --> 00:23:59,100
+I would even say that all support and
+
+524
+00:23:56,880 --> 00:24:02,100
+resistance lines were originally
+
+525
+00:23:59,100 --> 00:24:04,559
+supplies or demand zones
+
+526
+00:24:02,100 --> 00:24:06,720
+this is how support and resistance were
+
+527
+00:24:04,559 --> 00:24:09,480
+created they are essentially the
+
+528
+00:24:06,720 --> 00:24:12,720
+confirmed supply and demand levels
+
+529
+00:24:09,480 --> 00:24:14,580
+so supply and demand are fresh levels or
+
+530
+00:24:12,720 --> 00:24:17,520
+zones where a price has not been
+
+531
+00:24:14,580 --> 00:24:19,140
+determined yet therefore these levels
+
+532
+00:24:17,520 --> 00:24:21,840
+are valid to trade
+
+533
+00:24:19,140 --> 00:24:25,200
+support and resistance are levels which
+
+534
+00:24:21,840 --> 00:24:27,480
+are already confirmed
+
+535
+00:24:25,200 --> 00:24:30,179
+probably the biggest problem when
+
+536
+00:24:27,480 --> 00:24:32,640
+trading support and resistance levels is
+
+537
+00:24:30,179 --> 00:24:35,700
+the fact that price will often fail to
+
+538
+00:24:32,640 --> 00:24:37,860
+turn exactly on the level itself you
+
+539
+00:24:35,700 --> 00:24:40,620
+know it so well you expect the perfect
+
+540
+00:24:37,860 --> 00:24:42,960
+bounce when you place your level but
+
+541
+00:24:40,620 --> 00:24:45,480
+oftentimes price will either remove
+
+542
+00:24:42,960 --> 00:24:48,480
+slightly beyond the level before
+
+543
+00:24:45,480 --> 00:24:50,340
+reversing all will reverse before
+
+544
+00:24:48,480 --> 00:24:52,500
+touching the level
+
+545
+00:24:50,340 --> 00:24:55,260
+and that's the main advantage of supply
+
+546
+00:24:52,500 --> 00:24:58,559
+and demand they offer you a bigger area
+
+547
+00:24:55,260 --> 00:25:00,900
+at which the market should reverse you
+
+548
+00:24:58,559 --> 00:25:01,860
+don't have to find an entry at an exact
+
+549
+00:25:00,900 --> 00:25:03,960
+point
+
+550
+00:25:01,860 --> 00:25:07,220
+you have a whole Zone you can use to
+
+551
+00:25:03,960 --> 00:25:07,220
+place your positions
+
+552
+00:25:10,440 --> 00:25:15,480
+now there are four types of supply and
+
+553
+00:25:13,020 --> 00:25:18,419
+demand considering how the price
+
+554
+00:25:15,480 --> 00:25:21,240
+approach the supply and demand Zone and
+
+555
+00:25:18,419 --> 00:25:23,940
+how it left the Zone again I've labeled
+
+556
+00:25:21,240 --> 00:25:26,760
+them into continuation structures and
+
+557
+00:25:23,940 --> 00:25:29,700
+reversal structures continuation price
+
+558
+00:25:26,760 --> 00:25:33,120
+structures include the drop base drop
+
+559
+00:25:29,700 --> 00:25:35,580
+and the rally base rally patterns and
+
+560
+00:25:33,120 --> 00:25:38,460
+the reversal price structures are the
+
+561
+00:25:35,580 --> 00:25:40,620
+drop base rally and the rally based drop
+
+562
+00:25:38,460 --> 00:25:43,799
+patterns
+
+563
+00:25:40,620 --> 00:25:46,500
+the rally base rally is a type of demand
+
+564
+00:25:43,799 --> 00:25:49,559
+Zone which forms during an up move
+
+565
+00:25:46,500 --> 00:25:52,440
+being a continuation pattern the market
+
+566
+00:25:49,559 --> 00:25:55,679
+structure is very simple we first have a
+
+567
+00:25:52,440 --> 00:25:59,159
+rally then a consolidation or the base
+
+568
+00:25:55,679 --> 00:26:00,659
+and finally another rally which creates
+
+569
+00:25:59,159 --> 00:26:03,840
+the demand Zone
+
+570
+00:26:00,659 --> 00:26:06,539
+a rally based rally will always form a
+
+571
+00:26:03,840 --> 00:26:08,960
+demand Zone it can never create a supply
+
+572
+00:26:06,539 --> 00:26:08,960
+Zone
+
+573
+00:26:09,000 --> 00:26:15,900
+the drop based drop is a type of Supply
+
+574
+00:26:12,000 --> 00:26:18,000
+Zone which forms during a down move also
+
+575
+00:26:15,900 --> 00:26:21,299
+being a continuation pattern
+
+576
+00:26:18,000 --> 00:26:23,760
+so a drop based drop will always form a
+
+577
+00:26:21,299 --> 00:26:27,179
+supply Zone a Zone which if the market
+
+578
+00:26:23,760 --> 00:26:29,039
+returns to should push the price back in
+
+579
+00:26:27,179 --> 00:26:31,860
+the direction of the movement that
+
+580
+00:26:29,039 --> 00:26:35,340
+created the zone
+
+581
+00:26:31,860 --> 00:26:38,460
+the drop base rally is a structure which
+
+582
+00:26:35,340 --> 00:26:40,260
+forms a demand Zone in a market these
+
+583
+00:26:38,460 --> 00:26:42,720
+zones differ from the first price
+
+584
+00:26:40,260 --> 00:26:45,299
+structures mainly because of their
+
+585
+00:26:42,720 --> 00:26:47,940
+location in the market if the rally
+
+586
+00:26:45,299 --> 00:26:50,279
+based rally and the drop based Drop
+
+587
+00:26:47,940 --> 00:26:53,039
+Zones only formed during trending
+
+588
+00:26:50,279 --> 00:26:55,500
+movements the drop-based rally zones
+
+589
+00:26:53,039 --> 00:26:58,500
+will only be found when the market
+
+590
+00:26:55,500 --> 00:27:02,220
+changes from moving down to moving up
+
+591
+00:26:58,500 --> 00:27:05,760
+it's a reversal pattern
+
+592
+00:27:02,220 --> 00:27:08,400
+the rally based Drop Zones form when the
+
+593
+00:27:05,760 --> 00:27:11,400
+market reverses from moving higher to
+
+594
+00:27:08,400 --> 00:27:13,500
+moving lower when they are completed a
+
+595
+00:27:11,400 --> 00:27:15,900
+supply Zone will have formed in a market
+
+596
+00:27:13,500 --> 00:27:20,480
+which should cause the market to fall
+
+597
+00:27:15,900 --> 00:27:20,480
+again A reversal structure
+
+598
+00:27:24,960 --> 00:27:29,340
+understood the basic principles of
+
+599
+00:27:26,940 --> 00:27:31,440
+supply and demand your next step is to
+
+600
+00:27:29,340 --> 00:27:34,740
+learn to read the volume well volume
+
+601
+00:27:31,440 --> 00:27:36,960
+spread analysis is the study of price in
+
+602
+00:27:34,740 --> 00:27:39,059
+relation to its corresponding volume it
+
+603
+00:27:36,960 --> 00:27:42,020
+tries to find out the differences
+
+604
+00:27:39,059 --> 00:27:45,299
+between supply and demand in day trading
+
+605
+00:27:42,020 --> 00:27:47,820
+VSA is very important because it tracks
+
+606
+00:27:45,299 --> 00:27:49,500
+down the professional activity the moves
+
+607
+00:27:47,820 --> 00:27:51,960
+of the smart money
+
+608
+00:27:49,500 --> 00:27:54,960
+first you need to know the components of
+
+609
+00:27:51,960 --> 00:27:56,760
+the volume spread analysis first is the
+
+610
+00:27:54,960 --> 00:27:59,340
+spread the spread is the difference
+
+611
+00:27:56,760 --> 00:28:01,679
+between the opening and closing of the
+
+612
+00:27:59,340 --> 00:28:04,440
+price volume is the number of
+
+613
+00:28:01,679 --> 00:28:07,220
+transactions during a time interval
+
+614
+00:28:04,440 --> 00:28:09,919
+then we have bearish and bullish volume
+
+615
+00:28:07,220 --> 00:28:13,500
+bearish volume shows bearish activity
+
+616
+00:28:09,919 --> 00:28:16,260
+bullish volume shows bullish activity
+
+617
+00:28:13,500 --> 00:28:18,480
+then we have above average high volume
+
+618
+00:28:16,260 --> 00:28:20,760
+this is the highest volume in the
+
+619
+00:28:18,480 --> 00:28:22,980
+current session Which is higher than the
+
+620
+00:28:20,760 --> 00:28:25,080
+average volume and then we have the
+
+621
+00:28:22,980 --> 00:28:27,000
+ultra high volume it's the highest
+
+622
+00:28:25,080 --> 00:28:29,460
+volume in the current session
+
+623
+00:28:27,000 --> 00:28:32,659
+this indicator tells you whether the
+
+624
+00:28:29,460 --> 00:28:35,520
+volume is ultra high high low or average
+
+625
+00:28:32,659 --> 00:28:38,220
+it's called the volume spread for VSA
+
+626
+00:28:35,520 --> 00:28:41,279
+it's very easy to read volume using it
+
+627
+00:28:38,220 --> 00:28:43,860
+red means ultra high volume
+
+628
+00:28:41,279 --> 00:28:47,640
+yellow means high volume
+
+629
+00:28:43,860 --> 00:28:49,880
+green is average volume and blue is low
+
+630
+00:28:47,640 --> 00:28:49,880
+volume
+
+631
+00:28:49,980 --> 00:28:55,919
+now VSA can seem difficult but I'll try
+
+632
+00:28:53,220 --> 00:28:58,799
+to keep it as simple as possible there
+
+633
+00:28:55,919 --> 00:29:02,220
+are two major applications of VSA namely
+
+634
+00:28:58,799 --> 00:29:04,559
+sign of strength and sign of weakness
+
+635
+00:29:02,220 --> 00:29:08,100
+sign of strength occurs when the supply
+
+636
+00:29:04,559 --> 00:29:09,659
+is drying up after a downtrend and
+
+637
+00:29:08,100 --> 00:29:12,659
+demand increases
+
+638
+00:29:09,659 --> 00:29:14,760
+meaning more buyers come in and there
+
+639
+00:29:12,659 --> 00:29:17,340
+are less sellers in the market
+
+640
+00:29:14,760 --> 00:29:20,580
+this imbalance between supply and demand
+
+641
+00:29:17,340 --> 00:29:23,640
+causes the market to rise
+
+642
+00:29:20,580 --> 00:29:26,520
+sign of weakness occurs when demand is
+
+643
+00:29:23,640 --> 00:29:30,000
+drying up after an uptrend and Supply
+
+644
+00:29:26,520 --> 00:29:32,279
+increases in other words more sellers
+
+645
+00:29:30,000 --> 00:29:35,100
+come in and there are less buyers in the
+
+646
+00:29:32,279 --> 00:29:38,100
+market this imbalance between supply and
+
+647
+00:29:35,100 --> 00:29:40,919
+demand causes the market to fall
+
+648
+00:29:38,100 --> 00:29:43,799
+when I'm day trading I'm looking for
+
+649
+00:29:40,919 --> 00:29:45,260
+different signals of sign of strength or
+
+650
+00:29:43,799 --> 00:29:48,360
+sign of weakness
+
+651
+00:29:45,260 --> 00:29:50,520
+VSA goes hand in hand with a well-known
+
+652
+00:29:48,360 --> 00:29:54,059
+analysis method developed by Richard
+
+653
+00:29:50,520 --> 00:29:56,399
+Wyckoff Wyckoff stated that changes in a
+
+654
+00:29:54,059 --> 00:29:58,980
+market price are the result of an effort
+
+655
+00:29:56,399 --> 00:30:00,059
+which is represented by the trading
+
+656
+00:29:58,980 --> 00:30:04,860
+volume
+
+657
+00:30:00,059 --> 00:30:07,380
+so effort volume versus the result price
+
+658
+00:30:04,860 --> 00:30:09,480
+if the price action is in harmony with
+
+659
+00:30:07,380 --> 00:30:11,039
+the volume there is a good chance the
+
+660
+00:30:09,480 --> 00:30:13,440
+trend will continue
+
+661
+00:30:11,039 --> 00:30:16,260
+but if the volume in price diverged
+
+662
+00:30:13,440 --> 00:30:20,000
+significantly the market trend is likely
+
+663
+00:30:16,260 --> 00:30:20,000
+to stop or even change direction
+
+664
+00:30:23,340 --> 00:30:28,799
+based on this here are the best sign of
+
+665
+00:30:26,220 --> 00:30:32,159
+strength volume patterns for day trading
+
+666
+00:30:28,799 --> 00:30:35,279
+first is the downfrost the downtrust
+
+667
+00:30:32,159 --> 00:30:38,580
+appears as a bullish pin bar or a doji
+
+668
+00:30:35,279 --> 00:30:40,440
+bar having an ultra high volume or above
+
+669
+00:30:38,580 --> 00:30:43,620
+average volume
+
+670
+00:30:40,440 --> 00:30:46,740
+spread of the down frostbar is extremely
+
+671
+00:30:43,620 --> 00:30:47,520
+low meanwhile the volume is relatively
+
+672
+00:30:46,740 --> 00:30:50,580
+High
+
+673
+00:30:47,520 --> 00:30:53,820
+VSA implies that if the spread is low
+
+674
+00:30:50,580 --> 00:30:55,440
+then the volume should also be low but
+
+675
+00:30:53,820 --> 00:30:58,080
+in this case there is a Divergence
+
+676
+00:30:55,440 --> 00:31:00,360
+between spread and volume so there is
+
+677
+00:30:58,080 --> 00:31:04,760
+more demand than Supply potentially
+
+678
+00:31:00,360 --> 00:31:04,760
+causing price to rise in the near future
+
+679
+00:31:05,159 --> 00:31:10,320
+then we have the selling climax the
+
+680
+00:31:07,919 --> 00:31:12,720
+selling climax appears as a high spread
+
+681
+00:31:10,320 --> 00:31:15,840
+bearish candle having a noticeable
+
+682
+00:31:12,720 --> 00:31:18,480
+downward rejection week but on ultra
+
+683
+00:31:15,840 --> 00:31:20,700
+high or above average high volume
+
+684
+00:31:18,480 --> 00:31:22,799
+the signals that the market could rise
+
+685
+00:31:20,700 --> 00:31:24,659
+in the future because there is more
+
+686
+00:31:22,799 --> 00:31:27,240
+demand than Supply
+
+687
+00:31:24,659 --> 00:31:30,539
+the selling climax signal could have a
+
+688
+00:31:27,240 --> 00:31:35,120
+downward Wick whose size is around 25 to
+
+689
+00:31:30,539 --> 00:31:35,120
+50 percent of the candle's body size
+
+690
+00:31:35,159 --> 00:31:39,899
+then we have bearish effort lower than
+
+691
+00:31:38,580 --> 00:31:42,480
+the bearish result
+
+692
+00:31:39,899 --> 00:31:45,299
+this appears as a high spread bearish
+
+693
+00:31:42,480 --> 00:31:47,940
+candle whose spread is larger than the
+
+694
+00:31:45,299 --> 00:31:50,940
+previous candle spread but its volume is
+
+695
+00:31:47,940 --> 00:31:54,059
+lower than the previous scandal's volume
+
+696
+00:31:50,940 --> 00:31:56,880
+an effort meaning volume has not been
+
+697
+00:31:54,059 --> 00:31:59,460
+made but there is a result the spread
+
+698
+00:31:56,880 --> 00:32:02,100
+this disagreement between price and
+
+699
+00:31:59,460 --> 00:32:04,799
+volume increases demand and reduces
+
+700
+00:32:02,100 --> 00:32:07,880
+Supply causing the market to potentially
+
+701
+00:32:04,799 --> 00:32:07,880
+rise in the future
+
+702
+00:32:08,100 --> 00:32:12,620
+next is the bearish effort higher than
+
+703
+00:32:11,220 --> 00:32:15,600
+the bearish result
+
+704
+00:32:12,620 --> 00:32:18,299
+disappears as a low spread bearish
+
+705
+00:32:15,600 --> 00:32:20,460
+gamble having spread lower than the
+
+706
+00:32:18,299 --> 00:32:22,620
+previous Scandal spread but its volume
+
+707
+00:32:20,460 --> 00:32:23,580
+is higher than the previous candle's
+
+708
+00:32:22,620 --> 00:32:26,880
+volume
+
+709
+00:32:23,580 --> 00:32:27,600
+an effort has been made but there is no
+
+710
+00:32:26,880 --> 00:32:29,880
+result
+
+711
+00:32:27,600 --> 00:32:32,460
+in this case there's a disagreement
+
+712
+00:32:29,880 --> 00:32:35,659
+between volume and price which might
+
+713
+00:32:32,460 --> 00:32:35,659
+rise in the near future
+
+714
+00:32:35,760 --> 00:32:41,520
+we have also done no Supply bar this
+
+715
+00:32:38,760 --> 00:32:44,880
+appears as a low spread bearish candle
+
+716
+00:32:41,520 --> 00:32:47,100
+having a downward wake whose volume is
+
+717
+00:32:44,880 --> 00:32:48,179
+lower than the previous two candles
+
+718
+00:32:47,100 --> 00:32:51,120
+volumes
+
+719
+00:32:48,179 --> 00:32:53,760
+no Supply bar means that there is a lack
+
+720
+00:32:51,120 --> 00:32:54,600
+of Supply causing price to rise in the
+
+721
+00:32:53,760 --> 00:32:57,120
+future
+
+722
+00:32:54,600 --> 00:32:59,820
+an all Supply bar is a continuation
+
+723
+00:32:57,120 --> 00:33:02,520
+signal and is effective only if it
+
+724
+00:32:59,820 --> 00:33:05,399
+appears in the direction of the trend
+
+725
+00:33:02,520 --> 00:33:08,159
+there are other VSA sign of strength
+
+726
+00:33:05,399 --> 00:33:10,320
+signals but from my experience these are
+
+727
+00:33:08,159 --> 00:33:13,940
+the most effective ones to incorporate
+
+728
+00:33:10,320 --> 00:33:13,940
+in your day trading strategy
+
+729
+00:33:17,340 --> 00:33:21,179
+now let's talk about the different types
+
+730
+00:33:19,559 --> 00:33:24,360
+of sign of weakness
+
+731
+00:33:21,179 --> 00:33:27,779
+first is the up thrust the up Frost
+
+732
+00:33:24,360 --> 00:33:30,779
+appears as a bearish pin bar or doji bar
+
+733
+00:33:27,779 --> 00:33:32,220
+having an ultra high volume or above
+
+734
+00:33:30,779 --> 00:33:34,919
+average volume
+
+735
+00:33:32,220 --> 00:33:37,559
+the spread of the up thrust bar is
+
+736
+00:33:34,919 --> 00:33:38,940
+extremely low while the volume is
+
+737
+00:33:37,559 --> 00:33:41,159
+relatively High
+
+738
+00:33:38,940 --> 00:33:43,559
+in this case there's a disagreement
+
+739
+00:33:41,159 --> 00:33:46,019
+between spread and volume which
+
+740
+00:33:43,559 --> 00:33:48,840
+signifies that there is more Supply than
+
+741
+00:33:46,019 --> 00:33:51,740
+demand potentially causing price to fall
+
+742
+00:33:48,840 --> 00:33:51,740
+in the near future
+
+743
+00:33:51,899 --> 00:33:58,019
+next is the buying climax the buying
+
+744
+00:33:55,200 --> 00:34:00,600
+climax appears as a high spread bullish
+
+745
+00:33:58,019 --> 00:34:03,480
+candle having a noticeable upward
+
+746
+00:34:00,600 --> 00:34:06,360
+rejection week projected on ultra high
+
+747
+00:34:03,480 --> 00:34:08,399
+or above average high volume
+
+748
+00:34:06,360 --> 00:34:10,440
+this signals that the market could
+
+749
+00:34:08,399 --> 00:34:13,560
+decrease soon because there is more
+
+750
+00:34:10,440 --> 00:34:16,440
+Supply than demand buying climax could
+
+751
+00:34:13,560 --> 00:34:21,240
+also have an upward week representing 25
+
+752
+00:34:16,440 --> 00:34:23,940
+to 50 percent of the candle's body size
+
+753
+00:34:21,240 --> 00:34:27,000
+then we have the bullish effort lower
+
+754
+00:34:23,940 --> 00:34:29,580
+than the bullish result this is a high
+
+755
+00:34:27,000 --> 00:34:31,859
+spread bullish candle whose spread is
+
+756
+00:34:29,580 --> 00:34:34,560
+larger than the previous candle spread
+
+757
+00:34:31,859 --> 00:34:36,320
+but its volume is lower than the
+
+758
+00:34:34,560 --> 00:34:39,359
+previous scandal's volume
+
+759
+00:34:36,320 --> 00:34:42,300
+VSA states that if there has been no
+
+760
+00:34:39,359 --> 00:34:43,200
+effort made then there should not be the
+
+761
+00:34:42,300 --> 00:34:45,359
+result
+
+762
+00:34:43,200 --> 00:34:48,060
+these Divergence between price and
+
+763
+00:34:45,359 --> 00:34:50,879
+volume increases Supply and reduces
+
+764
+00:34:48,060 --> 00:34:53,179
+demand causing the market to decrease in
+
+765
+00:34:50,879 --> 00:34:53,179
+the future
+
+766
+00:34:53,399 --> 00:34:58,020
+then we have the bullish effort higher
+
+767
+00:34:56,220 --> 00:35:00,540
+than the bullish result
+
+768
+00:34:58,020 --> 00:35:03,000
+this is a low spread bullish candle
+
+769
+00:35:00,540 --> 00:35:06,000
+having spread lower than the previous
+
+770
+00:35:03,000 --> 00:35:08,880
+candle spread but its volume is higher
+
+771
+00:35:06,000 --> 00:35:11,700
+than the previous candle's volume
+
+772
+00:35:08,880 --> 00:35:14,579
+VSA suggests that if an effort has been
+
+773
+00:35:11,700 --> 00:35:17,040
+made then there must be a result
+
+774
+00:35:14,579 --> 00:35:19,560
+in this case there's a disagreement
+
+775
+00:35:17,040 --> 00:35:22,500
+between price and volume resulting
+
+776
+00:35:19,560 --> 00:35:26,579
+Supply to become more than demand and
+
+777
+00:35:22,500 --> 00:35:29,820
+causing price to fall in the near future
+
+778
+00:35:26,579 --> 00:35:32,099
+and then we have the no demand bar this
+
+779
+00:35:29,820 --> 00:35:35,579
+is a low spread bullish candle having
+
+780
+00:35:32,099 --> 00:35:38,700
+upward week whose volume is lower than
+
+781
+00:35:35,579 --> 00:35:40,920
+the previous two candles volumes the no
+
+782
+00:35:38,700 --> 00:35:44,099
+demand bar means that there is a lack of
+
+783
+00:35:40,920 --> 00:35:47,220
+demand and Supply is overpowering demand
+
+784
+00:35:44,099 --> 00:35:50,099
+causing price to fall in the future
+
+785
+00:35:47,220 --> 00:35:52,560
+no demand is a continuation signal and
+
+786
+00:35:50,099 --> 00:35:54,839
+not a reversal signal and is effective
+
+787
+00:35:52,560 --> 00:35:57,900
+only if it appears after bearish
+
+788
+00:35:54,839 --> 00:36:00,300
+momentum in the direction of the trend
+
+789
+00:35:57,900 --> 00:36:03,300
+there are other VSA patterns you could
+
+790
+00:36:00,300 --> 00:36:05,760
+follow but for now stick with this
+
+791
+00:36:03,300 --> 00:36:08,280
+if you want to learn more about VSA
+
+792
+00:36:05,760 --> 00:36:11,579
+check out this video after you finish
+
+793
+00:36:08,280 --> 00:36:13,560
+watching this one analyzing VSA was a
+
+794
+00:36:11,579 --> 00:36:16,200
+really game-changing moment in my day
+
+795
+00:36:13,560 --> 00:36:18,780
+trading it will be hard at first but
+
+796
+00:36:16,200 --> 00:36:22,200
+with time you'll see the volume patterns
+
+797
+00:36:18,780 --> 00:36:24,420
+more clearly volume spread analysis is
+
+798
+00:36:22,200 --> 00:36:26,520
+one of the most powerful day trading
+
+799
+00:36:24,420 --> 00:36:28,740
+strategies which reveal the true
+
+800
+00:36:26,520 --> 00:36:30,920
+sentiment in the order flow of the
+
+801
+00:36:28,740 --> 00:36:30,920
+market
+
+802
+00:36:35,339 --> 00:36:40,619
+most day Traders are using lagging
+
+803
+00:36:38,040 --> 00:36:43,440
+indicators in their analysis and their
+
+804
+00:36:40,619 --> 00:36:46,140
+lagging signals can only be known after
+
+805
+00:36:43,440 --> 00:36:48,240
+the event don't get me wrong this
+
+806
+00:36:46,140 --> 00:36:50,760
+doesn't make them useless they can
+
+807
+00:36:48,240 --> 00:36:53,520
+clarify and confirm your bias but
+
+808
+00:36:50,760 --> 00:36:55,800
+leading indicators or signals are the
+
+809
+00:36:53,520 --> 00:36:58,800
+ones you should consider adding in your
+
+810
+00:36:55,800 --> 00:37:01,619
+technical analysis leaning indicators
+
+811
+00:36:58,800 --> 00:37:04,920
+give signals when the trend is about to
+
+812
+00:37:01,619 --> 00:37:07,800
+start whereas lagging indicators are
+
+813
+00:37:04,920 --> 00:37:09,780
+those which follow price action my
+
+814
+00:37:07,800 --> 00:37:11,579
+favorite leading indicator is the volume
+
+815
+00:37:09,780 --> 00:37:14,339
+we talked about it in the previous
+
+816
+00:37:11,579 --> 00:37:16,560
+module because it communicates the
+
+817
+00:37:14,339 --> 00:37:20,040
+involvements of smart money
+
+818
+00:37:16,560 --> 00:37:22,380
+volume spread for VSA indicator became
+
+819
+00:37:20,040 --> 00:37:25,260
+an important tool in my day trading
+
+820
+00:37:22,380 --> 00:37:27,060
+routine supply and demand concept is
+
+821
+00:37:25,260 --> 00:37:29,280
+another leading tool
+
+822
+00:37:27,060 --> 00:37:32,339
+from the multitude of lagging indicators
+
+823
+00:37:29,280 --> 00:37:35,339
+I also use a couple of them but the most
+
+824
+00:37:32,339 --> 00:37:38,000
+important one is the view up so let's
+
+825
+00:37:35,339 --> 00:37:38,000
+talk about it
+
+826
+00:37:41,160 --> 00:37:45,780
+the volume weighted average price gives
+
+827
+00:37:43,980 --> 00:37:48,420
+you the average price a market has
+
+828
+00:37:45,780 --> 00:37:51,359
+traded throughout the day based on both
+
+829
+00:37:48,420 --> 00:37:54,300
+volume and price and this tool is
+
+830
+00:37:51,359 --> 00:37:56,880
+important especially in day trading the
+
+831
+00:37:54,300 --> 00:37:59,160
+viewer appears as a single line on
+
+832
+00:37:56,880 --> 00:38:01,740
+intraday charts similar to a moving
+
+833
+00:37:59,160 --> 00:38:05,400
+average view up is a simple indicator
+
+834
+00:38:01,740 --> 00:38:08,160
+the price is either above it or below it
+
+835
+00:38:05,400 --> 00:38:10,680
+that's why it's an easy measurement on
+
+836
+00:38:08,160 --> 00:38:11,880
+whether a market is cheap or expensive
+
+837
+00:38:10,680 --> 00:38:14,000
+on the day
+
+838
+00:38:11,880 --> 00:38:16,859
+you can use it to help you pinpoint
+
+839
+00:38:14,000 --> 00:38:19,560
+intelligent entry and exit points for
+
+840
+00:38:16,859 --> 00:38:21,780
+your day trades and at the same time it
+
+841
+00:38:19,560 --> 00:38:25,079
+can help you to determine Trend changes
+
+842
+00:38:21,780 --> 00:38:27,720
+often quicker than a moving average
+
+843
+00:38:25,079 --> 00:38:31,020
+for day trading you can read The View up
+
+844
+00:38:27,720 --> 00:38:33,240
+to generate buy and sell signals this
+
+845
+00:38:31,020 --> 00:38:35,579
+can be simply done by comparing the
+
+846
+00:38:33,240 --> 00:38:37,260
+relationship between view up and the
+
+847
+00:38:35,579 --> 00:38:40,020
+current market price
+
+848
+00:38:37,260 --> 00:38:42,480
+if the current market price exceeds a
+
+849
+00:38:40,020 --> 00:38:45,660
+rising view up this suggests the Buy
+
+850
+00:38:42,480 --> 00:38:48,060
+Signal if the price Falls below a
+
+851
+00:38:45,660 --> 00:38:51,060
+falling view up it suggests a sell
+
+852
+00:38:48,060 --> 00:38:54,480
+Signal View up can also be used to
+
+853
+00:38:51,060 --> 00:38:56,579
+detect Trends and changes in price if
+
+854
+00:38:54,480 --> 00:38:58,920
+price action stays above the view up
+
+855
+00:38:56,579 --> 00:39:01,619
+this signals that the price is in a
+
+856
+00:38:58,920 --> 00:39:04,140
+general uptrend if price action stays
+
+857
+00:39:01,619 --> 00:39:07,380
+below the view up they signals a general
+
+858
+00:39:04,140 --> 00:39:09,780
+downtrend and using v-wop to identify
+
+859
+00:39:07,380 --> 00:39:12,599
+support and resistance levels can be
+
+860
+00:39:09,780 --> 00:39:15,420
+another useful function in day trading
+
+861
+00:39:12,599 --> 00:39:18,420
+you can use view app to identify dynamic
+
+862
+00:39:15,420 --> 00:39:20,460
+levels and buy when price retraces
+
+863
+00:39:18,420 --> 00:39:23,760
+testing the level
+
+864
+00:39:20,460 --> 00:39:26,660
+and sell when price rejects a dynamic
+
+865
+00:39:23,760 --> 00:39:26,660
+resistance area
+
+866
+00:39:30,119 --> 00:39:35,700
+mostly Traders are using the daily view
+
+867
+00:39:32,700 --> 00:39:38,880
+up but you can also day trade based on
+
+868
+00:39:35,700 --> 00:39:40,980
+the weekly and even monthly view up
+
+869
+00:39:38,880 --> 00:39:43,619
+weekly view up shows you the trend
+
+870
+00:39:40,980 --> 00:39:46,740
+depending on where the price is trading
+
+871
+00:39:43,619 --> 00:39:47,760
+above or below in relation to the view
+
+872
+00:39:46,740 --> 00:39:50,760
+upline
+
+873
+00:39:47,760 --> 00:39:53,040
+again one of the simplest uses of the
+
+874
+00:39:50,760 --> 00:39:54,240
+weekly view up is for finding pullback
+
+875
+00:39:53,040 --> 00:39:57,359
+opportunities
+
+876
+00:39:54,240 --> 00:39:59,760
+view outline acts as a support if the
+
+877
+00:39:57,359 --> 00:40:02,160
+price is trading above it and as a
+
+878
+00:39:59,760 --> 00:40:03,630
+resistance if the price is trading below
+
+879
+00:40:02,160 --> 00:40:07,760
+it
+
+880
+00:40:03,630 --> 00:40:10,440
+[Music]
+
+881
+00:40:07,760 --> 00:40:13,200
+anchored view up is another variation
+
+882
+00:40:10,440 --> 00:40:14,520
+which has an edge over the default
+
+883
+00:40:13,200 --> 00:40:17,160
+version
+
+884
+00:40:14,520 --> 00:40:21,599
+I'm using trading View and you can find
+
+885
+00:40:17,160 --> 00:40:23,579
+the anchored view up in trendline tools
+
+886
+00:40:21,599 --> 00:40:26,520
+the anchored view obtains its
+
+887
+00:40:23,579 --> 00:40:27,359
+calculations to a specific price bar you
+
+888
+00:40:26,520 --> 00:40:30,119
+choose
+
+889
+00:40:27,359 --> 00:40:32,820
+evolved view up always starts with the
+
+890
+00:40:30,119 --> 00:40:35,099
+first bar of the day and ends with the
+
+891
+00:40:32,820 --> 00:40:37,619
+final bar of the day but in some
+
+892
+00:40:35,099 --> 00:40:39,780
+situations you would prefer to analyze
+
+893
+00:40:37,619 --> 00:40:42,540
+the view of line based on another
+
+894
+00:40:39,780 --> 00:40:45,240
+starting point and be able to extend
+
+895
+00:40:42,540 --> 00:40:46,560
+that view of line beyond the end of the
+
+896
+00:40:45,240 --> 00:40:49,560
+trading day
+
+897
+00:40:46,560 --> 00:40:51,839
+anchored v-wop allows you to specify the
+
+898
+00:40:49,560 --> 00:40:55,500
+price bar where calculations begin
+
+899
+00:40:51,839 --> 00:40:58,079
+making it easy to see whether buyers or
+
+900
+00:40:55,500 --> 00:41:00,660
+sellers have been in charge since a very
+
+901
+00:40:58,079 --> 00:41:03,780
+specific point in time with anchored
+
+902
+00:41:00,660 --> 00:41:06,180
+view up you choose a first candle you
+
+903
+00:41:03,780 --> 00:41:08,640
+are anchoring the indicator to that bar
+
+904
+00:41:06,180 --> 00:41:13,099
+you have full control and you get
+
+905
+00:41:08,640 --> 00:41:13,099
+flexible starting and ending points
+
+906
+00:41:15,900 --> 00:41:21,300
+so how do they trade using the anchored
+
+907
+00:41:18,359 --> 00:41:24,240
+view up a good strategy is to look for
+
+908
+00:41:21,300 --> 00:41:26,400
+key price swings or turning points in
+
+909
+00:41:24,240 --> 00:41:27,180
+recent price action to Anchor The View
+
+910
+00:41:26,400 --> 00:41:30,000
+up
+
+911
+00:41:27,180 --> 00:41:31,619
+you basically Place The View up on these
+
+912
+00:41:30,000 --> 00:41:33,780
+key levels
+
+913
+00:41:31,619 --> 00:41:36,780
+the most common strategy using the
+
+914
+00:41:33,780 --> 00:41:39,240
+anchored view up is the pullback trade
+
+915
+00:41:36,780 --> 00:41:42,300
+a pullback occurs when the price that's
+
+916
+00:41:39,240 --> 00:41:45,000
+on an extended move upward or downward
+
+917
+00:41:42,300 --> 00:41:47,339
+makes a small movement in the opposite
+
+918
+00:41:45,000 --> 00:41:48,359
+direction towards the anchored view up
+
+919
+00:41:47,339 --> 00:41:51,240
+line
+
+920
+00:41:48,359 --> 00:41:54,000
+to trade a pullback setup you find an
+
+921
+00:41:51,240 --> 00:41:57,300
+uptrend with price making higher highs
+
+922
+00:41:54,000 --> 00:41:59,760
+and higher lows then you anchor The View
+
+923
+00:41:57,300 --> 00:42:02,280
+up on a key pivot
+
+924
+00:41:59,760 --> 00:42:04,800
+price trades of course above the angle
+
+925
+00:42:02,280 --> 00:42:07,280
+view up and you patiently wait for a
+
+926
+00:42:04,800 --> 00:42:10,680
+price to make a pullback to the downside
+
+927
+00:42:07,280 --> 00:42:13,200
+returning to the view of line This is a
+
+928
+00:42:10,680 --> 00:42:16,619
+chance to buy the market in this Zone
+
+929
+00:42:13,200 --> 00:42:18,780
+you can find a demand area or a VSA
+
+930
+00:42:16,619 --> 00:42:21,300
+pattern as an entry
+
+931
+00:42:18,780 --> 00:42:24,119
+look how price reacted to the anchored
+
+932
+00:42:21,300 --> 00:42:26,460
+view upline the first pullback after we
+
+933
+00:42:24,119 --> 00:42:28,820
+applied the line was a perfect bounce
+
+934
+00:42:26,460 --> 00:42:28,820
+rate
+
+935
+00:42:32,160 --> 00:42:37,140
+another day trading strategy is to
+
+936
+00:42:34,980 --> 00:42:38,339
+Anchor The View up on the highest volume
+
+937
+00:42:37,140 --> 00:42:41,099
+candle
+
+938
+00:42:38,339 --> 00:42:43,500
+I said it before high volume means
+
+939
+00:42:41,099 --> 00:42:45,599
+there's an interest in the market and if
+
+940
+00:42:43,500 --> 00:42:48,240
+it's combined with a move higher in
+
+941
+00:42:45,599 --> 00:42:50,820
+price then it's often used as a signal
+
+942
+00:42:48,240 --> 00:42:53,520
+of strong upward momentum
+
+943
+00:42:50,820 --> 00:42:56,040
+in this example we identified the
+
+944
+00:42:53,520 --> 00:42:57,300
+highest volume we added the anchored
+
+945
+00:42:56,040 --> 00:43:00,060
+view up
+
+946
+00:42:57,300 --> 00:43:02,940
+and the line immediately offered several
+
+947
+00:43:00,060 --> 00:43:05,220
+opportunities to buy the dip
+
+948
+00:43:02,940 --> 00:43:08,400
+you go with the flow of the highest
+
+949
+00:43:05,220 --> 00:43:10,920
+volume and try to catch another swing to
+
+950
+00:43:08,400 --> 00:43:13,920
+the upside when price comes back to the
+
+951
+00:43:10,920 --> 00:43:16,200
+anchored view up as a standalone study
+
+952
+00:43:13,920 --> 00:43:19,380
+or when viewed with other oscillators
+
+953
+00:43:16,200 --> 00:43:22,280
+the anchored view up is a must use tool
+
+954
+00:43:19,380 --> 00:43:22,280
+in day trading
+
+955
+00:43:25,319 --> 00:43:30,660
+pivot Points are my favorite day trading
+
+956
+00:43:27,720 --> 00:43:33,660
+indicators pivots are fixed support and
+
+957
+00:43:30,660 --> 00:43:36,780
+resistance levels based on the high low
+
+958
+00:43:33,660 --> 00:43:39,540
+and close of the previous day unlike
+
+959
+00:43:36,780 --> 00:43:42,060
+lagging indicators pivots don't change
+
+960
+00:43:39,540 --> 00:43:43,980
+as you change your time frame once you
+
+961
+00:43:42,060 --> 00:43:47,099
+plot them on your chart at the market
+
+962
+00:43:43,980 --> 00:43:49,380
+opening they remain there until the
+
+963
+00:43:47,099 --> 00:43:52,079
+market closes and one more important
+
+964
+00:43:49,380 --> 00:43:53,280
+aspect pivots are being used by big
+
+965
+00:43:52,079 --> 00:43:56,220
+players
+
+966
+00:43:53,280 --> 00:43:59,160
+in recent years I focused on the central
+
+967
+00:43:56,220 --> 00:44:01,200
+pivot range I came to know about the
+
+968
+00:43:59,160 --> 00:44:03,540
+central pivot range concept after
+
+969
+00:44:01,200 --> 00:44:04,740
+reading the logical Trader by Mark
+
+970
+00:44:03,540 --> 00:44:08,280
+Fisher
+
+971
+00:44:04,740 --> 00:44:11,760
+CPR is a range of three lines one above
+
+972
+00:44:08,280 --> 00:44:13,740
+and one below the central Pivot Point
+
+973
+00:44:11,760 --> 00:44:16,680
+the fundamental idea behind this
+
+974
+00:44:13,740 --> 00:44:19,440
+indicator is that a particular trading
+
+975
+00:44:16,680 --> 00:44:22,920
+range captures everything about a market
+
+976
+00:44:19,440 --> 00:44:24,900
+sentiment thus this range can be used to
+
+977
+00:44:22,920 --> 00:44:27,500
+predict the price movement of the
+
+978
+00:44:24,900 --> 00:44:27,500
+following days
+
+979
+00:44:27,839 --> 00:44:33,180
+so how to read the price action using
+
+980
+00:44:30,300 --> 00:44:36,599
+the central pivot range when the CPR
+
+981
+00:44:33,180 --> 00:44:38,880
+makes higher highs meaning the CPR is
+
+982
+00:44:36,599 --> 00:44:40,859
+higher than the previous day that
+
+983
+00:44:38,880 --> 00:44:41,880
+indicates that the market is in an
+
+984
+00:44:40,859 --> 00:44:45,720
+uptrend
+
+985
+00:44:41,880 --> 00:44:48,240
+when the CPR makes lower lows is lower
+
+986
+00:44:45,720 --> 00:44:50,040
+compared to the previous day this
+
+987
+00:44:48,240 --> 00:44:51,240
+indicates that the market is in a
+
+988
+00:44:50,040 --> 00:44:53,880
+downtrend
+
+989
+00:44:51,240 --> 00:44:57,240
+as long as the price is above the CPR
+
+990
+00:44:53,880 --> 00:44:59,640
+it's generally known as a bullish day
+
+991
+00:44:57,240 --> 00:45:03,540
+and as long as the price is trading
+
+992
+00:44:59,640 --> 00:45:06,359
+below the CPR we are in a bearish day
+
+993
+00:45:03,540 --> 00:45:08,520
+The Wider the central pivot range the
+
+994
+00:45:06,359 --> 00:45:11,819
+more difficult for the price to break
+
+995
+00:45:08,520 --> 00:45:14,220
+the area this basically means that wider
+
+996
+00:45:11,819 --> 00:45:17,040
+Central pivot ranges are more powerful
+
+997
+00:45:14,220 --> 00:45:19,800
+than a narrow waist CPR
+
+998
+00:45:17,040 --> 00:45:23,040
+have a look at this chart this was a
+
+999
+00:45:19,800 --> 00:45:26,520
+wide CPR day and when price retraced
+
+1000
+00:45:23,040 --> 00:45:29,099
+that area it found support and was
+
+1001
+00:45:26,520 --> 00:45:32,400
+unable to go below it
+
+1002
+00:45:29,099 --> 00:45:35,579
+happened when the CPR was narrow the
+
+1003
+00:45:32,400 --> 00:45:38,339
+price broke on both sides and no clear
+
+1004
+00:45:35,579 --> 00:45:41,460
+Trend during that day just sideways
+
+1005
+00:45:38,339 --> 00:45:44,160
+price movement and lots of consolidation
+
+1006
+00:45:41,460 --> 00:45:46,680
+so if the CPR is too narrow it's
+
+1007
+00:45:44,160 --> 00:45:49,819
+unlikely it will offer a solid support
+
+1008
+00:45:46,680 --> 00:45:49,819
+to resistance area
+
+1009
+00:45:49,920 --> 00:45:56,520
+also when the central pivot range is
+
+1010
+00:45:52,740 --> 00:45:59,339
+wider often but not always such days are
+
+1011
+00:45:56,520 --> 00:46:02,400
+range days where price moves from one
+
+1012
+00:45:59,339 --> 00:46:04,980
+range to another throughout the day
+
+1013
+00:46:02,400 --> 00:46:08,460
+look at this example we had a strong
+
+1014
+00:46:04,980 --> 00:46:11,460
+move upward so the next day the CPR was
+
+1015
+00:46:08,460 --> 00:46:14,640
+quite wide we had a range day around
+
+1016
+00:46:11,460 --> 00:46:17,339
+this area and remember the previous rule
+
+1017
+00:46:14,640 --> 00:46:19,920
+a wide range means that is more
+
+1018
+00:46:17,339 --> 00:46:22,040
+difficult for the price to break the
+
+1019
+00:46:19,920 --> 00:46:22,040
+area
+
+1020
+00:46:22,140 --> 00:46:27,480
+another observation is that the narrow
+
+1021
+00:46:24,720 --> 00:46:30,060
+Central pivot range can lead to a big
+
+1022
+00:46:27,480 --> 00:46:32,940
+trending day and the wide Central pivot
+
+1023
+00:46:30,060 --> 00:46:34,140
+range can lead to quiet and range bound
+
+1024
+00:46:32,940 --> 00:46:36,660
+days
+
+1025
+00:46:34,140 --> 00:46:39,599
+in this example you can see a very
+
+1026
+00:46:36,660 --> 00:46:42,300
+narrow range day which lead to a huge
+
+1027
+00:46:39,599 --> 00:46:45,060
+move during the day observe how the
+
+1028
+00:46:42,300 --> 00:46:48,060
+price was trending in One Direction with
+
+1029
+00:46:45,060 --> 00:46:51,000
+lots of momentum and of course after
+
+1030
+00:46:48,060 --> 00:46:54,420
+such a strong trending day the next day
+
+1031
+00:46:51,000 --> 00:46:57,119
+was a wide range CPR with sideways price
+
+1032
+00:46:54,420 --> 00:46:59,880
+action this is an efficient way to
+
+1033
+00:46:57,119 --> 00:47:03,119
+analyze price quite different from the
+
+1034
+00:46:59,880 --> 00:47:05,760
+classic price action techniques
+
+1035
+00:47:03,119 --> 00:47:08,400
+and there's another high probability day
+
+1036
+00:47:05,760 --> 00:47:11,760
+trading strategy and that is the fresh
+
+1037
+00:47:08,400 --> 00:47:15,480
+Central pivot range if on any given day
+
+1038
+00:47:11,760 --> 00:47:18,240
+price didn't touch its CPR it will be
+
+1039
+00:47:15,480 --> 00:47:20,640
+considered as a fresh CPR for the next
+
+1040
+00:47:18,240 --> 00:47:23,040
+coming two or three days
+
+1041
+00:47:20,640 --> 00:47:25,500
+here's an example the price made an
+
+1042
+00:47:23,040 --> 00:47:29,220
+aggressive move downward and the next
+
+1043
+00:47:25,500 --> 00:47:32,099
+day price action didn't touch its CPR so
+
+1044
+00:47:29,220 --> 00:47:34,440
+that was a fresh CPR day an important
+
+1045
+00:47:32,099 --> 00:47:37,160
+area to keep an eye on for the next
+
+1046
+00:47:34,440 --> 00:47:40,140
+several days
+
+1047
+00:47:37,160 --> 00:47:43,319
+CPR is a powerful support and resistance
+
+1048
+00:47:40,140 --> 00:47:45,720
+area essentially each pullback to the
+
+1049
+00:47:43,319 --> 00:47:48,480
+pivot range is a buying opportunity
+
+1050
+00:47:45,720 --> 00:47:50,940
+within an uptrend and the selling
+
+1051
+00:47:48,480 --> 00:47:53,220
+opportunity in a downtrend
+
+1052
+00:47:50,940 --> 00:47:55,680
+at the beginning of the day the first
+
+1053
+00:47:53,220 --> 00:47:58,200
+step you need to take is to analyze the
+
+1054
+00:47:55,680 --> 00:47:59,339
+position of the CPR relative to the
+
+1055
+00:47:58,200 --> 00:48:02,040
+previous day
+
+1056
+00:47:59,339 --> 00:48:04,920
+if it's higher you know that during the
+
+1057
+00:48:02,040 --> 00:48:07,440
+day you'll be searching for long entries
+
+1058
+00:48:04,920 --> 00:48:08,400
+if it's lower you want to short the
+
+1059
+00:48:07,440 --> 00:48:11,520
+market
+
+1060
+00:48:08,400 --> 00:48:13,920
+if the CPR is wide then the price will
+
+1061
+00:48:11,520 --> 00:48:17,280
+most likely find support or resistance
+
+1062
+00:48:13,920 --> 00:48:18,540
+at the CPR but be prepared for ranging
+
+1063
+00:48:17,280 --> 00:48:21,780
+conditions
+
+1064
+00:48:18,540 --> 00:48:24,180
+if the CPR is narrow you can have a
+
+1065
+00:48:21,780 --> 00:48:27,540
+strong trending day but at the same time
+
+1066
+00:48:24,180 --> 00:48:30,079
+the CPR may not offer much support or
+
+1067
+00:48:27,540 --> 00:48:30,079
+resistance
+
+1068
+00:48:31,660 --> 00:48:37,140
+[Music]
+
+1069
+00:48:34,260 --> 00:48:39,839
+as I said before a lot of day Traders
+
+1070
+00:48:37,140 --> 00:48:42,119
+are using lagging indicators and then
+
+1071
+00:48:39,839 --> 00:48:45,960
+they complain that day trading is hard
+
+1072
+00:48:42,119 --> 00:48:48,000
+if you use RSI stochastic or macd and
+
+1073
+00:48:45,960 --> 00:48:50,819
+try to find overbought and oversold
+
+1074
+00:48:48,000 --> 00:48:53,700
+signals then I agree you won't enjoy day
+
+1075
+00:48:50,819 --> 00:48:56,220
+trading much I also focused on this
+
+1076
+00:48:53,700 --> 00:48:59,640
+lagging indicators when I started a day
+
+1077
+00:48:56,220 --> 00:49:02,339
+trade no shame in that but nowadays when
+
+1078
+00:48:59,640 --> 00:49:04,980
+I'm analyzing a lagging tool I mainly
+
+1079
+00:49:02,339 --> 00:49:06,480
+look for divergences because they offer
+
+1080
+00:49:04,980 --> 00:49:09,180
+leading signals
+
+1081
+00:49:06,480 --> 00:49:11,520
+I use the stochastic indicator but you
+
+1082
+00:49:09,180 --> 00:49:13,680
+can replace it with any oscillator you
+
+1083
+00:49:11,520 --> 00:49:16,560
+prefer
+
+1084
+00:49:13,680 --> 00:49:18,900
+in day trading divergences should be one
+
+1085
+00:49:16,560 --> 00:49:21,240
+of your most important tools because
+
+1086
+00:49:18,900 --> 00:49:23,400
+they signal momentum coming into the
+
+1087
+00:49:21,240 --> 00:49:26,880
+main Trend or indicate a possible
+
+1088
+00:49:23,400 --> 00:49:29,579
+reversal when the trend is nearly over
+
+1089
+00:49:26,880 --> 00:49:32,339
+again leading signals
+
+1090
+00:49:29,579 --> 00:49:34,619
+a Divergence occurs when the price and
+
+1091
+00:49:32,339 --> 00:49:37,460
+the indicator provide conflicting
+
+1092
+00:49:34,619 --> 00:49:40,160
+signals by moving in opposite directions
+
+1093
+00:49:37,460 --> 00:49:44,099
+there are two types of divergences
+
+1094
+00:49:40,160 --> 00:49:46,560
+regular and hidden a regular bearish
+
+1095
+00:49:44,099 --> 00:49:50,400
+Divergence appears during an uptrend
+
+1096
+00:49:46,560 --> 00:49:53,640
+when the price is making higher highs by
+
+1097
+00:49:50,400 --> 00:49:55,920
+the indicator the stochastic indicates a
+
+1098
+00:49:53,640 --> 00:49:58,740
+lower high that's an indication of
+
+1099
+00:49:55,920 --> 00:50:02,099
+Market exhaustion and a possible sign of
+
+1100
+00:49:58,740 --> 00:50:03,960
+Market reversal or at least a short-term
+
+1101
+00:50:02,099 --> 00:50:06,599
+correction
+
+1102
+00:50:03,960 --> 00:50:09,000
+a regular bullish Divergence appears
+
+1103
+00:50:06,599 --> 00:50:12,060
+during a downtrend when the price is
+
+1104
+00:50:09,000 --> 00:50:15,839
+making lower lows but the oscillator
+
+1105
+00:50:12,060 --> 00:50:18,359
+records higher lows thus the regular
+
+1106
+00:50:15,839 --> 00:50:20,760
+bullish Divergence suggests a possible
+
+1107
+00:50:18,359 --> 00:50:22,380
+Market reversal or a short-term
+
+1108
+00:50:20,760 --> 00:50:25,079
+correction
+
+1109
+00:50:22,380 --> 00:50:27,900
+in a bullish hidden Divergence the
+
+1110
+00:50:25,079 --> 00:50:30,660
+oscillator makes lower lows but the
+
+1111
+00:50:27,900 --> 00:50:32,339
+price makes either a higher low or a
+
+1112
+00:50:30,660 --> 00:50:34,619
+double bottom low
+
+1113
+00:50:32,339 --> 00:50:36,660
+this type of pattern occurs mainly
+
+1114
+00:50:34,619 --> 00:50:39,420
+during uptrend Corrections
+
+1115
+00:50:36,660 --> 00:50:42,119
+in this example the price was in a very
+
+1116
+00:50:39,420 --> 00:50:44,700
+strong upward Trend and recorded an
+
+1117
+00:50:42,119 --> 00:50:48,180
+important correction the price failed to
+
+1118
+00:50:44,700 --> 00:50:51,059
+record new lows enclosed higher than the
+
+1119
+00:50:48,180 --> 00:50:53,640
+previous downward swing if we look at
+
+1120
+00:50:51,059 --> 00:50:56,579
+the oscillator it recorded a lower low
+
+1121
+00:50:53,640 --> 00:50:58,619
+thus forming a hidden Divergence and
+
+1122
+00:50:56,579 --> 00:51:01,859
+signaling that a possible upward
+
+1123
+00:50:58,619 --> 00:51:04,680
+movement is on the cards
+
+1124
+00:51:01,859 --> 00:51:07,319
+in a bearish hidden Divergence the
+
+1125
+00:51:04,680 --> 00:51:10,440
+oscillator makes higher Highs but the
+
+1126
+00:51:07,319 --> 00:51:11,940
+price makes either lower price or double
+
+1127
+00:51:10,440 --> 00:51:14,160
+bottom highs
+
+1128
+00:51:11,940 --> 00:51:16,619
+this type of pattern occurs mainly
+
+1129
+00:51:14,160 --> 00:51:19,380
+during downtrend Corrections in this
+
+1130
+00:51:16,619 --> 00:51:21,599
+example after a strong uptrend the
+
+1131
+00:51:19,380 --> 00:51:24,720
+recent price action indicated a downward
+
+1132
+00:51:21,599 --> 00:51:27,780
+momentum with price making lower highs
+
+1133
+00:51:24,720 --> 00:51:32,180
+the oscillator recorded higher highs
+
+1134
+00:51:27,780 --> 00:51:32,180
+thus forming a hidden Divergence
+
+1135
+00:51:32,280 --> 00:51:38,579
+with regular divergences the oscillators
+
+1136
+00:51:35,460 --> 00:51:41,280
+indicate momentum shift and thus points
+
+1137
+00:51:38,579 --> 00:51:43,140
+toward the reversal of the trend this
+
+1138
+00:51:41,280 --> 00:51:45,780
+implies that the regular Divergence
+
+1139
+00:51:43,140 --> 00:51:47,339
+warns that the end of the trend is
+
+1140
+00:51:45,780 --> 00:51:49,980
+expected
+
+1141
+00:51:47,339 --> 00:51:52,800
+hidden divergences signal momentum
+
+1142
+00:51:49,980 --> 00:51:55,079
+coming into the main Trend suggesting a
+
+1143
+00:51:52,800 --> 00:51:58,099
+possible continuation in the main
+
+1144
+00:51:55,079 --> 00:51:58,099
+direction of the trend
+
+1145
+00:52:01,440 --> 00:52:07,200
+the reason why so many day Traders fail
+
+1146
+00:52:04,380 --> 00:52:10,440
+when taking Divergent signals is because
+
+1147
+00:52:07,200 --> 00:52:12,300
+they take counter Trend signals they
+
+1148
+00:52:10,440 --> 00:52:13,920
+spot a regular Divergence and
+
+1149
+00:52:12,300 --> 00:52:16,440
+immediately think the market will
+
+1150
+00:52:13,920 --> 00:52:19,140
+reverse a smarter way to trade
+
+1151
+00:52:16,440 --> 00:52:22,500
+divergences is to identify the main
+
+1152
+00:52:19,140 --> 00:52:25,859
+Trend maybe with price action maybe with
+
+1153
+00:52:22,500 --> 00:52:29,579
+a view up or the CPR indicator and find
+
+1154
+00:52:25,859 --> 00:52:32,220
+divergences that go along with the trend
+
+1155
+00:52:29,579 --> 00:52:35,339
+in the case of an upward Trend you
+
+1156
+00:52:32,220 --> 00:52:38,099
+ignore bearish regular divergences those
+
+1157
+00:52:35,339 --> 00:52:40,260
+appearing on the top of the oscillator
+
+1158
+00:52:38,099 --> 00:52:41,640
+and search for bullish regular
+
+1159
+00:52:40,260 --> 00:52:44,099
+divergences
+
+1160
+00:52:41,640 --> 00:52:46,079
+you also look for bullish hidden
+
+1161
+00:52:44,099 --> 00:52:48,660
+divergences
+
+1162
+00:52:46,079 --> 00:52:51,900
+in the case of a downtrend you ignore
+
+1163
+00:52:48,660 --> 00:52:55,020
+bullish regular divergences and search
+
+1164
+00:52:51,900 --> 00:52:57,300
+for bearish regular divergences and
+
+1165
+00:52:55,020 --> 00:52:59,400
+bearish hidden divergences
+
+1166
+00:52:57,300 --> 00:53:01,920
+and this way you have a higher
+
+1167
+00:52:59,400 --> 00:53:04,260
+probability of a successful Divergence
+
+1168
+00:53:01,920 --> 00:53:07,449
+trade
+
+1169
+00:53:04,260 --> 00:53:07,449
+[Music]
+
+1170
+00:53:07,619 --> 00:53:12,540
+the location of the Divergence is very
+
+1171
+00:53:10,020 --> 00:53:15,660
+important adding the filter of location
+
+1172
+00:53:12,540 --> 00:53:18,420
+can usually enhance the quality of your
+
+1173
+00:53:15,660 --> 00:53:20,640
+Divergent signals instead of taking
+
+1174
+00:53:18,420 --> 00:53:23,280
+trades just because of a Divergent
+
+1175
+00:53:20,640 --> 00:53:25,920
+signal you'd wait for the price to move
+
+1176
+00:53:23,280 --> 00:53:28,980
+into a previous Supply or demand Zone
+
+1177
+00:53:25,920 --> 00:53:31,980
+and only then look for divergences and
+
+1178
+00:53:28,980 --> 00:53:35,220
+Trend shifts to time your entries
+
+1179
+00:53:31,980 --> 00:53:37,200
+in this example you see an uptrend with
+
+1180
+00:53:35,220 --> 00:53:41,280
+two divergences
+
+1181
+00:53:37,200 --> 00:53:44,040
+however the first one completely failed
+
+1182
+00:53:41,280 --> 00:53:45,000
+and the second one resulted in a massive
+
+1183
+00:53:44,040 --> 00:53:48,059
+winner
+
+1184
+00:53:45,000 --> 00:53:50,099
+what was the difference if we analyzed a
+
+1185
+00:53:48,059 --> 00:53:52,500
+big picture we see that the first
+
+1186
+00:53:50,099 --> 00:53:53,700
+Divergence happened in the middle of
+
+1187
+00:53:52,500 --> 00:53:56,339
+nowhere
+
+1188
+00:53:53,700 --> 00:53:57,720
+and the second Divergence formed at the
+
+1189
+00:53:56,339 --> 00:54:00,720
+demand area
+
+1190
+00:53:57,720 --> 00:54:03,660
+as a day trader you must first identify
+
+1191
+00:54:00,720 --> 00:54:06,300
+your support and resistance zones or
+
+1192
+00:54:03,660 --> 00:54:08,220
+supply and demand areas and then let
+
+1193
+00:54:06,300 --> 00:54:10,500
+price come to you
+
+1194
+00:54:08,220 --> 00:54:13,880
+such an approach will impact your
+
+1195
+00:54:10,500 --> 00:54:13,880
+performance in a big way
+
+1196
+00:54:17,099 --> 00:54:22,740
+volume brings many advantages and could
+
+1197
+00:54:20,220 --> 00:54:24,540
+be of tremendous help when it comes to
+
+1198
+00:54:22,740 --> 00:54:27,420
+analyzing divergences
+
+1199
+00:54:24,540 --> 00:54:30,420
+if the price is rising in an uptrend a
+
+1200
+00:54:27,420 --> 00:54:32,760
+Divergence is visible but the volume is
+
+1201
+00:54:30,420 --> 00:54:35,040
+reducing it may show that there is
+
+1202
+00:54:32,760 --> 00:54:37,140
+little interest in a market and the
+
+1203
+00:54:35,040 --> 00:54:39,720
+price May reverse
+
+1204
+00:54:37,140 --> 00:54:42,960
+similarly when the price is rapidly
+
+1205
+00:54:39,720 --> 00:54:45,420
+declining and forms a Divergence but the
+
+1206
+00:54:42,960 --> 00:54:47,880
+volume is low it could mean that the
+
+1207
+00:54:45,420 --> 00:54:49,859
+institutional Traders are not interested
+
+1208
+00:54:47,880 --> 00:54:52,260
+in the price Direction
+
+1209
+00:54:49,859 --> 00:54:53,099
+so the price might soon reverse to the
+
+1210
+00:54:52,260 --> 00:54:55,920
+upside
+
+1211
+00:54:53,099 --> 00:54:58,500
+a high volume after the Divergence
+
+1212
+00:54:55,920 --> 00:55:00,960
+usually indicates more interest in the
+
+1213
+00:54:58,500 --> 00:55:02,460
+market and the presence of institutional
+
+1214
+00:55:00,960 --> 00:55:05,040
+Traders
+
+1215
+00:55:02,460 --> 00:55:07,500
+a Divergence confirmed by a rising
+
+1216
+00:55:05,040 --> 00:55:10,319
+volume represents one of the safest
+
+1217
+00:55:07,500 --> 00:55:13,140
+trades I hope you see how supply and
+
+1218
+00:55:10,319 --> 00:55:15,839
+demand volume and divergences are
+
+1219
+00:55:13,140 --> 00:55:18,660
+interconnected I know that many day
+
+1220
+00:55:15,839 --> 00:55:21,359
+Traders are dismissing Divergent signals
+
+1221
+00:55:18,660 --> 00:55:24,059
+but from my experience combined with
+
+1222
+00:55:21,359 --> 00:55:27,980
+other leading tools they can offer very
+
+1223
+00:55:24,059 --> 00:55:27,980
+reliable day trading setups
+
+1224
+00:55:32,240 --> 00:55:37,740
+breakouts can be a very powerful tool in
+
+1225
+00:55:35,160 --> 00:55:40,859
+your day trading Arsenal allowing you to
+
+1226
+00:55:37,740 --> 00:55:43,500
+capitalize on strong Market movements
+
+1227
+00:55:40,859 --> 00:55:45,540
+first let's start with the basics a
+
+1228
+00:55:43,500 --> 00:55:47,700
+breakout occurs when the price breaks
+
+1229
+00:55:45,540 --> 00:55:50,220
+through a key level of support or
+
+1230
+00:55:47,700 --> 00:55:52,619
+resistance this can be a bullish
+
+1231
+00:55:50,220 --> 00:55:55,800
+breakout where the price breaks through
+
+1232
+00:55:52,619 --> 00:55:58,140
+a resistance level or a bearish breakout
+
+1233
+00:55:55,800 --> 00:55:59,520
+where the price breaks through a support
+
+1234
+00:55:58,140 --> 00:56:02,160
+level
+
+1235
+00:55:59,520 --> 00:56:04,859
+now not all breakouts are created equal
+
+1236
+00:56:02,160 --> 00:56:07,800
+one of the biggest challenges of trading
+
+1237
+00:56:04,859 --> 00:56:10,140
+breakouts is avoiding false ones
+
+1238
+00:56:07,800 --> 00:56:12,359
+a false breakout is when the price
+
+1239
+00:56:10,140 --> 00:56:16,020
+temporarily breaks through a key level
+
+1240
+00:56:12,359 --> 00:56:18,960
+only to quickly reverse and Retreat back
+
+1241
+00:56:16,020 --> 00:56:21,059
+into its previous range this could be
+
+1242
+00:56:18,960 --> 00:56:23,700
+caused by a lack of follow through from
+
+1243
+00:56:21,059 --> 00:56:27,059
+the buyers or sellers or by market
+
+1244
+00:56:23,700 --> 00:56:30,059
+manipulation this can be frustrating for
+
+1245
+00:56:27,059 --> 00:56:32,520
+day Traders as they lead to losses and
+
+1246
+00:56:30,059 --> 00:56:35,339
+missed opportunities so the Big
+
+1247
+00:56:32,520 --> 00:56:38,640
+Challenge in day trading is knowing how
+
+1248
+00:56:35,339 --> 00:56:40,940
+to avoid false breakouts one key
+
+1249
+00:56:38,640 --> 00:56:43,859
+strategy is to wait for confirmation
+
+1250
+00:56:40,940 --> 00:56:47,700
+this means waiting for the price to
+
+1251
+00:56:43,859 --> 00:56:50,700
+close above or below the key level or
+
+1252
+00:56:47,700 --> 00:56:53,660
+waiting for a strong search in volume to
+
+1253
+00:56:50,700 --> 00:56:53,660
+confirm the Breakout
+
+1254
+00:56:53,880 --> 00:56:59,819
+another tip most Traders when looking to
+
+1255
+00:56:56,880 --> 00:57:02,460
+trade a retest will Mark the point where
+
+1256
+00:56:59,819 --> 00:57:05,220
+a breakout has occurred using horizontal
+
+1257
+00:57:02,460 --> 00:57:08,880
+lines and this is one of the reasons why
+
+1258
+00:57:05,220 --> 00:57:12,599
+you fail at Trading retests a far better
+
+1259
+00:57:08,880 --> 00:57:15,540
+way of marking the points is using areas
+
+1260
+00:57:12,599 --> 00:57:18,240
+by marking the breakout Point as an area
+
+1261
+00:57:15,540 --> 00:57:20,460
+instead of a line you give yourself the
+
+1262
+00:57:18,240 --> 00:57:21,720
+benefit of not having to guess the
+
+1263
+00:57:20,460 --> 00:57:24,119
+breakout point
+
+1264
+00:57:21,720 --> 00:57:27,240
+if there are several highs for example
+
+1265
+00:57:24,119 --> 00:57:29,819
+and you mark the level using a line then
+
+1266
+00:57:27,240 --> 00:57:32,400
+you won't be able to know which highs
+
+1267
+00:57:29,819 --> 00:57:35,099
+the market is going to return to
+
+1268
+00:57:32,400 --> 00:57:38,460
+by having a Zone you can cover multiple
+
+1269
+00:57:35,099 --> 00:57:41,160
+highs it's much easier this way
+
+1270
+00:57:38,460 --> 00:57:43,859
+additionally it can be helpful to look
+
+1271
+00:57:41,160 --> 00:57:46,200
+at indicators to confirm the Breakout
+
+1272
+00:57:43,859 --> 00:57:49,040
+so analyze the view up and the central
+
+1273
+00:57:46,200 --> 00:57:49,040
+pivot range
+
+1274
+00:57:52,619 --> 00:57:57,660
+on the other hand a valid break of the
+
+1275
+00:57:55,200 --> 00:58:00,359
+curse when the price breaks through a
+
+1276
+00:57:57,660 --> 00:58:02,940
+key level and continues to move in the
+
+1277
+00:58:00,359 --> 00:58:05,579
+same direction to identify a valid
+
+1278
+00:58:02,940 --> 00:58:08,280
+breakout look for a significant surge in
+
+1279
+00:58:05,579 --> 00:58:11,339
+volume and price momentum as well as
+
+1280
+00:58:08,280 --> 00:58:13,619
+confirmation from the same indicators
+
+1281
+00:58:11,339 --> 00:58:15,900
+one popular strategy for trading
+
+1282
+00:58:13,619 --> 00:58:18,420
+breakouts is the break and read test
+
+1283
+00:58:15,900 --> 00:58:21,059
+technique this involves waiting for the
+
+1284
+00:58:18,420 --> 00:58:23,700
+price to break through a key level then
+
+1285
+00:58:21,059 --> 00:58:25,980
+waiting for a retest of the level before
+
+1286
+00:58:23,700 --> 00:58:27,300
+entering a trade in the direction of the
+
+1287
+00:58:25,980 --> 00:58:30,240
+Breakout
+
+1288
+00:58:27,300 --> 00:58:33,180
+in this example the initial move higher
+
+1289
+00:58:30,240 --> 00:58:35,960
+and through the resistance level must be
+
+1290
+00:58:33,180 --> 00:58:38,940
+followed by a strong and Rising volume
+
+1291
+00:58:35,960 --> 00:58:41,819
+it takes effort for the market to move
+
+1292
+00:58:38,940 --> 00:58:44,099
+away the same applies here and you
+
+1293
+00:58:41,819 --> 00:58:46,920
+should see this move reflected in the
+
+1294
+00:58:44,099 --> 00:58:49,980
+volume of the next few bars
+
+1295
+00:58:46,920 --> 00:58:52,920
+if you don't see this then you know it's
+
+1296
+00:58:49,980 --> 00:58:54,839
+either a trap set by the smart money or
+
+1297
+00:58:52,920 --> 00:58:57,359
+there is simply no interest from Market
+
+1298
+00:58:54,839 --> 00:58:59,099
+participants to take the market higher
+
+1299
+00:58:57,359 --> 00:59:01,980
+at this stage
+
+1300
+00:58:59,099 --> 00:59:04,380
+if it's a valid move then the volumes on
+
+1301
+00:59:01,980 --> 00:59:06,780
+the initial break will be well above
+
+1302
+00:59:04,380 --> 00:59:09,180
+average and Rising
+
+1303
+00:59:06,780 --> 00:59:12,420
+at this stage you want to see the market
+
+1304
+00:59:09,180 --> 00:59:15,119
+pull back to test the former resistance
+
+1305
+00:59:12,420 --> 00:59:17,700
+level but very important this should be
+
+1306
+00:59:15,119 --> 00:59:20,940
+followed with low or falling volume
+
+1307
+00:59:17,700 --> 00:59:24,059
+since we are now developing a bullish
+
+1308
+00:59:20,940 --> 00:59:27,059
+Trend higher and expect to see rising
+
+1309
+00:59:24,059 --> 00:59:30,059
+market with Rising volume
+
+1310
+00:59:27,059 --> 00:59:33,480
+so very important you want to see strong
+
+1311
+00:59:30,059 --> 00:59:36,839
+and Rising volume on the breakout and
+
+1312
+00:59:33,480 --> 00:59:39,299
+low volume on the pullback then at the
+
+1313
+00:59:36,839 --> 00:59:42,559
+retest level you want to see another
+
+1314
+00:59:39,299 --> 00:59:42,559
+increase in volume
+
+1315
+00:59:45,680 --> 00:59:51,720
+it isn't enough to Simply see the market
+
+1316
+00:59:48,540 --> 00:59:54,660
+touch a broken level as a new supporter
+
+1317
+00:59:51,720 --> 00:59:57,480
+resistance when the market revisits a
+
+1318
+00:59:54,660 --> 00:59:59,760
+level after breaking it you want to see
+
+1319
+00:59:57,480 --> 01:00:01,920
+some sort of confirmation that the
+
+1320
+00:59:59,760 --> 01:00:04,559
+previous support level turned into
+
+1321
+01:00:01,920 --> 01:00:07,619
+resistance and vice versa a previous
+
+1322
+01:00:04,559 --> 01:00:10,740
+resistance turned into support
+
+1323
+01:00:07,619 --> 01:00:13,200
+a simple method to enter into trades at
+
+1324
+01:00:10,740 --> 01:00:15,839
+a retest of the breakout level is by
+
+1325
+01:00:13,200 --> 01:00:18,660
+using price action more specifically
+
+1326
+01:00:15,839 --> 01:00:21,960
+using Candlestick patterns such as
+
+1327
+01:00:18,660 --> 01:00:24,119
+engulfing candles or pin bars we talked
+
+1328
+01:00:21,960 --> 01:00:26,700
+about them in a previous module
+
+1329
+01:00:24,119 --> 01:00:28,740
+here we have a breakout area when you
+
+1330
+01:00:26,700 --> 01:00:31,200
+see a market breaking a support level
+
+1331
+01:00:28,740 --> 01:00:33,960
+see if there are any Candlestick
+
+1332
+01:00:31,200 --> 01:00:37,020
+patterns you can use as an entry into
+
+1333
+01:00:33,960 --> 01:00:39,359
+the trade here we can see that when the
+
+1334
+01:00:37,020 --> 01:00:42,540
+market reached the area a bearish
+
+1335
+01:00:39,359 --> 01:00:46,200
+engulfing candle formed volume confirmed
+
+1336
+01:00:42,540 --> 01:00:48,599
+a move high volume on the breakout and
+
+1337
+01:00:46,200 --> 01:00:52,400
+low volume during the pullback
+
+1338
+01:00:48,599 --> 01:00:52,400
+so a valid short signal
+
+1339
+01:00:55,680 --> 01:01:01,740
+the beam bar is one of the most powerful
+
+1340
+01:00:58,440 --> 01:01:04,799
+price action signals during retests and
+
+1341
+01:01:01,740 --> 01:01:07,440
+the signal rely the most in my trading a
+
+1342
+01:01:04,799 --> 01:01:09,799
+pin bar signals that a reversal may be
+
+1343
+01:01:07,440 --> 01:01:12,960
+about to take place in the price action
+
+1344
+01:01:09,799 --> 01:01:15,839
+trading pinball signals with support and
+
+1345
+01:01:12,960 --> 01:01:18,059
+resistance and volume confirmation is
+
+1346
+01:01:15,839 --> 01:01:21,420
+perhaps one of the most effective ways
+
+1347
+01:01:18,059 --> 01:01:24,599
+to day trade the very best pinballs
+
+1348
+01:01:21,420 --> 01:01:26,940
+stick out at the retest level the bigger
+
+1349
+01:01:24,599 --> 01:01:29,640
+the rejection and the bigger the pin bar
+
+1350
+01:01:26,940 --> 01:01:31,740
+the more powerful the signal the best
+
+1351
+01:01:29,640 --> 01:01:34,319
+beam bars are the large and obvious
+
+1352
+01:01:31,740 --> 01:01:37,380
+candles that as soon as you flick over
+
+1353
+01:01:34,319 --> 01:01:40,079
+to your chart you notice them
+
+1354
+01:01:37,380 --> 01:01:42,720
+high probability pin bar at the retest
+
+1355
+01:01:40,079 --> 01:01:45,839
+level needs to have the weak sticking
+
+1356
+01:01:42,720 --> 01:01:48,420
+out from all other candles and above
+
+1357
+01:01:45,839 --> 01:01:52,160
+average volume to confirm the active
+
+1358
+01:01:48,420 --> 01:01:52,160
+participation at the retest
+
+1359
+01:01:56,520 --> 01:02:01,920
+risk management and trading discipline
+
+1360
+01:01:58,980 --> 01:02:05,220
+usually rank very low on the priorities
+
+1361
+01:02:01,920 --> 01:02:07,859
+list of most day Traders you shouldn't
+
+1362
+01:02:05,220 --> 01:02:10,140
+neglect this topic let me share my best
+
+1363
+01:02:07,859 --> 01:02:13,500
+tips that will help you improve your
+
+1364
+01:02:10,140 --> 01:02:15,960
+trade and risk management first tip is
+
+1365
+01:02:13,500 --> 01:02:18,540
+the most obvious one you must be aware
+
+1366
+01:02:15,960 --> 01:02:21,480
+of the risk you will take on each trade
+
+1367
+01:02:18,540 --> 01:02:24,540
+and the reward you will receive prior to
+
+1368
+01:02:21,480 --> 01:02:26,819
+the trade execution this means knowing
+
+1369
+01:02:24,540 --> 01:02:29,520
+where to place your stops and your
+
+1370
+01:02:26,819 --> 01:02:32,339
+profit targets a trade should only be
+
+1371
+01:02:29,520 --> 01:02:35,640
+placed when the anticipated reward from
+
+1372
+01:02:32,339 --> 01:02:36,960
+the trade matches or exceeds the risk
+
+1373
+01:02:35,640 --> 01:02:39,480
+being taken
+
+1374
+01:02:36,960 --> 01:02:42,000
+assessing the risk factor should be easy
+
+1375
+01:02:39,480 --> 01:02:44,400
+you basically determine a portion of
+
+1376
+01:02:42,000 --> 01:02:47,280
+your Capital to be risked on each trade
+
+1377
+01:02:44,400 --> 01:02:50,400
+a fixed percentage of your capital for
+
+1378
+01:02:47,280 --> 01:02:53,460
+example one or two percent per trade is
+
+1379
+01:02:50,400 --> 01:02:56,099
+decent based on this percentage you
+
+1380
+01:02:53,460 --> 01:02:58,680
+determine the invalidation point of the
+
+1381
+01:02:56,099 --> 01:03:01,140
+trade the point at which your assumption
+
+1382
+01:02:58,680 --> 01:03:03,720
+has been proven wrong this is the
+
+1383
+01:03:01,140 --> 01:03:06,119
+location to place your stop loss and
+
+1384
+01:03:03,720 --> 01:03:09,119
+again if you risk one percent of your
+
+1385
+01:03:06,119 --> 01:03:11,420
+Capital your reward must be higher than
+
+1386
+01:03:09,119 --> 01:03:11,420
+this
+
+1387
+01:03:11,940 --> 01:03:16,980
+second tip is to stop closing trades
+
+1388
+01:03:14,700 --> 01:03:19,859
+without a good reason have you ever
+
+1389
+01:03:16,980 --> 01:03:22,980
+exited a trade due to a fear of giving
+
+1390
+01:03:19,859 --> 01:03:24,839
+back unrealized profits only to see the
+
+1391
+01:03:22,980 --> 01:03:27,599
+market continue in your intended
+
+1392
+01:03:24,839 --> 01:03:30,059
+Direction I'm sure you have this is
+
+1393
+01:03:27,599 --> 01:03:33,420
+something everyday Trader has to master
+
+1394
+01:03:30,059 --> 01:03:36,180
+the ability to control emotions in a way
+
+1395
+01:03:33,420 --> 01:03:39,299
+that allows you to trade based on pure
+
+1396
+01:03:36,180 --> 01:03:41,760
+technical analysis one way to keep your
+
+1397
+01:03:39,299 --> 01:03:44,460
+emotions in check if you feel the urge
+
+1398
+01:03:41,760 --> 01:03:46,859
+to close a position early is to Simply
+
+1399
+01:03:44,460 --> 01:03:49,260
+ask yourself why am I causing this
+
+1400
+01:03:46,859 --> 01:03:51,720
+position if your answer is anything
+
+1401
+01:03:49,260 --> 01:03:53,520
+other than a technical one you are
+
+1402
+01:03:51,720 --> 01:03:55,920
+likely making a decision based on
+
+1403
+01:03:53,520 --> 01:03:58,380
+emotions
+
+1404
+01:03:55,920 --> 01:04:00,559
+another tricky component to risk
+
+1405
+01:03:58,380 --> 01:04:04,440
+management is the ability to control
+
+1406
+01:04:00,559 --> 01:04:07,140
+exposure with correlated traits when it
+
+1407
+01:04:04,440 --> 01:04:09,599
+comes to money and risk management this
+
+1408
+01:04:07,140 --> 01:04:12,180
+means that trading instruments which are
+
+1409
+01:04:09,599 --> 01:04:13,799
+positively correlated will lead to
+
+1410
+01:04:12,180 --> 01:04:16,500
+increased risk
+
+1411
+01:04:13,799 --> 01:04:19,200
+let's say you trade Forex you spot a
+
+1412
+01:04:16,500 --> 01:04:21,720
+demand Zone on pound dollar and you
+
+1413
+01:04:19,200 --> 01:04:24,720
+decide to enter a long position
+
+1414
+01:04:21,720 --> 01:04:27,720
+at the same time you also see a bullish
+
+1415
+01:04:24,720 --> 01:04:29,760
+Divergence on the pound Yen and you also
+
+1416
+01:04:27,720 --> 01:04:32,280
+decide to take the trade
+
+1417
+01:04:29,760 --> 01:04:34,920
+when these trades are opened then you
+
+1418
+01:04:32,280 --> 01:04:37,020
+will have two correlated traits that
+
+1419
+01:04:34,920 --> 01:04:40,440
+could either double your win potential
+
+1420
+01:04:37,020 --> 01:04:43,559
+if the bond keeps rallying or double
+
+1421
+01:04:40,440 --> 01:04:44,280
+your losses if the bond suddenly sells
+
+1422
+01:04:43,559 --> 01:04:46,680
+off
+
+1423
+01:04:44,280 --> 01:04:49,559
+this is why it's essential to avoid
+
+1424
+01:04:46,680 --> 01:04:52,220
+opening positions for highly correlated
+
+1425
+01:04:49,559 --> 01:04:52,220
+instruments
+
+1426
+01:04:52,619 --> 01:04:57,720
+another important tip understand the
+
+1427
+01:04:55,260 --> 01:04:58,579
+impact of Leverage on your risk
+
+1428
+01:04:57,720 --> 01:05:01,980
+management
+
+1429
+01:04:58,579 --> 01:05:04,260
+Leverage is simply a way of trading with
+
+1430
+01:05:01,980 --> 01:05:06,839
+more money than you actually have in
+
+1431
+01:05:04,260 --> 01:05:09,720
+your account now using leverage can
+
+1432
+01:05:06,839 --> 01:05:11,760
+maximize gains however it can also
+
+1433
+01:05:09,720 --> 01:05:14,040
+increase losses too
+
+1434
+01:05:11,760 --> 01:05:16,619
+if you are leveraged and you make a
+
+1435
+01:05:14,040 --> 01:05:19,380
+profit your returns are magnified very
+
+1436
+01:05:16,619 --> 01:05:21,900
+quickly but at the opposite side losses
+
+1437
+01:05:19,380 --> 01:05:24,359
+will erode your account just as quickly
+
+1438
+01:05:21,900 --> 01:05:26,819
+and too many people have lost their
+
+1439
+01:05:24,359 --> 01:05:28,380
+entire trading accounts just because of
+
+1440
+01:05:26,819 --> 01:05:30,660
+their High Leverage
+
+1441
+01:05:28,380 --> 01:05:33,119
+remember the greater the amount of
+
+1442
+01:05:30,660 --> 01:05:35,520
+Leverage on the capital you apply the
+
+1443
+01:05:33,119 --> 01:05:37,500
+higher the risk that you will assume if
+
+1444
+01:05:35,520 --> 01:05:39,900
+you are conservative and don't like
+
+1445
+01:05:37,500 --> 01:05:42,599
+taking many risks or if you are still
+
+1446
+01:05:39,900 --> 01:05:45,960
+learning how to trade a lower level of
+
+1447
+01:05:42,599 --> 01:05:48,180
+Leverage like five to one or tenth one
+
+1448
+01:05:45,960 --> 01:05:50,940
+might be more appropriate
+
+1449
+01:05:48,180 --> 01:05:52,980
+keeping your position small and limiting
+
+1450
+01:05:50,940 --> 01:05:55,740
+the amount of capital for each position
+
+1451
+01:05:52,980 --> 01:05:58,980
+is a good start to learning the proper
+
+1452
+01:05:55,740 --> 01:06:01,920
+way to manage Leverage
+
+1453
+01:05:58,980 --> 01:06:05,220
+another tip keep a journal and review
+
+1454
+01:06:01,920 --> 01:06:07,799
+your trades most Traders will never look
+
+1455
+01:06:05,220 --> 01:06:10,260
+at their trades again after they have
+
+1456
+01:06:07,799 --> 01:06:12,960
+caused them they will just move on to
+
+1457
+01:06:10,260 --> 01:06:15,780
+the next trade and forget about what
+
+1458
+01:06:12,960 --> 01:06:18,720
+they did before giving a trading journal
+
+1459
+01:06:15,780 --> 01:06:21,660
+offers two potential benefits
+
+1460
+01:06:18,720 --> 01:06:24,240
+first it provides a place where you can
+
+1461
+01:06:21,660 --> 01:06:26,760
+come back to and revisit all your best
+
+1462
+01:06:24,240 --> 01:06:29,760
+trades to see what you have done wrong
+
+1463
+01:06:26,760 --> 01:06:32,579
+and how you developed over time
+
+1464
+01:06:29,760 --> 01:06:35,520
+and second it will keep you from making
+
+1465
+01:06:32,579 --> 01:06:38,220
+mistakes during your trading sessions
+
+1466
+01:06:35,520 --> 01:06:41,099
+at the end of each week and month go
+
+1467
+01:06:38,220 --> 01:06:44,220
+back and see what you did notice common
+
+1468
+01:06:41,099 --> 01:06:46,559
+problems and spot your strengths these
+
+1469
+01:06:44,220 --> 01:06:49,260
+observations can help you exploit your
+
+1470
+01:06:46,559 --> 01:06:52,039
+strengths and highlight the areas you
+
+1471
+01:06:49,260 --> 01:06:52,039
+need to work on
+
+1472
+01:06:52,380 --> 01:06:57,619
+another tip is to give your stop-loss
+
+1473
+01:06:54,839 --> 01:07:00,180
+room to breathe most day Traders
+
+1474
+01:06:57,619 --> 01:07:01,079
+misunderstand what the stop loss really
+
+1475
+01:07:00,180 --> 01:07:03,960
+is
+
+1476
+01:07:01,079 --> 01:07:07,260
+at its core it's the price where your
+
+1477
+01:07:03,960 --> 01:07:09,420
+trade idea is no longer valid but
+
+1478
+01:07:07,260 --> 01:07:11,640
+placing stops too close too close to the
+
+1479
+01:07:09,420 --> 01:07:14,819
+current price is one of the most common
+
+1480
+01:07:11,640 --> 01:07:17,220
+mistakes day Traders make how many times
+
+1481
+01:07:14,819 --> 01:07:19,920
+have you been right about the Market's
+
+1482
+01:07:17,220 --> 01:07:22,920
+Direction your trade signal was right
+
+1483
+01:07:19,920 --> 01:07:25,619
+but you still lost money somehow
+
+1484
+01:07:22,920 --> 01:07:28,440
+this keeps happening to you because your
+
+1485
+01:07:25,619 --> 01:07:31,140
+stop loss is too small
+
+1486
+01:07:28,440 --> 01:07:33,960
+when your day trade the market can move
+
+1487
+01:07:31,140 --> 01:07:36,480
+unpredictable and if you place your stop
+
+1488
+01:07:33,960 --> 01:07:38,640
+too tight there is a high chance that
+
+1489
+01:07:36,480 --> 01:07:41,400
+you will be stopped out before the price
+
+1490
+01:07:38,640 --> 01:07:44,339
+continues to go in your direction
+
+1491
+01:07:41,400 --> 01:07:47,880
+position sizing also plays an important
+
+1492
+01:07:44,339 --> 01:07:50,940
+role in this equation my advice lower
+
+1493
+01:07:47,880 --> 01:07:53,880
+your position size and slightly increase
+
+1494
+01:07:50,940 --> 01:07:56,900
+your stop loss to give the price enough
+
+1495
+01:07:53,880 --> 01:07:56,900
+room to breathe
+
+1496
+01:07:57,119 --> 01:08:02,280
+when you day trade you must have a
+
+1497
+01:07:59,579 --> 01:08:04,859
+trading rules checklist but checklist
+
+1498
+01:08:02,280 --> 01:08:07,020
+must State all your entry criteria
+
+1499
+01:08:04,859 --> 01:08:09,119
+underneath each other
+
+1500
+01:08:07,020 --> 01:08:11,940
+and every time you are about to enter a
+
+1501
+01:08:09,119 --> 01:08:13,920
+trade you revisit your checklist and
+
+1502
+01:08:11,940 --> 01:08:15,119
+check off the things you can see on your
+
+1503
+01:08:13,920 --> 01:08:17,640
+charts
+
+1504
+01:08:15,119 --> 01:08:20,339
+with a checklist it becomes obvious
+
+1505
+01:08:17,640 --> 01:08:22,620
+right away if a trade really matches
+
+1506
+01:08:20,339 --> 01:08:25,380
+your criteria or not
+
+1507
+01:08:22,620 --> 01:08:27,480
+again if you can visually see that the
+
+1508
+01:08:25,380 --> 01:08:29,880
+trade that you are about to take is
+
+1509
+01:08:27,480 --> 01:08:33,000
+breaking your rules you are most likely
+
+1510
+01:08:29,880 --> 01:08:35,520
+to avoid those painful mistakes
+
+1511
+01:08:33,000 --> 01:08:38,339
+here's a simple example of a day trading
+
+1512
+01:08:35,520 --> 01:08:41,699
+checklist is the market trending or
+
+1513
+01:08:38,339 --> 01:08:44,160
+ranging is there a significant level of
+
+1514
+01:08:41,699 --> 01:08:47,339
+support or resistance or Supply or
+
+1515
+01:08:44,160 --> 01:08:49,980
+demand nearby do you have a clear entry
+
+1516
+01:08:47,339 --> 01:08:52,739
+trigger do you have validation from the
+
+1517
+01:08:49,980 --> 01:08:55,739
+volume is there a confirmation from The
+
+1518
+01:08:52,739 --> 01:08:58,259
+View up or the central pivot range do
+
+1519
+01:08:55,739 --> 01:09:01,020
+you see a Divergence do you have a
+
+1520
+01:08:58,259 --> 01:09:04,880
+decent risk to reward Ratio or do you
+
+1521
+01:09:01,020 --> 01:09:04,880
+have the proper mindset to trade
+
+1522
+01:09:05,279 --> 01:09:11,699
+another tip is to have realistic take
+
+1523
+01:09:08,100 --> 01:09:14,100
+profit targets many day Traders put way
+
+1524
+01:09:11,699 --> 01:09:16,799
+too much emphasis on having higher take
+
+1525
+01:09:14,100 --> 01:09:19,020
+profit levels and don't understand that
+
+1526
+01:09:16,799 --> 01:09:21,600
+this doesn't tell you anything about the
+
+1527
+01:09:19,020 --> 01:09:24,420
+quality of your strategy you'll end up
+
+1528
+01:09:21,600 --> 01:09:26,580
+setting unrealistic profit targets far
+
+1529
+01:09:24,420 --> 01:09:29,160
+away from your interests thinking that
+
+1530
+01:09:26,580 --> 01:09:32,040
+by using a wider take profit you can
+
+1531
+01:09:29,160 --> 01:09:34,560
+increase your risk to reward ratio using
+
+1532
+01:09:32,040 --> 01:09:37,199
+a wider take profit means
+
+1533
+01:09:34,560 --> 01:09:40,440
+device won't be able to reach the level
+
+1534
+01:09:37,199 --> 01:09:43,259
+as easily and if your stop-loss strategy
+
+1535
+01:09:40,440 --> 01:09:46,199
+isn't on point you will most likely see
+
+1536
+01:09:43,259 --> 01:09:48,540
+a decline in your win rate you need to
+
+1537
+01:09:46,199 --> 01:09:51,179
+be able to determine a suitable profit
+
+1538
+01:09:48,540 --> 01:09:53,699
+Target one that gives you a realistic
+
+1539
+01:09:51,179 --> 01:09:57,020
+profit Target but also gives you a
+
+1540
+01:09:53,699 --> 01:09:57,020
+sensible risk reward
+
+1541
+01:10:01,500 --> 01:10:05,219
+this is one of the biggest lessons in
+
+1542
+01:10:04,020 --> 01:10:08,460
+day trading
+
+1543
+01:10:05,219 --> 01:10:10,620
+find Confluence on your charts the more
+
+1544
+01:10:08,460 --> 01:10:13,679
+technical tools that validate the price
+
+1545
+01:10:10,620 --> 01:10:16,440
+move or simply confirm the significance
+
+1546
+01:10:13,679 --> 01:10:19,380
+of a price level the stronger that level
+
+1547
+01:10:16,440 --> 01:10:22,199
+is confluences when there is more than
+
+1548
+01:10:19,380 --> 01:10:23,760
+one signal coming together at the same
+
+1549
+01:10:22,199 --> 01:10:26,340
+point in a market
+
+1550
+01:10:23,760 --> 01:10:29,280
+when you find the setup that has the
+
+1551
+01:10:26,340 --> 01:10:31,620
+same signal from multiple methodologies
+
+1552
+01:10:29,280 --> 01:10:34,500
+you have found a high probability
+
+1553
+01:10:31,620 --> 01:10:36,600
+trading opportunity and there is a high
+
+1554
+01:10:34,500 --> 01:10:39,300
+chance of the trade working out
+
+1555
+01:10:36,600 --> 01:10:41,760
+successfully conference can be found
+
+1556
+01:10:39,300 --> 01:10:44,820
+when you combine the different elements
+
+1557
+01:10:41,760 --> 01:10:48,360
+we've discussed price patterns view up
+
+1558
+01:10:44,820 --> 01:10:50,219
+pivots support or resistance supply and
+
+1559
+01:10:48,360 --> 01:10:53,520
+demand and volume
+
+1560
+01:10:50,219 --> 01:10:55,500
+when some of these tools meet at a
+
+1561
+01:10:53,520 --> 01:10:58,620
+single location on the chart it is
+
+1562
+01:10:55,500 --> 01:11:01,320
+considered a point of confidence in this
+
+1563
+01:10:58,620 --> 01:11:03,719
+way you are combining more than one
+
+1564
+01:11:01,320 --> 01:11:06,739
+trading technique to increase your odds
+
+1565
+01:11:03,719 --> 01:11:09,540
+of winning on your trades
+
+1566
+01:11:06,739 --> 01:11:11,699
+when they trading there are too many
+
+1567
+01:11:09,540 --> 01:11:14,280
+markets to keep track of too many
+
+1568
+01:11:11,699 --> 01:11:16,739
+strategies to backtest and you need to
+
+1569
+01:11:14,280 --> 01:11:19,440
+narrow it down when I first started
+
+1570
+01:11:16,739 --> 01:11:22,440
+trading Forex I used to have a template
+
+1571
+01:11:19,440 --> 01:11:24,960
+with over 20 currencies and I tried to
+
+1572
+01:11:22,440 --> 01:11:28,140
+monitor all of them you know the outcome
+
+1573
+01:11:24,960 --> 01:11:30,300
+many missed trades which resulted in
+
+1574
+01:11:28,140 --> 01:11:33,360
+many poor trades taken out of
+
+1575
+01:11:30,300 --> 01:11:36,360
+frustration or fomo so you need to
+
+1576
+01:11:33,360 --> 01:11:38,760
+narrow it down follow three markets at
+
+1577
+01:11:36,360 --> 01:11:41,340
+most you have a lot of things to cover
+
+1578
+01:11:38,760 --> 01:11:44,159
+when day trading Market selection and
+
+1579
+01:11:41,340 --> 01:11:47,659
+preparation pattern recognition risk
+
+1580
+01:11:44,159 --> 01:11:50,820
+reward indicators volume position size
+
+1581
+01:11:47,659 --> 01:11:53,219
+entry level price action trade
+
+1582
+01:11:50,820 --> 01:11:58,320
+management it's easy to become
+
+1583
+01:11:53,219 --> 01:12:00,480
+overwhelmed again narrow it down
+
+1584
+01:11:58,320 --> 01:12:03,060
+and you don't need to trade the entire
+
+1585
+01:12:00,480 --> 01:12:06,540
+day there is enough money to be made
+
+1586
+01:12:03,060 --> 01:12:07,860
+trading only a few times each day and
+
+1587
+01:12:06,540 --> 01:12:10,380
+you should come up with a suitable
+
+1588
+01:12:07,860 --> 01:12:13,260
+trading schedule that caters to your
+
+1589
+01:12:10,380 --> 01:12:16,380
+needs and trading goals you don't need
+
+1590
+01:12:13,260 --> 01:12:18,659
+to sit in front of the screen all day I
+
+1591
+01:12:16,380 --> 01:12:21,120
+know that there's a tendency to try to
+
+1592
+01:12:18,659 --> 01:12:23,820
+squeeze every dollar out of the trading
+
+1593
+01:12:21,120 --> 01:12:25,699
+day so you don't miss any profit but
+
+1594
+01:12:23,820 --> 01:12:29,340
+when you have reached your profit Target
+
+1595
+01:12:25,699 --> 01:12:31,820
+or you stop seeing setups simply stop
+
+1596
+01:12:29,340 --> 01:12:31,820
+Trading
+
+1597
+01:12:32,340 --> 01:12:38,100
+I now have a simple role when I'm day
+
+1598
+01:12:34,800 --> 01:12:40,380
+trading I must close my positions at the
+
+1599
+01:12:38,100 --> 01:12:43,440
+end of the day even at all
+
+1600
+01:12:40,380 --> 01:12:46,020
+you should never turn a day trade into a
+
+1601
+01:12:43,440 --> 01:12:48,540
+swing trade and hold it overnight
+
+1602
+01:12:46,020 --> 01:12:51,120
+you know the feeling you open a trade
+
+1603
+01:12:48,540 --> 01:12:53,940
+hoping for a quick profit and instead of
+
+1604
+01:12:51,120 --> 01:12:56,400
+closing it you find yourself justifying
+
+1605
+01:12:53,940 --> 01:12:59,340
+staying in a bad trade the second day
+
+1606
+01:12:56,400 --> 01:13:01,620
+this is one of the deadliest scenes a
+
+1607
+01:12:59,340 --> 01:13:04,380
+day trader can make you need to change
+
+1608
+01:13:01,620 --> 01:13:06,780
+your mindset think about it you can
+
+1609
+01:13:04,380 --> 01:13:09,960
+always get back in but it's hard to
+
+1610
+01:13:06,780 --> 01:13:12,659
+recover from a big loss so if you're
+
+1611
+01:13:09,960 --> 01:13:15,420
+wrong take the loss and come back when
+
+1612
+01:13:12,659 --> 01:13:18,480
+the timing is better
+
+1613
+01:13:15,420 --> 01:13:21,360
+in my first years I used to average down
+
+1614
+01:13:18,480 --> 01:13:24,120
+on losing trades imagine you buy 10
+
+1615
+01:13:21,360 --> 01:13:26,340
+shares of a company at fifty dollars in
+
+1616
+01:13:24,120 --> 01:13:29,400
+the anticipation of selling them at
+
+1617
+01:13:26,340 --> 01:13:32,100
+around 60 dollars instead the price
+
+1618
+01:13:29,400 --> 01:13:34,620
+breaks the support level and drops to
+
+1619
+01:13:32,100 --> 01:13:37,199
+forty dollars you have lost the trade
+
+1620
+01:13:34,620 --> 01:13:39,659
+and you should have been stopped out but
+
+1621
+01:13:37,199 --> 01:13:42,900
+instead of accepting the loss and moving
+
+1622
+01:13:39,659 --> 01:13:45,239
+on you buy another 10 shares at forty
+
+1623
+01:13:42,900 --> 01:13:47,640
+dollars it's unlikely that the price
+
+1624
+01:13:45,239 --> 01:13:50,100
+will hit your initial Target of 60
+
+1625
+01:13:47,640 --> 01:13:54,120
+dollars but now you're hoping the price
+
+1626
+01:13:50,100 --> 01:13:56,940
+will rally back to 45 or 50 at 50
+
+1627
+01:13:54,120 --> 01:14:00,060
+dollars you sell all of your shares and
+
+1628
+01:13:56,940 --> 01:14:02,460
+you even recorded some profits it's very
+
+1629
+01:14:00,060 --> 01:14:04,980
+tempting to average down on a losing
+
+1630
+01:14:02,460 --> 01:14:07,340
+trade with the hope of getting out that
+
+1631
+01:14:04,980 --> 01:14:10,260
+break even but you shouldn't do it
+
+1632
+01:14:07,340 --> 01:14:12,500
+averaging down or losing trade is a
+
+1633
+01:14:10,260 --> 01:14:15,360
+recipe for wiping out your account
+
+1634
+01:14:12,500 --> 01:14:17,820
+ninety percent of the time maybe you
+
+1635
+01:14:15,360 --> 01:14:20,640
+will profit when you average down but
+
+1636
+01:14:17,820 --> 01:14:23,600
+that 10 of the time you are wrong you
+
+1637
+01:14:20,640 --> 01:14:23,600
+will blow up your account
+
+1638
+01:14:24,360 --> 01:14:30,120
+another common mistake is to day trade
+
+1639
+01:14:27,239 --> 01:14:31,920
+low conviction trades because you can't
+
+1640
+01:14:30,120 --> 01:14:34,380
+find anything better
+
+1641
+01:14:31,920 --> 01:14:37,020
+if you take more trades than your
+
+1642
+01:14:34,380 --> 01:14:39,900
+strategy dictates because you can't find
+
+1643
+01:14:37,020 --> 01:14:42,960
+high probability setups that's a warning
+
+1644
+01:14:39,900 --> 01:14:45,120
+sign this is often a result of boredom
+
+1645
+01:14:42,960 --> 01:14:48,179
+or a lack of discipline
+
+1646
+01:14:45,120 --> 01:14:50,640
+since this trades occur outside of your
+
+1647
+01:14:48,179 --> 01:14:51,900
+trading plan they are less likely to
+
+1648
+01:14:50,640 --> 01:14:54,380
+perform well
+
+1649
+01:14:51,900 --> 01:14:57,600
+trade only what your strategy dictates
+
+1650
+01:14:54,380 --> 01:15:00,360
+if the market is quiet or the trade
+
+1651
+01:14:57,600 --> 01:15:02,400
+entry conditions are not there just wait
+
+1652
+01:15:00,360 --> 01:15:04,880
+out
+
+1653
+01:15:02,400 --> 01:15:07,980
+this is one of the most important tips
+
+1654
+01:15:04,880 --> 01:15:10,500
+don't believe anything you heard until
+
+1655
+01:15:07,980 --> 01:15:11,640
+you have tested and try it out for
+
+1656
+01:15:10,500 --> 01:15:14,820
+yourself
+
+1657
+01:15:11,640 --> 01:15:17,699
+what used to work two years ago on Forex
+
+1658
+01:15:14,820 --> 01:15:21,120
+Market may not work today on the stock
+
+1659
+01:15:17,699 --> 01:15:23,880
+market a strategy I use on the 15 minute
+
+1660
+01:15:21,120 --> 01:15:27,600
+time frame on Amazon may not work for
+
+1661
+01:15:23,880 --> 01:15:29,820
+you on a 5-minute chart of Euro USD
+
+1662
+01:15:27,600 --> 01:15:32,280
+that's a common mistake among day
+
+1663
+01:15:29,820 --> 01:15:34,500
+Traders they don't understand that
+
+1664
+01:15:32,280 --> 01:15:38,219
+different strategies work on different
+
+1665
+01:15:34,500 --> 01:15:42,300
+markets you only find out what works for
+
+1666
+01:15:38,219 --> 01:15:45,480
+you by rigorous testing and Analysis
+
+1667
+01:15:42,300 --> 01:15:48,179
+back testing is the most underutilized
+
+1668
+01:15:45,480 --> 01:15:50,520
+weapon in day trading it allows you to
+
+1669
+01:15:48,179 --> 01:15:52,800
+witness how your plan would have
+
+1670
+01:15:50,520 --> 01:15:55,739
+theoretically performed had you been
+
+1671
+01:15:52,800 --> 01:15:58,320
+trading it for the past months with this
+
+1672
+01:15:55,739 --> 01:16:00,840
+information you can objectively confirm
+
+1673
+01:15:58,320 --> 01:16:03,000
+whether or not your trading plan will
+
+1674
+01:16:00,840 --> 01:16:05,940
+make you money in the future
+
+1675
+01:16:03,000 --> 01:16:08,659
+so don't ignore back testing and forward
+
+1676
+01:16:05,940 --> 01:16:08,659
+testing
+
+1677
+01:16:12,260 --> 01:16:18,239
+now let's be clear day trading can be
+
+1678
+01:16:15,600 --> 01:16:21,780
+profitable but it isn't a get rich quick
+
+1679
+01:16:18,239 --> 01:16:23,940
+scheme day trading can be simple but
+
+1680
+01:16:21,780 --> 01:16:24,960
+don't make the mistake of thinking it's
+
+1681
+01:16:23,940 --> 01:16:27,900
+that easy
+
+1682
+01:16:24,960 --> 01:16:30,239
+I know that there are many websites that
+
+1683
+01:16:27,900 --> 01:16:32,100
+try to tell you differently that you
+
+1684
+01:16:30,239 --> 01:16:34,920
+just have to read about it for a couple
+
+1685
+01:16:32,100 --> 01:16:38,400
+of days and then magically you'll become
+
+1686
+01:16:34,920 --> 01:16:40,140
+a day trader so let's be realistic you
+
+1687
+01:16:38,400 --> 01:16:43,679
+won't become an instant millionaire
+
+1688
+01:16:40,140 --> 01:16:46,140
+overnight in this course I wanted you to
+
+1689
+01:16:43,679 --> 01:16:48,780
+learn the correct Foundation facts
+
+1690
+01:16:46,140 --> 01:16:52,500
+secrets and the concepts that actually
+
+1691
+01:16:48,780 --> 01:16:55,440
+work in day trading but in order to make
+
+1692
+01:16:52,500 --> 01:16:58,140
+the most out of this trading course you
+
+1693
+01:16:55,440 --> 01:17:00,960
+have to adapt and adjust these Concepts
+
+1694
+01:16:58,140 --> 01:17:04,080
+to what you might already know making
+
+1695
+01:17:00,960 --> 01:17:07,260
+money with day trading is possible but
+
+1696
+01:17:04,080 --> 01:17:10,199
+it requires some time discipline effort
+
+1697
+01:17:07,260 --> 01:17:12,659
+and commitment on your part
+
+1698
+01:17:10,199 --> 01:17:15,000
+if you watch the full day training
+
+1699
+01:17:12,659 --> 01:17:17,640
+course and learn something new please
+
+1700
+01:17:15,000 --> 01:17:19,500
+show your support by giving us a like it
+
+1701
+01:17:17,640 --> 01:17:21,420
+goes a long way and if you haven't
+
+1702
+01:17:19,500 --> 01:17:24,000
+watched our previous trading course
+
+1703
+01:17:21,420 --> 01:17:26,520
+about technical analysis you definitely
+
+1704
+01:17:24,000 --> 01:17:28,800
+must watch it either and check out our
+
+1705
+01:17:26,520 --> 01:17:30,900
+Academy program if you want to further
+
+1706
+01:17:28,800 --> 01:17:33,920
+level up your Trading
+
+1707
+01:17:30,900 --> 01:17:33,920
+until next time
+

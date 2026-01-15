@@ -1,0 +1,1654 @@
+1
+00:00:00,240 --> 00:00:06,480
+Regular candlestick patterns fail 80% 
+of the time without volume confirmation! 
+
+2
+00:00:06,480 --> 00:00:12,720
+My price action trading completely changed, 
+once I discovered the power of volume candles. 
+
+3
+00:00:12,720 --> 00:00:16,240
+These candles expose institutional order flow and  
+
+4
+00:00:16,240 --> 00:00:20,160
+show you exactly where smart 
+money is placing their orders. 
+
+5
+00:00:20,160 --> 00:00:22,560
+Let’s talk about it!
+ 
+Chapter 1: The Power of Volume Candles
+
+6
+00:00:22,560 --> 00:00:29,360
+Trading becomes clear when you strip away all 
+indicators and focus on what truly moves markets:  
+
+7
+00:00:29,360 --> 00:00:32,960
+pure price action and volume.
+You see, price action alone  
+
+8
+00:00:32,960 --> 00:00:37,840
+misses crucial market information.
+You might see a price move up or down,  
+
+9
+00:00:37,840 --> 00:00:43,040
+but without volume, you can't tell 
+if that move carries real weight. 
+  
+
+10
+00:00:43,040 --> 00:00:48,640
+Volume fills this gap. It acts as the only 
+true leading indicator, revealing market  
+
+11
+00:00:48,640 --> 00:00:53,840
+direction before big moves happen.
+While price tells you what happened,  
+
+12
+00:00:53,840 --> 00:01:01,040
+volume shows you if that move was real or fake.
+ 
+The iconic traders of the past, Charles Dow,  
+
+13
+00:01:01,040 --> 00:01:06,640
+Jesse Livermore, and Richard Wyckoff, 
+used this simple yet powerful approach. 
+
+14
+00:01:06,640 --> 00:01:11,600
+They didn't need fancy indicators 
+or complex systems. They understood  
+
+15
+00:01:11,600 --> 00:01:17,760
+that the combination of price and volume 
+revealed everything about market behavior.
+  
+
+16
+00:01:17,760 --> 00:01:22,480
+Clean charts let you spot things 
+that indicators often hide. 
+
+17
+00:01:22,480 --> 00:01:27,760
+When you remove all the clutter, you 
+start seeing the market's natural rhythm. 
+
+18
+00:01:27,760 --> 00:01:35,600
+And volume adds depth to this view. It shows the 
+strength or weakness behind every price move.
+  
+
+19
+00:01:35,600 --> 00:01:40,160
+Volume works as the truth-teller in 
+markets. When you see a price move,  
+
+20
+00:01:40,160 --> 00:01:44,880
+volume instantly tells you if 
+that move deserves your attention. 
+
+21
+00:01:44,880 --> 00:01:51,280
+High volume means many traders participated, 
+giving the move more credibility. 
+
+22
+00:01:51,280 --> 00:01:56,800
+Low volume suggests weak conviction 
+and possible fake moves.
+ 
+
+23
+00:01:56,800 --> 00:02:04,320
+99% of traders tend to overcomplicate their 
+process. But the market hasn't changed in over 100  
+
+24
+00:02:04,320 --> 00:02:12,400
+years - volume and price still drive all moves.
+And volume candles paint a much clear picture  
+
+25
+00:02:12,400 --> 00:02:19,680
+of market strength, and buyer-seller activity.
+ 
+This type of chart allows for a visual assessment  
+
+26
+00:02:19,680 --> 00:02:25,600
+of the volume of trades for each candle.
+These are still candlesticks, but the  
+
+27
+00:02:25,600 --> 00:02:32,160
+width of each candle depends on the volume of 
+trades, during the formation of this candle. 
+
+28
+00:02:32,160 --> 00:02:36,080
+The greater the trading volume 
+during the formation of the candle,  
+
+29
+00:02:36,080 --> 00:02:39,360
+the larger the width of the candle.
+ 
+Chapter 2: Anatomy of a Volume Candle
+
+30
+00:02:39,360 --> 00:02:45,360
+A volume candle holds seven critical parts 
+that tell the full story of price movement. 
+
+31
+00:02:46,080 --> 00:02:50,640
+Let’s break down each element and 
+show you how they work together.
+  
+
+32
+00:02:50,640 --> 00:02:57,120
+Every volume candle has an open price, which 
+marks where trading started in that time period. 
+
+33
+00:02:57,120 --> 00:03:05,120
+For green candles, you find this at the bottom 
+of the body. For red candles, it sits at the top. 
+
+34
+00:03:05,120 --> 00:03:10,400
+This starting point sets the stage for 
+the battle between buyers and sellers.
+  
+
+35
+00:03:10,400 --> 00:03:15,520
+The high price shows the maximum point 
+buyers pushed during that period. 
+
+36
+00:03:15,520 --> 00:03:22,000
+You see this at the top of the upper wick. This 
+tells you how far buyers managed to drive prices  
+
+37
+00:03:22,000 --> 00:03:28,400
+up, even if they couldn't hold those levels.
+The low price, marked by the bottom of  
+
+38
+00:03:28,400 --> 00:03:33,760
+the lower wick, reveals the lowest 
+point where sellers drove the price. 
+
+39
+00:03:33,760 --> 00:03:38,880
+These extreme points show you the full 
+range of the price battle that happened.
+  
+
+40
+00:03:38,880 --> 00:03:44,960
+The close price tells you who won that 
+period's battle - buyers or sellers. 
+
+41
+00:03:44,960 --> 00:03:50,800
+On green candles, you find it at the 
+top of the body, showing buyers won. 
+
+42
+00:03:50,800 --> 00:03:56,400
+On red candles, it's at the bottom, 
+meaning sellers took control.
+  
+
+43
+00:03:56,400 --> 00:04:02,800
+The upper wick, that line sticking up from 
+the body, shows rejection of higher prices. 
+
+44
+00:04:02,800 --> 00:04:08,080
+A long upper wick means buyers 
+tried pushing up, but failed. 
+
+45
+00:04:08,080 --> 00:04:13,280
+No upper wick signals strong buying 
+pressure, that held through the close. 
+
+46
+00:04:13,280 --> 00:04:18,800
+A long lower wick reveals sellers 
+tried pushing down, but failed. 
+
+47
+00:04:18,800 --> 00:04:24,640
+When you see no lower wick, sellers 
+maintained control throughout the period.
+  
+
+48
+00:04:24,640 --> 00:04:28,720
+The candle body, the thick 
+part between open and close,  
+
+49
+00:04:28,720 --> 00:04:36,800
+shows who won the period and by how much. A wide 
+body means strong conviction in that direction. 
+
+50
+00:04:36,800 --> 00:04:41,920
+A narrow body points to weak 
+conviction or indecision.
+  
+
+51
+00:04:41,920 --> 00:04:46,960
+Now, what makes volume candles 
+special is their width variation. 
+
+52
+00:04:46,960 --> 00:04:51,680
+Unlike regular candles that stay 
+the same width, volume candles grow  
+
+53
+00:04:51,680 --> 00:04:59,680
+wider or narrower based on trading activity.
+This adds a vital dimension to your analysis.
+  
+
+54
+00:04:59,680 --> 00:05:04,960
+Wide candles mean heavy trading volume, 
+lots of buyers and sellers fought  
+
+55
+00:05:04,960 --> 00:05:10,640
+over prices during that period.
+Narrow candles show light volume,  
+
+56
+00:05:10,640 --> 00:05:15,760
+fewer traders participated.
+This width variation reveals  
+
+57
+00:05:15,760 --> 00:05:20,320
+trading intensity at a glance.
+ 
+The relationship between candle  
+
+58
+00:05:20,320 --> 00:05:25,760
+parts tells deeper stories.
+Take a wide candle with no wicks.  
+
+59
+00:05:25,760 --> 00:05:30,960
+This shows strong agreement on price 
+direction with heavy participation. 
+  
+
+60
+00:05:30,960 --> 00:05:35,280
+But how about a wide candle 
+with long wicks! That reveals  
+
+61
+00:05:35,280 --> 00:05:42,800
+intense fighting between buyers and sellers.
+ 
+Watch how the candle width changes as price moves. 
+
+62
+00:05:42,800 --> 00:05:48,000
+Increasing width during price 
+rises shows growing buyer strength. 
+
+63
+00:05:48,000 --> 00:05:54,480
+But if the width starts shrinking while price 
+still rises, buyers might be losing steam.
+  
+
+64
+00:05:54,480 --> 00:05:59,440
+The open and close positions relative 
+to the total range matter too. 
+
+65
+00:05:59,440 --> 00:06:06,560
+A close near the high with wide volume suggests 
+strong buying pressure likely to continue. 
+
+66
+00:06:06,560 --> 00:06:12,880
+A close far from the extremes with 
+high volume might signal indecision.
+  
+
+67
+00:06:12,880 --> 00:06:20,480
+Some traders focus only on candle colors or 
+patterns. But volume width adds crucial context. 
+
+68
+00:06:20,480 --> 00:06:28,400
+A tiny green candle with huge volume, might mean 
+more than a large red candle with thin volume.
+  
+
+69
+00:06:28,400 --> 00:06:34,320
+Pay special attention to how volume 
+width changes around key price levels. 
+
+70
+00:06:34,320 --> 00:06:40,400
+A surge in width near support or resistance 
+often signals important market decisions  
+
+71
+00:06:40,400 --> 00:06:45,440
+happening. We’ll talk about this later.
+The real power comes from reading  
+
+72
+00:06:45,440 --> 00:06:49,520
+all these elements together.
+Each part adds to the story,  
+
+73
+00:06:49,520 --> 00:06:55,520
+but the volume width ties it all together by 
+showing the conviction behind every move.
+  
+
+74
+00:06:55,520 --> 00:07:00,720
+The beauty of volume candles lies in 
+their ability to show both price action,  
+
+75
+00:07:00,720 --> 00:07:07,760
+and trading intensity, in one clean visual.
+This complete picture helps you make faster,  
+
+76
+00:07:07,760 --> 00:07:10,800
+more accurate trading decisions.
+ 
+Chapter 3: Understanding Price Movement Flow
+
+77
+00:07:10,800 --> 00:07:16,240
+Stop looking at single candles, and start 
+seeing the market as a flowing story,  
+
+78
+00:07:16,240 --> 00:07:22,880
+where each candle connects to the next.
+A green candle might signal buying, but its true  
+
+79
+00:07:22,880 --> 00:07:29,920
+meaning changes based on where it appears, at the 
+start of a trend, in the middle, or near the end.
+  
+
+80
+00:07:29,920 --> 00:07:34,160
+The market moves in phases, 
+not in isolated events. 
+
+81
+00:07:34,160 --> 00:07:40,400
+The same type of candle carries different weight, 
+depending on its place in the overall flow. 
+
+82
+00:07:40,400 --> 00:07:47,360
+A wide green candle at support means something 
+very different from the same candle at resistance. 
+
+83
+00:07:47,360 --> 00:07:50,960
+Think of price movement like 
+reading a book. You wouldn't  
+
+84
+00:07:50,960 --> 00:07:56,880
+try to understand a story by reading 
+random sentences, you read them in order. 
+
+85
+00:07:56,880 --> 00:08:03,600
+The same applies to candles. Each candle flows 
+into the next, creating a complete narrative.
+  
+
+86
+00:08:03,600 --> 00:08:08,800
+“Price trends” develop and validate 
+themselves through this continuous flow. 
+
+87
+00:08:08,800 --> 00:08:13,680
+Take a series of rising candles 
+- as they form one after another,  
+
+88
+00:08:13,680 --> 00:08:20,720
+they confirm or deny the strength of the move.
+The story becomes clearer with each new candle. 
+
+89
+00:08:20,720 --> 00:08:26,080
+Three consecutive up-candles with 
+growing volume, show rising strength. 
+
+90
+00:08:26,080 --> 00:08:32,000
+This tells a story of building momentum.
+ 
+The flow reveals more than patterns. 
+
+91
+00:08:32,000 --> 00:08:40,000
+While a single candle might show buying pressure, 
+the flow shows if that pressure sustains or fades. 
+
+92
+00:08:40,000 --> 00:08:44,880
+This continuous view helps spot 
+genuine moves from fake ones.
+  
+
+93
+00:08:44,880 --> 00:08:48,640
+You see, smart money leaves 
+footprints in this flow. 
+
+94
+00:08:48,640 --> 00:08:53,520
+They don't act in single candles, 
+but across a series of moves. 
+
+95
+00:08:53,520 --> 00:08:57,920
+Reading the flow helps track 
+their actions and intentions. 
+
+96
+00:08:57,920 --> 00:09:01,840
+Each candle connects to the 
+next, creating a rhythm. 
+
+97
+00:09:01,840 --> 00:09:06,880
+Breaking this rhythm often signals 
+important changes in market direction.
+  
+
+98
+00:09:07,440 --> 00:09:13,440
+Volume doesn't just validate single 
+candles - it validates entire moves. 
+
+99
+00:09:13,440 --> 00:09:18,160
+Rising prices should see rising 
+volume in a healthy trend. 
+
+100
+00:09:18,160 --> 00:09:25,200
+When analyzing flow, consider the whole context.
+A candle that looks bullish alone might actually  
+
+101
+00:09:25,200 --> 00:09:29,520
+signal weakness, when viewed 
+as part of the larger movement.  
+
+102
+00:09:29,520 --> 00:09:33,440
+This approach helps spot reversals early. 
+ 
+ 
+Chapter 4: Volume Candles as the Truth-Teller 
+
+103
+00:09:33,440 --> 00:09:40,800
+Volume candles act as market truth-tellers, 
+exposing the real story behind every price move. 
+
+104
+00:09:40,800 --> 00:09:47,280
+The first rule to spot genuine moves is simple 
+- the volume must match the price action. 
+
+105
+00:09:47,280 --> 00:09:51,920
+A strong price rise needs strong 
+volume to prove it's real.
+  
+
+106
+00:09:51,920 --> 00:09:58,240
+Take a wide up candle with small wicks.
+The high volume shows many traders joined in,  
+
+107
+00:09:58,240 --> 00:10:03,680
+proving the move has real support.
+This matches the basic rule of effort  
+
+108
+00:10:03,680 --> 00:10:10,000
+versus result, big price moves need 
+big effort shown through volume.
+  
+
+109
+00:10:10,000 --> 00:10:17,360
+The opposite situation warns you of fake moves.
+Picture a price rising with thin volume. This  
+
+110
+00:10:17,360 --> 00:10:21,600
+mismatch rings alarm bells.
+If a move lacks the volume  
+
+111
+00:10:21,600 --> 00:10:28,800
+to support it, smart traders stay away.
+Low volume means few traders believe in the move.
+  
+
+112
+00:10:29,360 --> 00:10:33,840
+A narrow body candle with low 
+volume tells a different story. 
+
+113
+00:10:33,840 --> 00:10:40,800
+If price barely moves and volume stays low, 
+that actually validates the quiet period. 
+ 
+  
+
+114
+00:10:40,800 --> 00:10:45,360
+Volume reveals if moves come 
+from buying or selling pressure. 
+
+115
+00:10:45,360 --> 00:10:50,720
+Look at a series of rising candles, 
+with growing volume, but no wicks. 
+
+116
+00:10:50,720 --> 00:10:55,920
+This can only mean buying volume - 
+sellers aren't fighting back at all. 
+
+117
+00:10:55,920 --> 00:11:01,120
+Such clean moves with rising volume 
+signal genuine buyer strength.
+  
+
+118
+00:11:01,120 --> 00:11:07,600
+Wide spread candles need matching volume.
+If a big price move happens on weak volume,  
+
+119
+00:11:07,600 --> 00:11:14,400
+that warns you of potential manipulation. 
+Real moves need real participation.
+  
+
+120
+00:11:14,400 --> 00:11:19,120
+Let's break down a typical false move.
+You see price shooting up with a  
+
+121
+00:11:19,120 --> 00:11:24,640
+long upper wick, but tiny volume.
+This screams warning - despite the  
+
+122
+00:11:24,640 --> 00:11:30,240
+high price, few traders joined in.
+The small volume exposes this as  
+
+123
+00:11:30,240 --> 00:11:33,280
+likely manipulation.
+ 
+True strength shows in  
+
+124
+00:11:33,280 --> 00:11:41,360
+the details. When price rises steadily with each 
+candle wider than the last, volume also increase. 
+
+125
+00:11:41,360 --> 00:11:48,400
+This rising volume confirms more traders join 
+with each push higher, validating the whole move. 
+
+126
+00:11:48,400 --> 00:11:53,920
+Look for volume that matches candle 
+size. Big candles need big volume.  
+
+127
+00:11:53,920 --> 00:11:59,600
+Small candles match with small volume.
+When these don't match, something's wrong.  
+
+128
+00:11:59,600 --> 00:12:06,080
+This simple check helps avoid false moves.
+ 
+Also, don't trust wicks without checking  
+
+129
+00:12:06,080 --> 00:12:12,080
+their volume. A long wick might look like 
+strong rejection of price, but low volume  
+
+130
+00:12:12,080 --> 00:12:17,520
+means that rejection lacks conviction.
+Strong rejections need strong volume to  
+
+131
+00:12:17,520 --> 00:12:21,920
+prove many traders acted.
+ 
+ 
+Volume patterns tell deeper  
+
+132
+00:12:21,920 --> 00:12:29,120
+stories. Rising price with falling volume, 
+meaning thinner candles, warns of weakness. 
+
+133
+00:12:29,120 --> 00:12:35,680
+Falling price with rising volume, meaning 
+wider candles, shows real selling pressure. 
+
+134
+00:12:35,680 --> 00:12:42,080
+These volume shifts often signal important 
+trend changes, before price confirms them.
+ 
+
+135
+00:12:42,080 --> 00:12:46,000
+Always remember that smart 
+money leaves traces in volume. 
+
+136
+00:12:46,000 --> 00:12:50,800
+They can't hide their large trades. 
+When you see wide volume candles,  
+
+137
+00:12:50,800 --> 00:12:56,800
+with small price moves, big players might 
+be quietly accumulating or distributing. 
+
+138
+00:12:56,800 --> 00:13:02,560
+These volume hints reveal their plans.
+ 
+I repeat, price action can lie,  
+
+139
+00:13:02,560 --> 00:13:08,480
+but volume tells truth.
+Market makers can push price around temporarily,  
+
+140
+00:13:08,480 --> 00:13:14,640
+but they can't fake real trading activity.
+This makes volume candles one of the most  
+
+141
+00:13:14,640 --> 00:13:23,280
+reliable tools for spotting genuine market moves.
+ 
+And watch how volume reacts at key price levels. 
+
+142
+00:13:23,280 --> 00:13:28,400
+Strong support or resistance needs 
+strong volume candles to break. 
+
+143
+00:13:28,400 --> 00:13:33,680
+Thin volume candles at these levels often 
+means the break will fail, no matter how  
+
+144
+00:13:33,680 --> 00:13:38,480
+good it looks on price alone.
+At a key level, when in doubt,  
+
+145
+00:13:38,480 --> 00:13:43,120
+volume candles hold the answer.
+Price action might look perfect,  
+
+146
+00:13:43,120 --> 00:13:47,920
+but without supporting volume, they often fail. 
+ 
+Chapter 5: Thin Candles vs Wide Candle Signals 
+
+147
+00:13:47,920 --> 00:13:52,960
+So, narrow candles with low 
+volume show weak market interest. 
+
+148
+00:13:52,960 --> 00:13:57,360
+Wide candles with high volume 
+reveal strong conviction. 
+
+149
+00:13:57,360 --> 00:14:01,440
+Let’s start with narrow spread 
+candles. These form when price  
+
+150
+00:14:01,440 --> 00:14:07,920
+moves very little during the trading period.
+If this happens with low volume, if they are thin,  
+
+151
+00:14:07,920 --> 00:14:14,800
+it actually makes perfect sense - small price 
+movement matches small trading activity. 
+
+152
+00:14:14,800 --> 00:14:21,920
+Large spread candles tell a different story. When 
+price moves far in one direction, creating a wide  
+
+153
+00:14:21,920 --> 00:14:28,640
+candle, it has strong volume to prove it's real.
+A wide candle forms from lots of buying or  
+
+154
+00:14:28,640 --> 00:14:33,200
+selling, and the high volume 
+validates that activity.
+  
+
+155
+00:14:33,200 --> 00:14:38,240
+A small but wide body candle, 
+means unusually high volume. 
+
+156
+00:14:38,240 --> 00:14:45,120
+This warns you something big might happen soon.
+Think about it - lots of trading, but little  
+
+157
+00:14:45,120 --> 00:14:50,640
+price movement, means big players 
+might be quietly building positions.
+  
+
+158
+00:14:50,640 --> 00:14:55,680
+Watch closely when you see large 
+body candles, with thin volume. 
+
+159
+00:14:55,680 --> 00:15:01,280
+This mismatch sends a clear warning, 
+the price move lacks real support. 
+
+160
+00:15:01,280 --> 00:15:08,560
+Despite the big price change, few traders 
+joined in. Such moves often reverse quickly.
+  
+
+161
+00:15:08,560 --> 00:15:14,720
+A series of narrow candles with falling 
+volume often signals a coming breakout. 
+
+162
+00:15:14,720 --> 00:15:20,400
+The shrinking volume shows fewer 
+traders want to trade at current prices. 
+
+163
+00:15:20,400 --> 00:15:26,000
+This pressure builds until price must 
+break out to find new trading levels.
+  
+
+164
+00:15:26,000 --> 00:15:32,160
+Volume intensity affects how you read wicks too.
+A long upper wick usually signals  
+
+165
+00:15:32,160 --> 00:15:37,520
+rejection of higher prices.
+But this only counts if the volume matches. 
+
+166
+00:15:37,520 --> 00:15:42,320
+High volume with the wick proves 
+many traders rejected that price. 
+
+167
+00:15:42,320 --> 00:15:50,240
+Low volume means the rejection might not stick.
+ 
+Volume intensity helps spot trend changes early. 
+
+168
+00:15:50,240 --> 00:15:56,800
+A series of large spread candles, with 
+falling volume, warns of weakening momentum. 
+
+169
+00:15:56,800 --> 00:16:00,160
+Even though price still moves 
+strongly, the dropping volume  
+
+170
+00:16:00,160 --> 00:16:05,120
+suggests the trend might soon end.
+ 
+Location also matters when  
+
+171
+00:16:05,120 --> 00:16:09,040
+reading volume intensity.
+A narrow and thin candle at  
+
+172
+00:16:09,040 --> 00:16:15,920
+support might just mean quiet consolidation.
+The same candle forming at resistance could  
+
+173
+00:16:15,920 --> 00:16:24,160
+signal failing momentum, before a reversal.
+Also, track volume intensity changes over time. 
+
+174
+00:16:24,160 --> 00:16:29,440
+Rising volume with wider candles 
+confirms increasing market interest. 
+
+175
+00:16:29,440 --> 00:16:34,400
+Falling volume with narrowing 
+candles shows dropping interest. 
+
+176
+00:16:34,400 --> 00:16:39,600
+These shifts often predict big moves.
+ 
+Smart money leaves clues through  
+
+177
+00:16:39,600 --> 00:16:44,160
+volume intensity patterns.
+They often accumulate positions using  
+
+178
+00:16:44,160 --> 00:16:49,920
+many narrow candles with steady volume.
+Then they push price hard with a few  
+
+179
+00:16:49,920 --> 00:16:53,920
+high-volume wide candles.
+Spotting these patterns  
+
+180
+00:16:53,920 --> 00:16:59,120
+helps you trade with the big players.
+ 
+The relationship between candle spread  
+
+181
+00:16:59,120 --> 00:17:06,320
+and volume intensity reveals market psychology.
+Wide spread, high volume candles show strong  
+
+182
+00:17:06,320 --> 00:17:11,680
+agreement about price direction.
+Narrow spread, low volume candles  
+
+183
+00:17:11,680 --> 00:17:17,360
+show uncertainty or disinterest.
+These volume intensity principles will  
+
+184
+00:17:17,360 --> 00:17:20,960
+definitely help you avoid false moves. 
+ 
+Chapter 6: Key Level Analysis
+
+185
+00:17:20,960 --> 00:17:27,440
+The volume candles at support and resistance 
+levels tell a story about future price movement. 
+
+186
+00:17:27,440 --> 00:17:32,800
+Wide volume candles at support or 
+resistance signal strong interest. 
+
+187
+00:17:32,800 --> 00:17:39,920
+A wide green candle with high volume bouncing off 
+support shows buyers stepping in with conviction. 
+
+188
+00:17:39,920 --> 00:17:46,640
+A wide red candle with high volume, at 
+resistance, indicates sellers taking control.
+  
+
+189
+00:17:46,640 --> 00:17:50,880
+Thin volume candles at key 
+levels need special attention. 
+
+190
+00:17:50,880 --> 00:17:57,440
+When price reaches an important level but 
+produces narrow candles, it shows hesitation. 
+
+191
+00:17:57,440 --> 00:18:04,720
+This often precedes a false break or reversal. 
+ 
+Picture price approaching a resistance level - if  
+
+192
+00:18:04,720 --> 00:18:09,840
+the candles get thinner with lower 
+volume, the break attempt might fail. 
+
+193
+00:18:09,840 --> 00:18:14,720
+The change in candle width as 
+price tests a level also matters. 
+
+194
+00:18:14,720 --> 00:18:19,360
+Wide candles turning into thin 
+ones suggest momentum loss. 
+
+195
+00:18:19,360 --> 00:18:24,720
+At resistance, if candles start wide 
+but shrink while testing the level,  
+
+196
+00:18:24,720 --> 00:18:31,520
+it warns of weakening buying pressure.
+ 
+Watch for clusters of thin candles at key levels.  
+
+197
+00:18:31,520 --> 00:18:37,280
+These often form right before a strong move.
+Think of it as pressure building, the narrow  
+
+198
+00:18:37,280 --> 00:18:43,520
+range shows neither buyers nor sellers 
+want to commit until the break happens.
+  
+
+199
+00:18:43,520 --> 00:18:48,000
+Multiple tests of a level 
+create patterns in candle width. 
+
+200
+00:18:48,000 --> 00:18:52,000
+First tests might show wide 
+candles with high volume. 
+
+201
+00:18:52,000 --> 00:18:56,640
+Later tests often show thinner 
+candles, but don't ignore these. 
+
+202
+00:18:56,640 --> 00:19:00,720
+Sometimes the quiet approach 
+leads to the real break.
+  
+
+203
+00:19:00,720 --> 00:19:04,320
+Support breaks need proper 
+volume candle confirmation. 
+
+204
+00:19:04,320 --> 00:19:10,800
+A break with thin candles raises doubts.
+Look for wide candles pushing through the level,  
+
+205
+00:19:10,800 --> 00:19:17,600
+showing real selling pressure. The width of the 
+candles tells you if sellers mean business.
+  
+
+206
+00:19:17,600 --> 00:19:21,120
+Market structure changes 
+show through candle patterns. 
+
+207
+00:19:21,120 --> 00:19:26,320
+A series of wide candles breaking a 
+trend line, or a key structure level,  
+
+208
+00:19:26,320 --> 00:19:30,880
+carries more weight than thin ones.
+The width shows conviction in the  
+
+209
+00:19:30,880 --> 00:19:33,600
+structural change.
+ 
+Price congestion  
+
+210
+00:19:33,600 --> 00:19:41,040
+zones create their own key levels.
+Notice how candle width changes in these areas. 
+
+211
+00:19:41,040 --> 00:19:46,400
+Wide candles pushing into congestion 
+often fail, while patient accumulation  
+
+212
+00:19:46,400 --> 00:19:53,280
+with thinner candles might succeed.
+ 
+The character of candles shifts at major levels. 
+
+213
+00:19:53,280 --> 00:19:59,120
+A trend of steady wide candles might turn 
+into erratic thin ones at resistance. 
+
+214
+00:19:59,120 --> 00:20:06,480
+This change warns of possible trend exhaustion.
+False breakouts often start with thin candles.  
+
+215
+00:20:06,480 --> 00:20:13,280
+Even if price moves beyond the level, narrow 
+candle width suggests lack of commitment. 
+
+216
+00:20:13,280 --> 00:20:17,280
+So wait for wide candles 
+to confirm the real break.
+  
+
+217
+00:20:17,280 --> 00:20:24,320
+Volume candle width helps spot distribution tops.
+At resistance, rising price with shrinking candle  
+
+218
+00:20:24,320 --> 00:20:30,880
+width warns of weakness. Big players 
+might be quietly selling into the move.
+  
+
+219
+00:20:30,880 --> 00:20:37,280
+Support and resistance lose strength with each 
+test. But watch how candle width evolves during  
+
+220
+00:20:37,280 --> 00:20:44,640
+retests. Widening candles show growing interest.
+ 
+Some levels hold special weight - like  
+
+221
+00:20:44,640 --> 00:20:48,800
+weekly highs or lows.
+Expect wider candles at  
+
+222
+00:20:48,800 --> 00:20:55,920
+these points, as more traders watch them.
+Thin candles at major levels often precede  
+
+223
+00:20:55,920 --> 00:20:59,040
+violent moves.
+ 
+Market memory  
+
+224
+00:20:59,040 --> 00:21:05,200
+also creates support from old resistance.
+When price returns to these flipped levels,  
+
+225
+00:21:05,200 --> 00:21:13,040
+compare current candle width to previous tests.
+Similar patterns often produce similar results.
+  
+
+226
+00:21:13,040 --> 00:21:18,960
+The stopping volume pattern shows as a 
+single wide candle. It appears at key levels,  
+
+227
+00:21:18,960 --> 00:21:24,400
+often with a long wick. This candle 
+type signals strong rejection.
+  
+
+228
+00:21:24,400 --> 00:21:28,240
+Price congestion creates 
+natural support and resistance. 
+
+229
+00:21:28,240 --> 00:21:34,080
+Study how candle width changes when 
+price enters and exits these zones. 
+
+230
+00:21:34,080 --> 00:21:38,720
+Wide candles leaving congestion 
+often start strong trends.
+  
+
+231
+00:21:39,280 --> 00:21:45,280
+Momentum loss shows through candle width changes.
+As price approaches resistance,  
+
+232
+00:21:45,280 --> 00:21:52,080
+watch if candles get thinner.
+This gradual weakening often precedes reversals.
+  
+
+233
+00:21:52,080 --> 00:21:55,760
+Supply and demand balance 
+shows in candle patterns. 
+
+234
+00:21:55,760 --> 00:22:01,680
+Wide candles mean strong imbalance, 
+thin candles suggest equilibrium. 
+
+235
+00:22:01,680 --> 00:22:06,000
+Key levels often flip when this 
+balance shifts dramatically.
+ 
+  
+
+236
+00:22:06,560 --> 00:22:12,480
+Time frames affect how you read candle width.
+A wide candle on a daily chart carries  
+
+237
+00:22:12,480 --> 00:22:19,440
+more weight than on a 5-minute chart.
+So match your analysis to your trading timeframe.
+  
+
+238
+00:22:19,440 --> 00:22:25,040
+The market structure creates its own 
+key points through swing highs and lows. 
+
+239
+00:22:25,040 --> 00:22:29,360
+Watch how candle width behaves 
+at these natural levels. 
+
+240
+00:22:29,360 --> 00:22:33,520
+They often work as well as 
+traditional support and resistance.
+  
+
+241
+00:22:33,520 --> 00:22:39,680
+I hope you see how price action becomes 
+more reliable when candle width confirms it. 
+
+242
+00:22:39,680 --> 00:22:45,520
+A resistance break with wide candles 
+and high volume shows conviction. 
+
+243
+00:22:45,520 --> 00:22:46,480
+The same break with  
+
+244
+00:22:46,480 --> 00:22:50,560
+thin candles might trap traders.
+ 
+Chapter 7: Entry and Exit Triggers
+
+245
+00:22:50,560 --> 00:22:55,520
+Volume candles give clear signals 
+for entering and exiting trades. 
+
+246
+00:22:55,520 --> 00:23:00,000
+I said it before, wide candles 
+show strong market commitment. 
+
+247
+00:23:00,000 --> 00:23:04,960
+But when a wide green candle engulfs 
+several previous red candles, this  
+
+248
+00:23:04,960 --> 00:23:09,280
+signals potential buying pressure.
+The opposite happens when a wide  
+
+249
+00:23:09,280 --> 00:23:16,880
+red candle swallows prior green ones.
+ 
+Pin bars with extra width need special attention. 
+
+250
+00:23:16,880 --> 00:23:21,680
+A pin bar is like a rejection stick 
+- when it's wider than surrounding  
+
+251
+00:23:21,680 --> 00:23:29,520
+candles, the rejection carries more weight.
+Look for these wide pin bars at key price levels,  
+
+252
+00:23:29,520 --> 00:23:34,480
+especially if they come with high volume.
+ 
+Entry timing improves by watching  
+
+253
+00:23:34,480 --> 00:23:39,280
+the candle width progression.
+If candles get progressively wider  
+
+254
+00:23:39,280 --> 00:23:45,760
+during a move, it shows building momentum.
+This often leads to stronger trends. The  
+
+255
+00:23:45,760 --> 00:23:53,120
+width increase confirms price direction.
+ 
+Exit signals often appear as reversal candles. 
+
+256
+00:23:53,120 --> 00:23:59,520
+When a strong trend shows wide candles in one 
+direction, watch for an opposing wide candle  
+
+257
+00:23:59,520 --> 00:24:04,240
+to signal potential reversal.
+The wider the reversal candle,  
+
+258
+00:24:04,240 --> 00:24:08,640
+the stronger the signal.
+Of course, false signals need  
+
+259
+00:24:08,640 --> 00:24:15,200
+filtering. Not every wide candle means action.
+Look for confirmation from surrounding price  
+
+260
+00:24:15,200 --> 00:24:20,640
+action and volume patterns. Single 
+candles rarely tell the whole story.
+  
+
+261
+00:24:21,200 --> 00:24:26,800
+Time of day affects candle width 
+interpretation. Market opens or closes  
+
+262
+00:24:26,800 --> 00:24:34,000
+often show wider candles. These times need 
+different analysis than mid-session trading. 
+
+263
+00:24:34,000 --> 00:24:40,000
+The first hour of trading deserves special 
+study. Wide candles during this time often  
+
+264
+00:24:40,000 --> 00:24:46,400
+set the day's tone. But be careful - 
+early moves sometimes reverse quickly.
+  
+
+265
+00:24:46,400 --> 00:24:53,280
+Risk management also links to candle width.
+Wider candles often mean more volatility,  
+
+266
+00:24:53,280 --> 00:24:57,360
+suggesting wider stops.
+Adjust position size  
+
+267
+00:24:57,360 --> 00:25:05,040
+accordingly to maintain consistent risk levels.
+ 
+Trend confirmation uses candle width patterns. 
+
+268
+00:25:05,040 --> 00:25:10,960
+A sequence of widening candles in the 
+trend direction supports continuation. 
+
+269
+00:25:10,960 --> 00:25:17,440
+Thinning candles might warn of weakness.
+ 
+Price gaps between candles need attention. 
+
+270
+00:25:17,440 --> 00:25:24,080
+Wide candles after gaps often signal continuation.
+But watch for reversal patterns if  
+
+271
+00:25:24,080 --> 00:25:30,480
+volume doesn't confirm the move.
+ 
+Counter-trend signals need extra confirmation. 
+
+272
+00:25:30,480 --> 00:25:35,120
+A wide reversal candle against 
+the main trend needs more support,  
+
+273
+00:25:35,120 --> 00:25:40,880
+than one moving with the trend.
+Pattern recognition improves with practice.  
+
+274
+00:25:40,880 --> 00:25:47,040
+Start by marking wide candles on your charts.
+Notice how they cluster at important  
+
+275
+00:25:47,040 --> 00:25:52,880
+points and what follows them.
+ 
+My go-to signals using volume candles  
+
+276
+00:25:52,880 --> 00:25:58,880
+include engulfing candles and pin bars.
+A bullish engulfing candle happens when  
+
+277
+00:25:58,880 --> 00:26:04,160
+a green candle completely covers the 
+body of the previous red candle. This  
+
+278
+00:26:04,160 --> 00:26:10,320
+shows buyers taking control with force.
+ 
+The real power comes from volume analysis. 
+
+279
+00:26:10,320 --> 00:26:18,320
+Here, you see a bearish trend with several small 
+red candles. Then suddenly, a large green candle  
+
+280
+00:26:18,320 --> 00:26:26,640
+appears, with volume much higher than the average.
+This green giant engulfs previous red candles.  
+
+281
+00:26:26,640 --> 00:26:32,720
+That's not just a reversal signal, it's a 
+strong sign of smart money stepping in.
+  
+
+282
+00:26:32,720 --> 00:26:37,280
+Volume candles tells if the 
+engulfing move is real or fake. 
+
+283
+00:26:37,280 --> 00:26:43,440
+Small candles with low volume, followed by 
+a wide engulfing candle with high volume,  
+
+284
+00:26:43,440 --> 00:26:47,600
+shows real buying pressure.
+Smart money likes to move prices  
+
+285
+00:26:47,600 --> 00:26:53,440
+when other traders least expect it.
+ 
+A pin bar looks like a hammer - it  
+
+286
+00:26:53,440 --> 00:26:58,480
+has a long wick and short body.
+But volume makes some pin bars  
+
+287
+00:26:58,480 --> 00:27:02,400
+more special than others.
+A pin bar with much higher  
+
+288
+00:27:02,400 --> 00:27:09,280
+volume carries more weight than regular ones.
+It shows strong rejection of a price level.
+  
+
+289
+00:27:09,280 --> 00:27:15,600
+Take this example: The price drops for 
+several candles, with thin red candles. 
+
+290
+00:27:15,600 --> 00:27:23,040
+And right here, you see a big pin bar - wider 
+than the previous candles, with a long lower wick. 
+
+291
+00:27:23,040 --> 00:27:28,880
+The volume on this pin bar is higher 
+than normal. This isn't just a pin bar,  
+
+292
+00:27:28,880 --> 00:27:33,360
+it's smart money entering.
+ 
+You see, professional traders  
+
+293
+00:27:33,360 --> 00:27:38,880
+don't just look at candle body size.
+They combine it with volume study. 
+
+294
+00:27:38,880 --> 00:27:47,920
+A thin pin bar with low volume might be a trap. 
+But high volume confirms real market intent.
+  
+
+295
+00:27:47,920 --> 00:27:53,520
+During consolidation, you might see 
+small candles with average volume. 
+
+296
+00:27:53,520 --> 00:27:59,200
+Then breaks out with a wide engulfing 
+candle and big volume. This shows  
+
+297
+00:27:59,200 --> 00:28:06,240
+institutional players making their move.
+ 
+Volume shifts during the day matter too. 
+
+298
+00:28:06,240 --> 00:28:12,560
+An engulfing pattern at market open needs 
+different volume than one at mid-day. 
+
+299
+00:28:12,560 --> 00:28:18,880
+Morning sessions often have naturally higher 
+volume, so adjust your expectations.
+ 
+  
+
+300
+00:28:18,880 --> 00:28:22,880
+Remember older price zones 
+when studying these patterns. 
+
+301
+00:28:22,880 --> 00:28:29,920
+A pin bar at previous support, showing higher 
+width and volume, carries extra significance.  
+
+302
+00:28:29,920 --> 00:28:35,600
+The market remembers these levels.
+A wide red pin bar with high volume,  
+
+303
+00:28:35,600 --> 00:28:42,240
+at resistance, often signals selling pressure.
+The opposite happens at support - green  
+
+304
+00:28:42,240 --> 00:28:49,280
+pin bars with volume can mark bottoms.
+ 
+Several narrow candles followed by a wide  
+
+305
+00:28:49,280 --> 00:28:57,520
+engulfing one shows building pressure. If volume 
+rises with each candle, the signal gets stronger. 
+
+306
+00:28:57,520 --> 00:29:05,280
+Narrow candles with low volume followed by a 
+wide engulfing candle often trap retail traders. 
+
+307
+00:29:05,280 --> 00:29:12,160
+So look for volume spikes with engulfing patterns.
+A bullish engulfing candle erasing three prior red  
+
+308
+00:29:12,160 --> 00:29:17,680
+candles shows control shifting.
+This move could be significant. 
+
+309
+00:29:17,680 --> 00:29:25,040
+These setups often lead to sustained trends. 
+ 
+ 
+Wide candles engulfing multiple prior bars show  
+
+310
+00:29:25,040 --> 00:29:27,920
+decisive action.
+And of course,  
+
+311
+00:29:27,920 --> 00:29:33,520
+pattern recognition improves with practice.
+Now, if you want to learn other price action  
+
+312
+00:29:33,520 --> 00:29:41,360
+and volume strategies, go ahead 
+and watch one of these videos next.
+

@@ -1,0 +1,771 @@
+1
+00:00:00,740 --> 00:00:06,700
+Let me tell you a secret: the success rate
+of harmonic patterns is actually higher compared
+
+2
+00:00:06,700 --> 00:00:11,750
+to the other classic price patterns, like
+triangles, wedges or flags.
+
+3
+00:00:11,750 --> 00:00:16,539
+And not many traders use them, despite the
+fact they provide very precise conditions
+
+4
+00:00:16,539 --> 00:00:21,770
+for entering, and offer a high reward to risk
+ratio when traded properly.
+
+5
+00:00:21,770 --> 00:00:26,189
+Today we’ll highlight one of the best harmonic
+patterns – the Gartley formation.
+
+6
+00:00:26,189 --> 00:00:34,320
+So if you could, like, subscribe to the channel,
+and stick around for the full video.
+
+7
+00:00:34,320 --> 00:00:38,431
+What is the Gartley pattern?
+
+8
+00:00:38,431 --> 00:00:43,891
+The Gartley pattern resembles an M/W shape
+on the chart, depending on whether it is a
+
+9
+00:00:43,891 --> 00:00:47,600
+bullish or a bearish Gartley and consists
+of five points on the chart.
+
+10
+00:00:47,600 --> 00:00:52,010
+These points are marked with X, A, B, C, and
+D.
+
+11
+00:00:52,010 --> 00:00:57,110
+Gartley is a retracement and continuation
+pattern at the same time, depending on its
+
+12
+00:00:57,110 --> 00:01:02,670
+location in a trend, that is formed when a
+trend temporarily changes direction before
+
+13
+00:01:02,670 --> 00:01:05,010
+continuing in its original direction.
+
+14
+00:01:05,010 --> 00:01:10,850
+And it provides a low-risk opportunity for
+traders to enter the market where the pattern
+
+15
+00:01:10,850 --> 00:01:14,340
+finishes and the trend comes back.
+
+16
+00:01:14,340 --> 00:01:19,781
+How to identify the Gartley pattern?
+
+17
+00:01:19,781 --> 00:01:22,940
+The Gartley pattern depends on several movements
+in price.
+
+18
+00:01:22,940 --> 00:01:26,200
+Every swing has to confirm certain Fibonacci
+levels.
+
+19
+00:01:26,200 --> 00:01:30,250
+To make it very simple, let’s look at each
+component of the Gartley structure.
+
+20
+00:01:30,250 --> 00:01:33,990
+X to A swing
+The movement begins with X to A and there
+
+21
+00:01:33,990 --> 00:01:35,869
+are no specifics for this leg.
+
+22
+00:01:35,869 --> 00:01:41,950
+This first leg gets formed when the price
+sharply rises or declines from point X to
+
+23
+00:01:41,950 --> 00:01:43,039
+point A.
+
+24
+00:01:43,039 --> 00:01:46,310
+This is the longest leg of the pattern.
+
+25
+00:01:46,310 --> 00:01:50,270
+A to B swing
+This is where Fibonacci becomes relevant to
+
+26
+00:01:50,270 --> 00:01:51,389
+the pattern.
+
+27
+00:01:51,389 --> 00:01:57,120
+The A-B leg will not retrace pass point X
+– if it does, the pattern is considered
+
+28
+00:01:57,120 --> 00:01:58,299
+invalid.
+
+29
+00:01:58,299 --> 00:02:03,119
+The AB swing should be approximately 61.8%
+of the XA leg.
+
+30
+00:02:03,119 --> 00:02:10,750
+B to C swing
+This movement should be a retracement of 38.2%
+
+31
+00:02:10,750 --> 00:02:19,570
+or 88.6% of the movement of A to B. If the
+B to C move retraces above point A, the Gartley
+
+32
+00:02:19,570 --> 00:02:20,570
+pattern is invalid.
+
+33
+00:02:20,570 --> 00:02:26,270
+C to D swing
+This should be an extension of the B to C
+
+34
+00:02:26,270 --> 00:02:27,270
+leg.
+
+35
+00:02:27,270 --> 00:02:35,530
+If BC is 38.2% of AB, then CD should respond
+to the 127.2% extension of BC.
+
+36
+00:02:35,530 --> 00:02:44,510
+If BC is 88.6% of AB, then CD leg should be
+the 161.8% extension of BC swing.
+
+37
+00:02:44,510 --> 00:02:48,700
+A to D swing
+After the completion of C-D, you measure the
+
+38
+00:02:48,700 --> 00:02:55,510
+overall movement of A to D. It should be a
+78.6 percent retracement of the change in
+
+39
+00:02:55,510 --> 00:03:00,500
+price of X to A.
+I know it might seem complicated at first,
+
+40
+00:03:00,500 --> 00:03:06,580
+but if you use Tradingview, you can use this
+tool and you can start drawing the pattern.
+
+41
+00:03:06,580 --> 00:03:09,190
+You just need 4 price swings.
+
+42
+00:03:09,190 --> 00:03:14,920
+Just place the tools at the extreme of the
+swings and start backtesting.
+
+43
+00:03:14,920 --> 00:03:21,840
+Ideal Gartley
+The ideal Gartley will be defined by specific
+
+44
+00:03:21,840 --> 00:03:23,900
+Fibonacci retracements.
+
+45
+00:03:23,900 --> 00:03:31,010
+One of the most important numbers in the pattern
+is the completion of point D at the 0.786
+
+46
+00:03:31,010 --> 00:03:32,820
+of XA.
+
+47
+00:03:32,820 --> 00:03:37,570
+Although the price action might exceed this
+number slightly, it should not exceed point
+
+48
+00:03:37,570 --> 00:03:38,590
+X.
+
+49
+00:03:38,590 --> 00:03:44,330
+Another important point in the pattern is
+the 0.618 retracement of the XA leg.
+
+50
+00:03:44,330 --> 00:03:49,190
+The AB leg should reverse very close to this
+retracement.
+
+51
+00:03:49,190 --> 00:03:55,310
+The .618 retracement at point B is critical
+because it will establish another Fibonacci
+
+52
+00:03:55,310 --> 00:04:02,810
+projection - usually a 1.27 of BC - in the
+Potential Reversal Zone at point D.
+
+53
+00:04:02,810 --> 00:04:08,650
+The best part about Gartley patterns is that
+they indicate both the timing and magnitude
+
+54
+00:04:08,650 --> 00:04:10,760
+of price movements.
+
+55
+00:04:10,760 --> 00:04:18,009
+Bullish Gartley Pattern
+The Bullish Gartley starts with a bullish
+
+56
+00:04:18,009 --> 00:04:19,470
+XA move.
+
+57
+00:04:19,470 --> 00:04:21,539
+AB is then bearish.
+
+58
+00:04:21,539 --> 00:04:25,169
+BC is bullish, and CD is bearish again.
+
+59
+00:04:25,169 --> 00:04:29,620
+And you expect a reversal of the CD move.
+
+60
+00:04:29,620 --> 00:04:34,650
+This means that a bullish Gartley implies
+a price increase from Point D.
+
+61
+00:04:34,650 --> 00:04:41,629
+The full target of the pattern is the 161.8%
+Fibonacci extension of the AD move, which
+
+62
+00:04:41,629 --> 00:04:45,719
+resembles the AB=CD harmonic pattern upon
+completion.
+
+63
+00:04:45,719 --> 00:04:50,659
+And, we have three intermediary targets before
+that.
+
+64
+00:04:50,659 --> 00:04:55,090
+Target 1: B Swing
+Target 2: C Swing
+
+65
+00:04:55,090 --> 00:04:57,170
+Target 3: A Swing
+
+66
+00:04:57,170 --> 00:05:06,610
+Bearish Gartley Pattern
+The bearish Gartley has a bearish XA move,
+
+67
+00:05:06,610 --> 00:05:13,100
+a bullish AB move, a bearish BC move, and
+a bullish CD move.
+
+68
+00:05:13,100 --> 00:05:17,520
+A bearish Gartley implies a price decrease
+from Point D.
+
+69
+00:05:17,520 --> 00:05:25,290
+The expected price target of the bearish pattern
+is the 161.8% extension of the AD move, with
+
+70
+00:05:25,290 --> 00:05:29,139
+the intermediary targets at swings B, C and
+A.
+
+71
+00:05:29,139 --> 00:05:37,289
+How To Trade Gartley Harmonic Pattern
+To enter a Gartley trade you should first
+
+72
+00:05:37,289 --> 00:05:41,509
+take note of the pattern and then confirm
+if it is valid or not.
+
+73
+00:05:41,509 --> 00:05:47,150
+First, you outline the four price swings on
+the chart and you make sure they respond to
+
+74
+00:05:47,150 --> 00:05:49,680
+their respective Fibonacci levels.
+
+75
+00:05:49,680 --> 00:05:55,919
+You mark every price action swing with the
+important letters X, A, B, C, and D.
+
+76
+00:05:55,919 --> 00:06:00,900
+By doing this, you will be able to estimate
+the overall size of the pattern and get a
+
+77
+00:06:00,900 --> 00:06:04,210
+clear idea about the parameters.
+
+78
+00:06:04,210 --> 00:06:10,180
+If you have a bullish Gartley for example,
+you open a long trade if CD leg founds support
+
+79
+00:06:10,180 --> 00:06:18,169
+at 127.2 percent or 161.8 percent Fibonacci
+level of the BC move.
+
+80
+00:06:18,169 --> 00:06:23,259
+You should always use a stop loss order regardless
+of your preferred entry signal, to protect
+
+81
+00:06:23,259 --> 00:06:26,849
+yourself from any rapid or unexpected price
+move.
+
+82
+00:06:26,849 --> 00:06:31,979
+The stop loss order of a bullish Gartley trade
+should be found below the X point of the chart
+
+83
+00:06:31,979 --> 00:06:33,330
+pattern.
+
+84
+00:06:33,330 --> 00:06:39,449
+For a bearish Gartley, your stop loss order
+should be found above the pattern’s X point.
+
+85
+00:06:39,449 --> 00:06:45,110
+As for take profits, you enter a position
+after the bounce at point D and then scale
+
+86
+00:06:45,110 --> 00:06:47,559
+out at different levels.
+
+87
+00:06:47,559 --> 00:06:51,300
+Target 1: B Swing
+Target 2: C Swing
+
+88
+00:06:51,300 --> 00:06:59,759
+Target 3: A Swing
+Target 4: 161.8% of AD
+
+89
+00:06:59,759 --> 00:07:04,909
+These four levels on the chart are the four
+minimum targets of the bullish Gartley.
+
+90
+00:07:04,909 --> 00:07:09,580
+That doesn’t mean that the bullish trend
+will end when the price completes point E.
+
+91
+00:07:09,580 --> 00:07:15,919
+You are always free to use additional price
+action rules or a trailing stop to exit your
+
+92
+00:07:15,919 --> 00:07:16,919
+trade.
+
+93
+00:07:16,919 --> 00:07:22,210
+If the price momentum continues to show signs
+of strength, you can keep a small portion
+
+94
+00:07:22,210 --> 00:07:24,089
+of the trade open.
+
+95
+00:07:24,089 --> 00:07:30,460
+Use price action clues such as trend lines,
+support and resistant techniques, candle patterns
+
+96
+00:07:30,460 --> 00:07:34,029
+and volume to find the right entry and exit
+point.
+
+97
+00:07:34,029 --> 00:07:39,611
+And generally, if the price action shows no
+signs of interrupting the new trend, just
+
+98
+00:07:39,611 --> 00:07:41,321
+stay in the trade for as long as you can.
+
+99
+00:07:41,321 --> 00:07:50,219
+Gartley after a Strong Price Move
+This pattern is even more significant, if
+
+100
+00:07:50,219 --> 00:07:52,839
+it is preceded by a major price move.
+
+101
+00:07:52,839 --> 00:07:58,639
+Often, after a major price move, the Gartley
+will begin with a strong counter move, which
+
+102
+00:07:58,639 --> 00:08:01,389
+becomes the X to A leg.
+
+103
+00:08:01,389 --> 00:08:06,860
+The price will appear to be consolidating,
+attempting to stabilize before making another
+
+104
+00:08:06,860 --> 00:08:07,869
+strong move.
+
+105
+00:08:07,869 --> 00:08:14,199
+If a Gartley forms after such price action,
+from my backtesting, this pattern will prove
+
+106
+00:08:14,199 --> 00:08:15,900
+to be a substantial opportunity.
+
+107
+00:08:15,900 --> 00:08:21,830
+In addition, the stop loss required in the
+trade will be relatively small relative to
+
+108
+00:08:21,830 --> 00:08:23,499
+the potential reversal.
+
+109
+00:08:23,499 --> 00:08:28,919
+The primary reason for this powerful opportunity
+is that a successful reversal will resume
+
+110
+00:08:28,919 --> 00:08:34,370
+the trend that was established by the initial
+XA price move.
+
+111
+00:08:34,370 --> 00:08:39,560
+The Bullish Gartley after a strong sell-off
+is a difficult opportunity to perceive.
+
+112
+00:08:39,560 --> 00:08:45,100
+When the price forms this pattern, it might
+seem as if the market is making lower highs,
+
+113
+00:08:45,100 --> 00:08:50,260
+especially since point C is below point A
+after the initial bounce.
+
+114
+00:08:50,260 --> 00:08:56,270
+However, the pattern is indicating a potential
+buy at the Potential Reversal Zone.
+
+115
+00:08:56,270 --> 00:09:01,620
+The beauty of this set-up is that it requires
+a very small amount of risk to see if the
+
+116
+00:09:01,620 --> 00:09:03,560
+trade will work out.
+
+117
+00:09:03,560 --> 00:09:08,940
+Since this is an unusually good set-up, the
+potential profit is very large in comparison
+
+118
+00:09:08,940 --> 00:09:11,420
+to the amount needed to be risked.
+
+119
+00:09:11,420 --> 00:09:16,440
+The stop loss should be placed, of course,
+just below X point.
+
+120
+00:09:16,440 --> 00:09:20,990
+This is a great example of a Gartley after
+a severe decline.
+
+121
+00:09:20,990 --> 00:09:24,500
+The Potential Reversal Zone was very clear.
+
+122
+00:09:24,500 --> 00:09:28,520
+It had three harmonic numbers within a very
+narrow range.
+
+123
+00:09:28,520 --> 00:09:42,019
+AB is 61.8% of XA, BC is 88.6% of AB, CD is
+the 161.8% extension of BC.
+
+124
+00:09:42,019 --> 00:09:47,220
+At the same time, AD is 78.6% of XA.
+
+125
+00:09:47,220 --> 00:09:52,460
+Since this is a bullish Gartley setup, the
+expected price move is to the upside.
+
+126
+00:09:52,460 --> 00:10:01,060
+For this reason, you would prepare to buy
+when CD finishes at the 161.8% of BC and the
+
+127
+00:10:01,060 --> 00:10:03,790
+price action bounces upwards.
+
+128
+00:10:03,790 --> 00:10:07,220
+The stop loss would have been placed just
+under X point.
+
+129
+00:10:07,220 --> 00:10:12,990
+You can see that this situation required only
+a small stop to risk in exchange for a bigger
+
+130
+00:10:12,990 --> 00:10:14,330
+gain.
+
+131
+00:10:14,330 --> 00:10:19,000
+The first target of this long trade is located
+at the level of point B.
+
+132
+00:10:19,000 --> 00:10:23,880
+The second target is at point C and it also
+gets accomplished.
+
+133
+00:10:23,880 --> 00:10:29,710
+The price action also reaches the level of
+point A, which is the next target on the chart.
+
+134
+00:10:29,710 --> 00:10:37,210
+And our last target, located at the 161.8%
+Fibonacci extension of the AD price move.
+
+135
+00:10:37,210 --> 00:10:42,011
+Bearish Gartley after a Strong Rally
+
+136
+00:10:42,011 --> 00:10:47,910
+A Bearish Gartley after a strong rally is
+a very powerful reversal signal, as well.
+
+137
+00:10:47,910 --> 00:10:54,160
+Essentially, a market that can’t rally to
+new highs after a considerable move usually
+
+138
+00:10:54,160 --> 00:10:56,649
+indicates serious weakness.
+
+139
+00:10:56,649 --> 00:11:00,800
+In this example, the pattern forms after a
+strong rally.
+
+140
+00:11:00,800 --> 00:11:06,300
+In this set-up, point X is usually an important
+high for the price.
+
+141
+00:11:06,300 --> 00:11:09,680
+The figure starts with a bearish XA move.
+
+142
+00:11:09,680 --> 00:11:14,670
+AB is then bullish and BC is bearish.
+
+143
+00:11:14,670 --> 00:11:19,120
+CD then reverses the bearish BC move.
+
+144
+00:11:19,120 --> 00:11:24,790
+The pattern should complete in an area where
+several harmonic projections converge.
+
+145
+00:11:24,790 --> 00:11:33,240
+AB takes 61.8% of XA.
+BC is the 88.6% level of AB.
+
+146
+00:11:33,240 --> 00:11:38,240
+CD reaches the 161.8% extension of BC.
+
+147
+00:11:38,240 --> 00:11:44,490
+When the CD move is finished and the price
+creates a bearish bounce from the 161.8% extension
+
+148
+00:11:44,490 --> 00:11:48,310
+of BC, we confirm that the bearish Gartley
+is valid.
+
+149
+00:11:48,310 --> 00:11:55,680
+So a good sell zone is here, placing a stop
+loss order above the swing at point X.
+
+150
+00:11:55,680 --> 00:11:59,509
+The first target at point B gets completed
+rapidly.
+
+151
+00:11:59,509 --> 00:12:04,700
+The next targets located at point C and A,
+also reached.
+
+152
+00:12:04,700 --> 00:12:09,949
+And the final target, located at the 161.8%
+extension of the AD move.
+
+153
+00:12:09,949 --> 00:12:15,290
+The Gartley is a great pattern that occurs
+frequently on all time frames, in all types
+
+154
+00:12:15,290 --> 00:12:19,100
+of markets and is 100% price action based.
+
+155
+00:12:19,100 --> 00:12:24,069
+The thing that works about Harmonic Patterns
+in general is that they use the confluence
+
+156
+00:12:24,069 --> 00:12:29,720
+method, meaning that they expect reactions
+from clusters of certain levels defined by
+
+157
+00:12:29,720 --> 00:12:31,990
+Fibonacci retracements.
+
+158
+00:12:31,990 --> 00:12:37,259
+They work because Fibonacci retracements are
+used by many traders and their visibility
+
+159
+00:12:37,259 --> 00:12:43,589
+makes reactions more likely, thus increasing
+the predictive power of the patterns.
+
+160
+00:12:43,589 --> 00:12:48,519
+If you are interested in seeing more harmonic
+patterns and price action videos, leave us
+
+161
+00:12:48,519 --> 00:12:49,519
+a like.
+
+162
+00:12:49,519 --> 00:12:52,900
+This way we’ll know if you'd like to see
+more videos like this one.
+
+163
+00:12:52,900 --> 00:12:57,230
+And check out our academy program if you want
+to further level up your trading.
+
+164
+00:12:57,230 --> 00:12:58,579
+Until next time.
+

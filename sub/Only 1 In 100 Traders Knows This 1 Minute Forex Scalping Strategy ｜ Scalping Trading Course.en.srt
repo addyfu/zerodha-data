@@ -1,0 +1,1366 @@
+1
+00:00:00,080 --> 00:00:05,320
+If you are a scalper, then you DEFINITELY 
+must try out this scalping strategy! No  
+
+2
+00:00:05,320 --> 00:00:11,560
+indicators, no lag, just pure price action!
+ 
+So… we’ll look for signals on the 1-minute  
+
+3
+00:00:11,560 --> 00:00:18,000
+timeframe, using only price action and some basic 
+smart money concepts, like liquidity, supply  
+
+4
+00:00:18,000 --> 00:00:24,520
+and demand zones, and breaks of structure. 
+ 
+The first setup focuses on a specific pattern:  
+
+5
+00:00:24,520 --> 00:00:31,560
+an institutional candle followed by at least 
+8 inside bars, ideally 10 small candles,  
+
+6
+00:00:31,560 --> 00:00:35,080
+forming a tight channel.
+The trade is triggered when  
+
+7
+00:00:35,080 --> 00:00:40,960
+the price breaks out of this channel range.
+The institutional bar is the setup candle,  
+
+8
+00:00:40,960 --> 00:00:47,280
+a larger price bar that sets the initial range.
+Inside bars are the following smaller bars,  
+
+9
+00:00:47,280 --> 00:00:51,160
+that form within the high and 
+low of the institutional bar. 
+  
+
+10
+00:00:51,160 --> 00:00:55,920
+When you see 8 or more inside bars, 
+it shows the market is consolidating. 
+
+11
+00:00:55,920 --> 00:01:03,160
+I use this indicator to find inside bars.
+ 
+Now, this setup creates a channel on your chart. 
+
+12
+00:01:03,160 --> 00:01:08,280
+The top of the channel is the institutional 
+bar's high, and the bottom is its low. 
+
+13
+00:01:08,280 --> 00:01:14,360
+The inside bars stay within this range, 
+making the market look calm for a bit. 
+
+14
+00:01:14,360 --> 00:01:17,920
+The key is to wait for a 
+breakout from this channel. 
+
+15
+00:01:17,920 --> 00:01:22,920
+This shows increasing momentum, that 
+could lead to a decent scalping move.
+  
+
+16
+00:01:22,920 --> 00:01:28,520
+For a buy trade, you'd enter when the 
+price breaks above the channel's top. 
+
+17
+00:01:28,520 --> 00:01:33,200
+For a sell trade, you'd enter 
+when it breaks below the bottom. 
+
+18
+00:01:33,200 --> 00:01:37,320
+The scalping plan here is that 
+after this tight consolidation,  
+
+19
+00:01:37,320 --> 00:01:43,680
+the market is ready to make a bigger move.
+ 
+Now, this scalping approach only works in  
+
+20
+00:01:43,680 --> 00:01:49,000
+combination with support and resistance 
+levels, or supply and demand levels. 
+
+21
+00:01:49,000 --> 00:01:52,920
+These areas help you find 
+good spots to enter trades. 
+
+22
+00:01:52,920 --> 00:01:56,680
+When the price breaks out of 
+the channel, near a key support  
+
+23
+00:01:56,680 --> 00:02:02,440
+or demand level, it's a stronger signal.
+This means you have two reasons to take the  
+
+24
+00:02:02,440 --> 00:02:09,000
+trade - the breakout and the level itself.
+And when trading this setup, you also  
+
+25
+00:02:09,000 --> 00:02:15,960
+pay attention to the overall market context.
+Is the market in a broader uptrend, or downtrend? 
+
+26
+00:02:15,960 --> 00:02:21,600
+This can help you decide which breakout 
+direction is more likely to succeed. 
+
+27
+00:02:21,600 --> 00:02:26,760
+For exits, you can use minor levels.
+You look for small areas where the  
+
+28
+00:02:26,760 --> 00:02:33,680
+price has paused, or reversed before.
+These can be good spots to take profits.
+ 
+  
+
+29
+00:02:33,680 --> 00:02:39,280
+This scalping setup is a classic example 
+of trend continuation, showing how markets  
+
+30
+00:02:39,280 --> 00:02:45,680
+move in cycles of contraction and expansion.
+Big market players use these cycles to build  
+
+31
+00:02:45,680 --> 00:02:52,120
+positions, and profit from market moves.
+The ideal signal looks like this: a strong  
+
+32
+00:02:52,120 --> 00:02:59,320
+upward move, followed by a period of contraction 
+(the institutional candle and the inside bars),  
+
+33
+00:02:59,320 --> 00:03:05,920
+ideally at a demand level, then a 
+breakout continuing the upward trend. 
+  
+
+34
+00:03:05,920 --> 00:03:11,720
+This is how smart money operates in the market.
+The initial upward move (the institutional  
+
+35
+00:03:11,720 --> 00:03:17,880
+candle) is driven by big players.
+They buy steadily, pushing the price up. 
+
+36
+00:03:17,880 --> 00:03:22,920
+But they can't buy forever without 
+causing the price to spike too quickly. 
+
+37
+00:03:22,920 --> 00:03:27,920
+So they pause, creating the 
+contraction phase we see on the chart. 
+
+38
+00:03:27,920 --> 00:03:33,120
+During this contraction, the institutional 
+candle sets the range, and the following  
+
+39
+00:03:33,120 --> 00:03:40,400
+inside bars show decreasing volatility. 
+ 
+This is not random. Smart money is using  
+
+40
+00:03:40,400 --> 00:03:45,640
+this time to continue building their 
+position, without alerting other traders. 
+
+41
+00:03:45,640 --> 00:03:49,680
+The longer the contraction lasts, 
+the more tension builds up. 
+
+42
+00:03:49,680 --> 00:03:56,320
+This tension is what fuels the eventual breakout.
+That’s why I want at least 8 inside bars,  
+
+43
+00:03:56,320 --> 00:04:00,200
+preferably over 10.
+ 
+The contraction phase also  
+
+44
+00:04:00,200 --> 00:04:07,360
+serves another purpose for smart money: it creates 
+a zone where other traders place their orders. 
+
+45
+00:04:07,360 --> 00:04:14,440
+Breakout traders put buy orders above the range, 
+thinking they'll catch the move when it starts. 
+
+46
+00:04:14,440 --> 00:04:20,200
+Short-term traders might place 
+sell orders, betting on a reversal. 
+
+47
+00:04:20,200 --> 00:04:25,360
+Smart money sees all these orders 
+as potential fuel for the next move. 
+
+48
+00:04:25,360 --> 00:04:30,040
+When they're ready, they push the 
+price up, triggering these orders. 
+
+49
+00:04:30,040 --> 00:04:34,240
+The breakout traders' buy orders 
+add to the upward momentum. 
+
+50
+00:04:34,240 --> 00:04:41,040
+The short sellers' stop losses get hit, forcing 
+them to buy, and pushing the price even higher.
+  
+
+51
+00:04:41,040 --> 00:04:45,440
+This is the expansion phase. This is 
+when we enter! The built-up tension  
+
+52
+00:04:45,440 --> 00:04:51,480
+is released, and the price moves quickly.
+Ideally, the candles after the breakout are  
+
+53
+00:04:51,480 --> 00:04:56,640
+larger, showing increased volatility.
+This is the market expanding  
+
+54
+00:04:56,640 --> 00:05:01,120
+after the contraction.
+ 
+For us, scalpers, this pattern  
+
+55
+00:05:01,120 --> 00:05:05,880
+offers several potential entry points.
+You could buy the breakout when price  
+
+56
+00:05:05,880 --> 00:05:12,000
+closes above the institutional bar's high.
+Or you could wait for a slight pullback  
+
+57
+00:05:12,000 --> 00:05:17,880
+after the breakout, which often happens 
+as some traders take quick profits. 
+
+58
+00:05:17,880 --> 00:05:23,200
+The stop loss for this trade could go 
+below the low of the contraction phase. 
+
+59
+00:05:23,200 --> 00:05:28,160
+If price falls below this level, 
+it might mean the move has failed. 
+
+60
+00:05:28,160 --> 00:05:32,800
+As for targets, look at the size 
+of the move before the contraction. 
+
+61
+00:05:32,800 --> 00:05:38,360
+Breakouts often move about the same 
+distance as the prior trend wave. 
+  
+
+62
+00:05:38,360 --> 00:05:44,640
+So to find a “sell” scalping signal on the 
+1 minute chart, you look for these elements: 
+
+63
+00:05:44,640 --> 00:05:51,680
+First, identify a strong downtrend on the chart. 
+You want to see a series of lower highs and lower  
+
+64
+00:05:51,680 --> 00:05:57,800
+lows, confirming the bearish sentiment.
+Next, find the institutional candle,  
+
+65
+00:05:57,800 --> 00:06:03,680
+followed by 8 or more inside bars, 
+creating a tight trading range. 
+
+66
+00:06:03,680 --> 00:06:08,800
+This consolidation is basically a pause 
+in the downtrend, where buyers and  
+
+67
+00:06:08,800 --> 00:06:14,520
+sellers are temporarily in balance.
+Pay close attention to how price  
+
+68
+00:06:14,520 --> 00:06:19,920
+behaves at the bottom of this range.
+If it struggles to make new lows, or  
+
+69
+00:06:19,920 --> 00:06:26,560
+repeatedly tests and fails at the lower boundary, 
+this could be a sign of temporary strength. 
+
+70
+00:06:26,560 --> 00:06:31,960
+But remember, we're looking for a 
+continuation of the downtrend, not a reversal. 
+
+71
+00:06:31,960 --> 00:06:38,680
+A short signal would trigger if price breaks 
+down, below the low of the institutional candle. 
+
+72
+00:06:38,680 --> 00:06:44,040
+This breakdown should come with 
+increased volume and larger red candles. 
+
+73
+00:06:44,040 --> 00:06:47,760
+For confirmation, you can 
+wait for a small pullback. 
+
+74
+00:06:47,760 --> 00:06:55,120
+You're essentially looking for a weak attempt at 
+an upward move, that fails to gain traction.
+ 
+ 
+  
+
+75
+00:06:55,120 --> 00:07:02,040
+This chart shows a classic buy signal in an 
+uptrend, with price reacting at a demand zone. 
+
+76
+00:07:02,040 --> 00:07:07,960
+First, we see a clear uptrend, marked 
+by higher highs and higher lows. 
+
+77
+00:07:07,960 --> 00:07:12,840
+The uptrend sets the stage for our 
+buy signal, as it's often best to  
+
+78
+00:07:12,840 --> 00:07:18,200
+trade in the direction of the main trend.
+The support zone, which can also be found  
+
+79
+00:07:18,200 --> 00:07:24,680
+on a higher time frame, is very important here.
+It was a previous resistance level, that price  
+
+80
+00:07:24,680 --> 00:07:29,520
+broke through earlier in the uptrend.
+Once price breaks above resistance,  
+
+81
+00:07:30,320 --> 00:07:36,840
+that level often becomes new support.
+ 
+Notice how price reacts at the support level. 
+
+82
+00:07:36,840 --> 00:07:38,960
+We have our institutional candle,  
+
+83
+00:07:38,960 --> 00:07:44,720
+followed by consecutive inside bars, 
+showing a contraction in volatility. 
+
+84
+00:07:44,720 --> 00:07:50,640
+The buy signal comes when we see a bullish 
+candle forming above this contraction. 
+
+85
+00:07:50,640 --> 00:07:56,800
+Considering all these factor, it means 
+buyers stepping in strongly at support,  
+
+86
+00:07:56,800 --> 00:08:04,440
+during an overall uptrend. Buyers took control 
+and preventing prices from falling lower.
+  
+
+87
+00:08:04,440 --> 00:08:09,320
+A buy scalping signal must be 
+strengthened by several factors: 
+
+88
+00:08:09,320 --> 00:08:13,080
+First, it must be in line 
+with the overall uptrend. 
+
+89
+00:08:13,080 --> 00:08:17,440
+It should appear at a clear 
+support level or demand area. 
+
+90
+00:08:17,440 --> 00:08:23,240
+And the institutional candle must 
+have many consecutive inside bars. 
+
+91
+00:08:23,240 --> 00:08:29,200
+This scalping approach aligns with the principle 
+that it's usually best to trade with the trend. 
+
+92
+00:08:29,200 --> 00:08:35,040
+In an uptrend, we look for opportunities 
+to buy on pullbacks or corrections. 
+
+93
+00:08:35,040 --> 00:08:59,440
+And a demand area provides exactly 
+that kind of opportunity.
+ 
+ 
+ 
+ 
+ 
+
+94
+00:10:00,360 --> 00:10:02,920
+Now, not all breakouts are real. 
+
+95
+00:10:02,920 --> 00:10:06,920
+Sometimes, the price might make 
+a false move outside the channel,  
+
+96
+00:10:06,920 --> 00:10:11,280
+and then quickly come back in.
+This is called a false breakout,  
+
+97
+00:10:11,280 --> 00:10:17,200
+and often happens with a pin bar, a 
+candle with a "wick" outside the channel. 
+
+98
+00:10:17,200 --> 00:10:20,760
+This is the second variation 
+of this scalping approach. 
+
+99
+00:10:20,760 --> 00:10:26,960
+When a pin bar happens, it's actually a good 
+chance to trade in the opposite direction.
+  
+
+100
+00:10:26,960 --> 00:10:31,200
+So this chart shows a false 
+breakout to the downside. 
+
+101
+00:10:31,200 --> 00:10:36,320
+The price made a quick move below the 
+channel, but then came right back in. 
+
+102
+00:10:36,320 --> 00:10:41,120
+This is a signal to buy when the 
+price retraces inside the channel. 
+
+103
+00:10:41,120 --> 00:10:45,440
+You see, false breakouts are often 
+liquidity sweeps in disguise. 
+
+104
+00:10:45,440 --> 00:10:51,000
+Big players use false breakouts to 
+trap traders and create liquidity. 
+
+105
+00:10:51,000 --> 00:10:56,600
+The institutional bar, followed by 
+the inside bars, create a tight range. 
+
+106
+00:10:56,600 --> 00:11:03,200
+This range acts like a magnet for orders.
+Traders place buy orders above, and sell orders  
+
+107
+00:11:03,200 --> 00:11:07,960
+below, thinking they'll catch the breakout.
+But smart money sees these  
+
+108
+00:11:07,960 --> 00:11:13,360
+orders as liquidity pools.
+ 
+When price breaks out of the range,  
+
+109
+00:11:13,360 --> 00:11:19,520
+often times against the prevailing trend, 
+it's often not a real move. It's a trick. 
+
+110
+00:11:19,520 --> 00:11:24,360
+Big players push the price just 
+far enough to trigger these orders. 
+
+111
+00:11:24,360 --> 00:11:28,880
+They're not trying to start a new 
+trend. They're hunting for liquidity.
+  
+
+112
+00:11:28,880 --> 00:11:33,440
+In this particular case, we 
+see an upward false breakout. 
+
+113
+00:11:33,440 --> 00:11:36,520
+The price moves above the 
+range, but it doesn't stay  
+
+114
+00:11:36,520 --> 00:11:43,800
+there. This quick move up is the liquidity sweep.
+Observe the institutional candle, the inside bars,  
+
+115
+00:11:43,800 --> 00:11:50,560
+and then the pin bar, completing the pattern.
+ 
+ 
+This inducement is designed to do 2 things: 
+
+116
+00:11:50,560 --> 00:11:55,880
+First, it triggers buy orders from 
+breakout traders. They see the price  
+
+117
+00:11:55,880 --> 00:12:02,480
+rise and think a big move up is starting.
+Second, it hits the stop losses of traders  
+
+118
+00:12:02,480 --> 00:12:06,960
+who sold near the top of the range. 
+They thought price would go down,  
+
+119
+00:12:06,960 --> 00:12:12,480
+but now their stops are getting hit.
+All these actions create a pool of liquidity. 
+
+120
+00:12:12,480 --> 00:12:17,760
+And that's exactly what smart money wants.
+They use this liquidity to enter short  
+
+121
+00:12:17,760 --> 00:12:22,320
+positions at good prices.
+ 
+ 
+The key is waiting to see what  
+
+122
+00:12:22,320 --> 00:12:28,880
+happens next. Price doesn't keep rising. 
+Instead, it snaps back into the range. 
+
+123
+00:12:28,880 --> 00:12:33,360
+This is the "immediate retrace" 
+we see on the chart. It's a clear  
+
+124
+00:12:33,360 --> 00:12:39,080
+sign that the breakout was false.
+This retrace is smart money selling.  
+
+125
+00:12:39,080 --> 00:12:43,920
+They're using all that liquidity from 
+the sweep to enter their positions. 
+
+126
+00:12:43,920 --> 00:12:47,800
+Now they have the fuel they 
+need to push price lower. 
+
+127
+00:12:47,800 --> 00:12:52,800
+For us, scalpers, this false 
+breakout is a selling opportunity. 
+
+128
+00:12:52,800 --> 00:13:00,160
+When we see price retrace back into the channel, 
+after that quick rise, it's our signal to sell. 
+
+129
+00:13:00,160 --> 00:13:04,720
+We're essentially trading with smart 
+money, taking advantage of all those  
+
+130
+00:13:04,720 --> 00:13:12,480
+traders who got tricked by the false breakout.
+ 
+But why does this work? It's all about order flow! 
+
+131
+00:13:12,480 --> 00:13:16,640
+Markets need a balance of 
+buyers and sellers to move. 
+
+132
+00:13:16,640 --> 00:13:23,160
+If everyone's buying, who are they buying from? 
+If everyone's selling, who are they selling to? 
+
+133
+00:13:23,160 --> 00:13:27,000
+Smart money uses these sweeps 
+to create that balance.
+  
+
+134
+00:13:27,000 --> 00:13:31,640
+Think of it like this: If smart 
+money wants to buy a lot of orders,  
+
+135
+00:13:31,640 --> 00:13:36,240
+they need someone to sell to them.
+But if the market looks bullish,  
+
+136
+00:13:36,240 --> 00:13:40,680
+not many people want to sell.
+So they create a scenario that  
+
+137
+00:13:40,680 --> 00:13:47,280
+encourages selling. That's our false breakout.
+Once they have these sellers, they can buy.
+  
+
+138
+00:13:47,280 --> 00:13:52,320
+This concept of liquidity is crucial 
+in understanding market moves. 
+
+139
+00:13:52,320 --> 00:13:56,520
+Price doesn't just move up or 
+down randomly. It moves to where  
+
+140
+00:13:56,520 --> 00:14:04,320
+there are orders. These orders are liquidity.
+And smart money is always looking for liquidity. 
+
+141
+00:14:04,320 --> 00:14:08,320
+In this scalping strategy, 
+we're not just looking at price. 
+
+142
+00:14:08,320 --> 00:14:14,280
+We're looking at the story behind the price.
+We're trying to spot these liquidity sweeps. 
+
+143
+00:14:14,280 --> 00:14:21,080
+When we see a tight range form, we get ready. We 
+know smart money might try to sweep that range.
+ 
+  
+
+144
+00:14:21,080 --> 00:14:26,520
+And remember our first approach, not 
+every breakout is false. Sometimes,  
+
+145
+00:14:26,520 --> 00:14:32,080
+price really does start a new trend.
+That's why we wait for the retrace.  
+
+146
+00:14:32,080 --> 00:14:38,800
+We need confirmation that the breakout 
+was indeed a sweep, not a real move.
+ 
+  
+
+147
+00:14:38,800 --> 00:14:45,600
+This chart shows a buy signal in an uptrend, 
+with price reacting at a key support level. 
+
+148
+00:14:45,600 --> 00:14:51,040
+We see a clear uptrend, marked 
+by higher highs and higher lows. 
+
+149
+00:14:51,040 --> 00:14:55,080
+The uptrend sets the stage for 
+our buy signal, as we aim to  
+
+150
+00:14:55,080 --> 00:15:00,560
+trade in the direction of the order flow.
+The support level is crucial here. It was  
+
+151
+00:15:00,560 --> 00:15:06,040
+a previous resistance level, that price 
+broke through earlier in the uptrend. 
+
+152
+00:15:06,040 --> 00:15:10,040
+Then we see price pull back to 
+test this new support level. 
+
+153
+00:15:10,040 --> 00:15:14,640
+Notice how price reacts at the level. 
+We see an institutional candle,  
+
+154
+00:15:14,640 --> 00:15:19,000
+and a series of small bars 
+forming just above support. 
+
+155
+00:15:19,000 --> 00:15:23,440
+These are inside bars, showing 
+a contraction in volatility. 
+
+156
+00:15:23,440 --> 00:15:28,960
+The buy signal comes when we see a wick outside 
+the channel, followed by an immediate retrace. 
+  
+
+157
+00:15:30,240 --> 00:15:36,160
+This is a classic sign of a liquidity sweep.
+Price briefly drops below the support level,  
+
+158
+00:15:36,160 --> 00:15:41,240
+triggering stop losses of weak longs.
+Smart money quickly buys up these  
+
+159
+00:15:41,240 --> 00:15:44,760
+orders, at a discount.
+And price immediately  
+
+160
+00:15:44,760 --> 00:15:49,840
+retraces back into the trading range.
+This price action suggests strong  
+
+161
+00:15:49,840 --> 00:15:53,840
+buying pressure at support.
+It's a sign that big players  
+
+162
+00:15:53,840 --> 00:15:59,240
+are possibly accumulating positions, 
+setting up for the next move higher. 
+
+163
+00:15:59,240 --> 00:16:05,800
+The next bar is our entry signal. This bar 
+closes firmly inside the trading range,  
+
+164
+00:16:05,800 --> 00:16:11,920
+confirming that the drop below support 
+was just a trap for weak hands.
+ 
+
+165
+00:16:11,920 --> 00:16:19,840
+Any buy signal after an institutional candle and a 
+pin bar, must be strengthened by several factors: 
+
+166
+00:16:19,840 --> 00:16:23,920
+First, it must in line with 
+the overall order flow. 
+
+167
+00:16:23,920 --> 00:16:31,520
+Then it must be at a clear support level, with 
+several touches, or at an unmitigated demand area. 
+
+168
+00:16:31,520 --> 00:16:37,760
+And the quick rejection of lower prices 
+must confirm the buying pressure.
+ 
+ 
+  
+
+169
+00:16:37,760 --> 00:16:44,040
+Let's look at another case, a short signal.
+First, we see a clear downtrend, marked by  
+
+170
+00:16:44,040 --> 00:16:48,440
+lower highs and lower lows.
+So this downtrend sets  
+
+171
+00:16:48,440 --> 00:16:54,280
+the stage for our short signal.
+And here notice this supply zone. Which  
+
+172
+00:16:54,280 --> 00:17:01,480
+is unmitigated, has not been touched before.
+We see price rally up to test this area. This  
+
+173
+00:17:01,480 --> 00:17:08,320
+rally is normal and healthy in a downtrend.
+Notice how price reacts at the supply zone. 
+
+174
+00:17:08,320 --> 00:17:13,120
+We have an institutional candle, 
+then a series of small bars. 
+
+175
+00:17:13,120 --> 00:17:20,040
+The short signal comes when we see a wick 
+outside the channel, and an immediate retrace. 
+
+176
+00:17:20,040 --> 00:17:25,800
+This is the liquidity sweep we need. Price 
+briefly spikes above the resistance level,  
+
+177
+00:17:25,800 --> 00:17:31,800
+triggering stop losses of weak shorts.
+Smart money quickly sells into this rally,  
+
+178
+00:17:31,800 --> 00:17:35,160
+trapping late buyers.
+And price immediately  
+
+179
+00:17:35,160 --> 00:17:40,560
+retraces back into the trading range.
+This price action suggests strong selling  
+
+180
+00:17:40,560 --> 00:17:44,440
+pressure at a supply zone.
+It's a sign that big players  
+
+181
+00:17:44,440 --> 00:17:50,680
+are setting up for the next move lower.
+As the next candle closes firmly inside the  
+
+182
+00:17:50,680 --> 00:17:57,800
+trading range, it confirms that the spike above 
+the channel was just a trap for weak hands.
+ 
+  
+
+183
+00:17:57,800 --> 00:18:04,360
+Another signal. This short signal is valid, 
+because it’s strengthened by multiple factors: 
+
+184
+00:18:04,360 --> 00:18:09,000
+It's in line with the overall downtrend,
+It's at a clear resistance level  
+
+185
+00:18:09,000 --> 00:18:12,200
+with multiple touches,
+And the quick rejection  
+
+186
+00:18:12,200 --> 00:18:19,320
+of higher prices shows strong selling pressure.
+For the entry, you could short as the "liquidity  
+
+187
+00:18:19,320 --> 00:18:28,760
+sweep" bar closes. The stop loss could go 
+just above the wick of the previous bar.
+ 
+  
+
+188
+00:19:46,120 --> 00:19:50,360
+Now, what if you don’t have an 
+institutional candle to trade? 
+
+189
+00:19:50,360 --> 00:19:54,240
+Well, another variation of this 
+scalping method is when you first  
+
+190
+00:19:54,240 --> 00:20:00,240
+spot a pin bar, and then an inside bar.
+So first you have a pin bar, with a long  
+
+191
+00:20:00,240 --> 00:20:06,480
+tail and a small body, rejecting a level.
+For a real pin bar, the tail must be at  
+
+192
+00:20:06,480 --> 00:20:11,880
+least 50% of the bar's total range.
+The longer the tail (or the wick),  
+
+193
+00:20:11,880 --> 00:20:17,000
+the stronger the pin bar signal. 
+ 
+Candles with long wicks are great for  
+
+194
+00:20:17,000 --> 00:20:21,600
+scalping, because they help you 
+spot possible market reversals. 
+
+195
+00:20:21,600 --> 00:20:25,640
+When pin bars form, it often means 
+the market might move in the opposite  
+
+196
+00:20:25,640 --> 00:20:30,520
+direction, at least for a short while.
+The opportunity comes when the next  
+
+197
+00:20:30,520 --> 00:20:37,600
+candle's range, fits inside the pin bar’s range.
+So the high and low of the second candle are  
+
+198
+00:20:37,600 --> 00:20:44,680
+completely within the first candle's range.
+ 
+This is the pin bar – inside bar combo. 
+
+199
+00:20:44,680 --> 00:20:50,560
+So you look for a candle with a long wick, 
+at a key support or resistance level, 
+
+200
+00:20:50,560 --> 00:20:54,880
+You wait for an inside bar to 
+form right after the pin bar, 
+
+201
+00:20:54,880 --> 00:20:58,600
+And you enter the trade when the 
+price breaks out of the inside bar,  
+
+202
+00:20:59,200 --> 00:21:03,720
+in the direction of the pin bar.
+ 
+ 
+Here’s a bullish setup: 
+
+203
+00:21:03,720 --> 00:21:11,840
+The pin bar forms at a demand zone (or support). 
+This long lower wick shows strong buying pressure. 
+
+204
+00:21:11,840 --> 00:21:17,600
+It's like buyers rushing in to grab a 
+good deal when the price dips too low. 
+
+205
+00:21:17,600 --> 00:21:24,160
+The inside bar that follows is a pause.
+Buyers and sellers are sizing each other up,  
+
+206
+00:21:24,160 --> 00:21:29,640
+waiting to see who'll make the next move.
+When price breaks above the pin bar’s high,  
+
+207
+00:21:29,640 --> 00:21:34,640
+it implies demand has won out.
+Buyers are pushing the price up,  
+
+208
+00:21:34,640 --> 00:21:41,200
+and some sellers might be closing their 
+losing trades, adding more upward pressure.
+  
+
+209
+00:21:41,200 --> 00:21:44,640
+For a bearish setup:
+The pin bar forms at a  
+
+210
+00:21:44,640 --> 00:21:51,560
+supply zone (or resistance level). That long 
+upper wick shows strong selling pressure. 
+
+211
+00:21:51,560 --> 00:21:57,480
+Sellers stepped in when the price got too high.
+Again, the inside bar is a small pause. The  
+
+212
+00:21:57,480 --> 00:22:01,760
+market is stalling, after 
+that reaction at resistance. 
+
+213
+00:22:01,760 --> 00:22:06,240
+A break below the pin bar shows 
+supply has taken control. 
+  
+
+214
+00:22:06,240 --> 00:22:12,040
+Remember, the location of the pin bar is crucial.
+It should be at a level where the market  
+
+215
+00:22:12,040 --> 00:22:17,240
+has turned before, or at an 
+unmitigated supply or demand. 
+
+216
+00:22:17,240 --> 00:22:21,600
+And the inside bar adds more 
+strength to the pin bar signal. 
+
+217
+00:22:21,600 --> 00:22:27,760
+It shows that the market is confirming the 
+potential reversal that the pin bar hinted at.
+ 
+ 
+  
+
+218
+00:22:27,760 --> 00:22:31,440
+For a bullish setup:
+You enter a buy order,  
+
+219
+00:22:31,440 --> 00:22:36,480
+just above the high of the pin bar.
+You place your stop loss, just below  
+
+220
+00:22:36,480 --> 00:22:39,320
+the low of the pin bar.
+And you set your target  
+
+221
+00:22:39,320 --> 00:22:44,200
+at the next resistance level.
+ 
+The same for a bearish setup: 
+
+222
+00:22:44,200 --> 00:22:48,320
+Enter a sell order just 
+below the low of the pin bar. 
+
+223
+00:22:48,320 --> 00:22:52,200
+You place your stop loss, just 
+above the high of the pin bar. 
+
+224
+00:22:52,200 --> 00:22:58,680
+And you take profit at the next support level.
+ 
+Now, here are some extra tips to make this  
+
+225
+00:22:58,680 --> 00:23:03,760
+scalping setup even better:
+First one is order flow alignment:  
+
+226
+00:23:03,760 --> 00:23:08,360
+This one is obvious, you try to trade 
+in the direction of the bigger trend. 
+
+227
+00:23:08,360 --> 00:23:13,680
+So check higher time frames, to confirm 
+the overall trend and key levels.
+  
+
+228
+00:23:13,680 --> 00:23:19,000
+You also look for other price action signals 
+that support your trade. This could be  
+
+229
+00:23:19,000 --> 00:23:25,240
+a trend line break, a chart pattern, 
+or confluence with a Fibonacci level. 
+
+230
+00:23:25,240 --> 00:23:31,480
+And of course, volume: High volume on the 
+pin bar, compared to the previous candles,  
+
+231
+00:23:31,480 --> 00:23:37,000
+will make the signal stronger.
+ 
+ 
+ 
+In this specific instance, we see  
+
+232
+00:23:37,000 --> 00:23:43,560
+an uptrend. The price moves up in a series 
+of higher highs and higher lows. So, buyers  
+
+233
+00:23:43,560 --> 00:23:50,920
+are in control. We look for long trades only.
+Then, the price hits a support level. A key area  
+
+234
+00:23:50,920 --> 00:23:56,240
+where buyers have stepped in before.
+At this level, we get a pin bar. 
+
+235
+00:23:56,240 --> 00:24:02,320
+The long lower wick tail shows that sellers 
+tried to push the price down, but buyers had  
+
+236
+00:24:02,320 --> 00:24:08,800
+more power. This quick reversal traps sellers 
+who thought the price would keep falling. 
+
+237
+00:24:08,800 --> 00:24:15,000
+Then we see the inside bar. It fits 
+entirely inside the range of the pin bar. 
+ 
+  
+
+238
+00:24:15,000 --> 00:24:20,880
+To trade this, you'd buy when the price 
+breaks above the high of the pin bar. 
+
+239
+00:24:20,880 --> 00:24:24,680
+This break shows that buyers 
+are taking control again. 
+
+240
+00:24:24,680 --> 00:24:28,120
+Your stop loss would go 
+below the low of the pin bar. 
+
+241
+00:24:28,120 --> 00:24:34,040
+This is the "danger point". If price 
+falls below here, the setup has failed. 
+
+242
+00:24:34,040 --> 00:24:39,480
+As for target, look for the next 
+resistance or supply zones above. 
+  
+
+243
+00:24:39,480 --> 00:24:43,320
+Just remember that this 
+setup works best in trends. 
+
+244
+00:24:43,320 --> 00:24:49,200
+And watch how price acts after the 
+breakout. A momentum move up, right away  
+
+245
+00:24:49,200 --> 00:24:55,240
+after the breakout, is what you want to see.
+If it hangs around near the breakout point,  
+
+246
+00:24:55,240 --> 00:25:00,400
+be cautious. It might not have 
+the momentum we hoped for.
+ 
+  
+
+247
+00:25:00,400 --> 00:25:04,800
+Here’s a short signal.
+First, we'd see a downtrend. The price  
+
+248
+00:25:04,800 --> 00:25:11,840
+moves in a series of lower highs and lower lows.
+The price would then hit a resistance level. 
+
+249
+00:25:11,840 --> 00:25:17,240
+Sellers have stepped in before, so 
+it might be a good area to monitor. 
+
+250
+00:25:17,240 --> 00:25:23,520
+At this resistance, we'd get a pin 
+bar. This time, with long upper wick. 
+
+251
+00:25:23,520 --> 00:25:28,760
+This quick reversal traps buyers who 
+thought the price would keep rising. 
+
+252
+00:25:28,760 --> 00:25:35,960
+Right after the pin bar, we'd see the inside bar.
+This combo of pin bar at resistance followed by  
+
+253
+00:25:35,960 --> 00:25:42,160
+an inside bar is a strong sell signal.
+So, we sell when the price breaks below  
+
+254
+00:25:42,160 --> 00:25:46,080
+the low of the pin bar. 
+ 
+This scalping method gives  
+
+255
+00:25:46,080 --> 00:25:50,680
+you a structured way to trade.
+It combines the power of pin bars  
+
+256
+00:25:50,680 --> 00:25:55,560
+to show potential reversals, with 
+the confirmation of inside bars. 
+
+257
+00:25:55,560 --> 00:26:00,120
+And the breakout entry helps 
+you avoid many false signals. 
+
+258
+00:26:00,120 --> 00:26:05,400
+By waiting for both patterns, you're being 
+patient and selective, which is mandatory  
+
+259
+00:26:05,400 --> 00:26:28,240
+when scalping. You're waiting for the market 
+to show its hand before you commit your money. 
+
+260
+00:27:31,280 --> 00:27:45,520
+Now, if you want to learn other scalping 
+methods, go ahead and watch one of these videos.
+

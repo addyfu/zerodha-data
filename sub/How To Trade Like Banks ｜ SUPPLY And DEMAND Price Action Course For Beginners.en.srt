@@ -1,0 +1,672 @@
+1
+00:00:01,189 --> 00:00:05,230
+Over the last few years, supply and demand
+trading has become one of the most popular
+
+2
+00:00:05,230 --> 00:00:06,390
+trading strategies.
+
+3
+00:00:06,390 --> 00:00:11,280
+And for good reason because this trading style
+takes the best of support and resistance and
+
+4
+00:00:11,280 --> 00:00:13,480
+adds the concept of supply and demand.
+
+5
+00:00:13,480 --> 00:00:17,990
+The result is a strategy that allows you to
+pinpoint where the banks are buying and selling,
+
+6
+00:00:17,990 --> 00:00:22,540
+giving you the chance to get into some of
+the biggest reversals BEFORE they begin.
+
+7
+00:00:22,540 --> 00:00:26,630
+In today’s video, I'm going to give you
+a full breakdown of how to correctly find
+
+8
+00:00:26,630 --> 00:00:30,960
+and draw supply and demand zones and the common
+mistakes you should avoid when trading these
+
+9
+00:00:30,960 --> 00:00:33,329
+areas.
+
+10
+00:00:33,329 --> 00:00:38,149
+News events, economic announcements, and just
+general market action all cause different
+
+11
+00:00:38,149 --> 00:00:43,379
+groups of traders to buy and sell, resulting
+in changes to the supply and demand equation.
+
+12
+00:00:43,379 --> 00:00:48,489
+These changes manifest visually as the rises,
+declines, and consolidations we see on our
+
+13
+00:00:48,489 --> 00:00:49,730
+charts.
+
+14
+00:00:49,730 --> 00:00:53,420
+When we see price rising, demand outweighs
+supply.
+
+15
+00:00:53,420 --> 00:00:56,719
+When we see price falling, supply outweighs
+demand.
+
+16
+00:00:56,719 --> 00:01:02,600
+When supply and demand are in relative balance,
+a consolidation forms.
+
+17
+00:01:02,600 --> 00:01:06,960
+Changes in supply and demand will ONLY OCCUR
+when the banks and other big traders buy or
+
+18
+00:01:06,960 --> 00:01:07,960
+sell.
+
+19
+00:01:07,960 --> 00:01:12,440
+We, retail traders, can't cause price to rise
+or fall because we don't have enough money!
+
+20
+00:01:12,440 --> 00:01:16,910
+Only the banks, with their high buying/selling
+power, can make price move.
+
+21
+00:01:16,910 --> 00:01:21,790
+In Forex for example, the banks can never
+place their full position all at once.
+
+22
+00:01:21,790 --> 00:01:26,970
+Their positions are so large they must break
+them into smaller chunks and place each trade
+
+23
+00:01:26,970 --> 00:01:31,860
+individually, around a similar price, to avoid
+pushing price away and potentially forcing
+
+24
+00:01:31,860 --> 00:01:33,790
+the entry at a bad price.
+
+25
+00:01:33,790 --> 00:01:38,920
+This way they achieve the same effect of placing
+one huge position, by placing a bunch of small
+
+26
+00:01:38,920 --> 00:01:40,530
+ones instead.
+
+27
+00:01:40,530 --> 00:01:45,290
+But, here's the banks’ problem:
+These positions are often so big that not
+
+28
+00:01:45,290 --> 00:01:49,520
+enough people exist on the opposite side to
+get them placed - buying when the banks want
+
+29
+00:01:49,520 --> 00:01:54,270
+to sell, or selling when the banks want to
+buy, even if they convert their positions
+
+30
+00:01:54,270 --> 00:01:55,560
+into smaller chunks.
+
+31
+00:01:55,560 --> 00:02:00,950
+So, they must let price move away and then
+make it return later on to get the rest of
+
+32
+00:02:00,950 --> 00:02:02,320
+their position entered.
+
+33
+00:02:02,320 --> 00:02:06,970
+Now, supply and demand trading is all about
+finding points where the banks have bought
+
+34
+00:02:06,970 --> 00:02:12,390
+or sold and then jumping into trades when
+price returns to pick up the rest of the banks’
+
+35
+00:02:12,390 --> 00:02:17,590
+position to get into the reversal, right beside
+the banks.
+
+36
+00:02:17,590 --> 00:02:21,640
+Supply and demand trading is a method where
+the idea is to find points in the market where
+
+37
+00:02:21,640 --> 00:02:26,700
+the price has made a strong advance or decline
+and mark these areas as supply and demand
+
+38
+00:02:26,700 --> 00:02:28,950
+zones using rectangles.
+
+39
+00:02:28,950 --> 00:02:33,660
+The point in which the price has made a strong
+advance is marked by the trader as a demand
+
+40
+00:02:33,660 --> 00:02:34,720
+zone.
+
+41
+00:02:34,720 --> 00:02:40,030
+Demand Zones represent points where the banks
+have placed a significant number of buy positions.
+
+42
+00:02:40,030 --> 00:02:43,470
+These are the support levels of supply and
+demand trading, if you will.
+
+43
+00:02:43,470 --> 00:02:48,370
+A point where the market has made a sharp
+decline is marked as a supply zone.
+
+44
+00:02:48,370 --> 00:02:53,620
+These are points where the banks place a significant
+number of sell positions and these are resistance
+
+45
+00:02:53,620 --> 00:02:56,540
+points where price could fall.
+
+46
+00:02:56,540 --> 00:02:59,390
+Now, how to find and draw supply and demand
+zones.
+
+47
+00:02:59,390 --> 00:03:04,530
+If you want to be successful trading supply
+and demand, you MUST master the finding of
+
+48
+00:03:04,530 --> 00:03:08,569
+high probability zones and correctly drawing
+them on the chart.
+
+49
+00:03:08,569 --> 00:03:12,180
+It takes time, practice, and experience to
+get this right.
+
+50
+00:03:12,180 --> 00:03:16,300
+The most important rule is to look for sharp
+rises and declines in price.
+
+51
+00:03:16,300 --> 00:03:21,849
+They reveal the banks are buying or selling,
+which means a supply or, a demand, must exist
+
+52
+00:03:21,849 --> 00:03:25,740
+at the source of the rise or decline.
+
+53
+00:03:25,740 --> 00:03:30,959
+Supply zones can be located by looking for
+a swift drop away from either a single candle
+
+54
+00:03:30,959 --> 00:03:35,330
+or small consolidation structure (commonly
+known as a base).
+
+55
+00:03:35,330 --> 00:03:41,410
+The base consists of a few candlesticks in
+a tight sideways range (consolidation).
+
+56
+00:03:41,410 --> 00:03:46,130
+This is an example of a supply zone formed
+with a base.
+
+57
+00:03:46,130 --> 00:03:51,360
+And this is an example of a supply zone formed
+from a single candle.
+
+58
+00:03:51,360 --> 00:03:55,680
+Demand zones are found when the market makes
+a large move up from a single candle or a
+
+59
+00:03:55,680 --> 00:03:56,680
+base.
+
+60
+00:03:56,680 --> 00:04:00,560
+Here is an example of a demand zone created
+from a single candle.
+
+61
+00:04:00,560 --> 00:04:05,129
+And here is an example of a demand zone with
+a base.
+
+62
+00:04:05,129 --> 00:04:08,380
+And here is a first important point.
+
+63
+00:04:08,380 --> 00:04:13,790
+The strength of the movement away from supply
+or demand zone is not a determining factor
+
+64
+00:04:13,790 --> 00:04:15,680
+in how strong the zone is.
+
+65
+00:04:15,680 --> 00:04:21,780
+As long as a zone has at least one large bullish
+or bearish candle moving away from it’s
+
+66
+00:04:21,780 --> 00:04:26,210
+considered just as valid for trading as a
+zone which has a significant move away from
+
+67
+00:04:26,210 --> 00:04:27,210
+it.
+
+68
+00:04:27,210 --> 00:04:30,280
+And here’s another important tip.
+
+69
+00:04:30,280 --> 00:04:35,160
+Supply or demand zones which are formed from
+a base tend to result in more successful trades
+
+70
+00:04:35,160 --> 00:04:38,340
+than zones which form from a single candle.
+
+71
+00:04:38,340 --> 00:04:42,300
+This is due to the sensitive nature of the
+psychology of the traders who had trading
+
+72
+00:04:42,300 --> 00:04:44,720
+positions back when the base was created.
+
+73
+00:04:44,720 --> 00:04:49,810
+A zone which forms with a single candle means
+not a lot of traders were caught on the wrong
+
+74
+00:04:49,810 --> 00:04:54,900
+side of the market before the market moved
+up or down creating the supply or demand zone.
+
+75
+00:04:54,900 --> 00:05:00,840
+A zone with a base contains far more trapped
+traders because the market was moving sideways
+
+76
+00:05:00,840 --> 00:05:05,570
+in a consolidation before it began advancing
+higher or falling lower.
+
+77
+00:05:05,570 --> 00:05:10,380
+And when the market returns to a zone formed
+from a base the traders who were trapped either
+
+78
+00:05:10,380 --> 00:05:15,020
+long or short (depending on the zones) will
+begin closing their trades.
+
+79
+00:05:15,020 --> 00:05:17,460
+And this creates liquidity in the market.
+
+80
+00:05:17,460 --> 00:05:22,490
+Now we know how to find and locate supply
+and demand zones on our charts, we need to
+
+81
+00:05:22,490 --> 00:05:24,490
+actually draw the zones.
+
+82
+00:05:24,490 --> 00:05:29,430
+Both single candle supply and demand zones
+and zones with a base are drawn in the same
+
+83
+00:05:29,430 --> 00:05:30,430
+way.
+
+84
+00:05:30,430 --> 00:05:34,270
+There are many different methods of how to
+draw the zones properly, but I will share
+
+85
+00:05:34,270 --> 00:05:37,080
+the one I found to be the most consistent
+to me.
+
+86
+00:05:37,080 --> 00:05:39,350
+We will begin by drawing a supply zone.
+
+87
+00:05:39,350 --> 00:05:45,520
+You always draw supply zones from the last
+BULLISH candle before the drop, if the candle
+
+88
+00:05:45,520 --> 00:05:50,120
+immediately before the drop is bearish, then
+you need to locate the most recent bullish
+
+89
+00:05:50,120 --> 00:05:52,639
+candle and draw the zone accordingly.
+
+90
+00:05:52,639 --> 00:05:57,400
+So the open of the bullish candle is where
+you want to begin drawing your supply zone
+
+91
+00:05:57,400 --> 00:05:58,400
+from.
+
+92
+00:05:58,400 --> 00:06:03,270
+Once you’ve done this you need to drag the
+rectangle up to the most recent high before
+
+93
+00:06:03,270 --> 00:06:05,660
+the drop.
+
+94
+00:06:05,660 --> 00:06:17,800
+Here are several examples of supply zones.
+
+95
+00:06:17,800 --> 00:06:32,850
+For demand zones, we draw the zone from the
+most recent BEARISH candle found immediately
+
+96
+00:06:32,850 --> 00:06:35,240
+before the up move creating the zone.
+
+97
+00:06:35,240 --> 00:06:40,419
+In this example you can see I’ve drawn the
+demand zone from the open of the bearish candle
+
+98
+00:06:40,419 --> 00:06:43,500
+found just before the market made its move
+up.
+
+99
+00:06:43,500 --> 00:06:48,600
+From here you need to find the most recent
+low nearest the zone and drag your rectangle
+
+100
+00:06:48,600 --> 00:06:53,370
+to the low, now you have the demand zone drawn
+on your charts.
+
+101
+00:06:53,370 --> 00:07:15,600
+Here are several examples of demand zones.
+
+102
+00:07:15,600 --> 00:07:20,130
+In contrast to when we are drawing supply
+zones, the candle you’re drawing the demand
+
+103
+00:07:20,130 --> 00:07:21,430
+zone off must be bearish.
+
+104
+00:07:21,430 --> 00:07:26,340
+If it happens to be bullish you need to go
+back and locate the nearest bearish candle
+
+105
+00:07:26,340 --> 00:07:30,220
+before the move up and draw your rectangle
+from there.
+
+106
+00:07:30,220 --> 00:07:34,150
+The reason why this is important is due to
+how the banks place trades.
+
+107
+00:07:34,150 --> 00:07:38,660
+Banks do not place trades onto movements which
+are in the direction of the trade they are
+
+108
+00:07:38,660 --> 00:07:39,660
+placing.
+
+109
+00:07:39,660 --> 00:07:45,490
+In simple terms, if the current candle is
+bullish the banks wont be placing buy trades,
+
+110
+00:07:45,490 --> 00:07:48,669
+if its bearish, they wont be placing sell
+trades.
+
+111
+00:07:48,669 --> 00:07:54,150
+Before you start trading Supply and Demand,
+there are 2 key rules you need to understand
+
+112
+00:07:54,150 --> 00:07:59,699
+to find the right zones on the chart and trade
+them correctly using your entry method.
+
+113
+00:07:59,699 --> 00:08:02,949
+First rule is that old zones rarely work.
+
+114
+00:08:02,949 --> 00:08:07,669
+Apparently, the longer the market has been
+away from a supply or demand zone the better
+
+115
+00:08:07,669 --> 00:08:11,889
+chance the market has of turning when it eventually
+returns.
+
+116
+00:08:11,889 --> 00:08:13,870
+This is completely wrong.
+
+117
+00:08:13,870 --> 00:08:16,400
+Recent zones are far more important.
+
+118
+00:08:16,400 --> 00:08:21,139
+If we compare the old supply and demand zones
+(colored blue), with the more recent zones
+
+119
+00:08:21,139 --> 00:08:26,509
+colored white, its easy to see how trading
+zones which have been created recently are
+
+120
+00:08:26,509 --> 00:08:32,430
+far more effective than trading zones which
+were created a long time ago.
+
+121
+00:08:32,430 --> 00:08:36,419
+Second rule is to trade only fresh/untouched
+zones.
+
+122
+00:08:36,419 --> 00:08:40,690
+Another big misconception you'll hear in the
+supply and demand community is the idea that
+
+123
+00:08:40,690 --> 00:08:45,820
+supply and demand zones have the power to
+cause reversals more than once, like support
+
+124
+00:08:45,820 --> 00:08:47,540
+and resistance levels do.
+
+125
+00:08:47,540 --> 00:08:49,250
+Again, this isn't true.
+
+126
+00:08:49,250 --> 00:08:52,230
+Supply and demand zones are ONE TIME USE.
+
+127
+00:08:52,230 --> 00:08:55,550
+Not two times or three times, one time ONLY.
+
+128
+00:08:55,550 --> 00:09:00,370
+When price hits a zone and reverses, that's
+it; the zone loses its power.
+
+129
+00:09:00,370 --> 00:09:04,670
+The probability it'll cause another reversal
+in the future is low.
+
+130
+00:09:04,670 --> 00:09:09,790
+The only exception to this rule is if a zone
+forms at the top or bottom of a consolidation.
+
+131
+00:09:09,790 --> 00:09:14,830
+In this case, price will probably reverse
+two or three times from the zone, since the
+
+132
+00:09:14,830 --> 00:09:19,060
+consolidation shows the banks are buying/selling
+from similar points.
+
+133
+00:09:19,060 --> 00:09:24,380
+However, once the consolidation is over, the
+zone loses all its power and probably won't
+
+134
+00:09:24,380 --> 00:09:26,380
+cause another reversal.
+
+135
+00:09:26,380 --> 00:09:31,770
+Now, this was an introduction to supply and
+demand trading and it was impossible for me
+
+136
+00:09:31,770 --> 00:09:35,700
+to cover everything about supply and demand
+trading in this one video.
+
+137
+00:09:35,700 --> 00:09:39,890
+In future videos, we’ll go deeper and I
+plan to explain several supply and demand
+
+138
+00:09:39,890 --> 00:09:44,910
+trading strategies involving classic support
+and resistance levels, using price action
+
+139
+00:09:44,910 --> 00:09:48,440
+patterns and even trading indicators.
+
+140
+00:09:48,440 --> 00:09:52,480
+As always, if you learned something new and
+found value, leave us a like to show your
+
+141
+00:09:52,480 --> 00:09:56,700
+support, subscribe to our channel and click
+the bell icon to stay notified when we release
+
+142
+00:09:56,700 --> 00:09:58,480
+new videos.
+
+143
+00:09:58,480 --> 00:09:59,670
+Until next time.
+

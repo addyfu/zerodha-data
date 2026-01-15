@@ -1,0 +1,1328 @@
+1
+00:00:00,719 --> 00:00:04,720
+what do you think moves price action in
+
+2
+00:00:02,639 --> 00:00:05,920
+the market from one value area to
+
+3
+00:00:04,720 --> 00:00:08,080
+another
+
+4
+00:00:05,920 --> 00:00:08,960
+is the unfilled orders of the smart
+
+5
+00:00:08,080 --> 00:00:10,400
+money
+
+6
+00:00:08,960 --> 00:00:12,559
+today i'm showing you how to take
+
+7
+00:00:10,400 --> 00:00:14,880
+advantage of these orders and how to
+
+8
+00:00:12,559 --> 00:00:16,720
+combine supply and demand zones with
+
+9
+00:00:14,880 --> 00:00:17,760
+trading indicators to find the best
+
+10
+00:00:16,720 --> 00:00:20,560
+signals
+
+11
+00:00:17,760 --> 00:00:22,240
+so if you could like subscribe to the
+
+12
+00:00:20,560 --> 00:00:24,000
+channel and stick around for the full
+
+13
+00:00:22,240 --> 00:00:26,160
+video
+
+14
+00:00:24,000 --> 00:00:28,240
+by analyzing supply and demand you
+
+15
+00:00:26,160 --> 00:00:30,720
+basically try to anticipate where the
+
+16
+00:00:28,240 --> 00:00:32,320
+unfilled orders of the smart money are
+
+17
+00:00:30,720 --> 00:00:34,320
+located in the market
+
+18
+00:00:32,320 --> 00:00:36,480
+the plan is to enter the market where
+
+19
+00:00:34,320 --> 00:00:39,280
+the smart money have their unfilled
+
+20
+00:00:36,480 --> 00:00:40,239
+orders and be a participant along with
+
+21
+00:00:39,280 --> 00:00:42,320
+them
+
+22
+00:00:40,239 --> 00:00:44,320
+knowing when the smart money liquidity
+
+23
+00:00:42,320 --> 00:00:46,800
+providers are moving the markets is
+
+24
+00:00:44,320 --> 00:00:48,320
+critical so you can be there to ride
+
+25
+00:00:46,800 --> 00:00:50,719
+along with them
+
+26
+00:00:48,320 --> 00:00:53,039
+so this is the mindset you must have you
+
+27
+00:00:50,719 --> 00:00:55,840
+enter where and when the liquidity
+
+28
+00:00:53,039 --> 00:00:57,680
+providers the smart money are providing
+
+29
+00:00:55,840 --> 00:00:59,359
+liquidity
+
+30
+00:00:57,680 --> 00:01:01,600
+everything you see on the chart to the
+
+31
+00:00:59,359 --> 00:01:03,600
+left has already taken place
+
+32
+00:01:01,600 --> 00:01:05,920
+the only thing that matters is where
+
+33
+00:01:03,600 --> 00:01:08,400
+those unfilled orders are resting in the
+
+34
+00:01:05,920 --> 00:01:11,119
+market because that is where price
+
+35
+00:01:08,400 --> 00:01:13,200
+action goes to and takes off from
+
+36
+00:01:11,119 --> 00:01:15,759
+let us start with different methods of
+
+37
+00:01:13,200 --> 00:01:17,119
+identifying and plotting areas of supply
+
+38
+00:01:15,759 --> 00:01:19,200
+and demand
+
+39
+00:01:17,119 --> 00:01:20,960
+the easiest zone to spot is when you
+
+40
+00:01:19,200 --> 00:01:22,320
+have an obvious change in the direction
+
+41
+00:01:20,960 --> 00:01:25,439
+of the trend
+
+42
+00:01:22,320 --> 00:01:27,840
+for a supply zone you need two points
+
+43
+00:01:25,439 --> 00:01:30,560
+first the exact point the market dropped
+
+44
+00:01:27,840 --> 00:01:32,880
+quickly out of a small range i use the
+
+45
+00:01:30,560 --> 00:01:34,320
+price open of the last bullish candle
+
+46
+00:01:32,880 --> 00:01:36,240
+before the drop
+
+47
+00:01:34,320 --> 00:01:38,720
+and the second one uses the highest
+
+48
+00:01:36,240 --> 00:01:41,280
+candle wick of the range
+
+49
+00:01:38,720 --> 00:01:44,399
+for a demand zone you find a point the
+
+50
+00:01:41,280 --> 00:01:46,399
+market rose quickly out of a small range
+
+51
+00:01:44,399 --> 00:01:49,200
+meaning the open price of the last
+
+52
+00:01:46,399 --> 00:01:51,200
+bearish candle before the price increase
+
+53
+00:01:49,200 --> 00:01:53,119
+and the second point is the lowest
+
+54
+00:01:51,200 --> 00:01:54,479
+candle wake of the range
+
+55
+00:01:53,119 --> 00:01:57,119
+in both cases
+
+56
+00:01:54,479 --> 00:01:59,520
+you look for a large candle body or a
+
+57
+00:01:57,119 --> 00:02:01,439
+gap away from the zone as a future
+
+58
+00:01:59,520 --> 00:02:04,719
+indication of how strong the price
+
+59
+00:02:01,439 --> 00:02:07,280
+action is in that value area
+
+60
+00:02:04,719 --> 00:02:09,520
+the next method of identifying zones is
+
+61
+00:02:07,280 --> 00:02:12,000
+to look for an area where price has been
+
+62
+00:02:09,520 --> 00:02:14,640
+trading sideways and in a narrow range
+
+63
+00:02:12,000 --> 00:02:16,720
+for several bars and then dramatically
+
+64
+00:02:14,640 --> 00:02:18,560
+shoots away from that range
+
+65
+00:02:16,720 --> 00:02:20,800
+on the left side of the chart we see
+
+66
+00:02:18,560 --> 00:02:24,160
+price trading in a narrow range for
+
+67
+00:02:20,800 --> 00:02:26,480
+several bars and then drops dramatically
+
+68
+00:02:24,160 --> 00:02:28,879
+the next time price came into the zone
+
+69
+00:02:26,480 --> 00:02:30,959
+the trend reversed giving us a short
+
+70
+00:02:28,879 --> 00:02:33,440
+opportunity
+
+71
+00:02:30,959 --> 00:02:34,560
+the third method is to look for areas of
+
+72
+00:02:33,440 --> 00:02:37,280
+indecision
+
+73
+00:02:34,560 --> 00:02:39,840
+ranging periods or small corrections
+
+74
+00:02:37,280 --> 00:02:40,800
+during a strong downtrend for a supply
+
+75
+00:02:39,840 --> 00:02:43,680
+zone
+
+76
+00:02:40,800 --> 00:02:46,160
+or ranging periods or small corrections
+
+77
+00:02:43,680 --> 00:02:47,200
+during a strong uptrend for a demand
+
+78
+00:02:46,160 --> 00:02:49,519
+zone
+
+79
+00:02:47,200 --> 00:02:51,180
+these are the rally-based rally and the
+
+80
+00:02:49,519 --> 00:02:52,480
+drop based drop structures
+
+81
+00:02:51,180 --> 00:02:55,360
+[Music]
+
+82
+00:02:52,480 --> 00:02:57,920
+the last method is by looking for gaps
+
+83
+00:02:55,360 --> 00:02:59,680
+when a stock gaps either up or down
+
+84
+00:02:57,920 --> 00:03:01,840
+there has been a sudden change in the
+
+85
+00:02:59,680 --> 00:03:04,400
+balance of supply and demand
+
+86
+00:03:01,840 --> 00:03:07,360
+the price it gapped from is very likely
+
+87
+00:03:04,400 --> 00:03:09,360
+to be a strong supply or demand zone
+
+88
+00:03:07,360 --> 00:03:11,840
+watch this video if you want to learn
+
+89
+00:03:09,360 --> 00:03:14,080
+more about market structures and supply
+
+90
+00:03:11,840 --> 00:03:15,840
+demand trading
+
+91
+00:03:14,080 --> 00:03:18,159
+when price action comes back and
+
+92
+00:03:15,840 --> 00:03:20,640
+revisits the value area again in the
+
+93
+00:03:18,159 --> 00:03:21,760
+future you will be there waiting for a
+
+94
+00:03:20,640 --> 00:03:24,080
+reaction
+
+95
+00:03:21,760 --> 00:03:26,799
+you must anticipate several things
+
+96
+00:03:24,080 --> 00:03:28,879
+who is in control right now how do trend
+
+97
+00:03:26,799 --> 00:03:32,000
+waves relate to each other
+
+98
+00:03:28,879 --> 00:03:34,159
+is momentum gaining or losing strength
+
+99
+00:03:32,000 --> 00:03:36,239
+how is the price reacting around
+
+100
+00:03:34,159 --> 00:03:38,400
+previous highs and lows
+
+101
+00:03:36,239 --> 00:03:40,319
+these are important clues that will help
+
+102
+00:03:38,400 --> 00:03:42,239
+you understand the buyer and the seller
+
+103
+00:03:40,319 --> 00:03:44,720
+dynamics
+
+104
+00:03:42,239 --> 00:03:47,040
+after you identify the zone watch for
+
+105
+00:03:44,720 --> 00:03:50,159
+how far price action breaks into the
+
+106
+00:03:47,040 --> 00:03:52,159
+value area on the first retracement
+
+107
+00:03:50,159 --> 00:03:54,720
+if price action doesn't quite reach the
+
+108
+00:03:52,159 --> 00:03:58,000
+value area there may be more unfilled
+
+109
+00:03:54,720 --> 00:04:01,439
+orders left at the value area and price
+
+110
+00:03:58,000 --> 00:04:04,319
+could come back here to fill more orders
+
+111
+00:04:01,439 --> 00:04:06,080
+very important the first retrace back to
+
+112
+00:04:04,319 --> 00:04:08,799
+the value area is the highest
+
+113
+00:04:06,080 --> 00:04:11,439
+probability of a trade working out
+
+114
+00:04:08,799 --> 00:04:13,439
+on the second or the third retest the
+
+115
+00:04:11,439 --> 00:04:15,519
+probability of the trade working out
+
+116
+00:04:13,439 --> 00:04:17,440
+decreases
+
+117
+00:04:15,519 --> 00:04:20,320
+a supply and demand level becomes
+
+118
+00:04:17,440 --> 00:04:22,720
+invalid once price action breaks through
+
+119
+00:04:20,320 --> 00:04:25,520
+and closes above or below the tested
+
+120
+00:04:22,720 --> 00:04:27,520
+level this is because all orders that
+
+121
+00:04:25,520 --> 00:04:28,479
+were left at that level have been
+
+122
+00:04:27,520 --> 00:04:30,400
+absorbed
+
+123
+00:04:28,479 --> 00:04:31,759
+thus the candle can close above the
+
+124
+00:04:30,400 --> 00:04:34,160
+value area
+
+125
+00:04:31,759 --> 00:04:37,199
+what happens when a value area is not
+
+126
+00:04:34,160 --> 00:04:38,720
+fresh and price has been back to it one
+
+127
+00:04:37,199 --> 00:04:40,880
+or more times
+
+128
+00:04:38,720 --> 00:04:43,280
+chances are price will trade through the
+
+129
+00:04:40,880 --> 00:04:45,840
+value area because all of the previous
+
+130
+00:04:43,280 --> 00:04:48,720
+orders that were placed there have been
+
+131
+00:04:45,840 --> 00:04:50,720
+filled or absorbed
+
+132
+00:04:48,720 --> 00:04:52,639
+one of the most interesting aspects of
+
+133
+00:04:50,720 --> 00:04:54,400
+trading is that there are so many
+
+134
+00:04:52,639 --> 00:04:56,479
+different approaches
+
+135
+00:04:54,400 --> 00:04:58,400
+some traders prefer to focus on supply
+
+136
+00:04:56,479 --> 00:05:00,800
+and demand and price action
+
+137
+00:04:58,400 --> 00:05:02,400
+while other traders prefer to focus on
+
+138
+00:05:00,800 --> 00:05:04,800
+technical indicators
+
+139
+00:05:02,400 --> 00:05:06,479
+as price action traders we basically
+
+140
+00:05:04,800 --> 00:05:09,680
+have two ways to trade
+
+141
+00:05:06,479 --> 00:05:11,600
+with or without a confirmation signal
+
+142
+00:05:09,680 --> 00:05:12,960
+when trading supply and demand you have
+
+143
+00:05:11,600 --> 00:05:16,240
+two choices
+
+144
+00:05:12,960 --> 00:05:18,479
+to enter when price returns to the zone
+
+145
+00:05:16,240 --> 00:05:19,520
+or to confirm the setup with another
+
+146
+00:05:18,479 --> 00:05:21,440
+signal
+
+147
+00:05:19,520 --> 00:05:23,680
+it's important to understand that each
+
+148
+00:05:21,440 --> 00:05:24,479
+trait in its supply and demand zone is
+
+149
+00:05:23,680 --> 00:05:25,919
+unique
+
+150
+00:05:24,479 --> 00:05:28,160
+there will never be two trading
+
+151
+00:05:25,919 --> 00:05:29,440
+situations that are exactly the same in
+
+152
+00:05:28,160 --> 00:05:32,080
+the market
+
+153
+00:05:29,440 --> 00:05:34,800
+so whether you enter on a confirmation
+
+154
+00:05:32,080 --> 00:05:37,680
+signal or without one is going to be
+
+155
+00:05:34,800 --> 00:05:39,039
+determined on a case-by-case basis
+
+156
+00:05:37,680 --> 00:05:41,120
+you might choose to wait for a
+
+157
+00:05:39,039 --> 00:05:42,479
+confirmation signal at a supply or
+
+158
+00:05:41,120 --> 00:05:45,120
+demand level
+
+159
+00:05:42,479 --> 00:05:46,560
+or you might just enter blindly at this
+
+160
+00:05:45,120 --> 00:05:48,880
+key level
+
+161
+00:05:46,560 --> 00:05:50,000
+i prefer to have a confirmation from an
+
+162
+00:05:48,880 --> 00:05:52,479
+indicator
+
+163
+00:05:50,000 --> 00:05:55,600
+and one of the best ways of doing this
+
+164
+00:05:52,479 --> 00:05:58,479
+is through establishing confluence
+
+165
+00:05:55,600 --> 00:06:01,199
+first confirmation comes from the macd
+
+166
+00:05:58,479 --> 00:06:03,759
+a trade confluence simply refers to the
+
+167
+00:06:01,199 --> 00:06:06,240
+overlapping of two technical elements at
+
+168
+00:06:03,759 --> 00:06:07,600
+the same price and time point giving the
+
+169
+00:06:06,240 --> 00:06:10,800
+same signal
+
+170
+00:06:07,600 --> 00:06:13,360
+in this case a supply or demand zone and
+
+171
+00:06:10,800 --> 00:06:15,639
+a signal from the macd indicator
+
+172
+00:06:13,360 --> 00:06:18,639
+after all if we have two or more
+
+173
+00:06:15,639 --> 00:06:21,039
+non-correlated signals or studies giving
+
+174
+00:06:18,639 --> 00:06:22,960
+us a trade signal the chances of it
+
+175
+00:06:21,039 --> 00:06:25,199
+working are increased
+
+176
+00:06:22,960 --> 00:06:28,240
+now macd can be used to confirm the
+
+177
+00:06:25,199 --> 00:06:29,919
+trend strength direction and momentum
+
+178
+00:06:28,240 --> 00:06:32,000
+you can receive a lot of different
+
+179
+00:06:29,919 --> 00:06:35,039
+signals from it i've talked about the
+
+180
+00:06:32,000 --> 00:06:37,680
+macd signals in this video for supply
+
+181
+00:06:35,039 --> 00:06:40,720
+and demand trading i found that macd
+
+182
+00:06:37,680 --> 00:06:43,759
+divergences are perfect leading signals
+
+183
+00:06:40,720 --> 00:06:46,639
+to confirm our setups
+
+184
+00:06:43,759 --> 00:06:49,120
+macd as a momentum indicator shows the
+
+185
+00:06:46,639 --> 00:06:51,840
+movement of price over time and how
+
+186
+00:06:49,120 --> 00:06:53,840
+strong those movements are or will be
+
+187
+00:06:51,840 --> 00:06:57,280
+regardless of the direction of the price
+
+188
+00:06:53,840 --> 00:06:59,599
+moves up or down a divergence refers to
+
+189
+00:06:57,280 --> 00:07:02,880
+any instance where the price reaches a
+
+190
+00:06:59,599 --> 00:07:05,520
+new high or new low but momentum as
+
+191
+00:07:02,880 --> 00:07:07,280
+illustrated by the macd doesn't reflect
+
+192
+00:07:05,520 --> 00:07:09,599
+the same extreme
+
+193
+00:07:07,280 --> 00:07:11,520
+when price and momentum diverge it
+
+194
+00:07:09,599 --> 00:07:14,080
+typically indicates that the market is
+
+195
+00:07:11,520 --> 00:07:16,240
+primed for a reversal
+
+196
+00:07:14,080 --> 00:07:18,400
+here we have a demand zone on the euro
+
+197
+00:07:16,240 --> 00:07:20,720
+yen on a daily time frame
+
+198
+00:07:18,400 --> 00:07:23,199
+when using macd divergences with supply
+
+199
+00:07:20,720 --> 00:07:24,800
+and demand zones i use a multiple time
+
+200
+00:07:23,199 --> 00:07:26,960
+frame approach
+
+201
+00:07:24,800 --> 00:07:28,880
+there are two major rules for a multiple
+
+202
+00:07:26,960 --> 00:07:30,960
+timeframe analysis
+
+203
+00:07:28,880 --> 00:07:32,720
+larger time frames establish and
+
+204
+00:07:30,960 --> 00:07:35,120
+dominate the trend
+
+205
+00:07:32,720 --> 00:07:38,240
+and reversals start from the smaller
+
+206
+00:07:35,120 --> 00:07:40,319
+time frames and continue upwards
+
+207
+00:07:38,240 --> 00:07:42,319
+so you find your supply and demand zones
+
+208
+00:07:40,319 --> 00:07:44,319
+on the higher time frames the daily
+
+209
+00:07:42,319 --> 00:07:46,960
+chart then you move to a lower time
+
+210
+00:07:44,319 --> 00:07:49,360
+frame in this case the 30 minute chart
+
+211
+00:07:46,960 --> 00:07:51,680
+to find the macd entry signal
+
+212
+00:07:49,360 --> 00:07:53,840
+this is very important you watch for
+
+213
+00:07:51,680 --> 00:07:56,400
+price action to turn on a lower time
+
+214
+00:07:53,840 --> 00:07:58,800
+frame but at a higher time frame supply
+
+215
+00:07:56,400 --> 00:07:59,919
+or demand area and when trend is
+
+216
+00:07:58,800 --> 00:08:02,319
+changing
+
+217
+00:07:59,919 --> 00:08:04,720
+you look at the higher time frame to see
+
+218
+00:08:02,319 --> 00:08:07,039
+where the previous value area was
+
+219
+00:08:04,720 --> 00:08:09,599
+because price should go there on the
+
+220
+00:08:07,039 --> 00:08:12,319
+lower time frame chart
+
+221
+00:08:09,599 --> 00:08:15,199
+on the 30 minute chart we noticed that
+
+222
+00:08:12,319 --> 00:08:18,080
+the macd as a momentum indicator turned
+
+223
+00:08:15,199 --> 00:08:20,639
+to the upside or no longer continued to
+
+224
+00:08:18,080 --> 00:08:23,199
+follow the downward price movement
+
+225
+00:08:20,639 --> 00:08:25,599
+it means that the indicator diverged
+
+226
+00:08:23,199 --> 00:08:27,280
+from the price movement and shows that
+
+227
+00:08:25,599 --> 00:08:29,039
+the momentum of the current price
+
+228
+00:08:27,280 --> 00:08:31,199
+movement was failing
+
+229
+00:08:29,039 --> 00:08:33,599
+we also had an engulfing candle
+
+230
+00:08:31,199 --> 00:08:35,760
+rejecting the area which is the third
+
+231
+00:08:33,599 --> 00:08:38,240
+confluence factor in the setup
+
+232
+00:08:35,760 --> 00:08:40,399
+this was a valid trait and we entered
+
+233
+00:08:38,240 --> 00:08:43,279
+right after the rejection with a stop
+
+234
+00:08:40,399 --> 00:08:45,600
+loss below the engulfing bar
+
+235
+00:08:43,279 --> 00:08:48,240
+here we have another demand zone on the
+
+236
+00:08:45,600 --> 00:08:50,160
+pound dollar on the daily time frame
+
+237
+00:08:48,240 --> 00:08:52,880
+again we'll use a multiple time frame
+
+238
+00:08:50,160 --> 00:08:55,120
+approach the daily chart on the right
+
+239
+00:08:52,880 --> 00:08:58,080
+the larger time frame will establish the
+
+240
+00:08:55,120 --> 00:09:00,560
+trend and reversals start from the
+
+241
+00:08:58,080 --> 00:09:01,920
+smaller time frames first and continue
+
+242
+00:09:00,560 --> 00:09:04,240
+upwards
+
+243
+00:09:01,920 --> 00:09:07,600
+on the 30 minute chart here's the macd
+
+244
+00:09:04,240 --> 00:09:09,680
+divergence inside the demand zone which
+
+245
+00:09:07,600 --> 00:09:11,600
+means that momentum of the current price
+
+246
+00:09:09,680 --> 00:09:14,000
+movement was failing
+
+247
+00:09:11,600 --> 00:09:16,000
+to make the histogram turned positive
+
+248
+00:09:14,000 --> 00:09:18,480
+another bullish confirmation
+
+249
+00:09:16,000 --> 00:09:21,680
+price then started to make higher highs
+
+250
+00:09:18,480 --> 00:09:24,399
+and higher lows another bullish sign
+
+251
+00:09:21,680 --> 00:09:26,880
+as it checked many confluence factors an
+
+252
+00:09:24,399 --> 00:09:28,560
+entry inside the demand area turned out
+
+253
+00:09:26,880 --> 00:09:30,720
+to be a great trait
+
+254
+00:09:28,560 --> 00:09:32,720
+it goes without saying you can replace
+
+255
+00:09:30,720 --> 00:09:35,279
+the macd with any other momentum
+
+256
+00:09:32,720 --> 00:09:37,680
+indicator if you don't like it use the
+
+257
+00:09:35,279 --> 00:09:40,839
+rsi instead for spotting the emergencies
+
+258
+00:09:37,680 --> 00:09:40,839
+for example
+
+259
+00:09:41,340 --> 00:09:46,599
+[Music]
+
+260
+00:10:02,640 --> 00:10:05,809
+[Music]
+
+261
+00:10:15,290 --> 00:10:25,519
+[Music]
+
+262
+00:10:23,760 --> 00:10:27,200
+second confirmation comes from the
+
+263
+00:10:25,519 --> 00:10:29,680
+stochastic
+
+264
+00:10:27,200 --> 00:10:30,720
+stochastic also measures the momentum of
+
+265
+00:10:29,680 --> 00:10:33,279
+price
+
+266
+00:10:30,720 --> 00:10:35,760
+although i don't rely much on overbought
+
+267
+00:10:33,279 --> 00:10:37,920
+and oversold conditions these signals
+
+268
+00:10:35,760 --> 00:10:39,600
+tend to work in combination with supply
+
+269
+00:10:37,920 --> 00:10:42,399
+and demand zones
+
+270
+00:10:39,600 --> 00:10:45,440
+now when stochastic isn't overbought and
+
+271
+00:10:42,399 --> 00:10:47,040
+oversold it has absolutely nothing to do
+
+272
+00:10:45,440 --> 00:10:50,079
+with the market getting ready for a
+
+273
+00:10:47,040 --> 00:10:52,240
+reversal not even in the slightest way
+
+274
+00:10:50,079 --> 00:10:55,040
+trading with these levels without price
+
+275
+00:10:52,240 --> 00:10:56,240
+action is a guaranteed way to lose money
+
+276
+00:10:55,040 --> 00:10:58,480
+trading
+
+277
+00:10:56,240 --> 00:11:01,200
+so because i don't trust these levels
+
+278
+00:10:58,480 --> 00:11:04,560
+much i increased the parameters for
+
+279
+00:11:01,200 --> 00:11:07,920
+overbought and oversold from 20 and 80
+
+280
+00:11:04,560 --> 00:11:12,000
+to 10 and 90 and i also increased the
+
+281
+00:11:07,920 --> 00:11:14,399
+length of the stochastic to 15 5 and 3.
+
+282
+00:11:12,000 --> 00:11:16,800
+this way the indicator won't reach the
+
+283
+00:11:14,399 --> 00:11:18,720
+levels as often
+
+284
+00:11:16,800 --> 00:11:21,360
+here we see an example of stochastic
+
+285
+00:11:18,720 --> 00:11:22,480
+confirmation by signal at the demand
+
+286
+00:11:21,360 --> 00:11:24,160
+area
+
+287
+00:11:22,480 --> 00:11:25,200
+we'll use the same multiple timeframe
+
+288
+00:11:24,160 --> 00:11:26,800
+approach
+
+289
+00:11:25,200 --> 00:11:29,519
+we'll trade in the direction of the
+
+290
+00:11:26,800 --> 00:11:30,480
+higher time frame especially for a trade
+
+291
+00:11:29,519 --> 00:11:32,399
+like this
+
+292
+00:11:30,480 --> 00:11:35,120
+that would be considered against the
+
+293
+00:11:32,399 --> 00:11:37,120
+previous downtrend leading up to it i
+
+294
+00:11:35,120 --> 00:11:38,320
+like to see a confirmation signal before
+
+295
+00:11:37,120 --> 00:11:41,120
+entering
+
+296
+00:11:38,320 --> 00:11:43,680
+we can see a nice up move which followed
+
+297
+00:11:41,120 --> 00:11:45,680
+this oversold stochastic signal
+
+298
+00:11:43,680 --> 00:11:48,079
+you could also wait for this trendline
+
+299
+00:11:45,680 --> 00:11:51,760
+breakout if you really want to be sure
+
+300
+00:11:48,079 --> 00:11:53,440
+that the bulls are taking full control
+
+301
+00:11:51,760 --> 00:11:55,680
+here's another example
+
+302
+00:11:53,440 --> 00:11:58,079
+we found the supply zone on the four
+
+303
+00:11:55,680 --> 00:12:00,560
+hour time frame on the right side
+
+304
+00:11:58,079 --> 00:12:03,200
+on the 30 minute time frame on the first
+
+305
+00:12:00,560 --> 00:12:06,160
+re-test of the supply zone stochastic
+
+306
+00:12:03,200 --> 00:12:07,920
+was well over 90 and price found new
+
+307
+00:12:06,160 --> 00:12:10,399
+sellers in this area
+
+308
+00:12:07,920 --> 00:12:12,399
+we had a nice swing to the downside we
+
+309
+00:12:10,399 --> 00:12:14,160
+even had the third and the fourth
+
+310
+00:12:12,399 --> 00:12:16,320
+re-test of the area
+
+311
+00:12:14,160 --> 00:12:18,560
+if you want to trade the supply area
+
+312
+00:12:16,320 --> 00:12:20,480
+make sure the zone is still fresh which
+
+313
+00:12:18,560 --> 00:12:22,880
+means that after the initial creation of
+
+314
+00:12:20,480 --> 00:12:26,320
+the zone price has not come back to it
+
+315
+00:12:22,880 --> 00:12:29,360
+yet each time price revisits a supply
+
+316
+00:12:26,320 --> 00:12:32,000
+zone more and more previously unfilled
+
+317
+00:12:29,360 --> 00:12:34,079
+orders are filled and the level is
+
+318
+00:12:32,000 --> 00:12:35,680
+weakened continuously
+
+319
+00:12:34,079 --> 00:12:38,639
+but if you have confidence that the
+
+320
+00:12:35,680 --> 00:12:40,399
+supply area will hold you could re-enter
+
+321
+00:12:38,639 --> 00:12:42,959
+with a lower position
+
+322
+00:12:40,399 --> 00:12:46,300
+the fourth retest came with a massive
+
+323
+00:12:42,959 --> 00:12:54,489
+move to the downside
+
+324
+00:12:46,300 --> 00:12:54,489
+[Music]
+
+325
+00:13:02,330 --> 00:13:31,600
+[Music]
+
+326
+00:13:29,680 --> 00:13:34,240
+if you learned something new please hit
+
+327
+00:13:31,600 --> 00:13:36,959
+the like button since it really helps us
+
+328
+00:13:34,240 --> 00:13:38,959
+out and subscribe to stay up to date
+
+329
+00:13:36,959 --> 00:13:41,600
+with our latest releases
+
+330
+00:13:38,959 --> 00:13:45,279
+and check out our academy program if you
+
+331
+00:13:41,600 --> 00:13:48,760
+want to further level up your trading
+
+332
+00:13:45,279 --> 00:13:48,760
+until next time
+

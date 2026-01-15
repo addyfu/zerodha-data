@@ -1,0 +1,853 @@
+1
+00:00:00,860 --> 00:00:07,070
+Tradingview recently introduced a new chart
+type, the High Low chart, and for price action
+
+2
+00:00:07,070 --> 00:00:09,769
+traders, this could be of great help.
+
+3
+00:00:09,769 --> 00:00:15,659
+Today I’ll show you how to read price action
+using High Low charts and you’ll also learn
+
+4
+00:00:15,659 --> 00:00:20,360
+how to easily find trends and trade with the
+current momentum.
+
+5
+00:00:20,360 --> 00:00:28,590
+You know the drill, like, subscribe, and stick
+around for the full video.
+
+6
+00:00:28,590 --> 00:00:31,410
+High-Low chart
+
+7
+00:00:31,410 --> 00:00:36,340
+The High-Low chart is located in the chart
+type selection menu.
+
+8
+00:00:36,340 --> 00:00:42,900
+Bars are built based on the value of the maximum
+and minimum prices for a given timeframe.
+
+9
+00:00:42,900 --> 00:00:48,690
+The price values for which the chart was built
+are displayed on each bar, below and above
+
+10
+00:00:48,690 --> 00:00:50,780
+the bar.
+
+11
+00:00:50,780 --> 00:00:56,580
+This type of chart basically removes the open
+and close price, and instead, you see the
+
+12
+00:00:56,580 --> 00:01:01,580
+range in which the value changed, on your
+timeframe.
+
+13
+00:01:01,580 --> 00:01:06,640
+If you want to customize it, in the Chart
+Settings, you can change the color of the
+
+14
+00:01:06,640 --> 00:01:08,750
+bars and text.
+
+15
+00:01:08,750 --> 00:01:13,960
+I personally don’t have a problem with the
+fact that I don’t see the red and green
+
+16
+00:01:13,960 --> 00:01:15,729
+color of the candles.
+
+17
+00:01:15,729 --> 00:01:22,700
+By having the same color on up and down candles,
+you’ll actually trade in a neutral/ unbiased
+
+18
+00:01:22,700 --> 00:01:25,760
+state of mind.
+
+19
+00:01:25,760 --> 00:01:31,020
+This chart looks weird at first, because you
+don’t see the open and close.
+
+20
+00:01:31,020 --> 00:01:33,760
+You are only seeing a range.
+
+21
+00:01:33,760 --> 00:01:39,480
+But from a price action perspective, if you
+are a trader who is analyzing highs and lows
+
+22
+00:01:39,480 --> 00:01:44,000
+in price, this is very helpful.
+
+23
+00:01:44,000 --> 00:01:49,720
+Most traders are looking at major market swings
+when they are analyzing highs and lows and
+
+24
+00:01:49,720 --> 00:01:51,510
+determine trends.
+
+25
+00:01:51,510 --> 00:01:57,119
+But you can also analyze highs and lows of
+individual candlesticks.
+
+26
+00:01:57,119 --> 00:02:04,690
+With the High Low chart, reading price action
+of individual candlesticks is super easy.
+
+27
+00:02:04,690 --> 00:02:11,560
+When the high and the low of the recent candlestick
+is higher than the high and low of the previous
+
+28
+00:02:11,560 --> 00:02:17,230
+candlestick, market is in a bullish momentum
+and buyers are controlling the market.
+
+29
+00:02:17,230 --> 00:02:18,760
+There is buying pressure.
+
+30
+00:02:18,760 --> 00:02:26,370
+When the low and high of the recent candlestick
+is lower than the low and high of the previous
+
+31
+00:02:26,370 --> 00:02:32,310
+candlestick, market is in a bearish momentum
+and sellers are controlling the market.
+
+32
+00:02:32,310 --> 00:02:38,270
+You see just how easy it is to read price
+action, bar by bar.
+
+33
+00:02:38,270 --> 00:02:41,700
+Candlestick simplified
+
+34
+00:02:41,700 --> 00:02:49,330
+Now, using the High low chart presents an
+opportunity to simplify candlestick trading.
+
+35
+00:02:49,330 --> 00:02:54,300
+If you are that type of trader that memorized
+dozens of candlestick formations, you’re
+
+36
+00:02:54,300 --> 00:02:58,580
+in luck, because you don’t have to over-complicate
+things.
+
+37
+00:02:58,580 --> 00:03:04,200
+With this type of chart, there are only 4
+candlestick formations.
+
+38
+00:03:04,200 --> 00:03:07,730
+First candlestick formation is the bullish
+candle.
+
+39
+00:03:07,730 --> 00:03:15,490
+A bullish candle has a higher high and a higher
+low compared to the previous bar.
+
+40
+00:03:15,490 --> 00:03:18,860
+Second formation is the bearish candle.
+
+41
+00:03:18,860 --> 00:03:24,180
+Bearish candlesticks have a lower high and
+a lower low, again, compared to the previous
+
+42
+00:03:24,180 --> 00:03:25,980
+bar.
+
+43
+00:03:25,980 --> 00:03:32,720
+Third type is the inside candlestick, which
+has a lower high and higher low relative to
+
+44
+00:03:32,720 --> 00:03:34,269
+the previous bar.
+
+45
+00:03:34,269 --> 00:03:39,570
+This bar is contained within the range of
+the previous candlestick.
+
+46
+00:03:39,570 --> 00:03:45,129
+Even if the high or the low are equal to the
+previous candlestick, it’s still an inside
+
+47
+00:03:45,129 --> 00:03:47,510
+bar.
+
+48
+00:03:47,510 --> 00:03:54,069
+Last formation is the engulfing candlestick,
+which has higher high and lower low relative
+
+49
+00:03:54,069 --> 00:03:58,239
+to the previous bar
+And even if either the high or the low are
+
+50
+00:03:58,239 --> 00:04:04,650
+equal to that of the previous bar, it’s
+still an engulfing bar.
+
+51
+00:04:04,650 --> 00:04:11,269
+So this is the foundation of your price action
+analysis: bullish and bearish candlesticks,
+
+52
+00:04:11,269 --> 00:04:14,220
+inside candles and engulfing candles.
+
+53
+00:04:14,220 --> 00:04:21,059
+It’s time to train your eyes to easily spot
+each formation, on a high low chart.
+
+54
+00:04:21,059 --> 00:04:25,360
+Open any chart, and start reading price action.
+
+55
+00:04:25,360 --> 00:04:31,430
+We have both highs and lows that are lower
+than the previous bar, so this is a bearish
+
+56
+00:04:31,430 --> 00:04:32,850
+candlestick.
+
+57
+00:04:32,850 --> 00:04:35,409
+Another bearish candlestick.
+
+58
+00:04:35,409 --> 00:04:37,349
+And another one.
+
+59
+00:04:37,349 --> 00:04:39,069
+Another bearish candle.
+
+60
+00:04:39,069 --> 00:04:45,770
+Here’s the first inside bar, with a lower
+high and higher low compared to the previous
+
+61
+00:04:45,770 --> 00:04:48,300
+bearish candle.
+
+62
+00:04:48,300 --> 00:04:50,509
+Next is a bearish candle.
+
+63
+00:04:50,509 --> 00:04:52,629
+Another bearish candle.
+
+64
+00:04:52,629 --> 00:04:54,879
+Another one.
+
+65
+00:04:54,879 --> 00:04:56,559
+Another bearish candle.
+
+66
+00:04:56,559 --> 00:04:59,869
+Again, a bearish candlestick.
+
+67
+00:04:59,869 --> 00:05:01,509
+Bearish candle once again.
+
+68
+00:05:01,509 --> 00:05:07,680
+Okey, we have our first engulfing candle,
+with a higher high and lower low compared
+
+69
+00:05:07,680 --> 00:05:10,060
+to the previous bar.
+
+70
+00:05:10,060 --> 00:05:12,259
+Another bearish candlestick.
+
+71
+00:05:12,259 --> 00:05:18,080
+Next is a bullish candlestick, with a higher
+high and a higher low compared to the previous
+
+72
+00:05:18,080 --> 00:05:19,860
+bar.
+
+73
+00:05:19,860 --> 00:05:25,020
+Another bullish bar and now trend seems to
+change to the upside.
+
+74
+00:05:25,020 --> 00:05:27,020
+Bullish candlestick again.
+
+75
+00:05:27,020 --> 00:05:29,229
+Another bullish candle.
+
+76
+00:05:29,229 --> 00:05:31,919
+Next is an engulfing candle.
+
+77
+00:05:31,919 --> 00:05:34,249
+Bearish candlestick.
+
+78
+00:05:34,249 --> 00:05:36,770
+You see just how easy is to read price action.
+
+79
+00:05:36,770 --> 00:05:41,919
+I’ll say it again, you don’t need to memorize
+other candlestick combinations.
+
+80
+00:05:41,919 --> 00:05:48,520
+So, to get used to high low charts, the first
+thing is to start reading candlesticks until
+
+81
+00:05:48,520 --> 00:05:52,819
+it becomes very easy to determine which type
+is.
+
+82
+00:05:52,819 --> 00:06:00,349
+6 Price action rules
+Now, you might ask, how is this useful to
+
+83
+00:06:00,349 --> 00:06:01,349
+trade?
+
+84
+00:06:01,349 --> 00:06:02,610
+It’s simple.
+
+85
+00:06:02,610 --> 00:06:07,839
+Once you know to recognize these candlesticks,
+you’ll then determine the state of the current
+
+86
+00:06:07,839 --> 00:06:09,059
+trend.
+
+87
+00:06:09,059 --> 00:06:13,580
+To find the current trend, you follow 6 easy
+rules.
+
+88
+00:06:13,580 --> 00:06:14,580
+1.
+
+89
+00:06:14,580 --> 00:06:19,550
+If you have consecutive bullish bars, you
+are in a minor uptrend.
+
+90
+00:06:19,550 --> 00:06:21,009
+2.
+
+91
+00:06:21,009 --> 00:06:24,590
+Consecutive bearish bars indicate a minor
+downtrend.
+
+92
+00:06:24,590 --> 00:06:25,729
+3.
+
+93
+00:06:25,729 --> 00:06:32,039
+A bullish candle starts an upswing and confirms
+the end of a downswing.
+
+94
+00:06:32,039 --> 00:06:33,069
+4.
+
+95
+00:06:33,069 --> 00:06:39,150
+A bearish candle starts a downswing and confirms
+the end of an upswing.
+
+96
+00:06:39,150 --> 00:06:40,360
+5.
+
+97
+00:06:40,360 --> 00:06:43,110
+Inside candlesticks are neutral bars.
+
+98
+00:06:43,110 --> 00:06:47,839
+They don’t affect the direction of the current
+swing, because they do not break the previous
+
+99
+00:06:47,839 --> 00:06:49,180
+high and low.
+
+100
+00:06:49,180 --> 00:06:56,479
+So an inside bar after a bullish or bearish
+candlestick don’t change the current trend.
+
+101
+00:06:56,479 --> 00:06:57,479
+6.
+
+102
+00:06:57,479 --> 00:07:02,939
+Engulfing candlesticks introduce uncertainty
+into the market structure, because they break
+
+103
+00:07:02,939 --> 00:07:05,389
+both the previous high and low.
+
+104
+00:07:05,389 --> 00:07:09,999
+But, we’ll give the benefit of the doubt
+to the current swing.
+
+105
+00:07:09,999 --> 00:07:15,520
+So, engulfing candlesticks in an upswing continue
+the upswing.
+
+106
+00:07:15,520 --> 00:07:20,610
+Engulfing candlesticks in a downswing continue
+the downswing.
+
+107
+00:07:20,610 --> 00:07:28,339
+Now, let’s look at the previous example
+and let’s mark the main swings, based on
+
+108
+00:07:28,339 --> 00:07:33,479
+the bars that changed the direction of the
+market swings.
+
+109
+00:07:33,479 --> 00:07:41,499
+These bars are inside candlesticks and engulfing
+candlesticks and they do not affect the direction
+
+110
+00:07:41,499 --> 00:07:44,129
+of the market swings.
+
+111
+00:07:44,129 --> 00:07:51,489
+Let’s change markets and find the market
+swings based on this system.
+
+112
+00:07:51,489 --> 00:07:58,490
+You simply look for bullish candles to start
+an upswing and to confirm the end of a downswing.
+
+113
+00:07:58,490 --> 00:08:05,300
+And for bearish candles to start a downswing
+and to confirm the end of an upswing.
+
+114
+00:08:05,300 --> 00:08:12,259
+And you include the inside candlesticks and
+engulfing candlesticks in the respective swing.
+
+115
+00:08:12,259 --> 00:08:17,610
+First we have a downswing, with many consecutive
+bearish candles.
+
+116
+00:08:17,610 --> 00:08:26,219
+Then, an upswing, this is the candle which
+interrupts the previous down leg.
+
+117
+00:08:26,219 --> 00:08:32,649
+And another downswing, this is the candle
+which ends the upswing.
+
+118
+00:08:32,649 --> 00:08:40,450
+Then market forms an upswing, and another
+downswing.
+
+119
+00:08:40,450 --> 00:08:43,709
+Upswing once again.
+
+120
+00:08:43,709 --> 00:08:53,790
+Then I see a choppy period, with a small downswing,
+a small upswing and another downswing.
+
+121
+00:08:53,790 --> 00:08:57,279
+And finally, another upswing.
+
+122
+00:08:57,279 --> 00:09:01,050
+This analysis might seem very simple and unimportant.
+
+123
+00:09:01,050 --> 00:09:06,790
+But if you understand how the swings are marked
+and you see the swings clearly, you will identify
+
+124
+00:09:06,790 --> 00:09:12,150
+the current direction of the market with ease,
+at any point in time.
+
+125
+00:09:12,150 --> 00:09:17,310
+Support and Resistance trading
+
+126
+00:09:17,310 --> 00:09:23,050
+I found that high low charts are great to
+trade support and resistance, and are also
+
+127
+00:09:23,050 --> 00:09:28,990
+a good filter to eliminate false breakouts,
+when price moves beyond a previously established
+
+128
+00:09:28,990 --> 00:09:34,579
+price range but then retreats back to within
+the range.
+
+129
+00:09:34,579 --> 00:09:40,139
+As you probably know, one of the classic rules
+of support and resistance is that support,
+
+130
+00:09:40,139 --> 00:09:50,149
+once violated, becomes resistance and conversely,
+resistance, once violated, becomes support.
+
+131
+00:09:50,149 --> 00:09:55,459
+With high low charts, and the previous swing
+recognition technique, you can find decent
+
+132
+00:09:55,459 --> 00:10:00,540
+trades around major levels in the market.
+
+133
+00:10:00,540 --> 00:10:07,310
+So on this GBP/USD hourly time frame, we see
+an uptrend, with price trading around this
+
+134
+00:10:07,310 --> 00:10:10,670
+resistance level.
+
+135
+00:10:10,670 --> 00:10:19,680
+We have a candle breaking the previous high,
+and a quick retracement below the level.
+
+136
+00:10:19,680 --> 00:10:25,600
+After a small consolidation, we have a valid
+breakout.
+
+137
+00:10:25,600 --> 00:10:31,439
+So a decent signal would be at the re-test
+of the previous level, when the downswing
+
+138
+00:10:31,439 --> 00:10:35,709
+is ended with a bullish candlestick.
+
+139
+00:10:35,709 --> 00:10:39,170
+Here’s the signal.
+
+140
+00:10:39,170 --> 00:10:45,670
+I like to enter when the high of the bullish
+candle is broken, but you can also enter immediately
+
+141
+00:10:45,670 --> 00:10:48,279
+after you see the candle.
+
+142
+00:10:48,279 --> 00:10:53,140
+Stop goes below the most recent swing and
+we’ll be conservative and we’ll set a
+
+143
+00:10:53,140 --> 00:11:00,930
+risk to reward ratio of 2.
+
+144
+00:11:00,930 --> 00:11:07,069
+You see how using this type of chart helped
+us to avoid the first fake out and allowed
+
+145
+00:11:07,069 --> 00:11:14,350
+us to enter, in the direction of the main
+trend, when a new upswing was forming.
+
+146
+00:11:14,350 --> 00:11:19,069
+Liquidity clear-outs
+
+147
+00:11:19,069 --> 00:11:25,000
+Another great way is to trade liquidity clear-outs
+in the direction of the main trend.
+
+148
+00:11:25,000 --> 00:11:30,790
+If you watched my previous smart money manipulation
+video, you know I like to join the market
+
+149
+00:11:30,790 --> 00:11:33,850
+after a false breakout.
+
+150
+00:11:33,850 --> 00:11:39,080
+Markets hunt for stop orders and activity
+beyond significant price levels.
+
+151
+00:11:39,080 --> 00:11:45,959
+If this breakout occurs and fails, there will
+be many trapped traders, which can add momentum
+
+152
+00:11:45,959 --> 00:11:48,740
+to the opposite direction from that level.
+
+153
+00:11:48,740 --> 00:11:54,930
+The best trades of this type occur in direction
+of the main trend.
+
+154
+00:11:54,930 --> 00:12:05,050
+In this example, we have a clear downtrend,
+with price currently in consolidation.
+
+155
+00:12:05,050 --> 00:12:12,610
+For a short entry, the market trades above
+this resistance area, and immediately reverses
+
+156
+00:12:12,610 --> 00:12:18,800
+on the following bars and closes back under
+the resistance.
+
+157
+00:12:18,800 --> 00:12:22,889
+There no real continuation beyond the level.
+
+158
+00:12:22,889 --> 00:12:29,509
+And when the price forms a bearish candlestick,
+which ends the previous upswing, we can take
+
+159
+00:12:29,509 --> 00:12:38,279
+a short trade, after this liquidity clear-out,
+in the direction of the main trend.
+
+160
+00:12:38,279 --> 00:12:45,270
+Stop goes above the previous swing high, and
+we’ll target this next swing low in the
+
+161
+00:12:45,270 --> 00:12:49,680
+price structure.
+
+162
+00:12:49,680 --> 00:12:55,070
+Here’s another example.
+
+163
+00:12:55,070 --> 00:13:04,060
+We have a clear support, in an obvious uptrend,
+with the price being unable to continue lower.
+
+164
+00:13:04,060 --> 00:13:10,939
+We then have a small breach below support,
+but price immediately closed back above the
+
+165
+00:13:10,939 --> 00:13:13,970
+support level.
+
+166
+00:13:13,970 --> 00:13:20,259
+Once the movement was confirmed by a bullish
+candle, the wiser trade would be a long trade,
+
+167
+00:13:20,259 --> 00:13:24,180
+instead of chasing the failed breakout.
+
+168
+00:13:24,180 --> 00:13:29,999
+Stop loss is placed below the previous swing
+low, and we’ll target this next swing high
+
+169
+00:13:29,999 --> 00:13:38,110
+in the price structure.
+
+170
+00:13:38,110 --> 00:13:42,250
+In some way, high low charts eliminate some
+market noise.
+
+171
+00:13:42,250 --> 00:13:45,990
+You don’t see the wicks, the red or green
+candles.
+
+172
+00:13:45,990 --> 00:13:52,529
+I can see the market swings and the support
+and resistance levels very easy using high
+
+173
+00:13:52,529 --> 00:13:54,620
+low candles.
+
+174
+00:13:54,620 --> 00:14:00,460
+You see, many traders follow market swings
+in a wrong manner and find them useful only
+
+175
+00:14:00,460 --> 00:14:02,199
+in hindsight.
+
+176
+00:14:02,199 --> 00:14:07,490
+They are unable to apply the concept of market
+swings in real-time.
+
+177
+00:14:07,490 --> 00:14:13,040
+With this chart, and following some basic
+price action rules you will know exactly the
+
+178
+00:14:13,040 --> 00:14:19,100
+current price wave you are in, and with a
+solid understanding of support and resistance,
+
+179
+00:14:19,100 --> 00:14:47,529
+you will find good areas to trade from.
+
+180
+00:14:47,529 --> 00:15:45,910
+Of course, there are lots of other methods
+to trade high low charts, involving volume
+
+181
+00:15:45,910 --> 00:15:53,999
+and even with indicators, divergences in particular
+work very well in combination with these candles.
+
+182
+00:15:53,999 --> 00:15:59,410
+So if you a follow up video about high low
+candles, leave us a like.
+
+183
+00:15:59,410 --> 00:16:03,540
+This way we’ll know if you'd like to see
+more videos like this one.
+
+184
+00:16:03,540 --> 00:16:10,170
+And check out our academy program if you want
+to further level up your trading.
+
+185
+00:16:10,170 --> 00:16:10,680
+Until next time.
+

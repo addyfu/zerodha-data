@@ -1,0 +1,749 @@
+1
+00:00:00,789 --> 00:00:04,460
+What time frame to use when day trading is
+an important choice.
+
+2
+00:00:04,460 --> 00:00:08,990
+And the right time frame will vary by each
+person, the strategy they use, and how they
+
+3
+00:00:08,990 --> 00:00:13,660
+like to spend their trading time (meaning
+a more relaxed trading session versus more
+
+4
+00:00:13,660 --> 00:00:15,019
+intense one).
+
+5
+00:00:15,019 --> 00:00:18,840
+In this video we’ll talk about a simple
+concept to choose the right time frame for
+
+6
+00:00:18,840 --> 00:00:24,110
+day trading, in order to make the right decision
+right from the beginning.
+
+7
+00:00:24,110 --> 00:00:27,750
+Professional traders spend little time choosing
+a time frame.
+
+8
+00:00:27,750 --> 00:00:31,650
+Their choice of time frame isn't based on
+their trading strategy or the market in which
+
+9
+00:00:31,650 --> 00:00:32,820
+they're trading.
+
+10
+00:00:32,820 --> 00:00:35,770
+It's based on their own trading personality.
+
+11
+00:00:35,770 --> 00:00:42,260
+Before we begin, here is a chart that shows
+the difference between a 1, 5, and 15-minute
+
+12
+00:00:42,260 --> 00:00:43,260
+chart.
+
+13
+00:00:43,260 --> 00:00:48,420
+They all show 12 hours of price data on the
+same day, but, as you notice, there is a significant
+
+14
+00:00:48,420 --> 00:00:50,250
+difference in detail.
+
+15
+00:00:50,250 --> 00:00:54,739
+So let’s talk about the benefits and drawbacks
+of each day trading time frame so you can
+
+16
+00:00:54,739 --> 00:00:58,930
+decide which one is right for you.
+
+17
+00:00:58,930 --> 00:01:05,890
+A 1-minute time frame may work well for someone
+who likes seeing detail in the price movements
+
+18
+00:01:05,890 --> 00:01:11,290
+and potentially getting in and out for short-term
+trades that only last a few minutes.
+
+19
+00:01:11,290 --> 00:01:16,150
+Trading the one-minute requires nearly constant
+attention while trading, since candles are
+
+20
+00:01:16,150 --> 00:01:20,960
+generated every minute and trade signals can
+occur often (depending on your strategy, of
+
+21
+00:01:20,960 --> 00:01:22,600
+course).
+
+22
+00:01:22,600 --> 00:01:27,620
+Because price bars occur frequently, 1-minute
+chart traders typically have the opportunity
+
+23
+00:01:27,620 --> 00:01:31,409
+to take more trades per day compared to other
+time frames.
+
+24
+00:01:31,409 --> 00:01:37,060
+With a winning system, more trades means more
+profit and faster compounding of the account.
+
+25
+00:01:37,060 --> 00:01:41,860
+But with the potential for more activity,
+a trader who doesn’t have a good risk management
+
+26
+00:01:41,860 --> 00:01:45,510
+strategy can diminish their capital rapidly.
+
+27
+00:01:45,510 --> 00:01:49,850
+On a 1-min time frame, it’s possible to
+make several trades within a two-hour trading
+
+28
+00:01:49,850 --> 00:01:50,950
+session.
+
+29
+00:01:50,950 --> 00:01:54,830
+And it’s perfect if you don’t want to
+spend too many hours in front of your screen.
+
+30
+00:01:54,830 --> 00:01:59,759
+With trades based on smaller candles, stop
+losses and profit targets tend to be smaller
+
+31
+00:01:59,759 --> 00:02:02,630
+than those used by higher time frame traders.
+
+32
+00:02:02,630 --> 00:02:04,200
+This doesn’t have to be the case, though.
+
+33
+00:02:04,200 --> 00:02:08,860
+A trader could use a small stop loss on the
+1-minute chart and aim for large reward:risk
+
+34
+00:02:08,860 --> 00:02:09,860
+trade.
+
+35
+00:02:09,860 --> 00:02:13,959
+The main takeaway is that the 1-minute time
+frame is for people who want to maximize their
+
+36
+00:02:13,959 --> 00:02:19,439
+trading time with more trades, typically with
+slightly increased position sizes, using small
+
+37
+00:02:19,439 --> 00:02:25,230
+stop losses and profit targets.
+
+38
+00:02:25,230 --> 00:02:29,989
+A 5-minute chart may work well for someone
+who focuses on bigger intraday trends and
+
+39
+00:02:29,989 --> 00:02:34,849
+doesn’t need to see the open-high-low-close
+price every minute, but would rather get data
+
+40
+00:02:34,849 --> 00:02:37,239
+over 5-minute periods.
+
+41
+00:02:37,239 --> 00:02:41,389
+Trading the five-minute requires focus, but
+less constant attention than the 1-minute
+
+42
+00:02:41,389 --> 00:02:46,209
+chart because candles are forming every five
+minutes, so there is more time between data
+
+43
+00:02:46,209 --> 00:02:47,489
+points.
+
+44
+00:02:47,489 --> 00:02:51,849
+If you wait for the candle to close before
+acting, this means no action is taken for
+
+45
+00:02:51,849 --> 00:02:54,530
+at least 5 minute intervals, and often longer.
+
+46
+00:02:54,530 --> 00:02:56,019
+Thus, 5-minute chart traders tend to trade
+less than 1-minute chart traders because there
+
+47
+00:02:56,019 --> 00:02:57,019
+are fewer candles to act on.
+
+48
+00:02:57,019 --> 00:03:01,209
+Depending on your strategy, one or two trades
+may develop in a two-hour trading session,
+
+49
+00:03:01,209 --> 00:03:04,310
+possibly more, but less than on the 1-minute
+time frame.
+
+50
+00:03:04,310 --> 00:03:08,069
+Stop losses and profit targets tend to be
+a larger than on the 1-minute chart.
+
+51
+00:03:08,069 --> 00:03:12,599
+This isn’t good or bad, but it does typically
+mean fewer trades per day.
+
+52
+00:03:12,599 --> 00:03:16,769
+Because candles and price swings are bigger
+on the 5-minute chart, this means a greater
+
+53
+00:03:16,769 --> 00:03:20,219
+distance between the chosen entry and exit.
+
+54
+00:03:20,219 --> 00:03:24,599
+So the main takeaway is that the 5-minute
+chart is for people who want to focus on larger
+
+55
+00:03:24,599 --> 00:03:29,709
+intra-day movements, recieving fewer signals,
+with moderate positions sizes.
+
+56
+00:03:29,709 --> 00:03:37,260
+A 15-minute time frame is for someone who
+wants to see the major trends and movements
+
+57
+00:03:37,260 --> 00:03:39,120
+throughout the trading day.
+
+58
+00:03:39,120 --> 00:03:44,139
+Trading on 15 minute chart requires less constant
+focus because candles are occurring over a
+
+59
+00:03:44,139 --> 00:03:45,689
+longer period.
+
+60
+00:03:45,689 --> 00:03:50,420
+If you wait for candles to close then there
+is at least 15 minute period between possible
+
+61
+00:03:50,420 --> 00:03:51,749
+actions.
+
+62
+00:03:51,749 --> 00:03:55,329
+Traders on this time frame may only be taking
+one or two trades per day.
+
+63
+00:03:55,329 --> 00:04:00,419
+But if you are only trading during a two-hour
+session, many days may have no trade signals.
+
+64
+00:04:00,419 --> 00:04:04,900
+So trading this time frame may require more
+time in front of the screen since it takes
+
+65
+00:04:04,900 --> 00:04:09,159
+longer to get into and out of trades.
+
+66
+00:04:09,159 --> 00:04:13,681
+Stop losses and profit targets tend to be
+larger than on the 5-minute chart, so this
+
+67
+00:04:13,681 --> 00:04:15,969
+means fewer trades per day.
+
+68
+00:04:15,969 --> 00:04:20,600
+Positions sizes are usually smaller than those
+on a 5-minute chart because candles and price
+
+69
+00:04:20,600 --> 00:04:24,630
+swings are bigger, which likely means a greater
+stop loss distance.
+
+70
+00:04:24,630 --> 00:04:29,190
+But because of fewer trades and a smaller
+position size, it is easier to have multiple
+
+71
+00:04:29,190 --> 00:04:30,190
+positions.
+
+72
+00:04:30,190 --> 00:04:34,600
+The main takeaway is that the 15-minute chart
+is for people who want to focus on the large
+
+73
+00:04:34,600 --> 00:04:36,380
+price movements throughout the day.
+
+74
+00:04:36,380 --> 00:04:42,190
+If you don’t mind waiting longer for trades
+to open and close, if you prefer cleaner movement
+
+75
+00:04:42,190 --> 00:04:46,621
+and if you plan only one or two trades over
+multiple hours of trading, then the 15-min
+
+76
+00:04:46,621 --> 00:04:49,470
+time frame might work for you.
+
+77
+00:04:49,470 --> 00:04:54,250
+Some traders only day trade on one time frame,
+while others trade multiple time frames to
+
+78
+00:04:54,250 --> 00:04:56,280
+produce trading opportunities.
+
+79
+00:04:56,280 --> 00:05:00,900
+A single time frame means you see a trade
+on the 1-minute chart (or whatever time frame
+
+80
+00:05:00,900 --> 00:05:02,680
+you use) and you take that trade.
+
+81
+00:05:02,680 --> 00:05:07,370
+Multiple time frame trading means you look
+at a longer-term chart and use it as a filter
+
+82
+00:05:07,370 --> 00:05:09,530
+for trades on the lower time frame.
+
+83
+00:05:09,530 --> 00:05:14,590
+In this case, a trader may check the 15-minute
+for the overall trend direction, and then
+
+84
+00:05:14,590 --> 00:05:20,580
+look for opportunities to enter in that trend
+direction on the 1-minute chart, for example.
+
+85
+00:05:20,580 --> 00:05:24,560
+Most day traders pick one time-frame and then
+almost never leave it.
+
+86
+00:05:24,560 --> 00:05:28,490
+They are so locked into their time frame that
+they forget about the bigger picture.
+
+87
+00:05:28,490 --> 00:05:33,180
+The other extreme are traders that constantly
+jump from timeframe to timeframe without much
+
+88
+00:05:33,180 --> 00:05:34,180
+of a plan.
+
+89
+00:05:34,180 --> 00:05:38,930
+That’s why the best solution is a top-down
+multiple time frame analysis where you start
+
+90
+00:05:38,930 --> 00:05:44,220
+on the higher timeframe, the 15 min or 30
+min time frame, look for the bigger picture
+
+91
+00:05:44,220 --> 00:05:49,300
+perspective and then slowly build your trading
+plan by going lower.
+
+92
+00:05:49,300 --> 00:05:53,340
+And don’t start your analysis on the lowest
+time-frame and then work your way up to the
+
+93
+00:05:53,340 --> 00:05:54,830
+higher time-frames.
+
+94
+00:05:54,830 --> 00:05:59,550
+This creates a very narrow and one-dimensional
+view and it misses the point of the multiple
+
+95
+00:05:59,550 --> 00:06:01,290
+time frame analysis.
+
+96
+00:06:01,290 --> 00:06:06,720
+Now, time frames are often discussed as if
+they are the only charting option.
+
+97
+00:06:06,720 --> 00:06:07,720
+They are not.
+
+98
+00:06:07,720 --> 00:06:12,060
+There are chart types based on things other
+than time and one of them is the range bar
+
+99
+00:06:12,060 --> 00:06:13,060
+chart.
+
+100
+00:06:13,060 --> 00:06:17,090
+Range bars are bars that are plotted on a
+chart that have the same price increment,
+
+101
+00:06:17,090 --> 00:06:21,660
+the same height, and each bar closes either
+at the high or the low, regardless of the
+
+102
+00:06:21,660 --> 00:06:23,180
+opening price.
+
+103
+00:06:23,180 --> 00:06:28,090
+There is no time component as you would see
+with candlestick charts or bar charts.
+
+104
+00:06:28,090 --> 00:06:32,430
+In Tradingview for example, if you want a
+range of 10 pips on the Pound Dollar and you
+
+105
+00:06:32,430 --> 00:06:36,310
+are trading with range bars, set your range
+to 100.
+
+106
+00:06:36,310 --> 00:06:40,670
+Every time the pair moves 10 pips up or down
+in total for that bar, it will complete the
+
+107
+00:06:40,670 --> 00:06:42,900
+current bar and start a new one.
+
+108
+00:06:42,900 --> 00:06:46,200
+So time has no effect.
+
+109
+00:06:46,200 --> 00:06:50,220
+Here are the key takeaways to keep in mind
+when day trading with range bars:
+
+110
+00:06:50,220 --> 00:06:54,200
+All range bars are uniform in size because
+the range is constant
+
+111
+00:06:54,200 --> 00:07:00,060
+You can choose any bar size you want, based
+on your needs (you can select a 4 pip, a 39
+
+112
+00:07:00,060 --> 00:07:04,780
+pip or any size you want)
+The time period covered by each bar is irrelevant
+
+113
+00:07:04,780 --> 00:07:09,370
+as range bars are time-independent
+For this reason, range bars can help you to
+
+114
+00:07:09,370 --> 00:07:12,870
+identify ranging price action in a blink of
+an eye.
+
+115
+00:07:12,870 --> 00:07:18,090
+And potential support and resistance levels
+are more clearly visible on the chart.
+
+116
+00:07:18,090 --> 00:07:22,060
+Probably the biggest advantage, especially
+for day trading and scalping, is that lot
+
+117
+00:07:22,060 --> 00:07:26,450
+of the false signals that come with the time-based
+charts are eliminated.
+
+118
+00:07:26,450 --> 00:07:30,590
+Time-based charts will always post the same
+number of bars during each trading session
+
+119
+00:07:30,590 --> 00:07:34,480
+regardless of volume, volatility or any other
+factors.
+
+120
+00:07:34,480 --> 00:07:38,590
+The only time you’ll see more range bars
+printed on the chart is when we have periods
+
+121
+00:07:38,590 --> 00:07:40,260
+of higher volatility.
+
+122
+00:07:40,260 --> 00:07:44,730
+And even then it’s dependent on the range
+bar size selected by the trader.
+
+123
+00:07:44,730 --> 00:07:50,250
+Inversely, when we have low volatility, you’ll
+see fewer range bars printed on the chart.
+
+124
+00:07:50,250 --> 00:07:53,740
+And this is a huge improvement over classic
+time frames.
+
+125
+00:07:53,740 --> 00:07:59,090
+So if you ever struggled with trade management
+strategies when day trading, try using range
+
+126
+00:07:59,090 --> 00:08:05,430
+bars, because range bars are an effective
+tool to time your entry and exit points.
+
+127
+00:08:05,430 --> 00:08:09,000
+Another day trading and scalping alternative
+is the tick chart.
+
+128
+00:08:09,000 --> 00:08:13,260
+The bars on a tick chart are created based
+on a particular number of transactions.
+
+129
+00:08:13,260 --> 00:08:15,660
+Again, time is irrelevant.
+
+130
+00:08:15,660 --> 00:08:20,720
+For example, a 200-tick chart creates a new
+bar after every 200 transactions.
+
+131
+00:08:20,720 --> 00:08:25,510
+You can customize tick charts to the number
+of transactions you want, for example, 5 ticks
+
+132
+00:08:25,510 --> 00:08:27,150
+or 500 ticks.
+
+133
+00:08:27,150 --> 00:08:30,040
+Remember, time does not play a role here.
+
+134
+00:08:30,040 --> 00:08:34,599
+As tick charts are transaction based and new
+bars are formed only when there are enough
+
+135
+00:08:34,599 --> 00:08:36,969
+trades, the market noise is reduced.
+
+136
+00:08:36,969 --> 00:08:41,219
+And you know that higher the noise, the more
+difficult it becomes to make smart decisions,
+
+137
+00:08:41,219 --> 00:08:45,519
+especially when day trading, when you need
+to act fast.
+
+138
+00:08:45,519 --> 00:08:48,721
+The main advantage of a tick chart is that
+compresses low-activity trading periods.
+
+139
+00:08:48,721 --> 00:08:55,699
+On a time-based chart, you may see 20-30 useless
+candles, while the tick chart may offer you
+
+140
+00:08:55,699 --> 00:08:58,379
+only 10-15 relevant ones.
+
+141
+00:08:58,379 --> 00:09:02,470
+Tick charts can help you in placing better
+stop-loss orders and take-profit levels on
+
+142
+00:09:02,470 --> 00:09:03,470
+the chart.
+
+143
+00:09:03,470 --> 00:09:08,540
+This is especially useful during periods of
+high volatility and rapid price movements.
+
+144
+00:09:08,540 --> 00:09:13,170
+And without the accumulation of small candles
+like the ones on the time-based charts, tick
+
+145
+00:09:13,170 --> 00:09:16,730
+charts make it easier for the trader to spot
+price swings.
+
+146
+00:09:16,730 --> 00:09:22,269
+I will say it once again, there is no best
+time frame or a combination of time frames.
+
+147
+00:09:22,269 --> 00:09:27,149
+A winning strategy can be built on any time
+frame, or any combination of time frames.
+
+148
+00:09:27,149 --> 00:09:31,370
+But understanding the pros and cons of each
+time frame will hopefully help you decide
+
+149
+00:09:31,370 --> 00:09:33,110
+which one works best for YOU.
+
+150
+00:09:33,110 --> 00:09:37,311
+I’m mainly a swing trader, but when I day
+trade, I tend to use a multiple time frame
+
+151
+00:09:37,311 --> 00:09:39,550
+analysis using range bars.
+
+152
+00:09:39,550 --> 00:09:42,269
+This works for me, but might not be your style.
+
+153
+00:09:42,269 --> 00:09:44,410
+One time frame is not better than the other.
+
+154
+00:09:44,410 --> 00:09:49,121
+But one may be more favorable to you because
+it provides more trading opportunities, or
+
+155
+00:09:49,121 --> 00:09:50,860
+has a cleaner look.
+
+156
+00:09:50,860 --> 00:09:57,100
+And it’s your job to back test, analyze
+and determine which one works best for you.
+
+157
+00:09:57,100 --> 00:10:00,861
+As always, if you learned something new and
+found value, leave us a like to show your
+
+158
+00:10:00,861 --> 00:10:05,050
+support and don’t forget to subscribe and
+hit the bell icon to get notified every time
+
+159
+00:10:05,050 --> 00:10:07,990
+we release new videos.
+
+160
+00:10:07,990 --> 00:10:08,529
+Until next time.
+

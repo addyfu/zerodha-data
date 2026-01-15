@@ -1,0 +1,856 @@
+1
+00:00:00,350 --> 00:00:05,069
+eople points are used by forex traders
+
+2
+00:00:03,240 --> 00:00:07,770
+to locate potential support and
+
+3
+00:00:05,069 --> 00:00:09,889
+resistance areas they are levels where
+
+4
+00:00:07,770 --> 00:00:12,870
+price interaction may cause a reaction
+
+5
+00:00:09,889 --> 00:00:15,269
+in addition pivot points help traders
+
+6
+00:00:12,870 --> 00:00:17,810
+confirm the bias and sentiment in the
+
+7
+00:00:15,269 --> 00:00:20,609
+market over a given time interval a
+
+8
+00:00:17,810 --> 00:00:23,279
+pivot point is calculated as an average
+
+9
+00:00:20,609 --> 00:00:26,279
+of significant prices high low and close
+
+10
+00:00:23,279 --> 00:00:29,010
+from the performance of a market in the
+
+11
+00:00:26,279 --> 00:00:31,019
+prior trading period if the market in
+
+12
+00:00:29,010 --> 00:00:33,840
+the following period trades above the
+
+13
+00:00:31,019 --> 00:00:35,100
+pivot point it is usually evaluated as a
+
+14
+00:00:33,840 --> 00:00:37,649
+bullish sentiment
+
+15
+00:00:35,100 --> 00:00:41,129
+whereas training below the pivot point
+
+16
+00:00:37,649 --> 00:00:43,739
+is seen as bearish pivot points are
+
+17
+00:00:41,129 --> 00:00:46,559
+considered leading indicators as they
+
+18
+00:00:43,739 --> 00:00:49,320
+have predictive qualities many forex
+
+19
+00:00:46,559 --> 00:00:51,750
+traders prefer to use pivot points over
+
+20
+00:00:49,320 --> 00:00:54,600
+many other types of horizontal levels as
+
+21
+00:00:51,750 --> 00:00:55,350
+they are more objective and easy to
+
+22
+00:00:54,600 --> 00:00:57,840
+understand
+
+23
+00:00:55,350 --> 00:01:00,239
+pivot points are a tool that can help
+
+24
+00:00:57,840 --> 00:01:02,370
+traders recognize points of interest
+
+25
+00:01:00,239 --> 00:01:05,460
+where traders are likely to see
+
+26
+00:01:02,370 --> 00:01:07,710
+increased order flow traders tend to
+
+27
+00:01:05,460 --> 00:01:11,100
+play stop-loss orders and take profit
+
+28
+00:01:07,710 --> 00:01:13,320
+targets around these levels so there's a
+
+29
+00:01:11,100 --> 00:01:16,439
+higher chance of activity that can cause
+
+30
+00:01:13,320 --> 00:01:19,799
+price rejections or breakouts from these
+
+31
+00:01:16,439 --> 00:01:22,259
+levels many forex traders are aware of
+
+32
+00:01:19,799 --> 00:01:23,939
+what people points are and may even
+
+33
+00:01:22,259 --> 00:01:26,909
+incorporate the support and resistance
+
+34
+00:01:23,939 --> 00:01:29,100
+levels into their trading strategy but
+
+35
+00:01:26,909 --> 00:01:31,740
+there are many different variations of
+
+36
+00:01:29,100 --> 00:01:33,960
+pivot points the ones you are most
+
+37
+00:01:31,740 --> 00:01:37,170
+likely familiar is the standard pivot
+
+38
+00:01:33,960 --> 00:01:40,340
+points one of my favorite type is the
+
+39
+00:01:37,170 --> 00:01:40,340
+fibonacci pivot point
+
+40
+00:01:41,190 --> 00:01:46,920
+Fibonacci studies such as retracements
+
+41
+00:01:43,920 --> 00:01:48,990
+expansions and projections are quite
+
+42
+00:01:46,920 --> 00:01:51,510
+popular in the financial markets
+
+43
+00:01:48,990 --> 00:01:55,170
+the primary Fibonacci levels that
+
+44
+00:01:51,510 --> 00:01:57,390
+traders watch most closely are the 38.2
+
+45
+00:01:55,170 --> 00:01:59,910
+and the 61 point 8 with trace month
+
+46
+00:01:57,390 --> 00:02:02,280
+levels but did you know that you can
+
+47
+00:01:59,910 --> 00:02:03,740
+incorporate these different levels into
+
+48
+00:02:02,280 --> 00:02:06,660
+a people two-point calculation as well
+
+49
+00:02:03,740 --> 00:02:08,490
+in fact it is very similar to the
+
+50
+00:02:06,660 --> 00:02:10,500
+standard pivot points with the
+
+51
+00:02:08,490 --> 00:02:13,110
+additional inclusion of the thirty-eight
+
+52
+00:02:10,500 --> 00:02:16,170
+point to sixty one point eight and one
+
+53
+00:02:13,110 --> 00:02:18,180
+hundred ratios fibonacci pivot points
+
+54
+00:02:16,170 --> 00:02:19,980
+method uses the same formula to
+
+55
+00:02:18,180 --> 00:02:22,860
+determine the central pivot point level
+
+56
+00:02:19,980 --> 00:02:24,510
+as the floor traders pivot method the
+
+57
+00:02:22,860 --> 00:02:26,520
+support and resistance levels are
+
+58
+00:02:24,510 --> 00:02:29,220
+calculated by using Fibonacci
+
+59
+00:02:26,520 --> 00:02:32,210
+retracements and extensions levels of
+
+60
+00:02:29,220 --> 00:02:35,040
+the previous session trading range
+
+61
+00:02:32,210 --> 00:02:37,860
+Fibonacci pivot points can be used in
+
+62
+00:02:35,040 --> 00:02:40,740
+two ways to spot the main trend of the
+
+63
+00:02:37,860 --> 00:02:43,500
+traded instrument or use them to enter
+
+64
+00:02:40,740 --> 00:02:45,840
+and exit the market to identify the
+
+65
+00:02:43,500 --> 00:02:48,270
+direction if the price level of the
+
+66
+00:02:45,840 --> 00:02:51,180
+pivot point is broken in an ascending
+
+67
+00:02:48,270 --> 00:02:54,989
+move the market is bullish and if it
+
+68
+00:02:51,180 --> 00:02:57,360
+breaks below it it is bearish generally
+
+69
+00:02:54,989 --> 00:02:59,670
+if price is hold above the fibonacci
+
+70
+00:02:57,360 --> 00:03:02,550
+pivot point it can be seen that the
+
+71
+00:02:59,670 --> 00:03:05,280
+market will be up trending and if the
+
+72
+00:03:02,550 --> 00:03:09,690
+price holds below the pivot point the
+
+73
+00:03:05,280 --> 00:03:12,390
+market is down trending so the simplest
+
+74
+00:03:09,690 --> 00:03:14,660
+way to use Fibonacci pivot points are as
+
+75
+00:03:12,390 --> 00:03:17,220
+regular support and resistance levels
+
+76
+00:03:14,660 --> 00:03:19,440
+here are some important tips regarding
+
+77
+00:03:17,220 --> 00:03:22,920
+fibonacci pivot points you should be
+
+78
+00:03:19,440 --> 00:03:26,310
+aware of first the more times the price
+
+79
+00:03:22,920 --> 00:03:28,650
+touches a pivot level then reverses the
+
+80
+00:03:26,310 --> 00:03:31,620
+stronger the level is if the market
+
+81
+00:03:28,650 --> 00:03:33,810
+found rejection at that particular level
+
+82
+00:03:31,620 --> 00:03:37,470
+it means it holds a great significance
+
+83
+00:03:33,810 --> 00:03:39,450
+for market participants here are some
+
+84
+00:03:37,470 --> 00:03:40,550
+examples of fibonacci pivot point
+
+85
+00:03:39,450 --> 00:03:43,989
+rejections
+
+86
+00:03:40,550 --> 00:03:43,989
+[Music]
+
+87
+00:03:46,570 --> 00:03:49,990
+[Music]
+
+88
+00:03:54,710 --> 00:04:01,290
+the second dip support one-and two-and
+
+89
+00:03:58,310 --> 00:04:05,460
+resistance 1 and 2 of the Bonacci pivots
+
+90
+00:04:01,290 --> 00:04:08,340
+may cause reversals but they may also be
+
+91
+00:04:05,460 --> 00:04:11,580
+used to confirm the trend for example if
+
+92
+00:04:08,340 --> 00:04:14,190
+the price is falling and moves below s1
+
+93
+00:04:11,580 --> 00:04:17,660
+it helps confirm the downtrend and
+
+94
+00:04:14,190 --> 00:04:20,640
+indicate a possible continuation to s2
+
+95
+00:04:17,660 --> 00:04:22,079
+if the price is increasing and moves
+
+96
+00:04:20,640 --> 00:04:25,310
+above r1
+
+97
+00:04:22,079 --> 00:04:29,480
+it helps confirm the uptrend and
+
+98
+00:04:25,310 --> 00:04:32,130
+indicate a possible continuation to r2
+
+99
+00:04:29,480 --> 00:04:36,000
+here are some examples of continuation
+
+100
+00:04:32,130 --> 00:04:57,300
+moves after the breakout of s1 + r1
+
+101
+00:04:36,000 --> 00:05:00,360
+levels now let's see how to trade using
+
+102
+00:04:57,300 --> 00:05:03,390
+Fibonacci pivot points this trading
+
+103
+00:05:00,360 --> 00:05:05,430
+strategy is very simple but it's one of
+
+104
+00:05:03,390 --> 00:05:07,680
+the most powerful ways that you can take
+
+105
+00:05:05,430 --> 00:05:10,400
+away from trading with Fibonacci pivots
+
+106
+00:05:07,680 --> 00:05:14,070
+the training rules are straightforward
+
+107
+00:05:10,400 --> 00:05:16,140
+if we are in an upward trend with the
+
+108
+00:05:14,070 --> 00:05:20,100
+market making higher highs and higher
+
+109
+00:05:16,140 --> 00:05:23,760
+lows he will look to buy at support at
+
+110
+00:05:20,100 --> 00:05:25,919
+either s1 or at the main pivot point
+
+111
+00:05:23,760 --> 00:05:31,350
+with our target set at either
+
+112
+00:05:25,919 --> 00:05:33,390
+r1 or r2 if we are in a downtrend with
+
+113
+00:05:31,350 --> 00:05:35,970
+the market making lower lows and lower
+
+114
+00:05:33,390 --> 00:05:39,690
+highs you will look to sell at
+
+115
+00:05:35,970 --> 00:05:42,300
+resistance and either r1 or at the main
+
+116
+00:05:39,690 --> 00:05:45,650
+pivot point with your target set at
+
+117
+00:05:42,300 --> 00:05:45,650
+either s1 or s2
+
+118
+00:05:45,730 --> 00:05:52,570
+also don't focus on s2 s3 or r2 and r3
+
+119
+00:05:50,050 --> 00:05:55,900
+levels in a strong upward or downward
+
+120
+00:05:52,570 --> 00:05:58,780
+training market since these levels are
+
+121
+00:05:55,900 --> 00:06:02,320
+not often tested during a strong bullish
+
+122
+00:05:58,780 --> 00:06:04,690
+or bearish advance so remember that this
+
+123
+00:06:02,320 --> 00:06:09,580
+is a trend following strategy not a
+
+124
+00:06:04,690 --> 00:06:12,220
+pivot reversal strategy looking at this
+
+125
+00:06:09,580 --> 00:06:15,460
+chart you can see the importance of 180
+
+126
+00:06:12,220 --> 00:06:17,890
+people points in their accuracy in this
+
+127
+00:06:15,460 --> 00:06:20,880
+example we determined the main upward
+
+128
+00:06:17,890 --> 00:06:23,890
+trend by analyzing recent market swings
+
+129
+00:06:20,880 --> 00:06:26,290
+you could also add a moving average for
+
+130
+00:06:23,890 --> 00:06:28,960
+a better visualization of the trend I
+
+131
+00:06:26,290 --> 00:06:31,510
+prefer to use longer period moving
+
+132
+00:06:28,960 --> 00:06:35,830
+averages to confirm the trend like the
+
+133
+00:06:31,510 --> 00:06:36,490
+200 or the 100 moving the average during
+
+134
+00:06:35,830 --> 00:06:38,530
+this rally
+
+135
+00:06:36,490 --> 00:06:41,830
+we have consecutive days of higher
+
+136
+00:06:38,530 --> 00:06:44,290
+pivots the central pivot point is the
+
+137
+00:06:41,830 --> 00:06:46,530
+most important part for me the location
+
+138
+00:06:44,290 --> 00:06:49,390
+of the main pivot point on the chart
+
+139
+00:06:46,530 --> 00:06:51,310
+represents a critical information to be
+
+140
+00:06:49,390 --> 00:06:53,820
+aware because there is a high
+
+141
+00:06:51,310 --> 00:06:56,620
+probability that it will be reached
+
+142
+00:06:53,820 --> 00:06:59,320
+that's why I prefer to compare the value
+
+143
+00:06:56,620 --> 00:07:01,930
+of the main pivot point with a value of
+
+144
+00:06:59,320 --> 00:07:03,940
+the previous day and if the current
+
+145
+00:07:01,930 --> 00:07:08,160
+pivot point is higher than the previous
+
+146
+00:07:03,940 --> 00:07:11,410
+one I consider taking only long entries
+
+147
+00:07:08,160 --> 00:07:14,050
+if the current pivot point is lower than
+
+148
+00:07:11,410 --> 00:07:17,440
+the previous one I consider taking only
+
+149
+00:07:14,050 --> 00:07:20,080
+short entries so coming back to our
+
+150
+00:07:17,440 --> 00:07:23,500
+example you can observe that the main
+
+151
+00:07:20,080 --> 00:07:27,580
+pivots are well separated and are acting
+
+152
+00:07:23,500 --> 00:07:31,540
+as a perfect area of support s2 and s3
+
+153
+00:07:27,580 --> 00:07:33,580
+are never touched during these days so
+
+154
+00:07:31,540 --> 00:07:36,700
+we'll look to buy around the central
+
+155
+00:07:33,580 --> 00:07:38,860
+pivot point and s1 levels using price
+
+156
+00:07:36,700 --> 00:07:41,920
+action or any other technique you prefer
+
+157
+00:07:38,860 --> 00:07:45,390
+you can also use indicators to spot your
+
+158
+00:07:41,920 --> 00:07:48,010
+entry the choice is up to you
+
+159
+00:07:45,390 --> 00:07:50,710
+here are other examples of trending
+
+160
+00:07:48,010 --> 00:08:11,020
+markets and opportunities to buy or sell
+
+161
+00:07:50,710 --> 00:08:13,120
+using Fibonacci pivot points you can
+
+162
+00:08:11,020 --> 00:08:16,480
+also merge the Fibonacci pivot levels
+
+163
+00:08:13,120 --> 00:08:19,030
+with regular Fibonacci retracements to
+
+164
+00:08:16,480 --> 00:08:21,490
+discover trade entries the best
+
+165
+00:08:19,030 --> 00:08:24,310
+combination from my experience is the
+
+166
+00:08:21,490 --> 00:08:28,150
+daily central pivot point or the s1 or
+
+167
+00:08:24,310 --> 00:08:30,150
+r1 levels with the 38.2 and the 50 if
+
+168
+00:08:28,150 --> 00:08:32,620
+you wanna to retrace mint levels
+
+169
+00:08:30,150 --> 00:08:35,380
+practically you will draw deep levels
+
+170
+00:08:32,620 --> 00:08:38,380
+and you want the retracements to
+
+171
+00:08:35,380 --> 00:08:41,590
+correlate with pivot points like in this
+
+172
+00:08:38,380 --> 00:08:44,410
+example observe how the retracement
+
+173
+00:08:41,590 --> 00:08:46,630
+level practically coincided with the
+
+174
+00:08:44,410 --> 00:08:50,440
+Fibonacci divot point which is a
+
+175
+00:08:46,630 --> 00:08:52,720
+powerful signal there are a number of
+
+176
+00:08:50,440 --> 00:08:55,180
+variations and potential entries for
+
+177
+00:08:52,720 --> 00:08:57,820
+this specific strategy from candlestick
+
+178
+00:08:55,180 --> 00:09:01,300
+patterns trendline breakouts or even
+
+179
+00:08:57,820 --> 00:09:02,770
+entries based on indicators so we look
+
+180
+00:09:01,300 --> 00:09:05,320
+for a confluence of people naturally
+
+181
+00:09:02,770 --> 00:09:09,520
+trace match levels with the daily
+
+182
+00:09:05,320 --> 00:09:11,860
+central pivot point or s1 + r1 level if
+
+183
+00:09:09,520 --> 00:09:14,830
+price retraces to the identified
+
+184
+00:09:11,860 --> 00:09:17,200
+confluence either enter at the market or
+
+185
+00:09:14,830 --> 00:09:20,680
+wait for a candle signal or any other
+
+186
+00:09:17,200 --> 00:09:23,680
+trigger at the conference zone obviously
+
+187
+00:09:20,680 --> 00:09:25,780
+it is more risky to enter before getting
+
+188
+00:09:23,680 --> 00:09:28,180
+the confirmation signal but such
+
+189
+00:09:25,780 --> 00:09:32,200
+approach gives a higher risk reward
+
+190
+00:09:28,180 --> 00:09:35,020
+ratio here are other examples of entries
+
+191
+00:09:32,200 --> 00:09:37,380
+based on retracement levels and pivot
+
+192
+00:09:35,020 --> 00:09:37,380
+points
+
+193
+00:09:52,900 --> 00:09:57,680
+while training with the Fibonacci pivot
+
+194
+00:09:55,490 --> 00:10:00,380
+points you have to follow some important
+
+195
+00:09:57,680 --> 00:10:03,890
+rules you have to use money management
+
+196
+00:10:00,380 --> 00:10:05,690
+and risk management techniques also you
+
+197
+00:10:03,890 --> 00:10:07,970
+should take into consideration the
+
+198
+00:10:05,690 --> 00:10:10,700
+features of the certain markets where
+
+199
+00:10:07,970 --> 00:10:13,250
+you conduct your analysis because the
+
+200
+00:10:10,700 --> 00:10:15,980
+price react in a way on the forex market
+
+201
+00:10:13,250 --> 00:10:18,620
+and in a completely different way on the
+
+202
+00:10:15,980 --> 00:10:21,020
+stock market for example ideally
+
+203
+00:10:18,620 --> 00:10:23,210
+Fibonacci pivot points have to be used
+
+204
+00:10:21,020 --> 00:10:25,490
+with other methods of analysis and
+
+205
+00:10:23,210 --> 00:10:28,279
+forecasting of the behavior of your
+
+206
+00:10:25,490 --> 00:10:30,500
+instruments from my experience it's
+
+207
+00:10:28,279 --> 00:10:33,589
+better to use Fibonacci pivot points on
+
+208
+00:10:30,500 --> 00:10:35,839
+the charts for one hour and higher the
+
+209
+00:10:33,589 --> 00:10:39,140
+higher the timeframe the stronger the
+
+210
+00:10:35,839 --> 00:10:41,600
+signal will be if you enjoyed this type
+
+211
+00:10:39,140 --> 00:10:43,880
+of content give it a thumbs up to show
+
+212
+00:10:41,600 --> 00:10:46,430
+your support also make sure to subscribe
+
+213
+00:10:43,880 --> 00:10:51,430
+and hit the bell icon to get notified
+
+214
+00:10:46,430 --> 00:10:51,430
+each time we upload until next time
+

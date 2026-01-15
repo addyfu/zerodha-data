@@ -1,0 +1,580 @@
+1
+00:00:00,749 --> 00:00:05,189
+hey guys so I'm sure that many of you
+are familiar with the standard pivot
+
+2
+00:00:05,189 --> 00:00:10,050
+points but let me ask you how many of
+you take your trading decisions based on
+
+3
+00:00:10,050 --> 00:00:15,180
+the daily pivot range the daily pivot
+range is one of the most powerful pivot
+
+4
+00:00:15,180 --> 00:00:19,650
+indicators and is very important because
+it can tell you a lot about the
+
+5
+00:00:19,650 --> 00:00:24,749
+potential movement of the upcoming day
+and can offer a certain bias about the
+
+6
+00:00:24,749 --> 00:00:29,220
+current day's price action what if I
+told you that knowing this location of
+
+7
+00:00:29,220 --> 00:00:34,440
+this price range will allow you to know
+the pulse of the market and will also
+
+8
+00:00:34,440 --> 00:00:38,580
+provide you with a significant trading
+edge so in this video we'll discuss
+
+9
+00:00:38,580 --> 00:00:43,260
+about this new concept regarding the
+pivot points the daily pivot range
+
+10
+00:00:43,260 --> 00:00:48,120
+you'll discover how to interpret this
+range and you'll also learn how to trade
+
+11
+00:00:48,120 --> 00:00:52,710
+based on this important area before you
+continue if you are new to this channel
+
+12
+00:00:52,710 --> 00:00:57,720
+and you find value or learn something
+new please consider subscribing and
+
+13
+00:00:57,720 --> 00:01:04,589
+leave us a like to show your support so
+the daily profit range concept was
+
+14
+00:01:04,589 --> 00:01:09,480
+introduced by mark fisher in his book
+the logical trader the pivot range aims
+
+15
+00:01:09,480 --> 00:01:14,280
+to identify areas in which the buyers
+are likely to support the market or
+
+16
+00:01:14,280 --> 00:01:18,870
+sellers should dominate the resistance
+the pivot range is easily calculated
+
+17
+00:01:18,870 --> 00:01:24,840
+using the high low and close of a
+trading period first we add the high low
+
+18
+00:01:24,840 --> 00:01:30,330
+and close of the previous trading day
+and divide this number by 3 let's say
+
+19
+00:01:30,330 --> 00:01:37,350
+that a stock had a high of 111 and
+closed at 98 those three numbers added
+
+20
+00:01:37,350 --> 00:01:43,979
+together and divided by 3 would be 96
+this is the daily pivot number now you
+
+21
+00:01:43,979 --> 00:01:49,710
+add the high and the low and divide the
+amount by 2 in this example adding the
+
+22
+00:01:49,710 --> 00:01:57,630
+high of 100 and the low of 90 then
+dividing by 2 would give you 95 then we
+
+23
+00:01:57,630 --> 00:02:01,890
+calculate the difference between the
+daily pivot number that we previously
+
+24
+00:02:01,890 --> 00:02:08,610
+calculated 96 and the number we
+calculated before 95 the result 1 point
+
+25
+00:02:08,610 --> 00:02:14,370
+is the daily pivot differential the
+daily pivot range is equal to the pivot
+
+26
+00:02:14,370 --> 00:02:18,959
+we're plus and minus the people
+differential in this case the pivot
+
+27
+00:02:18,959 --> 00:02:27,989
+range would be 96 plus 1 and 96 minus 1
+now that we've calculated the daily
+
+28
+00:02:27,989 --> 00:02:33,599
+pivot range what does it tell us first
+the underlying tone or the sentiment of
+
+29
+00:02:33,599 --> 00:02:38,510
+the market is revealed when we look at
+the close of the previous trading day
+
+30
+00:02:38,510 --> 00:02:44,310
+compared with the day's pivot range if
+the previous closed was above today's
+
+31
+00:02:44,310 --> 00:02:50,099
+daily pivot range that would be
+considered bullish for today's trade if
+
+32
+00:02:50,099 --> 00:02:56,700
+it closed below the daily pivot range it
+would be considered bearish for example
+
+33
+00:02:56,700 --> 00:03:04,310
+if the market closed yesterday at 69
+point 4 and the pivot range was lower at
+
+34
+00:03:04,310 --> 00:03:11,910
+68.4 to 69 it would set a bullish tone
+conversely if the market had closed
+
+35
+00:03:11,910 --> 00:03:18,569
+yesterday at 69 point 7 and the pivot
+range was at sixty nine point eight to
+
+36
+00:03:18,569 --> 00:03:25,139
+70 it would indicate a bearish tone the
+daily pivot range will help you to see
+
+37
+00:03:25,139 --> 00:03:29,609
+where something has to happen if the
+market is below the pivot range and
+
+38
+00:03:29,609 --> 00:03:34,980
+makes a move upward it will meet
+resistance at that level if the market
+
+39
+00:03:34,980 --> 00:03:39,959
+does manage to break through the pivot
+range it will have enough force behind
+
+40
+00:03:39,959 --> 00:03:44,970
+it to make a significant upward move
+conversely if the market is above the
+
+41
+00:03:44,970 --> 00:03:50,340
+people range and makes a downward move
+it would find support at that level if
+
+42
+00:03:50,340 --> 00:03:56,220
+the market does breach that support it
+should have enough force behind it to
+
+43
+00:03:56,220 --> 00:04:02,489
+make a significant downward move the
+next step is to factor the daily pivot
+
+44
+00:04:02,489 --> 00:04:08,040
+range into your trading strategy for the
+current day depending upon where the
+
+45
+00:04:08,040 --> 00:04:12,209
+market settled the previous day the
+daily pivot range would either be
+
+46
+00:04:12,209 --> 00:04:18,720
+support below the closed or resistance
+above the closed if the market settled
+
+47
+00:04:18,720 --> 00:04:25,770
+within the daily pivot range it will be
+neutral now based upon what the market
+
+48
+00:04:25,770 --> 00:04:27,720
+does today
+the current
+
+49
+00:04:27,720 --> 00:04:32,970
+the pivot range we did our validate or
+dismiss the previous day price section
+
+50
+00:04:32,970 --> 00:04:38,970
+for example let's say that on a day the
+market rallied intraday and settled
+
+51
+00:04:38,970 --> 00:04:44,700
+strongly above the daily pivot range
+that obviously sets a bullish tone for
+
+52
+00:04:44,700 --> 00:04:50,100
+the next day for the bullish sentiment
+to be validated the market would have to
+
+53
+00:04:50,100 --> 00:04:56,690
+find support at the daily pivot range
+and not trade below it like in this case
+
+54
+00:04:56,690 --> 00:05:02,220
+but what if the opposite happened and
+the market broke with a daily pivot
+
+55
+00:05:02,220 --> 00:05:08,580
+range and traded lower then the previous
+day bullish indication would be invalid
+
+56
+00:05:08,580 --> 00:05:14,430
+if you have identified the daily pivot
+range as support and saw the market
+
+57
+00:05:14,430 --> 00:05:19,430
+going easily through it this would be a
+good time to short the market why
+
+58
+00:05:19,430 --> 00:05:24,330
+because the market broke through the
+daily pivot range so easily and is
+
+59
+00:05:24,330 --> 00:05:30,960
+likely to go much lower let's take a
+look at some specific strategies using
+
+60
+00:05:30,960 --> 00:05:36,600
+only the pivot range as you can see on
+this chart the ExxonMobil stock has a
+
+61
+00:05:36,600 --> 00:05:45,270
+daily pivot range of 80 1.2 to 81.4 and
+closed at eighty two point nine setting
+
+62
+00:05:45,270 --> 00:05:51,180
+a bullish tone for the next day the next
+day the stock opens at eighty three
+
+63
+00:05:51,180 --> 00:05:56,180
+point one the pivot range at eighty two
+point four to eighty two point seven
+
+64
+00:05:56,180 --> 00:06:02,880
+represent support the stock trades lower
+approaching eighty two point six but
+
+65
+00:06:02,880 --> 00:06:09,030
+does not go below and find support at
+that point the price bounces and traded
+
+66
+00:06:09,030 --> 00:06:14,160
+immediately higher to eighty two point
+nine what does that tell you in this
+
+67
+00:06:14,160 --> 00:06:19,620
+instance the market has snapped back
+near the pivot range area and it
+
+68
+00:06:19,620 --> 00:06:25,170
+reversed quickly in this instance you
+would go long after the market bounces
+
+69
+00:06:25,170 --> 00:06:30,570
+off the pivot range why because the
+pivot range identified support the
+
+70
+00:06:30,570 --> 00:06:36,510
+market traded to that support level but
+it couldn't go further as it rejected
+
+71
+00:06:36,510 --> 00:06:39,930
+that area the likelihood was for an
+upward move
+
+72
+00:06:39,930 --> 00:06:45,330
+as in every trade the question you must
+always ask yourself is where do I get
+
+73
+00:06:45,330 --> 00:06:50,610
+out if I'm wrong in this example with a
+long position taken above the pivot
+
+74
+00:06:50,610 --> 00:06:57,419
+range your stop would be on the other
+side of the Peapod range now let's
+
+75
+00:06:57,419 --> 00:07:02,190
+change the scenario in this chart you
+can see that the ExxonMobil stock has a
+
+76
+00:07:02,190 --> 00:07:07,380
+daily pivot range of eighty one point
+six to eighty one point seven five and
+
+77
+00:07:07,380 --> 00:07:14,699
+it closed at 82 it opens the next day at
+eighty two point seven and it's traded
+
+78
+00:07:14,699 --> 00:07:20,400
+lower in this example as the market
+approached the pivot range the selling
+
+79
+00:07:20,400 --> 00:07:25,740
+intensity increased and the stock traded
+lower and the market sliced easily
+
+80
+00:07:25,740 --> 00:07:30,870
+through the pivot range and traded down
+to eighty one point one at this point
+
+81
+00:07:30,870 --> 00:07:35,970
+you are watching to see if the stock
+does indeed trade below the pivot range
+
+82
+00:07:35,970 --> 00:07:42,180
+it found the resistance at the pivot
+range area at which you would initiate a
+
+83
+00:07:42,180 --> 00:07:45,510
+short position once again where is your
+stop
+
+84
+00:07:45,510 --> 00:07:51,720
+at the top of the pivot range above
+eighty one point nine so as the market
+
+85
+00:07:51,720 --> 00:07:56,880
+broke through the daily pivot range and
+traded lower then the previous day
+
+86
+00:07:56,880 --> 00:08:01,680
+bullish indication would be invalid
+that's why it's always good to wait for
+
+87
+00:08:01,680 --> 00:08:08,280
+the price to confirm or invalidate our
+bias for the day let's take another
+
+88
+00:08:08,280 --> 00:08:13,320
+example what works when the market is
+above the pivot range is also appliable
+
+89
+00:08:13,320 --> 00:08:18,870
+when it's below the pivot range for
+example in this chart this stock had a
+
+90
+00:08:18,870 --> 00:08:26,070
+pivot range of eighty to two 82.6 and
+closed the previous day at eighty one
+
+91
+00:08:26,070 --> 00:08:31,620
+point six the market opened higher
+installed around the pivot range and
+
+92
+00:08:31,620 --> 00:08:37,919
+then slowly consolidated around that
+area at this point the market reverses
+
+93
+00:08:37,919 --> 00:08:44,329
+and came back to retest the range at
+eighty two level what would you do of
+
+94
+00:08:44,329 --> 00:08:50,310
+course this is an opportunity to short
+the market why the market touched the
+
+95
+00:08:50,310 --> 00:08:53,490
+edge of the pivot range but it couldn't
+and
+
+96
+00:08:53,490 --> 00:08:59,970
+trait the resistance zone the likelihood
+was for a downward move your risk to the
+
+97
+00:08:59,970 --> 00:09:06,540
+upside would be the other side of the
+pivot range here's another scenario you
+
+98
+00:09:06,540 --> 00:09:12,270
+can see the pivot range is at eighty to
+two eighty-two point four with a closed
+
+99
+00:09:12,270 --> 00:09:19,020
+at eighty one point seven five this time
+the market opens at eighty one point six
+
+100
+00:09:19,020 --> 00:09:24,120
+and trade steadily higher to eighty two
+point two we're right in the middle of
+
+101
+00:09:24,120 --> 00:09:30,630
+the pivot range what would you do then
+you would wait this is a neutral area
+
+102
+00:09:30,630 --> 00:09:36,600
+and until the market gets through one
+side or the other you don't take any
+
+103
+00:09:36,600 --> 00:09:42,420
+trades so you don't take any positions
+while the market is inside the pivot
+
+104
+00:09:42,420 --> 00:09:50,100
+range under another scenario this stock
+has a pivot range at sixty eight point
+
+105
+00:09:50,100 --> 00:09:55,890
+two to sixty eight point four and the
+outlook for today was bearish as the
+
+106
+00:09:55,890 --> 00:10:01,290
+price closed lower than the previous day
+but this time the market traded steadily
+
+107
+00:10:01,290 --> 00:10:07,170
+higher from the opening and as you can
+see was able to slice through this
+
+108
+00:10:07,170 --> 00:10:14,100
+resistance zone easily what would you do
+now the answer is obvious with the pivot
+
+109
+00:10:14,100 --> 00:10:19,980
+range acting as resistance broken to the
+upside your strategy would be to go
+
+110
+00:10:19,980 --> 00:10:25,649
+along your stuff is of course the bottom
+of the pivot range below sixty eight
+
+111
+00:10:25,649 --> 00:10:31,440
+point two by now I hope you realize the
+power of this technique using the daily
+
+112
+00:10:31,440 --> 00:10:36,029
+pivot range is one of the most powerful
+ways to establish the potential movement
+
+113
+00:10:36,029 --> 00:10:42,000
+of the upcoming day which can offer at
+the same time a certain bias about the
+
+114
+00:10:42,000 --> 00:10:47,640
+intraday price action so if you learn
+something new and found value please
+
+115
+00:10:47,640 --> 00:10:52,170
+consider subscribing to our channel
+share and like this video as it will
+
+116
+00:10:52,170 --> 00:10:57,200
+help us a lot in the future until next
+time
+

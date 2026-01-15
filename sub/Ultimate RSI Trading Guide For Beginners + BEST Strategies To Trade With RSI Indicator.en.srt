@@ -1,0 +1,597 @@
+1
+00:00:01,300 --> 00:00:03,350
+The relative strength index.
+
+2
+00:00:03,350 --> 00:00:07,950
+Every time i read an article or see a video
+about it, there’s the same misconception
+
+3
+00:00:07,950 --> 00:00:13,500
+every single time: it’s an overbought/oversold
+indicator, you buy when the RSI is oversold
+
+4
+00:00:13,500 --> 00:00:15,880
+and sell when it’s overbought.
+
+5
+00:00:15,880 --> 00:00:19,029
+No, this doesn’t work, not by itself.
+
+6
+00:00:19,029 --> 00:00:22,179
+You will not make money using the RSI in this
+way.
+
+7
+00:00:22,179 --> 00:00:27,619
+There’s a lot more about the RSI besides
+the overbought and oversold levels and in
+
+8
+00:00:27,619 --> 00:00:32,310
+the following minutes I’ll show you everything
+you must know about the RSI, how to correctly
+
+9
+00:00:32,310 --> 00:00:37,800
+trade with it and how to avoid bad signals
+so you don’t get stuck in overbought or
+
+10
+00:00:37,800 --> 00:00:41,800
+oversold territory for weeks or months.
+
+11
+00:00:41,800 --> 00:00:47,020
+Before we continue, if you are new to the
+channel, make sure you subscribe, hit the
+
+12
+00:00:47,020 --> 00:00:52,390
+bell notifications and leave a like to show
+your support.
+
+13
+00:00:52,390 --> 00:00:57,820
+Now, the relative strength index is one of
+the most popular technical indicators and
+
+14
+00:00:57,820 --> 00:01:02,040
+is adjusted by the amount by which the market
+increased or fell.
+
+15
+00:01:02,040 --> 00:01:05,670
+The RSI values range from 0 to 100.
+
+16
+00:01:05,670 --> 00:01:10,470
+A high RSI occurs when the market has been
+increasing rapidly.
+
+17
+00:01:10,470 --> 00:01:15,050
+A low RSI occurs when the market has been
+selling off sharply.
+
+18
+00:01:15,050 --> 00:01:19,610
+On lower time frames, the relative strength
+index is very volatile, frequently reaching
+
+19
+00:01:19,610 --> 00:01:23,960
+extreme highs and lows, and generating contradicting
+signals.
+
+20
+00:01:23,960 --> 00:01:29,860
+In flat markets, the RSI will generate signals
+while prices trade in a range, with no clear
+
+21
+00:01:29,860 --> 00:01:30,860
+direction.
+
+22
+00:01:30,860 --> 00:01:34,880
+So, used in a wrong way, RSI is useless for
+many traders.
+
+23
+00:01:34,880 --> 00:01:41,360
+Let’s see what are the main techniques involving
+the RSI and how to correctly use it to maximize
+
+24
+00:01:41,360 --> 00:01:43,470
+you trading results.
+
+25
+00:01:43,470 --> 00:01:48,120
+First, you could use RSI as an overbought/oversold
+indicator.
+
+26
+00:01:48,120 --> 00:01:55,310
+The RSI is indeed useful for gaining an overview
+of the overbought/oversold conditions of the
+
+27
+00:01:55,310 --> 00:02:00,030
+market but it should not be used as a trading
+signal without a confirmation.
+
+28
+00:02:00,030 --> 00:02:07,350
+Don’t let the 70/30 RSI levels fool you
+into entering countertrend positions.
+
+29
+00:02:07,350 --> 00:02:13,010
+Simply because a market reaches overbought
+or oversold levels, doesn’t mean that prices
+
+30
+00:02:13,010 --> 00:02:16,200
+will immediately reverse in the opposite direction.
+
+31
+00:02:16,200 --> 00:02:22,000
+During periods of strong upward trends or
+downward trends, markets can remain in the
+
+32
+00:02:22,000 --> 00:02:27,080
+overbought or oversold areas for days, weeks
+or even months.
+
+33
+00:02:27,080 --> 00:02:28,890
+Just look at this example.
+
+34
+00:02:28,890 --> 00:02:34,810
+A short here would have been a very bad trading
+decision, because the price continued to increase
+
+35
+00:02:34,810 --> 00:02:35,950
+aggressively.
+
+36
+00:02:35,950 --> 00:02:42,230
+Here’s an important tip to increase your
+chances for trading overbought and oversold
+
+37
+00:02:42,230 --> 00:02:43,620
+levels.
+
+38
+00:02:43,620 --> 00:02:49,230
+Combine support and resistance levels with
+the RSI and look for area of confluence between
+
+39
+00:02:49,230 --> 00:02:53,260
+the RSI and strong areas of support and resistance.
+
+40
+00:02:53,260 --> 00:03:03,040
+An overbought RSI at 75 level means nothing,
+but at RSI at 75 and the price at an important
+
+41
+00:03:03,040 --> 00:03:08,069
+level of resistance has a higher probability
+for a successful short.
+
+42
+00:03:08,069 --> 00:03:10,040
+Here is a simple example.
+
+43
+00:03:10,040 --> 00:03:13,330
+We have the Apple stock on the 30 min chart.
+
+44
+00:03:13,330 --> 00:03:20,310
+The RSI hit 70 level and the price was trading
+at a resistance level, which also coincided
+
+45
+00:03:20,310 --> 00:03:24,430
+with an area of breakout from previous price
+action.
+
+46
+00:03:24,430 --> 00:03:27,830
+So we had 3 major forces around that area.
+
+47
+00:03:27,830 --> 00:03:34,310
+This is a no-brainer short, at an area of
+confluence.
+
+48
+00:03:34,310 --> 00:03:37,900
+We have almost an identical trade on this
+tesla chart.
+
+49
+00:03:37,900 --> 00:03:43,709
+The price broke the support to the downside,
+and came back to the breakout level, with
+
+50
+00:03:43,709 --> 00:03:46,750
+the RSI reaching overbought areas.
+
+51
+00:03:46,750 --> 00:03:55,069
+As soon as the price hit that area, was unable
+to go higher and continued its downward direction.
+
+52
+00:03:55,069 --> 00:03:56,710
+Here is a buy example.
+
+53
+00:03:56,710 --> 00:04:01,370
+Remember that the markets are not perfect
+and not all the time the price will stop right
+
+54
+00:04:01,370 --> 00:04:03,310
+at the support level.
+
+55
+00:04:03,310 --> 00:04:11,260
+Here we had some stop loss hunting or a false
+breakout and the price reversed.
+
+56
+00:04:11,260 --> 00:04:17,150
+If we look a little back in the chart, we
+have another buy opportunity, when the RSI
+
+57
+00:04:17,150 --> 00:04:23,259
+was oversold and the price met support.
+
+58
+00:04:23,259 --> 00:04:27,969
+Another great use of the relative strength
+index is to look for divergences between the
+
+59
+00:04:27,969 --> 00:04:29,759
+RSI and the price of the security/stock.
+
+60
+00:04:29,759 --> 00:04:34,710
+For example, when prices rallies to a new
+high but the RSI cannot increase to a new
+
+61
+00:04:34,710 --> 00:04:37,090
+high, then we have a divergence.
+
+62
+00:04:37,090 --> 00:04:42,629
+However, a divergence between the RSI and
+price is not an exceptional signal.
+
+63
+00:04:42,629 --> 00:04:48,199
+Just because an RSI divergence appears on
+the charts, that doesn’t mean that you should
+
+64
+00:04:48,199 --> 00:04:51,370
+automatically enter a reverse position.
+
+65
+00:04:51,370 --> 00:04:58,509
+Here the price was in an aggressive downtrend
+and the RSI formed a divergence.
+
+66
+00:04:58,509 --> 00:05:04,449
+Many traders bought here and got stopped out
+very soon, because the price continued to
+
+67
+00:05:04,449 --> 00:05:06,199
+decrease sharply.
+
+68
+00:05:06,199 --> 00:05:14,229
+So don’t trade divergences blindly, look
+for confirmation from price action.
+
+69
+00:05:14,229 --> 00:05:19,689
+A valid way to trade RSI divergences is to
+wait for a trend line breakout.
+
+70
+00:05:19,689 --> 00:05:27,460
+In this example, we have a bearish RSI divergence,
+with the price forming a double top, but the
+
+71
+00:05:27,460 --> 00:05:30,699
+RSI making lower highs.
+
+72
+00:05:30,699 --> 00:05:36,729
+A smart entry would be to wait for the price
+to break the lower trend line of the upward
+
+73
+00:05:36,729 --> 00:05:38,159
+channel.
+
+74
+00:05:38,159 --> 00:05:45,449
+The price indeed rallied downward after the
+price broke the trend line.
+
+75
+00:05:45,449 --> 00:05:48,650
+And here is a bullish RSI divergence.
+
+76
+00:05:48,650 --> 00:05:56,289
+We have a double bottom this time, and a RSI
+making higher lows.
+
+77
+00:05:56,289 --> 00:06:03,569
+Once the price broke the upward trend line,
+the market opened with a gap up and pushed
+
+78
+00:06:03,569 --> 00:06:07,650
+the price upward.
+
+79
+00:06:07,650 --> 00:06:12,659
+Another strategy you could use is to take
+signals on RSI around the 50 level.
+
+80
+00:06:12,659 --> 00:06:17,020
+When RSI indicator crosses above 50, a buy
+signal is generated
+
+81
+00:06:17,020 --> 00:06:22,460
+When RSI indicator crosses below 50, a sell
+signal is generated
+
+82
+00:06:22,460 --> 00:06:27,639
+This leads some people to think when the RSI
+crosses the 50 level to the upside that the
+
+83
+00:06:27,639 --> 00:06:33,379
+trend up, and when the RSI drops below the
+50 level, the trend is down.
+
+84
+00:06:33,379 --> 00:06:38,819
+But here is what you need to know: during
+trending conditions, the RSI indicator will
+
+85
+00:06:38,819 --> 00:06:41,229
+offer very good signals.
+
+86
+00:06:41,229 --> 00:06:48,180
+If you look at this Apple chart, you can clearly
+see some excellent signals but what about
+
+87
+00:06:48,180 --> 00:06:51,080
+when the markets are not trending?
+
+88
+00:06:51,080 --> 00:06:53,099
+You would get chopped out.
+
+89
+00:06:53,099 --> 00:07:00,039
+So try to use this technique when the markets
+are trending.
+
+90
+00:07:00,039 --> 00:07:04,580
+In order to smooth the signals offered by
+the RSI indicator, you could add a moving
+
+91
+00:07:04,580 --> 00:07:06,710
+average on the indicator.
+
+92
+00:07:06,710 --> 00:07:12,550
+By adding a moving average on the RSI, you
+could search for crossovers, for better quality
+
+93
+00:07:12,550 --> 00:07:13,620
+signals.
+
+94
+00:07:13,620 --> 00:07:19,430
+Now, when you want to trade a crossover between
+the RSI and a moving average, you should be
+
+95
+00:07:19,430 --> 00:07:21,580
+aware of an important thing.
+
+96
+00:07:21,580 --> 00:07:27,449
+A crossover will catch good movements when
+markets are trending.
+
+97
+00:07:27,449 --> 00:07:33,060
+When markets are trading in a range, this
+approach is will lead to a lot of losing trades.
+
+98
+00:07:33,060 --> 00:07:40,159
+A longer-term moving average added on RSI
+will work better than short-term moving average
+
+99
+00:07:40,159 --> 00:07:42,860
+and will produce fewer false signals.
+
+100
+00:07:42,860 --> 00:07:50,360
+So, instead of adding a 10 moving average
+on the RSI for example, try adding a 50 moving
+
+101
+00:07:50,360 --> 00:07:58,029
+average or a 100 moving average and see what
+the market tells you.
+
+102
+00:07:58,029 --> 00:08:02,780
+The RSI indicator can also be useful for drawing
+trend lines.
+
+103
+00:08:02,780 --> 00:08:09,589
+The technique of drawing trend lines is subjective,
+is not a precise science.
+
+104
+00:08:09,589 --> 00:08:15,969
+This method is simple: you draw straight lines
+on the RSI indicator connecting support points
+
+105
+00:08:15,969 --> 00:08:20,349
+for an uptrend or resistance points for a
+downtrend.
+
+106
+00:08:20,349 --> 00:08:26,009
+A valid trend line should connect two or more
+support points that define the trend.
+
+107
+00:08:26,009 --> 00:08:29,159
+Now, here’s what you should consider.
+
+108
+00:08:29,159 --> 00:08:33,500
+If you will start drawing trend lines on lower
+time frames, it will not work.
+
+109
+00:08:33,500 --> 00:08:37,969
+There is too much noise and you will record
+lots of false signals.
+
+110
+00:08:37,969 --> 00:08:44,319
+So never use this technique on a time frame
+lower than H1 (one hour).
+
+111
+00:08:44,319 --> 00:08:51,069
+Since the RSI is one of the most popular indicators,
+traders always tweak their RSI settings, depending
+
+112
+00:08:51,069 --> 00:08:53,569
+on their favorite timeframe or trading style.
+
+113
+00:08:53,569 --> 00:08:54,620
+RSI indicator is excellent at generating buy
+and sell signals.
+
+114
+00:08:54,620 --> 00:08:59,110
+Most of them use the standard settings, RSI
+set on a 14 period.
+
+115
+00:08:59,110 --> 00:09:05,620
+RSI of 5, 7 and 50 period are also popular
+among traders.
+
+116
+00:09:05,620 --> 00:09:11,290
+A shorter RSI period – below 10 - will be
+very volatile and will generate a lot of false
+
+117
+00:09:11,290 --> 00:09:16,290
+signals
+A longer RSI period – above 20 - smooths
+
+118
+00:09:16,290 --> 00:09:23,130
+out the plotted line and will generate fewer,
+but more accurate signals.
+
+119
+00:09:23,130 --> 00:09:28,209
+Now that we saw how to trade with the RSI,
+let’s consider the pros and the cons of
+
+120
+00:09:28,209 --> 00:09:29,860
+using this indicator.
+
+121
+00:09:29,860 --> 00:09:36,550
+The RSI is good during a trending market condition,
+combined with moving averages.
+
+122
+00:09:36,550 --> 00:09:44,260
+Also, is excellent at identifying divergences
+on the chart and overbought and oversold areas.
+
+123
+00:09:44,260 --> 00:09:51,959
+At the same time, the RSI is a lagging indicator
+and does not contain all of the data necessary
+
+124
+00:09:51,959 --> 00:10:01,430
+for proper analysis of price action, so it
+should be used in combination with other tools.
+
+125
+00:10:01,430 --> 00:10:06,350
+If you liked this video, make sure you hit
+that like button, subscribe and turn on the
+
+126
+00:10:06,350 --> 00:10:11,279
+notification bell, so you’ll be notified
+every time we upload.
+
+127
+00:10:11,279 --> 00:10:11,959
+Until next time.
+

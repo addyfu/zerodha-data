@@ -1,0 +1,781 @@
+1
+00:00:00,240 --> 00:00:04,880
+This is what beginner traders think 
+a professional chart looks like. 
+
+2
+00:00:04,880 --> 00:00:09,200
+And this... is what a professional 
+chart actually looks like. 
+
+3
+00:00:09,200 --> 00:00:13,920
+The pros don't use chaos, they 
+use confluence…a simple system  
+
+4
+00:00:13,920 --> 00:00:17,680
+where one static level and one dynamic one meet,  
+
+5
+00:00:17,680 --> 00:00:23,581
+to create a trading 'sweet spot'.
+Today I'm giving you the entire system…
+
+6
+00:00:23,581 --> 00:00:24,720
+The Two-Level Rule
+So let me show you  
+
+7
+00:00:24,720 --> 00:00:28,240
+something that's going to 
+change how you trade forever. 
+
+8
+00:00:28,240 --> 00:00:34,960
+Remember this: price only respects 
+two things in this market. Just two. 
+
+9
+00:00:34,960 --> 00:00:40,640
+Static levels that never move, and 
+dynamic levels that flow with price. 
+
+10
+00:00:40,640 --> 00:00:45,120
+That's it. Everything else is 
+noise designed to confuse you. 
+
+11
+00:00:45,120 --> 00:00:48,880
+Think about what's really 
+happening behind these candles. 
+
+12
+00:00:48,880 --> 00:00:52,160
+Every move you see is either 
+bouncing off a level from the  
+
+13
+00:00:52,160 --> 00:00:59,280
+past… that's your static support and resistance.
+Or is riding along a moving barrier that shifts  
+
+14
+00:00:59,280 --> 00:01:04,640
+with the trend…that's your dynamic level.
+The market is just ping-ponging  
+
+15
+00:01:04,640 --> 00:01:10,720
+between these two forces constantly.
+So here's the mental shift that changes  
+
+16
+00:01:10,720 --> 00:01:17,920
+everything. Stop looking for complex patterns.
+Start looking for where these two forces meet. 
+
+17
+00:01:17,920 --> 00:01:25,440
+When a static level that's been tested multiple 
+times crosses paths with a dynamic moving average,  
+
+18
+00:01:25,440 --> 00:01:31,040
+you get what I call a confluence zone.
+This is where the magic happens. 
+
+19
+00:01:31,040 --> 00:01:37,840
+The technique is dead simple. You mark your 
+horizontal levels where price has bounced before. 
+
+20
+00:01:37,840 --> 00:01:42,000
+Then you add one moving average 
+that flows with the trend. 
+
+21
+00:01:42,000 --> 00:01:47,920
+When these two intersect, you have a zone 
+where institutional traders are watching. 
+
+22
+00:01:47,920 --> 00:01:54,560
+And suddenly you can see exactly where price 
+has to make a decision. No confusion. No  
+
+23
+00:01:54,560 --> 00:02:00,720
+conflicting signals. Just clean, obvious 
+zones where something has to happen. 
+
+24
+00:02:00,720 --> 00:02:06,446
+You just learned the foundation 
+that most beginners never discover.
+
+25
+00:02:06,446 --> 00:02:08,400
+How to Identify Your Static Levels
+Now let's talk about finding the  
+
+26
+00:02:08,400 --> 00:02:10,560
+levels that actually matter. 
+
+27
+00:02:10,560 --> 00:02:15,520
+Not every horizontal line on your chart 
+is worth trading. Most of them are just  
+
+28
+00:02:15,520 --> 00:02:20,560
+noise. You need to find the levels 
+where real money has changed hands. 
+
+29
+00:02:20,560 --> 00:02:27,440
+Here's the touch test. Look for levels where 
+price has bounced at least one before. Each  
+
+30
+00:02:27,440 --> 00:02:35,040
+time price hits a level and reverses, it's like 
+the market is voting. This level has power. 
+
+31
+00:02:35,040 --> 00:02:40,400
+Also, pay special attention to round 
+numbers. These psychological levels  
+
+32
+00:02:40,400 --> 00:02:47,920
+work because human psychology doesn't change. 
+Traders place orders at these obvious numbers,  
+
+33
+00:02:47,920 --> 00:02:53,920
+creating natural support and resistance.
+But here's what most people get wrong. They  
+
+34
+00:02:53,920 --> 00:03:01,760
+think a level has to be exact. They draw a line at 
+one level and expect price to bounce to the pip.  
+
+35
+00:03:01,760 --> 00:03:06,720
+That's not how markets work.
+Think zones, not lines.  
+
+36
+00:03:06,720 --> 00:03:12,080
+Give your level some breathing room. 
+Maybe 5 to 10 pips above and below. 
+
+37
+00:03:12,080 --> 00:03:17,120
+And here's a key point about timing. 
+Recent levels carry more weight than  
+
+38
+00:03:17,120 --> 00:03:23,920
+ancient history. A level that worked yesterday 
+is more relevant than one from last week. The  
+
+39
+00:03:23,920 --> 00:03:31,360
+market has memory, but it's not perfect memory.
+Don't mark every swing high and low on your chart.  
+
+40
+00:03:31,360 --> 00:03:36,080
+Find the most recent 3 or 4 
+levels that really stand out.  
+
+41
+00:03:36,080 --> 00:03:44,047
+The ones where you can see clear rejections.
+That's how you find levels that actually matter.
+
+42
+00:03:44,047 --> 00:03:46,880
+Choosing the Right Moving Average
+Let's talk about your dynamic level.  
+
+43
+00:03:46,880 --> 00:03:52,960
+This is the line that's going to flow with the 
+trend and give you context for every trade. 
+
+44
+00:03:52,960 --> 00:03:57,920
+I'm going to save you years of testing different 
+moving averages. Use the 50 EMA. That's it. The 50  
+
+45
+00:03:57,920 --> 00:04:05,920
+exponential moving average is your best friend.
+Why 50? It's fast enough to catch trend changes  
+
+46
+00:04:05,920 --> 00:04:10,400
+but slow enough to filter out 
+noise. It responds to price  
+
+47
+00:04:10,400 --> 00:04:18,240
+movements quickly without whipsawing you to death.
+For this strategy, we want this faster response. 
+
+48
+00:04:18,240 --> 00:04:24,240
+Here's how to read your moving average. Look 
+at the angle. If it's pointing up steeply,  
+
+49
+00:04:24,240 --> 00:04:30,320
+you've got a strong uptrend. Price should 
+bounce when it touches this line. If it's  
+
+50
+00:04:30,320 --> 00:04:37,520
+pointing down steeply, strong downtrend. Look 
+for short opportunities when price touches. 
+
+51
+00:04:37,520 --> 00:04:42,618
+If the moving average is flat, you're 
+in a range. The trend is weak or  
+
+52
+00:04:42,618 --> 00:04:48,000
+nonexistent. Static levels become 
+more important in these conditions. 
+
+53
+00:04:48,000 --> 00:04:54,720
+One practical tip - make your moving average 
+stand out visually. You want to see it clearly  
+
+54
+00:04:54,720 --> 00:05:01,575
+when you're scanning charts. This line is 
+going to guide most of your trading decisions.
+
+55
+00:05:01,575 --> 00:05:04,800
+The Confluence Sweet Spot
+Now we get to the magic moment. When your static  
+
+56
+00:05:04,800 --> 00:05:11,520
+level and your moving average come together.
+Perfect confluence happens when these two levels  
+
+57
+00:05:11,520 --> 00:05:18,000
+intersect within about 10 pips of each other.
+Picture this - price is falling toward your  
+
+58
+00:05:18,000 --> 00:05:24,880
+support level, and right at that same spot, 
+your 50 EMA is providing dynamic support. 
+
+59
+00:05:24,880 --> 00:05:30,800
+Two reasons for price to bounce instead of one.
+But you don't need perfect alignment  
+
+60
+00:05:30,800 --> 00:05:34,000
+to make money.
+Near-miss zones work  
+
+61
+00:05:34,000 --> 00:05:41,600
+beautifully too. If your static level and moving 
+average are within 15 to 20 pips of each other,  
+
+62
+00:05:41,600 --> 00:05:48,560
+you still have a tradable confluence zone.
+Here's the key rule for direction. You only trade  
+
+63
+00:05:48,560 --> 00:05:55,200
+bounces in the direction of your moving average 
+slope. If the line is angled up, you only look  
+
+64
+00:05:55,200 --> 00:06:01,760
+for buy opportunities at confluence support.
+If it's angled down, you only look for sell  
+
+65
+00:06:01,760 --> 00:06:08,160
+opportunities at confluence resistance.
+When price approaches your confluence zone,  
+
+66
+00:06:08,160 --> 00:06:14,640
+watch for the rejection signal. You want to 
+see price "kiss and bounce." It touches the  
+
+67
+00:06:14,640 --> 00:06:20,480
+zone and immediately reverses. 
+Like it hit an invisible wall. 
+
+68
+00:06:20,480 --> 00:06:27,920
+Sometimes price will poke through the zone 
+slightly before bouncing. That's normal. Remember,  
+
+69
+00:06:27,920 --> 00:06:35,405
+we're thinking in zones, not exact lines. A 
+small breach doesn't invalidate the level.
+
+70
+00:06:35,405 --> 00:06:37,840
+Entry Rules (Only Trade the Bounce)
+Let's get precise about when and  
+
+71
+00:06:37,840 --> 00:06:42,320
+how to enter these trades.
+First, price has to come to  
+
+72
+00:06:42,320 --> 00:06:48,880
+your confluence zone. You can't chase price 
+to the zone. You have to let it come to you. 
+
+73
+00:06:48,880 --> 00:06:54,480
+Once price reaches your confluence area, 
+you wait for the bounce confirmation.  
+
+74
+00:06:54,480 --> 00:07:00,480
+You need to see price reject the zone and 
+start moving away from it. A quick touch  
+
+75
+00:07:00,480 --> 00:07:06,320
+and reversal is what you're looking for.
+Here's your entry rule. You enter after a  
+
+76
+00:07:06,320 --> 00:07:12,960
+candle closes away from the confluence zone. Not 
+when it touches. Not when it's still inside the  
+
+77
+00:07:12,960 --> 00:07:20,640
+zone. After a full candle closes in your favor.
+This confirmation candle eliminates most of the  
+
+78
+00:07:20,640 --> 00:07:27,280
+false signals. It proves that the bounce 
+is real, not just a temporary pause. 
+
+79
+00:07:27,280 --> 00:07:34,640
+Direction is crucial. At support confluence zones, 
+you only buy. At resistance confluence zones,  
+
+80
+00:07:34,640 --> 00:07:42,640
+you only sell. Never try to pick tops in an 
+uptrend or catch falling knives in a downtrend. 
+
+81
+00:07:42,640 --> 00:07:48,800
+For every trade, your stop loss goes just 
+outside the confluence zone. For a buy,  
+
+82
+00:07:48,800 --> 00:07:55,920
+place it 10 pips below support. For a 
+sell, 10 pips above resistance. This is  
+
+83
+00:07:55,920 --> 00:08:02,720
+your safety net. You never trade without it. 
+And you target double the amount you risked. 
+
+84
+00:08:02,720 --> 00:08:10,320
+And here's what separates this strategy from 
+others - you only trade bounces. Never breakouts.  
+
+85
+00:08:10,320 --> 00:08:16,640
+If price breaks through your confluence zone, 
+you do nothing. You wait for the next setup. 
+
+86
+00:08:16,640 --> 00:08:21,760
+Breakout trading requires different 
+skills and different risk management.  
+
+87
+00:08:21,760 --> 00:08:28,000
+We're bounce traders. We profit from 
+zones holding, not from zones breaking. 
+
+88
+00:08:28,000 --> 00:08:34,800
+Your entry should feel natural. When you see the 
+setup forming, when price approaches confluence,  
+
+89
+00:08:34,800 --> 00:08:40,320
+when you get that bounce confirmation - it 
+should feel obvious. If you're forcing the  
+
+90
+00:08:40,320 --> 00:08:46,370
+trade or second-guessing yourself, 
+it's probably not the right setup.
+
+91
+00:08:46,370 --> 00:08:48,240
+“Perfect Confluence” Trade
+Let me show you what a textbook  
+
+92
+00:08:48,240 --> 00:08:53,920
+confluence setup looks like in action.
+We've got a clear support level here,  
+
+93
+00:08:53,920 --> 00:09:01,600
+former resistance. It’s a strong static level.
+Now watch what happens. Price is trending higher,  
+
+94
+00:09:01,600 --> 00:09:10,000
+and our 50 EMA is angled up, providing dynamic 
+support. As price pulls back, the line starts  
+
+95
+00:09:10,000 --> 00:09:16,240
+converging with our static support level.
+Perfect alignment. This is confluence  
+
+96
+00:09:16,240 --> 00:09:19,040
+at its finest.
+Price approaches the  
+
+97
+00:09:19,040 --> 00:09:26,160
+zone from above…it touches the confluence area 
+and immediately rejects higher. Look at that  
+
+98
+00:09:26,160 --> 00:09:33,520
+bounce candle - strong body, small lower wick. 
+The market is showing respect for this zone. 
+
+99
+00:09:33,520 --> 00:09:38,000
+Entry comes on the next candle 
+after we get confirmation. 
+
+100
+00:09:38,000 --> 00:09:45,200
+This is what happens when multiple support factors 
+align. The probability of success goes way up. 
+
+101
+00:09:45,200 --> 00:09:51,440
+The institutions see the same confluence you 
+see. They're placing orders in the same area. 
+
+102
+00:09:51,440 --> 00:09:57,200
+These perfect confluence trades like this 
+don't come every hour. But when they do,  
+
+103
+00:09:57,200 --> 00:10:00,139
+they tend to work beautifully.
+
+104
+00:10:00,139 --> 00:10:01,120
+“Near-Miss” Trade
+Now, you don't  
+
+105
+00:10:01,120 --> 00:10:07,760
+need perfect alignment to make money.
+Here's Pound Yen on the 4-hour chart. We have  
+
+106
+00:10:07,760 --> 00:10:15,600
+a key level here - you can see a previous support, 
+turning into resistance. So clear static level. 
+
+107
+00:10:15,600 --> 00:10:22,080
+The moving average is angled down, showing the 
+downtrend. But notice, the moving average is  
+
+108
+00:10:22,080 --> 00:10:29,360
+about 20 pips below our resistance level. 
+Not perfect confluence, but close enough. 
+
+109
+00:10:29,360 --> 00:10:36,880
+Next, price rallies into this zone and starts 
+to reverse. The rejection isn't as sharp as our  
+
+110
+00:10:36,880 --> 00:10:42,720
+perfect confluence example, but it's still clear.
+Now you might ask, why did this  
+
+111
+00:10:42,720 --> 00:10:48,160
+work even without perfect alignment?
+Because the market was seeing the same resistance  
+
+112
+00:10:48,160 --> 00:10:56,240
+zone we were. The static level plus the nearby 
+moving average created enough selling pressure. 
+
+113
+00:10:56,240 --> 00:11:02,320
+Zone thinking is crucial for this strategy. 
+Don't get hung up on exact prices. Look  
+
+114
+00:11:02,320 --> 00:11:08,000
+for areas where multiple support or 
+resistance factors cluster together. 
+
+115
+00:11:08,000 --> 00:11:14,480
+Near-miss setups like this actually outnumber 
+perfect confluence trades. If you only waited  
+
+116
+00:11:14,480 --> 00:11:20,541
+for perfect alignment, you'd miss 
+a lot of profitable opportunities.
+
+117
+00:11:20,541 --> 00:11:21,760
+Strong Trend Bounce
+Now let me show you  
+
+118
+00:11:21,760 --> 00:11:28,080
+confluence in a strong trending market. 
+This is where the strategy really shines. 
+
+119
+00:11:28,080 --> 00:11:33,520
+Dow Jones Index, 1-hour chart. Clear 
+uptrend with a steep moving average  
+
+120
+00:11:33,520 --> 00:11:40,480
+angle. This line is acting like a perfect 
+trend line, supporting every pullback. 
+
+121
+00:11:40,480 --> 00:11:46,240
+Price pulls back to test the line. At the 
+same time, we have minor support from a  
+
+122
+00:11:46,240 --> 00:11:53,440
+previous swing high right in that area. Not a 
+major level, but enough to create confluence. 
+
+123
+00:11:53,440 --> 00:11:58,240
+Watch what happens. Price barely 
+touches the confluence area before  
+
+124
+00:11:58,240 --> 00:12:06,080
+exploding higher. The bounce is immediate 
+and powerful. No hesitation, no false moves. 
+
+125
+00:12:06,080 --> 00:12:09,360
+Entry comes on the next candle after that strong  
+
+126
+00:12:09,360 --> 00:12:15,840
+rejection. Price closed well above the 
+moving average, confirming the bounce. 
+
+127
+00:12:15,840 --> 00:12:21,680
+But more importantly, this was just one 
+of the similar bounces during this trend. 
+
+128
+00:12:21,680 --> 00:12:27,600
+Strong trends offer multiple confluence 
+opportunities. Each time price pulls back  
+
+129
+00:12:27,600 --> 00:12:34,720
+to test the moving average near a minor support 
+area, you get another high-probability setup. 
+
+130
+00:12:34,720 --> 00:12:40,400
+The key difference in trending markets 
+is speed. The bounces happen faster and  
+
+131
+00:12:40,400 --> 00:12:46,720
+move further. The trend momentum carries 
+price away from confluence zones quickly. 
+
+132
+00:12:46,720 --> 00:12:50,320
+You have to be ready to act 
+when these setups appear. 
+
+133
+00:12:50,320 --> 00:12:54,960
+This is why confluence trading works 
+so well. You're not trying to predict  
+
+134
+00:12:54,960 --> 00:13:02,464
+where trends will start or end. You're simply 
+riding the pullbacks within existing trends.
+
+135
+00:13:02,464 --> 00:13:05,440
+The Failed Trade
+Now let me show you what happens when confluence  
+
+136
+00:13:05,440 --> 00:13:12,080
+doesn't work. Because even the best setups fail 
+sometimes, and you need to know how to handle it. 
+
+137
+00:13:12,080 --> 00:13:20,640
+Euro Yen, 1-hour chart. Beautiful setup forming. 
+Previous resistance turned into a strong support. 
+
+138
+00:13:20,640 --> 00:13:26,320
+The 50 moving average angling up and 
+converging right at that support level. 
+
+139
+00:13:26,320 --> 00:13:33,920
+Perfect confluence. Price approaches from 
+above, touches the zone, and... keeps falling. 
+
+140
+00:13:33,920 --> 00:13:40,160
+No bounce. No respect for the confluence. 
+Price slices right through both the static  
+
+141
+00:13:40,160 --> 00:13:44,480
+support and the dynamic support 
+like they weren't even there. 
+
+142
+00:13:44,480 --> 00:13:49,840
+You will get those trades.
+Here's what I learned from many failed trades,  
+
+143
+00:13:49,840 --> 00:13:56,480
+which initially looked like perfect signals.
+Sometimes large institutional orders are  
+
+144
+00:13:56,480 --> 00:14:01,920
+placed beyond your levels. When a big 
+bank decides to dump a large position,  
+
+145
+00:14:01,920 --> 00:14:07,600
+your technical levels won't stop them.
+And sometimes, you just picked the wrong  
+
+146
+00:14:07,600 --> 00:14:13,680
+level. Maybe that support wasn't as strong 
+as you thought. Maybe the confluence wasn't  
+
+147
+00:14:13,680 --> 00:14:18,000
+as significant as it appeared.
+And that's the game…you don't  
+
+148
+00:14:18,000 --> 00:14:23,920
+need every trade to work. You just need 
+the winners to be bigger than the losers. 
+
+149
+00:14:23,920 --> 00:14:27,760
+But the key lesson is to 
+never chase a failed trade. 
+
+150
+00:14:27,760 --> 00:14:31,200
+When price breaks through your 
+confluence zone, you accept the  
+
+151
+00:14:31,200 --> 00:14:36,960
+loss and wait for the next opportunity.
+Don't try to "fix" the trade by moving  
+
+152
+00:14:36,960 --> 00:14:44,622
+your stop or adding to the position. When 
+the setup fails, it fails. And you move on.
+
+153
+00:14:44,622 --> 00:14:46,080
+SYSTEM INTEGRATION
+Let's lock this in.  
+
+154
+00:14:46,080 --> 00:14:53,120
+You now have the ability to identify the only 
+two levels that matter, static and dynamic.  
+
+155
+00:14:53,120 --> 00:14:58,240
+You have a simple system for marking 
+the strongest zones on any chart. 
+
+156
+00:14:58,240 --> 00:15:02,880
+And the exact entry rules that 
+keep you out of bad trades. 
+
+157
+00:15:02,880 --> 00:15:08,480
+You now see the markets through the lens 
+of confluence, and that changes everything.
+

@@ -1,0 +1,772 @@
+1
+00:00:00,919 --> 00:00:06,340
+Renko chart is probably the most under-rated
+trading concept, ignored by most traders.
+
+2
+00:00:06,340 --> 00:00:10,970
+Although no single tool is going to instantly
+make you a great trader, Renko charts will
+
+3
+00:00:10,970 --> 00:00:14,930
+allow you to see the market in a different
+way, and will also help you stick to your
+
+4
+00:00:14,930 --> 00:00:16,000
+trading plan better.
+
+5
+00:00:16,000 --> 00:00:20,530
+That’s why in today’s video we’ll discuss
+about Renko charts and I will share how to
+
+6
+00:00:20,530 --> 00:00:24,910
+adjust them correctly for scalping and day
+trading.
+
+7
+00:00:24,910 --> 00:00:30,580
+Renko charts are a new way to view the price
+of an asset that filters out minor price movements.
+
+8
+00:00:30,580 --> 00:00:35,929
+The chart looks like a series of bricks placed
+at a 45-degree angle to each other.
+
+9
+00:00:35,929 --> 00:00:40,799
+If you analyze these 2 two charts, you immediately
+spot the striking differences between a regular
+
+10
+00:00:40,799 --> 00:00:43,000
+candlestick chart and a Renko chart.
+
+11
+00:00:43,000 --> 00:00:47,889
+You can see that those small fluctuations
+on classic charts are removed, and price trends
+
+12
+00:00:47,889 --> 00:00:51,660
+are easier to spot on the Renko chart.
+
+13
+00:00:51,660 --> 00:00:57,350
+Renko charts are easier to read because the
+markers on the chart—which are called bricks,
+
+14
+00:00:57,350 --> 00:01:01,359
+boxes, or blocks—are more uniform compared
+to candlestick charts.
+
+15
+00:01:01,359 --> 00:01:05,339
+Traditional candlestick charts plot new bars
+as time passes.
+
+16
+00:01:05,339 --> 00:01:09,359
+For instance, a one-minute chart will plot
+a new bar every minute.
+
+17
+00:01:09,359 --> 00:01:12,009
+On the other hand, a Renko chart:
+• Does not depend on time
+
+18
+00:01:12,009 --> 00:01:16,689
+• Plots a new bar only when the market moves
+beyond a certain amount
+
+19
+00:01:16,689 --> 00:01:21,200
+Being independent of time is the defining
+characteristic of a Renko chart.
+
+20
+00:01:21,200 --> 00:01:27,920
+So, it depends only on price action, creating
+a smoothed chart with less noise.
+
+21
+00:01:27,920 --> 00:01:31,350
+Each brick on a Renko chart is a candlestick
+with no shadows.
+
+22
+00:01:31,350 --> 00:01:35,460
+You need only one key parameter for Renko
+charts – the brick size.
+
+23
+00:01:35,460 --> 00:01:41,030
+The brick size is the price range that the
+market must cover before a new brick is plotted.
+
+24
+00:01:41,030 --> 00:01:45,319
+You can set the brick size in pips, ticks,
+or cents, depending on the market you’re
+
+25
+00:01:45,319 --> 00:01:46,319
+trading.
+
+26
+00:01:46,319 --> 00:01:50,450
+And, for a Renko chart to reverse, meaning
+the brick to change its color, price action
+
+27
+00:01:50,450 --> 00:01:53,259
+must reverse by at least two brick sizes.
+
+28
+00:01:53,259 --> 00:01:58,310
+Let’s say you trade Forex, and we’ll pick
+the EUR/JPY pair.
+
+29
+00:01:58,310 --> 00:02:03,359
+It you want to set your brick size to 5 pips
+for example, you just have to adjust the settings
+
+30
+00:02:03,359 --> 00:02:07,049
+of the Renko box size to 0.05.
+
+31
+00:02:07,049 --> 00:02:10,190
+If you want a ten pip box size, you set it
+0.1.
+
+32
+00:02:10,190 --> 00:02:13,690
+I use Tradingview, by the way, to trade with
+Renko bars.
+
+33
+00:02:13,690 --> 00:02:23,319
+For GBP/USD or EUR/USD, for a 10 pip brick
+size you set the box size to 0.001.
+
+34
+00:02:23,319 --> 00:02:28,030
+You can set the values of the box size depending
+on your trading style: scalping, day trading
+
+35
+00:02:28,030 --> 00:02:33,780
+or swing trading, and you can change the value
+of the Renko chart to suit your trading needs.
+
+36
+00:02:33,780 --> 00:02:37,970
+If you trade stocks, a box size of 1, is the
+equivalent of 1 dollar.
+
+37
+00:02:37,970 --> 00:02:43,250
+I find this value to be perfect for swing
+trading and even day trading strategies.
+
+38
+00:02:43,250 --> 00:02:48,060
+Every time the stock moves 1 dollar, a new
+brick is formed.
+
+39
+00:02:48,060 --> 00:02:52,780
+Since the brick size is the only parameter,
+a successful Renko strategy is highly dependent
+
+40
+00:02:52,780 --> 00:02:53,780
+on it.
+
+41
+00:02:53,780 --> 00:02:57,049
+There are 2 methods used to set this parameter.
+
+42
+00:02:57,049 --> 00:02:59,040
+Fixed Amount
+Average True Range
+
+43
+00:02:59,040 --> 00:03:03,220
+First, let’s talk about the FIXED AMOUNT
+method.
+
+44
+00:03:03,220 --> 00:03:08,099
+Using a set number of ticks/pips/cents as
+the brick size is the simplest method.
+
+45
+00:03:08,099 --> 00:03:12,340
+But unless you are already familiar with the
+market, it’s challenging to arrive at a
+
+46
+00:03:12,340 --> 00:03:13,660
+suitable figure.
+
+47
+00:03:13,660 --> 00:03:15,670
+You need some trial and error here.
+
+48
+00:03:15,670 --> 00:03:20,200
+If you want to see more bricks plotted, reduce
+the size the box size.
+
+49
+00:03:20,200 --> 00:03:24,090
+This approach is indicated if you prefer scalping
+or day trading.
+
+50
+00:03:24,090 --> 00:03:29,730
+If you enjoy swing trading, increase the box
+size, and in this way less bricks will be
+
+51
+00:03:29,730 --> 00:03:30,780
+plotted.
+
+52
+00:03:30,780 --> 00:03:34,409
+Be careful not to use a brick size that’s
+too small.
+
+53
+00:03:34,409 --> 00:03:38,610
+If your brick size is too small, the Renko
+chart will be volatile.
+
+54
+00:03:38,610 --> 00:03:42,900
+As a result, it loses its intended effect
+of smoothing price action.
+
+55
+00:03:42,900 --> 00:03:46,650
+There is no rule that works for every currency
+pair or stock.
+
+56
+00:03:46,650 --> 00:03:51,049
+When I use Renko, I just eyeball the chart,
+and try a few different box sizes.
+
+57
+00:03:51,049 --> 00:03:54,269
+If it is too choppy I try increasing the box
+size.
+
+58
+00:03:54,269 --> 00:03:59,280
+Then I try decreasing it, because maybe there
+are trends to be captured within the choppy
+
+59
+00:03:59,280 --> 00:04:00,490
+trading.
+
+60
+00:04:00,490 --> 00:04:04,310
+Smaller boxes mean more trend changes and
+more trades.
+
+61
+00:04:04,310 --> 00:04:09,489
+Big boxes mean fewer trend changes and fewer
+trades.
+
+62
+00:04:09,489 --> 00:04:13,189
+Second approach involves the AVERAGE TRUE
+RANGE (ATR) for brick sizes
+
+63
+00:04:13,189 --> 00:04:17,910
+The advantage of this method is that it factors
+in changes in price volatility.
+
+64
+00:04:17,910 --> 00:04:20,350
+A typical value is the 14-period ATR.
+
+65
+00:04:20,350 --> 00:04:24,940
+So the brick size is based on the ATR value
+at the time the chart is created.
+
+66
+00:04:24,940 --> 00:04:30,220
+Should the ATR value change the next day,
+then this new ATR value will be used to set
+
+67
+00:04:30,220 --> 00:04:32,000
+the brick size.
+
+68
+00:04:32,000 --> 00:04:33,040
+Which one is better?
+
+69
+00:04:33,040 --> 00:04:38,380
+I prefer the fixed value because the ATR value
+might change and can cause the Renko chart
+
+70
+00:04:38,380 --> 00:04:41,200
+to change significantly whenever it is updated.
+
+71
+00:04:41,200 --> 00:04:47,830
+That’s just my preference, but I know a
+few traders that use the ATR Brick size successfully.
+
+72
+00:04:47,830 --> 00:04:52,430
+One characteristic of Renko charts that should
+be understood is that the charts don’t show
+
+73
+00:04:52,430 --> 00:04:54,050
+all price points.
+
+74
+00:04:54,050 --> 00:04:59,300
+Consider that you are using a Renko brick
+of 3 pips and price moves 5 pips in the opposite
+
+75
+00:04:59,300 --> 00:05:00,300
+direction.
+
+76
+00:05:00,300 --> 00:05:04,920
+Since that is not enough price movement to
+make another Renko brick, there will be 2
+
+77
+00:05:04,920 --> 00:05:07,890
+pips of price that does not show on the Renko
+chart.
+
+78
+00:05:07,890 --> 00:05:12,740
+When I first started day trading Renko day
+charts, this bothered me a lot, especially
+
+79
+00:05:12,740 --> 00:05:16,950
+after trading with time and classic candlesticks
+for so many years.
+
+80
+00:05:16,950 --> 00:05:21,470
+There are indicators that add ‘wicks’
+to the Renko bricks to show these prices,
+
+81
+00:05:21,470 --> 00:05:24,710
+but these start to add some of the ‘noise’
+back to the chart.
+
+82
+00:05:24,710 --> 00:05:30,370
+It’s up to you if you want to add or remove
+the wicks on Renko bars.
+
+83
+00:05:30,370 --> 00:05:35,230
+So the most important step in creating a successful
+Renko strategy is setting the size of the
+
+84
+00:05:35,230 --> 00:05:36,230
+brick.
+
+85
+00:05:36,230 --> 00:05:39,470
+It may be $0.10 in the stock market or 10
+pips in forex market.
+
+86
+00:05:39,470 --> 00:05:44,620
+What you must remember is that a brick forms
+on the Renko chart once the price has moved
+
+87
+00:05:44,620 --> 00:05:46,160
+that amount, and not before.
+
+88
+00:05:46,160 --> 00:05:51,760
+A candlestick chart, on the other hand, shows
+the price movement over a period of time,
+
+89
+00:05:51,760 --> 00:05:54,260
+such as one minute or one day.
+
+90
+00:05:54,260 --> 00:05:59,160
+While there is a time axis along the bottom
+of a Renko chart, there is no set time limit
+
+91
+00:05:59,160 --> 00:06:02,220
+for how long a Renko box takes to form.
+
+92
+00:06:02,220 --> 00:06:05,560
+It could take 4 minutes, three hours, or eight
+days.
+
+93
+00:06:05,560 --> 00:06:10,860
+It all depends on how volatile the pricing
+of the asset is and what brick size you set.
+
+94
+00:06:10,860 --> 00:06:15,450
+So Renko charts ignore the time aspect and
+only focus on price changes.
+
+95
+00:06:15,450 --> 00:06:21,180
+If the brick value is set at 10 points, a
+move of 10 points or more is required to draw
+
+96
+00:06:21,180 --> 00:06:22,350
+another brick.
+
+97
+00:06:22,350 --> 00:06:26,720
+Price movements less than 10 points would
+be ignored and the Renko chart would remain
+
+98
+00:06:26,720 --> 00:06:29,220
+unchanged.
+
+99
+00:06:29,220 --> 00:06:34,380
+Renko charts are most useful to day traders
+and scalpers for spotting trends, areas of
+
+100
+00:06:34,380 --> 00:06:38,210
+support and resistance, breakouts, and reversals.
+
+101
+00:06:38,210 --> 00:06:42,710
+The chart's simplicity can make it easier
+to see those price actions and signals for
+
+102
+00:06:42,710 --> 00:06:44,130
+making trades.
+
+103
+00:06:44,130 --> 00:06:50,500
+This is because Renko charts filter the noise
+by focusing exclusively on minimum price changes.
+
+104
+00:06:50,500 --> 00:06:54,290
+Renko bricks are not added unless price changes
+by a specific amount.
+
+105
+00:06:54,290 --> 00:06:59,840
+Thus, it’s easy to spot important highs
+and lows, and identify key support and resistance
+
+106
+00:06:59,840 --> 00:07:00,960
+levels.
+
+107
+00:07:00,960 --> 00:07:06,030
+Armed with this information, you can identify
+uptrends by analyzing higher highs and higher
+
+108
+00:07:06,030 --> 00:07:10,690
+lows or downtrends with lower lows and lower
+highs.
+
+109
+00:07:10,690 --> 00:07:15,690
+The stronger the trend, the more renko blocks
+will be plotted.
+
+110
+00:07:15,690 --> 00:07:19,840
+Renko charts are particularly good at finding
+support and resistance areas because they
+
+111
+00:07:19,840 --> 00:07:22,960
+condense long, but static periods.
+
+112
+00:07:22,960 --> 00:07:27,680
+This makes it easier to see where price support
+and price resistance is occurring.
+
+113
+00:07:27,680 --> 00:07:31,840
+Renko Charts are very visual to display obvious
+support and resistance levels.
+
+114
+00:07:31,840 --> 00:07:36,060
+With classic candlestick charts, there is
+a lot of subjectivity and extra work that
+
+115
+00:07:36,060 --> 00:07:40,130
+goes into identifying good and precise areas
+of support and resistance.
+
+116
+00:07:40,130 --> 00:07:45,900
+In this example, notice how simple it is to
+plot the support and resistance levels.
+
+117
+00:07:45,900 --> 00:07:51,140
+And most interestingly, notice how price reacts
+to these support/resistance levels to the
+
+118
+00:07:51,140 --> 00:07:53,280
+right side of the chart.
+
+119
+00:07:53,280 --> 00:07:58,490
+Even if you prefer to use candlesticks, using
+Renko as your tool to find these price levels
+
+120
+00:07:58,490 --> 00:08:02,220
+will help you a lot to find the best areas
+to trade from.
+
+121
+00:08:02,220 --> 00:08:08,310
+Also as with support and resistance identification,
+chart patterns are also much easier to recognize
+
+122
+00:08:08,310 --> 00:08:10,240
+on a Renko chart.
+
+123
+00:08:10,240 --> 00:08:13,510
+This Renko chart shows several classical chart
+patterns.
+
+124
+00:08:13,510 --> 00:08:19,920
+I can spot an inverted head and shoulders,
+a double top, flag patterns, traingles and
+
+125
+00:08:19,920 --> 00:08:22,300
+so on.
+
+126
+00:08:22,300 --> 00:08:26,440
+With the bricks on a Renko chart, you can
+spot price clusters quickly.
+
+127
+00:08:26,440 --> 00:08:29,530
+These clusters are great demand and supply
+zones.
+
+128
+00:08:29,530 --> 00:08:36,430
+A simple guideline is to look for boxes formed
+by alternating bricks within a price range.
+
+129
+00:08:36,430 --> 00:08:42,209
+This example shows how a Renko chart highlighted
+an effective supply zone.You can notice several
+
+130
+00:08:42,209 --> 00:08:48,550
+renko Bricks within the same price range,
+which projected a supply zone, which was respected
+
+131
+00:08:48,550 --> 00:08:51,310
+by the market later on.
+
+132
+00:08:51,310 --> 00:08:57,019
+Renko charts can also be helpful with uncovering
+trends and patterns that are obscured in time-based
+
+133
+00:08:57,019 --> 00:09:01,029
+charts and for simplifying complicated chart
+structures.
+
+134
+00:09:01,029 --> 00:09:05,569
+When the price is trending, Renko charts provide
+a simple way to stick with the trend.
+
+135
+00:09:05,569 --> 00:09:10,970
+Don't exit until there is a reversal—a confirmed
+box of the opposite color.
+
+136
+00:09:10,970 --> 00:09:15,430
+You can use typical technical analysis to
+help identify potential turning points or
+
+137
+00:09:15,430 --> 00:09:20,620
+the start of a trend, and then use Renko charts
+to stick with that trend, or you could simply
+
+138
+00:09:20,620 --> 00:09:22,449
+trade based on Renko.
+
+139
+00:09:22,449 --> 00:09:27,649
+A new box color equals a potential trend change,
+but this doesn’t mean a new position must
+
+140
+00:09:27,649 --> 00:09:29,800
+be initiated right away.
+
+141
+00:09:29,800 --> 00:09:34,040
+This method can result in lots of losing trades
+when the price is choppy.
+
+142
+00:09:34,040 --> 00:09:38,970
+Use Renko charts as an additional tool, in
+conjunction with support and resistance levels.
+
+143
+00:09:38,970 --> 00:09:45,490
+I encourage you to use Renko only on certain
+forex pairs and stocks that trend well.
+
+144
+00:09:45,490 --> 00:09:50,620
+Find a box size that allows you to capture
+the bulk of the price moves, but also minimizes
+
+145
+00:09:50,620 --> 00:09:52,680
+the consolidation periods.
+
+146
+00:09:52,680 --> 00:09:57,930
+Unfortunately, the consolidation periods can't
+be avoided...if the price is oscillating back
+
+147
+00:09:57,930 --> 00:10:00,170
+and forth, so will Renko charts.
+
+148
+00:10:00,170 --> 00:10:04,990
+For this reason, I prefer to add a moving
+average to Renko charts, to keep me on the
+
+149
+00:10:04,990 --> 00:10:06,930
+right side of the trend.
+
+150
+00:10:06,930 --> 00:10:11,990
+Very important: the moving averages will be
+computed using the Renko bricks, not the actual
+
+151
+00:10:11,990 --> 00:10:12,990
+bars.
+
+152
+00:10:12,990 --> 00:10:17,800
+Therefore I advise you to use shorter period
+averages because the Renko technique is filtering
+
+153
+00:10:17,800 --> 00:10:21,269
+out most of the market noise already.
+
+154
+00:10:21,269 --> 00:10:23,481
+Renko charts are not perfect and have their
+limitations.
+
+155
+00:10:23,481 --> 00:10:29,600
+A few drawbacks have already been addressed:
+First, Renko charts are not so helpful in
+
+156
+00:10:29,600 --> 00:10:31,170
+choppy periods.
+
+157
+00:10:31,170 --> 00:10:36,480
+Also, the simplification of Renko charts comes
+at a cost, because some price information
+
+158
+00:10:36,480 --> 00:10:37,480
+is lost.
+
+159
+00:10:37,480 --> 00:10:44,889
+A third limitation is related to fact that
+price has to move quite a bit to cause a reversal.
+
+160
+00:10:44,889 --> 00:10:48,540
+As always, if you learned something new and
+found value, leave us a like to show your
+
+161
+00:10:48,540 --> 00:10:52,740
+support, subscribe to our channel and hit
+the bell icon to stay notified when we upload
+
+162
+00:10:52,740 --> 00:10:54,110
+new videos.
+
+163
+00:10:54,110 --> 00:10:55,120
+Until next time.
+

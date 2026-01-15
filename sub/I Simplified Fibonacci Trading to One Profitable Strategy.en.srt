@@ -1,0 +1,1664 @@
+1
+00:00:00,160 --> 00:00:05,960
+90% of traders fail because they can't 
+read Fibonacci signals correctly. 
+
+2
+00:00:05,960 --> 00:00:13,200
+Today it’s time to finally discover how to use 
+Fibonacci effectively, in any market condition.
+ 
+  
+
+3
+00:00:13,200 --> 00:00:16,840
+Fibonacci’s effectiveness 
+depends on how you apply them. 
+
+4
+00:00:16,840 --> 00:00:20,640
+And the key is to use them on 
+the correct price swings. 
+  
+
+5
+00:00:20,640 --> 00:00:24,800
+When you're looking at a price 
+chart, you'll see many price swings. 
+
+6
+00:00:24,800 --> 00:00:29,320
+You might connect two points on the 
+chart that seem significant to you,  
+
+7
+00:00:29,320 --> 00:00:33,200
+but another trader might choose different points. 
+
+8
+00:00:33,200 --> 00:00:39,560
+This doesn't mean one of you is wrong; it just 
+highlights the subjective nature of this tool.
+  
+
+9
+00:00:39,560 --> 00:00:45,720
+To apply Fibonacci retracements correctly, you 
+need to start by determining the dominant trend. 
+
+10
+00:00:45,720 --> 00:00:51,240
+Once you've identified the trend, your 
+next step is to find the most obvious swing  
+
+11
+00:00:51,240 --> 00:00:57,720
+high and swing low. These are the points 
+you'll use to draw your Fibonacci lines.
+  
+
+12
+00:00:57,720 --> 00:01:04,120
+In a bullish trend, you'll draw the Fibonacci 
+retracement from the swing low to the swing high. 
+
+13
+00:01:04,120 --> 00:01:09,720
+This makes sense because in an uptrend, you're 
+looking for potential support levels, where the  
+
+14
+00:01:09,720 --> 00:01:16,360
+price might pause or reverse during a pullback. 
+ 
+In a bearish trend, you'll draw from the  
+
+15
+00:01:16,360 --> 00:01:20,400
+swing high to the swing low.
+You're looking for potential  
+
+16
+00:01:20,400 --> 00:01:26,160
+resistance levels, where the price 
+might stall or reverse during a bounce.
+  
+
+17
+00:01:26,160 --> 00:01:31,040
+When drawing these lines, it's important 
+to use the wicks of the candlesticks for  
+
+18
+00:01:31,040 --> 00:01:35,800
+your swings, not just the bodies.
+The clarity of your chosen swing  
+
+19
+00:01:35,800 --> 00:01:42,320
+points is probably the most important aspect.
+The clearer the swing low and high, and the more  
+
+20
+00:01:42,320 --> 00:01:48,800
+defined the trend between these points, the more 
+reliable your Fibonacci levels are likely to be. 
+  
+
+21
+00:01:48,800 --> 00:01:55,560
+One common mistake is trying to force Fib 
+levels to fit where they don't naturally apply. 
+
+22
+00:01:55,560 --> 00:02:02,120
+Remember, not every price move will align 
+perfectly with Fib levels, and that's okay. 
+  
+
+23
+00:02:02,120 --> 00:02:06,040
+The most helpful Fib retracements 
+are those that are obvious on the  
+
+24
+00:02:06,040 --> 00:02:12,280
+chart without much effort to spot them.
+If you find yourself squinting at the chart  
+
+25
+00:02:12,280 --> 00:02:19,440
+or trying to convince yourself that a level fits, 
+it might be best to look for a clearer setup.
+ 
+  
+
+26
+00:02:19,440 --> 00:02:24,280
+When applying Fibonacci retracements, it's 
+helpful to think about the market structure. 
+
+27
+00:02:24,280 --> 00:02:29,400
+In an uptrend, for example, you might 
+look for buying opportunities near  
+
+28
+00:02:29,400 --> 00:02:35,880
+these Fib levels, as the price pulls back.
+The idea is that the trend will eventually  
+
+29
+00:02:35,880 --> 00:02:42,960
+continue, and these retracement levels offer 
+potential entry points, at a better price.
+ 
+  
+
+30
+00:02:42,960 --> 00:02:48,360
+Number one rule is that Fibonacci 
+levels work best in trending markets. 
+
+31
+00:02:48,360 --> 00:02:55,040
+Without a clear trend, these levels lose their 
+significance and impact on price movement. 
+
+32
+00:02:55,040 --> 00:03:01,360
+When you spot a trend, look for the logical price 
+swings to place your Fibonacci retracement tool. 
+
+33
+00:03:01,360 --> 00:03:05,920
+This step is critical and often 
+where most traders struggle. 
+
+34
+00:03:05,920 --> 00:03:11,280
+The trick is to find the most relevant high 
+and low points that represent the current  
+
+35
+00:03:11,280 --> 00:03:14,560
+market conditions. 
+ 
+So in this uptrend,  
+
+36
+00:03:14,560 --> 00:03:19,400
+I would draw the Fib retracement from 
+this swing low, to this swing high. 
+
+37
+00:03:19,400 --> 00:03:24,800
+For this downtrend, I would draw it from 
+this swing high, to the swing low. 
+  
+
+38
+00:03:24,800 --> 00:03:29,760
+Once you've placed your Fib levels, you'll 
+notice several key retracement levels. 
+
+39
+00:03:30,440 --> 00:03:37,040
+The most commonly used are 
+23, 38, 50 and 61% levels. 
+
+40
+00:03:37,040 --> 00:03:45,240
+These lines can act as potential support areas in 
+an uptrend, or resistance zones in a downtrend. 
+
+41
+00:03:45,240 --> 00:03:50,400
+Many traders focus primarily 
+on the 61% retracement level,  
+
+42
+00:03:50,400 --> 00:03:55,560
+as it's often considered the "golden ratio."
+But I wouldn’t discount the power of  
+
+43
+00:03:55,560 --> 00:03:58,800
+other levels. 
+ 
+In strong trends,  
+
+44
+00:03:58,800 --> 00:04:05,720
+price might only retrace to the 38% level 
+before continuing in the trend direction. 
+
+45
+00:04:05,720 --> 00:04:11,280
+In weaker trends, price might 
+extend to the 78% level.
+ 
+  
+
+46
+00:04:11,280 --> 00:04:18,680
+Now, it's worth noting that these Fibonacci levels 
+don't act as exact support or resistance points. 
+
+47
+00:04:18,680 --> 00:04:23,320
+Instead, they help you find 
+areas where price might react. 
+
+48
+00:04:23,320 --> 00:04:28,120
+So think of them as zones, 
+rather than precise lines. 
+  
+
+49
+00:04:28,120 --> 00:04:33,800
+Remember, Fibonacci levels often become 
+self-fulfilling prophecies in the market. 
+
+50
+00:04:33,800 --> 00:04:36,800
+Many traders watch these same levels 
+and place their orders around them. 
+
+51
+00:04:36,800 --> 00:04:41,680
+This collective action can create 
+real support and resistance zones. 
+  
+
+52
+00:04:41,680 --> 00:04:47,960
+And please note that Fibonacci levels struggle 
+in sideways or ranging conditions. If the  
+
+53
+00:04:47,960 --> 00:04:52,760
+market is consolidating, it's often 
+better to wait for a clear breakout  
+
+54
+00:04:52,760 --> 00:04:59,320
+before applying a Fibonacci analysis.
+ 
+ 
+ 
+Here’s another common mistake. When you apply  
+
+55
+00:04:59,320 --> 00:05:06,560
+Fibonacci retracements to very small price moves 
+or shorter timeframes, you might run into some  
+
+56
+00:05:06,560 --> 00:05:14,320
+issues that can make your trading less effective.
+Think about it this way: on shorter timeframes,  
+
+57
+00:05:14,320 --> 00:05:18,680
+price movements are often more 
+erratic and less significant. 
+
+58
+00:05:18,680 --> 00:05:23,280
+These small, rapid price changes 
+don't always reflect the true market  
+
+59
+00:05:23,280 --> 00:05:27,680
+trend or important levels. 
+ 
+When you try to use Fibonacci  
+
+60
+00:05:27,680 --> 00:05:34,120
+retracements on these short-term moves, the 
+levels you get are often too close together. 
+
+61
+00:05:34,120 --> 00:05:41,680
+This closeness makes it hard to tell which levels 
+are truly important, and which are just noise.
+  
+
+62
+00:05:41,680 --> 00:05:46,320
+Another problem with using Fibonacci on 
+short timeframes is that you're more likely  
+
+63
+00:05:46,320 --> 00:05:51,560
+to see false breakouts and price spikes.
+These quick, sharp moves can trick you  
+
+64
+00:05:51,560 --> 00:05:56,120
+into thinking a level has been 
+broken, when it hasn't really. 
+
+65
+00:05:56,120 --> 00:06:03,160
+This can lead to poor signals, like entering 
+a trade too early or exiting one too soon.
+  
+
+66
+00:06:03,160 --> 00:06:08,760
+Think about it: stops and take-profit 
+points are key for managing your trades. 
+
+67
+00:06:08,760 --> 00:06:13,120
+But when you use Fib retracements 
+on short timeframes, it becomes  
+
+68
+00:06:13,120 --> 00:06:17,880
+tricky to place these effectively.
+The retracement levels are so close  
+
+69
+00:06:17,880 --> 00:06:24,320
+together that they create narrow confluences.
+This means there's not much room between levels,  
+
+70
+00:06:24,320 --> 00:06:29,720
+making it hard to set stops that protect 
+you from normal market noise, while still  
+
+71
+00:06:29,720 --> 00:06:34,600
+giving your trade room to breathe.
+ 
+So, what's the solution? Focus on  
+
+72
+00:06:34,600 --> 00:06:41,640
+larger timeframes when you apply Fib levels.
+You get a clearer view of the long-term trend. 
+
+73
+00:06:41,640 --> 00:06:45,880
+This helps you apply Fibonacci 
+retracements in the right direction,  
+
+74
+00:06:45,880 --> 00:06:51,840
+aligning with the overall market movement.
+ 
+When you use Fibonacci retracements on larger  
+
+75
+00:06:51,840 --> 00:06:56,000
+timeframes, you're looking at 
+more significant price moves. 
+
+76
+00:06:56,000 --> 00:07:01,040
+These bigger swings are more likely 
+to represent important market levels. 
+
+77
+00:07:01,040 --> 00:07:07,080
+The levels drawn on these larger moves are 
+spaced further apart, making it easier to  
+
+78
+00:07:07,080 --> 00:07:12,040
+see which levels might be important.
+ 
+And you don't have to stick to just  
+
+79
+00:07:12,040 --> 00:07:18,160
+one timeframe. You can use a multi-timeframe 
+approach. You might start with a larger timeframe  
+
+80
+00:07:18,160 --> 00:07:25,840
+to find the overall trend and major Fibonacci 
+levels, then zoom in to a smaller timeframe. 
+ 
+  
+
+81
+00:07:25,840 --> 00:07:29,640
+Another benefit of placing 
+Fibs on larger timeframes,  
+
+82
+00:07:29,640 --> 00:07:35,000
+is that it can help you avoid overtrading.
+When you focus on smaller moves, it's  
+
+83
+00:07:35,000 --> 00:07:40,960
+tempting to take many trades, thinking 
+each small retracement is significant. 
+
+84
+00:07:40,960 --> 00:07:46,280
+But by zooming out and looking at the bigger 
+picture, you can be more selective with your  
+
+85
+00:07:46,280 --> 00:07:52,320
+trades, focusing on the moves that 
+are more likely to be significant.
+ 
+  
+
+86
+00:07:52,320 --> 00:07:59,800
+When we talk about retracements, we're looking at 
+how much a price pulls back after a strong move.  
+
+87
+00:07:59,800 --> 00:08:07,120
+These pullbacks can be shallow, or deep.
+ 
+Shallow retracements happen in strong trends. When  
+
+88
+00:08:07,120 --> 00:08:13,680
+a market is moving with conviction, it doesn't 
+pull back much before continuing its journey. 
+
+89
+00:08:13,680 --> 00:08:21,240
+In these cases, you'll often see the 
+price only retreat to the 23 or 38% areas. 
+
+90
+00:08:21,240 --> 00:08:27,360
+The trend is so strong that it doesn't need 
+much time to refuel, before zooming off again. 
+
+91
+00:08:27,360 --> 00:08:31,160
+When you spot these shallow pullbacks 
+it's a sign that the trend is  
+
+92
+00:08:31,160 --> 00:08:36,560
+healthy and likely to continue. 
+ 
+Deep retracements are more common  
+
+93
+00:08:36,560 --> 00:08:42,600
+when a trend isn't fully established yet.
+The price might make several ups and downs,  
+
+94
+00:08:42,600 --> 00:08:47,320
+testing previous highs or 
+lows without breaking them. 
+
+95
+00:08:47,320 --> 00:08:54,640
+Deep retracements often reach the 
+61, 78, or even 88 Fib levels. 
+  
+
+96
+00:08:54,640 --> 00:08:59,480
+These deeper pullbacks can be tricky.
+They might make you think the trend is  
+
+97
+00:08:59,480 --> 00:09:04,200
+over, but it's not always the case.
+It's more like the market is taking  
+
+98
+00:09:04,200 --> 00:09:10,680
+a longer break, perhaps reassessing its 
+direction before deciding to continue.
+  
+
+99
+00:09:10,680 --> 00:09:15,960
+The key difference between shallow and deep 
+retracements, is in what they tell us about  
+
+100
+00:09:15,960 --> 00:09:19,440
+the strength of the trend.
+Shallow retracements  
+
+101
+00:09:19,440 --> 00:09:26,360
+signal a strong, confident trend.
+The market barely hesitates before pushing on. 
+
+102
+00:09:26,360 --> 00:09:31,920
+Deep retracements suggest more uncertainty. 
+The trend might still continue,  
+
+103
+00:09:31,920 --> 00:09:37,440
+but it's taking its time to gather strength.
+ 
+ 
+If you see a shallow retracement in a strong  
+
+104
+00:09:37,440 --> 00:09:43,280
+trend, it might be a good opportunity 
+to join in the direction of that trend. 
+
+105
+00:09:43,280 --> 00:09:48,720
+With deep retracements, you might need to 
+be more cautious. While they can still lead  
+
+106
+00:09:48,720 --> 00:09:55,200
+to continuation of the trend, there's also a 
+higher chance the trend might be losing steam. 
+
+107
+00:09:55,200 --> 00:10:03,720
+And if the price retraces 100% of the last move, 
+it might be a sign that the trend has failed.
+  
+
+108
+00:10:03,720 --> 00:10:09,360
+Now, when price reaches a Fib level, 
+look for specific candlestick patterns. 
+
+109
+00:10:09,360 --> 00:10:14,360
+These patterns can confirm if the 
+level is likely to hold, or break. 
+
+110
+00:10:14,360 --> 00:10:18,240
+It's like getting a second 
+opinion before making a trade. 
+
+111
+00:10:18,240 --> 00:10:23,600
+There are a lot of candlesticks, but the most 
+useful patterns at Fib levels are engulfing  
+
+112
+00:10:23,600 --> 00:10:29,320
+patterns, and candles with long wicks. 
+ 
+Candles with a long lower wick  
+
+113
+00:10:29,320 --> 00:10:34,400
+show up at the end of a down move.
+This long wick shows that sellers tried to  
+
+114
+00:10:34,400 --> 00:10:41,160
+push price lower, but buyers stepped in and pushed 
+it back up. When you see it at a Fibonacci support  
+
+115
+00:10:41,160 --> 00:10:48,200
+level, it might mean the down move is over.
+ 
+If you spot a candle with a long upper wicks at  
+
+116
+00:10:48,200 --> 00:10:55,280
+a Fibonacci resistance level, pay close attention.
+They often signal the end of up moves. Buyers  
+
+117
+00:10:55,280 --> 00:10:59,520
+tried to push price higher, 
+but sellers took control. 
+  
+
+118
+00:10:59,520 --> 00:11:06,400
+Engulfing patterns are also decent signals. 
+In a bullish engulfing pattern, a large green  
+
+119
+00:11:06,400 --> 00:11:13,880
+candle completely covers the previous red candle. 
+This shows buyers taking control from sellers. 
+  
+
+120
+00:11:13,880 --> 00:11:20,000
+A bearish engulfing pattern is the opposite, 
+with a large red candle covering the previous  
+
+121
+00:11:20,000 --> 00:11:26,880
+green one. These patterns at Fibonacci 
+levels can be strong reversal signals.
+ 
+
+122
+00:11:26,880 --> 00:11:34,520
+From my experience, using candlesticks with 
+Fibonacci levels works best on longer timeframes. 
+
+123
+00:11:34,520 --> 00:11:40,120
+This is because bigger moves tend to respect 
+Fibonacci levels more. And candlestick patterns  
+
+124
+00:11:40,120 --> 00:11:47,560
+on longer timeframes often carry more weight.
+ 
+Let's say price is in an uptrend and pulls  
+
+125
+00:11:47,560 --> 00:11:52,200
+back to the 50% Fib level.
+This level acts as a potential  
+
+126
+00:11:52,200 --> 00:11:58,040
+support. If you see a candle with a long 
+candlestick forming right at this level, it's  
+
+127
+00:11:58,040 --> 00:12:04,520
+a decent sign that the pullback might be over.
+The Fib level shows where buyers might step in,  
+
+128
+00:12:04,520 --> 00:12:11,760
+and the candle shows that they actually did.
+ 
+Here, price is in a downtrend and bounces  
+
+129
+00:12:11,760 --> 00:12:16,320
+up to the 38% Fib level.
+This level will act as a  
+
+130
+00:12:16,320 --> 00:12:21,640
+potential resistance in a downtrend.
+If an engulfing candle forms here,  
+
+131
+00:12:21,640 --> 00:12:26,920
+it implies the bounce might be over.
+So the Fib level shows where sellers  
+
+132
+00:12:26,920 --> 00:12:33,120
+might return, and the engulfing candle 
+shows they're actually taking control.
+  
+
+133
+00:12:33,120 --> 00:12:36,520
+These engulfing patterns at 
+Fib levels show a sudden,  
+
+134
+00:12:36,520 --> 00:12:42,040
+strong shift in who's controlling the market.
+And an engulfing pattern that completely  
+
+135
+00:12:42,040 --> 00:12:48,920
+swallows several previous candles at a 
+key Fibonacci level is hard to ignore.
+  
+
+136
+00:12:48,920 --> 00:12:55,320
+Volume can add another layer of confirmation 
+to candlestick patterns at Fibonacci levels. 
+
+137
+00:12:55,320 --> 00:12:59,240
+A reversal candle with high 
+volume at a Fibonacci support  
+
+138
+00:12:59,240 --> 00:13:06,920
+level is more convincing than one with low volume.
+The high volume shows strong buying interest right  
+
+139
+00:13:06,920 --> 00:13:13,040
+where buyers were expected to step in.
+ 
+Now, one common mistake is to focus  
+
+140
+00:13:13,040 --> 00:13:19,160
+only on exact Fibonacci levels.
+As I said, in reality, these levels  
+
+141
+00:13:19,160 --> 00:13:24,480
+are more like zones than exact lines.
+A candlestick pattern doesn't have to  
+
+142
+00:13:24,480 --> 00:13:31,920
+form exactly at a Fibonacci level to be valid.
+If it's close, it's worth paying attention to.
+  
+
+143
+00:13:31,920 --> 00:13:35,440
+And another key point is to 
+look at the bigger picture. 
+
+144
+00:13:35,440 --> 00:13:42,360
+A candlestick pattern at a Fib level is more 
+meaningful if it aligns with the larger trend. 
+
+145
+00:13:42,360 --> 00:13:50,160
+For example, a bullish pattern, at a Fibonacci 
+support level, in an overall uptrend, is typically  
+
+146
+00:13:50,160 --> 00:13:57,120
+stronger than one that goes against the trend.
+ 
+The “Golden zone” method is a smart way to  
+
+147
+00:13:57,120 --> 00:14:01,760
+trade using Fibonacci levels.
+This method focuses on the  
+
+148
+00:14:01,760 --> 00:14:10,320
+50% - 61% area, which we call the Golden Ratio.
+First, you find a clear trend in the market. 
+
+149
+00:14:10,320 --> 00:14:16,520
+You then apply Fibonacci tools to this trend.
+You’ve practically market the key levels where  
+
+150
+00:14:16,520 --> 00:14:20,400
+the price might turn around.
+ 
+The strategy gets interesting  
+
+151
+00:14:20,400 --> 00:14:25,920
+when the price starts to move against 
+the trend, when price starts going up. 
+
+152
+00:14:25,920 --> 00:14:30,800
+You watch closely as it 
+moves past the 50% Fib level. 
+
+153
+00:14:30,800 --> 00:14:36,720
+The key is to see if the price can 
+break and close above the 61% level. 
+
+154
+00:14:36,720 --> 00:14:40,280
+In the perfect scenario, the 
+price reaches the 50 – 61 % zone,  
+
+155
+00:14:40,280 --> 00:14:46,920
+but doesn’t close above it. And this could be a 
+signal that the downtrend is ready to continue.
+ 
+  
+
+156
+00:14:46,920 --> 00:14:51,640
+In real market, the price will 
+touch and even go a bit above  
+
+157
+00:14:51,640 --> 00:14:59,040
+this area. This doesn’t invalidate the setup.
+So, it's okay if the price goes above the 61 line.  
+
+158
+00:14:59,920 --> 00:15:05,160
+Once it returns below the 61.8% line, 
+that's a good sign for our strategy.
+  
+
+159
+00:15:05,160 --> 00:15:09,880
+This moment is when we get ready to make 
+a move. We're looking for signs that the  
+
+160
+00:15:09,880 --> 00:15:14,440
+price is about to turn back down.
+Maybe it's a bearish candle forming,  
+
+161
+00:15:14,440 --> 00:15:19,920
+or other factors lining up.
+The idea is to catch the market just as  
+
+162
+00:15:19,920 --> 00:15:27,560
+it's deciding to follow the original trend again.
+ 
+In this chart, once we see the price bounce off  
+
+163
+00:15:27,560 --> 00:15:32,640
+the Golden zone, we start looking 
+for a move back up. The next target  
+
+164
+00:15:32,640 --> 00:15:38,520
+might be the 38% Fibonacci level.
+If the price breaks above the 38%  
+
+165
+00:15:38,520 --> 00:15:43,640
+level, it could mean the previous 
+uptrend is picking up steam again. 
+
+166
+00:15:43,640 --> 00:15:51,680
+After the 38% level, the next stop might be the 
+23% level. This is another place where the price  
+
+167
+00:15:51,680 --> 00:15:56,280
+might pause or bounce a little.
+But if the uptrend is strong,  
+
+168
+00:15:56,280 --> 00:16:01,560
+even this level might not hold.
+In that case, we could see the price go all  
+
+169
+00:16:01,560 --> 00:16:09,080
+the way back to where the downward move started.
+We call this a 100% retracement.
+ 
+  
+
+170
+00:16:09,080 --> 00:16:13,760
+So these Fib levels aren't just 
+targets for where the price might go. 
+
+171
+00:16:13,760 --> 00:16:19,120
+They're also useful for managing your trade.
+You can use these levels to decide  
+
+172
+00:16:19,120 --> 00:16:23,160
+when to take some profits.
+For instance, you might decide  
+
+173
+00:16:23,160 --> 00:16:32,040
+to sell a part of your position when the price 
+hits the 38% level, and more at the 23% level. 
+
+174
+00:16:32,040 --> 00:16:35,240
+If the price never got 
+higher than the Golden zone,  
+
+175
+00:16:35,240 --> 00:16:42,400
+you might put your stop loss just above that line.
+This way, if the market suddenly changes direction  
+
+176
+00:16:42,400 --> 00:16:49,160
+after you entered, you're protected.
+ 
+ 
+Combining multiple Fib retracements will  
+
+177
+00:16:49,160 --> 00:16:54,480
+help you find stronger trade setups.
+Start by looking at the big picture. 
+
+178
+00:16:54,480 --> 00:17:00,600
+Draw Fibonacci retracements on larger 
+timeframes, like the daily chart. 
+
+179
+00:17:00,600 --> 00:17:04,560
+This shows you the main 
+trend and important levels. 
+  
+
+180
+00:17:04,560 --> 00:17:11,160
+Then, zoom in to smaller timeframes, like 
+1-hour charts, and draw Fibonacci retracements  
+
+181
+00:17:11,160 --> 00:17:17,400
+there too. After that, you might see some 
+levels from the bigger timeframes matching  
+
+182
+00:17:17,400 --> 00:17:23,080
+up with levels on the smaller timeframes. 
+These matching levels create confluence. 
+
+183
+00:17:23,080 --> 00:17:28,920
+For example, the 38% Fibonacci level 
+on the daily chart might line up with  
+
+184
+00:17:28,920 --> 00:17:34,480
+the 50% level on the 1-hour chart. 
+ 
+This overlap becomes a strong area  
+
+185
+00:17:34,480 --> 00:17:39,480
+to watch. It's like two different 
+paths leading to the same place. 
+
+186
+00:17:39,480 --> 00:17:46,040
+These levels often act like magnets, pulling 
+the price back, before the main trend continues. 
+
+187
+00:17:46,040 --> 00:17:51,000
+It helps to watch how the price acts 
+when it hits these Fibonacci levels. 
+
+188
+00:17:51,000 --> 00:17:58,240
+Does it pause? Does it turn around quickly? These 
+reactions can tell you how strong the level is. 
+ 
+  
+
+189
+00:17:58,240 --> 00:18:03,200
+So this technique is all about finding 
+areas where different Fibonacci levels  
+
+190
+00:18:03,200 --> 00:18:09,400
+from various timeframes overlap, creating 
+a strong support or resistance level. 
+
+191
+00:18:09,400 --> 00:18:17,280
+In this case, we see a confluence, where the 61% 
+Fibonacci retracement from the 4-hour timeframe,  
+
+192
+00:18:17,280 --> 00:18:22,080
+meets the 38% retracement 
+from the daily timeframe. 
+
+193
+00:18:22,080 --> 00:18:28,760
+This overlap creates a buy zone that's much 
+stronger than a single Fibonacci level alone.
+  
+
+194
+00:18:29,960 --> 00:18:36,000
+The power of this approach comes from the 
+fact that traders using different timeframes  
+
+195
+00:18:36,000 --> 00:18:42,000
+will all see this area as significant.
+Those looking at the daily chart will  
+
+196
+00:18:42,000 --> 00:18:49,960
+see the 38% level, while those on the 
+4-hour chart will notice the 61% level. 
+
+197
+00:18:49,960 --> 00:18:53,360
+When both groups see the 
+price reacting at this zone,  
+
+198
+00:18:53,360 --> 00:18:58,720
+it can create a self-fulfilling prophecy, 
+increasing the likelihood of a bounce.
+  
+
+199
+00:18:59,640 --> 00:19:04,280
+Combining Fibonacci retracements 
+this way helps filter out weaker  
+
+200
+00:19:04,280 --> 00:19:10,360
+setups and focuses your attention on 
+the most promising trade opportunities. 
+
+201
+00:19:10,360 --> 00:19:15,120
+It's not just about drawing lines on 
+a chart, but about building a complete  
+
+202
+00:19:15,120 --> 00:19:21,120
+picture of potential market turning points.
+In this example, the price pulled back to the  
+
+203
+00:19:21,120 --> 00:19:28,800
+confluence zone and found support there, which 
+is exactly what we look for in an uptrend. 
+ 
+  
+
+204
+00:19:28,800 --> 00:19:35,280
+In this chart, we see another example of 
+confluence. Two different Fibonacci retracements,  
+
+205
+00:19:35,280 --> 00:19:40,160
+drawn on different timeframes, have 
+aligned at the same price area. 
+
+206
+00:19:40,160 --> 00:19:46,280
+This creates a strong resistance zone, 
+setting up a potential selling opportunity. 
+
+207
+00:19:46,280 --> 00:19:55,840
+In this case, we see a confluence between the 
+4-hour 38% level and the 1-hour 50% Fib level. 
+
+208
+00:19:55,840 --> 00:20:02,800
+This is a key resistance zone where sellers 
+might enter the market, in a previous downtrend. 
+
+209
+00:20:02,800 --> 00:20:08,880
+And indeed, this zone acted as a ceiling 
+where price struggled to break through,  
+
+210
+00:20:08,880 --> 00:20:13,680
+then changed direction.
+ 
+ 
+Fibonacci and moving averages  
+
+211
+00:20:13,680 --> 00:20:18,800
+combo is also a viable method.
+When used together, they create a  
+
+212
+00:20:18,800 --> 00:20:24,880
+synergy that can confirm your signals.
+Fibonacci alone can point to possible  
+
+213
+00:20:24,880 --> 00:20:28,640
+support or resistance levels, but 
+they lack the weight of confirmation. 
+
+214
+00:20:29,920 --> 00:20:36,720
+This is where moving averages step in, adding 
+an extra layer of validation to your analysis.
+  
+
+215
+00:20:36,720 --> 00:20:41,120
+Moving averages serve two key 
+purposes in this partnership. 
+
+216
+00:20:41,120 --> 00:20:47,800
+First, they help you spot trends. A simple look at 
+the slope of a moving average can tell you if the  
+
+217
+00:20:47,800 --> 00:20:53,880
+market is trending up, down, or sideways.
+And second, moving averages act  
+
+218
+00:20:53,880 --> 00:21:00,920
+as dynamic support and resistance.
+As price moves, these averages shift, creating  
+
+219
+00:21:00,920 --> 00:21:07,520
+flexible barriers that price often respects.
+And when a Fibonacci level lines up with a moving  
+
+220
+00:21:07,520 --> 00:21:14,560
+average, you've found a spot of confluence. 
+ 
+In this example, price has been climbing  
+
+221
+00:21:14,560 --> 00:21:19,560
+steadily. You draw your Fibonacci 
+retracement from the recent low to the  
+
+222
+00:21:19,560 --> 00:21:27,880
+high. The 50% retracement level catches your eye.
+Now, you notice the 200-period exponential moving  
+
+223
+00:21:27,880 --> 00:21:34,880
+average is sitting right at that same level.
+This is confluence in action. The Fibonacci tool  
+
+224
+00:21:34,880 --> 00:21:40,960
+and the moving average are both pointing 
+to the same price area as significant.
+  
+
+225
+00:21:40,960 --> 00:21:45,720
+This confluence increases the odds 
+of price reacting at this level. 
+
+226
+00:21:45,720 --> 00:21:50,600
+You might see price pause, bounce, 
+or even reverse at this point. 
+
+227
+00:21:50,600 --> 00:21:55,520
+It's not a guarantee, but it's 
+a strong hint from the market.
+  
+
+228
+00:21:55,520 --> 00:22:01,480
+This combination is powerful because Fib 
+retracements can sometimes seem arbitrary. 
+
+229
+00:22:01,480 --> 00:22:07,480
+And moving averages, on their own, can 
+lag behind price action. But together,  
+
+230
+00:22:07,480 --> 00:22:14,240
+they create a more robust analytical framework.
+And is not just about finding potential trade  
+
+231
+00:22:14,240 --> 00:22:22,400
+setups. It's also about understanding structure.
+These confluence points often mark key levels  
+
+232
+00:22:22,400 --> 00:22:29,520
+where big players in the market might be active. 
+ 
+It's also worth noting that different traders  
+
+233
+00:22:29,520 --> 00:22:33,920
+might use different Fib levels 
+or moving average periods. 
+
+234
+00:22:33,920 --> 00:22:40,920
+Some traders swear by the 61% level, 
+combined with the 200-period moving average. 
+
+235
+00:22:40,920 --> 00:22:45,920
+Others might prefer the 50% 
+level with the 50-period average. 
+
+236
+00:22:45,920 --> 00:22:52,480
+The key is to find what works best for your 
+trading style, and the markets you trade.
+ 
+  
+
+237
+00:22:52,480 --> 00:22:56,880
+Now let's talk about how volume 
+can confirm Fibonacci levels. 
+
+238
+00:22:56,880 --> 00:23:03,160
+When price reaches a Fibonacci support area, I 
+always look at the volume. Volume is like the  
+
+239
+00:23:03,160 --> 00:23:06,240
+heartbeat of the market.
+When price goes up,  
+
+240
+00:23:06,240 --> 00:23:10,800
+you often see big spikes in volume.
+It's like a lot of people getting  
+
+241
+00:23:10,800 --> 00:23:15,480
+excited and jumping on board.
+But what happens when price pulls  
+
+242
+00:23:15,480 --> 00:23:20,360
+back to a Fibonacci support level? 
+This is where it gets interesting. 
+
+243
+00:23:20,360 --> 00:23:24,680
+If you see volume getting smaller 
+as price pulls back, that's a good  
+
+244
+00:23:24,680 --> 00:23:30,320
+sign. It means fewer people are selling.
+It shows that most people who wanted to  
+
+245
+00:23:30,320 --> 00:23:35,480
+sell have already done so. There's 
+not much selling pressure left.
+  
+
+246
+00:23:35,480 --> 00:23:41,160
+Now, you might think low volume means 
+people don't care about the market anymore. 
+
+247
+00:23:41,160 --> 00:23:45,040
+But that's not true. It just 
+means there are fewer sellers. 
+
+248
+00:23:45,040 --> 00:23:52,120
+Smart buyers see this as a chance to get in 
+at a good price, before everyone else notices. 
+
+249
+00:23:52,120 --> 00:23:56,480
+So watch what happens after price 
+bounces off the Fibonacci level. 
+
+250
+00:23:56,480 --> 00:23:58,720
+If you see a big jump in volume,  
+
+251
+00:23:58,720 --> 00:24:04,360
+that's a very good sign. It means a lot of 
+people are suddenly interested in buying.
+  
+
+252
+00:24:04,360 --> 00:24:07,880
+This high volume after a 
+bounce is like a green light. 
+
+253
+00:24:07,880 --> 00:24:14,400
+It shows that the Fibonacci level worked as 
+support, and now more people are jumping in. 
+
+254
+00:24:14,400 --> 00:24:20,680
+It's a sign that the upward move might continue.
+ 
+Using volume with Fibonacci levels  
+
+255
+00:24:20,680 --> 00:24:25,280
+also helps you spot fake-outs.
+Sometimes price might dip below  
+
+256
+00:24:25,280 --> 00:24:31,400
+a Fibonacci level, scaring some traders.
+But if volume stays low during this dip,  
+
+257
+00:24:31,400 --> 00:24:36,680
+it might just be a trick. The 
+real move could still be upwards.
+  
+
+258
+00:24:36,680 --> 00:24:42,080
+So when you see price approach a Fibonacci 
+level with declining volume, get ready. 
+
+259
+00:24:42,080 --> 00:24:48,320
+This could be a great entry point. But don't 
+jump in just yet. Wait for that volume spike  
+
+260
+00:24:48,320 --> 00:24:55,120
+after the bounce. That's your confirmation.
+ 
+This method works in downtrends too. If price  
+
+261
+00:24:55,120 --> 00:25:00,760
+is falling and then hits a Fibonacci 
+resistance level, watch the volume. 
+
+262
+00:25:00,760 --> 00:25:06,600
+If it drops off as price goes up to the 
+level, sellers might be running out of steam. 
+
+263
+00:25:06,600 --> 00:25:14,560
+A big volume spike downwards, after touching 
+the level, could signal more downside to come.
+ 
+  
+
+264
+00:25:14,560 --> 00:25:20,480
+One of the most underrated ways to trade 
+Fibonacci levels involves divergences. 
+
+265
+00:25:20,480 --> 00:25:27,320
+A divergence is a leading trading signal, and it 
+can help confirm if a price reaction is likely. 
+
+266
+00:25:27,320 --> 00:25:34,640
+It’s simple, just choose a momentum indicator. I 
+prefer to use the MACD. This indicator shows if  
+
+267
+00:25:34,640 --> 00:25:41,960
+a trend is strong or weak. Yes, it lags, but 
+we don’t need crossovers or other signals. 
+  
+
+268
+00:25:41,960 --> 00:25:46,720
+We simply look at inefficiencies 
+between the price and the oscillator. 
+
+269
+00:25:46,720 --> 00:25:52,040
+When MACD don't match what price 
+is doing, it's called divergence. 
+
+270
+00:25:52,040 --> 00:25:58,240
+And as I said, a divergence at a Fibonacci 
+level is a strong sign of a possible reversal.
+  
+
+271
+00:25:58,960 --> 00:26:04,760
+Let's talk about how this works in a downtrend.
+Imagine price hits the 50% Fib  
+
+272
+00:26:04,760 --> 00:26:10,000
+level and starts to reverse.
+Then you look at your oscillator. If  
+
+273
+00:26:10,000 --> 00:26:16,960
+price is making higher highs, but your indicator 
+is making lower highs, that's a divergence. 
+
+274
+00:26:16,960 --> 00:26:22,800
+It means the upward momentum is slowing, 
+even though price is still trying to move up. 
+
+275
+00:26:22,800 --> 00:26:28,440
+This implies the bounce might be over, 
+and the downtrend could resume. 
+  
+
+276
+00:26:28,440 --> 00:26:33,520
+The same idea works in uptrends too.
+Let's say price is rising and then  
+
+277
+00:26:33,520 --> 00:26:40,000
+pulls back to the 61% Fibonacci level. If 
+you see a divergence on your oscillator  
+
+278
+00:26:40,000 --> 00:26:47,520
+right at this level, it's a strong buy signal.
+These signals are called leading indicators.  
+
+279
+00:26:47,520 --> 00:26:52,320
+They hint at what might happen before 
+price actually turns. That's why they're  
+
+280
+00:26:52,320 --> 00:26:58,280
+so valuable. They give you a heads up, 
+letting you prepare for a potential trade.
+  
+
+281
+00:26:58,280 --> 00:27:03,640
+Of course, a divergence at Fibonacci 
+levels doesn't guarantee a reversal.  
+
+282
+00:27:03,640 --> 00:27:07,960
+It just makes one more likely.
+You could look for the other signals  
+
+283
+00:27:07,960 --> 00:27:15,320
+we’ve discussed, like candlestick patterns 
+or volume changes, to confirm the signal.
+ 
+ 
+ 
+ 
+
+284
+00:27:15,320 --> 00:27:19,280
+Probably my favorite strategy is 
+to look for confluences between  
+
+285
+00:27:19,280 --> 00:27:25,880
+the FIB levels and supply or demand areas.
+It doesn't happen often, but when it does,  
+
+286
+00:27:25,880 --> 00:27:31,800
+it can be a sign of something special.
+ 
+In this example, notice that the price  
+
+287
+00:27:31,800 --> 00:27:36,960
+is approaching a key demand area 
+that lines up with a FIB level. 
+
+288
+00:27:36,960 --> 00:27:42,240
+That's a confluence perfect for a trade.
+If the price bounces off that area,  
+
+289
+00:27:42,240 --> 00:27:47,080
+it could be the start of a beautiful 
+uptrend that you can ride.
+  
+
+290
+00:27:47,080 --> 00:27:52,520
+On the flip side, if you see the price 
+approaching a major supply area, and that  
+
+291
+00:27:52,520 --> 00:27:59,040
+coincides with a Fib level, it could be a sign 
+that the buyers are about to run out of steam. 
+
+292
+00:27:59,040 --> 00:28:03,200
+If the price gets rejected at that 
+level, it might be time to start  
+
+293
+00:28:03,200 --> 00:28:08,920
+hunting for short opportunities.
+ 
+Let's talk about demand areas first. 
+
+294
+00:28:08,920 --> 00:28:15,160
+These are places where lots of people want to buy.
+When the price gets near a demand area,  
+
+295
+00:28:15,160 --> 00:28:20,160
+and it's also close to a Fibonacci 
+level, it's extra special. 
+
+296
+00:28:20,160 --> 00:28:24,160
+This tells us that the price 
+might start going up soon.
+  
+
+297
+00:28:24,160 --> 00:28:30,320
+Think about it like this: You're looking at 
+an uptrend. Then the price is going down. 
+
+298
+00:28:30,320 --> 00:28:34,400
+But then you notice it's 
+getting close to a demand area. 
+
+299
+00:28:34,400 --> 00:28:42,360
+The price is also near a key Fibonacci level.
+You may want to monitor closely this area. 
+  
+
+300
+00:28:42,360 --> 00:28:46,680
+Supply areas are spots where 
+lots of people want to sell. 
+
+301
+00:28:46,680 --> 00:28:52,200
+When the price climbs up to a supply 
+area, and it matches a Fibonacci level,  
+
+302
+00:28:52,200 --> 00:28:59,720
+it's another special moment. This might mean the 
+price is about to turn around and start falling.
+  
+
+303
+00:28:59,720 --> 00:29:03,520
+Picture this: the market 
+is in a general downtrend,  
+
+304
+00:29:03,520 --> 00:29:09,680
+then the price has been climbing for a while.
+Then you see it's approaching a supply area. 
+
+305
+00:29:09,680 --> 00:29:13,760
+The price is also near an 
+important Fibonacci level. 
+
+306
+00:29:13,760 --> 00:29:19,680
+This is when you start thinking the 
+upward move might be running out of steam. 
+
+307
+00:29:19,680 --> 00:29:25,280
+These confluences are like secret messages in 
+the market. They don't happen all the time,  
+
+308
+00:29:25,280 --> 00:29:30,040
+but when they do, you pay attention. 
+ 
+Again, here price bounce off a demand  
+
+309
+00:29:30,040 --> 00:29:35,000
+area that lines up with a Fibonacci 
+level. This is a good time to enter a  
+
+310
+00:29:35,000 --> 00:29:40,480
+buy position and ride the price up 
+as it starts a new upward move. 
+  
+
+311
+00:29:40,480 --> 00:29:45,880
+And here, price hit a supply area 
+that matches a Fibonacci level,  
+
+312
+00:29:45,880 --> 00:29:53,320
+and then start to fall. This was a good time 
+to sell, as price started a new downward move. 
+
+313
+00:29:53,320 --> 00:30:07,440
+Now, if you’re ready for more interesting trading 
+guides, go ahead and watch one of these videos.
+

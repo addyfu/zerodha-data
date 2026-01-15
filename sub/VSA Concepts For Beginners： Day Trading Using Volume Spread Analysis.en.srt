@@ -1,0 +1,893 @@
+1
+00:00:00,619 --> 00:00:01,879
+Hello and welcome.
+
+2
+00:00:01,879 --> 00:00:06,440
+Today we’ll talk about volume spread analysis,
+I’ll show you how to read the market, BEFORE
+
+3
+00:00:06,440 --> 00:00:11,210
+it moves and you’ll learn to anticipate
+where the market is going next based on simple
+
+4
+00:00:11,210 --> 00:00:13,970
+logic and the power of volume and price.
+
+5
+00:00:13,970 --> 00:00:24,800
+So if you could, like, subscribe to the channel
+and stick around for the full video.
+
+6
+00:00:24,800 --> 00:00:28,970
+When using VSA, you should be looking for
+two things.
+
+7
+00:00:28,970 --> 00:00:33,520
+Whether the price has been validated by the
+volume, or whether there is a divergence with
+
+8
+00:00:33,520 --> 00:00:34,520
+the price.
+
+9
+00:00:34,520 --> 00:00:40,030
+If the price is validated then this confirms
+a continuation of the price behavior.
+
+10
+00:00:40,030 --> 00:00:46,579
+By contrast if there is a divergence, then
+this is sending a signal of a potential change.
+
+11
+00:00:46,579 --> 00:00:49,940
+These are the only things we are constantly
+searching for in VSA.
+
+12
+00:00:49,940 --> 00:00:51,809
+Validation or Divergence.
+
+13
+00:00:51,809 --> 00:00:55,170
+Before we begin, I want to recommend you a
+book I’m currently reading.
+
+14
+00:00:55,170 --> 00:00:59,629
+It’s called “A Complete Guide To Volume
+Price Analysis” by Anna Coulling.
+
+15
+00:00:59,629 --> 00:01:01,969
+I highly recommend this book.
+
+16
+00:01:01,969 --> 00:01:10,500
+Now let’s further discuss Validation and
+Divergence.
+
+17
+00:01:10,500 --> 00:01:16,710
+In this example, we have a wide spread up
+candle with small wicks on top and bottom,
+
+18
+00:01:16,710 --> 00:01:19,330
+and the associated volume is well above average.
+
+19
+00:01:19,330 --> 00:01:22,250
+So, the volume is validating the price action.
+
+20
+00:01:22,250 --> 00:01:27,030
+Let’s assume each candle represents one
+trading day, which is also my preferred time
+
+21
+00:01:27,030 --> 00:01:28,810
+frame for VSA.
+
+22
+00:01:28,810 --> 00:01:35,280
+In this case we have a market which is bullish,
+and has risen strongly in the trading session,
+
+23
+00:01:35,280 --> 00:01:37,610
+closing just below the high of the session.
+
+24
+00:01:37,610 --> 00:01:42,990
+If this is a valid move then we would expect
+to see the effort required to push the market
+
+25
+00:01:42,990 --> 00:01:45,360
+higher, reflected in the volume.
+
+26
+00:01:45,360 --> 00:01:50,270
+Remember, this is also Wyckoff's third law
+of effort vs. result.
+
+27
+00:01:50,270 --> 00:01:55,550
+It takes effort for the market to rise and
+also takes effort for the market to fall,
+
+28
+00:01:55,550 --> 00:02:01,280
+so if there has been a large change in price
+in the session, then we expect to see this
+
+29
+00:02:01,280 --> 00:02:04,640
+validated by a well above average volume bar.
+
+30
+00:02:04,640 --> 00:02:05,830
+Which we have.
+
+31
+00:02:05,830 --> 00:02:09,800
+Therefore, in this case the volume validates
+the price.
+
+32
+00:02:09,800 --> 00:02:12,590
+And from this we can assume two things.
+
+33
+00:02:12,590 --> 00:02:18,379
+First, that the price move is confirmed, and
+has not been manipulated by the smart money
+
+34
+00:02:18,379 --> 00:02:24,480
+or market makers, and second, for the time
+being, the market is bullish, and until we
+
+35
+00:02:24,480 --> 00:02:29,880
+see a divergence signaled, then we can continue
+to maintain any long position that we may
+
+36
+00:02:29,880 --> 00:02:32,379
+have in the market.
+
+37
+00:02:32,379 --> 00:02:37,590
+Here we have an example of a narrow spread
+candle formed on low volume.
+
+38
+00:02:37,590 --> 00:02:43,389
+In this case the price has risen, but only
+marginally higher, and the spread of the candle
+
+39
+00:02:43,389 --> 00:02:45,360
+is therefore very narrow.
+
+40
+00:02:45,360 --> 00:02:48,859
+The wicks to the top and bottom are once again
+small.
+
+41
+00:02:48,859 --> 00:02:54,879
+The associated volume is well below average
+and is once again validating the price action.
+
+42
+00:02:54,879 --> 00:02:58,080
+And the reason is again because of effort
+and result.
+
+43
+00:02:58,080 --> 00:03:03,900
+In this case the market has only risen in
+price by a small amount, and therefore we
+
+44
+00:03:03,900 --> 00:03:08,540
+would expect to see this reflected in the
+volume, which should also be low.
+
+45
+00:03:08,540 --> 00:03:14,670
+After all, if effort and result validate one
+another, the effort required to move the market
+
+46
+00:03:14,670 --> 00:03:20,670
+a few points higher (the result), should only
+warrant a small amount of effort (the volume).
+
+47
+00:03:20,670 --> 00:03:31,180
+So once again, we have a true picture with
+the volume validating the price.
+
+48
+00:03:31,180 --> 00:03:33,150
+Here we have our first divergence.
+
+49
+00:03:33,150 --> 00:03:39,299
+It is clear we have a wide spread up candle,
+and if we follow Wyckoff's third rule, then
+
+50
+00:03:39,299 --> 00:03:42,700
+this result should be matched by an equal
+amount of effort.
+
+51
+00:03:42,700 --> 00:03:46,500
+What we have instead is a big result, from
+little effort.
+
+52
+00:03:46,500 --> 00:03:48,720
+This is a divergence.
+
+53
+00:03:48,720 --> 00:03:53,870
+For a wide spread up candle, we would expect
+to see a high volume bar, but here we have
+
+54
+00:03:53,870 --> 00:03:55,629
+a low volume bar.
+
+55
+00:03:55,629 --> 00:04:00,379
+If we were in a long position in the market
+and this appeared, we would immediately start
+
+56
+00:04:00,379 --> 00:04:02,569
+to question what is happening.
+
+57
+00:04:02,569 --> 00:04:04,739
+Why has this divergence appeared?
+
+58
+00:04:04,739 --> 00:04:07,629
+Is it an early warning of a possible trap?
+
+59
+00:04:07,629 --> 00:04:13,309
+This is a pattern which often occurs at the
+start of trading sessions in equity markets.
+
+60
+00:04:13,309 --> 00:04:17,549
+What is happening here is that the smart money
+are trying to 'feel out' the sentiment in
+
+61
+00:04:17,549 --> 00:04:18,590
+the market.
+
+62
+00:04:18,590 --> 00:04:24,139
+The market opens, then the price is pushed
+higher to test interest in the market from
+
+63
+00:04:24,139 --> 00:04:25,400
+the buyers.
+
+64
+00:04:25,400 --> 00:04:28,820
+Once again this is a signal of a potential
+trap.
+
+65
+00:04:28,820 --> 00:04:34,400
+The move higher is NOT a genuine move but
+a fake move, designed to suck traders into
+
+66
+00:04:34,400 --> 00:04:40,870
+weak positions, and also take out stops, before
+reversing sharply and moving in the opposite
+
+67
+00:04:40,870 --> 00:04:42,090
+direction.
+
+68
+00:04:42,090 --> 00:04:44,979
+This is why VSA is so powerful.
+
+69
+00:04:44,979 --> 00:04:50,350
+Volume and price together reveal the truth
+behind market intentions.
+
+70
+00:04:50,350 --> 00:04:56,030
+In this example we can see a narrow spread
+candle with high volume which, once again,
+
+71
+00:04:56,030 --> 00:04:57,979
+is another divergence.
+
+72
+00:04:57,979 --> 00:05:03,360
+As we saw earlier, a small increase in the
+price (result), should only require a small
+
+73
+00:05:03,360 --> 00:05:07,509
+increase in volume (effort), but this is not
+the case here.
+
+74
+00:05:07,509 --> 00:05:13,659
+The small price increase has been generated
+by a huge amount of volume, so clearly something
+
+75
+00:05:13,659 --> 00:05:15,080
+is wrong.
+
+76
+00:05:15,080 --> 00:05:17,680
+There is only one conclusion we can draw.
+
+77
+00:05:17,680 --> 00:05:22,849
+The market is starting to look weak, and this
+is a typical pattern that starts to develop
+
+78
+00:05:22,849 --> 00:05:27,840
+at the top of a bullish trend, or the bottom
+of a bearish trend.
+
+79
+00:05:27,840 --> 00:05:34,460
+For example in an established bullish trend,
+the market opens, starts to rise a little,
+
+80
+00:05:34,460 --> 00:05:37,960
+and the buyers are now starting to take their
+profits.
+
+81
+00:05:37,960 --> 00:05:44,229
+As these positions are closed out, more eager
+buyers come in, but the price never rises
+
+82
+00:05:44,229 --> 00:05:48,720
+as the longs continue to liquidate and take
+their profits.
+
+83
+00:05:48,720 --> 00:05:51,669
+And the cycle repeats throughout the session.
+
+84
+00:05:51,669 --> 00:05:56,960
+What is actually happening is that the market
+has reached a price at which further effort
+
+85
+00:05:56,960 --> 00:06:02,840
+does not result in higher prices, as each
+wave of new buyers is met with longs selling
+
+86
+00:06:02,840 --> 00:06:06,910
+out at this level and taking their profits
+'off the table'.
+
+87
+00:06:06,910 --> 00:06:10,130
+So there is no sustained move higher in price.
+
+88
+00:06:10,130 --> 00:06:15,550
+In other words, what this combination of price
+and volume is revealing is weakness in the
+
+89
+00:06:15,550 --> 00:06:17,940
+market.
+
+90
+00:06:17,940 --> 00:06:24,419
+Now, VSA is only part of the story.
+
+91
+00:06:24,419 --> 00:06:29,849
+You need to use a variety of other techniques
+to confirm the picture and provide additional
+
+92
+00:06:29,849 --> 00:06:31,169
+validation.
+
+93
+00:06:31,169 --> 00:06:36,569
+The most important of these are support and
+resistance or supply or demand areas.
+
+94
+00:06:36,569 --> 00:06:39,400
+This is where the market is pausing, before
+reversing.
+
+95
+00:06:39,400 --> 00:06:44,539
+Alternatively, it may simply be a pause point
+in a longer term trend, which will then be
+
+96
+00:06:44,539 --> 00:06:47,129
+validated by our volume analysis.
+
+97
+00:06:47,129 --> 00:06:55,479
+A breakout from one of these regions of consolidation,
+coupled with volume, is always a strong signal.
+
+98
+00:06:55,479 --> 00:06:57,250
+Trends are equally important.
+
+99
+00:06:57,250 --> 00:07:03,060
+Whenever you see a divergence which sets the
+alarm bell ringing, the first step is to establish
+
+100
+00:07:03,060 --> 00:07:05,419
+were you are in any trend.
+
+101
+00:07:05,419 --> 00:07:10,169
+For example, are you at a possible bottom,
+where perhaps the market has been selling
+
+102
+00:07:10,169 --> 00:07:14,759
+off for some time, but is now looking at a
+major reversal?
+
+103
+00:07:14,759 --> 00:07:19,759
+Or perhaps you are in the middle of a trend,
+and you are experiencing a minor pull back
+
+104
+00:07:19,759 --> 00:07:22,500
+or reversal in the longer term trend.
+
+105
+00:07:22,500 --> 00:07:27,639
+Deciding where you are in the trend, is where
+you bring in some of your other analytical
+
+106
+00:07:27,639 --> 00:07:31,689
+tools which then help to complement VSA.
+
+107
+00:07:31,689 --> 00:07:36,479
+In judging where you are in the trend, and
+potential reversal points, you will always
+
+108
+00:07:36,479 --> 00:07:43,360
+be looking at support and resistance, candle
+patterns, individual candles, or trend lines.
+
+109
+00:07:43,360 --> 00:07:54,229
+All of this will help to identify where you
+are in the price action on the chart.
+
+110
+00:07:54,229 --> 00:08:00,470
+In this example we have a bullish trend developing
+in a rising market, and what is obvious is
+
+111
+00:08:00,470 --> 00:08:04,789
+that rising prices are followed by rising
+volume.
+
+112
+00:08:04,789 --> 00:08:07,590
+This is exactly what we would expect to see.
+
+113
+00:08:07,590 --> 00:08:13,469
+The first candle forms, a narrow spread up
+candle with low volume, which is fine.
+
+114
+00:08:13,469 --> 00:08:17,229
+The volume validates the price, no divergence
+here.
+
+115
+00:08:17,229 --> 00:08:22,689
+The second candle then begins to form, the
+spread of this is wider than the first, and
+
+116
+00:08:22,689 --> 00:08:28,129
+based on Wyckoff's rule, we expect to see
+greater volume that on the first bar, which
+
+117
+00:08:28,129 --> 00:08:30,060
+is indeed the case.
+
+118
+00:08:30,060 --> 00:08:35,659
+So the uptrend is valid, the volume has validated
+the price on both candles.
+
+119
+00:08:35,659 --> 00:08:41,229
+By the time the third candle starts to form,
+and closes with a spread which is wider than
+
+120
+00:08:41,229 --> 00:08:47,040
+both the first and the second, we should expect
+a high volume bar which reflects Wyckoff's
+
+121
+00:08:47,040 --> 00:08:49,920
+third law of effort vs result.
+
+122
+00:08:49,920 --> 00:08:54,870
+Once again, the price action on the candle
+has been validated by the volume.
+
+123
+00:08:54,870 --> 00:08:59,300
+The three candles themselves are now validating
+the price trend.
+
+124
+00:08:59,300 --> 00:09:05,220
+The price over the three bars has moved higher,
+developed into a trend, and the volume is
+
+125
+00:09:05,220 --> 00:09:14,260
+rising and NOW validating the trend itself.
+
+126
+00:09:14,260 --> 00:09:19,440
+In this example, we have what appears to be
+a bullish trend, with the first narrow spread
+
+127
+00:09:19,440 --> 00:09:22,870
+candle followed by relatively low volume.
+
+128
+00:09:22,870 --> 00:09:27,529
+This is fine as the volume is validating the
+price and is in agreement.
+
+129
+00:09:27,529 --> 00:09:32,980
+The second candle then forms and we have a
+slightly wider spread candle than the first,
+
+130
+00:09:32,980 --> 00:09:34,500
+but with high volume.
+
+131
+00:09:34,500 --> 00:09:36,649
+This appears to be a divergence.
+
+132
+00:09:36,649 --> 00:09:40,320
+With high volume we would expect to see a
+wide spread candle.
+
+133
+00:09:40,320 --> 00:09:46,660
+Instead, we only have a candle which is marginally
+wider in price spread than the previous candle,
+
+134
+00:09:46,660 --> 00:09:48,880
+so this is our first sign.
+
+135
+00:09:48,880 --> 00:09:54,250
+The third candle then forms, and closes as
+a wide spread candle, but with volume that
+
+136
+00:09:54,250 --> 00:09:57,540
+is lower than on the previous candle.
+
+137
+00:09:57,540 --> 00:10:01,660
+Given the spread of the bar, it should be
+higher, not lower.
+
+138
+00:10:01,660 --> 00:10:02,839
+Another warning signal.
+
+139
+00:10:02,839 --> 00:10:08,839
+The fourth candle then forms and closes as
+a very wide price spread, but the volume is
+
+140
+00:10:08,839 --> 00:10:10,430
+even lower!
+
+141
+00:10:10,430 --> 00:10:12,700
+We now have several divergences here.
+
+142
+00:10:12,700 --> 00:10:17,440
+On second candle we have a modest spread in
+price, but high volume.
+
+143
+00:10:17,440 --> 00:10:22,670
+The market should have risen much further
+given the effort contained in the volume bar.
+
+144
+00:10:22,670 --> 00:10:25,010
+This is signaling potential weakness.
+
+145
+00:10:25,010 --> 00:10:29,860
+During the third candle the price spread is
+wider than the previous candle, but the volume
+
+146
+00:10:29,860 --> 00:10:31,040
+is lower.
+
+147
+00:10:31,040 --> 00:10:33,800
+The buying pressure is draining away.
+
+148
+00:10:33,800 --> 00:10:39,620
+Also, we have a market that is rising, but
+the volume has fallen on this candle.
+
+149
+00:10:39,620 --> 00:10:45,120
+Rising markets should be associated with rising
+volume, NOT falling volume.
+
+150
+00:10:45,120 --> 00:10:50,529
+During the fourth candle, we see further confirmation
+that the volume and price on this trend are
+
+151
+00:10:50,529 --> 00:10:52,540
+no longer in agreement.
+
+152
+00:10:52,540 --> 00:10:58,459
+We have a wide spread up candle and even lower
+volume than on previous candles in the trend.
+
+153
+00:10:58,459 --> 00:11:03,889
+So, the falling volume is confirming that
+we have a divergence on the trend, as we expect
+
+154
+00:11:03,889 --> 00:11:09,589
+to see rising volume with a rising trend,
+whereas here we have falling volumes on a
+
+155
+00:11:09,589 --> 00:11:10,860
+rising trend.
+
+156
+00:11:10,860 --> 00:11:13,850
+What are the conclusions?
+
+157
+00:11:13,850 --> 00:11:16,440
+The problems start with candle two.
+
+158
+00:11:16,440 --> 00:11:22,430
+Here we have effort, but not an equivalent
+result in terms of the associated price action.
+
+159
+00:11:22,430 --> 00:11:25,940
+This is therefore the first sign of possible
+weakness.
+
+160
+00:11:25,940 --> 00:11:28,800
+The market is what is known as 'over bought'.
+
+161
+00:11:28,800 --> 00:11:34,130
+The sellers are moving into the market sensing
+an opportunity to short the market.
+
+162
+00:11:34,130 --> 00:11:40,100
+This creates a resistance to higher prices,
+which is then confirmed on the third and fourth
+
+163
+00:11:40,100 --> 00:11:43,899
+candles, where volume is falling away.
+
+164
+00:11:43,899 --> 00:11:49,350
+Smart money have seen this weakness, and are
+starting to sell, preparing for a move lower,
+
+165
+00:11:49,350 --> 00:11:55,360
+but continue to mark prices higher, to give
+the appearance of a market that is still bullish.
+
+166
+00:11:55,360 --> 00:11:56,959
+It is not.
+
+167
+00:11:56,959 --> 00:12:02,079
+This may only be a temporary pause, and not
+a major change in trend, but nevertheless,
+
+168
+00:12:02,079 --> 00:12:05,940
+it is a warning of potential weakness in the
+market.
+
+169
+00:12:05,940 --> 00:12:12,000
+The high volume is as a result of an increasing
+number of buyers closing out their positions,
+
+170
+00:12:12,000 --> 00:12:17,390
+and taking their profits, whilst the remaining
+buyers do not have sufficient momentum to
+
+171
+00:12:17,390 --> 00:12:19,769
+take the market higher.
+
+172
+00:12:19,769 --> 00:12:24,130
+Smart money are also selling at this level
+adding to the volumes.
+
+173
+00:12:24,130 --> 00:12:28,899
+This is the reason why volumes fall on the
+next two candles, as they continue to mark
+
+174
+00:12:28,899 --> 00:12:33,699
+the market higher, but are no longer involved
+in the move themselves.
+
+175
+00:12:33,699 --> 00:12:37,269
+They are trapping traders into weak positions.
+
+176
+00:12:37,269 --> 00:12:42,630
+The initial weakness appeared on candle two,
+which was then FURTHER confirmed by candles
+
+177
+00:12:42,630 --> 00:12:45,529
+three and four.
+
+178
+00:12:45,529 --> 00:12:49,130
+This is often the sequence of events that
+unfolds.
+
+179
+00:12:49,130 --> 00:12:54,050
+Initially we see a divergence that appear
+using the single candle analysis.
+
+180
+00:12:54,050 --> 00:12:59,910
+We then wait for other candles to appear,
+and analyze them against the initial divergence.
+
+181
+00:12:59,910 --> 00:13:05,560
+In this case, the divergence was confirmed,
+with prices continuing to rise on falling
+
+182
+00:13:05,560 --> 00:13:06,560
+volumes.
+
+183
+00:13:06,560 --> 00:13:11,500
+And now we have a market which is apparently
+weak, and confirmed as such.
+
+184
+00:13:11,500 --> 00:13:16,279
+The next step is to move to the final level
+in our analysis, which is to consider the
+
+185
+00:13:16,279 --> 00:13:19,960
+analysis in the bigger picture of the chart.
+
+186
+00:13:19,960 --> 00:13:25,560
+This will determine whether what we are seeing
+is a minor pull back, or the pre-cursor to
+
+187
+00:13:25,560 --> 00:13:27,490
+a change in trend.
+
+188
+00:13:27,490 --> 00:13:31,860
+If this make sense, make sure you watch our
+other VSA tutorial.
+
+189
+00:13:31,860 --> 00:13:35,190
+If you found value and learned something new,
+leave us a like.
+
+190
+00:13:35,190 --> 00:13:38,529
+This way we’ll know if you'd like to see
+more videos like this one.
+
+191
+00:13:38,529 --> 00:13:42,760
+And check out our academy program if you want
+to further level up your trading.
+
+192
+00:13:42,760 --> 00:13:43,900
+Until next time.
+

@@ -1,0 +1,877 @@
+1
+00:00:00,179 --> 00:00:05,180
+So in this video, I wanted to share some cool
+strategies I learned involving the Anchored
+
+2
+00:00:05,180 --> 00:00:06,359
+VWAP.
+
+3
+00:00:06,359 --> 00:00:11,410
+This indicator measures the volume-weighted
+average price (VWAP) but starts the calculation
+
+4
+00:00:11,410 --> 00:00:13,769
+at any time you choose.
+
+5
+00:00:13,769 --> 00:00:20,380
+Usually with the default VWAP, it takes the
+whole day's trading to figure out the average.
+
+6
+00:00:20,380 --> 00:00:25,190
+But sometimes you just care about what happened
+after a certain point.
+
+7
+00:00:25,190 --> 00:00:31,200
+Like maybe there was big news at lunchtime
+that seemed to shift how prices were trading.
+
+8
+00:00:31,200 --> 00:00:36,580
+With regular VWAP you can't see how prices
+acted just since then.
+
+9
+00:00:36,580 --> 00:00:41,750
+But with Anchored VWAP, you pick the exact
+bar on the chart where you want to start the
+
+10
+00:00:41,750 --> 00:00:42,750
+calculation.
+
+11
+00:00:42,750 --> 00:00:47,380
+Then it will draw the VWAP line from that
+moment onwards.
+
+12
+00:00:47,380 --> 00:00:53,329
+This lets you see clearly if buyers or sellers
+have been in control since that important
+
+13
+00:00:53,329 --> 00:00:54,329
+event.
+
+14
+00:00:54,329 --> 00:01:00,510
+You get the benefits of VWAP but customized
+to the period that matters most to you.
+
+15
+00:01:00,510 --> 00:01:05,770
+It's neat because trading is all about recognizing
+when things change.
+
+16
+00:01:05,770 --> 00:01:12,400
+Anchored VWAP helps uncover shifts that regular
+VWAP might miss since it always uses the whole
+
+17
+00:01:12,400 --> 00:01:13,729
+daily session.
+
+18
+00:01:13,729 --> 00:01:19,189
+You have more flexibility to analyze shorter
+windows and focus on what really moved the
+
+19
+00:01:19,189 --> 00:01:22,799
+market at that key moment you chose.
+
+20
+00:01:22,799 --> 00:01:27,520
+The price level represented by the Anchored
+VWAP serves as a benchmark.
+
+21
+00:01:27,520 --> 00:01:33,060
+When big funds and banks make lots of trades,
+they can't just dump it all at once or it
+
+22
+00:01:33,060 --> 00:01:36,520
+would really move the price away from where
+they want.
+
+23
+00:01:36,520 --> 00:01:40,140
+So instead they spread it out slowly over
+time.
+
+24
+00:01:40,140 --> 00:01:44,710
+And how do they know if they're getting a
+good deal while doing that?
+
+25
+00:01:44,710 --> 00:01:47,159
+Well, the VWAP line tells them!
+
+26
+00:01:47,159 --> 00:01:49,950
+It shows the average price up to that point.
+
+27
+00:01:49,950 --> 00:01:56,399
+On up days, the big boys buy more when price
+dips below the VWAP line.
+
+28
+00:01:56,399 --> 00:02:00,689
+That way they're scooping it up for a bit
+cheaper than average.
+
+29
+00:02:00,689 --> 00:02:06,810
+And on down days, the opposite - they sell
+when the price goes above the line to bank
+
+30
+00:02:06,810 --> 00:02:10,180
+the profits from higher than average prices.
+
+31
+00:02:10,180 --> 00:02:15,970
+Either way, it helps those big fishes trade
+without rocking the boat too much.
+
+32
+00:02:15,970 --> 00:02:22,120
+So the anchored line gives us an idea of the
+"fair value" range that all the big action
+
+33
+00:02:22,120 --> 00:02:24,230
+is centered around.
+
+34
+00:02:24,230 --> 00:02:30,209
+And the anchored version is way better because
+I can start it whenever I want, even if it
+
+35
+00:02:30,209 --> 00:02:33,030
+was days or weeks ago!
+
+36
+00:02:33,030 --> 00:02:39,300
+And then it will keep updating all the way
+to present, so I have a VWAP line I can watch
+
+37
+00:02:39,300 --> 00:02:44,000
+evolve over the whole time period I care about.
+
+38
+00:02:44,000 --> 00:02:49,019
+Regular VWAP won't do that since it's tied
+to just one day.
+
+39
+00:02:49,019 --> 00:02:54,730
+The anchored one gives you full control to
+put the starting point wherever is most useful
+
+40
+00:02:54,730 --> 00:02:56,430
+for reading the chart.
+
+41
+00:02:56,430 --> 00:03:01,879
+And that makes it way more helpful if I'm
+looking at longer time frames than just today.
+
+42
+00:03:01,879 --> 00:03:05,810
+And it’s also way better than moving averages.
+
+43
+00:03:05,810 --> 00:03:12,400
+Starting the VWAP anywhere opens up way more
+chances to spot opportunities and trends compared
+
+44
+00:03:12,400 --> 00:03:13,590
+to a moving average.
+
+45
+00:03:13,590 --> 00:03:17,760
+So how to trade using Anchored VWAP.
+
+46
+00:03:17,760 --> 00:03:21,970
+Major turning points or events are perfect
+spots to add it.
+
+47
+00:03:21,970 --> 00:03:27,363
+Those were the times when tons of buyers and
+sellers were battling it out - so it's a perfect
+
+48
+00:03:27,363 --> 00:03:29,620
+average to measure from.
+
+49
+00:03:29,620 --> 00:03:34,700
+In this example, this huge crash would be
+perfect to anchor from.
+
+50
+00:03:34,700 --> 00:03:39,430
+It's obvious something massive happened there
+to cause such move.
+
+51
+00:03:39,430 --> 00:03:45,540
+That dip is definitely a moment the smart
+money was piling in, so anchoring there gives
+
+52
+00:03:45,540 --> 00:03:49,150
+the real picture of what it's done since.
+
+53
+00:03:49,150 --> 00:03:55,280
+Clicking right on that candle gives us a clear
+line to see what happened after all those
+
+54
+00:03:55,280 --> 00:03:57,510
+people finished trading.
+
+55
+00:03:57,510 --> 00:04:01,599
+And now it's clear the buyers have been winning
+since then.
+
+56
+00:04:01,599 --> 00:04:08,040
+Most of the action has been above VWAP line,
+so bulls have clearly had the power in pushing
+
+57
+00:04:08,040 --> 00:04:11,090
+it up from that low average price.
+
+58
+00:04:11,090 --> 00:04:17,180
+It's like we get to watch exactly who's been
+in control stage-by-stage after such an important
+
+59
+00:04:17,180 --> 00:04:18,930
+turning point.
+
+60
+00:04:18,930 --> 00:04:24,810
+Scouting for pullbacks to the VWAP line is
+one of the easiest ways to hunt momentum moves.
+
+61
+00:04:24,810 --> 00:04:30,720
+When a market is in a strong up trend, it's
+natural for it to have little breathers where
+
+62
+00:04:30,720 --> 00:04:35,090
+it consolidates or dips a bit before blasting
+off again.
+
+63
+00:04:35,090 --> 00:04:41,050
+And the anchored line gives you a perfect
+spot to anticipate that mini dip, knowing
+
+64
+00:04:41,050 --> 00:04:44,250
+it's still respecting the overall trend.
+
+65
+00:04:44,250 --> 00:04:50,479
+As long as the highs keep getting higher and
+price is staying consistently over the VWAP,
+
+66
+00:04:50,479 --> 00:04:53,699
+you know the buyers are still in control.
+
+67
+00:04:53,699 --> 00:04:59,660
+All you gotta do is watch for price to touch
+back down to the VWAP after stretching out
+
+68
+00:04:59,660 --> 00:05:00,950
+above it.
+
+69
+00:05:00,950 --> 00:05:05,740
+That's your low-risk entry to hop on for the
+next leg up!
+
+70
+00:05:05,740 --> 00:05:11,310
+The anchored line basically shows support
+developed since that key moment you anchored
+
+71
+00:05:11,310 --> 00:05:12,400
+it to.
+
+72
+00:05:12,400 --> 00:05:17,800
+As long as buyers are still strong enough
+to keep bounces from falling below, you know
+
+73
+00:05:17,800 --> 00:05:20,710
+the trend is still in gear.
+
+74
+00:05:20,710 --> 00:05:25,169
+Looking for euphoric extremes is another way
+to use the anchored VWAP.
+
+75
+00:05:25,169 --> 00:05:30,400
+We've all seen those sky high price runs that
+seem unsustainable.
+
+76
+00:05:30,400 --> 00:05:35,050
+When the price gets waaay over the line, buying
+seems risky.
+
+77
+00:05:35,050 --> 00:05:41,900
+In this example, price hitting the third VWAP
+band is a clear signal it's running too hot.
+
+78
+00:05:41,900 --> 00:05:47,770
+In this case, you must avoid jumping in because
+the odds of a pullback are very high.
+
+79
+00:05:47,770 --> 00:05:54,280
+And for contrarian swing traders and risk
+takers, it sets up a sweet chance at a mean
+
+80
+00:05:54,280 --> 00:05:56,180
+reversion trade!
+
+81
+00:05:56,180 --> 00:06:02,180
+If you believe in technical analysis and that
+everything fluctuates around an average, well
+
+82
+00:06:02,180 --> 00:06:09,039
+once price moves that far above the VWAP,
+the math says it's "due" to a big pullback.
+
+83
+00:06:09,039 --> 00:06:14,500
+Betting on it coming back to more reasonable
+levels starts to make sense the more stretched
+
+84
+00:06:14,500 --> 00:06:16,580
+out it gets.
+
+85
+00:06:16,580 --> 00:06:20,360
+Obviously it takes some guts to fade that
+kind of momentum.
+
+86
+00:06:20,360 --> 00:06:26,180
+But scoping for extreme spreads between price
+and the anchored line is a good way to trade
+
+87
+00:06:26,180 --> 00:06:29,509
+some high probability reversal setups.
+
+88
+00:06:29,509 --> 00:06:35,620
+Patience is key though - no way I'd jump in
+to sell right at the top of that euphoria!
+
+89
+00:06:35,620 --> 00:06:40,830
+But having the anchored lines as guides, you
+can spot when something is overbought and
+
+90
+00:06:40,830 --> 00:06:43,139
+due for a breather.
+
+91
+00:06:43,139 --> 00:06:49,520
+The Anchored VWAP line can also be used to
+confirm trends and identify hidden areas of
+
+92
+00:06:49,520 --> 00:06:51,970
+supply or demand on the chart.
+
+93
+00:06:51,970 --> 00:06:57,060
+The big thing is we can set it anywhere that
+marks an important switch.
+
+94
+00:06:57,060 --> 00:07:02,900
+Before that point the trading might not tell
+us much since sentiment was different.
+
+95
+00:07:02,900 --> 00:07:08,849
+But once we select our "anchor" bar, that
+VWAP line will show us the true average price
+
+96
+00:07:08,849 --> 00:07:14,759
+based on the price action that happened after
+whatever event we chose.
+
+97
+00:07:14,759 --> 00:07:21,710
+From there it gets real simple - if the market
+stays mostly over the line like we see here,
+
+98
+00:07:21,710 --> 00:07:25,979
+we know buyers are in control of setting the
+market value.
+
+99
+00:07:25,979 --> 00:07:31,639
+And if it respects the line as support on
+dips, that's an even stronger sign buyers
+
+100
+00:07:31,639 --> 00:07:35,169
+are willing to hop in at "fair" prices.
+
+101
+00:07:35,169 --> 00:07:40,389
+Conversely, prolonged breaks below could mean
+sellers have power now.
+
+102
+00:07:40,389 --> 00:07:47,419
+Remember: the key is choosing the right starting
+point to reflect an actual shift in how traders
+
+103
+00:07:47,419 --> 00:07:49,000
+are thinking.
+
+104
+00:07:49,000 --> 00:07:54,539
+When anchored to the right moment, the line
+then becomes your guide for seeing hidden
+
+105
+00:07:54,539 --> 00:08:00,780
+levels where buying or selling finds support
+or turns the price around.
+
+106
+00:08:00,780 --> 00:08:02,229
+This indicator is versatile.
+
+107
+00:08:02,229 --> 00:08:08,199
+I use it mainly for swing trading, but if
+you’re day trading or scalping, its power
+
+108
+00:08:08,199 --> 00:08:09,840
+remains the same.
+
+109
+00:08:09,840 --> 00:08:13,900
+When you plot the standard VWAP, this line,
+you could see why you wouldn't get the full
+
+110
+00:08:13,900 --> 00:08:20,639
+picture - it drags in all that early choppiness
+before the real action kicked in.
+
+111
+00:08:20,639 --> 00:08:26,180
+But when dropping that anchored line at the
+morning low, everything suddenly became way
+
+112
+00:08:26,180 --> 00:08:27,660
+clearer!
+
+113
+00:08:27,660 --> 00:08:31,930
+That dip was obviously a turning point where
+buyers stepped up.
+
+114
+00:08:31,930 --> 00:08:38,669
+So zeroing in on just the data since then,
+the VWAP line perfectly mirrors how the price
+
+115
+00:08:38,669 --> 00:08:42,370
+has reacted going into the rest of the session.
+
+116
+00:08:42,370 --> 00:08:48,320
+If my plan was buying a dip at the average
+price line, I'd be way better off following
+
+117
+00:08:48,320 --> 00:08:49,620
+the anchored one.
+
+118
+00:08:49,620 --> 00:08:52,899
+I can totally see several buy zones with it.
+
+119
+00:08:52,899 --> 00:08:56,070
+The normal VWAP just doesn't have that precision.
+
+120
+00:08:56,070 --> 00:09:02,040
+I hope you see how well the anchored line
+fits the price action vs the default line.
+
+121
+00:09:02,040 --> 00:09:06,100
+So, what are the best places to anchor the
+line.
+
+122
+00:09:06,100 --> 00:09:10,760
+Like I said, choosing that starting anchor
+point is crucial.
+
+123
+00:09:10,760 --> 00:09:16,360
+It's gotta line up with a real shift in how
+most traders are viewing things, not just
+
+124
+00:09:16,360 --> 00:09:19,450
+some random spot in the middle of the chart.
+
+125
+00:09:19,450 --> 00:09:26,320
+Everyone seeing the same key moment is what'll
+make that line a meaningful support or resistance.
+
+126
+00:09:26,320 --> 00:09:31,780
+Think about it, if many are paying attention
+to the same place on the chart, there's bound
+
+127
+00:09:31,780 --> 00:09:36,220
+to be a crowd reaction when price gets back
+to that level.
+
+128
+00:09:36,220 --> 00:09:40,360
+Much more so than an arbitrarily dropped line
+or a common moving average.
+
+129
+00:09:40,360 --> 00:09:46,380
+So make sure the anchor it's at obvious turning
+point that others will recognize too.
+
+130
+00:09:46,380 --> 00:09:51,260
+The line has to start where the whole market's
+psychology changed.
+
+131
+00:09:51,260 --> 00:09:55,839
+I like to monitor volume to find the anchor
+point.
+
+132
+00:09:55,839 --> 00:10:02,079
+That metric reveals so much about what the
+big players are really doing under the surface.
+
+133
+00:10:02,079 --> 00:10:09,380
+A high volume candle shows there's legit interest
+building, whether it's bulls or bears in control.
+
+134
+00:10:09,380 --> 00:10:15,100
+Combining volume spikes with a price pump
+is the decent confirmation a new trend might
+
+135
+00:10:15,100 --> 00:10:17,269
+be kicking off.
+
+136
+00:10:17,269 --> 00:10:21,150
+Anchoring the VWAP there capitalizes on that
+shift.
+
+137
+00:10:21,150 --> 00:10:27,070
+The line immediately highlighted several clean
+dips you could have hopped in for a quick
+
+138
+00:10:27,070 --> 00:10:28,820
+scalp upwards.
+
+139
+00:10:28,820 --> 00:10:32,150
+Chasing volume surges is a sweet day trading
+approach.
+
+140
+00:10:32,150 --> 00:10:39,899
+Let the big money lead the way to find legit
+breakouts, then play the anchored VWAP bounces
+
+141
+00:10:39,899 --> 00:10:44,290
+for short rides back up as it regains steam.
+
+142
+00:10:44,290 --> 00:10:50,029
+Way better than random guesses about support
+- this lets the market tell you exactly where
+
+143
+00:10:50,029 --> 00:10:51,880
+it's at.
+
+144
+00:10:51,880 --> 00:10:57,980
+Using the anchored VWAP at major swings to
+find reversal and bounce plays is another
+
+145
+00:10:57,980 --> 00:10:59,040
+strategy.
+
+146
+00:10:59,040 --> 00:11:03,940
+More specifically, I prefer to look for the
+first pullback to the line.
+
+147
+00:11:03,940 --> 00:11:07,390
+That has the greatest potential for a VWAP
+bounce.
+
+148
+00:11:07,390 --> 00:11:13,350
+Just looking for highs and lows is one thing,
+but layering in the average price context
+
+149
+00:11:13,350 --> 00:11:14,830
+blows it wide open.
+
+150
+00:11:14,830 --> 00:11:21,670
+Plotting them at clear swing highs and lows
+really brings hidden levels to light.
+
+151
+00:11:21,670 --> 00:11:27,910
+Just look here: those anchor lines unveil
+hidden demand and supply zones that rookie
+
+152
+00:11:27,910 --> 00:11:30,430
+traders definitely miss.
+
+153
+00:11:30,430 --> 00:11:36,950
+Especially on that first pullback after plotting
+the anchor - textbook short term setup right
+
+154
+00:11:36,950 --> 00:11:38,680
+back to demand.
+
+155
+00:11:38,680 --> 00:11:43,130
+And then seeing it work the same way shorting
+off at supply.
+
+156
+00:11:43,130 --> 00:11:48,300
+These hidden support/resistance zones are
+gold for swing trades.
+
+157
+00:11:48,300 --> 00:11:53,700
+Scaling it down to intraday swings uncovers
+even more entries.
+
+158
+00:11:53,700 --> 00:11:59,790
+Another pro move is plotting anchored VWAP
+at earnings or dividend reports, for stock
+
+159
+00:11:59,790 --> 00:12:06,010
+trading, or after major releases, like Non-Farm
+Payrolls for Forex trading.
+
+160
+00:12:06,010 --> 00:12:12,029
+Those are perfect inflection points where
+the whole outlook could flip, so zeroing in
+
+161
+00:12:12,029 --> 00:12:17,470
+on the before and after gives you a tailored
+view of the sentiment shift.
+
+162
+00:12:17,470 --> 00:12:23,089
+Those are obviously pivotal moments that can
+swing a market either way depending on how
+
+163
+00:12:23,089 --> 00:12:24,600
+the numbers look.
+
+164
+00:12:24,600 --> 00:12:31,010
+Here on Nvidia, we anchored the VWAP on the
+most 2 recent dividend reports.
+
+165
+00:12:31,010 --> 00:12:37,420
+Even though price traded above and below the
+first line, you could totally see it respecting
+
+166
+00:12:37,420 --> 00:12:38,870
+that level.
+
+167
+00:12:38,870 --> 00:12:46,000
+The second anchor kicks off a clear bull phase
+as buyers took over above the line.
+
+168
+00:12:46,000 --> 00:12:50,339
+Seeing the reaction so clearly with this tool
+is game changing.
+
+169
+00:12:50,339 --> 00:12:52,120
+It makes swing trading a lot easier.
+
+170
+00:12:52,120 --> 00:12:53,790
+So start watching those report dates closer.
+
+171
+00:12:53,790 --> 00:12:59,980
+Another awesome way to use anchored VWAP is
+around the daily or weekly ranges.
+
+172
+00:12:59,980 --> 00:13:05,500
+Placing the anchor at previous highs and lows
+from the last weeks will give you several
+
+173
+00:13:05,500 --> 00:13:09,010
+relevant levels, that aren't always plain
+to see.
+
+174
+00:13:09,010 --> 00:13:15,160
+With these anchors plotted, any retest suddenly
+becomes loaded with potential.
+
+175
+00:13:15,160 --> 00:13:18,769
+Much more so than just watching naked highs
+and lows on the chart.
+
+176
+00:13:18,769 --> 00:13:25,630
+It’s a really smart way to identify premium
+opportunities when price is testing those
+
+177
+00:13:25,630 --> 00:13:27,550
+"value areas".
+
+178
+00:13:27,550 --> 00:13:33,350
+Having those levels mapped out will help you
+recognize congestion areas and will give you
+
+179
+00:13:33,350 --> 00:13:39,389
+an early heads up on potential reversals or
+price continuations.
+
+180
+00:13:39,389 --> 00:13:44,870
+Whether you end up taking a trade off them
+or not, the added context they provide is
+
+181
+00:13:44,870 --> 00:13:45,870
+invaluable.
+
+182
+00:13:45,870 --> 00:13:53,079
+I've noticed myself picking up on market structure
+and analyzing reactions in a whole new light
+
+183
+00:13:53,079 --> 00:13:55,310
+since incorporating this approach.
+
+184
+00:13:55,310 --> 00:14:00,810
+The Anchored VWAP is truly the perfect blend
+of all the key factors that drive markets
+
+185
+00:14:00,810 --> 00:14:03,980
+- price, volume and time.
+
+186
+00:14:03,980 --> 00:14:09,380
+And the flexibility to drop it anywhere you
+see fit opens up so many new ways to analyze
+
+187
+00:14:09,380 --> 00:14:09,382
+a chart.
+

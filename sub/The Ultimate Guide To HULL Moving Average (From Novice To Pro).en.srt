@@ -1,0 +1,613 @@
+1
+00:00:00,989 --> 00:00:05,709
+Most of Forex or stock market traders, in
+one form or another, use different types of
+
+2
+00:00:05,709 --> 00:00:07,959
+moving averages while trading.
+
+3
+00:00:07,959 --> 00:00:12,980
+But the main problem of all indicators built
+on the mathematics of averages is the lagging
+
+4
+00:00:12,980 --> 00:00:14,469
+factor.
+
+5
+00:00:14,469 --> 00:00:18,500
+Traders use indicators based on averages to
+build dynamic lines of support/resistance
+
+6
+00:00:18,500 --> 00:00:22,790
+and to evaluate the strength of price momentum.
+
+7
+00:00:22,790 --> 00:00:28,119
+Their main disadvantage lies in the method
+of calculation: since moving averages are
+
+8
+00:00:28,119 --> 00:00:35,700
+calculated based on past prices (for a certain
+period of time or number of bars), the calculated
+
+9
+00:00:35,700 --> 00:00:42,120
+line reduces price fluctuations, but will
+always lag behind real price.
+
+10
+00:00:42,120 --> 00:00:46,970
+For this reason, Alan Hull, an Australian
+financial analyst and trader, proposed an
+
+11
+00:00:46,970 --> 00:00:52,750
+improved version of the moving average, providing
+smooth indicators in the construction and
+
+12
+00:00:52,750 --> 00:00:57,220
+almost completely eliminating the negative
+effect of lagging.
+
+13
+00:00:57,220 --> 00:01:01,690
+The hull moving average is an extremely fast
+and smooth moving average.
+
+14
+00:01:01,690 --> 00:01:09,590
+In fact, the HMA almost eliminates lag altogether
+and manages to improve smoothing at the same
+
+15
+00:01:09,590 --> 00:01:10,600
+time.
+
+16
+00:01:10,600 --> 00:01:15,939
+Its calculation is rather complex but I’ll
+try to keep it simple, so you’ll understand
+
+17
+00:01:15,939 --> 00:01:20,299
+why this type of moving average is better
+than the classic ones.
+
+18
+00:01:20,299 --> 00:01:25,119
+The hull moving average formula makes use
+of the weighted moving average (wma).
+
+19
+00:01:25,119 --> 00:01:32,200
+It emphasizes recent prices over older ones,
+resulting in a fast-acting yet smooth moving
+
+20
+00:01:32,200 --> 00:01:36,090
+average that can be used to identify the prevailing
+market trend.
+
+21
+00:01:36,090 --> 00:01:43,639
+The HMA employs weighted moving averages and
+dampens the smoothing effect (and resulting
+
+22
+00:01:43,639 --> 00:01:51,630
+lag) by using the square root of the period
+instead of the actual period itself.
+
+23
+00:01:51,630 --> 00:01:56,549
+For clarity of the analysis, let’s compare
+the hull moving average indicator with a simple
+
+24
+00:01:56,549 --> 00:01:57,549
+moving average.
+
+25
+00:01:57,549 --> 00:02:03,100
+So we added a 20 period simple moving average
+and a 20 period hull moving average.
+
+26
+00:02:03,100 --> 00:02:09,950
+First, you immediately notice that the hull
+ma is faster than the simple moving average.
+
+27
+00:02:09,950 --> 00:02:15,720
+Also, is more reactive to price action, because
+it has less lag.
+
+28
+00:02:15,720 --> 00:02:21,840
+The simple moving average is way behind the
+hull one, with delayed entries and exits.
+
+29
+00:02:21,840 --> 00:02:28,520
+The hull ma is providing signals well ahead
+as compared to the simple moving average indicator.
+
+30
+00:02:28,520 --> 00:02:32,410
+How to use hull ma?
+
+31
+00:02:32,410 --> 00:02:37,030
+For those who use price action to trade the
+markets, there are mixed opinion about the
+
+32
+00:02:37,030 --> 00:02:38,790
+use of moving averages.
+
+33
+00:02:38,790 --> 00:02:42,900
+I mean, why would you use them if price is
+your indicator?
+
+34
+00:02:42,900 --> 00:02:48,680
+Well, let me explain why the hull ma can add
+to your trading arsenal.
+
+35
+00:02:48,680 --> 00:02:56,530
+I use hull moving averages in two basic ways:
+– to identify a change in trend or the strength
+
+36
+00:02:56,530 --> 00:02:58,040
+of a trend.
+
+37
+00:02:58,040 --> 00:03:01,290
+– as dynamic levels of support and resistance.
+
+38
+00:03:01,290 --> 00:03:07,580
+Hull mas can provide insight to possible trend
+changes as well as showing traders an indication
+
+39
+00:03:07,580 --> 00:03:10,770
+of the strength of an existing trend.
+
+40
+00:03:10,770 --> 00:03:15,280
+Using a hull ma to determine the trend of
+an instrument is great… during trending
+
+41
+00:03:15,280 --> 00:03:22,100
+moments, but during consolidation periods,
+relying on mas all-too-often causes traders
+
+42
+00:03:22,100 --> 00:03:24,830
+to get whipped out of trades.
+
+43
+00:03:24,830 --> 00:03:29,070
+But we’ll discuss more on that later.
+
+44
+00:03:29,070 --> 00:03:33,010
+How this indicator works:
+First, to define a trend:
+
+45
+00:03:33,010 --> 00:03:37,530
+A longer period hull ma may be used to identify
+trend.
+
+46
+00:03:37,530 --> 00:03:44,420
+If the hull ma is rising, the prevailing trend
+is rising, indicating it may be better to
+
+47
+00:03:44,420 --> 00:03:45,870
+enter long positions.
+
+48
+00:03:45,870 --> 00:03:52,320
+If the hull ma is falling, the prevailing
+trend is also falling, indicating it may be
+
+49
+00:03:52,320 --> 00:03:55,200
+better to enter short positions.
+
+50
+00:03:55,200 --> 00:04:08,510
+Here are a few examples, based on price action
+and a hull moving average.
+
+51
+00:04:08,510 --> 00:04:22,280
+So, the change of slope of the hull moving
+average indicator tells you to be ready to
+
+52
+00:04:22,280 --> 00:04:23,530
+buy or sell.
+
+53
+00:04:23,530 --> 00:04:27,150
+If the slope starts to point up, get ready
+to buy.
+
+54
+00:04:27,150 --> 00:04:30,750
+If the slope starts to point down, get ready
+to sell.
+
+55
+00:04:30,750 --> 00:04:37,880
+In fact, i would say the hull ma works even
+better as a reversal filter, and, therefore,
+
+56
+00:04:37,880 --> 00:04:43,319
+its exit signals are more reliable at times
+than the entry.
+
+57
+00:04:43,319 --> 00:04:47,180
+Now what about when the price crosses above
+and below the moving average?
+
+58
+00:04:47,180 --> 00:04:53,379
+I saw a lot of traders trading the hull ma
+in a wrong way, trying to scalp or day trade
+
+59
+00:04:53,379 --> 00:04:55,930
+when the price crossed above and below the
+ma.
+
+60
+00:04:55,930 --> 00:05:02,030
+Here’s an important tip: the "breakthrough"
+by the price of the line of the hull moving
+
+61
+00:05:02,030 --> 00:05:07,000
+average indicator itself shouldn’t be perceived
+as the market signal.
+
+62
+00:05:07,000 --> 00:05:12,469
+Because of the small lag, it is difficult
+to generate buy/sell signals on the crossovers
+
+63
+00:05:12,469 --> 00:05:15,190
+of hull ma and price.
+
+64
+00:05:15,190 --> 00:05:17,960
+Have a look at this example of a strong trend.
+
+65
+00:05:17,960 --> 00:05:22,599
+Let’s consider that you aim to sell every
+time the price crosses the hull moving average
+
+66
+00:05:22,599 --> 00:05:24,080
+to the downside.
+
+67
+00:05:24,080 --> 00:05:28,889
+Although you are protected in a small way
+by the strong trend, you see that the signals
+
+68
+00:05:28,889 --> 00:05:31,169
+are not as accurate.
+
+69
+00:05:31,169 --> 00:05:35,729
+The price cuts through the moving average
+with ease, practically stopping out the traders
+
+70
+00:05:35,729 --> 00:05:38,379
+on the other side of the moving average.
+
+71
+00:05:38,379 --> 00:05:42,909
+But if you just followed the slope of the
+hull ma like i said before, you wouldn’t
+
+72
+00:05:42,909 --> 00:05:47,870
+need to enter so many times in the market,
+because the slope was pointing down the whole
+
+73
+00:05:47,870 --> 00:05:48,870
+time.
+
+74
+00:05:48,870 --> 00:05:53,759
+You got in the trade once, captured the move
+and got out when the hook of the moving average
+
+75
+00:05:53,759 --> 00:05:55,599
+turned upwards.
+
+76
+00:05:55,599 --> 00:05:59,219
+And that’s the positive scenario, of a trending
+market.
+
+77
+00:05:59,219 --> 00:06:04,650
+Look what happens when you want to trade price
+crossovers of the hull ma in a range.
+
+78
+00:06:04,650 --> 00:06:06,610
+Things can get ugly pretty quick.
+
+79
+00:06:06,610 --> 00:06:09,529
+Look at how many false signals this strategy
+offered.
+
+80
+00:06:09,529 --> 00:06:11,620
+It’s a trader’s nightmare.
+
+81
+00:06:11,620 --> 00:06:15,800
+As soon as you enter a trade, it immediately
+retraces in the opposite direction.
+
+82
+00:06:15,800 --> 00:06:21,259
+So, if you want to preserve your capital in
+long run, avoid trading crossovers between
+
+83
+00:06:21,259 --> 00:06:24,940
+the price and hull ma.
+
+84
+00:06:24,940 --> 00:06:28,840
+What about the crossover between 2 hull moving
+averages?
+
+85
+00:06:28,840 --> 00:06:31,219
+I would ignore those signals also.
+
+86
+00:06:31,219 --> 00:06:35,440
+If you watched my other moving averages videos
+on my channel, you know that I’m not a big
+
+87
+00:06:35,440 --> 00:06:40,289
+fan of crossovers, because in the long term,
+they will slowly diminish your account.
+
+88
+00:06:40,289 --> 00:06:45,660
+Yes, there are traders that rely exclusively
+on moving average crossovers, but I’m not
+
+89
+00:06:45,660 --> 00:06:47,499
+one of them, I’ve experienced more losers
+than winners trying to come up with a magic
+
+90
+00:06:47,499 --> 00:06:48,499
+crossover.
+
+91
+00:06:48,499 --> 00:06:52,780
+So let’s take a look at some charts to see
+what a crossover of 2 hull ma tells us.
+
+92
+00:06:52,780 --> 00:07:00,749
+We added a short term one, a 7 hull ma and
+a longer term one, a 50 hull ma.
+
+93
+00:07:00,749 --> 00:07:04,409
+First scenario: trading crossovers on trending
+markets.
+
+94
+00:07:04,409 --> 00:07:06,319
+So, what do we see?
+
+95
+00:07:06,319 --> 00:07:12,639
+Yes, a couple of good signals, but if you
+missed the good ones and entered here, for
+
+96
+00:07:12,639 --> 00:07:15,469
+example, you got stopped out quickly.
+
+97
+00:07:15,469 --> 00:07:17,599
+Too many bad signals.
+
+98
+00:07:17,599 --> 00:07:19,330
+What about ranging markets?
+
+99
+00:07:19,330 --> 00:07:25,439
+Well, it’s almost impossible to be consistent
+trading crossovers when there isn’t a trend.
+
+100
+00:07:25,439 --> 00:07:30,080
+I don’t see how you could avoid all these
+false signals and have a positive balance
+
+101
+00:07:30,080 --> 00:07:32,129
+at the end of the trading session.
+
+102
+00:07:32,129 --> 00:07:37,759
+How i would trade with 2 hull ma on my chart?
+
+103
+00:07:37,759 --> 00:07:41,050
+I told you before: the slope is all you need.
+
+104
+00:07:41,050 --> 00:07:46,939
+You have the long term 50 ma, and the short
+term ma, the 7 period,
+
+105
+00:07:46,939 --> 00:07:51,900
+The shorter period hull ma may be used for
+entry signals in the direction of the prevailing
+
+106
+00:07:51,900 --> 00:07:52,900
+trend.
+
+107
+00:07:52,900 --> 00:07:59,039
+A long entry signal, when the prevailing trend
+is rising, occurs when the 7 hull ma turns
+
+108
+00:07:59,039 --> 00:08:05,729
+up, and a short entry signal, when the prevailing
+trend is falling, occurs when the 7 hull ma
+
+109
+00:08:05,729 --> 00:08:06,800
+turns down.
+
+110
+00:08:06,800 --> 00:08:14,189
+You don’t search for crossovers; you search
+for both the ma to indicate the same direction.
+
+111
+00:08:14,189 --> 00:08:20,610
+So if the 50hull ma is pointing upwards, you
+carefully watch for the hook of the 7 ma to
+
+112
+00:08:20,610 --> 00:08:22,169
+shift upward.
+
+113
+00:08:22,169 --> 00:08:23,169
+Is this strategy perfect?
+
+114
+00:08:23,169 --> 00:08:27,909
+Of course not, but you’ll enter the trade
+early, compared to a crossover.
+
+115
+00:08:27,909 --> 00:08:33,080
+Also, it goes without saying, but you should
+aim to trade during trending scenarios.
+
+116
+00:08:33,080 --> 00:08:39,959
+So always look for higher higher and higher
+lows, and lower lows and lower highs.
+
+117
+00:08:39,959 --> 00:08:55,449
+Here are a few examples of potential entries
+using 2 moving averages.
+
+118
+00:08:55,449 --> 00:09:11,170
+Now, a serious drawback of hull moving average
+is the fact that as a moving average indicator
+
+119
+00:09:11,170 --> 00:09:13,790
+is not quite consistent with reality.
+
+120
+00:09:13,790 --> 00:09:19,300
+If you are accustomed to using standard moving
+averages for trends searching, the HMA indicator
+
+121
+00:09:19,300 --> 00:09:24,530
+will not be a full replacement: it shows only
+the general direction of market trend, but
+
+122
+00:09:24,530 --> 00:09:29,470
+it is completely unclear when it is safe (and
+profitable) to open a trade.
+
+123
+00:09:29,470 --> 00:09:34,490
+Adding the HMA only tells you that you can
+safely open a short position when its slope
+
+124
+00:09:34,490 --> 00:09:37,580
+is down and a long trade when the slope is
+up.
+
+125
+00:09:37,580 --> 00:09:43,720
+That’s why hull moving average indicator
+without additional filters is not recommended.
+
+126
+00:09:43,720 --> 00:09:49,029
+As always rely first on price action, support
+and resistance, and then confirm your bias
+
+127
+00:09:49,029 --> 00:09:50,530
+with the hull ma.
+
+128
+00:09:50,530 --> 00:09:55,459
+If you found value in this video, consider
+subscribing to our channel and hit the bell
+
+129
+00:09:55,459 --> 00:09:59,829
+icon so you’ll be notified each time we
+upload and also, don’t forget to leave us
+
+130
+00:09:59,829 --> 00:10:02,430
+a like to show your support.
+
+131
+00:10:02,430 --> 00:10:02,860
+Until next time.
+

@@ -1,0 +1,21 @@
+# Trading Strategy Backtesting Requirements
+# Install with: pip install -r requirements.txt
+
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Technical Analysis
+pandas-ta>=0.3.14b
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.15.0
+seaborn>=0.12.0
+
+# Utilities
+tabulate>=0.9.0
+tqdm>=4.65.0
+
+# For reports
+jinja2>=3.1.0

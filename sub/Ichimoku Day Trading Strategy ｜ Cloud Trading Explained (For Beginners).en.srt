@@ -1,0 +1,456 @@
+1
+00:00:00,940 --> 00:00:05,291
+Hello guys, in today’s video we’ll discuss
+about the Ichimoku indicator, I’ll show
+
+2
+00:00:05,291 --> 00:00:09,200
+you how to correctly read and take signals
+with this indicator and we’ll also see some
+
+3
+00:00:09,200 --> 00:00:13,679
+tips on how we can improve our winning ration
+by trading the Ichimoku cloud.
+
+4
+00:00:13,679 --> 00:00:20,000
+An Ichimoku chart is a trend-following system
+with an indicator similar to moving averages.
+
+5
+00:00:20,000 --> 00:00:25,040
+Ichimoku is one of the trading indicators
+that predicts price movement and not only
+
+6
+00:00:25,040 --> 00:00:26,590
+measures it.
+
+7
+00:00:26,590 --> 00:00:31,520
+The advantage of the indicator is the fact
+that offers a unique perspective of support
+
+8
+00:00:31,520 --> 00:00:33,450
+and resistance.
+
+9
+00:00:33,450 --> 00:00:40,149
+For most traders, Ichimoku might seem complicated,
+but once you get familiar with how to interpret
+
+10
+00:00:40,149 --> 00:00:43,620
+the charts you’ll spot great trading signals.
+
+11
+00:00:43,620 --> 00:00:49,010
+I’ll try to keep things short and simple,
+so we don’t overcomplicate things.
+
+12
+00:00:49,010 --> 00:00:52,149
+First, we have the conversion line.
+
+13
+00:00:52,149 --> 00:00:56,129
+This is a short-term line also known as the
+turning line.
+
+14
+00:00:56,129 --> 00:00:59,829
+This signals an area of minor support or resistance.
+
+15
+00:00:59,829 --> 00:01:06,550
+So, if you’re all about short term and scalping,
+follow the conversion line.
+
+16
+00:01:06,550 --> 00:01:08,750
+Second, we have the base line.
+
+17
+00:01:08,750 --> 00:01:14,180
+Is also known as the confirmation line and
+serves as a signal for support and resistance
+
+18
+00:01:14,180 --> 00:01:16,330
+levels on medium term.
+
+19
+00:01:16,330 --> 00:01:19,900
+Some traders use base line as a trailing stop
+level.
+
+20
+00:01:19,900 --> 00:01:26,970
+Then, we have the lagging span, also known
+as the lagging line, used for confirmation
+
+21
+00:01:26,970 --> 00:01:28,520
+of signals.
+
+22
+00:01:28,520 --> 00:01:32,410
+Lagging span can also serve as a support and
+resistance level.
+
+23
+00:01:32,410 --> 00:01:37,950
+Then, maybe the most important tool of Ichimoku
+indicator, we have the Kumo cloud.
+
+24
+00:01:37,950 --> 00:01:43,720
+I don’t want to bore you with numbers and
+periods based on which the cloud is calculated,
+
+25
+00:01:43,720 --> 00:01:52,500
+all you need to know that is formed from 2
+lines ( span a and span b), which act as major
+
+26
+00:01:52,500 --> 00:01:57,210
+areas of dynamic support and resistance.
+
+27
+00:01:57,210 --> 00:02:03,090
+Now that we saw the main components, let’s
+see how you should read the Ichimoku indicator:
+
+28
+00:02:03,090 --> 00:02:07,030
+As i said before, the conversion line measures
+short-term price movement
+
+29
+00:02:07,030 --> 00:02:13,870
+• if the market price is above the conversion
+line, this suggests a short-term upward momentum
+
+30
+00:02:13,870 --> 00:02:20,340
+• if the price is below conversion line,
+this suggests a short-term downward momentum
+
+31
+00:02:20,340 --> 00:02:25,180
+• an increasing conversion line indicates
+an upward trend
+
+32
+00:02:25,180 --> 00:02:29,950
+• a decreasing conversion line indicates
+a downward trend
+
+33
+00:02:29,950 --> 00:02:37,141
+Now, the base line represents medium-term
+price movement – also known as the confirmation
+
+34
+00:02:37,141 --> 00:02:38,960
+line
+• if the market price is above the base
+
+35
+00:02:38,960 --> 00:02:47,361
+line, this suggests a medium-term upward momentum
+• if the price is below base line, this
+
+36
+00:02:47,361 --> 00:02:55,140
+suggests a medium-term downward momentum
+• an increasing base line indicates an upward
+
+37
+00:02:55,140 --> 00:02:59,790
+trend
+• a decreasing base line indicates a downward
+
+38
+00:02:59,790 --> 00:03:04,569
+trend
+Next is the lagging span.
+
+39
+00:03:04,569 --> 00:03:09,770
+This line indicates the big-picture of the
+trend (the evolution of the current price
+
+40
+00:03:09,770 --> 00:03:15,200
+action in relation to previous price action)
+• when lagging span is above the current
+
+41
+00:03:15,200 --> 00:03:21,230
+price, this indicates that current prices
+are higher than previously, and suggest a
+
+42
+00:03:21,230 --> 00:03:25,150
+bullish bias
+• when lagging span is below the current
+
+43
+00:03:25,150 --> 00:03:31,570
+price, this indicates that current prices
+are lower than previously, and suggest a bearish
+
+44
+00:03:31,570 --> 00:03:35,599
+bias
+• when lagging span is near the current
+
+45
+00:03:35,599 --> 00:03:44,240
+price, this indicates a trading range
+And finally the Kumo, plotted as a cloud,
+
+46
+00:03:44,240 --> 00:03:49,780
+indicates dynamic support and resistance,
+based upon price action.
+
+47
+00:03:49,780 --> 00:03:56,200
+• the longer the price stays below/above
+the Kumo cloud, the stronger the trend is
+
+48
+00:03:56,200 --> 00:04:03,109
+• when the cloud is wide, the expected support
+or resistance is strong.
+
+49
+00:04:03,109 --> 00:04:09,720
+• when the cloud is thin, the expected support/resistance
+is weak.
+
+50
+00:04:09,720 --> 00:04:16,229
+• you should never trade inside the Kumo
+cloud, very important rule
+
+51
+00:04:16,229 --> 00:04:21,380
+Now let’s see, how we can trade with Ichimoku
+based on what we’ve learned so far:
+
+52
+00:04:21,380 --> 00:04:28,530
+The first strategy involves base line – conversion
+line crossover, with the lagging line as filter
+
+53
+00:04:28,530 --> 00:04:34,060
+The crossover between base line and conversion
+line can offer trading opportunities, in a
+
+54
+00:04:34,060 --> 00:04:37,729
+similar fashion to a moving average crossover.
+
+55
+00:04:37,729 --> 00:04:43,560
+• when fast-moving base line crosses above
+the slower-moving conversion line, we have
+
+56
+00:04:43,560 --> 00:04:48,290
+a buy signal
+• when fast-moving base line crosses below
+
+57
+00:04:48,290 --> 00:04:53,380
+the slower-moving conversion line, we have
+a sell signal
+
+58
+00:04:53,380 --> 00:04:58,490
+We could filter the signals received with
+the lagging span, for safer entries.
+
+59
+00:04:58,490 --> 00:05:04,130
+Thus, we could only take positions that are
+in line with the overall trend.
+
+60
+00:05:04,130 --> 00:05:10,510
+• if base line crosses above conversion
+line, you would only buy if the lagging span
+
+61
+00:05:10,510 --> 00:05:16,280
+indicates a bullish bias.
+• if base line crosses below conversion
+
+62
+00:05:16,280 --> 00:05:22,500
+line,, you would only sell if the lagging
+span indicates a bearish bias.
+
+63
+00:05:22,500 --> 00:05:29,280
+Another similar strategy involves the base
+line conversion line crossover ( but the filtering
+
+64
+00:05:29,280 --> 00:05:33,270
+technique takes the Ichimoku Kumo cloud into
+consideration)
+
+65
+00:05:33,270 --> 00:05:39,060
+• when base line crosses above the slower-moving
+conversion line, above the Kumo cloud, we
+
+66
+00:05:39,060 --> 00:05:44,690
+have a strong buy signal
+• when base line crosses above the conversion
+
+67
+00:05:44,690 --> 00:05:48,969
+line, below the Kumo cloud, we have a weak
+buy signal
+
+68
+00:05:48,969 --> 00:05:58,090
+• when base line crosses below the conversion
+line, below the Kumo cloud, we have a strong
+
+69
+00:05:58,090 --> 00:06:03,330
+sell signal
+• when base line crosses below the conversion
+
+70
+00:06:03,330 --> 00:06:10,460
+line, above the Kumo cloud, we have a weak
+sell signal
+
+71
+00:06:10,460 --> 00:06:13,760
+Another trading technique involves the Kumo
+cloud breakout
+
+72
+00:06:13,760 --> 00:06:19,570
+This signal occurs when the price cuts through
+the Kumo cloud.
+
+73
+00:06:19,570 --> 00:06:26,169
+• when the price enters the Kumo cloud and
+breaks its upper wall upward, we have a bullish
+
+74
+00:06:26,169 --> 00:06:31,930
+signal
+• when the price enters the Kumo and breaks
+
+75
+00:06:31,930 --> 00:06:38,440
+its lower wall downward, we have a bearish
+signal
+
+76
+00:06:38,440 --> 00:06:44,260
+The crossover between span lines forming the
+cloud is another trading strategy used by
+
+77
+00:06:44,260 --> 00:06:48,010
+traders, in a similar fashion to a moving
+average crossover.
+
+78
+00:06:48,010 --> 00:06:54,340
+However, we must take into consideration that
+the lines of the cloud are projected forward
+
+79
+00:06:54,340 --> 00:06:57,000
+by 26 periods.
+
+80
+00:06:57,000 --> 00:07:04,139
+• when span a of the Kumo cloud cuts the
+span b from the below to the upside, and prices
+
+81
+00:07:04,139 --> 00:07:09,300
+are positioned above the Kumo cloud, we have
+a strong buy signal
+
+82
+00:07:09,300 --> 00:07:18,900
+• when span a cuts the span b from the upside
+to the bottom, and prices are positioned below
+
+83
+00:07:18,900 --> 00:07:27,850
+the Kumo cloud, we have a strong sell signal
+• when span a cuts the span b from the bottom
+
+84
+00:07:27,850 --> 00:07:34,830
+to the upside, and prices are positioned below
+the Kumo, we have a weak buy signal
+
+85
+00:07:34,830 --> 00:07:44,240
+• when span a cuts the span b from the upside
+to the bottom, and prices are positioned above
+
+86
+00:07:44,240 --> 00:07:52,569
+the Kumo, we have a weak sell signal
+All in all, the Ichimoku is an interesting
+
+87
+00:07:52,569 --> 00:07:58,340
+indicator, excellent at offering dynamic support
+and resistance levels.
+
+88
+00:07:58,340 --> 00:08:04,020
+Its main advantage is the fact that is good
+at measuring the direction and intensity of
+
+89
+00:08:04,020 --> 00:08:05,970
+the current market trend.
+
+90
+00:08:05,970 --> 00:08:11,970
+Just be careful and use it in trending conditions,
+because during non-trending markets it will
+
+91
+00:08:11,970 --> 00:08:15,500
+offer a lot of false signals.
+
+92
+00:08:15,500 --> 00:08:20,069
+If you got any value from this, please consider
+subscribing to our channel, share and like
+
+93
+00:08:20,069 --> 00:08:24,520
+this video, as it would help us a lot in the
+future.
+
+94
+00:08:24,520 --> 00:08:25,379
+Until next time.
+

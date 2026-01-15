@@ -1,0 +1,1342 @@
+1
+00:00:00,320 --> 00:00:06,560
+Building trading bots and indicators used 
+to be for tech geniuses. Well, not anymore! 
+
+2
+00:00:06,560 --> 00:00:10,960
+I have zero coding experience 
+and I’m creating my OWN trading  
+
+3
+00:00:10,960 --> 00:00:17,840
+bots in TradingView… in just a few minutes!
+So today I want to help you create and optimize  
+
+4
+00:00:17,840 --> 00:00:25,680
+your own indicators and strategies in Tradingview, 
+using AI, without any experience in programming! 
+
+5
+00:00:25,680 --> 00:00:27,680
+THIS is the ultimate shortcut to smarter trading!
+ 
+So let me walk you through the  
+
+6
+00:00:27,680 --> 00:00:32,560
+entire process step by step.
+I’m using Claude AI on Poe app,  
+
+7
+00:00:32,560 --> 00:00:38,320
+but you can use any AI model you like.
+I sometimes switch to Deepseek or O1  
+
+8
+00:00:38,320 --> 00:00:43,920
+models when I get several errors in a 
+row, but the process remains the same. 
+
+9
+00:00:43,920 --> 00:00:48,480
+Let’s start with the most critical 
+part: crafting the starting prompt. 
+
+10
+00:00:48,480 --> 00:00:54,960
+Your trading bot's capabilities depend entirely 
+on how well you structure these instructions! 
+
+11
+00:00:54,960 --> 00:01:00,640
+So first let's create a prompt that 
+turns your AI into a trading agent. 
+
+12
+00:01:00,640 --> 00:01:07,280
+Use this prompt: “I want you to be my trading 
+assistant. You're an expert in trading and coding,  
+
+13
+00:01:07,280 --> 00:01:13,520
+especially Pine Script 6 for TradingView. You 
+can create any indicator or strategy I need,  
+
+14
+00:01:13,520 --> 00:01:18,320
+with clean code and few errors.”
+ 
+Ok, now let's make your assistant  
+
+15
+00:01:18,320 --> 00:01:24,320
+even smarter by feeding it more information 
+about your specific trading preferences. This  
+
+16
+00:01:24,320 --> 00:01:30,960
+step is crucial for making the AI truly yours.
+Tell your bot about your preferred markets:  
+
+17
+00:01:30,960 --> 00:01:37,680
+do you prefer trading stocks, forex, crypto?
+Tell your bot about your typical timeframes: do  
+
+18
+00:01:37,680 --> 00:01:44,480
+you enjoy scalping, day trading or swing trading?
+You’ll also mention your risk tolerance, your  
+
+19
+00:01:44,480 --> 00:01:51,840
+trading style, like trend following or breakouts.
+For instance, you might say: "I primarily swing  
+
+20
+00:01:51,840 --> 00:01:58,000
+trade stocks using price action methods 
+on 4 hour charts. I prefer to use minimal  
+
+21
+00:01:58,000 --> 00:02:03,520
+indicators and focus on market structure."
+The more context you provide, the more  
+
+22
+00:02:03,520 --> 00:02:08,320
+tailored the advice becomes.
+ 
+ 
+ 
+After creating your assistant,  
+
+23
+00:02:08,320 --> 00:02:15,120
+it's time to see if it works as expected.
+Let’s start with something easy. I use exponential  
+
+24
+00:02:15,120 --> 00:02:22,880
+moving averages a lot in my trading, and I want to 
+ask my AI assistant to help me color-code an EMA. 
+
+25
+00:02:22,880 --> 00:02:27,520
+I want it green when price is above 
+it, and red when price is below it. 
+
+26
+00:02:27,520 --> 00:02:34,240
+We'll ask it to modify the basic EMA code 
+to change colors based on price position. 
+
+27
+00:02:34,240 --> 00:02:40,880
+Now we'll copy the standard EMA code from 
+TradingView and paste it into our chat. 
+
+28
+00:02:40,880 --> 00:02:47,040
+Then we’ll wait for the assistant to do its magic.
+Nothing groundbreaking yet, we're just making that  
+
+29
+00:02:47,040 --> 00:02:51,040
+information more visible.
+Okey, we’ve got our code. 
+
+30
+00:02:51,040 --> 00:02:56,800
+Now let’s implement it in TradingView.
+You open your TradingView chart and look for the  
+
+31
+00:02:56,800 --> 00:03:02,880
+Pine Editor button at the bottom of your screen.
+Click it to open the coding interface. When the  
+
+32
+00:03:02,880 --> 00:03:07,760
+editor opens, you'll see a blank 
+canvas or some template code. 
+
+33
+00:03:07,760 --> 00:03:13,120
+You just click on "New" and select 
+"Indicator" from the dropdown menu. 
+
+34
+00:03:13,120 --> 00:03:18,960
+This creates a fresh Pine Script file. 
+Don’t forget to delete any template code,  
+
+35
+00:03:18,960 --> 00:03:26,160
+then paste the code your AI assistant provided.
+Then give your script a name and save it. 
+
+36
+00:03:26,160 --> 00:03:31,040
+Next, you press "Add to Chart" 
+to see your creation in action. 
+
+37
+00:03:31,040 --> 00:03:35,440
+If there are no errors, your 
+indicator will appear on your chart. 
+
+38
+00:03:35,440 --> 00:03:41,360
+If there are errors, and you will encounter 
+them, just copy them or make a print screen,  
+
+39
+00:03:41,360 --> 00:03:47,840
+and ask the assistant to fix the errors 
+and rewrite the entire code again. 
+
+40
+00:03:47,840 --> 00:03:53,520
+So this indicator seems to work as 
+intended. The visual feedback is instant. 
+
+41
+00:03:53,520 --> 00:03:58,160
+When candles close above the EMA, 
+the line turns green. When price  
+
+42
+00:03:58,160 --> 00:04:04,560
+dips below, it immediately switches to red.
+Let’s check if this works on any timeframe.  
+
+43
+00:04:05,600 --> 00:04:10,560
+It does, so this works as expected.
+ 
+ 
+ 
+ 
+ 
+ 
+Now let's continue with something  
+
+44
+00:04:10,560 --> 00:04:16,080
+practical involving pivot points.
+Pivot points are powerful tools, but sometimes  
+
+45
+00:04:16,080 --> 00:04:23,200
+I want them to be calculated on lower timeframes.
+So I want to ask my AI assistant to modify the  
+
+46
+00:04:23,200 --> 00:04:28,000
+pivot point indicator, to show 
+hourly pivot levels, since daily  
+
+47
+00:04:28,000 --> 00:04:35,040
+is the lowest timeframe available by default.
+Fun fact, ten years ago, I paid a programmer  
+
+48
+00:04:35,040 --> 00:04:42,160
+$200 to code this exact indicator for me.
+So, we'll ask our AI assistant to modify  
+
+49
+00:04:42,160 --> 00:04:48,400
+the standard pivot point indicator code, 
+to calculate pivots on an hourly timeframe. 
+
+50
+00:04:48,400 --> 00:04:52,080
+This should be a simple change 
+in the timeframe reference. 
+
+51
+00:04:52,080 --> 00:04:58,400
+So we'll copy the pivot point code from 
+TradingView and paste it into our chat. 
+
+52
+00:04:58,400 --> 00:05:04,400
+The classic pivot point calculation shows 
+daily support and resistance levels, that help  
+
+53
+00:05:04,400 --> 00:05:10,720
+identify price combinations quickly and easily.
+But I want them displayed on an hourly basis.  
+
+54
+00:05:10,720 --> 00:05:15,520
+I want pivot points to confirm 
+intraday bias in the markets. 
+
+55
+00:05:15,520 --> 00:05:20,160
+I like to compare the current trading 
+day's central pivot with the previous  
+
+56
+00:05:20,160 --> 00:05:26,880
+day's to establish bias, and then confirm 
+that bias based on where price opens. 
+
+57
+00:05:26,880 --> 00:05:32,040
+Having this on an hourly timeframe will 
+give me more granular entry opportunities. 
+
+58
+00:05:32,040 --> 00:05:37,760
+Ok, the modified code came back quickly.
+Now let's head over to TradingView,  
+
+59
+00:05:37,760 --> 00:05:41,280
+and open the Pine Editor.
+Again, we'll clear out the  
+
+60
+00:05:41,280 --> 00:05:47,360
+default code and paste in the modified 
+pivot point script from my assistant. 
+
+61
+00:05:47,360 --> 00:05:51,040
+We can immediately see the 
+hourly pivot points appear. 
+
+62
+00:05:51,040 --> 00:05:56,480
+Each horizontal line represents a key 
+support or resistance level, calculated  
+
+63
+00:05:56,480 --> 00:06:00,960
+from the previous hour's levels.
+The indicator works beautifully,  
+
+64
+00:06:00,960 --> 00:06:06,160
+showing clear pivot points that 
+align perfectly with price reactions. 
+
+65
+00:06:06,160 --> 00:06:11,600
+I can use these pivot levels alongside 
+other tools for confirmation. 
+
+66
+00:06:11,600 --> 00:06:16,000
+Also, when you make your own tools, 
+don’t forget to check if they work  
+
+67
+00:06:16,000 --> 00:06:21,760
+on different symbols and timeframes.
+Testing it on various charts confirms  
+
+68
+00:06:21,760 --> 00:06:27,440
+it's working perfectly across the board.
+Honestly, I'm amazed at how much things  
+
+69
+00:06:27,440 --> 00:06:33,360
+have changed. In the past, getting this kind 
+of custom indicator made would have cost me  
+
+70
+00:06:33,360 --> 00:06:40,000
+$200, required many back-and-forth emails 
+and taken a full two weeks to complete. 
+
+71
+00:06:40,000 --> 00:06:46,080
+But today? The entire process took less 
+than 3 minutes from start to finish!
+ 
+ 
+  
+
+72
+00:06:46,080 --> 00:06:52,640
+Now, let's create a more complex indicator. I 
+want a tool that highlights engulfing candles,  
+
+73
+00:06:52,640 --> 00:06:56,480
+with their volume higher 
+than the previous 5 candles. 
+
+74
+00:06:56,480 --> 00:07:02,880
+Engulfing candlestick patterns are powerful 
+signals, especially when confirmed by volume. 
+
+75
+00:07:02,880 --> 00:07:07,760
+They occur when a larger candle 
+completely engulfs the previous candle. 
+
+76
+00:07:07,760 --> 00:07:13,760
+When combined with volume analysis, these 
+patterns become even more significant. 
+
+77
+00:07:13,760 --> 00:07:18,000
+I'll ask my AI assistant to 
+create a custom indicator  
+
+78
+00:07:18,000 --> 00:07:23,680
+for these high-volume engulfing patterns.
+This should be straightforward since we just  
+
+79
+00:07:23,680 --> 00:07:30,640
+need to check two main conditions: the engulfing 
+pattern formation and the volume comparison. 
+
+80
+00:07:30,640 --> 00:07:34,400
+First, let's define what 
+makes an engulfing pattern. 
+
+81
+00:07:34,400 --> 00:07:39,920
+For a bullish engulfing, the current candle 
+must be green and its body must completely  
+
+82
+00:07:39,920 --> 00:07:45,680
+engulf the previous red candle's body.
+For a bearish engulfing, the current candle  
+
+83
+00:07:45,680 --> 00:07:51,760
+must be red and its body must completely 
+engulf the previous green candle's body. 
+
+84
+00:07:51,760 --> 00:07:58,080
+The wide spread of these engulfing candles 
+sends a clear signal with one message: sentiment  
+
+85
+00:07:58,080 --> 00:08:05,200
+is STRONG, either bullishly or bearishly.
+So we'll ask our assistant to write code that  
+
+86
+00:08:05,200 --> 00:08:11,440
+identifies these patterns and checks if the 
+volume is higher than the previous 5 candles. 
+
+87
+00:08:11,440 --> 00:08:17,920
+This is a key condition. Volume is crucial 
+because it validates the price action. If we  
+
+88
+00:08:17,920 --> 00:08:23,760
+see a large engulfing candle but the volume 
+is below average, it's a warning signal. 
+
+89
+00:08:23,760 --> 00:08:29,680
+Only when volume rises with the price pattern, 
+it shows real market strength or weakness. 
+
+90
+00:08:29,680 --> 00:08:34,960
+Ok, the assistant has finished the 
+code so let's head over to TradingView. 
+
+91
+00:08:34,960 --> 00:08:39,920
+We'll clear out any default code 
+and paste in our new indicator. 
+
+92
+00:08:40,480 --> 00:08:46,720
+Now let’s see the indicator in action.
+Ok, so the indicator works by placing colored  
+
+93
+00:08:46,720 --> 00:08:53,120
+markers on candles that meet our criteria.
+Looking at some examples on the chart,  
+
+94
+00:08:53,120 --> 00:08:58,320
+we can see how these high-volume patterns 
+often mark significant turning points,  
+
+95
+00:08:58,320 --> 00:09:02,080
+or continuation signals.
+Testing on different  
+
+96
+00:09:02,080 --> 00:09:07,680
+timeframes shows the indicator works 
+well across various chart settings. 
+
+97
+00:09:07,680 --> 00:09:13,760
+One interesting pattern I'm noticing is that 
+many of the bearish engulfing candles with high  
+
+98
+00:09:13,760 --> 00:09:21,520
+volume appear at resistance levels, while bullish 
+engulfing candles with high volume often appear  
+
+99
+00:09:21,520 --> 00:09:28,960
+at support. This aligns with what we know about 
+volume profile analysis – it takes effort for the  
+
+100
+00:09:28,960 --> 00:09:35,440
+market to move away from established levels, 
+and this effort shows up as increased volume. 
+
+101
+00:09:35,440 --> 00:09:38,720
+I could also look for additional confirmation,  
+
+102
+00:09:38,720 --> 00:09:44,320
+like adding a moving average or another 
+indicator. But the main condition,  
+
+103
+00:09:44,320 --> 00:09:49,760
+price action and volume, is in place.
+So I will save this indicator because  
+
+104
+00:09:49,760 --> 00:09:56,720
+will be particularly useful for spotting potential 
+continuation and reversals after a strong move. 
+
+105
+00:09:56,720 --> 00:10:02,560
+When combined with support/resistance 
+levels and other volume profile analysis,  
+
+106
+00:10:02,560 --> 00:10:07,600
+it becomes a powerful edge for 
+entering trades with conviction.
+  
+
+107
+00:10:07,600 --> 00:10:12,560
+Now let’s increase the difficulty notch!
+Let's create a momentum indicator that  
+
+108
+00:10:12,560 --> 00:10:16,960
+measures the strength of price 
+action over the last X candles. 
+
+109
+00:10:16,960 --> 00:10:22,640
+This indicator will count recent bars 
+and measure the body of bullish candles,  
+
+110
+00:10:22,640 --> 00:10:29,120
+versus bearish candles, giving us a clear 
+picture of which side is winning the battle. 
+
+111
+00:10:29,120 --> 00:10:33,840
+The body of a candle tells us about 
+strength - a long body shows strong  
+
+112
+00:10:33,840 --> 00:10:39,680
+commitment from either buyers or sellers.
+When consecutive bodies become larger,  
+
+113
+00:10:39,680 --> 00:10:45,840
+it shows increasing momentum, while 
+smaller bodies indicate slowing momentum. 
+
+114
+00:10:45,840 --> 00:10:51,920
+That's exactly what our indicator will track.
+I'll ask the assistant to write a custom indicator  
+
+115
+00:10:51,920 --> 00:10:58,800
+that adds up the body sizes of bullish and 
+bearish candles over a look back period. 
+
+116
+00:10:58,800 --> 00:11:03,440
+This will give us a momentum 
+score for each side of the market. 
+
+117
+00:11:03,440 --> 00:11:07,920
+The size of these bodies matters greatly.
+Remember that in every bar, the same  
+
+118
+00:11:07,920 --> 00:11:13,120
+number of contracts or shares are traded.
+The only reason a bar ends with a higher  
+
+119
+00:11:13,120 --> 00:11:18,480
+price is that buyers were more committed 
+and aggressive than sellers. The reverse  
+
+120
+00:11:18,480 --> 00:11:22,560
+is true for bearish candles.
+So the body size directly  
+
+121
+00:11:22,560 --> 00:11:27,920
+reflects the strength behind the move.
+That’s why I want the indicator to loop through  
+
+122
+00:11:27,920 --> 00:11:36,000
+the last X candles, to measure each body size, and 
+to add them to either a bullish or bearish total. 
+
+123
+00:11:36,000 --> 00:11:42,800
+We have the code, now let's head to 
+TradingView and paste our new indicator. 
+
+124
+00:11:42,800 --> 00:11:48,400
+No errors when we add it to chart!
+We can see three lines appear - one  
+
+125
+00:11:48,400 --> 00:11:54,400
+for bullish momentum, one for bearish 
+momentum, and one showing the ratio. 
+
+126
+00:11:54,400 --> 00:11:59,680
+Let’s hide the ratio for now, and 
+let’s focus on the main lines. 
+
+127
+00:11:59,680 --> 00:12:05,040
+Looking at the chart with our new indicator, 
+we can spot some interesting patterns. 
+
+128
+00:12:05,040 --> 00:12:11,040
+When the bullish line rises sharply while 
+the bearish line remains flat, we see price  
+
+129
+00:12:11,040 --> 00:12:18,720
+making strong upward moves. This aligns with 
+a well know candlestick analysis principle:  
+
+130
+00:12:18,720 --> 00:12:25,360
+a wide body represents strong market sentiment.
+This tool works well with the concept of  
+
+131
+00:12:25,360 --> 00:12:30,080
+consecutive candles increasing 
+or decreasing in size. 
+
+132
+00:12:30,080 --> 00:12:37,040
+When we see the momentum lines diverging, meaning 
+bullish line rising while bearish line falling,  
+
+133
+00:12:37,040 --> 00:12:44,000
+it often corresponds to consecutive candles 
+getting larger in the direction of the trend. 
+
+134
+00:12:44,000 --> 00:12:48,080
+This pattern frequently appears 
+at the start of strong moves. 
+
+135
+00:12:48,080 --> 00:12:52,160
+If the bullish line starts to 
+flatten after a strong rise,  
+
+136
+00:12:52,160 --> 00:12:58,720
+it suggests buyers are losing control - 
+an early warning of a potential reversal. 
+
+137
+00:12:58,720 --> 00:13:05,840
+When the bearish line flattens after a decline, 
+it signals sellers may be losing control. 
+
+138
+00:13:05,840 --> 00:13:12,160
+Volume validates price action, so as a next step 
+we might enhance this indicator by factoring  
+
+139
+00:13:12,160 --> 00:13:19,280
+in volume. But even in its current form, it 
+provides valuable insight into market momentum. 
+
+140
+00:13:19,280 --> 00:13:25,600
+I like using it on the 4-hour time frame 
+and I must say, this is pretty accurate. 
+
+141
+00:13:25,600 --> 00:13:33,120
+Perfect to identify when momentum is slowing or 
+rising. I can predict the next 4-hour candle with  
+
+142
+00:13:33,120 --> 00:13:37,600
+a pretty high accuracy using it.
+You may find this useless,  
+
+143
+00:13:37,600 --> 00:13:43,840
+but for me, this indicator is amazing.
+By measuring the relative strength of buyers  
+
+144
+00:13:43,840 --> 00:13:50,160
+versus sellers over the last several candles, 
+this little tool helps me "read the momentum",  
+
+145
+00:13:50,160 --> 00:13:55,280
+based on actual price action.
+ 
+ 
+Now let’s create a trading strategy  
+
+146
+00:13:55,280 --> 00:14:00,080
+using the indicator we just built.
+The rules are simple: enter long  
+
+147
+00:14:00,080 --> 00:14:06,960
+when bullish strength crosses above bearish 
+strength, and price is above the 100 SMA. 
+
+148
+00:14:06,960 --> 00:14:14,640
+Enter short when bearish strength crosses above 
+bullish strength and price is below the 100 SMA. 
+
+149
+00:14:14,640 --> 00:14:19,120
+The strategy logic is to check for 
+crossovers between the bullish and  
+
+150
+00:14:19,120 --> 00:14:25,680
+bearish strength lines, while confirming 
+the price position relative to the 100 SMA. 
+
+151
+00:14:25,680 --> 00:14:30,000
+When all conditions align, the 
+strategy enters a position. 
+
+152
+00:14:30,000 --> 00:14:36,240
+When I first ran the code, I got an error.
+This happens often when building strategies,  
+
+153
+00:14:37,040 --> 00:14:42,320
+so I just copied the error message 
+and asked the assistant to fix it. 
+
+154
+00:14:42,320 --> 00:14:47,840
+We went back and forth a few times, 
+fixing bugs and refining the logic. 
+
+155
+00:14:47,840 --> 00:14:53,680
+One issue was with the crossover detection - 
+we needed to make sure we were only entering  
+
+156
+00:14:53,680 --> 00:14:59,920
+on the bar where the crossover happened, at 
+the candle close, not in the middle of it. 
+
+157
+00:14:59,920 --> 00:15:07,680
+After a few iterations, we had working code. I 
+pasted it into TradingView's and ran a backtest. 
+
+158
+00:15:07,680 --> 00:15:12,400
+I checked if the strategy was taking 
+trades at exactly the right moments,  
+
+159
+00:15:12,400 --> 00:15:18,400
+as intended - entering longs when bullish 
+candles started overpowering bearish  
+
+160
+00:15:18,400 --> 00:15:25,760
+ones, above the 100 SMA, and shorts when 
+bearish candles dominated below the 100 SMA. 
+
+161
+00:15:25,760 --> 00:15:33,120
+The backtest results were promising. The strategy 
+showed positive returns and a decent win rate. 
+
+162
+00:15:33,120 --> 00:15:39,040
+The best results were on the 30 minutes 
+time frame, with the 200 SMA as a filter,  
+
+163
+00:15:39,040 --> 00:15:43,680
+and the indicator measuring the 
+strength of the last 10 candles. 
+
+164
+00:15:43,680 --> 00:15:48,800
+This makes sense because we're essentially 
+trading with the more dominant market force,  
+
+165
+00:15:48,800 --> 00:15:54,320
+while also respecting the overall 
+trend direction with the SMA filter. 
+
+166
+00:15:54,320 --> 00:16:00,800
+Then I asked the assistant to assess the backtest 
+results. And it noted that the strategy was  
+
+167
+00:16:00,800 --> 00:16:08,640
+profitable but had a relatively low Sharpe ratio.
+The Sharpe ratio measures return relative to risk,  
+
+168
+00:16:08,640 --> 00:16:12,560
+so this suggested our returns 
+weren't quite high enough,  
+
+169
+00:16:12,560 --> 00:16:19,600
+compared to the volatility we were experiencing.
+The Sortino ratio, however, was relatively high.  
+
+170
+00:16:19,600 --> 00:16:24,640
+This is important because the Sortino 
+ratio focuses specifically on downside  
+
+171
+00:16:24,640 --> 00:16:30,400
+risk - the bad volatility that hurts 
+us - rather than all volatility. 
+
+172
+00:16:30,400 --> 00:16:38,160
+A high Sortino ratio means our strategy is making 
+money, while controlling drawdowns effectively. 
+
+173
+00:16:38,160 --> 00:16:42,640
+Of course, I can go deeper with the 
+adjustments, but you get the point! 
+
+174
+00:16:42,640 --> 00:16:47,520
+The assistant suggested we might 
+improve performance by refining entry  
+
+175
+00:16:47,520 --> 00:16:55,200
+and exit conditions or adjusting position sizing.
+One specific recommendation was to test increasing  
+
+176
+00:16:55,200 --> 00:17:00,880
+position size, since the strategy appeared 
+reliable enough to potentially handle larger  
+
+177
+00:17:00,880 --> 00:17:07,760
+positions, without significantly increasing risk.
+What makes this strategy smart is the fact it  
+
+178
+00:17:07,760 --> 00:17:13,440
+doesn't try to predict the future. It just 
+measures what's happening right now - which side  
+
+179
+00:17:13,440 --> 00:17:19,920
+is showing more strength - and trades accordingly.
+We're not trying to guess; we're responding to  
+
+180
+00:17:19,920 --> 00:17:23,360
+actual market behavior.
+What I like about this  
+
+181
+00:17:23,360 --> 00:17:29,440
+trading bot is that it doesn't rely on complex 
+indicators. It simply measures what's happening  
+
+182
+00:17:29,440 --> 00:17:35,280
+with price action - the size of bullish 
+versus bearish candles - and trades when  
+
+183
+00:17:35,280 --> 00:17:41,840
+a clear advantage appears for one side.
+The SMA filter adds another dimension by  
+
+184
+00:17:41,840 --> 00:17:48,880
+keeping us on the right side of the larger trend.
+Overall, the assistant concluded this was a decent  
+
+185
+00:17:48,880 --> 00:17:54,080
+combination of high returns, high win rate, 
+and controlled risk. So I’ll keep adjusting  
+
+186
+00:17:54,080 --> 00:17:59,600
+and back testing it in the future!
+ 
+ 
+Here’s another tool I’ve created. I  
+
+187
+00:17:59,600 --> 00:18:04,000
+wanted an indicator to highlight 
+the trading range for each day. 
+
+188
+00:18:04,000 --> 00:18:09,760
+This Daily Boxes indicator tracks each 
+trading day with colored boxes. It want  
+
+189
+00:18:09,760 --> 00:18:16,880
+to see daily highs and lows at a glance, which 
+is critical for understanding market structure. 
+
+190
+00:18:16,880 --> 00:18:20,880
+This tool provides a broader 
+perspective of price movements,  
+
+191
+00:18:20,880 --> 00:18:28,160
+and helps me identify key levels and trends.
+ 
+Green boxes show bullish days, where price  
+
+192
+00:18:28,160 --> 00:18:32,720
+closed higher than it opened.
+Red boxes show bearish days,  
+
+193
+00:18:32,720 --> 00:18:38,720
+where price closed lower than it opened.
+What makes this indicator powerful is how  
+
+194
+00:18:38,720 --> 00:18:46,160
+it lets me quickly see the sequence of daily highs 
+and lows. When analyzing charts, I pay attention  
+
+195
+00:18:46,160 --> 00:18:52,320
+to the number of up boxes or red boxes.
+This helps determine the strength of  
+
+196
+00:18:52,320 --> 00:18:58,400
+buy or sell scenarios. The boxes make 
+this pattern recognition much easier.
+
+197
+00:18:58,960 --> 00:19:05,440
+I’ve asked the assistant to let me choose how many 
+days I want to display, and what colors to use. 
+
+198
+00:19:05,440 --> 00:19:11,200
+Then I wanted a clear function to detect when 
+a new trading day begins. This is important  
+
+199
+00:19:11,200 --> 00:19:18,320
+because we need to know when to start a new box.
+I had a few problems here as I got many errors,  
+
+200
+00:19:18,320 --> 00:19:25,360
+but in the end, the indicator worked as I wanted.
+Each time a new day starts, the indicator creates  
+
+201
+00:19:25,360 --> 00:19:31,280
+a fresh box starting at the current bar.
+The box extends to the right and gets  
+
+202
+00:19:31,280 --> 00:19:38,480
+updated throughout the day as price makes new 
+highs or lows. The box color changes based  
+
+203
+00:19:38,480 --> 00:19:43,920
+on whether price is currently above 
+or below the day's opening price.
+  
+
+204
+00:19:43,920 --> 00:19:50,640
+From a price action perspective, these boxes 
+help me identify the premium and discount zones  
+
+205
+00:19:50,640 --> 00:19:55,280
+that are so important in trading.
+The daily highs and lows marked  
+
+206
+00:19:55,280 --> 00:20:01,840
+by these boxes become significant levels.
+Previous daily highs offer short-term resistance  
+
+207
+00:20:01,840 --> 00:20:08,480
+levels, if price reaches those levels again.
+Similarly, the lowest low traded in the  
+
+208
+00:20:08,480 --> 00:20:14,560
+previous day can offer significant support.
+These levels are precisely what banks and  
+
+209
+00:20:14,560 --> 00:20:19,440
+institutions often monitor for 
+buying and selling interest. 
+
+210
+00:20:19,440 --> 00:20:24,960
+By having them clearly boxed on your chart, 
+I can position myself strategically for  
+
+211
+00:20:24,960 --> 00:20:28,800
+these potential moves.
+ 
+The indicator also helps  
+
+212
+00:20:28,800 --> 00:20:33,120
+identify order flow patterns.
+In a bullish order flow,  
+
+213
+00:20:33,120 --> 00:20:40,560
+buyers dominate the market, driving prices higher, 
+and the market tends to seek buyside liquidity,  
+
+214
+00:20:40,560 --> 00:20:44,640
+above the previous day's highs.
+You'll see this as a series of  
+
+215
+00:20:44,640 --> 00:20:50,000
+green boxes with higher highs.
+Conversely, in bearish order flow,  
+
+216
+00:20:50,000 --> 00:20:57,520
+sellers dominate, and the market seeks sellside 
+liquidity, below the previous day's lows, visible  
+
+217
+00:20:57,520 --> 00:21:05,280
+as a sequence of red boxes with lower lows.
+With these boxes, you can spot when a day's range  
+
+218
+00:21:05,280 --> 00:21:12,800
+is much smaller or larger than previous days, 
+indicating potential changes in market sentiment.
+  
+
+219
+00:21:13,440 --> 00:21:20,080
+Another tool I’ve created is an Average Daily 
+Range indicator. This helps me understand market  
+
+220
+00:21:20,080 --> 00:21:27,040
+volatility and how much a market has moved 
+today, compared to its typical daily movement. 
+
+221
+00:21:27,040 --> 00:21:33,920
+This tool answers key questions: Is today more 
+or less volatile than normal? Has the market  
+
+222
+00:21:33,920 --> 00:21:39,520
+already reached its typical daily range? 
+Is there still room for price to move?
+  
+
+223
+00:21:39,520 --> 00:21:46,560
+The ADR concept is rooted in market volatility 
+analysis. Markets trade with an average daily  
+
+224
+00:21:46,560 --> 00:21:52,000
+range that varies by instrument.
+And this variation is critical for  
+
+225
+00:21:52,000 --> 00:21:58,320
+setting realistic profit targets and stops.
+ 
+The code creates a simple yet powerful  
+
+226
+00:21:58,320 --> 00:22:03,440
+indicator that calculates the average 
+range over a set number of days,  
+
+227
+00:22:03,440 --> 00:22:09,920
+then compares today's range to that average.
+I wanted the indicator to have a user input  
+
+228
+00:22:09,920 --> 00:22:15,040
+for how many days to include in 
+the calculation, usually 20 days. 
+
+229
+00:22:15,040 --> 00:22:22,240
+It also asks for a pips multiplier, which helps 
+adjust the decimal places for different markets. 
+
+230
+00:22:22,240 --> 00:22:28,320
+It also calculates what percentage of the 
+average range today's move represents. 
+
+231
+00:22:28,320 --> 00:22:34,320
+This information is crucial for my trading 
+decisions, especially with my profit targets. 
+
+232
+00:22:34,320 --> 00:22:41,360
+For instance if today's range is already at 
+95% of the average, I might expect limited  
+
+233
+00:22:41,360 --> 00:22:49,040
+further movement and consider taking profits.
+But if the ADR is only at 30%, there might  
+
+234
+00:22:49,040 --> 00:22:54,800
+still be substantial movement ahead.
+ 
+I can also use the ADR to set targets  
+
+235
+00:22:54,800 --> 00:23:00,960
+based on the previous day's high and 
+low, using the daily boxes indicator. 
+
+236
+00:23:00,960 --> 00:23:05,360
+For example, if today's range is 
+small compared to the average,  
+
+237
+00:23:05,360 --> 00:23:12,320
+the previous day's high or low might be realistic 
+targets, depending on the trend direction. 
+
+238
+00:23:12,320 --> 00:23:18,000
+I wanted this tool because instead of using 
+arbitrary numbers, I want to use the market's  
+
+239
+00:23:18,000 --> 00:23:25,600
+own volatility signature to guide my decisions.
+ 
+Your AI assistant can build almost any trading  
+
+240
+00:23:25,600 --> 00:23:32,240
+tool. You just need to know how to ask.
+Tools that once took months to perfect, now take  
+
+241
+00:23:32,240 --> 00:23:36,240
+minutes. And you don't need coding skills anymore.
+Now, it won’t be perfect from the first prompt,  
+
+242
+00:23:36,240 --> 00:23:42,240
+you will get errors or different bugs.
+When the code had bugs, I simply copied the  
+
+243
+00:23:42,240 --> 00:23:47,520
+error messages and asked the AI to fix them.
+And this takes minutes,  
+
+244
+00:23:47,520 --> 00:23:53,360
+not days or weeks of debugging.
+With AI, you can now create custom tools  
+
+245
+00:23:53,360 --> 00:24:00,800
+that match your specific trading approach, instead 
+of using generic indicators everyone else uses. 
+
+246
+00:24:00,800 --> 00:24:05,440
+And the process becomes educational 
+too. As you describe what you want  
+
+247
+00:24:05,440 --> 00:24:10,960
+and review the requirements, you 
+learn how these tools actually work. 
+
+248
+00:24:10,960 --> 00:24:16,400
+What's truly revolutionary is that the 
+AI can turn any Tradingview indicator  
+
+249
+00:24:16,400 --> 00:24:21,360
+into a complete trading strategy.
+Once you have an indicator you like,  
+
+250
+00:24:21,360 --> 00:24:27,920
+simply specify the entry and exit rules.
+The AI transforms this into strategy code  
+
+251
+00:24:27,920 --> 00:24:33,600
+that you can backtest immediately.
+This lets you validate trading ideas  
+
+252
+00:24:33,600 --> 00:24:39,360
+much faster than traditional methods.
+If the strategy produces bad results or  
+
+253
+00:24:39,360 --> 00:24:45,760
+is completely unprofitable, simply ask for 
+improvements from the AI. Make a screenshot  
+
+254
+00:24:45,760 --> 00:24:52,720
+with the results and ask for other adjustments.
+ 
+If you’re like me and you prefer trading based on  
+
+255
+00:24:52,720 --> 00:24:59,680
+price movement, AI can help you make simple tools.
+These tools can show you when the market is  
+
+256
+00:24:59,680 --> 00:25:05,040
+leaning in a certain direction. Or thy can 
+highlight the specific situations you've found  
+
+257
+00:25:05,040 --> 00:25:09,040
+useful in your own trading.
+Again, the key is being  
+
+258
+00:25:09,040 --> 00:25:13,520
+specific with your requests.
+Tell the AI exactly what your indicator  
+
+259
+00:25:13,520 --> 00:25:19,600
+should measure, how calculations should work, 
+what the visual display should look like, and for  
+
+260
+00:25:19,600 --> 00:25:25,840
+strategies, the exact entry and exit conditions.
+The more precise your description,  
+
+261
+00:25:25,840 --> 00:25:29,040
+the better the result.
+If you want a follow up video  
+
+262
+00:25:29,040 --> 00:25:34,240
+about this, let me know in the comments.
+And if you're curious about mastering  
+
+263
+00:25:34,240 --> 00:25:42,000
+other trading techniques, go ahead 
+and watch one of these videos next!
+

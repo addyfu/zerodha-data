@@ -1,0 +1,734 @@
+1
+00:00:00,830 --> 00:00:05,160
+If you want to increase your chances to succeed
+at trading, you must align yourself with big
+
+2
+00:00:05,160 --> 00:00:06,970
+players in the market.
+
+3
+00:00:06,970 --> 00:00:08,180
+And how you do that?
+
+4
+00:00:08,180 --> 00:00:10,370
+Using supply and demand.
+
+5
+00:00:10,370 --> 00:00:15,040
+Supply zones are found when the market makes
+a large move down from either a single candle
+
+6
+00:00:15,040 --> 00:00:19,869
+or small consolidation structure, also known
+as a base.
+
+7
+00:00:19,869 --> 00:00:24,519
+Demand zones are found when the market makes
+a large move up, again, from a single candle
+
+8
+00:00:24,519 --> 00:00:26,420
+or a base.
+
+9
+00:00:26,420 --> 00:00:28,689
+Drawing the supply and demand zones is simple.
+
+10
+00:00:28,689 --> 00:00:33,620
+For a supply zone, you want to mark the area
+from the OPEN of the LAST bullish candle before
+
+11
+00:00:33,620 --> 00:00:39,560
+the drop which created the supply zone, up
+to the most recent high before the drop.
+
+12
+00:00:39,560 --> 00:00:43,960
+For a demand zone, you mark the area from
+the OPEN of the LAST bearish candle before
+
+13
+00:00:43,960 --> 00:00:49,900
+the drop which created the demand zone, down
+to the most recent low before the up move.
+
+14
+00:00:49,900 --> 00:00:53,920
+If you want to know more about how to find
+and draw supply and demand zones make sure
+
+15
+00:00:53,920 --> 00:00:55,460
+you watch this video first.
+
+16
+00:00:55,460 --> 00:01:01,820
+Now, there are 4 types of supply and demand,
+defined by how the price approaches the supply
+
+17
+00:01:01,820 --> 00:01:04,610
+and demand zone and how it leaves the zone
+again.
+
+18
+00:01:04,610 --> 00:01:09,210
+I’ve grouped them into continuation structures
+and reversal structures.
+
+19
+00:01:09,210 --> 00:01:16,530
+Continuation price structures include Drop-base-Drop
+and Rally-base-Rally patterns.
+
+20
+00:01:16,530 --> 00:01:21,140
+Reversal price structures are Drop-base-Rally
+and Rally-base-Drop patterns.
+
+21
+00:01:21,140 --> 00:01:26,820
+So let’s analyze each of those structures,
+one by one.
+
+22
+00:01:26,820 --> 00:01:27,820
+Rally – Base – Rally
+
+23
+00:01:27,820 --> 00:01:32,140
+The rally-base-rally is a type of demand zone
+which forms during an up-move, being a continuation
+
+24
+00:01:32,140 --> 00:01:33,260
+pattern.
+
+25
+00:01:33,260 --> 00:01:35,260
+The market structure is very simple.
+
+26
+00:01:35,260 --> 00:01:40,670
+In this example, you can see we first have
+a rally, then a consolidation (or the base)
+
+27
+00:01:40,670 --> 00:01:44,120
+and finally another rally, which creates the
+demand zone.
+
+28
+00:01:44,120 --> 00:01:50,580
+A rally-base-rally will always form a demand
+zone; it can never create a supply zone.
+
+29
+00:01:50,580 --> 00:01:51,580
+Drop – Base – Drop
+
+30
+00:01:51,580 --> 00:01:55,400
+The drop-base-drop is the exact opposite of
+a rally-base-rally, with the only similarity
+
+31
+00:01:55,400 --> 00:01:58,080
+being they both form during trending movements.
+
+32
+00:01:58,080 --> 00:02:03,720
+A drop-base-drop will always form a supply
+zone, a zone which if the market returns to,
+
+33
+00:02:03,720 --> 00:02:08,080
+should push the price back in the direction
+of the movement that created the zone.
+
+34
+00:02:08,080 --> 00:02:13,080
+In this example a drop lower created the supply
+zone so if the market will return to this
+
+35
+00:02:13,080 --> 00:02:16,370
+zone it should push the market lower.
+
+36
+00:02:16,370 --> 00:02:22,460
+Now the big question: what creates drop – base
+– drop/rally – base – rally structures?
+
+37
+00:02:22,460 --> 00:02:27,360
+Both zones form in the market because of bank
+traders taking profits off existing trading
+
+38
+00:02:27,360 --> 00:02:28,650
+positions.
+
+39
+00:02:28,650 --> 00:02:33,760
+In this example, during the first rally we
+had bank traders placing long trades.
+
+40
+00:02:33,760 --> 00:02:38,930
+When the bank traders are in profitable trades,
+they’ll want to secure some of their profits.
+
+41
+00:02:38,930 --> 00:02:43,690
+When they decide to do this, they consume
+all of the buy orders coming into the market
+
+42
+00:02:43,690 --> 00:02:49,050
+from retail traders who are have begun entering
+long trades due to size of the rally.
+
+43
+00:02:49,050 --> 00:02:54,190
+This consumption of buy orders means the market
+makes a small move lower, and creates the
+
+44
+00:02:54,190 --> 00:02:56,819
+base of the potential demand zone.
+
+45
+00:02:56,819 --> 00:03:01,819
+The move lower causes a large number of retail
+traders who went long on the rally higher
+
+46
+00:03:01,819 --> 00:03:06,970
+to close their trades at a loss which puts
+a lot of sell orders into the market.
+
+47
+00:03:06,970 --> 00:03:11,310
+In addition to this, there will be a small
+number of retail traders thinking the move
+
+48
+00:03:11,310 --> 00:03:15,931
+down is a trend reversal, meaning they’ll
+place sell trades with the expectation that
+
+49
+00:03:15,931 --> 00:03:18,540
+the market is going to move lower.
+
+50
+00:03:18,540 --> 00:03:23,590
+With these two sets of retail traders putting
+sell order in the market, the banks now begin
+
+51
+00:03:23,590 --> 00:03:28,500
+buying again knowing they’ll make the market
+move higher, and in the process cause anybody
+
+52
+00:03:28,500 --> 00:03:33,319
+who sold the move to close their trades at
+a loss, which ends up being the bank traders
+
+53
+00:03:33,319 --> 00:03:34,319
+profit.
+
+54
+00:03:34,319 --> 00:03:39,940
+For the drop-base-drop structure, the exact
+same process takes place only the other way
+
+55
+00:03:39,940 --> 00:03:40,940
+around.
+
+56
+00:03:40,940 --> 00:03:45,580
+The banks take profits from sell positions,
+which stops the market from falling, then
+
+57
+00:03:45,580 --> 00:03:50,270
+as the market begins to retrace against the
+trend, the retail traders who sold late into
+
+58
+00:03:50,270 --> 00:03:55,540
+the down-move close their trades at a loss,
+and reversal traders begin placing buy trades
+
+59
+00:03:55,540 --> 00:03:57,940
+because they think the trend is changing.
+
+60
+00:03:57,940 --> 00:04:02,819
+Both of these traders are putting buy orders
+into the market, the banks start selling again
+
+61
+00:04:02,819 --> 00:05:08,729
+at the supply zone, and all the traders who
+placed buy trades are now losing money.
+
+62
+00:05:08,729 --> 00:05:09,729
+Drop – Base – Rally
+
+63
+00:05:09,729 --> 00:05:13,000
+The drop -base-rally is a structure which
+always forms a demand zone in the market.
+
+64
+00:05:13,000 --> 00:05:17,930
+These zones differ from the first 2 price
+structures, mainly because of their location
+
+65
+00:05:17,930 --> 00:05:19,419
+in the market.
+
+66
+00:05:19,419 --> 00:05:25,940
+If rally-base-rally and drop-base-drop zones
+only form during trending movements, drop-base-rally
+
+67
+00:05:25,940 --> 00:05:30,400
+zones will only be found when the market changes
+from moving down to moving up.
+
+68
+00:05:30,400 --> 00:05:32,349
+So, it’s a reversal pattern.
+
+69
+00:05:32,349 --> 00:05:33,970
+Rally – Base – Drop
+
+70
+00:05:33,970 --> 00:05:37,710
+On the opposite side of the scale we have
+rally-base-drop zones.
+
+71
+00:05:37,710 --> 00:05:43,270
+These zones form when the market reverses
+from moving higher to moving lower, and when
+
+72
+00:05:43,270 --> 00:05:47,400
+their construction is complete, a supply zone
+will have formed in the market which should
+
+73
+00:05:47,400 --> 00:05:49,099
+cause the market to fall.
+
+74
+00:05:49,099 --> 00:05:52,469
+Again, a reversal structure.
+
+75
+00:05:52,469 --> 00:05:56,649
+What Creates Rally – Base – Drop/Drop
+– Base – Rally structure?
+
+76
+00:05:56,649 --> 00:06:01,539
+The drop-base-rally and rally-base-drop zones
+are created by bank traders either placing
+
+77
+00:06:01,539 --> 00:06:07,939
+trades to make the market reverse or by taking
+profits off existing trading positions.
+
+78
+00:06:07,939 --> 00:06:13,749
+Very important: The rally-base-drop/ drop-base-rally
+zones which form when bank traders taking
+
+79
+00:06:13,749 --> 00:06:19,619
+profits have a lower probability of resulting
+in successful trades than zones that are created
+
+80
+00:06:19,619 --> 00:06:23,749
+because of bank traders placing trades, wanting
+the market to reverse.
+
+81
+00:06:23,749 --> 00:06:28,409
+To understand why, we must analyze and try
+to find the intentions of the bank traders
+
+82
+00:06:28,409 --> 00:06:30,889
+when they are placing trades.
+
+83
+00:06:30,889 --> 00:06:35,620
+If a bank is placing trades in order to make
+other traders lose money, the area at which
+
+84
+00:06:35,620 --> 00:06:39,979
+they have placed their trades is important,
+as they have an interest in keeping the market
+
+85
+00:06:39,979 --> 00:06:41,680
+price from breaking the area.
+
+86
+00:06:41,680 --> 00:06:46,879
+In supply and demand trading this means when
+a rally-base-drop or drop-base-rally zone
+
+87
+00:06:46,879 --> 00:06:51,729
+is created by bank traders placing trades,
+wanting a reverse the market, the banks must
+
+88
+00:06:51,729 --> 00:06:56,230
+keep the market from moving past the point
+where they have entered their positions, in
+
+89
+00:06:56,230 --> 00:07:00,199
+order to protect the trades they have placed.
+
+90
+00:07:00,199 --> 00:07:05,259
+In this example, we can see a drop-base-rally
+zone after the market has been falling.
+
+91
+00:07:05,259 --> 00:07:10,189
+When the banks enter into their long trades,
+they consume all the sell orders coming into
+
+92
+00:07:10,189 --> 00:07:15,340
+the market and the price begins to rise, breaking
+the swing high found at the top of the last
+
+93
+00:07:15,340 --> 00:07:16,619
+move lower.
+
+94
+00:07:16,619 --> 00:07:21,580
+Soon after the break of the high we see a
+large drop taking place, this drop causes
+
+95
+00:07:21,580 --> 00:07:25,949
+a lot of retail traders to start shorting,
+thinking the move higher was simply just a
+
+96
+00:07:25,949 --> 00:07:27,740
+pullback to the downtrend.
+
+97
+00:07:27,740 --> 00:07:31,990
+When the market comes into contact with the
+demand zone which was created by the first
+
+98
+00:07:31,990 --> 00:07:34,729
+phase of buying, the banks buy again.
+
+99
+00:07:34,729 --> 00:07:39,580
+If the banks didn’t buy and the market fell
+below the demand zone, then they would be
+
+100
+00:07:39,580 --> 00:07:44,349
+put at a loss on their positions and would
+have to liquidate their buy trades.
+
+101
+00:07:44,349 --> 00:07:48,619
+Of course it’s highly unlikely for this
+to happen because the banks always make sure
+
+102
+00:07:48,619 --> 00:07:51,849
+to plan their trades in advance.
+
+103
+00:07:51,849 --> 00:07:57,129
+The main problem with drop-base-rally/rally
+-base-drop zones is determining if the zone
+
+104
+00:07:57,129 --> 00:08:02,669
+has been created by banks placing trades to
+make people lose money or by taking profits
+
+105
+00:08:02,669 --> 00:08:04,419
+off their own positions.
+
+106
+00:08:04,419 --> 00:08:08,729
+To find out whether the zone you’re looking
+at has been created due to profit taking or
+
+107
+00:08:08,729 --> 00:08:13,879
+from bank traders placing trades, this requires
+you to be able to understand the mechanics
+
+108
+00:08:13,879 --> 00:08:18,560
+of where the supply or demand zone has formed
+in relation to the current trend on the time-frame
+
+109
+00:08:18,560 --> 00:08:20,990
+you’re observing.
+
+110
+00:08:20,990 --> 00:08:25,050
+The first piece of market structure in a rally-base-drop
+is a rally.
+
+111
+00:08:25,050 --> 00:08:30,139
+The analysis of the rally is what will give
+us clues in figuring out for the reason why
+
+112
+00:08:30,139 --> 00:08:31,959
+the zone has been created.
+
+113
+00:08:31,959 --> 00:08:36,710
+The size of the candlesticks which form the
+rally/drop along with understanding where
+
+114
+00:08:36,710 --> 00:08:40,330
+the wicks are on the candles, can give us
+the majority of the information needed to
+
+115
+00:08:40,330 --> 00:08:42,700
+find out why the zone has been created.
+
+116
+00:08:42,700 --> 00:08:48,160
+Check out the rally which took place at the
+end of this down-move.
+
+117
+00:08:48,160 --> 00:08:53,400
+This move up most likely occurred due to professional
+traders placing buy traders, the way I can
+
+118
+00:08:53,400 --> 00:08:57,310
+determine this is by looking at the previous
+moves up in the downtrend.
+
+119
+00:08:57,310 --> 00:08:59,960
+It’s all about previous price action.
+
+120
+00:08:59,960 --> 00:09:04,460
+None of the previous up-moves, against the
+trend, moved up in a strong manner.
+
+121
+00:09:04,460 --> 00:09:09,450
+The bullish candles were either small or had
+wicks present on the top of the candle which
+
+122
+00:09:09,450 --> 00:09:15,050
+shows us someone was selling even though market
+was moving higher, each one of these up-moves
+
+123
+00:09:15,050 --> 00:09:19,870
+were created by bank traders taking profits
+off sell positions.
+
+124
+00:09:19,870 --> 00:09:24,780
+Now if we look at the final up-move we can
+see the rally was much greater in size than
+
+125
+00:09:24,780 --> 00:09:26,530
+the previous up-moves.
+
+126
+00:09:26,530 --> 00:09:32,650
+These candles were far greater in size than
+the bull candles from the previous upswings.
+
+127
+00:09:32,650 --> 00:09:37,440
+Remember this: the banks will only cause a
+reversal when there are enough retail traders
+
+128
+00:09:37,440 --> 00:09:39,950
+for them to make a lot of money off.
+
+129
+00:09:39,950 --> 00:09:44,180
+The appearance of a supply or demand zone
+when the market has only been moving in the
+
+130
+00:09:44,180 --> 00:09:48,350
+same direction for a short length of time,
+means there won’t be many retail traders
+
+131
+00:09:48,350 --> 00:09:49,800
+entering trades.
+
+132
+00:09:49,800 --> 00:09:54,620
+Therefore, the banks will not be able to make
+a lot of money if they cause the market to
+
+133
+00:09:54,620 --> 00:10:00,030
+reverse, because only a small amount of traders
+will be liquidating their losing positions.
+
+134
+00:10:00,030 --> 00:10:03,710
+Here’s another drop-base-rally zone.
+
+135
+00:10:03,710 --> 00:10:08,280
+There are two clues which made this structure
+an important area on the chart.
+
+136
+00:10:08,280 --> 00:10:13,050
+The first was the rally out of the zone, the
+candles which made up the rally were large
+
+137
+00:10:13,050 --> 00:10:18,650
+bullish candles which pushed the market a
+large distance against the previous down-move.
+
+138
+00:10:18,650 --> 00:10:23,970
+These bull candles contained very little selling
+meaning its unlikely the banks where placing
+
+139
+00:10:23,970 --> 00:10:27,350
+sell trades as the market rallied higher.
+
+140
+00:10:27,350 --> 00:10:32,570
+The second clue was the fact the rally managed
+to break the most recent swing high.
+
+141
+00:10:32,570 --> 00:10:39,410
+If you plan to trade rally-base-drop/drop-base-rally
+zones the best piece of advice I can give
+
+142
+00:10:39,410 --> 00:10:45,330
+you is make sure the zone your trading breaks
+a recent swing high for drop-base-rally zones
+
+143
+00:10:45,330 --> 00:10:48,420
+or a recent swing low for rally-base-drop
+zones.
+
+144
+00:10:48,420 --> 00:10:54,340
+If the rally in a drop-base-rally breaks an
+old swing high there is a much higher chance
+
+145
+00:10:54,340 --> 00:10:59,650
+the zone will result in you having a successful
+trade than if no swing high was broken.
+
+146
+00:10:59,650 --> 00:11:01,900
+The same is true for rally-base-drop zones.
+
+147
+00:11:01,900 --> 00:11:07,230
+If the drop pushes the market below a recently
+formed swing low there is a high probability
+
+148
+00:11:07,230 --> 00:12:10,990
+of the zone working out profitably.
+
+149
+00:12:10,990 --> 00:12:14,600
+Now you know what to look for when drawing
+your supply and demand zones.
+
+150
+00:12:14,600 --> 00:12:19,340
+In future videos, I plan to show you how to
+spot the best supply and demand areas, the
+
+151
+00:12:19,340 --> 00:12:24,240
+high probability ones, and I will reveal how
+to trade the bounce or the retest of these
+
+152
+00:12:24,240 --> 00:12:25,240
+areas.
+
+153
+00:12:25,240 --> 00:12:29,580
+As always, if you learned something new and
+found value, leave us a like to show your
+
+154
+00:12:29,580 --> 00:12:33,970
+support, subscribe to our channel and hit
+the bell icon to stay notified when we upload
+
+155
+00:12:33,970 --> 00:12:36,110
+new videos.
+
+156
+00:12:36,110 --> 00:12:36,650
+Until next time.
+

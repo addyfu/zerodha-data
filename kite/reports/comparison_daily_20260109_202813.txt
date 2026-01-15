@@ -1,0 +1,38 @@
+
+================================================================================
+                          STRATEGY COMPARISON SUMMARY                           
+================================================================================
+
+STRATEGY RANKINGS (by Average Sharpe Ratio)
+--------------------------------------------------------------------------------
+Strategy                  Avg Return %  Avg Win %   Avg Sharpe   Avg DD %
+--------------------------------------------------------------------------------
+#1 Fib_3Wave                     15.54       88.2         0.92      -3.70
+#2 EMA_21_55                     32.07       49.7         0.39     -25.57
+#3 EMA_3_Scalping                20.93       50.7         0.33     -21.57
+   Multi_Timeframe               22.27       34.9         0.22     -40.99
+   Stochastic_Confluence          1.28       34.7        -0.04     -13.44
+   VWAP_Pullback                 -6.78       33.4        -0.08     -55.01
+   BB_Squeeze                    -4.58       29.9        -0.13     -23.41
+   RSI_Divergence                -7.61       39.0        -0.16     -32.21
+   Supply_Demand                 -7.10       25.9        -0.27     -18.20
+
+
+BEST STRATEGY PER STOCK
+--------------------------------------------------------------------------------
+RELIANCE        -> Fib_3Wave                 (Sharpe: 1.19, Return: 12.91%)
+TCS             -> Fib_3Wave                 (Sharpe: 0.73, Return: 21.44%)
+HDFCBANK        -> Fib_3Wave                 (Sharpe: 0.78, Return: 9.34%)
+INFY            -> BB_Squeeze                (Sharpe: 0.55, Return: 16.71%)
+ICICIBANK       -> Fib_3Wave                 (Sharpe: 1.40, Return: 25.33%)
+
+
+OVERALL STATISTICS
+--------------------------------------------------------------------------------
+Total backtests run: 45
+Profitable combinations: 24 (53.3%)
+Average return: 7.33%
+Best single result: ICICIBANK + EMA_21_55 (123.70%)
+Worst single result: RELIANCE + VWAP_Pullback (-68.09%)
+
+================================================================================

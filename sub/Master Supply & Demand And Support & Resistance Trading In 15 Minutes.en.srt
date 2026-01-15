@@ -1,0 +1,1240 @@
+1
+00:00:00,060 --> 00:00:04,920
+many Traders get confused between the
+
+2
+00:00:02,940 --> 00:00:07,140
+concepts of supply and demand and
+
+3
+00:00:04,920 --> 00:00:09,300
+support and resistance so let's start
+
+4
+00:00:07,140 --> 00:00:10,980
+with that with the difference between
+
+5
+00:00:09,300 --> 00:00:13,559
+those two concepts
+
+6
+00:00:10,980 --> 00:00:16,440
+price movement is often an asymmetric
+
+7
+00:00:13,559 --> 00:00:19,440
+process where many opinions exchange
+
+8
+00:00:16,440 --> 00:00:22,500
+creating chaotic Behavior
+
+9
+00:00:19,440 --> 00:00:24,900
+still every so often buyers or sellers
+
+10
+00:00:22,500 --> 00:00:27,240
+align on the same opinion and price
+
+11
+00:00:24,900 --> 00:00:31,019
+which forms the supply or demanding
+
+12
+00:00:27,240 --> 00:00:33,360
+balance around that price thus forming a
+
+13
+00:00:31,019 --> 00:00:34,980
+supply or demand Zone at a specific
+
+14
+00:00:33,360 --> 00:00:37,320
+price location
+
+15
+00:00:34,980 --> 00:00:40,200
+supply and demand zones are advanced
+
+16
+00:00:37,320 --> 00:00:42,300
+concepts of support and resistance these
+
+17
+00:00:40,200 --> 00:00:45,300
+zones are the areas that show high
+
+18
+00:00:42,300 --> 00:00:48,600
+liquidity and pending orders at a
+
+19
+00:00:45,300 --> 00:00:51,780
+specific price a supply zone is a price
+
+20
+00:00:48,600 --> 00:00:54,239
+area above the current price where there
+
+21
+00:00:51,780 --> 00:00:57,300
+is strong selling interest
+
+22
+00:00:54,239 --> 00:01:01,940
+when the price reaches this level the
+
+23
+00:00:57,300 --> 00:01:01,940
+orders get filled and it moves down
+
+24
+00:01:02,340 --> 00:01:06,720
+this is a supply Zone where many sellers
+
+25
+00:01:05,519 --> 00:01:09,360
+are located
+
+26
+00:01:06,720 --> 00:01:10,560
+you'll find a lot of selling pressure in
+
+27
+00:01:09,360 --> 00:01:13,740
+this Zone
+
+28
+00:01:10,560 --> 00:01:17,220
+so the prices get rejected
+
+29
+00:01:13,740 --> 00:01:19,380
+a demand zone is a price area below the
+
+30
+00:01:17,220 --> 00:01:21,540
+current price where there is strong
+
+31
+00:01:19,380 --> 00:01:24,540
+buying interest
+
+32
+00:01:21,540 --> 00:01:27,240
+this is a demand Zone where many buyers
+
+33
+00:01:24,540 --> 00:01:28,200
+are located there's buying pressure in
+
+34
+00:01:27,240 --> 00:01:31,259
+the zone
+
+35
+00:01:28,200 --> 00:01:33,500
+so prices will likely Advance after
+
+36
+00:01:31,259 --> 00:01:36,780
+reaching it
+
+37
+00:01:33,500 --> 00:01:39,240
+a significant imbalance in price is
+
+38
+00:01:36,780 --> 00:01:42,900
+created when a large number of orders
+
+39
+00:01:39,240 --> 00:01:46,040
+are filled supply and demand zones show
+
+40
+00:01:42,900 --> 00:01:49,439
+unfilled orders of institutional Traders
+
+41
+00:01:46,040 --> 00:01:51,780
+now supporting resistance levels and
+
+42
+00:01:49,439 --> 00:01:54,180
+supply and demand areas are two
+
+43
+00:01:51,780 --> 00:01:57,299
+different trading Concepts that are very
+
+44
+00:01:54,180 --> 00:01:59,280
+similar they both indicate points where
+
+45
+00:01:57,299 --> 00:02:01,920
+the price can reverse
+
+46
+00:01:59,280 --> 00:02:02,939
+and you can find them everywhere on the
+
+47
+00:02:01,920 --> 00:02:05,820
+charts
+
+48
+00:02:02,939 --> 00:02:08,340
+the big difference between the two is
+
+49
+00:02:05,820 --> 00:02:12,180
+that support and resistance often works
+
+50
+00:02:08,340 --> 00:02:14,819
+on historical older and tested levels
+
+51
+00:02:12,180 --> 00:02:17,780
+while supply and demand especially on
+
+52
+00:02:14,819 --> 00:02:17,780
+Fresh levels
+
+53
+00:02:18,060 --> 00:02:23,400
+important resistance trading is
+
+54
+00:02:20,520 --> 00:02:27,200
+particularly strong in multiple touches
+
+55
+00:02:23,400 --> 00:02:27,200
+of the previous levels
+
+56
+00:02:27,480 --> 00:02:33,120
+some say that if price has responded to
+
+57
+00:02:30,720 --> 00:02:35,640
+a price level multiple times in the past
+
+58
+00:02:33,120 --> 00:02:38,580
+that level is significant
+
+59
+00:02:35,640 --> 00:02:41,640
+when trading support and resistance the
+
+60
+00:02:38,580 --> 00:02:44,099
+idea is if price reversed multiple times
+
+61
+00:02:41,640 --> 00:02:46,739
+from roughly the same point in the past
+
+62
+00:02:44,099 --> 00:02:49,580
+then it has a good chance of doing the
+
+63
+00:02:46,739 --> 00:02:49,580
+same in the future
+
+64
+00:02:49,739 --> 00:02:56,160
+so when trading based on support and
+
+65
+00:02:52,800 --> 00:02:58,800
+resistance you must identify where these
+
+66
+00:02:56,160 --> 00:03:01,080
+lines are located in the market you look
+
+67
+00:02:58,800 --> 00:03:04,580
+for points where multiple reversals
+
+68
+00:03:01,080 --> 00:03:04,580
+started from similar prices
+
+69
+00:03:06,120 --> 00:03:13,739
+here's a level with multiple reversals
+
+70
+00:03:10,920 --> 00:03:16,440
+you can see that each of the reversals
+
+71
+00:03:13,739 --> 00:03:18,720
+originated from prices which are quite
+
+72
+00:03:16,440 --> 00:03:21,300
+close to one another
+
+73
+00:03:18,720 --> 00:03:24,120
+so a resistance level must be found
+
+74
+00:03:21,300 --> 00:03:26,659
+somewhere close to where this reversal
+
+75
+00:03:24,120 --> 00:03:26,659
+started
+
+76
+00:03:27,360 --> 00:03:32,760
+and here are other reversals
+
+77
+00:03:30,000 --> 00:03:35,400
+again each of the reversals you see
+
+78
+00:03:32,760 --> 00:03:37,680
+started from similar prices
+
+79
+00:03:35,400 --> 00:03:40,700
+which means there is a support line
+
+80
+00:03:37,680 --> 00:03:40,700
+around here
+
+81
+00:03:43,560 --> 00:03:46,980
+trading supply and demand things are
+
+82
+00:03:46,200 --> 00:03:49,860
+different
+
+83
+00:03:46,980 --> 00:03:52,860
+if you adopt this concept you'll mainly
+
+84
+00:03:49,860 --> 00:03:56,400
+look for new zones a supply or demand
+
+85
+00:03:52,860 --> 00:03:59,760
+zone is a fresh untouched area where
+
+86
+00:03:56,400 --> 00:04:01,920
+price spent less time
+
+87
+00:03:59,760 --> 00:04:04,739
+you don't watch in the history of a
+
+88
+00:04:01,920 --> 00:04:07,739
+market for the validity of the zone
+
+89
+00:04:04,739 --> 00:04:09,239
+you don't wait for multiple retests of
+
+90
+00:04:07,739 --> 00:04:12,120
+the same area
+
+91
+00:04:09,239 --> 00:04:15,480
+several big candles and just one base
+
+92
+00:04:12,120 --> 00:04:18,019
+candle could make a valid supply for the
+
+93
+00:04:15,480 --> 00:04:18,019
+main Zone
+
+94
+00:04:21,239 --> 00:04:26,580
+now another difference support and
+
+95
+00:04:23,880 --> 00:04:29,540
+resistance trading is related not only
+
+96
+00:04:26,580 --> 00:04:33,060
+to best price swings round numbers
+
+97
+00:04:29,540 --> 00:04:36,780
+Fibonacci or again levels are also areas
+
+98
+00:04:33,060 --> 00:04:39,960
+of Attraction and price reversal areas
+
+99
+00:04:36,780 --> 00:04:43,139
+price spent a decent amount of time at
+
+100
+00:04:39,960 --> 00:04:46,139
+these levels every time price comes to
+
+101
+00:04:43,139 --> 00:04:49,400
+these levels it tends to take a reversal
+
+102
+00:04:46,139 --> 00:04:49,400
+or a Breakout
+
+103
+00:04:49,440 --> 00:04:55,320
+if price will break the support Zone
+
+104
+00:04:52,139 --> 00:04:58,500
+then the support will become resistance
+
+105
+00:04:55,320 --> 00:05:00,900
+and vice versa this is a common trading
+
+106
+00:04:58,500 --> 00:05:03,900
+strategy which is actually very powerful
+
+107
+00:05:00,900 --> 00:05:05,400
+when traded correctly but in the case of
+
+108
+00:05:03,900 --> 00:05:08,820
+supply and demand
+
+109
+00:05:05,400 --> 00:05:12,060
+this concept doesn't apply contrary to
+
+110
+00:05:08,820 --> 00:05:17,120
+what some may say a supply Zone which is
+
+111
+00:05:12,060 --> 00:05:17,120
+broken doesn't turn into a demand Zone
+
+112
+00:05:18,300 --> 00:05:23,539
+I would even say that all support and
+
+113
+00:05:20,880 --> 00:05:26,460
+resistance lines were originally
+
+114
+00:05:23,539 --> 00:05:28,740
+supplies and demand zones
+
+115
+00:05:26,460 --> 00:05:29,759
+this is how support and resistance are
+
+116
+00:05:28,740 --> 00:05:32,340
+created
+
+117
+00:05:29,759 --> 00:05:36,259
+they are essentially the confirmed
+
+118
+00:05:32,340 --> 00:05:36,259
+supply and demand levels
+
+119
+00:05:36,960 --> 00:05:43,259
+so supply and demand are fresh levels
+
+120
+00:05:40,440 --> 00:05:44,820
+War zones where a price has not been
+
+121
+00:05:43,259 --> 00:05:49,080
+determined yet
+
+122
+00:05:44,820 --> 00:05:51,720
+therefore these levels are valid trade
+
+123
+00:05:49,080 --> 00:05:54,000
+support and resistance are levels or
+
+124
+00:05:51,720 --> 00:05:55,440
+lines in which the price was already
+
+125
+00:05:54,000 --> 00:05:58,220
+determined
+
+126
+00:05:55,440 --> 00:06:00,600
+changed a few times
+
+127
+00:05:58,220 --> 00:06:02,759
+supplying them and Traders say that
+
+128
+00:06:00,600 --> 00:06:05,220
+support and resistance levels are
+
+129
+00:06:02,759 --> 00:06:08,039
+somewhat riskier than trading supply and
+
+130
+00:06:05,220 --> 00:06:10,320
+demand that's because having a Zone you
+
+131
+00:06:08,039 --> 00:06:12,720
+can use to watch for entries is much
+
+132
+00:06:10,320 --> 00:06:15,780
+easier than having a level
+
+133
+00:06:12,720 --> 00:06:19,400
+when price tests the same level the
+
+134
+00:06:15,780 --> 00:06:19,400
+chances for a breakout increase
+
+135
+00:06:21,539 --> 00:06:26,100
+probably the biggest problem when
+
+136
+00:06:24,000 --> 00:06:28,919
+creating support and resistance levels
+
+137
+00:06:26,100 --> 00:06:32,340
+is the fact that price will often fail
+
+138
+00:06:28,919 --> 00:06:35,100
+to turn exactly on the level itself
+
+139
+00:06:32,340 --> 00:06:37,560
+you know it so well you expect the
+
+140
+00:06:35,100 --> 00:06:40,800
+perfect Mouse a right to the people
+
+141
+00:06:37,560 --> 00:06:43,319
+rejection when you place your level
+
+142
+00:06:40,800 --> 00:06:45,479
+but oftentimes price will either move
+
+143
+00:06:43,319 --> 00:06:47,880
+slightly beyond the level before
+
+144
+00:06:45,479 --> 00:06:51,000
+reversing
+
+145
+00:06:47,880 --> 00:06:53,220
+or will reverse before touching the
+
+146
+00:06:51,000 --> 00:06:55,500
+level
+
+147
+00:06:53,220 --> 00:06:57,539
+this can make trading support and
+
+148
+00:06:55,500 --> 00:07:00,259
+resistance levels a frustrating
+
+149
+00:06:57,539 --> 00:07:00,259
+experience
+
+150
+00:07:00,360 --> 00:07:05,580
+and that's the main advantage of supply
+
+151
+00:07:02,580 --> 00:07:08,759
+and demand zones they offer you an area
+
+152
+00:07:05,580 --> 00:07:11,280
+at which the market should reverse
+
+153
+00:07:08,759 --> 00:07:14,280
+you don't have to find a reversal signal
+
+154
+00:07:11,280 --> 00:07:17,520
+forming at an exact point like it when
+
+155
+00:07:14,280 --> 00:07:20,039
+trading support and resistance levels
+
+156
+00:07:17,520 --> 00:07:22,560
+you have a whole Zone you can use to
+
+157
+00:07:20,039 --> 00:07:25,020
+place your trades
+
+158
+00:07:22,560 --> 00:07:28,319
+as long as the signal was found inside
+
+159
+00:07:25,020 --> 00:07:31,759
+the supplier demand Zone it's a sign
+
+160
+00:07:28,319 --> 00:07:31,759
+that the rejection could follow
+
+161
+00:07:34,380 --> 00:07:40,139
+now here's a common mistake many Traders
+
+162
+00:07:37,620 --> 00:07:42,960
+think because supply and demand is so
+
+163
+00:07:40,139 --> 00:07:46,080
+similar to support and resistance these
+
+164
+00:07:42,960 --> 00:07:48,660
+zones can cause multiple reversals as
+
+165
+00:07:46,080 --> 00:07:51,539
+support and resistance levels do
+
+166
+00:07:48,660 --> 00:07:54,539
+while this makes sense it's not true
+
+167
+00:07:51,539 --> 00:07:55,979
+supply and demand zones are a one-time
+
+168
+00:07:54,539 --> 00:07:58,740
+use
+
+169
+00:07:55,979 --> 00:08:01,620
+after price returns to a Zone and
+
+170
+00:07:58,740 --> 00:08:03,000
+reverses it's better to find another
+
+171
+00:08:01,620 --> 00:08:05,580
+area
+
+172
+00:08:03,000 --> 00:08:09,020
+the probability it will cause another
+
+173
+00:08:05,580 --> 00:08:09,020
+reversal lowers
+
+174
+00:08:10,319 --> 00:08:15,599
+the reason supply and demand zones only
+
+175
+00:08:12,720 --> 00:08:19,259
+work once is because they form from the
+
+176
+00:08:15,599 --> 00:08:21,840
+smart money buying and selling the whole
+
+177
+00:08:19,259 --> 00:08:24,960
+concept of supply and demand is centered
+
+178
+00:08:21,840 --> 00:08:26,160
+around finding smart money orders on a
+
+179
+00:08:24,960 --> 00:08:28,860
+price chart
+
+180
+00:08:26,160 --> 00:08:31,740
+price returns to supply domain zones
+
+181
+00:08:28,860 --> 00:08:34,380
+because the banks have not got all their
+
+182
+00:08:31,740 --> 00:08:36,599
+trades placed or they haven't take all
+
+183
+00:08:34,380 --> 00:08:39,060
+their profits off
+
+184
+00:08:36,599 --> 00:08:41,760
+so the reason why zones don't work
+
+185
+00:08:39,060 --> 00:08:44,339
+multiple times is that the smart money
+
+186
+00:08:41,760 --> 00:08:47,820
+have no reason to make price come back
+
+187
+00:08:44,339 --> 00:08:50,760
+after the first touch
+
+188
+00:08:47,820 --> 00:08:53,100
+they can get most of their trades placed
+
+189
+00:08:50,760 --> 00:08:56,880
+creating the Zone causing price to
+
+190
+00:08:53,100 --> 00:08:59,279
+return and then reverse
+
+191
+00:08:56,880 --> 00:09:02,880
+too many Traders put too much attention
+
+192
+00:08:59,279 --> 00:09:05,399
+to older Supply demand levels while the
+
+193
+00:09:02,880 --> 00:09:07,140
+actual strength hides within fresh
+
+194
+00:09:05,399 --> 00:09:10,200
+levels
+
+195
+00:09:07,140 --> 00:09:12,899
+some say that all supplying demand zones
+
+196
+00:09:10,200 --> 00:09:15,120
+have the same probability of causing a
+
+197
+00:09:12,899 --> 00:09:18,000
+reversal as new songs
+
+198
+00:09:15,120 --> 00:09:20,100
+they say that all zones perform the same
+
+199
+00:09:18,000 --> 00:09:22,440
+as the new zones there's no difference
+
+200
+00:09:20,100 --> 00:09:25,620
+between them and when you look at the
+
+201
+00:09:22,440 --> 00:09:28,740
+charts you may think this is true
+
+202
+00:09:25,620 --> 00:09:31,500
+all zones cause reversals all the time
+
+203
+00:09:28,740 --> 00:09:34,140
+if you go back weeks months or even
+
+204
+00:09:31,500 --> 00:09:37,500
+years on your charts you will find all
+
+205
+00:09:34,140 --> 00:09:39,959
+zones that have caused price to reverse
+
+206
+00:09:37,500 --> 00:09:43,200
+but let's consider how supply and demand
+
+207
+00:09:39,959 --> 00:09:44,220
+zones form and why they work the way
+
+208
+00:09:43,200 --> 00:09:47,100
+they do
+
+209
+00:09:44,220 --> 00:09:50,279
+so Banks cause a supply or demand Zone
+
+210
+00:09:47,100 --> 00:09:53,700
+to form by either placing trades or
+
+211
+00:09:50,279 --> 00:09:56,040
+taking profits then they cause price to
+
+212
+00:09:53,700 --> 00:09:58,260
+come back to a Zone because they haven't
+
+213
+00:09:56,040 --> 00:10:01,740
+been able to get all of their trades
+
+214
+00:09:58,260 --> 00:10:05,040
+placed or take all of their profits off
+
+215
+00:10:01,740 --> 00:10:06,600
+but why would they wait months or years
+
+216
+00:10:05,040 --> 00:10:09,240
+to do this
+
+217
+00:10:06,600 --> 00:10:11,820
+if they placed a bunch of Trades because
+
+218
+00:10:09,240 --> 00:10:14,040
+they want price to increase why would
+
+219
+00:10:11,820 --> 00:10:17,100
+they wait a few months to get the rest
+
+220
+00:10:14,040 --> 00:10:19,320
+of the orders placed for me it just
+
+221
+00:10:17,100 --> 00:10:22,740
+doesn't make sense that the banks would
+
+222
+00:10:19,320 --> 00:10:24,959
+wait weeks months or years or price to
+
+223
+00:10:22,740 --> 00:10:27,240
+come back to a Zone just to get a few
+
+224
+00:10:24,959 --> 00:10:29,339
+leftover trades placed
+
+225
+00:10:27,240 --> 00:10:32,100
+if they want to get their remaining
+
+226
+00:10:29,339 --> 00:10:34,740
+traits placed or take their profit
+
+227
+00:10:32,100 --> 00:10:35,820
+they'll make price come back to a Zone
+
+228
+00:10:34,740 --> 00:10:38,640
+quickly
+
+229
+00:10:35,820 --> 00:10:41,480
+they won't wait that long they'll do it
+
+230
+00:10:38,640 --> 00:10:41,480
+as soon as possible
+
+231
+00:10:42,120 --> 00:10:47,220
+so when it comes to supply and demand
+
+232
+00:10:44,640 --> 00:10:50,160
+zones and support and resistance levels
+
+233
+00:10:47,220 --> 00:10:51,540
+the time factor is going to have a huge
+
+234
+00:10:50,160 --> 00:10:54,959
+impact
+
+235
+00:10:51,540 --> 00:10:57,839
+order flow will reposition itself over
+
+236
+00:10:54,959 --> 00:11:01,200
+time that is a statistical mathematical
+
+237
+00:10:57,839 --> 00:11:04,079
+factor meaning that the pressure that
+
+238
+00:11:01,200 --> 00:11:07,320
+Supply or demand is the more likely it
+
+239
+00:11:04,079 --> 00:11:10,800
+is that order flow is still present in
+
+240
+00:11:07,320 --> 00:11:13,920
+its previous form or new Traders will
+
+241
+00:11:10,800 --> 00:11:18,300
+react to it much more likely compared to
+
+242
+00:11:13,920 --> 00:11:22,260
+any historical old price levels
+
+243
+00:11:18,300 --> 00:11:25,260
+so simple rule always focus on what
+
+244
+00:11:22,260 --> 00:11:28,200
+price structures are doing right now on
+
+245
+00:11:25,260 --> 00:11:30,540
+your right side of the chart and not far
+
+246
+00:11:28,200 --> 00:11:33,420
+back on the left side
+
+247
+00:11:30,540 --> 00:11:35,579
+fresh order flow will be found in the
+
+248
+00:11:33,420 --> 00:11:37,920
+newly formed structures
+
+249
+00:11:35,579 --> 00:11:41,640
+if you want to be quick in spotting
+
+250
+00:11:37,920 --> 00:11:42,660
+rotations that is absolutely a must to
+
+251
+00:11:41,640 --> 00:11:45,720
+understand
+
+252
+00:11:42,660 --> 00:11:47,399
+so focus on the right side over the left
+
+253
+00:11:45,720 --> 00:11:51,240
+side of the chart
+
+254
+00:11:47,399 --> 00:11:54,660
+make this a priority sure historical
+
+255
+00:11:51,240 --> 00:11:57,240
+price action does matter but near-term
+
+256
+00:11:54,660 --> 00:11:59,660
+fresh price action always should have a
+
+257
+00:11:57,240 --> 00:11:59,660
+priority
+
+258
+00:12:00,060 --> 00:12:04,920
+blotting supply and demand should be
+
+259
+00:12:02,399 --> 00:12:07,920
+done with some logical approach
+
+260
+00:12:04,920 --> 00:12:11,459
+often Traders tend to pull load charts
+
+261
+00:12:07,920 --> 00:12:13,800
+with 20 or 30 levels where the whole
+
+262
+00:12:11,459 --> 00:12:16,440
+meaning of anticipating the rejections
+
+263
+00:12:13,800 --> 00:12:18,959
+will lose its value
+
+264
+00:12:16,440 --> 00:12:22,140
+there is a low value when having a chart
+
+265
+00:12:18,959 --> 00:12:24,779
+completely cluttered with levels where
+
+266
+00:12:22,140 --> 00:12:27,360
+the trader expects that every micro move
+
+267
+00:12:24,779 --> 00:12:31,980
+of the price should retest some old
+
+268
+00:12:27,360 --> 00:12:34,079
+historical Zone and price reacting to it
+
+269
+00:12:31,980 --> 00:12:36,000
+when it comes to efficient plotting of
+
+270
+00:12:34,079 --> 00:12:39,060
+supply and demand zones on the chart
+
+271
+00:12:36,000 --> 00:12:40,440
+there are several variables that you
+
+272
+00:12:39,060 --> 00:12:43,260
+should follow
+
+273
+00:12:40,440 --> 00:12:44,760
+first number one rule in supply and
+
+274
+00:12:43,260 --> 00:12:47,880
+demand Trading
+
+275
+00:12:44,760 --> 00:12:49,740
+first time retrace to the base is the
+
+276
+00:12:47,880 --> 00:12:53,399
+strongest to enter
+
+277
+00:12:49,740 --> 00:12:55,620
+always make sure the zone is still fresh
+
+278
+00:12:53,399 --> 00:12:58,620
+which means that after the initial
+
+279
+00:12:55,620 --> 00:13:02,060
+creation of the zone price has not
+
+280
+00:12:58,620 --> 00:13:02,060
+returned to it yet
+
+281
+00:13:04,740 --> 00:13:10,380
+also consider the time spent at the
+
+282
+00:13:08,339 --> 00:13:13,200
+supply or demand level
+
+283
+00:13:10,380 --> 00:13:14,220
+how much time did the price spend at the
+
+284
+00:13:13,200 --> 00:13:16,740
+zone
+
+285
+00:13:14,220 --> 00:13:19,800
+the last time price spends at its own
+
+286
+00:13:16,740 --> 00:13:22,200
+the more out of balance supply and
+
+287
+00:13:19,800 --> 00:13:24,720
+demand are at that price level
+
+288
+00:13:22,200 --> 00:13:27,800
+this means smart money or aggressively
+
+289
+00:13:24,720 --> 00:13:27,800
+placing orders
+
+290
+00:13:28,260 --> 00:13:33,959
+you also want to analyze how far the
+
+291
+00:13:31,320 --> 00:13:37,500
+price moved away from the zone
+
+292
+00:13:33,959 --> 00:13:42,120
+look for extremely strong turning points
+
+293
+00:13:37,500 --> 00:13:45,180
+these are high probability price levels
+
+294
+00:13:42,120 --> 00:13:47,160
+and I said it before pay attention to
+
+295
+00:13:45,180 --> 00:13:50,459
+the most recent zones
+
+296
+00:13:47,160 --> 00:13:53,420
+have only the nearest ones inside and
+
+297
+00:13:50,459 --> 00:13:53,420
+keep your chart clean
+
+298
+00:13:54,079 --> 00:13:59,820
+another variable to identify the
+
+299
+00:13:57,180 --> 00:14:02,160
+strength of the supply or demand zone is
+
+300
+00:13:59,820 --> 00:14:03,000
+the volume at which price formed the
+
+301
+00:14:02,160 --> 00:14:05,459
+zone
+
+302
+00:14:03,000 --> 00:14:08,040
+the stronger the volume the more
+
+303
+00:14:05,459 --> 00:14:10,260
+important The Zone could be once the
+
+304
+00:14:08,040 --> 00:14:12,500
+price redests it
+
+305
+00:14:10,260 --> 00:14:16,079
+if you want to know more about volume
+
+306
+00:14:12,500 --> 00:14:19,260
+watch this video next to learn how to
+
+307
+00:14:16,079 --> 00:14:21,420
+identify buying or selling volume
+
+308
+00:14:19,260 --> 00:14:24,420
+check out our Academy program if you
+
+309
+00:14:21,420 --> 00:14:27,139
+want to further level up your Trading
+
+310
+00:14:24,420 --> 00:14:27,139
+until next time
+

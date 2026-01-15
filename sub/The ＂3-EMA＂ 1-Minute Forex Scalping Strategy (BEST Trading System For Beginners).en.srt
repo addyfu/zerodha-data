@@ -1,0 +1,546 @@
+1
+00:00:01,079 --> 00:00:05,480
+Even if you're a complete beginner in trading,
+you must have come across the term "scalping"
+
+2
+00:00:05,480 --> 00:00:10,099
+at some point. The main goal of scalping is
+to make a profit through buying or selling
+
+3
+00:00:10,099 --> 00:00:16,320
+an asset for a very short period of time,
+and closing it for a small profit. However,
+
+4
+00:00:16,320 --> 00:00:21,210
+you should be aware that this trading style
+will demand a certain amount of time and concentration
+
+5
+00:00:21,210 --> 00:00:26,300
+and if you aren’t able to dedicate a few
+hours a day to this, then this 1-minute scalping
+
+6
+00:00:26,300 --> 00:00:31,710
+strategy might not be the best fit for you.
+Now, for this strategy we’ll rely on exponential
+
+7
+00:00:31,710 --> 00:00:38,159
+moving averages. A single moving average gives
+you the general trend of price movement. However,
+
+8
+00:00:38,159 --> 00:00:43,120
+a lot of traders typically use two or more
+moving averages to gain a better feel for
+
+9
+00:00:43,120 --> 00:00:48,400
+main direction and to trigger more precise
+entries or exits in the market. That’s why
+
+10
+00:00:48,400 --> 00:00:53,930
+we’ll use a trio of moving averages to monitor
+the short, medium, and long term trend of
+
+11
+00:00:53,930 --> 00:01:01,120
+a market, and will allow us to estimate the
+trend’s intensity from multiple timeframes.
+
+12
+00:01:01,120 --> 00:01:07,150
+So here we have a 1-min chart of EUR JPY,
+which displays three exponential moving averages:
+
+13
+00:01:07,150 --> 00:01:16,540
+the 50, 100, and 150-period averages. The
+50-period EMA gives me the short term trend,
+
+14
+00:01:16,540 --> 00:01:21,830
+the 100- and 150-period EMA’s give me the
+medium and long term trends. Of course, this
+
+15
+00:01:21,830 --> 00:01:28,430
+is my preference. I prefer to use longer term
+EMAs, to try to eliminate the inevitable market
+
+16
+00:01:28,430 --> 00:01:33,420
+noise. Any number of period combinations can
+be used, depending on the types of setups
+
+17
+00:01:33,420 --> 00:01:39,130
+you are looking for and the timeframes you
+are trading. So, feel free to use other moving
+
+18
+00:01:39,130 --> 00:01:42,500
+averages, you don’t have to use the exact
+setup.
+
+19
+00:01:42,500 --> 00:01:47,500
+Looking back at this chart, notice how price
+pushed above the three EMA’s and traded
+
+20
+00:01:47,500 --> 00:01:54,020
+steadily higher, the price staying above the
+50-period EMA the entire time. The fact that
+
+21
+00:01:54,020 --> 00:01:59,420
+all three EMA’s were trending higher at
+around forty-five degree angles during the
+
+22
+00:01:59,420 --> 00:02:05,740
+advance was very bullish. This is the image
+we’ll search on our chart, meaning all three
+
+23
+00:02:05,740 --> 00:02:12,200
+moving averages in agreement, in line, almost
+parallel, with strong trend consensus. Right
+
+24
+00:02:12,200 --> 00:02:18,590
+here, the price eventually broke below the
+50-period EMA, which signaled short-term weakness,
+
+25
+00:02:18,590 --> 00:02:25,760
+but bounced off the 100-period EMA before
+resuming the uptrend, thereby confirming the
+
+26
+00:02:25,760 --> 00:02:31,760
+medium and long term strength. Until the price
+breaks below the 150-period EMA, the bullish
+
+27
+00:02:31,760 --> 00:02:35,090
+trend will remain intact.
+
+28
+00:02:35,090 --> 00:02:39,930
+After we identified the main direction, we
+need to wait for a pullback. So, we’ll search
+
+29
+00:02:39,930 --> 00:02:46,930
+for a pullback trade, to pinpoint undervalued
+and overvalued entries into established trends.
+
+30
+00:02:46,930 --> 00:02:52,650
+So our goal is to find opportunities when
+price is considered overvalued or undervalued,
+
+31
+00:02:52,650 --> 00:02:57,210
+as this presents excellent opportunities to
+“buy low during uptrends, and sell high
+
+32
+00:02:57,210 --> 00:03:01,120
+during downtrend”.
+The idea of the pull-back trade is to buy
+
+33
+00:03:01,120 --> 00:03:06,130
+the market at a discount during an uptrend,
+and sell the market at a premium during a
+
+34
+00:03:06,130 --> 00:03:09,489
+down trend.
+The goal of the pull-back trade is to take
+
+35
+00:03:09,489 --> 00:03:15,350
+advantage of situations when price is in an
+established trend, either bullish or bearish,
+
+36
+00:03:15,350 --> 00:03:20,410
+and all three moving averages are indicating
+the same direction. Any pull-back to the first
+
+37
+00:03:20,410 --> 00:03:26,320
+or second EMA offers a buying (or selling)
+opportunity back in the direction of the established
+
+38
+00:03:26,320 --> 00:03:29,740
+trend.
+This setup is effective because it forces
+
+39
+00:03:29,740 --> 00:03:35,370
+you to buy below value and sell above value,
+while keeping you disciplined to the existing
+
+40
+00:03:35,370 --> 00:03:36,739
+trend.
+
+41
+00:03:36,739 --> 00:03:42,110
+Now, how to enter a trade?
+So the first step, the most important one,
+
+42
+00:03:42,110 --> 00:03:46,670
+is to identify the current trend of the market.
+I know I’m repeating myself, but i want
+
+43
+00:03:46,670 --> 00:03:52,420
+this to be crystal clear. All three EMA’s
+must be trending in agreement in a bullish
+
+44
+00:03:52,420 --> 00:03:58,599
+or bearish manner. Ideally, you want to see
+all three EMA’s trending at a 45-degree
+
+45
+00:03:58,599 --> 00:04:06,060
+angle, which identifies a strong trend. However,
+any slope ranging from 30- to 60-degrees will
+
+46
+00:04:06,060 --> 00:04:12,379
+work just fine. The second step involves waiting
+for the market to pull back to test either
+
+47
+00:04:12,379 --> 00:04:19,409
+the 50- or 100-period EMA. Price can close
+beyond the 50-period EMA, but you generally
+
+48
+00:04:19,409 --> 00:04:27,270
+do not want price to close beyond the 100-period
+EMA, or to be near the 150 EMA. Once price
+
+49
+00:04:27,270 --> 00:04:33,059
+tests either of the moving averages, we need
+price confirmation. The entry is triggered
+
+50
+00:04:33,059 --> 00:04:40,349
+when price closes back in the direction of
+the current trend, beyond the 50-period EMA.
+
+51
+00:04:40,349 --> 00:04:45,129
+How to manage the trade. There are many exit
+tactics that can be used for the pull-back
+
+52
+00:04:45,129 --> 00:04:50,999
+trade. Before you select the type of exit
+strategy, you should first remember you are
+
+53
+00:04:50,999 --> 00:04:57,370
+scalping. The room for error is extremely
+small. Let me repeat that: margin for error
+
+54
+00:04:57,370 --> 00:05:02,129
+is very small when you trade with high leverage
+while looking for a small profit. With that
+
+55
+00:05:02,129 --> 00:05:07,539
+in mind, here is what I do when I’m scalping:
+• I move my stops to breakeven as soon as
+
+56
+00:05:07,539 --> 00:05:13,719
+possible. You want to diminish your risk.
+You will get stopped out a lot at breakeven,
+
+57
+00:05:13,719 --> 00:05:19,180
+but from my experience it’s better to have
+5 trades in a row with zero profit, than 5
+
+58
+00:05:19,180 --> 00:05:25,369
+losing trades. That’s the ugly face of scalping,
+it’s very unpredictable and any price swing
+
+59
+00:05:25,369 --> 00:05:30,759
+can hit your stop loss. That’s why I look
+to play the breakeven trade when I’m 5-6
+
+60
+00:05:30,759 --> 00:05:36,080
+pips in profit. You will be frustrated when
+you’ll have 5 pips in profit, move your
+
+61
+00:05:36,080 --> 00:05:40,069
+stop to breakeven, and then the market will
+hit your stop loss and will continue in your
+
+62
+00:05:40,069 --> 00:05:45,509
+initial direction. It will happen. But this
+will protect you in the long run.
+
+63
+00:05:45,509 --> 00:05:51,110
+If you have a bigger risk aversion, here are
+other tactics you could use:
+
+64
+00:05:51,110 --> 00:05:55,070
+• a traditional trailing profit stop.
+• a fixed profit target
+
+65
+00:05:55,070 --> 00:06:02,159
+• exit at the next support and resistance
+levels, or at a fib extension, if you trade
+
+66
+00:06:02,159 --> 00:06:05,099
+with fib numbers.
+
+67
+00:06:05,099 --> 00:06:09,669
+This chart illustrates a perfect example of
+choosing a currency pair during an established
+
+68
+00:06:09,669 --> 00:06:17,020
+trend. Notice that all three EMA’s are trending
+lower at 45-degree angles, which is important
+
+69
+00:06:17,020 --> 00:06:22,289
+because this is a measurement of trend intensity.
+Trading in the direction of an established
+
+70
+00:06:22,289 --> 00:06:27,860
+trend increases your chances for a profitable
+outcome. Now that direction has been established,
+
+71
+00:06:27,860 --> 00:06:34,490
+we look for price to break above the 50-day
+EMA in order to set the stage for a “sell”
+
+72
+00:06:34,490 --> 00:06:39,800
+scenario. Once price dips above the first
+EMA, we look for price to close back below
+
+73
+00:06:39,800 --> 00:06:45,349
+the 50-period average in order to trigger
+a long position, which occurred several times
+
+74
+00:06:45,349 --> 00:06:50,809
+in this chart. Also remember that you can
+use any period moving average you like to
+
+75
+00:06:50,809 --> 00:06:56,999
+manage your trades! You could back test different
+settings, and adapt the period of the EMAs
+
+76
+00:06:56,999 --> 00:07:01,210
+to fit your style.
+Once in the trade, i immediately set my loss
+
+77
+00:07:01,210 --> 00:07:06,999
+stop below the low of the pull-back i am trading.
+Therefore, your stop loss would be beneath
+
+78
+00:07:06,999 --> 00:07:11,349
+the low of the bar that tested the 50 or 100
+period EMA.
+
+79
+00:07:11,349 --> 00:07:18,330
+Here are other examples of scalping trades
+on EUR/JPY, DAX Index and Dow Jones Index,
+
+80
+00:07:18,330 --> 00:07:26,620
+my favorite instruments to scalp:
+
+81
+00:07:26,620 --> 00:07:43,789
+So, what’s the psychology behind this trading
+technique? Well, we try to take advantage
+
+82
+00:07:43,789 --> 00:07:49,899
+of novice traders, shorting the market below
+50 EMA. Think about it. We are practically
+
+83
+00:07:49,899 --> 00:07:55,150
+waiting for the price to close below the 50
+EMA. But other traders, when they see the
+
+84
+00:07:55,150 --> 00:08:00,539
+price closing below the 50 EMA, they immediately
+short the market. They don’t care about
+
+85
+00:08:00,539 --> 00:08:05,889
+the general trend, they see the price below
+50 EMA and enter short. That’s why we wait
+
+86
+00:08:05,889 --> 00:08:11,860
+for the price to return above the 50 EMA.
+We want to have trapped traders below us,
+
+87
+00:08:11,860 --> 00:08:17,639
+to fuel our long positions. Where are the
+stops of the traders shorting below the 50
+
+88
+00:08:17,639 --> 00:08:23,710
+EMA? You guessed it, above the 50 EMA. When
+the price returns above the moving average,
+
+89
+00:08:23,710 --> 00:08:28,699
+our scalping trade gets an extra boost from
+the stop of trapped traders.
+
+90
+00:08:28,699 --> 00:08:35,370
+Now, here are some important observations:
+Scalping can easily turn to gambling. Excited
+
+91
+00:08:35,370 --> 00:08:41,620
+traders on a winning streak will abandon their
+own rules in pursuit of fast money. If it
+
+92
+00:08:41,620 --> 00:08:47,350
+happens once, it can easily happen again.
+Being impulsive is one of the most undesirable
+
+93
+00:08:47,350 --> 00:08:53,140
+traits for forex scalping. That’s why, try
+to improve your discipline and self-control
+
+94
+00:08:53,140 --> 00:08:58,250
+before attempting scalping.
+Second, scalping is one of those trading methods
+
+95
+00:08:58,250 --> 00:09:04,910
+that are often performed with bad risk reward
+ratio. Trader will often risk 100 pips just
+
+96
+00:09:04,910 --> 00:09:10,770
+for the possibility of gaining 1 or 2. Market
+provides plenty of opportunity to enter high
+
+97
+00:09:10,770 --> 00:09:16,820
+probability setups that can make this reward
+sustainable. Unfortunately this trading style
+
+98
+00:09:16,820 --> 00:09:22,990
+also means that days and weeks of profit can
+be wiped out with relative ease. Few bad trades
+
+99
+00:09:22,990 --> 00:09:28,180
+in a row can therefore produce substantial
+losses. That’s why when I’m scalping I’m
+
+100
+00:09:28,180 --> 00:09:37,500
+not risking more than 0.5% of my total balance.
+Not 5%, 0.5%.so, if you have 5.000 dollars
+
+101
+00:09:37,500 --> 00:09:44,000
+in your account, for example, if you scalp,
+risk at most 25 dollars per trade.
+
+102
+00:09:44,000 --> 00:09:50,260
+My third recommendation, lower you lot sizes.
+Small lots help you keep losses down until
+
+103
+00:09:50,260 --> 00:09:53,760
+your trading improves and is consistently
+proﬁtable. The smaller the forex lot size,
+
+104
+00:09:53,760 --> 00:09:58,071
+the lower the risk.
+Also, don’t neglect the trading costs. Scalping
+
+105
+00:09:58,071 --> 00:10:04,550
+requires frequent trading almost by definition.
+Frequent trading also means frequent and substantial
+
+106
+00:10:04,550 --> 00:10:10,650
+position entry costs. Small difference in
+spread between a great broker and good broker
+
+107
+00:10:10,650 --> 00:10:16,020
+may be the difference between a consistently
+winning strategy and a consistently losing
+
+108
+00:10:16,020 --> 00:10:19,010
+system.
+If you found value, consider subscribing to
+
+109
+00:10:19,010 --> 00:10:24,270
+our channel and hit the bell icon so you don’t
+miss out when we upload new videos, and also
+
+110
+00:10:24,270 --> 00:10:28,020
+don’t forget to leave us a like to show
+your support. Until next time.
+

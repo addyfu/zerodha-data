@@ -1,0 +1,827 @@
+1
+00:00:01,150 --> 00:00:05,170
+If you look at any price chart and you will
+notice that price does not move in a straight
+
+2
+00:00:05,170 --> 00:00:06,170
+line.
+
+3
+00:00:06,170 --> 00:00:08,040
+It does not move up or down vertically.
+
+4
+00:00:08,040 --> 00:00:11,780
+It moves in waves, and these waves are called
+market swings.
+
+5
+00:00:11,780 --> 00:00:16,250
+In a bull market, price rises with a series
+of up and downswings.
+
+6
+00:00:16,250 --> 00:00:20,539
+Naturally, the upswings generally exceed the
+downswings in length.
+
+7
+00:00:20,539 --> 00:00:22,550
+The reverse is true in a bear market.
+
+8
+00:00:22,550 --> 00:00:27,499
+By observing market swings, you will be able
+to notice the structure of the market and
+
+9
+00:00:27,499 --> 00:00:30,720
+get clues on whether the market will move
+up or down.
+
+10
+00:00:30,720 --> 00:00:36,780
+And following market swings must be your first
+step to read the market bias.
+
+11
+00:00:36,780 --> 00:00:41,820
+Another way to look at market swings is to
+think of them as a higher time frame perspective.
+
+12
+00:00:41,820 --> 00:00:45,190
+Each swing is equivalent to a bar in a higher
+time frame.
+
+13
+00:00:45,190 --> 00:00:49,670
+This is why some traders use a higher time
+frame to evaluate market bias.
+
+14
+00:00:49,670 --> 00:00:52,380
+There are two challenges with the higher time
+frame approach.
+
+15
+00:00:52,380 --> 00:00:56,670
+First, the higher time frame is usually chosen
+arbitrarily.
+
+16
+00:00:56,670 --> 00:00:59,740
+Common choices are multiples of three and
+five.
+
+17
+00:00:59,740 --> 00:01:04,650
+For instance, if your trading time frame is
+1-minute, using a multiple of five, you will
+
+18
+00:01:04,650 --> 00:01:07,970
+use the 5-minute chart for determining the
+market bias.
+
+19
+00:01:07,970 --> 00:01:12,560
+However, there is often no sound basis for
+the choice of the higher time frame.
+
+20
+00:01:12,560 --> 00:01:17,470
+Next, by using a higher time frame, you must
+split your attention between two time frames.
+
+21
+00:01:17,470 --> 00:01:23,490
+While some traders might find that manageable,
+some try to keep trading as simple as possible
+
+22
+00:01:23,490 --> 00:01:25,740
+and focus on one chart only.
+
+23
+00:01:25,740 --> 00:01:30,979
+By analyzing market swings, you will be able
+to factor in the price action of a higher
+
+24
+00:01:30,979 --> 00:01:35,000
+order into your analysis without a second
+chart showing a higher time frame.
+
+25
+00:01:35,000 --> 00:01:39,630
+The advantage of this approach is that you
+will be able to evaluate the ongoing price
+
+26
+00:01:39,630 --> 00:01:42,700
+action within its larger context on the same
+chart.
+
+27
+00:01:42,700 --> 00:01:48,590
+So, we will focus on reading market swings
+to deduce the market bias using a single time
+
+28
+00:01:48,590 --> 00:01:49,590
+frame.
+
+29
+00:01:49,590 --> 00:01:52,870
+So how to define market swings.
+
+30
+00:01:52,870 --> 00:01:58,250
+The first step is to classify every price
+bar into one of the following four types:
+
+31
+00:01:58,250 --> 00:02:03,220
+up bars, down bars, inside bars and outside
+bars.
+
+32
+00:02:03,220 --> 00:02:07,960
+These labels describe the relationship of
+each bar high/low relative to the previous
+
+33
+00:02:07,960 --> 00:02:08,960
+bar.
+
+34
+00:02:08,960 --> 00:02:09,960
+1.
+
+35
+00:02:09,960 --> 00:02:14,860
+Up bars have the following characteristics
+– Higher high, higher low compared to the
+
+36
+00:02:14,860 --> 00:02:16,719
+previous bar
+2.
+
+37
+00:02:16,719 --> 00:02:20,799
+Down bars have lower high, lower low compared
+to the previous bar
+
+38
+00:02:20,799 --> 00:02:22,069
+3.
+
+39
+00:02:22,069 --> 00:02:26,170
+Inside bars have lower high, higher low relative
+to the previous bar
+
+40
+00:02:26,170 --> 00:02:32,430
+If the high or the low or both are equal to
+that of the previous bar, it is still considered
+
+41
+00:02:32,430 --> 00:02:33,590
+an inside bar.
+
+42
+00:02:33,590 --> 00:02:34,590
+4.
+
+43
+00:02:34,590 --> 00:02:39,099
+Outside bars have higher high, lower low relative
+to the previous bar
+
+44
+00:02:39,099 --> 00:02:44,349
+If either the high or the low are equal to
+that of the previous bar, it is still an outside
+
+45
+00:02:44,349 --> 00:02:45,549
+bar.
+
+46
+00:02:45,549 --> 00:02:51,719
+So, by using this approach, the closing price
+of a price bar does not matter in the classification.
+
+47
+00:02:51,719 --> 00:02:55,109
+An up bar might close lower than it opened.
+
+48
+00:02:55,109 --> 00:02:58,060
+A down bar might close higher than it opened.
+
+49
+00:02:58,060 --> 00:03:02,680
+For a bar that closes higher, we will use
+the term “bullish bar”.
+
+50
+00:03:02,680 --> 00:03:07,260
+For a bar that closes lower, we will use the
+term “bearish bar”.
+
+51
+00:03:07,260 --> 00:03:11,379
+Let’s identify the candles in this example.
+
+52
+00:03:11,379 --> 00:03:19,680
+We have 4 up bars, followed by an inside bar,
+another 3 up bars, and another up bar, despite
+
+53
+00:03:19,680 --> 00:03:25,569
+being a red candle, because the high and low
+were higher relative to previous bar… we
+
+54
+00:03:25,569 --> 00:03:35,909
+then have a down bar, 3 up bars, 2 down bars
+and an inside bar, up bar, then outside bar
+
+55
+00:03:35,909 --> 00:03:40,680
+because the high and the low are equal to
+that of the previous bar, so it is still an
+
+56
+00:03:40,680 --> 00:03:41,999
+outside bar.
+
+57
+00:03:41,999 --> 00:03:50,959
+Then an up bar, an outside bar, followed by
+an inside bar, and another inside bar, 2 down
+
+58
+00:03:50,959 --> 00:04:03,189
+bars, 4 up bars, inside bar, down bar, an
+inside bar, down bar, an inside bar and finally
+
+59
+00:04:03,189 --> 00:04:06,379
+an outside bar.
+
+60
+00:04:06,379 --> 00:04:11,099
+With this approach, you don’t need to memorize
+tens of candlestick combinations, you just
+
+61
+00:04:11,099 --> 00:04:13,139
+need this 4 types of candles.
+
+62
+00:04:13,139 --> 00:04:18,489
+I recommend opening a chart and start reading
+candlesticks until it becomes very easy to
+
+63
+00:04:18,489 --> 00:04:20,889
+determine which type is.
+
+64
+00:04:20,889 --> 00:04:27,520
+Do this until you will be able to recognize
+the type of the candle almost instantly.
+
+65
+00:04:27,520 --> 00:04:31,780
+Once you have mastered the different bar types,
+you will be able to identify market swings
+
+66
+00:04:31,780 --> 00:04:33,810
+with ease, with these four rules.
+
+67
+00:04:33,810 --> 00:04:34,810
+1.
+
+68
+00:04:34,810 --> 00:04:39,379
+An up bar starts an upswing and confirms the
+end of a downswing.
+
+69
+00:04:39,379 --> 00:04:40,379
+2.
+
+70
+00:04:40,379 --> 00:04:44,819
+A down bar starts a downswing and confirms
+the end of an upswing.
+
+71
+00:04:44,819 --> 00:04:45,819
+3.
+
+72
+00:04:45,819 --> 00:04:49,860
+Inside bars do not affect the direction of
+the current swing because they do not break
+
+73
+00:04:49,860 --> 00:04:52,710
+the previous high and low
+4.
+
+74
+00:04:52,710 --> 00:04:57,639
+Outside bars break both the previous high
+and low so it introduces uncertainty into
+
+75
+00:04:57,639 --> 00:04:59,139
+the market structure.
+
+76
+00:04:59,139 --> 00:05:05,060
+However, as each swing is a minor trend itself
+and trends tend to continue, we give the benefit
+
+77
+00:05:05,060 --> 00:05:07,270
+of the doubt to the current swing.
+
+78
+00:05:07,270 --> 00:05:11,220
+Thus, outside bars in an upswing continues
+the upswing.
+
+79
+00:05:11,220 --> 00:05:16,020
+Similarly, outside bars in a downswing continues
+the downswing.
+
+80
+00:05:16,020 --> 00:05:22,400
+Now, we took the previous example and we marked
+out the market swings, based on the bars that
+
+81
+00:05:22,400 --> 00:05:25,230
+changed the direction of the market swings.
+
+82
+00:05:25,230 --> 00:05:29,830
+The circled bars are inside bars and outside
+bars and they do not affect the direction
+
+83
+00:05:29,830 --> 00:05:32,740
+of the market swings.
+
+84
+00:05:32,740 --> 00:05:36,480
+So most swings are confirmed by an up bar
+or a down bar.
+
+85
+00:05:36,480 --> 00:05:41,389
+However, under exceptional circumstances,
+it is possible for a swing to form without
+
+86
+00:05:41,389 --> 00:05:43,639
+either an up bar or a down bar.
+
+87
+00:05:43,639 --> 00:05:48,349
+An upswing can be formed when the market rises
+above the last swing high without forming
+
+88
+00:05:48,349 --> 00:05:49,639
+an up bar.
+
+89
+00:05:49,639 --> 00:05:54,740
+Similarly, a downswing can be formed when
+the market falls below the last swing low
+
+90
+00:05:54,740 --> 00:05:56,580
+without forming a down bar.
+
+91
+00:05:56,580 --> 00:06:00,650
+An outside bar is always involved in such
+cases.
+
+92
+00:06:00,650 --> 00:06:05,659
+This is example of the market forming a new
+downswing without a down bar.
+
+93
+00:06:05,659 --> 00:06:10,990
+And this is an example of the market forming
+a new upswing without an up bar.
+
+94
+00:06:10,990 --> 00:06:11,990
+1.
+
+95
+00:06:11,990 --> 00:06:15,069
+The market has been forming regular swings
+with up bars and down bars.
+
+96
+00:06:15,069 --> 00:06:16,069
+2.
+
+97
+00:06:16,069 --> 00:06:19,100
+This bullish outside bar broke above the last
+swing high.
+
+98
+00:06:19,100 --> 00:06:20,570
+There was no up bar.
+
+99
+00:06:20,570 --> 00:06:26,379
+However, as the last swing high has been broken,
+despite the lack of an up bar, we must recognise
+
+100
+00:06:26,379 --> 00:06:29,050
+that a new upswing has been formed.
+
+101
+00:06:29,050 --> 00:06:32,610
+And here is an outside bearish bar marking
+a new swing.
+
+102
+00:06:32,610 --> 00:06:38,379
+Let’s take a look at another price swing
+example and see which shows the correct price
+
+103
+00:06:38,379 --> 00:06:39,379
+swings?
+
+104
+00:06:39,379 --> 00:06:42,389
+Is it A or B?
+
+105
+00:06:42,389 --> 00:06:43,970
+Example B is the correct one.
+
+106
+00:06:43,970 --> 00:06:47,590
+Although this point might seem like a swing
+low, it is not.
+
+107
+00:06:47,590 --> 00:06:51,999
+Typically, an outside bar doesn’t end or
+start a price swing.
+
+108
+00:06:51,999 --> 00:06:57,330
+Without a down bar or a break below the last
+swing low, an upswing will continue.
+
+109
+00:06:57,330 --> 00:06:59,240
+So why is this analysis important?
+
+110
+00:06:59,240 --> 00:07:03,770
+Well, if you understand how the swings are
+marked and you have learned to identify market
+
+111
+00:07:03,770 --> 00:07:08,320
+swings clearly, you can confidently state
+the current direction of the market wave at
+
+112
+00:07:08,320 --> 00:07:09,990
+any point in time.
+
+113
+00:07:09,990 --> 00:07:14,669
+This is an important first step to uncovering
+the market bias.
+
+114
+00:07:14,669 --> 00:07:18,639
+The next step to determine market bias is
+determining swing pivots.
+
+115
+00:07:18,639 --> 00:07:22,580
+Swing pivots are the turning points of each
+market swing.
+
+116
+00:07:22,580 --> 00:07:26,200
+The point where an upswing turns down is a
+swing high.
+
+117
+00:07:26,200 --> 00:07:29,229
+The point where a downswing turns up is a
+swing low.
+
+118
+00:07:29,229 --> 00:07:32,160
+Why are swing pivots important?
+
+119
+00:07:32,160 --> 00:07:35,669
+Swing pivots are price points that turned
+the tide of the market.
+
+120
+00:07:35,669 --> 00:07:37,260
+These points are not random.
+
+121
+00:07:37,260 --> 00:07:41,180
+They represent a momentary change in demand
+and supply forces.
+
+122
+00:07:41,180 --> 00:07:46,759
+In this example, bulls could not move the
+market above this swing high, not even for
+
+123
+00:07:46,759 --> 00:07:47,759
+one tick.
+
+124
+00:07:47,759 --> 00:07:52,080
+This means that at that point in time, no
+one was willing to offer a price higher than
+
+125
+00:07:52,080 --> 00:07:53,550
+the swing high.
+
+126
+00:07:53,550 --> 00:07:58,520
+Traders saw no value above the swing high
+and didn’t want to buy above the swing high.
+
+127
+00:07:58,520 --> 00:08:03,560
+Hence, when prices move close to or above
+a swing high, we must remember that traders
+
+128
+00:08:03,560 --> 00:08:06,319
+saw no value in buying above that point previously.
+
+129
+00:08:06,319 --> 00:08:11,669
+Assuming that most traders have not changed
+their opinions, prices are unlikely to move
+
+130
+00:08:11,669 --> 00:08:13,030
+above the swing high.
+
+131
+00:08:13,030 --> 00:08:18,050
+So, the swing high marks a price area that
+resists the market from moving up.
+
+132
+00:08:18,050 --> 00:08:20,289
+This is what we call a resistance area.
+
+133
+00:08:20,289 --> 00:08:25,280
+In the case of a swing low, the bears could
+not push prices below it.
+
+134
+00:08:25,280 --> 00:08:29,849
+This occurrence implies that no trader was
+willing to sell below that particular price
+
+135
+00:08:29,849 --> 00:08:30,849
+point.
+
+136
+00:08:30,849 --> 00:08:33,950
+The reason was that traders perceived value
+below the swing low.
+
+137
+00:08:33,950 --> 00:08:36,140
+They want to buy value and not sell it.
+
+138
+00:08:36,140 --> 00:08:40,600
+So when everyone wants to buy and no one wants
+to sell, price goes up and we get a swing
+
+139
+00:08:40,600 --> 00:08:41,600
+low.
+
+140
+00:08:41,600 --> 00:08:45,230
+The logic we applied to analyzing swing highs
+works for swing lows.
+
+141
+00:08:45,230 --> 00:08:50,470
+When the market falls near a swing low, assuming
+that traders still see value in buying below
+
+142
+00:08:50,470 --> 00:08:53,850
+the swing low, prices are unlikely to fall
+below it.
+
+143
+00:08:53,850 --> 00:08:58,590
+The swing low supports the market and is a
+support area.
+
+144
+00:08:58,590 --> 00:09:03,410
+The failure of swing highs and lows to hold
+up at resistance and support respectively
+
+145
+00:09:03,410 --> 00:09:05,630
+leads us into another concept.
+
+146
+00:09:05,630 --> 00:09:11,190
+• Failed resistance turns into support
+• Failed support turns into resistance
+
+147
+00:09:11,190 --> 00:09:16,460
+When a resistance level projected from a swing
+high fails to block a market from rising higher,
+
+148
+00:09:16,460 --> 00:09:18,840
+it turns into a support area.
+
+149
+00:09:18,840 --> 00:09:24,510
+This is because, despite its failure, the
+price point remains memorable to market participants.
+
+150
+00:09:24,510 --> 00:09:29,820
+A price point that has failed decisively as
+a resistance will then serve as a reliable
+
+151
+00:09:29,820 --> 00:09:30,820
+support.
+
+152
+00:09:30,820 --> 00:09:33,530
+You can apply the same logic to failed support.
+
+153
+00:09:33,530 --> 00:09:39,120
+After failing to hold prices up, they serve
+as potential resistance.
+
+154
+00:09:39,120 --> 00:09:41,390
+`
+Here we have an example of a failed resistance
+
+155
+00:09:41,390 --> 00:09:42,570
+turning into support.
+
+156
+00:09:42,570 --> 00:09:43,570
+1.
+
+157
+00:09:43,570 --> 00:09:46,500
+We used swing highs to project possible resistance
+levels.
+
+158
+00:09:46,500 --> 00:09:47,500
+2.
+
+159
+00:09:47,500 --> 00:09:50,420
+The market rose above with ease, crushing
+the resistance.
+
+160
+00:09:50,420 --> 00:09:51,420
+3.
+
+161
+00:09:51,420 --> 00:09:55,570
+The failed resistance then became a powerful
+support zone.
+
+162
+00:09:55,570 --> 00:09:58,450
+In a nutshell, there are two key skills in
+reading price action.
+
+163
+00:09:58,450 --> 00:09:59,450
+1.
+
+164
+00:09:59,450 --> 00:10:02,610
+Evaluate how likely a swing pivot will hold
+up as support/resistance.
+
+165
+00:10:02,610 --> 00:10:03,610
+2.
+
+166
+00:10:03,610 --> 00:10:09,770
+Understand the implication of a swing pivot
+not holding up as support/resistance.
+
+167
+00:10:09,770 --> 00:10:14,370
+This might seem very easy and basic, but is
+one of the most important concepts in trading.
+
+168
+00:10:14,370 --> 00:10:18,540
+Tracking market swings and understanding what
+they are telling you about the market are
+
+169
+00:10:18,540 --> 00:10:21,460
+foundational price action trading skills.
+
+170
+00:10:21,460 --> 00:10:26,390
+Many traders follow market swings in a wrong
+manner and find them useful only in hindsight.
+
+171
+00:10:26,390 --> 00:10:30,290
+They are unable to apply the concept of market
+swings in real-time.
+
+172
+00:10:30,290 --> 00:10:34,681
+With this simple approach, you will know exactly
+the current price wave you are in, and with
+
+173
+00:10:34,681 --> 00:10:39,950
+a solid understanding of support and resistance,
+and confluence of swing pivots, you will find
+
+174
+00:10:39,950 --> 00:10:43,200
+the best areas on a chart to trade from.
+
+175
+00:10:43,200 --> 00:10:47,230
+As always, if you learned something new and
+found value, leave us a like to show your
+
+176
+00:10:47,230 --> 00:10:51,140
+support, subscribe to our channel and click
+the bell icon to stay notified when we upload
+
+177
+00:10:51,140 --> 00:10:52,250
+new videos.
+
+178
+00:10:52,250 --> 00:10:53,570
+Until next time.
+

@@ -1,0 +1,3506 @@
+1
+00:00:00,370 --> 00:00:05,380
+This is one of the most important trading
+videos you’ll ever watch: a smart money
+
+2
+00:00:05,380 --> 00:00:10,650
+trading course, with lots of strategies and
+tactics to align yourself with the big players
+
+3
+00:00:10,650 --> 00:00:11,889
+in the market.
+
+4
+00:00:11,889 --> 00:00:13,259
+This is game changing!
+
+5
+00:00:13,259 --> 00:00:14,420
+Like, subscribe, and let’s get started!
+
+6
+00:00:14,420 --> 00:00:15,420
+1.
+
+7
+00:00:15,420 --> 00:00:21,490
+The Law of Supply and Demand
+
+8
+00:00:21,490 --> 00:00:24,850
+Any chart is a sequence of supply and demand
+zones.
+
+9
+00:00:24,850 --> 00:00:29,769
+If you’re a beginner, I bet that trading
+using classic support and resistance levels.
+
+10
+00:00:29,769 --> 00:00:31,750
+And there’s nothing wrong with that.
+
+11
+00:00:31,750 --> 00:00:36,890
+But I advise you to forget about them for
+a second, and focus on supply and demand.
+
+12
+00:00:36,890 --> 00:00:41,460
+If you want to become a smart money trader,
+you first need to learn the law of supply
+
+13
+00:00:41,460 --> 00:00:42,460
+and demand.
+
+14
+00:00:42,460 --> 00:00:47,750
+According to Wyckoff theory, supply and demand
+determines the price direction.
+
+15
+00:00:47,750 --> 00:00:51,940
+• If demand is greater than supply, the
+price will rise.
+
+16
+00:00:51,940 --> 00:00:55,720
+• If supply is greater than demand, the
+price will go down.
+
+17
+00:00:55,720 --> 00:01:01,140
+• If supply and demand are in balance, there’s
+no significant price change.
+
+18
+00:01:01,140 --> 00:01:05,820
+This is one of the most basic principles of
+financial markets.
+
+19
+00:01:05,820 --> 00:01:12,479
+Now, in any market, there are 2 types of participants:
+aggressive and passive.
+
+20
+00:01:12,479 --> 00:01:16,729
+Aggressive traders are the ones that use “at
+market” orders.
+
+21
+00:01:16,729 --> 00:01:21,979
+They have urgency to enter and attack the
+best price possible.
+
+22
+00:01:21,979 --> 00:01:26,979
+This type of aggressive orders represent the
+real engine of the market since they are the
+
+23
+00:01:26,979 --> 00:01:30,259
+ones that initiate the transactions.
+
+24
+00:01:30,259 --> 00:01:33,899
+Passive traders are the ones that use limit
+orders.
+
+25
+00:01:33,899 --> 00:01:39,600
+This is important, because the interaction
+between aggressive buyers, aggressive sellers,
+
+26
+00:01:39,600 --> 00:01:44,000
+passive buyers and passive sellers is what
+moves the price.
+
+27
+00:01:44,000 --> 00:01:50,280
+The main point is: an aggressive participation
+of traders will produce a change in price.
+
+28
+00:01:50,280 --> 00:01:55,180
+Passive orders have the ability to stop a
+move, but not the ability to make the price
+
+29
+00:01:55,180 --> 00:01:56,180
+move.
+
+30
+00:01:56,180 --> 00:02:02,600
+For the price to move upwards, buyers have
+to buy all the supply orders that are available
+
+31
+00:02:02,600 --> 00:02:09,229
+at that price level and also continue to buy
+aggressively to force the price up, to find
+
+32
+00:02:09,229 --> 00:02:11,230
+new sellers to trade with.
+
+33
+00:02:11,230 --> 00:02:17,980
+Passive buy orders cause the downward movement
+to slow down, but by themselves cannot drive
+
+34
+00:02:17,980 --> 00:02:19,180
+the price up.
+
+35
+00:02:19,180 --> 00:02:25,200
+For the price to move downward, sellers have
+to acquire all the demand orders that are
+
+36
+00:02:25,200 --> 00:02:31,060
+available at that price level and continue
+to push downward, forcing the price to go
+
+37
+00:02:31,060 --> 00:02:35,209
+in search of buyers at lower levels.
+
+38
+00:02:35,209 --> 00:02:40,150
+Passive sell orders cause the upward movement
+to slow down, but do not have the ability
+
+39
+00:02:40,150 --> 00:02:44,670
+to drive the price down on their own.
+
+40
+00:02:44,670 --> 00:02:49,990
+The price needs aggressiveness to move, but
+it’s important to take into account also
+
+41
+00:02:49,990 --> 00:02:53,310
+that the lack of interest from the opposite
+side.
+
+42
+00:02:53,310 --> 00:03:00,659
+An absence of supply can facilitate the price
+rise, just as an absence of demand can facilitate
+
+43
+00:03:00,659 --> 00:03:02,670
+its fall.
+
+44
+00:03:02,670 --> 00:03:08,319
+In a rising market, as long as the buying
+initiative is able to consume all the liquidity
+
+45
+00:03:08,319 --> 00:03:14,170
+(supply) found at higher levels, the price
+will continue to rise.
+
+46
+00:03:14,170 --> 00:03:20,150
+On the other hand, in bear markets, as long
+as the selling initiative is able to consume
+
+47
+00:03:20,150 --> 00:03:26,310
+all the liquidity (demand) found at lower
+levels, the price will continue to fall.
+
+48
+00:03:26,310 --> 00:03:32,260
+At the moment of a market turn, we will normally
+always have a three-step process:
+
+49
+00:03:32,260 --> 00:03:33,260
+1.
+
+50
+00:03:33,260 --> 00:03:34,260
+Exhaustion
+2.
+
+51
+00:03:34,260 --> 00:03:35,260
+Absorption
+3.
+
+52
+00:03:35,260 --> 00:03:38,670
+Initiative
+During an uptrend, in the exhaustion phase,
+
+53
+00:03:38,670 --> 00:03:43,840
+there’s a lack of interest of the buyers
+to continue buying.
+
+54
+00:03:43,840 --> 00:03:49,550
+During absorption phase, you’ll see more
+and more sell orders placed by the smart money.
+
+55
+00:03:49,550 --> 00:03:53,420
+During absorption phase there are many passive
+sellers.
+
+56
+00:03:53,420 --> 00:03:56,970
+The initiative phase is characterized by aggressive
+selling.
+
+57
+00:03:56,970 --> 00:04:01,440
+More and more aggressive sellers are entering
+the market.
+
+58
+00:04:01,440 --> 00:04:06,430
+During a downtrend, in the exhaustion phase,
+there’s a lack of interest from the sellers
+
+59
+00:04:06,430 --> 00:04:08,280
+to continue selling.
+
+60
+00:04:08,280 --> 00:04:14,370
+During absorption phase, you’ll see more
+and more buy orders placed by the smart money.
+
+61
+00:04:14,370 --> 00:04:18,690
+During absorption phase there are many passive
+buyers.
+
+62
+00:04:18,690 --> 00:04:23,070
+The initiative phase is characterized by aggressive
+buying.
+
+63
+00:04:23,070 --> 00:04:26,750
+More and more aggressive buyers are entering
+the market.
+
+64
+00:04:26,750 --> 00:04:32,870
+And these interactions between aggressive
+and passive buyers and sellers creates supply
+
+65
+00:04:32,870 --> 00:04:36,660
+and demand zones on a chart.
+
+66
+00:04:36,660 --> 00:04:37,660
+2.
+
+67
+00:04:37,660 --> 00:04:39,310
+Supply and demand trading
+
+68
+00:04:39,310 --> 00:04:44,320
+So, if you are a trader who wants to improve
+your trading performance and trade along with
+
+69
+00:04:44,320 --> 00:04:50,480
+the big players, the first step is to implement
+supply and demand concepts into your trading
+
+70
+00:04:50,480 --> 00:04:51,480
+strategy.
+
+71
+00:04:51,480 --> 00:04:56,030
+We already established that the market is
+driven by the actions of smart money.
+
+72
+00:04:56,030 --> 00:05:01,730
+By identifying the areas where smart money
+has placed their orders, you can trade along
+
+73
+00:05:01,730 --> 00:05:05,090
+with them and benefit from their influence.
+
+74
+00:05:05,090 --> 00:05:11,789
+A supply zone is where smart money has sold
+at high prices, creating a bearish pressure
+
+75
+00:05:11,789 --> 00:05:14,260
+that pushes the price down.
+
+76
+00:05:14,260 --> 00:05:20,699
+A demand zone is where smart money has bought
+at low prices, creating a bullish pressure
+
+77
+00:05:20,699 --> 00:05:22,720
+that pushes the price up.
+
+78
+00:05:22,720 --> 00:05:28,729
+These zones act as potential turning points
+in the market, as smart money often leaves
+
+79
+00:05:28,729 --> 00:05:33,490
+pending orders at these levels to fill their
+remaining positions.
+
+80
+00:05:33,490 --> 00:05:40,290
+So, in theory, if prices revisit these supply
+and demand zones, it is highly probable that
+
+81
+00:05:40,290 --> 00:05:43,940
+they will be rejected.
+
+82
+00:05:43,940 --> 00:05:49,060
+To determine the optimal supply and demand
+zones, first you need to search for sharp
+
+83
+00:05:49,060 --> 00:05:55,060
+price increases or decreases, which indicate
+the involvement of smart money in the market.
+
+84
+00:05:55,060 --> 00:06:00,330
+These movements are referred to as market
+imbalances, significant price shifts in one
+
+85
+00:06:00,330 --> 00:06:01,660
+direction.
+
+86
+00:06:01,660 --> 00:06:08,300
+To identify demand zones, look for fast impulse
+moves, keeping a close watch on big green
+
+87
+00:06:08,300 --> 00:06:09,300
+candles.
+
+88
+00:06:09,300 --> 00:06:14,540
+These candles should have long bodies and
+minimal wicks.
+
+89
+00:06:14,540 --> 00:06:19,889
+Once an impulse move is identified, you need
+to locate the base of the zone.
+
+90
+00:06:19,889 --> 00:06:26,160
+To do so, place a line at the high price of
+the most recent red candle preceding the impulse
+
+91
+00:06:26,160 --> 00:06:33,550
+move and another line at the most recent swing
+low around the move.
+
+92
+00:06:33,550 --> 00:06:41,290
+To find supply zones, look for fast declines
+and red candles with extended bodies and minimal
+
+93
+00:06:41,290 --> 00:06:42,300
+wicks.
+
+94
+00:06:42,300 --> 00:06:48,610
+Then find the most recent up candle before
+the sharp down move and place a line at its
+
+95
+00:06:48,610 --> 00:06:54,599
+low price, along with another line at the
+most recent swing high formed at around the
+
+96
+00:06:54,599 --> 00:06:56,479
+move.
+
+97
+00:06:56,479 --> 00:07:02,130
+In theory, the price is likely to reverse
+once it returns to these supply and demand
+
+98
+00:07:02,130 --> 00:07:03,569
+zones.
+
+99
+00:07:03,569 --> 00:07:08,620
+But to effectively trade these zones, it is
+important to understand the two key rules
+
+100
+00:07:08,620 --> 00:07:12,240
+to identify the right zones on the chart.
+
+101
+00:07:12,240 --> 00:07:17,759
+The first rule is to trade only fresh and
+untouched zones because supply and demand
+
+102
+00:07:17,759 --> 00:07:20,770
+zones are one-time use.
+
+103
+00:07:20,770 --> 00:07:26,979
+Once price hits a zone and reverses, the zone
+loses its power, and the probability of it
+
+104
+00:07:26,979 --> 00:07:31,479
+causing another reversal in the future is
+lower.
+
+105
+00:07:31,479 --> 00:07:37,290
+The second rule is that recent zones are more
+important than older ones.
+
+106
+00:07:37,290 --> 00:07:42,960
+Supply and demand areas that have been created
+recently are far more effective than those
+
+107
+00:07:42,960 --> 00:07:45,530
+that were created a long time ago.
+
+108
+00:07:45,530 --> 00:07:52,349
+There are four distinct types of supply and
+demand zones based on how the price approached
+
+109
+00:07:52,349 --> 00:07:53,599
+and left the zone.
+
+110
+00:07:53,599 --> 00:08:00,000
+These four types can be categorized into two
+groups: continuation structures and reversal
+
+111
+00:08:00,000 --> 00:08:01,910
+structures.
+
+112
+00:08:01,910 --> 00:08:07,501
+First continuation pattern is the Rally-base-Rally,
+which forms a demand zone during an uptrend.
+
+113
+00:08:07,501 --> 00:08:15,539
+The market structure begins with a rally,
+followed by consolidation, and ends with another
+
+114
+00:08:15,539 --> 00:08:18,229
+rally, which creates the demand zone.
+
+115
+00:08:18,229 --> 00:08:25,590
+The second continuation pattern is the Drop-base-Drop
+structure, which forms a supply zone during
+
+116
+00:08:25,590 --> 00:08:27,010
+a downtrend.
+
+117
+00:08:27,010 --> 00:08:33,450
+The market structure begins with a price decrease,
+followed by consolidation, and ends with another
+
+118
+00:08:33,450 --> 00:08:37,520
+price decrease, which creates a supply zone.
+
+119
+00:08:37,520 --> 00:08:43,539
+In both cases, if the market returns to these
+zones, the price is expected to move in the
+
+120
+00:08:43,539 --> 00:08:46,529
+direction that created the zone.
+
+121
+00:08:46,529 --> 00:08:53,410
+The Drop-base-Rally is the first reversal
+structure, which forms a demand zone in the
+
+122
+00:08:53,410 --> 00:08:54,769
+market.
+
+123
+00:08:54,769 --> 00:09:00,839
+This zone is located where the market changes
+from moving down to moving up.
+
+124
+00:09:00,839 --> 00:09:05,620
+The second reversal structure is the Rally-base-Drop
+pattern.
+
+125
+00:09:05,620 --> 00:09:11,410
+This forms a supply zone when the market reverses
+from moving higher to moving lower.
+
+126
+00:09:11,410 --> 00:09:17,579
+Again, if the market returns to these zones,
+the price is expected to move in the direction
+
+127
+00:09:17,579 --> 00:09:19,810
+that created the zone.
+
+128
+00:09:19,810 --> 00:09:24,880
+The main advantage of supply and demand trading
+is that it helps you to understand the market
+
+129
+00:09:24,880 --> 00:09:28,490
+structure and market dynamics much better.
+
+130
+00:09:28,490 --> 00:09:34,600
+This is the first component in your smart
+money plan.
+
+131
+00:09:34,600 --> 00:09:37,279
+3.
+
+132
+00:09:37,279 --> 00:09:39,120
+The Law of Effort and Result
+
+133
+00:09:39,120 --> 00:09:43,200
+The Law of Effort vs. Result is another fundamental
+principle of Wyckoff Theory and one of the
+
+134
+00:09:43,200 --> 00:09:47,810
+most important concept to follow the smart
+money on any market.
+
+135
+00:09:47,810 --> 00:09:53,720
+This concept states that the effort made by
+aggressive and passive buyers and sellers
+
+136
+00:09:53,720 --> 00:09:57,500
+will be reflected in the price movement of
+any market.
+
+137
+00:09:57,500 --> 00:10:02,930
+The principle is based on the idea that the
+market is a battle between buyers and sellers,
+
+138
+00:10:02,930 --> 00:10:08,589
+and the direction of the market is determined
+by the side with the greatest effort, which
+
+139
+00:10:08,589 --> 00:10:11,020
+is represented by volume.
+
+140
+00:10:11,020 --> 00:10:17,990
+High volume indicates strong market participation,
+while low volume indicates weak market participation.
+
+141
+00:10:17,990 --> 00:10:25,279
+Volume is very important because it provides
+insight into market sentiment and future price
+
+142
+00:10:25,279 --> 00:10:26,279
+movements.
+
+143
+00:10:26,279 --> 00:10:30,840
+And it’s not difficult to understand once
+you learn the basic principles of supply and
+
+144
+00:10:30,840 --> 00:10:32,079
+demand.
+
+145
+00:10:32,079 --> 00:10:36,720
+This simply requires you to relate the volume
+with price action.
+
+146
+00:10:36,720 --> 00:10:37,720
+4.
+
+147
+00:10:37,720 --> 00:10:43,620
+Volume Spread Analysis trading
+If you want to identify the signs of market
+
+148
+00:10:43,620 --> 00:10:48,269
+manipulation and follow the smart money's
+footsteps, you need to learn Volume Spread
+
+149
+00:10:48,269 --> 00:10:49,870
+Analysis.
+
+150
+00:10:49,870 --> 00:10:55,620
+This is a game changer, and can give you an
+edge over other traders who only look at price
+
+151
+00:10:55,620 --> 00:10:57,840
+action or indicators.
+
+152
+00:10:57,840 --> 00:11:04,870
+VSA can reveal when smart money is accumulating
+or distributing an asset, when they are testing
+
+153
+00:11:04,870 --> 00:11:10,750
+supply or demand, and when they are ready
+to start a new trend or reverse an existing
+
+154
+00:11:10,750 --> 00:11:12,420
+one.
+
+155
+00:11:12,420 --> 00:11:17,440
+Volume Spread Analysis (VSA) is based on the
+premise that volume is the fuel that drives
+
+156
+00:11:17,440 --> 00:11:18,720
+price movements.
+
+157
+00:11:18,720 --> 00:11:25,769
+Volume is the amount of trading activity in
+a given period, while spread (or range) represents
+
+158
+00:11:25,769 --> 00:11:30,680
+the difference between the open and close
+prices of a candlestick.
+
+159
+00:11:30,680 --> 00:11:36,730
+By analyzing the relationship between volume
+and spread, VSA can reveal the supply and
+
+160
+00:11:36,730 --> 00:11:39,519
+demand dynamics in the market.
+
+161
+00:11:39,519 --> 00:11:46,790
+It’s a lot to talk about, but the key concept
+of VSA is that when volume and spread are
+
+162
+00:11:46,790 --> 00:11:52,570
+in harmony, it means that there is a balance
+between buyers and sellers, and the market
+
+163
+00:11:52,570 --> 00:11:55,899
+is likely to continue in its current direction.
+
+164
+00:11:55,899 --> 00:12:02,250
+However, when volume and spread are in disharmony,
+it means that there is an imbalance between
+
+165
+00:12:02,250 --> 00:12:07,270
+buyers and sellers, and the market is likely
+to reverse or consolidate.
+
+166
+00:12:07,270 --> 00:12:13,500
+So, when price and volume are moving in the
+same direction, it is a sign that the price
+
+167
+00:12:13,500 --> 00:12:16,220
+move is strong and is likely to continue.
+
+168
+00:12:16,220 --> 00:12:22,589
+For example, if a market is in an uptrend
+and there is a significant increase in volume,
+
+169
+00:12:22,589 --> 00:12:26,240
+it is a sign that the uptrend is likely to
+continue.
+
+170
+00:12:26,240 --> 00:12:31,920
+Divergences between price and volume occur
+when there is a disagreement between the price
+
+171
+00:12:31,920 --> 00:12:34,980
+action and the volume of that market.
+
+172
+00:12:34,980 --> 00:12:39,920
+This can indicate that the price move is not
+supported by market participation and may
+
+173
+00:12:39,920 --> 00:12:41,389
+not be sustainable.
+
+174
+00:12:41,389 --> 00:12:47,709
+For example, if a market is in an uptrend,
+but the volume is decreasing, it is a sign
+
+175
+00:12:47,709 --> 00:12:50,310
+that the uptrend may not continue.
+
+176
+00:12:50,310 --> 00:12:55,480
+So, VSA is the second component of our smart
+money trading plan.
+
+177
+00:12:55,480 --> 00:12:56,480
+5.
+
+178
+00:12:56,480 --> 00:13:00,639
+The Law of Cause and Effect
+
+179
+00:13:00,639 --> 00:13:05,839
+Another important smart money concept states
+that the differences between supply and demand
+
+180
+00:13:05,839 --> 00:13:07,279
+are not random.
+
+181
+00:13:07,279 --> 00:13:13,079
+Instead, they come after periods of preparation,
+as a result of specific events.
+
+182
+00:13:13,079 --> 00:13:16,329
+This is the law of cause and effect.
+
+183
+00:13:16,329 --> 00:13:22,960
+For the market to develop an effect (trend),
+first there must be a cause (namely, accumulation/distribution).
+
+184
+00:13:22,960 --> 00:13:28,260
+Basically, this law states that every price
+move has a cause.
+
+185
+00:13:28,260 --> 00:13:33,260
+Changes cannot happen out of nowhere and a
+cause must be established first.
+
+186
+00:13:33,260 --> 00:13:38,620
+This starts during periods of sideways movement
+or when the market is ranging.
+
+187
+00:13:38,620 --> 00:13:44,540
+This can be seen in charts when we have small
+ranges or low volatility periods.
+
+188
+00:13:44,540 --> 00:13:50,139
+The longer this process continues, the larger
+the expected resulting move.
+
+189
+00:13:50,139 --> 00:13:57,079
+So after a period of consolidation, there
+is an expansion or explosive move in price.
+
+190
+00:13:57,079 --> 00:14:04,630
+In Wyckoff's terms, a period of accumulation
+(cause) eventually leads to an uptrend (effect).
+
+191
+00:14:04,630 --> 00:14:11,760
+In contrast, a period of distribution (cause)
+eventually results in a downtrend (effect).
+
+192
+00:14:11,760 --> 00:14:12,760
+6.
+
+193
+00:14:12,760 --> 00:14:20,399
+The Composite Man
+When I started to study Wyckoff, my first
+
+194
+00:14:20,399 --> 00:14:24,910
+aha moment was when I was reading about the
+Composite man.
+
+195
+00:14:24,910 --> 00:14:30,580
+Wyckoff created the idea of the Composite
+Man as an imaginary identity of the market.
+
+196
+00:14:30,580 --> 00:14:35,070
+This single entity is responsible for controlling
+the market.
+
+197
+00:14:35,070 --> 00:14:41,580
+And it always acts in his own best interest
+to ensure he can buy low and sell high.
+
+198
+00:14:41,580 --> 00:14:46,810
+Think of composite man as an evil entity,
+controlling markets by pushing buttons.
+
+199
+00:14:46,810 --> 00:14:53,000
+His single objective is to move the markets
+to your disadvantage, seeking to maximize
+
+200
+00:14:53,000 --> 00:14:55,329
+his profit at “your” expense.
+
+201
+00:14:55,329 --> 00:15:00,079
+And he plans and executes his deceptions well
+in advance.
+
+202
+00:15:00,079 --> 00:15:06,050
+He’s basically there to fool you to buying
+positions that he has already accumulated.
+
+203
+00:15:06,050 --> 00:15:09,790
+He will tempt you to buy and sell at the worst
+possible time.
+
+204
+00:15:09,790 --> 00:15:12,490
+And it makes a lot of sense.
+
+205
+00:15:12,490 --> 00:15:16,070
+Have you ever had the feeling that someone
+is watching your positions?
+
+206
+00:15:16,070 --> 00:15:21,009
+That you entered the market, and immediately
+price went against you?
+
+207
+00:15:21,009 --> 00:15:26,519
+Or the market is quiet, with low activity,
+and as soon as you enter, the price starts
+
+208
+00:15:26,519 --> 00:15:27,949
+jumping up and down?
+
+209
+00:15:27,949 --> 00:15:32,730
+It’s like someone is driving prices, playing
+with your emotions.
+
+210
+00:15:32,730 --> 00:15:39,180
+In essence, the Composite Man represents the
+biggest players (so-called smart money).
+
+211
+00:15:39,180 --> 00:15:46,899
+It always acts in its interest to ensure that
+it can buy at a discount and sell at a premium.
+
+212
+00:15:46,899 --> 00:15:52,980
+The Composite Man’s behavior is the opposite
+of retail traders, and in order to adapt to
+
+213
+00:15:52,980 --> 00:15:58,589
+changing market conditions, we, retail traders,
+must learn from his behavior.
+
+214
+00:15:58,589 --> 00:16:04,579
+If you don’t understand the game as he plays
+it, you’ll take the wrong side of the trade
+
+215
+00:16:04,579 --> 00:16:09,839
+and you’ll sit in front if your screen,
+desperate that the market moves once again,
+
+216
+00:16:09,839 --> 00:16:11,550
+against your position.
+
+217
+00:16:11,550 --> 00:16:16,310
+In order to understand the behavior of the
+Composite man, you need to understand the
+
+218
+00:16:16,310 --> 00:16:17,529
+concept of liquidity.
+
+219
+00:16:17,529 --> 00:16:18,529
+7.
+
+220
+00:16:18,529 --> 00:16:23,209
+Liquidity clear-outs
+
+221
+00:16:23,209 --> 00:16:27,890
+In the world of smart money, it's important
+to question the liquidity of the market you're
+
+222
+00:16:27,890 --> 00:16:29,230
+trading.
+
+223
+00:16:29,230 --> 00:16:35,370
+Whether you're trading the EUR/USD or Bitcoin
+or Amazon, liquidity plays a crucial role
+
+224
+00:16:35,370 --> 00:16:37,670
+in a market's functionality.
+
+225
+00:16:37,670 --> 00:16:43,709
+In fact, an ample participation from buyers
+and sellers is necessary for a market to be
+
+226
+00:16:43,709 --> 00:16:46,699
+considered rich in liquidity.
+
+227
+00:16:46,699 --> 00:16:53,079
+This is why market makers and smart money
+often engage in liquidity hunting or liquidity
+
+228
+00:16:53,079 --> 00:16:59,680
+clear-outs, which involves extracting liquidity
+from the market by flushing out weak players.
+
+229
+00:16:59,680 --> 00:17:06,500
+A Liquidity clear-out is when the price will
+move just above or below an area where stop
+
+230
+00:17:06,500 --> 00:17:13,089
+loss orders of retail traders are placed,
+executing those orders and reversing.
+
+231
+00:17:13,089 --> 00:17:18,679
+The goal of this strategy is to take advantage
+of the liquidity that is provided by the stop-loss
+
+232
+00:17:18,679 --> 00:17:22,079
+orders of other traders.
+
+233
+00:17:22,079 --> 00:17:28,260
+Liquidity hunting works by identifying areas
+of high concentration of stop-loss orders
+
+234
+00:17:28,260 --> 00:17:29,760
+in the market.
+
+235
+00:17:29,760 --> 00:17:36,450
+These areas are usually near support and resistance
+levels, where many traders place their stops
+
+236
+00:17:36,450 --> 00:17:39,190
+to protect their positions.
+
+237
+00:17:39,190 --> 00:17:45,549
+Smart money, or the Composite man, will then
+push the price towards these levels, triggering
+
+238
+00:17:45,549 --> 00:17:51,120
+the stop-loss orders and creating a spike
+in volume and volatility.
+
+239
+00:17:51,120 --> 00:17:57,850
+This spike can also cause other traders to
+panic and join the move, creating a double
+
+240
+00:17:57,850 --> 00:17:58,850
+trap.
+
+241
+00:17:58,850 --> 00:18:04,520
+Once the liquidity hunters have filled their
+orders at favorable prices, they will quickly
+
+242
+00:18:04,520 --> 00:18:09,860
+reverse their positions and drive the price
+back to its original range.
+
+243
+00:18:09,860 --> 00:18:15,760
+This can leave many traders with losses or
+missed opportunities, while the Composite
+
+244
+00:18:15,760 --> 00:18:18,650
+Man profits from the price swing.
+
+245
+00:18:18,650 --> 00:18:24,410
+This is one of the main strategies used by
+smart money to make money.
+
+246
+00:18:24,410 --> 00:18:28,710
+Liquidity is the third component in our smart
+money trading plan.
+
+247
+00:18:28,710 --> 00:18:29,710
+8.
+
+248
+00:18:29,710 --> 00:18:36,450
+How to Think Like Smart Money
+If you are a retail trader who wants to succeed
+
+249
+00:18:36,450 --> 00:18:41,520
+in the market, you need to learn how to think
+like a smart money trader.
+
+250
+00:18:41,520 --> 00:18:43,900
+Imagine you don’t have a 5.000 dollars account.
+
+251
+00:18:43,900 --> 00:18:46,730
+You have a 1 billion dollar account.
+
+252
+00:18:46,730 --> 00:18:52,120
+You have the power to influence price movements
+and develop trends on the market.
+
+253
+00:18:52,120 --> 00:18:58,470
+You have access to more information, more
+resources, and more capital than 99% of retail
+
+254
+00:18:58,470 --> 00:19:05,100
+traders, and you need to use various tactics
+to deceive and manipulate other traders to
+
+255
+00:19:05,100 --> 00:19:06,640
+your advantage.
+
+256
+00:19:06,640 --> 00:19:07,919
+How would you do it?
+
+257
+00:19:07,919 --> 00:19:10,039
+You wouldn’t trade like most retail traders.
+
+258
+00:19:10,039 --> 00:19:16,380
+You’re in the business of making money,
+so you need many tactics to create false signals,
+
+259
+00:19:16,380 --> 00:19:19,090
+traps, and illusions in the market.
+
+260
+00:19:19,090 --> 00:19:21,440
+Here’s the reality.
+
+261
+00:19:21,440 --> 00:19:25,580
+Smart money are not necessarily smarter than
+retail traders.
+
+262
+00:19:25,580 --> 00:19:30,090
+They are simply more experienced, disciplined,
+and strategic.
+
+263
+00:19:30,090 --> 00:19:36,320
+They have a clear understanding of how the
+market works, how other traders behave, and
+
+264
+00:19:36,320 --> 00:19:39,500
+how they can exploit their emotions and biases.
+
+265
+00:19:39,500 --> 00:19:44,309
+They do not trade based on predictions, opinions,
+or hopes.
+
+266
+00:19:44,309 --> 00:19:48,380
+They trade based on probabilities, facts,
+and evidence.
+
+267
+00:19:48,380 --> 00:19:52,160
+Smart money does not care about being right
+or wrong.
+
+268
+00:19:52,160 --> 00:19:54,380
+They care about making money.
+
+269
+00:19:54,380 --> 00:19:57,930
+They are flexible and adaptable to changing
+market conditions.
+
+270
+00:19:57,930 --> 00:20:02,400
+They do not chase after trades or revenge
+trade.
+
+271
+00:20:02,400 --> 00:20:08,480
+They wait patiently for high-probability opportunities
+and execute them with precision.
+
+272
+00:20:08,480 --> 00:20:10,500
+Smart money does not follow the crowd.
+
+273
+00:20:10,500 --> 00:20:12,880
+They lead the crowd.
+
+274
+00:20:12,880 --> 00:20:17,530
+They do not rely on lagging indicators, news,
+or tips from others.
+
+275
+00:20:17,530 --> 00:20:20,410
+They do not trade what they see or hear.
+
+276
+00:20:20,410 --> 00:20:23,130
+They trade what they know and understand.
+
+277
+00:20:23,130 --> 00:20:25,080
+They do not react to the market.
+
+278
+00:20:25,080 --> 00:20:26,080
+They anticipate the market.
+
+279
+00:20:26,080 --> 00:20:27,080
+9.
+
+280
+00:20:27,080 --> 00:20:34,190
+The Tactics Used By Smart Money
+Smart money knows that the market is a game
+
+281
+00:20:34,190 --> 00:20:36,559
+of psychology and deception.
+
+282
+00:20:36,559 --> 00:20:43,020
+They know that most retail traders are driven
+by fear and greed, and they use these emotions
+
+283
+00:20:43,020 --> 00:20:44,429
+against them.
+
+284
+00:20:44,429 --> 00:20:51,440
+They use various tactics to create false signals,
+traps, and illusions in the market that lure
+
+285
+00:20:51,440 --> 00:20:56,970
+retail traders into making bad trades or missing
+out on good ones.
+
+286
+00:20:56,970 --> 00:21:01,880
+You already know their tactics very well,
+you were the victim of those tactics on many
+
+287
+00:21:01,880 --> 00:21:06,470
+occasions:
+- Stop hunting is the most obvious strategy:
+
+288
+00:21:06,470 --> 00:21:12,029
+This is when smart money pushes the price
+to a level where they know many retail traders
+
+289
+00:21:12,029 --> 00:21:15,789
+have placed their stop losses or take profits.
+
+290
+00:21:15,789 --> 00:21:22,240
+This triggers a cascade of orders that either
+liquidates their positions or fills their
+
+291
+00:21:22,240 --> 00:21:24,540
+orders at unfavorable prices.
+
+292
+00:21:24,540 --> 00:21:31,890
+This allows smart money to either exit their
+positions with a profit or enter new positions
+
+293
+00:21:31,890 --> 00:21:34,419
+with a better price.
+
+294
+00:21:34,419 --> 00:21:39,620
+- Fakeouts are another tactic: This is when
+smart money creates a false breakout of a
+
+295
+00:21:39,620 --> 00:21:45,850
+support or resistance level that attracts
+many retail traders to enter in the direction
+
+296
+00:21:45,850 --> 00:21:47,159
+of the breakout.
+
+297
+00:21:47,159 --> 00:21:53,700
+However, after a few candles, the price reverses
+sharply in the opposite direction, trapping
+
+298
+00:21:53,700 --> 00:21:56,649
+those traders in losing trades.
+
+299
+00:21:56,649 --> 00:22:02,950
+- Whipsaws are another smart money tactic:
+This is when smart money creates a lot of
+
+300
+00:22:02,950 --> 00:22:10,029
+volatility and noise in the market that confuses
+many retail traders and makes them second-guess
+
+301
+00:22:10,029 --> 00:22:11,400
+their trades.
+
+302
+00:22:11,400 --> 00:22:17,270
+The price moves up and down rapidly without
+any clear direction or trend, causing many
+
+303
+00:22:17,270 --> 00:22:24,049
+traders to exit their trades prematurely or
+switch sides frequently.
+
+304
+00:22:24,049 --> 00:22:30,380
+The reality is that many retail traders will
+use the same price levels to place their entries
+
+305
+00:22:30,380 --> 00:22:31,590
+or stop losses.
+
+306
+00:22:31,590 --> 00:22:37,669
+And these are the perfect zones for smart
+money to trigger one of their traps.
+
+307
+00:22:37,669 --> 00:22:43,470
+You might ask: why is this difference between
+us, retail traders, and smart money?
+
+308
+00:22:43,470 --> 00:22:50,720
+Because they don’t trade like us, using
+technical analysis, indicators or chart patterns.
+
+309
+00:22:50,720 --> 00:22:55,929
+Institutional players cannot trade the same
+as the retail trader, because in low liquidity
+
+310
+00:22:55,929 --> 00:23:00,929
+price areas, they will push price far away
+with large orders.
+
+311
+00:23:00,929 --> 00:23:07,830
+So they must use high liquidity zones to put
+their own large orders in the market without
+
+312
+00:23:07,830 --> 00:23:09,600
+having too much impact on the price.
+
+313
+00:23:09,600 --> 00:23:10,600
+10.
+
+314
+00:23:10,600 --> 00:23:13,400
+Smart money traps - Fake breakout at the high/low
+of the day
+
+315
+00:23:13,400 --> 00:23:20,130
+Now let’s go even deeper and let’s discuss
+about the most common smart money traps.
+
+316
+00:23:20,130 --> 00:23:24,940
+If you are a day trader, you have probably
+experienced the frustration of being stopped
+
+317
+00:23:24,940 --> 00:23:31,210
+out of a trade by a sudden spike in price
+at the high or low of the day.
+
+318
+00:23:31,210 --> 00:23:36,289
+This practice is one of the most common ways
+that smart money manipulates the market to
+
+319
+00:23:36,289 --> 00:23:38,520
+trap retail traders.
+
+320
+00:23:38,520 --> 00:23:44,320
+These are price movement that break a significant
+level of support or resistance, in this case
+
+321
+00:23:44,320 --> 00:23:51,150
+the high or low of the day, but fail to sustain
+the momentum and quickly reverse back into
+
+322
+00:23:51,150 --> 00:23:53,159
+the previous range.
+
+323
+00:23:53,159 --> 00:23:55,220
+Fake breakouts come with a higher volatility.
+
+324
+00:23:55,220 --> 00:23:58,150
+You see them often, on any market.
+
+325
+00:23:58,150 --> 00:24:03,840
+Here’s a fake breakout at the high of the
+day, when price breaks above the highest point
+
+326
+00:24:03,840 --> 00:24:08,429
+reached during the trading session, but then
+falls back below it.
+
+327
+00:24:08,429 --> 00:24:14,640
+And here’s a fake breakout at the low of
+the day, when price breaks below the lowest
+
+328
+00:24:14,640 --> 00:24:20,580
+point reached during the trading session,
+but then rises back above it.
+
+329
+00:24:20,580 --> 00:24:26,539
+Smart money uses these fake breakouts for
+two main reasons: to shake out weak hands
+
+330
+00:24:26,539 --> 00:24:29,330
+and to accumulate or distribute positions.
+
+331
+00:24:29,330 --> 00:24:36,120
+Shaking out weak hands means forcing retail
+traders to exit their trades prematurely by
+
+332
+00:24:36,120 --> 00:24:39,140
+creating fear or greed.
+
+333
+00:24:39,140 --> 00:24:45,270
+Smart money may push the price above the high
+of the day to trigger stop losses and buy
+
+334
+00:24:45,270 --> 00:24:49,809
+orders from retail traders who are following
+the breakout.
+
+335
+00:24:49,809 --> 00:24:53,710
+This creates a surge in demand that drives
+the price higher.
+
+336
+00:24:53,710 --> 00:25:00,230
+However, once smart money has filled their
+orders, they will dump their positions, causing
+
+337
+00:25:00,230 --> 00:25:06,309
+the price to fall back below the high of the
+day and trapping retail traders who bought
+
+338
+00:25:06,309 --> 00:25:07,539
+at the top.
+
+339
+00:25:07,539 --> 00:25:13,870
+This also creates a supply and volume imbalance
+that drives the price lower.
+
+340
+00:25:13,870 --> 00:25:19,550
+You can identify this type of fake breakouts
+by carefully analyzing the volume and some
+
+341
+00:25:19,550 --> 00:25:22,380
+common price action patterns.
+
+342
+00:25:22,380 --> 00:25:28,400
+Fake breakouts often form specific price action
+patterns that signal a reversal or continuation
+
+343
+00:25:28,400 --> 00:25:29,400
+of the trend.
+
+344
+00:25:29,400 --> 00:25:36,669
+For example, a double top at the high of the
+day, after a fake breakout, or double bottom
+
+345
+00:25:36,669 --> 00:25:43,330
+pattern at the low of the day, again, after
+a fake breakout, is a clear sign of market
+
+346
+00:25:43,330 --> 00:25:44,870
+manipulation.
+
+347
+00:25:44,870 --> 00:25:48,980
+If you find a reversal candlestick pattern,
+that even better.
+
+348
+00:25:48,980 --> 00:25:54,540
+Fake breakouts often form specific candlestick
+patterns that indicate bullish or bearish
+
+349
+00:25:54,540 --> 00:25:56,549
+sentiment in the market.
+
+350
+00:25:56,549 --> 00:26:03,950
+For example, a pin bar or a candle with large
+wick is a clear sign of rejection after a
+
+351
+00:26:03,950 --> 00:26:05,649
+failed breakout.
+
+352
+00:26:05,649 --> 00:26:12,480
+Asian session trap
+The Asian trading session is one of the main
+
+353
+00:26:12,480 --> 00:26:15,059
+zones targeted by the smart money.
+
+354
+00:26:15,059 --> 00:26:21,960
+The Tokyo range trap is a common phenomenon
+if you’re trading Forex, crypto and indices,
+
+355
+00:26:21,960 --> 00:26:27,789
+and occurs during the Asian session, which
+is typically characterized by low volatility
+
+356
+00:26:27,789 --> 00:26:29,860
+and tight trading ranges.
+
+357
+00:26:29,860 --> 00:26:36,020
+The Tokyo range trap refers to the situation
+where smart money use the range of the session
+
+358
+00:26:36,020 --> 00:26:42,840
+to trap retail traders into false breakouts
+and reversals, and then exploit their positions
+
+359
+00:26:42,840 --> 00:26:48,799
+during the London and New York sessions, which
+are more volatile and liquid.
+
+360
+00:26:48,799 --> 00:26:54,520
+One of the most common tactics is to create
+a false breakout of the Tokyo range, which
+
+361
+00:26:54,520 --> 00:26:59,330
+is the high and low of the price action during
+the Tokyo session.
+
+362
+00:26:59,330 --> 00:27:05,130
+Price moves beyond the range, and then quickly
+reverses and moves back into the range.
+
+363
+00:27:05,130 --> 00:27:11,210
+This creates a false signal for the average
+retail trader, who may enter or exit trades
+
+364
+00:27:11,210 --> 00:27:16,970
+based on the breakout, only to find himself
+trapped in losing positions when the price
+
+365
+00:27:16,970 --> 00:27:19,100
+moves against him.
+
+366
+00:27:19,100 --> 00:27:24,840
+Another tactic used by smart money traders
+is to create a false reversal of the Tokyo
+
+367
+00:27:24,840 --> 00:27:28,440
+range, which is the opposite of a false breakout.
+
+368
+00:27:28,440 --> 00:27:34,370
+How to avoid falling into the Tokyo range
+trap and even make some money?
+
+369
+00:27:34,370 --> 00:27:40,500
+One of the most effective ways is to use volume
+to measure the strength of the breakout.
+
+370
+00:27:40,500 --> 00:27:46,960
+A high volume outside the Tokio range indicates
+that there is strong market participation
+
+371
+00:27:46,960 --> 00:27:53,929
+and conviction behind a price movement, while
+a low volume indicates that there is weak
+
+372
+00:27:53,929 --> 00:27:58,899
+market participation and low conviction behind
+a price movement.
+
+373
+00:27:58,899 --> 00:28:07,039
+Therefore, a high volume breakout or reversal
+is more likely to be genuine than a low volume
+
+374
+00:28:07,039 --> 00:28:08,380
+one.
+
+375
+00:28:08,380 --> 00:28:15,470
+Additionally, you can learn from past examples
+of how the Tokyo range trap has affected market
+
+376
+00:28:15,470 --> 00:28:16,700
+trends.
+
+377
+00:28:16,700 --> 00:28:22,279
+If you analyze these consecutive Tokyo sessions
+we see an interesting pattern:
+
+378
+00:28:22,279 --> 00:28:28,950
+Range traders who have taken short positions
+at the top of the Asian range had their stop
+
+379
+00:28:28,950 --> 00:28:31,450
+losses hunted, outside of the range.
+
+380
+00:28:31,450 --> 00:28:36,980
+Each time, the market reversed aggressively
+in the opposite direction.
+
+381
+00:28:36,980 --> 00:28:43,659
+The upward movement outside of the range also
+seduced traders to take long positions, hoping
+
+382
+00:28:43,659 --> 00:28:45,070
+for a breakout trade.
+
+383
+00:28:45,070 --> 00:28:48,909
+That’s the second batch of traders, who
+were trapped.
+
+384
+00:28:48,909 --> 00:28:55,570
+Long breakout traders.
+
+385
+00:28:55,570 --> 00:28:56,570
+Wedges triangles trap
+
+386
+00:28:56,570 --> 00:29:01,179
+Wedges and triangles are two of the most common
+chart patterns that traders use to identify
+
+387
+00:29:01,179 --> 00:29:04,910
+potential reversals or continuations in the
+market.
+
+388
+00:29:04,910 --> 00:29:09,130
+However, not all wedges and triangles are
+genuine.
+
+389
+00:29:09,130 --> 00:29:16,419
+Sometimes, they are deliberately created by
+smart money, to trap retailer traders.
+
+390
+00:29:16,419 --> 00:29:21,350
+Wedges and triangles are usually formed by
+two converging trend lines that connect the
+
+391
+00:29:21,350 --> 00:29:24,299
+highs and lows of a price action.
+
+392
+00:29:24,299 --> 00:29:29,710
+They indicate a period of consolidation, where
+the market is indecisive and the trading range
+
+393
+00:29:29,710 --> 00:29:30,840
+narrows.
+
+394
+00:29:30,840 --> 00:29:37,950
+Now, smart money knows that many traders rely
+on wedges and triangles to make their trading
+
+395
+00:29:37,950 --> 00:29:38,950
+decisions.
+
+396
+00:29:38,950 --> 00:29:44,830
+Therefore, they can use these patterns to
+create false signals and lure unsuspecting
+
+397
+00:29:44,830 --> 00:29:47,090
+traders into their traps.
+
+398
+00:29:47,090 --> 00:29:53,560
+You’ll often see that price breaks out of
+a wedge or a triangle in one direction, but
+
+399
+00:29:53,560 --> 00:29:57,330
+then quickly reverses and moves in the opposite
+direction.
+
+400
+00:29:57,330 --> 00:30:03,450
+This creates confusion and panic among traders
+who followed the initial breakout signal and
+
+401
+00:30:03,450 --> 00:30:05,880
+entered positions in that direction.
+
+402
+00:30:05,880 --> 00:30:10,580
+The idea is to trap traders on the wrong side
+of the market.
+
+403
+00:30:10,580 --> 00:30:17,540
+For example, smart money can create an ascending
+triangle pattern in an uptrend and induce
+
+404
+00:30:17,540 --> 00:30:20,149
+a fake breakout to the upside.
+
+405
+00:30:20,149 --> 00:30:24,510
+This will attract buyers who think that the
+uptrend will continue.
+
+406
+00:30:24,510 --> 00:30:30,850
+However, smart money will then sell their
+positions at higher prices and drive the price
+
+407
+00:30:30,850 --> 00:30:38,320
+down below the lower trend line of the triangle,
+triggering stop losses and creating more selling
+
+408
+00:30:38,320 --> 00:30:39,370
+pressure.
+
+409
+00:30:39,370 --> 00:30:46,950
+This will result in a sharp decline in price
+and a minor reversal of the uptrend.
+
+410
+00:30:46,950 --> 00:30:49,169
+Stop loss hunting is also common.
+
+411
+00:30:49,169 --> 00:30:55,020
+This occurs when smart money pushes the price
+to a level where many traders have placed
+
+412
+00:30:55,020 --> 00:31:01,929
+their stop losses, triggering them and causing
+a sudden spike or drop in price.
+
+413
+00:31:01,929 --> 00:31:08,309
+Smart money can use stop runs to shake out
+weak traders from their positions and create
+
+414
+00:31:08,309 --> 00:31:10,880
+liquidity for their own trades.
+
+415
+00:31:10,880 --> 00:31:17,309
+For example, they can create a symmetrical
+triangle pattern in a sideways market and
+
+416
+00:31:17,309 --> 00:31:21,700
+induce stop runs on both sides of the triangle.
+
+417
+00:31:21,700 --> 00:31:27,280
+This will cause traders who entered positions
+based on either side of the breakout to exit
+
+418
+00:31:27,280 --> 00:31:29,620
+their trades at a loss.
+
+419
+00:31:29,620 --> 00:31:35,640
+Smart money will then take advantage of this
+liquidity and enter positions in their desired
+
+420
+00:31:35,640 --> 00:31:36,640
+direction.
+
+421
+00:31:36,640 --> 00:31:44,269
+From my experience, it’s very hard to know
+for sure whether a wedge or a triangle pattern
+
+422
+00:31:44,269 --> 00:31:46,519
+is genuine or fake.
+
+423
+00:31:46,519 --> 00:31:53,260
+In this example, you can observe that on the
+lower boundary of the wedge, the lows become
+
+424
+00:31:53,260 --> 00:31:57,830
+slightly higher each time it comes down to
+the line.
+
+425
+00:31:57,830 --> 00:32:02,850
+This has the effect of ensuring that none
+of the trades that have taken short positions
+
+426
+00:32:02,850 --> 00:32:05,870
+in these regions can turn a profit.
+
+427
+00:32:05,870 --> 00:32:11,679
+Similarly, on the upper boundary of the wedge,
+the same thing is happening with each of the
+
+428
+00:32:11,679 --> 00:32:18,779
+highs becoming progressively lower and trapping
+the long traders and pulling them down.
+
+429
+00:32:18,779 --> 00:32:23,809
+There is no way of predicting which direction
+the price will ultimately breakout.
+
+430
+00:32:23,809 --> 00:32:27,700
+I personally avoid trading during this type
+of consolidation.
+
+431
+00:32:27,700 --> 00:32:33,730
+But if you want to be active in the market,
+volume is the only indicator that will help
+
+432
+00:32:33,730 --> 00:32:36,789
+you to anticipate the future direction.
+
+433
+00:32:36,789 --> 00:32:43,470
+Generally, volume should decrease as a wedge
+or a triangle pattern forms, indicating that
+
+434
+00:32:43,470 --> 00:32:51,470
+traders are waiting for a breakout signal.
+
+435
+00:32:51,470 --> 00:32:54,350
+Market open manipulation
+Market open manipulation is another common
+
+436
+00:32:54,350 --> 00:33:00,389
+trap, which refers to the deliberate actions
+of smart money to create false impressions
+
+437
+00:33:00,389 --> 00:33:03,419
+of supply and demand in the market.
+
+438
+00:33:03,419 --> 00:33:08,380
+These actions are designed to influence the
+price movements and the psychology of retail
+
+439
+00:33:08,380 --> 00:33:14,010
+traders, who often trade based on technical
+analysis, indicators or news.
+
+440
+00:33:14,010 --> 00:33:18,330
+It’s a reality that every trader has to
+face and deal with.
+
+441
+00:33:18,330 --> 00:33:24,799
+The market open manipulation happens for two
+main reasons: smart money want to take profit
+
+442
+00:33:24,799 --> 00:33:31,090
+from their existing positions or to accumulate
+or distribute more positions at favorable
+
+443
+00:33:31,090 --> 00:33:32,090
+prices.
+
+444
+00:33:32,090 --> 00:33:38,630
+For example, if smart money wants to sell
+a large position, they may drive up the price
+
+445
+00:33:38,630 --> 00:33:39,889
+at the market open.
+
+446
+00:33:39,889 --> 00:33:45,860
+This will attract retail traders who buy into
+the breakout, thinking that the market is
+
+447
+00:33:45,860 --> 00:33:47,500
+going to rally.
+
+448
+00:33:47,500 --> 00:33:54,070
+However, once enough retail traders are trapped
+in their long positions, smart money will
+
+449
+00:33:54,070 --> 00:33:59,430
+dump their positions into the market, causing
+the price to reverse.
+
+450
+00:33:59,430 --> 00:34:04,880
+This will trigger stop-loss orders and panic
+selling from retail traders.
+
+451
+00:34:04,880 --> 00:34:12,909
+There are many types of market open manipulation
+that smart money can use to trick retail traders.
+
+452
+00:34:12,909 --> 00:34:17,919
+By now, you already know them:
+- Fake breakouts: This is when smart money
+
+453
+00:34:17,919 --> 00:34:24,359
+pushes the price above or below a significant
+support or resistance level, only to reverse
+
+454
+00:34:24,359 --> 00:34:26,339
+it shortly after.
+
+455
+00:34:26,339 --> 00:34:31,790
+This creates a false signal that the market
+is trending in one direction, when in fact
+
+456
+00:34:31,790 --> 00:34:34,089
+it is going in the opposite direction.
+
+457
+00:34:34,089 --> 00:34:40,790
+- Stop-loss hunting: This is when smart money
+targets the areas where retail traders place
+
+458
+00:34:40,790 --> 00:34:47,740
+their stop-loss orders, such as below support
+levels or above resistance levels.
+
+459
+00:34:47,740 --> 00:34:54,389
+- False signals: This is when smart money
+uses indicators, news events, or other factors
+
+460
+00:34:54,389 --> 00:34:59,880
+to generate misleading signals that contradict
+the actual market direction.
+
+461
+00:34:59,880 --> 00:35:07,410
+For example, smart money may release positive
+news about a stock before the market open,
+
+462
+00:35:07,410 --> 00:35:11,460
+causing retail traders to buy into the hype.
+
+463
+00:35:11,460 --> 00:35:15,920
+Or they deliberately move the price above
+a common moving average, to determine moving
+
+464
+00:35:15,920 --> 00:35:17,760
+average traders to enter.
+
+465
+00:35:17,760 --> 00:35:24,640
+And, once the market opens, smart money will
+sell their positions at a high price and then
+
+466
+00:35:24,640 --> 00:35:28,010
+drive the price down.
+
+467
+00:35:28,010 --> 00:35:32,480
+During the market open manipulation, you’ll
+witness increased volatility.
+
+468
+00:35:32,480 --> 00:35:38,640
+You’ll see fast price swings and fluctuations
+in a short period of time.
+
+469
+00:35:38,640 --> 00:35:43,450
+This increases the risk for retail traders
+who may get caught on the wrong side of the
+
+470
+00:35:43,450 --> 00:35:45,140
+market.
+
+471
+00:35:45,140 --> 00:35:51,380
+Market open manipulation can reduce the liquidity
+in the market by creating artificial supply
+
+472
+00:35:51,380 --> 00:35:53,810
+and demand imbalances.
+
+473
+00:35:53,810 --> 00:36:00,190
+This can make it harder for retail traders
+to enter or exit their positions at favorable
+
+474
+00:36:00,190 --> 00:36:01,470
+prices.
+
+475
+00:36:01,470 --> 00:36:06,810
+For a beginner trader, it’s very hard to
+make money in these conditions.
+
+476
+00:36:06,810 --> 00:36:13,319
+Market open trap can distort the true direction
+and strength of the market trends by creating
+
+477
+00:36:13,319 --> 00:36:16,450
+false breakouts or reversals.
+
+478
+00:36:16,450 --> 00:36:22,910
+This will confuse retail traders who rely
+on trend-following strategies or indicators.
+
+479
+00:36:22,910 --> 00:36:26,940
+Accumulation / distribution trap
+
+480
+00:36:26,940 --> 00:36:32,660
+I hope you realize that trading is a game
+of psychology and strategy, where smart money
+
+481
+00:36:32,660 --> 00:36:39,030
+traders try to outsmart and outplay retail
+traders who often lack the knowledge, experience
+
+482
+00:36:39,030 --> 00:36:41,230
+and discipline to succeed in the market.
+
+483
+00:36:41,230 --> 00:36:48,170
+One of the ways that smart money gain an edge
+over retail traders is by using accumulation
+
+484
+00:36:48,170 --> 00:36:53,130
+and distribution strategies to manipulate
+and trap them.
+
+485
+00:36:53,130 --> 00:36:58,420
+Accumulation is the phase where smart money
+traders buy or accumulate an asset at low
+
+486
+00:36:58,420 --> 00:37:02,619
+prices, creating a strong demand.
+
+487
+00:37:02,619 --> 00:37:07,060
+Distribution is the phase where smart money
+traders sell or distribute their positions
+
+488
+00:37:07,060 --> 00:37:11,520
+at high prices, creating a strong supply.
+
+489
+00:37:11,520 --> 00:37:16,620
+The goal of these accumulation and distribution
+strategies is to create false signals and
+
+490
+00:37:16,620 --> 00:37:23,630
+expectations in the market that lure retail
+traders into buying or selling at the wrong
+
+491
+00:37:23,630 --> 00:37:25,770
+time.
+
+492
+00:37:25,770 --> 00:37:31,230
+For example, during an accumulation phase,
+smart money traders may create a downtrend
+
+493
+00:37:31,230 --> 00:37:37,900
+or a consolidation pattern, making it appear
+that the market is weak or bearish.
+
+494
+00:37:37,900 --> 00:37:44,410
+This may induce retail traders to sell their
+positions or short the market, expecting further
+
+495
+00:37:44,410 --> 00:37:45,910
+price declines.
+
+496
+00:37:45,910 --> 00:37:53,400
+However, once smart money traders have accumulated
+enough positions at low prices, they may suddenly
+
+497
+00:37:53,400 --> 00:38:01,500
+reverse the trend and push the price up, triggering
+stop losses of retail traders with short positions.
+
+498
+00:38:01,500 --> 00:38:07,890
+This creates a bullish breakout that attracts
+more buyers into the market, allowing smart
+
+499
+00:38:07,890 --> 00:38:13,670
+money traders to distribute their positions
+at high prices.
+
+500
+00:38:13,670 --> 00:38:19,770
+During a distribution phase, smart money may
+create an uptrend or a consolidation pattern,
+
+501
+00:38:19,770 --> 00:38:23,160
+making it to appear that the market is strong
+and bullish.
+
+502
+00:38:23,160 --> 00:38:28,610
+This may induce retail traders to go long,
+expecting further price increases.
+
+503
+00:38:28,610 --> 00:38:34,990
+And, once smart money have distributed enough
+positions at high prices, they may suddenly
+
+504
+00:38:34,990 --> 00:38:41,260
+reverse the trend and push the price down,
+triggering stop losses of retail traders who
+
+505
+00:38:41,260 --> 00:38:42,400
+went long.
+
+506
+00:38:42,400 --> 00:38:49,230
+This creates a bearish breakdown that attracts
+more sellers into the market, allowing smart
+
+507
+00:38:49,230 --> 00:38:55,640
+money traders to accumulate more positions
+at low prices.
+
+508
+00:38:55,640 --> 00:39:01,890
+Smart money traders often use volume to confirm
+or conceal their accumulation and distribution
+
+509
+00:39:01,890 --> 00:39:02,890
+strategies.
+
+510
+00:39:02,890 --> 00:39:09,770
+For example, during an accumulation phase,
+smart money traders may use low volume to
+
+511
+00:39:09,770 --> 00:39:15,170
+hide their buying activity and create a false
+sense of weakness in the market.
+
+512
+00:39:15,170 --> 00:39:21,280
+But, if you analyze price action during this
+phase, you’ll see higher lows at the bottom
+
+513
+00:39:21,280 --> 00:39:25,300
+of the accumulation, a bullish signal.
+
+514
+00:39:25,300 --> 00:39:31,480
+Then smart money traders will use support
+and resistance to test and break the confidence
+
+515
+00:39:31,480 --> 00:39:37,819
+and conviction of retail traders by creating
+false breakouts that trap them on the wrong
+
+516
+00:39:37,819 --> 00:39:40,000
+side of the market.
+
+517
+00:39:40,000 --> 00:39:45,390
+During an accumulation phase, smart money
+traders will usually use the support level
+
+518
+00:39:45,390 --> 00:39:51,720
+to create false breakdowns that make retail
+traders think that the price will fall further
+
+519
+00:39:51,720 --> 00:39:53,109
+below support.
+
+520
+00:39:53,109 --> 00:39:54,109
+11.
+
+521
+00:39:54,109 --> 00:39:57,960
+How To Align With Smart Money
+
+522
+00:39:57,960 --> 00:40:04,270
+Trading will always be a game between the
+smart money against the dumb money.
+
+523
+00:40:04,270 --> 00:40:09,490
+Retail traders might see some patterns as
+continuation ones, but the smart money are
+
+524
+00:40:09,490 --> 00:40:11,990
+seeing them as reversal patterns.
+
+525
+00:40:11,990 --> 00:40:15,579
+You’ve seen the different traps used by
+big players.
+
+526
+00:40:15,579 --> 00:40:21,780
+In order to align yourself with their true
+intentions, always remember that smart money
+
+527
+00:40:21,780 --> 00:40:28,170
+are always searching for pockets of liquidity
+in order to fill their desired positions in
+
+528
+00:40:28,170 --> 00:40:29,310
+the market.
+
+529
+00:40:29,310 --> 00:40:35,430
+They are always looking to shake out weak
+hands, particularly around support and resistance
+
+530
+00:40:35,430 --> 00:40:38,440
+levels that are being widely watched.
+
+531
+00:40:38,440 --> 00:40:44,550
+It’s time to reconsider how you trade and
+to start building a strategy that allows you
+
+532
+00:40:44,550 --> 00:40:51,900
+to join the smart money, after a liquidity
+clear-out, or after an obvious market trap.
+
+533
+00:40:51,900 --> 00:40:58,980
+Again, the big players need LOTS of liquidity
+in order to fill their massive orders.
+
+534
+00:40:58,980 --> 00:41:00,910
+How do they get this liquidity?
+
+535
+00:41:00,910 --> 00:41:08,430
+By creating well known retail chart patterns
+and traps in order to involve the retail traders
+
+536
+00:41:08,430 --> 00:41:09,640
+into the market.
+
+537
+00:41:09,640 --> 00:41:16,290
+So, remember this, never enter a position
+if you haven’t spotted a recent liquidity
+
+538
+00:41:16,290 --> 00:41:17,290
+clear-out.
+
+539
+00:41:17,290 --> 00:41:22,550
+For retail traders like you and me, the aim
+should be to spot such potential liquidity
+
+540
+00:41:22,550 --> 00:41:29,180
+zones and join the game of market maker and
+to avoid being a liquidity target.
+
+541
+00:41:29,180 --> 00:41:35,859
+The simplest structure to pay attention to
+are zones with equal highs or lows.
+
+542
+00:41:35,859 --> 00:41:41,980
+Always assume smart money will want to trap
+traders around these areas.
+
+543
+00:41:41,980 --> 00:41:49,240
+A liquidity clear out should always present
+itself with a rapid, strong reversal move
+
+544
+00:41:49,240 --> 00:41:56,859
+after a critical area is taken out—basically
+a rapid rotation of price back into the previous
+
+545
+00:41:56,859 --> 00:41:58,230
+trading range.
+
+546
+00:41:58,230 --> 00:42:03,660
+And always monitor the lowest low or highest
+high of a structure.
+
+547
+00:42:03,660 --> 00:42:10,310
+If the structure is not even on highs or lows
+positioning (for example, when highs or lows
+
+548
+00:42:10,310 --> 00:42:16,470
+are connected through a trend line instead
+of flat line), then the main area to watch
+
+549
+00:42:16,470 --> 00:42:23,339
+is the lowest low or highest high of structure,
+because this is where the majority of stop
+
+550
+00:42:23,339 --> 00:42:29,000
+losses will sit and where breakout traders
+might initiate other positions.
+
+551
+00:42:29,000 --> 00:42:30,000
+12.
+
+552
+00:42:30,000 --> 00:42:33,970
+Strategy no.1: Demand zone entry after liquidity
+clear-out
+
+553
+00:42:33,970 --> 00:42:39,940
+My favorite way to align my positions with
+the ones of smart money is to trade demand
+
+554
+00:42:39,940 --> 00:42:43,190
+zones, after a liquidity clear-out.
+
+555
+00:42:43,190 --> 00:42:48,819
+You need to follow these steps:
+1) First, identify a liquidity run that breaks
+
+556
+00:42:48,819 --> 00:42:55,300
+below a previous swing low or support level
+where many retail traders have placed their
+
+557
+00:42:55,300 --> 00:42:56,330
+stop-loss orders.
+
+558
+00:42:56,330 --> 00:43:03,070
+2) Then, identify a potential demand zone
+that was previously formed near the liquidity
+
+559
+00:43:03,070 --> 00:43:06,319
+run
+3) Wait for the price to retest the demand
+
+560
+00:43:06,319 --> 00:43:12,920
+zone and confirm its validity, by finding
+signs of rejection or bounce.
+
+561
+00:43:12,920 --> 00:43:15,820
+Here you can check the volume, to confirm
+the rejection
+
+562
+00:43:15,820 --> 00:43:22,690
+4) Enter a long position at or near the demand
+zone with a stop-loss below the zone
+
+563
+00:43:22,690 --> 00:43:29,940
+5) Exit the position at or near a previous
+swing high or at the next important supply
+
+564
+00:43:29,940 --> 00:43:35,860
+area, or where smart money may initiate another
+liquidity run.
+
+565
+00:43:35,860 --> 00:43:38,590
+Here’s EUR/USD.
+
+566
+00:43:38,590 --> 00:43:44,750
+Market is in a general uptrend, so the plan
+is to trade a long position, at a demand area,
+
+567
+00:43:44,750 --> 00:43:47,720
+only after we spot a liquidity clear-out.
+
+568
+00:43:47,720 --> 00:43:54,450
+1) We see this liquidity run that breaks below
+this area where many retail traders have placed
+
+569
+00:43:54,450 --> 00:43:55,900
+their stop-loss orders.
+
+570
+00:43:55,900 --> 00:44:00,430
+2) We found a fresh and recent demand zone,
+right here
+
+571
+00:44:00,430 --> 00:44:07,170
+3) Once the price touched our demand zone
+we confirmed its validity after we saw this
+
+572
+00:44:07,170 --> 00:44:09,589
+candle with a lower wick.
+
+573
+00:44:09,589 --> 00:44:11,340
+A rejection candle.
+
+574
+00:44:11,340 --> 00:44:18,819
+4) A long position after the demand rejection,
+after the liquidity clear-out, was the correct
+
+575
+00:44:18,819 --> 00:44:23,790
+trade in this case
+5) Stop-loss below the liquidity run, and
+
+576
+00:44:23,790 --> 00:44:26,390
+you target the next important supply area
+
+577
+00:44:26,390 --> 00:46:04,790
+Strategy no.2: Supply zone entry after liquidity
+clear-out
+
+578
+00:46:04,790 --> 00:46:10,310
+Another strategy to align your positions with
+the ones of smart money is to trade supply
+
+579
+00:46:10,310 --> 00:46:15,940
+zones, after a liquidity clear-out, or after
+you find other market trap.
+
+580
+00:46:15,940 --> 00:46:23,460
+1) First, identify a liquidity run or a market
+trap that breaks above a previous swing high
+
+581
+00:46:23,460 --> 00:46:29,290
+or resistance level where many retail traders
+have placed their stop-loss orders.
+
+582
+00:46:29,290 --> 00:46:35,880
+2) Then, identify a potential supply zone
+that was previously formed around the liquidity
+
+583
+00:46:35,880 --> 00:46:39,290
+run
+3) Wait for the price to retest the supply
+
+584
+00:46:39,290 --> 00:46:43,980
+zone and confirm its validity by finding signs
+of rejection
+
+585
+00:46:43,980 --> 00:46:52,720
+4) Enter a short position at or near the supply
+zone with a stop-loss above the zone or above
+
+586
+00:46:52,720 --> 00:46:58,200
+the liquidity clear-out
+5) Exit the position at or near a previous
+
+587
+00:46:58,200 --> 00:47:04,940
+swing low or at the next important demand
+area, or where smart money may initiate another
+
+588
+00:47:04,940 --> 00:47:07,060
+liquidity run.
+
+589
+00:47:07,060 --> 00:47:10,170
+Here’s GBP/USD.
+
+590
+00:47:10,170 --> 00:47:15,450
+Market is in a general downtrend, so the plan
+is to trade a short position, at a supply
+
+591
+00:47:15,450 --> 00:47:19,240
+area, only after we find a liquidity clear-out.
+
+592
+00:47:19,240 --> 00:47:26,140
+1) We see this liquidity run that breaks above
+this area, where many retail traders have
+
+593
+00:47:26,140 --> 00:47:27,819
+placed their stop-loss orders.
+
+594
+00:47:27,819 --> 00:47:33,190
+2) We found a fresh and recent supply zone,
+right here.
+
+595
+00:47:33,190 --> 00:47:38,730
+We find the most recent green candle before
+the drop and mark our area of interest
+
+596
+00:47:38,730 --> 00:47:42,600
+3) I see another trap here.
+
+597
+00:47:42,600 --> 00:47:49,650
+A triangle, which was broken to the upside,
+baiting traders to enter into long positions.
+
+598
+00:47:49,650 --> 00:47:56,760
+But the trend is down, we are near a supply
+area and we also have a liquidity clear-out
+
+599
+00:47:56,760 --> 00:47:58,440
+and many long traders trapped.
+
+600
+00:47:58,440 --> 00:48:05,010
+4) A short position after the supply rejection,
+after the liquidity clear-out, was the better
+
+601
+00:48:05,010 --> 00:48:08,870
+trade
+5) Stop-loss above the liquidity run, and
+
+602
+00:48:08,870 --> 00:48:11,230
+you target the next important demand area
+
+603
+00:48:11,230 --> 00:49:49,380
+Strategy no.3: Demand zone entry after down
+thrust VSA pattern
+
+604
+00:49:49,380 --> 00:49:54,980
+Another way to align with smart money is to
+trade demand zones, after you find a down
+
+605
+00:49:54,980 --> 00:49:57,490
+thrust VSA pattern.
+
+606
+00:49:57,490 --> 00:50:02,440
+You need to follow these steps:
+1) First, you need to find a down thrust formation,
+
+607
+00:50:02,440 --> 00:50:09,410
+which appears as a bullish pin bar or a Doji
+bar having an ultra-high volume or above average
+
+608
+00:50:09,410 --> 00:50:10,410
+volume.
+
+609
+00:50:10,410 --> 00:50:15,900
+The Spread of the down thrust bar is low meanwhile
+the volume is relatively high.
+
+610
+00:50:15,900 --> 00:50:22,390
+So, there is more demand than supply, potentially
+causing price to rise in near future.
+
+611
+00:50:22,390 --> 00:50:27,200
+2) Then, identify a potential demand zone
+around the same area
+
+612
+00:50:27,200 --> 00:50:30,859
+3) If you find a liquidity clear-out, that’s
+even better
+
+613
+00:50:30,859 --> 00:50:38,140
+4) Enter a long position at or near the demand
+zone with a stop-loss below the zone
+
+614
+00:50:38,140 --> 00:50:45,750
+5) Exit the position at or near a previous
+swing high or at the next important supply
+
+615
+00:50:45,750 --> 00:50:51,850
+area, or where smart money may initiate another
+liquidity run.
+
+616
+00:50:51,850 --> 00:50:54,570
+Here’s Tesla.
+
+617
+00:50:54,570 --> 00:51:00,660
+Market is in an uptrend, so the plan is to
+trade a long position, at a demand area, after
+
+618
+00:51:00,660 --> 00:51:02,300
+we spot a down thrust.
+
+619
+00:51:02,300 --> 00:51:09,460
+1) First, we see this liquidity run that breaks
+below this area, and at the same time, we
+
+620
+00:51:09,460 --> 00:51:12,510
+have a down thrust VSA candle.
+
+621
+00:51:12,510 --> 00:51:16,750
+The Spread of the candle is low and the volume
+is relatively high.
+
+622
+00:51:16,750 --> 00:51:22,170
+So, there is more demand than supply, a sign
+that price may rise in near future.
+
+623
+00:51:22,170 --> 00:51:27,100
+2) We also have a fresh and recent demand
+zone, right here
+
+624
+00:51:27,100 --> 00:51:33,630
+3) A long position after the demand rejection
+is a high probability trade
+
+625
+00:51:33,630 --> 00:51:39,569
+4) Stop-loss below the down thrust candle,
+and you target the next supply area
+
+626
+00:51:39,569 --> 00:53:07,140
+Strategy no.4: Supply zone entry after up
+thrust VSA pattern
+
+627
+00:53:07,140 --> 00:53:13,900
+Another smart way to trade is to find entries
+at supply zones, after you find an up thrust
+
+628
+00:53:13,900 --> 00:53:15,290
+VSA pattern.
+
+629
+00:53:15,290 --> 00:53:21,609
+1) First, you need to find the up thrust,
+which appears as a bearish pin bar or doji
+
+630
+00:53:21,609 --> 00:53:26,619
+bar having an ultra-high volume or above average
+volume.
+
+631
+00:53:26,619 --> 00:53:32,250
+The Spread of the up thrust candle is low
+while the volume is relatively high.
+
+632
+00:53:32,250 --> 00:53:37,829
+In this case there is a disagreement between
+spread and volume which signifies that there
+
+633
+00:53:37,829 --> 00:53:43,109
+is more supply than demand, potentially causing
+price to fall in near future
+
+634
+00:53:43,109 --> 00:53:48,510
+2) Then, identify a potential supply zone
+around the same area
+
+635
+00:53:48,510 --> 00:53:53,059
+3) If you find a liquidity clear-out, that’s
+even better
+
+636
+00:53:53,059 --> 00:53:59,970
+4) Enter a short position at or near the supply
+zone with a stop-loss above the zone
+
+637
+00:53:59,970 --> 00:54:06,770
+5) Exit the position at or near a previous
+swing low or at the next important demand
+
+638
+00:54:06,770 --> 00:54:12,530
+area, or where smart money may initiate another
+liquidity run.
+
+639
+00:54:12,530 --> 00:54:15,160
+Here’s Amazon.
+
+640
+00:54:15,160 --> 00:54:20,720
+Market is in a downtrend, so the plan is to
+trade a short position, at a supply area,
+
+641
+00:54:20,720 --> 00:54:25,910
+after we find an up thrust pattern, which
+is right here.
+
+642
+00:54:25,910 --> 00:54:29,540
+A bearish pin bar having above average volume.
+
+643
+00:54:29,540 --> 00:54:33,150
+Low spread while the volume is relatively
+high.
+
+644
+00:54:33,150 --> 00:54:39,720
+A disagreement between spread and volume which
+implies that there is more supply than demand,
+
+645
+00:54:39,720 --> 00:54:45,950
+a sign that price could fall in near future
+2) Then we found a fresh and recent supply
+
+646
+00:54:45,950 --> 00:54:47,079
+zone.
+
+647
+00:54:47,079 --> 00:54:52,589
+We find the most recent green candle before
+the drop and mark our area of interest
+
+648
+00:54:52,589 --> 00:54:58,730
+4) A short position after the supply rejection
+was the obvious trade
+
+649
+00:54:58,730 --> 00:55:29,580
+5) Stop-loss above the supply area, and you
+target the next important demand area
+
+650
+00:55:29,580 --> 00:56:45,470
+Strategy no.5 – Over and under break of
+structure
+
+651
+00:56:45,470 --> 00:56:49,990
+The over and under break of structure is another
+way to align yourself with the big players.
+
+652
+00:56:49,990 --> 00:56:55,569
+The break of structure is the first sign that
+smart money have initiated a price shift.
+
+653
+00:56:55,569 --> 00:57:01,119
+For a bearish over and under pattern, after
+a previous uptrend.
+
+654
+00:57:01,119 --> 00:57:04,680
+• Price creates a higher high
+• then creates a lower high
+
+655
+00:57:04,680 --> 00:57:09,640
+• Price breaks the previous high and creates
+a new higher high
+
+656
+00:57:09,640 --> 00:57:16,700
+• Then price breaks the previous low as
+well and forms a lower low
+
+657
+00:57:16,700 --> 00:57:21,890
+For a bullish over and under pattern, after
+a previous downtrend.
+
+658
+00:57:21,890 --> 00:57:25,709
+• Price creates a lower low
+• Price creates a lower high
+
+659
+00:57:25,709 --> 00:57:30,699
+• Price breaks the previous low and creates
+a new lower low
+
+660
+00:57:30,699 --> 00:57:36,450
+• Then price breaks the previous high as
+well and forms a higher high
+
+661
+00:57:36,450 --> 00:57:42,809
+Now, this break of structure doesn’t always
+result in a reversal.
+
+662
+00:57:42,809 --> 00:57:49,520
+That’s why, in order to align your positions
+with the smart money, you need to use once
+
+663
+00:57:49,520 --> 00:57:53,049
+again, supply and demand zones.
+
+664
+00:57:53,049 --> 00:57:58,780
+So the plan is to find the break of structure
+pattern, to wait for a retracement, and to
+
+665
+00:57:58,780 --> 00:58:05,319
+find a supply or demand zone for an entry,
+to execute the trade with a higher accuracy.
+
+666
+00:58:05,319 --> 00:58:10,230
+Here, we see a significant decrease in price
+on EUR/USD.
+
+667
+00:58:10,230 --> 00:58:14,380
+The price makes a swing low, followed by a
+lower high.
+
+668
+00:58:14,380 --> 00:58:20,760
+Then makes a lower low, and it shoots up and
+breaks the previous high, making a higher
+
+669
+00:58:20,760 --> 00:58:22,160
+high.
+
+670
+00:58:22,160 --> 00:58:24,160
+We have our break of structure and our over
+and under pattern.
+
+671
+00:58:24,160 --> 00:58:27,480
+Now we need to find a demand zone for an entry.
+
+672
+00:58:27,480 --> 00:58:33,500
+First, you need to take a look at the left-hand
+side of previous low, where the strong rally
+
+673
+00:58:33,500 --> 00:58:35,069
+has started.
+
+674
+00:58:35,069 --> 00:58:39,020
+You need to find the last bearish candle before
+the strong rally.
+
+675
+00:58:39,020 --> 00:58:45,880
+I see a rally base rally formation, which
+is a continuation pattern, forming a demand
+
+676
+00:58:45,880 --> 00:58:47,369
+zone.
+
+677
+00:58:47,369 --> 00:58:54,150
+When price returns to this area, you can open
+a buy position, with stops below this demand
+
+678
+00:58:54,150 --> 00:58:55,150
+zone.
+
+679
+00:58:55,150 --> 00:58:59,530
+If you find a liquidity clear-out, again,
+even better.
+
+680
+00:58:59,530 --> 00:59:03,050
+Here’s another break of structure pattern,
+a bearish one.
+
+681
+00:59:03,050 --> 00:59:06,089
+The previous trend is an uptrend.
+
+682
+00:59:06,089 --> 00:59:12,230
+The price is forming a new swing high, declines,
+then forms a swing low.
+
+683
+00:59:12,230 --> 00:59:18,450
+Price then rallies again to exceed the previous
+high (making a higher high).
+
+684
+00:59:18,450 --> 00:59:21,539
+Then it decreased to form a new lower low.
+
+685
+00:59:21,539 --> 00:59:26,500
+This is our first sign that we might have
+an over and under pattern.
+
+686
+00:59:26,500 --> 00:59:31,869
+Remember, you don’t enter just because you
+find a possible break of structure.
+
+687
+00:59:31,869 --> 00:59:38,010
+You need to wait for price to rise again,
+to a fresh and untested supply area.
+
+688
+00:59:38,010 --> 00:59:44,000
+You look at the left side of the previous
+high where the previous strong down move started.
+
+689
+00:59:44,000 --> 00:59:51,240
+I see a drop base drop formation, which is
+a continuation pattern, forming a supply zone.
+
+690
+00:59:51,240 --> 00:59:58,000
+When price returns to this area, you can open
+a sell position, with stops above this supply
+
+691
+00:59:58,000 --> 01:00:29,470
+zone.
+
+692
+01:00:29,470 --> 01:01:32,910
+Strategy no.6 – Psychological numbers VSA
+clear-out
+
+693
+01:01:32,910 --> 01:01:36,450
+Psychological numbers are quite important
+for smart money traders.
+
+694
+01:01:36,450 --> 01:01:42,230
+These are price levels that have a significant
+impact on the market sentiment and behavior.
+
+695
+01:01:42,230 --> 01:01:46,980
+They are often round numbers or multiples
+of 50, 100, etc.
+
+696
+01:01:46,980 --> 01:01:53,799
+These numbers tend to act as support and resistance
+levels, as well as trigger points for stop-losses
+
+697
+01:01:53,799 --> 01:01:55,940
+and take-profits.
+
+698
+01:01:55,940 --> 01:02:01,020
+These round numbers reflect the collective
+psychology of the market participants, especially
+
+699
+01:02:01,020 --> 01:02:06,089
+the large institutional traders who have the
+power to move the market.
+
+700
+01:02:06,089 --> 01:02:12,740
+One simple way to identify psychological numbers
+is to look at the price charts and observe
+
+701
+01:02:12,740 --> 01:02:17,950
+how the price reacts when it approaches or
+breaks these levels.
+
+702
+01:02:17,950 --> 01:02:25,109
+You will often see increased volatility, increased
+volume, and many liquidity clear-outs around
+
+703
+01:02:25,109 --> 01:02:27,010
+these levels.
+
+704
+01:02:27,010 --> 01:02:33,960
+Supply and demand areas in combination with
+round numbers is a powerful way to align yourself
+
+705
+01:02:33,960 --> 01:02:35,450
+with the smart money.
+
+706
+01:02:35,450 --> 01:02:43,609
+A supply zone, in combination with a psychological
+level, is a good area to initiate a sell position.
+
+707
+01:02:43,609 --> 01:02:50,220
+A demand zone, which includes psychological
+level, again, offers a low risk - high reward
+
+708
+01:02:50,220 --> 01:02:52,530
+buy situation.
+
+709
+01:02:52,530 --> 01:02:59,650
+Liquidity clear-outs in combination with round
+numbers is one of the simplest way to trade.
+
+710
+01:02:59,650 --> 01:03:05,070
+If you know the main VSA patterns you’ll
+have even better chances to trade with the
+
+711
+01:03:05,070 --> 01:03:06,320
+smart money.
+
+712
+01:03:06,320 --> 01:03:10,829
+Here’s Amazon, with the main psychological
+levels added.
+
+713
+01:03:10,829 --> 01:03:15,940
+Have a look at this liquidity run, just below
+the price of 90$.
+
+714
+01:03:15,940 --> 01:03:18,790
+And look at the candle which broke below the
+level.
+
+715
+01:03:18,790 --> 01:03:22,119
+It’s a down thrust VSA pattern.
+
+716
+01:03:22,119 --> 01:03:25,829
+A bullish pin bar having an ultra-high volume.
+
+717
+01:03:25,829 --> 01:03:29,500
+In fact it’s the highest volume in recent
+period.
+
+718
+01:03:29,500 --> 01:03:33,859
+The spread of the down thrust is low while
+the volume is relatively high.
+
+719
+01:03:33,859 --> 01:03:40,670
+So, there is more demand than supply, a sign
+that price to rise in near future.
+
+720
+01:03:40,670 --> 01:03:45,730
+And it happened at a very important psychological
+number of 90$.
+
+721
+01:03:45,730 --> 01:03:47,540
+And we had a liquidity clear-out.
+
+722
+01:03:47,540 --> 01:03:50,839
+This buy right here is a no brainer.
+
+723
+01:03:50,839 --> 01:03:56,569
+Here’s Apple, with the main psychological
+levels added.
+
+724
+01:03:56,569 --> 01:04:04,440
+I see an obvious liquidity run, taking stops
+above 150$ and trapping long traders above
+
+725
+01:04:04,440 --> 01:04:05,790
+this level.
+
+726
+01:04:05,790 --> 01:04:08,849
+And look at the candle which broke below the
+level.
+
+727
+01:04:08,849 --> 01:04:11,950
+It’s an up thrust VSA pattern.
+
+728
+01:04:11,950 --> 01:04:14,430
+A pin bar having above average volume.
+
+729
+01:04:14,430 --> 01:04:19,770
+The spread of the up thrust is low while the
+volume is relatively high.
+
+730
+01:04:19,770 --> 01:04:26,530
+So, there is more supply than demand, a sign
+that price could fall in near future.
+
+731
+01:04:26,530 --> 01:04:29,460
+And it happened at a clear supply area.
+
+732
+01:04:29,460 --> 01:04:31,339
+It’s right here.
+
+733
+01:04:31,339 --> 01:04:35,170
+So we had the liquidity clear-out.
+
+734
+01:04:35,170 --> 01:04:36,900
+The 150$ psychological number.
+
+735
+01:04:36,900 --> 01:04:38,420
+A supply area.
+
+736
+01:04:38,420 --> 01:04:41,730
+And the up thrust VSA pattern.
+
+737
+01:04:41,730 --> 01:04:42,849
+Perfect sell trade.
+
+738
+01:04:42,849 --> 01:04:44,799
+These trades are rare.
+
+739
+01:04:44,799 --> 01:04:51,549
+You’ll be lucky if you find one trade per
+week, with a supply or demand area, a VSA
+
+740
+01:04:51,549 --> 01:04:55,760
+pattern, a liquidity run and psychological
+number confluence.
+
+741
+01:04:55,760 --> 01:05:02,770
+But when you find this type of trade, don’t
+hesitate, and take the trade, every single
+
+742
+01:05:02,770 --> 01:05:03,770
+time.
+
+743
+01:05:03,770 --> 01:05:09,990
+If this smart money trading course made sense,
+please show your support by giving a like,
+
+744
+01:05:09,990 --> 01:05:11,109
+it goes a long way.
+
+745
+01:05:11,109 --> 01:05:16,180
+And if you haven’t watched our previous
+day trading course, you definitely must watch
+
+746
+01:05:16,180 --> 01:05:17,549
+it later!
+
+747
+01:05:17,549 --> 01:05:22,240
+And check out our academy program, if you
+want to further level up your trading.
+
+748
+01:05:22,240 --> 01:05:23,660
+Until next time!
+

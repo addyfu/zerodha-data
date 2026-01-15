@@ -1,0 +1,707 @@
+1
+00:00:00,930 --> 00:00:04,830
+Guppy multiple moving average (GMMA) indicator
+provides an interesting alternative to other
+
+2
+00:00:04,830 --> 00:00:06,509
+popular indicators.
+
+3
+00:00:06,509 --> 00:00:12,200
+The GMMA implements 2 different exponential
+moving averages (EMAs) in an effort to analyze
+
+4
+00:00:12,200 --> 00:00:14,710
+market behavior on multiple levels.
+
+5
+00:00:14,710 --> 00:00:21,120
+The Guppy indicator is composed of 12 EMAs,
+so essentially the Guppy and an EMA are the
+
+6
+00:00:21,120 --> 00:00:22,490
+same thing.
+
+7
+00:00:22,490 --> 00:00:29,029
+Guppy will help you to isolate trades, spot
+opportunities, and warn about price reversals.
+
+8
+00:00:29,029 --> 00:00:34,130
+The multiple lines of the Guppy will help
+you to see the strength or weakness in a trend
+
+9
+00:00:34,130 --> 00:00:36,880
+better than if only using one or two EMAs.
+
+10
+00:00:36,880 --> 00:00:42,530
+The Guppy multiple moving average (GMMA) is
+an indicator that tracks the activity of the
+
+11
+00:00:42,530 --> 00:00:44,880
+two major groups in the market.
+
+12
+00:00:44,880 --> 00:00:47,760
+These are investors and traders.
+
+13
+00:00:47,760 --> 00:00:50,730
+Traders are always probing for a change in
+the trend.
+
+14
+00:00:50,730 --> 00:00:56,030
+In a downtrend they will take a trade in anticipation
+of a new uptrend developing.
+
+15
+00:00:56,030 --> 00:00:59,280
+If it does not develop, then they get out
+of the trade quickly.
+
+16
+00:00:59,280 --> 00:01:05,420
+If the trend does change, then they stay with
+the trade, but continue to use a short term
+
+17
+00:01:05,420 --> 00:01:07,110
+management approach.
+
+18
+00:01:07,110 --> 00:01:13,500
+No matter how long the uptrend remains in
+place, the trader is always alert for a potential
+
+19
+00:01:13,500 --> 00:01:14,630
+trend change.
+
+20
+00:01:14,630 --> 00:01:20,730
+Often they use a volatility based indicator,
+or a short term 10 day moving average, to
+
+21
+00:01:20,730 --> 00:01:24,030
+help identify the exit conditions.
+
+22
+00:01:24,030 --> 00:01:29,070
+We track their activity by using a group of
+short term moving averages.
+
+23
+00:01:29,070 --> 00:01:37,620
+These are 3, 5, 8, 10, 12 and 15 day exponentially
+calculated moving averages.
+
+24
+00:01:37,620 --> 00:01:41,170
+Strong trends are supported by long term investors.
+
+25
+00:01:41,170 --> 00:01:45,740
+These are the true gamblers in the market
+because they tend to have a great deal of
+
+26
+00:01:45,740 --> 00:01:47,820
+faith in their analysis.
+
+27
+00:01:47,820 --> 00:01:51,950
+The investor takes more time to recognize
+the change in a trend.
+
+28
+00:01:51,950 --> 00:02:00,040
+We track the investors’ activity by using
+the 30, 35, 40, 45, 50 and 60 day exponentially
+
+29
+00:02:00,040 --> 00:02:02,120
+calculated moving average.
+
+30
+00:02:02,120 --> 00:02:09,709
+So the GMMA attempts to identify trends by
+combining two groups of moving averages with
+
+31
+00:02:09,709 --> 00:02:11,900
+different time periods.
+
+32
+00:02:11,900 --> 00:02:16,969
+The long-term EMAs (exponential moving average)
+represent the interests and behaviors of investors
+
+33
+00:02:16,969 --> 00:02:21,010
+that have taken a long-term approach to a
+given market.
+
+34
+00:02:21,010 --> 00:02:26,709
+The short-term EMAs represent traders, or
+speculators, who are attempting to capture
+
+35
+00:02:26,709 --> 00:02:28,629
+short-term profits.
+
+36
+00:02:28,629 --> 00:02:34,019
+The relationship within each of these groups
+tells us when there is agreement on value
+
+37
+00:02:34,019 --> 00:02:39,900
+- when they are close together - and when
+there is disagreement on value - when they
+
+38
+00:02:39,900 --> 00:02:42,409
+are well spaced apart.
+
+39
+00:02:42,409 --> 00:02:47,629
+The relationship between the two groups tells
+the trader about the strength of the market
+
+40
+00:02:47,629 --> 00:02:48,629
+action.
+
+41
+00:02:48,629 --> 00:02:54,680
+A change in price direction that is well supported
+by both short and long term investors signals
+
+42
+00:02:54,680 --> 00:02:57,099
+a strong trading opportunity.
+
+43
+00:02:57,099 --> 00:03:02,339
+Guppy is an easy indicator that will allow
+anyone to determine the overall trend of the
+
+44
+00:03:02,339 --> 00:03:05,959
+market quickly and without personal bias.
+
+45
+00:03:05,959 --> 00:03:11,219
+And of course, once you know the general direction
+of a trending market, the odds of a successful
+
+46
+00:03:11,219 --> 00:03:12,250
+trade increase.
+
+47
+00:03:12,250 --> 00:03:20,529
+The GMMA also offers insight into potential
+reversals or periods of consolidation by signaling
+
+48
+00:03:20,529 --> 00:03:23,249
+changes in market sentiment.
+
+49
+00:03:23,249 --> 00:03:28,890
+Although Guppy is a standalone trading strategy,
+I have found great results combining Guppy
+
+50
+00:03:28,890 --> 00:03:32,319
+with price action, but we’ll talk about
+this later.
+
+51
+00:03:32,319 --> 00:03:36,269
+So, how to read the GMMA?
+
+52
+00:03:36,269 --> 00:03:41,689
+The Guppy multiple moving average can be used
+to identify changes in trends or determine
+
+53
+00:03:41,689 --> 00:03:44,549
+the strength of the current trend.
+
+54
+00:03:44,549 --> 00:03:50,059
+The degree of separation between the short-
+and long-term moving averages can be used
+
+55
+00:03:50,059 --> 00:03:52,590
+as an indicator of trend strength.
+
+56
+00:03:52,590 --> 00:03:57,010
+If there's a wide separation, then the prevailing
+trend is strong.
+
+57
+00:03:57,010 --> 00:04:03,459
+Narrow separation, or lines that are crisscrossing,
+indicates a weakening trend or a period of
+
+58
+00:04:03,459 --> 00:04:04,549
+consolidation.
+
+59
+00:04:04,549 --> 00:04:11,390
+The crossover of the short- and long-term
+moving averages represent trend reversals.
+
+60
+00:04:11,390 --> 00:04:17,780
+If the short-term crosses above the long-term
+moving averages, then a bullish reversal has
+
+61
+00:04:17,780 --> 00:04:18,780
+occurred.
+
+62
+00:04:18,780 --> 00:04:26,560
+If the short-term mas cross below the longer-term
+ones, then a bearish reversal is occurring.
+
+63
+00:04:26,560 --> 00:04:34,300
+When both groups of mas are moving horizontally,
+or mostly moving sideways and heavily intersected,
+
+64
+00:04:34,300 --> 00:04:40,289
+it means the asset lacks a price trend, and
+therefore may not be a good candidate for
+
+65
+00:04:40,289 --> 00:04:42,150
+trend trades.
+
+66
+00:04:42,150 --> 00:04:46,910
+These periods may be good for range trading.
+
+67
+00:04:46,910 --> 00:04:50,710
+The indicator can also be used for trade signals.
+
+68
+00:04:50,710 --> 00:04:57,030
+When the short-term group passes above the
+long-term group of mas, the market is bullish.
+
+69
+00:04:57,030 --> 00:05:02,000
+When the short-term group passes below the
+longer-term group, the market is bearish.
+
+70
+00:05:02,000 --> 00:05:08,039
+These signals should be avoided when the price
+and the mas are moving sideways.
+
+71
+00:05:08,039 --> 00:05:13,840
+Following a consolidation period, pay attention
+at crossovers and separation.
+
+72
+00:05:13,840 --> 00:05:19,160
+When the lines start to separate this often
+means a breakout from the consolidation has
+
+73
+00:05:19,160 --> 00:05:22,919
+occurred and a new trend could be underway.
+
+74
+00:05:22,919 --> 00:05:30,540
+During a strong uptrend, when the short-term
+mas move back toward the longer-term mas (but
+
+75
+00:05:30,540 --> 00:05:36,520
+don't cross) and then start to move back the
+upside, this is another opportunity to enter
+
+76
+00:05:36,520 --> 00:05:40,419
+into long trades in the trending direction.
+
+77
+00:05:40,419 --> 00:05:45,289
+The same concept applies to downtrends for
+entering short trades.
+
+78
+00:05:45,289 --> 00:05:53,910
+The green moving averages represent short-term
+traders and red represents long-term traders.
+
+79
+00:05:53,910 --> 00:05:59,699
+When both the red and green lines are moving
+in agreement (both trending up or down), we
+
+80
+00:05:59,699 --> 00:06:03,680
+are given a confirmation of market sentiment
+and trend.
+
+81
+00:06:03,680 --> 00:06:09,129
+The moving averages may also act as support
+and/or resistance.
+
+82
+00:06:09,129 --> 00:06:14,689
+When price finds support at these levels,
+it might be a good time to add positions if
+
+83
+00:06:14,689 --> 00:06:20,710
+you see further upside potential or you have
+spare risk capital available.
+
+84
+00:06:20,710 --> 00:06:27,050
+When price tests the red moving average zone,
+long-term traders will look to buy more given
+
+85
+00:06:27,050 --> 00:06:29,680
+their outlook is still bullish.
+
+86
+00:06:29,680 --> 00:06:35,169
+The strength of the trend is determined by
+the distance between the red and green moving
+
+87
+00:06:35,169 --> 00:06:36,659
+average clusters.
+
+88
+00:06:36,659 --> 00:06:40,430
+The further the distance, the greater the
+trend.
+
+89
+00:06:40,430 --> 00:06:45,410
+Another way to evaluate the strength of a
+trend is to evaluate the spread between each
+
+90
+00:06:45,410 --> 00:06:47,120
+moving average cluster.
+
+91
+00:06:47,120 --> 00:06:54,469
+If the long-term red averages are spread out
+nicely, this indicates that the support/resistance
+
+92
+00:06:54,469 --> 00:06:57,249
+level is broad and strong.
+
+93
+00:06:57,249 --> 00:07:03,331
+If the lines within a cluster are narrowing,
+this indicates momentum is declining, and
+
+94
+00:07:03,331 --> 00:07:07,639
+a reversal or consolidation could follow.
+
+95
+00:07:07,639 --> 00:07:13,610
+Just like simple moving averages, you can
+use crossovers as entry and exit signals.
+
+96
+00:07:13,610 --> 00:07:19,240
+When the short-term moving average cluster
+crosses over the long-term, this signals a
+
+97
+00:07:19,240 --> 00:07:25,419
+change in market sentiment and suggest that
+short-term traders are starting a new trend.
+
+98
+00:07:25,419 --> 00:07:31,879
+For instance, this Guppy crossover indicates
+that short-term traders have become optimistic
+
+99
+00:07:31,879 --> 00:07:36,979
+about this pair and could potentially start
+a new bullish trend.
+
+100
+00:07:36,979 --> 00:07:42,060
+The strength of the trend is determined by
+the distance between the red and green moving
+
+101
+00:07:42,060 --> 00:07:43,490
+average clusters.
+
+102
+00:07:43,490 --> 00:07:48,210
+Like I said before, the farther the distance,
+the greater the trend.
+
+103
+00:07:48,210 --> 00:07:53,740
+Now, if you followed my previous videos on
+moving averages, you probably know that I’m
+
+104
+00:07:53,740 --> 00:07:57,199
+not the biggest fan of moving average crossovers.
+
+105
+00:07:57,199 --> 00:08:03,539
+Since the GMMA indicator was designed for
+trending assets; these moving averages run
+
+106
+00:08:03,539 --> 00:08:06,169
+into problems when price consolidates.
+
+107
+00:08:06,169 --> 00:08:12,849
+The indicator shows consolidation and potential
+reversals when the short and long-term moving
+
+108
+00:08:12,849 --> 00:08:14,590
+averages condense.
+
+109
+00:08:14,590 --> 00:08:20,490
+The main limitation of the Guppy indicator
+is the lagging factor.
+
+110
+00:08:20,490 --> 00:08:24,340
+Each EMA represents the average price from
+the past.
+
+111
+00:08:24,340 --> 00:08:27,150
+It does not predict the future.
+
+112
+00:08:27,150 --> 00:08:33,070
+Waiting for the averages to cross can at times
+mean an entry or exit that is far too late,
+
+113
+00:08:33,070 --> 00:08:36,349
+as the price has already moved aggressively.
+
+114
+00:08:36,349 --> 00:08:39,940
+All moving averages are also prone to whipsaws.
+
+115
+00:08:39,940 --> 00:08:45,140
+This is when there is a crossover, potentially
+resulting in a trade, but the price doesn't
+
+116
+00:08:45,140 --> 00:08:50,980
+move as expected and then the averages cross
+again resulting in a loss.
+
+117
+00:08:50,980 --> 00:08:57,779
+So, in times of consolidation, with multiple
+crossovers, i find it useful to combine price
+
+118
+00:08:57,779 --> 00:08:59,890
+action with GMMA.
+
+119
+00:08:59,890 --> 00:09:04,529
+You could also use the Guppy multiple moving
+average in conjunction with other technical
+
+120
+00:09:04,529 --> 00:09:08,139
+indicators to maximize your trading odds.
+
+121
+00:09:08,139 --> 00:09:13,540
+For example, you might look at the relative
+strength index (RSI) to confirm a trend, or
+
+122
+00:09:13,540 --> 00:09:21,540
+look at various chart patterns to determine
+other entry or exit points after a GMMA crossover.
+
+123
+00:09:21,540 --> 00:09:28,660
+From my experience, the GMMA is also useful
+from breakout trading, when the price is moving
+
+124
+00:09:28,660 --> 00:09:33,620
+outside a defined support or resistance level
+with increased volume.
+
+125
+00:09:33,620 --> 00:09:40,550
+A breakout trader enters a long position after
+the price breaks above resistance or enters
+
+126
+00:09:40,550 --> 00:09:44,740
+a short position after the price breaks below
+support.
+
+127
+00:09:44,740 --> 00:09:50,120
+The reason breakouts are such an important
+trading strategy is because these setups are
+
+128
+00:09:50,120 --> 00:09:57,300
+the starting point for future volatility increases,
+large price swings and, in many circumstances,
+
+129
+00:09:57,300 --> 00:09:59,810
+major price trends.
+
+130
+00:09:59,810 --> 00:10:02,860
+Breakouts occur in all types of market environments.
+
+131
+00:10:02,860 --> 00:10:09,240
+Typically, the most explosive price movements
+are a result of channel breakouts and price
+
+132
+00:10:09,240 --> 00:10:12,320
+pattern breakout.
+
+133
+00:10:12,320 --> 00:10:18,149
+So when there is lots of separation between
+the GMMAs, this helps confirm the price trend
+
+134
+00:10:18,149 --> 00:10:20,540
+in the current direction.
+
+135
+00:10:20,540 --> 00:10:26,230
+Look for agreement between the short term
+and long term moving averages and pay attention
+
+136
+00:10:26,230 --> 00:10:30,800
+to chart formations such as channels, triangles,
+and flags.
+
+137
+00:10:30,800 --> 00:10:36,750
+Whether you use intraday, daily or weekly
+charts, the concepts are universal.
+
+138
+00:10:36,750 --> 00:10:41,800
+You can apply this strategy to day trading,
+swing trading or any style of trading.
+
+139
+00:10:41,800 --> 00:10:47,040
+Once you spot a clear trade setup in your
+desired time frame, remember to set the stop
+
+140
+00:10:47,040 --> 00:10:51,490
+loss just above or below short term moving
+averages.
+
+141
+00:10:51,490 --> 00:10:57,810
+Or, if you want more room, decrease your lot
+sizes and place it below or above the longer
+
+142
+00:10:57,810 --> 00:11:00,250
+term moving averages.
+
+143
+00:11:00,250 --> 00:11:06,339
+Although a simple indicator, the GMMA can
+offer valuable insight to any momentum or
+
+144
+00:11:06,339 --> 00:11:07,790
+swing trader.
+
+145
+00:11:07,790 --> 00:11:14,839
+Guppy is a standalone trading strategy; however,
+i have found the greatest returns when combining
+
+146
+00:11:14,839 --> 00:11:20,830
+Guppy with price action, because price action
+addresses periods of consolidation, where
+
+147
+00:11:20,830 --> 00:11:23,790
+Guppy tends to underperform.
+
+148
+00:11:23,790 --> 00:11:29,089
+So always try to maximize your chances of
+a great trade by confirming your bias with
+
+149
+00:11:29,089 --> 00:11:31,089
+other tools.
+
+150
+00:11:31,089 --> 00:11:36,089
+If you learned something new and found value,
+leave us a like to show your support and don’t
+
+151
+00:11:36,089 --> 00:11:41,130
+forget to subscribe and hit the bell icon
+to stay in touch with new uploads.
+
+152
+00:11:41,130 --> 00:11:41,600
+Until next time.
+

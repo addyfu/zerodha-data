@@ -1,0 +1,619 @@
+1
+00:00:00,120 --> 00:00:05,520
+If you stay, I’ll teach you the best swing 
+trading strategies that work on any market,  
+
+2
+00:00:05,520 --> 00:00:08,360
+whether it’s Forex, stocks or crypto.
+ 
+Monthly pivot 
+
+3
+00:00:08,360 --> 00:00:14,000
+The first strategy involves the monthly pivots, 
+which are the secret weapon of swing trading. 
+
+4
+00:00:14,000 --> 00:00:18,760
+They are based on the previous month's 
+high, low, and close, and will give you  
+
+5
+00:00:18,760 --> 00:00:24,720
+a rough idea of where the market might find 
+support & resistance in the coming weeks.
+  
+
+6
+00:00:24,720 --> 00:00:30,120
+Monthly pivots are like the big boss of 
+support and resistance levels. They carry  
+
+7
+00:00:30,120 --> 00:00:35,520
+a lot more weight than your average daily pivot.
+That’s because they represent a whole month's  
+
+8
+00:00:35,520 --> 00:00:39,160
+worth of price action, not 
+just a snapshot in time. 
+  
+
+9
+00:00:39,160 --> 00:00:43,800
+This levels acts as a magnet, attracting 
+the price on higher time frames. 
+
+10
+00:00:43,800 --> 00:00:49,040
+The big market players are watching these levels, 
+and when the price interacts with a monthly pivot,  
+
+11
+00:00:49,040 --> 00:00:54,760
+it can trigger some serious fireworks.
+ 
+The more time the price spends above the pivot,  
+
+12
+00:00:54,760 --> 00:01:00,720
+the more reliable it becomes as a support level.
+And, the more time the price spends below  
+
+13
+00:01:00,720 --> 00:01:05,680
+the pivot, the more reliable it 
+becomes as a resistance level.
+  
+
+14
+00:01:05,680 --> 00:01:12,080
+The strategy here is to look for confluences 
+between the monthly pivot and supply/demand areas. 
+
+15
+00:01:12,080 --> 00:01:17,680
+It doesn't happen every day, but when it 
+does, it can be a sign of something special!
+  
+
+16
+00:01:17,680 --> 00:01:22,200
+Let's say you're looking at a chart and you 
+notice that the price is approaching a key  
+
+17
+00:01:22,200 --> 00:01:28,920
+demand area that lines up with a monthly pivot.
+That's a confluence perfect for a swing trade. 
+  
+
+18
+00:01:28,920 --> 00:01:34,080
+If the price bounces off that area, it could 
+be the start of a beautiful uptrend that you  
+
+19
+00:01:34,080 --> 00:01:39,120
+can ride for weeks or even months.
+ 
+On the flip side, if you see the  
+
+20
+00:01:39,120 --> 00:01:44,520
+price approaching a major supply area 
+that coincides with the monthly pivot,  
+
+21
+00:01:44,520 --> 00:01:48,680
+it could be a sign that the buyers 
+are about to run out of steam. 
+  
+
+22
+00:01:48,680 --> 00:01:55,480
+If the price gets rejected at that level, it might 
+be time to start hunting for short opportunities.
+ 
+
+23
+00:01:55,480 --> 00:02:00,480
+Of course, these confluences between 
+monthly pivots and supply/demand areas  
+
+24
+00:02:00,480 --> 00:02:05,840
+aren't the only thing you should be looking for.
+You'll also want to keep an eye on candlestick  
+
+25
+00:02:05,840 --> 00:02:12,400
+patterns, like pin bars and engulfing bars.
+When you find a candlestick with a long wick,  
+
+26
+00:02:12,400 --> 00:02:16,560
+rejecting the monthly pivot, 
+that’s a really good signal.
+  
+
+27
+00:02:16,560 --> 00:02:21,440
+Now, what if the price blows right 
+through the monthly pivot. It will happen,  
+
+28
+00:02:21,440 --> 00:02:25,760
+because no level is unbreakable, and 
+sometimes the market will just keep  
+
+29
+00:02:25,760 --> 00:02:31,680
+moving with momentum, even on higher time frames.
+ 
+Even if the price does break through the monthly  
+
+30
+00:02:31,680 --> 00:02:38,000
+pivot, it can still give you valuable information 
+about the strength and direction of the trend. 
+
+31
+00:02:38,000 --> 00:02:42,720
+For example, if the price breaks above 
+the monthly pivot, it could be a sign  
+
+32
+00:02:42,720 --> 00:02:48,080
+that the buyers are in control and that 
+the trend has momentum to continue. 
+
+33
+00:02:48,080 --> 00:02:52,680
+The pivot that once acted as 
+resistance now becomes a new support,  
+
+34
+00:02:52,680 --> 00:02:58,560
+helping the price to reach new heights!
+ 
+On the other hand, if the price breaks below the  
+
+35
+00:02:58,560 --> 00:03:05,040
+monthly pivot and starts to accelerate, it might 
+be time to start looking for short opportunities. 
+
+36
+00:03:05,040 --> 00:03:09,920
+The sellers have taken control of the market, 
+and they'll do everything in their power to  
+
+37
+00:03:09,920 --> 00:03:16,040
+keep the price from rising back above the pivot.
+Now the pivot has become a resistance, pushing the  
+
+38
+00:03:16,040 --> 00:03:19,280
+price down when it tries to break through.
+ 
+ 
+3 BB
+
+39
+00:03:19,280 --> 00:03:24,280
+The second swing trading strategy 
+involves using Bollinger Bands indicator. 
+
+40
+00:03:24,280 --> 00:03:29,440
+It might look a bit strange at first, because 
+you're going to use three Bollinger Bands.
+  
+
+41
+00:03:29,440 --> 00:03:35,400
+First add Bollinger Band with a Period 
+of 50 and a Standard Deviation of 1.
+  
+
+42
+00:03:35,400 --> 00:03:41,520
+Then add the Second Bollinger Band with a 
+Period of 50 and a Standard Deviation of 2.
+  
+
+43
+00:03:41,520 --> 00:03:47,480
+The Third Bollinger Band will have a Period 
+of 50 and a Standard Deviation of 3.
+ 
+  
+
+44
+00:03:47,480 --> 00:03:54,320
+With this setup, the trend is pretty clear to see.
+Let’s consider an uptrend, with different stages. 
+
+45
+00:03:54,320 --> 00:04:01,200
+When price is between the middle line, the 50 E 
+MA, and the first band, that's a weak uptrend.
+  
+
+46
+00:04:01,200 --> 00:04:07,320
+In this area, there's no strong momentum. 
+Price is likely to bounce around in a range  
+
+47
+00:04:07,320 --> 00:04:12,760
+and might even dip below the middle line.
+You can buy in this area, but only if you  
+
+48
+00:04:12,760 --> 00:04:17,280
+have other factors lining up. 
+ 
+When price is between the first  
+
+49
+00:04:17,280 --> 00:04:23,040
+and second Bollinger Bands above the 
+50 E MA, that's a strong uptrend. 
+
+50
+00:04:23,040 --> 00:04:26,800
+There's a better chance that 
+price will keep going up.
+  
+
+51
+00:04:26,800 --> 00:04:32,680
+As long as candles keep closing in this buy 
+zone, the odds are in favor of holding current  
+
+52
+00:04:32,680 --> 00:04:38,880
+long positions or even opening new ones.
+ 
+When price is between the second and third  
+
+53
+00:04:38,880 --> 00:04:43,800
+Bollinger Bands, above the middle 
+line, that's a very strong uptrend. 
+
+54
+00:04:43,800 --> 00:04:49,440
+Price is stretched and I would avoid 
+buying if price goes outside the bands.
+  
+
+55
+00:04:49,440 --> 00:04:54,800
+Looking for overlaps of major support and 
+resistance levels with Bollinger Bands is  
+
+56
+00:04:54,800 --> 00:04:59,760
+a great way to find swing trading setups.
+These confluence areas tend to attract  
+
+57
+00:04:59,760 --> 00:05:05,120
+more buyers or sellers, leading to 
+a reversal or a trend continuation. 
+
+58
+00:05:05,120 --> 00:05:09,840
+With this confluence, you're basically 
+finding pullbacks in a strong trend.
+  
+
+59
+00:05:09,840 --> 00:05:15,360
+When a market is in an uptrend (meaning price is 
+above the middle Bollinger Band) and you find a  
+
+60
+00:05:15,360 --> 00:05:21,880
+confluence between a recent support or resistance 
+level and one of the standard deviation bands,  
+
+61
+00:05:21,880 --> 00:05:27,920
+you can trade a bounce off that area.
+ 
+On the flip side, when price is in a downtrend  
+
+62
+00:05:27,920 --> 00:05:33,920
+(below the middle band) and a recent support or 
+resistance lines up with one of the lower bands,  
+
+63
+00:05:33,920 --> 00:05:40,600
+a decent pullback trade might be setting up.
+ 
+Looking at this chart, it's obvious how much price  
+
+64
+00:05:40,600 --> 00:05:47,400
+respects the bands. Even when price was below the 
+middle band, it found support at the lower bands.
+
+65
+00:05:47,400 --> 00:05:53,360
+And here, price broke above the middle band and 
+also broke this resistance level, which could  
+
+66
+00:05:53,360 --> 00:05:57,720
+potentially now act as support. 
+ 
+Here's our value area. 
+
+67
+00:05:57,720 --> 00:06:03,240
+The first band above the middle line and 
+this level are lining up at the same point. 
+
+68
+00:06:03,240 --> 00:06:09,600
+This is a solid trend continuation opportunity.
+ 
+Finding profit targets is very easy. You just  
+
+69
+00:06:09,600 --> 00:06:13,960
+aim for the next bands. The first 
+take profit is at the second band,  
+
+70
+00:06:13,960 --> 00:06:19,920
+and the next target is the last band.
+ 
+As a tip, always expect momentum to slow  
+
+71
+00:06:19,920 --> 00:06:25,000
+down when price reaches the next set of 
+bands. That’s why it’s best to take some  
+
+72
+00:06:25,000 --> 00:06:27,960
+of your profits at these levels.
+ 
+ 
+21 EMA channel at round numbers
+
+73
+00:06:27,960 --> 00:06:33,160
+The third swing trading strategy involves 
+taking advantage of round numbers. And we’ll  
+
+74
+00:06:33,160 --> 00:06:39,360
+confirm the signals using 2 moving averages.
+ 
+First, you plot two 50-period Exponential Moving  
+
+75
+00:06:39,360 --> 00:06:47,000
+Averages on your chart - one applied to the 
+high price and the other to the low price. 
+  
+
+76
+00:06:47,000 --> 00:06:51,320
+These lines will act like dynamic 
+support and resistance levels.
+  
+
+77
+00:06:51,320 --> 00:06:56,920
+The beauty of this channel lies in its simplicity.
+When the price is trading above the channel, it's  
+
+78
+00:06:56,920 --> 00:07:03,600
+a bullish signal, suggesting that the trend is up, 
+and it's time to look for buying opportunities. 
+
+79
+00:07:03,600 --> 00:07:08,960
+When the price is below the channel, it's a 
+bearish signal, indicating that the trend is  
+
+80
+00:07:08,960 --> 00:07:14,160
+down and it's time to consider selling.
+ 
+When you combine this channel with the  
+
+81
+00:07:14,160 --> 00:07:19,880
+psychological significance of round numbers, 
+you've got a really good swing trading strategy. 
+
+82
+00:07:19,880 --> 00:07:26,520
+Round numbers are those big, juicy price 
+levels that end in double or triple zeros. 
+  
+
+83
+00:07:26,520 --> 00:07:32,840
+These levels hold a special place in the minds of 
+traders, often acting as key areas of interest. 
+
+84
+00:07:32,840 --> 00:07:39,040
+Round numbers are not just some arbitrary figures 
+on a chart. They are psychological anchors and  
+
+85
+00:07:39,040 --> 00:07:42,800
+catalysts for market movements.
+ 
+There's a deep psychological  
+
+86
+00:07:42,800 --> 00:07:47,800
+aspect to round numbers that makes them so 
+powerful. We are naturally drawn to whole numbers,  
+
+87
+00:07:47,800 --> 00:07:53,320
+and we tend to assign more significance to them.
+When the price approaches a round number,  
+
+88
+00:07:53,320 --> 00:07:59,480
+it's like a magnet, drawing in all sorts of 
+attention and potential trading activity.
+  
+
+89
+00:07:59,480 --> 00:08:03,000
+Here’s how you find signals.
+First, you look at the moving  
+
+90
+00:08:03,000 --> 00:08:08,080
+average channel to determine whether the 
+market is in an uptrend or a downtrend. 
+
+91
+00:08:08,080 --> 00:08:13,120
+Then you locate the closest round numbers 
+that the price is approaching. This will  
+
+92
+00:08:13,120 --> 00:08:17,080
+be your key levels to watch.
+ 
+If the price is in an uptrend,  
+
+93
+00:08:17,080 --> 00:08:21,880
+supported by the moving averages, and 
+approaching a round number from below,  
+
+94
+00:08:21,880 --> 00:08:28,040
+you look to buy a breakout ABOVE the level. 
+ 
+If the price is in a downtrend and approaching  
+
+95
+00:08:28,040 --> 00:08:35,200
+a round number from above, you look to sell 
+a breakout BELOW the psychological level.
+ 
+  
+
+96
+00:08:35,200 --> 00:08:40,560
+This channel acts a as a trampoline. When 
+the price breaks it and then returns to hit  
+
+97
+00:08:40,560 --> 00:08:47,560
+the upper or lower EMA, it's like a test bounce.
+If the channel holds and the price bounces off it,  
+
+98
+00:08:47,560 --> 00:08:51,080
+it's a confirmation that the 
+channel is indeed valid.
+  
+
+99
+00:08:51,080 --> 00:08:55,000
+This first bounce is crucial because 
+it validates the channel as a  
+
+100
+00:08:55,000 --> 00:09:00,360
+significant level of support or resistance.
+When you have an initial bounce, be ready to  
+
+101
+00:09:00,360 --> 00:09:06,680
+trade the next bounces, near round numbers.
+ 
+So very important: an initial rejection of  
+
+102
+00:09:06,680 --> 00:09:10,760
+the channel is a good sign that the 
+channel is holding firm and that the  
+
+103
+00:09:10,760 --> 00:09:17,240
+price is likely to respect it in the future.
+This second or third bounce is like a green light,  
+
+104
+00:09:17,240 --> 00:09:21,820
+signaling that it's time to pay attention 
+and prepare for a potential trade.
+  
+
+105
+00:09:21,820 --> 00:09:26,240
+Here another crucial tip. When the 
+price is caught inside the channel  
+
+106
+00:09:26,240 --> 00:09:32,760
+for more than three candles, and is located 
+near a round number, avoid taking a trade. 
+
+107
+00:09:32,760 --> 00:09:38,560
+In this situation, the market is experiencing 
+consolidation. It's a time of uncertainty,  
+
+108
+00:09:38,560 --> 00:09:43,680
+where the price is searching for 
+direction, inside the 2 EMAs. 
+  
+
+109
+00:09:43,680 --> 00:09:47,800
+Trying to trade during this period 
+is like trying to predict the outcome  
+
+110
+00:09:47,800 --> 00:09:52,960
+of a coin toss, it's like a gamble.
+So, when the price is trapped inside  
+
+111
+00:09:52,960 --> 00:10:00,640
+the channel for more than three candles, simply 
+stay on the sidelines and wait for clarity. 
+  
+
+112
+00:10:00,640 --> 00:10:05,560
+You want to see an immediate reaction around 
+the channel, a quick rejection of the area,  
+
+113
+00:10:05,560 --> 00:10:08,360
+like in this example.
+Now, if you want to  
+
+114
+00:10:08,360 --> 00:10:21,600
+learn other trading techniques, you 
+definitely must watch our next videos.
+

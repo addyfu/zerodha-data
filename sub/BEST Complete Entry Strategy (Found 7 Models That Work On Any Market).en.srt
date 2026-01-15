@@ -1,0 +1,1085 @@
+1
+00:00:00,240 --> 00:00:07,200
+Your entry timing could be the weakest link in 
+your plan, but you can fix this easily. Here are  
+
+2
+00:00:07,200 --> 00:00:15,120
+some proven entry models that work no matter the 
+market or strategy. Engulfing candles at supply  
+
+3
+00:00:15,120 --> 00:00:22,560
+or demand levels work because they show you what 
+matters. Control. Price moves to a key level, then  
+
+4
+00:00:22,560 --> 00:00:29,440
+prints a candle that fully covers the previous 
+bar. For a bullish entry, a big green candle  
+
+5
+00:00:29,440 --> 00:00:37,200
+eats a red one. For a bearish entry, a big red 
+candle swallows a green one. This shows a shift in  
+
+6
+00:00:37,200 --> 00:00:45,360
+control. So, why does this entry model work? It's 
+simple. Markets move because buyers and sellers  
+
+7
+00:00:45,360 --> 00:00:52,320
+fight for control. When price hits a supply or 
+demand level, everyone watches, waiting for a side  
+
+8
+00:00:52,320 --> 00:00:59,600
+to get on top. The engulfing candle answers that 
+question in real time. In a bullish engulfing,  
+
+9
+00:00:59,600 --> 00:01:06,400
+the green candle tells you buyers didn't just show 
+up. They overpowered the sellers and erased all  
+
+10
+00:01:06,400 --> 00:01:14,640
+the selling from the last candle and more. Also, a 
+supply or demand level isn't just a random price.  
+
+11
+00:01:14,640 --> 00:01:21,440
+It's where lots of trades happened before. It's 
+where people expect a fight. So when an engulfing  
+
+12
+00:01:21,440 --> 00:01:27,360
+candle forms there, you're not just seeing a 
+candle, you're seeing the outcome of all that  
+
+13
+00:01:27,360 --> 00:01:34,560
+pressure. The sellers in this case didn't just 
+win. They crushed the other side and made it clear  
+
+14
+00:01:34,560 --> 00:01:41,280
+who's driving now. This entry works because it's 
+based on what's happening right now. You don't  
+
+15
+00:01:41,280 --> 00:01:48,640
+need to predict. You just react. When the candle 
+closes, you enter your trade. That's your signal.  
+
+16
+00:01:48,640 --> 00:01:54,400
+You're not jumping in early. You're not chasing. 
+You're waiting for proof that the shift already  
+
+17
+00:01:54,400 --> 00:02:01,600
+happened. Waiting for the close of the engulfing 
+candle is important. This keeps things simple. You  
+
+18
+00:02:01,600 --> 00:02:07,840
+don't have to scroll through lower time frames or 
+set up complicated triggers. You just wait for the  
+
+19
+00:02:07,840 --> 00:02:14,880
+candle to finish. If it's a bullish engulfing, you 
+buy at the close. If it's bearish, you sell at the  
+
+20
+00:02:14,880 --> 00:02:21,920
+close. This entry method also gives you a clear 
+place to set your stop. The low of the engulfing  
+
+21
+00:02:21,920 --> 00:02:29,760
+candle for longs and a high for shorts. The beauty 
+of this entry model is its simplicity. You aren't  
+
+22
+00:02:29,760 --> 00:02:36,640
+lost in a sea of lines or setups. You watch for 
+price to test the level, see who wins, and act on  
+
+23
+00:02:36,640 --> 00:02:43,360
+the proof. The engulfing candle is your go signal. 
+This keeps you from chasing moves or getting  
+
+24
+00:02:43,360 --> 00:02:51,040
+caught in weak levels. Support and resistance flip 
+is one of the simplest, clearest, most dependable  
+
+25
+00:02:51,040 --> 00:02:57,840
+entry models you'll ever see. It's about seeing 
+the moment when the crowd changes its mind. So,  
+
+26
+00:02:57,840 --> 00:03:04,400
+picture what happens in a strong uptrend. Price 
+keeps pushing higher and reaches a resistance  
+
+27
+00:03:04,400 --> 00:03:11,920
+area. Sellers try to stop the move here. You may 
+see price bounce down a few times, but each bounce  
+
+28
+00:03:11,920 --> 00:03:18,800
+is weaker. Then price finally breaks through 
+resistance and after the breakout price doesn't  
+
+29
+00:03:18,800 --> 00:03:26,000
+just run non-stop. It often pulls back. The same 
+thing happens in reverse in a downtrend. Price  
+
+30
+00:03:26,000 --> 00:03:32,640
+falls through a support level and sellers win. 
+Price keeps dropping but then curls back up to  
+
+31
+00:03:32,640 --> 00:03:40,240
+test the same area. And now the old support acts 
+like a ceiling. But why does this flip work? It's  
+
+32
+00:03:40,240 --> 00:03:47,280
+about how traders get trapped and how big players 
+fill their orders. When price breaks out, many  
+
+33
+00:03:47,280 --> 00:03:54,560
+traders are watching the old resistance. Some sold 
+short there. Others waited to buy until after the  
+
+34
+00:03:54,560 --> 00:04:01,360
+breakout. When price pulls back, those who sold 
+want to get out with a small loss, so they buy  
+
+35
+00:04:01,360 --> 00:04:08,880
+back at the new support. New buyers who missed the 
+breakout also enter on the pullback. Big traders  
+
+36
+00:04:08,880 --> 00:04:16,000
+use this spot to fill large buy orders without 
+moving the price too much. The flip is where old  
+
+37
+00:04:16,000 --> 00:04:23,040
+sellers turn into new buyers. It's the same for 
+support turning into resistance. Old buyers flip  
+
+38
+00:04:23,040 --> 00:04:29,680
+to sellers. You want to enter at the flip, not at 
+the first breakout. You know that breakouts can  
+
+39
+00:04:29,680 --> 00:04:36,400
+be tricky. They often fail with price snapping 
+back into the range and trapping traders. But  
+
+40
+00:04:36,400 --> 00:04:43,360
+when price breaks out, pulls back and holds at 
+the flip, you see real strength. The market is  
+
+41
+00:04:43,360 --> 00:04:50,800
+showing which side is in control. This is your 
+entry spot. And a real flip zone is usually wide,  
+
+42
+00:04:50,800 --> 00:04:57,680
+not a thin line. The reality is that markets are 
+messy. Sometimes price will poke just past the  
+
+43
+00:04:57,680 --> 00:05:05,440
+level, then turn. Sometimes it will fall short. 
+So draw your support and resistance as bands,  
+
+44
+00:05:05,440 --> 00:05:12,320
+not razor thin lines. This helps you see where the 
+action really is. If you wait for a perfect touch  
+
+45
+00:05:12,320 --> 00:05:19,440
+every time, you'll miss the best trades. The first 
+retest is usually the strongest. After the initial  
+
+46
+00:05:19,440 --> 00:05:25,760
+breakout, the first time price comes back to test 
+the flipped level, the reaction is often fast and  
+
+47
+00:05:25,760 --> 00:05:33,280
+clear. Later retest can still work, but the edge 
+is strongest on the first or second touch. The  
+
+48
+00:05:33,280 --> 00:05:39,600
+more times a level gets tested, the weaker it 
+becomes. The more obvious the level, the more  
+
+49
+00:05:39,600 --> 00:05:46,800
+traders are watching and the stronger the reaction 
+when the flip happens. First pullback after a  
+
+50
+00:05:46,800 --> 00:05:53,120
+market structure shift is another proven and 
+effective entry. Imagine you spot price going down  
+
+51
+00:05:53,120 --> 00:06:01,760
+for days. Suddenly it flips. It breaks a recent 
+high, showing buyers finally took control. That's  
+
+52
+00:06:01,760 --> 00:06:08,640
+a market structure shift. Most new traders rush 
+in right there, scared to miss the move. But the  
+
+53
+00:06:08,640 --> 00:06:15,840
+first move after a shift is often wild and sharp. 
+It's full of traders bailing out of all trades,  
+
+54
+00:06:15,840 --> 00:06:22,480
+stops triggering, and late chasers piling in. If 
+you enter right at the shift, you risk getting  
+
+55
+00:06:22,480 --> 00:06:29,600
+caught in this mess. The smarter way is to wait 
+for the first pullback. After that shift, price  
+
+56
+00:06:29,600 --> 00:06:36,960
+makes its first move in the new direction, then 
+pauses or retraces, maybe to a moving average,  
+
+57
+00:06:36,960 --> 00:06:43,600
+maybe to a previous level. You don't jump in 
+during the noise. You wait for price to slow down,  
+
+58
+00:06:43,600 --> 00:06:51,120
+pull back, and then show it's ready to run again. 
+Enter as soon as you see buyers or sellers step  
+
+59
+00:06:51,120 --> 00:06:58,960
+back in. and price rums the new trend. This way 
+you're not guessing. You're following proof.  
+
+60
+00:06:58,960 --> 00:07:05,280
+The market reality is that trends don't go in 
+straight lines. After every strong move, you'll  
+
+61
+00:07:05,280 --> 00:07:13,520
+see a counter move, a pullback. In this case, that 
+means a short drop as traders take profits or late  
+
+62
+00:07:13,520 --> 00:07:19,360
+sellers try to fight back. But these pullbacks 
+are weaker than the main move. They don't have  
+
+63
+00:07:19,360 --> 00:07:26,480
+the power to reverse the trend. Instead, they 
+stall out. The stronger trend steps back in and  
+
+64
+00:07:26,480 --> 00:07:33,200
+price continues. When you trade the first pullback 
+after a market structure shift, you're getting in  
+
+65
+00:07:33,200 --> 00:07:40,640
+after the dust settles. The wild emotional part 
+of the reversal is over. Now the market is showing  
+
+66
+00:07:40,640 --> 00:07:47,920
+its real direction. You get a clean entry with 
+the trend, not against it. Again, let's break  
+
+67
+00:07:47,920 --> 00:07:55,040
+down the entry. Price drops for days, makes a new 
+higher high. Instead of buying right there, you  
+
+68
+00:07:55,040 --> 00:08:02,720
+wait. Price pulls back to a demand zone. You watch 
+for signs that selling is drying up, like smaller  
+
+69
+00:08:02,720 --> 00:08:10,720
+candles, lower volume, or even a reversal bar. As 
+soon as price pushes back up, resuming the trend,  
+
+70
+00:08:10,720 --> 00:08:18,240
+you buy. Your stop goes below the pullback low. 
+You're in the new trend, but not chasing. This  
+
+71
+00:08:18,240 --> 00:08:24,880
+entry method keeps you out of trouble. Right after 
+a market shift, things get choppy. The first push  
+
+72
+00:08:24,880 --> 00:08:31,440
+in the new direction is often fast and can snap 
+back just as quick. If you buy the breakout or  
+
+73
+00:08:31,440 --> 00:08:37,440
+sell the breakdown, you risk getting trapped when 
+price pulls back. The first pullback gives you a  
+
+74
+00:08:37,440 --> 00:08:44,000
+second chance, an entry with less risk and less 
+noise. Trading the first pullback gives you a  
+
+75
+00:08:44,000 --> 00:08:51,120
+better risk-to-reward setup. Your stop is close, 
+just under the pullback low for longs and just  
+
+76
+00:08:51,120 --> 00:08:58,400
+above the pullback high for shorts. Your target 
+is the next swing high or low or even further if  
+
+77
+00:08:58,400 --> 00:09:04,720
+the trend keeps running because you enter after 
+some profit taking or counter trend action. You  
+
+78
+00:09:04,720 --> 00:09:12,080
+often get a cheaper price. You're buying low 
+in an uptrend or selling high in a downtrend.  
+
+79
+00:09:12,080 --> 00:09:19,280
+The first pullback after a shift repeats itself 
+because price always moves in waves. People buy,  
+
+80
+00:09:19,280 --> 00:09:26,640
+take profit, price pulls back, then the next move 
+starts. The next entry model involves liquidity  
+
+81
+00:09:26,640 --> 00:09:33,680
+grabs against the main trend. So, picture a 
+strong uptrend. Price keeps making higher highs  
+
+82
+00:09:33,680 --> 00:09:41,680
+and higher lows. Everyone sees it. Traders want 
+in. They chase price buying late and footing their  
+
+83
+00:09:41,680 --> 00:09:49,440
+stops just below the last swing low or the nearest 
+support. Now think about the big traders, the ones  
+
+84
+00:09:49,440 --> 00:09:56,240
+who need a lot of volume to buy. They can't just 
+buy at any price. If they do, they drive the price  
+
+85
+00:09:56,240 --> 00:10:03,360
+up before they get enough filled. So they hunt for 
+liquidity. Liquidity is where lots of orders wait  
+
+86
+00:10:03,360 --> 00:10:10,080
+to be triggered. in an uptrend. Think of all those 
+stop- losses sitting just under the last low.  
+
+87
+00:10:10,080 --> 00:10:17,120
+That's a pool of sell orders. When price drops 
+into that zone, those stops fire off and sellers  
+
+88
+00:10:17,120 --> 00:10:24,320
+rush in. For the big buyers, this is perfect. They 
+want to buy and now there's a flood of sell orders  
+
+89
+00:10:24,320 --> 00:10:31,840
+to buy from. This is the liquidity grab. Price 
+dips under support, grabs all those stops, fills  
+
+90
+00:10:31,840 --> 00:10:38,560
+the big buy orders, and then rockets back up. 
+The trend keeps going. The weak hands are gone,  
+
+91
+00:10:38,560 --> 00:10:46,000
+and the big traders are in. That's the setup. 
+So, why does this entry work so well? It's all  
+
+92
+00:10:46,000 --> 00:10:52,400
+about how the market actually moves. Most retail 
+traders want to buy when price is running up,  
+
+93
+00:10:52,400 --> 00:10:59,040
+but that's the worst time to buy. You risk buying 
+the very top just as price is about to pull back.  
+
+94
+00:10:59,040 --> 00:11:05,280
+The liquidity grab flips this around. You don't 
+buy the top. You wait for a sharp drop against  
+
+95
+00:11:05,280 --> 00:11:12,240
+the trend right into the place where everyone 
+else's stops will trigger. That drop is the grab.  
+
+96
+00:11:12,240 --> 00:11:19,200
+It scares out traders who bought late and set 
+their stops too close. When they get stopped out,  
+
+97
+00:11:19,200 --> 00:11:25,520
+their sell orders fill the big buyer's orders. 
+Once the selling is done, there's no one left to  
+
+98
+00:11:25,520 --> 00:11:33,840
+sell. Price snaps back up and the trend continues. 
+The entry is simple, but it needs patience. You  
+
+99
+00:11:33,840 --> 00:11:41,040
+wait for price to drop below a recent low in an 
+uptrend or above a recent high in a downtrend.  
+
+100
+00:11:41,040 --> 00:11:47,920
+You know, that's where liquidity pools sit. You 
+want to see a quick flush, price slices through,  
+
+101
+00:11:47,920 --> 00:11:54,880
+then price snaps right back up. That's your 
+signal. You enter as soon as price comes back  
+
+102
+00:11:54,880 --> 00:12:02,400
+above the broken support or as soon as the candle 
+closes back inside the range. Your stop goes just  
+
+103
+00:12:02,400 --> 00:12:09,360
+below the liquidity grab low. You catch the move 
+right as the trend resumes, not after it's already  
+
+104
+00:12:09,360 --> 00:12:16,480
+run far away. This entry keeps you out of trouble. 
+Instead of chasing, you wait for price to come to  
+
+105
+00:12:16,480 --> 00:12:22,880
+you. You don't get caught buying the top. You 
+don't panic and sell when price flushes down.  
+
+106
+00:12:22,880 --> 00:12:30,640
+You know the grab is most likely a trick. A move 
+to shake out weak hands and fill big orders. One  
+
+107
+00:12:30,640 --> 00:12:36,800
+big advantage of this entry model is that you get 
+great prices. You're buying near the bottom of the  
+
+108
+00:12:36,800 --> 00:12:44,320
+drop, not the top of the run. This means your stop 
+is tight. You can put it as below the grab. Your  
+
+109
+00:12:44,320 --> 00:12:52,240
+risk is small and your reward is big if the trend 
+keeps going. Opening range breakout is a good  
+
+110
+00:12:52,240 --> 00:12:59,040
+entry model for fast trades. It takes the chaos of 
+the morning and turns it into a simple actionable  
+
+111
+00:12:59,040 --> 00:13:06,000
+plan. Every morning, markets wake up with a bank. 
+There's a rush of orders, leftover trades from the  
+
+112
+00:13:06,000 --> 00:13:13,600
+night before, and new bets for the day ahead. And 
+this chaos sets up one of the simplest, sharpest  
+
+113
+00:13:13,600 --> 00:13:20,080
+entries you can use, the opening range breakout. 
+You start by watching the first stretch after the  
+
+114
+00:13:20,080 --> 00:13:27,680
+open, maybe 5, 15, or 30 minutes. You mark the 
+highest point and the lowest point price reaches  
+
+115
+00:13:27,680 --> 00:13:35,520
+in that window. That's your opening range. It's 
+like drawing two lines on a field. Above is buyers  
+
+116
+00:13:35,520 --> 00:13:42,800
+win. Below is sellers win. But you don't trade 
+yet. You wait. The market is in a fight and you  
+
+117
+00:13:42,800 --> 00:13:50,720
+want to see who wins. Once the opening range is 
+set, you watch for a clean break above or below. A  
+
+118
+00:13:50,720 --> 00:13:57,200
+breakout tells you that one side just overpowered 
+the other. If price breaks decisively above the  
+
+119
+00:13:57,200 --> 00:14:04,960
+range, buyers win. If price breaks below, sellers 
+take control. The breakout isn't just a random  
+
+120
+00:14:04,960 --> 00:14:10,880
+move. It's often the start of a strong trend for 
+the rest of the day. That's why you enter with a  
+
+121
+00:14:10,880 --> 00:14:17,760
+break, riding the momentum right as it starts. 
+The entry itself is simple. Set your lines at  
+
+122
+00:14:17,760 --> 00:14:24,640
+the high and low of the opening period. As soon 
+as price breaks out and trades in the new zone,  
+
+123
+00:14:24,640 --> 00:14:31,920
+you enter in that direction. You're in right at 
+the start of the move when momentum is strongest.  
+
+124
+00:14:31,920 --> 00:14:38,240
+One big advantage, the opening range breakout 
+gives you a clear mechanical entry. You know  
+
+125
+00:14:38,240 --> 00:14:45,120
+exactly where to act. The line is drawn and as 
+soon as price consolidates above or below it,  
+
+126
+00:14:45,120 --> 00:14:52,160
+you go. This keeps you from hesitating or 
+getting stuck in indecision. With a clean break,  
+
+127
+00:14:52,160 --> 00:14:58,320
+you get in early right as the crowd moves 
+together. Another edge, the opening range  
+
+128
+00:14:58,320 --> 00:15:04,240
+gives you built-in risk management. your stop 
+goes at the opposite side of the range. If you  
+
+129
+00:15:04,240 --> 00:15:10,240
+enter on a break above the high, your stop is 
+at the low. If you go short on a break below,  
+
+130
+00:15:10,240 --> 00:15:16,800
+your stop is at the high. This means your risk 
+is defined from the start. You know how much you  
+
+131
+00:15:16,800 --> 00:15:24,160
+could lose before you even enter. There are also 
+downsides. The biggest risk is the false breakout.  
+
+132
+00:15:24,160 --> 00:15:31,440
+Sometimes price pokes above the high or below the 
+low only to snap right back into the range. This  
+
+133
+00:15:31,440 --> 00:15:37,920
+fake out can trap you, forcing a quick loss. 
+That's why opening range breakouts don't work  
+
+134
+00:15:37,920 --> 00:15:45,200
+every single time. Some days you get trapped and 
+stopped out quickly. Another challenge, breakouts  
+
+135
+00:15:45,200 --> 00:15:52,240
+fail more often when the opening range is unclear 
+or choppy. If the first candles are wild and  
+
+136
+00:15:52,240 --> 00:15:59,200
+overlapping with no clear direction, you're more 
+likely to get faked out. On those days, it's  
+
+137
+00:15:59,200 --> 00:16:06,080
+better to skip the trade than force an entry. So, 
+only act when the range is clean and price action  
+
+138
+00:16:06,080 --> 00:16:13,600
+is decisive. Pivot point bounce is a classic 
+entry, one of my favorite models. You simply mark  
+
+139
+00:16:13,600 --> 00:16:21,040
+the main daily or weekly pivot levels. These lines 
+are not magic, but they matter. Price reacts to  
+
+140
+00:16:21,040 --> 00:16:28,640
+them again and again. That's because many traders, 
+big and small, watch the same levels. Their orders  
+
+141
+00:16:28,640 --> 00:16:35,520
+cluster there. That makes pivots like magnets, 
+pulling price in, then sometimes flipping it away  
+
+142
+00:16:35,520 --> 00:16:42,640
+fast. This entry model works because pivots show 
+where trades might pile up. When price moves into  
+
+143
+00:16:42,640 --> 00:16:50,160
+a pivot, it's like a test. Will it smash through 
+or bounce off? You don't try to guess before it  
+
+144
+00:16:50,160 --> 00:16:57,680
+happens. You wait for price to hit the pivot, 
+then watch for a reaction. If price wakes hard,  
+
+145
+00:16:57,680 --> 00:17:04,240
+prints a reversal bar, or bounces back with 
+energy, that's your signal. You enter in the  
+
+146
+00:17:04,240 --> 00:17:10,800
+direction of the move away from the pivot. The 
+entry gets even better with the pivot's direction.  
+
+147
+00:17:10,800 --> 00:17:17,600
+If today's main pivot sits above yesterday's, 
+it shows buyers control the market. You look for  
+
+148
+00:17:17,600 --> 00:17:25,120
+long trades, buy when price bounces up off the 
+pivot. If the pivot is lower than yesterday's,  
+
+149
+00:17:25,120 --> 00:17:32,320
+sellers have the edge. So, you look for shorts, 
+sell when price bounces down. This keeps you  
+
+150
+00:17:32,320 --> 00:17:39,040
+trading with the bigger trend, not against it. 
+This entry model gives you a clear plan. You know  
+
+151
+00:17:39,040 --> 00:17:45,920
+where to look. You know when to act. There's no 
+guesswork. The pivot keeps you focused. You avoid  
+
+152
+00:17:45,920 --> 00:17:53,120
+chasing price. You don't have to stare at dozens 
+of indicators. You just mark your pivots, wait for  
+
+153
+00:17:53,120 --> 00:18:00,720
+price to come to you, then watch for the reaction. 
+This model repeats day after day. Pivots give you  
+
+154
+00:18:00,720 --> 00:18:07,360
+built-in risk control. If you enter on a bounce, 
+your stop is close just on the other side of the  
+
+155
+00:18:07,360 --> 00:18:14,640
+pivot. that keeps your losses small. If you're 
+wrong, if the bounce holds, price can run far,  
+
+156
+00:18:14,640 --> 00:18:22,320
+giving you a strong reward compared to your risk. 
+This makes the setup clean and efficient. Timing  
+
+157
+00:18:22,320 --> 00:18:29,760
+also matters. Pivots work best when the market is 
+active, at the open, during big sessions, or when  
+
+158
+00:18:29,760 --> 00:18:37,600
+volume is strong. In slow times, the bounce can 
+be weak or fizzle out fast. So watching volume and  
+
+159
+00:18:37,600 --> 00:18:46,480
+timing helps you avoid weak trades. Snapback from 
+overextended move is a high-risk highreward entry.  
+
+160
+00:18:46,480 --> 00:18:54,000
+Price can run far in one direction, sometimes 
+too far. You see this in big moves that stretch  
+
+161
+00:18:54,000 --> 00:19:02,080
+past normal ranges, break out of channels or 
+push beyond VWAP bands. At some point it has  
+
+162
+00:19:02,080 --> 00:19:10,320
+to slow down or turn back. These are overextended 
+moves. When everyone chases the move, price often  
+
+163
+00:19:10,320 --> 00:19:17,440
+gets pushed way past what's normal. This is when 
+aggressive traders watch for a snapback. Now,  
+
+164
+00:19:17,440 --> 00:19:24,640
+why does this entry work well? Big moves attract 
+attention. Traders jump in hoping the momentum  
+
+165
+00:19:24,640 --> 00:19:31,200
+will keep going, but the more extended the move 
+gets, the more likely it is to snap back. There's  
+
+166
+00:19:31,200 --> 00:19:38,720
+a point where buyers or sellers get exhausted. No 
+one left to push price further. You see the signs,  
+
+167
+00:19:38,720 --> 00:19:47,360
+a reversal candle, a big wick, or a sudden spike 
+in volume. They show exhaustion. When price snaps  
+
+168
+00:19:47,360 --> 00:19:53,680
+back inside the band or channel range, that's 
+the entry. You're betting that price will return  
+
+169
+00:19:53,680 --> 00:20:01,360
+closer to its average, not keep running forever. 
+This is called mean reversion. Price usually moves  
+
+170
+00:20:01,360 --> 00:20:08,560
+around an average. When it goes too far from that 
+average, it often comes back. The snapback entry  
+
+171
+00:20:08,560 --> 00:20:15,120
+takes advantage of this. You wait for the crowd to 
+push price to the extreme, then enter when you see  
+
+172
+00:20:15,120 --> 00:20:22,160
+the first sign of reversal. The entry itself is 
+sharp. You don't guess where the top or bottom is.  
+
+173
+00:20:22,160 --> 00:20:29,840
+You watch for price to move far outside the normal 
+band, maybe outside a channel, past VWAP lines,  
+
+174
+00:20:29,840 --> 00:20:37,280
+or way above the average range. You wait for 
+exhaustion, a candle with a long wick and a sudden  
+
+175
+00:20:37,280 --> 00:20:44,640
+spike in volume. As soon as price snaps back 
+inside the band, you enter. Your stop goes just  
+
+176
+00:20:44,640 --> 00:20:52,560
+past the extreme. This setup works because markets 
+move in cycles. Big trends get overdone. When they  
+
+177
+00:20:52,560 --> 00:20:59,920
+stretch too far, the move becomes unstable. Weak 
+hands jump in late hoping for more. But smart  
+
+178
+00:20:59,920 --> 00:21:08,080
+traders know the risk is now high. Profit taking 
+or stop losses trigger and price snaps back fast.  
+
+179
+00:21:08,080 --> 00:21:14,880
+Because you enter close to the extreme, your stop 
+is tight. Your risk is small but your reward can  
+
+180
+00:21:14,880 --> 00:21:22,400
+be big if price returns to the average or further 
+because you enter close to the extreme. Your stop  
+
+181
+00:21:22,400 --> 00:21:30,480
+is tight. Your risk is small but your reward can 
+be big if price returns to the average or further.  
+
+182
+00:21:30,480 --> 00:21:37,040
+But this model isn't easy. The biggest risk is 
+trying to call the top or bottom too soon. A  
+
+183
+00:21:37,040 --> 00:21:43,760
+lot of times price will go further than you think, 
+blowing past your levels and stopping you out. And  
+
+184
+00:21:43,760 --> 00:21:50,720
+that's okay because this entry model works on high 
+reward ratios. Even if you catch one out of three  
+
+185
+00:21:50,720 --> 00:21:57,600
+reversals, you will still be in profit. This entry 
+is not for everyone. It's tailored for aggressive  
+
+186
+00:21:57,600 --> 00:22:04,400
+traders. You're going against the current trend, 
+stepping in as the crowd is still bushing. That  
+
+187
+00:22:04,400 --> 00:22:10,400
+takes nerve. There's always the chance the 
+move keeps going and you're caught fading a  
+
+188
+00:22:10,400 --> 00:22:17,440
+trend that isn't finished. That's why waiting 
+for clear exhaustion is key. Range expansion  
+
+189
+00:22:17,440 --> 00:22:24,560
+after compression is a sharp entry because it's 
+built on pure price action. Price moves in waves.  
+
+190
+00:22:24,560 --> 00:22:31,920
+Sometimes it runs fast and wild. Other times 
+it gets stuck moving in a tiny box. This is  
+
+191
+00:22:31,920 --> 00:22:39,360
+compression. The market is resting. And this is a 
+clue. Something big is coming. Compression shows  
+
+192
+00:22:39,360 --> 00:22:46,480
+up as a tight range, candles with small bodies, 
+and no one really winning. Buyers and sellers  
+
+193
+00:22:46,480 --> 00:22:54,240
+both wait. Volume drops and the chart goes quiet. 
+But underneath, pressure builds, orders stack up  
+
+194
+00:22:54,240 --> 00:23:01,520
+on both sides. Traders get bored, impatient, 
+or even trapped. The longer the compression,  
+
+195
+00:23:01,520 --> 00:23:08,800
+the bigger the pressure. You don't jump in during 
+this quiet period. Most trades fail here. Price  
+
+196
+00:23:08,800 --> 00:23:15,280
+chops sideways and fake outs happen. You let the 
+compression build. So, you mark the top and bottom  
+
+197
+00:23:15,280 --> 00:23:22,960
+of this zone. Now comes the entry. You wait for 
+the breakout. A big candle, strong volume. Price  
+
+198
+00:23:22,960 --> 00:23:29,920
+bursts out of the tight box. The expansion must 
+be sudden and sharp. This is the moment you enter,  
+
+199
+00:23:29,920 --> 00:23:36,880
+right as the market wakes up. Now, why does this 
+work? Compression is like a market inhale. The  
+
+200
+00:23:36,880 --> 00:23:43,840
+move after the range expansion is the exhale. 
+All the orders that built up during compression  
+
+201
+00:23:43,840 --> 00:23:51,840
+get triggered at once. Stops fire. Breakout 
+traders rush in. Trapped traders bail out. Volume  
+
+202
+00:23:51,840 --> 00:23:59,200
+explodes. The first move out of compression is 
+often the cleanest, fastest move. You catch that  
+
+203
+00:23:59,200 --> 00:24:07,040
+burst by entering right as price expands. This 
+setup works because it focuses on timing. Most  
+
+204
+00:24:07,040 --> 00:24:13,520
+traders get chopped up in noisy markets, entering 
+too soon or too late. Compression gives you a  
+
+205
+00:24:13,520 --> 00:24:21,040
+clear signal. The entry is simple. Mark the high 
+and low of the compression zone. As soon as price  
+
+206
+00:24:21,040 --> 00:24:27,840
+breaks out with a strong candle and increased 
+volume, you enter in the direction of the move.  
+
+207
+00:24:27,840 --> 00:24:34,160
+You're in right as the market shows its hand. 
+You get more than just a good entry. You get a  
+
+208
+00:24:34,160 --> 00:24:41,440
+built-in stop. If you go long on a breakout up, 
+your stop goes just inside the compression zone.  
+
+209
+00:24:41,440 --> 00:24:48,160
+If you go short on a breakdown, your stop goes 
+just above the range. This keeps your risk tight  
+
+210
+00:24:48,160 --> 00:24:55,760
+and your reward open. The move after compression 
+often runs far, giving you a strong risk-to-reward  
+
+211
+00:24:55,760 --> 00:25:04,000
+setup. This model also filters out bad trades. 
+If price never breaks out, you don't enter. If  
+
+212
+00:25:04,000 --> 00:25:12,000
+the breakout is weak, like a small candle and no 
+volume, again, you skip it. Only the clean, strong  
+
+213
+00:25:12,000 --> 00:25:19,360
+expansions, get your trade. This entry model works 
+because it's rooted in how markets build energy  
+
+214
+00:25:19,360 --> 00:25:26,240
+and release it. The first move out of compression 
+is your chance to jump in before the crowd with a  
+
+215
+00:25:26,240 --> 00:25:33,280
+plan and with purpose. You set your lines, wait 
+for the squeeze, then enter only when price  
+
+216
+00:25:33,280 --> 00:25:41,120
+breaks out for real. You keep your stop tight, 
+your entry clear, and your edge simple. Now, if  
+
+217
+00:25:41,120 --> 00:25:48,320
+you're ready for more interesting trading guides, 
+go ahead and watch one of these videos next.
+

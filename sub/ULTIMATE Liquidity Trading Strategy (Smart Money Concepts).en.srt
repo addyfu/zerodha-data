@@ -1,0 +1,1663 @@
+1
+00:00:00,080 --> 00:00:06,400
+You are programmed to always chase 
+price, always one step behind the market. 
+
+2
+00:00:06,400 --> 00:00:12,760
+That’s because the big players hunt liquidity, 
+creating the moves others try to follow! 
+
+3
+00:00:12,760 --> 00:00:18,382
+Today I'll teach you how to spot and 
+trade liquidity, just like the pros!
+  
+
+4
+00:00:18,382 --> 00:00:19,320
+What is liquidity?
+When you first started  
+
+5
+00:00:19,320 --> 00:00:26,320
+trading, you probably learned about support and 
+resistance, chart patterns, and other basic stuff. 
+
+6
+00:00:26,320 --> 00:00:33,280
+Many brokers even offer free education on these 
+topics. But why? It's not just to be nice!
+  
+
+7
+00:00:33,280 --> 00:00:37,080
+They want lots of traders 
+using the same strategies. 
+
+8
+00:00:37,080 --> 00:00:41,800
+Because this creates predictable 
+liquidity, that can be exploited. 
+
+9
+00:00:41,800 --> 00:00:48,120
+Think about it. If most traders are using 
+the same methods, it's easy for big banks and  
+
+10
+00:00:48,120 --> 00:00:53,400
+institutions to predict what they'll do. 
+ 
+They can use this knowledge to move the  
+
+11
+00:00:53,400 --> 00:00:58,520
+market in ways that benefit them.
+It's like setting up dominos. Once  
+
+12
+00:00:58,520 --> 00:01:03,560
+they're all lined up, it just takes 
+a little push to create a big effect. 
+
+13
+00:01:03,560 --> 00:01:09,600
+This is liquidity! In its simplest form, 
+liquidity refers to the orders or money  
+
+14
+00:01:09,600 --> 00:01:13,120
+present in the market.
+ 
+Market prices move based  
+
+15
+00:01:13,120 --> 00:01:19,160
+on the flow of buy and sell orders.
+More buying pressure pushes prices up,  
+
+16
+00:01:19,160 --> 00:01:25,240
+while more selling pressure pushes prices down.
+For substantial price movements to occur,  
+
+17
+00:01:25,240 --> 00:01:32,360
+the market needs to interact with areas of high 
+order concentration, also known as liquidity.
+  
+
+18
+00:01:32,360 --> 00:01:37,520
+So liquidity means all the buy and 
+sell orders waiting to be filled. 
+
+19
+00:01:37,520 --> 00:01:42,880
+Now, here's the interesting part - if there 
+isn't enough liquidity, the big players,  
+
+20
+00:01:42,880 --> 00:01:47,680
+the smart money, will create it.
+For big traders, like banks or  
+
+21
+00:01:47,680 --> 00:01:52,960
+hedge funds, liquidity is critical. 
+ 
+They deal with large amounts of money. 
+
+22
+00:01:52,960 --> 00:01:58,120
+In less liquid markets, their big 
+trades can push prices around a lot. 
+
+23
+00:01:58,120 --> 00:02:02,640
+This makes it hard for them to 
+buy or sell without losing money. 
+
+24
+00:02:02,640 --> 00:02:09,320
+Now, if you understand where liquidity sits, you 
+can identify magnet areas, those price levels that  
+
+25
+00:02:09,320 --> 00:02:12,000
+attract price movement.  
+ 
+What are liquidity pools 
+
+26
+00:02:12,000 --> 00:02:18,360
+Your main task is to find liquidity pools.
+Liquidity pools are like busy trading spots  
+
+27
+00:02:18,360 --> 00:02:20,600
+in the market.
+They're areas  
+
+28
+00:02:20,600 --> 00:02:27,000
+where lots of buy and sell orders gather.
+And they form at key price levels. These could  
+
+29
+00:02:27,000 --> 00:02:34,600
+be previous highs or lows, round numbers or other 
+important points. We’ll talk about these later.
+  
+
+30
+00:02:34,600 --> 00:02:42,040
+Now, traders often place their orders at these 
+levels, creating a cluster of potential trades. 
+
+31
+00:02:42,040 --> 00:02:48,040
+There are different types of liquidity pools:
+Major liquidity pools, which form at the  
+
+32
+00:02:48,040 --> 00:02:53,040
+highs and lows of longer timeframes.
+These are big, important levels that  
+
+33
+00:02:53,040 --> 00:02:59,160
+many traders watch. You might see them on 
+weekly, monthly, or even yearly charts.
+  
+
+34
+00:02:59,160 --> 00:03:06,040
+Medium liquidity pools, that show up on shorter 
+timeframes, like 1-hour charts. These are still  
+
+35
+00:03:06,040 --> 00:03:13,400
+significant, but not as big as the major pools.
+ 
+Minor liquidity pools appear on very short  
+
+36
+00:03:13,400 --> 00:03:19,400
+timeframes, like 1-minute or 5-minute 
+charts. These are smaller and might  
+
+37
+00:03:19,400 --> 00:03:25,680
+only matter for very short-term traders.
+ 
+ 
+Liquidity pools work by attracting price. 
+
+38
+00:03:25,680 --> 00:03:29,760
+When price approaches a liquidity 
+pool, a few things can happen. 
+
+39
+00:03:30,360 --> 00:03:35,240
+It might reverse, as lots of 
+orders get filled at that level. 
+
+40
+00:03:35,240 --> 00:03:41,760
+Or it might pause there before continuing.
+Sometimes, it might even break through quickly,  
+
+41
+00:03:41,760 --> 00:03:45,960
+if there's enough momentum.
+ 
+And big players are constantly  
+
+42
+00:03:45,960 --> 00:03:51,840
+trying to "hunt" these liquidity pools.
+They often push price to these levels, to trigger  
+
+43
+00:03:51,840 --> 00:03:55,560
+a bunch of orders, causing a sharp move.
+ 
+How to identify liquidity zones 
+
+44
+00:03:55,560 --> 00:04:01,680
+So liquidity zones are key areas on a chart where 
+smart money players often target, to protect  
+
+45
+00:04:01,680 --> 00:04:08,440
+their positions and to trap retail traders.
+These zones act like magnets for price, drawing  
+
+46
+00:04:08,440 --> 00:04:15,200
+it in, and often causing significant moves.
+So let's talk about each type of liquidity zone,  
+
+47
+00:04:15,200 --> 00:04:23,200
+and how smart money uses them to their advantage.
+ 
+First area is around structural highs and lows.  
+
+48
+00:04:23,200 --> 00:04:28,960
+These are major turning points in price action.
+The the peaks and valleys you see on a chart,  
+
+49
+00:04:28,960 --> 00:04:33,680
+that stand out from the rest.
+Smart money loves these spots  
+
+50
+00:04:33,680 --> 00:04:39,200
+because they know traders often place 
+their stop losses just beyond them.
+  
+
+51
+00:04:39,200 --> 00:04:45,320
+Let's say we have a strong uptrend, with 
+a series of higher highs and higher lows. 
+
+52
+00:04:45,320 --> 00:04:52,120
+Traders often jump on this trend, placing 
+their stops just below the most recent low. 
+
+53
+00:04:52,120 --> 00:04:58,000
+And smart money knows this. They often 
+push the price down, breaking that low  
+
+54
+00:04:58,000 --> 00:05:03,440
+and triggering all those stop losses.
+This flood of sell orders drives the  
+
+55
+00:05:03,440 --> 00:05:09,880
+price down further, often before smart 
+money steps in to buy, at a discount.
+  
+
+56
+00:05:09,880 --> 00:05:16,040
+The same happens in downtrends. Retail 
+shorts place their stops above recent highs. 
+
+57
+00:05:16,040 --> 00:05:22,040
+Smart money spike the price up, hit those 
+stops, then drive the price back down. 
+
+58
+00:05:22,040 --> 00:05:26,600
+To spot these zones, look for clear 
+swing highs and lows on your charts. 
+
+59
+00:05:26,600 --> 00:05:31,760
+The more obvious they are, the more 
+likely they are to attract attention. 
+  
+
+60
+00:05:31,760 --> 00:05:37,840
+Trend lines are another favorite tool of traders. 
+The diagonal lines that connect a series of  
+
+61
+00:05:37,840 --> 00:05:45,920
+lows in an uptrend, or highs in a downtrend.
+They're simple to draw and easy to understand,  
+
+62
+00:05:45,920 --> 00:05:52,680
+which is why so many traders rely on them.
+ 
+Big players often target these trend lines,  
+
+63
+00:05:52,680 --> 00:05:57,480
+especially long-standing ones.
+They know that many traders will have  
+
+64
+00:05:57,480 --> 00:06:03,880
+stop losses placed just beyond these lines.
+By breaking a significant trend line,  
+
+65
+00:06:03,880 --> 00:06:09,920
+they can trigger a cascade of orders.
+ 
+For instance, in a long-standing uptrend,  
+
+66
+00:06:09,920 --> 00:06:14,960
+many traders will be long with their 
+stops just below the trend line. 
+
+67
+00:06:14,960 --> 00:06:18,880
+Smart money might push the 
+price down to break this line. 
+
+68
+00:06:18,880 --> 00:06:26,400
+As stops are hit, more sell orders flood in. 
+Smart money can then step in, and buy at lower  
+
+69
+00:06:26,400 --> 00:06:32,520
+prices before resuming the uptrend.
+ 
+Equal highs and lows, also known as  
+
+70
+00:06:32,520 --> 00:06:37,960
+double tops and double bottoms, 
+are also exploited by smart money. 
+
+71
+00:06:37,960 --> 00:06:45,200
+These patterns form when price reaches the same 
+level twice, creating a potential reversal point. 
+
+72
+00:06:45,200 --> 00:06:50,520
+Traders often see these patterns and 
+place their trades accordingly. 
+  
+
+73
+00:06:50,520 --> 00:06:56,240
+For a double top, they might go short, 
+with a stop just above the equal highs. 
+
+74
+00:06:56,240 --> 00:07:02,320
+For a double bottom, they might go long, 
+with a stop just below the equal lows. 
+
+75
+00:07:02,320 --> 00:07:08,280
+Smart money knows this and often pushes the 
+price just beyond these levels to trigger  
+
+76
+00:07:08,280 --> 00:07:13,120
+stop losses, before reversing.
+This creates a liquidity pool  
+
+77
+00:07:13,120 --> 00:07:19,080
+that they can use to their advantage.
+ 
+Trading sessions, particularly the Asian,  
+
+78
+00:07:19,080 --> 00:07:24,760
+London, and New York sessions, often 
+create their own ranges. These ranges  
+
+79
+00:07:24,760 --> 00:07:29,520
+can become significant liquidity zones, 
+especially at their highs and lows. 
+
+80
+00:07:30,360 --> 00:07:35,520
+Big players often target the sessions’ highs 
+and lows, because they know many traders use  
+
+81
+00:07:35,520 --> 00:07:41,800
+them for entries and stop placements. 
+ 
+For example, many traders use the Asian  
+
+82
+00:07:41,800 --> 00:07:49,160
+session range as a guide for the London session.
+They might place buy orders above the Asian high,  
+
+83
+00:07:49,160 --> 00:07:54,880
+and sell orders below the Asian low.
+Smart money might push the price just  
+
+84
+00:07:54,880 --> 00:08:01,360
+beyond these levels to trigger these orders, 
+creating liquidity that they can trade against. 
+
+85
+00:08:01,360 --> 00:08:07,560
+They might spike the price above the Asian high, 
+triggering buy orders, only to sell into this  
+
+86
+00:08:07,560 --> 00:08:14,280
+liquidity, and push the price back down.
+ 
+The previous day's high and low are other  
+
+87
+00:08:14,280 --> 00:08:20,200
+significant levels that many traders watch.
+They often serve as support and resistance  
+
+88
+00:08:20,200 --> 00:08:25,440
+levels for the current day's trading.
+Again, the big boys know this, and frequently  
+
+89
+00:08:25,440 --> 00:08:29,760
+target these levels.
+ 
+For instance, many traders place  
+
+90
+00:08:29,760 --> 00:08:36,200
+buy orders just above the previous day's high, 
+expecting the upward momentum to continue. 
+
+91
+00:08:36,200 --> 00:08:42,880
+Smart money will push the price up to trigger 
+these orders, creating a pool of liquidity. 
+
+92
+00:08:42,880 --> 00:08:49,040
+They can then sell into this liquidity, 
+potentially reversing the price direction.
+  
+
+93
+00:08:49,040 --> 00:08:54,000
+The previous week's high and low also 
+attract a lot of attention. You might  
+
+94
+00:08:54,000 --> 00:08:59,480
+not even know where those levels are.
+These levels often act as key support  
+
+95
+00:08:59,480 --> 00:09:05,840
+and resistance on higher timeframes.
+And smart money often exploit these levels,  
+
+96
+00:09:05,840 --> 00:09:09,840
+knowing that many swing traders 
+and position traders use them  
+
+97
+00:09:09,840 --> 00:09:16,720
+for stop placement and entry orders. 
+ 
+For example, in a downtrend, many traders  
+
+98
+00:09:16,720 --> 00:09:22,920
+might place sell orders below the previous 
+week's low, expecting the trend to continue. 
+
+99
+00:09:22,920 --> 00:09:27,320
+Smart money often push the price 
+down to trigger these orders,  
+
+100
+00:09:27,320 --> 00:09:34,360
+creating a liquidity pool they can buy into.
+ 
+Supply and demand zones are other liquidity  
+
+101
+00:09:34,360 --> 00:09:40,640
+zones. These are areas where price has 
+shown significant rejection in the past. 
+
+102
+00:09:40,640 --> 00:09:46,000
+And these zones are prime targets 
+for smart money manipulation. 
+
+103
+00:09:46,000 --> 00:09:50,400
+Smart money know many traders 
+place their orders around them. 
+  
+
+104
+00:09:50,400 --> 00:09:57,720
+For example, many traders might place buy orders 
+at a strong demand zone. Smart money might  
+
+105
+00:09:57,720 --> 00:10:04,040
+push the price into this zone, triggering 
+these buy orders and creating liquidity. 
+
+106
+00:10:04,040 --> 00:10:09,720
+They can then potentially sell into this 
+liquidity, driving the price even lower. 
+
+107
+00:10:09,720 --> 00:10:13,680
+That’s why you see so many demand 
+zones that should work, in theory,  
+
+108
+00:10:13,680 --> 00:10:17,800
+but in reality, they fail.
+ 
+The same happens with supply  
+
+109
+00:10:17,800 --> 00:10:24,360
+zones. Traders often place sell orders 
+at these levels, expecting price to drop. 
+
+110
+00:10:24,360 --> 00:10:29,320
+Smart money might spike the price into the 
+supply zone, triggering these sell orders,  
+
+111
+00:10:30,280 --> 00:10:35,680
+then buy into this liquidity to 
+potentially drive the price higher.
+  
+
+112
+00:10:35,680 --> 00:10:40,200
+Fair Value Gaps (FVGs) are also 
+targeted. These are areas on the  
+
+113
+00:10:40,200 --> 00:10:46,200
+chart where price has moved rapidly.
+These gaps often act as magnets for  
+
+114
+00:10:46,200 --> 00:10:53,560
+price, drawing it back to "fill" the gap.
+Smart money often uses these gaps as targets. 
+  
+
+115
+00:10:53,560 --> 00:10:58,760
+For example, if there's a bullish Fair 
+Value Gaps, below the current price,  
+
+116
+00:10:58,760 --> 00:11:06,480
+many traders might place buy orders in this area, 
+expecting price to come back and fill the gap. 
+
+117
+00:11:06,480 --> 00:11:11,240
+Smart money might push the price down 
+through this level, triggering these  
+
+118
+00:11:11,240 --> 00:11:16,560
+buy orders and creating liquidity. 
+ 
+The same happens with bearish Fair  
+
+119
+00:11:16,560 --> 00:11:22,280
+Value Gaps, above the current price.
+Traders often place sell orders in these  
+
+120
+00:11:22,280 --> 00:11:29,440
+areas. Smart money might spike the price up 
+through the gap, triggering these sell orders. 
+
+121
+00:11:29,440 --> 00:11:36,040
+That’s why maybe 90% of fair value gaps 
+fail. But that’s a topic for another video!
+  
+
+122
+00:11:36,040 --> 00:11:43,240
+Round numbers, ending in zero or double zeros, are 
+psychologically significant levels that attract a  
+
+123
+00:11:43,240 --> 00:11:46,160
+lot of attention from traders.
+These levels are prime  
+
+124
+00:11:46,160 --> 00:11:51,640
+targets for smart money manipulation.
+Smart money knows that many retail traders  
+
+125
+00:11:51,640 --> 00:11:57,360
+place their orders around these round numbers.
+Many traders might place buy orders just above  
+
+126
+00:11:57,360 --> 00:12:04,080
+a round number, or sell orders just below it.
+The big boys often push the price to these  
+
+127
+00:12:04,080 --> 00:12:09,720
+levels to trigger these orders, creating 
+liquidity that they can trade against.
+  
+
+128
+00:12:09,720 --> 00:12:14,000
+For instance, if there's a round 
+number at the 50 dollar level,  
+
+129
+00:12:14,000 --> 00:12:21,400
+many traders might place buy orders slightly above 
+it, expecting the price to rise above this level. 
+
+130
+00:12:21,400 --> 00:12:28,680
+The big boys might push the price up, to trigger 
+these buy orders, creating a pool of liquidity. 
+
+131
+00:12:28,680 --> 00:12:34,640
+They can then potentially sell into this 
+liquidity, driving the price back down. 
+
+132
+00:12:34,640 --> 00:12:39,960
+Understanding all these liquidity zones, 
+and how smart money targets them is key. 
+
+133
+00:12:39,960 --> 00:12:46,120
+It helps you avoid common traps. 
+ 
+As you practice, you'll start to see patterns. 
+
+134
+00:12:46,120 --> 00:12:52,640
+You might notice that price often reverses 
+after taking out a previous high or low. 
+
+135
+00:12:52,640 --> 00:12:58,360
+Or you might see that certain levels 
+keep causing price to pause or reverse. 
+  
+
+136
+00:12:58,360 --> 00:13:02,960
+And please, don't just draw 
+liquidity zones all over your chart. 
+
+137
+00:13:02,960 --> 00:13:09,200
+Focus on the most important ones. Too many 
+zones can make your analysis confusing.
+  
+
+138
+00:13:09,200 --> 00:13:14,840
+Also, pay attention to how price reacts 
+when it reaches a liquidity zone. 
+
+139
+00:13:14,840 --> 00:13:21,520
+Does it reverse sharply? Does it pause and 
+then continue? Or does it blow right through? 
+
+140
+00:13:21,520 --> 00:13:27,400
+This can give you clues about the strength 
+of the move, and what might happen next.
+  
+
+141
+00:13:27,400 --> 00:13:33,080
+You might notice that certain types of zones 
+work better in certain market conditions,  
+
+142
+00:13:33,080 --> 00:13:39,560
+or for certain currency pairs or stocks.
+This is where keeping a detailed trading journal  
+
+143
+00:13:39,560 --> 00:13:47,060
+with your findings, can be incredibly valuable, 
+allowing you to refine your strategy over time.
+  
+
+144
+00:13:47,060 --> 00:13:50,120
+Liquidity inducement
+Now let’s talk about liquidity inducement. 
+
+145
+00:13:50,120 --> 00:13:57,400
+Inducement is about creating situations that make 
+other traders want to trade, at certain levels. 
+
+146
+00:13:57,400 --> 00:14:02,720
+This creates available liquidity for bigger 
+players to use, when they want to enter  
+
+147
+00:14:02,720 --> 00:14:06,800
+or exit their positions.
+ 
+To understand this better,  
+
+148
+00:14:06,800 --> 00:14:13,680
+let's look at how the market is structured.
+When we look at charts, we see highs and lows. 
+
+149
+00:14:13,680 --> 00:14:19,320
+Above these highs, we assume there's 
+buy-side liquidity, and below the lows,  
+
+150
+00:14:19,320 --> 00:14:25,080
+we assume there's sell-side liquidity.
+ 
+Buy-side liquidity is all the liquidity  
+
+151
+00:14:25,080 --> 00:14:33,280
+that buyers will use, created mainly by stop loss 
+orders of sellers, and buy stop orders of buyers. 
+
+152
+00:14:33,280 --> 00:14:40,040
+In a bullish market, price often uses buy-side 
+liquidity to fuel the next upward move. 
+
+153
+00:14:40,040 --> 00:14:46,120
+To have a big bullish move, the market needs 
+sell orders to generate more liquidity. 
+
+154
+00:14:46,120 --> 00:14:53,080
+Also, the buy orders from stop losses of sellers 
+generate more buy orders, which is why you often  
+
+155
+00:14:53,080 --> 00:14:59,480
+see a surge in buying when price breaks out.
+ 
+Sell-side liquidity is the opposite.  
+
+156
+00:14:59,480 --> 00:15:04,800
+It's the liquidity that sellers will use, 
+created mainly by stop loss orders of  
+
+157
+00:15:04,800 --> 00:15:10,800
+buyers and sell stop orders of sellers.
+Imagine you see a double bottom on your  
+
+158
+00:15:10,800 --> 00:15:16,480
+chart. This is when price hits the same 
+low point twice, forming a support level. 
+
+159
+00:15:16,480 --> 00:15:22,760
+Many traders might want to buy at this support 
+level. Now, think about where these traders  
+
+160
+00:15:22,760 --> 00:15:26,640
+would put their stop losses.
+They'd likely put them just  
+
+161
+00:15:26,640 --> 00:15:32,760
+below the lows. This creates a pool of 
+sell-side liquidity below the lows.
+  
+
+162
+00:15:32,760 --> 00:15:36,960
+This is important because big 
+players need this liquidity. 
+
+163
+00:15:36,960 --> 00:15:42,840
+They can't just jump into the market with huge 
+orders - that would cause wild price swings,  
+
+164
+00:15:42,840 --> 00:15:46,920
+and could work against them.
+Instead, they use liquidity  
+
+165
+00:15:46,920 --> 00:15:52,680
+inducement to their advantage.
+ 
+These big players create patterns or situations  
+
+166
+00:15:52,680 --> 00:15:58,920
+in the market, that encourage other traders 
+to place their orders in predictable spots. 
+
+167
+00:15:59,440 --> 00:16:03,960
+This builds up pools of liquidity, 
+that the big players can then use  
+
+168
+00:16:03,960 --> 00:16:09,560
+to enter or exit their positions.
+Now, before we continue, let us know  
+
+169
+00:16:09,560 --> 00:16:15,720
+in the comments what topics you’d like us to 
+cover! And please drop us a like to help us  
+
+170
+00:16:15,720 --> 00:16:18,240
+with Youtube algorithm.
+ 
+Liquidity sweeps 
+
+171
+00:16:18,240 --> 00:16:23,640
+Now let's talk about how big players 
+use this liquidity. They often create  
+
+172
+00:16:23,640 --> 00:16:28,320
+what's called a "liquidity sweep".
+It's when big players in the market,  
+
+173
+00:16:28,320 --> 00:16:34,560
+try to take advantage of areas where 
+there's a lot of buy or sell orders waiting. 
+
+174
+00:16:34,560 --> 00:16:39,680
+These areas are like pools of money 
+just sitting there, ready to be used.
+  
+
+175
+00:16:39,680 --> 00:16:45,880
+For instance, if there's a strong support level 
+with many stop losses just below it, price might  
+
+176
+00:16:45,880 --> 00:16:52,600
+sweep down to hit those stops before reversing.
+This action "sweeps" the liquidity, letting  
+
+177
+00:16:52,600 --> 00:16:57,640
+larger players fill their orders.
+ 
+Knowing about liquidity sweeps can  
+
+178
+00:16:57,640 --> 00:17:01,720
+help you in two main ways.
+First, you can look for where  
+
+179
+00:17:01,720 --> 00:17:08,360
+sweeps have already happened, as this might 
+show where big players have been active. 
+
+180
+00:17:08,360 --> 00:17:12,640
+Second, you can use this knowledge 
+to guess future moves, by spotting  
+
+181
+00:17:12,640 --> 00:17:18,120
+where available liquidity might be.
+ 
+One way to trade these liquidity sweeps,  
+
+182
+00:17:18,120 --> 00:17:23,600
+is by identifying "the inducement" 
+before a potential zone of interest. 
+
+183
+00:17:23,600 --> 00:17:28,320
+This is where price action might 
+encourage traders to enter positions,  
+
+184
+00:17:28,320 --> 00:17:34,520
+creating more liquidity for a potential move.
+ 
+For example, if you're looking at a possible  
+
+185
+00:17:34,520 --> 00:17:40,840
+buy zone, you might see price dip below 
+a previous low before the main move up. 
+
+186
+00:17:40,840 --> 00:17:46,040
+This dip could make sellers enter 
+short positions or exit longs,  
+
+187
+00:17:46,040 --> 00:17:52,640
+creating liquidity that larger players 
+can use to enter their long positions.
+ 
+
+188
+00:17:52,640 --> 00:17:53,430
+liquidity and market structure
+
+189
+00:17:53,430 --> 00:17:57,040
+Liquidity goes hand in hand with market structure. 
+
+190
+00:17:57,040 --> 00:18:03,600
+Market structure refers to the overall pattern 
+of price movement. It's about identifying trends,  
+
+191
+00:18:03,600 --> 00:18:09,920
+key levels, and the flow of the market.
+Liquidity is about where buying and selling  
+
+192
+00:18:09,920 --> 00:18:15,760
+activity clusters. These two concepts 
+work together to shape market behavior 
+  
+
+193
+00:18:15,760 --> 00:18:19,160
+Here's how they interact.
+First, areas of high liquidity  
+
+194
+00:18:19,160 --> 00:18:24,400
+often become key points in the market structure.
+For example, a level with lots of buy orders  
+
+195
+00:18:24,400 --> 00:18:29,800
+might become a strong support level.
+If price keeps bouncing off this level,  
+
+196
+00:18:29,800 --> 00:18:35,120
+it becomes part of the market structure.
+ 
+Key structural levels tend to attract  
+
+197
+00:18:35,120 --> 00:18:41,320
+liquidity. Traders often place their 
+orders around important structural points,  
+
+198
+00:18:41,320 --> 00:18:47,760
+like trend lines or previous highs and lows.
+This creates a feedback loop where structure  
+
+199
+00:18:47,760 --> 00:18:53,880
+and liquidity reinforce each other.
+ 
+Breaks in structure can drain liquidity.  
+
+200
+00:18:53,880 --> 00:19:00,640
+When price breaks through a key structural level, 
+it often leads to a surge in trading activity. 
+
+201
+00:19:00,640 --> 00:19:08,400
+This can temporarily drain liquidity from other 
+areas as traders rush to adjust their positions
+  
+
+202
+00:19:08,400 --> 00:19:14,160
+Liquidity flows with structure: in a 
+strong trend, liquidity tends to cluster  
+
+203
+00:19:14,160 --> 00:19:18,800
+in the direction of the trend.
+For example, in an uptrend,  
+
+204
+00:19:18,800 --> 00:19:25,920
+you might see more liquidity above the current 
+price as traders anticipate further rises.
+  
+
+205
+00:19:25,920 --> 00:19:30,920
+Structure helps predict liquidity. 
+By reading the market structure,  
+
+206
+00:19:30,920 --> 00:19:37,680
+you can often predict where liquidity might be.
+For instance, after a series of higher lows in  
+
+207
+00:19:37,680 --> 00:19:43,680
+an uptrend, you can expect liquidity 
+to gather below each of these lows.
+  
+
+208
+00:19:43,680 --> 00:19:50,320
+Liquidity confirms structure. Sometimes, the 
+way price interacts with liquidity can confirm,  
+
+209
+00:19:50,320 --> 00:19:55,560
+or deny the current market structure.
+If price easily breaks through what  
+
+210
+00:19:55,560 --> 00:20:02,240
+should be a liquidity-rich level, it might 
+signal a change in the overall structure.
+  
+
+211
+00:20:02,240 --> 00:20:09,400
+Both liquidity and market structure guide price 
+movement. Price often moves towards liquidity,  
+
+212
+00:20:09,400 --> 00:20:13,360
+but within the constraints of 
+the larger market structure. 
+
+213
+00:20:13,360 --> 00:20:18,920
+And institutional activity links them. 
+Big players in the market often use  
+
+214
+00:20:18,920 --> 00:20:24,680
+their understanding of both liquidity 
+and structure, to plan their trades. 
+  
+
+215
+00:20:24,680 --> 00:20:30,960
+Both liquidity and market structure change 
+over time: just as market structure evolves,  
+
+216
+00:20:30,960 --> 00:20:36,880
+so does the distribution of liquidity.
+What was a key liquidity level last week  
+
+217
+00:20:36,880 --> 00:20:44,560
+might not be as important now. So keeping track 
+of both helps you stay in tune with the market.
+  
+
+218
+00:20:44,560 --> 00:20:50,320
+The interplay between liquidity and structure 
+can help you spot truly important levels in the  
+
+219
+00:20:50,320 --> 00:20:57,840
+market. Areas where structural levels align with 
+high liquidity are often the most significant.
+  
+
+220
+00:20:57,840 --> 00:21:02,440
+In trading, we often talk about 
+"market structure shifts". The  
+
+221
+00:21:02,440 --> 00:21:09,400
+big changes in the overall trend of the market.
+Inducement often plays a role in these shifts.
+  
+
+222
+00:21:09,400 --> 00:21:14,800
+For example, before a major trend change, 
+you might see price action that looks  
+
+223
+00:21:14,800 --> 00:21:19,720
+like it's continuing the old trend.
+This can trick traders into entering  
+
+224
+00:21:19,720 --> 00:21:25,840
+positions in the direction of the old trend, 
+creating liquidity for the smart money to use  
+
+225
+00:21:25,840 --> 00:21:30,800
+when reversing the market.
+ 
+Also, liquidity inducement  
+
+226
+00:21:30,800 --> 00:21:35,720
+is part of a larger market cycle.
+The market typically goes through phases of  
+
+227
+00:21:35,720 --> 00:21:42,680
+accumulation, markup, distribution, and markdown.
+Liquidity inducement often occurs during the  
+
+228
+00:21:42,680 --> 00:21:50,000
+accumulation and distribution phases, as smart 
+money prepares for the next significant move.
+  
+
+229
+00:21:50,000 --> 00:21:57,080
+During accumulation, for instance, you might see 
+price action that looks choppy and directionless. 
+
+230
+00:21:57,080 --> 00:22:04,040
+This can discourage retail traders and shake 
+out weak hands, while smart money quietly builds  
+
+231
+00:22:04,040 --> 00:22:10,280
+positions. The apparent lack of direction 
+is itself a form of liquidity inducement,  
+
+232
+00:22:10,280 --> 00:22:15,800
+creating opportunities for larger 
+players to buy at favorable prices. 
+
+233
+00:22:15,800 --> 00:22:21,760
+This is why it's crucial to look beyond 
+just price action and consider volume,  
+
+234
+00:22:21,760 --> 00:22:27,851
+momentum, and other factors that might 
+indicate the true market dynamics.
+ 
+  
+
+235
+00:22:27,851 --> 00:22:31,080
+Liquidity inducement strategy
+Liquidity inducement isn't something bad. 
+
+236
+00:22:31,080 --> 00:22:35,800
+If you can spot it happening, you 
+might find good trading signals. 
+
+237
+00:22:35,800 --> 00:22:40,520
+For entries, look for areas 
+where there's a lot of liquidity. 
+
+238
+00:22:40,520 --> 00:22:46,280
+When the market is going up, look for 
+buy entries just below recent lows. 
+
+239
+00:22:46,280 --> 00:22:51,520
+That's where big players often buy, 
+scooping up all the sell orders. 
+
+240
+00:22:51,520 --> 00:22:56,680
+When the market is going down, look 
+to sell just above recent highs. 
+
+241
+00:22:56,680 --> 00:23:01,720
+That's where big players often 
+sell into all the buy orders.
+  
+
+242
+00:23:01,720 --> 00:23:09,000
+For exits, think about where other traders might 
+have their stop losses, or take profit orders. 
+
+243
+00:23:09,000 --> 00:23:13,880
+These create pools of liquidity.
+As price approaches these areas,  
+
+244
+00:23:13,880 --> 00:23:17,840
+be ready to exit your trade.
+The price might reverse once  
+
+245
+00:23:17,840 --> 00:23:22,520
+it hits these liquidity pools.
+ 
+Every time the market makes a  
+
+246
+00:23:22,520 --> 00:23:27,840
+new range, mark the high and low.
+If you're trading in this range,  
+
+247
+00:23:27,840 --> 00:23:33,920
+you might enter at one end (where there's 
+internal liquidity) and exit at the other  
+
+248
+00:23:33,920 --> 00:23:40,360
+end (where there's external liquidity).
+Also, you want to trade where there's low  
+
+249
+00:23:40,360 --> 00:23:46,880
+resistance. This means there should be little 
+stopping for the price to move in your favor. 
+  
+
+250
+00:23:46,880 --> 00:23:53,280
+Start on a bigger timeframe, like the 
+daily chart. Mark major liquidity levels.
+  
+
+251
+00:23:53,280 --> 00:23:58,440
+Move down to a smaller timeframe, 
+like the 1-hour chart. Look for price  
+
+252
+00:23:58,440 --> 00:24:04,200
+approaching your marked liquidity levels.
+As price gets close to a liquidity level,  
+
+253
+00:24:04,200 --> 00:24:09,000
+switch to an even smaller timeframe, 
+like the 15-minute chart.
+  
+
+254
+00:24:09,000 --> 00:24:15,240
+Watch for signs of a stop hunt – a quick spike 
+through the level, followed by a reversal. 
+
+255
+00:24:15,240 --> 00:24:20,760
+If you see this, get ready to enter a 
+trade, in the direction of the reversal.
+
+256
+00:24:20,760 --> 00:24:26,120
+Also, don't jump on every breakout. Wait 
+for the price to show it's really going  
+
+257
+00:24:26,120 --> 00:24:32,000
+to keep moving in that direction.
+ 
+Always consult multiple time frames:  
+
+258
+00:24:32,000 --> 00:24:38,840
+check larger time frames to see if a move fits 
+the bigger picture or if it might be inducement. 
+
+259
+00:24:38,840 --> 00:24:45,800
+If you see the price quickly reject a level after 
+breaking it, be ready for a possible reversal. 
+
+260
+00:24:45,800 --> 00:24:52,683
+And don't put your stops right at obvious 
+levels. That's where inducement often targets.
+ 
+  
+
+261
+00:24:52,683 --> 00:24:54,840
+Tools/indicators to analyze liquidity
+There are several tools and indicators  
+
+262
+00:24:54,840 --> 00:24:58,320
+that can help you spot and 
+analyze liquidity in the markets. 
+
+263
+00:24:59,080 --> 00:25:04,800
+First one, volume: This is one of the 
+simplest and most effective tools. 
+
+264
+00:25:04,800 --> 00:25:08,400
+High volume often shows high liquidity. 
+
+265
+00:25:08,400 --> 00:25:13,280
+So look for volume spikes, which 
+can indicate liquidity events.
+  
+
+266
+00:25:13,280 --> 00:25:20,440
+Second, Market Depth Charts. These show pending 
+buy and sell orders at different price levels. 
+
+267
+00:25:20,440 --> 00:25:24,520
+They can help you see where 
+liquidity pools might be forming.
+  
+
+268
+00:25:24,520 --> 00:25:31,320
+Third, Time and Sales (or Tape Reading): 
+This shows real-time trades. Large trades  
+
+269
+00:25:31,320 --> 00:25:36,440
+or clusters of trades at certain 
+prices can indicate liquidity.
+ 
+
+270
+00:25:36,440 --> 00:25:41,520
+Fourth, Order Flow Indicators: These 
+advanced tools try to show the balance  
+
+271
+00:25:41,520 --> 00:25:47,440
+of buying and selling pressure. 
+ 
+ 
+And fifth, Volume Profile: This shows  
+
+272
+00:25:47,440 --> 00:25:54,640
+where most trading has happened at different price 
+levels, helping identify high-liquidity zones. 
+  
+
+273
+00:25:54,640 --> 00:26:01,440
+It's best to use a mix of tools, and combine 
+them with market structure and price action. 
+
+274
+00:26:01,440 --> 00:26:08,520
+Also, these tools don't directly show "liquidity." 
+They show things that often relate to liquidity. 
+
+275
+00:26:08,520 --> 00:26:12,360
+You still need to interpret 
+what they're telling you.
+ 
+  
+
+276
+00:26:12,360 --> 00:26:14,606
+Liquidity and order flow analysis
+
+277
+00:26:14,606 --> 00:26:16,240
+Liquidity and order flow 
+analysis are closely linked. 
+
+278
+00:26:16,240 --> 00:26:22,880
+Order flow analysis is all about understanding 
+the buying and selling pressure in the market. 
+
+279
+00:26:22,880 --> 00:26:29,320
+This pressure often shows up as liquidity.
+ 
+ 
+Order flow analysis looks at the actual orders  
+
+280
+00:26:29,320 --> 00:26:32,560
+coming into the market.
+It tries to spot where  
+
+281
+00:26:32,560 --> 00:26:38,760
+big players are buying or selling.
+Basically, order flow analysis can help  
+
+282
+00:26:38,760 --> 00:26:45,240
+you find where liquidity is building up, when 
+liquidity is being used up, and potential price  
+
+283
+00:26:45,240 --> 00:26:51,640
+levels where big players might be active.
+ 
+In order flow analysis, you need to get  
+
+284
+00:26:51,640 --> 00:26:57,040
+familiar with several concepts.
+First one, volume clusters:  
+
+285
+00:26:57,040 --> 00:27:02,800
+order flow analysis often looks for 
+clusters of orders at certain prices.  
+
+286
+00:27:02,800 --> 00:27:09,440
+These clusters are actually liquidity pools.
+ 
+Next concept is “absorption”: When a price  
+
+287
+00:27:09,440 --> 00:27:16,880
+level "absorbs" a lot of orders without moving 
+much, it's often a sign of high liquidity. 
+  
+
+288
+00:27:16,880 --> 00:27:23,800
+Here’s a familiar concept, imbalances: Order 
+flow tools might show imbalances between buy  
+
+289
+00:27:23,800 --> 00:27:28,160
+and sell orders. These imbalances 
+can create or drain liquidity. 
+
+290
+00:27:29,000 --> 00:27:33,493
+It’s a lot to talk about, that’s 
+a topic for another video.
+ 
+  
+
+291
+00:27:33,493 --> 00:27:33,560
+How to use liquidity analysis to 
+compete with institutional traders
+
+292
+00:27:33,560 --> 00:27:39,640
+Retail traders like you and me, can level the 
+playing field by using liquidity analysis to  
+
+293
+00:27:39,640 --> 00:27:43,560
+compete with institutional traders.
+Here's how: 
+
+294
+00:27:43,560 --> 00:27:49,160
+Know the closest liquidity pools. Mark 
+the areas where lots of buy or sell  
+
+295
+00:27:49,160 --> 00:27:56,480
+orders cluster. When price hits these spots, 
+it often bounces or breaks through fast. You  
+
+296
+00:27:56,480 --> 00:28:02,640
+need to be ready for both scenarios.
+ 
+Watch for traps and liquidity sweeps.  
+
+297
+00:28:02,640 --> 00:28:07,800
+Big players set traps to trick small 
+traders. They often push price to key  
+
+298
+00:28:07,800 --> 00:28:15,080
+levels. Don't fall for these fake-outs. 
+ 
+Use multiple timeframes. Check both higher  
+
+299
+00:28:15,080 --> 00:28:20,480
+and lower timeframes. This gives you a 
+fuller picture of liquidity across different  
+
+300
+00:28:20,480 --> 00:28:27,360
+market views. It helps you spot potential 
+reversals or continuations more accurately.
+ 
+
+301
+00:28:27,360 --> 00:28:33,520
+Track order flow. Pay attention to how orders 
+are coming in. Look for big buy or sell walls  
+
+302
+00:28:33,520 --> 00:28:39,160
+in the order book. These can signal where 
+institutions are placing their orders.
+  
+
+303
+00:28:39,160 --> 00:28:45,040
+Identify liquidity gaps. These are areas 
+on the chart with little trading activity.  
+
+304
+00:28:45,040 --> 00:28:50,160
+Price often moves quickly through these 
+zones. Knowing where they are can help  
+
+305
+00:28:50,160 --> 00:28:56,440
+you set better entry and exit points.
+ 
+Study market structure. Look for key  
+
+306
+00:28:56,440 --> 00:29:02,320
+swing highs and lows. These often 
+mark areas of high liquidity.
+  
+
+307
+00:29:02,320 --> 00:29:08,000
+Focus on session overlaps. When major 
+trading sessions overlap, liquidity tends  
+
+308
+00:29:08,000 --> 00:29:15,097
+to increase. This can lead to bigger price 
+moves. Use these times to your advantage.
+ 
+
+309
+00:29:15,097 --> 00:29:19,960
+Don't chase breakouts. Many traders jump 
+on breakouts, only to get burned. Instead,  
+
+310
+00:29:19,960 --> 00:29:27,720
+look for pullbacks to liquidity zones, after a 
+breakout. This is often where smart money enters.
+  
+
+311
+00:29:27,720 --> 00:29:33,720
+Use volume profile. This tool shows you 
+where the most trading has happened at  
+
+312
+00:29:33,720 --> 00:29:39,920
+different price levels. High volume nodes 
+often act as strong liquidity areas. 
+
+313
+00:29:39,920 --> 00:29:43,000
+Now, if you want to learn 
+other smart money tactics,  
+
+314
+00:29:43,000 --> 00:29:54,000
+you need to watch one of these videos next.
+

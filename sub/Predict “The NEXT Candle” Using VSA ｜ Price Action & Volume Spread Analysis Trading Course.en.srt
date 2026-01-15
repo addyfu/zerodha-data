@@ -1,0 +1,901 @@
+1
+00:00:00,950 --> 00:00:04,410
+Do you want to learn to anticipate a price
+movement like this one?
+
+2
+00:00:04,410 --> 00:00:08,680
+You’re in luck because this is the video
+that will change how you see and trade the
+
+3
+00:00:08,680 --> 00:00:09,680
+market.
+
+4
+00:00:09,680 --> 00:00:14,620
+Today I’m showing you how banks and professional
+traders use Volume Spread Analysis, one of
+
+5
+00:00:14,620 --> 00:00:17,810
+the best leading strategies you could use
+for trading.
+
+6
+00:00:17,810 --> 00:00:22,070
+And if you want to show your support, please
+leave a like to help us with Youtube algorithm
+
+7
+00:00:22,070 --> 00:00:26,740
+and turn on the bell, so you don’t miss
+when new videos are released.
+
+8
+00:00:26,740 --> 00:00:32,040
+Volume Spread Analysis is the study of Price
+in relation to its corresponding volume.
+
+9
+00:00:32,040 --> 00:00:37,320
+It basically identifies the underlying reasons
+behind the market behavior or movement.
+
+10
+00:00:37,320 --> 00:00:42,110
+If a trader anticipates a bearish or bullish
+movement then there must be an underlying
+
+11
+00:00:42,110 --> 00:00:43,850
+reason behind it.
+
+12
+00:00:43,850 --> 00:00:49,970
+Volume Spread Analysis tracks down the professional
+activity or the moves of the smart money.
+
+13
+00:00:49,970 --> 00:00:55,440
+Smart Money in this context is the Big Banks,
+Hedge Funds and Large Financial Institutions
+
+14
+00:00:55,440 --> 00:00:59,970
+having hefty pockets to move the market the
+way they want.
+
+15
+00:00:59,970 --> 00:01:06,649
+Volume Spread Analysis eliminates subjectivity
+from trading because while price can be manipulated
+
+16
+00:01:06,649 --> 00:01:09,610
+by professional activity, volumes can’t.
+
+17
+00:01:09,610 --> 00:01:14,840
+Thereby, Volume Spread Analysis is one of
+the best way to understand market psychology
+
+18
+00:01:14,840 --> 00:01:16,380
+and sentiments.
+
+19
+00:01:16,380 --> 00:01:22,569
+VSA can be used in any market like forex,
+stocks, Indices, commodities, and Futures.
+
+20
+00:01:22,569 --> 00:01:27,720
+Many people might argue that in forex Volumes
+are useless as it is decentralized market
+
+21
+00:01:27,720 --> 00:01:28,720
+having no real volumes.
+
+22
+00:01:28,720 --> 00:01:33,799
+However, Forex has Tick Volumes which is proxy
+to real volumes and correlates it 90% of the
+
+23
+00:01:33,799 --> 00:01:34,799
+time.
+
+24
+00:01:34,799 --> 00:01:40,649
+And yes, VSA methodology can also be applied
+to any timeframe.
+
+25
+00:01:40,649 --> 00:01:45,729
+Wyckoff’s VSA is one of the best methods
+to analyze a market because:
+
+26
+00:01:45,729 --> 00:01:50,399
+• It is non subjective
+• It is not prone to smart money manipulation
+
+27
+00:01:50,399 --> 00:01:54,569
+as the method itself is used for detecting
+smart money activity.
+
+28
+00:01:54,569 --> 00:01:59,469
+• It figures out the underlying reasons
+behind the market movements and also understands
+
+29
+00:01:59,469 --> 00:02:02,130
+the cause of imbalance between supply and
+demand.
+
+30
+00:02:02,130 --> 00:02:06,169
+First, let’s see the components of volume
+Spread Analysis:
+
+31
+00:02:06,169 --> 00:02:07,169
+1.
+
+32
+00:02:07,169 --> 00:02:11,750
+Spread: Spread is the difference between Opening
+and closing of the price.
+
+33
+00:02:11,750 --> 00:02:12,750
+2.
+
+34
+00:02:12,750 --> 00:02:17,409
+Volume is the frequency of transaction of
+the price change during a specified period
+
+35
+00:02:17,409 --> 00:02:19,340
+of time
+3.
+
+36
+00:02:19,340 --> 00:02:25,420
+Bearish and Bullish Volume: Bearish Volume
+is marked in Red and it shows bearish activity.
+
+37
+00:02:25,420 --> 00:02:29,780
+Bullish Volume is marked in green and it shows
+bullish activity.
+
+38
+00:02:29,780 --> 00:02:30,930
+4.
+
+39
+00:02:30,930 --> 00:02:35,770
+Above Average High Volume: Above Average High
+Volume is the Highest Volume in the current
+
+40
+00:02:35,770 --> 00:02:39,060
+session which is higher than the average volume.
+
+41
+00:02:39,060 --> 00:02:44,209
+Average Volume is the volume that coincides
+with Moving Average 20 of the volume indicator.
+
+42
+00:02:44,209 --> 00:02:45,209
+5.
+
+43
+00:02:45,209 --> 00:02:49,469
+Ultra-High Volume: Ultra High Volume is the
+Highest Volume in the current session.
+
+44
+00:02:49,469 --> 00:02:53,340
+It is higher than the previous peak volume.
+
+45
+00:02:53,340 --> 00:02:57,780
+There are 4 stages of VSA, based on Wyckoff
+theory.
+
+46
+00:02:57,780 --> 00:03:02,520
+1) Accumulation: This Occurs when Supply and
+Demand are in balance to each other after
+
+47
+00:03:02,520 --> 00:03:03,849
+a mark down move.
+
+48
+00:03:03,849 --> 00:03:08,989
+2) Mark Up: This occurs when Demand becomes
+more than supply causing an upward bullish
+
+49
+00:03:08,989 --> 00:03:14,560
+rally after accumulation process
+3) Distribution: This occurs when Supply and
+
+50
+00:03:14,560 --> 00:03:18,200
+Demand are in balance after an exhausted mark-up
+move.
+
+51
+00:03:18,200 --> 00:03:24,150
+4) Mark Down: This occurs when Supply becomes
+more than Demand causing a downward drop after
+
+52
+00:03:24,150 --> 00:03:25,599
+distribution phase.
+
+53
+00:03:25,599 --> 00:03:31,219
+Watch this video if you want to know more
+details about Wyckoff method.
+
+54
+00:03:31,219 --> 00:03:38,049
+There are two major applications of VSA namely
+tracking of SOW (Sign of Weakness) and tracking
+
+55
+00:03:38,049 --> 00:03:39,049
+of SOS (Sign of Strength).
+
+56
+00:03:39,049 --> 00:03:46,469
+SOW Sign of Weakness occurs when the Demand
+is exhausted (Buyers Exhausted) after uptrend
+
+57
+00:03:46,469 --> 00:03:50,480
+and Supply increases (More Sellers come in).
+
+58
+00:03:50,480 --> 00:03:54,120
+This imbalance between supply and demand causes
+the market to fall.
+
+59
+00:03:54,120 --> 00:04:01,069
+SOS Sign of Strength occurs when Supply is
+exhausted (Sellers exhausted) after downtrend
+
+60
+00:04:01,069 --> 00:04:04,849
+and Demand increases (More Buyers come in).
+
+61
+00:04:04,849 --> 00:04:08,489
+This imbalance between supply and demand causes
+the market to rise.
+
+62
+00:04:08,489 --> 00:04:12,639
+Now let’s talk about the different types
+of Sign of Strength:
+
+63
+00:04:12,639 --> 00:04:17,690
+1) Down thrust:
+Down thrust is the bullish pin bar or the
+
+64
+00:04:17,690 --> 00:04:23,100
+Doji bar having an ultra-high volume or above
+average high volume.
+
+65
+00:04:23,100 --> 00:04:28,990
+The Spread of the down thrust bar is extremely
+low meanwhile the volume is relatively high.
+
+66
+00:04:28,990 --> 00:04:34,380
+VSA suggests that if the spread is low then
+the volume should also be low.
+
+67
+00:04:34,380 --> 00:04:38,950
+In this case there is a divergence between
+spread and volume which signifies that there
+
+68
+00:04:38,950 --> 00:04:51,480
+is more demand than the supply causing price
+to rise in near future.
+
+69
+00:04:51,480 --> 00:05:00,100
+2) Selling Climax:
+Selling Climax is the high spread bearish
+
+70
+00:05:00,100 --> 00:05:05,890
+candle closing well off the lows, having a
+noticeable downward rejection wick, projected
+
+71
+00:05:05,890 --> 00:05:09,290
+on ultra-high or above average high volume.
+
+72
+00:05:09,290 --> 00:05:14,170
+High spread rejection low volume anticipates
+that the market will rise because there is
+
+73
+00:05:14,170 --> 00:05:16,480
+more demand than supply.
+
+74
+00:05:16,480 --> 00:05:22,010
+Selling Climax has a downward wick whose size
+is approximately 25%-50% of the candle’s
+
+75
+00:05:22,010 --> 00:05:28,910
+body size.
+
+76
+00:05:28,910 --> 00:05:41,550
+3) Bearish Effort < Bearish Result:
+This is High Spread Bearish Candle whose spread
+
+77
+00:05:41,550 --> 00:05:46,270
+is larger than the previous candle’s spread
+but its volume is lower than the previous
+
+78
+00:05:46,270 --> 00:05:47,920
+candle’s volume.
+
+79
+00:05:47,920 --> 00:05:54,160
+VSA suggests that if there has been no effort
+made then there should not be any result.
+
+80
+00:05:54,160 --> 00:05:59,160
+This disagreement between Price and Volume
+increases demand and reduces supply causing
+
+81
+00:05:59,160 --> 00:06:01,440
+the market to rise in future.
+
+82
+00:06:01,440 --> 00:06:12,210
+An effort (volume) has not been made but there
+is a result (Spread).
+
+83
+00:06:12,210 --> 00:06:25,330
+4) Bearish Effort > Bearish Result:
+This is Low Spread Bearish Candle having spread
+
+84
+00:06:25,330 --> 00:06:30,130
+lower than the previous candle’s spread
+but its volume is higher than the previous
+
+85
+00:06:30,130 --> 00:06:31,360
+candle’s volume.
+
+86
+00:06:31,360 --> 00:06:36,210
+In this case there is a disagreement between
+volume and price resulting demand to become
+
+87
+00:06:36,210 --> 00:06:40,130
+more than the supply and causing price to
+rise in near future.
+
+88
+00:06:40,130 --> 00:06:49,870
+An effort (volume) has been made but there
+is no result (Spread).
+
+89
+00:06:49,870 --> 00:07:00,530
+5) No Supply Bar:
+This is a low spread bearish candle having
+
+90
+00:07:00,530 --> 00:07:05,690
+downward wick whose volume is lower than the
+previous two candles’ volumes.
+
+91
+00:07:05,690 --> 00:07:10,950
+No Supply bar means that there is lack of
+supply and demand is overpowering supply causing
+
+92
+00:07:10,950 --> 00:07:13,100
+price to rise in future.
+
+93
+00:07:13,100 --> 00:07:18,450
+Please note that No Supply Bar is a continuation
+signal not a reversal signal.
+
+94
+00:07:18,450 --> 00:07:24,020
+No supply bar is effective only if it is appears
+after bullish momentum or appears after Sign
+
+95
+00:07:24,020 --> 00:07:32,020
+of Strength in the direction of the trend.
+
+96
+00:07:32,020 --> 00:07:43,140
+6) Pseudo down thrust:
+Pseudo down thrust is the bullish pin bar
+
+97
+00:07:43,140 --> 00:07:48,920
+or doji bar having low spreads whose volume
+is lower than the previous two candles’
+
+98
+00:07:48,920 --> 00:07:49,920
+volumes.
+
+99
+00:07:49,920 --> 00:07:53,270
+This suggests that there is no supply or lack
+of supply.
+
+100
+00:07:53,270 --> 00:07:59,220
+Lack of supply means that demand will overpower
+supply causing price to rise in near future.
+
+101
+00:07:59,220 --> 00:08:04,940
+Please also note that Pseudo down thrust is
+a continuation signal not a reversal signal.
+
+102
+00:08:04,940 --> 00:08:09,550
+Pseudo down thrust is effective only if it
+is appears after bullish momentum or appears
+
+103
+00:08:09,550 --> 00:08:16,590
+after Sign of Strength in the direction of
+the trend.
+
+104
+00:08:16,590 --> 00:08:30,390
+7) Pseudo Inverse down thrust:
+Pseudo Inverse down thrust is an inverse bullish
+
+105
+00:08:30,390 --> 00:08:35,860
+pin bar (or doji bar) having low spreads and
+its volume is lower than the previous two
+
+106
+00:08:35,860 --> 00:08:37,390
+candles' volumes.
+
+107
+00:08:37,390 --> 00:08:40,669
+This suggests that there is no supply or lack
+of supply.
+
+108
+00:08:40,669 --> 00:08:46,210
+Lack of supply means that Demand will overpower
+supply causing price to rise in near future.
+
+109
+00:08:46,210 --> 00:08:51,990
+Again, Pseudo inverse down thrust is a continuation
+signal not a reversal signal.
+
+110
+00:08:51,990 --> 00:08:56,830
+Is effective only if it is appears after bullish
+momentum or appears after Sign of Strength
+
+111
+00:08:56,830 --> 00:09:04,270
+in the direction of the trend.
+
+112
+00:09:04,270 --> 00:09:14,770
+8) Inverse down thrust:
+Inverse down thrust is the inverse bullish
+
+113
+00:09:14,770 --> 00:09:21,000
+pin bar or doji bar having low spreads and
+projected on ultra-high or above average high
+
+114
+00:09:21,000 --> 00:09:22,140
+volume.
+
+115
+00:09:22,140 --> 00:09:27,450
+VSA suggests that if the spread is low then
+the volume should also be low.
+
+116
+00:09:27,450 --> 00:09:32,490
+In this case there is a disagreement between
+spread and volume which signifies that there
+
+117
+00:09:32,490 --> 00:09:42,000
+is more demand than the supply causing price
+to rise in near future.
+
+118
+00:09:42,000 --> 00:09:53,940
+9) Failed Effort Selling Climax:
+Failed Effort Selling Climax is the variation
+
+119
+00:09:53,940 --> 00:09:57,900
+of Selling Climax having no downward rejection
+wick.
+
+120
+00:09:57,900 --> 00:10:03,020
+It has higher spread than the previous candles
+and its volume is also higher than the previous
+
+121
+00:10:03,020 --> 00:10:04,020
+candle.
+
+122
+00:10:04,020 --> 00:10:08,650
+There is a disagreement between Volume and
+Price as compared to previous candles.
+
+123
+00:10:08,650 --> 00:10:15,510
+However, the next candle is bullish, absorbing
+the entire bearish effort.
+
+124
+00:10:15,510 --> 00:10:27,670
+Now let’s talk about different Types of
+SOW Sign of Weakness:
+
+125
+00:10:27,670 --> 00:10:33,570
+1) Up thrust:
+Up thrust is the bearish pin bar or doji bar
+
+126
+00:10:33,570 --> 00:10:37,200
+having an ultra-high volume or above average
+high volume.
+
+127
+00:10:37,200 --> 00:10:42,970
+The Spread of the up thrust bar is extremely
+low meanwhile the volume is relatively high.
+
+128
+00:10:42,970 --> 00:10:48,300
+VSA suggests that if the spread is low then
+the volume should also be low.
+
+129
+00:10:48,300 --> 00:10:52,820
+In this case there is a disagreement between
+spread and volume which signifies that there
+
+130
+00:10:52,820 --> 00:11:04,540
+is more supply than demand causing price to
+fall in near future.
+
+131
+00:11:04,540 --> 00:11:13,680
+2) Buying Climax:
+Buying Climax is the high spread bullish candle
+
+132
+00:11:13,680 --> 00:11:19,410
+closing well off the highs, having noticeable
+upward rejection wick, projected on ultra-high
+
+133
+00:11:19,410 --> 00:11:21,720
+or above average high volume.
+
+134
+00:11:21,720 --> 00:11:26,650
+High spread rejection low volume anticipates
+that the market will decrease soon because
+
+135
+00:11:26,650 --> 00:11:28,970
+there is more Supply than Demand.
+
+136
+00:11:28,970 --> 00:11:40,800
+Buying Climax has an upward wick representing
+25%-50% of the candle’s body size.
+
+137
+00:11:40,800 --> 00:11:52,880
+3) Bullish Effort < Bullish Result:
+This is a High Spread Bullish Candle whose
+
+138
+00:11:52,880 --> 00:11:58,430
+spread is larger than the previous candle’s
+spread but its volume is lower than the previous
+
+139
+00:11:58,430 --> 00:12:00,120
+candle’s volume.
+
+140
+00:12:00,120 --> 00:12:05,460
+VSA suggests that if there has been no effort
+made, then there should not be the result
+
+141
+00:12:05,460 --> 00:12:07,160
+(Spread).
+
+142
+00:12:07,160 --> 00:12:12,730
+This divergence between Price and Volume increases
+supply and reduces demand causing the market
+
+143
+00:12:12,730 --> 00:12:19,790
+to decrease in future.
+
+144
+00:12:19,790 --> 00:12:31,500
+4) Bullish Effort > Bullish Result:
+This is a Low Spread Bullish Candle having
+
+145
+00:12:31,500 --> 00:12:36,630
+spread lower than the previous candle’s
+spread but its volume is higher than the previous
+
+146
+00:12:36,630 --> 00:12:38,420
+candle’s volume.
+
+147
+00:12:38,420 --> 00:12:44,560
+VSA suggests that if an effort has been made
+then there must be a result (spread).
+
+148
+00:12:44,560 --> 00:12:49,300
+In this case there is a disagreement between
+volume and price resulting Supply to become
+
+149
+00:12:49,300 --> 00:12:58,589
+more than Demand and causing price to fall
+in near future.
+
+150
+00:12:58,589 --> 00:13:08,740
+5) No Demand Bar:
+This is a low spread bullish candle having
+
+151
+00:13:08,740 --> 00:13:13,560
+upward wick whose volume is lower than the
+previous two candles’ volumes.
+
+152
+00:13:13,560 --> 00:13:18,810
+No Demand bar means that there is lack of
+demand and supply is overpowering demand causing
+
+153
+00:13:18,810 --> 00:13:20,880
+price to fall in future.
+
+154
+00:13:20,880 --> 00:13:25,589
+Please note that No Demand is a continuation
+signal not a reversal signal.
+
+155
+00:13:25,589 --> 00:13:30,631
+No Demand is effective only if it is appears
+after bearish momentum or appears after SOW
+
+156
+00:13:30,631 --> 00:13:39,020
+Sign of Weakness in the direction of the trend.
+
+157
+00:13:39,020 --> 00:13:49,649
+6) Pseudo upthrust:
+Psuedo upthrust is the bearish pin bar or
+
+158
+00:13:49,649 --> 00:13:55,490
+doji bar having low spreads whose volume is
+lower than the previous two candles’ volumes.
+
+159
+00:13:55,490 --> 00:13:59,050
+This suggests that there is no demand or lack
+of demand.
+
+160
+00:13:59,050 --> 00:14:04,970
+Lack of demand means that supply will overpower
+demand causing price to fall in near future.
+
+161
+00:14:04,970 --> 00:14:09,790
+Also, Pseudo up thrust is a continuation signal
+and not a reversal signal.
+
+162
+00:14:09,790 --> 00:14:14,770
+So, is effective only if it is appears after
+bearish momentum or appears after SOW Sign
+
+163
+00:14:14,770 --> 00:14:24,940
+of Weakness in the direction of the trend.
+
+164
+00:14:24,940 --> 00:14:34,330
+7) Inverse Pseudo Up thrust:
+It is the inverse bearish pin bar (doji bar)
+
+165
+00:14:34,330 --> 00:14:35,720
+having low spreads.
+
+166
+00:14:35,720 --> 00:14:38,970
+Its volume is lower than the previous two
+candles' volumes..
+
+167
+00:14:38,970 --> 00:14:42,510
+This suggests that there is no demand or lack
+of demand.
+
+168
+00:14:42,510 --> 00:14:47,440
+Pseudo inverse upthrust is also a continuation
+signal and not a reversal signal.
+
+169
+00:14:47,440 --> 00:14:50,740
+Pseudo inverse up thrust is effective only
+if it is appears after bearish momentum
+
+170
+00:14:50,740 --> 00:15:07,460
+8) Inverse Up thrust:
+Inverse Up thrust is the inverse bearish pin
+
+171
+00:15:07,460 --> 00:15:12,740
+bar (or doji bar) having an ultra-high volume
+or above average high volume.
+
+172
+00:15:12,740 --> 00:15:18,570
+The Spread of the up thrust bar is extremely
+low meanwhile the volume is relatively high.
+
+173
+00:15:18,570 --> 00:15:23,930
+VSA suggests that if the spread is low then
+the volume should also be low.
+
+174
+00:15:23,930 --> 00:15:28,339
+In this case there is a disagreement between
+spread and volume which signifies that there
+
+175
+00:15:28,339 --> 00:15:40,130
+is more supply than the demand causing price
+to fall in near future.
+
+176
+00:15:40,130 --> 00:15:49,510
+9) Failed Buying Climax:
+Failed Effort Buying Climax is the variation
+
+177
+00:15:49,510 --> 00:15:53,300
+of Buying Climax having no upward rejection
+wick.
+
+178
+00:15:53,300 --> 00:15:58,260
+It has higher spread than the previous candle
+and its volume is also higher than the previous
+
+179
+00:15:58,260 --> 00:15:59,260
+candle.
+
+180
+00:15:59,260 --> 00:16:03,360
+There is a divergence between Price and Spread
+of the Failed Buying Climax as compared to
+
+181
+00:16:03,360 --> 00:16:04,900
+previous candles.
+
+182
+00:16:04,900 --> 00:16:13,180
+However, the next candle is bearish, absorbing
+the entire bullish effort.
+
+183
+00:16:13,180 --> 00:16:25,310
+I hope you realize that that the Volume Spread
+Analysis is a very powerful technique which
+
+184
+00:16:25,310 --> 00:16:29,380
+unfolds the true sentiment and order flow
+of the market.
+
+185
+00:16:29,380 --> 00:16:34,320
+If you enjoyed this type of content and want
+more Wyckoff and Volume Spread Analysis videos,
+
+186
+00:16:34,320 --> 00:16:38,890
+leave us a like to show your support and to
+help us with Youtube algorithm and in future
+
+187
+00:16:38,890 --> 00:16:43,930
+videos we’ll go even deeper with more advanced
+strategies that can be applied to day trading
+
+188
+00:16:43,930 --> 00:16:45,560
+and swing trading.
+
+189
+00:16:45,560 --> 00:16:47,070
+Until next time.
+

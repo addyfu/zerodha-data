@@ -1,0 +1,976 @@
+1
+00:00:00,080 --> 00:00:05,120
+the average true range is one of the
+
+2
+00:00:02,159 --> 00:00:07,319
+best indicators a day trader can use as
+
+3
+00:00:05,120 --> 00:00:10,240
+it basically tells you how much the
+
+4
+00:00:07,319 --> 00:00:13,160
+price of a market moves up and down the
+
+5
+00:00:10,240 --> 00:00:15,719
+ATR indicator is always moving it goes
+
+6
+00:00:13,160 --> 00:00:18,359
+up when price movements get bigger and
+
+7
+00:00:15,719 --> 00:00:21,439
+down when they get smaller every time a
+
+8
+00:00:18,359 --> 00:00:24,760
+new time candle forms the ATR gets a new
+
+9
+00:00:21,439 --> 00:00:27,199
+reading on a one minute chart the ATR is
+
+10
+00:00:24,760 --> 00:00:30,080
+figured out every single minute on a
+
+11
+00:00:27,199 --> 00:00:32,800
+daily chart the ATR is calculated once a
+
+12
+00:00:30,080 --> 00:00:35,160
+day so the ATR differs from time frame
+
+13
+00:00:32,800 --> 00:00:37,600
+to time frame all this readings are
+
+14
+00:00:35,160 --> 00:00:39,480
+connected to make a line and this lets
+
+15
+00:00:37,600 --> 00:00:42,960
+you see how the price swings have
+
+16
+00:00:39,480 --> 00:00:45,520
+changed over time the ATR has one main
+
+17
+00:00:42,960 --> 00:00:48,120
+job to tell you how much the price of a
+
+18
+00:00:45,520 --> 00:00:50,960
+market is really moving around when the
+
+19
+00:00:48,120 --> 00:00:53,600
+range is Big it means there's a lot of
+
+20
+00:00:50,960 --> 00:00:57,000
+volatility when the range is small it
+
+21
+00:00:53,600 --> 00:00:59,079
+aest price action is Cal the ATR is
+
+22
+00:00:57,000 --> 00:01:01,840
+basically a special kind of moving
+
+23
+00:00:59,079 --> 00:01:05,400
+average of the the true range most of
+
+24
+00:01:01,840 --> 00:01:08,159
+the time Traders use the 14 period ATR
+
+25
+00:01:05,400 --> 00:01:10,159
+but you can use shorter or longer ATR
+
+26
+00:01:08,159 --> 00:01:13,119
+values depending on the time frame
+
+27
+00:01:10,159 --> 00:01:16,520
+you're looking at a longer ATR will be
+
+28
+00:01:13,119 --> 00:01:18,880
+slower and give fewer trading signals a
+
+29
+00:01:16,520 --> 00:01:22,400
+shorter ATR will give more trading
+
+30
+00:01:18,880 --> 00:01:24,159
+signals and make you trade more often
+
+31
+00:01:22,400 --> 00:01:27,799
+here's how to read the average true
+
+32
+00:01:24,159 --> 00:01:30,119
+range indicator first the ATR is a tool
+
+33
+00:01:27,799 --> 00:01:32,520
+for filtering trades based on how how
+
+34
+00:01:30,119 --> 00:01:35,439
+much the price is moving if you like
+
+35
+00:01:32,520 --> 00:01:38,360
+markets with big swings the ATR can help
+
+36
+00:01:35,439 --> 00:01:41,159
+you avoid markets that are too calm if
+
+37
+00:01:38,360 --> 00:01:43,159
+you prefer quiet markets the ATR can
+
+38
+00:01:41,159 --> 00:01:45,680
+help you stay away from times that are
+
+39
+00:01:43,159 --> 00:01:48,320
+too wild for you but it's important to
+
+40
+00:01:45,680 --> 00:01:50,840
+remember that the ATR doesn't tell you
+
+41
+00:01:48,320 --> 00:01:53,600
+which way the price is going by looking
+
+42
+00:01:50,840 --> 00:01:56,759
+at the default ATR indicator you can't
+
+43
+00:01:53,600 --> 00:01:59,399
+tell what the main trend is the ATR only
+
+44
+00:01:56,759 --> 00:02:01,719
+measures how big the range is it's not
+
+45
+00:01:59,399 --> 00:02:04,560
+the best for making trading signals on
+
+46
+00:02:01,719 --> 00:02:06,119
+its own I have a solution for this I'll
+
+47
+00:02:04,560 --> 00:02:09,399
+explain it in a few
+
+48
+00:02:06,119 --> 00:02:12,319
+moments now the market moves in Cycles
+
+49
+00:02:09,399 --> 00:02:15,560
+it expands and contracts and moves from
+
+50
+00:02:12,319 --> 00:02:18,160
+periods of rest to periods of activity
+
+51
+00:02:15,560 --> 00:02:21,319
+and the ATR is your key to understanding
+
+52
+00:02:18,160 --> 00:02:23,959
+these Cycles when the ATR is low when
+
+53
+00:02:21,319 --> 00:02:26,200
+it's at its lowest values it's a sign
+
+54
+00:02:23,959 --> 00:02:28,519
+that the market is in a phase of
+
+55
+00:02:26,200 --> 00:02:31,840
+consolidation this is the Market's rest
+
+56
+00:02:28,519 --> 00:02:34,480
+phase volatil is low and there's not a
+
+57
+00:02:31,840 --> 00:02:36,760
+lot of action happening this phase of
+
+58
+00:02:34,480 --> 00:02:40,080
+consolidation is often seen in chart
+
+59
+00:02:36,760 --> 00:02:42,920
+patterns like rectangles triangles or
+
+60
+00:02:40,080 --> 00:02:45,080
+Flags the price is essentially coiling
+
+61
+00:02:42,920 --> 00:02:47,120
+up getting ready to move in One
+
+62
+00:02:45,080 --> 00:02:49,959
+Direction or the other this is your
+
+63
+00:02:47,120 --> 00:02:52,640
+signal to be on high alert so when you
+
+64
+00:02:49,959 --> 00:02:55,159
+see the ATR at its lowest values you
+
+65
+00:02:52,640 --> 00:02:57,000
+start to prepare you look for Clues as
+
+66
+00:02:55,159 --> 00:02:59,000
+to which direction the market might
+
+67
+00:02:57,000 --> 00:03:01,519
+break you look at things like the
+
+68
+00:02:59,000 --> 00:03:04,840
+overall trend key supply and demand
+
+69
+00:03:01,519 --> 00:03:06,760
+areas volume or Candlestick formations
+
+70
+00:03:04,840 --> 00:03:08,239
+you use these to get a sense of the
+
+71
+00:03:06,760 --> 00:03:11,200
+Market's
+
+72
+00:03:08,239 --> 00:03:13,519
+intentions if the prevailing trend is up
+
+73
+00:03:11,200 --> 00:03:17,040
+and the price is consolidating above a
+
+74
+00:03:13,519 --> 00:03:19,920
+key demand area with a low ATR you might
+
+75
+00:03:17,040 --> 00:03:22,200
+anticipate a bullish breakout the market
+
+76
+00:03:19,920 --> 00:03:25,080
+is catching its bread before the next
+
+77
+00:03:22,200 --> 00:03:27,560
+leg up on the other hand if the
+
+78
+00:03:25,080 --> 00:03:30,480
+prevailing trend is down and the price
+
+79
+00:03:27,560 --> 00:03:33,720
+is consolidating below a key resistance
+
+80
+00:03:30,480 --> 00:03:36,680
+level with a low ATR we might anticipate
+
+81
+00:03:33,720 --> 00:03:39,920
+a bearish breakdown this is the power of
+
+82
+00:03:36,680 --> 00:03:42,480
+using the ATR to identify phases of
+
+83
+00:03:39,920 --> 00:03:44,920
+consolidation it gives you a heads up
+
+84
+00:03:42,480 --> 00:03:47,200
+that a big move might be coming and it
+
+85
+00:03:44,920 --> 00:03:49,760
+allows you to prepare
+
+86
+00:03:47,200 --> 00:03:52,519
+accordingly the longer the ATR remains
+
+87
+00:03:49,760 --> 00:03:55,400
+at low values the more powerful the
+
+88
+00:03:52,519 --> 00:03:59,079
+following move is likely to be so if you
+
+89
+00:03:55,400 --> 00:04:01,799
+see an extended period of low ATR values
+
+90
+00:03:59,079 --> 00:04:04,560
+a prolonged phase of consolidation be
+
+91
+00:04:01,799 --> 00:04:07,360
+ready for a potentially large move this
+
+92
+00:04:04,560 --> 00:04:09,280
+is where the phase of expansion comes in
+
+93
+00:04:07,360 --> 00:04:12,280
+once the market breaks out of its
+
+94
+00:04:09,280 --> 00:04:15,079
+consolidation phase it enters a phase of
+
+95
+00:04:12,280 --> 00:04:18,120
+expansion this is when the ATR starts to
+
+96
+00:04:15,079 --> 00:04:20,440
+rise indicating increasing volatility
+
+97
+00:04:18,120 --> 00:04:23,000
+and larger price moves if you've
+
+98
+00:04:20,440 --> 00:04:25,199
+anticipated the direction correctly you
+
+99
+00:04:23,000 --> 00:04:27,400
+can now look to enter trades in the
+
+100
+00:04:25,199 --> 00:04:30,520
+direction of the breakout aiming to
+
+101
+00:04:27,400 --> 00:04:33,759
+capture a chunk of this expansionary
+
+102
+00:04:30,520 --> 00:04:35,919
+move as I said the average true range
+
+103
+00:04:33,759 --> 00:04:38,720
+doesn't tell you which way the market is
+
+104
+00:04:35,919 --> 00:04:41,720
+going if the ATR is going up on the
+
+105
+00:04:38,720 --> 00:04:44,320
+chart it doesn't mean the trend is up so
+
+106
+00:04:41,720 --> 00:04:46,120
+instead of using the default ATR you
+
+107
+00:04:44,320 --> 00:04:49,479
+could use other indicators that
+
+108
+00:04:46,120 --> 00:04:52,280
+incorporate ATR into their calculations
+
+109
+00:04:49,479 --> 00:04:54,680
+the first one is the chandelier exit at
+
+110
+00:04:52,280 --> 00:04:57,240
+its core the chandelier exit is a
+
+111
+00:04:54,680 --> 00:04:59,240
+volatility based indicator that will
+
+112
+00:04:57,240 --> 00:05:02,240
+help you determine where to place your
+
+113
+00:04:59,240 --> 00:05:05,400
+stop loss orders it does this by using
+
+114
+00:05:02,240 --> 00:05:08,479
+the ATR and a multiplier this is a
+
+115
+00:05:05,400 --> 00:05:11,080
+dynamic indicator meaning it adjusts its
+
+116
+00:05:08,479 --> 00:05:14,280
+levels based on the recent price action
+
+117
+00:05:11,080 --> 00:05:17,400
+and volatility as the price moves up the
+
+118
+00:05:14,280 --> 00:05:20,280
+chandelier exit moves up with it always
+
+119
+00:05:17,400 --> 00:05:23,680
+maintaining a set distance based on the
+
+120
+00:05:20,280 --> 00:05:26,160
+ATR if the price starts to fall and hits
+
+121
+00:05:23,680 --> 00:05:29,160
+the chandelier level it's a signal that
+
+122
+00:05:26,160 --> 00:05:30,600
+the trend may be reversing and it's time
+
+123
+00:05:29,160 --> 00:05:33,919
+to exit exit the
+
+124
+00:05:30,600 --> 00:05:37,360
+trade the chandelier exit plots a single
+
+125
+00:05:33,919 --> 00:05:39,560
+line on your chart either above or below
+
+126
+00:05:37,360 --> 00:05:42,800
+the price action depending on whether
+
+127
+00:05:39,560 --> 00:05:45,880
+you're looking at a long or short trade
+
+128
+00:05:42,800 --> 00:05:49,039
+when the price hits or crosses this line
+
+129
+00:05:45,880 --> 00:05:51,720
+it's a signal to exit your trade the key
+
+130
+00:05:49,039 --> 00:05:54,680
+is in the settings you get to decide two
+
+131
+00:05:51,720 --> 00:05:58,840
+inputs the length of the ATR period
+
+132
+00:05:54,680 --> 00:06:01,759
+usually 14 or 22 and the ATR multiplier
+
+133
+00:05:58,840 --> 00:06:04,280
+usually between two and four a higher
+
+134
+00:06:01,759 --> 00:06:06,800
+multiplier will place your chandelier
+
+135
+00:06:04,280 --> 00:06:09,319
+further away from the price giving your
+
+136
+00:06:06,800 --> 00:06:11,960
+trade more room to breathe but also
+
+137
+00:06:09,319 --> 00:06:14,479
+potentially leading to larger losses if
+
+138
+00:06:11,960 --> 00:06:16,800
+the trade goes against you a lower
+
+139
+00:06:14,479 --> 00:06:19,800
+multiplier will keep your stop- loss
+
+140
+00:06:16,800 --> 00:06:21,759
+tighter protecting your Capital but also
+
+141
+00:06:19,800 --> 00:06:24,680
+potentially leading to more frequent
+
+142
+00:06:21,759 --> 00:06:27,360
+stops for day trading you could start
+
+143
+00:06:24,680 --> 00:06:30,599
+with an ATR period and a multiplier of
+
+144
+00:06:27,360 --> 00:06:33,080
+two then you back test it's all about
+
+145
+00:06:30,599 --> 00:06:36,240
+finding that sweet spot that aligns with
+
+146
+00:06:33,080 --> 00:06:38,120
+your strategy and risk tolerance the
+
+147
+00:06:36,240 --> 00:06:40,360
+beauty of this indicator is its
+
+148
+00:06:38,120 --> 00:06:43,000
+Simplicity it can be used with any
+
+149
+00:06:40,360 --> 00:06:45,800
+trading strategy here's a basic setup
+
+150
+00:06:43,000 --> 00:06:48,080
+for a long trade you identify a market
+
+151
+00:06:45,800 --> 00:06:50,440
+that's in a clear uptrend and looks
+
+152
+00:06:48,080 --> 00:06:53,039
+poised to continue you wait for a
+
+153
+00:06:50,440 --> 00:06:55,280
+pullback or consolidation and then look
+
+154
+00:06:53,039 --> 00:06:57,440
+for a bullish entry signal like a
+
+155
+00:06:55,280 --> 00:07:00,000
+breakout or a bullish Candlestick
+
+156
+00:06:57,440 --> 00:07:02,240
+pattern once you're in the trade you
+
+157
+00:07:00,000 --> 00:07:05,599
+place your stop loss at the current
+
+158
+00:07:02,240 --> 00:07:08,280
+chandelier exit level as the price moves
+
+159
+00:07:05,599 --> 00:07:11,199
+up the chandelier exit will move up with
+
+160
+00:07:08,280 --> 00:07:14,039
+it effectively trailing your stop loss
+
+161
+00:07:11,199 --> 00:07:17,160
+to lock in profits if the price hits the
+
+162
+00:07:14,039 --> 00:07:19,560
+chandelier level you exit the trade it's
+
+163
+00:07:17,160 --> 00:07:22,479
+a simple but effective way to let your
+
+164
+00:07:19,560 --> 00:07:25,240
+winners run while also protecting your
+
+165
+00:07:22,479 --> 00:07:27,800
+downside and of course like any
+
+166
+00:07:25,240 --> 00:07:31,160
+indicator the chandelier exit isn't
+
+167
+00:07:27,800 --> 00:07:34,000
+perfect F signals will happen especially
+
+168
+00:07:31,160 --> 00:07:36,160
+in choppy or sideways markets that's why
+
+169
+00:07:34,000 --> 00:07:39,080
+it's important to use it in conjunction
+
+170
+00:07:36,160 --> 00:07:40,639
+with other forms of analysis like price
+
+171
+00:07:39,080 --> 00:07:43,520
+action and key
+
+172
+00:07:40,639 --> 00:07:45,879
+levels the ATR bands indicator is
+
+173
+00:07:43,520 --> 00:07:48,319
+another volatility based tool which
+
+174
+00:07:45,879 --> 00:07:50,960
+creates bands around the price action
+
+175
+00:07:48,319 --> 00:07:54,120
+using the average true range this
+
+176
+00:07:50,960 --> 00:07:56,319
+indicator contains two bands that sit a
+
+177
+00:07:54,120 --> 00:07:58,919
+certain distance away from the price
+
+178
+00:07:56,319 --> 00:08:02,120
+action this distance is determined by
+
+179
+00:07:58,919 --> 00:08:04,879
+the ATR and a multiplier think of it
+
+180
+00:08:02,120 --> 00:08:07,680
+like a river with two Banks the price
+
+181
+00:08:04,879 --> 00:08:10,360
+action is the water and the ATR bands
+
+182
+00:08:07,680 --> 00:08:13,280
+are the river banks containing and
+
+183
+00:08:10,360 --> 00:08:16,479
+guiding the flow the width of the ATR
+
+184
+00:08:13,280 --> 00:08:19,199
+bands is dynamic it changes based on the
+
+185
+00:08:16,479 --> 00:08:22,120
+price volatility when the price is more
+
+186
+00:08:19,199 --> 00:08:24,759
+volatile the ATR will be higher and the
+
+187
+00:08:22,120 --> 00:08:27,879
+bands will be wider when the price is
+
+188
+00:08:24,759 --> 00:08:30,000
+less volatile the ATR will be lower and
+
+189
+00:08:27,879 --> 00:08:32,399
+the bands will be narrower
+
+190
+00:08:30,000 --> 00:08:34,760
+So based on how much the price has been
+
+191
+00:08:32,399 --> 00:08:37,039
+moving the indicator offers you a
+
+192
+00:08:34,760 --> 00:08:40,240
+reasonable range for where the price
+
+193
+00:08:37,039 --> 00:08:43,360
+might go next it's all about watching
+
+194
+00:08:40,240 --> 00:08:45,279
+the price action in relation to the band
+
+195
+00:08:43,360 --> 00:08:47,839
+when the price is trading close to the
+
+196
+00:08:45,279 --> 00:08:50,680
+upper band it suggests that the market
+
+197
+00:08:47,839 --> 00:08:53,120
+is in a strong uptrend if it touches the
+
+198
+00:08:50,680 --> 00:08:55,600
+upper band this could be a signal to
+
+199
+00:08:53,120 --> 00:08:58,680
+consider taking profits or to be
+
+200
+00:08:55,600 --> 00:09:01,120
+cautious about new long positions on the
+
+201
+00:08:58,680 --> 00:09:03,839
+flip side when the price is trading
+
+202
+00:09:01,120 --> 00:09:06,640
+close to the lower band it suggests that
+
+203
+00:09:03,839 --> 00:09:08,959
+the market is in a strong downtrend when
+
+204
+00:09:06,640 --> 00:09:11,560
+price touches the lower band this could
+
+205
+00:09:08,959 --> 00:09:14,160
+be a signal to consider exiting short
+
+206
+00:09:11,560 --> 00:09:17,279
+positions or to be on the lookout for a
+
+207
+00:09:14,160 --> 00:09:19,839
+potential bounce and of course the ATR
+
+208
+00:09:17,279 --> 00:09:22,240
+bands have their limitations they're a
+
+209
+00:09:19,839 --> 00:09:25,720
+lagging indicator meaning they're based
+
+210
+00:09:22,240 --> 00:09:28,279
+on past price action so take the time to
+
+211
+00:09:25,720 --> 00:09:30,519
+understand how the indicator works and
+
+212
+00:09:28,279 --> 00:09:32,959
+experiment with different settings like
+
+213
+00:09:30,519 --> 00:09:35,760
+the ATR period and the
+
+214
+00:09:32,959 --> 00:09:38,079
+multiplier super trend is another ATR
+
+215
+00:09:35,760 --> 00:09:40,560
+based indicator that helps you determine
+
+216
+00:09:38,079 --> 00:09:43,920
+the direction of the trend and potential
+
+217
+00:09:40,560 --> 00:09:46,399
+buy or sell signals when reading super
+
+218
+00:09:43,920 --> 00:09:49,160
+Trend indicator it's all about watching
+
+219
+00:09:46,399 --> 00:09:51,519
+for changes in color and position
+
+220
+00:09:49,160 --> 00:09:54,640
+relative to the price when the super
+
+221
+00:09:51,519 --> 00:09:57,839
+trend line is green and below the price
+
+222
+00:09:54,640 --> 00:10:00,760
+it's pointing North signaling a buy or
+
+223
+00:09:57,839 --> 00:10:03,880
+an uptrend when it's red and above the
+
+224
+00:10:00,760 --> 00:10:07,160
+price it's pointing South signaling a
+
+225
+00:10:03,880 --> 00:10:10,279
+cell or a downtrend I like it because it
+
+226
+00:10:07,160 --> 00:10:12,839
+gives you a clear visual representation
+
+227
+00:10:10,279 --> 00:10:16,600
+of the trend by using a combination of
+
+228
+00:10:12,839 --> 00:10:18,880
+the ATR and a multiplier that multiplier
+
+229
+00:10:16,600 --> 00:10:21,600
+is a way to adjust the sensitivity of
+
+230
+00:10:18,880 --> 00:10:24,120
+the indicator as long as the price
+
+231
+00:10:21,600 --> 00:10:27,160
+remains above a green super Trend or
+
+232
+00:10:24,120 --> 00:10:29,519
+below a red super Trend the trend is
+
+233
+00:10:27,160 --> 00:10:31,959
+considered intact this can help you you
+
+234
+00:10:29,519 --> 00:10:34,519
+ride trends for longer potentially
+
+235
+00:10:31,959 --> 00:10:37,279
+increasing your profits if you make a
+
+236
+00:10:34,519 --> 00:10:40,160
+habit of Consulting the ATR before every
+
+237
+00:10:37,279 --> 00:10:42,720
+trade you'll be a step ahead of the game
+
+238
+00:10:40,160 --> 00:10:45,800
+so take the time to understand how the
+
+239
+00:10:42,720 --> 00:10:47,920
+indicator Works how to read its signals
+
+240
+00:10:45,800 --> 00:10:50,160
+and try to incorporate it into your
+
+241
+00:10:47,920 --> 00:10:52,519
+trading plan and if you need some
+
+242
+00:10:50,160 --> 00:10:55,440
+strategies that work perfectly with the
+
+243
+00:10:52,519 --> 00:10:58,440
+ATR you definitely must check out these
+
+244
+00:10:55,440 --> 00:10:58,440
+videos
+

@@ -1,0 +1,1518 @@
+1
+00:00:00,240 --> 00:00:07,120
+Renko charts can be your biggest edge in scalping 
+or day trading, if you know the right strategy! 
+
+2
+00:00:07,120 --> 00:00:13,040
+Well, this trading guide rewrites the rules, 
+giving you the ultimate Renko strategy to  
+
+3
+00:00:13,040 --> 00:00:18,400
+dominate any market.
+ 
+Renko charts present  
+
+4
+00:00:18,400 --> 00:00:24,800
+a distinctive way of plotting price movement.
+Instead of using time-based candles, they rely  
+
+5
+00:00:24,800 --> 00:00:31,840
+on discrete price increments, forming bricks. 
+ 
+This process strips away a good deal of noise,  
+
+6
+00:00:31,840 --> 00:00:38,560
+since each Renko brick forms only after 
+price has moved a set amount up or down. 
+
+7
+00:00:38,560 --> 00:00:45,680
+You will very soon find that Renko charts 
+highlight trends and consolidations more clearly. 
+
+8
+00:00:45,680 --> 00:00:51,440
+To illustrate, imagine you decide 
+on a brick size of $1 per brick. 
+
+9
+00:00:51,440 --> 00:00:57,520
+If the market is steadily climbing, each 
+time the price advances $1 beyond the most  
+
+10
+00:00:57,520 --> 00:01:03,920
+recent completed brick, a new brick prints.
+If the price fails to move in that increment,  
+
+11
+00:01:03,920 --> 00:01:07,520
+no new brick appears.
+This helps you identify  
+
+12
+00:01:07,520 --> 00:01:12,640
+well-defined waves in the market.
+ 
+On a regular candlestick chart,  
+
+13
+00:01:12,640 --> 00:01:20,000
+each bar prints at fixed intervals (like every 
+five minutes), even if price is relatively flat. 
+
+14
+00:01:20,000 --> 00:01:26,000
+With Renko charts, nothing updates unless the 
+market accomplishes a full brick’s worth of  
+
+15
+00:01:26,000 --> 00:01:32,160
+movement. This means that in an extremely 
+thin or sideways market, you might see a  
+
+16
+00:01:32,160 --> 00:01:40,560
+slow pace of brick formation, whereas in a highly 
+volatile environment, the chart can move rapidly.
+  
+
+17
+00:01:40,560 --> 00:01:46,960
+Renko method accentuates straightforward 
+patterns like higher highs or lower lows. 
+
+18
+00:01:46,960 --> 00:01:53,360
+A series of consecutive bricks of the same 
+color (and direction) clearly reveals patterns  
+
+19
+00:01:53,360 --> 00:02:00,000
+of momentum, while color flips serve as 
+direct signals of a potential reversal. 
+  
+
+20
+00:02:00,000 --> 00:02:05,200
+Because each brick has the same size, 
+a cluster of bricks all pointing in the  
+
+21
+00:02:05,200 --> 00:02:11,040
+same direction can reflect a robust trend.
+Any deviation from this pattern can be a  
+
+22
+00:02:11,040 --> 00:02:17,760
+cautionary sign that momentum is changing.
+ 
+Renko’s fundamental purpose is to simplify. 
+
+23
+00:02:17,760 --> 00:02:24,560
+Instead of drawing a candle every X minutes, 
+you see a brick only if price justifies it. 
+
+24
+00:02:24,560 --> 00:02:28,160
+That can be helpful for those 
+who want to identify direction  
+
+25
+00:02:28,160 --> 00:02:34,880
+quickly or who prefer mechanical systems.
+ 
+Of course, some nuance remains. If brick size  
+
+26
+00:02:34,880 --> 00:02:41,360
+is set too small, you might get a choppy chart 
+that prints bricks on minimal fluctuations. 
+
+27
+00:02:41,360 --> 00:02:46,582
+If it’s set too large, you might fail to 
+capture subtle intraday turning points. 
+
+28
+00:02:46,582 --> 00:02:46,677
+Thus, picking a suitable brick size is crucial. 
+That’s a key principle we’ll explore later.
+
+29
+00:02:46,677 --> 00:02:46,837
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CHAPTER 2 – ADVANTAGES AND LIMITATIONS 
+
+30
+00:02:46,837 --> 00:02:50,160
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 
+ 
+Renko charts offer several unique advantages  
+
+31
+00:02:50,160 --> 00:02:54,160
+for reading market direction.
+One of the primary benefits is  
+
+32
+00:02:54,160 --> 00:03:00,880
+the filtering of minor market fluctuations.
+A standard time-based chart often shows you  
+
+33
+00:03:00,880 --> 00:03:07,360
+every tick or bar, leading to “noise” that can 
+affect your interpretation of price movement. 
+
+34
+00:03:07,360 --> 00:03:13,840
+By contrast, Renko bricks appear only if 
+the market moves beyond a certain threshold,  
+
+35
+00:03:13,840 --> 00:03:20,320
+effectively smoothing out small, random wiggles 
+that do not add meaningful information. 
+  
+
+36
+00:03:20,320 --> 00:03:25,680
+This smoothing effect can be invaluable 
+when attempting to see the overall trend. 
+
+37
+00:03:25,680 --> 00:03:32,240
+For instance, if you are scanning for a consistent 
+uptrend, a Renko chart can reveal it through a  
+
+38
+00:03:32,240 --> 00:03:39,760
+stacked run of green or upward-pointing bricks.
+ 
+Another key advantage rests in how well Renko  
+
+39
+00:03:39,760 --> 00:03:45,840
+illustrates clear support and resistance zones.
+Because the chart does not print new bricks for  
+
+40
+00:03:45,840 --> 00:03:50,880
+every price tick, it often forms 
+distinct patterns, where price has  
+
+41
+00:03:50,880 --> 00:03:56,640
+trouble rising above or dipping below.
+Suppose you see a region where multiple  
+
+42
+00:03:56,640 --> 00:04:02,640
+bricks top out at roughly the same level, 
+forming an obvious horizontal boundary. 
+
+43
+00:04:02,640 --> 00:04:08,960
+You might interpret that boundary as a robust 
+area of supply or resistance, where sellers have  
+
+44
+00:04:08,960 --> 00:04:14,320
+repeatedly stopped further upside attempts. 
+ 
+Also, you may also see zones where several  
+
+45
+00:04:14,320 --> 00:04:19,680
+bricks bounced near the same price, 
+signifying strong support or demand. 
+
+46
+00:04:19,680 --> 00:04:25,680
+Once again, the Renko process of printing 
+bricks only on significant moves can make  
+
+47
+00:04:25,680 --> 00:04:30,400
+these levels more apparent than on 
+a traditional candlestick chart.
+  
+
+48
+00:04:30,960 --> 00:04:37,280
+However, there are limitations. One major 
+caution is that the “timeless” structure means  
+
+49
+00:04:37,280 --> 00:04:43,840
+you cannot see how long a move took to develop.
+Rapid fluctuations might produce multiple bricks  
+
+50
+00:04:43,840 --> 00:04:51,360
+in a short time, while a slow, meandering market 
+might barely print any new bricks for hours. 
+  
+
+51
+00:04:51,360 --> 00:04:56,320
+Also, selecting the wrong brick 
+size can undermine Renko’s benefits. 
+
+52
+00:04:56,320 --> 00:04:59,920
+If your brick size is set 
+too small in a choppy market,  
+
+53
+00:04:59,920 --> 00:05:04,880
+you can get frequent flips in brick 
+color, generating false signals. 
+
+54
+00:05:04,880 --> 00:05:11,120
+If your brick size is too big, important moves 
+may remain hidden behind the large threshold. 
+  
+
+55
+00:05:11,120 --> 00:05:17,760
+Thus, calibration is crucial, taking into account 
+average true range, typical daily price movement,  
+
+56
+00:05:17,760 --> 00:05:22,000
+or your personal style.
+For day trading and scalping,  
+
+57
+00:05:22,000 --> 00:05:27,120
+you might might select a very small 
+brick size to capture intraday swings. 
+
+58
+00:05:27,120 --> 00:05:33,880
+A swing trader looking at multi-day moves may 
+pick a larger brick size for a wider lens.
+
+59
+00:05:33,880 --> 00:05:34,038
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CHAPTER 3 – RENKO CHART CONSTRUCTION 
+
+60
+00:05:34,038 --> 00:05:36,880
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 
+To trade using Renko, you first must  
+
+61
+00:05:36,880 --> 00:05:40,052
+understand how these charts are constructed.
+By default, many charting programs let you  
+
+62
+00:05:40,052 --> 00:05:42,000
+specify a fixed brick size.
+Suppose you set 10 pips for  
+
+63
+00:05:42,000 --> 00:05:48,000
+a currency pair or 1$ for a stock.
+That means a new “up” brick draws  
+
+64
+00:05:48,000 --> 00:05:53,760
+if the price climbs 10 pips (or $1) 
+above the previous brick’s high.
+  
+
+65
+00:05:53,760 --> 00:06:00,320
+A “down” brick forms if it declines that 
+same threshold below the prior brick’s low. 
+
+66
+00:06:00,320 --> 00:06:06,160
+Because the threshold is absolute, you ignore 
+time-based intervals such as 5-minute or daily  
+
+67
+00:06:06,160 --> 00:06:13,280
+bars, focusing purely on price increments. 
+ 
+Most platforms automate all these mechanics,  
+
+68
+00:06:13,280 --> 00:06:18,800
+so your main choice is the brick size.
+Some traders prefer a fixed size. 
+
+69
+00:06:18,800 --> 00:06:24,640
+For example, for a stock that 
+usually moves $1 to $2 intraday,  
+
+70
+00:06:24,640 --> 00:06:31,200
+you might pick a $0.10 or $0.20 brick.
+For a currency pair, you might choose 5  
+
+71
+00:06:31,200 --> 00:06:38,160
+or 10 pips, depending on typical volatility. 
+ 
+Again, if you pick an excessively small setting  
+
+72
+00:06:38,160 --> 00:06:43,440
+and the market is jumpy, you will see 
+bricks flipping up and down constantly,  
+
+73
+00:06:43,440 --> 00:06:48,240
+which defeats the smoothing advantage.
+If your brick size is too large,  
+
+74
+00:06:48,240 --> 00:06:54,720
+you risk losing detail in your analysis 
+ 
+A widely adopted Renko approach is to use  
+
+75
+00:06:54,720 --> 00:07:01,680
+Average True Range for determining brick size.
+ATR is a measure of volatility, typically  
+
+76
+00:07:01,680 --> 00:07:07,120
+taking an average of recent true ranges 
+(the difference between high and low). 
+
+77
+00:07:07,120 --> 00:07:11,040
+By tying brick size to the 
+market’s current volatility,  
+
+78
+00:07:11,040 --> 00:07:16,720
+you allow the chart to adapt dynamically. 
+ 
+For instance, if a currency pair becomes  
+
+79
+00:07:16,720 --> 00:07:23,840
+more volatile, your ATR-based brick size 
+might increase, so it still filters out  
+
+80
+00:07:23,840 --> 00:07:30,880
+small random movements, but captures the newly 
+expanded price fluctuations more systematically. 
+
+81
+00:07:30,880 --> 00:07:37,680
+In a quiet environment, brick size shrinks so 
+that you do not end up with a motionless chart. 
+  
+
+82
+00:07:37,680 --> 00:07:43,360
+This approach can be more stable, as the 
+brick size adjusts to new conditions. 
+
+83
+00:07:43,360 --> 00:07:49,120
+A purely fixed size might be workable 
+for day trading, but if that instrument’s  
+
+84
+00:07:49,120 --> 00:07:54,800
+volatility changes drastically, you 
+might have to keep manually adjusting.
+  
+
+85
+00:07:54,800 --> 00:08:00,240
+When adopting an ATR-based approach, 
+you also have to accept that the renko  
+
+86
+00:08:00,240 --> 00:08:06,960
+chart might shift as ATR changes.
+That is, if ATR was 10 pips for a  
+
+87
+00:08:06,960 --> 00:08:12,800
+currency pair last week, but then rose 
+to 15 pips this week, your new bricks  
+
+88
+00:08:12,800 --> 00:08:17,440
+might appear somewhat differently.
+ 
+Now, you could also choose to see  
+
+89
+00:08:17,440 --> 00:08:21,840
+the wicks on Renko charts.
+Wicks appear as thin lines  
+
+90
+00:08:21,840 --> 00:08:26,400
+above or below each brick.
+These small lines might reveal  
+
+91
+00:08:26,400 --> 00:08:31,760
+sudden pushes or quick rejections 
+during the formation of each brick.
+  
+
+92
+00:08:31,760 --> 00:08:38,080
+Some prefer clean bricks without wicks, 
+because they want to remove all small noise. 
+
+93
+00:08:38,080 --> 00:08:43,280
+Others want to see every flicker of 
+price, believing that wicks hold big  
+
+94
+00:08:43,280 --> 00:08:48,880
+clues about supply or demand shifts.
+A wick can mark a moment when buyers  
+
+95
+00:08:48,880 --> 00:08:53,680
+or sellers took charge for a 
+short span, then lost their grip. 
+
+96
+00:08:53,680 --> 00:08:57,840
+That is why wicks can show 
+dominance on a smaller time scale.
+
+97
+00:08:57,840 --> 00:08:58,200
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CHAPTER 4 – PRICE ACTION STRATEGIES 
+
+98
+00:08:58,200 --> 00:09:01,440
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 
+Renko charts resonate strongly with price  
+
+99
+00:09:01,440 --> 00:09:08,000
+action traders who want to focus on raw movement.
+One fundamental technique is to look for a series  
+
+100
+00:09:08,000 --> 00:09:14,080
+of consecutive bricks of the same color, 
+which can signal a trending condition. 
+
+101
+00:09:14,080 --> 00:09:19,680
+For example, if you see four or five green 
+bricks in a row with no interruption,  
+
+102
+00:09:19,680 --> 00:09:26,080
+that might reflect a strong bullish push.
+If you identify a well-defined uptrend, you can  
+
+103
+00:09:26,080 --> 00:09:32,800
+look to buy on small pullbacks, anticipating 
+that the primary direction will continue.
+  
+
+104
+00:09:32,800 --> 00:09:39,200
+Another method is identifying breakout points.
+Because Renko charts clarify support and  
+
+105
+00:09:39,200 --> 00:09:44,640
+resistance, you might mark horizontal 
+lines where price repeatedly failed  
+
+106
+00:09:44,640 --> 00:09:49,680
+to surpass a certain brick level.
+Suppose you spot a zone where multiple  
+
+107
+00:09:49,680 --> 00:09:56,320
+bricks reversed to the downside around the same 
+price area. On a candlestick chart, that might  
+
+108
+00:09:56,320 --> 00:10:02,720
+have been a choppy region, but on Renko, it 
+looks like a distinct “ceiling” of bricks. 
+
+109
+00:10:02,720 --> 00:10:07,360
+If the price eventually breaks above 
+that ceiling, you interpret it as a  
+
+110
+00:10:07,360 --> 00:10:13,920
+breakout with less noise to distract you. 
+ 
+Additionally, some price action traders watch  
+
+111
+00:10:13,920 --> 00:10:20,880
+for color flips to identify potential reversals.
+If you have a streak of red bricks forming a  
+
+112
+00:10:20,880 --> 00:10:26,800
+downtrend, and then you see the creation of 
+a green brick that might be an early sign the  
+
+113
+00:10:26,800 --> 00:10:32,800
+market is flipping bullish on the short term.
+If you prefer more confirmation, you could  
+
+114
+00:10:32,800 --> 00:10:37,200
+wait for two or three consecutive 
+bricks of the opposite color. 
+
+115
+00:10:37,200 --> 00:10:42,160
+The beauty of Renko is that each 
+brick is uniform in size; thus,  
+
+116
+00:10:42,160 --> 00:10:48,960
+a color shift literally indicates that price 
+has moved enough to overcome that threshold. 
+  
+
+117
+00:10:48,960 --> 00:10:53,600
+Another valuable dimension is 
+analyzing sideways conditions. 
+
+118
+00:10:53,600 --> 00:10:59,600
+Sometimes the market stalls, creating an 
+alternating pattern of up and down bricks,  
+
+119
+00:10:59,600 --> 00:11:06,160
+but staying within a certain horizontal band.
+You might identify a “box” or “range” by  
+
+120
+00:11:06,160 --> 00:11:11,680
+marking the highest up-brick and the 
+lowest down-brick within that region. 
+
+121
+00:11:11,680 --> 00:11:17,280
+If the price fails to exit that box for 
+a while, it indicates a consolidation. 
+  
+
+122
+00:11:17,280 --> 00:11:24,080
+A Renko trader might either skip trading that 
+range if it is too narrow or might attempt to  
+
+123
+00:11:24,080 --> 00:11:31,520
+fade each side (selling at the top of the band or 
+buying at the bottom), hoping the range persists. 
+
+124
+00:11:31,520 --> 00:11:38,960
+Then, if price ultimately breaks out of that box, 
+you can quickly pivot into a trending strategy.
+  
+
+125
+00:11:38,960 --> 00:11:42,720
+One essential concept is 
+the notion of pivot bricks. 
+
+126
+00:11:42,720 --> 00:11:47,440
+You can observe that after a run of 
+consecutive bricks, the chart forms  
+
+127
+00:11:47,440 --> 00:11:54,400
+a single or double brick in the opposite 
+color, then resumes the original direction. 
+
+128
+00:11:54,400 --> 00:11:59,360
+That small counter move can be a 
+“pullback” in price action terms. 
+
+129
+00:11:59,360 --> 00:12:05,280
+Many traders look to buy near the pivot 
+brick if the overall direction is bullish,  
+
+130
+00:12:05,280 --> 00:12:10,400
+with a stop just below the last low. 
+ 
+This approach effectively tries to  
+
+131
+00:12:10,400 --> 00:12:15,200
+catch the resumption of the trend 
+before it fully re-accelerates. 
+
+132
+00:12:15,200 --> 00:12:19,600
+Of course, you might see a deeper 
+correction of multiple bricks,  
+
+133
+00:12:19,600 --> 00:12:22,560
+indicating a stronger shift in momentum.
+
+134
+00:12:22,560 --> 00:12:22,927
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CHAPTER 5 – INCORPORATING BASIC INDICATORS 
+
+135
+00:12:22,927 --> 00:12:26,240
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 
+While many traders prefer a purely price action  
+
+136
+00:12:26,240 --> 00:12:33,600
+approach, others enjoy combining Renko with one 
+or two basic overlays, such as moving averages. 
+
+137
+00:12:33,600 --> 00:12:39,840
+Because Renko is a “price-distilled” chart, 
+certain indicators might behave differently.
+  
+
+138
+00:12:39,840 --> 00:12:44,800
+For example, a 20-period moving 
+average on a Renko chart is not  
+
+139
+00:12:44,800 --> 00:12:50,560
+measuring the last 20 bars in time, 
+but rather the last 20 bricks formed. 
+
+140
+00:12:50,560 --> 00:12:55,760
+That means if the market was quiet and 
+formed few bricks, the moving average  
+
+141
+00:12:55,760 --> 00:13:02,640
+might not update frequently; if the market was 
+volatile, the average shifts more rapidly. 
+  
+
+142
+00:13:02,640 --> 00:13:09,200
+One of the simplest uses is to add a single moving 
+average, say a 50-brick one, to observe whether  
+
+143
+00:13:09,200 --> 00:13:14,480
+the price is above or below that line.
+If the bricks remain stacked above the  
+
+144
+00:13:14,480 --> 00:13:18,960
+line for multiple bricks, it 
+suggests a bullish environment. 
+
+145
+00:13:18,960 --> 00:13:25,520
+If they cross decisively below the moving average, 
+it hints that momentum is turning bearish.
+  
+
+146
+00:13:25,520 --> 00:13:29,520
+Renko makes these crossovers 
+potentially more significant,  
+
+147
+00:13:29,520 --> 00:13:36,000
+because each brick must move a set distance.
+On a typical chart, price might briefly poke below  
+
+148
+00:13:36,000 --> 00:13:42,720
+a moving average, only to revert in the same bar.
+On Renko, crossing that line typically means the  
+
+149
+00:13:42,720 --> 00:13:49,280
+price overcame a threshold of movement—some 
+may see that as a more conclusive sign.
+  
+
+150
+00:13:49,280 --> 00:13:55,440
+Additionally, some traders apply an 
+oscillator, like RSI on the Renko chart. 
+
+151
+00:13:55,440 --> 00:14:00,400
+The logic is that although time is less 
+relevant, you can still check if the market  
+
+152
+00:14:00,400 --> 00:14:07,040
+has momentum or not. Then you watch for a 
+color flip or a break of a certain pivot. 
+
+153
+00:14:07,040 --> 00:14:11,840
+This might refine your timing. 
+ 
+You could, for instance, short when bricks  
+
+154
+00:14:11,840 --> 00:14:19,040
+turn red right as RSI is below its 50-level.
+Still, be aware that these indicators  
+
+155
+00:14:19,040 --> 00:14:25,146
+might not behave the same as on time-based 
+charts, since they measure the last bricks.
+
+156
+00:14:25,146 --> 00:14:25,318
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CHAPTER 6 – MULTI-TIMEFRAME AND CROSS-VERIFICATION 
+
+157
+00:14:25,318 --> 00:14:28,000
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 
+Although Renko is distinct from time-based  
+
+158
+00:14:28,000 --> 00:14:33,440
+charts, many traders find synergy 
+in analyzing multiple perspectives. 
+
+159
+00:14:33,440 --> 00:14:40,240
+For instance, you might open a 4-hour candlestick 
+chart (or daily chart for bigger swings), to  
+
+160
+00:14:40,240 --> 00:14:45,520
+identify key support or resistance 
+or major trends, then zoom into a  
+
+161
+00:14:45,520 --> 00:14:50,480
+Renko chart for precise entries. 
+ 
+The higher timeframe guides your  
+
+162
+00:14:50,480 --> 00:14:55,840
+direction bias—maybe you see that the 
+daily chart is forming higher highs,  
+
+163
+00:14:55,840 --> 00:15:01,200
+indicating an uptrend—so you only take 
+“bullish” bricks on the Renko chart. 
+
+164
+00:15:01,200 --> 00:15:05,120
+This alignment helps you avoid 
+fighting the bigger picture.
+  
+
+165
+00:15:05,120 --> 00:15:09,840
+Some traders do the entire analysis 
+in Renko. You could, for instance,  
+
+166
+00:15:09,840 --> 00:15:15,840
+use a “large brick” Renko chart to see the 
+bigger directional context, then switch to a  
+
+167
+00:15:15,840 --> 00:15:21,760
+smaller-brick chart to fine-tune your entry.
+On the large-brick chart, you see fewer  
+
+168
+00:15:21,760 --> 00:15:27,200
+but bolder swings, which might counsel 
+that the market is overall bullish. 
+
+169
+00:15:27,200 --> 00:15:34,080
+Then, on the smaller-brick chart, you watch for 
+a minor dip of 2 or 3 bricks as your entry. 
+  
+
+170
+00:15:34,080 --> 00:15:37,840
+Cross-verifying signals 
+can reduce false positives. 
+
+171
+00:15:37,840 --> 00:15:43,760
+For example, if your big-brick Renko chart 
+has not reversed color but your small-brick  
+
+172
+00:15:43,760 --> 00:15:49,600
+chart indicates a short signal, you might 
+pass, suspecting it is a micro pullback  
+
+173
+00:15:49,600 --> 00:15:55,760
+that will soon revert to the major uptrend.
+The same logic applies if your daily candlestick  
+
+174
+00:15:55,760 --> 00:16:01,280
+chart shows a strong bullish technical 
+pattern (like a breakout of a range),  
+
+175
+00:16:01,280 --> 00:16:07,120
+but your Renko intraday chart is unclear.
+You might wait until the Renko chart  
+
+176
+00:16:07,120 --> 00:16:12,214
+lines up with the overall bullish 
+story, thus confirming alignment.
+
+177
+00:16:12,214 --> 00:16:12,358
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CHAPTER 7 – STRATEGIES 
+
+178
+00:16:12,358 --> 00:16:15,280
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 
+Now let’s talk strategies. Price action  
+
+179
+00:16:15,280 --> 00:16:20,240
+is the first method to study here.
+Renko pairs well with price action  
+
+180
+00:16:20,240 --> 00:16:26,960
+because each brick cuts out minor wicks.
+You see true direction with fewer fake signals.  
+
+181
+00:16:26,960 --> 00:16:34,160
+On renko, watch how bricks form and flip color.
+A series of green bricks can mean an uptrend. 
+
+182
+00:16:34,160 --> 00:16:38,640
+A quick shift to red bricks can 
+mean a short term reversal. 
+  
+
+183
+00:16:38,640 --> 00:16:44,160
+Look for patterns in the bricks. Sometimes 
+you see triple tops or double bottoms. 
+
+184
+00:16:44,160 --> 00:16:48,640
+They form a stair-step shape on renko.
+These patterns can guide you  
+
+185
+00:16:48,640 --> 00:16:52,640
+on possible breakouts. 
+ 
+A triple top might show the  
+
+186
+00:16:52,640 --> 00:16:58,720
+price failing three times at a certain level.
+If you see a new brick above that level,  
+
+187
+00:16:58,720 --> 00:17:02,240
+it might confirm an upward break.
+The same logic applies  
+
+188
+00:17:02,240 --> 00:17:08,720
+to double or triple bottoms.
+ 
+Another approach is to watch pin-like bricks. On  
+
+189
+00:17:08,720 --> 00:17:15,920
+standard candle charts, you might see a pin bar.
+On renko, that becomes a sudden shift in bricks. 
+
+190
+00:17:15,920 --> 00:17:22,480
+If you see a single brick that forms a quick 
+pivot, it might point to a strong bounce. 
+  
+
+191
+00:17:22,480 --> 00:17:27,440
+Supply and demand is next. These 
+zones reflect areas where buyers  
+
+192
+00:17:27,440 --> 00:17:32,480
+or sellers took over in the past.
+On a renko chart, these zones can  
+
+193
+00:17:32,480 --> 00:17:36,160
+appear as brick clusters.
+If you see a strong set of  
+
+194
+00:17:36,160 --> 00:17:42,400
+bricks that moved up from a level, that 
+zone might act as a new support later. 
+
+195
+00:17:42,400 --> 00:17:47,920
+If you see a fast drop from a high band, 
+that region might pose resistance. 
+  
+
+196
+00:17:47,920 --> 00:17:54,560
+Draw these zones on your chart. Wait for price to 
+approach them again. Watch how bricks react there. 
+
+197
+00:17:54,560 --> 00:18:00,320
+If bricks stall or flip at an old 
+zone, that can tell you the next path. 
+
+198
+00:18:00,320 --> 00:18:04,560
+Sometimes you see a cluster of 
+bricks turning red at a supply  
+
+199
+00:18:04,560 --> 00:18:10,960
+zone. That might show renewed selling.
+ 
+Price often stalls near these zones. When  
+
+200
+00:18:10,960 --> 00:18:15,040
+renko bricks print sideways, 
+that can mean a base forming. 
+
+201
+00:18:15,040 --> 00:18:20,800
+If those sideways bricks occur near a known 
+supply or demand band, you watch for an eventual  
+
+202
+00:18:20,800 --> 00:18:27,600
+breakout. Some traders like to see a strong 
+color flip at these bands to confirm direction. 
+
+203
+00:18:27,600 --> 00:18:32,400
+Others wait for a retest.
+ 
+Moving averages can fit renko well,  
+
+204
+00:18:32,400 --> 00:18:36,960
+as can help confirm the trend.
+If bricks stay above the average,  
+
+205
+00:18:36,960 --> 00:18:42,160
+that can show an uptrend.
+If bricks stay below, it can show a downtrend.
+  
+
+206
+00:18:42,160 --> 00:18:45,680
+Price action plus a moving 
+average can work smoothly. 
+
+207
+00:18:45,680 --> 00:18:48,880
+Watch for bricks to align 
+with the average’s slope. 
+
+208
+00:18:48,880 --> 00:18:54,080
+If the average points up and bricks 
+stay green, you might hold a long bias. 
+
+209
+00:18:54,080 --> 00:18:59,040
+If the average flattens and bricks keep 
+flipping color, you might stay out. 
+  
+
+210
+00:18:59,040 --> 00:19:04,480
+Another strategy is a breakout approach. 
+Wait for a period of sideways bricks. 
+
+211
+00:19:04,480 --> 00:19:11,120
+Then watch for that new brick that closes beyond 
+the range. If you see a multi-brick consolidation,  
+
+212
+00:19:11,120 --> 00:19:17,600
+a breakout brick can indicate a bigger wave.
+For instance, if bricks move sideways around  
+
+213
+00:19:17,600 --> 00:19:21,920
+a specific level, then a green 
+brick closes above that zone,  
+
+214
+00:19:21,920 --> 00:19:26,960
+that signals potential bullish momentum. 
+ 
+Confirm with your moving average  
+
+215
+00:19:26,960 --> 00:19:32,160
+or an extra filter if you like.
+That filter could be a supply zone  
+
+216
+00:19:32,160 --> 00:19:38,960
+overhead. If you see no major supply zone 
+close by, the breakout might run further.
+  
+
+217
+00:19:38,960 --> 00:19:44,800
+Another approach is a pullback strategy. Price 
+rarely runs straight up or straight down. 
+
+218
+00:19:44,800 --> 00:19:50,880
+Even in an uptrend, there are dips. On 
+renko, watch for a series of green bricks. 
+
+219
+00:19:50,880 --> 00:19:56,000
+Then watch for one or two red bricks 
+forming. That might be a pullback. 
+
+220
+00:19:56,000 --> 00:20:02,480
+If you see the next green brick near a key 
+area, that can be your cue to go long again. 
+
+221
+00:20:02,480 --> 00:20:08,800
+You can base that on a demand zone. Or you might 
+use the moving average to find a bounce area. 
+
+222
+00:20:08,800 --> 00:20:14,720
+When you see a green brick appear again, it 
+might confirm that the uptrend still holds.
+  
+
+223
+00:20:14,720 --> 00:20:18,080
+Supply-demand flips also shape a strategy. 
+
+224
+00:20:18,080 --> 00:20:23,120
+Mark your supply zone overhead. 
+Mark your demand zone below. 
+
+225
+00:20:23,120 --> 00:20:29,600
+If bricks reach the supply zone and flip from 
+green to red, that might be a short signal. 
+
+226
+00:20:29,600 --> 00:20:36,560
+If bricks drop to a demand zone and flip from 
+red to green, that might be a long signal. 
+
+227
+00:20:36,560 --> 00:20:40,400
+Some traders set an entry 
+one brick beyond the flip. 
+
+228
+00:20:40,400 --> 00:20:44,800
+Others wait for two bricks to 
+confirm. Each approach is valid,  
+
+229
+00:20:44,800 --> 00:20:51,280
+but test it on past charts first.
+ 
+Candlestick patterns can be adapted to renko. 
+
+230
+00:20:51,280 --> 00:20:55,840
+You do not see wicks in the same 
+way, but you see shifts in color. 
+
+231
+00:20:55,840 --> 00:21:01,440
+Pay attention to quick flips. That might 
+mimic a bullish or bearish a pin bar. 
+  
+
+232
+00:21:01,440 --> 00:21:05,680
+If you see one color brick quickly 
+replaced by the other color brick,  
+
+233
+00:21:05,680 --> 00:21:11,600
+with a wick, that can be a signal.
+If that occurs near a supply or demand zone, it  
+
+234
+00:21:11,600 --> 00:21:17,680
+gains weight and it may show a bigger reversal.
+ 
+The length of any wick is key. 
+
+235
+00:21:17,680 --> 00:21:23,520
+A long upper wick might reflect strong 
+selling pressure from a zone of resistance. 
+
+236
+00:21:23,520 --> 00:21:29,360
+A long lower wick can hint that 
+buyers stepped in at a support layer. 
+
+237
+00:21:29,360 --> 00:21:35,200
+The longer the wick, the bigger the rejection. 
+ 
+If you see a big wick, that can mean that price  
+
+238
+00:21:35,200 --> 00:21:42,240
+tried to move strongly but got forced back.
+That might mark a zone of heavy supply or demand. 
+
+239
+00:21:42,240 --> 00:21:48,080
+If you see a tiny wick, that might be 
+a small hesitation, not a major shift. 
+
+240
+00:21:48,080 --> 00:21:53,680
+No wicks can reflect a clean, forceful 
+run. Meaning strong momentum.
+  
+
+241
+00:21:53,680 --> 00:21:57,680
+Many traders keep a note of 
+lines of support and resistance. 
+
+242
+00:21:57,680 --> 00:22:04,000
+In a normal candlestick chart, you draw 
+horizontal lines at swing highs or lows. 
+
+243
+00:22:04,000 --> 00:22:07,840
+With renko, you do the same, 
+but it can look steadier. 
+
+244
+00:22:07,840 --> 00:22:13,280
+If you see repeated attempts to break a 
+horizontal level around the same brick level,  
+
+245
+00:22:13,280 --> 00:22:19,280
+that forms a line. Wait for a decisive move 
+beyond that line to consider a trade. 
+  
+
+246
+00:22:19,280 --> 00:22:25,760
+Pair that with the shape of renko bricks.
+Are bricks flipping color at that exact area? 
+
+247
+00:22:25,760 --> 00:22:30,160
+That detail might confirm a 
+breakout or a false break. 
+
+248
+00:22:30,160 --> 00:22:35,440
+A false break might show a single brick 
+that tries to push beyond the line,  
+
+249
+00:22:35,440 --> 00:22:42,320
+but the next brick forms back in the old range.
+ 
+Another strategy involves pivot points. I  
+
+250
+00:22:42,320 --> 00:22:49,280
+personally never trade without pivot levels.
+I monitor the daily or weekly pivot lines. 
+
+251
+00:22:49,280 --> 00:22:52,880
+Then I look to see if the 
+bricks respect those lines. 
+
+252
+00:22:52,880 --> 00:22:59,200
+If bricks hover near an “R1” pivot, you 
+might wait for a color flip for a short. 
+
+253
+00:22:59,200 --> 00:23:04,400
+If bricks push above main pivot, 
+I might hold a bullish view. 
+  
+
+254
+00:23:04,400 --> 00:23:10,960
+Stop-loss placement can be simpler with renko. You 
+can place a stop a few bricks behind your entry. 
+
+255
+00:23:10,960 --> 00:23:16,960
+If you go long on a green brick that forms 
+above resistance, you might tuck your stop  
+
+256
+00:23:16,960 --> 00:23:21,120
+behind the last red brick.
+Because renko bricks filter  
+
+257
+00:23:21,120 --> 00:23:28,000
+small spikes, your stop might be tighter. 
+ 
+This is a technical approach, not psychological. 
+
+258
+00:23:28,000 --> 00:23:34,400
+You can also trail your stop by a certain 
+number of bricks as price moves in your favor. 
+
+259
+00:23:34,400 --> 00:23:38,640
+Some traders like to wait 
+for a color change to exit. 
+  
+
+260
+00:23:38,640 --> 00:23:44,240
+Other strategies might involve divergences.
+If you use an oscillator, watch for a  
+
+261
+00:23:44,240 --> 00:23:50,320
+discrepancy between price and your indicator.
+If bricks make new highs but the indicator  
+
+262
+00:23:50,320 --> 00:23:56,320
+does not, that can show momentum loss.
+You might see a color flip soon. This is  
+
+263
+00:23:56,320 --> 00:24:02,800
+more advanced, but it’s definitely worth it
+ 
+Now, at first, practice on historical charts.  
+
+264
+00:24:02,800 --> 00:24:08,080
+Mark each zone where price turned.
+Mark each breakout. Watch how  
+
+265
+00:24:08,080 --> 00:24:13,520
+many bricks form before a big run.
+See if moving average crosses help. 
+
+266
+00:24:13,520 --> 00:24:17,280
+Tweak your brick size if you 
+get too many false flips. 
+
+267
+00:24:17,280 --> 00:24:22,640
+Check if your approach works best with 
+a trending pair or a more volatile one. 
+
+268
+00:24:22,640 --> 00:24:26,320
+And always know that signals must have context. 
+
+269
+00:24:26,320 --> 00:24:33,120
+That context is the bigger trend, the 
+supply-demand layout, and recent highs or lows.
+  
+
+270
+00:24:33,120 --> 00:24:38,960
+Area-based strategies also fit. Mark 
+an area where price consolidated. 
+
+271
+00:24:38,960 --> 00:24:43,280
+Then wait for either a breakout 
+or a bounce from that range. 
+
+272
+00:24:43,280 --> 00:24:50,080
+If bricks break the top side, you might go 
+long. If bricks form below, you might short. 
+  
+
+273
+00:24:50,080 --> 00:24:55,040
+This is standard price action, 
+but renko can make it more direct. 
+
+274
+00:24:55,040 --> 00:25:00,160
+Just remember you do not watch 
+time-based developments in the same way. 
+
+275
+00:25:00,160 --> 00:25:07,040
+You watch price-based developments. That might 
+mean fewer signals, but they can be clearer.
+  
+
+276
+00:25:07,040 --> 00:25:13,360
+Another variant is a reversal strategy that 
+seeks a color shift after a strong run. 
+
+277
+00:25:13,360 --> 00:25:18,240
+If you see several bricks of the same 
+color, and then you get a shift in color,  
+
+278
+00:25:18,240 --> 00:25:22,480
+that might point to a change.
+This is riskier, because you are  
+
+279
+00:25:22,480 --> 00:25:26,320
+going against the prior momentum.
+But if it lines up with a big  
+
+280
+00:25:26,320 --> 00:25:32,000
+supply or demand zone, it can work.
+ 
+A channel approach can also work. Draw  
+
+281
+00:25:32,000 --> 00:25:37,920
+an upward channel around renko bricks 
+that form higher highs and higher lows. 
+
+282
+00:25:37,920 --> 00:25:42,480
+If price breaks below the channel 
+boundary with a red brick, that  
+
+283
+00:25:42,480 --> 00:25:47,520
+might signal an end to that uptrend.
+If you prefer to ride the trend,  
+
+284
+00:25:47,520 --> 00:25:52,400
+watch the channel lines.
+The moment bricks break outside, exit. 
+
+285
+00:25:52,400 --> 00:25:56,960
+Or you could look for a brand-new 
+trade in the other direction. 
+  
+
+286
+00:25:56,960 --> 00:26:03,440
+Price patterns also matter. Head-and-shoulders, 
+or double tops or bottoms are easier  
+
+287
+00:26:03,440 --> 00:26:08,720
+to spot on a renko chart,
+Such pattern can signal a turn. 
+
+288
+00:26:08,720 --> 00:26:14,880
+Look for a neckline. If a new brick closes beyond 
+the neckline, that can confirm the pattern. 
+
+289
+00:26:18,480 --> 00:26:24,880
+Price patterns on renko reduce choppiness.
+Now, if you're curious about mastering more  
+
+290
+00:26:24,880 --> 00:26:32,320
+trading techniques, go ahead and 
+watch one of these videos next!
+

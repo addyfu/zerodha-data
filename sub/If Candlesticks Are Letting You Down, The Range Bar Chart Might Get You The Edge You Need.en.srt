@@ -1,0 +1,927 @@
+1
+00:00:00,290 --> 00:00:03,189
+I want you to look closely at this image.
+
+2
+00:00:03,189 --> 00:00:06,540
+On the left, there’s a regular candlestick
+chart.
+
+3
+00:00:06,540 --> 00:00:10,730
+You can see it's super noisy, with candles
+bouncing all over the place.
+
+4
+00:00:10,730 --> 00:00:16,520
+It's a total blur and would be very hard to
+trade with so many false signals.
+
+5
+00:00:16,520 --> 00:00:22,420
+On the right, we have a range bar chart, tracking
+the exact same price action.
+
+6
+00:00:22,420 --> 00:00:24,970
+And this one is way cleaner.
+
+7
+00:00:24,970 --> 00:00:30,980
+All those back-and-forth fake outs and liquidity
+runs gets condensed so you can actually see
+
+8
+00:00:30,980 --> 00:00:33,540
+the meaningful moves.
+
+9
+00:00:33,540 --> 00:00:36,640
+There's way less noise clogging up the image.
+
+10
+00:00:36,640 --> 00:00:41,020
+And it’s easier to spot which direction
+the price is really going.
+
+11
+00:00:41,020 --> 00:00:46,199
+On the left, trading this chart would be a
+total guessing game if you don’t have exceptional
+
+12
+00:00:46,199 --> 00:00:48,110
+price action skills.
+
+13
+00:00:48,110 --> 00:00:50,850
+But now patterns and levels are obvious.
+
+14
+00:00:50,850 --> 00:00:58,460
+Range bars strip away noise and distractions
+so price behavior really stands out.
+
+15
+00:00:58,460 --> 00:01:03,949
+As a day trader, it's really important that
+you're always exploring new strategies and
+
+16
+00:01:03,949 --> 00:01:06,869
+tweaking your approach to find an edge.
+
+17
+00:01:06,869 --> 00:01:11,600
+You don't have to be afraid to try things
+that aren't the most well-known.
+
+18
+00:01:11,600 --> 00:01:17,759
+I was having a bad trading period, so I did
+what I always do during these bad periods.
+
+19
+00:01:17,759 --> 00:01:20,850
+Regroup and readjust slightly my strategy.
+
+20
+00:01:20,850 --> 00:01:23,970
+And I came back to test range bars.
+
+21
+00:01:23,970 --> 00:01:30,230
+Unlike candlestick or line charts that are
+based on time periods, range bars only care
+
+22
+00:01:30,230 --> 00:01:32,530
+about price movement.
+
+23
+00:01:32,530 --> 00:01:34,590
+Time isn't a factor at all.
+
+24
+00:01:34,590 --> 00:01:41,970
+At first it seemed weird not to see each candle
+plotted at a certain minute or second.
+
+25
+00:01:41,970 --> 00:01:47,360
+But the more I looked at it, the more I realized
+range bars could be really helpful for day
+
+26
+00:01:47,360 --> 00:01:50,330
+trading and scalping.
+
+27
+00:01:50,330 --> 00:01:55,820
+Because day trading can seem so fast, with
+a regular chart, price looks sometimes like
+
+28
+00:01:55,820 --> 00:01:59,299
+a blur of lines on a small time frame.
+
+29
+00:01:59,299 --> 00:02:05,100
+Range bars make it easier to spot levels where
+the market may reverse or momentum could be
+
+30
+00:02:05,100 --> 00:02:07,090
+building.
+
+31
+00:02:07,090 --> 00:02:10,420
+It takes some time getting used to reading
+them at first.
+
+32
+00:02:10,420 --> 00:02:15,790
+But you’ll find range bars will help you
+find key areas and make entries and exits
+
+33
+00:02:15,790 --> 00:02:18,870
+more obvious when markets are moving quickly.
+
+34
+00:02:18,870 --> 00:02:24,989
+So when I was researching range bars, I found
+out they were actually created by a Brazilian
+
+35
+00:02:24,989 --> 00:02:27,760
+trader way back in the 90s.
+
+36
+00:02:27,760 --> 00:02:32,970
+The markets at the time were super volatile,
+so he focused on developing a way to take
+
+37
+00:02:32,970 --> 00:02:35,140
+advantage of that volatility.
+
+38
+00:02:35,140 --> 00:02:41,569
+Since price movement mattered most in those
+conditions, he wanted a chart type that centered
+
+39
+00:02:41,569 --> 00:02:44,140
+on price action alone.
+
+40
+00:02:44,140 --> 00:02:49,690
+That's why he designed range bars - to remove
+the time factor completely.
+
+41
+00:02:49,690 --> 00:02:55,730
+He felt that just looking at price was key
+to understanding market volatility and different
+
+42
+00:02:55,730 --> 00:03:00,010
+phases like ranging or trending.
+
+43
+00:03:00,010 --> 00:03:06,670
+Normally on a chart, we see bars or candlesticks
+placed at specific times, whether it's minutes
+
+44
+00:03:06,670 --> 00:03:08,010
+or hours.
+
+45
+00:03:08,010 --> 00:03:12,810
+But if you think about it, this could sometimes
+clutter up the picture.
+
+46
+00:03:12,810 --> 00:03:18,400
+The range bar idea maps out price swings without
+time constraints.
+
+47
+00:03:18,400 --> 00:03:26,769
+It's like a "zoomed out" view that helps identify
+important areas or momentum shifts more clearly.
+
+48
+00:03:26,769 --> 00:03:31,920
+From what I've seen, most trading platforms
+don't have range bars available as one of
+
+49
+00:03:31,920 --> 00:03:34,430
+the default chart types yet.
+
+50
+00:03:34,430 --> 00:03:39,970
+Luckily for us, TradingView has it for free,
+as one of the standard options.
+
+51
+00:03:39,970 --> 00:03:41,939
+You can find it here.
+
+52
+00:03:41,939 --> 00:03:47,290
+So how do range bars actually calculate price
+movements?
+
+53
+00:03:47,290 --> 00:03:53,819
+Unlike normal time-based charts, each range
+bar just represents a specific price change,
+
+54
+00:03:53,819 --> 00:03:55,500
+not a set time period.
+
+55
+00:03:55,500 --> 00:04:00,700
+We're used to charts where one candle equals
+say, 30 minutes.
+
+56
+00:04:00,700 --> 00:04:05,700
+But with range bars, it doesn't matter how
+long it took for the price to move - all that
+
+57
+00:04:05,700 --> 00:04:08,870
+matters is the amount it changed.
+
+58
+00:04:08,870 --> 00:04:15,159
+So one bar could mean the price moved $10,
+whether that happened in 10 minutes or 1 hour.
+
+59
+00:04:15,159 --> 00:04:19,989
+As long as the movement was $10, that's one
+range bar.
+
+60
+00:04:19,989 --> 00:04:26,460
+This is different than our usual time-based
+charts, which will always print the same number
+
+61
+00:04:26,460 --> 00:04:31,340
+of candles each session no matter what else
+is happening.
+
+62
+00:04:31,340 --> 00:04:35,000
+Range bars focus only on the significant price
+action.
+
+63
+00:04:35,000 --> 00:04:42,570
+With range bars, the number of bars you see
+each session will vary a lot more than with
+
+64
+00:04:42,570 --> 00:04:44,690
+normal time-based charts.
+
+65
+00:04:44,690 --> 00:04:47,919
+That's one of the things that takes some adjustment.
+
+66
+00:04:47,919 --> 00:04:53,370
+When volatility is high, you'll end up with
+way more range bars printing.
+
+67
+00:04:53,370 --> 00:04:58,550
+The price is swinging around more dramatically
+in smaller increments.
+
+68
+00:04:58,550 --> 00:05:05,070
+On the other hand, quieter markets with low
+volatility will have fewer bars.
+
+69
+00:05:05,070 --> 00:05:11,250
+Less is happening price-wise, so the bars
+can remain static for longer.
+
+70
+00:05:11,250 --> 00:05:17,900
+The specific market you trade and the defined
+"range" you set also affect bar density.
+
+71
+00:05:17,900 --> 00:05:26,710
+A $5 range on SPY will generate a different
+number of bars than $5 range on OIL, for example.
+
+72
+00:05:26,710 --> 00:05:34,610
+In this EURUSD example, each bar has a 10
+pip range, so the high-low of each bar is
+
+73
+00:05:34,610 --> 00:05:36,530
+always 10 pips.
+
+74
+00:05:36,530 --> 00:05:39,330
+Then, a new bar starts.
+
+75
+00:05:39,330 --> 00:05:45,190
+Essentially, range bars only care about the
+total price movement - once that predefined
+
+76
+00:05:45,190 --> 00:05:50,500
+threshold is hit, the bar closes and a new
+one starts.
+
+77
+00:05:50,500 --> 00:05:56,840
+If I was watching a stock and set the range
+to 10 cents, every time it moved up or down
+
+78
+00:05:56,840 --> 00:06:00,740
+a total of 10 cents, a new bar would print.
+
+79
+00:06:00,740 --> 00:06:04,140
+Again, time isn't a factor.
+
+80
+00:06:04,140 --> 00:06:09,330
+I hope you can see how this type of chart
+could give you an edge in choppy sideways
+
+81
+00:06:09,330 --> 00:06:13,990
+markets or periods with very little overall
+movement.
+
+82
+00:06:13,990 --> 00:06:17,639
+It really isolates just the significant price
+action.
+
+83
+00:06:17,639 --> 00:06:24,569
+Now, when using range bars, getting the right
+size for the price range is important.
+
+84
+00:06:24,569 --> 00:06:27,669
+It's not a one-size-fits-all thing.
+
+85
+00:06:27,669 --> 00:06:31,000
+Different markets tend to move different amounts
+each day.
+
+86
+00:06:31,000 --> 00:06:39,060
+For example, Tesla is usually all over the
+place, with daily ranges of $10-20.
+
+87
+00:06:39,060 --> 00:06:44,420
+Meanwhile lower priced stocks, may only move
+30-40 cents.
+
+88
+00:06:44,420 --> 00:06:50,660
+In general, higher priced stocks are prone
+to bigger swings compared to cheaper ones.
+
+89
+00:06:50,660 --> 00:06:56,290
+So if I look at Tesla using 10-cent range
+bars, it wouldn't work well.
+
+90
+00:06:56,290 --> 00:06:59,720
+On a lower price stock, it makes perfect sense.
+
+91
+00:06:59,720 --> 00:07:03,280
+This chart looks clean and easy to analyze.
+
+92
+00:07:03,280 --> 00:07:10,870
+But trying to squeeze Tesla's big moves into
+tiny 10-cent boxes would overload the chart
+
+93
+00:07:10,870 --> 00:07:14,160
+and make it a huge messy cluster.
+
+94
+00:07:14,160 --> 00:07:19,690
+And this shows how the optimal range needs
+to match how volatile the market tends to
+
+95
+00:07:19,690 --> 00:07:21,580
+be each day.
+
+96
+00:07:21,580 --> 00:07:26,340
+Otherwise you lose the benefit of those refined
+range bars.
+
+97
+00:07:26,340 --> 00:07:33,069
+So when choosing a range size for bars, one
+thing you can do is look at how much the market
+
+98
+00:07:33,069 --> 00:07:36,289
+usually moves each day on average.
+
+99
+00:07:36,289 --> 00:07:43,400
+You can see this just from experience watching
+it, or use indicators like ATR to get a better
+
+100
+00:07:43,400 --> 00:07:44,400
+picture.
+
+101
+00:07:44,400 --> 00:07:49,770
+Once you know the average daily range in dollars,
+you could make the bar size a percentage of
+
+102
+00:07:49,770 --> 00:07:53,560
+that, like 10%, 20% or whatever you want.
+
+103
+00:07:53,560 --> 00:07:56,930
+It also depends on your personal style.
+
+104
+00:07:56,930 --> 00:08:02,860
+If you're a short-term scalper or day trader,
+you probably want to see smaller moves, so
+
+105
+00:08:02,860 --> 00:08:05,710
+a narrow range works well.
+
+106
+00:08:05,710 --> 00:08:12,009
+Meanwhile, if you are a swing trader, you
+need bigger ranges to highlight major swings.
+
+107
+00:08:12,009 --> 00:08:18,840
+For example, let's say we’re monitoring
+a market that averages 50 cent daily moves.
+
+108
+00:08:18,840 --> 00:08:21,780
+You may go with a 10 cent range bar.
+
+109
+00:08:21,780 --> 00:08:26,300
+This lets you focus on the quick little fluctuations
+within a session.
+
+110
+00:08:26,300 --> 00:08:30,610
+But a swing trader, might prefer a dollar
+range bar instead.
+
+111
+00:08:30,610 --> 00:08:36,229
+So I can’t tell you the perfect range bar
+size that works on all markets.
+
+112
+00:08:36,229 --> 00:08:41,390
+Paying attention to how you trade and how
+much your markers typically move will really
+
+113
+00:08:41,390 --> 00:08:45,880
+help dial in the optimal range settings.
+
+114
+00:08:45,880 --> 00:08:52,440
+Range bars are really useful when viewing
+how price is moving compared to normal time-based
+
+115
+00:08:52,440 --> 00:08:53,440
+charts.
+
+116
+00:08:53,440 --> 00:08:59,460
+On regular charts, if price is bouncing back
+and forth in a small area for a while, it
+
+117
+00:08:59,460 --> 00:09:04,089
+creates a bunch of messy candles that clutter
+things up.
+
+118
+00:09:04,089 --> 00:09:10,670
+But with range bars, all that noise gets consolidated
+into just one or two bars max.
+
+119
+00:09:10,670 --> 00:09:17,690
+This makes it much clearer what the actual
+meaningful price action is versus small meaningless
+
+120
+00:09:17,690 --> 00:09:19,470
+fluctuations.
+
+121
+00:09:19,470 --> 00:09:26,340
+Since range bars won't start a new one until
+the set range is hit, it filters out unimportant
+
+122
+00:09:26,340 --> 00:09:27,970
+movements.
+
+123
+00:09:27,970 --> 00:09:35,010
+The biggest advantage for me: areas of supply
+and demand or support/resistance really pop
+
+124
+00:09:35,010 --> 00:09:38,580
+out when you put horizontal lines on them.
+
+125
+00:09:38,580 --> 00:09:42,350
+Trend periods and breakouts also stand out.
+
+126
+00:09:42,350 --> 00:09:48,459
+I've found range bar charts to be really helpful
+for scalping and day trading strategies.
+
+127
+00:09:48,459 --> 00:09:55,320
+The reason is because it lets you read volatility
+levels better than normal charts.
+
+128
+00:09:55,320 --> 00:09:58,980
+Volatility simply means how much the price
+is moving around.
+
+129
+00:09:58,980 --> 00:10:05,730
+On range bars, when price is trading in a
+narrow sideways zone, it'll only make a few
+
+130
+00:10:05,730 --> 00:10:06,730
+bars.
+
+131
+00:10:06,730 --> 00:10:08,910
+This shows activity is low.
+
+132
+00:10:08,910 --> 00:10:14,810
+But then if it starts to break out of that
+zone as volatility increases, you can watch
+
+133
+00:10:14,810 --> 00:10:20,030
+closely and notice changes in how often the
+bars are printing.
+
+134
+00:10:20,030 --> 00:10:24,780
+Faster bars equals more volatility from bigger
+movements.
+
+135
+00:10:24,780 --> 00:10:28,300
+Slower bars mean less volatility.
+
+136
+00:10:28,300 --> 00:10:35,750
+Carefully observing this timing and bar frequency
+over time helps spot when volatility is higher
+
+137
+00:10:35,750 --> 00:10:37,430
+or lower.
+
+138
+00:10:37,430 --> 00:10:44,720
+And periods where it suddenly picks up usually
+signal a new short term trend forming, creating
+
+139
+00:10:44,720 --> 00:10:45,720
+opportunities.
+
+140
+00:10:45,720 --> 00:10:52,550
+Being able to see those subtle volatility
+shifts is very useful for day trading.
+
+141
+00:10:52,550 --> 00:10:58,641
+If you're trying to scalp the forex market
+targeting let’s say 10 pips each time, then
+
+142
+00:10:58,641 --> 00:11:06,060
+using a 10 pip range bar chart would definitely
+make more sense compared to regular charts.
+
+143
+00:11:06,060 --> 00:11:12,510
+When scalping those tiny moves, a 10 pip range
+bar takes out the whole time element, which
+
+144
+00:11:12,510 --> 00:11:15,399
+isn't that important at that scale.
+
+145
+00:11:15,399 --> 00:11:21,870
+All that matters is seeing when the full 10
+pip price swings happen regardless of how
+
+146
+00:11:21,870 --> 00:11:23,769
+fast or slow it occurs.
+
+147
+00:11:23,769 --> 00:11:30,630
+On a regular chart with candlesticks spaced
+by time, like 5 minutes, it could take maybe
+
+148
+00:11:30,630 --> 00:11:34,570
+a long time to see a single 10 pip shift.
+
+149
+00:11:34,570 --> 00:11:40,040
+But the range bar would form a new box immediately
+after that movement.
+
+150
+00:11:40,040 --> 00:11:46,870
+Cutting out noise is key for scalping, and
+range bars do that perfectly by only focusing
+
+151
+00:11:46,870 --> 00:11:54,130
+on the important thresholds you're trading
+around, not meaningless price wiggles in between.
+
+152
+00:11:54,130 --> 00:11:59,550
+The ability to finely tune the range size
+to your strategy is a big advantage over time-based
+
+153
+00:11:59,550 --> 00:12:00,550
+charts.
+
+154
+00:12:00,550 --> 00:12:05,880
+It really lets you zero in on exactly what
+your eyes need to see to catch those small
+
+155
+00:12:05,880 --> 00:12:07,180
+moves.
+
+156
+00:12:07,180 --> 00:12:13,470
+Let’s me show you how I use this chart to
+trade supply and demand.
+
+157
+00:12:13,470 --> 00:12:18,649
+Identifying major supply and demand zones
+on the charts is one of the pillars of my
+
+158
+00:12:18,649 --> 00:12:19,649
+strategy.
+
+159
+00:12:19,649 --> 00:12:25,170
+The first step is always looking at where
+we are now price-wise.
+
+160
+00:12:25,170 --> 00:12:30,060
+Then I go back on the previous day's to investigate
+past swings.
+
+161
+00:12:30,060 --> 00:12:35,430
+Once I spot a big move up or down, I focus
+on where it started.
+
+162
+00:12:35,430 --> 00:12:41,820
+That area is usually a supply or demand zone,
+since that's where upside or downside pressure
+
+163
+00:12:41,820 --> 00:12:43,260
+took over.
+
+164
+00:12:43,260 --> 00:12:49,830
+If it was a bearish drop, I check the last
+bullish range bar before the downturn.
+
+165
+00:12:49,830 --> 00:12:56,209
+Then I highlight that zone up to the high
+right before the move started.
+
+166
+00:12:56,209 --> 00:13:03,350
+Similarly, for an upswing, I look at the most
+recent bearish range bar preceding it.
+
+167
+00:13:03,350 --> 00:13:10,339
+Then mark out the zone from there down to
+the low preceding the start of the rally.
+
+168
+00:13:10,339 --> 00:13:16,250
+When drawing supply and demand zones on range
+bar charts, it's important to consider how
+
+169
+00:13:16,250 --> 00:13:18,760
+"fresh" or recently used they are.
+
+170
+00:13:18,760 --> 00:13:24,420
+There are a few supply and demand types:
+- Fresh zones, which haven't been revisited
+
+171
+00:13:24,420 --> 00:13:27,700
+yet, so they're untested.
+
+172
+00:13:27,700 --> 00:13:33,540
+- Non-fresh zones, which have seen price pull
+back to them at least once.
+
+173
+00:13:33,540 --> 00:13:39,250
+- And used up zones, which have had price
+bounce off them several times.
+
+174
+00:13:39,250 --> 00:13:42,260
+They're not as reliable for full swings
+
+175
+00:13:42,260 --> 00:13:47,640
+When marking these on a range bar chart, focus
+on:
+
+176
+00:13:47,640 --> 00:13:53,279
+- The freshest zones, since the market impact
+is most likely still there.
+
+177
+00:13:53,279 --> 00:13:59,880
+- The strongest zones, where price sharply
+changed direction in a quick move.
+
+178
+00:13:59,880 --> 00:14:02,760
+These command more attention.
+
+179
+00:14:02,760 --> 00:14:08,990
+Paying attention to how recently zones have
+been in play and how abruptly price reacted
+
+180
+00:14:08,990 --> 00:14:14,550
+there can help you focus your analysis on
+the most influential areas.
+
+181
+00:14:14,550 --> 00:14:19,680
+Let’s look at this range bar chart, with
+yesterday's price action on it.
+
+182
+00:14:19,680 --> 00:14:25,000
+First step, we mark some important supply
+and demand zones from how price reacted the
+
+183
+00:14:25,000 --> 00:14:26,769
+previous day.
+
+184
+00:14:26,769 --> 00:14:32,940
+Down here near the bottom, it barely dipped
+below this range before bouncing hard.
+
+185
+00:14:32,940 --> 00:14:35,210
+That shows strong demand.
+
+186
+00:14:35,210 --> 00:14:43,070
+And up at the top, price peaked then crashed
+off after struggling to break through.
+
+187
+00:14:43,070 --> 00:14:46,100
+Clearly a strong supply up there.
+
+188
+00:14:46,100 --> 00:14:52,820
+Now flipping to the next day, price revisited
+that bottom demand area again.
+
+189
+00:14:52,820 --> 00:14:59,040
+As buyers stepped up forcefully the previous
+day, there’s a chance they'll protect this
+
+190
+00:14:59,040 --> 00:15:00,120
+level once more.
+
+191
+00:15:00,120 --> 00:15:05,589
+The chart structure looks ready to turn higher
+from here.
+
+192
+00:15:05,589 --> 00:15:07,690
+This is your buy zone.
+
+193
+00:15:07,690 --> 00:15:13,470
+Maybe it’s placebo, but I can see supply
+and demand, support and resistance level more
+
+194
+00:15:13,470 --> 00:15:15,329
+clearly with range bars.
+
+195
+00:15:15,329 --> 00:15:21,970
+These are perfect for identifying technical
+areas other traders will react at from prior
+
+196
+00:15:21,970 --> 00:15:23,190
+days.
+
+197
+00:15:23,190 --> 00:15:26,199
+This was just a basic intro to the concept.
+
+198
+00:15:26,199 --> 00:15:32,660
+In the next videos, I want to start demonstrating
+some concrete trading strategies we can actually
+
+199
+00:15:32,660 --> 00:15:35,990
+apply using range bars on different markets.
+
+200
+00:15:35,990 --> 00:15:38,680
+So, drop a like if you want that video.
+

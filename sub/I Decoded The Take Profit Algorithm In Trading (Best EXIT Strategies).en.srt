@@ -1,0 +1,905 @@
+1
+00:00:00,669 --> 00:00:03,070
+Here’s the most common scenario.
+
+2
+00:00:03,070 --> 00:00:08,300
+You see a trade setup, you decide it’s a
+good one and you pull the trigger.
+
+3
+00:00:08,300 --> 00:00:13,610
+Then you place the stop loss, set the take
+profit, and that’s it.
+
+4
+00:00:13,610 --> 00:00:18,030
+Sometimes it hits your stop, sometimes prices
+goes right to your target.
+
+5
+00:00:18,030 --> 00:00:22,680
+But what about those times when price almost
+hits your level?
+
+6
+00:00:22,680 --> 00:00:25,800
+Do you know how to protect your trade?
+
+7
+00:00:25,800 --> 00:00:27,630
+What if it returns to your entry?
+
+8
+00:00:27,630 --> 00:00:29,789
+Do you know what to do?
+
+9
+00:00:29,789 --> 00:00:34,250
+What if it hits your stop loss in the first
+place, and then starts to go in your initial
+
+10
+00:00:34,250 --> 00:00:35,640
+direction?
+
+11
+00:00:35,640 --> 00:00:40,960
+And what if your take profit is too low and
+you’re settling with a small gain?
+
+12
+00:00:40,960 --> 00:00:46,210
+Taking profit is one of the most critical
+aspects of a successful trading strategy.
+
+13
+00:00:46,210 --> 00:00:49,199
+You want to minimize your risk and maximize
+your profits.
+
+14
+00:00:49,199 --> 00:00:51,579
+Today we’ll talk about this.
+
+15
+00:00:51,579 --> 00:00:56,890
+So like, subscribe and stick around for the
+full video.
+
+16
+00:00:56,890 --> 00:01:02,950
+Setting single profit targets
+Setting single profit targets can seem like
+
+17
+00:01:02,950 --> 00:01:08,290
+a simple and straightforward strategy, but
+it comes with several disadvantages that you
+
+18
+00:01:08,290 --> 00:01:09,830
+should be aware of.
+
+19
+00:01:09,830 --> 00:01:15,540
+First, consider the missed opportunities:
+By setting a single profit target, you may
+
+20
+00:01:15,540 --> 00:01:19,850
+miss out on potential profits as the market
+moves in your favor.
+
+21
+00:01:19,850 --> 00:01:26,570
+For example, if you set a profit target at
+the price of $100 and it continues to rise
+
+22
+00:01:26,570 --> 00:01:31,120
+after hitting that target, you would miss
+out on the additional gains.
+
+23
+00:01:31,120 --> 00:01:35,830
+Rigidity and lack of flexibility is another
+disadvantage.
+
+24
+00:01:35,830 --> 00:01:40,990
+Single profit targets can limit your ability
+to adapt to market changes.
+
+25
+00:01:40,990 --> 00:01:46,650
+If the market almost hits your target, then
+moves in the other direction, you may be unable
+
+26
+00:01:46,650 --> 00:01:52,799
+to take advantage of new opportunities or
+adjust your strategy accordingly.
+
+27
+00:01:52,799 --> 00:01:57,960
+Not to mention the psychological burden: You
+may feel the pressure to reach that target
+
+28
+00:01:57,960 --> 00:02:01,090
+and may be more likely to make impulsive decisions.
+
+29
+00:02:01,090 --> 00:02:07,420
+It’s important to be aware of the disadvantages
+of setting single profit targets and consider
+
+30
+00:02:07,420 --> 00:02:09,140
+alternative approaches.
+
+31
+00:02:09,140 --> 00:02:13,930
+The benefits of scaling out of positions (multiple
+targets)
+
+32
+00:02:13,930 --> 00:02:21,160
+A better strategy is to scale out of positions
+and have multiple profit targets.
+
+33
+00:02:21,160 --> 00:02:27,580
+Scaling out of positions refers to closing
+partial positions at different levels of profit,
+
+34
+00:02:27,580 --> 00:02:32,770
+rather than holding on to the entire position
+until the target is hit.
+
+35
+00:02:32,770 --> 00:02:38,580
+Let's say you buy a stock at $20 and set a
+target profit of $30.
+
+36
+00:02:38,580 --> 00:02:44,010
+Instead of holding on to the stock until it
+reaches this price, you may choose to sell
+
+37
+00:02:44,010 --> 00:02:50,970
+half of the position at $25 and the remaining
+half at $30.
+
+38
+00:02:50,970 --> 00:02:53,140
+This strategy has several benefits.
+
+39
+00:02:53,140 --> 00:02:58,610
+First, it reduces the risk of giving back
+all of the profits if the market suddenly
+
+40
+00:02:58,610 --> 00:03:00,410
+moves against you.
+
+41
+00:03:00,410 --> 00:03:04,510
+By selling partial positions at different
+levels of profit, you lock in profits and
+
+42
+00:03:04,510 --> 00:03:06,750
+reduce your exposure to the market.
+
+43
+00:03:06,750 --> 00:03:12,290
+Second, scaling out of positions allows you
+to manage your emotions and avoid becoming
+
+44
+00:03:12,290 --> 00:03:14,840
+too attached to a trade.
+
+45
+00:03:14,840 --> 00:03:20,049
+Holding on to a position for too long can
+create anxiety and fear, especially if the
+
+46
+00:03:20,049 --> 00:03:24,330
+market moves against you, when you’ve already
+been in profit.
+
+47
+00:03:24,330 --> 00:03:30,160
+By selling partial positions, you can reduce
+the emotional impact of a trade and make more
+
+48
+00:03:30,160 --> 00:03:32,239
+rational decisions.
+
+49
+00:03:32,239 --> 00:03:38,240
+You can also leave a portion of your trade
+open even after you final target is reached.
+
+50
+00:03:38,240 --> 00:03:44,700
+You bought at $50 and sets 2 profit targets:
+$55 and $60.
+
+51
+00:03:44,700 --> 00:03:52,290
+You can sell 25% of your trade at the first
+target, 50% at the second and final target,
+
+52
+00:03:52,290 --> 00:03:55,450
+locking in profits and reducing your exposure.
+
+53
+00:03:55,450 --> 00:03:57,689
+And you let the remaining size opened.
+
+54
+00:03:57,689 --> 00:04:02,500
+Who know, maybe the market will move to $70,
+$80.
+
+55
+00:04:02,500 --> 00:04:05,730
+This way, you have a chance to capture a much
+bigger move.
+
+56
+00:04:05,730 --> 00:04:13,630
+The benefits of trailing stop-loss orders
+A trailing stop can be a powerful tool to
+
+57
+00:04:13,630 --> 00:04:18,919
+ensure that you maximize your profits while
+minimizing your risks.
+
+58
+00:04:18,919 --> 00:04:25,060
+Suppose you bought a stock at $100 and set
+a trailing stop at $10.
+
+59
+00:04:25,060 --> 00:04:31,900
+If the stock price rises to $110, your stop
+loss will adjust to breakeven, at $100.
+
+60
+00:04:31,900 --> 00:04:37,940
+If the price continues to rise to $120, your
+stop loss will continue to move up, always
+
+61
+00:04:37,940 --> 00:04:41,540
+remaining $10 below the current price.
+
+62
+00:04:41,540 --> 00:04:46,580
+The most obvious benefit of using a trailing
+stop is that it allows you to maximize your
+
+63
+00:04:46,580 --> 00:04:47,610
+profits.
+
+64
+00:04:47,610 --> 00:04:53,509
+By continuously adjusting your stop loss as
+the price moves in your favor, you can lock
+
+65
+00:04:53,509 --> 00:04:58,170
+in profits while avoiding premature exits.
+
+66
+00:04:58,170 --> 00:05:04,100
+This can be especially useful when the market
+is trending in your direction.
+
+67
+00:05:04,100 --> 00:05:09,139
+Another benefit of using a trailing stop is
+that it helps you minimize your risk.
+
+68
+00:05:09,139 --> 00:05:14,840
+As the price moves in your favor, your stop
+loss moves with it, ensuring that you are
+
+69
+00:05:14,840 --> 00:05:17,700
+protected in case the market turns against
+you.
+
+70
+00:05:17,700 --> 00:05:23,150
+This way, you can avoid losing money on a
+trade that was in profit.
+
+71
+00:05:23,150 --> 00:05:29,340
+A trailing stop is a dynamic exit point that
+changes as the price changes.
+
+72
+00:05:29,340 --> 00:05:34,770
+This allows you to stay in a trade for as
+long as possible while still protecting your
+
+73
+00:05:34,770 --> 00:05:35,770
+profits.
+
+74
+00:05:35,770 --> 00:05:40,870
+You can choose a trailing stop based on a
+percentage of the price or a set number of
+
+75
+00:05:40,870 --> 00:05:43,970
+pips, depending on your personal preferences.
+
+76
+00:05:43,970 --> 00:05:50,870
+Never use a dollar target as take profit
+Here’s a common mistake.
+
+77
+00:05:50,870 --> 00:05:57,560
+You see a trade opportunity, you enter, and
+you set a money target of $100.
+
+78
+00:05:57,560 --> 00:06:03,600
+When you see that you are 100$ in profit,
+you exit, even though the price may have further
+
+79
+00:06:03,600 --> 00:06:05,620
+room to develop.
+
+80
+00:06:05,620 --> 00:06:11,340
+While the idea of having a specific amount
+of profit in mind can be motivating, it can
+
+81
+00:06:11,340 --> 00:06:14,889
+also be an obstacle to your trading account
+growth.
+
+82
+00:06:14,889 --> 00:06:19,380
+There are several disadvantages when you set
+money targets.
+
+83
+00:06:19,380 --> 00:06:24,139
+First, a money target can cause you to make
+irrational decisions.
+
+84
+00:06:24,139 --> 00:06:29,780
+When you are so focused on reaching a specific
+monetary goal, you will make impulsive trades
+
+85
+00:06:29,780 --> 00:06:35,850
+or hold losing positions longer than they
+should, which can lead to bigger losses.
+
+86
+00:06:35,850 --> 00:06:39,740
+Second, money targets are not always realistic.
+
+87
+00:06:39,740 --> 00:06:45,340
+You may set an overly optimistic target, which
+can lead to disappointment and frustration
+
+88
+00:06:45,340 --> 00:06:47,680
+when the target is not met.
+
+89
+00:06:47,680 --> 00:06:53,139
+And on the other hand, setting a target that
+is too conservative can result in missed opportunities
+
+90
+00:06:53,139 --> 00:06:54,430
+for profits.
+
+91
+00:06:54,430 --> 00:07:00,180
+So, instead, you should focus on developing
+a comprehensive trading strategy that takes
+
+92
+00:07:00,180 --> 00:07:06,199
+into account market conditions, volatility,
+and other price action factors.
+
+93
+00:07:06,199 --> 00:07:13,090
+Previous swing highs/lows
+Scaling out of positions at previous swing
+
+94
+00:07:13,090 --> 00:07:20,259
+highs or lows is probably the simplest strategy
+if you are looking to manage risk and maximize
+
+95
+00:07:20,259 --> 00:07:21,259
+profits.
+
+96
+00:07:21,259 --> 00:07:27,270
+Basically, you take partial profits and minimize
+the impact of potential market reversals.
+
+97
+00:07:27,270 --> 00:07:31,440
+Let’s say you have a short position in a
+downtrend.
+
+98
+00:07:31,440 --> 00:07:37,000
+If the price reaches a new swing low, you
+take some profits off the table and reduce
+
+99
+00:07:37,000 --> 00:07:38,729
+your exposure.
+
+100
+00:07:38,729 --> 00:07:42,449
+At the same time you can move your stop to
+breakeven.
+
+101
+00:07:42,449 --> 00:07:47,449
+This can provide a safety cushion in the event
+of a market downturn.
+
+102
+00:07:47,449 --> 00:07:53,229
+You can use the swing high or low points to
+re-evaluate your trading plan and make any
+
+103
+00:07:53,229 --> 00:07:54,949
+necessary adjustments.
+
+104
+00:07:54,949 --> 00:08:02,091
+For example, if price reaches a swing low
+but then fails to break out to new lows, this
+
+105
+00:08:02,091 --> 00:08:07,290
+may indicate a change in market sentiment
+and you may want to consider exiting your
+
+106
+00:08:07,290 --> 00:08:16,110
+position altogether or adjust your stop loss
+levels even closer to the current price.
+
+107
+00:08:16,110 --> 00:08:18,919
+Supply/demand
+
+108
+00:08:18,919 --> 00:08:23,400
+Taking profits at supply and demand areas
+is another strategy.
+
+109
+00:08:23,400 --> 00:08:28,560
+The main idea behind this approach is to take
+advantage of the natural forces of supply
+
+110
+00:08:28,560 --> 00:08:32,560
+and demand that drive the price movement of
+a market.
+
+111
+00:08:32,560 --> 00:08:38,590
+For example, you bought at this demand level
+and price has risen to a significant level
+
+112
+00:08:38,590 --> 00:08:39,590
+of supply.
+
+113
+00:08:39,590 --> 00:08:42,740
+Here you may choose to sell a part of your
+position.
+
+114
+00:08:42,740 --> 00:08:49,090
+This way, even if the price does eventually
+fall, you will have already captured some
+
+115
+00:08:49,090 --> 00:08:52,560
+gains and protected your capital.
+
+116
+00:08:52,560 --> 00:08:58,260
+Another benefit of scaling out of positions
+at supply and demand areas is that it can
+
+117
+00:08:58,260 --> 00:09:01,880
+increase the efficiency of your account balance.
+
+118
+00:09:01,880 --> 00:09:08,120
+By closing partial positions at key levels,
+you can free up capital that can then be used
+
+119
+00:09:08,120 --> 00:09:12,280
+to enter new positions.
+
+120
+00:09:12,280 --> 00:09:17,930
+ATR/ADR
+Taking profits using average true range or
+
+121
+00:09:17,930 --> 00:09:21,630
+average daily range (ATR) is another strategy.
+
+122
+00:09:21,630 --> 00:09:27,320
+This technique involves monitoring the market’s
+volatility, as measured by the average true
+
+123
+00:09:27,320 --> 00:09:32,780
+range, and using it to determine the best
+time to take profits.
+
+124
+00:09:32,780 --> 00:09:38,550
+Knowing the average daily range is extremely
+useful since it allows you to estimate how
+
+125
+00:09:38,550 --> 00:09:41,860
+much profit potential there is in the market.
+
+126
+00:09:41,860 --> 00:09:48,089
+For example, if you are a Forex day trader,
+there is no point looking for 100 pips of
+
+127
+00:09:48,089 --> 00:09:55,160
+profit from a trade, if the average daily
+range for that currency pair is only 60 pips.
+
+128
+00:09:55,160 --> 00:10:01,680
+The ATR can be used in combination with other
+take profit strategies to improve the accuracy
+
+129
+00:10:01,680 --> 00:10:03,380
+of trade timing.
+
+130
+00:10:03,380 --> 00:10:10,640
+For example, you may choose to take partial
+profits when the ATR crosses above a certain
+
+131
+00:10:10,640 --> 00:10:17,190
+level, and price reaches a major support or
+resistance level, or an area of supply and
+
+132
+00:10:17,190 --> 00:10:18,830
+demand.
+
+133
+00:10:18,830 --> 00:10:22,110
+Fibonacci extensions
+
+134
+00:10:22,110 --> 00:10:28,440
+Taking profits using Fibonacci extensions
+is my favorite take profit method.
+
+135
+00:10:28,440 --> 00:10:34,240
+Fibonacci extensions can be used to project
+potential levels of price action beyond a
+
+136
+00:10:34,240 --> 00:10:35,240
+retracement.
+
+137
+00:10:35,240 --> 00:10:39,130
+In short, you get clear and objective exit
+points.
+
+138
+00:10:39,130 --> 00:10:46,680
+For example, if you buy a market in an uptrend,
+you can use Fibonacci extensions to find potential
+
+139
+00:10:46,680 --> 00:10:52,110
+levels of resistance where you can scale out
+of your position.
+
+140
+00:10:52,110 --> 00:10:58,130
+If the price reaches the 100% extension level,
+you may choose to sell a part of your position,
+
+141
+00:10:58,130 --> 00:10:59,519
+locking in profits while reducing your risk
+exposure.
+
+142
+00:10:59,519 --> 00:11:05,339
+If price continues to move higher, you may
+choose to sell more of your position at the
+
+143
+00:11:05,339 --> 00:11:10,200
+161% extension level, and maybe move your
+stop higher.
+
+144
+00:11:10,200 --> 00:11:16,750
+By using these clear and objective exit points,
+you avoid overstaying in a trade.
+
+145
+00:11:16,750 --> 00:11:25,550
+VWAP or Bollinger Bands
+Using VWAP bands or Bollinger Bands is another
+
+146
+00:11:25,550 --> 00:11:28,839
+alternative to scale out your positions.
+
+147
+00:11:28,839 --> 00:11:35,670
+The idea is simple: you will use these bands
+to identify dynamic support and resistance
+
+148
+00:11:35,670 --> 00:11:36,970
+levels.
+
+149
+00:11:36,970 --> 00:11:42,670
+If price is approaching the upper VWAP band,
+it may be a good time to scale out of a long
+
+150
+00:11:42,670 --> 00:11:45,780
+position and take profits.
+
+151
+00:11:45,780 --> 00:11:51,620
+This is because the price is likely to experience
+some resistance at the upper band, which may
+
+152
+00:11:51,620 --> 00:11:53,589
+cause it to retrace.
+
+153
+00:11:53,589 --> 00:11:59,560
+Similarly, if price is approaching a lower
+Bollinger band, it may be a good time to take
+
+154
+00:11:59,560 --> 00:12:01,940
+profits on a short position.
+
+155
+00:12:01,940 --> 00:12:07,760
+This is because the price is likely to experience
+some support at the lower band, which may
+
+156
+00:12:07,760 --> 00:12:11,300
+cause it to bounce back up.
+
+157
+00:12:11,300 --> 00:12:15,190
+Pivot Points
+
+158
+00:12:15,190 --> 00:12:19,959
+Taking profits using pivot points is another
+reliable method.
+
+159
+00:12:19,959 --> 00:12:25,760
+Rather than relying on subjective interpretations
+of price action, pivot points offer a systematic
+
+160
+00:12:25,760 --> 00:12:28,870
+approach you can use to make decisions.
+
+161
+00:12:28,870 --> 00:12:34,520
+This can help you avoid the biases and emotions
+that can often lead to poor decision-making.
+
+162
+00:12:34,520 --> 00:12:42,260
+For example, if price reaches a resistance
+level marked by a pivot point, you may choose
+
+163
+00:12:42,260 --> 00:12:49,420
+to take some profits at that level in anticipation
+of a potential price decline.
+
+164
+00:12:49,420 --> 00:12:57,269
+End of the day/week
+The end of the day or the week can be an ideal
+
+165
+00:12:57,269 --> 00:13:03,330
+time to scale out of positions because it
+allows you to take a step back and evaluate
+
+166
+00:13:03,330 --> 00:13:07,970
+your positions in the context of wider market
+conditions.
+
+167
+00:13:07,970 --> 00:13:13,389
+If you are a day trader, and your trade is
+in profit at the end of the session, you might
+
+168
+00:13:13,389 --> 00:13:14,540
+want to limit your risk.
+
+169
+00:13:14,540 --> 00:13:20,320
+You don’t know how the market will react
+at the open of the next session.
+
+170
+00:13:20,320 --> 00:13:24,899
+The same if you are a swing trader, and you
+have a decent profit on your trade.
+
+171
+00:13:24,899 --> 00:13:30,550
+Before Friday’s end of the session, you
+may want to reduce your overall risk.
+
+172
+00:13:30,550 --> 00:13:33,139
+You’ve seen those big weekend gaps.
+
+173
+00:13:33,139 --> 00:13:38,630
+So, take some profits off the table and move
+our stop to breakeven.
+
+174
+00:13:38,630 --> 00:13:43,579
+Taking profits in a trending market versus
+a ranging market
+
+175
+00:13:43,579 --> 00:13:50,300
+Taking profits in a trending market versus
+a ranging market requires different approaches
+
+176
+00:13:50,300 --> 00:13:55,450
+as the market dynamics and price movements
+can be vastly different.
+
+177
+00:13:55,450 --> 00:14:01,880
+In a trending market, prices move in a sustained
+direction, whereas in a ranging market, prices
+
+178
+00:14:01,880 --> 00:14:04,899
+oscillate within a certain range.
+
+179
+00:14:04,899 --> 00:14:10,740
+In a strong trending market, you can look
+to take profits at key levels of resistance,
+
+180
+00:14:10,740 --> 00:14:16,990
+or at Fibonacci extension levels, where the
+trend strength appears to decrease.
+
+181
+00:14:16,990 --> 00:14:22,490
+On the other hand, taking profits in a ranging
+market can be more challenging, making it
+
+182
+00:14:22,490 --> 00:14:25,360
+difficult to determine when to take profits.
+
+183
+00:14:25,360 --> 00:14:30,170
+Pivots are good targets when market is stuck
+in a range.
+
+184
+00:14:30,170 --> 00:14:36,440
+VWAP bands or Bollinger Bands are also very
+useful during these conditions.
+
+185
+00:14:36,440 --> 00:14:41,420
+You need to understand the market conditions
+and use the appropriate tools and techniques
+
+186
+00:14:41,420 --> 00:14:44,670
+to determine when to take profits.
+
+187
+00:14:44,670 --> 00:14:51,959
+Now, your take profit will never be hit if
+your stop loss is constantly being hunted
+
+188
+00:14:51,959 --> 00:14:55,120
+by market makers and smart money.
+
+189
+00:14:55,120 --> 00:15:00,430
+If you want to learn how to avoid stop loss
+hunting and avoid market manipulation, you
+
+190
+00:15:00,430 --> 00:15:02,930
+must watch this video.
+
+191
+00:15:02,930 --> 00:15:08,370
+And check out our academy program, if you
+want to further level up your trading.
+
+192
+00:15:08,370 --> 00:15:08,809
+Until next time!
+

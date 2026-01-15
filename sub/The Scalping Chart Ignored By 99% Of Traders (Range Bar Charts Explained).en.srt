@@ -1,0 +1,658 @@
+1
+00:00:01,209 --> 00:00:05,230
+As a scalping trader, you should always test
+different ways of trading to try and find
+
+2
+00:00:05,230 --> 00:00:08,570
+something that will give you a better edge
+in your trades.
+
+3
+00:00:08,570 --> 00:00:13,090
+You shouldn’t be afraid to explore new approaches
+that aren’t popular in the trading game
+
+4
+00:00:13,090 --> 00:00:18,000
+and trading with range bars is an approach
+that is often neglected or ignored completely
+
+5
+00:00:18,000 --> 00:00:22,089
+by most of traders
+Range bars belong to a type of chart that
+
+6
+00:00:22,089 --> 00:00:23,579
+is independent of time.
+
+7
+00:00:23,579 --> 00:00:29,349
+Unlike the more conventional chart types such
+as the candlestick and bar charts, with range
+
+8
+00:00:29,349 --> 00:00:32,689
+bars, only the horizontal price level is plotted.
+
+9
+00:00:32,689 --> 00:00:34,420
+Time is redundant.
+
+10
+00:00:34,420 --> 00:00:39,440
+Range bars were designed by a Brazilian trader,
+Vicente Nicolellis, back in the 90s.
+
+11
+00:00:39,440 --> 00:00:44,839
+Due to the volatility of the markets at the
+time, he believed that price was the most
+
+12
+00:00:44,839 --> 00:00:47,969
+important aspect when analyzing an asset.
+
+13
+00:00:47,969 --> 00:00:53,179
+As the local markets at the time were very
+volatile, Nicolellis became interested in
+
+14
+00:00:53,179 --> 00:00:57,210
+developing a way to use the volatility to
+his advantage.
+
+15
+00:00:57,210 --> 00:01:02,579
+He believed price movement was paramount to
+understanding and using volatility.
+
+16
+00:01:02,579 --> 00:01:08,290
+He developed range bars to take only price
+into consideration, thereby eliminating time
+
+17
+00:01:08,290 --> 00:01:10,079
+from the equation.
+
+18
+00:01:10,079 --> 00:01:15,600
+As the name suggests, range bars are specifically
+used to identify ranging price action and
+
+19
+00:01:15,600 --> 00:01:17,369
+trending price action.
+
+20
+00:01:17,369 --> 00:01:22,990
+Now, most of the existing trading platforms
+have not yet incorporated the range bars as
+
+21
+00:01:22,990 --> 00:01:25,140
+one of the default chart types.
+
+22
+00:01:25,140 --> 00:01:29,200
+But there are a lot of workarounds including
+on the mt4 trading platform.
+
+23
+00:01:29,200 --> 00:01:34,340
+You can find this type of chart on Tradingview
+platform.
+
+24
+00:01:34,340 --> 00:01:37,869
+So how do range bars calculate price?
+
+25
+00:01:37,869 --> 00:01:43,399
+Range bars take only price into consideration;
+therefore, each bar represents a specified
+
+26
+00:01:43,399 --> 00:01:44,470
+movement of price.
+
+27
+00:01:44,470 --> 00:01:50,511
+You are most likely familiar with viewing
+charts based on time; for instance, a 30-minute
+
+28
+00:01:50,511 --> 00:01:55,950
+chart where one bar shows the price activity
+for each 30-minute time period.
+
+29
+00:01:55,950 --> 00:02:00,650
+Time-based charts, such as the 30-minute chart
+in this example, will always print the same
+
+30
+00:02:00,650 --> 00:02:07,299
+number of bars during each trading session,
+regardless of volatility, volume or any other
+
+31
+00:02:07,299 --> 00:02:08,299
+factor.
+
+32
+00:02:08,299 --> 00:02:13,950
+Range bars, on the other hand, can have any
+number of bars printing during a trading session:
+
+33
+00:02:13,950 --> 00:02:19,890
+during times of higher volatility, more bars
+will print; conversely, during periods of
+
+34
+00:02:19,890 --> 00:02:22,860
+lower volatility, fewer bars will print.
+
+35
+00:02:22,860 --> 00:02:28,570
+The number of range bars created during a
+trading session will also depend on the instrument
+
+36
+00:02:28,570 --> 00:02:34,580
+being analyzed and the specified price movement
+of the range bar.
+
+37
+00:02:34,580 --> 00:02:40,750
+Range bars follow three simple rules
+Each range bar must have a high/low range
+
+38
+00:02:40,750 --> 00:02:43,870
+that equals the specified range.
+
+39
+00:02:43,870 --> 00:02:49,580
+Each range bar must open outside the high/low
+range of the previous bar.
+
+40
+00:02:49,580 --> 00:02:53,340
+Each range bar must close at either its high
+or its low.
+
+41
+00:02:53,340 --> 00:02:57,980
+In this example we have a 10 pip EURUSD range
+bar.
+
+42
+00:02:57,980 --> 00:03:01,840
+The high and low of each bar in this chart
+is 10 pips.
+
+43
+00:03:01,840 --> 00:03:07,530
+A new range bar opens only when price closes
+above or below the previous range bar’s
+
+44
+00:03:07,530 --> 00:03:08,900
+high or low.
+
+45
+00:03:08,900 --> 00:03:14,760
+Basically, a range bar is a bar that has the
+same price increment and each bar closes either
+
+46
+00:03:14,760 --> 00:03:18,540
+at the high or the low, regardless of where
+it opened.
+
+47
+00:03:18,540 --> 00:03:24,060
+So, if you want a range of 10 cents for a
+stock, set your range to 10.
+
+48
+00:03:24,060 --> 00:03:29,200
+Every time the stock moves 10 cents up or
+down in total for that bar, it will complete
+
+49
+00:03:29,200 --> 00:03:31,810
+the current bar and start a new one.
+
+50
+00:03:31,810 --> 00:03:33,700
+Time has no effect.
+
+51
+00:03:33,700 --> 00:03:40,210
+This can give you an edge in markets that
+are moving sideways or are very flat.
+
+52
+00:03:40,210 --> 00:03:45,270
+How to set range bar size
+Specifying the degree of price movement for
+
+53
+00:03:45,270 --> 00:03:50,200
+creating a range bar is not a one-size-fits-all
+process.
+
+54
+00:03:50,200 --> 00:03:53,660
+Different trading instruments move in a variety
+of ways.
+
+55
+00:03:53,660 --> 00:03:59,950
+For example, a higher priced stock such as
+tesla might have a daily range of 20-30 dollars
+
+56
+00:03:59,950 --> 00:04:06,340
+or even more; a lower priced stock, such as
+general electric might move only a percentage
+
+57
+00:04:06,340 --> 00:04:10,350
+of that in a typical day, maybe 30 or 40 cents.
+
+58
+00:04:10,350 --> 00:04:16,090
+It is common for higher priced trading instruments
+to experience greater average daily price
+
+59
+00:04:16,090 --> 00:04:17,090
+ranges.
+
+60
+00:04:17,090 --> 00:04:23,090
+Let’s compare both tesla and general electric
+with 10-cent range bars.
+
+61
+00:04:23,090 --> 00:04:28,580
+One-half of the trading session for tesla
+can barely be compressed to fit on one screen
+
+62
+00:04:28,580 --> 00:04:34,110
+since it has a much greater daily range than
+general electric, and therefore many more
+
+63
+00:04:34,110 --> 00:04:37,889
+10 cent range bars are created.
+
+64
+00:04:37,889 --> 00:04:43,030
+Tesla and general electric provide an example
+for two stocks that trade at very different
+
+65
+00:04:43,030 --> 00:04:47,960
+prices, resulting in distinct average daily
+price ranges.
+
+66
+00:04:47,960 --> 00:04:52,490
+It should be noted that while it is generally
+true that high-priced trading instruments
+
+67
+00:04:52,490 --> 00:04:57,941
+can have a greater average daily price range
+than those that are lower priced, instruments
+
+68
+00:04:57,941 --> 00:05:03,121
+that trade at roughly the same price can have
+very different levels of volatility, as well.
+
+69
+00:05:03,121 --> 00:05:09,770
+While we could apply the same range bar settings
+across the board, it is more helpful to determine
+
+70
+00:05:09,770 --> 00:05:15,320
+an appropriate range setting for each trading
+instrument.
+
+71
+00:05:15,320 --> 00:05:20,460
+One method for establishing suitable settings
+is to consider the trading instrument's average
+
+72
+00:05:20,460 --> 00:05:22,419
+daily range.
+
+73
+00:05:22,419 --> 00:05:28,050
+This can be accomplished through observation
+or by utilizing indicators such as average
+
+74
+00:05:28,050 --> 00:05:31,760
+true range (ATR) on a daily chart interval.
+
+75
+00:05:31,760 --> 00:05:37,340
+Once the average daily range has been determined,
+a percentage of that range could be used to
+
+76
+00:05:37,340 --> 00:05:42,659
+establish the desired price range for a range
+bar chart
+
+77
+00:05:42,659 --> 00:05:45,580
+Another consideration is the trader's style.
+
+78
+00:05:45,580 --> 00:05:51,069
+Short-term traders or scalpers may be more
+interested in looking at smaller price movements,
+
+79
+00:05:51,069 --> 00:05:55,999
+and, therefore, may be inclined to have a
+smaller range bar setting.
+
+80
+00:05:55,999 --> 00:06:00,949
+Longer-term traders and investors may require
+range bar settings that are based on larger
+
+81
+00:06:00,949 --> 00:06:02,870
+price moves.
+
+82
+00:06:02,870 --> 00:06:06,969
+For example, a scalper trader may watch a
+10-cent (.01) range bar.
+
+83
+00:06:06,969 --> 00:06:11,969
+This would allow the trader to watch for significant
+price moves that occur during one trading
+
+84
+00:06:11,969 --> 00:06:13,009
+session.
+
+85
+00:06:13,009 --> 00:06:18,620
+Conversely, an investor might want a one dollar
+(1.0) range bar for the same asset.
+
+86
+00:06:18,620 --> 00:06:23,110
+This would help reveal price movements that
+would be significant to the longer-term style
+
+87
+00:06:23,110 --> 00:06:25,620
+of trading and investing.
+
+88
+00:06:25,620 --> 00:06:30,939
+Now, do not confuse range bars with renko
+charts.
+
+89
+00:06:30,939 --> 00:06:35,930
+At a first glance, it is easy to find some
+similarity between a renko bar and a range
+
+90
+00:06:35,930 --> 00:06:36,960
+bar.
+
+91
+00:06:36,960 --> 00:06:41,819
+In fact, there is something common between
+these two chart types.
+
+92
+00:06:41,819 --> 00:06:45,180
+They are both independent of time and focus
+on price alone.
+
+93
+00:06:45,180 --> 00:06:48,970
+However, that’s where the difference ends.
+
+94
+00:06:48,970 --> 00:06:54,219
+In range bars, every bar is of the same length
+(including reversals).
+
+95
+00:06:54,219 --> 00:07:00,240
+In renko bars, every bar is of the same length
+(including reversals, but price must travel
+
+96
+00:07:00,240 --> 00:07:02,810
+two times the renko bar in the opposite direction).
+
+97
+00:07:02,810 --> 00:07:07,620
+Trading with range bars
+Range bars can help traders view price in
+
+98
+00:07:07,620 --> 00:07:09,680
+a "consolidated" form.
+
+99
+00:07:09,680 --> 00:07:14,370
+Much of the noise that occurs when prices
+bounce back and forth between a narrow range
+
+100
+00:07:14,370 --> 00:07:17,669
+can be reduced to a single bar or two.
+
+101
+00:07:17,669 --> 00:07:24,039
+This is because a new bar will not print until
+the specified price range has been fulfilled.
+
+102
+00:07:24,039 --> 00:07:29,020
+This helps traders distinguish what is actually
+happening to price.
+
+103
+00:07:29,020 --> 00:07:34,110
+Because range bar charts eliminates much of
+the noise, they are very useful charts on
+
+104
+00:07:34,110 --> 00:07:36,120
+which to draw trend lines.
+
+105
+00:07:36,120 --> 00:07:41,139
+Areas of support and resistance can be emphasized
+through the application of horizontal trend
+
+106
+00:07:41,139 --> 00:07:47,069
+lines; trending periods can be highlighted
+through the use of up-trend lines and down-trend
+
+107
+00:07:47,069 --> 00:07:49,839
+lines.
+
+108
+00:07:49,839 --> 00:07:54,520
+Range bar charts are perfect for scalping
+strategies and that is because you can read
+
+109
+00:07:54,520 --> 00:07:56,340
+volatility better.
+
+110
+00:07:56,340 --> 00:08:01,069
+Volatility refers to the degree of price movement
+in a trading instrument.
+
+111
+00:08:01,069 --> 00:08:08,909
+As markets trade in a narrow range, fewer
+range bars print, reflecting decreased volatility.
+
+112
+00:08:08,909 --> 00:08:14,499
+As price begins to break out of a trading
+range with an increase in volatility, you
+
+113
+00:08:14,499 --> 00:08:20,449
+must spend time observing a particular trading
+instrument with a specific range bar setting
+
+114
+00:08:20,449 --> 00:08:21,449
+applied.
+
+115
+00:08:21,449 --> 00:08:26,309
+Through this careful watching, you can notice
+the subtle changes in the timing of the bars
+
+116
+00:08:26,309 --> 00:08:29,089
+and the frequency in which they print.
+
+117
+00:08:29,089 --> 00:08:35,000
+The faster the bars print, the greater the
+price volatility; the slower the bars print,
+
+118
+00:08:35,000 --> 00:08:37,870
+the lower the price volatility.
+
+119
+00:08:37,870 --> 00:08:43,310
+Periods of increased volatility often signify
+trading opportunities as a new short trend
+
+120
+00:08:43,310 --> 00:08:44,340
+may be starting.
+
+121
+00:08:44,340 --> 00:08:50,540
+If you scalp the forex market for example,
+and you seek to make 10 pips on a trade, wouldn’t
+
+122
+00:08:50,540 --> 00:08:53,730
+it be more useful to pull up a 10 pip range
+chart?
+
+123
+00:08:53,730 --> 00:08:55,050
+Yes it would be.
+
+124
+00:08:55,050 --> 00:08:56,050
+Sounds logical.
+
+125
+00:08:56,050 --> 00:09:02,200
+A 10-pips range bar would not take the time
+factor into account, instead, it would reflect
+
+126
+00:09:02,200 --> 00:09:06,560
+the price movement completely, which is exactly
+what we need.
+
+127
+00:09:06,560 --> 00:09:11,900
+Once the currency trade moves outside the
+10 pip range, another candlestick will form,
+
+128
+00:09:11,900 --> 00:09:15,690
+no matter how many minutes or seconds this
+may take.
+
+129
+00:09:15,690 --> 00:09:21,830
+The ability to exclude the market noise, is
+the cornerstone of success in trading in the
+
+130
+00:09:21,830 --> 00:09:23,650
+financial markets.
+
+131
+00:09:23,650 --> 00:09:28,440
+Range bars will help you to see the true picture
+of what really happens with the price of the
+
+132
+00:09:28,440 --> 00:09:30,920
+traded financial instrument.
+
+133
+00:09:30,920 --> 00:09:35,980
+Independent of what indicators you use, range
+bars will become a perfect supplement to the
+
+134
+00:09:35,980 --> 00:09:41,310
+trading methods you use, since they react
+to the market changes much faster.
+
+135
+00:09:41,310 --> 00:09:45,690
+This video was basically an introduction to
+range bars, but in the future, we’ll go
+
+136
+00:09:45,690 --> 00:09:50,480
+deeper and build some trading strategies,
+based on range bars.
+
+137
+00:09:50,480 --> 00:09:55,430
+As always, if you learned something new and
+found value, leave us a like to show your
+
+138
+00:09:55,430 --> 00:09:59,640
+support, subscribe to our channel and hit
+the bell icon to stay notified when we upload
+
+139
+00:09:59,640 --> 00:10:01,430
+new videos.
+
+140
+00:10:01,430 --> 00:10:01,890
+Until next time.
+

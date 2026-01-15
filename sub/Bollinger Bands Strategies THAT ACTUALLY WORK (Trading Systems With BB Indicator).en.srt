@@ -1,0 +1,664 @@
+1
+00:00:00,960 --> 00:00:05,980
+Bollinger bands are one of the most popular
+technical analysis tools implemented in today’s
+
+2
+00:00:05,980 --> 00:00:07,350
+trading environment.
+
+3
+00:00:07,350 --> 00:00:12,960
+As the name implies, Bollinger bands refer
+to the bands (or price channels) placed on
+
+4
+00:00:12,960 --> 00:00:16,020
+a chart to represent a volatility range.
+
+5
+00:00:16,020 --> 00:00:21,489
+Bollinger bands consist of a set of three
+bands drawn in relation to price: there is
+
+6
+00:00:21,489 --> 00:00:26,900
+the 20-period moving average in the middle,
+with an upper and lower band of two standard
+
+7
+00:00:26,900 --> 00:00:30,679
+deviations above and below the simple moving
+average.
+
+8
+00:00:30,679 --> 00:00:36,250
+Bollinger bands use a statistical measure
+known as the standard deviation, to establish
+
+9
+00:00:36,250 --> 00:00:40,399
+where a band of support or resistance levels
+might lie.
+
+10
+00:00:40,399 --> 00:00:43,500
+This concept is also known as a volatility
+channel.
+
+11
+00:00:43,500 --> 00:00:48,780
+A volatility channel plots lines above and
+below a central measure of price.
+
+12
+00:00:48,780 --> 00:00:55,249
+These lines, also known as envelopes or bands,
+widen or contract according to how volatile
+
+13
+00:00:55,249 --> 00:00:57,850
+or non-volatile a market is.
+
+14
+00:00:57,850 --> 00:01:04,080
+Bollinger bands® measure market volatility
+and provide lots of useful information, including:
+
+15
+00:01:04,080 --> 00:01:08,770
+Trend continuation or reversal
+Periods of market consolidation
+
+16
+00:01:08,770 --> 00:01:15,890
+Periods of upcoming large volatility breakouts
+Possible market tops or bottoms, and potential
+
+17
+00:01:15,890 --> 00:01:18,790
+price targets
+
+18
+00:01:18,790 --> 00:01:23,939
+Bollinger bands are a trend indicator that
+detects the volatility and dynamics of the
+
+19
+00:01:23,939 --> 00:01:25,310
+price on the market.
+
+20
+00:01:25,310 --> 00:01:31,560
+The bands contract when the market volatility
+is low and expand when volatility increases.
+
+21
+00:01:31,560 --> 00:01:38,000
+During periods of low volatility, the bands
+are narrow, while during periods of high volatility
+
+22
+00:01:38,000 --> 00:01:40,719
+Bollinger bands expand drastically.
+
+23
+00:01:40,719 --> 00:01:45,719
+The upper band shows a level that is statistically
+high or expensive
+
+24
+00:01:45,719 --> 00:01:50,939
+The lower band shows a level that is statistically
+low or cheap
+
+25
+00:01:50,939 --> 00:01:54,840
+The Bollinger bandwidth correlates to the
+volatility of the market
+
+26
+00:01:54,840 --> 00:02:01,289
+For a technical point of view, trading near
+the outer bands provides an element of confidence
+
+27
+00:02:01,289 --> 00:02:07,439
+that there is resistance (at upper boundary)
+or support (at bottom boundary), however,
+
+28
+00:02:07,439 --> 00:02:11,410
+this concept alone does not provide relevant
+buy or sell signals; all that it determines
+
+29
+00:02:11,410 --> 00:02:12,410
+is whether the prices are high or low, on
+a relative basis.
+
+30
+00:02:12,410 --> 00:02:16,540
+So, the general consensus is that when the
+price reaches the upper band it is considered
+
+31
+00:02:16,540 --> 00:02:23,070
+as overbought and when price approaches lower
+band it is considered oversold.
+
+32
+00:02:23,070 --> 00:02:28,690
+The Bollinger bands have a default setting
+of (20,2) . When using trading bands, it is
+
+33
+00:02:28,690 --> 00:02:34,190
+the price action as it nears the edges of
+the band that should be of particular interest
+
+34
+00:02:34,190 --> 00:02:35,750
+to us.
+
+35
+00:02:35,750 --> 00:02:39,860
+Now, regarding standard deviation of the Bollinger
+bands.
+
+36
+00:02:39,860 --> 00:02:41,110
+What is it?
+
+37
+00:02:41,110 --> 00:02:45,641
+The standard deviation is basically a number
+expressing how much the values of the price
+
+38
+00:02:45,641 --> 00:02:48,660
+differ from the mean value.
+
+39
+00:02:48,660 --> 00:02:52,310
+Prices will distribute around the simple moving
+average:
+
+40
+00:02:52,310 --> 00:02:58,730
+Around 65% of price action is contained within
+a standard deviation of 1 of the Bollinger
+
+41
+00:02:58,730 --> 00:03:03,690
+bands
+Around 95% of price action is contained within
+
+42
+00:03:03,690 --> 00:03:11,070
+standard deviation of 2 of the Bollinger bands;
+Almost 99% of the price action is contained
+
+43
+00:03:11,070 --> 00:03:14,090
+within standard deviation of 3 of the Bollinger
+bands.
+
+44
+00:03:14,090 --> 00:03:15,090
+Ok, how to use this information?
+
+45
+00:03:15,090 --> 00:03:19,610
+If you decide to back test Bollinger bands
+and play with its inputs, you can adjust the
+
+46
+00:03:19,610 --> 00:03:21,900
+value of the standard deviation.
+
+47
+00:03:21,900 --> 00:03:27,210
+If you lower it, you will see the price leaving
+the bands often, probably offering a lot of
+
+48
+00:03:27,210 --> 00:03:28,210
+noise.
+
+49
+00:03:28,210 --> 00:03:32,150
+However, if you increase it to 3, you will
+realize that the price will leave the band
+
+50
+00:03:32,150 --> 00:03:37,620
+rarely, and might be better to find dynamic
+zones of support and resistance.
+
+51
+00:03:37,620 --> 00:03:42,890
+So, lower settings on the Bollinger bands
+will generate more trading signals, but will
+
+52
+00:03:42,890 --> 00:03:48,000
+also increase the number of false signals,
+as the price movement will exit more often
+
+53
+00:03:48,000 --> 00:03:49,770
+from the bands.
+
+54
+00:03:49,770 --> 00:03:54,820
+On the other hand, a 2.5 standard deviation
+Bollinger bands or even a 3 standard deviation
+
+55
+00:03:54,820 --> 00:03:58,470
+will generate fewer, but high-probability
+signals.
+
+56
+00:03:58,470 --> 00:04:02,010
+Now, I prefer to trade with the odds in my
+favor.
+
+57
+00:04:02,010 --> 00:04:08,020
+So, if a standard deviation of 3.0 will offer
+me around 99% certainty that the price won’t
+
+58
+00:04:08,020 --> 00:04:14,400
+exit the Bollinger bands, then I will be interested
+to trade only with these settings.
+
+59
+00:04:14,400 --> 00:04:16,840
+How to trade Bollinger bands?
+
+60
+00:04:16,840 --> 00:04:22,449
+The use of Bollinger bands varies among traders
+depending on their overall trading strategies,
+
+61
+00:04:22,449 --> 00:04:24,490
+styles and goals.
+
+62
+00:04:24,490 --> 00:04:29,870
+When using Bollinger bands, many define the
+lower and upper bands as price targets.
+
+63
+00:04:29,870 --> 00:04:35,400
+Some buy when the price touches the lower
+band and exit when the price touches the moving
+
+64
+00:04:35,400 --> 00:04:38,440
+average in the center of the bands.
+
+65
+00:04:38,440 --> 00:04:44,000
+Others prefer to sell when the price falls
+below the lower band or buy when price breaks
+
+66
+00:04:44,000 --> 00:04:45,870
+above the upper band.
+
+67
+00:04:45,870 --> 00:04:51,680
+The upper and lower bands can act as dynamic
+resistance and support levels, as traders
+
+68
+00:04:51,680 --> 00:04:57,490
+generally avoid buying when the asset price
+hits the upper Bollinger band, respectively
+
+69
+00:04:57,490 --> 00:05:02,360
+avoid selling whenever the price reaches the
+lower Bollinger band.
+
+70
+00:05:02,360 --> 00:05:07,430
+In a sideways market, when there isn’t a
+clear trend on the chart, Bollinger bands
+
+71
+00:05:07,430 --> 00:05:12,010
+provide very good support and resistance,
+as most traders believe that there’s high
+
+72
+00:05:12,010 --> 00:05:16,180
+chance of prices staying within Bollinger
+bands.
+
+73
+00:05:16,180 --> 00:05:20,450
+Studies have shown that the penetration of
+Bollinger bands with a standard deviation
+
+74
+00:05:20,450 --> 00:05:22,830
+of 3 occurs rarely.
+
+75
+00:05:22,830 --> 00:05:29,319
+The rest of the time prices fluctuate within
+the Bollinger bands, and often price returns
+
+76
+00:05:29,319 --> 00:05:30,740
+to the middle of the bands.
+
+77
+00:05:30,740 --> 00:05:37,199
+In this way Bollinger bands seem to act like
+rubber bands that can only stretch so far
+
+78
+00:05:37,199 --> 00:05:40,060
+before snapping back to the middle.
+
+79
+00:05:40,060 --> 00:05:46,870
+The upper and lower ranges of the Bollinger
+bands, which are created by the 2 or 3 standard
+
+80
+00:05:46,870 --> 00:05:50,749
+deviation lines, create the boundaries of
+price.
+
+81
+00:05:50,749 --> 00:05:57,270
+Since there are greater odds that price will
+be contained within the bands instead of penetrating
+
+82
+00:05:57,270 --> 00:06:02,789
+them, one of the surest and most common ways
+of trading the bands is to buy when prices
+
+83
+00:06:02,789 --> 00:06:08,210
+near the lower band and sell when prices near
+the upper range band.
+
+84
+00:06:08,210 --> 00:06:09,610
+But not blindly.
+
+85
+00:06:09,610 --> 00:06:11,370
+We talked before about price action.
+
+86
+00:06:11,370 --> 00:06:17,270
+This strategy is suited in non-trending markets,
+when there isn’t a clear direction.
+
+87
+00:06:17,270 --> 00:06:22,560
+Even more, when the bands are parallel, the
+signal is even more powerful.
+
+88
+00:06:22,560 --> 00:06:30,099
+So we want to sell at the upper bb and buy
+at the lower bb, when the bands are parallel,
+
+89
+00:06:30,099 --> 00:06:36,190
+and preferably, if we see addition confirmation
+of a support or resistance.
+
+90
+00:06:36,190 --> 00:06:48,789
+Here are a few examples of Bollinger bands
+signals during ranges……
+
+91
+00:06:48,789 --> 00:07:02,780
+Also, you could take signals during trends,
+but only in the direction of the main trend.
+
+92
+00:07:02,780 --> 00:07:03,919
+Why is that?
+
+93
+00:07:03,919 --> 00:07:08,890
+Just because prices hit the upper or lower
+Bollinger does not necessarily mean that it
+
+94
+00:07:08,890 --> 00:07:11,310
+is a good time to sell or buy.
+
+95
+00:07:11,310 --> 00:07:16,169
+Strong trends will “ride” these bands
+and wipe out any trader attempting to buy
+
+96
+00:07:16,169 --> 00:07:21,400
+on the “low” prices in a downtrend or
+sell on the “high” prices of an uptrend.
+
+97
+00:07:21,400 --> 00:07:27,710
+In fact, price will be making new highs in
+an uptrend and new lows in a downtrend, hitting
+
+98
+00:07:27,710 --> 00:07:33,009
+and exceeding the bands, quickly taking out
+the stops on trades taken directly on the
+
+99
+00:07:33,009 --> 00:07:34,009
+bands.
+
+100
+00:07:34,009 --> 00:07:40,129
+So, instead, we look to sell the upper bb
+during downtrends, meaning when the price
+
+101
+00:07:40,129 --> 00:07:46,629
+is making lower lows and lower highs, and
+buy the lower bb in uptrends, when the price
+
+102
+00:07:46,629 --> 00:07:49,610
+is making higher highs and higher lows.
+
+103
+00:07:49,610 --> 00:07:55,780
+Practically we look for pullbacks or corrections,
+but in the direction of the trend, we don’t
+
+104
+00:07:55,780 --> 00:07:58,819
+chase reversals.
+
+105
+00:07:58,819 --> 00:08:23,729
+Here are a few examples of Bollinger bands
+signals during trends…..
+
+106
+00:08:23,729 --> 00:08:29,360
+As we previously mentioned, Bollinger bands
+indicator measures the volatility on the market.
+
+107
+00:08:29,360 --> 00:08:32,370
+The wider the band, the more volatility it
+has.
+
+108
+00:08:32,370 --> 00:08:38,231
+A narrow band means indecision on price movement
+and when this happens, it is almost always
+
+109
+00:08:38,231 --> 00:08:42,250
+guaranteed that markets are about to move
+either up or down.
+
+110
+00:08:42,250 --> 00:08:47,900
+Also, if the market has recently experienced
+a lot of volatility and the bands are far
+
+111
+00:08:47,900 --> 00:08:52,960
+apart, this is a sign that the market will
+settle down and trade into a range in the
+
+112
+00:08:52,960 --> 00:08:54,160
+near future.
+
+113
+00:08:54,160 --> 00:09:00,380
+Another Bollinger bands strategy that is relatively
+simple to implement is known as a squeeze
+
+114
+00:09:00,380 --> 00:09:01,780
+strategy.
+
+115
+00:09:01,780 --> 00:09:07,240
+Squeeze refers to the narrowing of the trading
+range and implies a potential breakout.
+
+116
+00:09:07,240 --> 00:09:12,960
+It happens when the price starts shifting
+sideways in a tight consolidation.
+
+117
+00:09:12,960 --> 00:09:18,240
+You can visually identify when the price is
+consolidating as the lower and upper bands
+
+118
+00:09:18,240 --> 00:09:20,800
+get closer together on the chart.
+
+119
+00:09:20,800 --> 00:09:25,250
+It means the volatility of the particular
+asset has decreased.
+
+120
+00:09:25,250 --> 00:09:31,100
+After a period of consolidation, the price
+usually tends to make a larger move in either
+
+121
+00:09:31,100 --> 00:09:34,550
+direction, ideally on higher volume.
+
+122
+00:09:34,550 --> 00:09:39,150
+Expanding volume on a breakout is a sign that
+traders are expecting that the price will
+
+123
+00:09:39,150 --> 00:09:41,850
+continue to move in the breakout direction.
+
+124
+00:09:41,850 --> 00:09:47,490
+The longer it moves within this narrow band,
+the more likely the market is eventually going
+
+125
+00:09:47,490 --> 00:09:52,770
+to penetrate these bands and continue on in
+the direction of the breakout, especially
+
+126
+00:09:52,770 --> 00:09:59,330
+if this event occurs in the direction of the
+previously established longer-term trend.
+
+127
+00:09:59,330 --> 00:10:04,790
+Timing is everything, however, and just we
+don’t know how long the squeeze will last.
+
+128
+00:10:04,790 --> 00:10:07,210
+How to identify the breakout?
+
+129
+00:10:07,210 --> 00:10:09,930
+Look at the hooks of Bollinger bands.
+
+130
+00:10:09,930 --> 00:10:14,590
+We want to see the upper band pointing up
+and lower band pointing down.
+
+131
+00:10:14,590 --> 00:10:21,810
+If the bands remain flat or just one band
+hooks while the other does not, the breakout
+
+132
+00:10:21,810 --> 00:10:23,320
+isn’t there yet.
+
+133
+00:10:23,320 --> 00:10:30,220
+However, if upper band is rising while the
+lower band is falling, after a period of consolidation
+
+134
+00:10:30,220 --> 00:10:36,530
+and tight range, this signifies that a potential
+explosion in price action is about to occur,
+
+135
+00:10:36,530 --> 00:10:40,310
+in the direction of the candlestick pushing
+against the band.
+
+136
+00:10:40,310 --> 00:10:44,290
+The more vertical, the stronger the potential
+move.
+
+137
+00:10:44,290 --> 00:11:03,730
+Here are other examples of valid Bollinger
+bands breakouts.
+
+138
+00:11:03,730 --> 00:11:07,630
+If you got any value from this, make sure
+you subscribe, hit the bell icon so you’ll
+
+139
+00:11:07,630 --> 00:11:12,220
+be notified each time we upload and leave
+us a like to show your support.
+
+140
+00:11:12,220 --> 00:11:13,560
+Until next time.
+

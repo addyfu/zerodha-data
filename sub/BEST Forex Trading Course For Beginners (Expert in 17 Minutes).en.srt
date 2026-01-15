@@ -1,0 +1,1564 @@
+1
+00:00:00,040 --> 00:00:04,720
+in less than 20 minutes you'll learn
+
+2
+00:00:02,440 --> 00:00:08,240
+everything you need to know about Forex
+
+3
+00:00:04,720 --> 00:00:10,559
+Trading so what is Forex Forex is a
+
+4
+00:00:08,240 --> 00:00:13,559
+global marketplace where currencies are
+
+5
+00:00:10,559 --> 00:00:15,639
+traded it's the largest and most liquid
+
+6
+00:00:13,559 --> 00:00:17,960
+Financial Market in the world with
+
+7
+00:00:15,639 --> 00:00:20,119
+trillions of dollars Changing Hands
+
+8
+00:00:17,960 --> 00:00:23,199
+every single day basically it's a
+
+9
+00:00:20,119 --> 00:00:26,480
+24-hour market driven by economic
+
+10
+00:00:23,199 --> 00:00:29,000
+political and social factors worldwide
+
+11
+00:00:26,480 --> 00:00:31,560
+central banks hedge funds and individual
+
+12
+00:00:29,000 --> 00:00:33,680
+Traders like you and me all participate
+
+13
+00:00:31,560 --> 00:00:36,000
+in this market buying and selling
+
+14
+00:00:33,680 --> 00:00:39,520
+currencies in the hopes of turning a
+
+15
+00:00:36,000 --> 00:00:42,480
+profit at its core Forex Trading is all
+
+16
+00:00:39,520 --> 00:00:44,960
+about buying and selling currencies it's
+
+17
+00:00:42,480 --> 00:00:48,199
+like a global Supermarket where instead
+
+18
+00:00:44,960 --> 00:00:50,520
+of groceries you're trading money a
+
+19
+00:00:48,199 --> 00:00:53,079
+currency pair is simply two currencies
+
+20
+00:00:50,520 --> 00:00:55,079
+that are traded against each other it's
+
+21
+00:00:53,079 --> 00:00:57,520
+like a wrestling match between two
+
+22
+00:00:55,079 --> 00:01:00,640
+countries money where one currency is
+
+23
+00:00:57,520 --> 00:01:03,199
+trying to gain value against the other
+
+24
+00:01:00,640 --> 00:01:05,519
+there are three types of currency pairs
+
+25
+00:01:03,199 --> 00:01:07,960
+first we have the major ones which are
+
+26
+00:01:05,519 --> 00:01:10,560
+the most widely traded pairs in the
+
+27
+00:01:07,960 --> 00:01:13,600
+Forex Market they include combinations
+
+28
+00:01:10,560 --> 00:01:16,040
+of the world's strongest and most stable
+
+29
+00:01:13,600 --> 00:01:19,280
+economies these are the seven major
+
+30
+00:01:16,040 --> 00:01:21,799
+currency pairs next we have minor
+
+31
+00:01:19,280 --> 00:01:23,680
+currency pairs that don't include the US
+
+32
+00:01:21,799 --> 00:01:25,640
+dollar they typically involve
+
+33
+00:01:23,680 --> 00:01:28,520
+combinations of the other major
+
+34
+00:01:25,640 --> 00:01:31,360
+currencies minor pairs often have less
+
+35
+00:01:28,520 --> 00:01:34,040
+liquidity compared to Major major pairs
+
+36
+00:01:31,360 --> 00:01:36,560
+we also have exotic pairs which involve
+
+37
+00:01:34,040 --> 00:01:39,399
+currencies from emerging or smaller
+
+38
+00:01:36,560 --> 00:01:42,840
+economies paired with a major currency
+
+39
+00:01:39,399 --> 00:01:45,399
+usually the US dollar now in the Forex
+
+40
+00:01:42,840 --> 00:01:47,439
+Market a currency pair represents the
+
+41
+00:01:45,399 --> 00:01:50,479
+value of one currency relative to
+
+42
+00:01:47,439 --> 00:01:53,560
+another for example when you see Euro
+
+43
+00:01:50,479 --> 00:01:56,600
+USD it means you're trading the Euro
+
+44
+00:01:53,560 --> 00:01:59,360
+against the US dollar in this pair the
+
+45
+00:01:56,600 --> 00:02:02,079
+euro is the base currency and the US
+
+46
+00:01:59,360 --> 00:02:05,079
+dollar is the quote currency when you
+
+47
+00:02:02,079 --> 00:02:07,880
+buy a currency pair like the euro dollar
+
+48
+00:02:05,079 --> 00:02:10,360
+You're Expecting The Euro to appreciate
+
+49
+00:02:07,880 --> 00:02:12,720
+while the dollar depreciates when you
+
+50
+00:02:10,360 --> 00:02:16,120
+sell the currency pair You're Expecting
+
+51
+00:02:12,720 --> 00:02:18,840
+The Euro to depreciate while the dollar
+
+52
+00:02:16,120 --> 00:02:21,760
+appreciates in the Forex Market every
+
+53
+00:02:18,840 --> 00:02:24,480
+currency pair has two prices the bid
+
+54
+00:02:21,760 --> 00:02:27,440
+price and the ask price let's take the
+
+55
+00:02:24,480 --> 00:02:30,599
+aie dollar pair as an example the price
+
+56
+00:02:27,440 --> 00:02:32,519
+on the left side is called the bid price
+
+57
+00:02:30,599 --> 00:02:36,080
+this is the price at which you can sell
+
+58
+00:02:32,519 --> 00:02:38,160
+Australian dollars and buy US Dollars
+
+59
+00:02:36,080 --> 00:02:40,840
+the price on the right side is called
+
+60
+00:02:38,160 --> 00:02:43,519
+the ask price this is the price at which
+
+61
+00:02:40,840 --> 00:02:46,360
+you can buy Australian dollars and sell
+
+62
+00:02:43,519 --> 00:02:48,560
+US dollars in other words when you're
+
+63
+00:02:46,360 --> 00:02:51,879
+trading a currency pair you're always
+
+64
+00:02:48,560 --> 00:02:53,680
+buying one currency and selling another
+
+65
+00:02:51,879 --> 00:02:55,879
+simultaneously the difference between
+
+66
+00:02:53,680 --> 00:03:00,040
+the bid and ask prices is called the
+
+67
+00:02:55,879 --> 00:03:03,879
+spread if the bid price is 0. 6635 and
+
+68
+00:03:00,040 --> 00:03:06,640
+the ask price is 0.66 37 the spread is
+
+69
+00:03:03,879 --> 00:03:08,959
+two Pips the spread is essentially the
+
+70
+00:03:06,640 --> 00:03:10,640
+cost of trading as it represents the
+
+71
+00:03:08,959 --> 00:03:13,640
+difference between the price at which
+
+72
+00:03:10,640 --> 00:03:15,480
+you can buy and sell the currency pair
+
+73
+00:03:13,640 --> 00:03:18,319
+spreads can vary depending on the
+
+74
+00:03:15,480 --> 00:03:20,879
+currency pair market conditions and the
+
+75
+00:03:18,319 --> 00:03:22,799
+broker you're using so it's very
+
+76
+00:03:20,879 --> 00:03:25,360
+important to pay attention to the bid
+
+77
+00:03:22,799 --> 00:03:28,519
+and ask prices as they determine the
+
+78
+00:03:25,360 --> 00:03:30,720
+potential profit or loss of your trads
+
+79
+00:03:28,519 --> 00:03:33,239
+when you place a buy order you'll enter
+
+80
+00:03:30,720 --> 00:03:35,519
+the trade at the ask price and when you
+
+81
+00:03:33,239 --> 00:03:38,599
+place a sell order you'll enter the
+
+82
+00:03:35,519 --> 00:03:40,920
+trade at the bid price now let's talk
+
+83
+00:03:38,599 --> 00:03:44,640
+about two crucial Concepts in Forex
+
+84
+00:03:40,920 --> 00:03:46,799
+Trading Pips and lots a pip which stands
+
+85
+00:03:44,640 --> 00:03:49,120
+for percentage in point or Price
+
+86
+00:03:46,799 --> 00:03:52,000
+interest point is the smallest price
+
+87
+00:03:49,120 --> 00:03:54,360
+increment that a currency pair can move
+
+88
+00:03:52,000 --> 00:03:57,120
+for most currency pairs the PIP is
+
+89
+00:03:54,360 --> 00:03:59,760
+located at the fourth decimal place
+
+90
+00:03:57,120 --> 00:04:01,079
+let's say the a dollar rate moves from Z
+
+91
+00:03:59,760 --> 00:04:04,040
+0.
+
+92
+00:04:01,079 --> 00:04:07,040
+6345 to 0.6
+
+93
+00:04:04,040 --> 00:04:10,560
+346 that might not seem like a big deal
+
+94
+00:04:07,040 --> 00:04:13,159
+but in Forex that's a one pip move now
+
+95
+00:04:10,560 --> 00:04:16,440
+not all currency pairs have their pip at
+
+96
+00:04:13,159 --> 00:04:19,199
+the fourth decimal place in Yen pairs
+
+97
+00:04:16,440 --> 00:04:22,199
+the PIP is at the second decimal place
+
+98
+00:04:19,199 --> 00:04:23,960
+so for US dollar Japanese Yen a move
+
+99
+00:04:22,199 --> 00:04:26,320
+from 1
+
+100
+00:04:23,960 --> 00:04:29,680
+1.45 to
+
+101
+00:04:26,320 --> 00:04:31,639
+1.46 is a one pip move Pips are essenti
+
+102
+00:04:29,680 --> 00:04:34,080
+IAL because they help you measure the
+
+103
+00:04:31,639 --> 00:04:36,560
+distance between your entry and exit
+
+104
+00:04:34,080 --> 00:04:40,120
+points which ultimately determines your
+
+105
+00:04:36,560 --> 00:04:43,199
+profit or loss Pips go hand inand with
+
+106
+00:04:40,120 --> 00:04:46,000
+lots a lot is a unit of measurement for
+
+107
+00:04:43,199 --> 00:04:48,560
+the size of a trade in the Forex Market
+
+108
+00:04:46,000 --> 00:04:52,759
+there are four common lot sizes standard
+
+109
+00:04:48,560 --> 00:04:54,680
+lot mini lot micr lot and Nano Lots the
+
+110
+00:04:52,759 --> 00:04:57,320
+lot size you choose will determine the
+
+111
+00:04:54,680 --> 00:04:59,919
+monetary value of each bip movement in
+
+112
+00:04:57,320 --> 00:05:03,520
+your trade for instance if if you're
+
+113
+00:04:59,919 --> 00:05:06,479
+trading a standard lot of Euro USD each
+
+114
+00:05:03,520 --> 00:05:10,280
+pip is worth $10 if you're trading a
+
+115
+00:05:06,479 --> 00:05:12,400
+mini lot each pip is worth $1 it's
+
+116
+00:05:10,280 --> 00:05:15,680
+crucial to understand the relationship
+
+117
+00:05:12,400 --> 00:05:17,520
+between lot sizes and pip values as this
+
+118
+00:05:15,680 --> 00:05:20,560
+will help you manage your risk
+
+119
+00:05:17,520 --> 00:05:22,639
+effectively a larger lot size means that
+
+120
+00:05:20,560 --> 00:05:24,560
+each bip movement will have a more
+
+121
+00:05:22,639 --> 00:05:28,120
+significant impact on your account
+
+122
+00:05:24,560 --> 00:05:30,520
+balance both positively and negatively
+
+123
+00:05:28,120 --> 00:05:33,479
+as a beginner it's generally recommended
+
+124
+00:05:30,520 --> 00:05:36,319
+to start with smaller lot sizes such as
+
+125
+00:05:33,479 --> 00:05:37,560
+micro or mini lots to minimize risk
+
+126
+00:05:36,319 --> 00:05:40,120
+while you gain
+
+127
+00:05:37,560 --> 00:05:43,240
+experience another important concept
+
+128
+00:05:40,120 --> 00:05:46,160
+related to Lots is leverage leverage
+
+129
+00:05:43,240 --> 00:05:48,479
+allows you to control larger trade sizes
+
+130
+00:05:46,160 --> 00:05:51,520
+with a smaller account balance for
+
+131
+00:05:48,479 --> 00:05:54,240
+example if your broker offers 100 to one
+
+132
+00:05:51,520 --> 00:05:55,360
+leverage you can trade a standard lot
+
+133
+00:05:54,240 --> 00:05:58,560
+which is
+
+134
+00:05:55,360 --> 00:06:01,080
+$100,000 with just $1,000 in your
+
+135
+00:05:58,560 --> 00:06:03,840
+account while while leverage can amplify
+
+136
+00:06:01,080 --> 00:06:06,440
+your potential profits it also magnifies
+
+137
+00:06:03,840 --> 00:06:09,039
+your potential losses so it's essential
+
+138
+00:06:06,440 --> 00:06:11,800
+to use it wisely and in conjunction with
+
+139
+00:06:09,039 --> 00:06:13,919
+proper risk management techniques so
+
+140
+00:06:11,800 --> 00:06:16,599
+Pips measure the price movements of
+
+141
+00:06:13,919 --> 00:06:18,840
+currency pairs while Lots determine the
+
+142
+00:06:16,599 --> 00:06:22,639
+size of your trades and the monetary
+
+143
+00:06:18,840 --> 00:06:25,120
+value of each pip now let's say you want
+
+144
+00:06:22,639 --> 00:06:27,880
+to make a trade there are several types
+
+145
+00:06:25,120 --> 00:06:30,479
+of orders in Forex Trading a market
+
+146
+00:06:27,880 --> 00:06:32,639
+order is the simplest and most common
+
+147
+00:06:30,479 --> 00:06:35,360
+type of order when you place a market
+
+148
+00:06:32,639 --> 00:06:37,560
+order you're instructing your broker to
+
+149
+00:06:35,360 --> 00:06:40,280
+execute the trade immediately at the
+
+150
+00:06:37,560 --> 00:06:42,160
+best available price if you're buying
+
+151
+00:06:40,280 --> 00:06:44,960
+the trade will be executed at the
+
+152
+00:06:42,160 --> 00:06:47,120
+current ask price and if you're selling
+
+153
+00:06:44,960 --> 00:06:49,759
+it will be executed at the current bid
+
+154
+00:06:47,120 --> 00:06:52,400
+price a limit order allows you to
+
+155
+00:06:49,759 --> 00:06:55,560
+specify the exact price at which you
+
+156
+00:06:52,400 --> 00:06:58,000
+want to buy or sell a currency pair when
+
+157
+00:06:55,560 --> 00:07:00,639
+you place a bu limit order the trade
+
+158
+00:06:58,000 --> 00:07:03,879
+will only be executed if the ask price
+
+159
+00:07:00,639 --> 00:07:06,879
+reaches or drops below your specified
+
+160
+00:07:03,879 --> 00:07:09,319
+price conversely when you place a sell
+
+161
+00:07:06,879 --> 00:07:12,240
+limit order the trade will only be
+
+162
+00:07:09,319 --> 00:07:16,039
+executed if the bid price reaches or
+
+163
+00:07:12,240 --> 00:07:19,000
+rises above your specified price a stop
+
+164
+00:07:16,039 --> 00:07:21,400
+order also known as a stop-loss order is
+
+165
+00:07:19,000 --> 00:07:23,960
+designed to limit your potential losses
+
+166
+00:07:21,400 --> 00:07:26,919
+or protect your profits when you place a
+
+167
+00:07:23,960 --> 00:07:28,960
+stop order you specify a price at which
+
+168
+00:07:26,919 --> 00:07:31,720
+the trade will be closed if the market
+
+169
+00:07:28,960 --> 00:07:34,879
+moves again against you for example if
+
+170
+00:07:31,720 --> 00:07:37,199
+you're buying Euro USD and place a stop-
+
+171
+00:07:34,879 --> 00:07:39,599
+loss order 50 Pips below your entry
+
+172
+00:07:37,199 --> 00:07:42,440
+price the trade will automatically be
+
+173
+00:07:39,599 --> 00:07:45,080
+closed if the bid price Falls 50 Pips
+
+174
+00:07:42,440 --> 00:07:48,159
+below your entry limiting your loss to
+
+175
+00:07:45,080 --> 00:07:50,680
+that amount a take-profit order is used
+
+176
+00:07:48,159 --> 00:07:53,479
+to automatically close a trade once it
+
+177
+00:07:50,680 --> 00:07:56,759
+reaches a specific level of profit for
+
+178
+00:07:53,479 --> 00:07:59,960
+example if you're buying Euro USD and
+
+179
+00:07:56,759 --> 00:08:02,680
+set a takeprofit order 100 bips above
+
+180
+00:07:59,960 --> 00:08:05,159
+your entry price the trade will close
+
+181
+00:08:02,680 --> 00:08:08,560
+when the bid price reaches that level
+
+182
+00:08:05,159 --> 00:08:10,879
+locking in your profit one of the most
+
+183
+00:08:08,560 --> 00:08:13,680
+crucial components is choosing the right
+
+184
+00:08:10,879 --> 00:08:16,159
+broker a broker is a firm that offers
+
+185
+00:08:13,680 --> 00:08:18,039
+access to the Forex Market they act as
+
+186
+00:08:16,159 --> 00:08:20,639
+intermediaries between you and the
+
+187
+00:08:18,039 --> 00:08:23,039
+interbank market where the big boys
+
+188
+00:08:20,639 --> 00:08:25,840
+Banks and large financial institutions
+
+189
+00:08:23,039 --> 00:08:27,960
+trade currencies a broker provides the
+
+190
+00:08:25,840 --> 00:08:29,960
+platform the tools and the
+
+191
+00:08:27,960 --> 00:08:32,839
+infrastructure you need to trade
+
+192
+00:08:29,960 --> 00:08:35,080
+currencies from your own home now here's
+
+193
+00:08:32,839 --> 00:08:38,120
+the key thing to remember not all
+
+194
+00:08:35,080 --> 00:08:40,800
+Brokers are created equal some are more
+
+195
+00:08:38,120 --> 00:08:43,599
+reliable transparent and userfriendly
+
+196
+00:08:40,800 --> 00:08:46,240
+than others it's essential to choose a
+
+197
+00:08:43,599 --> 00:08:48,560
+reputable broker that is regulated by a
+
+198
+00:08:46,240 --> 00:08:51,360
+respected Authority and has a proven
+
+199
+00:08:48,560 --> 00:08:54,000
+track record of serving traders in order
+
+200
+00:08:51,360 --> 00:08:56,360
+to place your trads Brokers offer you a
+
+201
+00:08:54,000 --> 00:08:58,680
+trading platform this is the interface
+
+202
+00:08:56,360 --> 00:09:01,320
+between you and the market where you can
+
+203
+00:08:58,680 --> 00:09:03,839
+analyze price movements Place trades and
+
+204
+00:09:01,320 --> 00:09:06,120
+manage your positions two of the most
+
+205
+00:09:03,839 --> 00:09:09,360
+popular options are metatrader and
+
+206
+00:09:06,120 --> 00:09:12,160
+trading view now how do you anticipate
+
+207
+00:09:09,360 --> 00:09:15,480
+which direction a currency pair might go
+
+208
+00:09:12,160 --> 00:09:18,120
+well technical analysis is the answer at
+
+209
+00:09:15,480 --> 00:09:20,519
+its core technical analysis is based on
+
+210
+00:09:18,120 --> 00:09:22,880
+the idea that history tends to repeat
+
+211
+00:09:20,519 --> 00:09:25,040
+itself you study what happened in the
+
+212
+00:09:22,880 --> 00:09:27,720
+past to anticipate where the currency
+
+213
+00:09:25,040 --> 00:09:30,320
+pair will move in the future in a
+
+214
+00:09:27,720 --> 00:09:32,440
+trading platform all the ACT happens on
+
+215
+00:09:30,320 --> 00:09:34,880
+the charts charts are a visual
+
+216
+00:09:32,440 --> 00:09:37,360
+representation of price movements over
+
+217
+00:09:34,880 --> 00:09:40,160
+time allowing you to analyze historical
+
+218
+00:09:37,360 --> 00:09:42,680
+data Candlestick charts are the most
+
+219
+00:09:40,160 --> 00:09:45,320
+popular way to visualize past price
+
+220
+00:09:42,680 --> 00:09:47,760
+movements so what exactly is a
+
+221
+00:09:45,320 --> 00:09:49,839
+Candlestick it's a single bar that
+
+222
+00:09:47,760 --> 00:09:52,000
+represents the price movement of a
+
+223
+00:09:49,839 --> 00:09:56,000
+currency pair during a specific time
+
+224
+00:09:52,000 --> 00:09:58,160
+frame like 5 minutes 1 hour or one day
+
+225
+00:09:56,000 --> 00:10:00,440
+each Candlestick has a body and two
+
+226
+00:09:58,160 --> 00:10:03,000
+weeks sticking out from the top and
+
+227
+00:10:00,440 --> 00:10:05,839
+bottom the body represents the range
+
+228
+00:10:03,000 --> 00:10:07,720
+between the opening and closing prices
+
+229
+00:10:05,839 --> 00:10:10,839
+while the Wicks show the highest and
+
+230
+00:10:07,720 --> 00:10:12,800
+lowest prices reached During the period
+
+231
+00:10:10,839 --> 00:10:14,920
+if the closing price is higher than the
+
+232
+00:10:12,800 --> 00:10:17,680
+opening price the body is usually
+
+233
+00:10:14,920 --> 00:10:20,000
+colored green or white if the closing
+
+234
+00:10:17,680 --> 00:10:23,480
+price is lower than the opening price
+
+235
+00:10:20,000 --> 00:10:25,640
+the body is usually colored red or black
+
+236
+00:10:23,480 --> 00:10:27,560
+now here's the thing the candlesticks
+
+237
+00:10:25,640 --> 00:10:29,920
+look different depending on the time
+
+238
+00:10:27,560 --> 00:10:32,200
+frame you're looking at a the time frame
+
+239
+00:10:29,920 --> 00:10:34,800
+is the interval at which candlesticks
+
+240
+00:10:32,200 --> 00:10:36,800
+are displayed on the chart each time
+
+241
+00:10:34,800 --> 00:10:39,839
+frame tells a different story about the
+
+242
+00:10:36,800 --> 00:10:42,639
+market the lower time frames like 1
+
+243
+00:10:39,839 --> 00:10:44,880
+minute or 5 minute show more granular
+
+244
+00:10:42,639 --> 00:10:47,240
+price movements and are often used for
+
+245
+00:10:44,880 --> 00:10:50,480
+shortterm trading strategies like
+
+246
+00:10:47,240 --> 00:10:53,120
+scalping or day trading the higher time
+
+247
+00:10:50,480 --> 00:10:55,399
+frames like daily and weekly show a
+
+248
+00:10:53,120 --> 00:10:57,880
+bigger picture view and are often used
+
+249
+00:10:55,399 --> 00:11:00,560
+for longer term position trading or
+
+250
+00:10:57,880 --> 00:11:02,880
+swing Trading it's like looking at a
+
+251
+00:11:00,560 --> 00:11:05,279
+city from different altitudes from the
+
+252
+00:11:02,880 --> 00:11:07,839
+ground level the lower time frames you
+
+253
+00:11:05,279 --> 00:11:10,040
+see the individual streets and buildings
+
+254
+00:11:07,839 --> 00:11:12,880
+from a helicopter view the higher time
+
+255
+00:11:10,040 --> 00:11:15,880
+frames you see the overall layout and
+
+256
+00:11:12,880 --> 00:11:18,240
+major landmarks of the city in addition
+
+257
+00:11:15,880 --> 00:11:20,680
+to chart types technical analysis
+
+258
+00:11:18,240 --> 00:11:23,680
+involves using various indicators and
+
+259
+00:11:20,680 --> 00:11:26,120
+tools to analyze price action indicators
+
+260
+00:11:23,680 --> 00:11:28,720
+are simple mathematical calculations
+
+261
+00:11:26,120 --> 00:11:31,000
+based on historic price and there are a
+
+262
+00:11:28,720 --> 00:11:33,399
+lot of popular technical indicators to
+
+263
+00:11:31,000 --> 00:11:35,680
+analyze the Forex Market a moving
+
+264
+00:11:33,399 --> 00:11:37,880
+average is probably the most common
+
+265
+00:11:35,680 --> 00:11:40,959
+Forex indicator that will help you
+
+266
+00:11:37,880 --> 00:11:43,279
+identify Trends relative strength index
+
+267
+00:11:40,959 --> 00:11:45,800
+is another common one a momentum
+
+268
+00:11:43,279 --> 00:11:48,800
+oscillator that measures the speed and
+
+269
+00:11:45,800 --> 00:11:51,720
+change of price movements the May CD is
+
+270
+00:11:48,800 --> 00:11:54,000
+also popular a trend following momentum
+
+271
+00:11:51,720 --> 00:11:56,760
+indicator used to capture the trend
+
+272
+00:11:54,000 --> 00:11:59,560
+Direction Ballinger bands is another
+
+273
+00:11:56,760 --> 00:12:02,240
+popular one designed to measure Market
+
+274
+00:11:59,560 --> 00:12:04,800
+volatility these are just a few examples
+
+275
+00:12:02,240 --> 00:12:07,720
+of the many technical analysis tools
+
+276
+00:12:04,800 --> 00:12:09,920
+available on any trading platform as you
+
+277
+00:12:07,720 --> 00:12:12,079
+progress in your trading Journey you'll
+
+278
+00:12:09,920 --> 00:12:14,839
+likely develop a preference for certain
+
+279
+00:12:12,079 --> 00:12:17,440
+indicators that align with your trading
+
+280
+00:12:14,839 --> 00:12:19,720
+style now we need to talk about one of
+
+281
+00:12:17,440 --> 00:12:23,279
+the most important aspects of Forex
+
+282
+00:12:19,720 --> 00:12:25,240
+Trading which is Trend analysis a trend
+
+283
+00:12:23,279 --> 00:12:28,199
+is the general direction in which a
+
+284
+00:12:25,240 --> 00:12:30,040
+market is moving you can identify three
+
+285
+00:12:28,199 --> 00:12:32,360
+main types of trend
+
+286
+00:12:30,040 --> 00:12:35,199
+first is the uptrend also known as
+
+287
+00:12:32,360 --> 00:12:37,959
+bullish Trend an uptrend is a series of
+
+288
+00:12:35,199 --> 00:12:40,959
+higher swing highs and higher swing lows
+
+289
+00:12:37,959 --> 00:12:43,120
+in price in other words each Peak is
+
+290
+00:12:40,959 --> 00:12:45,120
+higher than the previous Peak and each
+
+291
+00:12:43,120 --> 00:12:47,959
+trough is higher than the previous
+
+292
+00:12:45,120 --> 00:12:51,079
+trough this indicates that buyers are in
+
+293
+00:12:47,959 --> 00:12:53,320
+control pushing prices up over time when
+
+294
+00:12:51,079 --> 00:12:55,440
+you spot an uptrend you may want to
+
+295
+00:12:53,320 --> 00:12:58,120
+consider looking for opportunities to
+
+296
+00:12:55,440 --> 00:13:00,959
+buy as the trend suggests that prices
+
+297
+00:12:58,120 --> 00:13:03,880
+are likely to continue Rising a
+
+298
+00:13:00,959 --> 00:13:06,199
+downtrend also known as a bearish trend
+
+299
+00:13:03,880 --> 00:13:08,800
+is characterized by a series of lower
+
+300
+00:13:06,199 --> 00:13:11,399
+swing highs and lower swing lows in
+
+301
+00:13:08,800 --> 00:13:14,079
+price each Peak is lower than the
+
+302
+00:13:11,399 --> 00:13:16,440
+previous Peak and each trough is lower
+
+303
+00:13:14,079 --> 00:13:18,639
+than the previous trough this indicates
+
+304
+00:13:16,440 --> 00:13:21,560
+that sellers are in control pushing
+
+305
+00:13:18,639 --> 00:13:23,800
+prices down over time when you identify
+
+306
+00:13:21,560 --> 00:13:26,399
+a downtrend you may want to consider
+
+307
+00:13:23,800 --> 00:13:28,760
+looking for opportunities to sell as the
+
+308
+00:13:26,399 --> 00:13:31,279
+trend suggests that prices are likely to
+
+309
+00:13:28,760 --> 00:13:33,680
+continue continue falling we can also
+
+310
+00:13:31,279 --> 00:13:36,480
+have sideways Trend also known as a
+
+311
+00:13:33,680 --> 00:13:38,720
+range-bound market a sideways Trend
+
+312
+00:13:36,480 --> 00:13:41,279
+occurs when prices are oscillating
+
+313
+00:13:38,720 --> 00:13:43,839
+between a specific high and low without
+
+314
+00:13:41,279 --> 00:13:46,839
+forming higher swing highs or lower
+
+315
+00:13:43,839 --> 00:13:50,120
+swing lows this indicates that neither
+
+316
+00:13:46,839 --> 00:13:52,440
+buyers nor sellers are in clear control
+
+317
+00:13:50,120 --> 00:13:54,880
+in a sideways Market you may look for
+
+318
+00:13:52,440 --> 00:13:57,800
+opportunities to buy near the bottom of
+
+319
+00:13:54,880 --> 00:14:00,839
+the range and sell near the top taking
+
+320
+00:13:57,800 --> 00:14:03,240
+advantage of the price o ations support
+
+321
+00:14:00,839 --> 00:14:05,720
+and resistance are two of the most
+
+322
+00:14:03,240 --> 00:14:08,199
+fundamental and Powerful Concepts in
+
+323
+00:14:05,720 --> 00:14:10,680
+Forex Trading think of support and
+
+324
+00:14:08,199 --> 00:14:13,240
+resistance as invisible floors and
+
+325
+00:14:10,680 --> 00:14:15,440
+ceilings in the market their price
+
+326
+00:14:13,240 --> 00:14:17,880
+levels where the market has historically
+
+327
+00:14:15,440 --> 00:14:20,040
+had a hard time breaking through either
+
+328
+00:14:17,880 --> 00:14:23,279
+because there's a lot of buying or
+
+329
+00:14:20,040 --> 00:14:25,639
+selling pressure at those levels support
+
+330
+00:14:23,279 --> 00:14:28,079
+is like a trampoline it's a level where
+
+331
+00:14:25,639 --> 00:14:31,240
+prices tend to bounce off and start
+
+332
+00:14:28,079 --> 00:14:33,519
+heading back up this happens because at
+
+333
+00:14:31,240 --> 00:14:35,759
+these levels buyers find the prices
+
+334
+00:14:33,519 --> 00:14:38,800
+attractive and start scooping up the
+
+335
+00:14:35,759 --> 00:14:41,120
+currency pair pushing prices higher on
+
+336
+00:14:38,800 --> 00:14:43,560
+the flip side resistance is like a
+
+337
+00:14:41,120 --> 00:14:45,639
+ceiling that prices have a hard time
+
+338
+00:14:43,560 --> 00:14:48,519
+breaking through it's a level where
+
+339
+00:14:45,639 --> 00:14:50,639
+sellers come out in full force this
+
+340
+00:14:48,519 --> 00:14:54,000
+selling pressure can cause prices to
+
+341
+00:14:50,639 --> 00:14:56,279
+stall or even start falling back down
+
+342
+00:14:54,000 --> 00:14:58,399
+now here's the really cool part once
+
+343
+00:14:56,279 --> 00:15:00,519
+prices do manage to break through a
+
+344
+00:14:58,399 --> 00:15:02,959
+support or res resistance level that
+
+345
+00:15:00,519 --> 00:15:04,959
+level can switch roles a broken
+
+346
+00:15:02,959 --> 00:15:08,120
+resistance level can become a new
+
+347
+00:15:04,959 --> 00:15:10,880
+support level and a broken support level
+
+348
+00:15:08,120 --> 00:15:13,199
+can become a new resistance level if
+
+349
+00:15:10,880 --> 00:15:15,360
+price is at an obvious support level and
+
+350
+00:15:13,199 --> 00:15:17,759
+you believe the level will hold you
+
+351
+00:15:15,360 --> 00:15:20,320
+might consider buying as there's a good
+
+352
+00:15:17,759 --> 00:15:23,600
+chance prices will bounce off that level
+
+353
+00:15:20,320 --> 00:15:25,680
+and head back up if prices are nearing a
+
+354
+00:15:23,600 --> 00:15:28,399
+resistance level and you think it will
+
+355
+00:15:25,680 --> 00:15:32,120
+hold you could look to sell expecting
+
+356
+00:15:28,399 --> 00:15:33,880
+prices to stall or fall back down now
+
+357
+00:15:32,120 --> 00:15:36,600
+there's a lot to talk about Forex
+
+358
+00:15:33,880 --> 00:15:39,040
+Trading but as a beginner practicing on
+
+359
+00:15:36,600 --> 00:15:41,720
+a demo account is one of the smartest
+
+360
+00:15:39,040 --> 00:15:44,279
+moves you can make demo trading allows
+
+361
+00:15:41,720 --> 00:15:46,920
+you to trade in real time with live
+
+362
+00:15:44,279 --> 00:15:49,920
+market data but with virtual money
+
+363
+00:15:46,920 --> 00:15:52,319
+instead of your real money this way you
+
+364
+00:15:49,920 --> 00:15:54,279
+can get a true feel for the market and
+
+365
+00:15:52,319 --> 00:15:56,720
+the trading platform without the
+
+366
+00:15:54,279 --> 00:15:59,120
+pressure of potential losses and once
+
+367
+00:15:56,720 --> 00:16:01,040
+you start trading a live account you
+
+368
+00:15:59,120 --> 00:16:03,000
+realize there is a psychological
+
+369
+00:16:01,040 --> 00:16:05,319
+difference between trading with virtual
+
+370
+00:16:03,000 --> 00:16:08,880
+money and putting your own capital on
+
+371
+00:16:05,319 --> 00:16:11,279
+the line now I know the Allure of Forex
+
+372
+00:16:08,880 --> 00:16:13,279
+Trading can be strong the promise of
+
+373
+00:16:11,279 --> 00:16:16,360
+Financial Freedom The Thrill of the
+
+374
+00:16:13,279 --> 00:16:18,959
+markets and the stories of big profits
+
+375
+00:16:16,360 --> 00:16:21,319
+but here's the truth plain and simple
+
+376
+00:16:18,959 --> 00:16:23,880
+Forex Trading is not a get-rich quick
+
+377
+00:16:21,319 --> 00:16:26,560
+scheme if someone tells you they became
+
+378
+00:16:23,880 --> 00:16:29,279
+millionaire in a short period of time
+
+379
+00:16:26,560 --> 00:16:31,880
+they are simply lying Forex Traders in
+
+380
+00:16:29,279 --> 00:16:34,959
+is a serious skill that takes time
+
+381
+00:16:31,880 --> 00:16:37,440
+dedication and discipline to master it's
+
+382
+00:16:34,959 --> 00:16:40,240
+not about making a quick Buck or hitting
+
+383
+00:16:37,440 --> 00:16:42,440
+the jackpot with one lucky trade it's
+
+384
+00:16:40,240 --> 00:16:45,480
+about developing a solid foundation of
+
+385
+00:16:42,440 --> 00:16:47,759
+knowledge building a robust trading plan
+
+386
+00:16:45,480 --> 00:16:49,880
+and consistently executing that plan
+
+387
+00:16:47,759 --> 00:16:52,240
+over time and now that you got
+
+388
+00:16:49,880 --> 00:16:54,680
+familiarized with the basics it's time
+
+389
+00:16:52,240 --> 00:16:56,880
+to learn more advanced concepts these
+
+390
+00:16:54,680 --> 00:17:00,160
+trading courses are the next videos you
+
+391
+00:16:56,880 --> 00:17:00,160
+should watch
+
