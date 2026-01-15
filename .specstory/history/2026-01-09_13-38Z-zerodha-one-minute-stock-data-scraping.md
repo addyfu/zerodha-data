@@ -7989,54 +7989,58 @@ Let me implement Telegram file upload:
 
 <details><summary>Tool use: **search_replace** • Edit file: D:\study\kite\cloud_collector.py</summary>
 
-Status: **loading**
+**Chunk 1**
+Lines added: 43, lines removed: undefined
 
-```python
-    async def send_telegram(self, message: str):
-        """Send Telegram notification."""
-        if not self.telegram_token or not self.telegram_chat_id:
-            logger.warning("Telegram not configured")
-            return
-        
-        try:
-            url = f"https://api.telegram.org/bot{self.telegram_token}/sendMessage"
-            data = {
-                "chat_id": self.telegram_chat_id,
-                "text": message,
-                "parse_mode": "HTML"
-            }
-            requests.post(url, data=data, timeout=10)
-            logger.info("Telegram notification sent")
-        except Exception as e:
-            logger.error(f"Telegram error: {e}")
-    
-    async def send_telegram_file(self, file_path: str, caption: str = None):
-        """
-        Send file to Telegram.
-        
-        Limits:
-        - Max 50 MB via Bot API
-        - Max 2 GB via MTProto (not implemented)
-        """
-        if not self.telegram_token or not self.telegram_chat_id:
-            logger.warning("Telegram not configured")
-            return False
-        
-        try:
-            # Check file size
-            file_size = os.path.getsize(file_path)
-            file_size_mb = file_size / (1024 * 1024)
-            
-            if file_size_mb > 50:
-                logger.error(f"File too large for Telegram Bot API: {file_size_mb:.1f} MB (max 50 MB)")
-                return False
-            
-            url = f"https://api.telegram.org/bot{self.telegram_token}/sendDocument"
-            
-            with open(file_path, 'rb') as f:
-                files = {'document': (os.path.basename(file_path), f)}
-                data = {
-                    
+```diff
+@@ -312,4 +312,47 @@
+              logger.error(f"Telegram error: {e}")
+      
++     async def send_telegram_file(self, file_path: str, caption: str = None):
++         """
++         Send file to Telegram.
++         
++         Limits:
++         - Max 50 MB via Bot API
++         - Max 2 GB via MTProto (not implemented)
++         """
++         if not self.telegram_token or not self.telegram_chat_id:
++             logger.warning("Telegram not configured")
++             return False
++         
++         try:
++             # Check file size
++             file_size = os.path.getsize(file_path)
++             file_size_mb = file_size / (1024 * 1024)
++             
++             if file_size_mb &gt; 50:
++                 logger.error(f"File too large for Telegram Bot API: {file_size_mb:.1f} MB (max 50 MB)")
++                 return False
++             
++             url = f"https://api.telegram.org/bot{self.telegram_token}/sendDocument"
++             
++             with open(file_path, 'rb') as f:
++                 files = {'document': (os.path.basename(file_path), f)}
++                 data = {
++                     'chat_id': self.telegram_chat_id,
++                     'caption': caption or f"📊 Database backup ({file_size_mb:.1f} MB)"
++                 }
++                 
++                 response = requests.post(url, files=files, data=data, timeout=120)
++                 
++                 if response.status_code == 200:
++                     logger.info(f"File sent to Telegram: {file_size_mb:.1f} MB")
++                     return True
++                 else:
++                     logger.error(f"Telegram file upload failed: {response.text}")
++                     return False
++                     
++         except Exception as e:
++             logger.error(f"Telegram file error: {e}")
++             return False
++     
+      def get_stats(self) -&gt; dict:
+          """Get database statistics."""
 ```
 
 </details>
@@ -8044,6 +8048,235 @@ Status: **loading**
 </tool-use>
 
 ---
+
+Now let me update the `run` method to send the database file:
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="search_replace">
+
+<details><summary>Tool use: **search_replace** • Edit file: D:\study\kite\cloud_collector.py</summary>
+
+**Chunk 1**
+Lines added: 1, lines removed: 1
+
+```diff
+@@ -382,5 +382,5 @@
+              self.db_conn.close()
+      
+-     def run(self, days: int = 1, historical: bool = False):
++     def run(self, days: int = 1, historical: bool = False, send_file: bool = True):
+          """Main entry point."""
+          start_time = datetime.now()
+```
+
+**Chunk 2**
+Lines added: 2, lines removed: undefined
+
+```diff
+@@ -403,6 +403,8 @@
+          
+          # Summary
++         date_str = datetime.now().strftime("%Y-%m-%d")
+          summary = (
+              f"{'📊' if results['total_candles'] &gt; 0 else '⚠️'} &lt;b&gt;Collection Complete&lt;/b&gt;\n\n"
++             f"📅 Date: {date_str}\n"
+              f"✅ Stocks: {len(results['success'])}/{len(self.STOCKS)}\n"
+              f"📈 New candles: {results['total_candles']:,}\n"
+```
+
+**Chunk 3**
+Lines added: 18, lines removed: undefined
+
+```diff
+@@ -420,4 +422,22 @@
+          asyncio.run(self.send_telegram(summary))
+          
++         # Send database file to Telegram (if enabled and file is under 50MB)
++         if send_file and stats['db_size_mb'] &lt; 50:
++             self.close()  # Close DB connection before sending
++             
++             caption = (
++                 f"📊 Zerodha Data - {date_str}\n"
++                 f"📈 {stats['total_records']:,} candles | {len(results['success'])} stocks\n"
++                 f"💾 {stats['db_size_mb']} MB"
++             )
++             
++             asyncio.run(self.send_telegram_file(str(DB_PATH), caption))
++             return True
++         elif stats['db_size_mb'] &gt;= 50:
++             asyncio.run(self.send_telegram(
++                 "⚠️ Database too large for Telegram (&gt;50MB).\n"
++                 "Download from GitHub Releases instead."
++             ))
++         
+          self.close()
+          return True
+```
+
+</details>
+
+</tool-use>
+
+---
+
+Now let me update the main function to support the send-file option:
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="search_replace">
+
+<details><summary>Tool use: **search_replace** • Edit file: D:\study\kite\cloud_collector.py</summary>
+
+**Chunk 1**
+Lines added: 1, lines removed: undefined
+
+```diff
+@@ -452,4 +452,5 @@
+      parser.add_argument("--all-nse", action="store_true", help="Collect ALL NSE stocks (~2000)")
+      parser.add_argument("--top", type=int, help="Collect top N stocks by market cap (e.g., 100, 200, 500)")
++     parser.add_argument("--no-file", action="store_true", help="Don't send database file to Telegram")
+      
+      args = parser.parse_args()
+```
+
+**Chunk 2**
+Lines added: 2, lines removed: 1
+
+```diff
+@@ -469,5 +470,6 @@
+      logger.info(f"Will collect data for {len(collector.STOCKS)} stocks")
+      
+-     success = collector.run(args.days, args.historical)
++     send_file = not args.no_file
++     success = collector.run(args.days, args.historical, send_file)
+      
+      sys.exit(0 if success else 1)
+```
+
+</details>
+
+</tool-use>
+
+---
+
+Now let me push the changes:
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **run_terminal_cmd** • Run command: cd D:\study\kite; git add .; git commit -m "Add Telegram file upload - receive database directly in Telegram!"; git push</summary>
+
+```bash
+cd D:\study\kite; git add .; git commit -m "Add Telegram file upload - receive database directly in Telegram!"; git push
+```
+
+```
+[main 8659ee6] Add Telegram file upload - receive database directly in Telegram!
+ 2 files changed, 942 insertions(+), 2 deletions(-)
+To https://github.com/addyfu/zerodha-data.git
+   89e6e36..8659ee6  main -&gt; main
+
+```
+</details>
+</tool-use>
+
+---
+
+Done! Now let me explain what you'll get:
+
+## ✅ Telegram File Upload Implemented!
+
+### What Happens Now:
+
+Every day when the workflow runs, you'll receive **TWO messages** on Telegram:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  MESSAGE 1: Summary                                          │
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│  📊 Collection Complete                                      │
+│                                                              │
+│  📅 Date: 2026-01-15                                        │
+│  ✅ Stocks: 50/50                                           │
+│  📈 New candles: 18,750                                     │
+│  💾 DB Size: 7.5 MB                                         │
+│  📁 Total records: 56,250                                   │
+│  ⏱️ Duration: 34s                                           │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│  MESSAGE 2: Database File                                    │
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│  📎 zerodha_data.db                                         │
+│                                                              │
+│  📊 Zerodha Data - 2026-01-15                               │
+│  📈 56,250 candles | 50 stocks                              │
+│  💾 7.5 MB                                                  │
+│                                                              │
+│  [Download]                                                  │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 📱 Telegram Limits - You're Safe!
+
+| Limit | Value | Your Situation |
+|-------|-------|----------------|
+| **File size** | 50 MB max | ✅ Your DB is ~7 MB |
+| **Ban risk** | Only for spam | ✅ 1 file/day is fine |
+| **Storage** | Unlimited | ✅ Telegram stores forever |
+| **Access** | From any device | ✅ Phone, desktop, web |
+
+### When Will You Hit 50 MB?
+
+| Stocks | Time to 50 MB |
+|--------|---------------|
+| NIFTY 50 | ~6-8 months |
+| Top 200 | ~2 months |
+| All NSE | ~2-3 weeks |
+
+**When you hit 50 MB**, the bot will:
+1. Send you a warning message
+2. Still upload to GitHub Releases
+3. You can download from there instead
+
+---
+
+## 🎉 Benefits of Telegram Storage
+
+1. **📱 Access from phone** - Download anytime, anywhere
+2. **🔍 Searchable** - Find old backups by date
+3. **💾 Free unlimited storage** - Telegram keeps files forever
+4. **🔄 Daily backups** - Never lose data
+5. **📊 With summary** - Know what's in each file
+
+---
+
+## 🧪 Want to Test It?
+
+Go to **Actions** → **Run workflow** and it will:
+1. Collect data
+2. Send you summary on Telegram
+3. Send you the database file on Telegram
+4. Also upload to GitHub Releases (backup)
+
+You'll have the database right in your Telegram chat! 🚀
+
+---
+
+_**User (2026-01-13 13:42Z)**_
+
+Bro, but have we integrated all of the stocks here because I can see in the notification you see only 50 stocks. So have we added that thing in our code?
+
+---
+
+_**Agent (model claude-4.5-opus-high, mode Agent)**_
 
 
 
