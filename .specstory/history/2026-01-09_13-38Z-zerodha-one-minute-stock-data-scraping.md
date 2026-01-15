@@ -8278,7 +8278,257 @@ Bro, but have we integrated all of the stocks here because I can see in the noti
 
 _**Agent (model claude-4.5-opus-high, mode Agent)**_
 
+You're right! The workflow is still using the default NIFTY 50. Let me check and update the GitHub workflow to use the stock set option properly:
 
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file">
+<details><summary>Tool use: **read_file** • Read file: D:\study\kite\.github\workflows\collect_data.yml</summary>
+
+</details>
+</tool-use>
+
+---
+
+The code IS there! The workflow supports all stock sets. The issue is:
+
+1. **For scheduled runs** (automatic daily), it defaults to `nifty50`
+2. **For manual runs**, you can select `all_nse`, `top100`, etc.
+
+Let me update the **scheduled run to use all NSE stocks** by default:
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="search_replace">
+
+<details><summary>Tool use: **search_replace** • Edit file: D:\study\kite\.github\workflows\collect_data.yml</summary>
+
+**Chunk 1**
+Lines added: 1, lines removed: 1
+
+```diff
+@@ -26,5 +26,5 @@
+          required: false
+          type: choice
+-         default: 'nifty50'
++         default: 'all_nse'
+          options:
+            - nifty50
+```
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="search_replace">
+
+<details><summary>Tool use: **search_replace** • Edit file: D:\study\kite\.github\workflows\collect_data.yml</summary>
+
+**Chunk 1**
+Lines added: 1, lines removed: 1
+
+```diff
+@@ -78,5 +78,5 @@
+        - name: Collect data
+          run: |
+-           STOCK_SET="${{ github.event.inputs.stock_set || 'nifty50' }}"
++           STOCK_SET="${{ github.event.inputs.stock_set || 'all_nse' }}"
+            DAYS="${{ github.event.inputs.days || '3' }}"
+            HISTORICAL="${{ github.event.inputs.historical }}"
+```
+
+</details>
+
+</tool-use>
+
+---
+
+Now let me push the changes:
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **run_terminal_cmd** • Run command: cd D:\study\kite; git add .; git commit -m "Change default to ALL NSE stocks for both scheduled and manual runs"; git push</summary>
+
+```bash
+cd D:\study\kite; git add .; git commit -m "Change default to ALL NSE stocks for both scheduled and manual runs"; git push
+```
+
+```
+[main b7184fc] Change default to ALL NSE stocks for both scheduled and manual runs
+ 2 files changed, 282 insertions(+), 49 deletions(-)
+To https://github.com/addyfu/zerodha-data.git
+   8659ee6..b7184fc  main -&gt; main
+
+```
+</details>
+</tool-use>
+
+---
+
+Done! Here's what changed:
+
+## ✅ Updated to ALL NSE Stocks by Default!
+
+### Before:
+- Scheduled runs: NIFTY 50 only
+- Manual runs: NIFTY 50 (unless you selected otherwise)
+
+### Now:
+- **Scheduled runs: ALL NSE stocks (~2000)** ✅
+- **Manual runs: ALL NSE stocks by default** ✅
+- You can still select nifty50, top100, etc. if you want
+
+---
+
+## 📊 What to Expect
+
+| Setting | Stocks | Time | Daily Data |
+|---------|--------|------|------------|
+| ~~nifty50~~ | ~~50~~ | ~~30 sec~~ | ~~18,750 candles~~ |
+| **all_nse** (NEW DEFAULT) | **~2000** | **~15-20 min** | **~750,000 candles** |
+
+---
+
+## ⚠️ Important Notes
+
+1. **First run will take ~15-20 minutes** (fetching 2000 stocks)
+2. **Database will grow faster** (~50-100 MB per week)
+3. **Telegram file limit is 50 MB** - after ~1-2 weeks, files will only go to GitHub Releases
+
+---
+
+## 🧪 Want to Test Now?
+
+Go to **Actions** → **Daily Data Collection** → **Run workflow**
+
+You'll see it now defaults to `all_nse` and will collect ALL NSE stocks!
+
+The notification will show something like:
+```
+📊 Collection Complete
+
+📅 Date: 2026-01-15
+✅ Stocks: 1847/2000
+📈 New candles: 692,625
+💾 DB Size: 45 MB
+📁 Total records: 692,625
+⏱️ Duration: 18min
+```
+
+🚀 You're now collecting data for the **entire NSE market**!
+
+---
+
+_**User (2026-01-13 13:42Z)**_
+
+https://www.reddit.com/r/devops/comments/128m0c7/using_github_actions_to_run_python_scripts_and/ 
+bro  can you go through this link? I don't want my GitHub account to get banned.
+
+---
+
+_**Agent (model claude-4.5-opus-high, mode Agent)**_
+
+<tool-use data-tool-type="search" data-tool-name="web_search">
+<details>
+            <summary>Tool use: **web_search** • Searched web `GitHub Actions terms of service ban crypto mining abuse policy 2025 2026` • **1** results</summary>
+        
+| Title | URL | Chunk |
+|-------|-----|-------|
+| Web Search Results |  | Yes—there *is* a risk of your GitHub account being suspended or flagged if you don’t follow GitHub’s Terms of Service (ToS), especially around how you're using GitHub Actions for scraping or interacting with third-party services. Here's a breakdown of what I found, along with what you should look out for:<br/><br/>---<br/><br/>## What GitHub Says in Its Terms<br/><br/>- **Abuse or excessive API usage** is disallowed. If GitHub believes you’re abusing their API or overusing it, they may suspend access or even the account. ([docs.github.com](https://docs.github.com/articles/github-terms-of-service?utm_source=openai))  <br/>- The **Acceptable Use Policy** and Additional Product Terms mention that using GitHub Actions to interact with third-party websites *solely* for scraping, or doing “general computing” tasks not tied to the development, testing, or deployment of software under that repo, can violate the rules. ([github.com](https://github.com/swyxio/gh-action-data-scraping?utm_source=openai))  <br/><br/>---<br/><br/>## Cases and Real Incidents<br/><br/>From Reddit threads and user reports, there are several examples where GitHub suspended or flagged accounts for reasons that seem relevant to scraping or automation workflows:<br/><br/>- Users reported suspensions when their repositories or actions involved *automated interaction with external sites or APIs*, especially if those repos didn’t also show typical development activity. ([reddit.com](https://www.reddit.com/r/github/comments/10cn39g?utm_source=openai))  <br/>- Some accounts got flagged simply for using GitHub Actions to hit external services, even without any lasting or overtly malicious behavior. ([reddit.com](https://www.reddit.com/r/github/comments/10cn39g?utm_source=openai))  <br/>- GitHub staff has responded in certain discussions saying that repos which “use GitHub Actions solely to interact with 3rd-party websites … for general computing purposes may fall afoul of the GitHub Additional Product Terms.” ([reddit.com](https://www.reddit.com/r/github/comments/10cn39g?utm_source=openai))  <br/><br/>---<br/><br/>## What That Means for Your Case<br/><br/>You mentioned that you want to run a GitHub Action (or similar scheduler) that:<br/><br/>- Scrapes stock/ticker data from some source<br/>- Runs daily (or more often)<br/>- Possibly aggregates data for the entire NSE (Indian stock market)<br/>- Sends the data via Telegram<br/><br/>Based on GitHub’s rules and the shared experiences:<br/><br/>- If your workflow is basically just scraping an external endpoint for data frequently, and the repository isn’t doing something that looks like software development (tests, builds, deployments, etc.), it *might* be considered “solely interacting with third-party sites,” which is a red flag.  <br/>- Using *very frequent cron jobs* (especially less than 5-minute intervals) or storing large amounts of scraped data might be more risky. GitHub Actions has frequency limits and usage quotas. ([github.com](https://github.com/swyxio/gh-action-data-scraping?utm_source=openai))  <br/><br/>---<br/><br/>## What You Can Do to Stay Safe<br/><br/>To reduce the risk of GitHub suspending or flagging your account:<br/><br/>1. **Blend the scraper into a larger software project**  <br/>   If the repo has purpose beyond just scraping—say building analysis, dashboards, tests, or deploying something—that helps legitimize its use of Actions.<br/><br/>2. **Limit the frequency and volume of scraping**  <br/>   Instead of every few seconds, try sticking with something GitHub approves (e.g. every 5 minutes is the minimum allowed via cron in GitHub Actions). ([github.com](https://github.com/swyxio/gh-action-data-scraping?utm_source=openai))  <br/><br/>3. **Check the ToS and Additional Product Terms**  <br/>   Understand exactly what is permitted. Sometimes GitHub explicitly says what kinds of use they consider abuse in their AUP. ([docs.github.com](https://docs.github.com/articles/github-terms-of-service?utm_source=openai))  <br/><br/>4. **Use official APIs or get permission**  <br/>   If the data source has an API, try to use that (with proper authentication), it’s less likely to trigger issues than plain scraping.<br/><br/>5. **Store data outside of GitHub Actions when possible**  <br/>   Don’t try to keep large datasets in the repo (GitHub storage is limited, and having GitHub Actions jobs storing lots of data in the repo can be seen as misuse).<br/><br/>6. **Backup everything locally**  <br/>   Just in case something happens, have backups of the data, code, etc.<br/><br/>---<br/><br/>In summary: yes, there *is* a possibility your GitHub account could get in trouble if you’re using GitHub Actions for scraping in ways that breach the ToS. If you want, I can help you draft a safer workflow or show you alternative platforms (like using a VPS or serverless outside GitHub) to avoid these risks. Do you want to go that route? |
+
+</details>
+</tool-use>
+
+---
+
+This is a **very valid concern**! Let me break down the risks and how we can stay safe:
+
+## ⚠️ GitHub Actions - Risk Assessment
+
+### What GitHub Says:
+
+| Activity | Risk Level | Our Situation |
+|----------|------------|---------------|
+| **Crypto mining** | 🔴 BAN | ❌ We're not doing this |
+| **Scraping websites** | 🟡 Risky | ⚠️ We're using Zerodha's API |
+| **General computing** (not dev-related) | 🟡 Risky | ⚠️ Could be seen as this |
+| **Frequent runs** (<5 min intervals) | 🟡 Risky | ✅ We run once/day |
+| **Large data storage in repo** | 🟡 Risky | ⚠️ We use Releases |
+| **Software development/testing** | 🟢 Safe | ✅ We have code in repo |
+
+---
+
+## 🔍 Our Specific Risks
+
+### 1. **"Solely interacting with 3rd-party websites"**
+GitHub's terms say using Actions **solely** to scrape/interact with external sites is not allowed.
+
+**Our situation:** We're calling Zerodha's API to get data.
+
+### 2. **Not "software development related"**
+GitHub wants Actions used for CI/CD, testing, deployment - not general computing.
+
+**Our situation:** We're collecting data, not building/testing software.
+
+### 3. **Storing large data**
+Using GitHub as a data warehouse is frowned upon.
+
+**Our situation:** We're uploading DB files to Releases.
+
+---
+
+## 🛡️ How to Stay Safe
+
+### Option 1: Make the Repo Look Like a Real Project ✅
+Add actual software development activities:
+- Add tests
+- Add data analysis scripts
+- Add documentation
+- Make it look like a legitimate data project
+
+### Option 2: Move to a Safer Platform 🔄
+Use a platform designed for this:
+
+| Platform | Free Tier | Best For |
+|----------|-----------|----------|
+| **Railway.app** | 500 hours/month | Small scripts |
+| **Render.com** | Cron jobs | Scheduled tasks |
+| **Oracle Cloud** | Always free VPS | Full control |
+| **Google Cloud Run** | 2M requests/month | Serverless |
+| **Vercel Cron** | Limited | Simple cron |
+
+### Option 3: Reduce Footprint on GitHub
+- Run less frequently
+- Store data only on Telegram (not GitHub Releases)
+- Keep the repo private
+
+---
+
+## 🎯 My Recommendation
+
+**Safest approach:** Move to **Oracle Cloud Free Tier** - it's a **free forever VPS** where you can run anything without restrictions!
+
+| Feature | Oracle Cloud Free |
+|---------|-------------------|
+| **Cost** | $0 forever |
+| **CPU** | 1-4 cores |
+| **RAM** | 1-24 GB |
+| **Storage** | 200 GB |
+| **Restrictions** | None! |
+
+---
+
+## 🤔 What Do You Want to Do?
+
+1. **Keep GitHub Actions** but make it safer (add tests, reduce frequency)
+2. **Move to Oracle Cloud** (free VPS, no restrictions)
+3. **Move to Railway/Render** (easier setup, free tier)
+4. **Just use Telegram storage** and remove GitHub Releases
+
+Let me know and I'll help you set it up! The Oracle Cloud option is the safest and most flexible - you can run anything there without worrying about bans.
 
 ---
 

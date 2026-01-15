@@ -311,47 +311,92 @@ class CloudCollector:
         except Exception as e:
             logger.error(f"Telegram error: {e}")
     
-    async def send_telegram_file(self, file_path: str, caption: str = None):
+    async def send_telegram_file(self, file_path: str, caption: str = None, compress: bool = True):
         """
         Send file to Telegram.
         
         Limits:
         - Max 50 MB via Bot API
         - Max 2 GB via MTProto (not implemented)
+        
+        SQLite databases compress ~70-80%, so a 100MB DB becomes ~20-30MB zipped!
         """
         if not self.telegram_token or not self.telegram_chat_id:
             logger.warning("Telegram not configured")
             return False
         
         try:
-            # Check file size
+            import zipfile
+            import tempfile
+            
             file_size = os.path.getsize(file_path)
             file_size_mb = file_size / (1024 * 1024)
             
+            # Determine if we should compress
+            send_path = file_path
+            send_filename = os.path.basename(file_path)
+            compressed = False
+            zip_path = None
+            
+            if compress and file_size_mb > 10:  # Compress if > 10 MB
+                # Create zip file
+                zip_path = file_path + '.zip'
+                
+                logger.info(f"Compressing {file_size_mb:.1f} MB database...")
+                
+                with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
+                    zf.write(file_path, os.path.basename(file_path))
+                
+                zip_size = os.path.getsize(zip_path)
+                zip_size_mb = zip_size / (1024 * 1024)
+                compression_ratio = (1 - zip_size / file_size) * 100
+                
+                logger.info(f"Compressed: {file_size_mb:.1f} MB → {zip_size_mb:.1f} MB ({compression_ratio:.0f}% smaller)")
+                
+                send_path = zip_path
+                send_filename = os.path.basename(zip_path)
+                file_size_mb = zip_size_mb
+                compressed = True
+            
+            # Check final size
             if file_size_mb > 50:
-                logger.error(f"File too large for Telegram Bot API: {file_size_mb:.1f} MB (max 50 MB)")
+                logger.error(f"File still too large after compression: {file_size_mb:.1f} MB (max 50 MB)")
+                if zip_path and os.path.exists(zip_path):
+                    os.remove(zip_path)
                 return False
+            
+            # Update caption with compression info
+            if compressed and caption:
+                caption += f"\n🗜️ Compressed: {compression_ratio:.0f}% smaller"
             
             url = f"https://api.telegram.org/bot{self.telegram_token}/sendDocument"
             
-            with open(file_path, 'rb') as f:
-                files = {'document': (os.path.basename(file_path), f)}
+            with open(send_path, 'rb') as f:
+                files = {'document': (send_filename, f)}
                 data = {
                     'chat_id': self.telegram_chat_id,
                     'caption': caption or f"📊 Database backup ({file_size_mb:.1f} MB)"
                 }
                 
-                response = requests.post(url, files=files, data=data, timeout=120)
+                logger.info(f"Uploading to Telegram: {file_size_mb:.1f} MB...")
+                response = requests.post(url, files=files, data=data, timeout=300)  # 5 min timeout for large files
                 
                 if response.status_code == 200:
                     logger.info(f"File sent to Telegram: {file_size_mb:.1f} MB")
+                    # Cleanup zip file
+                    if zip_path and os.path.exists(zip_path):
+                        os.remove(zip_path)
                     return True
                 else:
                     logger.error(f"Telegram file upload failed: {response.text}")
+                    if zip_path and os.path.exists(zip_path):
+                        os.remove(zip_path)
                     return False
                     
         except Exception as e:
             logger.error(f"Telegram file error: {e}")
+            if zip_path and os.path.exists(zip_path):
+                os.remove(zip_path)
             return False
     
     def get_stats(self) -> dict:
@@ -421,21 +466,23 @@ class CloudCollector:
         # Send notification
         asyncio.run(self.send_telegram(summary))
         
-        # Send database file to Telegram (if enabled and file is under 50MB)
-        if send_file and stats['db_size_mb'] < 50:
+        # Send database file to Telegram (if enabled)
+        # With compression, we can handle up to ~150-200 MB (compresses to <50 MB)
+        if send_file and stats['db_size_mb'] < 200:
             self.close()  # Close DB connection before sending
             
             caption = (
                 f"📊 Zerodha Data - {date_str}\n"
                 f"📈 {stats['total_records']:,} candles | {len(results['success'])} stocks\n"
-                f"💾 {stats['db_size_mb']} MB"
+                f"💾 Original: {stats['db_size_mb']} MB"
             )
             
-            asyncio.run(self.send_telegram_file(str(DB_PATH), caption))
+            asyncio.run(self.send_telegram_file(str(DB_PATH), caption, compress=True))
             return True
-        elif stats['db_size_mb'] >= 50:
+        elif stats['db_size_mb'] >= 200:
             asyncio.run(self.send_telegram(
-                "⚠️ Database too large for Telegram (>50MB).\n"
+                f"⚠️ Database too large for Telegram ({stats['db_size_mb']:.0f} MB).\n"
+                "Even compressed, it exceeds 50 MB limit.\n"
                 "Download from GitHub Releases instead."
             ))
         
