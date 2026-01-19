@@ -1,7 +1,7 @@
 # Secrets - NEVER commit these!
 secrets.py
 enctoken.txt
-config.py
+/config.py
 
 # Data files (stored in releases instead)
 data/*.db
