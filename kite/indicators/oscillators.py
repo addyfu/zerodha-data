@@ -281,3 +281,164 @@ def stochastic_crossover(stoch_k: pd.Series, stoch_d: pd.Series) -> pd.Series:
     cross[bearish] = -1
     
     return cross
+
+
+def stoch_rsi(series: pd.Series, rsi_period: int = 14, 
+              stoch_period: int = 14, k_smooth: int = 3, 
+              d_smooth: int = 3) -> Tuple[pd.Series, pd.Series]:
+    """
+    Stochastic RSI - Applies stochastic formula to RSI values.
+    
+    Args:
+        series: Price series (typically close)
+        rsi_period: Period for RSI calculation
+        stoch_period: Period for stochastic calculation
+        k_smooth: Smoothing for %K
+        d_smooth: Smoothing for %D
+        
+    Returns:
+        Tuple of (StochRSI %K, StochRSI %D)
+    """
+    # Calculate RSI first
+    rsi_values = rsi(series, rsi_period)
+    
+    # Apply stochastic formula to RSI
+    lowest_rsi = rsi_values.rolling(window=stoch_period).min()
+    highest_rsi = rsi_values.rolling(window=stoch_period).max()
+    
+    stoch_rsi_k = 100 * (rsi_values - lowest_rsi) / (highest_rsi - lowest_rsi)
+    stoch_rsi_k = stoch_rsi_k.rolling(window=k_smooth).mean()
+    stoch_rsi_d = stoch_rsi_k.rolling(window=d_smooth).mean()
+    
+    return stoch_rsi_k, stoch_rsi_d
+
+
+def adx(df: pd.DataFrame, period: int = 14) -> Tuple[pd.Series, pd.Series, pd.Series]:
+    """
+    Average Directional Index with +DI and -DI.
+    
+    Args:
+        df: DataFrame with high, low, close columns
+        period: Lookback period
+        
+    Returns:
+        Tuple of (ADX, +DI, -DI)
+    """
+    high = df['high']
+    low = df['low']
+    close = df['close']
+    
+    # Calculate +DM and -DM
+    plus_dm = high.diff()
+    minus_dm = -low.diff()
+    
+    plus_dm = plus_dm.where((plus_dm > minus_dm) & (plus_dm > 0), 0)
+    minus_dm = minus_dm.where((minus_dm > plus_dm) & (minus_dm > 0), 0)
+    
+    # Calculate True Range
+    tr1 = high - low
+    tr2 = abs(high - close.shift(1))
+    tr3 = abs(low - close.shift(1))
+    tr = pd.concat([tr1, tr2, tr3], axis=1).max(axis=1)
+    
+    # Smooth with Wilder's smoothing
+    atr = tr.ewm(alpha=1/period, min_periods=period).mean()
+    plus_di = 100 * plus_dm.ewm(alpha=1/period, min_periods=period).mean() / atr
+    minus_di = 100 * minus_dm.ewm(alpha=1/period, min_periods=period).mean() / atr
+    
+    # Calculate DX and ADX
+    dx = 100 * abs(plus_di - minus_di) / (plus_di + minus_di)
+    adx_values = dx.ewm(alpha=1/period, min_periods=period).mean()
+    
+    return adx_values, plus_di, minus_di
+
+
+def obv(df: pd.DataFrame) -> pd.Series:
+    """
+    On Balance Volume.
+    
+    Args:
+        df: DataFrame with close and volume columns
+        
+    Returns:
+        OBV series
+    """
+    close = df['close']
+    volume = df['volume']
+    
+    direction = np.where(close > close.shift(1), 1, 
+                        np.where(close < close.shift(1), -1, 0))
+    
+    obv_values = (volume * direction).cumsum()
+    return pd.Series(obv_values, index=df.index)
+
+
+def macd(series: pd.Series, fast: int = 12, slow: int = 26, 
+         signal: int = 9) -> Tuple[pd.Series, pd.Series, pd.Series]:
+    """
+    MACD - Moving Average Convergence Divergence.
+    
+    Args:
+        series: Price series
+        fast: Fast EMA period
+        slow: Slow EMA period
+        signal: Signal line period
+        
+    Returns:
+        Tuple of (MACD line, Signal line, Histogram)
+    """
+    from .moving_averages import ema
+    
+    fast_ema = ema(series, fast)
+    slow_ema = ema(series, slow)
+    
+    macd_line = fast_ema - slow_ema
+    signal_line = ema(macd_line, signal)
+    histogram = macd_line - signal_line
+    
+    return macd_line, signal_line, histogram
+
+
+def tdi(df: pd.DataFrame, rsi_period: int = 13, 
+        fast_ma: int = 2, slow_ma: int = 7, 
+        bb_period: int = 34, bb_std: float = 1.6185) -> dict:
+    """
+    Traders Dynamic Index - Hybrid indicator combining RSI, MA, and BB.
+    
+    Args:
+        df: DataFrame with close column
+        rsi_period: RSI period
+        fast_ma: Fast MA period for RSI
+        slow_ma: Slow MA period for RSI
+        bb_period: Bollinger Band period
+        bb_std: Bollinger Band standard deviation
+        
+    Returns:
+        Dictionary with TDI components
+    """
+    from .moving_averages import sma
+    
+    # Calculate RSI
+    rsi_values = rsi(df['close'], rsi_period)
+    
+    # Green line: RSI smoothed with fast MA
+    green_line = sma(rsi_values, fast_ma)
+    
+    # Red line: RSI smoothed with slow MA  
+    red_line = sma(rsi_values, slow_ma)
+    
+    # Yellow line: Middle BB (slow MA of RSI)
+    yellow_line = sma(rsi_values, bb_period)
+    
+    # Blue lines: Upper and Lower BB
+    std = rsi_values.rolling(window=bb_period).std()
+    upper_bb = yellow_line + (bb_std * std)
+    lower_bb = yellow_line - (bb_std * std)
+    
+    return {
+        'green': green_line,      # Market sentiment (RSI)
+        'red': red_line,          # Trade signal line
+        'yellow': yellow_line,    # Market base line
+        'upper_bb': upper_bb,     # Volatility upper
+        'lower_bb': lower_bb      # Volatility lower
+    }

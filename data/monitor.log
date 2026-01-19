@@ -1,0 +1,177 @@
+2026-01-16 00:34:34,461 - INFO - Initializing Live Monitor...
+2026-01-16 00:34:34,462 - INFO - Using OFFLINE data (testing mode)
+2026-01-16 00:34:34,462 - WARNING - Telegram not configured - alerts will be console only
+2026-01-16 00:34:34,462 - INFO - Strategy: fib_3wave
+2026-01-16 00:34:34,522 - INFO - Loaded state: Capital=100000.00, Open positions=0
+2026-01-16 00:34:34,543 - INFO - ============================================================
+2026-01-16 00:34:34,544 - INFO - LIVE TRADING MONITOR STARTED
+2026-01-16 00:34:34,544 - INFO - ============================================================
+2026-01-16 00:34:34,544 - INFO - Strategy: fib_3wave
+2026-01-16 00:34:34,544 - INFO - Stocks: 48
+2026-01-16 00:34:34,544 - INFO - Scan interval: 10s
+2026-01-16 00:34:34,544 - INFO - Mode: OFFLINE
+2026-01-16 00:34:34,544 - INFO - ============================================================
+2026-01-16 00:35:46,457 - INFO - Initializing Live Monitor...
+2026-01-16 00:35:46,458 - INFO - Using OFFLINE data (testing mode)
+2026-01-16 00:35:46,458 - WARNING - Telegram not configured - alerts will be console only
+2026-01-16 00:35:46,458 - INFO - Strategy: fib_3wave
+2026-01-16 00:35:46,486 - INFO - Loaded state: Capital=100000.00, Open positions=0
+2026-01-16 00:35:46,486 - INFO - Paper trader initialized with Rs 100,000.00
+2026-01-16 00:35:46,486 - INFO - ============================================================
+2026-01-16 00:35:46,486 - INFO - LIVE TRADING MONITOR STARTED
+2026-01-16 00:35:46,486 - INFO - ============================================================
+2026-01-16 00:35:46,486 - INFO - Strategy: fib_3wave
+2026-01-16 00:35:46,486 - INFO - Stocks: 48
+2026-01-16 00:35:46,486 - INFO - Scan interval: 10s
+2026-01-16 00:35:46,486 - INFO - Mode: OFFLINE
+2026-01-16 00:35:46,486 - INFO - ============================================================
+2026-01-16 00:35:46,486 - INFO - Scanning 48 stocks...
+2026-01-16 00:35:48,244 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:35:48,244 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:35:57,329 - INFO - Scanning 48 stocks...
+2026-01-16 00:35:58,364 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:35:58,365 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:36:08,440 - INFO - Scanning 48 stocks...
+2026-01-16 00:36:09,454 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:36:09,454 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:36:19,525 - INFO - Scanning 48 stocks...
+2026-01-16 00:36:21,014 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:36:21,015 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:36:31,086 - INFO - Scanning 48 stocks...
+2026-01-16 00:36:32,472 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:36:32,474 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:36:42,552 - INFO - Scanning 48 stocks...
+2026-01-16 00:36:43,829 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:36:43,831 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:36:53,914 - INFO - Scanning 48 stocks...
+2026-01-16 00:36:54,901 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:36:54,903 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:37:04,969 - INFO - Scanning 48 stocks...
+2026-01-16 00:37:05,962 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:37:05,963 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:37:16,049 - INFO - Scanning 48 stocks...
+2026-01-16 00:37:17,156 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:37:17,157 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:37:27,230 - INFO - Scanning 48 stocks...
+2026-01-16 00:37:28,297 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:37:28,298 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:37:38,363 - INFO - Scanning 48 stocks...
+2026-01-16 00:37:39,423 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:37:39,424 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:37:49,501 - INFO - Scanning 48 stocks...
+2026-01-16 00:37:51,875 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:37:51,878 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:38:01,971 - INFO - Scanning 48 stocks...
+2026-01-16 00:38:03,016 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:38:03,016 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:38:13,088 - INFO - Scanning 48 stocks...
+2026-01-16 00:38:14,216 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:38:14,218 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:38:24,312 - INFO - Scanning 48 stocks...
+2026-01-16 00:38:25,322 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:38:25,323 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:38:35,407 - INFO - Scanning 48 stocks...
+2026-01-16 00:38:36,455 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:38:36,455 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:38:46,509 - INFO - Scanning 48 stocks...
+2026-01-16 00:38:47,496 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:38:47,496 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:38:57,556 - INFO - Scanning 48 stocks...
+2026-01-16 00:38:58,577 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:38:58,579 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:39:08,663 - INFO - Scanning 48 stocks...
+2026-01-16 00:39:09,705 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:39:09,705 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:39:19,790 - INFO - Scanning 48 stocks...
+2026-01-16 00:39:21,082 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:39:21,083 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:39:31,138 - INFO - Scanning 48 stocks...
+2026-01-16 00:39:32,116 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:39:32,116 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:39:42,183 - INFO - Scanning 48 stocks...
+2026-01-16 00:39:43,175 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:39:43,176 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:39:53,239 - INFO - Scanning 48 stocks...
+2026-01-16 00:39:54,219 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:39:54,220 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:40:04,291 - INFO - Scanning 48 stocks...
+2026-01-16 00:40:05,249 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:40:05,252 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:40:15,337 - INFO - Scanning 48 stocks...
+2026-01-16 00:40:16,278 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:40:16,279 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:40:26,358 - INFO - Scanning 48 stocks...
+2026-01-16 00:40:27,419 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:40:27,421 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:40:37,498 - INFO - Scanning 48 stocks...
+2026-01-16 00:40:38,496 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:40:38,498 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:40:48,583 - INFO - Scanning 48 stocks...
+2026-01-16 00:40:50,447 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:40:50,449 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:41:00,537 - INFO - Scanning 48 stocks...
+2026-01-16 00:41:01,523 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:41:01,523 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:41:11,589 - INFO - Scanning 48 stocks...
+2026-01-16 00:41:12,547 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:41:12,547 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:41:22,624 - INFO - Scanning 48 stocks...
+2026-01-16 00:41:23,611 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:41:23,611 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:41:33,684 - INFO - Scanning 48 stocks...
+2026-01-16 00:41:34,660 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:41:34,661 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:41:44,749 - INFO - Scanning 48 stocks...
+2026-01-16 00:41:45,745 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:41:45,746 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:41:55,823 - INFO - Scanning 48 stocks...
+2026-01-16 00:41:56,801 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:41:56,802 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:42:06,890 - INFO - Scanning 48 stocks...
+2026-01-16 00:42:07,907 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:42:07,909 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:42:17,962 - INFO - Scanning 48 stocks...
+2026-01-16 00:42:19,039 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:42:19,039 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:42:29,109 - INFO - Scanning 48 stocks...
+2026-01-16 00:42:30,177 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:42:30,178 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:42:40,236 - INFO - Scanning 48 stocks...
+2026-01-16 00:42:41,237 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:42:41,238 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:42:51,308 - INFO - Scanning 48 stocks...
+2026-01-16 00:42:52,855 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:42:52,858 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:43:02,917 - INFO - Scanning 48 stocks...
+2026-01-16 00:43:04,005 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:43:04,006 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:43:14,075 - INFO - Scanning 48 stocks...
+2026-01-16 00:43:15,025 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:43:15,026 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:43:25,099 - INFO - Scanning 48 stocks...
+2026-01-16 00:43:26,100 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:43:26,101 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:43:36,163 - INFO - Scanning 48 stocks...
+2026-01-16 00:43:37,171 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:43:37,171 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:43:47,245 - INFO - Scanning 48 stocks...
+2026-01-16 00:43:48,242 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:43:48,242 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:43:58,324 - INFO - Scanning 48 stocks...
+2026-01-16 00:43:59,288 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:43:59,289 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:44:09,362 - INFO - Scanning 48 stocks...
+2026-01-16 00:44:10,304 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:44:10,305 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:44:20,372 - INFO - Scanning 48 stocks...
+2026-01-16 00:44:21,447 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:44:21,447 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:44:31,532 - INFO - Scanning 48 stocks...
+2026-01-16 00:44:32,486 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:44:32,487 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 00:44:42,578 - INFO - Scanning 48 stocks...
+2026-01-16 00:44:44,661 - INFO - Scan complete. Found 0 signals.
+2026-01-16 00:44:44,664 - ERROR - Scan cycle error: 'open_positions'
+2026-01-16 16:08:12,655 - INFO - Scanning 48 stocks...
+2026-01-16 16:08:22,719 - INFO - Scan complete. Found 0 signals.
+2026-01-16 16:08:22,726 - ERROR - Scan cycle error: 'open_positions'

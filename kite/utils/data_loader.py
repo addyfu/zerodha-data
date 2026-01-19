@@ -47,7 +47,10 @@ class DataLoader:
         if timeframe == 'daily':
             file_path = self.daily_dir / f"{symbol}_day_2000d.csv"
         elif timeframe == 'hourly':
-            file_path = self.hourly_dir / f"{symbol}_hour_60d.csv"
+            # Try different naming conventions
+            file_path = self.hourly_dir / f"{symbol}_60minute_400d.csv"
+            if not file_path.exists():
+                file_path = self.hourly_dir / f"{symbol}_hour_60d.csv"
         else:  # minute
             file_path = self.data_dir / f"{symbol}_minute_60d.csv"
         
@@ -133,20 +136,19 @@ class DataLoader:
         """
         if timeframe == 'daily':
             directory = self.daily_dir
-            suffix = '_day_2000d.csv'
         elif timeframe == 'hourly':
             directory = self.hourly_dir
-            suffix = '_hour_60d.csv'
         else:
             directory = self.data_dir
-            suffix = '_minute_60d.csv'
         
         symbols = []
         for file in directory.glob('*.csv'):
-            symbol = file.stem.replace(suffix.replace('.csv', ''), '')
-            # Clean up symbol name
+            symbol = file.stem
+            # Clean up symbol name - handle various naming conventions
             if '_minute_' in symbol:
                 symbol = symbol.split('_minute_')[0]
+            elif '_60minute_' in symbol:
+                symbol = symbol.split('_60minute_')[0]
             elif '_hour_' in symbol:
                 symbol = symbol.split('_hour_')[0]
             elif '_day_' in symbol:

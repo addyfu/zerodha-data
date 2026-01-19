@@ -34,6 +34,18 @@ from .combined_strategy import (
     create_scalping_combo,
 )
 
+# Batch 2 - More Underrated Strategies
+from .adx_dmi_obv import ADXDMIOBVStrategy
+from .cci_divergence import CCIDivergenceStrategy
+from .stochrsi_macd import StochRSIMACDStrategy
+from .tdi_strategy import TDIStrategy
+from .ma_envelopes import MAEnvelopesStrategy
+from .gmma_strategy import GMMAStrategy
+from .mfi_divergence import MFIDivergenceStrategy
+from .momentum_zero import MomentumZeroStrategy
+from .ascending_triangle import AscendingTriangleStrategy
+from .london_breakout import LondonBreakoutStrategy
+
 __all__ = [
     'BaseStrategy',
     'Signal',
@@ -70,6 +82,17 @@ __all__ = [
     'create_trend_following_combo',
     'create_best_performers_combo',
     'create_scalping_combo',
+    # Batch 2 - More Underrated Strategies
+    'ADXDMIOBVStrategy',
+    'CCIDivergenceStrategy',
+    'StochRSIMACDStrategy',
+    'TDIStrategy',
+    'MAEnvelopesStrategy',
+    'GMMAStrategy',
+    'MFIDivergenceStrategy',
+    'MomentumZeroStrategy',
+    'AscendingTriangleStrategy',
+    'LondonBreakoutStrategy',
 ]
 
 # Strategy registry for easy access
@@ -95,4 +118,15 @@ STRATEGY_REGISTRY = {
     'cmf_ichimoku': CMFIchimokuStrategy,
     'alligator': AlligatorStrategy,
     'fib_pivot': FibPivotStrategy,
+    # Batch 2 - More Underrated Strategies
+    'adx_dmi_obv': ADXDMIOBVStrategy,
+    'cci_divergence': CCIDivergenceStrategy,
+    'stochrsi_macd': StochRSIMACDStrategy,
+    'tdi': TDIStrategy,
+    'ma_envelopes': MAEnvelopesStrategy,
+    'gmma': GMMAStrategy,
+    'mfi_divergence': MFIDivergenceStrategy,
+    'momentum_zero': MomentumZeroStrategy,
+    'ascending_triangle': AscendingTriangleStrategy,
+    'london_breakout': LondonBreakoutStrategy,
 }

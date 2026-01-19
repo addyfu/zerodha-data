@@ -3,6 +3,8 @@ GitHub Actions Scanner
 ======================
 Lightweight scanner designed for GitHub Actions.
 Runs a single scan cycle, updates order book, sends alerts, and exits.
+
+Uses auto-login with TOTP - no manual enctoken refresh needed!
 """
 import os
 import sys
@@ -27,6 +29,36 @@ from kite.live_monitor.order_book import OrderBook
 from kite.live_monitor.data_fetcher import ZerodhaDataFetcher, OfflineDataFetcher
 from kite.live_monitor.signal_detector import SignalDetector
 from kite.live_monitor.telegram_bot import TelegramBot
+
+
+def get_enctoken_auto() -> str:
+    """
+    Get enctoken using auto-login with TOTP.
+    Falls back to ZERODHA_ENCTOKEN env var if auto-login fails.
+    """
+    # First try auto-login
+    user_id = os.environ.get("ZERODHA_USER_ID")
+    password = os.environ.get("ZERODHA_PASSWORD")
+    totp_secret = os.environ.get("ZERODHA_TOTP_SECRET")
+    
+    if all([user_id, password, totp_secret]):
+        try:
+            from zerodha_auto_login import get_enctoken
+            logger.info("Attempting auto-login with TOTP...")
+            enctoken = get_enctoken(user_id, password, totp_secret)
+            logger.info("Auto-login successful!")
+            return enctoken
+        except Exception as e:
+            logger.warning(f"Auto-login failed: {e}")
+    
+    # Fallback to manual enctoken
+    enctoken = os.environ.get("ZERODHA_ENCTOKEN", "")
+    if enctoken:
+        logger.info("Using manual ZERODHA_ENCTOKEN")
+        return enctoken
+    
+    logger.warning("No Zerodha credentials available")
+    return ""
 
 
 # NIFTY 50 stocks
@@ -344,8 +376,8 @@ def main():
     
     args = parser.parse_args()
     
-    # Get credentials from environment
-    enctoken = os.environ.get("ZERODHA_ENCTOKEN", "")
+    # Get credentials - try auto-login first, then fallback to manual enctoken
+    enctoken = get_enctoken_auto()
     telegram_token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
     telegram_chat = os.environ.get("TELEGRAM_CHAT_ID", "")
     

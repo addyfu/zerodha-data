@@ -1,0 +1,9 @@
+Strategy,Total_Trades,Win_Rate,Total_Return,Sharpe_Ratio,Max_Drawdown,Profit_Factor
+Ascending_Triangle,15.9,42.24,7.19,0.28,-9.0,1.39
+StochRSI_MACD,13.1,43.33,9.0,0.28,-9.27,1.64
+GMMA,32.6,40.0,8.39,0.25,-16.57,1.28
+CCI_Divergence,21.1,38.14,3.49,0.11,-14.21,1.16
+TDI,108.6,35.24,1.5,0.02,-34.93,1.0
+Momentum_Zero,47.0,34.53,-1.22,-0.01,-23.03,0.98
+ADX_DMI_OBV,7.3,32.33,-0.92,-0.07,-8.46,1.0
+MA_Envelopes,41.1,56.25,-3.78,-0.18,-10.78,0.92

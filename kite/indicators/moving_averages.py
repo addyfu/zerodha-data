@@ -242,3 +242,96 @@ def ema_ribbon(df: pd.DataFrame,
         df['ribbon_bearish'] &= df[ribbon_cols[i]] < df[ribbon_cols[i + 1]]
     
     return df
+
+
+def ma_envelopes(series: pd.Series, period: int = 20, 
+                 percentage: float = 2.5, ma_type: str = 'sma') -> tuple:
+    """
+    Moving Average Envelopes - Upper and lower bands at fixed percentage.
+    
+    Args:
+        series: Price series
+        period: MA period
+        percentage: Envelope percentage distance
+        ma_type: Type of MA ('sma', 'ema')
+        
+    Returns:
+        Tuple of (MA, Upper envelope, Lower envelope)
+    """
+    if ma_type.lower() == 'ema':
+        ma = ema(series, period)
+    else:
+        ma = sma(series, period)
+    
+    upper = ma * (1 + percentage / 100)
+    lower = ma * (1 - percentage / 100)
+    
+    return ma, upper, lower
+
+
+def gmma(df: pd.DataFrame, price_col: str = 'close') -> dict:
+    """
+    Guppy Multiple Moving Average - 12 EMAs for trend analysis.
+    
+    Short-term group (traders): 3, 5, 8, 10, 12, 15
+    Long-term group (investors): 30, 35, 40, 45, 50, 60
+    
+    Args:
+        df: DataFrame with price data
+        price_col: Column to use
+        
+    Returns:
+        Dictionary with short-term and long-term EMA groups
+    """
+    short_periods = [3, 5, 8, 10, 12, 15]
+    long_periods = [30, 35, 40, 45, 50, 60]
+    
+    short_emas = {}
+    long_emas = {}
+    
+    for p in short_periods:
+        short_emas[f'ema_{p}'] = ema(df[price_col], p)
+    
+    for p in long_periods:
+        long_emas[f'ema_{p}'] = ema(df[price_col], p)
+    
+    # Calculate group averages for easier signal generation
+    short_avg = pd.concat(list(short_emas.values()), axis=1).mean(axis=1)
+    long_avg = pd.concat(list(long_emas.values()), axis=1).mean(axis=1)
+    
+    # Calculate separation (trend strength)
+    short_spread = pd.concat(list(short_emas.values()), axis=1).std(axis=1)
+    long_spread = pd.concat(list(long_emas.values()), axis=1).std(axis=1)
+    
+    return {
+        'short_emas': short_emas,
+        'long_emas': long_emas,
+        'short_avg': short_avg,
+        'long_avg': long_avg,
+        'short_spread': short_spread,
+        'long_spread': long_spread
+    }
+
+
+def mcginley_dynamic(series: pd.Series, period: int = 14) -> pd.Series:
+    """
+    McGinley Dynamic - Adaptive moving average that adjusts to market speed.
+    
+    Args:
+        series: Price series
+        period: Lookback period
+        
+    Returns:
+        McGinley Dynamic series
+    """
+    md = pd.Series(index=series.index, dtype=float)
+    md.iloc[0] = series.iloc[0]
+    
+    for i in range(1, len(series)):
+        if pd.isna(md.iloc[i-1]):
+            md.iloc[i] = series.iloc[i]
+        else:
+            md.iloc[i] = md.iloc[i-1] + (series.iloc[i] - md.iloc[i-1]) / \
+                        (period * (series.iloc[i] / md.iloc[i-1]) ** 4)
+    
+    return md

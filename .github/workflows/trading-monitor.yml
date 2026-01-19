@@ -43,7 +43,7 @@ jobs:
     
     - name: Install dependencies
       run: |
-        pip install pandas numpy requests tqdm
+        pip install pandas numpy requests tqdm pyotp
     
     # Download previous state from artifacts
     - name: Download order book state
@@ -67,7 +67,13 @@ jobs:
     
     - name: Run market scan
       env:
+        # Auto-login credentials (same as data collector)
+        ZERODHA_USER_ID: ${{ secrets.ZERODHA_USER_ID }}
+        ZERODHA_PASSWORD: ${{ secrets.ZERODHA_PASSWORD }}
+        ZERODHA_TOTP_SECRET: ${{ secrets.ZERODHA_TOTP_SECRET }}
+        # Fallback manual token (optional)
         ZERODHA_ENCTOKEN: ${{ secrets.ZERODHA_ENCTOKEN }}
+        # Telegram
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: |
@@ -131,7 +137,7 @@ jobs:
     
     - name: Install dependencies
       if: steps.check-time.outputs.is_market_close == 'true'
-      run: pip install pandas numpy requests tqdm
+      run: pip install pandas numpy requests tqdm pyotp
     
     - name: Download order book state
       if: steps.check-time.outputs.is_market_close == 'true'
@@ -147,6 +153,9 @@ jobs:
     - name: Send daily summary
       if: steps.check-time.outputs.is_market_close == 'true'
       env:
+        ZERODHA_USER_ID: ${{ secrets.ZERODHA_USER_ID }}
+        ZERODHA_PASSWORD: ${{ secrets.ZERODHA_PASSWORD }}
+        ZERODHA_TOTP_SECRET: ${{ secrets.ZERODHA_TOTP_SECRET }}
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: |
