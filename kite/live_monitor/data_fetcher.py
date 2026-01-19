@@ -30,6 +30,26 @@ class ZerodhaDataFetcher:
     INSTRUMENTS_URL = "https://api.kite.trade/instruments"
     QUOTE_URL = "https://kite.zerodha.com/orca/quote"
     
+    # Hardcoded NIFTY 50 instrument tokens (fallback)
+    NIFTY50_TOKENS = {
+        "ADANIPORTS": 3861249, "APOLLOHOSP": 40193, "ASIANPAINT": 60417,
+        "AXISBANK": 1510401, "BAJAJ-AUTO": 4267265, "BAJAJFINSV": 4268801,
+        "BAJFINANCE": 81153, "BHARTIARTL": 2714625, "BPCL": 134657,
+        "BRITANNIA": 140033, "CIPLA": 177665, "COALINDIA": 5215745,
+        "DIVISLAB": 2800641, "DRREDDY": 225537, "EICHERMOT": 232961,
+        "GRASIM": 315393, "HCLTECH": 1850625, "HDFCBANK": 341249,
+        "HDFCLIFE": 119553, "HEROMOTOCO": 345089, "HINDALCO": 348929,
+        "HINDUNILVR": 356865, "ICICIBANK": 1270529, "INDUSINDBK": 1346049,
+        "INFY": 408065, "ITC": 424961, "JSWSTEEL": 3001089,
+        "KOTAKBANK": 492033, "LT": 2939649, "M&M": 519937,
+        "MARUTI": 2815745, "NESTLEIND": 4598529, "NTPC": 2977281,
+        "ONGC": 633601, "POWERGRID": 3834113, "RELIANCE": 738561,
+        "SBIN": 779521, "SHREECEM": 794369, "SUNPHARMA": 857857,
+        "TATACONSUM": 878593, "TATAMOTORS": 884737, "TATASTEEL": 895745,
+        "TCS": 2953217, "TECHM": 3465729, "TITAN": 897537,
+        "ULTRACEMCO": 2952193, "UPL": 2889473, "WIPRO": 969473
+    }
+    
     def __init__(self, enctoken: str = None):
         """
         Initialize data fetcher.
@@ -65,7 +85,14 @@ class ZerodhaDataFetcher:
                         self.token_to_symbol[token] = symbol
                 logger.info(f"Loaded {len(self.instruments)} NSE instruments")
         except Exception as e:
-            logger.error(f"Failed to load instruments: {e}")
+            logger.error(f"Failed to load instruments from API: {e}")
+        
+        # Fallback to hardcoded NIFTY 50 tokens if API failed
+        if len(self.instruments) == 0:
+            logger.info("Using hardcoded NIFTY 50 instrument tokens")
+            self.instruments = self.NIFTY50_TOKENS.copy()
+            self.token_to_symbol = {v: k for k, v in self.instruments.items()}
+            logger.info(f"Loaded {len(self.instruments)} instruments from fallback")
     
     def get_quote(self, symbols: List[str]) -> Dict[str, Dict]:
         """
