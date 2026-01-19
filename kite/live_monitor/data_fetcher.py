@@ -67,16 +67,17 @@ class ZerodhaDataFetcher:
         except Exception as e:
             logger.error(f"Failed to load instruments from API: {e}")
         
-        # Fallback to NIFTY 50 tokens from cloud_collector if API failed
+        # Fallback to tokens from cloud_collector if API failed
         if len(self.instruments) == 0:
             try:
                 from cloud_collector import CloudCollector
-                logger.info("Using NIFTY 50 tokens from cloud_collector")
-                self.instruments = CloudCollector.NIFTY50_STOCKS.copy()
+                # Try to load ALL NSE stocks first
+                logger.info("Loading ALL NSE stocks from cloud_collector...")
+                self.instruments = CloudCollector.load_all_nse_stocks()
                 self.token_to_symbol = {v: k for k, v in self.instruments.items()}
-                logger.info(f"Loaded {len(self.instruments)} instruments from cloud_collector")
-            except ImportError:
-                logger.error("Could not import cloud_collector for fallback tokens")
+                logger.info(f"Loaded {len(self.instruments)} instruments")
+            except Exception as e:
+                logger.error(f"Could not load instruments: {e}")
     
     def get_quote(self, symbols: List[str]) -> Dict[str, Dict]:
         """

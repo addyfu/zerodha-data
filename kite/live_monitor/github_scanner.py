@@ -61,19 +61,28 @@ def get_enctoken_auto() -> str:
     return ""
 
 
-# NIFTY 50 stocks
-NIFTY_50 = [
-    'ADANIPORTS', 'APOLLOHOSP', 'ASIANPAINT', 'AXISBANK', 'BAJAJ-AUTO',
-    'BAJAJFINSV', 'BAJFINANCE', 'BHARTIARTL', 'BPCL', 'BRITANNIA',
-    'CIPLA', 'COALINDIA', 'DIVISLAB', 'DRREDDY', 'EICHERMOT',
-    'GRASIM', 'HCLTECH', 'HDFCBANK', 'HDFCLIFE', 'HEROMOTOCO',
-    'HINDALCO', 'HINDUNILVR', 'ICICIBANK', 'INDUSINDBK', 'INFY',
-    'ITC', 'JSWSTEEL', 'KOTAKBANK', 'LT', 'M&M',
-    'MARUTI', 'NESTLEIND', 'NTPC', 'ONGC', 'POWERGRID',
-    'RELIANCE', 'SBIN', 'SHREECEM', 'SUNPHARMA', 'TATACONSUM',
-    'TATAMOTORS', 'TATASTEEL', 'TCS', 'TECHM', 'TITAN',
-    'ULTRACEMCO', 'UPL', 'WIPRO'
-]
+def get_all_stocks():
+    """Get all NSE stocks from cloud_collector."""
+    try:
+        from cloud_collector import CloudCollector
+        stocks = CloudCollector.load_all_nse_stocks()
+        logger.info(f"Loaded {len(stocks)} stocks for scanning")
+        return list(stocks.keys())
+    except Exception as e:
+        logger.warning(f"Could not load all stocks: {e}, using NIFTY 50")
+        # Fallback to NIFTY 50
+        return [
+            'ADANIPORTS', 'APOLLOHOSP', 'ASIANPAINT', 'AXISBANK', 'BAJAJ-AUTO',
+            'BAJAJFINSV', 'BAJFINANCE', 'BHARTIARTL', 'BPCL', 'BRITANNIA',
+            'CIPLA', 'COALINDIA', 'DIVISLAB', 'DRREDDY', 'EICHERMOT',
+            'GRASIM', 'HCLTECH', 'HDFCBANK', 'HDFCLIFE', 'HEROMOTOCO',
+            'HINDALCO', 'HINDUNILVR', 'ICICIBANK', 'INDUSINDBK', 'INFY',
+            'ITC', 'JSWSTEEL', 'KOTAKBANK', 'LT', 'M&M',
+            'MARUTI', 'NESTLEIND', 'NTPC', 'ONGC', 'POWERGRID',
+            'RELIANCE', 'SBIN', 'SHREECEM', 'SUNPHARMA', 'TATACONSUM',
+            'TATAMOTORS', 'TATASTEEL', 'TCS', 'TECHM', 'TITAN',
+            'ULTRACEMCO', 'UPL', 'WIPRO'
+        ]
 
 
 class GitHubScanner:
@@ -133,8 +142,8 @@ class GitHubScanner:
             min_rr_ratio=1.5
         )
         
-        # Stock list
-        self.stocks = NIFTY_50
+        # Stock list - load ALL NSE stocks
+        self.stocks = get_all_stocks()
     
     def is_market_hours(self) -> bool:
         """Check if market is open (IST)."""
