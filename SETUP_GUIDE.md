@@ -270,4 +270,224 @@ All 50 NIFTY stocks, 1-minute candles, every trading day!
 3. Try running the workflow manually first
 4. Check Telegram for error notifications
 
+---
+
+# 📊 GitHub Actions Trading Monitor Setup
+
+This section explains how to set up the **automated paper trading monitor** that runs on GitHub Actions for FREE.
+
+## What It Does
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│              TRADING MONITOR - HOW IT WORKS                 │
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│   Every 5 minutes during market hours (9:15 AM - 3:30 PM):  │
+│                                                              │
+│   1. GitHub Actions runs the scanner                        │
+│   2. Fetches live data from Zerodha                         │
+│   3. Scans NIFTY 50 stocks for Fib 3-Wave patterns          │
+│   4. Opens paper trading positions on signals               │
+│   5. Checks open positions for SL/TP hits                   │
+│   6. Sends Telegram alerts for all actions                  │
+│   7. Saves order book state for next run                    │
+│                                                              │
+│   All FREE! Your PC stays OFF! 🎉                           │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
+```
+
+## Quick Setup (5 minutes)
+
+### Step 1: Add Secrets to GitHub
+
+Go to your repository → **Settings** → **Secrets and variables** → **Actions**
+
+Add these secrets:
+
+| Secret Name | Value | Required |
+|-------------|-------|----------|
+| `ZERODHA_ENCTOKEN` | Your Zerodha enctoken (from browser) | Yes |
+| `TELEGRAM_BOT_TOKEN` | Bot token from @BotFather | Yes |
+| `TELEGRAM_CHAT_ID` | Your chat ID from @userinfobot | Yes |
+
+### Step 2: Get Your Zerodha Enctoken
+
+1. Login to [kite.zerodha.com](https://kite.zerodha.com) in your browser
+2. Open Developer Tools (F12) → Application → Cookies
+3. Find `enctoken` cookie and copy its value
+4. Add it to GitHub Secrets as `ZERODHA_ENCTOKEN`
+
+**Note:** The enctoken expires daily. You need to update it each morning before market opens.
+
+### Step 3: Create Telegram Bot
+
+1. Open Telegram, search for **@BotFather**
+2. Send `/newbot` and follow instructions
+3. Copy the bot token → Add as `TELEGRAM_BOT_TOKEN`
+4. Search for **@userinfobot**, send `/start`
+5. Copy your ID → Add as `TELEGRAM_CHAT_ID`
+
+### Step 4: Enable GitHub Actions
+
+1. Go to your repository → **Actions** tab
+2. Click "I understand my workflows, go ahead and enable them"
+3. The "Trading Monitor" workflow will now run automatically!
+
+### Step 5: Test It
+
+1. Go to **Actions** → **Trading Monitor**
+2. Click **Run workflow** → **Run workflow**
+3. Watch it run and check your Telegram for alerts!
+
+## What You'll Receive on Telegram
+
+### 1. Trade Signals
+```
+[BUY] TRADE ALERT - BUY [BUY]
+
+Stock: RELIANCE
+Signal: BUY
+Strategy: Fib 3-Wave
+
+Entry Price: Rs 2,500.00
+Stop Loss: Rs 2,450.00 (2.0% risk)
+Target: Rs 2,600.00 (4.0% reward)
+
+Risk:Reward: 1:2.0
+Quantity: 40 shares
+Position Size: Rs 1,00,000.00
+```
+
+### 2. Position Opened
+```
+[LONG] POSITION OPENED [LONG]
+
+Stock: RELIANCE
+Direction: BUY
+Entry Price: Rs 2,500.00
+Quantity: 40 shares
+Stop Loss: Rs 2,450.00
+Take Profit: Rs 2,600.00
+```
+
+### 3. Position Closed
+```
+TRADE CLOSED - [WIN] PROFIT
+
+Stock: RELIANCE
+Exit Reason: take_profit
+
+Entry: Rs 2,500.00
+Exit: Rs 2,600.00
+
+P&L: Rs +4,000.00 (+4.00%)
+Running Total: Rs +4,000.00
+Win Rate: 100.0%
+```
+
+### 4. Daily Summary
+```
+DAILY TRADING SUMMARY
+
+Date: 2026-01-19
+
+Today's Performance:
+- Trades Taken: 2
+- Wins: 1 | Losses: 1
+- Day P&L: Rs +1,500.00
+
+Overall Performance:
+- Total Trades: 10
+- Win Rate: 60.0%
+- Total P&L: Rs +5,000.00
+
+Capital: Rs 1,05,000.00
+```
+
+## Order Book System
+
+The trading monitor maintains a **persistent order book** that tracks:
+
+- Open positions with entry price, SL, TP
+- Closed trades with P&L
+- Account balance and performance metrics
+- Daily summaries
+
+The order book is saved as a JSON file and persisted between GitHub Actions runs using artifacts.
+
+### Order Book Structure
+```json
+{
+  "account": {
+    "initial_capital": 100000,
+    "current_capital": 105000,
+    "total_pnl": 5000,
+    "total_trades": 10,
+    "wins": 6,
+    "losses": 4,
+    "win_rate": 60.0
+  },
+  "open_positions": [...],
+  "closed_trades": [...],
+  "daily_summary": {...}
+}
+```
+
+## Manual Actions
+
+You can trigger specific actions manually:
+
+1. Go to **Actions** → **Trading Monitor**
+2. Click **Run workflow**
+3. Select action:
+   - `scan` - Run full market scan (default)
+   - `status` - Send current status to Telegram
+   - `summary` - Send daily summary to Telegram
+
+## Cost & Limits
+
+| Resource | Free Limit | Our Usage |
+|----------|------------|-----------|
+| GitHub Actions | 2,000 min/month | ~400 min/month |
+| Artifacts | 500 MB | ~1 MB |
+| Telegram | Unlimited | Unlimited |
+
+**Calculation:**
+- 5-min intervals × 6 hours × 22 days = 1,584 runs/month
+- Each run ~15 seconds = ~400 minutes/month
+- Well within free limits!
+
+## Troubleshooting
+
+### "No signals found"
+- This is normal! Fib 3-Wave patterns don't appear every day
+- The strategy is selective for high-quality setups
+
+### "Enctoken expired"
+- Login to Kite web and get a fresh enctoken
+- Update the `ZERODHA_ENCTOKEN` secret
+
+### "Telegram not sending"
+- Check bot token and chat ID are correct
+- Make sure you started a chat with your bot
+
+### "Workflow not running"
+- Check Actions are enabled in repository settings
+- Verify all secrets are set correctly
+
+## Files Overview
+
+| File | Purpose |
+|------|---------|
+| `.github/workflows/trading-monitor.yml` | GitHub Actions workflow |
+| `kite/live_monitor/github_scanner.py` | Main scanner script |
+| `kite/live_monitor/order_book.py` | Order book management |
+| `kite/live_monitor/telegram_bot.py` | Telegram notifications |
+| `kite/live_monitor/signal_detector.py` | Pattern detection |
+| `kite/live_monitor/data_fetcher.py` | Zerodha data fetching |
+
+---
+
 Happy automated trading! 🚀📈

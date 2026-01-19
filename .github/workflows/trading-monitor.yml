@@ -1,0 +1,153 @@
+# GitHub Actions Workflow for Trading Monitor
+# Runs every 5 minutes during Indian market hours (FREE!)
+# 
+# Setup:
+# 1. Push this repo to GitHub
+# 2. Go to Settings > Secrets > Actions
+# 3. Add secrets: ZERODHA_ENCTOKEN, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+# 4. Enable Actions in your repo
+
+name: Trading Monitor
+
+on:
+  schedule:
+    # Run every 5 minutes during market hours (IST 9:15-15:30 = UTC 3:45-10:00)
+    # Note: GitHub Actions uses UTC time
+    - cron: '*/5 3-10 * * 1-5'  # Every 5 min, 3:45-10:00 UTC, Mon-Fri
+  
+  workflow_dispatch:  # Allow manual trigger
+    inputs:
+      action:
+        description: 'Action to perform'
+        required: false
+        default: 'scan'
+        type: choice
+        options:
+          - scan
+          - status
+          - summary
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: |
+        pip install pandas numpy requests tqdm
+    
+    # Download previous state from artifacts
+    - name: Download order book state
+      uses: dawidd6/action-download-artifact@v3
+      with:
+        name: order-book-state
+        path: .
+        if_no_artifact_found: ignore
+        workflow_conclusion: success
+        search_artifacts: true
+      continue-on-error: true
+    
+    - name: Check state file
+      run: |
+        if [ -f "order_book.json" ]; then
+          echo "Found existing order book state"
+          cat order_book.json | head -20
+        else
+          echo "No existing state found, will create new order book"
+        fi
+    
+    - name: Run market scan
+      env:
+        ZERODHA_ENCTOKEN: ${{ secrets.ZERODHA_ENCTOKEN }}
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      run: |
+        # Determine action
+        ACTION="${{ github.event.inputs.action || 'scan' }}"
+        
+        if [ "$ACTION" = "status" ]; then
+          python kite/live_monitor/github_scanner.py --status
+        elif [ "$ACTION" = "summary" ]; then
+          python kite/live_monitor/github_scanner.py --summary
+        else
+          python kite/live_monitor/github_scanner.py
+        fi
+    
+    # Upload state as artifact for next run
+    - name: Upload order book state
+      uses: actions/upload-artifact@v4
+      with:
+        name: order-book-state
+        path: order_book.json
+        retention-days: 90
+        if-no-files-found: warn
+    
+    - name: Show final state
+      run: |
+        if [ -f "order_book.json" ]; then
+          echo "=== Order Book State ==="
+          cat order_book.json
+        fi
+
+  # Daily summary job - runs at market close
+  daily-summary:
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '*/5 3-10 * * 1-5'
+    
+    steps:
+    - name: Check if market close time
+      id: check-time
+      run: |
+        # Get current UTC hour (market closes at 10:00 UTC = 15:30 IST)
+        HOUR=$(date -u +%H)
+        MINUTE=$(date -u +%M)
+        
+        # Only run at 10:00-10:05 UTC (3:30-3:35 PM IST)
+        if [ "$HOUR" = "10" ] && [ "$MINUTE" -lt "6" ]; then
+          echo "is_market_close=true" >> $GITHUB_OUTPUT
+        else
+          echo "is_market_close=false" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Checkout code
+      if: steps.check-time.outputs.is_market_close == 'true'
+      uses: actions/checkout@v4
+    
+    - name: Setup Python
+      if: steps.check-time.outputs.is_market_close == 'true'
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      if: steps.check-time.outputs.is_market_close == 'true'
+      run: pip install pandas numpy requests tqdm
+    
+    - name: Download order book state
+      if: steps.check-time.outputs.is_market_close == 'true'
+      uses: dawidd6/action-download-artifact@v3
+      with:
+        name: order-book-state
+        path: .
+        if_no_artifact_found: ignore
+        workflow_conclusion: success
+        search_artifacts: true
+      continue-on-error: true
+    
+    - name: Send daily summary
+      if: steps.check-time.outputs.is_market_close == 'true'
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      run: |
+        python kite/live_monitor/github_scanner.py --summary

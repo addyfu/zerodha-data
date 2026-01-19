@@ -1,0 +1,17 @@
+[Unit]
+Description=Trading Monitor Bot
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/trading/kite
+EnvironmentFile=/home/ubuntu/trading/.env
+ExecStart=/home/ubuntu/trading/venv/bin/python start_monitor.py --live --telegram
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/ubuntu/trading/logs/monitor.log
+StandardError=append:/home/ubuntu/trading/logs/monitor.log
+
+[Install]
+WantedBy=multi-user.target
