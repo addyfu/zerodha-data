@@ -15,8 +15,11 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import json
 import logging
-from datetime import datetime, time as dtime
+from datetime import datetime, time as dtime, timezone, timedelta
 from typing import Dict, List, Optional
+
+# IST timezone (UTC+5:30)
+IST = timezone(timedelta(hours=5, minutes=30))
 
 # Setup logging
 logging.basicConfig(
@@ -147,23 +150,27 @@ class GitHubScanner:
     
     def is_market_hours(self) -> bool:
         """Check if market is open (IST)."""
-        now = datetime.now()
+        # Get current time in IST (GitHub Actions runs in UTC)
+        now_ist = datetime.now(IST)
         
         # Check weekday
-        if now.weekday() >= 5:
+        if now_ist.weekday() >= 5:
             return False
         
         # Market hours: 9:15 AM to 3:30 PM IST
         market_open = dtime(9, 15)
         market_close = dtime(15, 30)
-        current_time = now.time()
+        current_time = now_ist.time()
+        
+        logger.info(f"Current IST time: {now_ist.strftime('%Y-%m-%d %H:%M:%S')} (weekday={now_ist.weekday()})")
+        logger.info(f"Market hours: {market_open} - {market_close}, current: {current_time}")
         
         return market_open <= current_time <= market_close
     
     def is_end_of_day(self) -> bool:
-        """Check if it's end of trading day (3:25-3:35 PM)."""
-        now = datetime.now()
-        current_time = now.time()
+        """Check if it's end of trading day (3:25-3:35 PM IST)."""
+        now_ist = datetime.now(IST)
+        current_time = now_ist.time()
         return dtime(15, 25) <= current_time <= dtime(15, 35)
     
     def get_current_prices(self) -> Dict[str, float]:
