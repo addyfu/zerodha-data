@@ -28,6 +28,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
 from kite.live_monitor.order_book import OrderBook
 from kite.live_monitor.data_fetcher import ZerodhaDataFetcher, OfflineDataFetcher
 from kite.live_monitor.signal_detector import SignalDetector
@@ -99,7 +101,7 @@ class GitHubScanner:
                  telegram_token: str = None,
                  telegram_chat: str = None,
                  state_file: str = "order_book.json",
-                 strategy: str = "fib_3wave",
+                 strategy: str = "ema_21_55",
                  capital: float = 100000,
                  offline: bool = False):
         """
@@ -183,30 +185,80 @@ class GitHubScanner:
         quotes = self.fetcher.get_quote(symbols)
         return {s: q["last_price"] for s, q in quotes.items()}
     
-    def scan_for_signals(self) -> List[Dict]:
-        """Scan all stocks for trading signals."""
-        signals = []
-        
-        logger.info(f"Scanning {len(self.stocks)} stocks...")
-        
-        for symbol in self.stocks:
+    def _prefilter_stocks(self) -> List[str]:
+        """
+        Pre-filter stocks using bulk quotes to find active ones.
+        Fetches quotes in batches (cheap), keeps only stocks with decent volume/movement.
+        Returns a shortlist for expensive historical data fetch.
+        """
+        if self.offline or not hasattr(self.fetcher, 'get_quote'):
+            return self.stocks
+
+        active_stocks = []
+        batch_size = 50  # Zerodha quote API supports ~50 per call
+
+        logger.info(f"Pre-filtering {len(self.stocks)} stocks using bulk quotes...")
+
+        for i in range(0, len(self.stocks), batch_size):
+            batch = self.stocks[i:i + batch_size]
             try:
-                # Get historical data
-                df = self.fetcher.get_historical_data(symbol, "day", 60)
-                
-                if df is None or len(df) < 50:
-                    continue
-                
-                # Detect signal
-                signal = self.detector.detect_signal(symbol, df)
-                
-                if signal:
-                    signals.append(signal.to_dict())
-                    logger.info(f"SIGNAL: {symbol} {signal.direction} @ Rs {signal.entry_price:.2f}")
-            
+                quotes = self.fetcher.get_quote(batch)
+                for symbol, quote in quotes.items():
+                    volume = quote.get('volume', 0)
+                    change_pct = abs(quote.get('change_pct', 0))
+                    last_price = quote.get('last_price', 0)
+
+                    # Keep stocks with: price > 10, some volume, OR notable price change
+                    if last_price > 10 and (volume > 50000 or change_pct > 1.5):
+                        active_stocks.append(symbol)
             except Exception as e:
-                logger.error(f"Error scanning {symbol}: {e}")
-        
+                # On error, include the whole batch as fallback
+                active_stocks.extend(batch)
+
+        logger.info(f"Pre-filter: {len(active_stocks)} active stocks from {len(self.stocks)}")
+        return active_stocks
+
+    def _fetch_and_detect(self, symbol: str) -> Optional[Dict]:
+        """Fetch historical data and detect signal for a single stock (thread-safe)."""
+        try:
+            df = self.fetcher.get_historical_data(symbol, "day", 60)
+
+            if df is None or len(df) < 50:
+                return None
+
+            signal = self.detector.detect_signal(symbol, df)
+
+            if signal:
+                logger.info(f"SIGNAL: {symbol} {signal.direction} @ Rs {signal.entry_price:.2f}")
+                return signal.to_dict()
+        except Exception as e:
+            logger.error(f"Error scanning {symbol}: {e}")
+
+        return None
+
+    def scan_for_signals(self) -> List[Dict]:
+        """Scan stocks for trading signals with pre-filtering and parallel fetches."""
+        # Step 1: Pre-filter using cheap bulk quotes
+        shortlist = self._prefilter_stocks()
+
+        if not shortlist:
+            logger.info("No active stocks after pre-filter")
+            return []
+
+        logger.info(f"Scanning {len(shortlist)} stocks (parallel, {min(10, len(shortlist))} workers)...")
+
+        # Step 2: Fetch historical data + detect signals in parallel
+        signals = []
+        max_workers = min(10, len(shortlist))
+
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = {executor.submit(self._fetch_and_detect, sym): sym for sym in shortlist}
+
+            for future in as_completed(futures):
+                result = future.result()
+                if result:
+                    signals.append(result)
+
         logger.info(f"Found {len(signals)} signals")
         return signals
     
@@ -384,7 +436,7 @@ def main():
     
     parser = argparse.ArgumentParser(description="GitHub Actions Trading Scanner")
     parser.add_argument("--state-file", default="order_book.json", help="Path to state file")
-    parser.add_argument("--strategy", default="fib_3wave", help="Strategy to use")
+    parser.add_argument("--strategy", default="ema_21_55", help="Strategy to use")
     parser.add_argument("--capital", type=float, default=100000, help="Initial capital")
     parser.add_argument("--offline", action="store_true", help="Use offline data")
     parser.add_argument("--status", action="store_true", help="Send status update only")
