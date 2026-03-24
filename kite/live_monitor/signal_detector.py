@@ -115,8 +115,14 @@ class SignalDetector:
             
             # Get latest signal
             latest = signals_df.iloc[-1]
-            signal = latest.get('signal', Signal.HOLD)
-            
+            raw_signal = latest.get('signal', 0)
+
+            # Convert int to Signal enum (strategies return 1/-1/0 as ints)
+            try:
+                signal = Signal(int(raw_signal))
+            except (ValueError, TypeError):
+                signal = Signal.HOLD
+
             # Check if it's a tradeable signal
             if signal not in [Signal.BUY, Signal.SELL]:
                 return None
@@ -133,8 +139,8 @@ class SignalDetector:
             
             # Calculate entry, SL, TP
             entry_price = latest['close']
-            idx = len(signals_df) - 1
-            
+            idx = signals_df.index[-1]  # Use actual index label, not position (strategies use df.loc)
+
             stop_loss = self.strategy.calculate_stop_loss(signals_df, idx, signal)
             take_profit = self.strategy.calculate_take_profit(
                 signals_df, idx, signal, entry_price, stop_loss
@@ -188,66 +194,67 @@ class SignalDetector:
             logger.error(f"Signal detection error for {symbol}: {e}")
             return None
     
-    def _calculate_confidence(self, df: pd.DataFrame, idx: int) -> float:
+    def _calculate_confidence(self, df: pd.DataFrame, idx) -> float:
         """
         Calculate signal confidence based on various factors.
-        
+
         Returns:
             Confidence score 0-100
         """
         confidence = 50.0  # Base confidence
-        
+
         try:
-            latest = df.iloc[idx]
-            
+            latest = df.loc[idx]
+
             # Volume confirmation
             if 'volume' in df.columns:
-                avg_volume = df['volume'].rolling(20).mean().iloc[idx]
+                avg_volume = df['volume'].rolling(20).mean().loc[idx]
                 if latest['volume'] > avg_volume * 1.5:
                     confidence += 15  # High volume
                 elif latest['volume'] > avg_volume:
                     confidence += 5
-            
+
             # Trend alignment (using simple MA)
             if len(df) > 50:
-                ma50 = df['close'].rolling(50).mean().iloc[idx]
+                ma50 = df['close'].rolling(50).mean().loc[idx]
                 if latest['close'] > ma50:
                     confidence += 10  # Above MA50
-            
+
             # Volatility check
             if 'atr' in df.columns:
-                atr = df['atr'].iloc[idx]
-                avg_atr = df['atr'].rolling(20).mean().iloc[idx]
+                atr = df['atr'].loc[idx]
+                avg_atr = df['atr'].rolling(20).mean().loc[idx]
                 if atr < avg_atr * 1.5:
                     confidence += 10  # Normal volatility
-            
+
             # Cap at 100
             confidence = min(confidence, 100)
-            
+
         except:
             pass
-        
+
         return confidence
-    
-    def _generate_notes(self, df: pd.DataFrame, idx: int, signal: Signal) -> str:
+
+    def _generate_notes(self, df: pd.DataFrame, idx, signal: Signal) -> str:
         """Generate notes about the signal."""
         notes = []
-        
+
         try:
-            latest = df.iloc[idx]
-            
+            latest = df.loc[idx]
+
             # Pattern type
             notes.append(f"Strategy: {self.strategy_name}")
-            
+
             # Price action
             if len(df) > 1:
-                prev = df.iloc[idx - 1]
+                pos = df.index.get_loc(idx)
+                prev = df.iloc[pos - 1]
                 change = (latest['close'] - prev['close']) / prev['close'] * 100
                 notes.append(f"Day change: {change:+.2f}%")
             
             # Volume
             if 'volume' in df.columns:
-                avg_vol = df['volume'].rolling(20).mean().iloc[idx]
+                avg_vol = df['volume'].rolling(20).mean().loc[idx]
                 vol_ratio = latest['volume'] / avg_vol if avg_vol > 0 else 1
                 notes.append(f"Volume: {vol_ratio:.1f}x avg")
             
