@@ -52,17 +52,22 @@ class ZerodhaDataFetcher:
     
     def _load_instruments(self):
         """Load NSE instrument list."""
+        # CSV columns: instrument_token,exchange_token,tradingsymbol,name,last_price,
+        #              expiry,strike,tick_size,lot_size,instrument_type,segment,exchange
         try:
             response = requests.get(self.INSTRUMENTS_URL, timeout=30)
             if response.status_code == 200:
                 lines = response.text.strip().split('\n')
                 for line in lines[1:]:
                     parts = line.split(',')
-                    if len(parts) >= 3 and parts[2] == 'NSE':
-                        symbol = parts[1]
-                        token = int(parts[0])
-                        self.instruments[symbol] = token
-                        self.token_to_symbol[token] = symbol
+                    # exchange is column 11, instrument_type is column 9
+                    if len(parts) >= 12 and parts[11] == 'NSE' and parts[9] == 'EQ':
+                        symbol = parts[2]   # tradingsymbol
+                        token = int(parts[0])  # instrument_token
+                        # Skip index symbols (contain spaces like "NIFTY 50")
+                        if ' ' not in symbol:
+                            self.instruments[symbol] = token
+                            self.token_to_symbol[token] = symbol
                 logger.info(f"Loaded {len(self.instruments)} NSE instruments")
         except Exception as e:
             logger.error(f"Failed to load instruments from API: {e}")
