@@ -147,8 +147,13 @@ class GitHubScanner:
             min_rr_ratio=1.5
         )
         
-        # Stock list - load ALL NSE stocks
-        self.stocks = get_all_stocks()
+        # Stock list - use instruments from fetcher (already filtered to EQ)
+        # This avoids mismatch with CloudCollector which includes indices
+        if not offline and hasattr(self.fetcher, 'instruments') and self.fetcher.instruments:
+            self.stocks = list(self.fetcher.instruments.keys())
+            logger.info(f"Using {len(self.stocks)} stocks from instruments list")
+        else:
+            self.stocks = get_all_stocks()
     
     def is_market_hours(self) -> bool:
         """Check if market is open (IST)."""
@@ -189,31 +194,44 @@ class GitHubScanner:
         """
         Pre-filter stocks using bulk quotes to find active ones.
         Fetches quotes in batches (cheap), keeps only stocks with decent volume/movement.
-        Returns a shortlist for expensive historical data fetch.
+        Falls back to full stock list if quotes API fails.
         """
         if self.offline or not hasattr(self.fetcher, 'get_quote'):
             return self.stocks
 
         active_stocks = []
-        batch_size = 50  # Zerodha quote API supports ~50 per call
+        failed_batches = 0
+        total_batches = 0
+        batch_size = 50
 
         logger.info(f"Pre-filtering {len(self.stocks)} stocks using bulk quotes...")
 
         for i in range(0, len(self.stocks), batch_size):
             batch = self.stocks[i:i + batch_size]
+            total_batches += 1
             try:
                 quotes = self.fetcher.get_quote(batch)
+                if not quotes:
+                    failed_batches += 1
+                    continue
                 for symbol, quote in quotes.items():
                     volume = quote.get('volume', 0)
                     change_pct = abs(quote.get('change_pct', 0))
                     last_price = quote.get('last_price', 0)
 
-                    # Keep stocks with: price > 10, some volume, OR notable price change
                     if last_price > 10 and (volume > 50000 or change_pct > 1.5):
                         active_stocks.append(symbol)
             except Exception as e:
-                # On error, include the whole batch as fallback
-                active_stocks.extend(batch)
+                failed_batches += 1
+
+            # If first 5 batches all fail, quote API is broken — skip pre-filter
+            if total_batches == 5 and failed_batches == 5:
+                logger.warning("Quote API not working, skipping pre-filter — scanning all stocks")
+                return self.stocks
+
+        if not active_stocks:
+            logger.warning("Pre-filter found 0 stocks, falling back to full list")
+            return self.stocks
 
         logger.info(f"Pre-filter: {len(active_stocks)} active stocks from {len(self.stocks)}")
         return active_stocks
