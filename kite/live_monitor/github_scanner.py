@@ -255,7 +255,9 @@ class GitHubScanner:
         return None
 
     def scan_for_signals(self) -> List[Dict]:
-        """Scan stocks for trading signals with pre-filtering and parallel fetches."""
+        """Scan stocks for trading signals with rate-limited parallel fetches."""
+        import time
+
         # Step 1: Pre-filter using cheap bulk quotes
         shortlist = self._prefilter_stocks()
 
@@ -263,19 +265,27 @@ class GitHubScanner:
             logger.info("No active stocks after pre-filter")
             return []
 
-        logger.info(f"Scanning {len(shortlist)} stocks (parallel, {min(10, len(shortlist))} workers)...")
+        # Use 3 workers to avoid Zerodha rate limiting (429)
+        max_workers = min(3, len(shortlist))
+        logger.info(f"Scanning {len(shortlist)} stocks (parallel, {max_workers} workers)...")
 
-        # Step 2: Fetch historical data + detect signals in parallel
+        # Step 2: Fetch historical data + detect signals in batches
         signals = []
-        max_workers = min(10, len(shortlist))
+        batch_size = 30  # Process in batches with a pause between
 
-        with ThreadPoolExecutor(max_workers=max_workers) as executor:
-            futures = {executor.submit(self._fetch_and_detect, sym): sym for sym in shortlist}
+        for i in range(0, len(shortlist), batch_size):
+            batch = shortlist[i:i + batch_size]
 
-            for future in as_completed(futures):
-                result = future.result()
-                if result:
-                    signals.append(result)
+            with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                futures = {executor.submit(self._fetch_and_detect, sym): sym for sym in batch}
+                for future in as_completed(futures):
+                    result = future.result()
+                    if result:
+                        signals.append(result)
+
+            # Small delay between batches to avoid rate limiting
+            if i + batch_size < len(shortlist):
+                time.sleep(1)
 
         logger.info(f"Found {len(signals)} signals")
         return signals
