@@ -26,9 +26,9 @@ logger = logging.getLogger(__name__)
 class ZerodhaDataFetcher:
     """Fetch real-time data from Zerodha."""
     
-    BASE_URL = "https://kite.zerodha.com/orca"
+    BASE_URL = "https://kite.zerodha.com/oms"
     INSTRUMENTS_URL = "https://api.kite.trade/instruments"
-    QUOTE_URL = "https://kite.zerodha.com/orca/quote"
+    QUOTE_URL = "https://kite.zerodha.com/oms/quote"
     
     def __init__(self, enctoken: str = None):
         """
