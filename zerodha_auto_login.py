@@ -35,7 +35,7 @@ class ZerodhaAutoLogin:
     def __init__(self, user_id: str, password: str, totp_secret: str):
         """
         Initialize with credentials.
-        
+
         Args:
             user_id: Your Zerodha client ID (e.g., AB1234)
             password: Your Zerodha password
@@ -46,9 +46,7 @@ class ZerodhaAutoLogin:
         self.totp_secret = totp_secret.replace(" ", "").upper()
         self.session = requests.Session()
         self.session.headers.update({
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-            "Accept": "application/json",
-            "Content-Type": "application/x-www-form-urlencoded"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         })
     
     def generate_totp(self) -> str:
@@ -71,14 +69,29 @@ class ZerodhaAutoLogin:
         }
         
         try:
+            # Step 0: Visit login page with browser-like headers to pass Cloudflare
+            self.session.headers.update({
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            })
+            self.session.get("https://kite.zerodha.com/", timeout=15)
+
+            # Switch to API headers for subsequent requests
+            self.session.headers.update({
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Origin": "https://kite.zerodha.com",
+                "Referer": "https://kite.zerodha.com/",
+                "X-Kite-Version": "3.0.0",
+            })
+
             # Step 1: Initial login with user_id and password
             print(f"[1/3] Logging in as {self.user_id}...")
-            
+
             login_data = {
                 "user_id": self.user_id,
                 "password": self.password
             }
-            
+
             response = self.session.post(self.LOGIN_URL, data=login_data, timeout=30)
             
             if response.status_code != 200:

@@ -328,7 +328,7 @@ Please check the logs for more details.
                 data = response.json()
                 if data.get('ok'):
                     bot_name = data['result'].get('username', 'Unknown')
-                    print(f"[✓] Telegram connected: @{bot_name}")
+                    print(f"[OK] Telegram connected: @{bot_name}")
                     return True
         except Exception as e:
             print(f"[!] Telegram test failed: {e}")

@@ -65,12 +65,19 @@ jobs:
         continue-on-error: true
         run: |
           mkdir -p data
-          # Try to download from latest release
-          LATEST_RELEASE=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest | grep "browser_download_url.*zerodha_data.db" | cut -d '"' -f 4)
+          # Use GITHUB_TOKEN to avoid rate limiting (60 req/hr without auth)
+          LATEST_RELEASE=$(curl -s \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/releases/latest \
+            | grep "browser_download_url.*zerodha_data.db" | cut -d '"' -f 4)
           if [ -n "$LATEST_RELEASE" ]; then
-            echo "Downloading existing database..."
-            curl -L -o data/zerodha_data.db "$LATEST_RELEASE"
-            echo "Database downloaded!"
+            echo "Downloading existing database from: $LATEST_RELEASE"
+            curl -L \
+              -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+              -o data/zerodha_data.db "$LATEST_RELEASE"
+            SIZE=$(du -sh data/zerodha_data.db | cut -f1)
+            echo "Database downloaded: $SIZE"
           else
             echo "No existing database found, starting fresh"
           fi
