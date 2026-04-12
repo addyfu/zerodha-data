@@ -394,7 +394,7 @@ def main():
     parser.add_argument('--enctoken', type=str, help='Zerodha enctoken')
     parser.add_argument('--telegram-token', type=str, help='Telegram bot token')
     parser.add_argument('--telegram-chat', type=str, help='Telegram chat ID')
-    parser.add_argument('--strategy', type=str, default='ema_21_55', help='Strategy to use')
+    parser.add_argument('--strategy', type=str, default=None, help='Strategy to use (default: uses top 3 strategies)')
     parser.add_argument('--capital', type=float, default=100000, help='Initial capital')
     parser.add_argument('--interval', type=int, default=300, help='Scan interval in seconds (default 300 = 5 min)')
     parser.add_argument('--offline', action='store_true', help='Use offline data')

@@ -35,6 +35,23 @@ from kite.live_monitor.data_fetcher import ZerodhaDataFetcher, OfflineDataFetche
 from kite.live_monitor.signal_detector import SignalDetector
 from kite.live_monitor.telegram_bot import TelegramBot
 
+# Best strategies confirmed on 5-min intraday data
+STRATEGIES = ['elliott_wave3', 'vwap_pullback']
+
+# NIFTY 50 — fast to scan, liquid, reliable signals
+NIFTY_50 = [
+    'ADANIPORTS', 'APOLLOHOSP', 'ASIANPAINT', 'AXISBANK', 'BAJAJ-AUTO',
+    'BAJAJFINSV', 'BAJFINANCE', 'BHARTIARTL', 'BPCL', 'BRITANNIA',
+    'CIPLA', 'COALINDIA', 'DIVISLAB', 'DRREDDY', 'EICHERMOT',
+    'GRASIM', 'HCLTECH', 'HDFCBANK', 'HDFCLIFE', 'HEROMOTOCO',
+    'HINDALCO', 'HINDUNILVR', 'ICICIBANK', 'INDUSINDBK', 'INFY',
+    'ITC', 'JSWSTEEL', 'KOTAKBANK', 'LT', 'M&M',
+    'MARUTI', 'NESTLEIND', 'NTPC', 'ONGC', 'POWERGRID',
+    'RELIANCE', 'SBIN', 'SHREECEM', 'SUNPHARMA', 'TATACONSUM',
+    'TATAMOTORS', 'TATASTEEL', 'TCS', 'TECHM', 'TITAN',
+    'ULTRACEMCO', 'UPL', 'WIPRO'
+]
+
 
 def get_enctoken_auto() -> str:
     """
@@ -101,24 +118,12 @@ class GitHubScanner:
                  telegram_token: str = None,
                  telegram_chat: str = None,
                  state_file: str = "order_book.json",
-                 strategy: str = "ema_21_55",
+                 strategy: str = None,
                  capital: float = 100000,
                  offline: bool = False):
-        """
-        Initialize scanner.
-        
-        Args:
-            enctoken: Zerodha enctoken
-            telegram_token: Telegram bot token
-            telegram_chat: Telegram chat ID
-            state_file: Path to order book state file
-            strategy: Strategy to use
-            capital: Initial capital (only used if no existing state)
-            offline: Use offline data for testing
-        """
         self.offline = offline
-        self.strategy_name = strategy
-        
+        self.strategy_names = [strategy] if strategy else STRATEGIES
+
         # Initialize data fetcher
         if offline:
             self.fetcher = OfflineDataFetcher()
@@ -126,34 +131,34 @@ class GitHubScanner:
         else:
             self.fetcher = ZerodhaDataFetcher(enctoken)
             logger.info("Using LIVE Zerodha data")
-        
+
         # Initialize Telegram
         self.telegram = TelegramBot(telegram_token, telegram_chat)
-        
+
         # Initialize order book
         self.order_book = OrderBook(state_file)
-        
+
         # Set initial capital if new order book
         if self.order_book.account["total_trades"] == 0 and self.order_book.account["current_capital"] == 100000:
             self.order_book.account["initial_capital"] = capital
             self.order_book.account["current_capital"] = capital
             self.order_book.account["peak_capital"] = capital
-        
-        # Initialize signal detector
-        self.detector = SignalDetector(
-            strategy_name=strategy,
-            capital=self.order_book.account["current_capital"],
-            risk_per_trade=self.order_book.settings["risk_per_trade"],
-            min_rr_ratio=1.5
-        )
-        
-        # Stock list - use instruments from fetcher (already filtered to EQ)
-        # This avoids mismatch with CloudCollector which includes indices
-        if not offline and hasattr(self.fetcher, 'instruments') and self.fetcher.instruments:
-            self.stocks = list(self.fetcher.instruments.keys())
-            logger.info(f"Using {len(self.stocks)} stocks from instruments list")
-        else:
-            self.stocks = get_all_stocks()
+
+        # One detector per strategy
+        self.detectors = [
+            SignalDetector(
+                strategy_name=s,
+                capital=self.order_book.account["current_capital"],
+                risk_per_trade=self.order_book.settings["risk_per_trade"],
+                min_rr_ratio=1.5
+            )
+            for s in self.strategy_names
+        ]
+
+        # Always use NIFTY 50 — fast, liquid, reliable
+        self.stocks = NIFTY_50
+        logger.info(f"Strategies: {', '.join(self.strategy_names)}")
+        logger.info(f"Scanning {len(self.stocks)} NIFTY 50 stocks")
     
     def is_market_hours(self) -> bool:
         """Check if market is open (IST)."""
@@ -190,102 +195,55 @@ class GitHubScanner:
         quotes = self.fetcher.get_quote(symbols)
         return {s: q["last_price"] for s, q in quotes.items()}
     
-    def _prefilter_stocks(self) -> List[str]:
-        """
-        Pre-filter stocks using bulk quotes to find active ones.
-        Fetches quotes in batches (cheap), keeps only stocks with decent volume/movement.
-        Falls back to full stock list if quotes API fails.
-        """
-        if self.offline or not hasattr(self.fetcher, 'get_quote'):
-            return self.stocks
-
-        active_stocks = []
-        failed_batches = 0
-        total_batches = 0
-        batch_size = 50
-
-        logger.info(f"Pre-filtering {len(self.stocks)} stocks using bulk quotes...")
-
-        for i in range(0, len(self.stocks), batch_size):
-            batch = self.stocks[i:i + batch_size]
-            total_batches += 1
-            try:
-                quotes = self.fetcher.get_quote(batch)
-                if not quotes:
-                    failed_batches += 1
-                    continue
-                for symbol, quote in quotes.items():
-                    volume = quote.get('volume', 0)
-                    change_pct = abs(quote.get('change_pct', 0))
-                    last_price = quote.get('last_price', 0)
-
-                    if last_price > 10 and (volume > 50000 or change_pct > 1.5):
-                        active_stocks.append(symbol)
-            except Exception as e:
-                failed_batches += 1
-
-            # If first 5 batches all fail, quote API is broken — skip pre-filter
-            if total_batches == 5 and failed_batches == 5:
-                logger.warning("Quote API not working, skipping pre-filter — scanning all stocks")
-                return self.stocks
-
-        if not active_stocks:
-            logger.warning("Pre-filter found 0 stocks, falling back to full list")
-            return self.stocks
-
-        logger.info(f"Pre-filter: {len(active_stocks)} active stocks from {len(self.stocks)}")
-        return active_stocks
-
-    def _fetch_and_detect(self, symbol: str) -> Optional[Dict]:
-        """Fetch historical data and detect signal for a single stock (thread-safe)."""
+    def _fetch_stock_data(self, symbol: str):
+        """Fetch 5-minute intraday data for a stock (thread-safe)."""
         try:
-            df = self.fetcher.get_historical_data(symbol, "day", 60)
-
-            if df is None or len(df) < 50:
-                return None
-
-            signal = self.detector.detect_signal(symbol, df)
-
-            if signal:
-                logger.info(f"SIGNAL: {symbol} {signal.direction} @ Rs {signal.entry_price:.2f}")
-                return signal.to_dict()
+            df = self.fetcher.get_historical_data(symbol, "5minute", 30)
+            if df is None or len(df) < 60:
+                return symbol, None
+            if df.index.tz is not None:
+                df = df.copy()
+                df.index = df.index.tz_localize(None)
+            return symbol, df
         except Exception as e:
-            logger.error(f"Error scanning {symbol}: {e}")
-
-        return None
+            logger.error(f"Error fetching {symbol}: {e}")
+            return symbol, None
 
     def scan_for_signals(self) -> List[Dict]:
-        """Scan stocks for trading signals with rate-limited parallel fetches."""
+        """Scan NIFTY 50 for trading signals using 5-min data."""
         import time
 
-        # Step 1: Pre-filter using cheap bulk quotes
-        shortlist = self._prefilter_stocks()
+        logger.info(f"Fetching 5-min data for {len(self.stocks)} stocks...")
 
-        if not shortlist:
-            logger.info("No active stocks after pre-filter")
-            return []
+        # Fetch all stock data in parallel (3 workers = safe rate limit)
+        stock_data = {}
+        with ThreadPoolExecutor(max_workers=3) as executor:
+            futures = {executor.submit(self._fetch_stock_data, sym): sym for sym in self.stocks}
+            for i, future in enumerate(as_completed(futures)):
+                symbol, df = future.result()
+                if df is not None:
+                    stock_data[symbol] = df
+                if i % 10 == 9:
+                    time.sleep(0.5)  # brief pause every 10 fetches
 
-        # Use 3 workers to avoid Zerodha rate limiting (429)
-        max_workers = min(3, len(shortlist))
-        logger.info(f"Scanning {len(shortlist)} stocks (parallel, {max_workers} workers)...")
+        logger.info(f"Loaded data for {len(stock_data)}/{len(self.stocks)} stocks")
 
-        # Step 2: Fetch historical data + detect signals in batches
+        # Run each strategy on all stocks
         signals = []
-        batch_size = 30  # Process in batches with a pause between
+        seen = set()  # avoid duplicate (symbol, direction) alerts
 
-        for i in range(0, len(shortlist), batch_size):
-            batch = shortlist[i:i + batch_size]
-
-            with ThreadPoolExecutor(max_workers=max_workers) as executor:
-                futures = {executor.submit(self._fetch_and_detect, sym): sym for sym in batch}
-                for future in as_completed(futures):
-                    result = future.result()
-                    if result:
-                        signals.append(result)
-
-            # Small delay between batches to avoid rate limiting
-            if i + batch_size < len(shortlist):
-                time.sleep(1)
+        for detector in self.detectors:
+            for symbol, df in stock_data.items():
+                try:
+                    signal = detector.detect_signal(symbol, df)
+                    if signal:
+                        key = (symbol, signal.direction)
+                        if key not in seen:
+                            seen.add(key)
+                            signals.append(signal.to_dict())
+                            logger.info(f"SIGNAL [{signal.strategy}]: {symbol} {signal.direction} @ Rs {signal.entry_price:.2f}  R:R={signal.rr_ratio:.2f}")
+                except Exception as e:
+                    logger.error(f"Error scanning {symbol} with {detector.strategy_name}: {e}")
 
         logger.info(f"Found {len(signals)} signals")
         return signals
@@ -394,7 +352,7 @@ class GitHubScanner:
         logger.info("GITHUB ACTIONS SCANNER - STARTING SCAN")
         logger.info("=" * 60)
         logger.info(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        logger.info(f"Strategy: {self.strategy_name}")
+        logger.info(f"Strategies: {', '.join(self.strategy_names)}")
         logger.info(f"Capital: Rs {self.order_book.account['current_capital']:,.2f}")
         logger.info(f"Open positions: {len(self.order_book.open_positions)}")
         
@@ -464,7 +422,7 @@ def main():
     
     parser = argparse.ArgumentParser(description="GitHub Actions Trading Scanner")
     parser.add_argument("--state-file", default="order_book.json", help="Path to state file")
-    parser.add_argument("--strategy", default="ema_21_55", help="Strategy to use")
+    parser.add_argument("--strategy", default=None, help="Strategy to use (default: elliott_wave3 + vwap_pullback)")
     parser.add_argument("--capital", type=float, default=100000, help="Initial capital")
     parser.add_argument("--offline", action="store_true", help="Use offline data")
     parser.add_argument("--status", action="store_true", help="Send status update only")
