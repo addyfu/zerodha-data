@@ -171,10 +171,14 @@ class LiveMonitor:
         """Load 5-min data from local DB (seeded from GitHub release if needed)."""
         logger.info("Loading historical data from local DB...")
 
-        # Seed DB from GitHub release if missing or stale
-        if not self.db.ensure_seeded():
-            logger.error("DB unavailable — falling back to Zerodha API fetch")
-            self._load_from_zerodha_fallback()
+        # In offline mode skip GitHub release check — use whatever DB is local
+        if not self.offline:
+            if not self.db.ensure_seeded():
+                logger.error("DB unavailable — falling back to Zerodha API fetch")
+                self._load_from_zerodha_fallback()
+                return
+        elif not self.db.db_path.exists():
+            logger.error("Offline mode but local DB not found — no data available")
             return
 
         # Load NIFTY 50 5-min data from DB
@@ -239,8 +243,8 @@ class LiveMonitor:
                     new_rows = new_df[new_df.index > cached.index[-1]]
                     if not new_rows.empty:
                         self.data_cache[symbol] = pd.concat([cached, new_rows])
-                        # Persist new candle to local DB
-                        self.db.append_candles({symbol: new_rows}, interval='minute')
+                        # Persist new candle to local DB (5-minute interval)
+                        self.db.append_candles({symbol: new_rows}, interval='5minute')
         except Exception as e:
             logger.error(f"Candle update failed: {e}")
 
