@@ -24,6 +24,23 @@ class DBManager:
     def __init__(self, db_path: Path = DB_PATH):
         self.db_path = db_path
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
+        if self.db_path.exists():
+            self._ensure_schema()
+
+    def _ensure_schema(self):
+        """Ensure unique index exists to prevent duplicate candles."""
+        try:
+            con = sqlite3.connect(self.db_path)
+            try:
+                con.execute("""
+                    CREATE UNIQUE INDEX IF NOT EXISTS
+                    idx_ohlcv_unique ON ohlcv(symbol, datetime, interval)
+                """)
+                con.commit()
+            finally:
+                con.close()
+        except Exception as e:
+            logger.warning(f"Schema check failed: {e}")
 
     def _get_latest_release_info(self) -> Optional[dict]:
         """Return {'tag': str, 'published_at': datetime, 'download_url': str} or None."""
@@ -113,6 +130,51 @@ class DBManager:
         else:
             logger.info(f"Local DB is up to date (release: {release['tag']})")
         return self.db_path.exists()
+
+    def append_candles(self, new_data: Dict[str, pd.DataFrame], interval: str = 'minute') -> int:
+        """
+        Append new candles to DB. Silently skips duplicates.
+        Returns number of rows inserted.
+        """
+        if not self.db_path.exists():
+            return 0
+
+        rows = []
+        for symbol, df in new_data.items():
+            for ts, row in df.iterrows():
+                rows.append((
+                    symbol,
+                    str(ts),
+                    interval,
+                    float(row['open']),
+                    float(row['high']),
+                    float(row['low']),
+                    float(row['close']),
+                    int(row.get('volume', 0)),
+                    int(row.get('oi', 0)),
+                ))
+
+        if not rows:
+            return 0
+
+        try:
+            con = sqlite3.connect(self.db_path)
+            try:
+                con.executemany("""
+                    INSERT OR IGNORE INTO ohlcv
+                    (symbol, datetime, interval, open, high, low, close, volume, oi)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """, rows)
+                inserted = con.total_changes
+                con.commit()
+            finally:
+                con.close()
+            if inserted > 0:
+                logger.info(f"Appended {inserted} new candles to DB")
+            return inserted
+        except Exception as e:
+            logger.error(f"DB append failed: {e}")
+            return 0
 
     def load_nifty50(self, symbols: list, resample: str = '5min') -> Dict[str, pd.DataFrame]:
         """
