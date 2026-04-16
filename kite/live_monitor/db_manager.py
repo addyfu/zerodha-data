@@ -3,18 +3,13 @@
 DBManager
 =========
 Manages the local SQLite DB of OHLCV data.
-- Seeds from GitHub release on first run or when stale
-- Loads historical 5-min data for NIFTY 50
-- Appends live candles during trading hours
 """
 import os
-import sqlite3
 import logging
 import requests
-import pandas as pd
 from pathlib import Path
 from datetime import datetime, timezone
-from typing import Dict, Optional
+from typing import Optional
 
 logger = logging.getLogger(__name__)
 
@@ -58,36 +53,8 @@ class DBManager:
             logger.error(f"Failed to fetch release info: {e}")
             return None
 
-    def needs_update(self) -> bool:
-        """Return True if local DB is missing or older than latest GitHub release."""
-        if not self.db_path.exists():
-            logger.info("Local DB not found — will download from GitHub")
-            return True
-
-        release = self._get_latest_release_info()
-        if release is None:
-            logger.warning("Could not check GitHub release — using existing local DB")
-            return False
-
-        local_mtime = datetime.fromtimestamp(
-            self.db_path.stat().st_mtime, tz=timezone.utc
-        )
-        if release['published_at'] > local_mtime:
-            logger.info(
-                f"GitHub release {release['tag']} ({release['published_at']}) "
-                f"is newer than local DB ({local_mtime}) — will update"
-            )
-            return True
-
-        logger.info(f"Local DB is up to date (release: {release['tag']})")
-        return False
-
-    def download(self) -> bool:
-        """Download latest DB from GitHub release. Returns True on success."""
-        release = self._get_latest_release_info()
-        if release is None:
-            return False
-
+    def _download_release(self, release: dict) -> bool:
+        """Download DB from a pre-fetched release dict. Returns True on success."""
         url = release['download_url']
         logger.info(f"Downloading DB from {url} ...")
         tmp_path = self.db_path.with_suffix('.tmp')
@@ -97,13 +64,17 @@ class DBManager:
                 resp.raise_for_status()
                 total = int(resp.headers.get('content-length', 0))
                 downloaded = 0
+                last_pct_logged = -1
                 with open(tmp_path, 'wb') as f:
                     for chunk in resp.iter_content(chunk_size=8 * 1024 * 1024):
                         f.write(chunk)
                         downloaded += len(chunk)
                         if total:
                             pct = downloaded / total * 100
-                            logger.info(f"  Download: {pct:.0f}% ({downloaded/1e6:.0f}/{total/1e6:.0f} MB)")
+                            pct_bucket = int(pct // 10) * 10
+                            if pct_bucket > last_pct_logged:
+                                logger.info(f"  Download: {pct:.0f}% ({downloaded/1e6:.0f}/{total/1e6:.0f} MB)")
+                                last_pct_logged = pct_bucket
 
             # Atomic replace
             tmp_path.replace(self.db_path)
@@ -112,18 +83,31 @@ class DBManager:
 
         except Exception as e:
             logger.error(f"Download failed: {e}")
-            if tmp_path.exists():
-                tmp_path.unlink()
+            try:
+                tmp_path.unlink(missing_ok=True)
+            except OSError:
+                pass
             return False
 
     def ensure_seeded(self) -> bool:
-        """
-        Check if local DB needs update and download if so.
-        Returns True if DB is ready to use.
-        """
-        if self.needs_update():
-            success = self.download()
-            if not success and not self.db_path.exists():
+        """Check if local DB needs update and download if so. Returns True if DB is ready."""
+        if not self.db_path.exists():
+            logger.info("Local DB not found — will download from GitHub")
+            release = self._get_latest_release_info()
+            if release is None:
                 logger.error("DB download failed and no local DB exists — cannot proceed")
                 return False
+            return self._download_release(release)
+
+        release = self._get_latest_release_info()
+        if release is None:
+            logger.warning("Could not check GitHub release — using existing local DB")
+            return True
+
+        local_mtime = datetime.fromtimestamp(self.db_path.stat().st_mtime, tz=timezone.utc)
+        if release['published_at'] > local_mtime:
+            logger.info(f"GitHub release {release['tag']} is newer — updating DB")
+            self._download_release(release)
+        else:
+            logger.info(f"Local DB is up to date (release: {release['tag']})")
         return self.db_path.exists()
