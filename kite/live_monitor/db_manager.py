@@ -150,8 +150,8 @@ class DBManager:
                     float(row['high']),
                     float(row['low']),
                     float(row['close']),
-                    int(row.get('volume', 0)),
-                    int(row.get('oi', 0)),
+                    int(row.get('volume') or 0) if not pd.isna(row.get('volume')) else 0,
+                    int(row.get('oi') or 0) if not pd.isna(row.get('oi')) else 0,
                 ))
 
         if not rows:
@@ -165,8 +165,8 @@ class DBManager:
                     (symbol, datetime, interval, open, high, low, close, volume, oi)
                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """, rows)
-                inserted = con.total_changes
                 con.commit()
+                inserted = con.total_changes
             finally:
                 con.close()
             if inserted > 0:
