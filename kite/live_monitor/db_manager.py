@@ -135,24 +135,30 @@ class DBManager:
 
         try:
             con = sqlite3.connect(self.db_path)
-            df_all = pd.read_sql(query, con, params=symbols)
-            con.close()
+            try:
+                df_all = pd.read_sql(query, con, params=symbols)
+            finally:
+                con.close()
         except Exception as e:
             logger.error(f"DB load failed: {e}")
             return {}
 
-        stock_data = {}
-        for symbol, grp in df_all.groupby('symbol'):
-            grp = grp.copy()
-            grp['datetime'] = pd.to_datetime(grp['datetime']).dt.tz_localize(None)
-            grp = grp.set_index('datetime')[['open', 'high', 'low', 'close', 'volume']]
-            if resample != '1min':
-                grp = grp.resample(resample).agg({
-                    'open': 'first', 'high': 'max', 'low': 'min',
-                    'close': 'last', 'volume': 'sum'
-                }).dropna()
-            if len(grp) >= 60:
-                stock_data[symbol] = grp
+        try:
+            stock_data = {}
+            for symbol, grp in df_all.groupby('symbol'):
+                grp = grp.copy()
+                grp['datetime'] = pd.to_datetime(grp['datetime']).dt.tz_localize(None)
+                grp = grp.set_index('datetime')[['open', 'high', 'low', 'close', 'volume']]
+                if resample != '1min':
+                    grp = grp.resample(resample).agg({
+                        'open': 'first', 'high': 'max', 'low': 'min',
+                        'close': 'last', 'volume': 'sum'
+                    }).dropna()
+                if len(grp) >= 60:
+                    stock_data[symbol] = grp
+        except Exception as e:
+            logger.error(f"Data processing failed: {e}")
+            return {}
 
         logger.info(f"Loaded {len(stock_data)}/{len(symbols)} stocks from DB")
         return stock_data
