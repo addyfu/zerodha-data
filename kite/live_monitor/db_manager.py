@@ -209,7 +209,7 @@ class DBManager:
             stock_data = {}
             for symbol, grp in df_all.groupby('symbol'):
                 grp = grp.copy()
-                grp['datetime'] = pd.to_datetime(grp['datetime']).dt.tz_localize(None)
+                grp['datetime'] = pd.to_datetime(grp['datetime'], format='mixed', utc=True).dt.tz_localize(None)
                 grp = grp.set_index('datetime')[['open', 'high', 'low', 'close', 'volume']]
                 if resample != '1min':
                     grp = grp.resample(resample).agg({

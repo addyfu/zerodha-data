@@ -53,6 +53,7 @@ from kite.live_monitor.telegram_bot import TelegramBot
 from kite.live_monitor.data_fetcher import ZerodhaDataFetcher, OfflineDataFetcher
 from kite.live_monitor.signal_detector import SignalDetector, TradeSignal
 from kite.live_monitor.paper_trader import PaperTrader, ExitReason
+from kite.live_monitor.db_manager import DBManager
 
 # NIFTY 50 stocks
 NIFTY_50 = [
@@ -137,6 +138,7 @@ class LiveMonitor:
         # Historical data cache (loaded once, updated with quotes)
         self.data_cache: Dict[str, pd.DataFrame] = {}
         self.history_loaded = False
+        self.db = DBManager()
 
     @staticmethod
     def _auto_login() -> Optional[str]:
@@ -166,14 +168,29 @@ class LiveMonitor:
         return market_open <= now.time() <= market_close
 
     def load_historical_data(self):
-        """Load 60-day 5-minute data for all stocks (run once at market open)."""
-        logger.info(f"Loading 60-day 5-min data for {len(self.stocks)} stocks...")
+        """Load 5-min data from local DB (seeded from GitHub release if needed)."""
+        logger.info("Loading historical data from local DB...")
+
+        # Seed DB from GitHub release if missing or stale
+        if not self.db.ensure_seeded():
+            logger.error("DB unavailable — falling back to Zerodha API fetch")
+            self._load_from_zerodha_fallback()
+            return
+
+        # Load NIFTY 50 5-min data from DB
+        self.data_cache = self.db.load_nifty50(self.stocks, resample='5min')
+
+        self.history_loaded = True
+        logger.info(f"Loaded 5-min data for {len(self.data_cache)}/{len(self.stocks)} stocks from DB")
+
+    def _load_from_zerodha_fallback(self):
+        """Fallback: fetch from Zerodha API if DB unavailable (original logic)."""
+        logger.info(f"Fallback: fetching 5-min data for {len(self.stocks)} stocks from Zerodha...")
 
         def fetch_one(symbol):
             try:
                 df = self.fetcher.get_historical_data(symbol, '5minute', 60)
                 if df is not None and len(df) >= 60:
-                    # Strip timezone for compatibility
                     if df.index.tz is not None:
                         df = df.copy()
                         df.index = df.index.tz_localize(None)
@@ -188,10 +205,10 @@ class LiveMonitor:
                 symbol, df = future.result()
                 if df is not None:
                     self.data_cache[symbol] = df
-                time.sleep(0.3)  # Rate limit
+                time.sleep(0.3)
 
         self.history_loaded = True
-        logger.info(f"Loaded 5-min data for {len(self.data_cache)}/{len(self.stocks)} stocks")
+        logger.info(f"Fallback loaded {len(self.data_cache)}/{len(self.stocks)} stocks")
 
     def update_with_latest_candle(self):
         """Fetch the latest completed 5-min candle and append to cache."""
@@ -222,6 +239,8 @@ class LiveMonitor:
                     new_rows = new_df[new_df.index > cached.index[-1]]
                     if not new_rows.empty:
                         self.data_cache[symbol] = pd.concat([cached, new_rows])
+                        # Persist new candle to local DB
+                        self.db.append_candles({symbol: new_rows}, interval='minute')
         except Exception as e:
             logger.error(f"Candle update failed: {e}")
 
