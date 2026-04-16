@@ -6,10 +6,12 @@ Manages the local SQLite DB of OHLCV data.
 """
 import os
 import logging
+import sqlite3
 import requests
+import pandas as pd
 from pathlib import Path
 from datetime import datetime, timezone
-from typing import Optional
+from typing import Dict, Optional
 
 logger = logging.getLogger(__name__)
 
@@ -111,3 +113,46 @@ class DBManager:
         else:
             logger.info(f"Local DB is up to date (release: {release['tag']})")
         return self.db_path.exists()
+
+    def load_nifty50(self, symbols: list, resample: str = '5min') -> Dict[str, pd.DataFrame]:
+        """
+        Load 1-min OHLCV from local DB for given symbols and resample to 5-min.
+        Returns dict of symbol -> DataFrame with columns [open, high, low, close, volume].
+        """
+        if not self.db_path.exists():
+            logger.error("DB not found — call ensure_seeded() first")
+            return {}
+
+        logger.info(f"Loading {resample} data for {len(symbols)} stocks from local DB...")
+
+        placeholders = ','.join('?' * len(symbols))
+        query = f"""
+            SELECT symbol, datetime, open, high, low, close, volume
+            FROM ohlcv
+            WHERE symbol IN ({placeholders}) AND interval = 'minute'
+            ORDER BY symbol, datetime
+        """
+
+        try:
+            con = sqlite3.connect(self.db_path)
+            df_all = pd.read_sql(query, con, params=symbols)
+            con.close()
+        except Exception as e:
+            logger.error(f"DB load failed: {e}")
+            return {}
+
+        stock_data = {}
+        for symbol, grp in df_all.groupby('symbol'):
+            grp = grp.copy()
+            grp['datetime'] = pd.to_datetime(grp['datetime']).dt.tz_localize(None)
+            grp = grp.set_index('datetime')[['open', 'high', 'low', 'close', 'volume']]
+            if resample != '1min':
+                grp = grp.resample(resample).agg({
+                    'open': 'first', 'high': 'max', 'low': 'min',
+                    'close': 'last', 'volume': 'sum'
+                }).dropna()
+            if len(grp) >= 60:
+                stock_data[symbol] = grp
+
+        logger.info(f"Loaded {len(stock_data)}/{len(symbols)} stocks from DB")
+        return stock_data
