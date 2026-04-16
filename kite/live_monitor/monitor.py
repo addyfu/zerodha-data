@@ -246,7 +246,7 @@ class LiveMonitor:
                         # Persist new candle to local DB (5-minute interval)
                         self.db.append_candles({symbol: new_rows}, interval='5minute')
         except Exception as e:
-            logger.error(f"Candle update failed: {e}")
+            logger.error(f"Candle update failed: {e}", exc_info=True)
 
     def scan_for_signals(self) -> List[TradeSignal]:
         """Scan cached data for trading signals across all strategies (fast — no API calls)."""
@@ -266,7 +266,7 @@ class LiveMonitor:
                             signals.append(signal)
                             logger.info(f"SIGNAL [{signal.strategy}]: {symbol} {signal.direction} @ Rs {signal.entry_price:.2f}")
                 except Exception as e:
-                    logger.error(f"Error scanning {symbol} with {detector.strategy_name}: {e}")
+                    logger.error(f"Error scanning {symbol} with {detector.strategy_name}: {e}", exc_info=True)
 
         return signals
     
@@ -319,7 +319,10 @@ class LiveMonitor:
         try:
             # Check if market is open (skip for offline mode)
             if not self.offline and not self.is_market_hours():
+                logger.info("Outside market hours — skipping scan")
                 return
+
+            logger.info(f"--- Scan cycle starting ({datetime.now().strftime('%H:%M:%S')}) ---")
 
             # Load historical data once
             if not self.history_loaded:
@@ -333,21 +336,20 @@ class LiveMonitor:
 
             # Scan for new signals (fast — uses cached data only)
             signals = self.scan_for_signals()
+            logger.info(f"Scan complete: {len(self.data_cache)} stocks scanned | {len(signals)} signal(s) found")
 
             # Process signals
             if signals:
                 self.process_signals(signals)
 
-            # Log status on every scan (every 5 min)
-            if True:
-                summary = self.trader.get_performance_summary()
-                logger.info(f"Status: Capital=Rs {summary.get('capital', 0):,.2f} | "
-                           f"Open={summary.get('open_positions', 0)} | "
-                           f"Trades={summary.get('total_trades', 0)} | "
-                           f"Win={summary.get('win_rate', 0):.1f}%")
+            summary = self.trader.get_performance_summary()
+            logger.info(f"Status: Capital=Rs {summary.get('capital', 0):,.2f} | "
+                       f"Open={summary.get('open_positions', 0)} | "
+                       f"Trades={summary.get('total_trades', 0)} | "
+                       f"Win={summary.get('win_rate', 0):.1f}%")
 
         except Exception as e:
-            logger.error(f"Scan cycle error: {e}")
+            logger.error(f"Scan cycle error: {e}", exc_info=True)
     
     def send_daily_summary(self):
         """Send end-of-day summary."""
