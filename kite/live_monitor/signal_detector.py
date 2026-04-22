@@ -171,9 +171,9 @@ class SignalDetector:
             max_position_value = self.capital * self.max_position_pct
             max_quantity = int(max_position_value / entry_price)
             if quantity > max_quantity:
-                logger.debug(
-                    f"{symbol}: Capping quantity {quantity} -> {max_quantity} "
-                    f"(position {quantity * entry_price:.0f} > {max_position_value:.0f})"
+                logger.info(
+                    f"{symbol}: Capping qty {quantity} -> {max_quantity} "
+                    f"(position {quantity * entry_price:.0f} > max {max_position_value:.0f})"
                 )
                 quantity = max_quantity
 
