@@ -150,7 +150,8 @@ class GitHubScanner:
                 strategy_name=s,
                 capital=self.order_book.account["current_capital"],
                 risk_per_trade=self.order_book.settings["risk_per_trade"],
-                min_rr_ratio=1.5
+                min_rr_ratio=1.5,
+                max_position_pct=0.5
             )
             for s in self.strategy_names
         ]

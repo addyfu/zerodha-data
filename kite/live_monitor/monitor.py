@@ -118,7 +118,13 @@ class LiveMonitor:
         # Multiple signal detectors — one per strategy
         strategies = [strategy] if strategy else self.STRATEGIES
         self.detectors = [
-            SignalDetector(strategy_name=s, capital=capital, risk_per_trade=0.02, min_rr_ratio=1.5)
+            SignalDetector(
+                strategy_name=s,
+                capital=capital,
+                risk_per_trade=0.02,
+                min_rr_ratio=1.5,
+                max_position_pct=0.5
+            )
             for s in strategies
         ]
         logger.info(f"Strategies: {', '.join(strategies)}")

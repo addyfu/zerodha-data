@@ -63,24 +63,27 @@ class SignalDetector:
     Detects trading signals using configured strategies.
     """
     
-    def __init__(self, 
+    def __init__(self,
                  strategy_name: str = 'fib_3wave',
                  capital: float = 100000,
                  risk_per_trade: float = 0.02,
-                 min_rr_ratio: float = 1.5):
+                 min_rr_ratio: float = 1.5,
+                 max_position_pct: float = 0.5):
         """
         Initialize signal detector.
-        
+
         Args:
             strategy_name: Strategy to use from registry
             capital: Trading capital for position sizing
             risk_per_trade: Risk per trade as decimal (0.02 = 2%)
             min_rr_ratio: Minimum risk:reward ratio to accept
+            max_position_pct: Max position size as % of capital (0.5 = 50%)
         """
         self.strategy_name = strategy_name
         self.capital = capital
         self.risk_per_trade = risk_per_trade
         self.min_rr_ratio = min_rr_ratio
+        self.max_position_pct = max_position_pct
         
         # Initialize strategy
         if strategy_name in STRATEGY_REGISTRY:
@@ -156,14 +159,27 @@ class SignalDetector:
                 logger.debug(f"{symbol}: R:R {rr_ratio:.2f} below minimum {self.min_rr_ratio}")
                 return None
             
-            # Calculate position size
+            # Calculate position size based on risk
             risk_amount = self.capital * self.risk_per_trade
             risk_per_share = abs(entry_price - stop_loss)
             quantity = int(risk_amount / risk_per_share) if risk_per_share > 0 else 0
-            
+
             if quantity <= 0:
                 return None
-            
+
+            # Cap position to max_position_pct of capital
+            max_position_value = self.capital * self.max_position_pct
+            max_quantity = int(max_position_value / entry_price)
+            if quantity > max_quantity:
+                logger.debug(
+                    f"{symbol}: Capping quantity {quantity} -> {max_quantity} "
+                    f"(position {quantity * entry_price:.0f} > {max_position_value:.0f})"
+                )
+                quantity = max_quantity
+
+            if quantity <= 0:
+                return None
+
             position_value = quantity * entry_price
             
             # Update last signal
@@ -290,25 +306,29 @@ class MultiStrategyDetector:
     """
     Detects signals using multiple strategies for confirmation.
     """
-    
-    def __init__(self, 
+
+    def __init__(self,
                  strategies: List[str] = None,
                  capital: float = 100000,
-                 min_agreement: int = 2):
+                 min_agreement: int = 2,
+                 max_position_pct: float = 0.5):
         """
         Initialize multi-strategy detector.
-        
+
         Args:
             strategies: List of strategy names to use
             capital: Trading capital
             min_agreement: Minimum strategies that must agree
+            max_position_pct: Max position size as % of capital
         """
         self.strategies = strategies or ['fib_3wave', 'ema_21_55', 'stochrsi_macd']
         self.capital = capital
         self.min_agreement = min_agreement
+        self.max_position_pct = max_position_pct
         
         self.detectors = [
-            SignalDetector(s, capital) for s in self.strategies 
+            SignalDetector(s, capital, max_position_pct=max_position_pct)
+            for s in self.strategies
             if s in STRATEGY_REGISTRY
         ]
     
