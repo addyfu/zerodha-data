@@ -38,7 +38,8 @@ class TradeSignal:
     timestamp: datetime
     confidence: float = 0.0
     notes: str = ""
-    
+    trade_mode: str = "INTRADAY"  # "INTRADAY" or "SWING"
+
     def to_dict(self) -> Dict:
         return {
             'symbol': self.symbol,
@@ -54,7 +55,8 @@ class TradeSignal:
             'position_value': self.position_value,
             'timestamp': self.timestamp.isoformat(),
             'confidence': self.confidence,
-            'notes': self.notes
+            'notes': self.notes,
+            'trade_mode': self.trade_mode
         }
 
 

@@ -55,7 +55,10 @@ class Position:
     
     # Status
     status: str = "open"
-    
+
+    # Trade mode
+    trade_mode: str = "INTRADAY"  # "INTRADAY" or "SWING"
+
     # Trailing stop
     trailing_stop: Optional[float] = None
     highest_price: Optional[float] = None  # For long
@@ -80,7 +83,8 @@ class Position:
             'status': self.status,
             'trailing_stop': self.trailing_stop,
             'highest_price': self.highest_price,
-            'lowest_price': self.lowest_price
+            'lowest_price': self.lowest_price,
+            'trade_mode': self.trade_mode
         }
 
 
@@ -108,6 +112,7 @@ class PaperTrader:
         self.initial_capital = initial_capital
         self.capital = initial_capital
         self.max_positions = max_positions
+        self.slot_size = initial_capital / max_positions
         self.use_trailing_stop = use_trailing_stop
         self.trailing_stop_pct = trailing_stop_pct
         
@@ -168,10 +173,24 @@ class PaperTrader:
                 capital REAL
             )
         """)
+
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS latest_prices (
+                symbol TEXT PRIMARY KEY,
+                price REAL NOT NULL,
+                updated_at TEXT NOT NULL
+            )
+        """)
         
+        # Migration: add trade_mode column if missing
+        try:
+            cursor.execute("ALTER TABLE positions ADD COLUMN trade_mode TEXT DEFAULT 'INTRADAY'")
+        except sqlite3.OperationalError:
+            pass  # Column already exists
+
         conn.commit()
         conn.close()
-    
+
     def _load_state(self):
         """Load state from database."""
         conn = sqlite3.connect(self.db_path)
@@ -200,7 +219,8 @@ class PaperTrader:
                 status='open',
                 trailing_stop=row[15],
                 highest_price=row[16],
-                lowest_price=row[17]
+                lowest_price=row[17],
+                trade_mode=row[18] if len(row) > 18 and row[18] else "INTRADAY"
             )
             self.positions[pos.symbol] = pos
         
@@ -226,18 +246,19 @@ class PaperTrader:
         cursor = conn.cursor()
         
         cursor.execute("""
-            INSERT OR REPLACE INTO positions 
+            INSERT OR REPLACE INTO positions
             (id, symbol, direction, entry_price, entry_time, quantity, stop_loss, take_profit,
              strategy, exit_price, exit_time, exit_reason, pnl, pnl_pct, status,
-             trailing_stop, highest_price, lowest_price)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+             trailing_stop, highest_price, lowest_price, trade_mode)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             position.id, position.symbol, position.direction, position.entry_price,
             position.entry_time.isoformat(), position.quantity, position.stop_loss,
             position.take_profit, position.strategy, position.exit_price,
             position.exit_time.isoformat() if position.exit_time else None,
             position.exit_reason, position.pnl, position.pnl_pct, position.status,
-            position.trailing_stop, position.highest_price, position.lowest_price
+            position.trailing_stop, position.highest_price, position.lowest_price,
+            position.trade_mode
         ))
         
         conn.commit()
@@ -263,10 +284,13 @@ class PaperTrader:
             logger.warning(f"Already have position in {signal.symbol}")
             return None
         
-        # Check if we have enough capital
+        # Check position fits in a slot and we have enough capital
         required_capital = signal.quantity * signal.entry_price
-        if required_capital > self.capital * 0.5:  # Don't use more than 50% on one trade
-            logger.warning(f"Insufficient capital for {signal.symbol}")
+        if required_capital > self.slot_size:
+            logger.warning(f"Position too large for {signal.symbol} (need {required_capital:.0f}, slot {self.slot_size:.0f})")
+            return None
+        if required_capital > self.capital:
+            logger.warning(f"Insufficient capital for {signal.symbol} (need {required_capital:.0f}, have {self.capital:.0f})")
             return None
         
         # Create position
@@ -281,6 +305,7 @@ class PaperTrader:
             stop_loss=signal.stop_loss,
             take_profit=signal.take_profit,
             strategy=signal.strategy,
+            trade_mode=getattr(signal, 'trade_mode', 'INTRADAY'),
             highest_price=signal.entry_price if signal.direction == 'BUY' else None,
             lowest_price=signal.entry_price if signal.direction == 'SELL' else None
         )
@@ -289,14 +314,17 @@ class PaperTrader:
         if self.use_trailing_stop:
             position.trailing_stop = signal.stop_loss
         
+        # Deduct position value from capital
+        self.capital -= required_capital
+
         # Add to positions
         self.positions[signal.symbol] = position
-        
+
         # Save to database
         self._save_position(position)
         self._save_state()
-        
-        logger.info(f"Opened {position.direction} position in {position.symbol} @ {position.entry_price:.2f}")
+
+        logger.info(f"Opened {position.direction} position in {position.symbol} @ {position.entry_price:.2f} (allocated {required_capital:.0f}, remaining capital {self.capital:.0f})")
         
         return position
     
@@ -333,8 +361,9 @@ class PaperTrader:
         position.exit_reason = exit_reason.value
         position.status = 'closed'
         
-        # Update capital
-        self.capital += position.pnl
+        # Return position value + P&L to capital
+        position_value = position.entry_price * position.quantity
+        self.capital += position_value + position.pnl
         
         # Move to closed trades
         self.closed_trades.append(position)
@@ -367,8 +396,10 @@ class PaperTrader:
             
             price = current_prices[symbol]
             
-            # Update trailing stop
-            if self.use_trailing_stop:
+            # Update trailing stop (mode-specific)
+            if position.trade_mode == "SWING":
+                self.update_swing_trailing_stop(position, price)
+            elif self.use_trailing_stop:
                 self._update_trailing_stop(position, price)
             
             # Check stop loss
@@ -405,7 +436,22 @@ class PaperTrader:
                     continue
         
         return closed
-    
+
+    def close_all_positions(self, current_prices: Dict[str, float],
+                           reason: ExitReason = ExitReason.END_OF_DAY,
+                           trade_mode: Optional[str] = None) -> List[Position]:
+        """Close positions, optionally filtered by trade_mode."""
+        closed = []
+        for symbol in list(self.positions.keys()):
+            position = self.positions[symbol]
+            if trade_mode and position.trade_mode != trade_mode:
+                continue
+            if symbol in current_prices:
+                closed_pos = self.close_position(symbol, current_prices[symbol], reason)
+                if closed_pos:
+                    closed.append(closed_pos)
+        return closed
+
     def _update_trailing_stop(self, position: Position, current_price: float):
         """Update trailing stop based on current price."""
         if position.direction == 'BUY':
@@ -428,6 +474,45 @@ class PaperTrader:
                     position.trailing_stop = new_trailing
                     self._save_position(position)
     
+    TRAILING_STEPS = [
+        (0.01, 0.000),   # 1% move -> breakeven
+        (0.03, 0.015),   # 3% move -> lock 1.5%
+        (0.05, 0.030),   # 5% move -> lock 3%
+        (0.08, 0.055),   # 8% move -> lock 5.5%
+    ]
+
+    def update_swing_trailing_stop(self, position: Position, current_price: float) -> bool:
+        """Update trailing stop for swing positions using stepped ratchet."""
+        if position.trade_mode != "SWING":
+            return False
+
+        entry = position.entry_price
+
+        if position.direction == 'BUY':
+            move_pct = (current_price - entry) / entry
+            for threshold, lock_pct in reversed(self.TRAILING_STEPS):
+                if move_pct >= threshold:
+                    new_stop = entry * (1 + lock_pct)
+                    if position.trailing_stop is None or new_stop > position.trailing_stop:
+                        position.trailing_stop = new_stop
+                        self._save_position(position)
+                        logger.info(f"SWING trailing stop updated: {position.symbol} -> {new_stop:.2f} (move {move_pct:.1%}, lock {lock_pct:.1%})")
+                        return True
+                    break
+        else:  # SELL
+            move_pct = (entry - current_price) / entry
+            for threshold, lock_pct in reversed(self.TRAILING_STEPS):
+                if move_pct >= threshold:
+                    new_stop = entry * (1 - lock_pct)
+                    if position.trailing_stop is None or new_stop < position.trailing_stop:
+                        position.trailing_stop = new_stop
+                        self._save_position(position)
+                        logger.info(f"SWING trailing stop updated: {position.symbol} -> {new_stop:.2f} (move {move_pct:.1%}, lock {lock_pct:.1%})")
+                        return True
+                    break
+
+        return False
+
     def _update_daily_summary(self, position: Position):
         """Update daily summary in database."""
         conn = sqlite3.connect(self.db_path)
@@ -478,7 +563,8 @@ class PaperTrader:
                 'avg_loss': 0,
                 'profit_factor': 0,
                 'capital': self.capital,
-                'return_pct': 0
+                'return_pct': 0,
+                'open_positions': len(self.positions)
             }
         
         wins = [t for t in trades if t[12] > 0]  # pnl column
@@ -505,6 +591,17 @@ class PaperTrader:
             'open_positions': len(self.positions)
         }
     
+    def save_latest_prices(self, prices: Dict[str, float]):
+        """Save current market prices to DB for dashboard."""
+        conn = sqlite3.connect(self.db_path)
+        now = datetime.now().isoformat()
+        conn.executemany(
+            "INSERT OR REPLACE INTO latest_prices (symbol, price, updated_at) VALUES (?, ?, ?)",
+            [(s, p, now) for s, p in prices.items()]
+        )
+        conn.commit()
+        conn.close()
+
     def get_open_positions(self) -> List[Dict]:
         """Get list of open positions."""
         return [pos.to_dict() for pos in self.positions.values()]
