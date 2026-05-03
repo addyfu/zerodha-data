@@ -11,9 +11,8 @@ kiteconnect>=5.0.0
 # Database
 # sqlite3 is built-in
 
-# Optional: For web dashboard
-# flask>=2.3.0
-# flask-cors>=4.0.0
+# Web dashboard
+flask>=2.3.0
 
 # Optional: For automated login
 # selenium>=4.10.0
