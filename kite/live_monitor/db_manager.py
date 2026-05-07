@@ -216,7 +216,8 @@ class DBManager:
                         'open': 'first', 'high': 'max', 'low': 'min',
                         'close': 'last', 'volume': 'sum'
                     }).dropna()
-                if len(grp) >= 60:
+                min_bars = 10 if resample == '1D' else 60
+                if len(grp) >= min_bars:
                     stock_data[symbol] = grp
         except Exception as e:
             logger.error(f"Data processing failed: {e}")

@@ -33,14 +33,21 @@ class ZerodhaDataFetcher:
     def __init__(self, enctoken: str = None):
         """
         Initialize data fetcher.
-        
+
         Args:
             enctoken: Zerodha enctoken from web login
         """
         self.enctoken = enctoken or os.environ.get('ZERODHA_ENCTOKEN', '')
+        self.token_expired = False
         self.instruments: Dict[str, int] = {}
         self.token_to_symbol: Dict[int, str] = {}
         self._load_instruments()
+
+    def set_enctoken(self, enctoken: str):
+        """Update enctoken after re-login."""
+        self.enctoken = enctoken
+        self.token_expired = False
+        logger.info("Enctoken refreshed")
     
     def _get_headers(self) -> Dict:
         """Get request headers with auth."""
@@ -129,6 +136,10 @@ class ZerodhaDataFetcher:
                             'timestamp': datetime.now()
                         }
                     return quotes
+            elif response.status_code in (403, 401):
+                if not self.token_expired:
+                    logger.warning(f"Token expired (HTTP {response.status_code}) — flagging for refresh")
+                    self.token_expired = True
             else:
                 logger.warning(f"Quote fetch failed: HTTP {response.status_code}")
                 
@@ -183,12 +194,16 @@ class ZerodhaDataFetcher:
                     df.set_index('datetime', inplace=True)
                     df['symbol'] = symbol
                     return df
+            elif response.status_code in (403, 401):
+                if not self.token_expired:
+                    logger.warning(f"Token expired (HTTP {response.status_code}) — flagging for refresh")
+                    self.token_expired = True
             else:
                 logger.warning(f"Historical data fetch failed for {symbol}: HTTP {response.status_code}")
-                
+
         except Exception as e:
             logger.error(f"Historical data error for {symbol}: {e}")
-        
+
         return None
     
     def get_intraday_data(self, symbol: str, interval: str = "5minute") -> Optional[pd.DataFrame]:

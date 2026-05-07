@@ -172,13 +172,22 @@ class LiveMonitor:
             totp = os.environ.get('ZERODHA_TOTP_SECRET', '')
             if all([user, pwd, totp]):
                 token = get_enctoken(user, pwd, totp)
-                logger.info("Auto-login successful")
                 return token
-            else:
-                logger.warning("Zerodha credentials not found in environment")
         except Exception as e:
             logger.error(f"Auto-login failed: {e}")
         return None
+
+    def _refresh_token_if_needed(self):
+        """Re-login and update fetcher token if expired."""
+        if self.offline or not hasattr(self.fetcher, 'token_expired') or not self.fetcher.token_expired:
+            return
+        logger.info("Token expired — attempting re-login...")
+        new_token = self._auto_login()
+        if new_token:
+            self.fetcher.set_enctoken(new_token)
+            logger.info("Token refreshed successfully")
+        else:
+            logger.error("Token refresh failed — API calls will continue to fail")
 
     def is_market_hours(self) -> bool:
         """Check if market is open."""
@@ -382,6 +391,9 @@ class LiveMonitor:
     def run_scan_cycle(self):
         """Run one scan cycle."""
         try:
+            # Refresh token if expired (auto re-login)
+            self._refresh_token_if_needed()
+
             # Check if market is open (skip for offline mode)
             if not self.offline and not self.is_market_hours():
                 logger.info("Outside market hours — skipping scan")
