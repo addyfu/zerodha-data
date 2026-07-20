@@ -29,6 +29,7 @@ class ExitReason(Enum):
     MANUAL = "manual"
     END_OF_DAY = "end_of_day"
     TRAILING_STOP = "trailing_stop"
+    STRATEGY_EXIT = "strategy_exit"  # rotation rebalance / regime-off
 
 
 @dataclass
@@ -397,7 +398,9 @@ class PaperTrader:
             price = current_prices[symbol]
             
             # Update trailing stop (mode-specific)
-            if position.trade_mode == "SWING":
+            if position.trade_mode == "ROTATION":
+                pass  # rotation positions exit on monthly rebalance or disaster SL only
+            elif position.trade_mode == "SWING":
                 self.update_swing_trailing_stop(position, price)
             elif self.use_trailing_stop:
                 self._update_trailing_stop(position, price)

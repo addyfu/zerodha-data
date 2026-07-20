@@ -54,6 +54,7 @@ from kite.live_monitor.data_fetcher import ZerodhaDataFetcher, OfflineDataFetche
 from kite.live_monitor.signal_detector import SignalDetector, TradeSignal
 from kite.live_monitor.paper_trader import PaperTrader, ExitReason
 from kite.live_monitor.db_manager import DBManager
+from kite.live_monitor.momentum_rotation import MomentumRotation
 
 # NIFTY 50 stocks
 NIFTY_50 = [
@@ -79,8 +80,15 @@ class LiveMonitor:
     2. Every scan: fetch bulk quotes (fast), update cached data, run strategies
     """
 
-    INTRADAY_STRATEGIES = ['fib_3wave']
-    SWING_STRATEGIES = ['ema_21_55', 'vwap_pullback', 'elliott_wave3']
+    # July 2026 audit: fib_3wave cannot fire live (lookahead-dependent swing detection),
+    # ema_21_55/vwap_pullback/elliott_wave3 failed honest walk-forward validation.
+    # Only momo_rotation_63 (kite/research/honest_lab.py) survived — it runs separately below.
+    INTRADAY_STRATEGIES = []
+    SWING_STRATEGIES = []
+    # Incubator: leak-free near-breakeven candidates paper-traded on a SEPARATE virtual book
+    # (data/incubator_trades.db) to gather live execution data. Not expected to profit —
+    # promotion requires passing honest_lab validation, not incubator P&L.
+    INCUBATOR_STRATEGIES = ['choppiness_filter', 'cci_divergence', 'bb_mean_reversion', 'adx_filter']
 
     def __init__(self,
                  enctoken: str = None,
@@ -142,6 +150,24 @@ class LiveMonitor:
 
         all_strategies = [d.strategy_name for d in self.intraday_detectors + self.swing_detectors]
         logger.info(f"Strategies: {', '.join(all_strategies)} | Slot size: Rs {slot_size:,.0f}")
+
+        # Momentum rotation — the validated strategy (monthly, daily bars)
+        self.rotation = MomentumRotation(capital=capital, max_positions=max_positions)
+
+        # Incubator — candidate strategies on their own virtual book
+        self.incubator_detectors = [
+            SignalDetector(strategy_name=s, capital=capital,
+                           risk_per_trade=0.02, min_rr_ratio=1.5,
+                           max_position_pct=slot_size / capital)
+            for s in self.INCUBATOR_STRATEGIES
+        ]
+        self.incubator = PaperTrader(
+            initial_capital=capital,
+            max_positions=max_positions,
+            db_path=str(Path(__file__).parent.parent.parent / 'data' / 'incubator_trades.db'),
+            use_trailing_stop=True,
+            trailing_stop_pct=0.02
+        )
 
         # Paper trader
         self.trader = PaperTrader(
@@ -215,13 +241,32 @@ class LiveMonitor:
         # Load NIFTY 50 5-min data from DB
         self.data_cache = self.db.load_nifty50(self.stocks, resample='5min')
 
-        # Load daily data for swing strategies
-        if self.swing_detectors:
-            self.daily_data_cache = self.db.load_nifty50(self.stocks, resample='1D')
-            logger.info(f"Loaded daily data for {len(self.daily_data_cache)}/{len(self.stocks)} stocks (swing mode)")
+        # Load daily data for rotation (needs 200+ bars for regime SMA) and swing strategies.
+        # Local DB only holds ~1 week of minute data, so daily history must come from the API
+        # (or CSV cache in offline mode) — not from the DB resample.
+        self.load_daily_data()
 
         self.history_loaded = True
         logger.info(f"Loaded 5-min data for {len(self.data_cache)}/{len(self.stocks)} stocks from DB")
+
+    def load_daily_data(self):
+        """Fetch ~400 daily bars per stock (rotation needs 200SMA regime + 63d momentum)."""
+        logger.info(f"Loading daily data for {len(self.stocks)} stocks...")
+
+        def fetch_one(symbol):
+            return symbol, self.fetcher.get_historical_data(symbol, 'day', 400)
+
+        with ThreadPoolExecutor(max_workers=3) as executor:
+            futures = [executor.submit(fetch_one, s) for s in self.stocks]
+            for future in as_completed(futures):
+                try:
+                    symbol, df = future.result()
+                    if df is not None and len(df) >= 250:
+                        self.daily_data_cache[symbol] = df
+                except Exception as e:
+                    logger.warning(f"Daily fetch failed: {e}")
+
+        logger.info(f"Daily data loaded for {len(self.daily_data_cache)}/{len(self.stocks)} stocks")
 
     def _load_from_zerodha_fallback(self):
         """Fallback: fetch from Zerodha API if DB unavailable (original logic)."""
@@ -333,13 +378,91 @@ class LiveMonitor:
 
         return signals
 
+    def run_momentum_rotation(self):
+        """Monthly momentum rotation on daily data (no-op unless a new month started)."""
+        if not self.daily_data_cache:
+            return
+        held = [s for s, p in self.trader.positions.items() if p.trade_mode == 'ROTATION']
+        try:
+            signals, exits = self.rotation.scan(self.daily_data_cache, held)
+        except Exception as e:
+            logger.error(f"Momentum rotation scan error: {e}", exc_info=True)
+            return
+        if not signals and not exits:
+            return
+
+        prices = {}
+        quotes = self.fetcher.get_quote(list(set(exits + [s.symbol for s in signals])))
+        if quotes:
+            prices = {s: q['last_price'] for s, q in quotes.items()}
+
+        for sym in exits:
+            price = prices.get(sym) or float(self.daily_data_cache[sym].iloc[-1]['close'])
+            position = self.trader.close_position(sym, price, ExitReason.STRATEGY_EXIT)
+            if position:
+                logger.info(f"ROTATION exit: {sym} @ Rs {price:.2f} (pnl {position.pnl:+.0f})")
+
+        for signal in signals:
+            live = prices.get(signal.symbol)
+            if live:  # refresh entry to live price; keep sizing from daily close
+                signal.entry_price = live
+                signal.stop_loss = live * MomentumRotation.DISASTER_SL
+                signal.take_profit = live * 2.0
+            self.process_signals([signal])
+
+    def scan_incubator(self):
+        """Scan candidate strategies on 5-min data; trades go to the separate incubator book."""
+        if not self.incubator_detectors or not self.data_cache:
+            return
+        seen = set()
+        for symbol, df in self.data_cache.items():
+            if df is None or len(df) < 50:
+                continue
+            for detector in self.incubator_detectors:
+                try:
+                    signal = detector.detect_signal(symbol, df)
+                    if not signal:
+                        continue
+                    key = (symbol, signal.direction)
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    signal.trade_mode = "INTRADAY"
+                    position = self.incubator.open_position(signal)
+                    if position:
+                        logger.info(f"INCUBATOR [{signal.strategy}]: {symbol} "
+                                    f"{signal.direction} @ Rs {signal.entry_price:.2f}")
+                        self.telegram.send_message(
+                            f"[INCUBATOR] {signal.strategy}: {signal.direction} {symbol} "
+                            f"@ Rs {signal.entry_price:.2f} (paper, candidate book)")
+                except Exception as e:
+                    logger.error(f"Incubator scan error {symbol}/{detector.strategy_name}: {e}", exc_info=True)
+
+    def _send_morning_heartbeat(self):
+        """Daily pipeline-health ping — proves auth/data/scan worked even on no-trade days."""
+        try:
+            rotation_held = [s for s, p in self.trader.positions.items()
+                             if p.trade_mode == 'ROTATION']
+            self.telegram.send_message(
+                f"[HEARTBEAT] Monitor alive {datetime.now().strftime('%d-%b %H:%M')}\n"
+                f"Daily data: {len(self.daily_data_cache)}/{len(self.stocks)} stocks\n"
+                f"5-min data: {len(self.data_cache)}/{len(self.stocks)} stocks\n"
+                f"Rotation: last rebalance {self.rotation.state.get('last_rebalance') or 'never'} "
+                f"| holding: {', '.join(rotation_held) or 'cash'}\n"
+                f"Capital: Rs {self.trader.capital:,.0f}\n"
+                f"Incubator: {len(self.incubator.positions)} open | "
+                f"Rs {self.incubator.capital:,.0f} | "
+                f"{len(self.INCUBATOR_STRATEGIES)} candidates")
+        except Exception as e:
+            logger.warning(f"Heartbeat send failed: {e}")
+
     def check_open_positions(self):
-        """Check open positions for SL/TP hits."""
-        if not self.trader.positions:
+        """Check open positions for SL/TP hits (main book + incubator book)."""
+        if not self.trader.positions and not self.incubator.positions:
             return
 
         # Get current prices — try quote API first, fall back to cached candle close
-        symbols = list(self.trader.positions.keys())
+        symbols = list(set(self.trader.positions) | set(self.incubator.positions))
         quotes = self.fetcher.get_quote(symbols)
 
         if quotes:
@@ -357,6 +480,12 @@ class LiveMonitor:
 
         # Save prices for dashboard
         self.trader.save_latest_prices(current_prices)
+
+        # Incubator exits (own book, log-only alerts)
+        for position in self.incubator.check_exits(current_prices):
+            logger.info(f"INCUBATOR exit [{position.strategy}]: {position.symbol} "
+                        f"{position.exit_reason.value if position.exit_reason else '?'} "
+                        f"pnl {position.pnl:+.0f}")
 
         # Check exits
         closed = self.trader.check_exits(current_prices)
@@ -419,6 +548,9 @@ class LiveMonitor:
             if signals:
                 self.process_signals(signals)
 
+            # Incubator candidates (separate virtual book)
+            self.scan_incubator()
+
             # Swing scan — once per day at market open
             now = datetime.now()
             if not self.swing_scanned_today and now.time() >= dtime(9, 25):
@@ -426,6 +558,8 @@ class LiveMonitor:
                 logger.info(f"Swing scan: {len(swing_signals)} signal(s) found")
                 if swing_signals:
                     self.process_signals(swing_signals)
+                self.run_momentum_rotation()
+                self._send_morning_heartbeat()
                 self.swing_scanned_today = True
 
             # Reset swing scan flag for next day
@@ -443,7 +577,7 @@ class LiveMonitor:
     
     def close_all_positions_eod(self):
         """Close all positions at end of day (India intraday square-off at 3:20 PM)."""
-        if not self.trader.positions:
+        if not self.trader.positions and not self.incubator.positions:
             logger.info("No open positions to close at EOD")
             return
 
@@ -452,7 +586,7 @@ class LiveMonitor:
         logger.info("=" * 60)
 
         # Get current prices — quote API or cached candle
-        symbols = list(self.trader.positions.keys())
+        symbols = list(set(self.trader.positions) | set(self.incubator.positions))
         quotes = self.fetcher.get_quote(symbols)
 
         if quotes:
@@ -468,6 +602,10 @@ class LiveMonitor:
 
         from kite.live_monitor.paper_trader import ExitReason
         closed = self.trader.close_all_positions(current_prices, ExitReason.END_OF_DAY, trade_mode="INTRADAY")
+        inc_closed = self.incubator.close_all_positions(current_prices, ExitReason.END_OF_DAY, trade_mode="INTRADAY")
+        if inc_closed:
+            logger.info(f"INCUBATOR: closed {len(inc_closed)} positions at EOD "
+                        f"(day pnl {sum(p.pnl for p in inc_closed):+.0f})")
 
         for position in closed:
             self.telegram.send_exit_alert({

@@ -136,9 +136,10 @@ class ZerodhaDataFetcher:
                             'timestamp': datetime.now()
                         }
                     return quotes
-            elif response.status_code in (403, 401):
+            elif response.status_code in (400, 401, 403):
+                # Zerodha OMS returns 400 (not 401/403) for an invalid/expired enctoken
                 if not self.token_expired:
-                    logger.warning(f"Token expired (HTTP {response.status_code}) — flagging for refresh")
+                    logger.warning(f"Token invalid/expired (HTTP {response.status_code}) — flagging for refresh")
                     self.token_expired = True
             else:
                 logger.warning(f"Quote fetch failed: HTTP {response.status_code}")
@@ -194,9 +195,10 @@ class ZerodhaDataFetcher:
                     df.set_index('datetime', inplace=True)
                     df['symbol'] = symbol
                     return df
-            elif response.status_code in (403, 401):
+            elif response.status_code in (400, 401, 403):
+                # Zerodha OMS returns 400 (not 401/403) for an invalid/expired enctoken
                 if not self.token_expired:
-                    logger.warning(f"Token expired (HTTP {response.status_code}) — flagging for refresh")
+                    logger.warning(f"Token invalid/expired (HTTP {response.status_code}) — flagging for refresh")
                     self.token_expired = True
             else:
                 logger.warning(f"Historical data fetch failed for {symbol}: HTTP {response.status_code}")

@@ -248,15 +248,21 @@ class BacktestEngine:
         self.equity_history: List[tuple] = []
     
     def run(self, strategy: BaseStrategy, df: pd.DataFrame,
-            symbol: str = "UNKNOWN") -> BacktestResult:
+            symbol: str = "UNKNOWN", walk_forward: bool = False,
+            warmup: int = 50) -> BacktestResult:
         """
         Run backtest for a strategy on given data.
-        
+
         Args:
             strategy: Strategy instance
             df: DataFrame with OHLCV data
             symbol: Stock symbol
-            
+            walk_forward: If True, regenerate signals per bar using only past
+                data (df[:i+1]) and use last row's signal — closes look-ahead
+                leak so live behavior matches backtest.
+            warmup: Bars to skip before first signal in walk_forward (need
+                history for indicators).
+
         Returns:
             BacktestResult with performance metrics
         """
@@ -266,42 +272,52 @@ class BacktestEngine:
         self.closed_trades = []
         self.trade_counter = 0
         self.equity_history = []
-        
-        # Generate signals
-        df_signals = strategy.get_trade_signals(df)
-        
+
+        # Vectorized path — fast but leaks future bars into signal generation
+        df_signals = None if walk_forward else strategy.get_trade_signals(df)
+
         # Run through each bar
-        for idx in df_signals.index:
-            row = df_signals.loc[idx]
-            
+        for i, idx in enumerate(df.index):
+            if walk_forward:
+                # ponytail: O(n^2) — recompute signals on growing slice each bar.
+                # Upgrade path: cache indicators incrementally if too slow.
+                if i < warmup:
+                    self.equity_history.append((idx, self.capital))
+                    continue
+                window = df.iloc[:i + 1]
+                sig_df = strategy.get_trade_signals(window)
+                row = sig_df.iloc[-1]
+            else:
+                row = df_signals.loc[idx]
+
             # Check exits first
             self._check_exits(idx, row)
-            
+
             # Check for new signals
             signal = row.get('signal', 0)
-            
+
             if signal == Signal.BUY.value and len(self.open_positions) < self.max_positions:
                 self._open_trade(idx, row, 'LONG', symbol)
             elif signal == Signal.SELL.value and self.allow_short and len(self.open_positions) < self.max_positions:
                 self._open_trade(idx, row, 'SHORT', symbol)
-            
+
             # Track equity
             equity = self._calculate_equity(row['close'])
             self.equity_history.append((idx, equity))
-        
+
         # Close any remaining positions at last price
         if self.open_positions:
-            last_row = df_signals.iloc[-1]
-            last_idx = df_signals.index[-1]
+            last_idx = df.index[-1]
+            last_close = df.iloc[-1]['close']
             for trade in self.open_positions[:]:
-                self._close_trade(trade, last_idx, last_row['close'], "END_OF_DATA")
+                self._close_trade(trade, last_idx, last_close, "END_OF_DATA")
         
         # Create result
         result = BacktestResult(
             strategy_name=strategy.name,
             symbol=symbol,
-            start_date=df_signals.index[0],
-            end_date=df_signals.index[-1],
+            start_date=df.index[0],
+            end_date=df.index[-1],
             initial_capital=self.initial_capital,
             final_capital=self.capital,
             trades=self.closed_trades,
