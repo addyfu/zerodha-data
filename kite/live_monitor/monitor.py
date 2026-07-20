@@ -89,6 +89,10 @@ class LiveMonitor:
     # (data/incubator_trades.db) to gather live execution data. Not expected to profit —
     # promotion requires passing honest_lab validation, not incubator P&L.
     INCUBATOR_STRATEGIES = ['choppiness_filter', 'cci_divergence', 'bb_mean_reversion', 'adx_filter']
+    # Daily-bar candidates from the July 2026 honest retest (kite/research/retest_all.py):
+    # leak-clean, beat B&H 2022-26 with lower DD, but flat pre-2020 — regime-dependent,
+    # hence incubator not main book. Trade like the retest sim: own SL/TP, no trailing.
+    SWING_CANDIDATES = ['rsi_trend_confirmation', 'cci_divergence']
 
     def __init__(self,
                  enctoken: str = None,
@@ -153,6 +157,14 @@ class LiveMonitor:
 
         # Momentum rotation — the validated strategy (monthly, daily bars)
         self.rotation = MomentumRotation(capital=capital, max_positions=max_positions)
+
+        # Daily-bar swing candidates (incubator book, no trailing — parity with retest sim)
+        self.swing_candidate_detectors = [
+            SignalDetector(strategy_name=s, capital=capital,
+                           risk_per_trade=0.02, min_rr_ratio=1.0,
+                           max_position_pct=slot_size / capital)
+            for s in self.SWING_CANDIDATES
+        ]
 
         # Incubator — candidate strategies on their own virtual book
         self.incubator_detectors = [
@@ -438,6 +450,41 @@ class LiveMonitor:
                 except Exception as e:
                     logger.error(f"Incubator scan error {symbol}/{detector.strategy_name}: {e}", exc_info=True)
 
+    def scan_swing_candidates(self):
+        """Daily scan of swing candidates on daily bars -> incubator book.
+
+        trade_mode ROTATION so no trailing stop interferes: exits are the
+        strategy's own SL/TP (checked by check_exits) or an opposite signal here.
+        """
+        if not self.swing_candidate_detectors or not self.daily_data_cache:
+            return
+        for symbol, df in self.daily_data_cache.items():
+            if df is None or len(df) < 50:
+                continue
+            for detector in self.swing_candidate_detectors:
+                try:
+                    signal = detector.detect_signal(symbol, df)
+                    if not signal:
+                        continue
+                    held = self.incubator.positions.get(symbol)
+                    if signal.direction == 'SELL':
+                        if held and held.direction == 'BUY':
+                            price = float(df.iloc[-1]['close'])
+                            self.incubator.close_position(symbol, price, ExitReason.STRATEGY_EXIT)
+                            logger.info(f"CANDIDATE exit [{detector.strategy_name}]: {symbol}")
+                        continue
+                    if held:
+                        continue
+                    signal.trade_mode = "ROTATION"
+                    position = self.incubator.open_position(signal)
+                    if position:
+                        logger.info(f"CANDIDATE [{signal.strategy}]: BUY {symbol} @ Rs {signal.entry_price:.2f}")
+                        self.telegram.send_message(
+                            f"[CANDIDATE] {signal.strategy}: BUY {symbol} "
+                            f"@ Rs {signal.entry_price:.2f} SL {signal.stop_loss:.2f} (paper)")
+                except Exception as e:
+                    logger.error(f"Candidate scan error {symbol}/{detector.strategy_name}: {e}", exc_info=True)
+
     def _send_morning_heartbeat(self):
         """Daily pipeline-health ping — proves auth/data/scan worked even on no-trade days."""
         try:
@@ -559,6 +606,7 @@ class LiveMonitor:
                 if swing_signals:
                     self.process_signals(swing_signals)
                 self.run_momentum_rotation()
+                self.scan_swing_candidates()
                 self._send_morning_heartbeat()
                 self.swing_scanned_today = True
 
