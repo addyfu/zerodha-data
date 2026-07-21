@@ -32,6 +32,31 @@ class ExitReason(Enum):
     STRATEGY_EXIT = "strategy_exit"  # rotation rebalance / regime-off
 
 
+class TradeMode(Enum):
+    """Owns per-mode trade policy. DB persists .value strings (migration-free);
+    parse with TradeMode.of(). Adding a mode = one enum entry, no if/elif edits."""
+    INTRADAY = ("INTRADAY", 'simple', True)    # 2% trailing; force-closed at EOD
+    SWING = ("SWING", 'stepped', False)        # ratchet trailing; holds overnight
+    ROTATION = ("ROTATION", 'none', False)     # no trailing (rebalance/disaster-SL only)
+
+    def __new__(cls, value, trailing, eod_squareoff):
+        obj = object.__new__(cls)
+        obj._value_ = value
+        obj.trailing = trailing          # 'none' | 'simple' | 'stepped'
+        obj.eod_squareoff = eod_squareoff
+        return obj
+
+    @classmethod
+    def of(cls, raw) -> 'TradeMode':
+        """Accept enum, string, or None (legacy rows default INTRADAY)."""
+        if isinstance(raw, cls):
+            return raw
+        try:
+            return cls(str(raw))
+        except ValueError:
+            return cls.INTRADAY
+
+
 @dataclass
 class Position:
     """Represents an open or closed position."""
@@ -397,12 +422,11 @@ class PaperTrader:
             
             price = current_prices[symbol]
             
-            # Update trailing stop (mode-specific)
-            if position.trade_mode == "ROTATION":
-                pass  # rotation positions exit on monthly rebalance or disaster SL only
-            elif position.trade_mode == "SWING":
+            # Update trailing stop — policy lives on TradeMode, not in branches here
+            trailing = TradeMode.of(position.trade_mode).trailing
+            if trailing == 'stepped':
                 self.update_swing_trailing_stop(position, price)
-            elif self.use_trailing_stop:
+            elif trailing == 'simple' and self.use_trailing_stop:
                 self._update_trailing_stop(position, price)
             
             # Check stop loss
@@ -438,6 +462,18 @@ class PaperTrader:
                         closed.append(closed_pos)
                     continue
         
+        return closed
+
+    def close_eod_positions(self, current_prices: Dict[str, float]) -> List[Position]:
+        """Force-close every position whose mode policy says it can't hold overnight."""
+        closed = []
+        for symbol in list(self.positions.keys()):
+            if not TradeMode.of(self.positions[symbol].trade_mode).eod_squareoff:
+                continue
+            if symbol in current_prices:
+                p = self.close_position(symbol, current_prices[symbol], ExitReason.END_OF_DAY)
+                if p:
+                    closed.append(p)
         return closed
 
     def close_all_positions(self, current_prices: Dict[str, float],

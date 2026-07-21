@@ -57,6 +57,7 @@ from kite.live_monitor.paper_trader import PaperTrader, ExitReason
 from kite.live_monitor.db_manager import DBManager
 from kite.live_monitor.momentum_rotation import MomentumRotation
 from kite.live_monitor.announcement_filter import AnnouncementFilter
+from kite.live_monitor.entry_pipeline import EntryPipeline
 
 # NIFTY 50 stocks
 NIFTY_50 = [
@@ -72,9 +73,6 @@ NIFTY_50 = [
     'ULTRACEMCO', 'UPL', 'WIPRO'
 ]
 
-# Parity monitor pause file (kite/live_monitor/parity_monitor.py writes this on RED checks).
-# Read-only here — entries only, never touches exits/stops.
-PAUSED_FILE = Path(__file__).parent.parent.parent / 'data' / 'strategies_paused.json'
 
 
 class LiveMonitor:
@@ -167,6 +165,9 @@ class LiveMonitor:
         # Red-flag announcement filter (July 2026 event study) — blocks new entries
         # in freshly-flagged stocks, alerts on held ones, fails open when feed is down
         self.ann_filter = AnnouncementFilter()
+
+        # Single gate for ALL new positions: cutoff + pause + red-flag + open/alert
+        self.entry = EntryPipeline(self.ann_filter, self.telegram, offline=offline)
 
         # Daily-bar swing candidates (incubator book, no trailing — parity with retest sim)
         self.swing_candidate_detectors = [
@@ -356,32 +357,8 @@ class LiveMonitor:
         except Exception as e:
             logger.error(f"Candle update failed: {e}", exc_info=True)
 
-    def _entries_allowed(self) -> bool:
-        return self.offline or datetime.now().time() < dtime(15, 5)
-
-    def _load_paused_strategies(self):
-        """Refresh the paused-strategy cache (parity_monitor.py's data/strategies_paused.json).
-
-        Cached per scan cycle — call once at the top of run_scan_cycle(), then
-        _strategy_paused() below is a cheap in-memory lookup for the rest of it.
-        """
-        try:
-            self._paused_strategies = set(json.loads(PAUSED_FILE.read_text()).keys())
-        except (OSError, ValueError):
-            self._paused_strategies = set()
-
-    def _strategy_paused(self, name: str) -> bool:
-        """True if parity_monitor.py has paused new entries for this strategy.
-
-        Entries-only gate — exits and stop-losses are never paused (see
-        docs/superpowers/specs/2026-07-21-parity-monitor-design.md §3.5).
-        """
-        return name in self._paused_strategies
-
     def scan_for_signals(self) -> List[TradeSignal]:
         """Scan cached data for trading signals across all strategies (fast — no API calls)."""
-        if not self._entries_allowed():
-            return []
         signals = []
         seen = set()  # avoid duplicate symbol+direction signals from multiple strategies
 
@@ -445,11 +422,6 @@ class LiveMonitor:
         if not signals and not exits:
             return
 
-        if signals and self._strategy_paused('momo_rotation_63'):
-            logger.info(f"ROTATION entries paused (strategies_paused.json) — "
-                        f"skipping {len(signals)} new signal(s), exits unaffected")
-            signals = []
-
         prices = {}
         quotes = self.fetcher.get_quote(list(set(exits + [s.symbol for s in signals])))
         if quotes:
@@ -467,15 +439,11 @@ class LiveMonitor:
                 signal.entry_price = live
                 signal.stop_loss = live * MomentumRotation.DISASTER_SL
                 signal.take_profit = live * 2.0
-            self.process_signals([signal])
+            self.entry.try_enter(self.trader, signal, 'ROTATION')
 
     def scan_incubator(self):
         """Scan candidate strategies on 5-min data; trades go to the separate incubator book."""
         if not self.incubator_detectors or not self.data_cache:
-            return
-        # No fresh intraday entries near the close — square-off is 15:20, and an entry
-        # after it would hold overnight (illegal for cash shorts, parity-breaking for longs).
-        if not self.offline and datetime.now().time() >= dtime(15, 5):
             return
         seen = set()
         for symbol, df in self.data_cache.items():
@@ -486,25 +454,12 @@ class LiveMonitor:
                     signal = detector.detect_signal(symbol, df)
                     if not signal:
                         continue
-                    if self._strategy_paused(detector.strategy_name):
-                        logger.info(f"INCUBATOR skip {symbol} [{detector.strategy_name}]: strategy paused")
-                        continue
                     key = (symbol, signal.direction)
                     if key in seen:
                         continue
                     seen.add(key)
-                    flag = self.ann_filter.is_flagged(symbol)
-                    if flag:
-                        logger.info(f"INCUBATOR skip {symbol}: red flag {flag}")
-                        continue
                     signal.trade_mode = "INTRADAY"
-                    position = self.incubator.open_position(signal)
-                    if position:
-                        logger.info(f"INCUBATOR [{signal.strategy}]: {symbol} "
-                                    f"{signal.direction} @ Rs {signal.entry_price:.2f}")
-                        self.telegram.send_message(
-                            f"[INCUBATOR] {signal.strategy}: {signal.direction} {symbol} "
-                            f"@ Rs {signal.entry_price:.2f} (paper, candidate book)")
+                    self.entry.try_enter(self.incubator, signal, 'INCUBATOR')
                 except Exception as e:
                     logger.error(f"Incubator scan error {symbol}/{detector.strategy_name}: {e}", exc_info=True)
 
@@ -533,20 +488,8 @@ class LiveMonitor:
                         continue
                     if held:
                         continue
-                    if self._strategy_paused(detector.strategy_name):
-                        logger.info(f"CANDIDATE skip {symbol} [{detector.strategy_name}]: strategy paused")
-                        continue
-                    flag = self.ann_filter.is_flagged(symbol)
-                    if flag:
-                        logger.info(f"CANDIDATE skip {symbol} [{detector.strategy_name}]: red flag {flag}")
-                        continue
                     signal.trade_mode = "ROTATION"
-                    position = self.incubator.open_position(signal)
-                    if position:
-                        logger.info(f"CANDIDATE [{signal.strategy}]: BUY {symbol} @ Rs {signal.entry_price:.2f}")
-                        self.telegram.send_message(
-                            f"[CANDIDATE] {signal.strategy}: BUY {symbol} "
-                            f"@ Rs {signal.entry_price:.2f} SL {signal.stop_loss:.2f} (paper)")
+                    self.entry.try_enter(self.incubator, signal, 'CANDIDATE')
                 except Exception as e:
                     logger.error(f"Candidate scan error {symbol}/{detector.strategy_name}: {e}", exc_info=True)
 
@@ -626,16 +569,11 @@ class LiveMonitor:
             })
     
     def process_signals(self, signals: List[TradeSignal]):
-        """Process detected signals - open positions and send alerts."""
+        """Route detected signals through the entry pipeline (main book)."""
         for signal in signals:
-            # Try to open position
-            position = self.trader.open_position(signal)
-            
+            position = self.entry.try_enter(self.trader, signal, 'MAIN', alert=False)
             if position:
-                # Send Telegram alert
                 self.telegram.send_trade_alert(signal.to_dict())
-                
-                logger.info(f"Position opened: {signal.symbol} {signal.direction}")
     
     def run_scan_cycle(self):
         """Run one scan cycle."""
@@ -650,8 +588,8 @@ class LiveMonitor:
 
             logger.info(f"--- Scan cycle starting ({datetime.now().strftime('%H:%M:%S')}) ---")
 
-            # Refresh paused-strategy cache (parity_monitor.py pause hook — entries only)
-            self._load_paused_strategies()
+            # Refresh the entry pipeline's paused-strategy cache (entries only)
+            self.entry.reload_paused()
 
             # Load historical data once
             if not self.history_loaded:
@@ -733,9 +671,8 @@ class LiveMonitor:
             logger.error("Could not fetch prices for EOD close")
             return
 
-        from kite.live_monitor.paper_trader import ExitReason
-        closed = self.trader.close_all_positions(current_prices, ExitReason.END_OF_DAY, trade_mode="INTRADAY")
-        inc_closed = self.incubator.close_all_positions(current_prices, ExitReason.END_OF_DAY, trade_mode="INTRADAY")
+        closed = self.trader.close_eod_positions(current_prices)
+        inc_closed = self.incubator.close_eod_positions(current_prices)
         if inc_closed:
             logger.info(f"INCUBATOR: closed {len(inc_closed)} positions at EOD "
                         f"(day pnl {sum(p.pnl for p in inc_closed):+.0f})")
