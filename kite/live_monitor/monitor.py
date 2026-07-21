@@ -66,7 +66,7 @@ NIFTY_50 = [
     'ITC', 'JSWSTEEL', 'KOTAKBANK', 'LT', 'M&M',
     'MARUTI', 'NESTLEIND', 'NTPC', 'ONGC', 'POWERGRID',
     'RELIANCE', 'SBIN', 'SHREECEM', 'SUNPHARMA', 'TATACONSUM',
-    'TATAMOTORS', 'TATASTEEL', 'TCS', 'TECHM', 'TITAN',
+    'TATASTEEL', 'TCS', 'TECHM', 'TITAN',  # TATAMOTORS removed: token dead post-2025 demerger
     'ULTRACEMCO', 'UPL', 'WIPRO'
 ]
 
@@ -530,9 +530,9 @@ class LiveMonitor:
 
         # Incubator exits (own book, log-only alerts)
         for position in self.incubator.check_exits(current_prices):
+            reason = getattr(position.exit_reason, 'value', position.exit_reason)
             logger.info(f"INCUBATOR exit [{position.strategy}]: {position.symbol} "
-                        f"{position.exit_reason.value if position.exit_reason else '?'} "
-                        f"pnl {position.pnl:+.0f}")
+                        f"{reason} pnl {position.pnl:+.0f}")
 
         # Check exits
         closed = self.trader.check_exits(current_prices)
@@ -601,6 +601,13 @@ class LiveMonitor:
             # Swing scan — once per day at market open
             now = datetime.now()
             if not self.swing_scanned_today and now.time() >= dtime(9, 25):
+                # Daily load can fail if the token was stale at startup — retry here
+                # and hold the once-per-day gate open until it succeeds.
+                if not self.daily_data_cache:
+                    self.load_daily_data()
+                    if not self.daily_data_cache:
+                        logger.warning("Daily data still unavailable — will retry next cycle")
+                        return
                 swing_signals = self.scan_for_swing_signals()
                 logger.info(f"Swing scan: {len(swing_signals)} signal(s) found")
                 if swing_signals:

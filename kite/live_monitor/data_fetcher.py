@@ -30,6 +30,18 @@ class ZerodhaDataFetcher:
     INSTRUMENTS_URL = "https://api.kite.trade/instruments"
     QUOTE_URL = "https://kite.zerodha.com/oms/quote"
     
+    def _note_400(self, symbol: str = None):
+        """HTTP 400 is ambiguous: expired token OR one bad instrument (e.g. delisted).
+        Only flag token refresh after 5 distinct 400s with no success in between —
+        a dead symbol 400s alone; a dead token 400s on everything."""
+        self._bad400.add(symbol or '_quote')
+        if len(self._bad400) >= 5 and not self.token_expired:
+            logger.warning(f"{len(self._bad400)} distinct HTTP 400s — treating as expired token")
+            self.token_expired = True
+            self._bad400.clear()
+        elif symbol:
+            logger.debug(f"HTTP 400 for {symbol} (dead instrument?)")
+
     def __init__(self, enctoken: str = None):
         """
         Initialize data fetcher.
@@ -39,6 +51,7 @@ class ZerodhaDataFetcher:
         """
         self.enctoken = enctoken or os.environ.get('ZERODHA_ENCTOKEN', '')
         self.token_expired = False
+        self._bad400 = set()
         self.instruments: Dict[str, int] = {}
         self.token_to_symbol: Dict[int, str] = {}
         self._load_instruments()
@@ -119,6 +132,7 @@ class ZerodhaDataFetcher:
             response = requests.get(url, headers=self._get_headers(), timeout=10)
             
             if response.status_code == 200:
+                self._bad400.clear()
                 data = response.json()
                 if data.get('status') == 'success':
                     quotes = {}
@@ -136,11 +150,12 @@ class ZerodhaDataFetcher:
                             'timestamp': datetime.now()
                         }
                     return quotes
-            elif response.status_code in (400, 401, 403):
-                # Zerodha OMS returns 400 (not 401/403) for an invalid/expired enctoken
+            elif response.status_code in (401, 403):
                 if not self.token_expired:
                     logger.warning(f"Token invalid/expired (HTTP {response.status_code}) — flagging for refresh")
                     self.token_expired = True
+            elif response.status_code == 400:
+                self._note_400()
             else:
                 logger.warning(f"Quote fetch failed: HTTP {response.status_code}")
                 
@@ -186,6 +201,7 @@ class ZerodhaDataFetcher:
                                    params=params, timeout=30)
             
             if response.status_code == 200:
+                self._bad400.clear()
                 data = response.json()
                 if data.get('status') == 'success' and data.get('data', {}).get('candles'):
                     candles = data['data']['candles']
@@ -195,11 +211,12 @@ class ZerodhaDataFetcher:
                     df.set_index('datetime', inplace=True)
                     df['symbol'] = symbol
                     return df
-            elif response.status_code in (400, 401, 403):
-                # Zerodha OMS returns 400 (not 401/403) for an invalid/expired enctoken
+            elif response.status_code in (401, 403):
                 if not self.token_expired:
                     logger.warning(f"Token invalid/expired (HTTP {response.status_code}) — flagging for refresh")
                     self.token_expired = True
+            elif response.status_code == 400:
+                self._note_400(symbol)
             else:
                 logger.warning(f"Historical data fetch failed for {symbol}: HTTP {response.status_code}")
 
