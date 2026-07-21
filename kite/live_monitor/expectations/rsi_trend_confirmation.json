@@ -1,0 +1,21 @@
+{
+  "strategy": "rsi_trend_confirmation",
+  "book": "incubator",
+  "cadence": "daily-swing",
+  "trades_per_month": {
+    "lambda": 5.348
+  },
+  "win_rate": {
+    "p": 0.4758,
+    "n_backtest": 353
+  },
+  "max_drawdown_pct": -20.9,
+  "hold_days": {
+    "p50": 8,
+    "p95": 30
+  },
+  "slippage_assumed_pct": 0.05,
+  "generated": "2026-07-21",
+  "source": "kite/research/retest_results.csv row 'rsi_trend_confirmation' (train+val pooled, 66mo)",
+  "code_hash": "b790af5"
+}

@@ -1,0 +1,18 @@
+{
+  "strategy": "choppiness_filter",
+  "book": "incubator",
+  "cadence": "intraday",
+  "trades_per_month": {
+    "lambda": 236.9,
+    "lambda_quality": "rough-extrapolation"
+  },
+  "max_drawdown_pct": -15,
+  "hold_days": {
+    "p50": 0,
+    "p95": 1
+  },
+  "slippage_assumed_pct": 0.05,
+  "generated": "2026-07-21",
+  "source": "kite/reports/walkforward_audit.csv row 'choppiness_filter' wf_trades=6 (5-stock/5-day audit sample extrapolated x9.4 stocks x4.2 trading-days/month to the 47-stock live universe -- rough)",
+  "code_hash": "b790af5"
+}

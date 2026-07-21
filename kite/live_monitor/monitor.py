@@ -14,6 +14,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent.parent))
 
 import os
+import json
 
 # Load .env file if it exists (local development)
 _env_file = Path(__file__).parent.parent.parent / '.env'
@@ -70,6 +71,10 @@ NIFTY_50 = [
     'TATASTEEL', 'TCS', 'TECHM', 'TITAN',  # TATAMOTORS removed: token dead post-2025 demerger
     'ULTRACEMCO', 'UPL', 'WIPRO'
 ]
+
+# Parity monitor pause file (kite/live_monitor/parity_monitor.py writes this on RED checks).
+# Read-only here — entries only, never touches exits/stops.
+PAUSED_FILE = Path(__file__).parent.parent.parent / 'data' / 'strategies_paused.json'
 
 
 class LiveMonitor:
@@ -204,6 +209,7 @@ class LiveMonitor:
         self.swing_scanned_today = False
         self.history_loaded = False
         self.db = DBManager()
+        self._paused_strategies: set = set()  # refreshed once per scan cycle
 
     @staticmethod
     def _auto_login() -> Optional[str]:
@@ -215,6 +221,10 @@ class LiveMonitor:
             totp = os.environ.get('ZERODHA_TOTP_SECRET', '')
             if all([user, pwd, totp]):
                 token = get_enctoken(user, pwd, totp)
+                if token:
+                    # This exact phrase is what parity_monitor's P9 (login-loop
+                    # detector) counts in monitor.log — keep them in sync.
+                    logger.info("Login successful (auto-login)")
                 return token
         except Exception as e:
             logger.error(f"Auto-login failed: {e}")
@@ -349,6 +359,25 @@ class LiveMonitor:
     def _entries_allowed(self) -> bool:
         return self.offline or datetime.now().time() < dtime(15, 5)
 
+    def _load_paused_strategies(self):
+        """Refresh the paused-strategy cache (parity_monitor.py's data/strategies_paused.json).
+
+        Cached per scan cycle — call once at the top of run_scan_cycle(), then
+        _strategy_paused() below is a cheap in-memory lookup for the rest of it.
+        """
+        try:
+            self._paused_strategies = set(json.loads(PAUSED_FILE.read_text()).keys())
+        except (OSError, ValueError):
+            self._paused_strategies = set()
+
+    def _strategy_paused(self, name: str) -> bool:
+        """True if parity_monitor.py has paused new entries for this strategy.
+
+        Entries-only gate — exits and stop-losses are never paused (see
+        docs/superpowers/specs/2026-07-21-parity-monitor-design.md §3.5).
+        """
+        return name in self._paused_strategies
+
     def scan_for_signals(self) -> List[TradeSignal]:
         """Scan cached data for trading signals across all strategies (fast — no API calls)."""
         if not self._entries_allowed():
@@ -416,6 +445,11 @@ class LiveMonitor:
         if not signals and not exits:
             return
 
+        if signals and self._strategy_paused('momo_rotation_63'):
+            logger.info(f"ROTATION entries paused (strategies_paused.json) — "
+                        f"skipping {len(signals)} new signal(s), exits unaffected")
+            signals = []
+
         prices = {}
         quotes = self.fetcher.get_quote(list(set(exits + [s.symbol for s in signals])))
         if quotes:
@@ -451,6 +485,9 @@ class LiveMonitor:
                 try:
                     signal = detector.detect_signal(symbol, df)
                     if not signal:
+                        continue
+                    if self._strategy_paused(detector.strategy_name):
+                        logger.info(f"INCUBATOR skip {symbol} [{detector.strategy_name}]: strategy paused")
                         continue
                     key = (symbol, signal.direction)
                     if key in seen:
@@ -495,6 +532,9 @@ class LiveMonitor:
                             logger.info(f"CANDIDATE exit [{detector.strategy_name}]: {symbol}")
                         continue
                     if held:
+                        continue
+                    if self._strategy_paused(detector.strategy_name):
+                        logger.info(f"CANDIDATE skip {symbol} [{detector.strategy_name}]: strategy paused")
                         continue
                     flag = self.ann_filter.is_flagged(symbol)
                     if flag:
@@ -609,6 +649,9 @@ class LiveMonitor:
                 return
 
             logger.info(f"--- Scan cycle starting ({datetime.now().strftime('%H:%M:%S')}) ---")
+
+            # Refresh paused-strategy cache (parity_monitor.py pause hook — entries only)
+            self._load_paused_strategies()
 
             # Load historical data once
             if not self.history_loaded:

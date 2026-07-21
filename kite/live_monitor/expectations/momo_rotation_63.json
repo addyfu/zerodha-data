@@ -1,0 +1,21 @@
+{
+  "strategy": "momo_rotation_63",
+  "book": "main",
+  "cadence": "monthly",
+  "trades_per_month": {
+    "lambda": 1.227
+  },
+  "win_rate": {
+    "p": 0.4449,
+    "n_backtest": 81
+  },
+  "max_drawdown_pct": -29.0,
+  "hold_days": {
+    "p50": 31,
+    "p95": 92
+  },
+  "slippage_assumed_pct": 0.05,
+  "generated": "2026-07-21",
+  "source": "kite/research/lab_results.csv row 'momo lb=63 n=3 regime=True' (train+val pooled, 66mo)",
+  "code_hash": "6019db7"
+}

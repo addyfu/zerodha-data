@@ -1,0 +1,21 @@
+{
+  "strategy": "cci_divergence",
+  "book": "incubator",
+  "cadence": "daily-swing",
+  "trades_per_month": {
+    "lambda": 2.636
+  },
+  "win_rate": {
+    "p": 0.4769,
+    "n_backtest": 174
+  },
+  "max_drawdown_pct": -13.9,
+  "hold_days": {
+    "p50": 8,
+    "p95": 30
+  },
+  "slippage_assumed_pct": 0.05,
+  "generated": "2026-07-21",
+  "source": "kite/research/retest_results.csv row 'cci_divergence' (train+val pooled, 66mo)",
+  "code_hash": "458573e"
+}
