@@ -55,6 +55,7 @@ from kite.live_monitor.signal_detector import SignalDetector, TradeSignal
 from kite.live_monitor.paper_trader import PaperTrader, ExitReason
 from kite.live_monitor.db_manager import DBManager
 from kite.live_monitor.momentum_rotation import MomentumRotation
+from kite.live_monitor.announcement_filter import AnnouncementFilter
 
 # NIFTY 50 stocks
 NIFTY_50 = [
@@ -157,6 +158,10 @@ class LiveMonitor:
 
         # Momentum rotation — the validated strategy (monthly, daily bars)
         self.rotation = MomentumRotation(capital=capital, max_positions=max_positions)
+
+        # Red-flag announcement filter (July 2026 event study) — blocks new entries
+        # in freshly-flagged stocks, alerts on held ones, fails open when feed is down
+        self.ann_filter = AnnouncementFilter()
 
         # Daily-bar swing candidates (incubator book, no trailing — parity with retest sim)
         self.swing_candidate_detectors = [
@@ -400,8 +405,11 @@ class LiveMonitor:
         if not self.daily_data_cache:
             return
         held = [s for s, p in self.trader.positions.items() if p.trade_mode == 'ROTATION']
+        blocked = {s for s in self.daily_data_cache if self.ann_filter.is_flagged(s)}
+        if blocked:
+            logger.info(f"ROTATION entry-blocked by ann-filter: {sorted(blocked)}")
         try:
-            signals, exits = self.rotation.scan(self.daily_data_cache, held)
+            signals, exits = self.rotation.scan(self.daily_data_cache, held, blocked)
         except Exception as e:
             logger.error(f"Momentum rotation scan error: {e}", exc_info=True)
             return
@@ -448,6 +456,10 @@ class LiveMonitor:
                     if key in seen:
                         continue
                     seen.add(key)
+                    flag = self.ann_filter.is_flagged(symbol)
+                    if flag:
+                        logger.info(f"INCUBATOR skip {symbol}: red flag {flag}")
+                        continue
                     signal.trade_mode = "INTRADAY"
                     position = self.incubator.open_position(signal)
                     if position:
@@ -484,6 +496,10 @@ class LiveMonitor:
                         continue
                     if held:
                         continue
+                    flag = self.ann_filter.is_flagged(symbol)
+                    if flag:
+                        logger.info(f"CANDIDATE skip {symbol} [{detector.strategy_name}]: red flag {flag}")
+                        continue
                     signal.trade_mode = "ROTATION"
                     position = self.incubator.open_position(signal)
                     if position:
@@ -493,6 +509,13 @@ class LiveMonitor:
                             f"@ Rs {signal.entry_price:.2f} SL {signal.stop_loss:.2f} (paper)")
                 except Exception as e:
                     logger.error(f"Candidate scan error {symbol}/{detector.strategy_name}: {e}", exc_info=True)
+
+    def _alert_flagged_holdings(self):
+        """Telegram warning (no auto-exit) for held positions with fresh red flags."""
+        held = list(self.trader.positions) + list(self.incubator.positions)
+        for sym, reason in self.ann_filter.check_holdings(held):
+            logger.warning(f"HOLDING RED FLAG: {sym} — {reason}")
+            self.telegram.send_message(f"⚠ [FLAG] holding {sym}: {reason} — review, no auto-exit")
 
     def _send_morning_heartbeat(self):
         """Daily pipeline-health ping — proves auth/data/scan worked even on no-trade days."""
@@ -508,7 +531,8 @@ class LiveMonitor:
                 f"Capital: Rs {self.trader.capital:,.0f}\n"
                 f"Incubator: {len(self.incubator.positions)} open | "
                 f"Rs {self.incubator.capital:,.0f} | "
-                f"{len(self.INCUBATOR_STRATEGIES)} candidates")
+                f"{len(self.INCUBATOR_STRATEGIES)} candidates\n"
+                f"{self.ann_filter.status_line()}")
         except Exception as e:
             logger.warning(f"Heartbeat send failed: {e}")
 
@@ -617,6 +641,8 @@ class LiveMonitor:
                     if not self.daily_data_cache:
                         logger.warning("Daily data still unavailable — will retry next cycle")
                         return
+                self.ann_filter.refresh()
+                self._alert_flagged_holdings()
                 swing_signals = self.scan_for_swing_signals()
                 logger.info(f"Swing scan: {len(swing_signals)} signal(s) found")
                 if swing_signals:

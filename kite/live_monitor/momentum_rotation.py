@@ -11,7 +11,7 @@ import json
 import logging
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List, Set, Tuple
 
 import pandas as pd
 
@@ -47,11 +47,13 @@ class MomentumRotation:
         return self.state.get('last_rebalance') != datetime.now().strftime('%Y-%m')
 
     def scan(self, daily_data: Dict[str, pd.DataFrame],
-             held: List[str]) -> Tuple[List[TradeSignal], List[str]]:
+             held: List[str],
+             blocked: Set[str] = frozenset()) -> Tuple[List[TradeSignal], List[str]]:
         """Monthly rebalance. Returns (entry_signals, symbols_to_exit).
 
-        `held` = symbols currently held BY THIS STRATEGY. No-op unless a new
-        month has started. Marks the rebalance done only after producing orders.
+        `held` = symbols currently held BY THIS STRATEGY. `blocked` = symbols
+        excluded from NEW entries (announcement red flags); held blocked names
+        are kept, not force-exited. No-op unless a new month has started.
         """
         if not self.is_rebalance_due() or not daily_data:
             return [], []
@@ -75,7 +77,8 @@ class MomentumRotation:
             return [], list(held)
 
         mom = {s: c.iloc[-1] / c.iloc[-1 - self.LOOKBACK] - 1
-               for s, c in closes.items() if len(c) > self.LOOKBACK}
+               for s, c in closes.items()
+               if len(c) > self.LOOKBACK and (s in held or s not in blocked)}
         top = sorted(mom, key=mom.get, reverse=True)[:self.TOP_N]
         logger.info(f"[{self.strategy_name}] rebalance: regime ON, top{self.TOP_N} = "
                     + ", ".join(f"{s} ({mom[s]:+.1%})" for s in top))
