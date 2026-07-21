@@ -341,8 +341,13 @@ class LiveMonitor:
         except Exception as e:
             logger.error(f"Candle update failed: {e}", exc_info=True)
 
+    def _entries_allowed(self) -> bool:
+        return self.offline or datetime.now().time() < dtime(15, 5)
+
     def scan_for_signals(self) -> List[TradeSignal]:
         """Scan cached data for trading signals across all strategies (fast — no API calls)."""
+        if not self._entries_allowed():
+            return []
         signals = []
         seen = set()  # avoid duplicate symbol+direction signals from multiple strategies
 
@@ -425,6 +430,10 @@ class LiveMonitor:
     def scan_incubator(self):
         """Scan candidate strategies on 5-min data; trades go to the separate incubator book."""
         if not self.incubator_detectors or not self.data_cache:
+            return
+        # No fresh intraday entries near the close — square-off is 15:20, and an entry
+        # after it would hold overnight (illegal for cash shorts, parity-breaking for longs).
+        if not self.offline and datetime.now().time() >= dtime(15, 5):
             return
         seen = set()
         for symbol, df in self.data_cache.items():
