@@ -153,3 +153,28 @@ that fired correctly is forbidden.
 ## Decision log
 
 - 2026-07-21: Spec drafted. Awaiting approval to build.
+- 2026-07-21: Two monitor-hardening additions shipped; no §3.3 P1-P12
+  threshold changed (§6 freeze respected).
+  - **P13 "card-staleness"** added per premortem item 3 (card drift / stale
+    expectations), deferred from v1. Parity now recomputes each strategy source
+    file's current git short-hash (same strategy→file map as
+    `gen_expectations.py`, resolved against `_CODE_ROOT`) and compares it to the
+    card's stamped `code_hash`. Mismatch → AMBER "card stale …—regenerate
+    gen_expectations.py"; git unavailable or file unmapped → NODATA. Never RED,
+    never pauses (staleness is advisory). Registered in the run loop and the
+    daily-line tally alongside the other system checks.
+  - **NSE holiday calendar** (`NSE_HOLIDAYS_2026`) added, closing the known
+    v1 gap "no holiday calendar → false P1 on trading holidays" (flagged in
+    the build review; not one of the numbered premortem items)
+    (false-P1 on holidays / non-market days). `is_market_day` now excludes NSE
+    holidays as well as weekends, so P1/P2/P9 return NODATA — not a false RED —
+    on a holiday when the monitor is alive but the trading log is legitimately
+    empty. The day-counting helpers `trading_days_between` and
+    `_n_trading_days_ago` (and, transitively, P4's trading-day-of-month
+    arithmetic) now skip holidays so rolling windows count true trading days.
+    This holiday-awareness of the existing day-counting helpers is the only
+    touch to P1-P12 behavior and was sanctioned by the premortem itself; it
+    tightens, never loosens, any fired threshold. Unknown-year boundary degrades
+    gracefully (weekday-only) with a warning surfaced in P1's detail. Source:
+    NSE 2026 equity holiday circular, cross-checked against cleartax.in and
+    groww.in transcriptions (both agree date-for-date).

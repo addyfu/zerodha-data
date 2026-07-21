@@ -7,6 +7,12 @@ Book (kite/live_monitor/expectations/<strategy>.json) and reports GREEN /
 AMBER / RED. No AI anywhere in this file — a smoke detector must be
 deterministic.
 
+Checks: P1 liveness, P2 data-freshness, P3 trade-rate, P4 cadence,
+P5 win-rate, P6 drawdown, P7 hold-time, P8 fill-sanity, P9 auth-events,
+P10 ann-filter-refresh, P11 ann-filter-category-drift, P12 parity-deadman,
+P13 card-staleness (advisory git-hash check, never RED). P1/P2/P9 skip
+themselves on non-market days (weekend or NSE holiday, see NSE_HOLIDAYS_2026).
+
 Spec (frozen thresholds, sections 3.2-3.5, 5):
     docs/superpowers/specs/2026-07-21-parity-monitor-design.md
 Do not change any AMBER/RED threshold without a dated decision-log entry
@@ -119,21 +125,76 @@ STATUS_RANK = {'GREEN': 0, 'AMBER': 1, 'RED': 2}
 
 
 # ---------------------------------------------------------------------------
+# NSE holiday calendar
+# ---------------------------------------------------------------------------
+# Official NSE equity-segment trading holidays for calendar year 2026 (weekday
+# closures only -- Sat/Sun are already non-market via weekday()). Cross-checked
+# against two independent published transcriptions of the NSE 2026 circular:
+#   https://www.nseindia.com/resources/exchange-communication-holidays  (source)
+#   https://cleartax.in/s/nse-holidays-2026
+#   https://groww.in/p/nse-holidays
+# Both lists agree date-for-date. Purpose: stop P1 from false-REDing on a
+# holiday, when the monitor is alive but the trading log is legitimately empty.
+NSE_HOLIDAYS_2026 = frozenset({
+    # date              # weekday   # occasion
+    date(2026, 1, 15),  # Thursday   Municipal Corporation Election (Maharashtra)
+    #   ^ AMBIGUOUS: both sources list this; it brings the weekday count to 16
+    #   while the same pages headline "15 full trading holidays", so it is very
+    #   likely a Maharashtra-region/special closure, not a national one. Included
+    #   (not omitted) per the build brief -- over-inclusion only costs one P1
+    #   NODATA on a day the market may in fact be open; omission would risk the
+    #   exact false-RED this table exists to prevent.
+    date(2026, 1, 26),  # Monday     Republic Day
+    date(2026, 3, 3),   # Tuesday    Holi
+    date(2026, 3, 26),  # Thursday   Shri Ram Navami
+    date(2026, 3, 31),  # Tuesday    Shri Mahavir Jayanti
+    date(2026, 4, 3),   # Friday     Good Friday
+    date(2026, 4, 14),  # Tuesday    Dr. Baba Saheb Ambedkar Jayanti
+    date(2026, 5, 1),   # Friday     Maharashtra Day
+    date(2026, 5, 28),  # Thursday   Bakri Id (Id-ul-Adha)
+    date(2026, 6, 26),  # Friday     Muharram
+    date(2026, 9, 14),  # Monday     Ganesh Chaturthi
+    date(2026, 10, 2),  # Friday     Mahatma Gandhi Jayanti
+    date(2026, 10, 20), # Tuesday    Dussehra
+    date(2026, 11, 10), # Tuesday    Diwali-Balipratipada
+    date(2026, 11, 24), # Tuesday    Prakash Gurpurb / Guru Nanak Jayanti
+    date(2026, 12, 25), # Friday     Christmas
+})
+# Festivals that fall on a weekend in 2026 and so need NO weekday entry above
+# (weekday() already excludes them): Maha Shivaratri (Sun Feb 15),
+# Id-Ul-Fitr/Ramadan Eid (Sat Mar 21), Independence Day (Sat Aug 15),
+# Diwali Laxmi Pujan (Sun Nov 8 -- special Muhurat session only).
+NSE_HOLIDAYS = {2026: NSE_HOLIDAYS_2026}
+
+
+def holiday_table_for(year: int) -> Optional[frozenset]:
+    """Holiday set for `year`, or None if no table is registered (year boundary --
+    callers degrade gracefully rather than fail; see check_p1's warning)."""
+    return NSE_HOLIDAYS.get(year)
+
+
+# ---------------------------------------------------------------------------
 # small generic helpers
 # ---------------------------------------------------------------------------
 def is_market_day(d: Optional[date] = None) -> bool:
-    """Mon-Fri. No NSE holiday calendar available -- see report ambiguities."""
+    """Mon-Fri AND not an NSE holiday. If the year has no holiday table, falls
+    back to weekday-only (P1 surfaces the missing-table warning)."""
     d = d or datetime.now().date()
-    return d.weekday() < 5
+    if d.weekday() >= 5:
+        return False
+    table = holiday_table_for(d.year)
+    if table is None:
+        return True  # unknown year: weekday == market day (graceful boundary)
+    return d not in table
 
 
 def trading_days_between(start: date, end: date) -> int:
-    """Weekday count from start to end inclusive (approximates trading days)."""
+    """Trading-day count from start to end inclusive (weekday AND not holiday)."""
     if start > end:
         return 0
     d, count = start, 0
     while d <= end:
-        if d.weekday() < 5:
+        if is_market_day(d):
             count += 1
         d += timedelta(days=1)
     return count
@@ -144,7 +205,7 @@ def _n_trading_days_ago(n: int, end: Optional[date] = None) -> date:
     d, count = end, 0
     while count < n:
         d -= timedelta(days=1)
-        if d.weekday() < 5:
+        if is_market_day(d):
             count += 1
     return d
 
@@ -285,14 +346,23 @@ def _consecutive_failed_days(history: List[dict], check_id: str) -> int:
 # P1 -- Liveness
 # ---------------------------------------------------------------------------
 def check_p1(log_lines: List[str]) -> dict:
-    if not is_market_day():
-        return {'id': 'P1', 'name': 'liveness', 'status': 'NODATA', 'detail': 'weekend'}
+    today = datetime.now().date()
+    if not is_market_day(today):
+        reason = 'weekend' if today.weekday() >= 5 else 'holiday'
+        return {'id': 'P1', 'name': 'liveness', 'status': 'NODATA',
+                'detail': f'{reason} (non-market day)'}
+    # Year-boundary safety: with no holiday table for this year, is_market_day
+    # fell back to weekday-only, so a real holiday could still slip through as a
+    # false RED. Surface the gap in the detail rather than failing (spec: fail
+    # loud, never silent).
+    warn = ('' if holiday_table_for(today.year) is not None
+            else f' [holiday table missing for {today.year} -- P1 may false-alarm on holidays]')
     count = len(todays_lines(log_lines, '--- Scan cycle starting'))
     if count == 0:
         return {'id': 'P1', 'name': 'liveness', 'status': 'RED',
-                'detail': 'zero scan cycles logged today -- monitor may be dead'}
+                'detail': 'zero scan cycles logged today -- monitor may be dead' + warn}
     return {'id': 'P1', 'name': 'liveness', 'status': 'GREEN',
-            'detail': f'{count} scan cycles logged today'}
+            'detail': f'{count} scan cycles logged today' + warn}
 
 
 # ---------------------------------------------------------------------------
@@ -641,6 +711,100 @@ def check_p12(history: List[dict]) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# P13 -- Card staleness (advisory git-hash check; never RED)
+# ---------------------------------------------------------------------------
+# Same strategy->source-file map gen_expectations.py stamps code_hash from
+# (see gen_expectations.py: MOMO_FILE + STRATEGIES_DIR/<name>.py, with
+# cci_divergence_intraday reusing cci_divergence.py). Paths are relative to
+# _CODE_ROOT -- the real repo checkout -- NOT the KITE_ROOT data root, because
+# git history lives with the code, not with a deployment's data tree.
+STRATEGY_SOURCE_FILES: Dict[str, str] = {
+    'momo_rotation_63': 'kite/live_monitor/momentum_rotation.py',
+    'rsi_trend_confirmation': 'kite/strategies/rsi_trend_confirmation.py',
+    'cci_divergence': 'kite/strategies/cci_divergence.py',
+    'choppiness_filter': 'kite/strategies/choppiness_filter.py',
+    'bb_mean_reversion': 'kite/strategies/bb_mean_reversion.py',
+    'adx_filter': 'kite/strategies/adx_filter.py',
+    'cci_divergence_intraday': 'kite/strategies/cci_divergence.py',
+}
+
+
+def _git_short_hash(rel_path: str) -> Optional[str]:
+    """Current short-hash of the last commit touching rel_path, computed against
+    _CODE_ROOT (the real repo). None if git is unavailable or the path has no
+    history -- staleness is advisory, so 'can't tell' must never become RED."""
+    import subprocess
+    try:
+        result = subprocess.run(
+            ['git', 'log', '-1', '--format=%h', '--', rel_path],
+            cwd=str(_CODE_ROOT), capture_output=True, text=True, timeout=15,
+        )
+    except (OSError, ValueError, subprocess.SubprocessError):
+        return None
+    if result.returncode != 0:
+        return None
+    out = result.stdout.strip()
+    return out or None
+
+
+def _hashes_match(a: str, b: str) -> bool:
+    """Git abbreviates %h to a variable length, so compare on the shorter common
+    prefix (case-insensitive) rather than requiring equal-length strings."""
+    a, b = (a or '').strip().lower(), (b or '').strip().lower()
+    if not a or not b:
+        return False
+    n = min(len(a), len(b))
+    return a[:n] == b[:n]
+
+
+def check_p13() -> dict:
+    """Flag any expectation card whose stamped code_hash no longer matches the
+    current git hash of its strategy source (card regenerated? source edited
+    without regenerating?). AMBER on mismatch, NODATA when git/mapping can't
+    resolve -- never RED (spec §5 premortem item 3: staleness is advisory)."""
+    name = 'card-staleness'
+    if not EXPECTATIONS_DIR.exists():
+        return {'id': 'P13', 'name': name, 'status': 'NODATA', 'detail': 'no expectations dir'}
+
+    stale: List[str] = []
+    unverifiable: List[str] = []
+    checked = 0
+    for card_path in sorted(EXPECTATIONS_DIR.glob('*.json')):
+        try:
+            card = json.loads(card_path.read_text())
+        except (OSError, ValueError):
+            continue
+        card_hash = card.get('code_hash')
+        if not card_hash:
+            continue  # card carries no code_hash -- nothing to compare
+        strat = card.get('strategy') or card_path.stem
+        rel = STRATEGY_SOURCE_FILES.get(strat)
+        if rel is None:
+            unverifiable.append(f'{strat}: source file unmapped')
+            continue
+        cur = _git_short_hash(rel)
+        if cur is None:
+            unverifiable.append(f'{strat}: git unavailable')
+            continue
+        checked += 1
+        if not _hashes_match(card_hash, cur):
+            stale.append(f'{strat}: card stale (card={card_hash} code={cur})')
+
+    if stale:
+        detail = '; '.join(stale) + ' -- regenerate gen_expectations.py'
+        return {'id': 'P13', 'name': name, 'status': 'AMBER', 'detail': detail}
+    if checked == 0:
+        detail = 'no card hashes verifiable'
+        if unverifiable:
+            detail += ': ' + '; '.join(unverifiable)
+        return {'id': 'P13', 'name': name, 'status': 'NODATA', 'detail': detail}
+    detail = f'{checked} card(s) match current source hash'
+    if unverifiable:
+        detail += f'; {len(unverifiable)} unverifiable (' + '; '.join(unverifiable) + ')'
+    return {'id': 'P13', 'name': name, 'status': 'GREEN', 'detail': detail}
+
+
+# ---------------------------------------------------------------------------
 # pause mechanics (§3.5)
 # ---------------------------------------------------------------------------
 def apply_pauses(pause_requests: Dict[str, str]) -> List[dict]:
@@ -698,6 +862,7 @@ def run() -> dict:
     per_check.append(check_p10(log_lines, history))
     per_check.append(check_p11(log_lines, history))
     per_check.append(check_p12(history))
+    per_check.append(check_p13())  # advisory card-staleness, never pauses
 
     # -- expectation cards --
     cards: Dict[Tuple[str, str, str], Optional[dict]] = {}
@@ -773,7 +938,7 @@ def build_message(result: dict) -> str:
             red_bits.append(book_check['detail'])
         strategy_units.append((label, worst, '; '.join(red_bits)))
 
-    system_ids = ['P1', 'P2', 'P4', 'P9', 'P10', 'P11', 'P12']
+    system_ids = ['P1', 'P2', 'P4', 'P9', 'P10', 'P11', 'P12', 'P13']
     system_units = [(f"{cid} {c['name']}", c['status'], c['detail'])
                      for cid in system_ids for c in by_id.get(cid, [])]
 

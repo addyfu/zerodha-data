@@ -252,6 +252,21 @@ class Fixture:
         src = DAILY_UNIVERSE_SRC / f'{symbol}_day.csv'
         shutil.copy2(src, self.daily_universe_dir / f'{symbol}_day.csv')
 
+    def write_daily_universe_bar(self, symbol: str, d: date, low: float, high: float):
+        """Write a synthetic one-bar daily_universe CSV (same header/format as the
+        real snapshot) giving P8 a known [low,high] for date `d`. Used instead of
+        copying the committed snapshot when a scenario needs a candle dated TODAY:
+        the real snapshot only extends to its last fetch, so a copy-based scenario
+        silently no-ops (P8 skips fills whose day has no candle) the moment the
+        wall-clock run date advances past the snapshot's final bar."""
+        self.daily_universe_dir.mkdir(parents=True, exist_ok=True)
+        mid = (low + high) / 2.0
+        path = self.daily_universe_dir / f'{symbol}_day.csv'
+        path.write_text(
+            "datetime,open,high,low,close,volume,oi\n"
+            f"{d.isoformat()} 00:00:00+05:30,{mid},{high},{low},{mid},1000,0\n",
+            encoding='utf-8')
+
     def run(self, log_only=True):
         return run_parity(self.root, log_only=log_only)
 
@@ -502,9 +517,14 @@ def scenario_missed_rebalance():
 def scenario_impossible_fill():
     fx = Fixture()
     try:
-        fx.add_daily_universe_csv('360ONE')
-        fx.add_daily_universe_csv('3MINDIA')
-        for sym, valid_exit in (('360ONE', 1120.0), ('3MINDIA', 35000.0)):
+        # Synthetic candles dated TODAY with known ranges -> deterministic
+        # regardless of the committed snapshot's last bar or the run date. Each
+        # entry@999999 sits far outside its bar's [low,high] = two impossible
+        # fills -> P8 RED. (valid exit prices stay inside range so only entries
+        # trip the check.)
+        ranges = (('360ONE', 1080.0, 1135.0, 1120.0), ('3MINDIA', 34000.0, 36000.0, 35000.0))
+        for sym, lo, hi, valid_exit in ranges:
+            fx.write_daily_universe_bar(sym, TODAY, lo, hi)
             insert_position(fx.incubator_db, symbol=sym, strategy='cci_divergence',
                              entry_price=999999.0, entry_time=datetime.combine(TODAY, time(10, 0)),
                              exit_price=valid_exit, exit_time=datetime.combine(TODAY, time(14, 0)),
@@ -579,6 +599,85 @@ def scenario_pause_arming():
 
 
 # ---------------------------------------------------------------------------
+# Scenario 10 -- CARD STALENESS (P13)
+# ---------------------------------------------------------------------------
+def scenario_card_staleness():
+    """P13 must AMBER when a card's stamped code_hash no longer matches the
+    current git hash of its strategy source.
+
+    The two-root split is the whole point of this scenario. The fixture copies
+    the REAL expectation cards into a temp KITE_ROOT and corrupts ONE card's
+    code_hash to '0000000'. parity_monitor.py reads cards from KITE_ROOT (so it
+    sees the corrupted fixture card), but check_p13 recomputes the source file's
+    hash by running `git log` against _CODE_ROOT -- the real repo checkout,
+    which KITE_ROOT never overrides. '0000000' is not a reachable commit, so it
+    is guaranteed to mismatch the real repo hash -> AMBER. The other six cards
+    keep their real (matching) hashes, so they stay silent and only the injected
+    one is reported stale."""
+    fx = Fixture()
+    try:
+        card_path = fx.expectations_dir / 'bb_mean_reversion.json'
+        card = json.loads(card_path.read_text())
+        card['code_hash'] = '0000000'
+        card_path.write_text(json.dumps(card, indent=2))
+
+        proc, result = fx.run()
+        require_result(proc, result)
+        p13 = find_check(result, 'P13')
+        require(p13 is not None, "no P13 card-staleness check emitted")
+        require(p13['status'] == 'AMBER',
+                f"P13 expected AMBER (fake code_hash vs real repo hash), got {p13}")
+        require('bb_mean_reversion' in p13['detail'] and '0000000' in p13['detail'],
+                f"expected bb_mean_reversion/0000000 staleness in detail, got: {p13['detail']}")
+        # Advisory only: staleness must never RED and never pause a strategy.
+        require(p13['status'] != 'RED', "P13 must never be RED (staleness is advisory)")
+        require('bb_mean_reversion' not in {a['strategy'] for a in result['paused_actions']},
+                f"P13 staleness must not pause; paused_actions={result['paused_actions']}")
+        return True, f"P13 = {p13['status']} ({p13['detail'][:90]})"
+    finally:
+        fx.cleanup()
+
+
+# ---------------------------------------------------------------------------
+# Scenario 11 -- HOLIDAY HANDLING (is_market_day + windowing helpers)
+# ---------------------------------------------------------------------------
+def scenario_holiday_handling():
+    """Pure-function unit test of the NSE-holiday awareness. Mocking 'today' in
+    the subprocess model is impractical, so this is the ONE scenario that imports
+    parity_monitor.py directly and calls its date helpers -- KITE_ROOT is
+    irrelevant for pure functions (they touch no data root). Asserts a known 2026
+    weekday holiday is not a market day and that the window helpers skip it."""
+    sys.path.insert(0, str(REPO_ROOT))
+    import importlib
+    pm = importlib.import_module('kite.live_monitor.parity_monitor')
+
+    holiday = date(2026, 1, 26)  # Republic Day -- a Monday NSE holiday
+    require(holiday.weekday() < 5, "sanity: Republic Day 2026 falls on a weekday")
+    require(not pm.is_market_day(holiday),
+            "Republic Day 2026-01-26 (a weekday) must NOT be a market day")
+    require(pm.is_market_day(date(2026, 1, 27)),
+            "2026-01-27 (ordinary Tuesday, not a holiday) should be a market day")
+
+    # Inclusive span Fri 01-23 .. Wed 01-28 has 4 raw weekdays (23,26,27,28) but
+    # 26 is the holiday -> trading_days_between must return 3.
+    span = pm.trading_days_between(date(2026, 1, 23), date(2026, 1, 28))
+    require(len(trading_days_list(date(2026, 1, 23), date(2026, 1, 28))) == 4,
+            "span sanity: expected 4 raw weekdays in 01-23..01-28")
+    require(span == 3,
+            f"trading_days_between must skip Republic Day: expected 3, got {span}")
+
+    # 1 trading day before Tue 01-27 is Fri 01-23 (skips holiday Mon 01-26 and
+    # the 24/25 weekend).
+    prev = pm._n_trading_days_ago(1, end=date(2026, 1, 27))
+    require(prev == date(2026, 1, 23),
+            f"_n_trading_days_ago(1) from 2026-01-27 should land on 2026-01-23, got {prev}")
+
+    return True, ("is_market_day(2026-01-26 Republic Day)=False; "
+                  "trading_days_between(01-23..01-28)=3 skips holiday; "
+                  "_n_trading_days_ago(1 from 01-27)=2026-01-23")
+
+
+# ---------------------------------------------------------------------------
 # main
 # ---------------------------------------------------------------------------
 SCENARIOS = [
@@ -591,6 +690,8 @@ SCENARIOS = [
     ('7 MISSED REBALANCE', scenario_missed_rebalance),
     ('8 IMPOSSIBLE FILL', scenario_impossible_fill),
     ('9 PAUSE ARMING', scenario_pause_arming),
+    ('10 CARD STALENESS', scenario_card_staleness),
+    ('11 HOLIDAY HANDLING', scenario_holiday_handling),
 ]
 
 
