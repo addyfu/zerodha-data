@@ -130,10 +130,16 @@ def make_strat(data, dates, mom_col, top_n, regime):
 
 def main():
     data = load()
+    if '--pre2015' in sys.argv:
+        data = {s: df for s, df in data.items() if df.index[0] <= pd.Timestamp('2015-06-30')}
+        print('SURVIVORSHIP-BOUNDED RUN: pre-2015 listings only')
     print(f'universe loaded: {len(data)} symbols')
     all_dates = pd.DatetimeIndex(sorted(set().union(*[df.index for df in data.values()])))
     idx = pd.DataFrame({s: df.close for s, df in data.items()}).reindex(all_dates)
-    proxy = (idx / idx.bfill().iloc[0]).mean(axis=1, skipna=True)
+    # daily-rebalanced EW index: handles mid-sample listings without level jumps.
+    # Clip daily returns to +/-25%: junk rows (bad ticks, unadjusted splits) otherwise
+    # poison the cumulative product into inf.
+    proxy = (1 + idx.pct_change().clip(-0.25, 0.25).mean(axis=1, skipna=True).fillna(0)).cumprod()
     regime = proxy > proxy.rolling(200).mean()
     train = all_dates[all_dates <= TRAIN_END]
     val = all_dates[all_dates > TRAIN_END]
