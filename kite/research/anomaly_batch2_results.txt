@@ -1,0 +1,81 @@
+ANOMALY BATCH 2 -- Tests B, C, D
+Spec: docs/superpowers/specs/2026-07-22-anomaly-batch2-design.md
+
+universe loaded: 618 symbols
+train: 2015-01-01 -> 2021-12-31 (1734 days)
+val  : 2022-01-03 -> 2026-07-21 (1127 days)
+
+==============================================================================
+TEST B -- 52-WEEK-HIGH MOMENTUM
+signal: ratio_52wh = close / rolling-252-trading-day max(high)
+monthly rebalance, top 20 by ratio_52wh descending, EW, USim engine
+==============================================================================
+                    cagr%   sharpe   maxdd%   trades
+strategy train       14.8     0.93    -39.5      952
+strategy val         11.8     0.79    -18.5         
+B&H EW train         23.2     1.21    -50.1         
+B&H EW val           27.7     1.45    -22.2         
+
+Signal distinctness check -- Spearman rank corr(ratio_52wh, mom63), avg over rebalance dates:
+  train (2015-2021)     :  0.615  (n_rebalance_dates=71)
+  val   (2022-2026)     :  0.620  (n_rebalance_dates=55)
+  full  (2015-2026)     :  0.617  (n_rebalance_dates=126)
+  -> moderately related to momentum (0.4-0.7)
+
+Frozen verdict (validation 2022-2026, PASS requires ALL 3):
+  1. Sharpe >= B&H Sharpe + 0.10        : 0.79 >= 1.55  -> FAIL
+  2. CAGR >= B&H CAGR - 2pts             : 11.8 >= 25.7  -> FAIL
+  3. Same-direction train (no sign flip) : train edge(sharpe) -0.28, val edge(sharpe) -0.66  -> PASS
+  TEST B OVERALL: FAIL -> tombstone
+
+==============================================================================
+TEST C -- LOW-VOLATILITY LONG-ONLY TILT
+signal: vol126 = rolling-126d std of daily returns
+monthly rebalance, bottom 20 by vol126 (lowest vol), EW, USim engine
+==============================================================================
+                    cagr%   sharpe   maxdd%   trades
+strategy train        9.9     0.78    -26.3      287
+strategy val         11.4     1.54     -7.6         
+B&H EW train         23.2     1.21    -50.1         
+B&H EW val           27.7     1.45    -22.2         
+
+Frozen verdict (validation 2022-2026, PASS requires ALL 4; graded risk-adjusted per spec):
+  1. Sharpe >= B&H Sharpe + 0.10         : 1.54 >= 1.55  -> FAIL
+  2. MaxDD >=25% shallower (relative)    : |-7.6| <= |-22.2|*0.75=16.6  -> PASS
+  3. CAGR >= B&H CAGR - 3pts             : 11.4 >= 24.7  -> FAIL
+  4. Same-direction train (no sign flip) : train edge(sharpe) -0.43, val edge(sharpe) +0.09  -> FAIL
+  TEST C OVERALL: FAIL -> tombstone
+
+==============================================================================
+TEST D -- OVERNIGHT ANOMALY (decomposition + tradeable check)
+overnight_ret[t] = mean over liquid universe of (open_t/close_{t-1} - 1), clipped +/-25% per stock
+intraday_ret[t]  = mean over liquid universe of (close_t/open_t - 1), clipped +/-25% per stock
+liquidity gate: 60d median turnover > 2cr AND close > 20 (same-day, contemporaneous)
+==============================================================================
+
+Cumulative compounded totals, full sample (2015-01-01 -> 2026-07-21):
+  overnight leg (close->open) :    64043.9%
+  intraday leg  (open->close) :      -98.4%
+
+Per-era cumulative compounded totals:
+  era 2015-19 (1234 days, avg 242.7 liquid names/day): overnight     897.1%   intraday     -83.3%
+  era 2020-22 ( 748 days, avg 381.2 liquid names/day): overnight     752.2%   intraday     -72.0%
+  era 2023-26 ( 879 days, avg 540.7 liquid names/day): overnight     654.9%   intraday     -64.8%
+
+Tradeable check (buy-at-close / sell-at-next-open, full delivery costs):
+  ASSUMPTION (stated explicitly per spec): flat cost of 0.25%/day applied to the
+  overnight leg, approximating one full delivery round trip (0.2%/side slippage x2 sides
+  ~= 0.4%, netted against typical delivery brokerage/STT/charges being near-zero on the
+  buy side and ~0.1% STT + minor exchange/GST charges on the sell side; 0.25%/day is the
+  frozen approximation from the spec, not re-derived per trade via the USim engine here.
+  raw overnight mean/day   :    23.33 bp
+  net overnight mean/day   :    -1.67 bp  (raw - 25bp)
+  frozen tradeable bar     :     2.00 bp/day (~+5%/yr)
+  TEST D VERDICT: TOMBSTONE (dies on costs, decomposition kept as reference knowledge)
+
+==============================================================================
+Meta-guard reminder: 4 tests run this batch. Family-wise, >=1 lucky survivor
+is statistically expected even if all anomalies are dead. Any PASS above goes
+to the incubator (October Contract) for a full paper trial -- no exceptions,
+no direct-to-real-money promotion from this script's output alone.
+==============================================================================
