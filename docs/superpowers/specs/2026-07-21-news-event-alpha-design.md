@@ -66,6 +66,13 @@ fail; that outcome is a valid, useful verdict.
 3. **Quality gate** (pre-registered): ≥100,000 usable announcements AND ≥60%
    joinable to price data, else pause and reassess sourcing before any
    analysis.
+   **AMENDED 2026-07-21 (user-approved, at Phase 1 pause):** the 60% joinable
+   test measured the wrong denominator — announcements cover ~2,613 symbols
+   while the price universe is deliberately the 679 liquid ones; the unjoined
+   remainder is largely below the Phase 2 turnover gate (untradeable) anyway.
+   Replaced with an absolute sufficiency test: **≥200,000 joined events**.
+   Actual: 973,418 total, 368,480 joined (37.9%) → gate PASSES as amended.
+   Results-gates (H1/H2 verdict rules) remain untouched.
 
 **Effort:** 1 evening. **Cost:** ₹0.
 
