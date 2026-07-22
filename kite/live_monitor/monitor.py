@@ -73,6 +73,26 @@ NIFTY_50 = [
     'ULTRACEMCO', 'UPL', 'WIPRO'
 ]
 
+# Wide swing-candidate universe (679 NSE stocks — kite/research/universe_lab.py's
+# backtest pond). rsi_trend_confirmation/cci_divergence's expectation cards assume
+# this universe's trade rates; scanning only NIFTY_50 was a backtest-live parity
+# gap. Rotation and intraday strategies stay on NIFTY_50 (self.stocks) untouched.
+WIDE_UNIVERSE_FILE = Path(__file__).parent / 'universe_symbols.txt'
+
+
+def _load_wide_universe() -> List[str]:
+    """Fail-soft: missing/empty file -> NIFTY_50 so swing scanning never dies."""
+    try:
+        text = WIDE_UNIVERSE_FILE.read_text()
+    except OSError as e:
+        logger.warning(f"{WIDE_UNIVERSE_FILE.name} not found ({e}) — "
+                        f"swing universe falling back to NIFTY_50")
+        return list(NIFTY_50)
+    symbols = [ln.strip() for ln in text.splitlines() if ln.strip()]
+    if not symbols:
+        logger.warning(f"{WIDE_UNIVERSE_FILE.name} is empty — swing universe falling back to NIFTY_50")
+        return list(NIFTY_50)
+    return symbols
 
 
 class LiveMonitor:
@@ -204,9 +224,15 @@ class LiveMonitor:
         # Stock list — use NIFTY 50 for fast local scanning
         self.stocks = NIFTY_50
 
+        # Wide swing-candidate universe (679 stocks) — backtest-parity pond for
+        # swing_candidate_detectors only. Rotation/intraday keep using self.stocks.
+        self.wide_universe = _load_wide_universe()
+        logger.info(f"Wide swing universe: {len(self.wide_universe)} symbols loaded")
+
         # Historical data cache (loaded once, updated with quotes)
         self.data_cache: Dict[str, pd.DataFrame] = {}
         self.daily_data_cache: Dict[str, pd.DataFrame] = {}
+        self.wide_daily_cache: Dict[str, pd.DataFrame] = {}
         self.swing_scanned_today = False
         self.history_loaded = False
         self.db = DBManager()
@@ -274,6 +300,11 @@ class LiveMonitor:
         # (or CSV cache in offline mode) — not from the DB resample.
         self.load_daily_data()
 
+        # Wide swing-candidate universe (679 stocks) — backtest parity for
+        # swing_candidate_detectors. Runs after the NIFTY_50 daily load so rotation/
+        # intraday data is never blocked on this larger, slower fetch.
+        self.load_wide_daily_data()
+
         self.history_loaded = True
         logger.info(f"Loaded 5-min data for {len(self.data_cache)}/{len(self.stocks)} stocks from DB")
 
@@ -295,6 +326,34 @@ class LiveMonitor:
                     logger.warning(f"Daily fetch failed: {e}")
 
         logger.info(f"Daily data loaded for {len(self.daily_data_cache)}/{len(self.stocks)} stocks")
+
+    def load_wide_daily_data(self):
+        """Fetch ~400 daily bars per wide-universe symbol (swing-candidate backtest
+        parity). max_workers=5 — rate-probe validated the API clean up to 8 req/s.
+
+        Offline mode: OfflineDataFetcher only has NIFTY-50 CSVs, so most symbols
+        will fail to load — fail-soft, scan_swing_candidates falls back to
+        daily_data_cache when wide_daily_cache ends up (near-)empty.
+        """
+        start = time.time()
+        logger.info(f"Loading wide daily data for {len(self.wide_universe)} symbols...")
+
+        def fetch_one(symbol):
+            return symbol, self.fetcher.get_historical_data(symbol, 'day', 400)
+
+        with ThreadPoolExecutor(max_workers=5) as executor:
+            futures = [executor.submit(fetch_one, s) for s in self.wide_universe]
+            for future in as_completed(futures):
+                try:
+                    symbol, df = future.result()
+                    if df is not None and len(df) >= 250:
+                        self.wide_daily_cache[symbol] = df
+                except Exception as e:
+                    logger.warning(f"Wide daily fetch failed: {e}")
+
+        elapsed = time.time() - start
+        logger.info(f"Wide daily data loaded for {len(self.wide_daily_cache)}/{len(self.wide_universe)} "
+                    f"stocks in {elapsed:.1f}s")
 
     def _load_from_zerodha_fallback(self):
         """Fallback: fetch from Zerodha API if DB unavailable (original logic)."""
@@ -468,11 +527,25 @@ class LiveMonitor:
 
         trade_mode ROTATION so no trailing stop interferes: exits are the
         strategy's own SL/TP (checked by check_exits) or an opposite signal here.
+
+        Scans the wide 679-stock universe (backtest-parity pond the cards were
+        validated on), falling back to the NIFTY_50 daily_data_cache if the wide
+        fetch came up empty (e.g. offline mode). Each symbol must also clear the
+        same liquidity gate kite/research/universe_lab.py's retest applied — 60d
+        median turnover > 2e7 and last close > 20 — otherwise the live scan would
+        trade illiquid names the backtest excluded.
         """
-        if not self.swing_candidate_detectors or not self.daily_data_cache:
+        if not self.swing_candidate_detectors:
             return
-        for symbol, df in self.daily_data_cache.items():
+        universe = self.wide_daily_cache or self.daily_data_cache
+        if not universe:
+            return
+        for symbol, df in universe.items():
             if df is None or len(df) < 50:
+                continue
+            turnover_med = (df['close'] * df['volume']).rolling(60).median().iloc[-1]
+            last_close = float(df['close'].iloc[-1])
+            if pd.isna(turnover_med) or turnover_med <= 2e7 or last_close <= 20:
                 continue
             for detector in self.swing_candidate_detectors:
                 try:
@@ -508,6 +581,7 @@ class LiveMonitor:
             self.telegram.send_message(
                 f"[HEARTBEAT] Monitor alive {datetime.now().strftime('%d-%b %H:%M')}\n"
                 f"Daily data: {len(self.daily_data_cache)}/{len(self.stocks)} stocks\n"
+                f"Swing universe: {len(self.wide_daily_cache)}/{len(self.wide_universe)} loaded\n"
                 f"5-min data: {len(self.data_cache)}/{len(self.stocks)} stocks\n"
                 f"Rotation: last rebalance {self.rotation.state.get('last_rebalance') or 'never'} "
                 f"| holding: {', '.join(rotation_held) or 'cash'}\n"

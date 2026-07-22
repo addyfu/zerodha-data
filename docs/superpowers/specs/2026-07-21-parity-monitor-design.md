@@ -178,3 +178,23 @@ that fired correctly is forbidden.
     gracefully (weekday-only) with a warning surfaced in P1's detail. Source:
     NSE 2026 equity holiday circular, cross-checked against cleartax.in and
     groww.in transcriptions (both agree date-for-date).
+- 2026-07-22: **Swing-candidate universe alignment** (47 → 679) shipped in
+  `kite/live_monitor/monitor.py` — no §3.3 threshold changed. The
+  `rsi_trend_confirmation`/`cci_divergence` expectation cards' `trades_per_month`
+  lambdas were computed on the 679-stock retest universe
+  (`kite/research/universe_lab.py`'s pond), but the live monitor was scanning
+  only NIFTY_50 — a backtest-live parity gap this spec itself exists to catch,
+  and P3 would eventually have fired on it as a false trade-rate RED once
+  enough live history accumulated. Fix: `scan_swing_candidates` now scans
+  `self.wide_daily_cache` (679 symbols, loaded via a new `load_wide_daily_data()`
+  fetch, `universe_symbols.txt`), falling back to the old 47-stock
+  `daily_data_cache` only if the wide fetch came up empty (e.g. offline mode).
+  Rotation and intraday strategies are untouched — still NIFTY_50 only. The wide
+  fetch uses `ThreadPoolExecutor(max_workers=5)`, validated safe by a pre-flight
+  rate probe that measured the API clean up to 8 req/s. Also added, matching
+  `universe_lab.py`'s retest exactly: a liquidity gate (60d median turnover
+  `(close*volume).rolling(60).median()` > 2e7 AND last close > 20) computed
+  per symbol at scan time, skipping symbols the backtest's universe would have
+  excluded — without it the live scan would trade illiquid names the cards
+  were never validated on. Heartbeat now reports `Swing universe: N/679
+  loaded` alongside the existing daily/5-min counts.
