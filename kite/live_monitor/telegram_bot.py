@@ -10,15 +10,33 @@ Setup:
 4. Set the values in config below or via environment variables
 """
 import os
+import time
+import logging
 import requests
 from datetime import datetime
 from typing import Dict, Optional
 import json
 
+logger = logging.getLogger(__name__)
+
+# Canonical exit-reason display order/labels for the daily-summary breakdown,
+# e.g. "4 TP / 7 trail / 3 EOD". Any exit_reason not in this map still shows
+# (verbatim) so a new ExitReason value never silently disappears.
+_EXIT_REASON_ORDER = ['take_profit', 'stop_loss', 'trailing_stop', 'end_of_day',
+                      'strategy_exit', 'manual']
+_EXIT_REASON_LABELS = {
+    'take_profit': 'TP',
+    'stop_loss': 'SL',
+    'trailing_stop': 'trail',
+    'end_of_day': 'EOD',
+    'strategy_exit': 'strat',
+    'manual': 'manual',
+}
+
 
 class TelegramBot:
     """Send trading alerts via Telegram."""
-    
+
     def __init__(self, bot_token: str = None, chat_id: str = None):
         """
         Initialize Telegram bot.
@@ -37,143 +55,201 @@ class TelegramBot:
     
     def send_message(self, message: str, parse_mode: str = "HTML") -> bool:
         """
-        Send a text message.
-        
+        Send a text message, with one automatic retry.
+
+        Retries exactly once, after a 3s pause, when the first attempt hits a
+        network exception (timeout, connection error, ...) or a 5xx response —
+        never on 4xx (bad token/chat_id/payload won't fix itself on retry).
+        If both attempts fail, the message is dropped and a warning is logged
+        with its first 80 chars so silent drops are at least visible in logs.
+
         Args:
             message: Message text (supports HTML formatting)
             parse_mode: "HTML" or "Markdown"
-            
+
         Returns:
             True if sent successfully
         """
         if not self.enabled:
             print(f"[TELEGRAM] {message}")
             return False
-        
-        try:
-            url = f"{self.base_url}/sendMessage"
-            data = {
-                "chat_id": self.chat_id,
-                "text": message,
-                "parse_mode": parse_mode,
-                "disable_web_page_preview": True
-            }
-            response = requests.post(url, data=data, timeout=10)
-            return response.status_code == 200
-        except Exception as e:
-            print(f"[!] Telegram error: {e}")
-            return False
+
+        url = f"{self.base_url}/sendMessage"
+        data = {
+            "chat_id": self.chat_id,
+            "text": message,
+            "parse_mode": parse_mode,
+            "disable_web_page_preview": True
+        }
+
+        last_error = None
+        for attempt in range(2):  # first try + one retry
+            response = None
+            try:
+                response = requests.post(url, data=data, timeout=10)
+            except requests.exceptions.RequestException as e:
+                last_error = str(e)
+
+            if response is not None and response.status_code == 200:
+                return True
+
+            retryable = response is None or response.status_code >= 500
+            if response is not None:
+                last_error = f"HTTP {response.status_code}"
+
+            if attempt == 0 and retryable:
+                time.sleep(3)
+                continue
+            break
+
+        logger.warning(f"Telegram send failed ({last_error}) — message lost: {message[:80]!r}")
+        return False
     
+    @staticmethod
+    def _esc(value) -> str:
+        """Escape HTML special chars so parse_mode=HTML never chokes on a
+        symbol/strategy/exit-reason string that happens to contain <, > or &."""
+        text = str(value)
+        return text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+
     def send_trade_alert(self, signal: Dict) -> bool:
         """
-        Send a formatted trade alert.
-        
+        Compact main-book entry alert, consistent with EntryPipeline's own
+        '[INCUBATOR]/[CANDIDATE]/[ROTATION]' entry lines (entry_pipeline.py) —
+        this is the '[MAIN]' counterpart. Sent by monitor.py's process_signals,
+        which enters main-book positions with alert=False on the pipeline so
+        this is the only alert for a main-book entry (no double-send).
+
+        Example: '[MAIN] momo_rotation_63: BUY INDUSINDBK x18 @ 1055.00 |
+                  SL 897.00 | TP 2110.00'
+
         Args:
-            signal: Dictionary with trade details
-            
+            signal: Dictionary with trade details (TradeSignal.to_dict())
+
         Returns:
             True if sent successfully
         """
+        source = self._esc(signal.get('source', 'MAIN'))
+        strategy = self._esc(signal.get('strategy', 'unknown'))
         direction = signal.get('direction', 'BUY')
-        symbol = signal.get('symbol', 'UNKNOWN')
-        
-        # Emoji based on direction
-        emoji = "[BUY]" if direction == "BUY" else "[SELL]"
-        action = "BUY" if direction == "BUY" else "SELL/SHORT"
-        
-        message = f"""
-{emoji} <b>TRADE ALERT - {action}</b> {emoji}
+        symbol = self._esc(signal.get('symbol', 'UNKNOWN'))
+        quantity = signal.get('quantity', 0)
+        entry_price = signal.get('entry_price', 0) or 0
+        stop_loss = signal.get('stop_loss', 0) or 0
+        take_profit = signal.get('take_profit', 0) or 0
 
-<b>Stock:</b> {symbol}
-<b>Signal:</b> {direction}
-<b>Strategy:</b> {signal.get('strategy', 'Fib 3-Wave')}
+        message = (f"[{source}] {strategy}: {direction} {symbol} x{quantity} "
+                   f"@ {entry_price:.2f} | SL {stop_loss:.2f} | TP {take_profit:.2f}")
 
-<b>Entry Price:</b> Rs {signal.get('entry_price', 0):.2f}
-<b>Stop Loss:</b> Rs {signal.get('stop_loss', 0):.2f} ({signal.get('risk_pct', 0):.1f}% risk)
-<b>Target:</b> Rs {signal.get('take_profit', 0):.2f} ({signal.get('reward_pct', 0):.1f}% reward)
-
-<b>Risk:Reward:</b> 1:{signal.get('rr_ratio', 0):.1f}
-<b>Quantity:</b> {signal.get('quantity', 0)} shares
-<b>Position Size:</b> Rs {signal.get('position_value', 0):,.2f}
-
-<b>Time:</b> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-        """.strip()
-        
         return self.send_message(message)
-    
+
     def send_exit_alert(self, trade: Dict) -> bool:
         """
-        Send trade exit notification.
-        
+        Compact exit alert for a closed main-book position.
+
+        Example: '[MAIN] EXIT INDUSINDBK @ 1057.60 +46.00 (trailing_stop) |
+                   day P&L: Rs +120.00'
+
         Args:
-            trade: Dictionary with trade exit details
-            
+            trade: Dictionary with trade exit details (symbol, exit_price, pnl,
+                   exit_reason, day_pnl, ...)
+
         Returns:
             True if sent successfully
         """
-        pnl = trade.get('pnl', 0)
-        pnl_pct = trade.get('pnl_pct', 0)
-        
-        # Status based on profit/loss
-        if pnl > 0:
-            status = "[WIN] PROFIT"
-        else:
-            status = "[LOSS]"
-        
-        message = f"""
-<b>TRADE CLOSED - {status}</b>
+        source = self._esc(trade.get('source', 'MAIN'))
+        symbol = self._esc(trade.get('symbol', 'UNKNOWN'))
+        exit_price = trade.get('exit_price', 0) or 0
+        pnl = trade.get('pnl', 0) or 0
+        reason = self._esc(trade.get('exit_reason', 'unknown'))
+        day_pnl = trade.get('day_pnl', 0) or 0
 
-<b>Stock:</b> {trade.get('symbol', 'UNKNOWN')}
-<b>Direction:</b> {trade.get('direction', 'BUY')}
-<b>Exit Reason:</b> {trade.get('exit_reason', 'Unknown')}
+        message = (f"[{source}] EXIT {symbol} @ {exit_price:.2f} {pnl:+,.2f} "
+                   f"({reason}) | day P&L: Rs {day_pnl:+,.2f}")
 
-<b>Entry:</b> Rs {trade.get('entry_price', 0):.2f}
-<b>Exit:</b> Rs {trade.get('exit_price', 0):.2f}
-
-<b>P&L:</b> Rs {pnl:+,.2f} ({pnl_pct:+.2f}%)
-<b>Duration:</b> {trade.get('duration', 'N/A')}
-
-<b>Running Total:</b> Rs {trade.get('total_pnl', 0):+,.2f}
-<b>Win Rate:</b> {trade.get('win_rate', 0):.1f}%
-
-<b>Time:</b> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-        """.strip()
-        
         return self.send_message(message)
     
+    @classmethod
+    def _format_exit_breakdown(cls, breakdown: Dict[str, int]) -> str:
+        """{'take_profit': 4, 'trailing_stop': 7} -> '4 TP / 7 trail'."""
+        if not breakdown:
+            return ""
+        parts = []
+        seen = set()
+        for reason in _EXIT_REASON_ORDER:
+            count = breakdown.get(reason, 0)
+            if count:
+                parts.append(f"{count} {_EXIT_REASON_LABELS[reason]}")
+                seen.add(reason)
+        for reason, count in breakdown.items():
+            if reason not in seen and count:
+                parts.append(f"{count} {cls._esc(reason)}")
+        return " / ".join(parts)
+
+    def _format_book_line(self, book: Dict) -> str:
+        """One book's line in the daily summary: P&L, closed-trade breakdown,
+        open positions + unrealized, capital."""
+        label = self._esc(book.get('label', 'BOOK'))
+        day_pnl = book.get('day_pnl', 0) or 0
+        closed = book.get('closed_count', 0) or 0
+        breakdown = self._format_exit_breakdown(book.get('exit_breakdown') or {})
+        open_positions = book.get('open_positions', 0) or 0
+        unrealized = book.get('unrealized_pnl', 0) or 0
+        capital = book.get('capital', 0) or 0
+
+        closed_part = f"{closed} ({breakdown})" if breakdown else str(closed)
+
+        return (f"<b>[{label}]</b> Day P&L: Rs {day_pnl:+,.2f} | "
+                f"Closed: {closed_part} | "
+                f"Open: {open_positions} (unrealized Rs {unrealized:+,.2f}) | "
+                f"Capital: Rs {capital:,.2f}")
+
     def send_daily_summary(self, summary: Dict) -> bool:
         """
-        Send end-of-day summary.
-        
+        Send end-of-day summary covering every book.
+
+        New shape (monitor.py, both the main and incubator books):
+            {'date': 'YYYY-MM-DD',
+             'books': [{'label': 'MAIN', 'day_pnl': ..., 'closed_count': ...,
+                        'exit_breakdown': {'take_profit': 4, 'trailing_stop': 7},
+                        'open_positions': ..., 'unrealized_pnl': ..., 'capital': ...},
+                       {'label': 'INCUBATOR', ...}],
+             'combined_day_pnl': ...}
+
+        Legacy flat shape (single implicit book — e.g. github_scanner.py's older
+        order-book summary) is still accepted and rendered as one book, so
+        other callers don't break.
+
         Args:
-            summary: Dictionary with daily performance
-            
+            summary: Dictionary with daily performance (see above)
+
         Returns:
             True if sent successfully
         """
-        message = f"""
-<b>DAILY TRADING SUMMARY</b>
+        date = summary.get('date', datetime.now().strftime('%Y-%m-%d'))
+        books = summary.get('books')
+        if not books:
+            books = [{
+                'label': summary.get('label', 'MAIN'),
+                'day_pnl': summary.get('day_pnl', 0),
+                'closed_count': summary.get('trades_today', summary.get('total_trades', 0)),
+                'exit_breakdown': summary.get('exit_breakdown', {}),
+                'open_positions': summary.get('open_positions', 0),
+                'unrealized_pnl': summary.get('unrealized_pnl', 0),
+                'capital': summary.get('capital', 0),
+            }]
+        combined_day_pnl = summary.get('combined_day_pnl')
+        if combined_day_pnl is None:
+            combined_day_pnl = sum(b.get('day_pnl', 0) or 0 for b in books)
 
-<b>Date:</b> {summary.get('date', datetime.now().strftime('%Y-%m-%d'))}
+        lines = [f"<b>DAILY SUMMARY</b> — {self._esc(date)}"]
+        for book in books:
+            lines.append("")
+            lines.append(self._format_book_line(book))
+        lines.append("")
+        lines.append(f"<b>Combined day P&L: Rs {combined_day_pnl:+,.2f}</b>")
 
-<b>Today's Performance:</b>
-- Trades Taken: {summary.get('trades_today', 0)}
-- Wins: {summary.get('wins', 0)} | Losses: {summary.get('losses', 0)}
-- Day P&L: Rs {summary.get('day_pnl', 0):+,.2f}
-
-<b>Overall Performance:</b>
-- Total Trades: {summary.get('total_trades', 0)}
-- Win Rate: {summary.get('win_rate', 0):.1f}%
-- Total P&L: Rs {summary.get('total_pnl', 0):+,.2f}
-- Sharpe Ratio: {summary.get('sharpe', 0):.2f}
-
-<b>Open Positions:</b> {summary.get('open_positions', 0)}
-<b>Capital:</b> Rs {summary.get('capital', 100000):,.2f}
-
-Market closed. See you tomorrow!
-        """.strip()
-        
-        return self.send_message(message)
+        return self.send_message("\n".join(lines))
     
     def send_startup_message(self, config: Dict = None) -> bool:
         """Send bot startup notification."""

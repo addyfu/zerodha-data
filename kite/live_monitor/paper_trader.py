@@ -676,6 +676,27 @@ class PaperTrader:
             'capital': self.capital
         }
 
+    def get_todays_exit_breakdown(self, date: str = None) -> Dict[str, int]:
+        """Count today's closed trades by exit_reason, e.g.
+        {'take_profit': 4, 'trailing_stop': 7, 'end_of_day': 3}.
+
+        daily_summary only tracks aggregate trades/wins/losses/pnl, so the
+        per-reason breakdown for the Telegram daily summary is queried
+        directly off the positions table (status='closed', exit_time today).
+        """
+        if date is None:
+            date = datetime.now().strftime('%Y-%m-%d')
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute(
+            "SELECT exit_reason, COUNT(*) FROM positions "
+            "WHERE status = 'closed' AND exit_time LIKE ? GROUP BY exit_reason",
+            (f"{date}%",)
+        )
+        rows = cursor.fetchall()
+        conn.close()
+        return {(reason or 'unknown'): count for reason, count in rows}
+
 
 if __name__ == '__main__':
     # Test paper trader

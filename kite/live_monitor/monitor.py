@@ -566,6 +566,53 @@ class LiveMonitor:
                 except Exception as e:
                     logger.error(f"Candidate scan error {symbol}/{detector.strategy_name}: {e}", exc_info=True)
 
+    def check_results_reactions(self):
+        """Results-miss gate (docs/superpowers/specs/2026-07-22-results-miss-gate-design.md):
+        for each results-family announcement ann_filter.refresh() picked up in
+        the last ~2 trading days, test whether the symbol's latest daily bar
+        reacted < -2% vs the NIFTY-47 EW same-day move; if so, flag it via
+        ann_filter.flag_results_miss() so EntryPipeline blocks new entries in
+        it for ~20 trading days.
+
+        Guarded on both caches being loaded; fail-soft (any error just skips
+        this cycle, never blocks the rest of the swing scan).
+        """
+        if not self.daily_data_cache:
+            return
+        universe = self.wide_daily_cache or self.daily_data_cache
+        if not universe:
+            return
+        candidates = getattr(self.ann_filter, 'results_announcements', None)
+        if not candidates:
+            return
+        try:
+            moves = []
+            for sym in self.stocks:
+                df = self.daily_data_cache.get(sym)
+                if df is None or len(df) < 2:
+                    continue
+                prev_close = float(df['close'].iloc[-2])
+                close = float(df['close'].iloc[-1])
+                if prev_close > 0:
+                    moves.append(close / prev_close - 1.0)
+            if not moves:
+                return
+            nifty47_ew_move = sum(moves) / len(moves)
+
+            for symbol in candidates:
+                df = universe.get(symbol)
+                if df is None or len(df) < 2:
+                    continue
+                prev_close = float(df['close'].iloc[-2])
+                close = float(df['close'].iloc[-1])
+                if prev_close <= 0:
+                    continue
+                reaction = (close / prev_close - 1.0) - nifty47_ew_move
+                if reaction < -0.02:
+                    self.ann_filter.flag_results_miss(symbol)
+        except Exception as e:
+            logger.warning(f"check_results_reactions failed (fail-soft, skipping): {e}")
+
     def _alert_flagged_holdings(self):
         """Telegram warning (no auto-exit) for held positions with fresh red flags."""
         held = list(self.trader.positions) + list(self.incubator.positions)
@@ -628,8 +675,9 @@ class LiveMonitor:
         closed = self.trader.check_exits(current_prices)
         
         for position in closed:
-            # Send exit alert
+            # Send exit alert (compact '[MAIN] EXIT ... | day P&L: ...' style)
             self.telegram.send_exit_alert({
+                'source': 'MAIN',
                 'symbol': position.symbol,
                 'direction': position.direction,
                 'entry_price': position.entry_price,
@@ -638,8 +686,7 @@ class LiveMonitor:
                 'pnl': position.pnl,
                 'pnl_pct': position.pnl_pct,
                 'duration': str(position.exit_time - position.entry_time),
-                'total_pnl': self.trader.capital - self.trader.initial_capital,
-                'win_rate': self.trader.get_performance_summary()['win_rate']
+                'day_pnl': self.trader.get_daily_summary().get('day_pnl', 0)
             })
     
     def process_signals(self, signals: List[TradeSignal]):
@@ -697,6 +744,7 @@ class LiveMonitor:
                         logger.warning("Daily data still unavailable — will retry next cycle")
                         return
                 self.ann_filter.refresh()
+                self.check_results_reactions()
                 self._alert_flagged_holdings()
                 swing_signals = self.scan_for_swing_signals()
                 logger.info(f"Swing scan: {len(swing_signals)} signal(s) found")
@@ -753,33 +801,75 @@ class LiveMonitor:
 
         for position in closed:
             self.telegram.send_exit_alert({
+                'source': 'MAIN',
                 'symbol': position.symbol,
                 'direction': position.direction,
                 'entry_price': position.entry_price,
                 'exit_price': position.exit_price,
-                'exit_reason': 'end_of_day',
+                'exit_reason': position.exit_reason,  # already ExitReason.END_OF_DAY.value
                 'pnl': position.pnl,
                 'pnl_pct': position.pnl_pct,
                 'duration': str(position.exit_time - position.entry_time),
-                'total_pnl': self.trader.capital - self.trader.initial_capital,
-                'win_rate': self.trader.get_performance_summary()['win_rate']
+                'day_pnl': self.trader.get_daily_summary().get('day_pnl', 0)
             })
 
         logger.info(f"Closed {len(closed)} intraday positions at EOD")
 
+    def _unrealized_pnl(self, trader: PaperTrader, current_prices: Dict[str, float]) -> float:
+        """Sum of mark-to-market P&L across a book's still-open positions."""
+        total = 0.0
+        for pos in trader.positions.values():
+            price = current_prices.get(pos.symbol)
+            if price is None:
+                continue
+            if pos.direction == 'BUY':
+                total += (price - pos.entry_price) * pos.quantity
+            else:
+                total += (pos.entry_price - price) * pos.quantity
+        return total
+
+    def _book_summary(self, label: str, trader: PaperTrader,
+                       current_prices: Dict[str, float]) -> Dict:
+        """Build one book's slice of the Telegram daily-summary dict — today's
+        realized P&L, closed-trade count with exit-reason breakdown, open
+        positions + unrealized P&L, and capital. See PaperTrader.get_daily_summary
+        / get_todays_exit_breakdown / get_performance_summary for the sources."""
+        daily = trader.get_daily_summary()
+        perf = trader.get_performance_summary()
+        return {
+            'label': label,
+            'day_pnl': daily.get('day_pnl', 0),
+            'closed_count': daily.get('trades_today', 0),
+            'exit_breakdown': trader.get_todays_exit_breakdown(),
+            'open_positions': perf.get('open_positions', len(trader.positions)),
+            'unrealized_pnl': self._unrealized_pnl(trader, current_prices),
+            'capital': perf.get('capital', trader.capital),
+        }
+
     def send_daily_summary(self):
-        """Send end-of-day summary."""
-        summary = self.trader.get_performance_summary()
-        daily = self.trader.get_daily_summary()
-        
+        """Send end-of-day summary covering BOTH books (main + incubator)."""
+        symbols = list(set(self.trader.positions) | set(self.incubator.positions))
+        current_prices: Dict[str, float] = {}
+        if symbols:
+            try:
+                quotes = self.fetcher.get_quote(symbols)
+            except Exception as e:
+                logger.warning(f"Daily summary quote fetch failed: {e}")
+                quotes = {}
+            if quotes:
+                current_prices = {s: q['last_price'] for s, q in quotes.items()}
+            # Fall back to cached candle close for any symbol the quote missed
+            for s in symbols:
+                if s not in current_prices and s in self.data_cache and len(self.data_cache[s]) > 0:
+                    current_prices[s] = float(self.data_cache[s].iloc[-1]['close'])
+
+        main_summary = self._book_summary('MAIN', self.trader, current_prices)
+        incubator_summary = self._book_summary('INCUBATOR', self.incubator, current_prices)
+
         self.telegram.send_daily_summary({
-            **daily,
-            'total_trades': summary['total_trades'],
-            'win_rate': summary['win_rate'],
-            'total_pnl': summary['total_pnl'],
-            'sharpe': 0,  # Calculate if needed
-            'open_positions': summary['open_positions'],
-            'capital': summary['capital']
+            'date': datetime.now().strftime('%Y-%m-%d'),
+            'books': [main_summary, incubator_summary],
+            'combined_day_pnl': main_summary['day_pnl'] + incubator_summary['day_pnl'],
         })
     
     def start(self):
