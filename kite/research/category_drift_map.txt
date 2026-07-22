@@ -1,0 +1,227 @@
+============================================================================================
+SYSTEMATIC MAPPING STUDY - ANNOUNCEMENT-CATEGORY DRIFT ON NSE
+Exploratory mining of the Phase-2 event-study table (kite/research/event_study_results.csv)
+Generated: 2026-07-22
+============================================================================================
+
+*** THIS IS EXPLORATORY DATA-MINING OF AN EXISTING TABLE, NOT A CONFIRMATION STUDY. ***
+The table holds 306 category x tercile x era cells x 3 windows = 918 rows across 40
+categories. We re-slice it many ways below; NO p-value here is corrected for that search.
+Every 'flag' is a CANDIDATE for a future PRE-REGISTERED confirmation study on fresh data,
+not a finding. The Phase-2 FDR pass already ran per-cell; we only note which candidates
+contained an FDR-surviving cell (survived multiplicity WITHIN Phase 2) versus pure near-
+misses (rediscovered here only by pooling, never survived any corrected test).
+
+METHOD (frozen): 1) N-weight-pool terciles -> per-era pooled mean CAR. Flag a category if
+all 3 eras share one sign at BOTH the 5d and 20d windows AND the grand-pooled |CAR_5d| >=
+0.30%. 2) Rank by |grand-pooled CAR_5d| x sqrt(total N at 5d) (effect x evidence).
+Categories missing any era at 5d or 20d cannot satisfy 'all 3 eras' and are dropped.
+
+Live avoid-filter (4 graduated categories): ['Change in Director(s)', 'Disclosure under SEBI Takeover Regulations', 'Spurt in Volume', 'Statement of deviation(s) or variation(s) under Reg. 32']
+
+--------------------------------------------------------------------------------------------
+!! READ THIS FIRST - THE BASELINE MAKES OR BREAKS EVERY NUMBER BELOW !!
+--------------------------------------------------------------------------------------------
+Pooled mean CAR across ALL 40 categories / all 330,073 announcement-events:
+    2d = -0.319%    5d = -0.415%    20d = -0.798%
+The ENTIRE announcement universe drifts NEGATIVE (38/40 categories are negative at 5d).
+So a category printing -0.45% at 5d is sitting ON the baseline - it is NOT special, it is
+just an announcement. The frozen rank below is by RAW |CAR|, which mostly re-measures this
+market-wide fade x large N. The column that actually isolates category-specific drift is
+EXCESS = category CAR - baseline CAR. A separate baseline-adjusted ranking follows the raw
+one; trust the EXCESS view for 'which category is genuinely different', not the raw |CAR|.
+(Whether the baseline itself is real alpha or a CAR-construction/beta artifact is a Phase-2
+ design question, out of scope here - but it means raw single-category CARs are NOT alpha.)
+
+============================================================================================
+RANKED FLAGGED CATEGORIES  (era-consistent sign at 5d AND 20d, |pooled CAR_5d| >= 0.30%)
+============================================================================================
+
+(baseline 5d = -0.42%, 20d = -0.80%; EXC = category CAR minus baseline)
+
+ #  category                                      CAR5d%  EXC5d%  CAR20d%  EXC20d%  N(5d)  dir live      FDR
+------------------------------------------------------------------------------------------------------------
+ 1  Updates                                        -0.51   -0.09    -1.05    -0.25  38514  NEG    -   5d+20d
+ 2  OTHER                                          -0.47   -0.05    -0.78     0.02  23459  NEG    -   5d+20d
+ 3  Copy of Newspaper Publication                  -0.51   -0.09    -0.87    -0.07  18118  NEG    -   5d+20d
+ 4  Outcome of Board Meeting                       -0.61   -0.19    -0.84    -0.04  12537  NEG    -   5d+20d
+ 5  Press Release                                  -0.43   -0.02    -0.92    -0.12  20996  NEG    -   5d+20d
+ 6  Financial Result Updates                       -0.61   -0.20    -0.89    -0.09   8022  NEG    -   5d+20d
+ 7  Investor Presentation                          -0.47   -0.05    -0.83    -0.03   8606  NEG    -   5d+20d
+ 8  Dividend                                       -0.66   -0.24    -1.10    -0.30   3751  NEG    -   5d+20d
+ 9  Shareholders meeting                           -0.34    0.07    -0.67     0.12  11952  NEG    -   5d+20d
+10  Change in Director(s)                          -0.66   -0.24    -1.44    -0.64   3101  NEG  YES   5d+20d
+11  Spurt in Volume                                -0.81   -0.39    -0.89    -0.09   1452  NEG  YES   5d+20d
+12  Change in Management                           -0.52   -0.10    -0.74     0.05   2889  NEG    -   5d+20d
+13  Disclosure under SEBI Takeover Regulations     -0.35    0.06    -0.81    -0.01   6122  NEG  YES   5d+20d
+14  Related Party Transactions                     -0.62   -0.20    -1.55    -0.75   1872  NEG    -   5d+20d
+15  Appointment                                    -0.40    0.02    -0.98    -0.18   4095  NEG    -   5d+20d
+16  Monitoring Agency Report                       -0.66   -0.25    -0.21     0.58   1367  NEG    -   5d+20d
+17  Cessation                                      -0.62   -0.21    -0.99    -0.19   1254  NEG    -   5d+20d
+
+CAR   = category grand-pooled mean CAR   |   EXC = CAR minus all-announcement baseline
+dir   = sign of raw drift (NEG = fade/avoid, POS = positive drift)
+live  = already in the deployed avoid-filter
+FDR   = did ANY cell survive the Phase-2 FDR pass, at which window (5d+20d = survivor at
+        5d; other-w = survivor only at 2d/20d; none = pure near-miss, never survived)
+
+>>> Note: several top rows have EXC5d near ZERO (|excess| < 0.10%) - they rank high only
+    because of enormous N, not because they drift more than a typical announcement. Rows
+    with EXC5d near 0 are 'confirmed to fade exactly like the universe', not signals.
+
+Flagged total: 17  |  already live: 3  |  NEW candidates: 14
+Of the 14 new candidates, 14 contain >=1 Phase-2 FDR-surviving cell; 0 are pure near-misses.
+
+============================================================================================
+BASELINE-ADJUSTED RANKING  (same flagged set, ranked by |EXCESS CAR_5d| = economic effect)
+============================================================================================
+This is the honest 'genuinely different from a generic announcement' ordering. Ranked by
+effect size (|excess|), NOT by N - escore (=|EXC|xsqrt(N)) is shown only as an evidence tie-
+breaker. Deliberately NOT N-weighted: N-weighting is what made the raw table misleading.
+
+ #  category                                      EXC5d%  EXC20d%  N(5d)  escore live      FDR
+----------------------------------------------------------------------------------------------
+ 1  Spurt in Volume                                -0.39    -0.09   1452    0.15  YES   5d+20d
+ 2  Monitoring Agency Report                       -0.25     0.58   1367    0.09    -   5d+20d
+ 3  Change in Director(s)                          -0.24    -0.64   3101    0.13  YES   5d+20d
+ 4  Dividend                                       -0.24    -0.30   3751    0.15    -   5d+20d
+ 5  Cessation                                      -0.21    -0.19   1254    0.07    -   5d+20d
+ 6  Related Party Transactions                     -0.20    -0.75   1872    0.09    -   5d+20d
+ 7  Financial Result Updates                       -0.20    -0.09   8022    0.18    -   5d+20d
+ 8  Outcome of Board Meeting                       -0.19    -0.04  12537    0.21    -   5d+20d
+ 9  Change in Management                           -0.10     0.05   2889    0.06    -   5d+20d
+10  Copy of Newspaper Publication                  -0.09    -0.07  18118    0.12    -   5d+20d
+11  Updates                                        -0.09    -0.25  38514    0.18    -   5d+20d
+12  Shareholders meeting                            0.07     0.12  11952    0.08    -   5d+20d
+13  Disclosure under SEBI Takeover Regulations      0.06    -0.01   6122    0.05  YES   5d+20d
+14  OTHER                                          -0.05     0.02  23459    0.08    -   5d+20d
+15  Investor Presentation                          -0.05    -0.03   8606    0.05    -   5d+20d
+16  Appointment                                     0.02    -0.18   4095    0.01    -   5d+20d
+17  Press Release                                  -0.02    -0.12  20996    0.03    -   5d+20d
+
+Reading: negative EXC = fades HARDER than a typical announcement (a genuine avoid-signal);
+EXC near 0 = indistinguishable from the universe; positive EXC = fades LESS / relatively
+resilient. The live-filter categories cluster at the top of THIS list - the excess view,
+not the raw view, is what actually separated them out in the original Phase-2 selection.
+
+!! The 4th live category, 'Statement of deviation(s)...under Reg. 32', is ABSENT from the
+   flagged set above despite being the single most negative category (5d = -0.90%, all 3
+   eras negative at 5d). It fails the frozen rule ONLY on the 20d leg: its 2020-2022 20d
+   pooled CAR is +0.04% (one era, essentially zero) which breaks 'all 3 eras same sign at
+   20d'. This is a boundary artifact of the strict rule, NOT weak signal - by 5d excess it
+   would top this table. A robustness lesson: the all-3-era-both-window sign rule is brittle
+   to a single near-zero era cell.
+
+============================================================================================
+VERDICT = DEAD  (folklore/popular-intuition categories that DO NOT drift)
+============================================================================================
+
+Folklore says these should 'pop' (usually UP). Actual pooled numbers below. A category is
+DEAD here if it fails the flag test: |pooled CAR_5d| < 0.30%, OR eras disagree in sign, OR
+absent. EXC5d (vs baseline) shows if it even moves differently from a generic announcement.
+
+category                                        CAR5d%  EXC5d%  CAR20d%  eras5  N(5d) flag? verdict
+---------------------------------------------------------------------------------------------------
+Bonus                                               --      --       -- ABSENT     --    no   DEAD*
+Buyback                                             --      --       -- ABSENT     --    no   DEAD*
+Dividend                                         -0.66   -0.24    -1.10    ---   3751   yes FLAGGED
+Bagging/Receiving of orders/contracts               --      --       -- ABSENT     --    no   DEAD*
+Acquisition                                      -0.40    0.02    -1.03    --+   3126    no    DEAD
+Press Release                                    -0.43   -0.02    -0.92    ---  20996   yes FLAGGED
+Awarding of order(s)/contract(s)                    --      --       -- ABSENT     --    no   DEAD*
+
+* ABSENT = category never appears in the Phase-2 table at all (never met the study's
+  minimum-N / tracking threshold). Cannot be confirmed OR refuted here -> treat as
+  'no evidence', which for folklore purposes is a dead end until data exists.
+eras5 = sign of per-era pooled 5d CAR for 2020-2022 / 2023-2024 / 2025-2026.
+
+KEY read of the dead-list:
+  - Bonus, Buyback, Bagging/Receiving of orders, Awarding of order(s): NOT TRACKED at all
+    in this table. Folklore untested here - a data-collection gap, not a refutation.
+  - Acquisition: DEAD by the sign rule - clearly negative in 2020-2024 but the 2025-2026 era
+    pooled turned marginally positive (+0.01%, eras5 = --+). The old M&A-fade decayed to
+    zero; sign no longer era-consistent, so do not trade it.
+  - Dividend & Press Release DO drift, but DOWN (-0.66% / -0.43% 5d), the OPPOSITE of the
+    'good news pops' folklore. Yet their EXC5d is small (~ -0.25% / -0.01%): Press Release
+    is basically the baseline announcement; Dividend fades only modestly harder. Neither is
+    a positive-alpha signal; both are (weak) members of the universal announcement fade.
+
+============================================================================================
+SANITY CHECK - top-3 NEW (not-yet-live) flagged categories, cell-level
+============================================================================================
+
+Is the pooled signal broad, or driven by one tercile/era cell? Reading the raw 5d cells.
+
+--------------------------------------------------------------------------------------------
+#1 NEW: Updates
+    grand-pooled CAR_5d = -0.51%  CAR_20d = -1.05%  N(5d)=38514  score=0.99
+    per-era pooled 5d:  2020-2022=-0.69%  2023-2024=-0.49%  2025-2026=-0.30%
+    per-era pooled 20d: 2020-2022=-1.50%  2023-2024=-0.82%  2025-2026=-0.96%
+    Phase-2 FDR: 22 surviving cell(s) in category; survivor at 5d = True
+
+    raw 5d cells (tercile x era):
+      tercile era             N  meanCAR%       t         p   FDR
+      t1      2020-2022    4167     -0.57   -5.18    0.0000  True
+      t1      2023-2024    4613     -0.12   -1.46    0.1444 False
+      t1      2025-2026    1821      0.10    0.79    0.4307 False
+      t2      2020-2022    2639     -0.59   -5.19    0.0000  True
+      t2      2023-2024    7058     -0.51   -9.22    0.0000  True
+      t2      2025-2026    3125     -0.56   -6.39    0.0000  True
+      t3      2020-2022    4376     -0.86   -9.32    0.0000  True
+      t3      2023-2024    7587     -0.69  -13.17    0.0000  True
+      t3      2025-2026    3128     -0.26   -3.39    0.0007  True
+    breadth: 8/9 cells share the pooled sign; largest single cell = 27% of net pooled sum (BROAD).
+
+--------------------------------------------------------------------------------------------
+#2 NEW: OTHER
+    grand-pooled CAR_5d = -0.47%  CAR_20d = -0.78%  N(5d)=23459  score=0.71
+    per-era pooled 5d:  2020-2022=-0.53%  2023-2024=-0.50%  2025-2026=-0.35%
+    per-era pooled 20d: 2020-2022=-1.09%  2023-2024=-0.79%  2025-2026=-0.36%
+    Phase-2 FDR: 22 surviving cell(s) in category; survivor at 5d = True
+
+    raw 5d cells (tercile x era):
+      tercile era             N  meanCAR%       t         p   FDR
+      t1      2020-2022    4346     -0.46   -4.84    0.0000  True
+      t1      2023-2024    2103     -0.17   -1.34    0.1805 False
+      t1      2025-2026    2515     -0.12   -1.00    0.3160 False
+      t2      2020-2022    2642     -0.68   -6.87    0.0000  True
+      t2      2023-2024    2063     -0.71   -6.36    0.0000  True
+      t2      2025-2026    2803     -0.63   -6.78    0.0000  True
+      t3      2020-2022    2897     -0.51   -5.48    0.0000  True
+      t3      2023-2024    1830     -0.62   -5.79    0.0000  True
+      t3      2025-2026    2260     -0.28   -3.09    0.0020  True
+    breadth: 9/9 cells share the pooled sign; largest single cell = 18% of net pooled sum (BROAD).
+
+--------------------------------------------------------------------------------------------
+#3 NEW: Copy of Newspaper Publication
+    grand-pooled CAR_5d = -0.51%  CAR_20d = -0.87%  N(5d)=18118  score=0.68
+    per-era pooled 5d:  2020-2022=-0.67%  2023-2024=-0.51%  2025-2026=-0.40%
+    per-era pooled 20d: 2020-2022=-1.36%  2023-2024=-0.77%  2025-2026=-0.70%
+    Phase-2 FDR: 24 surviving cell(s) in category; survivor at 5d = True
+
+    raw 5d cells (tercile x era):
+      tercile era             N  meanCAR%       t         p   FDR
+      t1      2020-2022    1817     -0.67   -4.66    0.0000  True
+      t1      2023-2024    2567     -0.19   -1.60    0.1091 False
+      t1      2025-2026    2139     -0.24   -2.04    0.0418  True
+      t2      2020-2022    1033     -0.56   -3.59    0.0003  True
+      t2      2023-2024    2516     -0.54   -5.63    0.0000  True
+      t2      2025-2026    2601     -0.66   -7.10    0.0000  True
+      t3      2020-2022    1174     -0.77   -5.40    0.0000  True
+      t3      2023-2024    2131     -0.87  -10.18    0.0000  True
+      t3      2025-2026    2140     -0.25   -3.09    0.0020  True
+    breadth: 9/9 cells share the pooled sign; largest single cell = 20% of net pooled sum (BROAD).
+
+============================================================================================
+SUMMARY - what (if anything) deserves a future pre-registered confirmation study
+============================================================================================
+
+1. HEADLINE CAVEAT: the whole announcement universe fades (baseline 5d = -0.42%, 20d = -0.80%; 38/40 categories negative). Raw per-category CARs mostly re-measure this, not category alpha. Judge by EXCESS vs baseline.
+2. Best NEW (non-live) candidates by EXCESS effect size (not raw, not N-weighted): Monitoring Agency Report (-0.25%, N=1367), Dividend (-0.24%, N=3751), Cessation (-0.21%, N=1254), Related Party Transactions (-0.20%, N=1872). These fade materially harder than a generic announcement - the only new names worth a look. (All modest: even the best excess is < 0.3%/5d.)
+3. All 14 new flagged categories contain a Phase-2 FDR-surviving cell (0 pure near-misses), BUT most have EXC5d near zero (Updates/OTHER/Copy-of-Newspaper/Press-Release/Shareholders-meeting ~ baseline) - statistically real, economically just 'an announcement'.
+4. Folklore verdict: Acquisition DEAD (sign flipped by 2025-26); Dividend & Press Release drift DOWN not up (anti-folklore) but barely beyond baseline; Bonus/Buyback/Bagging/Awarding of orders NOT TRACKED - untested, a data gap. Live-set is intact: the 4th live category
+   (Statement of deviation) is genuinely the strongest by excess; it only fell out on a
+   +0.04% one-era 20d blip, so the frozen rule under-selects, it does not over-select.
+5. NOTHING here is a finding - pure exploration on an already-mined table. If anything gets a pre-registered confirmation study, make it the top EXCESS names (Statement-of-deviation, Monitoring-Agency-Report, Cessation, Related-Party-Txn) on out-of-sample 2026H2+ data, measuring EXCESS-over-baseline drift with fixed sign/window - never raw CAR.
+
+============================================================================================

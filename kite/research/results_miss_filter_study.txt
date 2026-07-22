@@ -1,0 +1,81 @@
+==============================================================================
+RESULTS-MISS AVOID-FILTER STUDY  (pre-registered, frozen question)
+Rule tested: block new entries 20 trading days in any stock whose
+results-day reaction R was < -2%  (bucket == NEGATIVE)
+==============================================================================
+Universe: 8022 PEAD events, all category='Financial Result Updates'
+NEGATIVE-bucket events (R < -2%): 2560  (31.9% of all events)
+
+------------------------------------------------------------------------------
+1) NEGATIVE-bucket events by era
+------------------------------------------------------------------------------
+           n_all  n_NEG  pct_NEG_of_era  mean_car20d_NEG  median_car20d_NEG  pct_car20d_negative
+era                                                                                             
+2020-2022   3587   1145         31.9208          -0.0294            -0.0373              66.2882
+2023-2024   3898   1232         31.6060          -0.0081            -0.0303              62.5000
+2025-2026    537    183         34.0782          -0.0137            -0.0127              56.2842
+
+POOLED (all eras):
+  n_NEG                 : 2560
+  pct_of_all            : 31.9122
+  mean_car20d           : -0.0180
+  median_car20d         : -0.0320
+  pct_car20d_negative   : 63.7500
+  p10_car20d            : -0.1302
+  p90_car20d            : 0.1092
+
+------------------------------------------------------------------------------
+2) Counterfactual: abnormal drift a block would have dodged
+------------------------------------------------------------------------------
+Mean car_20d of NEGATIVE events   : -0.0180  (-1.80%)
+Median car_20d of NEGATIVE events : -0.0320  (-3.20%)
+10th pct car_20d (tail/bad case)  : -0.1302  (-13.02%)
+Share of NEGATIVE events with car_20d < 0 : 63.7%
+Interpretation: on average, a stock whose results reaction was < -2% kept
+drifting by about -1.80% (abnormal) over the following 20 trading
+days from entry; the worst 10% of such cases lost -13.02% or more.
+
+------------------------------------------------------------------------------
+3) Overlap with existing announcement-desc-based red-flag filter
+   Red-flag categories: ['Change in Director(s)', 'Disclosure under SEBI Takeover Regulations', 'Spurt in Volume', 'Statement of deviation(s) or variation(s) under Reg. 32']
+   Window: any red-flag announcement for the same symbol within +/-5
+   calendar days of E_date counts as overlap.
+------------------------------------------------------------------------------
+Loaded 45285 red-flag-category announcements across 79 monthly files (2482 distinct symbols).
+NEGATIVE-bucket events with a red-flag-category announcement for the SAME
+symbol within +/-5 days of E_date: 583 / 2560  (22.8%)
+=> 77.2% of NEGATIVE-bucket events have NO overlap with the
+   existing 4-category filter -- the results-miss rule would be catching
+   drift episodes the current announcement-desc filter does not flag.
+
+------------------------------------------------------------------------------
+4) Frequency: blocked-stock-days/year this rule would add
+   (20 TRADING days per NEGATIVE event, starting at entry_date,
+    deduped by symbol-day across overlapping/re-triggered windows)
+------------------------------------------------------------------------------
+Total unique (symbol, day) blocked pairs, 2020-01-15 to 2025-03-17: 51087
+Span: 5.17 years  =>  ~9,883 blocked-stock-days/year
+(gross, no dedup, would have been 51200 = 2560 events x 20 days)
+Dedup collapsed 0.2% of gross blocked-days (re-triggers / overlapping windows on same symbol)
+
+------------------------------------------------------------------------------
+VERDICT / RECOMMENDATION
+------------------------------------------------------------------------------
+Pooled: 2560 events (31.9% of all PEAD events) had results-day
+reaction < -2%. These kept drifting by a mean of -1.80% (median -3.20%) abnormal
+return over the next 20 trading days, with 64% staying negative and a bad-case (10th pct) of -13.02%.
+Only 22.8% of these events overlap with the existing 4-category announcement
+red-flag filter within +/-5 days -- this is largely ADDITIVE coverage, not redundant.
+Adding the rule would cost ~9,883 blocked-stock-days/year of lost opportunity
+across the universe.
+
+ONE-LINE RECOMMENDATION: The results-miss rule looks worth prototyping --
+large, mostly non-overlapping population with a clearly negative and fairly
+consistent 20-day aftermath -- but this is IN-SAMPLE measurement of an
+already-observed effect (the bucket/car_20d were computed from the same
+realized data being scored here); deploying it as a live filter needs its
+own forward-looking pre-registration doc (fixed threshold decided BEFORE
+seeing new data, walk-forward or out-of-sample era holdout, and transaction-
+cost/opportunity-cost accounting for the ~9883 blocked-days/year) before it
+goes anywhere near the live monitor.
+==============================================================================
