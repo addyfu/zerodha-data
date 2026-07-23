@@ -1,0 +1,40 @@
+
+=== Sample 1: Nov 2025 - Jan 2026 (60d CSVs) ===
+Trading days used: 43 | raw signals generated: 1442
+  ORIGINAL :  832 trades | total Rs    -55,378 | win  19.4% | avg/trade Rs     -67 | max single-trade loss Rs      -264
+  V2       :  250 trades | total Rs    -18,989 | win  26.8% | avg/trade Rs     -76 | max single-trade loss Rs      -287
+  V2 rejected-by-RR (RR<1.5 after widening): 1052
+  V2 cooldown-suppressed (60-min post-SL): 19
+
+=== Sample 2: Jul 13-20 2026 (release DB) ===
+Trading days used: 6 | raw signals generated: 181
+  ORIGINAL :   94 trades | total Rs     -5,735 | win  19.1% | avg/trade Rs     -61 | max single-trade loss Rs      -230
+  V2       :   41 trades | total Rs     -2,742 | win  26.8% | avg/trade Rs     -67 | max single-trade loss Rs      -208
+  V2 rejected-by-RR (RR<1.5 after widening): 81
+  V2 cooldown-suppressed (60-min post-SL): 4
+
+==============================================================================
+FROZEN VERDICT (docs/superpowers/specs/2026-07-23-bb-v2-design.md)
+==============================================================================
+
+Criterion 1: v2 total net P&L > original's on BOTH samples
+  [Sample 1: Nov 2025 - Jan 2026 (60d CSVs)] orig Rs    -55,378  vs  v2 Rs    -18,989  -> PASS
+  [Sample 2: Jul 13-20 2026 (release DB)] orig Rs     -5,735  vs  v2 Rs     -2,742  -> PASS
+  Criterion 1: PASS
+
+Criterion 2: v2 max single-trade loss no worse than original's on BOTH samples
+  [Sample 1: Nov 2025 - Jan 2026 (60d CSVs)] orig worst Rs      -264  vs  v2 worst Rs      -287  -> FAIL
+  [Sample 2: Jul 13-20 2026 (release DB)] orig worst Rs      -230  vs  v2 worst Rs      -208  -> PASS
+  Criterion 2: FAIL
+
+Criterion 3: v2 trade count >= 40% of original's (floor+cooldown must not kill it), BOTH samples
+  [Sample 1: Nov 2025 - Jan 2026 (60d CSVs)] orig 832 trades  vs  v2 250 trades  (30% of original)  -> FAIL
+  [Sample 2: Jul 13-20 2026 (release DB)] orig 94 trades  vs  v2 41 trades  (44% of original)  -> PASS
+  Criterion 3: FAIL
+
+------------------------------------------------------------------------------
+OVERALL: FAIL - v2 is discarded
+------------------------------------------------------------------------------
+Per spec: any failure means v2 is discarded, the observation is recorded as
+"tight stops appear load-bearing (or floor too blunt)", and the original's
+process grades get a written correction. No threshold changes after results seen.
