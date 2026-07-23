@@ -737,12 +737,19 @@ class LiveMonitor:
             now = datetime.now()
             if not self.swing_scanned_today and now.time() >= dtime(9, 25):
                 # Daily load can fail if the token was stale at startup — retry here
-                # and hold the once-per-day gate open until it succeeds.
+                # and hold the once-per-day gate open until it succeeds. The WIDE
+                # load gets the same retry (2026-07-23: its absence left the 679
+                # swing universe silently empty on first live morning).
                 if not self.daily_data_cache:
                     self.load_daily_data()
                     if not self.daily_data_cache:
                         logger.warning("Daily data still unavailable — will retry next cycle")
                         return
+                if not self.wide_daily_cache:
+                    self.load_wide_daily_data()
+                    if not self.wide_daily_cache:
+                        logger.warning("Wide daily data still unavailable — swing scan "
+                                       "will fall back to NIFTY_50 this cycle")
                 self.ann_filter.refresh()
                 self.check_results_reactions()
                 self._alert_flagged_holdings()
