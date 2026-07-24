@@ -1,0 +1,14 @@
+[Unit]
+Description=Run kite daily-report.service at 16:30 IST Mon-Fri
+
+[Timer]
+# Timezone suffix on the calendar spec (supported since systemd 239) makes this
+# correct regardless of whether the VM's system clock is UTC or IST -- avoids
+# hardcoding a UTC offset that would silently drift if the box's TZ changes.
+# Equivalent fixed UTC offset, for reference: 11:00:00 UTC (IST = UTC+5:30, no DST).
+OnCalendar=Mon..Fri 16:30:00 Asia/Kolkata
+Persistent=true
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target

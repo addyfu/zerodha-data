@@ -1,0 +1,17 @@
+[Unit]
+Description=Kite trading — end-of-day Telegram report (oneshot, triggered by daily-report.timer)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/projects/kite-monitor
+# daily_report.py loads TELEGRAM_*/KITE_ROOT from WorkingDirectory/.env itself
+# (same convention as parity_monitor.py) -- no EnvironmentFile needed here.
+ExecStart=/home/ubuntu/projects/kite-monitor/venv/bin/python kite/live_monitor/daily_report.py
+StandardOutput=append:/home/ubuntu/projects/kite-monitor/data/daily_report.log
+StandardError=append:/home/ubuntu/projects/kite-monitor/data/daily_report.log
+
+# Not enabled directly -- driven by daily-report.timer. No [Install] section;
+# only the timer unit is WantedBy=timers.target.
