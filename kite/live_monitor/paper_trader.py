@@ -398,10 +398,14 @@ class PaperTrader:
         # own mode policy (TradeMode.eod_squareoff == intraday).
         buy_value = position.entry_price * position.quantity
         sell_value = exit_price * position.quantity
+        # NOTE: read ['total'], never sum(...values()) — the returned dict
+        # carries its own 'total' key alongside the six components, so summing
+        # the values double-charges. (Caught 2026-07-26; every research script
+        # written that week had this bug, engine.py did not.)
         try:
-            charges = sum(zerodha_charges.calculate_charges(
+            charges = zerodha_charges.calculate_charges(
                 buy_value, sell_value,
-                is_intraday=TradeMode.of(position.trade_mode).eod_squareoff).values())
+                is_intraday=TradeMode.of(position.trade_mode).eod_squareoff)['total']
         except Exception as e:  # never let accounting kill an exit
             logger.warning(f"Charge calc failed for {symbol}: {e} — booking gross")
             charges = 0.0

@@ -66,9 +66,11 @@ def backfill(label, db_path, dry_run):
             continue
         gross = ((exit_px - entry) if direction == 'BUY' else (entry - exit_px)) * qty
         buy_value, sell_value = entry * qty, exit_px * qty
-        charges = sum(zerodha_charges.calculate_charges(
+        # ['total'], not sum(values()) — the dict carries its own total, so
+        # summing values double-charges (see paper_trader.close_position note).
+        charges = zerodha_charges.calculate_charges(
             buy_value, sell_value,
-            is_intraday=TradeMode.of(mode).eod_squareoff).values())
+            is_intraday=TradeMode.of(mode).eod_squareoff)['total']
         net = gross - charges
         pct = net / buy_value * 100 if buy_value else 0.0
         tot_gross += gross

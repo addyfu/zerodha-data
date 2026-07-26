@@ -36,19 +36,37 @@ def _trader(tmp, name='book.db', capital=100000):
 
 
 def test_long_intraday_net_of_charges(tmp):
+    """Asserts the EXACT hand-computed charge, not just 'charges > 0'.
+
+    The original version of this test compared against
+    sum(calculate_charges(...).values()) — which is itself the double-counting
+    bug (the dict carries its own 'total' alongside the six components), so a
+    doubled charge passed happily. Hand-computed constants below are the only
+    thing that catches that class of error.
+    """
     t = _trader(tmp, 'long.db')
     entry, exit_px, qty = 1000.0, 1010.0, 20
     t.open_position(_Signal('TESTLONG', 'BUY', entry, qty))
     pos = t.close_position('TESTLONG', exit_px, ExitReason.TAKE_PROFIT)
 
-    expected_gross = (exit_px - entry) * qty                       # 200
-    expected_chg = sum(zerodha_charges.calculate_charges(
-        entry * qty, exit_px * qty, is_intraday=True).values())
+    buy_value, sell_value = entry * qty, exit_px * qty              # 20000, 20200
+    # Hand-computed, Zerodha equity-intraday, Maharashtra stamp duty:
+    brokerage = min(buy_value * 0.0003, 20) + min(sell_value * 0.0003, 20)   # 12.06
+    stt = sell_value * 0.00025                                               #  5.05
+    exchange = (buy_value + sell_value) * 0.0000345                          #  1.3869
+    gst = (brokerage + exchange) * 0.18                                      #  2.4216
+    sebi = (buy_value + sell_value) * 0.000001                               #  0.0402
+    stamp = buy_value * 0.00015                                              #  3.00
+    expected_chg = brokerage + stt + exchange + gst + sebi + stamp           # 23.958
+    expected_gross = (exit_px - entry) * qty                                 # 200
+
+    assert abs(expected_chg - 23.9587) < 0.01, f'test arithmetic drifted: {expected_chg}'
     assert abs(pos.gross_pnl - expected_gross) < 1e-6, pos.gross_pnl
-    assert abs(pos.charges - expected_chg) < 1e-6, pos.charges
-    assert abs(pos.pnl - (expected_gross - expected_chg)) < 1e-6, pos.pnl
-    assert pos.charges > 0, 'charges must be non-zero'
-    assert pos.pnl < pos.gross_pnl, 'net must be below gross'
+    assert abs(pos.charges - expected_chg) < 1e-4, (
+        f'charges {pos.charges:.4f} != hand-computed {expected_chg:.4f} '
+        f'(ratio {pos.charges / expected_chg:.2f}x — 2.00x means the '
+        f"sum(values()) double-count is back)")
+    assert abs(pos.pnl - (expected_gross - expected_chg)) < 1e-4, pos.pnl
     return f'gross {expected_gross:+.2f} - charges {expected_chg:.2f} = net {pos.pnl:+.2f}'
 
 
