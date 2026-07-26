@@ -15,6 +15,8 @@ from dataclasses import dataclass, asdict
 from enum import Enum
 import logging
 
+from kite.config import zerodha_charges
+
 logger = logging.getLogger(__name__)
 
 
@@ -75,9 +77,14 @@ class Position:
     exit_time: Optional[datetime] = None
     exit_reason: Optional[str] = None
     
-    # P&L
+    # P&L — `pnl` is NET of real Zerodha charges (2026-07-26 fix: the live book
+    # was booking gross while every backtest/expectation card is net, which made
+    # every live-vs-backtest comparison flattering). Gross is kept alongside so
+    # no information is lost.
     pnl: float = 0.0
     pnl_pct: float = 0.0
+    gross_pnl: float = 0.0
+    charges: float = 0.0
     
     # Status
     status: str = "open"
@@ -106,6 +113,8 @@ class Position:
             'exit_reason': self.exit_reason,
             'pnl': self.pnl,
             'pnl_pct': self.pnl_pct,
+            'gross_pnl': self.gross_pnl,
+            'charges': self.charges,
             'status': self.status,
             'trailing_stop': self.trailing_stop,
             'highest_price': self.highest_price,
@@ -208,11 +217,15 @@ class PaperTrader:
             )
         """)
         
-        # Migration: add trade_mode column if missing
-        try:
-            cursor.execute("ALTER TABLE positions ADD COLUMN trade_mode TEXT DEFAULT 'INTRADAY'")
-        except sqlite3.OperationalError:
-            pass  # Column already exists
+        # Migrations: additive columns only (appended, so positional row reads
+        # of the original schema stay valid).
+        for _col, _decl in (("trade_mode", "TEXT DEFAULT 'INTRADAY'"),
+                            ("gross_pnl", "REAL DEFAULT 0"),
+                            ("charges", "REAL DEFAULT 0")):
+            try:
+                cursor.execute(f"ALTER TABLE positions ADD COLUMN {_col} {_decl}")
+            except sqlite3.OperationalError:
+                pass  # Column already exists
 
         conn.commit()
         conn.close()
@@ -275,8 +288,8 @@ class PaperTrader:
             INSERT OR REPLACE INTO positions
             (id, symbol, direction, entry_price, entry_time, quantity, stop_loss, take_profit,
              strategy, exit_price, exit_time, exit_reason, pnl, pnl_pct, status,
-             trailing_stop, highest_price, lowest_price, trade_mode)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+             trailing_stop, highest_price, lowest_price, trade_mode, gross_pnl, charges)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             position.id, position.symbol, position.direction, position.entry_price,
             position.entry_time.isoformat(), position.quantity, position.stop_loss,
@@ -284,7 +297,7 @@ class PaperTrader:
             position.exit_time.isoformat() if position.exit_time else None,
             position.exit_reason, position.pnl, position.pnl_pct, position.status,
             position.trailing_stop, position.highest_price, position.lowest_price,
-            position.trade_mode
+            position.trade_mode, position.gross_pnl, position.charges
         ))
         
         conn.commit()
@@ -372,14 +385,31 @@ class PaperTrader:
             return None
         
         position = self.positions[symbol]
-        
-        # Calculate P&L
+
+        # Gross P&L (price move only)
         if position.direction == 'BUY':
-            position.pnl = (exit_price - position.entry_price) * position.quantity
+            gross = (exit_price - position.entry_price) * position.quantity
         else:  # SELL/SHORT
-            position.pnl = (position.entry_price - exit_price) * position.quantity
-        
-        position.pnl_pct = position.pnl / (position.entry_price * position.quantity) * 100
+            gross = (position.entry_price - exit_price) * position.quantity
+
+        # Real Zerodha charges — the SAME calculator every backtest and
+        # expectation card uses, so live results and backtest expectations are
+        # finally on one basis. Intraday vs delivery rates follow the position's
+        # own mode policy (TradeMode.eod_squareoff == intraday).
+        buy_value = position.entry_price * position.quantity
+        sell_value = exit_price * position.quantity
+        try:
+            charges = sum(zerodha_charges.calculate_charges(
+                buy_value, sell_value,
+                is_intraday=TradeMode.of(position.trade_mode).eod_squareoff).values())
+        except Exception as e:  # never let accounting kill an exit
+            logger.warning(f"Charge calc failed for {symbol}: {e} — booking gross")
+            charges = 0.0
+
+        position.gross_pnl = gross
+        position.charges = charges
+        position.pnl = gross - charges
+        position.pnl_pct = position.pnl / buy_value * 100 if buy_value else 0.0
         
         # Update position
         position.exit_price = exit_price
