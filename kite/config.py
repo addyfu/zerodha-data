@@ -60,7 +60,9 @@ class ZerodhaCharges:
     stt_delivery: float = 0.001  # 0.1% on both buy and sell
     
     # Exchange Transaction Charges
-    exchange_txn_charge: float = 0.0000345  # NSE: 0.00345%
+    # NSE equity: Rs 2.97 per lakh (0.00297%), post-Oct-2024 revision.
+    # Was 0.00345% here — stale, over-charged by ~16%. Verified 2026-07-26.
+    exchange_txn_charge: float = 0.0000297
     
     # GST on brokerage + transaction charges
     gst: float = 0.18  # 18%
@@ -69,7 +71,10 @@ class ZerodhaCharges:
     sebi_charges: float = 0.000001  # ₹10 per crore
     
     # Stamp Duty (varies by state, using Maharashtra)
-    stamp_duty_buy: float = 0.00015  # 0.015% on buy side
+    # Stamp duty, buy side only, and it DIFFERS by product — a single rate here
+    # was charging intraday at the delivery rate (5x too high). Verified 2026-07-26.
+    stamp_duty_buy: float = 0.00015           # delivery: 0.015%
+    stamp_duty_buy_intraday: float = 0.00003  # intraday: 0.003%
     
     def calculate_charges(self, buy_value: float, sell_value: float, 
                          is_intraday: bool = True) -> Dict[str, float]:
@@ -97,14 +102,16 @@ class ZerodhaCharges:
         # Exchange charges
         charges['exchange'] = (buy_value + sell_value) * self.exchange_txn_charge
         
-        # GST on brokerage + exchange charges
-        charges['gst'] = (charges['brokerage'] + charges['exchange']) * self.gst
-        
-        # SEBI charges
+        # SEBI charges (computed before GST — it is part of the GST base)
         charges['sebi'] = (buy_value + sell_value) * self.sebi_charges
-        
-        # Stamp duty
-        charges['stamp_duty'] = buy_value * self.stamp_duty_buy
+
+        # GST applies to brokerage + exchange transaction charges + SEBI charges
+        charges['gst'] = (charges['brokerage'] + charges['exchange']
+                          + charges['sebi']) * self.gst
+
+        # Stamp duty — buy side only, product-specific rate
+        charges['stamp_duty'] = buy_value * (
+            self.stamp_duty_buy_intraday if is_intraday else self.stamp_duty_buy)
         
         # Total
         charges['total'] = sum(charges.values())

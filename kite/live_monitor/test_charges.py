@@ -50,17 +50,17 @@ def test_long_intraday_net_of_charges(tmp):
     pos = t.close_position('TESTLONG', exit_px, ExitReason.TAKE_PROFIT)
 
     buy_value, sell_value = entry * qty, exit_px * qty              # 20000, 20200
-    # Hand-computed, Zerodha equity-intraday, Maharashtra stamp duty:
+    # Hand-computed, Zerodha equity INTRADAY (rates verified 2026-07-26):
     brokerage = min(buy_value * 0.0003, 20) + min(sell_value * 0.0003, 20)   # 12.06
     stt = sell_value * 0.00025                                               #  5.05
-    exchange = (buy_value + sell_value) * 0.0000345                          #  1.3869
-    gst = (brokerage + exchange) * 0.18                                      #  2.4216
-    sebi = (buy_value + sell_value) * 0.000001                               #  0.0402
-    stamp = buy_value * 0.00015                                              #  3.00
-    expected_chg = brokerage + stt + exchange + gst + sebi + stamp           # 23.958
+    exchange = (buy_value + sell_value) * 0.0000297   # NSE Rs 2.97/lakh      #  1.1939
+    sebi = (buy_value + sell_value) * 0.000001        # Rs 10/crore           #  0.0402
+    gst = (brokerage + exchange + sebi) * 0.18        # SEBI is in the base   #  2.3929
+    stamp = buy_value * 0.00003                       # intraday 0.003%       #  0.60
+    expected_chg = brokerage + stt + exchange + gst + sebi + stamp           # 21.337
     expected_gross = (exit_px - entry) * qty                                 # 200
 
-    assert abs(expected_chg - 23.9587) < 0.01, f'test arithmetic drifted: {expected_chg}'
+    assert abs(expected_chg - 21.3371) < 0.01, f'test arithmetic drifted: {expected_chg}'
     assert abs(pos.gross_pnl - expected_gross) < 1e-6, pos.gross_pnl
     assert abs(pos.charges - expected_chg) < 1e-4, (
         f'charges {pos.charges:.4f} != hand-computed {expected_chg:.4f} '
