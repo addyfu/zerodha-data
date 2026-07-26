@@ -1,0 +1,167 @@
+Corwin-Schultz half-spread estimate -- data/daily_universe/ (618 symbols loaded, min 300 rows, zero-volume rows dropped, day-pairs >5d apart excluded)
+======================================================================================================================
+618 symbols yielded at least one valid day-pair (of 618 loaded)
+
+1. LIQUIDITY TIERS (terciles by 60d-median turnover, summarized over each symbol's last 250 days)
+   tier boundaries: Low < Rs 22.00 Cr/day  <=  Mid  <=  Rs 84.98 Cr/day < High
+----------------------------------------------------------------------------------------------------------------------
+Low (T1)                           | n= 206 | mean  0.544% | median  0.527% | p25  0.460% | p75  0.598% | p95  0.746% | ratio-to-0.05% 10.55x | ratio-to-0.20%  2.64x
+Mid (T2)                           | n= 206 | mean  0.470% | median  0.478% | p25  0.415% | p75  0.533% | p95  0.641% | ratio-to-0.05%  9.55x | ratio-to-0.20%  2.39x
+High (T3)                          | n= 206 | mean  0.395% | median  0.390% | p25  0.339% | p75  0.459% | p95  0.543% | ratio-to-0.05%  7.81x | ratio-to-0.20%  1.95x
+ALL 679-universe (ref.)            | n= 618 | mean  0.469% | median  0.467% | p25  0.392% | p75  0.538% | p95  0.682% | ratio-to-0.05%  9.35x | ratio-to-0.20%  2.34x
+
+2. NIFTY-47 LIVE TRADING UNIVERSE (kite/live_monitor/monitor.py NIFTY_50 list)
+----------------------------------------------------------------------------------------------------------------------
+NIFTY-47 (n found=47)              | n=  47 | mean  0.307% | median  0.311% | p25  0.279% | p75  0.336% | p95  0.372% | ratio-to-0.05%  6.22x | ratio-to-0.20%  1.55x
+   (median/mean/p25/p75/p95 + ratio-to-assumption columns above satisfy analysis item 3 for both the tiers table and this NIFTY-47 row)
+
+   per-symbol detail (sorted by half-spread%):
+     HDFCBANK       half-spread  0.215%  (n_pairs=2856)
+     RELIANCE       half-spread  0.235%  (n_pairs=2860)
+     TCS            half-spread  0.241%  (n_pairs=2856)
+     INFY           half-spread  0.241%  (n_pairs=2856)
+     ITC            half-spread  0.251%  (n_pairs=2856)
+     LT             half-spread  0.253%  (n_pairs=2856)
+     MARUTI         half-spread  0.263%  (n_pairs=2856)
+     ICICIBANK      half-spread  0.265%  (n_pairs=2856)
+     HINDUNILVR     half-spread  0.266%  (n_pairs=2856)
+     ASIANPAINT     half-spread  0.269%  (n_pairs=2856)
+     WIPRO          half-spread  0.272%  (n_pairs=2855)
+     DRREDDY        half-spread  0.277%  (n_pairs=2856)
+     BAJAJ-AUTO     half-spread  0.281%  (n_pairs=2856)
+     KOTAKBANK      half-spread  0.282%  (n_pairs=2856)
+     ULTRACEMCO     half-spread  0.286%  (n_pairs=2856)
+     SBIN           half-spread  0.287%  (n_pairs=2856)
+     NESTLEIND      half-spread  0.289%  (n_pairs=2856)
+     HEROMOTOCO     half-spread  0.295%  (n_pairs=2856)
+     BRITANNIA      half-spread  0.296%  (n_pairs=2855)
+     COALINDIA      half-spread  0.297%  (n_pairs=2856)
+     AXISBANK       half-spread  0.301%  (n_pairs=2856)
+     HCLTECH        half-spread  0.307%  (n_pairs=2856)
+     HDFCLIFE       half-spread  0.309%  (n_pairs=2146)
+     EICHERMOT      half-spread  0.311%  (n_pairs=2856)
+     TITAN          half-spread  0.315%  (n_pairs=2856)
+     ONGC           half-spread  0.318%  (n_pairs=2856)
+     CIPLA          half-spread  0.320%  (n_pairs=2856)
+     POWERGRID      half-spread  0.321%  (n_pairs=2856)
+     BAJAJFINSV     half-spread  0.323%  (n_pairs=2856)
+     M&M            half-spread  0.324%  (n_pairs=2856)
+     NTPC           half-spread  0.326%  (n_pairs=2856)
+     GRASIM         half-spread  0.330%  (n_pairs=2856)
+     TECHM          half-spread  0.333%  (n_pairs=2859)
+     INDUSINDBK     half-spread  0.335%  (n_pairs=2856)
+     SUNPHARMA      half-spread  0.336%  (n_pairs=2856)
+     TATASTEEL      half-spread  0.336%  (n_pairs=2856)
+     UPL            half-spread  0.339%  (n_pairs=2856)
+     BHARTIARTL     half-spread  0.340%  (n_pairs=2856)
+     BAJFINANCE     half-spread  0.342%  (n_pairs=2856)
+     DIVISLAB       half-spread  0.346%  (n_pairs=2856)
+     TATACONSUM     half-spread  0.347%  (n_pairs=2856)
+     APOLLOHOSP     half-spread  0.348%  (n_pairs=2856)
+     BPCL           half-spread  0.356%  (n_pairs=2855)
+     ADANIPORTS     half-spread  0.366%  (n_pairs=2855)
+     HINDALCO       half-spread  0.375%  (n_pairs=2856)
+     SHREECEM       half-spread  0.376%  (n_pairs=2856)
+     JSWSTEEL       half-spread  0.377%  (n_pairs=2856)
+
+3. TIME TREND -- NIFTY-47 median half-spread by era
+----------------------------------------------------------------------------------------------------------------------
+2015-2019                          | n=  47 | mean  0.329% | median  0.326% | p25  0.294% | p75  0.369% | p95  0.407% | ratio-to-0.05%  6.53x | ratio-to-0.20%  1.63x
+2020-2022                          | n=  47 | mean  0.339% | median  0.335% | p25  0.307% | p75  0.372% | p95  0.420% | ratio-to-0.05%  6.71x | ratio-to-0.20%  1.68x
+2023-2026                          | n=  47 | mean  0.250% | median  0.243% | p25  0.225% | p75  0.277% | p95  0.300% | ratio-to-0.05%  4.86x | ratio-to-0.20%  1.22x
+
+4. LIMITATIONS (read before trusting any number above)
+----------------------------------------------------------------------------------------------------------------------
+   - Corwin-Schultz is an ESTIMATE, not a measurement of actual quoted spreads --
+     we have no NSE tick-by-tick bid/ask data for this universe, only daily OHLCV.
+   - The estimator is known to be biased UPWARD when overnight price gaps are large:
+     it derives the spread from the excess of the 2-day high-low range (gamma) over
+     what continuous within-day diffusion alone would predict from the two single-day
+     ranges (beta); a genuine overnight jump (news, results, index rebalancing) inflates
+     that excess and gets attributed to "spread" even though no one crossed a spread
+     to produce it. Indian small/midcaps gap far more than NIFTY-50 largecaps, so this
+     bias likely hits the wide-universe tiers harder than the NIFTY-47 subset.
+   - It assumes continuous trading within the day and well-behaved (non-halted,
+     non-circuit-limit) price formation; circuit-filter days, illiquid single-print
+     days, and corporate-action gaps (splits/bonuses not cleanly adjusted) all violate
+     this and inflate the estimate for the affected day-pair.
+   - It estimates the DAILY average spread, which can differ materially from the
+     spread at the specific moment an order is placed (open, mid-day, close all differ;
+     our paper-trading fills happen at specific bar opens, not at a daily average).
+   - Negative S estimates were floored to 0 before averaging (the paper's standard
+     convention) -- this asymmetric floor mechanically pushes the per-symbol AVERAGE
+     spread up relative to the (unobservable) true average, compounding the upward
+     bias above.
+   - Day-pairs separated by >5 calendar days (trading halts, suspensions, illiquid
+     multi-day gaps) were excluded rather than treated as "consecutive" -- a data-
+     cleaning choice, not part of the original CS spec, but the alternative (silently
+     combining widely separated bars) would be worse.
+   - Does NOT capture market impact -- irrelevant here, our order sizes (~Rs 20k) are
+     far too small to move these names.
+   - Does NOT capture the gap between "quote-based spread" and "trade-price-based
+     fill": our paper trader fills at recorded trade/bar prices, not at bid/ask quotes,
+     so realized slippage in practice reflects a mix of spread-crossing and price-time
+     execution noise that this estimator does not separate out.
+   NET: every disclosed bias above pushes in the SAME direction (upward). Treat every
+   number in this report as an UPPER BOUND on the true one-way half-spread, not a
+   point estimate.
+
+VERDICT
+----------------------------------------------------------------------------------------------------------------------
+   NIFTY-47 median half-spread (upper-bound estimate): 0.311%  vs. assumed 0.05%/side
+     -> ratio 6.22x -- TOO OPTIMISTIC. Even granting the estimator's known upward bias and
+        discounting generously, a 6x gap is too large to explain away; the 0.05% assumption
+        understates real one-way cost for this universe. A better-grounded per-side number for
+        NIFTY-47-scale liquid names is roughly 0.155-0.311%, i.e. somewhere between
+        half this upper-bound estimate (crude allowance for gap-driven bias) and the estimate itself.
+
+   Wide-679-universe median half-spread (upper-bound estimate): 0.467%  vs. assumed 0.20%/side
+     -> ratio 2.34x -- TOO OPTIMISTIC.
+        By tier: Low(T1) 0.527% (2.64x)  |  Mid(T2) 0.478% (2.39x)  |  High(T3) 0.390% (1.95x)
+        Every tier -- including the most liquid third (T3) -- estimates meaningfully above the 0.2%
+        assumption. The gap is smaller than NIFTY-47's (which is itself notable: NIFTY-47 names are a
+        subset of T3 and estimate BELOW the T3 median, consistent with the largest-cap names having the
+        tightest spreads within the liquid tier), but even T3's 1.95x ratio is hard to fully explain away
+        via CS's upward bias alone. A better-grounded per-side number for the wide universe is likely
+        0.195-0.527% depending on tier, i.e. noticeably above 0.2%
+        for illiquid names and only roughly in range for the most liquid third.
+
+   Bottom line: is 0.05%/side defensible for NIFTY-47? TOO OPTIMISTIC (estimate is an upper bound at 0.311%, 6.22x the assumption -- too large a gap to attribute to estimator bias alone).
+   Is 0.2%/side defensible for the wide universe? TOO OPTIMISTIC overall (median estimate 0.467%, 2.34x the assumption); even the High-liquidity tier (T3, 1.95x) runs hot, and Low-liquidity (T1, 2.64x) clearly understates real cost.
+
+================================================================================
+CORRECTION — 2026-07-27 (reviewer)
+================================================================================
+The Corwin-Schultz figures above are REJECTED as an estimate of tradeable
+spread for liquid names. The method was mis-specified for this job (my error,
+not the implementer's): applied to DAILY bars it must separate spread from a
+daily range dominated by genuine volatility (1-2% for Indian equities), and
+where spread << volatility that separation is unreliable. It failed by ~24x.
+
+Decisive sanity check: if the NIFTY-47 half-spread were really 0.311%, every
+1-minute bar would have to span >= 0.62%. Observed median 1-min range for
+RELIANCE is 0.052%, 10th percentile 0.020% — 12x smaller than required.
+
+Two independent methods on 1-MINUTE data (46 NIFTY symbols, Nov25-Jan26):
+  Roll (1984) estimator, from serial covariance of 1-min returns:
+      full spread  median 0.0263%   (p25 0.0200%, p75 0.0304%)
+      HALF-spread  median 0.0131%   (p75 0.0152%)
+  10th-percentile 1-min high-low range (independent upper bound on spread):
+      median 0.0238%
+  The two agree within ~10%, which Corwin-Schultz does not.
+
+VERDICT (supersedes the verdict above):
+  - NIFTY-47 half-spread is ~0.013%/side. The 0.05%/side assumption is
+    CONSERVATIVE by ~3.8x, not optimistic. Backtests using it were harsher
+    than reality, which is the safe direction.
+  - The wide-universe 0.2%/side figure CANNOT be verified with our data (we
+    hold minute bars only for the 48 NIFTY names). Given liquid names measure
+    0.013% and smallcap spreads typically run 5-20x wider, 0.2%/side is
+    likely conservative too, but that is inference, not measurement.
+  - Live paper trading's 0% remains the only indefensible assumption, though
+    the correct magnitude is small: ~0.013%/side = ~Rs 5/round trip on a 20k
+    position, vs ~Rs 19 of statutory charges.
+
+METHOD NOTE for future work: estimate spreads from the highest-frequency data
+available. Daily-range estimators are for markets where quote data is absent
+AND spreads are wide relative to volatility; neither holds here.
