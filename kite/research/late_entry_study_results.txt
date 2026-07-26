@@ -1,0 +1,90 @@
+FROZEN QUESTION: do intraday trades ENTERED in the 14:45-15:05 window show
+negative after-cost expectancy, and does excluding that window improve total
+P&L on BOTH samples? Decision rule: recommend moving the live entry cutoff
+15:05 -> 14:45 ONLY IF (a) the 14:45-15:05 entry bucket's mean P&L/trade < 0
+on both samples AND (b) total P&L excluding that bucket >= total including it
+on both samples. Otherwise 15:05 stands.
+
+Strategies (ORIGINAL variant, own stops/targets, no v2 modifications): ['bb_mean_reversion', 'cci_divergence', 'choppiness_filter', 'adx_filter']
+
+==============================================================================
+=== Sample 1: Nov 2025 - Jan 2026 (60d CSVs) ===
+==============================================================================
+  [bb_mean_reversion   ] days used  43 | raw signals  1442 | executed trades  806 | cutoff-blocked (would-be entry >=15:05)  40
+  [cci_divergence      ] days used  43 | raw signals  2701 | executed trades  590 | cutoff-blocked (would-be entry >=15:05)  99
+  [choppiness_filter   ] days used  43 | raw signals   598 | executed trades  394 | cutoff-blocked (would-be entry >=15:05)  16
+  [adx_filter          ] days used  43 | raw signals   186 | executed trades  157 | cutoff-blocked (would-be entry >=15:05)  11
+  Sanity check OK: 0 executed trades with entry_time >= 15:05.
+
+-- Per-bucket P&L (pooled across all 4 strategies, entry-time bucketed) --
+  09:15-10:00   :  958 trades | total Rs    -59,605 | mean/trade Rs    -62.2 | win  28.2% | EOD-exit  13.0%
+  10:00-12:00   :  384 trades | total Rs    -23,558 | mean/trade Rs    -61.3 | win  28.1% | EOD-exit  22.9%
+  12:00-14:00   :  369 trades | total Rs    -23,251 | mean/trade Rs    -63.0 | win  19.8% | EOD-exit  27.4%
+  14:00-14:45   :  163 trades | total Rs     -9,641 | mean/trade Rs    -59.1 | win  11.7% | EOD-exit  40.5%
+  14:45-15:05   :   73 trades | total Rs     -3,571 | mean/trade Rs    -48.9 | win  23.3% | EOD-exit  58.9%
+
+-- Per-strategy x last-bucket (14:45-15:05) breakdown --
+  bb_mean_reversion   :   35 trades | total Rs    -1,441 | mean/trade Rs    -41.2 | win  31.4% | EOD-exit  45.7%
+  cci_divergence      :   24 trades | total Rs    -1,194 | mean/trade Rs    -49.8 | win  20.8% | EOD-exit  75.0%
+  choppiness_filter   :   11 trades | total Rs      -863 | mean/trade Rs    -78.5 | win   0.0% | EOD-exit  63.6%
+  adx_filter          :    3 trades | total Rs       -73 | mean/trade Rs    -24.5 | win  33.3% | EOD-exit  66.7%
+
+-- Counterfactual: total P&L with vs without the 14:45-15:05 bucket --
+  Including last bucket: Rs   -119,627  (1947 trades)
+  Excluding last bucket: Rs   -116,056  (1874 trades)
+  Delta (excl - incl)  : Rs     +3,571  (improves by excluding it)
+
+  Sanity stat: total signals across all 4 strategies that would have entered
+  at/after 15:05 if the live cutoff did not exist: 166
+
+==============================================================================
+=== Sample 2: Jul 13-20 2026 (release DB) ===
+==============================================================================
+  [bb_mean_reversion   ] days used   6 | raw signals   181 | executed trades   91 | cutoff-blocked (would-be entry >=15:05)   3
+  [cci_divergence      ] days used   6 | raw signals   283 | executed trades   50 | cutoff-blocked (would-be entry >=15:05)   7
+  [choppiness_filter   ] days used   6 | raw signals    72 | executed trades   43 | cutoff-blocked (would-be entry >=15:05)   0
+  [adx_filter          ] days used   6 | raw signals    32 | executed trades   22 | cutoff-blocked (would-be entry >=15:05)   0
+  Sanity check OK: 0 executed trades with entry_time >= 15:05.
+
+-- Per-bucket P&L (pooled across all 4 strategies, entry-time bucketed) --
+  09:15-10:00   :  118 trades | total Rs    -10,658 | mean/trade Rs    -90.3 | win  19.5% | EOD-exit  10.2%
+  10:00-12:00   :   27 trades | total Rs     -1,163 | mean/trade Rs    -43.1 | win  40.7% | EOD-exit  18.5%
+  12:00-14:00   :   32 trades | total Rs     -2,250 | mean/trade Rs    -70.3 | win  12.5% | EOD-exit  31.2%
+  14:00-14:45   :   25 trades | total Rs     -1,888 | mean/trade Rs    -75.5 | win  16.0% | EOD-exit  44.0%
+  14:45-15:05   :    4 trades | total Rs       -213 | mean/trade Rs    -53.3 | win   0.0% | EOD-exit 100.0%
+
+-- Per-strategy x last-bucket (14:45-15:05) breakdown --
+  bb_mean_reversion   :    4 trades | total Rs      -213 | mean/trade Rs    -53.3 | win   0.0% | EOD-exit 100.0%
+  cci_divergence      : no trades in last bucket
+  choppiness_filter   : no trades in last bucket
+  adx_filter          : no trades in last bucket
+
+-- Counterfactual: total P&L with vs without the 14:45-15:05 bucket --
+  Including last bucket: Rs    -16,172  (206 trades)
+  Excluding last bucket: Rs    -15,959  (202 trades)
+  Delta (excl - incl)  : Rs       +213  (improves by excluding it)
+
+  Sanity stat: total signals across all 4 strategies that would have entered
+  at/after 15:05 if the live cutoff did not exist: 10
+
+==============================================================================
+FROZEN VERDICT
+==============================================================================
+Decision rule: recommend moving the live entry cutoff 15:05 -> 14:45 ONLY IF,
+on BOTH samples: (a) the 14:45-15:05 bucket's mean P&L/trade < 0, AND
+(b) total P&L excluding that bucket >= total P&L including it.
+Otherwise 15:05 stands. No threshold changes after results seen (frozen).
+
+Criterion (a): 14:45-15:05 mean P&L/trade < 0, on BOTH samples
+  [Sample 1: Nov 2025 - Jan 2026 (60d CSVs)] mean/trade Rs    -48.9  (73 trades)  -> PASS
+  [Sample 2: Jul 13-20 2026 (release DB)] mean/trade Rs    -53.3  (4 trades)  -> PASS
+  Criterion (a): PASS
+
+Criterion (b): total P&L excluding last bucket >= total including it, on BOTH samples
+  [Sample 1: Nov 2025 - Jan 2026 (60d CSVs)] excl Rs   -116,056  vs  incl Rs   -119,627  -> PASS
+  [Sample 2: Jul 13-20 2026 (release DB)] excl Rs    -15,959  vs  incl Rs    -16,172  -> PASS
+  Criterion (b): PASS
+
+------------------------------------------------------------------------------
+OVERALL: PASS -> RECOMMENDATION: move the live entry cutoff 15:05 -> 14:45.
+------------------------------------------------------------------------------
