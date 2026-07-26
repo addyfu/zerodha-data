@@ -96,6 +96,30 @@ def test_delivery_costs_more_than_intraday(tmp):
     return f'intraday {p_intra.charges:.2f} < delivery {p_deliv.charges:.2f}'
 
 
+def test_dp_charge_delivery_only(tmp):
+    """DP (depository) charge: flat Rs 13.5 + GST per delivery SELL, never on
+    intraday (nothing leaves the demat account). Missing entirely until
+    2026-07-26, which understated every swing/rotation trade by ~36%."""
+    intraday = zerodha_charges.calculate_charges(20000, 20200, is_intraday=True)
+    delivery = zerodha_charges.calculate_charges(20000, 20200, is_intraday=False)
+    assert intraday['dp'] == 0.0, intraday['dp']
+    assert abs(delivery['dp'] - 13.5) < 1e-9, delivery['dp']
+    # GST must be levied on the DP charge too. Check the base directly rather
+    # than comparing the two modes — delivery has zero brokerage while intraday
+    # has ~12, so their GST bases are not a simple offset (an earlier version of
+    # this assertion made exactly that mistake).
+    expected_gst = (delivery['brokerage'] + delivery['exchange']
+                    + delivery['sebi'] + delivery['dp']) * 0.18
+    assert abs(delivery['gst'] - expected_gst) < 1e-6, (delivery['gst'], expected_gst)
+    assert delivery['gst'] > 13.5 * 0.18, 'GST base must include the DP charge'
+    # Flat fee => strictly worse in % terms for smaller positions
+    small = zerodha_charges.calculate_charges(19000, 19190, is_intraday=False)
+    big = zerodha_charges.calculate_charges(150000, 151500, is_intraday=False)
+    assert small['total'] / 19000 > big['total'] / 150000, 'flat DP must bite small harder'
+    return (f"intraday dp 0.00 | delivery dp 13.50 | "
+            f"small {small['total']/19000*100:.3f}% > big {big['total']/150000*100:.3f}%")
+
+
 def test_capital_reflects_net(tmp):
     """Capital must move by NET, otherwise the book slowly invents money."""
     t = _trader(tmp, 'cap.db', capital=100000)
@@ -175,7 +199,8 @@ def test_open_positions_unaffected(tmp):
 
 def main():
     tests = [test_long_intraday_net_of_charges, test_short_direction_sign,
-             test_delivery_costs_more_than_intraday, test_capital_reflects_net,
+             test_delivery_costs_more_than_intraday, test_dp_charge_delivery_only,
+             test_capital_reflects_net,
              test_persisted_columns_roundtrip, test_backfill_idempotent,
              test_dry_run_writes_nothing, test_open_positions_unaffected]
     passed = failed = 0

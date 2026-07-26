@@ -75,6 +75,13 @@ class ZerodhaCharges:
     # was charging intraday at the delivery rate (5x too high). Verified 2026-07-26.
     stamp_duty_buy: float = 0.00015           # delivery: 0.015%
     stamp_duty_buy_intraday: float = 0.00003  # intraday: 0.003%
+
+    # DP (depository) charge: Rs 13.5 + GST per scrip per day, charged on
+    # DELIVERY SELLS only — nothing leaves the demat account on an intraday
+    # trade. FLAT, not a percentage, so it bites small positions hardest
+    # (~0.08% on a 19k position vs ~0.01% on a 150k one). Was missing entirely
+    # until 2026-07-26; delivery costs were understated by ~36% as a result.
+    dp_charge_per_sell: float = 13.5
     
     def calculate_charges(self, buy_value: float, sell_value: float, 
                          is_intraday: bool = True) -> Dict[str, float]:
@@ -105,9 +112,12 @@ class ZerodhaCharges:
         # SEBI charges (computed before GST — it is part of the GST base)
         charges['sebi'] = (buy_value + sell_value) * self.sebi_charges
 
-        # GST applies to brokerage + exchange transaction charges + SEBI charges
+        # DP charge — delivery sells only, flat per scrip, GST applies on top
+        charges['dp'] = 0.0 if is_intraday else self.dp_charge_per_sell
+
+        # GST applies to brokerage + exchange + SEBI + DP
         charges['gst'] = (charges['brokerage'] + charges['exchange']
-                          + charges['sebi']) * self.gst
+                          + charges['sebi'] + charges['dp']) * self.gst
 
         # Stamp duty — buy side only, product-specific rate
         charges['stamp_duty'] = buy_value * (
