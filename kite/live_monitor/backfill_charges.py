@@ -81,11 +81,37 @@ def backfill(label, db_path, dry_run):
                 "UPDATE positions SET gross_pnl = ?, charges = ?, pnl = ?, pnl_pct = ? "
                 "WHERE id = ?", (gross, charges, net, pct, pid))
 
+    # Reconcile the account balance too: the stored capital was accumulated by
+    # the old gross-booking code, so it overstates the book by exactly the
+    # charges just applied. Recompute from first principles instead of patching
+    # a delta — capital = initial - (value tied up in open positions)
+    #                             + (net P&L of every closed trade).
+    init_row = cur.execute(
+        "SELECT initial_capital FROM account ORDER BY id DESC LIMIT 1").fetchone()
+    cap_note = ''
+    if init_row:
+        initial = init_row[0]
+        open_value = cur.execute(
+            "SELECT COALESCE(SUM(entry_price * quantity), 0) FROM positions "
+            "WHERE status = 'open'").fetchone()[0]
+        closed_net = cur.execute(
+            "SELECT COALESCE(SUM(pnl), 0) FROM positions WHERE status = 'closed'"
+        ).fetchone()[0]
+        expected = initial - open_value + closed_net
+        current = cur.execute(
+            "SELECT capital FROM account ORDER BY id DESC LIMIT 1").fetchone()[0]
+        if abs(current - expected) > 0.01:
+            cap_note = f" | capital {current:,.2f} -> {expected:,.2f}"
+            if not dry_run:
+                cur.execute("UPDATE account SET capital = ? WHERE id = "
+                            "(SELECT id FROM account ORDER BY id DESC LIMIT 1)",
+                            (expected,))
+
     if not dry_run:
         conn.commit()
     conn.close()
     print(f"{label}: {repaired} trades repaired | gross {tot_gross:+,.0f} "
-          f"| charges -{tot_chg:,.0f} | net {tot_gross - tot_chg:+,.0f}")
+          f"| charges -{tot_chg:,.0f} | net {tot_gross - tot_chg:+,.0f}{cap_note}")
     return tot_gross, tot_chg, repaired
 
 
