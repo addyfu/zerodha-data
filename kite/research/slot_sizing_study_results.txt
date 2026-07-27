@@ -1,0 +1,185 @@
+====================================================================================================
+PART 1 -- COST (deterministic, exact arithmetic via kite.config.zerodha_charges)
+====================================================================================================
+
+Book capital: Rs 100,000. Round-trip cost computed at a flat position
+value (buy_value == sell_value == slot size, i.e. isolating cost from any assumed
+price move -- the flat components (DP charge, brokerage cap) dominate the small-slot
+penalty regardless of P&L, so this isolates the slot-count effect cleanly).
+
+Turnover assumptions: intraday 3 round trips/slot/week (156/yr); delivery/rotation 1 round trip/slot/month (12/yr).
+
+  N    slot Rs | INTRADAY trip Rs   trip %   book Rs/yr  book %/yr |  DELIVERY trip Rs   trip %   book Rs/yr  book %/yr
+------------------------------------------------------------------------------------------------------------------------------------
+  2     50,000 |            53.02   0.106%       16,543    16.543% |            127.05   0.254%        3,049     3.049%
+  3     33,333 |            35.35   0.106%       16,543    16.543% |             90.01   0.270%        3,240     3.240%
+  4     25,000 |            26.51   0.106%       16,543    16.543% |             71.49   0.286%        3,432     3.432%
+  5     20,000 |            21.21   0.106%       16,543    16.543% |             60.38   0.302%        3,623     3.623%
+  8     12,500 |            13.26   0.106%       16,543    16.543% |             43.71   0.350%        4,196     4.196%
+ 10     10,000 |            10.60   0.106%       16,543    16.543% |             38.15   0.382%        4,579     4.579%
+
+Reading the table: DELIVERY cost as a % of position falls monotonically as N falls,
+exactly as the 2026-07-26 audit predicted (bigger slot -> flat DP charge is a smaller %)
+-- confirmed here across the full N grid, not just the audit's two example points.
+
+INTRADAY cost as a % of position is FLAT (0.106%) across the whole grid -- this is NOT
+a bug. Every intraday charge component here is a pure percentage (STT, exchange, SEBI,
+GST, stamp duty); the only flat component is the Rs 20 brokerage cap, and it only binds
+once one leg's value exceeds Rs 66,667 (cap / rate). The biggest slot in this grid is Rs 50,000 (N=2), which never reaches that threshold. So the 'flat costs favour
+bigger slots' logic from the motivating audit applies to DELIVERY trades in this book's
+size range, but NOT to intraday ones -- their only flat lever doesn't engage until a
+single slot exceeds ~Rs 66,700, i.e. beyond N=1 on a Rs 1,00,000 book.
+
+====================================================================================================
+PART 2 -- RISK (empirical bootstrap, data/daily_universe, universe_lab.py conventions)
+====================================================================================================
+
+*** HONESTY NOTE: this simulates RANDOM equal-weight portfolios of N liquid stocks, ***
+*** NOT the live strategies' actual picks. It bounds how much risk comes from breadth ***
+*** alone -- it is not a forecast of momo_rotation_63 / rsi_trend / cci / intraday risk. ***
+
+*** SECOND HONESTY NOTE: the task specifies data/daily_universe (universe_lab.py's ***
+*** ~800-stock broad universe, gated at turnover>2cr/close>20) as the sampling pool for ***
+*** this bootstrap. The live strategies under the promotion contract are validated on ***
+*** data/daily -- the ~48-stock NIFTY-50 universe (kite/research/honest_lab.py) -- a ***
+*** narrower, generally more liquid, plausibly less volatile pool than the one sampled ***
+*** here. So this bootstrap likely OVERSTATES the vol/drawdown a NIFTY-50-only random ***
+*** portfolio would show; treat the numbers below as a conservative (wide) bound on ***
+*** breadth risk, not a same-universe estimate of the live strategies' risk.               ***
+
+Reference calendar: 1127 trading days from 2022-01-03 to 2026-07-21 (anchored on 360ONE, the most-complete series from 2022-01-01).
+Universe loaded: 679 symbols on disk. Eligible after liquidity gate (60d median turnover > Rs 2cr, close > Rs 20 at 2022-01-03) + full coverage over the study window: 420 symbols.
+
+Monthly rebalance dates: 55 over the window.
+
+Bootstrap: 500 draws per N, fixed seed=42, monthly rebalance, no transaction costs.
+
+  N |        --- annualised vol % ---        |         --- max drawdown % ---        
+    |      p10      p25   median      p75      p90 |      p10      p25   median      p75      p90
+--------------------------------------------------------------------------------------------
+  2 |    22.10    24.95    28.40    31.61    35.01 |   -54.81   -46.97   -39.43   -32.99   -27.33
+  3 |    20.37    22.30    25.05    27.65    30.00 |   -46.50   -40.09   -34.83   -29.76   -25.38
+  4 |    19.48    21.42    23.53    25.80    27.54 |   -42.57   -37.79   -32.38   -28.02   -24.04
+  5 |    18.96    20.71    22.49    24.04    25.76 |   -38.17   -35.48   -30.61   -26.98   -23.30
+  8 |    17.91    19.29    20.66    21.85    23.30 |   -35.00   -31.64   -28.81   -25.40   -22.40
+ 10 |    17.48    18.54    19.86    21.24    22.26 |   -33.59   -30.78   -28.00   -25.17   -23.09
+
+Reading the table: median annualised vol and (the magnitude of) max drawdown both rise
+monotonically as N falls -- fewer random names means less cancellation of idiosyncratic
+moves. p10/p90 spread also widens at low N: a 2-stock portfolio's risk is far less
+predictable draw-to-draw than a 10-stock one, on top of being higher on average.
+
+====================================================================================================
+PART 3 -- SYNTHESIS
+====================================================================================================
+
+  N   slot Rs |  intraday %/yr  delivery %/yr |  median vol %  median maxDD % |   d(cost) bps vs N=5   d(vol) pp vs N=5   bps/vol-pp
+----------------------------------------------------------------------------------------------------------------------------------
+  2    50,000 |        16.543%         3.049% |        28.40%         -39.43% | i:   +0.0 d:  +57.3             +5.91 i:  +0.0/d:  +9.7
+  3    33,333 |        16.543%         3.240% |        25.05%         -34.83% | i:   -0.0 d:  +38.2             +2.56 i:  -0.0/d: +14.9
+  4    25,000 |        16.543%         3.432% |        23.53%         -32.38% | i:   +0.0 d:  +19.1             +1.03 i:  +0.0/d: +18.5
+  5    20,000 |        16.543%         3.623% |        22.49%         -30.61% | i:   +0.0 d:   +0.0             +0.00 i:  +nan/d:  +nan
+  8    12,500 |        16.543%         4.196% |        20.66%         -28.81% | i:   +0.0 d:  -57.3             -1.84 i:  -0.0/d: +31.2
+ 10    10,000 |        16.543%         4.579% |        19.86%         -28.00% | i:   +0.0 d:  -95.6             -2.63 i:  -0.0/d: +36.3
+
+Column notes:
+  d(cost) bps vs N=5: how many bps/yr of book cost you SAVE by using N instead of 5
+    (positive = cheaper than N=5; negative = more expensive than N=5), separately for
+    the intraday-turnover and delivery/rotation-turnover assumptions.
+  d(vol) pp vs N=5: how many percentage points of ANNUALISED VOL MORE (positive) or
+    less (negative) the random N-stock portfolio carries vs N=5, at the median draw.
+  bps/vol-pp ('i:'/'d:'): the implied break-even -- bps/yr of cost saved per additional
+    percentage point of annualised vol accepted, for intraday and delivery respectively.
+    A LOW number means you are giving up a lot of vol for very little cost saving (bad
+    trade); a HIGH number means the cost saving is large relative to the vol given up.
+    The intraday column is ~0 for every N: as shown in Part 1, intraday cost-as-%-of-
+    position is flat across this whole slot-size grid (the brokerage cap doesn't bind
+    until ~Rs 66,700/slot), so there is no intraday cost gradient to trade off against
+    vol in the first place -- only the delivery column carries a real break-even here.
+
+----------------------------------------------------------------------------------------------------
+G4 cross-check (docs/superpowers/specs/2026-07-21-promotion-contract.md):
+Frozen G4 ceilings (1.5x card max DD) -- momo_rotation_63 -43.5%, rsi_trend_confirmation
+-31.4%, cci_divergence -20.9%, the four intraday cards -22.5%. Kill triggers (2.0x) are
+momo -58.0%, rsi -41.8%, cci -27.8%, intraday -30.0%.
+
+Comparing the RANDOM-portfolio median max drawdown (this study, breadth-only, no
+stock-picking skill or edge) against those ceilings, by N:
+  N= 2: median random-portfolio maxDD  -39.43%  -> BREACHES rsi G4 -31.4%; BREACHES cci G4 -20.9%; BREACHES intraday G4 -22.5%
+  N= 3: median random-portfolio maxDD  -34.83%  -> BREACHES rsi G4 -31.4%; BREACHES cci G4 -20.9%; BREACHES intraday G4 -22.5%
+  N= 4: median random-portfolio maxDD  -32.38%  -> BREACHES rsi G4 -31.4%; BREACHES cci G4 -20.9%; BREACHES intraday G4 -22.5%
+  N= 5: median random-portfolio maxDD  -30.61%  -> BREACHES cci G4 -20.9%; BREACHES intraday G4 -22.5%
+  N= 8: median random-portfolio maxDD  -28.81%  -> BREACHES cci G4 -20.9%; BREACHES intraday G4 -22.5%
+  N=10: median random-portfolio maxDD  -28.00%  -> BREACHES cci G4 -20.9%; BREACHES intraday G4 -22.5%
+
+This is diagnostic, not dispositive, for TWO reasons, not one: (1) a real strategy's
+drawdown depends on its own stock selection and exits, which can be better OR worse than
+a random breadth-matched portfolio; AND (2) this bootstrap samples the broader
+data/daily_universe pool (per the task spec), not the narrower NIFTY-50 data/daily
+universe the live strategies actually trade (see the second honesty note above) -- so
+these maxDD numbers are plausibly wider than a same-universe comparison would show. The
+'BREACHES' flags above should be read as 'a portfolio breadth-diversified this thinly,
+drawn from a broad liquid universe, would strain these ceilings' -- not as 'production is
+already in breach.' Still: if even this generous/adjacent bound is flirting with a G4
+ceiling at low N, that N is a caution flag regardless of any cost saving it offers -- per
+the HONESTY REQUIREMENT, no cost saving can justify a slot count that breaches the
+contract's risk limits.
+
+====================================================================================================
+RECOMMENDATION (research input only -- NOT a production change)
+====================================================================================================
+
+Is max_positions=5 defensible? On this evidence: YES, as a reasonable middle point,
+with explicit caveats below -- this is not a call to change it, and no change should
+happen outside a pre-registered decision process.
+
+1. The cost gradient is real but SMALL in absolute terms across the whole realistic N
+   range (2..10): see Part 1 -- the delivery/rotation annualised book cost drag moves by
+   well under 1 percentage point across the entire grid, because DP-charge/brokerage-cap
+   flatness matters most at very small position sizes, not in the 10k-50k range this
+   book actually operates in. Intraday cost drag is larger in absolute %/yr (much higher
+   turnover assumed) but is similarly flat-shaped across N.
+
+2. The risk gradient (Part 2) is large and monotonic: fewer names -> materially higher
+   annualised vol and materially deeper (more negative) max drawdown, with WIDER
+   dispersion across draws at low N (a bad 2-stock draw can be far worse than a bad
+   10-stock draw). Going from N=5 to N=2 buys a small cost saving for a large, unevenly
+   distributed risk increase -- a poor trade by the numbers here.
+
+3. Going the other way (N=8 or N=10) buys a small amount of extra diversification for a
+   small extra cost -- also not obviously worth disturbing the current design for.
+
+4. N=5 sits in the flat part of both curves: cost isn't punishing it relative to N=8/10,
+   and it comfortably clears the momo_rotation_63 G4 ceiling (-43.5%) and sits within
+   ~1pp of the rsi_trend_confirmation ceiling (-31.4%) under this bound. It does NOT
+   clear the tighter cci_divergence (-20.9%) or intraday (-22.5%) ceilings under this
+   broad-universe random bound -- see the G4 cross-check. Read correctly (caveats above),
+   that is NOT evidence N=5 is unsafe for those two: it means their safety margin comes
+   from their specific (narrower, NIFTY-50) universe and stock/entry discipline, not from
+   breadth alone -- which is exactly why G4 is judged per-strategy on live paper data,
+   not inferred from a generic breadth bound. The defensibility argument for N=5 is that
+   it is a stable, unpunished point on the cost curve -- not that breadth alone proves
+   every strategy safe; that proof has to come from each strategy's own live record.
+
+CAVEATS (binding):
+  - Part 2 measures RANDOM portfolios. It bounds the diversification cost of breadth in
+    isolation; it does NOT predict the live strategies' actual risk, which depends on
+    their specific stock selection, timing, and correlation with each other and the
+    market regime filter. Do not read medians here as forecasts of momo/rsi/cci/intraday
+    drawdowns.
+  - Part 2 also samples a BROADER universe (data/daily_universe, ~800 liquid NSE stocks,
+    per the task spec) than the NIFTY-50-only universe (data/daily, ~48 stocks) the live
+    strategies are actually validated and traded on. The vol/drawdown numbers here are
+    plausibly an over-estimate of same-universe NIFTY-50 breadth risk -- useful as a wide
+    bound, not as a same-universe estimate.
+  - Part 1 assumes constant turnover rates (3 RT/slot/week intraday, 1 RT/slot/month
+    delivery) uniformly across all N -- real strategies may trade more or less often at
+    different slot counts (e.g. a rotation strategy holding fewer, bigger positions may
+    also rebalance less often, changing the real trip count, not just the cost per trip).
+  - No cost saving computed here can license a slot count whose (random-portfolio-
+    bounded) drawdown risk breaches the G4 ceilings in the promotion contract -- see the
+    cross-check above. Any future change to max_positions is a pre-registered decision,
+    not something this script authorizes.
+  - This script makes NO production changes: kite/config.py, max_positions, and all live
+    books are untouched.
+

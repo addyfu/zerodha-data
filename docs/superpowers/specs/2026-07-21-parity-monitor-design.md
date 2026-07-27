@@ -78,6 +78,7 @@ one Telegram line (always), `parity_history.jsonl` (always), and
 |---|---|---|---|---|---|
 | P1 | **Liveness**: scan cycles logged today (market day) | system | — | zero cycles | alert (nothing to pause — monitor is dead) |
 | P2 | **Data freshness**: daily cache count at swing scan | system | <90% of universe | <50% | alert |
+| P14 | **Wide-universe data freshness**: `load_wide_daily_data()` cache count (679-stock swing-candidate universe) at swing scan; line absent entirely on a market day → RED | system | <90% of universe *(reuses P2's threshold — see 2026-07-27 decision log)* | <50% *(reuses P2's threshold)* | alert |
 | P3 | **Trade rate**: Poisson two-tail prob of observed trade count vs λ over rolling 20 trading days (intraday/swing strategies only) | per strategy | p<0.05 | p<0.01 | pause entries |
 | P4 | **Cadence events**: momo rebalance occurred within first 3 trading days of month; EOD square-off left zero INTRADAY positions open past 15:30 | momo / books | — | violated | alert (+pause for repeat) |
 | P5 | **Win rate**: once live N≥60 closed trades — two-proportion z-test live vs card | per strategy | p<0.05 | p<0.01 | pause entries |
@@ -198,3 +199,78 @@ that fired correctly is forbidden.
   excluded — without it the live scan would trade illiquid names the cards
   were never validated on. Heartbeat now reports `Swing universe: N/679
   loaded` alongside the existing daily/5-min counts.
+- 2026-07-27: **Two monitor-hardening fixes — blind spots closed, no §3.3
+  threshold changed.**
+  - **P14 "wide-universe-freshness" added.** Incident that prompted it: on
+    2026-07-23, `load_wide_daily_data()` (the 679-stock swing-candidate fetch
+    added 2026-07-22, above) silently returned 0/679; `scan_swing_candidates`'s
+    own fail-soft design (`self.wide_daily_cache or self.daily_data_cache`)
+    then fell back to the 47-stock NIFTY_50 list with **no check firing** — a
+    human found it only by grepping `monitor.log`. P2 never saw this: it reads
+    only the narrow `"Daily data loaded for X/Y"` line (the NIFTY_50 fetch);
+    it has no visibility into the separate `"Wide daily data loaded for
+    X/679 stocks in Zs"` line `load_wide_daily_data()` logs
+    (`kite/live_monitor/monitor.py`).
+    - **Added as a new check (P14), not folded into P2.** P2's row above is
+      specifically "daily cache count at swing scan" for the always-on
+      NIFTY_50 universe that P3/P5/P6/P7 depend on; the wide universe is a
+      separate, fail-soft, swing-detector-only fetch with a materially
+      different failure mode (silent fallback to a smaller universe, not an
+      outright data outage). One shared status would blur which universe
+      degraded and would change P2's existing meaning and existing tests
+      (`test_parity_monitor.py` scenario 4, DEAD TOKEN/DATA, asserts P2 RED
+      from the narrow line alone). This mirrors how P13 was layered onto the
+      frozen P1–P12 set on 2026-07-21 without touching §3.3.
+    - **Thresholds: reuses P2's frozen AMBER <90%/RED <50% verbatim** — see
+      the new §3.3 table row. No new number is introduced; this is the
+      "reuse, don't invent" instruction from the build brief, applied to a
+      second, independently-observed universe-size denominator (679 instead
+      of 47). Per §6, extending an already-frozen threshold's *scope* to a new
+      check is not a threshold *change* and needs no separate justification
+      beyond this note.
+    - **Missing-line case is RED, not AMBER**, unlike P2's missing-`"Daily
+      data loaded"`-line case (AMBER, "swing scan may not have run yet"):
+      `load_wide_daily_data()` runs immediately after the NIFTY_50 daily load
+      in the same startup sequence (`monitor.py:load_historical_data`), so by
+      the 16:15 IST parity run, total absence of its line means the load step
+      itself never executed — a strictly worse signal than a low count, per
+      the task brief ("If the wide-load line is absent entirely on a market
+      day, that is a RED").
+    - Skips itself (NODATA) on non-market days, same gate as P1/P2/P9.
+    - New test coverage: `test_parity_monitor.py` scenarios 12–15 (healthy
+      623/679 → GREEN, degraded 400/679 → AMBER, collapsed 0/679 → RED,
+      missing line on a market day → RED).
+  - **`PARITY_TODAY_OVERRIDE` test-only seam added**, closing a *test-suite*
+    gap (not a monitor-behavior gap): `test_parity_monitor.py` failed 4/11 on
+    Sat/Sun because scenarios 1/3/4/5 assert GREEN/RED on P1/P2/P9, which
+    correctly return NODATA on non-market days (the holiday/weekend gate
+    shipped 2026-07-22, above) — so the suite was only ever meaningfully
+    runnable Mon–Fri. Fix: every `datetime.now().date()`-equivalent call in
+    `parity_monitor.py` now goes through one seam function, `_today()`
+    (full-datetime counterpart `_now()`, used only for the run's `ts` stamp).
+    `_today()` reads `PARITY_TODAY_OVERRIDE` (format `YYYY-MM-DD`); if unset —
+    always true in production — it returns the real wall-clock date, so
+    behavior is byte-for-byte unchanged from before this entry.
+    `test_parity_monitor.py` reads the *same* env var to pin its own `TODAY`
+    constant (used to build fixture dates), and forwards it to every
+    `parity_monitor.py` subprocess it launches automatically, since
+    `run_parity()` already does `env = os.environ.copy()` — no new plumbing
+    needed there.
+    - **Cannot silently affect production**: (1) default (unset) is always
+      the real date — the Oracle systemd timer's crontab/unit never sets this
+      var; (2) whenever it IS set, `_today()` prints a loud `WARNING` to
+      stderr the first time it's called in the process, naming the pinned
+      date and stating it is test-only, so a value left set by accident is
+      immediately visible rather than silently skewing a real run; (3) a
+      malformed value (not `YYYY-MM-DD`) is ignored with its own warning
+      rather than crashing or defaulting to some other date.
+    - Verified both ways: full suite (now 15 scenarios) run once with no
+      override on a real weekday (15/15 pass) and once with
+      `PARITY_TODAY_OVERRIDE=2026-07-24` (a Thursday-free, non-holiday Friday
+      — confirmed against `NSE_HOLIDAYS_2026`) on the same real weekday
+      (15/15 pass, values shift by the expected one day e.g. P4's "trading-day
+      N of month"). As a negative control, pinning the override to an actual
+      weekend date (`2026-07-25`, Saturday) correctly reproduces the original
+      NODATA-vs-GREEN/RED conflict (7/15 pass, all 8 failures on P1/P2/P9/P14
+      scenarios expecting GREEN/RED and getting NODATA) — proof the seam
+      genuinely drives `is_market_day`/checks rather than hard-coding a pass.

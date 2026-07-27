@@ -39,7 +39,29 @@ PARITY_SCRIPT = REPO_ROOT / 'kite' / 'live_monitor' / 'parity_monitor.py'
 EXPECTATIONS_SRC = REPO_ROOT / 'kite' / 'live_monitor' / 'expectations'
 DAILY_UNIVERSE_SRC = REPO_ROOT / 'data' / 'daily_universe'
 
-TODAY = date.today()
+# ---------------------------------------------------------------------------
+# Deterministic "today" (BLIND SPOT 2 fix, 2026-07-27)
+# ---------------------------------------------------------------------------
+# Without this, TODAY = date.today() meant the suite only passed Mon-Fri:
+# on a real Sat/Sun, parity_monitor.py's own is_market_day gate (added
+# 2026-07-22) correctly returns NODATA for P1/P2/P9, but scenarios 1/3/4/5
+# assert GREEN/RED against those checks and would fail 4/11 every weekend.
+#
+# PARITY_TODAY_OVERRIDE=YYYY-MM-DD (the SAME env var parity_monitor.py itself
+# reads via its own _today() seam) lets this test script pin its own TODAY to
+# a known market weekday, so fixture dates line up with what the parity_monitor.py
+# subprocess will compute. No extra plumbing is needed to forward the value:
+# run_parity() below already does `env = os.environ.copy()`, so whatever is
+# set in THIS process's environment when the suite is launched is inherited
+# by every parity_monitor.py subprocess automatically.
+#
+# Unset (the default) => TODAY is the real date, exactly as before -- normal
+# weekday runs (including CI on a weekday) are unaffected.
+_TODAY_OVERRIDE = os.environ.get('PARITY_TODAY_OVERRIDE')
+if _TODAY_OVERRIDE:
+    TODAY = datetime.strptime(_TODAY_OVERRIDE, '%Y-%m-%d').date()
+else:
+    TODAY = date.today()
 
 
 # ---------------------------------------------------------------------------
@@ -198,10 +220,16 @@ def write_log(path: Path, lines):
         f.writelines(lines)
 
 
-def healthy_lines(day: date = None, n_scan=50, daily_load=(47, 47), n_login=0, ann_flagged=2):
+def healthy_lines(day: date = None, n_scan=50, daily_load=(47, 47), n_login=0, ann_flagged=2,
+                   wide_daily_load=(623, 679)):
     """The 'nothing wrong' baseline: N scan-cycle lines, one daily-load line,
+    one wide-universe daily-load line (default 623/679 = 91.8%, healthy per P14),
     N login lines, one ann-filter success line -- all dated `day` (default today).
-    Individual scenarios override exactly the piece they're probing."""
+    Individual scenarios override exactly the piece they're probing. The
+    wide_daily_load default matters beyond scenario 12: every OTHER scenario
+    that doesn't touch it relies on it staying GREEN so P14 doesn't show up as
+    an unexpected RED/AMBER in fixtures that assert "no REDs" or don't
+    otherwise mention P14."""
     day = day or TODAY
     lines = []
     base = datetime.combine(day, time(9, 15, 0))
@@ -212,6 +240,10 @@ def healthy_lines(day: date = None, n_scan=50, daily_load=(47, 47), n_login=0, a
         lines.append(log_line(ts, 'INFO', f"--- Scan cycle starting ({ts.strftime('%H:%M:%S')}) ---"))
     x, y = daily_load
     lines.append(log_line(base + timedelta(minutes=1), 'INFO', f"Daily data loaded for {x}/{y} stocks"))
+    if wide_daily_load is not None:
+        wx, wy = wide_daily_load
+        lines.append(log_line(base + timedelta(minutes=1, seconds=30), 'INFO',
+                               f"Wide daily data loaded for {wx}/{wy} stocks in 12.3s"))
     lines.append(log_line(base + timedelta(minutes=2), 'INFO',
                            f"AnnouncementFilter: 40 announcements scanned, {ann_flagged} symbols red-flagged"))
     return lines
@@ -678,6 +710,88 @@ def scenario_holiday_handling():
 
 
 # ---------------------------------------------------------------------------
+# Scenario 12 -- WIDE UNIVERSE HEALTHY (P14 GREEN)
+# ---------------------------------------------------------------------------
+def scenario_wide_universe_healthy():
+    """P14 baseline: 623/679 = 91.8%, at/above P2's frozen 90% GREEN floor
+    (reused verbatim -- see check_p14's docstring in parity_monitor.py)."""
+    fx = Fixture()
+    try:
+        fx.set_log(healthy_lines(wide_daily_load=(623, 679)))
+        proc, result = fx.run()
+        require_result(proc, result)
+        p14 = find_check(result, 'P14')
+        require(p14 is not None, "no P14 wide-universe-freshness check emitted")
+        require(p14['status'] == 'GREEN', f"P14 expected GREEN (623/679=91.8%), got {p14}")
+        return True, f"P14 = {p14['status']} ({p14['detail']})"
+    finally:
+        fx.cleanup()
+
+
+# ---------------------------------------------------------------------------
+# Scenario 13 -- WIDE UNIVERSE DEGRADED (P14 AMBER)
+# ---------------------------------------------------------------------------
+def scenario_wide_universe_degraded():
+    """400/679 = 58.9%: below the 90% AMBER threshold but above the 50% RED
+    floor -- same frozen band P2 already uses, applied to the wide universe."""
+    fx = Fixture()
+    try:
+        fx.set_log(healthy_lines(wide_daily_load=(400, 679)))
+        proc, result = fx.run()
+        require_result(proc, result)
+        p14 = find_check(result, 'P14')
+        require(p14 is not None, "no P14 wide-universe-freshness check emitted")
+        require(p14['status'] == 'AMBER', f"P14 expected AMBER (400/679=58.9%, <90%), got {p14}")
+        return True, f"P14 = {p14['status']} ({p14['detail']})"
+    finally:
+        fx.cleanup()
+
+
+# ---------------------------------------------------------------------------
+# Scenario 14 -- WIDE UNIVERSE COLLAPSED (P14 RED) -- the 2026-07-23 incident
+# ---------------------------------------------------------------------------
+def scenario_wide_universe_collapsed():
+    """Reproduces the actual 2026-07-23 incident: load_wide_daily_data() logged
+    0/679 and monitor.py's fail-soft design silently fell back to the 47-stock
+    NIFTY list. Nothing fired until a human grepped logs -- P14 exists to close
+    exactly this blind spot."""
+    fx = Fixture()
+    try:
+        fx.set_log(healthy_lines(wide_daily_load=(0, 679)))
+        proc, result = fx.run()
+        require_result(proc, result)
+        p14 = find_check(result, 'P14')
+        require(p14 is not None, "no P14 wide-universe-freshness check emitted")
+        require(p14['status'] == 'RED', f"P14 expected RED (0/679), got {p14}")
+        return True, f"P14 = {p14['status']} ({p14['detail']})"
+    finally:
+        fx.cleanup()
+
+
+# ---------------------------------------------------------------------------
+# Scenario 15 -- WIDE-UNIVERSE LINE MISSING ON A MARKET DAY (P14 RED)
+# ---------------------------------------------------------------------------
+def scenario_wide_universe_missing_line():
+    """load_wide_daily_data() never ran at all today (threw before its own
+    logging line, or the code path was skipped) -- distinct from the 0/679
+    case, where the function ran and logged a (bad) result. Total absence of
+    the line on a market day must ALSO be RED, per the task brief, not
+    silently treated as 'nothing to report'."""
+    fx = Fixture()
+    try:
+        fx.set_log(healthy_lines(wide_daily_load=None))  # no wide-load line at all
+        proc, result = fx.run()
+        require_result(proc, result)
+        p14 = find_check(result, 'P14')
+        require(p14 is not None, "no P14 wide-universe-freshness check emitted")
+        require(p14['status'] == 'RED',
+                f"P14 expected RED (line absent on a market day -- load_wide_daily_data never ran), got {p14}")
+        return True, f"P14 = {p14['status']} ({p14['detail']})"
+    finally:
+        fx.cleanup()
+
+
+# ---------------------------------------------------------------------------
 # main
 # ---------------------------------------------------------------------------
 SCENARIOS = [
@@ -692,6 +806,10 @@ SCENARIOS = [
     ('9 PAUSE ARMING', scenario_pause_arming),
     ('10 CARD STALENESS', scenario_card_staleness),
     ('11 HOLIDAY HANDLING', scenario_holiday_handling),
+    ('12 WIDE UNIVERSE HEALTHY', scenario_wide_universe_healthy),
+    ('13 WIDE UNIVERSE DEGRADED', scenario_wide_universe_degraded),
+    ('14 WIDE UNIVERSE COLLAPSED', scenario_wide_universe_collapsed),
+    ('15 WIDE UNIVERSE MISSING LINE', scenario_wide_universe_missing_line),
 ]
 
 
@@ -699,11 +817,19 @@ def main():
     if not PARITY_SCRIPT.exists():
         print(f"FATAL: {PARITY_SCRIPT} not found")
         return 1
+    if _TODAY_OVERRIDE:
+        print(f"NOTE: PARITY_TODAY_OVERRIDE={_TODAY_OVERRIDE} is ACTIVE -- this suite's "
+              f"reference TODAY is pinned to {TODAY} ({TODAY.strftime('%A')}), NOT the real "
+              f"wall-clock date, and that same value is forwarded to every parity_monitor.py "
+              f"subprocess via the inherited environment. TEST-ONLY; see parity_monitor.py's "
+              f"_today() for the production-safety contract.")
     if not is_market_day():
-        print(f"WARNING: today ({TODAY}) is not a market day (weekend) -- "
-              f"P1/P2/P9 will return NODATA regardless of log content, "
+        print(f"WARNING: reference day ({TODAY}) is not a market day (weekend) -- "
+              f"P1/P2/P9/P14 will return NODATA regardless of log content, "
               f"and several scenario assertions below will legitimately FAIL. "
-              f"Re-run on a weekday for a meaningful result.")
+              f"Re-run on a weekday, or set PARITY_TODAY_OVERRIDE=YYYY-MM-DD to a "
+              f"known NSE-market weekday (see NSE_HOLIDAYS_2026 in parity_monitor.py), "
+              f"for a meaningful result.")
 
     rows = []
     for name, fn in SCENARIOS:

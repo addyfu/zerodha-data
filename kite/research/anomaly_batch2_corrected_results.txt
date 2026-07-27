@@ -1,0 +1,281 @@
+ANOMALY BATCH 2 -- CORRECTED COST MODEL RE-TEST (Tests B and C only)
+Generated: 2026-07-27 by kite/research/anomaly_batch2_corrected.py
+Spec (FROZEN, unchanged): docs/superpowers/specs/2026-07-22-anomaly-batch2-design.md
+Historical artifact (untouched): kite/research/anomaly_batch2.py / anomaly_batch2_results.txt
+
+=============================================================================
+0. WHY THIS RE-TEST EXISTS
+=============================================================================
+2026-07-26/27 audit found the cost model used by every research script,
+including anomaly_batch2.py, was wrong in three ways:
+  (a) sum(zerodha_charges.calculate_charges(...).values()) DOUBLE-COUNTS,
+      because the returned dict already contains a 'total' key equal to the
+      sum of the other six. Must read ['total'] instead.
+  (b) kite/config.py had wrong constants. Already fixed in this repo before
+      this re-test (exchange 0.00297% not 0.00345%; intraday stamp duty
+      0.003% not 0.015%; GST base now includes SEBI; DP charge Rs 13.5 added
+      for delivery sells, previously missing entirely).
+  (c) Slippage assumptions (0.05%/side used throughout) were measured to be
+      ~3.8x conservative for NIFTY-scale names -- Roll estimator says the
+      half-spread is ~0.013%.
+
+This re-test fixes ONLY (a) in code (kite/research/anomaly_batch2_corrected.py
+is a copy of anomaly_batch2.py with exactly that one line changed -- see the
+script's own header comment for the diff). (b) required no new code change
+since config.py was already corrected in a prior commit and both the
+original and corrected scripts import it live. (c) is explored as a
+sensitivity sweep across three SLIP values, since slippage was always a
+frozen assumption in the spec, not a bug in arithmetic -- lowering it is a
+"what if the assumption were more realistic" probe, reported at all three
+levels so the reader can judge for themselves which is credible.
+
+The pre-registered PASS criteria are FROZEN. Nothing about what counts as a
+pass was changed. Only the cost measurement was corrected.
+
+=============================================================================
+0.1 IMPORTANT ARITHMETIC CAVEAT -- read before the tables
+=============================================================================
+Fixing the double-count bug (a) does NOT simply make the corrected run
+"cheaper" than the historical run once (b)'s config fixes are folded in.
+Checked directly with the numbers actually in play (position slot size =
+CAPITAL/TOP_N = Rs 100,000/20 = Rs 5,000, is_intraday=False, one round trip):
+
+  Historical run (buggy sum(.values()) code + STALE config: exchange
+  0.00345%, no DP charge at all):            fee actually charged = Rs 22.34
+  Corrected run (['total'] + FIXED config: exchange 0.00297%,
+  DP charge Rs 13.5/sell added):             fee actually charged = Rs 27.04
+  Delta: +Rs 4.70 per exit (corrected is HIGHER, not lower)
+
+Reason: the DP charge was previously missing entirely (Rs 0), and it is a
+FLAT Rs 13.5 per delivery sell -- exactly the kind of charge that "bites
+small positions hardest" (per config.py's own comment). At this backtest's
+Rs 5,000 slot size, the newly-added DP charge (+Rs 13.5) more than offsets
+the relief from removing the double-count (roughly halving a ~Rs 22 fee).
+Net effect on the FEE side alone, at these position sizes: essentially a
+wash, slightly NEGATIVE for the strategy (very slightly higher realized
+cost than history recorded).
+
+This is exactly why, at SLIP=0.002 held fixed, Test B and C's corrected
+numbers below are marginally WORSE than the historical (buggy) run, not
+better -- e.g. Test B val Sharpe 0.79 (historical) -> 0.77 (corrected,
+SLIP=0.002). The audit's framing ("past backtests over-charged, so verdicts
+were harsher than reality") is true and dominant on the SLIPPAGE axis (0.2%
+Rs 20 round-trip drag on a Rs 5,000 slot, versus a ~Rs 5 fee delta) -- it is
+NOT true on the fee-model axis alone once the missing DP charge is properly
+included. All of the improvement seen below as SLIP is lowered comes from
+the slippage axis, not the fee-double-count fix.
+
+=============================================================================
+1. RESULTS AT THREE SLIPPAGE LEVELS
+=============================================================================
+
+-----------------------------------------------------------------------------
+1a. SLIP = 0.0020  (0.20%/side -- ORIGINAL spec/universe_lab assumption)
+-----------------------------------------------------------------------------
+
+TEST B -- 52-WEEK-HIGH MOMENTUM
+                    cagr%   sharpe   maxdd%   trades
+strategy train       14.7     0.92    -39.6      952
+strategy val         11.6     0.77    -18.0
+B&H EW train         23.2     1.21    -50.1
+B&H EW val           27.7     1.45    -22.2
+
+Signal distinctness: Spearman(ratio_52wh, mom63) full-sample = 0.617 (moderately related, 0.4-0.7)
+
+Frozen verdict (validation 2022-2026, PASS requires ALL 3):
+  1. Sharpe >= B&H Sharpe + 0.10        : 0.77 >= 1.55  -> FAIL
+  2. CAGR >= B&H CAGR - 2pts            : 11.6 >= 25.7  -> FAIL
+  3. Same-direction train (no sign flip): train -0.29, val -0.68            -> PASS
+  TEST B OVERALL: FAIL -> tombstone
+
+TEST C -- LOW-VOLATILITY LONG-ONLY TILT
+                    cagr%   sharpe   maxdd%   trades
+strategy train        9.9     0.77    -26.4      287
+strategy val         11.3     1.53     -7.6
+B&H EW train         23.2     1.21    -50.1
+B&H EW val           27.7     1.45    -22.2
+
+Frozen verdict (validation 2022-2026, PASS requires ALL 4):
+  1. Sharpe >= B&H Sharpe + 0.10        : 1.53 >= 1.55  -> FAIL   (0.02 short)
+  2. MaxDD >=25% shallower (relative)   : |-7.6| <= 16.6          -> PASS
+  3. CAGR >= B&H CAGR - 3pts            : 11.3 >= 24.7            -> FAIL
+  4. Same-direction train (no sign flip): train -0.44, val +0.08  -> FAIL (sign flip)
+  TEST C OVERALL: FAIL -> tombstone
+
+-----------------------------------------------------------------------------
+1b. SLIP = 0.0005  (0.05%/side -- intermediate)
+-----------------------------------------------------------------------------
+
+TEST B -- 52-WEEK-HIGH MOMENTUM
+                    cagr%   sharpe   maxdd%   trades
+strategy train       17.6     1.08    -37.0      953
+strategy val         14.6     0.94    -17.4
+B&H EW train         23.2     1.21    -50.1
+B&H EW val           27.7     1.45    -22.2
+
+Frozen verdict (PASS requires ALL 3):
+  1. Sharpe >= B&H Sharpe + 0.10        : 0.94 >= 1.55  -> FAIL
+  2. CAGR >= B&H CAGR - 2pts            : 14.6 >= 25.7  -> FAIL
+  3. Same-direction train (no sign flip): train -0.13, val -0.51            -> PASS
+  TEST B OVERALL: FAIL -> tombstone
+
+TEST C -- LOW-VOLATILITY LONG-ONLY TILT
+                    cagr%   sharpe   maxdd%   trades
+strategy train       10.5     0.82    -26.0      287
+strategy val         11.8     1.60     -6.9
+B&H EW train         23.2     1.21    -50.1
+B&H EW val           27.7     1.45    -22.2
+
+Frozen verdict (PASS requires ALL 4):
+  1. Sharpe >= B&H Sharpe + 0.10        : 1.60 >= 1.55  -> PASS  (flips vs 0.002)
+  2. MaxDD >=25% shallower (relative)   : |-6.9| <= 16.6          -> PASS
+  3. CAGR >= B&H CAGR - 3pts            : 11.8 >= 24.7            -> FAIL
+  4. Same-direction train (no sign flip): train -0.39, val +0.15  -> FAIL (sign flip)
+  TEST C OVERALL: FAIL -> tombstone   (2 of 4 criteria still fail)
+
+-----------------------------------------------------------------------------
+1c. SLIP = 0.00015  (0.015%/side -- measured Roll-estimator half-spread)
+-----------------------------------------------------------------------------
+
+TEST B -- 52-WEEK-HIGH MOMENTUM
+                    cagr%   sharpe   maxdd%   trades
+strategy train       18.0     1.09    -37.2      953
+strategy val         15.0     0.97    -17.7
+B&H EW train         23.2     1.21    -50.1
+B&H EW val           27.7     1.45    -22.2
+
+Frozen verdict (PASS requires ALL 3):
+  1. Sharpe >= B&H Sharpe + 0.10        : 0.97 >= 1.55  -> FAIL
+  2. CAGR >= B&H CAGR - 2pts            : 15.0 >= 25.7  -> FAIL
+  3. Same-direction train (no sign flip): train -0.12, val -0.48            -> PASS
+  TEST B OVERALL: FAIL -> tombstone
+
+TEST C -- LOW-VOLATILITY LONG-ONLY TILT
+                    cagr%   sharpe   maxdd%   trades
+strategy train       10.6     0.83    -25.9      287
+strategy val         11.9     1.62     -6.9
+B&H EW train         23.2     1.21    -50.1
+B&H EW val           27.7     1.45    -22.2
+
+Frozen verdict (PASS requires ALL 4):
+  1. Sharpe >= B&H Sharpe + 0.10        : 1.62 >= 1.55  -> PASS  (flips vs 0.002)
+  2. MaxDD >=25% shallower (relative)   : |-6.9| <= 16.6          -> PASS
+  3. CAGR >= B&H CAGR - 3pts            : 11.9 >= 24.7            -> FAIL
+  4. Same-direction train (no sign flip): train -0.38, val +0.17  -> FAIL (sign flip)
+  TEST C OVERALL: FAIL -> tombstone   (2 of 4 criteria still fail)
+
+(B&H EW train/val figures are identical across all three slippage levels,
+as expected -- the benchmark proxy has no SLIP or charges dependency at all;
+this is a useful internal consistency check that the sweep is isolating the
+strategy leg only.)
+
+=============================================================================
+2. SUMMARY TABLE -- criterion-by-criterion across all three slippage levels
+=============================================================================
+
+TEST B (PASS requires ALL 3; frozen)
+  Criterion                    SLIP=0.0020   SLIP=0.0005   SLIP=0.00015
+  1. Sharpe >= BH+0.10            FAIL          FAIL           FAIL
+     (val sharpe)                 0.77          0.94           0.97
+     (required)                   1.55          1.55           1.55
+  2. CAGR >= BH-2pts              FAIL          FAIL           FAIL
+     (val cagr)                   11.6          14.6           15.0
+     (required)                   25.7          25.7           25.7
+  3. No sign flip                 PASS          PASS           PASS
+  OVERALL                         FAIL          FAIL           FAIL
+                                  -> tombstone at every slippage level tested
+
+TEST C (PASS requires ALL 4; frozen)
+  Criterion                    SLIP=0.0020   SLIP=0.0005   SLIP=0.00015
+  1. Sharpe >= BH+0.10            FAIL          PASS           PASS
+     (val sharpe)                 1.53          1.60           1.62
+     (required)                   1.55          1.55           1.55
+  2. MaxDD >=25% shallower        PASS          PASS           PASS
+  3. CAGR >= BH-3pts              FAIL          FAIL           FAIL
+     (val cagr)                   11.3          11.8           11.9
+     (required)                   24.7          24.7           24.7
+  4. No sign flip                 FAIL          FAIL           FAIL
+     (train edge, val edge)    -0.44/+0.08   -0.39/+0.15    -0.38/+0.17
+  OVERALL                         FAIL          FAIL           FAIL
+                                  -> tombstone at every slippage level tested
+
+=============================================================================
+3. EXPLICIT ANSWERS
+=============================================================================
+
+Q: Does Test C's Sharpe criterion (>= B&H Sharpe + 0.10) now pass at any
+   slippage level?
+A: YES, at reduced-slippage assumptions only. It FAILS at the original
+   0.002 assumption (1.53 vs 1.55 required, still short by 0.02 -- almost
+   identical margin to the historical run's 1.54 vs 1.55, since the fee fix
+   nets to roughly a wash as shown in section 0.1). It PASSES at SLIP=0.0005
+   (1.60 >= 1.55) and at SLIP=0.00015 (1.62 >= 1.55, the measured
+   half-spread). So this ONE criterion is genuinely slippage-sensitive and
+   flips from FAIL to PASS once slippage is assumed materially lower than
+   the original 0.2%/side.
+
+Q: Does Test C's OVERALL frozen verdict flip?
+A: NO. PASS requires ALL 4 criteria. Criteria 3 (CAGR >= B&H - 3pts) and 4
+   (no train/val sign flip) FAIL at every one of the three slippage levels
+   tested, by large, clearly cost-insensitive margins:
+     - CAGR is short by 13.1 / 12.9 / 12.8 points respectively -- no
+       plausible cost assumption closes a 13-point CAGR gap; this reflects
+       the strategy holding structurally lower-beta names, not a cost drag.
+     - The train/val sign flip (train edge negative, val edge positive) is
+       present at all three slippage levels and does not change direction
+       as slippage falls -- it reflects a real difference between the
+       train-era and val-era volatility regimes, not a transaction-cost
+       artifact.
+   Test C therefore remains FAIL -> tombstone under the corrected cost
+   model, at all three slippage assumptions, including the most generous.
+
+Q: Does Test B flip?
+A: NO, not close. Both binding criteria (Sharpe, CAGR) fail by large,
+   slippage-insensitive margins at every level tested (Sharpe short by
+   0.78 / 0.61 / 0.58; CAGR short by 14.1 / 11.1 / 10.7 points). Criterion 3
+   (no sign flip) passes at all three levels but that alone cannot produce
+   an overall PASS. Test B remains FAIL -> tombstone under the corrected
+   cost model at every slippage assumption tested.
+
+=============================================================================
+4. HONEST FRAMING
+=============================================================================
+Neither frozen verdict changes. This is not a case of "passes only at the
+most generous slippage assumption" (which would be weak evidence) versus
+"passes at the original assumption" (which would be strong evidence) --
+NEITHER test passes its OVERALL verdict at ANY of the three slippage levels,
+including the most generous (0.00015, the measured half-spread). The single
+data point that does move is Test C's Sharpe criterion, which flips from
+FAIL to PASS once slippage drops below ~0.001 -- but per the frozen
+all-criteria-required rule, that flip is immaterial: Test C fails on CAGR
+and on the train/val sign-flip criterion regardless of any cost assumption,
+generous or conservative.
+
+Bottom line: the cost-model bugs found in the 2026-07-26/27 audit do NOT
+rescue either Test B or Test C. Both remain tombstoned exactly as recorded
+in the original anomaly_batch2_results.txt. The corrected run additionally
+surfaces a caveat the audit's own framing did not anticipate: at this
+backtest's position sizes (~Rs 5,000/slot), the newly-added DP charge (a
+real, previously-missing cost) roughly cancels the relief from fixing the
+double-count bug, so the fee-model fix alone, isolated from the slippage
+assumption, is close to a wash (see section 0.1). All of the movement seen
+as costs are "corrected" in this re-test comes from the slippage-assumption
+sweep (c), not from the fee-arithmetic fix (a) or the config constant fixes
+(b). Slippage remains the single largest lever on these verdicts, and the
+frozen spec's original 0.2%/side assumption -- not the newly-measured
+0.015%/side estimate -- is the one both original tests were pre-registered
+and evaluated against.
+
+=============================================================================
+5. TEST D -- explicitly out of scope for this re-test
+=============================================================================
+The task asked only for Tests B and C. Test D reuses the same USim delivery
+cost path only insofar as its flat 0.25%/day assumption already bundles an
+approximate round-trip slippage+charges estimate stated directly in the
+spec (not computed via calculate_charges() at all) -- there is no
+double-count bug in Test D's code to fix, so it is unaffected by fix (a).
+The corrected script still runs and prints Test D unchanged (identical
+across all three SLIP runs, since Test D does not read the SLIP global) as a
+faithful-copy sanity check; those numbers are reproduced in the raw run
+files but are not part of this re-test's mandate and are omitted from the
+summary tables above.

@@ -10,8 +10,10 @@ deterministic.
 Checks: P1 liveness, P2 data-freshness, P3 trade-rate, P4 cadence,
 P5 win-rate, P6 drawdown, P7 hold-time, P8 fill-sanity, P9 auth-events,
 P10 ann-filter-refresh, P11 ann-filter-category-drift, P12 parity-deadman,
-P13 card-staleness (advisory git-hash check, never RED). P1/P2/P9 skip
-themselves on non-market days (weekend or NSE holiday, see NSE_HOLIDAYS_2026).
+P13 card-staleness (advisory git-hash check, never RED), P14 wide-universe
+data-freshness (679-stock swing-candidate universe; reuses P2's frozen
+AMBER/RED thresholds, see check_p14 docstring). P1/P2/P9/P14 skip themselves
+on non-market days (weekend or NSE holiday, see NSE_HOLIDAYS_2026).
 
 Spec (frozen thresholds, sections 3.2-3.5, 5):
     docs/superpowers/specs/2026-07-21-parity-monitor-design.md
@@ -25,6 +27,12 @@ data/strategies_paused.json on a pausing RED. Never touches orders/exits.
 Usage:
     python parity_monitor.py
     PARITY_LOG_ONLY=0 python parity_monitor.py   # arm pause-writes (after the soak week)
+
+Testing: PARITY_TODAY_OVERRIDE=YYYY-MM-DD pins the reference "today" used by
+every date computation in this file. TEST-ONLY seam consumed by
+test_parity_monitor.py so its suite is deterministic on any day (including
+weekends); see the "Test-only 'today' override seam" section below for the
+full contract. Unset (the default) in every real deployment.
 """
 import sys
 from pathlib import Path
@@ -174,12 +182,76 @@ def holiday_table_for(year: int) -> Optional[frozenset]:
 
 
 # ---------------------------------------------------------------------------
+# Test-only "today" override seam (2026-07-27)
+# ---------------------------------------------------------------------------
+# test_parity_monitor.py's scenarios assert GREEN/RED on P1/P2/P9, but those
+# checks correctly return NODATA on weekends/holidays (the is_market_day gate
+# added 2026-07-22) -- so the suite only ever passed Mon-Fri. PARITY_TODAY_OVERRIDE
+# makes the reference "today" swappable so the suite is deterministic on ANY day.
+#
+# Contract:
+#   - Read in exactly ONE place (this module: _today()). Every other
+#     date.today()-equivalent in this file calls _today()/_now() instead of
+#     datetime.now() directly, so there is a single seam, not several.
+#   - Default (env var unset) is ALWAYS the real wall-clock date. Production
+#     (the Oracle systemd timer) never sets this var, so nothing here changes
+#     its behavior -- this is purely a test fixture knob.
+#   - Format is strict YYYY-MM-DD; anything else is ignored (falls back to the
+#     real date) rather than raising, because a malformed override must never
+#     crash a production run that accidentally inherited a stray env var.
+#   - Whenever the override is actually active (valid or not), a warning is
+#     printed to stderr once per process -- so a value left set by accident is
+#     loud, not silent, in any run's console/log output.
+PARITY_TODAY_OVERRIDE_VAR = 'PARITY_TODAY_OVERRIDE'
+_today_override_warned = False
+
+
+def _today() -> date:
+    """The reference 'today' for every date computation in this module.
+    TEST-ONLY seam -- see module note above. Never rely on this to change
+    production behavior; it is a no-op unless PARITY_TODAY_OVERRIDE is set."""
+    global _today_override_warned
+    override = os.environ.get(PARITY_TODAY_OVERRIDE_VAR)
+    if not override:
+        return datetime.now().date()
+    try:
+        pinned = datetime.strptime(override, '%Y-%m-%d').date()
+    except ValueError:
+        if not _today_override_warned:
+            print(f"WARNING: {PARITY_TODAY_OVERRIDE_VAR}={override!r} is not YYYY-MM-DD -- "
+                  f"ignoring it and using the real date. This var is TEST-ONLY and must "
+                  f"never be set in production.", file=sys.stderr)
+            _today_override_warned = True
+        return datetime.now().date()
+    if not _today_override_warned:
+        print(f"WARNING: {PARITY_TODAY_OVERRIDE_VAR}={pinned.isoformat()} is ACTIVE -- "
+              f"'today' is PINNED for this run, NOT the real wall-clock date. This is a "
+              f"TEST-ONLY seam (see test_parity_monitor.py) and must never be set in "
+              f"production.", file=sys.stderr)
+        _today_override_warned = True
+    return pinned
+
+
+def _now() -> datetime:
+    """_today()'s full-datetime counterpart, used only for the run's `ts` stamp:
+    the (possibly pinned) date combined with the real wall-clock time-of-day, so
+    a history entry written during an overridden test run still carries a
+    self-consistent timestamp instead of silently mixing a pinned date with the
+    real run date."""
+    real = datetime.now()
+    pinned_date = _today()
+    if pinned_date == real.date():
+        return real
+    return datetime.combine(pinned_date, real.time())
+
+
+# ---------------------------------------------------------------------------
 # small generic helpers
 # ---------------------------------------------------------------------------
 def is_market_day(d: Optional[date] = None) -> bool:
     """Mon-Fri AND not an NSE holiday. If the year has no holiday table, falls
     back to weekday-only (P1 surfaces the missing-table warning)."""
-    d = d or datetime.now().date()
+    d = d or _today()
     if d.weekday() >= 5:
         return False
     table = holiday_table_for(d.year)
@@ -201,7 +273,7 @@ def trading_days_between(start: date, end: date) -> int:
 
 
 def _n_trading_days_ago(n: int, end: Optional[date] = None) -> date:
-    end = end or datetime.now().date()
+    end = end or _today()
     d, count = end, 0
     while count < n:
         d -= timedelta(days=1)
@@ -220,7 +292,7 @@ def read_log_tail(n: int = LOG_TAIL_LINES) -> List[str]:
 
 def todays_lines(lines: List[str], marker: str) -> List[str]:
     """Lines whose leading YYYY-MM-DD matches today and that contain marker."""
-    today = datetime.now().strftime('%Y-%m-%d')
+    today = _today().strftime('%Y-%m-%d')
     return [ln for ln in lines if ln[:10] == today and marker in ln]
 
 
@@ -346,7 +418,7 @@ def _consecutive_failed_days(history: List[dict], check_id: str) -> int:
 # P1 -- Liveness
 # ---------------------------------------------------------------------------
 def check_p1(log_lines: List[str]) -> dict:
-    today = datetime.now().date()
+    today = _today()
     if not is_market_day(today):
         reason = 'weekend' if today.weekday() >= 5 else 'holiday'
         return {'id': 'P1', 'name': 'liveness', 'status': 'NODATA',
@@ -390,6 +462,63 @@ def check_p2(log_lines: List[str]) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# P14 -- Wide-universe data freshness (679-stock swing-candidate universe)
+# ---------------------------------------------------------------------------
+# Added 2026-07-27. Incident: on 2026-07-23 monitor.py's load_wide_daily_data()
+# (the 679-symbol swing-candidate fetch) silently returned 0/679; monitor.py's
+# own fail-soft design (`universe = self.wide_daily_cache or self.daily_data_cache`,
+# scan_swing_candidates) then fell back to the 47-stock NIFTY_50 list with no
+# check firing -- a human found it by grepping logs. P2 above never saw this:
+# it only ever reads the narrow "Daily data loaded for X/Y" line (the NIFTY_50
+# fetch that P3/P5/P6/P7 depend on). monitor.py separately logs
+# "Wide daily data loaded for X/679 stocks in Zs" (monitor.py:load_wide_daily_data)
+# which P2 does not inspect at all.
+#
+# Deliberately a NEW check (P14), not an extension of P2: P2's spec-table row
+# (section 3.3) is specifically "daily cache count at swing scan" for the
+# always-on NIFTY_50 universe; the wide universe is a separate, fail-soft,
+# swing-detector-only fetch with its own distinct failure mode (silent
+# fallback to a smaller universe, not an outright data outage). Conflating the
+# two into one status would blur which universe actually degraded, and would
+# change P2's existing meaning/tests (scenario 4 DEAD TOKEN/DATA asserts P2
+# RED from the narrow line alone).
+#
+# Thresholds: REUSES P2's frozen AMBER/RED thresholds verbatim (AMBER <90% of
+# universe, RED <50%) -- per the task brief, no new threshold is invented here.
+# This does not violate the spec's section 6 freeze (which govern P1-P12's
+# *existing* thresholds): P14 is a new check applying an *already-frozen*
+# number to a *different* denominator, exactly as P13 was added on top of the
+# frozen set in the 2026-07-21 decision log without touching section 3.3.
+def check_p14(log_lines: List[str]) -> dict:
+    name = 'wide-universe-freshness'
+    if not is_market_day():
+        return {'id': 'P14', 'name': name, 'status': 'NODATA', 'detail': 'weekend'}
+    matches = todays_lines(log_lines, 'Wide daily data loaded for')
+    if not matches:
+        # Absent entirely on a market day is worse than P2's "line missing"
+        # case (which is only AMBER, because the swing scan may simply not
+        # have run YET). load_wide_daily_data() runs immediately after the
+        # NIFTY_50 daily load in the same startup sequence
+        # (monitor.py:load_historical_data), so by the 16:15 IST parity run its
+        # total absence means the load step itself never executed -- RED, per
+        # the task brief ("If the wide-load line is absent entirely on a
+        # market day, that is a RED").
+        return {'id': 'P14', 'name': name, 'status': 'RED',
+                'detail': 'no "Wide daily data loaded" line today -- load_wide_daily_data() never ran'}
+    m = re.search(r'Wide daily data loaded for (\d+)/(\d+) stocks', matches[-1])
+    if not m:
+        return {'id': 'P14', 'name': name, 'status': 'AMBER', 'detail': 'unparseable wide-load line'}
+    x, y = int(m.group(1)), int(m.group(2))
+    pct = (x / y) if y else 0.0
+    detail = f'{x}/{y} stocks ({pct:.0%})'
+    if pct < 0.5:
+        return {'id': 'P14', 'name': name, 'status': 'RED', 'detail': detail}
+    if pct < 0.9:
+        return {'id': 'P14', 'name': name, 'status': 'AMBER', 'detail': detail}
+    return {'id': 'P14', 'name': name, 'status': 'GREEN', 'detail': detail}
+
+
+# ---------------------------------------------------------------------------
 # P3 -- Trade rate (Poisson two-tail, per strategy, intraday/swing only)
 # ---------------------------------------------------------------------------
 def check_p3(strategy: str, book: str, trade_mode: str, card: Optional[dict]) -> Optional[dict]:
@@ -407,13 +536,13 @@ def check_p3(strategy: str, book: str, trade_mode: str, card: Optional[dict]) ->
     if not all_rows:
         return {'id': 'P3', 'name': name, 'status': 'WARMING_UP', 'detail': '0/10 trading days of live history'}
     first_dt = min(datetime.fromisoformat(r['entry_time']) for r in all_rows)
-    days_live = trading_days_between(first_dt.date(), datetime.now().date())
+    days_live = trading_days_between(first_dt.date(), _today())
     if days_live < 10:
         return {'id': 'P3', 'name': name, 'status': 'WARMING_UP',
                 'detail': f'{days_live}/10 trading days of live history'}
 
     window_start = _n_trading_days_ago(20)
-    window_td = trading_days_between(window_start, datetime.now().date())
+    window_td = trading_days_between(window_start, _today())
     k = sum(1 for r in all_rows if datetime.fromisoformat(r['entry_time']).date() >= window_start)
     mu = lam_month * (window_td / 21.0)
 
@@ -444,7 +573,7 @@ def check_p3(strategy: str, book: str, trade_mode: str, card: Optional[dict]) ->
 # ---------------------------------------------------------------------------
 def check_p4(history: List[dict]) -> Tuple[dict, bool]:
     name = 'cadence (momo rebalance + EOD square-off)'
-    today = datetime.now().date()
+    today = _today()
 
     try:
         momo_state = json.loads(MOMO_STATE_FILE.read_text())
@@ -517,7 +646,7 @@ def check_p6(book: str, cards_by_book: Dict[str, List[dict]]) -> dict:
                 'detail': '0/20 trading days of live history (no trades yet)'}
 
     first_dt = min(datetime.fromisoformat(r['entry_time']) for r in all_rows)
-    days_live = trading_days_between(first_dt.date(), datetime.now().date())
+    days_live = trading_days_between(first_dt.date(), _today())
     if days_live < 20:
         return {'id': 'P6', 'name': name, 'status': 'WARMING_UP',
                 'detail': f'{days_live}/20 trading days of live history'}
@@ -607,7 +736,7 @@ def _day_range(symbol: str, d: date) -> Tuple[Optional[float], Optional[float]]:
 
 def check_p8() -> Tuple[dict, set]:
     name = 'fill-sanity'
-    since = datetime.now().date() - timedelta(days=7)
+    since = _today() - timedelta(days=7)
     events = []
     offenders: set = set()
 
@@ -704,7 +833,7 @@ def check_p12(history: List[dict]) -> dict:
         last_dt = datetime.fromisoformat(history[-1]['ts'])
     except (KeyError, TypeError, ValueError):
         return {'id': 'P12', 'name': name, 'status': 'AMBER', 'detail': 'prior entry has unparseable timestamp'}
-    gap = trading_days_between(last_dt.date() + timedelta(days=1), datetime.now().date())
+    gap = trading_days_between(last_dt.date() + timedelta(days=1), _today())
     detail = f'last parity run {last_dt.date()} ({gap} market day(s) since, incl. today)'
     status = 'RED' if gap > 1 else 'GREEN'
     return {'id': 'P12', 'name': name, 'status': status, 'detail': detail}
@@ -817,7 +946,7 @@ def apply_pauses(pause_requests: Dict[str, str]) -> List[dict]:
 
     actions = []
     changed = False
-    today_str = datetime.now().strftime('%Y-%m-%d')
+    today_str = _today().strftime('%Y-%m-%d')
     for strategy, reason in pause_requests.items():
         already = strategy in existing
         actions.append({'strategy': strategy, 'reason': reason, 'already_paused': already,
@@ -836,7 +965,7 @@ def apply_pauses(pause_requests: Dict[str, str]) -> List[dict]:
 # main run
 # ---------------------------------------------------------------------------
 def run() -> dict:
-    ts = datetime.now().isoformat()
+    ts = _now().isoformat()
     log_lines = read_log_tail()
     history = read_history()
 
@@ -846,6 +975,7 @@ def run() -> dict:
     # -- system-level checks --
     per_check.append(check_p1(log_lines))
     per_check.append(check_p2(log_lines))
+    per_check.append(check_p14(log_lines))
 
     p4_check, p4_repeat = check_p4(history)
     per_check.append(p4_check)
@@ -938,7 +1068,7 @@ def build_message(result: dict) -> str:
             red_bits.append(book_check['detail'])
         strategy_units.append((label, worst, '; '.join(red_bits)))
 
-    system_ids = ['P1', 'P2', 'P4', 'P9', 'P10', 'P11', 'P12', 'P13']
+    system_ids = ['P1', 'P2', 'P14', 'P4', 'P9', 'P10', 'P11', 'P12', 'P13']
     system_units = [(f"{cid} {c['name']}", c['status'], c['detail'])
                      for cid in system_ids for c in by_id.get(cid, [])]
 
@@ -980,7 +1110,7 @@ def main():
         traceback.print_exc()
         message = f"\U0001fa7a parity INTERNAL ERROR: {e}"
         try:
-            append_history({'ts': datetime.now().isoformat(), 'overall': 'ERROR',
+            append_history({'ts': _now().isoformat(), 'overall': 'ERROR',
                              'per_check': [], 'paused_actions': [], 'error': str(e)})
         except Exception:
             pass

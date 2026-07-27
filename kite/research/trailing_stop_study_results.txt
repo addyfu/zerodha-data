@@ -1,0 +1,157 @@
+========================================================================================
+TRAILING STOP COUNTERFACTUAL STUDY
+========================================================================================
+
+FROZEN INTERPRETATION RULE (stated before any results below were computed):
+  A regime counts as "better" than another ONLY if it wins on BOTH samples
+  (60d CSVs and release-week DB). Where the two samples disagree on direction,
+  the verdict is reported as "inconclusive" -- no picking the sample that
+  happens to agree with the motivating hypothesis.
+
+HONESTY: all four strategies are known net-losers in this harness (140+ prior
+backtests, nothing has beaten buy-and-hold). The question here is RELATIVE --
+which exit rule loses least / gains most -- not whether any of them are profitable.
+
+COST FIX: this script uses calculate_charges(...)['total'], NOT
+sum(calculate_charges(...).values()) -- the latter (used by bb_v2_screen.py via
+intraday_probe.trade_cost) double-counts because the returned dict already
+contains a 'total' key equal to the sum of its other six keys.
+
+########################################################################################
+# STRATEGY: bb_mean_reversion
+########################################################################################
+
+  --- Sample 1: Nov 2025 - Jan 2026 (60d CSVs) ---
+  Trading days used: 43 | raw signals: 1442 | admitted trades (frozen across regimes): 832
+    A_no_trailing       :  832 trades | total Rs    -34,743 | win  28.0% | avg/trade Rs     -42 | stop   60% | target   24% | trailing    0% | EOD   16%
+    B_trail_2pct_LIVE   :  832 trades | total Rs    -34,743 | win  28.0% | avg/trade Rs     -42 | stop    0% | target   24% | trailing   60% | EOD   16%
+                          (of 497 trailing-labeled exits, 0 (0%) had actually ratcheted beyond the original stop before triggering)
+    C_trail_1pct        :  832 trades | total Rs    -34,330 | win  27.8% | avg/trade Rs     -41 | stop    0% | target   24% | trailing   60% | EOD   16%
+                          (of 503 trailing-labeled exits, 25 (5%) had actually ratcheted beyond the original stop before triggering)
+    D_trail_3pct        :  832 trades | total Rs    -34,743 | win  28.0% | avg/trade Rs     -42 | stop    0% | target   24% | trailing   60% | EOD   16%
+                          (of 497 trailing-labeled exits, 0 (0%) had actually ratcheted beyond the original stop before triggering)
+
+  --- Sample 2: Jul 2026 (release DB) ---
+  Trading days used: 6 | raw signals: 181 | admitted trades (frozen across regimes): 96
+    A_no_trailing       :   96 trades | total Rs     -3,531 | win  24.0% | avg/trade Rs     -37 | stop   60% | target   18% | trailing    0% | EOD   22%
+    B_trail_2pct_LIVE   :   96 trades | total Rs     -3,531 | win  24.0% | avg/trade Rs     -37 | stop    0% | target   18% | trailing   60% | EOD   22%
+                          (of 58 trailing-labeled exits, 0 (0%) had actually ratcheted beyond the original stop before triggering)
+    C_trail_1pct        :   96 trades | total Rs     -3,984 | win  21.9% | avg/trade Rs     -41 | stop    0% | target   17% | trailing   62% | EOD   21%
+                          (of 60 trailing-labeled exits, 5 (8%) had actually ratcheted beyond the original stop before triggering)
+    D_trail_3pct        :   96 trades | total Rs     -3,531 | win  24.0% | avg/trade Rs     -37 | stop    0% | target   18% | trailing   60% | EOD   22%
+                          (of 58 trailing-labeled exits, 0 (0%) had actually ratcheted beyond the original stop before triggering)
+
+  Regime comparison for bb_mean_reversion (frozen rule: must win on BOTH samples):
+    [Sample 1: Nov 2025 - Jan 2026 (60d CSVs)] totals: A_no_trailing=-34,743, B_trail_2pct_LIVE=-34,743, C_trail_1pct=-34,330, D_trail_3pct=-34,743  -> best this sample: C_trail_1pct
+    [Sample 2: Jul 2026 (release DB)] totals: A_no_trailing=-3,531, B_trail_2pct_LIVE=-3,531, C_trail_1pct=-3,984, D_trail_3pct=-3,531  -> best this sample: A_no_trailing
+    Best regime overall for bb_mean_reversion: inconclusive (samples disagree)
+    [Sample 1: Nov 2025 - Jan 2026 (60d CSVs)] B(live 2% trail) -34,743  vs  A(no trailing) -34,743  -> Btied by Rs +0
+    [Sample 2: Jul 2026 (release DB)] B(live 2% trail) -3,531  vs  A(no trailing) -3,531  -> Btied by Rs +0
+    VERDICT — is live (2% trailing) better or worse than no trailing?  inconclusive (samples disagree on direction)
+
+########################################################################################
+# STRATEGY: cci_divergence
+########################################################################################
+
+  --- Sample 1: Nov 2025 - Jan 2026 (60d CSVs) ---
+  Trading days used: 43 | raw signals: 2701 | admitted trades (frozen across regimes): 607
+    A_no_trailing       :  607 trades | total Rs    -24,356 | win  28.3% | avg/trade Rs     -40 | stop   50% | target   18% | trailing    0% | EOD   32%
+    B_trail_2pct_LIVE   :  607 trades | total Rs    -24,356 | win  28.3% | avg/trade Rs     -40 | stop    0% | target   18% | trailing   50% | EOD   32%
+                          (of 301 trailing-labeled exits, 0 (0%) had actually ratcheted beyond the original stop before triggering)
+    C_trail_1pct        :  607 trades | total Rs    -24,388 | win  28.2% | avg/trade Rs     -40 | stop    0% | target   18% | trailing   51% | EOD   31%
+                          (of 308 trailing-labeled exits, 23 (7%) had actually ratcheted beyond the original stop before triggering)
+    D_trail_3pct        :  607 trades | total Rs    -24,356 | win  28.3% | avg/trade Rs     -40 | stop    0% | target   18% | trailing   50% | EOD   32%
+                          (of 301 trailing-labeled exits, 0 (0%) had actually ratcheted beyond the original stop before triggering)
+
+  --- Sample 2: Jul 2026 (release DB) ---
+  Trading days used: 6 | raw signals: 283 | admitted trades (frozen across regimes): 56
+    A_no_trailing       :   56 trades | total Rs     -2,378 | win  30.4% | avg/trade Rs     -42 | stop   43% | target   18% | trailing    0% | EOD   39%
+    B_trail_2pct_LIVE   :   56 trades | total Rs     -2,325 | win  30.4% | avg/trade Rs     -42 | stop    0% | target   18% | trailing   43% | EOD   39%
+                          (of 24 trailing-labeled exits, 1 (4%) had actually ratcheted beyond the original stop before triggering)
+    C_trail_1pct        :   56 trades | total Rs     -2,102 | win  30.4% | avg/trade Rs     -38 | stop    0% | target   18% | trailing   45% | EOD   38%
+                          (of 25 trailing-labeled exits, 4 (16%) had actually ratcheted beyond the original stop before triggering)
+    D_trail_3pct        :   56 trades | total Rs     -2,378 | win  30.4% | avg/trade Rs     -42 | stop    0% | target   18% | trailing   43% | EOD   39%
+                          (of 24 trailing-labeled exits, 0 (0%) had actually ratcheted beyond the original stop before triggering)
+
+  Regime comparison for cci_divergence (frozen rule: must win on BOTH samples):
+    [Sample 1: Nov 2025 - Jan 2026 (60d CSVs)] totals: A_no_trailing=-24,356, B_trail_2pct_LIVE=-24,356, C_trail_1pct=-24,388, D_trail_3pct=-24,356  -> best this sample: A_no_trailing
+    [Sample 2: Jul 2026 (release DB)] totals: A_no_trailing=-2,378, B_trail_2pct_LIVE=-2,325, C_trail_1pct=-2,102, D_trail_3pct=-2,378  -> best this sample: C_trail_1pct
+    Best regime overall for cci_divergence: inconclusive (samples disagree)
+    [Sample 1: Nov 2025 - Jan 2026 (60d CSVs)] B(live 2% trail) -24,356  vs  A(no trailing) -24,356  -> Btied by Rs +0
+    [Sample 2: Jul 2026 (release DB)] B(live 2% trail) -2,325  vs  A(no trailing) -2,378  -> Bbetter by Rs +54
+    VERDICT — is live (2% trailing) better or worse than no trailing?  inconclusive (samples disagree on direction)
+
+########################################################################################
+# STRATEGY: choppiness_filter
+########################################################################################
+
+  --- Sample 1: Nov 2025 - Jan 2026 (60d CSVs) ---
+  Trading days used: 43 | raw signals: 598 | admitted trades (frozen across regimes): 404
+    A_no_trailing       :  404 trades | total Rs    -11,209 | win  35.9% | avg/trade Rs     -28 | stop   46% | target   28% | trailing    0% | EOD   26%
+    B_trail_2pct_LIVE   :  404 trades | total Rs    -11,209 | win  35.9% | avg/trade Rs     -28 | stop    0% | target   28% | trailing   46% | EOD   26%
+                          (of 185 trailing-labeled exits, 0 (0%) had actually ratcheted beyond the original stop before triggering)
+    C_trail_1pct        :  404 trades | total Rs    -10,948 | win  35.4% | avg/trade Rs     -27 | stop    0% | target   27% | trailing   49% | EOD   24%
+                          (of 197 trailing-labeled exits, 34 (17%) had actually ratcheted beyond the original stop before triggering)
+    D_trail_3pct        :  404 trades | total Rs    -11,209 | win  35.9% | avg/trade Rs     -28 | stop    0% | target   28% | trailing   46% | EOD   26%
+                          (of 185 trailing-labeled exits, 0 (0%) had actually ratcheted beyond the original stop before triggering)
+
+  --- Sample 2: Jul 2026 (release DB) ---
+  Trading days used: 6 | raw signals: 72 | admitted trades (frozen across regimes): 47
+    A_no_trailing       :   47 trades | total Rs     -3,778 | win  19.1% | avg/trade Rs     -80 | stop   62% | target   11% | trailing    0% | EOD   28%
+    B_trail_2pct_LIVE   :   47 trades | total Rs     -3,806 | win  19.1% | avg/trade Rs     -81 | stop    0% | target   11% | trailing   64% | EOD   26%
+                          (of 30 trailing-labeled exits, 1 (3%) had actually ratcheted beyond the original stop before triggering)
+    C_trail_1pct        :   47 trades | total Rs     -3,584 | win  19.1% | avg/trade Rs     -76 | stop    0% | target   11% | trailing   72% | EOD   17%
+                          (of 34 trailing-labeled exits, 11 (32%) had actually ratcheted beyond the original stop before triggering)
+    D_trail_3pct        :   47 trades | total Rs     -3,778 | win  19.1% | avg/trade Rs     -80 | stop    0% | target   11% | trailing   62% | EOD   28%
+                          (of 29 trailing-labeled exits, 0 (0%) had actually ratcheted beyond the original stop before triggering)
+
+  Regime comparison for choppiness_filter (frozen rule: must win on BOTH samples):
+    [Sample 1: Nov 2025 - Jan 2026 (60d CSVs)] totals: A_no_trailing=-11,209, B_trail_2pct_LIVE=-11,209, C_trail_1pct=-10,948, D_trail_3pct=-11,209  -> best this sample: C_trail_1pct
+    [Sample 2: Jul 2026 (release DB)] totals: A_no_trailing=-3,778, B_trail_2pct_LIVE=-3,806, C_trail_1pct=-3,584, D_trail_3pct=-3,778  -> best this sample: C_trail_1pct
+    Best regime overall for choppiness_filter: C_trail_1pct (wins on BOTH samples)
+    [Sample 1: Nov 2025 - Jan 2026 (60d CSVs)] B(live 2% trail) -11,209  vs  A(no trailing) -11,209  -> Btied by Rs +0
+    [Sample 2: Jul 2026 (release DB)] B(live 2% trail) -3,806  vs  A(no trailing) -3,778  -> Bworse by Rs -28
+    VERDICT — is live (2% trailing) better or worse than no trailing?  inconclusive (samples disagree on direction)
+
+########################################################################################
+# STRATEGY: adx_filter
+########################################################################################
+
+  --- Sample 1: Nov 2025 - Jan 2026 (60d CSVs) ---
+  Trading days used: 43 | raw signals: 186 | admitted trades (frozen across regimes): 168
+    A_no_trailing       :  168 trades | total Rs     -2,721 | win  40.5% | avg/trade Rs     -16 | stop   43% | target   31% | trailing    0% | EOD   26%
+    B_trail_2pct_LIVE   :  168 trades | total Rs     -2,721 | win  40.5% | avg/trade Rs     -16 | stop    0% | target   31% | trailing   43% | EOD   26%
+                          (of 73 trailing-labeled exits, 0 (0%) had actually ratcheted beyond the original stop before triggering)
+    C_trail_1pct        :  168 trades | total Rs     -2,816 | win  39.9% | avg/trade Rs     -17 | stop    0% | target   30% | trailing   45% | EOD   24%
+                          (of 76 trailing-labeled exits, 14 (18%) had actually ratcheted beyond the original stop before triggering)
+    D_trail_3pct        :  168 trades | total Rs     -2,721 | win  40.5% | avg/trade Rs     -16 | stop    0% | target   31% | trailing   43% | EOD   26%
+                          (of 73 trailing-labeled exits, 0 (0%) had actually ratcheted beyond the original stop before triggering)
+
+  --- Sample 2: Jul 2026 (release DB) ---
+  Trading days used: 6 | raw signals: 32 | admitted trades (frozen across regimes): 25
+    A_no_trailing       :   25 trades | total Rs     -1,510 | win  28.0% | avg/trade Rs     -60 | stop   68% | target   16% | trailing    0% | EOD   16%
+    B_trail_2pct_LIVE   :   25 trades | total Rs     -1,510 | win  28.0% | avg/trade Rs     -60 | stop    0% | target   16% | trailing   68% | EOD   16%
+                          (of 17 trailing-labeled exits, 0 (0%) had actually ratcheted beyond the original stop before triggering)
+    C_trail_1pct        :   25 trades | total Rs     -1,751 | win  24.0% | avg/trade Rs     -70 | stop    0% | target   12% | trailing   80% | EOD    8%
+                          (of 20 trailing-labeled exits, 6 (30%) had actually ratcheted beyond the original stop before triggering)
+    D_trail_3pct        :   25 trades | total Rs     -1,510 | win  28.0% | avg/trade Rs     -60 | stop    0% | target   16% | trailing   68% | EOD   16%
+                          (of 17 trailing-labeled exits, 0 (0%) had actually ratcheted beyond the original stop before triggering)
+
+  Regime comparison for adx_filter (frozen rule: must win on BOTH samples):
+    [Sample 1: Nov 2025 - Jan 2026 (60d CSVs)] totals: A_no_trailing=-2,721, B_trail_2pct_LIVE=-2,721, C_trail_1pct=-2,816, D_trail_3pct=-2,721  -> best this sample: A_no_trailing
+    [Sample 2: Jul 2026 (release DB)] totals: A_no_trailing=-1,510, B_trail_2pct_LIVE=-1,510, C_trail_1pct=-1,751, D_trail_3pct=-1,510  -> best this sample: A_no_trailing
+    Best regime overall for adx_filter: A_no_trailing (wins on BOTH samples)
+    [Sample 1: Nov 2025 - Jan 2026 (60d CSVs)] B(live 2% trail) -2,721  vs  A(no trailing) -2,721  -> Btied by Rs +0
+    [Sample 2: Jul 2026 (release DB)] B(live 2% trail) -1,510  vs  A(no trailing) -1,510  -> Btied by Rs +0
+    VERDICT — is live (2% trailing) better or worse than no trailing?  inconclusive (samples disagree on direction)
+
+========================================================================================
+SUMMARY TABLE
+========================================================================================
+strategy               best regime (both samples)   B(2% live) vs A(no trail)
+----------------------------------------------------------------------------------------
+bb_mean_reversion      inconclusive                 inconclusive (samples disagree on direction)
+cci_divergence         inconclusive                 inconclusive (samples disagree on direction)
+choppiness_filter      C_trail_1pct                 inconclusive (samples disagree on direction)
+adx_filter             A_no_trailing                inconclusive (samples disagree on direction)
+----------------------------------------------------------------------------------------
