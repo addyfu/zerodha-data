@@ -467,7 +467,9 @@ class PaperTrader:
             if position.direction == 'BUY':
                 effective_sl = position.trailing_stop or position.stop_loss
                 if price <= effective_sl:
-                    reason = ExitReason.TRAILING_STOP if position.trailing_stop else ExitReason.STOP_LOSS
+                    # label fix 2026-07-27: trailing_stop starts == stop_loss, so truthiness alone mislabeled every plain stop-out
+                    ratcheted = position.trailing_stop is not None and position.trailing_stop != position.stop_loss
+                    reason = ExitReason.TRAILING_STOP if ratcheted else ExitReason.STOP_LOSS
                     closed_pos = self.close_position(symbol, price, reason)
                     if closed_pos:
                         closed.append(closed_pos)
@@ -483,7 +485,9 @@ class PaperTrader:
             else:  # SELL/SHORT
                 effective_sl = position.trailing_stop or position.stop_loss
                 if price >= effective_sl:
-                    reason = ExitReason.TRAILING_STOP if position.trailing_stop else ExitReason.STOP_LOSS
+                    # label fix 2026-07-27: trailing_stop starts == stop_loss, so truthiness alone mislabeled every plain stop-out
+                    ratcheted = position.trailing_stop is not None and position.trailing_stop != position.stop_loss
+                    reason = ExitReason.TRAILING_STOP if ratcheted else ExitReason.STOP_LOSS
                     closed_pos = self.close_position(symbol, price, reason)
                     if closed_pos:
                         closed.append(closed_pos)

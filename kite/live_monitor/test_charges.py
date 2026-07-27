@@ -197,12 +197,51 @@ def test_open_positions_unaffected(tmp):
     return 'open position carries no charges until it closes'
 
 
+def test_exit_reason_labels(tmp):
+    """2026-07-27 label fix: trailing_stop is initialized == stop_loss at entry,
+    so the old `if position.trailing_stop` ternary was always truthy and every
+    plain stop-loss exit got mislabeled as trailing_stop. A stop exit is only
+    TRAILING_STOP if the trail actually ratcheted away from the original stop.
+    Exit price/timing/P&L logic is untouched by the fix; only the label.
+    """
+    t = PaperTrader(initial_capital=100000, max_positions=5,
+                     db_path=str(Path(tmp) / 'exit_reason.db'),
+                     use_trailing_stop=True, trailing_stop_pct=0.02)
+
+    # Position 1: price falls straight through, trail never ratchets -> STOP_LOSS.
+    t.open_position(_Signal('LBL1', 'BUY', 100.0, 10))   # stop_loss=99.0, take_profit=102.0
+    closed = t.check_exits({'LBL1': 98.5})
+    assert len(closed) == 1, closed
+    pos1 = closed[0]
+    assert pos1.exit_reason == ExitReason.STOP_LOSS.value, pos1.exit_reason
+    assert pos1.pnl < 0, pos1.pnl
+
+    # Position 2: favorable move ratchets the trail to 100.94, then price falls
+    # back through the ratcheted trail while staying above the original 99.0
+    # stop -> TRAILING_STOP.
+    sig2 = _Signal('LBL2', 'BUY', 100.0, 10)
+    sig2.take_profit = 120.0   # keep target out of reach so the favorable leg can't close it
+    t.open_position(sig2)
+    closed = t.check_exits({'LBL2': 103.0})     # ratchets trailing_stop to 103.0*0.98=100.94
+    assert closed == [], closed
+    assert abs(t.positions['LBL2'].trailing_stop - 100.94) < 1e-6, t.positions['LBL2'].trailing_stop
+    closed = t.check_exits({'LBL2': 100.5})     # above original stop 99.0, below ratcheted 100.94
+    assert len(closed) == 1, closed
+    pos2 = closed[0]
+    assert pos2.exit_reason == ExitReason.TRAILING_STOP.value, pos2.exit_reason
+    assert pos2.exit_price > pos2.entry_price, (pos2.exit_price, pos2.entry_price)
+    assert pos2.pnl > 0, pos2.pnl
+
+    return f'stop_loss pnl {pos1.pnl:+.2f} | trailing_stop pnl {pos2.pnl:+.2f}'
+
+
 def main():
     tests = [test_long_intraday_net_of_charges, test_short_direction_sign,
              test_delivery_costs_more_than_intraday, test_dp_charge_delivery_only,
              test_capital_reflects_net,
              test_persisted_columns_roundtrip, test_backfill_idempotent,
-             test_dry_run_writes_nothing, test_open_positions_unaffected]
+             test_dry_run_writes_nothing, test_open_positions_unaffected,
+             test_exit_reason_labels]
     passed = failed = 0
     print('=' * 78)
     for fn in tests:
