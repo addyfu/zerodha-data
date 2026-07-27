@@ -235,13 +235,75 @@ def test_exit_reason_labels(tmp):
     return f'stop_loss pnl {pos1.pnl:+.2f} | trailing_stop pnl {pos2.pnl:+.2f}'
 
 
+def test_daily_summary_backfill(tmp):
+    """daily_summary accumulates position.pnl per close (paper_trader
+    ._update_daily_summary): rows written before the 2026-07-26 net-of-charges
+    fix hold GROSS pnl for that day, rows written after hold NET — two
+    meanings in one column. rebuild_daily_summary must restore the true net
+    values from the positions table, and be a no-op the second time round.
+    """
+    import sqlite3
+    db = Path(tmp) / 'daily.db'
+    t = _trader(tmp, 'daily.db')
+    t.open_position(_Signal('DSWIN', 'BUY', 1000.0, 20))
+    t.close_position('DSWIN', 1010.0, ExitReason.TAKE_PROFIT)
+    t.open_position(_Signal('DSLOSE', 'BUY', 1000.0, 20))
+    t.close_position('DSLOSE', 990.0, ExitReason.STOP_LOSS)
+    # A position entered TODAY that stays open past today. entry_time is
+    # stored ISO-with-T; a raw string compare against "<date> 23:59:59"
+    # silently drops same-day entries from open value ('T' > ' '), which is
+    # exactly how the first version of the capital sub-query got it wrong.
+    t.open_position(_Signal('DSHOLD', 'BUY', 500.0, 10))
+
+    conn = sqlite3.connect(db)
+    today = datetime.now().strftime('%Y-%m-%d')
+    # Recompute expected values from positions directly, not from the
+    # daily_summary row the app itself wrote (that row is exactly what this
+    # test is trying to independently verify).
+    expected_trades, expected_wins, expected_losses, expected_pnl = conn.execute(
+        "SELECT COUNT(*), SUM(pnl > 0), SUM(pnl < 0), SUM(pnl) FROM positions "
+        "WHERE status = 'closed'").fetchone()
+    initial_capital = conn.execute(
+        "SELECT initial_capital FROM account ORDER BY id DESC LIMIT 1").fetchone()[0]
+    open_value = conn.execute(
+        "SELECT COALESCE(SUM(entry_price * quantity), 0) FROM positions "
+        "WHERE status = 'open'").fetchone()[0]
+    assert open_value == 5000.0, open_value   # DSHOLD must be counted
+    expected_capital = initial_capital - open_value + expected_pnl
+
+    # Corrupt the row to simulate a gross-era write: net + 500 in both cols.
+    conn.execute("UPDATE daily_summary SET pnl = pnl + 500, capital = capital + 500 "
+                 "WHERE date = ?", (today,))
+    conn.commit()
+    corrupted_pnl = conn.execute(
+        "SELECT pnl FROM daily_summary WHERE date = ?", (today,)).fetchone()[0]
+    assert abs(corrupted_pnl - (expected_pnl + 500)) < 1e-6, corrupted_pnl
+
+    from kite.live_monitor.backfill_charges import rebuild_daily_summary
+    repaired = rebuild_daily_summary('T', db, dry_run=False)
+    assert repaired == 1, repaired
+
+    row = conn.execute(
+        "SELECT trades, wins, losses, pnl, capital FROM daily_summary WHERE date = ?",
+        (today,)).fetchone()
+    assert (row[0], row[1], row[2]) == (expected_trades, expected_wins, expected_losses), row
+    assert abs(row[3] - expected_pnl) < 1e-6, (row[3], expected_pnl)
+    assert abs(row[4] - expected_capital) < 1e-6, (row[4], expected_capital)
+
+    repaired_again = rebuild_daily_summary('T', db, dry_run=False)
+    conn.close()
+    assert repaired_again == 0, repaired_again
+    return (f'corrupted pnl {corrupted_pnl:+.2f} -> restored {row[3]:+.2f} '
+            f'(2nd run repaired {repaired_again})')
+
+
 def main():
     tests = [test_long_intraday_net_of_charges, test_short_direction_sign,
              test_delivery_costs_more_than_intraday, test_dp_charge_delivery_only,
              test_capital_reflects_net,
              test_persisted_columns_roundtrip, test_backfill_idempotent,
              test_dry_run_writes_nothing, test_open_positions_unaffected,
-             test_exit_reason_labels]
+             test_exit_reason_labels, test_daily_summary_backfill]
     passed = failed = 0
     print('=' * 78)
     for fn in tests:

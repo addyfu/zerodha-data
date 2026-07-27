@@ -14,6 +14,15 @@ each historical trade is recomputed exactly, never estimated.
 Idempotent: a row whose charges are already non-zero is left alone, so running
 this twice cannot double-charge.
 
+After the positions/account repair, this script also rebuilds daily_summary.
+That table accumulates position.pnl per close (see paper_trader._update_daily_summary),
+so every row written before the fix landed (2026-07-26) holds GROSS pnl for
+that day while every row written after holds NET — two meanings in one
+column. The rebuild recomputes trades/wins/losses/pnl/capital for every date
+that has a closed position, straight from the (by-then net) positions table,
+so the whole column is on one basis. Also idempotent: a date whose stored row
+already matches the recomputation is left alone.
+
 Usage:
     python kite/live_monitor/backfill_charges.py --dry-run   # report only
     python kite/live_monitor/backfill_charges.py             # apply
@@ -115,6 +124,98 @@ def backfill(label, db_path, dry_run):
     return tot_gross, tot_chg, repaired
 
 
+def rebuild_daily_summary(label, db_path, dry_run):
+    """Rebuild daily_summary from the (already net) positions table.
+
+    For every date with at least one closed position: trades/wins/losses/pnl
+    are aggregated straight off positions (net, post-repair); capital is
+    recomputed from first principles the same way the account reconciliation
+    above does, just pinned to that date's end-of-day instead of "now":
+        capital = initial_capital - (value tied up in positions still open at
+                  that date's end) + (net P&L of every trade closed on or
+                  before that date).
+    A date's row is left untouched if it already matches. A daily_summary row
+    that exists for a date with no closed positions is flagged, not deleted —
+    it may be a legitimate manual/legacy entry this pass has no basis to judge.
+    """
+    if not db_path.exists():
+        print(f"{label}: {db_path.name} not found — skipped")
+        return 0
+    conn = sqlite3.connect(db_path)
+    cur = conn.cursor()
+
+    init_row = cur.execute(
+        "SELECT initial_capital FROM account ORDER BY id DESC LIMIT 1").fetchone()
+    if not init_row:
+        print(f"{label}: no account row — daily_summary skipped")
+        conn.close()
+        return 0
+    initial = init_row[0]
+
+    dates = [r[0] for r in cur.execute(
+        "SELECT DISTINCT date(exit_time) FROM positions "
+        "WHERE status = 'closed' AND exit_time IS NOT NULL ORDER BY 1").fetchall()]
+
+    repaired = 0
+    for d in dates:
+        trades, wins, losses, pnl = cur.execute(
+            "SELECT COUNT(*), COALESCE(SUM(pnl > 0), 0), COALESCE(SUM(pnl < 0), 0), "
+            "COALESCE(SUM(pnl), 0) FROM positions "
+            "WHERE status = 'closed' AND date(exit_time) = ?", (d,)).fetchone()
+
+        # date(entry_time) — NOT a raw string compare against "<d> 23:59:59".
+        # entry_time is stored ISO-with-T ('2026-07-21T10:57:57'), and 'T' > ' '
+        # in a string compare, so same-day entries would be wrongly excluded
+        # from that day's open value. sqlite date() parses both forms.
+        open_value = cur.execute(
+            "SELECT COALESCE(SUM(entry_price * quantity), 0) FROM positions "
+            "WHERE date(entry_time) <= ? AND (status = 'open' OR date(exit_time) > ?)",
+            (d, d)).fetchone()[0]
+        closed_net = cur.execute(
+            "SELECT COALESCE(SUM(pnl), 0) FROM positions "
+            "WHERE status = 'closed' AND date(exit_time) <= ?", (d,)).fetchone()[0]
+        capital = initial - open_value + closed_net
+
+        existing = cur.execute(
+            "SELECT trades, wins, losses, pnl, capital FROM daily_summary WHERE date = ?",
+            (d,)).fetchone()
+
+        if existing is None:
+            changed = True
+            old_desc = 'none'
+        else:
+            e_trades, e_wins, e_losses, e_pnl, e_cap = existing
+            changed = (e_trades != trades or e_wins != wins or e_losses != losses
+                       or e_pnl is None or e_cap is None
+                       or abs(e_pnl - pnl) > 0.01 or abs(e_cap - capital) > 0.01)
+            old_desc = (f"trades={e_trades} wins={e_wins} losses={e_losses} "
+                        f"pnl={e_pnl!r} capital={e_cap!r}")
+        if not changed:
+            continue
+
+        repaired += 1
+        print(f"{label} {d}: {old_desc} -> trades={trades} wins={wins} losses={losses} "
+              f"pnl={pnl:+,.2f} capital={capital:,.2f}")
+        if not dry_run:
+            cur.execute(
+                "INSERT OR REPLACE INTO daily_summary "
+                "(date, trades, wins, losses, pnl, capital) VALUES (?, ?, ?, ?, ?, ?)",
+                (d, trades, wins, losses, pnl, capital))
+
+    orphans = cur.execute(
+        "SELECT date FROM daily_summary WHERE date NOT IN "
+        "(SELECT DISTINCT date(exit_time) FROM positions "
+        " WHERE status = 'closed' AND exit_time IS NOT NULL)").fetchall()
+    for (od,) in orphans:
+        print(f"{label} {od}: daily_summary row exists with no closed positions — left alone")
+
+    if not dry_run:
+        conn.commit()
+    conn.close()
+    print(f"{label}: daily_summary — {repaired} date(s) repaired")
+    return repaired
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--dry-run', action='store_true', help='report only, write nothing')
@@ -122,10 +223,13 @@ def main():
 
     print('DRY RUN — nothing will be written\n' if args.dry_run else 'APPLYING\n')
     g = c = n = 0.0
+    ds = 0
     for label, path in BOOKS.items():
         gg, cc, nn = backfill(label, path, args.dry_run)
         g += gg; c += cc; n += nn
+        ds += rebuild_daily_summary(label, path, args.dry_run)
     print(f"\nTOTAL: {int(n)} trades | gross {g:+,.0f} | charges -{c:,.0f} | NET {g - c:+,.0f}")
+    print(f"TOTAL: {ds} daily_summary row(s) repaired")
     if args.dry_run:
         print("Re-run without --dry-run to apply.")
 
