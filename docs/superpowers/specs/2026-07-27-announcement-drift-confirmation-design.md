@@ -81,3 +81,22 @@ window shopping, no threshold nudging). Declared test count: 3 categories ×
 ## Decision log
 
 - 2026-07-27: Spec drafted, pending user approval to freeze.
+- 2026-07-28: Spec frozen (user approved). Sonnet built
+  kite/research/announcement_drift_confirmation.py; reviewer verified the
+  event_study.py contract reuse (P_GLOBAL wiring, abnormal-CAR construction)
+  and ran the study. Funnel reproduced the map exactly (330,073 events).
+- 2026-07-28 (results): **ALL THREE CATEGORIES FAIL — nothing deploys.**
+  - Monitoring Agency Report: era-1 excess is POSITIVE (+1.56%/5d) — the
+    map's pooled −0.25% was carried entirely by later eras; sign flips
+    across eras → C1 FAIL (its pooled t=−2.86 passed C2, irrelevant).
+  - Cessation: sign consistent in all three eras (−0.36/−0.20/−0.19) → C1
+    PASS, but weekly-cluster t=−0.90 vs −2.4 bar → C2 FAIL. The map's naive
+    per-event t overstated independence ~10x; ~300 weekly clusters carry
+    almost no signal.
+  - Related Party Transactions: two of three eras above the floor
+    (−0.07/−0.09), t=−0.13 → both criteria FAIL.
+  Lesson recorded: all three "candidates" were era-mix artifacts of a mined
+  table — the exploratory map's excess screen survives neither era
+  consistency nor clustering. The announcement filter's category list is
+  UNCHANGED. Per spec, these categories stay failed; any revisit needs a
+  new spec on genuinely new (post-2026-07) data.

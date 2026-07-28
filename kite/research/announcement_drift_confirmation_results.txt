@@ -1,0 +1,86 @@
+========================================================================================
+ANNOUNCEMENT-CATEGORY EXCESS-DRIFT CONFIRMATION STUDY
+========================================================================================
+Frozen spec: docs/superpowers/specs/2026-07-27-announcement-drift-confirmation-design.md
+Status: APPROVED & FROZEN (user, 2026-07-28).
+
+CANDIDATES (fixed from category_drift_map.txt exploratory scan, no additions after freeze):
+  Monitoring Agency Report, Cessation, Related Party Transactions
+  All three were WEAK on the exploratory map (<0.30%/5d excess -- below any tradeable
+  edge after costs). The only deployment on the table is an addition to the announcement
+  red-flag AVOID filter (zero trading cost, skip-the-stock semantics), never a trade.
+  Dividend also cleared the map screen but is EXCLUDED by spec (ex-date contamination);
+  not evaluated below, not addable without a new pre-registered spec.
+
+METHOD (frozen):
+  - Join/E-date/entry/liquidity-gate/CAR conventions reused VERBATIM from event_study.py
+    (imported, not reimplemented): E = announcement date advanced to next trading day
+    (or the day after if announced post-15:30 IST); forward window starts at the E+1 open,
+    one full trading day after E; liquidity gate 60d median turnover>2e7 and close>20 at E.
+  - excess_5d = event car_5d MINUS same-era ALL-ANNOUNCEMENT baseline (mean car_5d across
+    every joined category event in that era, not just the 3 candidates). excess_20d is the
+    same construction, reported as SECONDARY info only, no verdict weight.
+  - Eras (by event date E): 2020-01..2021-12 / 2022-01..2023-12 / 2024-01..2026-07.
+  - Inference: cluster-robust by ISO calendar week (see cluster_robust_t() docstring in
+    this script for the exact formula: pooled mean of weekly cluster means, se = std of
+    weekly cluster means / sqrt(n_weeks)).
+
+VERDICT (frozen, per category, ALL must hold to PASS):
+  Criterion 1: mean excess_5d <= -0.15% in EVERY one of the three eras.
+  Criterion 2: pooled (all-eras) cluster-robust t <= -2.4.
+  A category that fails stays failed -- no threshold nudging, no window shopping.
+
+CAVEATS (stated before results, per spec):
+  - In-sample robustness gate on data the exploratory map already saw in full. A PASS
+    here is NOT out-of-sample confirmation -- the post-deployment forward kill-criterion
+    (60 live blocks, realized 5d excess must stay negative or the category self-removes)
+    carries the actual out-of-sample weight, identical mechanism to the results-miss gate.
+
+EVENT FUNNEL:
+  raw announcement rows............    973,418
+  dropped: symbol not in price universe 604,964
+  joined (symbol matched)...........    368,454
+  dropped: E not found within 5 cal days    972
+  dropped: insufficient forward data (need E+1..E+21)  6,432
+  dropped: liquidity gate (turnover>2e7 & close>20 at E) 30,977
+  dropped: bad/non-finite price data      0
+  FINAL analysis events.............    330,073
+
+SAME-ERA ALL-ANNOUNCEMENT BASELINE (mean abnormal return, every joined category event):
+  2020-01..2021-12: N=64,820  baseline_car_5d=-0.593%  baseline_car_20d=-1.396%
+  2022-01..2023-12: N=101,694  baseline_car_5d=-0.378%  baseline_car_20d=-0.759%
+  2024-01..2026-07: N=163,559  baseline_car_5d=-0.368%  baseline_car_20d=-0.586%
+
+========================================================================================
+PER-CATEGORY VERDICTS
+========================================================================================
+
+CATEGORY: Monitoring Agency Report
+  Era 2020-01..2021-12: N=   59  mean excess_5d=+1.562%  mean excess_20d=+3.533%  (<= -0.15% ? no)
+  Era 2022-01..2023-12: N=  208  mean excess_5d=-0.622%  mean excess_20d=-1.056%  (<= -0.15% ? yes)
+  Era 2024-01..2026-07: N=1,100  mean excess_5d=-0.321%  mean excess_20d=+0.548%  (<= -0.15% ? yes)
+  Criterion 1 (excess_5d <= -0.15% in EVERY era): FAIL
+  Pooled cluster-robust t (all eras, n_weeks=126, n_events=1367): t=-2.856
+  Criterion 2 (pooled cluster t <= -2.4): PASS
+  CATEGORY VERDICT: FAIL
+
+CATEGORY: Cessation
+  Era 2020-01..2021-12: N=  196  mean excess_5d=-0.359%  mean excess_20d=-0.042%  (<= -0.15% ? yes)
+  Era 2022-01..2023-12: N=  320  mean excess_5d=-0.196%  mean excess_20d=-0.258%  (<= -0.15% ? yes)
+  Era 2024-01..2026-07: N=  738  mean excess_5d=-0.185%  mean excess_20d=-0.278%  (<= -0.15% ? yes)
+  Criterion 1 (excess_5d <= -0.15% in EVERY era): PASS
+  Pooled cluster-robust t (all eras, n_weeks=296, n_events=1254): t=-0.904
+  Criterion 2 (pooled cluster t <= -2.4): FAIL
+  CATEGORY VERDICT: FAIL
+
+CATEGORY: Related Party Transactions
+  Era 2020-01..2021-12: N=1,176  mean excess_5d=-0.074%  mean excess_20d=-0.531%  (<= -0.15% ? no)
+  Era 2022-01..2023-12: N=  558  mean excess_5d=-0.092%  mean excess_20d=+0.255%  (<= -0.15% ? no)
+  Era 2024-01..2026-07: N=  138  mean excess_5d=-0.422%  mean excess_20d=-1.950%  (<= -0.15% ? yes)
+  Criterion 1 (excess_5d <= -0.15% in EVERY era): FAIL
+  Pooled cluster-robust t (all eras, n_weeks=133, n_events=1872): t=-0.126
+  Criterion 2 (pooled cluster t <= -2.4): FAIL
+  CATEGORY VERDICT: FAIL
+
+
+Total runtime: 21.9s
