@@ -1,0 +1,259 @@
+============================================================================================================
+EXPLORATORY -- TRAIN-ERA ONLY -- NO VERDICT
+============================================================================================================
+K-of-N SIGNAL AGREEMENT vs PER-TRADE FORWARD EXPECTANCY, measured over the existing strategy zoo.
+
+THIS IS A MEASUREMENT, NOT A TEST. No threshold is being evaluated, nothing passes or fails here,
+and no strategy is promoted, retired, or ranked by anything printed below. The numbers exist so a
+possible FUTURE pre-registered spec can be written with realistic sample sizes and effect scales
+already known. Reading a trading decision out of this file would be reading it wrong.
+
+TRAIN-ERA GUARANTEE: every price frame is truncated to <= 2023-12-31 at load time, before any indicator or
+signal is computed. Validation-era bars are never read into memory. Two hard asserts enforce it:
+  (1) no loaded bar may exceed the cutoff; (2) no forward window (entry bar or exit bar) may end after it.
+This cutoff is STRICTER than retest_all.py's TRAIN_END of 2024-06-30; the extra 2024 H1 train data
+is deliberately unused.
+
+DECLARED BEFORE THE RUN -- no parameter search, no strategy subsetting by performance, no threshold
+tuning, one pass:
+  horizons          : (1, 3, 5, 10) trading days
+  entry / exit      : entry at OPEN of signal_bar+1, exit at CLOSE of signal_bar+H
+  buckets           : D=1, D=2, D=3-4, D=5-7, D=8+   (D=0 kept as a reference row only)
+  warm-up dropped   : first 252 bars per symbol, applied to real AND shuffled arms alike
+  slippage          : 0.05% per side
+  position          : Rs 20,000 delivery (flat Rs 13.5 DP charge makes size matter)
+  costs             : zerodha_charges.calculate_charges(...)['total']  -- the key, never sum(.values())
+  shuffle seed      : 20260727, one shuffle
+  direction         : long-only analysis; short signals counted and reported but never analysed
+
+universe loaded: 48 symbols from D:\study\kite\data\daily
+loaded bar range: 2020-07-14 -> 2023-12-29 (862 trading days)
+ASSERT OK: max loaded bar 2023-12-29 <= cutoff 2023-12-31
+
+leak flags read from kite\reports\walkforward_audit.csv using retest_all.leak_flags() verbatim
+registry size: 78 strategies
+
+--- strategy inventory ---
+registered            : 78
+EXCLUDED (leak-suspect): 9
+    - double_vwap_ha
+    - ema_21_55
+    - ema_scalping_1min
+    - fib_3wave
+    - london_breakout
+    - obv_strategy
+    - volume_oscillator
+    - vwap_scalping
+    - vwap_sd_bands
+  NOTE ON THIS DEVIATION: retest_all.py labels these but still runs them. This probe drops them,
+  because a lookahead-contaminated strategy fires on days it could not really have fired on, which
+  would inflate agreement depth D for spurious reasons -- D is the one quantity being measured here.
+EXCLUDED (raised)     : 2
+    - pivot_point: ValueError("'date' is both an index level and a column label, which is ambiguous.")
+    - vwap_pullback: ValueError("'date' is both an index level and a column label, which is ambiguous.")
+USED in consensus pool: 67
+  (strategies flagged "no-data" by the audit are KEPT -- that flag means the audit saw zero trades
+   in both arms, which is a low firing rate, not evidence of leakage.)
+
+total LONG signal-cells emitted by the used pool : 82930
+total SHORT signal-cells emitted by the used pool: 61236   (counted only; not analysed)
+
+most-firing strategies (long-cells, whole loaded train era, all 48 symbols):
+    renko_sr                      7436  ( 8.97% of all long-cells)
+    fib_pivot                     6451  ( 7.78% of all long-cells)
+    fib_retracement               5043  ( 6.08% of all long-cells)
+    alligator                     4227  ( 5.10% of all long-cells)
+    donchian_turtle               3277  ( 3.95% of all long-cells)
+    ha_rsi                        3217  ( 3.88% of all long-cells)
+    elliott_wave3                 3029  ( 3.65% of all long-cells)
+    multi_timeframe               3008  ( 3.63% of all long-cells)
+    fib_confluence                2931  ( 3.53% of all long-cells)
+    renko_sma_obv                 2468  ( 2.98% of all long-cells)
+least-firing strategies:
+    adx_filter                       3  ( 0.00% of all long-cells)
+    ha_trend                         0  ( 0.00% of all long-cells)
+    macd_divergence                  0  ( 0.00% of all long-cells)
+    mfi_divergence                   0  ( 0.00% of all long-cells)
+    regular_divergence               0  ( 0.00% of all long-cells)
+    roc_divergence                   0  ( 0.00% of all long-cells)
+    stochastic_divergence            0  ( 0.00% of all long-cells)
+    trix_divergence                  0  ( 0.00% of all long-cells)
+    wyckoff_accumulation             0  ( 0.00% of all long-cells)
+    wyckoff_distribution             0  ( 0.00% of all long-cells)
+
+--- analysis sample ---
+signal bars analysed : 2021-07-15 -> 2023-12-14
+latest forward-window exit bar anywhere in the sample: 2023-12-29
+ASSERT OK: 2023-12-29 <= cutoff 2023-12-31  (no forward return peeks past the train era)
+analysable (symbol, date) cells: 28800
+
+--- distribution of agreement depth D (REAL zoo) ---
+total analysable (symbol, date) cells: 28800
+
+     D      cells   % of all   % of D>=1   cum % of D>=1
+     0      10236     35.54%          --              --
+     1       5882     20.42%      31.68%          31.68%
+     2       3910     13.58%      21.06%          52.75%
+     3       2689      9.34%      14.49%          67.23%
+     4       1944      6.75%      10.47%          77.70%
+     5       1294      4.49%       6.97%          84.67%
+     6        906      3.15%       4.88%          89.56%
+     7        621      2.16%       3.35%          92.90%
+     8        436      1.51%       2.35%          95.25%
+     9        290      1.01%       1.56%          96.81%
+    10        200      0.69%       1.08%          97.89%
+    11        145      0.50%       0.78%          98.67%
+    12         85      0.30%       0.46%          99.13%
+    13         47      0.16%       0.25%          99.38%
+    14         43      0.15%       0.23%          99.61%
+    15         21      0.07%       0.11%          99.73%
+    16         15      0.05%       0.08%          99.81%
+    17         14      0.05%       0.08%          99.88%
+    18          7      0.02%       0.04%          99.92%
+    19          5      0.02%       0.03%          99.95%
+    20          3      0.01%       0.02%          99.96%
+    21          4      0.01%       0.02%          99.98%
+    22          1      0.00%       0.01%          99.99%
+    23          2      0.01%       0.01%         100.00%
+
+milestone tail counts (cells with at least this many strategies agreeing):
+  D >= 2  :    12682 cells  (44.035% of all cells, 68.315% of signalling cells)
+  D >= 3  :     8772 cells  (30.458% of all cells, 47.253% of signalling cells)
+  D >= 5  :     4139 cells  (14.372% of all cells, 22.296% of signalling cells)
+  D >= 8  :     1318 cells  ( 4.576% of all cells,  7.100% of signalling cells)
+  D >= 10 :      592 cells  ( 2.056% of all cells,  3.189% of signalling cells)
+  D >= 15 :       72 cells  ( 0.250% of all cells,  0.388% of signalling cells)
+  D >= 20 :       10 cells  ( 0.035% of all cells,  0.054% of signalling cells)
+
+============================================================================================================
+PER-TRADE FORWARD RETURNS BY AGREEMENT DEPTH -- REAL ZOO (exploratory, no verdict)
+entry: OPEN of the bar after the signal bar. exit: CLOSE of the bar H bars after the signal bar.
+net = gross minus 0.05%/side slippage and delivery charges on a Rs 20,000 position
+============================================================================================================
+  bucket    H        N  mean_gross%  med_gross%  mean_net%  med_net%  win_gross%  win_net%
+D=0 (ref)    1    10236      -0.0806     -0.0604    -0.4839   -0.4654       47.71     35.61
+D=0 (ref)    3    10236       0.1007      0.1125    -0.3014   -0.2880       52.26     45.13
+D=0 (ref)    5    10236       0.2554      0.3179    -0.1475   -0.0940       54.08     48.57
+D=0 (ref)   10    10236       0.6966      0.6873     0.3000    0.2826       55.86     52.26
+------------------------------------------------------------------------------------------------------------
+     D=1    1     5882      -0.0572     -0.0773    -0.4659   -0.4839       47.23     34.52
+     D=1    3     5882       0.0583      0.0806    -0.3510   -0.3239       51.45     44.03
+     D=1    5     5882       0.1789      0.1934    -0.2269   -0.2193       52.26     46.97
+     D=1   10     5882       0.5329      0.5647     0.1366    0.1653       54.69     51.56
+------------------------------------------------------------------------------------------------------------
+     D=2    1     3910      -0.0221     -0.0735    -0.4253   -0.4783       46.98     34.33
+     D=2    3     3910       0.0401      0.0642    -0.3589   -0.3387       51.05     43.77
+     D=2    5     3910       0.1754      0.2318    -0.2168   -0.1711       53.45     47.73
+     D=2   10     3910       0.4120      0.4403     0.0239    0.0439       54.19     50.34
+------------------------------------------------------------------------------------------------------------
+   D=3-4    1     4633      -0.1068     -0.1465    -0.5062   -0.5477       44.59     31.59
+   D=3-4    3     4633      -0.0056      0.0000    -0.3957   -0.3905       49.82     42.70
+   D=3-4    5     4633       0.0732      0.0863    -0.3190   -0.3106       51.15     45.74
+   D=3-4   10     4633       0.4315      0.5163     0.0464    0.1131       54.33     50.83
+------------------------------------------------------------------------------------------------------------
+   D=5-7    1     2821      -0.0529     -0.1194    -0.4695   -0.5339       45.55     32.53
+   D=5-7    3     2821       0.1608      0.1032    -0.2606   -0.3046       51.19     44.61
+   D=5-7    5     2821       0.3365      0.2940    -0.0722   -0.0994       54.13     48.77
+   D=5-7   10     2821       0.5523      0.5620     0.1393    0.1367       54.95     51.52
+------------------------------------------------------------------------------------------------------------
+    D=8+    1     1318       0.0134     -0.1524    -0.4027   -0.5630       44.99     31.36
+    D=8+    3     1318       0.0883     -0.0115    -0.3251   -0.4219       49.54     42.30
+    D=8+    5     1318       0.2276      0.1340    -0.1838   -0.2907       52.58     46.15
+    D=8+   10     1318       0.5034      0.5018     0.0983    0.0867       54.93     50.77
+------------------------------------------------------------------------------------------------------------
+
+descriptive ordering -- buckets ranked by mean NET return at each horizon (best first).
+This is a restatement of the table above, not an inference. Nothing is being selected by it.
+  H=1  : D=8+ (-0.4027%)  >  D=2 (-0.4253%)  >  D=1 (-0.4659%)  >  D=5-7 (-0.4695%)  >  D=0 (ref) (-0.4839%)  >  D=3-4 (-0.5062%)
+  H=3  : D=5-7 (-0.2606%)  >  D=0 (ref) (-0.3014%)  >  D=8+ (-0.3251%)  >  D=1 (-0.3510%)  >  D=2 (-0.3589%)  >  D=3-4 (-0.3957%)
+  H=5  : D=5-7 (-0.0722%)  >  D=0 (ref) (-0.1475%)  >  D=8+ (-0.1838%)  >  D=2 (-0.2168%)  >  D=1 (-0.2269%)  >  D=3-4 (-0.3190%)
+  H=10 : D=0 (ref) (+0.3000%)  >  D=5-7 (+0.1393%)  >  D=1 (+0.1366%)  >  D=8+ (+0.0983%)  >  D=3-4 (+0.0464%)  >  D=2 (+0.0239%)
+
+monotonicity check on the declared buckets only (D=0 reference excluded), stated descriptively:
+  H=1  : mean net across D=1 -> D=8+ is non-monotone in D  (spread 0.1035 pts, D=8+ minus D=1 = +0.0632 pts)
+  H=3  : mean net across D=1 -> D=8+ is non-monotone in D  (spread 0.1352 pts, D=8+ minus D=1 = +0.0260 pts)
+  H=5  : mean net across D=1 -> D=8+ is non-monotone in D  (spread 0.2467 pts, D=8+ minus D=1 = +0.0431 pts)
+  H=10 : mean net across D=1 -> D=8+ is non-monotone in D  (spread 0.1154 pts, D=8+ minus D=1 = -0.0383 pts)
+
+============================================================================================================
+CORRELATION DIAGNOSTIC -- is deep agreement just a big-recent-move detector?
+measures: fraction of cells whose prior 3-day return had absolute value >= 2%
+prior move = close[signal bar] / close[signal bar - 3] - 1  (strictly backward-looking)
+============================================================================================================
+         group         N   frac |3d move| >= 2%    mean |3d move|%   mean signed 3d move%
+           D=0     10236                 41.06%             2.202                -1.084
+           D=1      5882                 36.14%             1.904                 0.098
+           D=2      3910                 36.04%             1.889                 0.606
+         D=3-4      4633                 37.99%             1.983                 1.085
+         D=5-7      2821                 44.88%             2.244                 1.741
+          D=8+      1318                 63.96%             3.119                 2.982
+          D>=5      4139                 50.95%             2.523                 2.136
+
+OBSERVATION (no verdict): D>=5 cells are big-mover cells 50.95% of the time vs 36.14% for D=1 cells;
+  ratio = 1.410x. A ratio near 1.0 would say deep agreement is NOT merely restating recent volatility;
+  a ratio well above 1.0 would say a large part of what D encodes is "something just moved".
+
+============================================================================================================
+SHUFFLED CONTROL -- seed 20260727, single shuffle, one pass
+each strategy keeps its exact per-symbol long-signal COUNT; its signal DATES are redrawn
+without replacement from that symbol's analysable date pool. Only cross-strategy date
+alignment is destroyed. If real buckets do not separate from shuffled buckets, agreement
+depth carries no information beyond how often the strategies fire.
+============================================================================================================
+
+depth distribution, real vs shuffled:
+    D >=   real cells   shuffled cells   real/shuf
+       1        18564            25318       0.733
+       2        12682            17683       0.717
+       3         8772             9649       0.909
+       5         4139             1467       2.821
+       8         1318               26      50.692
+      10          592                2     296.000
+      15           72                0         inf
+      20           10                0         inf
+
+per-bucket forward returns, real vs shuffled (mean %, all horizons):
+  bucket    H   N_real   N_shuf  gross_real  gross_shuf   delta_g  net_real  net_shuf   delta_n
+     D=1    1     5882     7635     -0.0572     -0.0536   -0.0036   -0.4659   -0.4609   -0.0050
+     D=1    3     5882     7635      0.0583      0.0710   -0.0127   -0.3510   -0.3333   -0.0177
+     D=1    5     5882     7635      0.1789      0.1729    0.0059   -0.2269   -0.2310    0.0042
+     D=1   10     5882     7635      0.5329      0.6127   -0.0798    0.1366    0.2039   -0.0673
+------------------------------------------------------------------------------------------------------------
+     D=2    1     3910     8034     -0.0221     -0.0733    0.0511   -0.4253   -0.4803    0.0550
+     D=2    3     3910     8034      0.0401      0.0185    0.0216   -0.3589   -0.3829    0.0240
+     D=2    5     3910     8034      0.1754      0.1842   -0.0088   -0.2168   -0.2160   -0.0008
+     D=2   10     3910     8034      0.4120      0.5076   -0.0956    0.0239    0.1234   -0.0995
+------------------------------------------------------------------------------------------------------------
+   D=3-4    1     4633     8182     -0.1068     -0.0599   -0.0469   -0.5062   -0.4643   -0.0419
+   D=3-4    3     4633     8182     -0.0056      0.1239   -0.1294   -0.3957   -0.2780   -0.1177
+   D=3-4    5     4633     8182      0.0732      0.2664   -0.1931   -0.3190   -0.1309   -0.1880
+   D=3-4   10     4633     8182      0.4315      0.6079   -0.1764    0.0464    0.2110   -0.1645
+------------------------------------------------------------------------------------------------------------
+   D=5-7    1     2821     1441     -0.0529     -0.0925    0.0396   -0.4695   -0.4995    0.0300
+   D=5-7    3     2821     1441      0.1608      0.1437    0.0171   -0.2606   -0.2705    0.0099
+   D=5-7    5     2821     1441      0.3365      0.4123   -0.0758   -0.0722   -0.0043   -0.0680
+   D=5-7   10     2821     1441      0.5523      0.7244   -0.1721    0.1393    0.3127   -0.1733
+------------------------------------------------------------------------------------------------------------
+    D=8+    1     1318       26      0.0134     -0.4586    0.4720   -0.4027   -0.8616    0.4589   <-- shuffled N too small to compare
+    D=8+    3     1318       26      0.0883     -0.0936    0.1820   -0.3251   -0.4974    0.1723   <-- shuffled N too small to compare
+    D=8+    5     1318       26      0.2276      0.5270   -0.2995   -0.1838    0.1221   -0.3058   <-- shuffled N too small to compare
+    D=8+   10     1318       26      0.5034      0.4274    0.0760    0.0983    0.0226    0.0757   <-- shuffled N too small to compare
+------------------------------------------------------------------------------------------------------------
+
+CAVEAT ON THE DEEP BUCKETS: the shuffle destroys co-firing by construction, so it produces very
+few deep-agreement cells. Any bucket marked above as having too small a shuffled N has a
+return delta dominated by noise in the shuffled arm and should not be read as a comparison.
+The DEPTH-DISTRIBUTION half of this control (real vs shuffled cell counts) does not have that
+problem -- counts are exact, and that is where the shuffle is informative.
+
+============================================================================================================
+END OF EXPLORATORY OUTPUT -- NO VERDICT WAS RENDERED AND NONE SHOULD BE INFERRED
+============================================================================================================
+What this file is licensed to be used for: sizing a future pre-registered consensus spec (sample
+sizes per bucket, plausible effect scales, whether deep agreement is even frequent enough to trade).
+What it is NOT licensed for: concluding that consensus works. Everything above is in-sample on the
+train era, over a zoo whose members were themselves selected and iterated on overlapping data, with
+no multiple-comparison control and no out-of-sample confirmation. Any real claim needs a frozen spec
+written BEFORE looking at validation data, and validation data has not been touched here.
+
+runtime: 630.9s
