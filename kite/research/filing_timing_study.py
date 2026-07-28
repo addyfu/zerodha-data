@@ -14,10 +14,13 @@ TIMING BUCKETS (frozen -- exactly three, no additions):
     B1 AFTER-HOURS : filed 15:30:00-08:59:59 IST (incl. weekends, which map
                      forward to the next trading day's population).
     B2 FRIDAY-PM   : filed Friday 12:00:00-15:29:59 IST.
-    B3 PRE-HOLIDAY : filed on the last trading day before a non-weekend NSE
-                     holiday (NSE_HOLIDAYS imported from
-                     kite/live_monitor/parity_monitor.py; weekend-only gaps
-                     do NOT count).
+    B3 PRE-HOLIDAY : filed on the last trading day before a NON-WEEKEND market
+                     closure, where closures are DERIVED FROM THE PRICE PANEL'S
+                     OWN OBSERVED TRADING CALENDAR (a weekday lying inside the
+                     panel's date span with no trading data = a closure).
+                     Weekend-only gaps do NOT count. See CONSTRUCTION NOTES (d)
+                     -- this instrument is the spec's [AMENDED 2026-07-28]
+                     definition, replacing the 2026-only NSE_HOLIDAYS table.
 Buckets are assigned from the FILING timestamp (announcements' `sort_date`,
 full date+time), never from the event date E.
 
@@ -100,6 +103,35 @@ intent, these three implementation choices resolve what it leaves open):
       spec's wording ("mean bucket excess - mean same-category control excess"
       per week) matches the implemented construction, not the alternative.
 
+  (d) B3's CLOSURE INSTRUMENT [SPEC AMENDMENT 2026-07-28, user-approved BEFORE
+      the verdict run -- see the B3 bullet's [AMENDED 2026-07-28] block in
+      docs/superpowers/specs/2026-07-28-filing-timing-design.md]. B3 originally
+      read its holidays from parity_monitor.NSE_HOLIDAYS. That table registers
+      2026 ONLY, so B3 was blind in eras 1-2 and would have auto-failed
+      criterion 1 on CALENDAR COVERAGE rather than on evidence. Amended
+      instrument: closures are derived from the price panel's own observed
+      trading calendar -- a weekday inside the panel's date span with NO
+      trading data in ANY universe symbol is a market closure, and B3's
+      population is the last observed trading day strictly before each such
+      closure. This resolves 158 pre-closure trading days across the panel
+      (2015-01-01..2026-07-21) against the 10 visible from NSE_HOLIDAYS.
+      Scope of the amendment: DATA-SUFFICIENCY / instrument only. Buckets
+      B1/B2, the B3 CONCEPT ("last trading day before a non-weekend closure"),
+      thresholds, windows, eras, the within-category control, the category
+      screen, the week clustering and every verdict rule are UNTOUCHED.
+      Two properties of the derivation worth stating:
+        - It is closure-truth, not holiday-list-truth: an unscheduled closure
+          (2024-01-22, Ram Mandir) is captured, and a special SATURDAY session
+          (2024-01-20) is correctly treated as a trading day, so it -- not the
+          preceding Friday -- is the pre-closure day.
+        - CENSORING GUARD (retained from the original): a closure at or after
+          the panel's last trading day is not observable, so the panel's last
+          day is never tagged pre-closure. Under gap derivation every closure
+          lies strictly between two observed trading days, which enforces this
+          structurally; the guard is kept explicit and asserted.
+      NSE_HOLIDAYS is still imported, but ONLY for a non-verdict-bearing
+      cross-check diagnostic (does the panel confirm the 2026 table?).
+
 CAVEATS (stated before any results, per spec):
   - Timestamps may reflect exchange dissemination time, not company decision
     time. The tradeable signal is the public timestamp either way.
@@ -123,8 +155,11 @@ Usage:
         restricts the announcement population to ONE month (default 2024-01),
         so two of three eras have zero events by construction and criterion 1
         fails trivially -- SMOKE OUTPUT IS NOT A VERDICT, plumbing check only.
+        The default 2024-01 exercises B3 too: the panel-derived calendar puts
+        two pre-closure days in it (Sat 2024-01-20 before the 2024-01-22
+        closure, and Thu 2024-01-25 before Republic Day 2024-01-26).
     python kite/research/filing_timing_study.py --smoke --smoke-month 2026-01
-        same, on a month that contains NSE holidays, to exercise B3's plumbing.
+        same, on another month carrying pre-closure days.
 """
 import argparse
 import sys
@@ -139,7 +174,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import event_study as es  # noqa: E402  -- reuse load_prices/build_universe_returns/process_symbol VERBATIM
 
 sys.path.insert(0, str(ROOT / 'kite' / 'live_monitor'))
-import parity_monitor as pm  # noqa: E402  -- reuse NSE_HOLIDAYS calendars VERBATIM (B3 definition)
+# NSE_HOLIDAYS is NO LONGER B3's definition source (spec amendment 2026-07-28,
+# construction note (d)); it is retained solely for a non-verdict-bearing
+# cross-check of the panel-derived closure calendar against the 2026 table.
+import parity_monitor as pm  # noqa: E402
 
 OUT_TXT = Path(__file__).resolve().parent / 'filing_timing_results.txt'
 OUT_TXT_SMOKE = Path(__file__).resolve().parent / 'filing_timing_results_smoke.txt'
@@ -155,7 +193,8 @@ BUCKETS = ['B1_AFTER_HOURS', 'B2_FRIDAY_PM', 'B3_PRE_HOLIDAY']
 BUCKET_DESC = {
     'B1_AFTER_HOURS': 'filed 15:30:00-08:59:59 IST (incl. ALL weekend filings, mapped forward)',
     'B2_FRIDAY_PM': 'filed Friday 12:00:00-15:29:59 IST',
-    'B3_PRE_HOLIDAY': 'filed on the last trading day before a non-weekend NSE holiday',
+    'B3_PRE_HOLIDAY': 'filed on the last trading day before a non-weekend market closure '
+                      '(panel-derived calendar)',
 }
 
 DIFF_5D_FLOOR = -0.0010   # -0.10%, criterion 1
@@ -209,52 +248,100 @@ def assign_era(e_date):
 # --------------------------------------------------------------------------
 
 def build_preholiday_dates(all_dates):
-    """Last observed trading day strictly before each non-weekend NSE holiday.
+    """Last observed trading day strictly before each NON-WEEKEND market closure.
 
-    Holiday source: parity_monitor.NSE_HOLIDAYS (imported, not re-transcribed).
-    Trading calendar: the observed union-of-price-files date index (`all_dates`)
-    -- the same ground truth expiry_effect_study.py uses, rather than a second
-    hand-maintained calendar.
+    SPEC AMENDMENT 2026-07-28 (construction note (d)): the closure calendar is
+    DERIVED FROM THE PRICE PANEL ITSELF, not from parity_monitor.NSE_HOLIDAYS
+    (which registers 2026 only and left B3 blind in eras 1-2). Definition:
 
-    Returns (preholiday_dates:set[Timestamp], diagnostics:list[str]).
-    A holiday is skipped (and reported) when it is (a) on a weekend, (b)
-    outside the price panel's span -- a holiday AFTER the last observed
-    trading day would otherwise falsely tag that last day as "pre-holiday",
-    since the closure it precedes has not happened in the data yet -- or
-    (c) actually PRESENT in the observed trading calendar (the table says
-    holiday but the market traded).
+        closure   = a WEEKDAY lying strictly inside the panel's observed
+                    trading-date span that carries no trading data in any
+                    universe symbol, i.e. a weekday falling in the gap between
+                    two consecutive observed trading days.
+        B3 date   = the observed trading day immediately BEFORE such a gap.
+
+    Weekend-only gaps do NOT count (frozen): a Fri->Mon gap contributes
+    nothing. A gap containing >= 1 weekday contributes its preceding trading
+    day exactly once, however many weekdays the closure spans.
+
+    The panel's own dates are the trading calendar, so an exchange SATURDAY
+    session (e.g. the special 2024-01-20 session) is a trading day and can
+    itself be a pre-closure day; and an UNSCHEDULED closure absent from any
+    published holiday table (e.g. 2024-01-22) is still captured.
+
+    CENSORING GUARD (retained from the pre-amendment implementation): a closure
+    at or after the panel's last observed trading day is not observable, so the
+    panel's last day must never be tagged pre-closure. Gap derivation enforces
+    this structurally (every closure lies strictly between two observed trading
+    days); the filter is kept explicit and the invariant asserted.
+
+    Returns (pre:dict[Timestamp -> list[date]], diagnostics:list[str]) mapping
+    each pre-closure trading day to the closed weekday(s) it precedes.
     """
     td = pd.DatetimeIndex(all_dates)
-    td_set = set(td)
+    last = td[-1]
     pre = {}
     diags = []
-    n_weekend_skipped = 0
-    n_out_of_span = 0
-    for year in sorted(pm.NSE_HOLIDAYS):
-        for h in sorted(pm.NSE_HOLIDAYS[year]):
-            hts = pd.Timestamp(h)
-            if hts.dayofweek >= 5:
-                n_weekend_skipped += 1
-                continue  # weekend-only gaps do NOT count (frozen)
-            if hts <= td[0] or hts > td[-1]:
-                n_out_of_span += 1
-                continue  # censored: closure not observable inside the price panel
-            if hts in td_set:
-                diags.append(f'    WARN {hts.date()} is in NSE_HOLIDAYS but the price panel shows '
-                             f'trading that day -- skipped')
-                continue
-            pos = td.searchsorted(hts, side='left') - 1
-            if pos < 0 or pos >= len(td):
-                diags.append(f'    skip {hts.date()}: outside the price panel span -- no prior trading day')
-                continue
-            pre.setdefault(pd.Timestamp(td[pos]), []).append(hts.date())
-    if n_weekend_skipped:
-        diags.append(f'    {n_weekend_skipped} calendar entr(y/ies) fell on a weekend -- excluded per spec')
-    if n_out_of_span:
-        diags.append(f'    {n_out_of_span} calendar entr(y/ies) fell outside the price panel span '
-                     f'({td[0].date()}..{td[-1].date()}) -- excluded (the closure is not observable,')
-        diags.append(f'      so the "last trading day before" it is censored, not the panel\'s last day)')
+    n_weekend_only_gaps = 0
+    n_censored = 0
+    for prev, cur in zip(td[:-1], td[1:]):
+        if (cur - prev) <= pd.Timedelta(days=1):
+            continue
+        closed = [m for m in pd.date_range(prev + pd.Timedelta(days=1), cur - pd.Timedelta(days=1))
+                  if m.dayofweek < 5]
+        if not closed:
+            n_weekend_only_gaps += 1
+            continue  # weekend-only gap -- does NOT count (frozen)
+        closed = [m for m in closed if m < last]  # censoring guard (structurally vacuous here)
+        if not closed:
+            n_censored += 1
+            continue
+        pre[pd.Timestamp(prev)] = [m.date() for m in closed]
+    assert last not in pre, 'censoring guard violated: panel last day tagged pre-closure'
+
+    n_closures = sum(len(v) for v in pre.values())
+    multi = {d: v for d, v in pre.items() if len(v) > 1}
+    diags.append(f'    {n_weekend_only_gaps:,} weekend-only gaps in the panel -- excluded per spec '
+                 f'(a Fri->Mon gap is not a closure)')
+    diags.append(f'    {n_closures} non-weekend closure day(s) resolve to {len(pre)} distinct '
+                 f'pre-closure trading day(s)')
+    if multi:
+        diags.append(f'    {len(multi)} pre-closure day(s) precede a MULTI-DAY closure (counted once):')
+        for d in sorted(multi):
+            diags.append(f'      {d.date()} -> {", ".join(str(x) for x in multi[d])}')
+    if n_censored:
+        diags.append(f'    {n_censored} gap(s) dropped by the censoring guard (closure at/after the '
+                     f'panel\'s last trading day {last.date()})')
+    diags.append(f'    censoring guard OK: {last.date()} (panel last trading day) is NOT tagged '
+                 f'pre-closure -- any closure after it is unobservable, not absent')
     return pre, diags
+
+
+def nse_holiday_crosscheck(all_dates, pre):
+    """NON-VERDICT-BEARING sanity check of the panel-derived closure calendar.
+
+    parity_monitor.NSE_HOLIDAYS no longer defines B3 (construction note (d)),
+    but where it DOES have coverage it is an independent published source, so
+    we report whether the panel agrees with it. A mismatch would mean either a
+    stale table or a hole in the price data; agreement is evidence the derived
+    calendar is real. Returns a list of output lines.
+    """
+    td = pd.DatetimeIndex(all_dates)
+    observed_closures = {pd.Timestamp(c) for v in pre.values() for c in v}
+    lines = [f'  CROSS-CHECK vs parity_monitor.NSE_HOLIDAYS (diagnostic only -- NOT B3\'s source):']
+    for year in sorted(pm.NSE_HOLIDAYS):
+        entries = [pd.Timestamp(h) for h in sorted(pm.NSE_HOLIDAYS[year])]
+        weekday = [h for h in entries if h.dayofweek < 5]
+        in_span = [h for h in weekday if td[0] <= h <= td[-1]]
+        confirmed = [h for h in in_span if h in observed_closures]
+        unconfirmed = [h for h in in_span if h not in observed_closures]
+        lines.append(f'    {year}: {len(entries)} table entries, {len(weekday)} on weekdays, '
+                     f'{len(in_span)} inside the panel span, {len(confirmed)} confirmed closed '
+                     f'by the panel')
+        if unconfirmed:
+            lines.append(f'      WARN table says holiday but the panel shows trading: '
+                         f'{", ".join(str(h.date()) for h in unconfirmed)}')
+    return lines
 
 
 def assign_buckets(events, preholiday_dates):
@@ -271,9 +358,12 @@ def assign_buckets(events, preholiday_dates):
                      Disjoint from B1 by construction (the clock band lies
                      strictly inside market hours and Friday is not a weekend).
     B3 PRE-HOLIDAY : filing DATE is the last trading day before a non-weekend
-                     NSE holiday, at any clock time. B3 may overlap B1/B2 --
-                     the spec declares three independent tests, each against
-                     its own same-category control, not a partition.
+                     market closure (panel-derived calendar, construction note
+                     (d)), at any clock time. B3 may overlap B1/B2 -- the spec
+                     declares three independent tests, each against its own
+                     same-category control, not a partition. (Note the overlap
+                     is real for B3: a pre-closure day can itself be a special
+                     Saturday session, which also puts the filing in B1.)
     """
     ts = pd.DatetimeIndex(events['ann_ts'])
     sec = ts.hour * 3600 + ts.minute * 60 + ts.second
@@ -568,41 +658,36 @@ def main(smoke=False, smoke_month='2024-01'):
             f'baseline_car_20d={era_all["car_20d"].mean():+.3%}')
     out('')
 
-    # ---------------- NSE holiday calendar (B3) ----------------
+    # ---------------- closure calendar (B3) ----------------
     pre_map, hol_diags = build_preholiday_dates(all_dates)
-    hol_years = sorted(pm.NSE_HOLIDAYS)
-    out('NSE HOLIDAY CALENDAR FOR B3 (imported from kite/live_monitor/parity_monitor.py):')
-    out(f'  years registered in NSE_HOLIDAYS: {hol_years}  '
-        f'(total entries: {sum(len(v) for v in pm.NSE_HOLIDAYS.values())})')
-    out(f'  resolved pre-holiday trading days: {len(pre_map)}')
-    for d in sorted(pre_map):
-        out(f'    {d.date()} ({d.day_name()[:3]}) -> holiday(s) {", ".join(str(x) for x in pre_map[d])}')
+    td_all = pd.DatetimeIndex(all_dates)
+    out('B3 CLOSURE CALENDAR (panel-derived):')
+    out('  INSTRUMENT NOTE -- SPEC AMENDMENT 2026-07-28 (user-approved before the verdict run; see')
+    out('  the [AMENDED 2026-07-28] block on the B3 bullet of the frozen spec, and construction')
+    out('  note (d) in this script). B3 no longer reads parity_monitor.NSE_HOLIDAYS (2026 only,')
+    out('  which left B3 blind in eras 1-2). Closures are now derived from the price panel\'s own')
+    out('  observed trading calendar: a WEEKDAY inside the panel span with no trading data is a')
+    out('  market closure, and B3 = the observed trading day immediately before it. Weekend-only')
+    out('  gaps still do not count. DATA-SUFFICIENCY fix only -- the B3 concept, both other')
+    out('  buckets, thresholds, windows, eras, controls, screens and clustering are untouched.')
+    out(f'  panel trading calendar: {len(td_all):,} trading days spanning '
+        f'{td_all[0].date()}..{td_all[-1].date()}')
+    n_old_source = sum(1 for y in pm.NSE_HOLIDAYS for h in pm.NSE_HOLIDAYS[y]
+                       if pd.Timestamp(h).dayofweek < 5 and td_all[0] <= pd.Timestamp(h) <= td_all[-1])
+    out(f'  RESOLVED PRE-CLOSURE TRADING DAYS: {len(pre_map)}   '
+        f'(the pre-amendment NSE_HOLIDAYS source could resolve only {n_old_source}, all in 2026)')
+    if pre_map:
+        by_year = pd.Series(1, index=pd.DatetimeIndex(sorted(pre_map))).groupby(
+            lambda d: d.year).size()
+        out('  per year: ' + '  '.join(f'{y}:{int(k)}' for y, k in by_year.items()))
+        out('  full pre-closure date list (auditable; 8 per line):')
+        dates_sorted = sorted(pre_map)
+        for i in range(0, len(dates_sorted), 8):
+            out('    ' + '  '.join(f'{d.date()}({d.day_name()[:2]})' for d in dates_sorted[i:i + 8]))
     for line in hol_diags:
         out(line)
-    if len(hol_years) < 3:
-        out('')
-        out('  !!!' + '=' * 82)
-        out('  !!! DATA LIMITATION -- READ BEFORE INTERPRETING B3 !!!')
-        out(f'  !!! parity_monitor.NSE_HOLIDAYS registers ONLY {hol_years}. The frozen spec names that')
-        out('  !!! table as B3\'s definition source, so B3 can only find pre-holiday filings inside')
-        out('  !!! the covered year(s). Every era with no covered holidays gets N=0 bucket events,')
-        out('  !!! and criterion 1 ("<= -0.10% in EVERY era") therefore FAILS BY CONSTRUCTION for')
-        out('  !!! B3 -- not because timing is uninformative, but because the calendar is missing.')
-        out('  !!! Implemented as frozen (no deviation). Extending B3 to 2020-2025 requires a')
-        out('  !!! SPEC AMENDMENT adding those holiday tables to parity_monitor.py.')
-        # descriptive, non-verdict-bearing magnitude check
-        td = pd.DatetimeIndex(all_dates)
-        gaps = td.to_series().diff()
-        nonweekend_gap = []
-        for prev, cur, gap in zip(td[:-1], td[1:], gaps[1:]):
-            missing = pd.date_range(prev + pd.Timedelta(days=1), cur - pd.Timedelta(days=1))
-            missing = [m for m in missing if m.dayofweek < 5]
-            if missing:
-                nonweekend_gap.append(prev)
-        out(f'  !!! DESCRIPTIVE ONLY (not used in any verdict): the observed trading calendar shows')
-        out(f'  !!! {len(nonweekend_gap)} trading days followed by a non-weekend market closure over')
-        out(f'  !!! {td[0].date()}..{td[-1].date()}, vs the {len(pre_map)} B3 can see from NSE_HOLIDAYS.')
-        out('  !!!' + '=' * 82)
+    for line in nse_holiday_crosscheck(all_dates, pre_map):
+        out(line)
     out('')
 
     # ---------------- bucket assignment ----------------

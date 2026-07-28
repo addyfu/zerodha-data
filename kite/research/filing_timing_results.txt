@@ -1,0 +1,240 @@
+========================================================================================
+FILING-TIMING METADATA STUDY
+========================================================================================
+Frozen spec: docs/superpowers/specs/2026-07-28-filing-timing-design.md
+Status: APPROVED & FROZEN (user, 2026-07-28).
+
+HYPOTHESIS: companies choose WHEN to file. Low-attention timing marks news
+  management and predicts negative drift BEYOND the filing category. Category-CONTENT
+  drift is already dead here (0/3, 2026-07-28 confirmation study); this tests TIMING as
+  an orthogonal, within-category-controlled signal.
+
+TIMING BUCKETS (frozen -- exactly three, no additions; assigned from the FILING
+timestamp `sort_date` (date+time), never from the event date E):
+  B1_AFTER_HOURS   filed 15:30:00-08:59:59 IST (incl. ALL weekend filings, mapped forward)
+  B2_FRIDAY_PM     filed Friday 12:00:00-15:29:59 IST
+  B3_PRE_HOLIDAY   filed on the last trading day before a non-weekend market closure (panel-derived calendar)
+
+METHOD (frozen):
+  - Join/E-date/entry/liquidity-gate/CAR conventions reused VERBATIM from event_study.py
+    (imported, not reimplemented): E = announcement date advanced to the next trading day
+    (or the day after if filed post-15:30 IST); forward window starts at the E+1 open, one
+    full trading day after E; liquidity gate 60d median turnover>2e7 and close>20 at E.
+  - excess_5d = event car_5d MINUS the same-era ALL-ANNOUNCEMENT baseline (mean car_5d
+    across every joined category event in that era) -- construction identical to the
+    2026-07-27 confirmation study. excess_20d same construction, SECONDARY only.
+  - Comparison is ALWAYS bucket-vs-control WITHIN the same category and era. Control for
+    bucket B = every OTHER filing of the SAME category in the SAME era. NEVER
+    bucket-vs-zero (that would re-discover the dead category effect through a proxy).
+  - Pooled across categories with >= 100 events in BOTH arms, weighted by
+    bucket-arm event count. Category screen is applied ONCE on the full all-era
+    population per bucket and then FROZEN across eras (construction note (a)).
+  - Inference: cluster-robust by ISO calendar week on the DIFFERENCE construction --
+    cell=(week,era,category) needing BOTH arms present; D_w = bucket-count-weighted mean
+    of within-cell (mean bucket excess - mean same-category control excess); then
+    t = mean(D_w)/(std(D_w,ddof=1)/sqrt(n_weeks)), the confirmation study formula
+    verbatim. Full rationale + the rejected alternative: construction note (c) in this
+    script's module docstring. FLAGGED FOR REVIEWER ATTENTION.
+  - Eras (by event date E): 2020-01..2021-12 / 2022-01..2023-12 / 2024-01..2026-07
+
+VERDICT (frozen, per bucket, ALL must hold to PASS):
+  Criterion 1: pooled bucket-minus-control 5d difference <= -0.10% in EVERY era.
+  Criterion 2: pooled (all-eras) cluster-corrected t <= -2.4 (Bonferroni, 3 declared buckets).
+  Declared test count: 3 (one per bucket). 20d differences are SECONDARY information,
+  never verdict-bearing. A bucket that fails stays failed -- no threshold nudging.
+
+CAVEATS (stated before results, per spec):
+  - Timestamps may reflect exchange dissemination time, not company decision time. The
+    tradeable signal is the public timestamp either way.
+  - Some categories legitimately cluster after-hours (board-meeting outcomes). The
+    within-category control absorbs level differences; categories with <100 events in
+    either arm are excluded from the pool (counts reported below).
+  - In-sample exploration on mined announcement data. Any PASS gets the forward
+    kill-criterion as its real out-of-sample test -- never an automatic deploy.
+  - The same-era all-announcement baseline cancels algebraically inside every
+    bucket-minus-control difference (same era, same offset, both arms). It is retained
+    because the spec freezes it and it makes per-arm LEVELS comparable to the
+    confirmation study; it moves no verdict here.
+
+EVENT FUNNEL:
+  raw announcement rows............    973,418
+  dropped: symbol not in price universe 604,964
+  joined (symbol matched)...........    368,454
+  dropped: E not found within 5 cal days    972
+  dropped: insufficient forward data (need E+1..E+21)  6,432
+  dropped: liquidity gate (turnover>2e7 & close>20 at E) 30,977
+  dropped: bad/non-finite price data      0
+  FINAL analysis events.............    330,073
+
+FILING-TIMESTAMP GRANULARITY (spec check -- what B1/B2 can actually see):
+  raw announcement population: N=973,418
+    midnight-exact (00:00:00, blind to B1/B2)...        15  (0.0015%)
+    non-zero minute field (real intraday stamp).   957,256  (98.34%)
+    non-zero second field.......................   900,567  (92.52%)
+    -> timestamps carry genuine intraday resolution; B1/B2 are not capped by
+       midnight-only stamping.
+  final analysis population: N=330,073
+    midnight-exact (00:00:00, blind to B1/B2)...         7  (0.0021%)
+    non-zero minute field (real intraday stamp).   324,394  (98.28%)
+    non-zero second field.......................   309,044  (93.63%)
+    -> timestamps carry genuine intraday resolution; B1/B2 are not capped by
+       midnight-only stamping.
+
+SAME-ERA ALL-ANNOUNCEMENT BASELINE (mean abnormal return, every joined category event):
+  2020-01..2021-12: N=64,820  baseline_car_5d=-0.593%  baseline_car_20d=-1.396%
+  2022-01..2023-12: N=101,694  baseline_car_5d=-0.378%  baseline_car_20d=-0.759%
+  2024-01..2026-07: N=163,559  baseline_car_5d=-0.368%  baseline_car_20d=-0.586%
+
+B3 CLOSURE CALENDAR (panel-derived):
+  INSTRUMENT NOTE -- SPEC AMENDMENT 2026-07-28 (user-approved before the verdict run; see
+  the [AMENDED 2026-07-28] block on the B3 bullet of the frozen spec, and construction
+  note (d) in this script). B3 no longer reads parity_monitor.NSE_HOLIDAYS (2026 only,
+  which left B3 blind in eras 1-2). Closures are now derived from the price panel's own
+  observed trading calendar: a WEEKDAY inside the panel span with no trading data is a
+  market closure, and B3 = the observed trading day immediately before it. Weekend-only
+  gaps still do not count. DATA-SUFFICIENCY fix only -- the B3 concept, both other
+  buckets, thresholds, windows, eras, controls, screens and clustering are untouched.
+  panel trading calendar: 2,861 trading days spanning 2015-01-01..2026-07-21
+  RESOLVED PRE-CLOSURE TRADING DAYS: 158   (the pre-amendment NSE_HOLIDAYS source could resolve only 10, all in 2026)
+  per year: 2015:13  2016:12  2017:12  2018:14  2019:17  2020:12  2021:13  2022:11  2023:15  2024:16  2025:13  2026:10
+  full pre-closure date list (auditable; 8 per line):
+    2015-01-23(Fr)  2015-02-16(Mo)  2015-03-05(Th)  2015-04-01(We)  2015-04-13(Mo)  2015-04-30(Th)  2015-09-16(We)  2015-09-24(Th)
+    2015-10-01(Th)  2015-10-21(We)  2015-11-11(We)  2015-11-24(Tu)  2015-12-24(Th)  2016-01-25(Mo)  2016-03-04(Fr)  2016-03-23(We)
+    2016-04-13(We)  2016-04-18(Mo)  2016-07-05(Tu)  2016-08-12(Fr)  2016-09-02(Fr)  2016-09-12(Mo)  2016-10-10(Mo)  2016-10-30(Su)
+    2016-11-11(Fr)  2017-01-25(We)  2017-02-23(Th)  2017-03-10(Fr)  2017-04-03(Mo)  2017-04-13(Th)  2017-04-28(Fr)  2017-06-23(Fr)
+    2017-08-14(Mo)  2017-08-24(Th)  2017-09-29(Fr)  2017-10-19(Th)  2017-12-22(Fr)  2018-01-25(Th)  2018-02-12(Mo)  2018-03-01(Th)
+    2018-03-28(We)  2018-04-30(Mo)  2018-08-14(Tu)  2018-08-21(Tu)  2018-09-12(We)  2018-09-19(We)  2018-10-01(Mo)  2018-10-17(We)
+    2018-11-07(We)  2018-11-22(Th)  2018-12-24(Mo)  2019-03-01(Fr)  2019-03-20(We)  2019-04-16(Tu)  2019-04-18(Th)  2019-04-26(Fr)
+    2019-04-30(Tu)  2019-06-04(Tu)  2019-08-09(Fr)  2019-08-14(We)  2019-08-30(Fr)  2019-09-09(Mo)  2019-10-01(Tu)  2019-10-07(Mo)
+    2019-10-18(Fr)  2019-10-27(Su)  2019-11-11(Mo)  2019-12-24(Tu)  2020-02-20(Th)  2020-03-09(Mo)  2020-04-01(We)  2020-04-03(Fr)
+    2020-04-09(Th)  2020-04-13(Mo)  2020-04-30(Th)  2020-05-22(Fr)  2020-10-01(Th)  2020-11-14(Sa)  2020-11-27(Fr)  2020-12-24(Th)
+    2021-01-25(Mo)  2021-03-10(We)  2021-03-26(Fr)  2021-04-01(Th)  2021-04-13(Tu)  2021-04-20(Tu)  2021-05-12(We)  2021-07-20(Tu)
+    2021-08-18(We)  2021-09-09(Th)  2021-10-14(Th)  2021-11-04(Th)  2021-11-18(Th)  2022-01-25(Tu)  2022-02-28(Mo)  2022-03-17(Th)
+    2022-04-13(We)  2022-05-02(Mo)  2022-08-08(Mo)  2022-08-12(Fr)  2022-08-30(Tu)  2022-10-04(Tu)  2022-10-25(Tu)  2022-11-07(Mo)
+    2023-01-25(We)  2023-03-06(Mo)  2023-03-29(We)  2023-04-03(Mo)  2023-04-06(Th)  2023-04-13(Th)  2023-04-28(Fr)  2023-06-28(We)
+    2023-08-14(Mo)  2023-09-18(Mo)  2023-09-29(Fr)  2023-10-23(Mo)  2023-11-13(Mo)  2023-11-24(Fr)  2023-12-22(Fr)  2024-01-20(Sa)
+    2024-01-25(Th)  2024-03-07(Th)  2024-03-22(Fr)  2024-03-28(Th)  2024-04-10(We)  2024-04-16(Tu)  2024-04-30(Tu)  2024-05-18(Sa)
+    2024-06-14(Fr)  2024-07-16(Tu)  2024-08-14(We)  2024-10-01(Tu)  2024-11-14(Th)  2024-11-19(Tu)  2024-12-24(Tu)  2025-02-25(Tu)
+    2025-03-13(Th)  2025-03-28(Fr)  2025-04-09(We)  2025-04-11(Fr)  2025-04-17(Th)  2025-04-30(We)  2025-08-14(Th)  2025-08-26(Tu)
+    2025-10-01(We)  2025-10-21(Tu)  2025-11-04(Tu)  2025-12-24(We)  2026-01-14(We)  2026-01-23(Fr)  2026-03-02(Mo)  2026-03-25(We)
+    2026-03-30(Mo)  2026-04-02(Th)  2026-04-13(Mo)  2026-04-30(Th)  2026-05-27(We)  2026-06-25(Th)
+    530 weekend-only gaps in the panel -- excluded per spec (a Fri->Mon gap is not a closure)
+    164 non-weekend closure day(s) resolve to 158 distinct pre-closure trading day(s)
+    6 pre-closure day(s) precede a MULTI-DAY closure (counted once):
+      2015-04-01 -> 2015-04-02, 2015-04-03
+      2016-03-23 -> 2016-03-24, 2016-03-25
+      2016-04-13 -> 2016-04-14, 2016-04-15
+      2016-10-10 -> 2016-10-11, 2016-10-12
+      2018-03-28 -> 2018-03-29, 2018-03-30
+      2022-04-13 -> 2022-04-14, 2022-04-15
+    censoring guard OK: 2026-07-21 (panel last trading day) is NOT tagged pre-closure -- any closure after it is unobservable, not absent
+  CROSS-CHECK vs parity_monitor.NSE_HOLIDAYS (diagnostic only -- NOT B3's source):
+    2026: 16 table entries, 16 on weekdays, 10 inside the panel span, 10 confirmed closed by the panel
+
+BUCKET POPULATIONS (final analysis events, assigned from the filing timestamp):
+  B1_AFTER_HOURS   N= 229,417  (69.50% of 330,073)   [filed 15:30:00-08:59:59 IST (incl. ALL weekend filings, mapped forward)]
+  B2_FRIDAY_PM     N=  15,446  ( 4.68% of 330,073)   [filed Friday 12:00:00-15:29:59 IST]
+  B3_PRE_HOLIDAY   N=  16,399  ( 4.97% of 330,073)   [filed on the last trading day before a non-weekend market closure (panel-derived calendar)]
+  B1 detail: 10,875 of the B1 events qualify ONLY via the weekend clause
+    (filed Sat/Sun 09:00:00-15:29:59, i.e. outside the 15:30-08:59 clock band).
+  Bucket overlap (buckets are 3 independent tests, NOT a partition):
+    B1_AFTER_HOURS & B2_FRIDAY_PM: 0
+    B1_AFTER_HOURS & B3_PRE_HOLIDAY: 11,172
+    B2_FRIDAY_PM & B3_PRE_HOLIDAY: 668
+
+========================================================================================
+PER-BUCKET VERDICTS
+========================================================================================
+
+BUCKET: B1_AFTER_HOURS  [filed 15:30:00-08:59:59 IST (incl. ALL weekend filings, mapped forward)]
+  Category pool (>= 100 events in BOTH arms, frozen on the all-era population):
+    qualifying categories: 59 of 241 present   excluded: 182
+    pooled events: bucket N=219,959  control N=97,562   (dropped by the screen: bucket 9,458, control 3,094)
+    top qualifying categories by bucket count:
+       40,948  bucket /  15,784 control   Analysts/Institutional Investor Meet/Con. Call Updates
+       28,370  bucket /  10,144 control   Updates
+       18,378  bucket /   7,755 control   Loss of Share Certificates
+       11,711  bucket /   9,285 control   Press Release
+       10,935  bucket /   7,183 control   Copy of Newspaper Publication
+        9,762  bucket /   2,190 control   Shareholders meeting
+        8,970  bucket /   2,843 control   General Updates
+        8,486  bucket /   4,051 control   Outcome of Board Meeting
+        6,322  bucket /   3,758 control   Trading Window
+        5,875  bucket /   2,731 control   Investor Presentation
+      ... and 49 more
+  PER-ERA POOLED WITHIN-CATEGORY DIFFERENCE (bucket minus same-category control):
+    Era 2020-01..2021-12: N_bucket=40,893 N_control= 21,318 cats= 39  diff_5d=-0.007%  diff_20d=-0.200%  (<= -0.10% ? no)
+    Era 2022-01..2023-12: N_bucket=67,407 N_control= 30,819 cats= 53  diff_5d=-0.030%  diff_20d=-0.247%  (<= -0.10% ? no)
+    Era 2024-01..2026-07: N_bucket=111,659 N_control= 45,425 cats= 45  diff_5d=-0.100%  diff_20d=-0.123%  (<= -0.10% ? yes)
+  Criterion 1 (5d diff <= -0.10% in EVERY era): FAIL
+  CLUSTER-ROBUST t ON THE WEEKLY DIFFERENCE SERIES (construction note (c)):
+    weekly clusters used: 338   bucket events retained: 214,049/219,959 (97.3%)
+    (a bucket event is dropped only if its (week, era, category) cell has NO
+     same-week same-category control -- it then has no within-week counterfactual)
+    mean weekly diff=-0.0338%  sd=0.6247%  t=-0.995
+    SECONDARY (never verdict-bearing): 20d weekly-diff t=-2.727 (n_weeks=338)
+  Criterion 2 (pooled cluster t <= -2.4): FAIL
+  BUCKET VERDICT: FAIL
+
+BUCKET: B2_FRIDAY_PM  [filed Friday 12:00:00-15:29:59 IST]
+  Category pool (>= 100 events in BOTH arms, frozen on the all-era population):
+    qualifying categories: 25 of 241 present   excluded: 216
+    pooled events: bucket N=13,566  control N=272,477   (dropped by the screen: bucket 1,880, control 42,150)
+    top qualifying categories by bucket count:
+        2,036  bucket /  54,696 control   Analysts/Institutional Investor Meet/Con. Call Updates
+        1,472  bucket /  37,042 control   Updates
+        1,376  bucket /  16,742 control   Copy of Newspaper Publication
+        1,289  bucket /  24,844 control   Loss of Share Certificates
+          987  bucket /  20,009 control   Press Release
+          825  bucket /  11,712 control   Outcome of Board Meeting
+          617  bucket /   7,405 control   Financial Result Updates
+          600  bucket /   9,480 control   Trading Window
+          515  bucket /   8,091 control   Investor Presentation
+          484  bucket /  11,329 control   General Updates
+      ... and 15 more
+  PER-ERA POOLED WITHIN-CATEGORY DIFFERENCE (bucket minus same-category control):
+    Era 2020-01..2021-12: N_bucket= 2,660 N_control= 54,165 cats= 20  diff_5d=-0.107%  diff_20d=+0.331%  (<= -0.10% ? yes)
+    Era 2022-01..2023-12: N_bucket= 4,378 N_control= 80,372 cats= 24  diff_5d=+0.086%  diff_20d=+0.116%  (<= -0.10% ? no)
+    Era 2024-01..2026-07: N_bucket= 6,528 N_control=137,940 cats= 21  diff_5d=+0.200%  diff_20d=+0.439%  (<= -0.10% ? no)
+  Criterion 1 (5d diff <= -0.10% in EVERY era): FAIL
+  CLUSTER-ROBUST t ON THE WEEKLY DIFFERENCE SERIES (construction note (c)):
+    weekly clusters used: 316   bucket events retained: 13,546/13,566 (99.9%)
+    (a bucket event is dropped only if its (week, era, category) cell has NO
+     same-week same-category control -- it then has no within-week counterfactual)
+    mean weekly diff=+0.1069%  sd=1.3938%  t=+1.364
+    SECONDARY (never verdict-bearing): 20d weekly-diff t=+2.058 (n_weeks=316)
+  Criterion 2 (pooled cluster t <= -2.4): FAIL
+  BUCKET VERDICT: FAIL
+
+BUCKET: B3_PRE_HOLIDAY  [filed on the last trading day before a non-weekend market closure (panel-derived calendar)]
+  Category pool (>= 100 events in BOTH arms, frozen on the all-era population):
+    qualifying categories: 25 of 241 present   excluded: 216
+    pooled events: bucket N=14,386  control N=272,448   (dropped by the screen: bucket 2,013, control 41,226)
+    top qualifying categories by bucket count:
+        2,462  bucket /  54,270 control   Analysts/Institutional Investor Meet/Con. Call Updates
+        2,245  bucket /  36,269 control   Updates
+        1,498  bucket /  24,635 control   Loss of Share Certificates
+        1,037  bucket /  19,959 control   Press Release
+          846  bucket /   9,234 control   Trading Window
+          759  bucket /  17,359 control   Copy of Newspaper Publication
+          717  bucket /  11,096 control   General Updates
+          613  bucket /  11,339 control   Shareholders meeting
+          563  bucket /  11,974 control   Outcome of Board Meeting
+          398  bucket /   7,340 control   Certificate under SEBI (Depositories and Participants) Regulations, 2018
+      ... and 15 more
+  PER-ERA POOLED WITHIN-CATEGORY DIFFERENCE (bucket minus same-category control):
+    Era 2020-01..2021-12: N_bucket= 2,144 N_control= 55,201 cats= 21  diff_5d=-0.121%  diff_20d=-0.244%  (<= -0.10% ? yes)
+    Era 2022-01..2023-12: N_bucket= 4,002 N_control= 79,392 cats= 24  diff_5d=-0.142%  diff_20d=-0.194%  (<= -0.10% ? yes)
+    Era 2024-01..2026-07: N_bucket= 8,240 N_control=137,855 cats= 22  diff_5d=-0.043%  diff_20d=-0.056%  (<= -0.10% ? no)
+  Criterion 1 (5d diff <= -0.10% in EVERY era): FAIL
+  CLUSTER-ROBUST t ON THE WEEKLY DIFFERENCE SERIES (construction note (c)):
+    weekly clusters used: 116   bucket events retained: 14,335/14,386 (99.6%)
+    (a bucket event is dropped only if its (week, era, category) cell has NO
+     same-week same-category control -- it then has no within-week counterfactual)
+    mean weekly diff=-0.0829%  sd=0.9584%  t=-0.932
+    SECONDARY (never verdict-bearing): 20d weekly-diff t=+0.271 (n_weeks=116)
+  Criterion 2 (pooled cluster t <= -2.4): FAIL
+  BUCKET VERDICT: FAIL
+
+
+Total runtime: 24.3s

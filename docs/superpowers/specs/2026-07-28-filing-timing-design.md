@@ -21,9 +21,15 @@ announcement-drift-confirmation study).
 - B1 AFTER-HOURS: filed 15:30:00–08:59:59 IST (incl. weekends mapped to the
   next trading day's population).
 - B2 FRIDAY-PM: filed Friday 12:00:00–15:29:59 IST.
-- B3 PRE-HOLIDAY: filed on the last trading day before an NSE holiday
-  (non-weekend holiday per the NSE_HOLIDAYS calendars already in
-  parity_monitor.py; weekend-only gaps do NOT count).
+- B3 PRE-HOLIDAY: filed on the last trading day before a non-weekend market
+  closure. [AMENDED 2026-07-28, user-approved, BEFORE the verdict run:
+  originally "per the NSE_HOLIDAYS calendars in parity_monitor.py" — that
+  table covers 2026 only, leaving B3 blind for eras 1-2 and auto-failing on
+  calendar coverage, not evidence. New instrument: closure days DERIVED from
+  the price panel's own observed trading calendar (a weekday with no trading
+  data inside the panel span = market closure; 158 such days 2019-2026 vs
+  the 10 visible before). Data-sufficiency instrument fix; thresholds,
+  buckets, windows, and inference untouched.]
 Control group per bucket: all other filings of the SAME category in the same
 era. The comparison is always bucket-vs-control WITHIN category, then pooled
 across categories weighted by event count — never raw bucket vs zero
@@ -66,3 +72,21 @@ week clustering, then runs the verdict. Results appended here.
 ## Decision log
 
 - 2026-07-28: Spec frozen (user approved).
+- 2026-07-28 (pre-verdict): B3 instrument amended, user-approved (see the
+  [AMENDED] block above) — panel-derived closure calendar (158 pre-closure
+  days) replaces the 2026-only holiday table. The new instrument also
+  handles special Saturday sessions correctly (2024-01-20 traded; the
+  table approach would have mislabeled it). Timestamp granularity
+  verified: 0.0015% midnight-blank — B1/B2 have full vision.
+- 2026-07-28 (results): **ALL THREE BUCKETS FAIL — timing is not a signal
+  at the 5d horizon.**
+  - B1 AFTER-HOURS (220k events): 5d diffs −0.01/−0.03/−0.10%, t=−1.00.
+  - B2 FRIDAY-PM (13.6k): diffs flip positive in 2 of 3 eras, t=+1.36.
+  - B3 PRE-HOLIDAY (14.4k): right sign in eras 1-2, −0.04% in era 3
+    (floor −0.10%), t=−0.93.
+  Candidate observation (pre-declared SECONDARY, never verdict-bearing,
+  recorded only): B1's 20d difference is negative in all three eras
+  (−0.12 to −0.25%, weekly t=−2.73) — a slow fade after off-hours filings
+  that the 5d primary window doesn't see. Pursuing it would need a new
+  spec with 20d declared primary on post-2026-07 data; NOT actioned.
+  Tombstone #135. Invention wave 2026-07-28 closes 0-for-3.
