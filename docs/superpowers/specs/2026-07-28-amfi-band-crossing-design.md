@@ -75,3 +75,28 @@ runs the verdict. Results appended here.
 ## Decision log
 
 - 2026-07-28: Spec frozen (user approved).
+- 2026-07-28 (pre-verdict, reviewer): recon PASSED — 18/18 AMFI half-year
+  lists retrieved (Jul-Dec 2017 → Jan-Jun 2026), ISIN-exact joins, top-300
+  join rates 96.3-99.0%. Two realities recorded BEFORE the verdict run, no
+  criteria touched: (a) the price panel starts 2019-10, so ~13 review
+  clusters are usable, not the ~16-17 the spec estimated — era halves are
+  ~4 vs ~9 clusters, power thinner than sized; (b) only 2/18 publication
+  dates are externally verifiable (AMFI's 2025 site migration destroyed
+  Last-Modified history) — 16 reviews use the spec's 5th-trading-day
+  fallback, flagged per event. Notional per event Rs 25,000 (October
+  Contract first tranche) for the flat-DP cost conversion; realized drag
+  ~0.67% vs the frozen 0.9% hurdle — the frozen number stays.
+- 2026-07-28 (results): **FAIL — all criteria, both promotion cells, and
+  the effect is INVERTED.** PROMOTION-TO-MID: net 20d AR −5.94%, t=−6.07
+  (G=13), negative in both era halves. PROMOTION-TO-LARGE: −2.8%, t=−1.93.
+  Combined promotion edge −4.63% vs +1.35% required. Mechanism read:
+  promotion is a lagging badge on a 6-month run-up; by publication the run
+  mean-reverts — buying promotions is buying tops. Demotions (info-only)
+  also fall (−4 to −5%) with −17 to −21% pre-publication drift: the news
+  is stale by print date. Caveats that temper the magnitudes, per the
+  pre-verdict notes: EW-benchmark small-cap tilt inflates every negative
+  AR in small-cap-led eras, and G=13 clusters is thin — but no reading of
+  these numbers rescues a LONG promotion trade. Candidate observation
+  (NOT pre-registered, needs its own spec if ever pursued): the inverse
+  — avoid/defer fresh-promotion buys for ~20 days — overlaps with what
+  momo rotation naturally buys and was NOT tested here.

@@ -1,0 +1,177 @@
+  WARN: failed to read sec_bhavdata_full_08082022.csv: ParserError: Error tokenizing data. C error: Expected 1 fields in line 5, saw 2
+, skipping
+Loaded 1682 bhavcopy files (1 skipped), 3055564 EQ stock-day rows, 3204 symbols, 2019-10-01 -> 2026-07-27
+Corporate-action adjustment applied: 312221 stock-day rows scaled, 451 symbols with >=1 valid action.
+EW benchmark built: 1468126 eligible open-to-open stock-day returns, 955 (0.0650%) hit the +/-25% clip; median daily universe breadth = 849 names.
+==============================================================================
+AMFI BAND-CROSSING STUDY -- FROZEN RULES (stated before any result)
+==============================================================================
+Spec      : docs/superpowers/specs/2026-07-28-amfi-band-crossing-design.md
+Mode      : FULL VERDICT RUN
+
+Cells (frozen, joined between consecutive AMFI lists ON ISIN):
+  PROMOTION-TO-LARGE   prev != LARGE -> cur == LARGE      [verdict-bearing]
+  PROMOTION-TO-MID     prev == SMALL -> cur == MID        [verdict-bearing]
+  DEMOTION-FROM-LARGE  prev == LARGE -> cur != LARGE      [information only]
+  DEMOTION-FROM-MID    prev == MID   -> cur == SMALL      [information only]
+  Categories from AMFI's PUBLISHED RANK, used verbatim:
+    rank 1-100 LARGE | 101-250 MID | 251+ SMALL. Nothing recomputed from prices.
+  New listings (absent from the previous list) are NOT events.
+
+Trade leg (PROMOTIONS ONLY, long-only constraint):
+  long at E+1 OPEN, hold 20 trading days, exit at OPEN
+  slippage 0.2%/side; charges via
+    zerodha_charges.calculate_charges(buy_v, sell_v, is_intraday=False)['total']
+  position notional Rs 25,000/event (DP charge is flat, so a
+    percent cost is undefined without a size -- flagged interpretation choice)
+
+Benchmark : equal-weight universe, daily-rebalanced, FRICTIONLESS,
+            OPEN-to-OPEN over the same span, returns clipped +/-25%,
+            universe = EQ & turnover >= Rs 200L & adj close >= Rs 20
+  AR = net-of-cost stock return - frictionless EW universe return
+
+Verdict (frozen, per promotion cell, ALL must hold):
+  1. Mean 20d excess AR (net) > 0 in BOTH era halves
+     (publication year < 2022 vs >= 2022)
+  2. Pooled t >= +2.0, CLUSTERED BY REVIEW DATE
+  3. Combined promotion cells' net edge >= 1.5x the 0.9% cost hurdle = 1.35%
+  Declared test count: 2 (the two promotion cells).
+  Demotion cells + pre-publication drift: INFORMATION ONLY, no verdict weight.
+
+Cluster-robust t formula (as implemented):
+  m = mean(x); e_i = x_i - m; meat = sum_g (sum_{i in g} e_i)^2
+  c = [G/(G-1)] * [(N-1)/(N-k)], k=1  ->  c = G/(G-1)
+  Var(m) = c * meat / N^2;  se = sqrt(Var(m));  t = m / se
+
+Caveats (stated BEFORE results, per spec):
+  - Low power: G is ~13-16 review clusters. A marginal pass is WEAK evidence.
+  - SEBI allows funds +/-20% flexibility, softening the "forced" flow.
+  - Funds can anticipate crossings; E+1 entry may be late (drift measured).
+  - AMFI ranks are NSE+BSE combined; our panel is NSE-only. Affects joins,
+    not ranks. Top-300 join rate is 96-99%/review (fetch_amfi_bands.py).
+  - BENCHMARK SIZE TILT (observed, not a bug, NOT adjusted for -- the EW
+    universe is frozen by the spec): every event here sits in roughly the
+    top 300 by mcap, while the EW universe is ~1,100+ names dominated by
+    much smaller ones. When small caps run, ALL FOUR cells will show
+    negative AR for reasons that have nothing to do with band crossings.
+    Read the promotion-vs-demotion SPREAD, not the level, when this bites.
+  - E is a VERIFIED publication date for only 2 of 18 lists; the rest use the
+    spec fallback (5th trading day of Jan/Jul). Flagged per event below.
+  - BINDING LIMIT: AMFI archive starts Jul-Dec 2017 but data/bhavcopy_full/
+    starts 2019-10-01, so the PRICE PANEL (not AMFI) caps usable reviews.
+    Reviews loaded: 18; transitions selected this run: 17.
+==============================================================================
+
+--- PER-REVIEW EVENT CONSTRUCTION (audit this before reading results) ---
+  transition        E           entry       exit         cross  usable  E source
+  2017H2->2018H1    (none)      (none)      (none)          41       0  fallback: panel has no 5th trading day in 07/2018
+  2018H1->2018H2    (none)      (none)      (none)          43       0  fallback: panel has no 5th trading day in 01/2019
+  2018H2->2019H1    (none)      (none)      (none)          44       0  fallback: panel has no 5th trading day in 07/2019
+  2019H1->2019H2    2020-01-07  2020-01-08  2020-02-05      35      35  FALLBACK(5th trading day)
+  2019H2->2020H1    2020-07-07  2020-07-08  2020-08-05      29      28  FALLBACK(5th trading day)
+  2020H1->2020H2    2021-01-07  2021-01-08  2021-02-08      33      33  FALLBACK(5th trading day)
+  2020H2->2021H1    2021-07-07  2021-07-08  2021-08-06      38      35  FALLBACK(5th trading day)
+  2021H1->2021H2    2022-01-07  2022-01-10  2022-02-08      49      47  FALLBACK(5th trading day)
+  2021H2->2022H1    2022-07-07  2022-07-08  2022-08-05      30      30  FALLBACK(5th trading day)
+  2022H1->2022H2    2023-01-06  2023-01-09  2023-02-07      29      29  FALLBACK(5th trading day)
+  2022H2->2023H1    2023-07-07  2023-07-10  2023-08-07      32      32  FALLBACK(5th trading day)
+  2023H1->2023H2    2024-01-05  2024-01-08  2024-02-07      43      42  FALLBACK(5th trading day)
+  2023H2->2024H1    2024-07-05  2024-07-08  2024-08-06      48      47  FALLBACK(5th trading day)
+  2024H1->2024H2    2025-01-07  2025-01-08  2025-02-05      35      34  FALLBACK(5th trading day)
+  2024H2->2025H1    2025-07-07  2025-07-08  2025-08-05      42      41  FALLBACK(5th trading day)
+  2025H1->2025H2    2026-01-05  2026-01-06  2026-02-05      35      35  verified(last-modified)
+  2025H2->2026H1    2026-07-07  2026-07-08  (none)          33       0  verified(last-modified)
+
+  Drop accounting per transition (why a crossing did not become a trade):
+  transition         prevN   curN  newLst  noDate  noNSE  notPanel  noPrice
+  2017H2->2018H1      3422   4887    1537      41      0         0        0
+  2018H1->2018H2      4887   4792     142      43      0         0        0
+  2018H2->2019H1      4792   4883     137      44      0         0        0
+  2019H1->2019H2      4883   4930      84       0      0         0        0
+  2019H2->2020H1      4930   4944      90       0      1         0        0
+  2020H1->2020H2      4944   4985      87       0      0         0        0
+  2020H2->2021H1      4985   5002      91       0      1         0        2
+  2021H1->2021H2      5002   5046     146       0      0         0        2
+  2021H2->2022H1      5046   5057     127       0      0         0        0
+  2022H1->2022H2      5057   5072     155       0      0         0        0
+  2022H2->2023H1      5072   5025     129       0      0         0        0
+  2023H1->2023H2      5025   5008     152       0      0         0        1
+  2023H2->2024H1      5008   5049     150       0      1         0        0
+  2024H1->2024H2      5049   5097     194       0      0         0        1
+  2024H2->2025H1      5097   5158     168       0      1         0        0
+  2025H1->2025H2      5158   5372     302       0      0         0        0
+  2025H2->2026H1      5372   5427     148       0      0         0       33
+  NOTE: 4 transition(s) produced ZERO usable events -- almost always because the review predates data/bhavcopy_full/ (starts 2019-10-01).
+
+--- CELL COUNTS (crossings found / usable after price join) ---
+  PROMOTION-TO-LARGE       116 crossings,    80 usable
+  PROMOTION-TO-MID         161 crossings,   111 usable
+  DEMOTION-FROM-LARGE      136 crossings,    98 usable
+  DEMOTION-FROM-MID        226 crossings,   166 usable
+
+--- PROMOTION-TO-LARGE  [VERDICT] ---
+  events N=80   review clusters G=13   mean events/cluster=6.2
+  20d AR gross : mean -2.11%  median -2.94%
+  20d AR net   : mean -2.80%  median -3.62%  std +11.74%  hit-rate +33.8%
+  mean round-trip cost drag: +0.70% (frozen hurdle for criterion 3 is 0.9%)
+  cluster-by-review-date t = -1.93   (se +1.451%, N=80, G=13)
+  era half A (pub < 2022): N=20  clusters=4  mean AR -3.94%
+  era half B (pub >= 2022): N=60  clusters=9  mean AR -2.42%
+  pre-publication drift E-20d..E (INFO ONLY, not tradeable): mean AR -5.28%  N=80
+  pre-publication drift E-60d..E (INFO ONLY, not tradeable): mean AR -10.48%  N=80
+
+--- PROMOTION-TO-MID  [VERDICT] ---
+  events N=111   review clusters G=13   mean events/cluster=8.5
+  20d AR gross : mean -5.25%  median -7.12%
+  20d AR net   : mean -5.94%  median -7.82%  std +10.87%  hit-rate +23.4%
+  mean round-trip cost drag: +0.69% (frozen hurdle for criterion 3 is 0.9%)
+  cluster-by-review-date t = -6.07   (se +0.978%, N=111, G=13)
+  era half A (pub < 2022): N=38  clusters=4  mean AR -5.55%
+  era half B (pub >= 2022): N=73  clusters=9  mean AR -6.14%
+  pre-publication drift E-20d..E (INFO ONLY, not tradeable): mean AR -2.83%  N=108
+  pre-publication drift E-60d..E (INFO ONLY, not tradeable): mean AR -7.84%  N=107
+
+--- DEMOTION-FROM-LARGE  [INFO ONLY] ---
+  events N=98   review clusters G=13   mean events/cluster=7.5
+  20d AR gross : mean -3.58%  median -3.57%
+  20d AR net   : mean -4.26%  median -4.23%  std +10.58%  hit-rate +36.7%
+  mean round-trip cost drag: +0.69% (frozen hurdle for criterion 3 is 0.9%)
+  cluster-by-review-date t = -2.46   (se +1.735%, N=98, G=13)
+  era half A (pub < 2022): N=23  clusters=4  mean AR -11.77%
+  era half B (pub >= 2022): N=75  clusters=9  mean AR -1.96%
+  pre-publication drift E-20d..E (INFO ONLY, not tradeable): mean AR -6.55%  N=98
+  pre-publication drift E-60d..E (INFO ONLY, not tradeable): mean AR -17.12%  N=98
+
+--- DEMOTION-FROM-MID  [INFO ONLY] ---
+  events N=166   review clusters G=13   mean events/cluster=12.8
+  20d AR gross : mean -4.62%  median -5.15%
+  20d AR net   : mean -5.31%  median -5.83%  std +10.46%  hit-rate +25.3%
+  mean round-trip cost drag: +0.69% (frozen hurdle for criterion 3 is 0.9%)
+  cluster-by-review-date t = -4.22   (se +1.256%, N=166, G=13)
+  era half A (pub < 2022): N=47  clusters=4  mean AR -5.71%
+  era half B (pub >= 2022): N=119  clusters=9  mean AR -5.15%
+  pre-publication drift E-20d..E (INFO ONLY, not tradeable): mean AR -7.01%  N=166
+  pre-publication drift E-60d..E (INFO ONLY, not tradeable): mean AR -20.61%  N=166
+
+==============================================================================
+VERDICT
+==============================================================================
+Criterion 3 (shared): combined promotion-cell net edge -4.63% vs required +1.35%  -> FAIL
+  (combined over N=191 promotion events, G=13 review clusters)
+
+PROMOTION-TO-LARGE:
+  1. mean AR > 0 in BOTH era halves : A -3.94% (N=20), B -2.42% (N=60)  -> FAIL
+  2. cluster-by-review t >= +2.0     : t = -1.93 (G=13)  -> FAIL
+  3. combined edge >= +1.35%       : FAIL (shared)
+  => PROMOTION-TO-LARGE: FAIL
+
+PROMOTION-TO-MID:
+  1. mean AR > 0 in BOTH era halves : A -5.55% (N=38), B -6.14% (N=73)  -> FAIL
+  2. cluster-by-review t >= +2.0     : t = -6.07 (G=13)  -> FAIL
+  3. combined edge >= +1.35%       : FAIL (shared)
+  => PROMOTION-TO-MID: FAIL
+
+OVERALL: FAIL (no promotion cell met all three criteria)
+==============================================================================
+
+Per-event detail (every event, including dropped ones): D:\study\kite\kite\research\amfi_band_events.csv
