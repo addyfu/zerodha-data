@@ -1,0 +1,285 @@
+====================================================================================================
+BULK-DEAL BUYER PERSISTENCE -- FROZEN RULES (stated before any result below was computed)
+====================================================================================================
+Spec      : docs/superpowers/specs/2026-07-29-bulk-buyer-persistence-design.md
+Mode      : SMOKE (2 test-era months) -- NO VERDICT, NO EVIDENTIAL WEIGHT
+
+Entity    : deterministic normalizer only (uppercase; truncate at a standalone A/C|A\C|A.C|AC
+            account marker; & -> AND; punctuation -> space; strip TRAILING tokens from the
+            declared list ['LIMITED', 'LTD', 'PRIVATE', 'PVT', 'LLP', 'HUF']), then an EXPLICIT alias
+            table (bulk_buyer_aliases.csv, 73 rows) applied AFTER normalization.
+            NO fuzzy matching anywhere.
+Records   : buyer track records accumulate from 2019-10-01. Outcome of a BUY deal =
+            20d NET abnormal return, E+1 open -> E+21 open, vs the EW universe over
+            the same span (IC-2). Computable only when the whole window fits in the panel.
+Qualify   : at event date t, buyer needs >= 15 prior deals whose outcome windows
+            COMPLETED STRICTLY BEFORE t (IC-4), and a trailing hit rate at or above the
+            75th percentile of all such qualified buyers, threshold recomputed per ISO
+            week from information available at that week's Monday (IC-3, flagged).
+Gate      : symbol in panel, TURNOVER_LACS >= 200, adjusted close >= Rs 20,
+            evaluated on the DEAL day E -- the last data before the E+1 open fill (IC-1).
+Exclusion : entity on BOTH sides of the same symbol-day is dropped from events AND from
+            track records (IC-5). One event per (entity, symbol, date) (IC-6).
+Costs     : Rs 20,000 notional, 0.2%/side slippage on the fill price, then
+            zerodha_charges.calculate_charges(buy_v, sell_v, is_intraday=False)['total']
+            (never sum(.values()) -- that double-counts).
+Benchmark : EW, daily-rebalanced, OPEN-to-OPEN, gated universe, returns clipped +/-25%,
+            FRICTIONLESS (deliberately generous counterfactual).
+Test era  : events from 2022-01-01 only. Earlier events feed records ONLY (asserted).
+Arms      : TOP-QUARTILE (the one declared test) and CONTROL = all gated BUY events,
+            undifferentiated -- a SUPERSET of the top-quartile arm (IC-7).
+Verdict   : ALL of --
+            C1  top-quartile mean net AR > 0 in BOTH era halves, each with >= 40 events
+            C2  pooled cluster-robust t >= +2.0, clustered by ISO WEEK OF THE DEAL
+            C3  (top-quartile - control) difference > 0 with cluster t >= +1.5
+            C1+C2 pass but C3 fail => "generic bulk-deal drift, buyer identity decorative"
+            => FAIL for this spec. Declared test count: 1.
+Caveats   : warmup records rest on ~2.3y of deals (thin); entity-resolution errors bias
+            TOWARD the null except alias mistakes; the literature puts bulk-deal alpha
+            PRE-disclosure, so a null here is the predicted outcome.
+
+Panel: 1682 files (1 unusable), 3055564 EQ stock-days, 3204 symbols, 2019-10-01 -> 2026-07-27
+  !! UNUSABLE BHAVCOPY FILES -- these trading days are MISSING from the panel, which
+     drops any deal dated on them and shortens nothing else (windows count PANEL days):
+       sec_bhavdata_full_08082022.csv: unreadable (ParserError)
+     This is a data-collection defect upstream of this study, reported not patched.
+Corp-action adjustment: 312221 stock-day rows scaled, 451 symbols with >=1 valid action.
+EW benchmark (open-to-open, frictionless): 1468126 gated stock-day returns, 955 (0.0650%) hit the +/-25% clip; median daily universe breadth = 849 names.
+Bulk deals: 232446 raw rows from 22 files, 2005-01-03 -> 2026-07-27; dropped 0 row(s) with an unrecognised Buy/Sell value, 7 row(s) whose Client Name normalized to empty.
+  raw client-name strings: 28566  ->  normalized: 25720  ->  after alias table: 25648
+====================================================================================================
+ALIAS TABLE APPLICATION (reviewer audit material -- read every row of bulk_buyer_aliases.csv)
+====================================================================================================
+73 alias rows loaded. Deal rows remapped (2019-10 onward, both sides): 814.
+normalized_variant                                             -> canonical                                BUY  SELL
+MANSI SHARES AND STOCK ADVISORS                                -> MANSI SHARE AND STOCK ADVISORS           281   281
+ARIHANT CAPITAL MARKETS LIMTED                                 -> ARIHANT CAPITAL MARKETS                   15    17
+ADITYA BIRLA SUNLIFE MUTUAL FUND                               -> ADITYA BIRLA SUN LIFE MUTUAL FUND          2     0
+ADITYA BIRLA SUN LIFE MUTUAL FUND PURE VALUE FUND              -> ADITYA BIRLA SUN LIFE MUTUAL FUND          2     0
+ADITYA BIRLA SUN LIFE MUTUAL FUND EQUITY ADVANTAGE FUND        -> ADITYA BIRLA SUN LIFE MUTUAL FUND          1     0
+ADITYA BIRLA SUN LIFE MUTUAL FUND ADITYA BIRLA SUN LIFE SMALL  -> ADITYA BIRLA SUN LIFE MUTUAL FUND          1     0
+CANARA ROBECO MUTUAL FUND EMERGING EQUITY                      -> CANARA ROBECO MUTUAL FUND                  1     0
+EDELWEISS MUTUAL FUND EDELWEISS ABSOLUTE RETURN FUND           -> EDELWEISS MUTUAL FUND                      1     0
+FRANKLIN TEMPLETON MUTUAL FUND INDIA TAXSHIELD OPEN            -> FRANKLIN TEMPLETON MUTUAL FUND             1     0
+FRANKLIN TEMPLETON MUTUAL FUND INDIA PRIMA PLUS                -> FRANKLIN TEMPLETON MUTUAL FUND             1     0
+HDFC MUTUAL FUND HDFC                                          -> HDFC MUTUAL FUND                           1     0
+HDFC MUTUAL FUND HDFC MULTI CAP FUND                           -> HDFC MUTUAL FUND                           3     0
+HDFC MUTUAL FUND MULTI CAP FUND                                -> HDFC MUTUAL FUND                           1     0
+HDFC MUTUAL FUND HDFC MID CAP OPPORTUNITIES FUND               -> HDFC MUTUAL FUND                           0     2
+HDFC MUTUAL FUND HDFC SMALL CAP FUND                           -> HDFC MUTUAL FUND                           0     2
+HDFC MUTUAL FUND HDFC SMALL AND MID CAP FUND                   -> HDFC MUTUAL FUND                           2     0
+HDFC MUTUAL FUND HDFC CAPITAL BUILDER FUND                     -> HDFC MUTUAL FUND                           0     1
+HDFC MUTUAL FUND HDFC CAPITAL BUILDER VALUE FUND               -> HDFC MUTUAL FUND                           0     1
+HDFC MUTUAL FUND HDFC FLEXI CAP FUND                           -> HDFC MUTUAL FUND                           0     1
+HDFC MUTUAL FUND HDFC EQUITY SAVINGS FUND                      -> HDFC MUTUAL FUND                           0     1
+HDFC MUTUAL FUND HDFC DIVIDEND YIELD FUND                      -> HDFC MUTUAL FUND                           1     0
+HDFC MUTUAL FUND HDFC MANUFACTURING FUND                       -> HDFC MUTUAL FUND                           1     0
+HDFC MUTUAL FUND HDFC BALANCED ADVANTAGE FUND                  -> HDFC MUTUAL FUND                           0     1
+HSBC MUTUAL FUND MIDCAP FUND                                   -> HSBC MUTUAL FUND                           1     0
+ICICI PRUDENTIAL MUTUAL FUND UNITS                             -> ICICI PRUDENTIAL MUTUAL FUND               1     0
+ICICI PRUDENTIAL MUTUAL FUND UNITS ICICI PRUDENTIAL HOUSING OP -> ICICI PRUDENTIAL MUTUAL FUND               1     0
+ICICI PRUDENTIAL MUTUAL FUND ICICI PRUDENTIAL PHARMA HEALTHCAR -> ICICI PRUDENTIAL MUTUAL FUND               1     0
+ICICI PRUDENTIAL MUTUAL FUND ICICI PRUDENTIAL INNOVATION FUND  -> ICICI PRUDENTIAL MUTUAL FUND               1     0
+ICICI PRUDENTIAL MUTUAL FUND ICICI PRUDENTIAL VALUE DISCOVERY  -> ICICI PRUDENTIAL MUTUAL FUND               1     0
+ICICI PRUDENTIAL MUTUAL FUND ICICI PRUDENTIAL EQUITY AND DEBT  -> ICICI PRUDENTIAL MUTUAL FUND               1     0
+IIFL MUTUAL FUND IIFL FOCUSED EQUITY FUND                      -> IIFL MUTUAL FUND                           1     0
+INVESCO MUTUAL FUND INDIA CONTRA FUND                          -> INVESCO MUTUAL FUND                        1     0
+KOTAK MAHINDRA MUTUAL FUND MULTICAP FUND                       -> KOTAK MAHINDRA MUTUAL FUND                 1     0
+LIC MUTUAL FUND FLEXI CAP FUND                                 -> LIC MUTUAL FUND                            1     0
+MOTILAL OSWAL MUTUAL FUND MOTILAL OSWAL LARGE AND MIDCAP FUND  -> MOTILAL OSWAL MUTUAL FUND                  1     0
+MOTILAL OSWAL MUTUAL FUND MOSTF30                              -> MOTILAL OSWAL MUTUAL FUND                  1     0
+NIPPON INDIA MUTUAL FUND NIPPON INDIA SMALL CAP FUND           -> NIPPON INDIA MUTUAL FUND                   1     0
+NIPPON INDIA MUTUAL FUND NIPPON INDIA LARGE CAP FUND           -> NIPPON INDIA MUTUAL FUND                   1     0
+NIPPON INDIA MUTUAL FUND NIPPON INDIA GROWTH FUND              -> NIPPON INDIA MUTUAL FUND                   1     0
+NIPPON INDIA MUTUAL FUND MULTI CAP FUND                        -> NIPPON INDIA MUTUAL FUND                   1     0
+NIPPON INDIA MUTUAL FUND POWER AND INFRA FUND                  -> NIPPON INDIA MUTUAL FUND                   0     0
+PGIM INDIA MUTUAL FUND PGIM INDIA SMALL CAP FUND               -> PGIM INDIA MUTUAL FUND                     0     1
+PGIM INDIA MUTUAL FUND PGIM INDIA MIDCAP OPPORTUNITIES FUND    -> PGIM INDIA MUTUAL FUND                     1     0
+PPFAS MUTUAL FUND PARAG PARIKH LONG TERM VALUE FUND            -> PPFAS MUTUAL FUND                          1     0
+QUANT MUTUAL FUND QUANT SMALL CAP FUND                         -> QUANT MUTUAL FUND                          4     1
+QUANT MUTUAL FUND SMALL CAP FUND                               -> QUANT MUTUAL FUND                          1     0
+QUANT MUTUAL FUND SMALL CAP FUND ESCMESCO                      -> QUANT MUTUAL FUND                          0     1
+QUANT MUTUAL FUND QUANT MF ACTIVE FUND                         -> QUANT MUTUAL FUND                          1     0
+QUANT MUTUAL FUND QUANT ACTIVE FUND                            -> QUANT MUTUAL FUND                          0     1
+QUANT MUTUAL FUND ACTIVE FUND                                  -> QUANT MUTUAL FUND                          1     0
+QUANT MUTUAL FUND GILT FUND                                    -> QUANT MUTUAL FUND                          1     0
+TATA MUTUAL FUND MONEY MARKET FUND                             -> TATA MUTUAL FUND                           1     0
+UTI MUTUAL FUND BANKING SECTOR FUND UT163                      -> UTI MUTUAL FUND                            0     1
+BIRLA MUTUAL FUND SCHEME                                       -> BIRLA MUTUAL FUND                          0     1
+NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL   -> NORGES BANK                               34    13
+NORGES BANK ON ACCOUNT OF GOVERNMENT PENSION FUND GLOBAL       -> NORGES BANK                                1     0
+NORGES BANK GOVERNMENT PENSION FUND GLOBAL                     -> NORGES BANK                                3     0
+UNIFI CAPITAL PVT LTD BCAD                                     -> UNIFI CAPITAL                              2     4
+UNIFI CAPITAL PRIVATE LIMITED BLENDED RANGOLI                  -> UNIFI CAPITAL                              3     1
+UNIFI CAPITAL PRIVATE LIMITED BC AD                            -> UNIFI CAPITAL                              1     0
+UNIFI CAPITAL PVT LTD ISF                                      -> UNIFI CAPITAL                              1     0
+MATALIA STOCK BROKING TRADING                                  -> MATALIA STOCK BROKING                      7     7
+AEGIS INVESTMENT FUND PCC                                      -> AEGIS INVESTMENT FUND                      4     0
+ARHAM WEALTH MANAGEMENT PVT LTD OWN                            -> ARHAM WEALTH MANAGEMENT                    3     3
+VIKASA INDIA EIF I FUND INCUBE GLOBAL OPPORTUNITIES            -> VIKASA INDIA EIF I FUND                    9    20
+VIKASA INDIA EIF I FUND SHARE CLASS P                          -> VIKASA INDIA EIF I FUND                    0    10
+VIKASA INDIA EIF I FUND FCCB                                   -> VIKASA INDIA EIF I FUND                    0     1
+ANTARA INDIA EVERGREEN FUND LTD ANTARA INDIA EVERGREEN FUND FP -> ANTARA INDIA EVERGREEN FUND                3     1
+NOMURA INDIA INVESTMENT FUND MOTHER FUND THE MTBJ              -> NOMURA INDIA INVESTMENT FUND MOTHER FU     5     0
+NOMURA INDIA INVESTMENT FUND MOTHER FUND MF INDIA              -> NOMURA INDIA INVESTMENT FUND MOTHER FU     0     1
+PINE OAK GLOBAL FUND CLASS B                                   -> PINE OAK GLOBAL FUND                       2     1
+VANGUARD EMERGING MARKETS STOCK INDEX FUND A SERIES OF VIEIF   -> VANGUARD EMERGING MARKETS STOCK INDEX     12     5
+VANGUARD EMERGING MARKETS STOCK INDEX FUND A SERIES OF VANGUAR -> VANGUARD EMERGING MARKETS STOCK INDEX      1     0
+(1 alias row(s) matched no deal in the 2019-10+ window -- harmless, kept for the record.)
+
+====================================================================================================
+EXCLUSIONS AND DROPS
+====================================================================================================
+BUY rows with deal date >= 2019-10-01: 55555
+  - 149 dropped as same-day tranche duplicates of an existing (entity, symbol, date) [IC-6]
+  - 39437 SAME-DAY-BOTH-SIDES round trips excluded from BOTH events and track records [IC-5]
+    (affecting 2342 distinct entities; the largest by count:)
+        6607  GRAVITON RESEARCH CAPITAL
+        3043  HRTI
+        1994  QE SECURITIES
+        1748  NK SECURITIES RESEARCH
+         908  JUNOMONETA FINSOL
+         856  XTX MARKETS
+         707  MANSI SHARE AND STOCK ADVISORS
+         616  MULTIPLIER SHARE AND STOCK ADVISORS
+  => 15969 BUY deals survive the both-sides exclusion and enter outcome computation.
+  Drop reasons among those (a dropped deal enters NEITHER the track records NOR the arms):
+         6637  symbol absent from bhavcopy EQ panel
+         4402  liquidity gate failed on the deal day (turnover < Rs 2cr or adj close < Rs 20)
+         4338  (kept: outcome computable)
+          457  no usable open price on the entry and/or exit day
+          107  outcome window extends past the end of the panel
+           27  deal date is not a panel trading day
+            1  Rs 20,000 notional buys < 1 share
+  => 4338 deals with a computable 20d outcome; NaN ar_net among them: 0 (must be 0)
+
+====================================================================================================
+TOP-50 CANONICAL ENTITIES BY BUY-DEAL COUNT (2019-10 onward, deduped per IC-6) -- reviewer audit for entity resolution
+====================================================================================================
+  # canonical entity                                     buys  2sided   recs  vars   hit%  example raw name
+  1 GRAVITON RESEARCH CAPITAL                            6607    6607      0     1    n/a  GRAVITON RESEARCH CAPITAL LLP
+  2 HRTI                                                 3043    3043      0     1    n/a  HRTI PRIVATE LIMITED
+  3 QE SECURITIES                                        1994    1994      0     2    n/a  QE SECURITIES
+  4 NK SECURITIES RESEARCH                               1748    1748      0     1    n/a  NK SECURITIES RESEARCH PRIVATE LIMITED
+  5 JUNOMONETA FINSOL                                     908     908      0     1    n/a  JUNOMONETA FINSOL PRIVATE LIMITED
+  6 MANSI SHARE AND STOCK ADVISORS                        899     707      4     3    0.0  MANSI SHARE & STOCK ADVISORS PRIVATE LIMIT
+  7 MULTIPLIER SHARE AND STOCK ADVISORS                   894     616      9     4   22.2  MULTIPLIER SHARE & STOCK ADVISORS PRIVATE 
+  8 XTX MARKETS                                           856     856      0     1    n/a  XTX MARKETS LLP
+  9 ALPHA LEON ENTERPRISES                                645     591      0     1    n/a  ALPHA LEON ENTERPRISES LLP
+ 10 AAKRAYA RESEARCH                                      566     566      0     1    n/a  AAKRAYA RESEARCH LLP
+ 11 TOWER RESEARCH CAPITAL MARKETS INDIA                  552     552      0     1    n/a  TOWER RESEARCH CAPITAL MARKETS INDIA PRIVA
+ 12 IRAGE BROKING SERVICES                                467     467      0     1    n/a  IRAGE BROKING SERVICES LLP
+ 13 MICROCURVES TRADING                                   466     466      0     1    n/a  MICROCURVES TRADING PRIVATE LIMITED
+ 14 SETU SECURITIES                                       411     303     33     2   30.3  SETU SECURITIES PVT.LTD.
+ 15 JUMP TRADING FINANCIAL INDIA                          388     388      0     1    n/a  JUMP TRADING FINANCIAL INDIA PRIVATE LIMIT
+ 16 SHARE INDIA SECURITIES                                368     361      2     1   50.0  SHARE INDIA SECURITIES LIMITED
+ 17 YUGA STOCKS AND COMMODITIES                           364     309      6     2   16.7  YUGA STOCKS AND COMMODITIES PRIVATE LIMITE
+ 18 TOPGAIN FINANCE                                       349     307      0     1    n/a  TOPGAIN FINANCE PRIVATE LIMITED
+ 19 JAINAM BROKING                                        304     266     16     1   18.8  JAINAM BROKING LIMITED
+ 20 OLGA TRADING                                          302     284      2     1  100.0  OLGA TRADING PRIVATE LIMITED
+ 21 MATHISYS ADVISORS                                     300     300      0     1    n/a  MATHISYS ADVISORS LLP
+ 22 MUSIGMA SECURITIES                                    295     295      0     1    n/a  MUSIGMA SECURITIES
+ 23 ALPHAGREP SECURITIES                                  292     292      0     1    n/a  ALPHAGREP SECURITIES PRIVATE LIMITED
+ 24 CITADEL SECURITIES INDIA MARKETS                      289     286      0     1    n/a  CITADEL SECURITIES INDIA MARKETS PRIVATE L
+ 25 ELIXIR WEALTH MANAGEMENT                              281     277      0     1    n/a  ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED
+ 26 CRONY VYAPAR                                          261     258      0     1    n/a  CRONY VYAPAR PVT LTD
+ 27 L7 HITECH                                             256     151     30     1   20.0  L7 HITECH PRIVATE LIMITED
+ 28 ARIHANT CAPITAL MARKETS                               249     239      3     2   66.7  ARIHANT CAPITAL MARKETS LIMITED
+ 29 ANKITA VISHAL SHAH                                    242     226      0     1    n/a  ANKITA VISHAL SHAH
+ 30 ADROIT FINANCIAL SERVICES                             236     234      0     1    n/a  ADROIT FINANCIAL SERVICES PVT LTD
+ 31 SKSE SECURITIES                                       230     228      0     2    n/a  SKSE SECURITIES LTD
+ 32 HI GROWTH CORPORATE SERVICES                          229     229      0     1    n/a  HI GROWTH CORPORATE SERVICES PRIVATE LIMIT
+ 33 SILVERLEAF CAPITAL SERVICES                           200     200      0     1    n/a  SILVERLEAF CAPITAL SERVICES PRIVATE LIMITE
+ 34 VEENA RAJESH SHAH                                     193     180      1     1    0.0  VEENA RAJESH SHAH
+ 35 MANSI SHARE AND STOCK BROKING                         190     137      0     1    n/a  MANSI SHARE AND STOCK BROKING PRIVATE LIMI
+ 36 SW CAPITAL                                            187     178      0     1    n/a  SW CAPITAL PRIVATE LIMITED
+ 37 NEO APEX VENTURE                                      178     116      0     1    n/a  NEO APEX VENTURE LLP
+ 38 PARTH INFIN BROKERS                                   170     166      0     1    n/a  PARTH INFIN BROKERS PVT LTD
+ 39 SURJECTIVE RESEARCH CAPITAL                           170     170      0     1    n/a  SURJECTIVE RESEARCH CAPITAL LLP
+ 40 SAHASTRAA ADVISORS                                    165     134     12     1   33.3  SAHASTRAA ADVISORS PRIVATE LIMITED
+ 41 GRT STRATEGIC VENTURES                                140     140      0     1    n/a  GRT STRATEGIC VENTURES LLP
+ 42 ISHAAN TRADEFIN                                       136     108      0     1    n/a  ISHAAN TRADEFIN LLP
+ 43 VAIBHAV STOCK AND DERIVATIVES BROKING                 121     121      0     1    n/a  VAIBHAV STOCK & DERIVATIVES BROKING PVT. L
+ 44 MARWADI CHANDARANA INTERMEDIARIES BROKERS             120     115      0     1    n/a  MARWADI CHANDARANA INTERMEDIARIES BROKERS 
+ 45 MUDUPULAVEMULA SURENDRANADHA REDDY                    119     118      1     1    0.0  MUDUPULAVEMULA SURENDRANADHA REDDY
+ 46 AMIT KUMAR JAIN                                       118     116      0     2    n/a  AMIT KUMAR JAIN HUF
+ 47 DIPAN MEHTA COMMODITIES                               117     117      0     1    n/a  DIPAN MEHTA COMMODITIES PRIVATE LIMITED
+ 48 NEO APEX SHARE BROKING SERVICES                       115      93      0     1    n/a  NEO APEX SHARE BROKING SERVICES LLP
+ 49 ACHINTYA SECURITIES                                   113     100      3     2   33.3  ACHINTYA SECURITIES PRIVATE LIMITED
+ 50 MITTAL RIMPY                                          107     107      0     1    n/a  MITTAL RIMPY
+  buys   = deduped BUY deals, 2019-10 onward     2sided = of those, excluded by IC-5
+  recs   = deals that actually feed this entity's track record (gated, priced, not 2sided)
+  vars   = distinct RAW disclosed strings folded into this canonical entity (entity-
+           resolution audit: a big number here means the normalizer/alias table merged a lot)
+  hit%   = FULL-SAMPLE hit rate over "recs" -- INFORMATION ONLY, not what the point-in-time
+           qualifier uses. Printed so the reviewer can see whether the top of the table is
+           HFT churn (huge buys, ~0 recs) or real position-takers.
+
+====================================================================================================
+TRACK RECORDS (point-in-time)
+====================================================================================================
+1956 canonical entities have >= 1 deal with a computed outcome; 29 ever reach 15 completed outcomes.
+For scale, BEFORE the both-sides exclusion and the price/liquidity gates, 371 entities have >= 15 BUY deals in the era. IC-5 plus the gates
+are what collapse that to 29 -- the single most consequential mechanic in this study.
+Warmup deals (deal date 2019-10-01..2021-12-31) feeding records only: 1137
+POINT-IN-TIME WALL CHECK: 122 sampled events re-derived by brute force from the deal table -> 0 mismatch(es).
+Test-era window used: 2024-01-01 .. 2024-02-29  (SMOKE)
+Qualified-buyer count at the week starts inside that window (>= 15 completed outcomes):
+    week starting 2024-01-01:   13 qualified buyers, top-quartile hit-rate threshold = 0.3000
+    week starting 2024-01-08:   14 qualified buyers, top-quartile hit-rate threshold = 0.2944
+    week starting 2024-01-15:   14 qualified buyers, top-quartile hit-rate threshold = 0.2944
+    week starting 2024-01-22:   15 qualified buyers, top-quartile hit-rate threshold = 0.2744
+    week starting 2024-01-29:   15 qualified buyers, top-quartile hit-rate threshold = 0.2744
+    week starting 2024-02-05:   15 qualified buyers, top-quartile hit-rate threshold = 0.2744
+    week starting 2024-02-12:   15 qualified buyers, top-quartile hit-rate threshold = 0.2744
+    week starting 2024-02-19:   15 qualified buyers, top-quartile hit-rate threshold = 0.2744
+    week starting 2024-02-26:   15 qualified buyers, top-quartile hit-rate threshold = 0.2744
+
+====================================================================================================
+ERA TABLES -- 20d NET ABNORMAL RETURN BY ARM
+====================================================================================================
+-- TOP-QUARTILE ARM  (the one declared test)
+   events N=6   ISO-week clusters G=4   mean events/cluster=1.5   distinct entities=4
+   20d AR gross : mean +2.01%  median +0.35%
+   20d AR net   : mean +1.30%  median -0.34%  std +13.65%  hit-rate +50.0%
+   mean round-trip cost drag: +0.70%
+   cluster-by-ISO-week t = 0.20   (se +6.387%, N=6, G=4)
+   !! G=4 clusters -- a cluster-robust t is NOT INTERPRETABLE this few clusters.
+      Cluster sums can nearly cancel, driving se toward 0 and |t| to nonsense.
+      Expected in --smoke, which spans ~9 weeks by design. DO NOT read it as evidence.
+   era B 2024-01..panel end: N=6     mean AR +1.30%  weeks=4
+
+-- CONTROL ARM       (ALL gated BUY events, undifferentiated -- superset)
+   events N=122   ISO-week clusters G=9   mean events/cluster=13.6   distinct entities=107
+   20d AR gross : mean -3.45%  median -5.21%
+   20d AR net   : mean -4.15%  median -5.88%  std +14.35%  hit-rate +27.0%
+   mean round-trip cost drag: +0.70%
+   cluster-by-ISO-week t = -3.03   (se +1.367%, N=122, G=9)
+   era B 2024-01..panel end: N=122   mean AR -4.15%  weeks=9
+
+-- non-top-quartile  (complement)   [INFORMATION ONLY, no verdict weight]
+   events N=116   ISO-week clusters G=9   mean events/cluster=12.9   distinct entities=103
+   20d AR gross : mean -3.73%  median -5.23%
+   20d AR net   : mean -4.43%  median -5.91%  std +14.38%  hit-rate +25.9%
+   mean round-trip cost drag: +0.69%
+   cluster-by-ISO-week t = -3.15   (se +1.405%, N=116, G=9)
+   era B 2024-01..panel end: N=116   mean AR -4.43%  weeks=9
+
+Event accounting: 122 gated test-era events; 17 by a buyer with >= 15 completed prior outcomes; 6 of those in the top quartile; 116 not.
+Distinct top-quartile entities firing at least one event: 4
+Top-quartile arm, most frequent entities:
+        2  QUANT MUTUAL FUND
+        2  NIPPON INDIA MUTUAL FUND
+        1  SBI MUTUAL FUND
+        1  NORGES BANK
+
+Difference (top-quartile - control, stacked, week-clustered): +5.45%  se +5.425%  t = 1.00  (N=128, G=9)
+  [INFO ONLY, non-overlapping variant] top-quartile - complement: +5.73%  se +5.755%  t = 1.00  (N=122, G=9)
+
+====================================================================================================
+VERDICT
+====================================================================================================
+SMOKE RUN -- 2 test-era months only. NO VERDICT, NO EVIDENTIAL WEIGHT. This run exists
+to prove the pipeline executes end-to-end and the point-in-time walls hold; the numbers
+above are a plumbing check, not a result. Run without --smoke for the verdict.
+

@@ -81,3 +81,19 @@ the quintile control, then runs the verdict. Results appended here.
 ## Decision log
 
 - 2026-07-29: Spec frozen (user approved).
+- 2026-07-29 (build, reviewer-accepted): era walls hard-asserted;
+  exclusion-list drift-guard passes (67-set byte-identical to the probe).
+  Horizon ambiguity in the spec's own wording resolved to the probe's
+  exact bar (CLOSE[sig+10]); literal alternative in a non-verdict
+  appendix. SHREECEM (price > Rs 20k) contributes no net cells under the
+  frozen cost model — now loud, effective net universe 47 symbols.
+- 2026-07-29 (results): **FAIL — C1 PASS / C2 FAIL / C3 FAIL. Tombstone
+  #137.** Validation D=0 (8,276 cells): mean net +0.091% (train cell was
+  +0.30% — shrank ~70% OOS), t=+1.17 vs +2.0. C3 was decisive: within
+  prior-3d-return quintiles, D=0 UNDERPERFORMS D≥1 (pooled diff −0.096
+  pts, 1/5 quintiles positive) — the zoo's silence adds nothing beyond
+  the reversal factor, and less than nothing after matching. The probe's
+  best cell was a train-era selection artifact, exactly the failure mode
+  the true-OOS design existed to catch. Consensus/ensemble line of
+  inquiry now fully closed: voting (probe), K-of-N (probe), and
+  silence-as-signal (this) all dead on Indian data.

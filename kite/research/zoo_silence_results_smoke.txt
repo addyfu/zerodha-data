@@ -1,0 +1,236 @@
+====================================================================================================
+ZOO-SILENCE REVERSAL -- OUT-OF-SAMPLE CONFIRMATION
+PRE-REGISTERED, FROZEN SPEC. Verdict rules below were fixed before this script ran.
+====================================================================================================
+Spec        : docs/superpowers/specs/2026-07-29-zoo-silence-reversal-design.md  (APPROVED & FROZEN 2026-07-29)
+Origin      : kite/research/consensus_probe.py, 2026-07-28, EXPLORATORY, TRAIN ERA ONLY.
+              Its one positive-after-costs cell was D=0 (no clean zoo strategy long),
+              mean 10d forward NET +0.3000%, mean prior-3d move -1.084%.
+Hypothesis  : zoo silence marks recent small losers that drift up -- the zoo as a
+              contrarian silence detector.
+Test count  : 1 declared test (the D=0 cell at H=10).
+
+--- FROZEN RULES ---
+SIGNAL   : D(symbol, day) = number of the clean-67 zoo strategies emitting a LONG signal.
+           EVENT = D == 0. No prior-return condition, no volatility condition, nothing
+           the probe cell did not have. Conditioning now would be tuning.
+ENTRY    : OPEN of the next trading day (signal_bar + 1).
+EXIT     : CLOSE of signal_bar + 10  = the probe's H=10. PRIMARY, VERDICT-BEARING.
+           CLOSE of signal_bar + 5   = the probe's H=5.  SECONDARY, information only.
+           CLOSE of signal_bar + 11  = the spec's literal "10th trading day AFTER
+           ENTRY". The spec calls H=10 "the probe's best horizon", and its Signal section
+           is headed "exactly the probe's cell, zero new conditions", so the PROBE-IDENTICAL
+           bar is primary. The literal variant is printed in a fenced APPENDIX so the
+           reviewer can adjudicate the wording without a re-run. It is NOT the verdict.
+COSTS    : Rs 20,000 delivery position; zerodha_charges.calculate_charges(...)['total']
+           -- the KEY, never sum(.values()), which double-counts. Identical to the probe.
+SLIPPAGE : 0.05% per side (NIFTY tier). Identical to the probe.
+ZOO      : STRATEGY_REGISTRY as-is, no subsetting by performance, no re-fitting. The
+           probe's 9 leak-suspects + 2 erroring strategies stay excluded; that list is
+           hard-coded from the probe output and ASSERTED against a live recomputation.
+SIGNAL   : BaseStrategy.generate_signals(df)['signal'] -- the probe's optimization over
+  PATH     get_trade_signals() (bit-identical signal column, ~20x faster).
+
+--- ERA WALLS (asserted in code, not assumed) ---
+  WALL 1  Indicator warm-up MAY see pre-2024-01-01 bars. Price frames are loaded in
+          FULL (from 2020-07-14) on purpose -- strategies need lookback. Spec-permitted.
+  WALL 2  NO CELL dated before 2024-01-01 enters ANY statistic. Hard assert.
+  WALL 3  Every forward window must END on or before the panel's last bar. Cells whose
+          H=10 window is incomplete are DROPPED and COUNTED below. Hard assert.
+  WALL 4  Probe warm-up floor retained: first 252 bars per symbol are never cells
+          (subsumed by WALL 2, which sits ~860 bars into the panel; reported anyway).
+  CONTAMINATION: the probe truncated every frame to <= 2023-12-31 AT LOAD, asserted. The
+  validation era below was never loaded by the probe and never loaded when this spec was
+  written. This is a true out-of-sample confirmation.
+
+--- VERDICT (frozen, ALL THREE must hold) ---
+  C1  Validation D=0 mean NET at H=10 > 0.
+  C2  Cluster-robust t >= +2.0, clustered by ISO week of the ENTRY date. Formula
+      copied verbatim from announcement_drift_confirmation.py::cluster_robust_t -- a
+      one-sample t on WEEKLY CLUSTER MEANS, not on raw cells.
+  C3  MOMENTUM/REVERSAL CONTROL. Quintiles of prior-3d return, breakpoints over ALL
+      validation cells with D POOLED. Within each quintile, mean net(D=0) minus mean
+      net(D>=1). Passes iff the pooled cell-count-weighted difference > 0 AND positive
+      in >= 3 of 5 quintiles.
+      If C1 and C2 pass but C3 fails, the recorded verdict is "short-term reversal
+      re-discovered, zoo-silence decorative" -- a FAIL for this spec.
+
+--- CAVEATS (stated before results) ---
+  - Train-era exploration found this cell among ~15 bucket cells examined: a mild
+    selection effect, which is exactly what this true-OOS design disciplines.
+  - The reversal family has graveyard cousins. C3 exists to stop a re-labelled
+    short-term-reversal passing as novel.
+  - 48 large-cap NIFTY symbols only. Any pass generalizes to nothing wider without its
+    own test.
+  - Overlapping 10-day windows within an ISO week share a cluster; residual overlap
+    ACROSS weeks is a stated limitation and is NOT patched post hoc.
+  - On a pass: phase-2 spec (portfolio construction, incubator candidacy) needs separate
+    approval. Never straight to live.
+
+****************************************************************************************************
+*** SMOKE MODE (--smoke): CELLS RESTRICTED TO SIGNAL DATES IN 2024-01 ONLY.          ***
+*** (2024-01-01 .. 2024-01-31). Roughly one month of cells; the cluster count is  ***
+*** ~4-5 ISO weeks, so C2 is structurally underpowered and the quintiles are thin.   ***
+*** THIS IS NOT A VERDICT RUN. It is an end-to-end plumbing self-check.              ***
+****************************************************************************************************
+
+--- data ---
+universe loaded : 48 symbols from D:\study\kite\data\daily
+panel bar range : 2020-07-14 -> 2026-01-09 (1367 trading days)
+  train-era bars (< 2024-01-01) are LOADED for indicator warm-up only (WALL 1);
+  they can never become cells (WALL 2).
+
+leak flags read from kite\reports\walkforward_audit.csv using retest_all.leak_flags() verbatim
+registry size: 78 strategies
+
+--- strategy inventory (ASSERTED identical to the probe's) ---
+registered             : 78   (probe: 78)
+EXCLUDED (leak-suspect): 9   (probe: 9)
+    - double_vwap_ha
+    - ema_21_55
+    - ema_scalping_1min
+    - fib_3wave
+    - london_breakout
+    - obv_strategy
+    - volume_oscillator
+    - vwap_scalping
+    - vwap_sd_bands
+EXCLUDED (raised)      : 2   (probe: 2)
+    - pivot_point: ValueError("'date' is both an index level and a column label, which is ambiguous.")
+    - vwap_pullback: ValueError("'date' is both an index level and a column label, which is ambiguous.")
+USED in the clean set  : 67   (probe: 67)
+ASSERT OK: recomputed leak-exclusion list == the probe's, name for name.
+ASSERT OK: recomputed error-exclusion list == the probe's, name for name.
+ASSERT OK: clean set size == 67, and equals registry minus the exclusions.
+           leak list  : ['double_vwap_ha', 'ema_21_55', 'ema_scalping_1min', 'fib_3wave', 'london_breakout', 'obv_strategy', 'volume_oscillator', 'vwap_scalping', 'vwap_sd_bands']
+           error list : ['pivot_point', 'vwap_pullback']
+
+LONG signal-cells emitted by the clean 67 over the FULL loaded panel : 134,601
+SHORT signal-cells (counted only, never analysed)                    : 103,096
+
+--- CELL ACCOUNTING / DROP ACCOUNTING ---
+(symbol, bar) pairs in the loaded panel                       :    65,616
+  DROPPED, dated before 2024-01-01 (WALL 2, warm-up only)      :    41,376
+  DROPPED, dated after 2024-01-31 (SMOKE restriction only)    :    23,184
+  DROPPED, inside the first 252 bars (WALL 4)              :         0
+  DROPPED, no entry bar (signal bar is the panel's last)       :         0
+  DROPPED, H=10 forward window INCOMPLETE (WALL 3)          :         0
+  KEPT as validation cells                                    :     1,056
+
+validation cells analysed : 1,056  across 48 symbols
+cell (signal-bar) dates   : 2024-01-01 -> 2024-01-31
+latest forward-window bar : 2024-02-14
+ASSERT OK (WALL 2): first cell 2024-01-01 >= 2024-01-01
+ASSERT OK (WALL 3): last exit  2024-02-14 <= panel last 2026-01-09
+
+non-finite accounting inside the kept cells (should be ~0; a NaN storm here invalidates):
+  exit offset +5   (secondary): NaN gross       0  NaN net      22  (2.083% of cells)
+  exit offset +10  (PRIMARY  ): NaN gross       0  NaN net      22  (2.083% of cells)
+  exit offset +11  (appendix ): NaN gross       0  NaN net      22  (2.083% of cells)
+  prior-3d return          : NaN       0
+  distinct ISO entry weeks :       5
+
+  per-symbol NaN net at the PRIMARY offset +10 (cells present, but excluded from
+  every NET mean). Cause is almost always price > position size -> qty 0:
+    SHREECEM           22 of     22 cells NaN   <-- ALL cells: symbol contributes nothing to any net statistic
+  symbols fully excluded from NET stats: ['SHREECEM']
+  GROSS statistics are unaffected (they do not depend on quantity).
+
+--- agreement-depth distribution over the VALIDATION cells (clean 67) ---
+     D      cells   % of all
+     0        296     28.03%
+     1        218     20.64%
+     2        144     13.64%
+     3        104      9.85%
+     4         84      7.95%
+     5         64      6.06%
+     6         42      3.98%
+     7         39      3.69%
+     8         19      1.80%
+     9         19      1.80%
+    10          9      0.85%
+    11          8      0.76%
+    12          4      0.38%
+    13          3      0.28%
+    14          2      0.19%
+    15          1      0.09%
+  D>=1        760     71.97%   (the C3 comparison group)
+
+====================================================================================================
+PRIMARY -- VERDICT-BEARING. H=10 (probe-identical: entry OPEN[sig+1], exit CLOSE[sig+10])
+====================================================================================================
+D=0 validation cells                : 296  (finite net: 289, NaN net: 7)
+D=0 mean NET                        : -0.2815%
+D=0 median NET                      : -0.6391%
+D=0 mean GROSS                      : +0.2166%
+D=0 net win rate                    : 46.02%
+
+C1  mean net > 0                    : -0.2815%   ->  FAIL
+C2  cluster-robust t >= +2.0         : t=-0.517  (n_weeks=5, n_cells=289)  ->  FAIL
+
+C3  MOMENTUM/REVERSAL CONTROL -- quintiles of prior-3d return, breakpoints over ALL
+    validation cells with D POOLED. Within-quintile mean net(D=0) minus mean net(D>=1).
+  Q           prior-3d range    n_all     n_D0   n_D>=1    net_D0%   net_D>=1%   diff pts
+  1           -inf .. -1.93%      207       94      113    -0.4090      0.8551    -1.2641
+  2         -1.93% .. -0.56%      207       65      142     0.0837      1.5059    -1.4223
+  3         -0.56% .. +0.50%      206       53      153    -1.6660      0.0341    -1.7001
+  4         +0.50% .. +2.09%      207       45      162    -1.0966      1.1411    -2.2377
+  5           +2.09% .. +inf      207       32      175     2.7903      1.2912    +1.4991
+    pooled diff (cell-count-weighted, DECLARED)  : -1.0244 pts
+    [info only, not the criterion] D=0-count-weighted pooled diff: -1.2253 pts
+    quintiles with positive diff                 : 1 of 5 (need >= 3)
+C3  pooled diff > 0 AND >= 3/5 positive : FAIL
+
+>>> OVERALL VERDICT (C1 and C2 and C3): FAIL
+
+----------------------------------------------------------------------------------------------------
+SECONDARY INFORMATION ONLY -- H=5 (exit CLOSE[sig+5]). NEVER VERDICT-BEARING (spec).
+----------------------------------------------------------------------------------------------------
+  D=0 mean NET (H=5) : -0.3945%  (n=289)
+  D=0 cluster-robust t   : -0.924 (n_weeks=5)
+  No PASS/FAIL is attached to this horizon and none may be inferred.
+
+####################################################################################################
+# APPENDIX -- NOT THE VERDICT. Spec-wording disambiguation only.
+# The spec sentence "exit at close of the 10th trading day after entry" reads literally as
+# CLOSE[sig+11], while the same sentence calls H=10 "the probe's best horizon", which is
+# CLOSE[sig+10]. The primary block above uses the probe-identical bar, per the spec's
+# "exactly the probe's cell" heading. The block below exists so that if the reviewer
+# adjudicates the wording the other way, the numbers are already on record -- computed on
+# the SAME cell set (defined by the H=10 completeness rule), so a few cells at each
+# symbol's tail have a NaN +11 exit and drop out of these means.
+####################################################################################################
+
+====================================================================================================
+APPENDIX -- NON-VERDICT. exit CLOSE[sig+11] ("10th trading day after entry", literal)
+====================================================================================================
+D=0 validation cells                : 296  (finite net: 289, NaN net: 7)
+D=0 mean NET                        : -0.3179%
+D=0 median NET                      : -0.4279%
+D=0 mean GROSS                      : +0.1912%
+D=0 net win rate                    : 46.37%
+
+C1  mean net > 0                    : -0.3179%   ->  FAIL
+C2  cluster-robust t >= +2.0         : t=-0.629  (n_weeks=5, n_cells=289)  ->  FAIL
+
+C3  MOMENTUM/REVERSAL CONTROL -- quintiles of prior-3d return, breakpoints over ALL
+    validation cells with D POOLED. Within-quintile mean net(D=0) minus mean net(D>=1).
+  Q           prior-3d range    n_all     n_D0   n_D>=1    net_D0%   net_D>=1%   diff pts
+  1           -inf .. -1.93%      207       94      113    -0.6746      0.9188    -1.5933
+  2         -1.93% .. -0.56%      207       65      142    -0.5088      1.2638    -1.7726
+  3         -0.56% .. +0.50%      206       53      153    -1.5649      0.3068    -1.8717
+  4         +0.50% .. +2.09%      207       45      162    -0.6505      1.5112    -2.1617
+  5           +2.09% .. +inf      207       32      175     3.6507      1.5571    +2.0936
+    pooled diff (cell-count-weighted, DECLARED)  : -1.0604 pts
+    [info only, not the criterion] D=0-count-weighted pooled diff: -1.3650 pts
+    quintiles with positive diff                 : 1 of 5 (need >= 3)
+C3  pooled diff > 0 AND >= 3/5 positive : FAIL
+
+>>> (non-verdict-bearing) C1=FAIL C2=FAIL C3=FAIL -> would be FAIL
+
+====================================================================================================
+*** SMOKE MODE -- the PASS/FAIL lines above are NOT the study verdict. One month of
+*** cells cannot carry C2 (too few ISO-week clusters) and the C3 quintiles are thin.
+*** The full study writes to zoo_silence_results.txt instead.
+====================================================================================================
+runtime: 1067.8s

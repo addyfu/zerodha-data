@@ -1,0 +1,160 @@
+# bulk_buyer_aliases.csv -- EXPLICIT alias table for bulk_buyer_persistence.py
+# Spec: docs/superpowers/specs/2026-07-29-bulk-buyer-persistence-design.md
+#
+# REVIEWER: read every row. This file is the ONLY place where two different
+# disclosed strings are merged into one entity. There is NO fuzzy matching
+# anywhere in the pipeline -- if a merge is not written here (or produced by
+# the deterministic normalizer in the script), it does not happen.
+#
+# Columns:
+#   normalized_variant -- the string AFTER normalize_entity() (uppercase,
+#                         account-suffix truncated, punctuation stripped,
+#                         trailing LIMITED/LTD/PRIVATE/PVT/LLP/HUF removed).
+#                         Aliases are applied AFTER normalization, never before.
+#   canonical_entity   -- the normalized string it is folded into. Must itself
+#                         be a normalized string, and must not appear in the
+#                         normalized_variant column (no alias chains).
+#   rationale          -- why. Prefixed with a category code:
+#                         [FMT]    pure spelling/spacing/typo variant of the
+#                                  SAME name. Near-zero risk.
+#                         [SCHEME] canonical is a STRICT PREFIX of the variant
+#                                  and the remainder is a scheme / share-class /
+#                                  sub-account / custodian designator that NSE
+#                                  sometimes writes with "A/C" (auto-truncated)
+#                                  and sometimes with a plain "-" (not auto-
+#                                  truncated). Folds the sub-account into the
+#                                  disclosed manager. Near-zero risk.
+#                         [SCHEME!] same, but the merge CROSSES THE 15-DEAL
+#                                  QUALIFICATION BAR -- i.e. it changes who can
+#                                  qualify. Read these hardest.
+#
+# CATEGORIES DELIBERATELY *NOT* APPLIED (documented rejects -- reviewer may
+# overrule by promoting any of these to a real row above the fold):
+#   [REJECT-RENAME] corporate renames/rebrands. Same AMC/firm, different
+#     disclosed name. Left SPLIT because the merge rests on outside knowledge,
+#     not on the string, and the spec's bias is toward the null:
+#       RELIANCE MUTUAL FUND        vs NIPPON INDIA MUTUAL FUND  (renamed 2019-10)
+#       DSP BLACKROCK MUTUAL FUND   vs DSP MUTUAL FUND           (renamed 2018)
+#       IDFC MUTUAL FUND            vs BANDHAN MUTUAL FUND       (renamed 2023)
+#       RELIGARE INVESCO MUTUAL FUND vs INVESCO MUTUAL FUND      (renamed 2016)
+#       PRAMERICA MUTUAL FUND       vs PGIM INDIA MUTUAL FUND    (renamed 2019)
+#       BIRLA MUTUAL FUND / BIRLA SUN LIFE TRUSTEE COMPANY
+#                                   vs ADITYA BIRLA SUN LIFE MUTUAL FUND
+#       CHANDARANA INTERMEDIARIES BROKERS (21 buys)
+#                                   vs MARWADI CHANDARANA INTERMEDIARIES BROKERS (120 buys)
+#     The last one is the only reject that could change a qualification
+#     decision (both sides sit near the 15-deal bar) -- flagged explicitly.
+#   [REJECT-BOOK] same parent, separately disclosed trading book. Different
+#     decision-makers, so NOT the same "buyer":
+#       MORGAN STANLEY ASIA SINGAPORE PTE ODI vs ... PTE
+#       SOCIETE GENERALE ODI                  vs SOCIETE GENERALE
+#       CRAFT EMERGING MARKET FUND PCC <cell> -- protected-cell company, the
+#         cells (ELITE CAPITAL FUND, CITADEL CAPITAL FUND) are legally
+#         segregated portfolios; kept separate.
+#       AEGIS INVESTMENT FUND PCC NIVEZA -- NAMED cell, kept separate (the
+#         bare "... PCC" with no cell named IS merged, see the table).
+#       VIKASA GLOBAL FUND PCC EUBILIA CAPITAL PARTNERS FUND I -- named cell,
+#         and a different umbrella from VIKASA INDIA EIF I FUND.
+#   [REJECT-DOUBT] plausible but not obvious. "When in doubt, don't."
+#       NOMURA mother-fund trustee variants -- TNTBC AS THE TRUSTEE OF NOMURA
+#         INDIA STOCK MOTHER FUND / THE NOMURA TRUST AND BANKING CO LTD AS THE
+#         TRUSTEE OF ... / THENOMURATRUSTANDBANKINGCO LTDASTHETRUSTEEOF... (the
+#         raw file genuinely contains that unspaced string) almost certainly
+#         describe the same underlying pool as NOMURA INDIA INVESTMENT FUND
+#         MOTHER FUND, but linking them needs outside knowledge, not the string.
+#       GOVERNMENT OF SINGAPORE (24) vs GOVERNMENT OF SINGAPORE INVT CORPN PTE
+#         (4) -- GIC discloses under both; separately registered FPIs.
+#       RAKESH KUMAR UPPAL AND SONS (60) vs RAKESH KUMAR UPPAL (24) -- family
+#         firm/HUF vs the individual: different tax entities.
+#       VIKRAMKUMAR KARANRAJ SAKARIA HUF DAKSH CORPORATION (137) vs
+#         VIKRAMKUMAR KARANRAJ SAKARIA (7) -- HUF vs individual, ditto.
+#       VINOD KUMAR vs VINOD KUMAR AGARWAL; MANISH KUMAR vs MANISH KUMAR
+#         GOYAL; the five RAJESH KUMAR * names -- bare given names are their
+#         own disclosed clients, not truncations.
+#       KAUSHIK MAHESHBHAI WAGHELA vs KAUSHIK MAHESH WAGHELA (Gujarati -BHAI
+#         honorific patronymic; likely the same person, 10 + 13 deals -- a
+#         merge would manufacture a 23-deal qualifying record out of two
+#         non-qualifying ones, which is exactly the failure mode this table
+#         exists to prevent)
+#       SHREE NAMAN SECURITIES AND FINANCE vs NAMAN SECURITIES AND FINANCE
+#       YASHVI HITESH PATEL vs YASH HITESH PATEL (two distinct given names)
+#       ZYANA STOCKS AND COMMODITIES vs YUGA STOCKS AND COMMODITIES (distinct)
+#       B W TRADERS vs B M TRADERS (distinct)
+#       N K SECURITIES vs NK SECURITIES RESEARCH (the second is the prop
+#         research firm; the first is a different registered broker)
+#       ARYAMAN CAPITAL MARKETS vs ARIHANT CAPITAL MARKETS (distinct firms)
+#
+normalized_variant,canonical_entity,rationale
+MANSI SHARES AND STOCK ADVISORS,MANSI SHARE AND STOCK ADVISORS,"[FMT] SHARE/SHARES + &/AND variant of the same firm (raw: 'MANSI SHARES & STOCK ADVISORS PVT LTD' vs 'MANSI SHARE AND STOCK ADVISORS PVT LTD'). MANSI SHARE AND STOCK BROKING is a DIFFERENT registered name and is NOT merged."
+ARIHANT CAPITAL MARKETS LIMTED,ARIHANT CAPITAL MARKETS,"[FMT] 'LIMTED' is a misspelling of the LIMITED suffix token so the normalizer cannot strip it. Same firm."
+ADITYA BIRLA SUNLIFE MUTUAL FUND,ADITYA BIRLA SUN LIFE MUTUAL FUND,"[FMT] SUNLIFE/SUN LIFE spacing variant of the same AMC."
+ADITYA BIRLA SUN LIFE MUTUAL FUND PURE VALUE FUND,ADITYA BIRLA SUN LIFE MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+ADITYA BIRLA SUN LIFE MUTUAL FUND EQUITY ADVANTAGE FUND,ADITYA BIRLA SUN LIFE MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+ADITYA BIRLA SUN LIFE MUTUAL FUND ADITYA BIRLA SUN LIFE SMALL CAP FUND,ADITYA BIRLA SUN LIFE MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+CANARA ROBECO MUTUAL FUND EMERGING EQUITY,CANARA ROBECO MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+EDELWEISS MUTUAL FUND EDELWEISS ABSOLUTE RETURN FUND,EDELWEISS MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+FRANKLIN TEMPLETON MUTUAL FUND INDIA TAXSHIELD OPEN,FRANKLIN TEMPLETON MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+FRANKLIN TEMPLETON MUTUAL FUND INDIA PRIMA PLUS,FRANKLIN TEMPLETON MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+HDFC MUTUAL FUND HDFC,HDFC MUTUAL FUND,"[SCHEME] truncated scheme sub-account of the AMC."
+HDFC MUTUAL FUND HDFC MULTI CAP FUND,HDFC MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+HDFC MUTUAL FUND MULTI CAP FUND,HDFC MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+HDFC MUTUAL FUND HDFC MID CAP OPPORTUNITIES FUND,HDFC MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+HDFC MUTUAL FUND HDFC SMALL CAP FUND,HDFC MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+HDFC MUTUAL FUND HDFC SMALL AND MID CAP FUND,HDFC MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+HDFC MUTUAL FUND HDFC CAPITAL BUILDER FUND,HDFC MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+HDFC MUTUAL FUND HDFC CAPITAL BUILDER VALUE FUND,HDFC MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+HDFC MUTUAL FUND HDFC FLEXI CAP FUND,HDFC MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+HDFC MUTUAL FUND HDFC EQUITY SAVINGS FUND,HDFC MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+HDFC MUTUAL FUND HDFC DIVIDEND YIELD FUND,HDFC MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+HDFC MUTUAL FUND HDFC MANUFACTURING FUND,HDFC MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+HDFC MUTUAL FUND HDFC BALANCED ADVANTAGE FUND,HDFC MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+HSBC MUTUAL FUND MIDCAP FUND,HSBC MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+ICICI PRUDENTIAL MUTUAL FUND UNITS,ICICI PRUDENTIAL MUTUAL FUND,"[SCHEME] 'UNITS' sub-account marker of the AMC."
+ICICI PRUDENTIAL MUTUAL FUND UNITS ICICI PRUDENTIAL HOUSING OPPORTUNITIES FUND,ICICI PRUDENTIAL MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+ICICI PRUDENTIAL MUTUAL FUND ICICI PRUDENTIAL PHARMA HEALTHCARE AND DIAGANOSTICS PHD FUND,ICICI PRUDENTIAL MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+ICICI PRUDENTIAL MUTUAL FUND ICICI PRUDENTIAL INNOVATION FUND,ICICI PRUDENTIAL MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+ICICI PRUDENTIAL MUTUAL FUND ICICI PRUDENTIAL VALUE DISCOVERY FUND,ICICI PRUDENTIAL MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+ICICI PRUDENTIAL MUTUAL FUND ICICI PRUDENTIAL EQUITY AND DEBT FUND,ICICI PRUDENTIAL MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+IIFL MUTUAL FUND IIFL FOCUSED EQUITY FUND,IIFL MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+INVESCO MUTUAL FUND INDIA CONTRA FUND,INVESCO MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+KOTAK MAHINDRA MUTUAL FUND MULTICAP FUND,KOTAK MAHINDRA MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+LIC MUTUAL FUND FLEXI CAP FUND,LIC MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+MOTILAL OSWAL MUTUAL FUND MOTILAL OSWAL LARGE AND MIDCAP FUND,MOTILAL OSWAL MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+MOTILAL OSWAL MUTUAL FUND MOSTF30,MOTILAL OSWAL MUTUAL FUND,"[SCHEME] scheme sub-account code (MOSt Focused 30) of the AMC."
+NIPPON INDIA MUTUAL FUND NIPPON INDIA SMALL CAP FUND,NIPPON INDIA MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+NIPPON INDIA MUTUAL FUND NIPPON INDIA LARGE CAP FUND,NIPPON INDIA MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+NIPPON INDIA MUTUAL FUND NIPPON INDIA GROWTH FUND,NIPPON INDIA MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+NIPPON INDIA MUTUAL FUND MULTI CAP FUND,NIPPON INDIA MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+NIPPON INDIA MUTUAL FUND POWER AND INFRA FUND,NIPPON INDIA MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+PGIM INDIA MUTUAL FUND PGIM INDIA SMALL CAP FUND,PGIM INDIA MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+PGIM INDIA MUTUAL FUND PGIM INDIA MIDCAP OPPORTUNITIES FUND,PGIM INDIA MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+PPFAS MUTUAL FUND PARAG PARIKH LONG TERM VALUE FUND,PPFAS MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+QUANT MUTUAL FUND QUANT SMALL CAP FUND,QUANT MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+QUANT MUTUAL FUND SMALL CAP FUND,QUANT MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+QUANT MUTUAL FUND SMALL CAP FUND ESCMESCO,QUANT MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+QUANT MUTUAL FUND QUANT MF ACTIVE FUND,QUANT MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+QUANT MUTUAL FUND QUANT ACTIVE FUND,QUANT MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+QUANT MUTUAL FUND ACTIVE FUND,QUANT MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+QUANT MUTUAL FUND GILT FUND,QUANT MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+TATA MUTUAL FUND MONEY MARKET FUND,TATA MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+UTI MUTUAL FUND BANKING SECTOR FUND UT163,UTI MUTUAL FUND,"[SCHEME] scheme sub-account of the AMC."
+BIRLA MUTUAL FUND SCHEME,BIRLA MUTUAL FUND,"[SCHEME] bare 'SCHEME' sub-account marker. NOTE: BIRLA MUTUAL FUND is itself left SPLIT from ADITYA BIRLA SUN LIFE MUTUAL FUND (see REJECT-RENAME above)."
+NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL,NORGES BANK,"[SCHEME!] Norges Bank (NBIM) manages GPFG; 'ON ACCOUNT OF ...' is the mandate it trades under. Canonical NORGES BANK is itself a disclosed variant. 47 + 4 + 3 + 1 deals across four spellings -- the largest remaining split in the data and one that DOES change qualification."
+NORGES BANK ON ACCOUNT OF GOVERNMENT PENSION FUND GLOBAL,NORGES BANK,"[SCHEME!] same as above minus the word THE."
+NORGES BANK GOVERNMENT PENSION FUND GLOBAL,NORGES BANK,"[SCHEME!] same as above with the 'ON ACCOUNT OF' dropped entirely."
+UNIFI CAPITAL PVT LTD BCAD,UNIFI CAPITAL,"[SCHEME!] BCAD is a Unifi Capital PMS scheme code. Merging 12 + 6 + 4 + 1 + 1 crosses the 15-deal bar and CREATES a qualifying buyer -- read this row hardest. UNIFI AIF / UNIFI WEALTH MANAGEMENT / UNIFI FINANCIAL are separate registered entities and are NOT merged."
+UNIFI CAPITAL PRIVATE LIMITED BLENDED RANGOLI,UNIFI CAPITAL,"[SCHEME!] BLENDED RANGOLI is a Unifi Capital PMS scheme."
+UNIFI CAPITAL PRIVATE LIMITED BC AD,UNIFI CAPITAL,"[SCHEME!] 'BC AD' is 'BCAD' with a stray space in the raw file."
+UNIFI CAPITAL PVT LTD ISF,UNIFI CAPITAL,"[SCHEME!] ISF is a Unifi Capital PMS scheme code."
+MATALIA STOCK BROKING TRADING,MATALIA STOCK BROKING,"[FMT] residue of the raw string 'MATALIA STOCK BROKING TRADING A/C' -- the normalizer truncates at A/C and leaves the account-TYPE word 'TRADING' behind. Same firm (168 + 14 deals)."
+AEGIS INVESTMENT FUND PCC,AEGIS INVESTMENT FUND,"[FMT] PCC is a corporate-form suffix with NO cell named. PCC is deliberately absent from the auto-stripped suffix list because a NAMED cell must stay separate (see REJECT-BOOK)."
+ARHAM WEALTH MANAGEMENT PVT LTD OWN,ARHAM WEALTH MANAGEMENT,"[FMT] residue of the raw string 'ARHAM WEALTH MANAGEMENT PVT.LTD.(OWN AC)' -- own-account marker. ARHAM SHARE / ARHAM SHARE CONSULTANTS are different entities and are NOT merged."
+VIKASA INDIA EIF I FUND INCUBE GLOBAL OPPORTUNITIES,VIKASA INDIA EIF I FUND,"[SCHEME!] sub-fund of the same umbrella. 18 + 29 + 10 + 1 -- changes qualification."
+VIKASA INDIA EIF I FUND SHARE CLASS P,VIKASA INDIA EIF I FUND,"[SCHEME!] share class of the same fund."
+VIKASA INDIA EIF I FUND FCCB,VIKASA INDIA EIF I FUND,"[SCHEME!] instrument tag (foreign currency convertible bond) on the same fund's account."
+ANTARA INDIA EVERGREEN FUND LTD ANTARA INDIA EVERGREEN FUND FPI,ANTARA INDIA EVERGREEN FUND,"[SCHEME] the fund's own name repeated with its FPI registration tag."
+NOMURA INDIA INVESTMENT FUND MOTHER FUND THE MTBJ,NOMURA INDIA INVESTMENT FUND MOTHER FUND,"[SCHEME] residue of '... - THE MTBJ A/C ...'; MTBJ is The Master Trust Bank of Japan the custodian, not a different fund."
+NOMURA INDIA INVESTMENT FUND MOTHER FUND MF INDIA,NOMURA INDIA INVESTMENT FUND MOTHER FUND,"[SCHEME] sub-account designator on the same mother fund."
+PINE OAK GLOBAL FUND CLASS B,PINE OAK GLOBAL FUND,"[SCHEME] share class of the same fund."
+VANGUARD EMERGING MARKETS STOCK INDEX FUND A SERIES OF VIEIF,VANGUARD EMERGING MARKETS STOCK INDEX FUND,"[SCHEME!] 'A SERIES OF Vanguard International Equity Index Funds' is a legal descriptor of the same fund. 6 + 17 + 1 crosses the 15-deal bar. VANGUARD EMERGING MARKETS SHARES INDEX FUND (SHARES not STOCK) is a different fund and is NOT merged."
+VANGUARD EMERGING MARKETS STOCK INDEX FUND A SERIES OF VANGUARD INTERNATIONAL EQUITY INDEX FUNDS,VANGUARD EMERGING MARKETS STOCK INDEX FUND,"[SCHEME!] unabbreviated form of the same descriptor."

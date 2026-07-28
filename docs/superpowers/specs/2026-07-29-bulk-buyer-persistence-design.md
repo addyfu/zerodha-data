@@ -88,3 +88,28 @@ verdict. Results appended here.
 ## Decision log
 
 - 2026-07-29: Spec frozen (user approved).
+- 2026-07-29 (build, reviewer-accepted): builder caught a fatal
+  boolean-pivot NaN landmine in its own draft (object-dtype pivot makes
+  bool(nan)==True — dead stocks silently passed the liquidity gate);
+  fixed via numeric pivots. Same idiom in amfi_band_study.py verified
+  harmless by mechanism (NaN prices kill those events regardless).
+  Alias table (73 rows + documented rejections) reviewed; [SCHEME!]
+  merges (NORGES, UNIFI, VIKASA, VANGUARD) accepted; the KAUSHIK
+  non-merge is correct (different surnames). IC-1..IC-7 judgment calls
+  accepted. Panel defect fixed pre-run: 2022-08-08 was an XLSX misnamed
+  .csv AT SOURCE (NSE serves it that way) — converted, 2,255 rows
+  restored. Structural discovery: 71% of all BUY bulk deals are
+  same-day round-trips (HFT churn — Graviton 6,607 buys, 0 positions);
+  the true track-record pool is 29 entities, nearly all MFs/FPIs.
+- 2026-07-29 (results): **FAIL — all three criteria. Tombstone #136.**
+  C1: era A N=29 (<40, underpowered as predicted) mean −5.63%; era B
+  N=96 mean −2.58%. C2: pooled t=−3.16. C3 relabel guard: top-quartile
+  beat control by +1.45% but t=1.44 vs the 1.5 bar. THE REAL FINDING:
+  following ANY disclosed bulk-deal BUY costs ~4-5% net abnormal over
+  20d (control arm t=−15.66, N=3,077) — disclosed bulk deals mark
+  tops; the pre-disclosure front-running literature confirmed on 20
+  years of Indian data. Buyer skill persistence exists faintly (+1.45%
+  gap) but rides a baseline too negative to trade. Candidate
+  observation (NOT pre-registered): the INVERSE — bulk-deal disclosure
+  as an avoid/defer flag — would need its own spec and overlaps the
+  existing announcement-filter architecture.
