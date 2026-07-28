@@ -1,0 +1,284 @@
+====================================================================================================
+IPO ANCHOR-INVESTOR LOCK-IN UNLOCK STUDY (pre-registered, FROZEN)
+Spec: docs/superpowers/specs/2026-07-28-ipo-anchor-unlock-design.md
+====================================================================================================
+
+FROZEN RULES (restated before any results below were computed):
+  Regulatory pin (R1, primary source -- SEBI gazette notification, not a news write-up):
+    SEBI (ICDR) (Amendment) Regulations, 2022, notified 2022-01-14.
+    https://www.sebi.gov.in/legal/regulations/jan-2022/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-amendment-regulations-2022_55351.html
+    https://www.sebi.gov.in/sebi_data/attachdocs/jan-2022/1642395606006.pdf
+    Schedule XIII Part A clause (10)(j) substituted: "There shall be a lock-in of 90 days on
+    fifty per cent of the shares allotted to the anchor investors from the date of allotment,
+    and a lock-in of 30 days on the remaining fifty per cent ...".
+    Commencement proviso names clause (10) of Part A of Schedule XIII and says it "shall come
+    into force from April 1, 2022, FOR ISSUES OPENING ON OR AFTER APRIL 1, 2022".
+    => EFFECTIVE DATE PINNED: issues opening on/after 2022-04-01.
+  Era split on LISTING date (approximation, listing ~= issue_open + 10-14 calendar days under
+    the T+6 timeline then in force): PRE = listing < 2022-04-01; AMBIGUOUS = [2022-04-01, 2022-04-18);
+    POST = listing >= 2022-04-18. AMBIGUOUS gets NO +90 event, is included in
+    pooled stats (criteria 2/3) and excluded from the per-era cells (criterion 1).
+  Listings : first appearance in ANY series in data/bhavcopy_full; >= 60 forward trading days;
+             exclusions PANEL_EDGE / RIGHTS_ENTITLEMENT / NON_MAINBOARD_SERIES / FUND_OR_ETF /
+             RENAME_TWIN_PRICE / RENAME_TWIN_NAME / CORP_ACTION_SCHEME / NO_ISSUE_PRICE /
+             SME_LIQUIDITY / BAD_LISTING_PRICES / INSUFFICIENT_FORWARD (all listed below).
+  Unlocks  : listing + 30 and (POST era only) listing + 90 CALENDAR days, rolled to the next trading day.
+             KNOWN BIAS: lock-in runs from ALLOTMENT (~2-4 days before listing); the spec
+             freezes the listing-date anchor, so the modelled unlock sits a few days late.
+  Windows  : info [-5,-1] and [0,+1], abnormal vs EW daily-rebalanced frictionless
+             universe (EQ, turnover >= Rs 2cr, adj close >= Rs 20), returns clipped +/-25%. No verdict weight.
+  PRIMARY  : IF [0,+1] cumulative abnormal <= -2.0% AND liquidity gate holds at E,
+             BUY E+2 OPEN, hold 10 trading days, EXIT E+12 OPEN.
+  Costs    : 0.2%/side slippage on the fill price + zerodha_charges.calculate_charges(
+             buy_v, sell_v, is_intraday=False)['total'] (never sum(.values()) -- double-counts).
+             Fixed notional Rs 100,000/trade (the DP charge is FLAT, so net %
+             return depends on trade size -- stated, not tuned).
+  Verdict  : ALL THREE must hold --
+             1) mean net > 0 in BOTH eras, each with >= 15 trades
+                (< 15 => that era is NODATA/underpowered, a recorded OUTCOME,
+                 not a pass)
+             2) pooled cluster-robust t >= +2.0
+             3) win rate >= 55%
+  Clusters : PRIMARY = anchor-month (calendar month of that IPO's EARLIEST unlock, applied to
+             both of its events) -- satisfies both frozen sentences ("calendar month of the
+             unlock" AND "the two unlocks of one IPO share a cluster") without degenerating.
+             The union-find alternative was tried and REJECTED: overlapping IPO waves chain
+             every month together (G=1). Event-month and by-IPO t printed as diagnostics only.
+  Declared test count: 1 (the conditional long leg). Everything else is information only.
+
+Loaded 1682 bhavcopy files (1 unusable), 4077059 all-series stock-day rows, 4580 symbols, 2019-10-01 -> 2026-07-27, 1681 trading days.
+  WARN unusable file: sec_bhavdata_full_08082022.csv (ParserError) -- that trading day is absent from the panel.
+Corporate-action adjustment applied: 339157 stock-day rows scaled, 451 symbols with >=1 valid action.
+Benchmark: EW daily-rebalanced frictionless universe over 1589761 eligible EQ stock-days (1681 trading days), returns clipped +/-25%.
+
+====================================================================================================
+LISTING DETECTOR
+====================================================================================================
+Raw first-appearance symbols in panel : 4580
+Excluded                              : 4189
+Qualifying listings                   : 391
+
+Exclusions by primary reason (first matching rule wins; a symbol can trip several):
+  PANEL_EDGE                 1988
+  NON_MAINBOARD_SERIES        932
+  NO_ISSUE_PRICE              613
+  RENAME_TWIN_PRICE           258
+  RIGHTS_ENTITLEMENT          252
+  FUND_OR_ETF                  67
+  SME_LIQUIDITY                61
+  INSUFFICIENT_FORWARD         15
+  RENAME_TWIN_NAME              3
+
+Top 10 exclusion examples per reason (symbol | listing date | reason detail):
+  --- PANEL_EDGE (n=1988) ---
+      LAKSHVILAS     2019-10-01  first appearance 2019-10-01 < 2019-11-01
+      PALASHSECU     2019-10-01  first appearance 2019-10-01 < 2019-11-01
+      PAISALO        2019-10-01  first appearance 2019-10-01 < 2019-11-01
+      PAGEIND        2019-10-01  first appearance 2019-10-01 < 2019-11-01
+      OSWALSEEDS     2019-10-01  first appearance 2019-10-01 < 2019-11-01
+      OSWALAGRO      2019-10-01  first appearance 2019-10-01 < 2019-11-01
+      ORTINLABSS     2019-10-01  first appearance 2019-10-01 < 2019-11-01
+      ORTEL          2019-10-01  first appearance 2019-10-01 < 2019-11-01
+      ORISSAMINE     2019-10-01  first appearance 2019-10-01 < 2019-11-01
+      ORIENTREF      2019-10-01  first appearance 2019-10-01 < 2019-11-01
+  --- NON_MAINBOARD_SERIES (n=932) ---
+      MCXRG          2019-11-01  listing-day series=MF
+      AMBANIORG      2019-11-01  listing-day series=SM
+      ABSLFTQVDG     2019-11-05  listing-day series=MF
+      UNNCP7RG       2019-11-05  listing-day series=MF
+      ABSLFTQXDG     2019-11-06  listing-day series=MF
+      SGBOCT27VI     2019-11-06  listing-day series=GB
+      ABSLFTQWDG     2019-11-07  listing-day series=MF
+      PENTAGOLD      2019-11-07  listing-day series=SM
+      GEEKAYWIRE     2019-11-08  listing-day series=SM
+      UTIFEFRGR5     2019-11-08  listing-day series=MF
+  --- NO_ISSUE_PRICE (n=613) ---
+      MASKINVEST     2019-11-01  listing-day prev_close 42.45 is not a whole rupee
+      APOLLOPIPE     2019-11-11  listing-day prev_close 376.4 is not a whole rupee
+      CHEMBOND       2019-11-20  listing-day prev_close 207.05 is not a whole rupee
+      INFOMEDIA      2019-11-25  listing-day prev_close 4.55 is not a whole rupee
+      SHIL           2019-12-26  listing-day prev_close 234.85 is not a whole rupee
+      EBBETF0423     2020-01-02  listing-day prev_close 1000.76 is not a whole rupee
+      SHYAMTEL       2020-01-23  listing-day prev_close 9.3 is not a whole rupee
+      ARTEMISMED     2020-01-24  listing-day prev_close 49.45 is not a whole rupee
+      RUCHI          2020-01-27  listing-day prev_close 3.35 is not a whole rupee
+      SUMICHEM       2020-01-27  listing-day prev_close 3194.2 is not a whole rupee
+  --- RENAME_TWIN_PRICE (n=258) ---
+      NXTDIGITAL     2019-11-11  prev_close 331.6 == vanished twin last close: HINDUJAVEN(last 2019-11-08 @331.6)
+      HLVLTD         2020-01-08  prev_close 5.85 == vanished twin last close: HOTELEELA(last 2020-01-07 @5.85)
+      ANDPAPER       2020-01-22  prev_close 308.95 == vanished twin last close: IPAPPM(last 2020-01-21 @308.95)
+      NAM-INDIA      2020-01-23  prev_close 346.35 == vanished twin last close: RNAM(last 2020-01-22 @346.35)
+      ALOKINDS       2020-02-19  prev_close 3.3 == vanished twin last close: ALOKTEXT(last 2020-01-30 @3.3)
+      BORORENEW      2020-02-20  prev_close 220.15 == vanished twin last close: BOROSIL(last 2020-02-19 @220.15)
+      TATACONSUM     2020-02-27  prev_close 365.65 == vanished twin last close: TATAGLOBAL(last 2020-02-26 @365.65)
+      ANDHRAPAP      2020-03-05  prev_close 230.65 == vanished twin last close: ANDPAPER(last 2020-03-04 @230.65)
+      IMAGICAA       2020-04-22  prev_close 4.05 == vanished twin last close: ADLABS(last 2020-04-21 @4.05)
+      ZENITHSTL      2020-08-19  prev_close 0.85 == vanished twin last close: ZENITHBIR(last 2020-08-18 @0.85)
+  --- RIGHTS_ENTITLEMENT (n=252) ---
+      RIL-RE         2020-05-20  symbol matches -RE<n>
+      ARVINDF-RE     2020-06-29  symbol matches -RE<n>
+      ABFRL-RE       2020-07-08  symbol matches -RE<n>
+      SRTRANS-RE     2020-07-16  symbol matches -RE<n>
+      PVR-RE         2020-07-17  symbol matches -RE<n>
+      REFEX-RE       2020-07-27  symbol matches -RE<n>
+      M&MFIN-RE      2020-07-28  symbol matches -RE<n>
+      GDL-RE         2020-07-30  symbol matches -RE<n>
+      SPENCER-RE     2020-08-04  symbol matches -RE<n>
+      SATIN-RE       2020-08-12  symbol matches -RE<n>
+  --- FUND_OR_ETF (n=67) ---
+      EBBETF0430     2020-01-02  in curated ETF/index-fund exclusion set
+      EBBETF0431     2020-07-29  in curated ETF/index-fund exclusion set
+      EBBETF0425     2020-07-29  in curated ETF/index-fund exclusion set
+      AXISBNKETF     2020-11-09  in curated ETF/index-fund exclusion set
+      ICICISILVE     2022-01-31  in curated ETF/index-fund exclusion set
+      AUTOBEES       2022-05-10  in curated ETF/index-fund exclusion set
+      DSPBANKETF     2023-01-06  in curated ETF/index-fund exclusion set
+      HDFCBSE500     2023-02-24  in curated ETF/index-fund exclusion set
+      HDFCMID150     2023-02-24  in curated ETF/index-fund exclusion set
+      ABSLLIQUID     2023-03-16  in curated ETF/index-fund exclusion set
+  --- SME_LIQUIDITY (n=61) ---
+      ARENTERP       2019-11-07  listing-day turnover 0.01 lacs < 200
+      KIRLFER        2019-11-13  listing-day turnover 3.21 lacs < 200
+      S&SPOWER       2020-03-30  listing-day turnover 0.25 lacs < 200
+      SHAREINDIA     2020-09-21  listing-day turnover 92.64 lacs < 200
+      VALIANTORG     2020-10-05  listing-day turnover 124.99 lacs < 200
+      BESTAGRO       2021-02-22  listing-day turnover 41.54 lacs < 200
+      ORTINLAB       2021-03-30  listing-day turnover 3.27 lacs < 200
+      LCCINFOTEC     2021-03-31  listing-day turnover 2.64 lacs < 200
+      AMBICAAGAR     2021-04-22  listing-day turnover 4.43 lacs < 200
+      VINEETLAB      2021-06-15  listing-day turnover 16.53 lacs < 200
+  --- INSUFFICIENT_FORWARD (n=15) ---
+      KISSHT         2026-05-08  54 own forward trading days (panel allows 54)
+      CMRGREEN       2026-06-10  32 own forward trading days (panel allows 32)
+      HEXAGON        2026-06-12  30 own forward trading days (panel allows 30)
+      TURTLEMINT     2026-06-29  20 own forward trading days (panel allows 20)
+      CORDELIA       2026-07-01  18 own forward trading days (panel allows 18)
+      RAMBHAJO       2026-07-01  18 own forward trading days (panel allows 18)
+      VOEPL          2026-07-01  18 own forward trading days (panel allows 18)
+      CSM            2026-07-02  17 own forward trading days (panel allows 17)
+      AASTHA         2026-07-06  15 own forward trading days (panel allows 15)
+      KNACK          2026-07-08  13 own forward trading days (panel allows 13)
+  --- RENAME_TWIN_NAME (n=3) ---
+      AARTIPHARM     2023-01-30  >= 5-char prefix with vanished: AARTI-RE(last 2023-01-27)
+      GANESHCP       2025-09-29  >= 5-char prefix with vanished: GANESHHOUC(last 2025-09-12)
+      SILVERBND      2025-12-12  >= 5-char prefix with vanished: SILVERETF(last 2025-12-23)
+
+REVIEWER WARNINGS (info only -- these symbols were KEPT):
+  (a) survivors matching the broad fund-name regex but NOT in the curated FUND_EXCLUSIONS set
+      -- the curated set is the weakest heuristic in this file, so its gap is made explicit.
+      n=1: SHANTIGOLD
+  (b) survivors sharing a >= 5-char prefix with a still-trading pre-panel symbol
+      (possible group / demerger listing; NOT excluded, see module docstring for why).
+      n=37: ADVANCE~ADVANIHOTR, BAJAJHFL~BAJAJHIND, BALAJEE~BALAJITELE, BHARATCOAL~BHARATFORG, BHARTIHEXA~BHARTIARTL, BLUESTONE~BLUESTARCO, CONCORDBIO~CONCOR, CYIENTDLM~CYIENT, EXCELSOFT~EXCELINDUS, GANDHAR~GANDHITUBE, GLOBECIVIL~GLOBE, ICICIAMC~ICICIB22, INDIASHLTR~INDIACEM, INDIGOPNTS~INDIGO, INNOVACAP~INNOVANA, INNOVISION~INNOVANA, JYOTICNC~JYOTISTRUC, KALYANKJIL~KALYANIFRG, LAXMIDENTL~LAXMICOT, LAXMIINDIA~LAXMICOT, LOTUSDEV~LOTUSEYE, METROBRAND~METROPOLIS, MUTHOOTMF~MUTHOOTCAP, ORIENTTECH~ORIENTALTL, OSWALPUMPS~OSWALAGRO, PATELRMART~PATELENG, POWERICA~POWERGRID, POWERINDIA~POWERGRID, PREMIERENE~PREMIER, RATNAVEER~RATNAMANI, SAMBHV~SAMBHAAV, SHANTIGOLD~SHANTIGEAR, SHREEJISPG~SHREECEM, SHYAMMETL~SHYAMCENT, SMARTWORKS~SMARTLINK, SOLARWORLD~SOLARA, VENUSPIPES~VENUSREM
+
+Qualifying listings by regulatory era: PRE=84, AMBIGUOUS=3, POST=304
+Qualifying listings by year         : 2019=3, 2020=14, 2021=64, 2022=39, 2023=58, 2024=90, 2025=104, 2026=19
+
+====================================================================================================
+EVENT FUNNEL
+====================================================================================================
+  listings                       391
+  listings_smoke_dropped           0
+  events_planned                 695
+  no_unlock_day                    0
+  no_pre_window                    0
+  no_post_window                   0
+  bad_prices                       0
+  kept                           695
+  triggered                      230
+  gate_failed                     29
+  no_entry_exit                    0
+  trades                         201
+
+====================================================================================================
+INFORMATION WINDOWS (abnormal vs EW universe) -- NO VERDICT WEIGHT
+====================================================================================================
+  CAVEAT, stated before the numbers: newly listed Indian IPOs are known to underperform the
+  broad market over their first months regardless of any unlock. The spec defines no non-unlock
+  control window, so a negative [-5,-1] or [0,+1] abnormal return here CANNOT be attributed to
+  the unlock as opposed to general post-IPO drift. These windows are descriptive only; the
+  verdict rests solely on the conditional long leg below.
+
+  [ALL] n=695 events (391 x +30d, 304 x +90d), 391 IPOs
+  CAR [-5,-1] pre-unlock drift    : N= 695  mean= -2.545%  median= -3.174%  sd= 6.484%  win= 28.9%
+                                    PRIMARY t(anchor-month,G=64)=-9.556   [diag: t(event-month,G=70)=-8.936, t(IPO,G=391)=-10.031]
+  CAR [0,+1] unlock reaction      : N= 695  mean= -0.439%  median= -0.941%  sd= 4.162%  win= 37.1%
+                                    PRIMARY t(anchor-month,G=64)=-2.862   [diag: t(event-month,G=70)=-2.639, t(IPO,G=391)=-2.811]
+                                  : trigger rate ([0,+1] <= -2.0%) = 33.1%
+
+  [PRE] n=84 events (84 x +30d, 0 x +90d), 84 IPOs
+  CAR [-5,-1] pre-unlock drift    : N=  84  mean= -4.516%  median= -4.738%  sd= 7.744%  win= 20.2%
+                                    PRIMARY t(anchor-month,G=19)=-3.931   [diag: t(event-month,G=19)=-3.931, t(IPO,G=84)=-5.345]
+  CAR [0,+1] unlock reaction      : N=  84  mean= -0.630%  median= -1.459%  sd= 4.686%  win= 34.5%
+                                    PRIMARY t(anchor-month,G=19)=-1.374   [diag: t(event-month,G=19)=-1.374, t(IPO,G=84)=-1.232]
+                                  : trigger rate ([0,+1] <= -2.0%) = 35.7%
+
+  [AMBIGUOUS] n=3 events (3 x +30d, 0 x +90d), 3 IPOs
+  CAR [-5,-1] pre-unlock drift    : N=   3  mean= -4.796%  median= -1.503%  sd= 5.897%  win=  0.0%
+                                    PRIMARY t(anchor-month,G=1)=+nan   [diag: t(event-month,G=1)=+nan, t(IPO,G=3)=-1.409]
+  CAR [0,+1] unlock reaction      : N=   3  mean= -0.559%  median= -0.254%  sd= 4.913%  win= 33.3%
+                                    PRIMARY t(anchor-month,G=1)=+nan   [diag: t(event-month,G=1)=+nan, t(IPO,G=3)=-0.197]
+                                  : trigger rate ([0,+1] <= -2.0%) = 33.3%
+
+  [POST] n=608 events (304 x +30d, 304 x +90d), 304 IPOs
+  CAR [-5,-1] pre-unlock drift    : N= 608  mean= -2.261%  median= -2.794%  sd= 6.254%  win= 30.3%
+                                    PRIMARY t(anchor-month,G=44)=-8.319   [diag: t(event-month,G=50)=-7.697, t(IPO,G=304)=-8.592]
+  CAR [0,+1] unlock reaction      : N= 608  mean= -0.412%  median= -0.909%  sd= 4.089%  win= 37.5%
+                                    PRIMARY t(anchor-month,G=44)=-2.520   [diag: t(event-month,G=50)=-2.294, t(IPO,G=304)=-2.517]
+                                  : trigger rate ([0,+1] <= -2.0%) = 32.7%
+
+  [by unlock type: U30] n=391
+  CAR [0,+1]                      : N= 391  mean= -0.389%  median= -0.941%  sd= 4.019%  win= 39.1%
+                                    PRIMARY t(anchor-month,G=64)=-2.023   [diag: t(event-month,G=64)=-2.023, t(IPO,G=391)=-1.913]
+
+  [by unlock type: U90] n=304
+  CAR [0,+1]                      : N= 304  mean= -0.504%  median= -0.940%  sd= 4.346%  win= 34.5%
+                                    PRIMARY t(anchor-month,G=44)=-2.026   [diag: t(event-month,G=44)=-2.035, t(IPO,G=304)=-2.020]
+
+====================================================================================================
+PRIMARY LEG -- conditional post-unlock long (THE ONE DECLARED TEST)
+====================================================================================================
+  [POOLED (incl AMBIGUOUS)] 175 IPOs, 117 x +30d / 84 x +90d
+  NET trade return (after costs)  : N= 201  mean= +0.921%  median= -0.434%  sd=10.855%  win= 47.8%
+                                    PRIMARY t(anchor-month,G=54)=+1.361   [diag: t(event-month,G=57)=+1.421, t(IPO,G=175)=+1.188]
+
+  [PRE] 27 IPOs, 27 x +30d / 0 x +90d
+  NET trade return (after costs)  : N=  27  mean= +0.218%  median= -2.397%  sd=10.387%  win= 37.0%
+                                    PRIMARY t(anchor-month,G=14)=+0.093   [diag: t(event-month,G=14)=+0.093, t(IPO,G=27)=+0.109]
+
+  [AMBIGUOUS] 1 IPOs, 1 x +30d / 0 x +90d
+  NET trade return (after costs)  : N=   1  mean= -1.647%  median= -1.647%  sd=   nan%  win=  0.0%
+                                    PRIMARY t(anchor-month,G=1)=+nan   [diag: t(event-month,G=1)=+nan, t(IPO,G=1)=+nan]
+
+  [POST] 147 IPOs, 89 x +30d / 84 x +90d
+  NET trade return (after costs)  : N= 173  mean= +1.046%  median= -0.220%  sd=10.981%  win= 49.7%
+                                    PRIMARY t(anchor-month,G=39)=+1.488   [diag: t(event-month,G=42)=+1.573, t(IPO,G=147)=+1.233]
+
+  First 15 trades (symbol | era | unlock | E | entry | exit | CAR[0,+1] | net):
+    CSBBANK      PRE       U30 2020-01-03 2020-01-07 2020-01-21   -3.33%   -3.30%
+    ROSSARI      PRE       U30 2020-08-24 2020-08-26 2020-09-09   -2.37%   -1.79%
+    UTIAMC       PRE       U30 2020-11-11 2020-11-13 2020-12-01   -2.49%  +10.63%
+    EQUITASBNK   PRE       U30 2020-12-02 2020-12-04 2020-12-18   -2.76%  +11.59%
+    BURGERKING   PRE       U30 2021-01-13 2021-01-15 2021-02-01   -2.34%   -5.43%
+    INDIGOPNTS   PRE       U30 2021-03-04 2021-03-08 2021-03-23   -3.29%   -6.78%
+    HOMEFIRST    PRE       U30 2021-03-05 2021-03-09 2021-03-24   -3.46%  -14.62%
+    RAILTEL      PRE       U30 2021-03-30 2021-04-01 2021-04-19   -2.01%  -13.41%
+    HERANBA      PRE       U30 2021-04-05 2021-04-07 2021-04-23   -4.62%  +10.20%
+    MTARTECH     PRE       U30 2021-04-15 2021-04-19 2021-05-04   -3.86%   -1.17%
+    KALYANKJIL   PRE       U30 2021-04-26 2021-04-28 2021-05-12   -9.57%   +4.05%
+    NAZARA       PRE       U30 2021-04-29 2021-05-03 2021-05-18   -3.54%   -3.01%
+    BARBEQUE     PRE       U30 2021-05-07 2021-05-11 2021-05-26   -5.93%  +28.26%
+    LODHA        PRE       U30 2021-05-19 2021-05-21 2021-06-04   -2.45%   -2.03%
+    SONACOMS     PRE       U30 2021-07-26 2021-07-28 2021-08-11   -7.25%  +23.55%
+
+====================================================================================================
+VERDICT (frozen criteria)
+====================================================================================================
+  1. Mean net > 0 in BOTH eras, each with >= 15 trades:
+     PRE  : N=27  mean=+0.218%  -> PASS
+     POST : N=173  mean=+1.046%  -> PASS
+     -> criterion 1: PASS
+  2. Pooled cluster-robust t >= +2.0 (anchor-month clusters): +1.361 -> FAIL
+  3. Win rate >= 55%: 47.8% -> FAIL
+
+  OVERALL: FAIL -> dead, recorded, no re-tuning

@@ -73,3 +73,21 @@ verdict. Results appended here.
 ## Decision log
 
 - 2026-07-28: Spec frozen (user approved).
+- 2026-07-28 (build, reviewer-accepted): SEBI date pinned from the gazette
+  PDF — ICDR Amendment 2022, 50/50 @30/90d lock-in effective for issues
+  OPENING on/after 2022-04-01 (notification date 2022-01-14 is a
+  distractor); 3 ambiguous-era listings excluded from era cells. Listing
+  detector: 4,580 first-appearances → 391 IPOs, full exclusion taxonomy
+  (whole-rupee issue-price heuristic as the demerger filter, validated
+  35/35 on hand-listed IPOs; known ~5% leak documented). Spec's two
+  clustering sentences conflict (union-find over months degenerates to
+  G=1); resolved as anchor-month clustering, both sentences hold,
+  diagnostics printed. Side finding: sec_bhavdata_full_08082022.csv is a
+  ZIP misnamed .csv — that day absent from panel.
+- 2026-07-28 (results): **FAIL — dead, no re-tuning.** Criterion 1 PASSED
+  (mean net +0.218% PRE / +1.046% POST — the first invented candidate to
+  pass any criterion), but t=+1.361 vs +2.0 and win rate 47.8% vs 55%.
+  Median trade is negative (−0.22%); the positive mean rides occasional
+  +20-28% outliers. The realized profile is a lottery ticket, not the
+  claimed mechanical rebound — exactly what criterion 3 existed to catch.
+  200 trades, 53 clusters. Recorded and closed.
