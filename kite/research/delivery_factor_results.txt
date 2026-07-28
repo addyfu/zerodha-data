@@ -1,0 +1,68 @@
+============================================================================================
+DELIVERY-PERCENTAGE FACTOR STUDY (pre-registered, FROZEN)
+Spec: docs/superpowers/specs/2026-07-27-delivery-factor-design.md
+============================================================================================
+
+FROZEN RULES (restated before any results below were computed):
+  Signal   : z_t = (DELIV_PER_t - mean_20d)/std_20d over trailing 20 ELIGIBLE days
+             (t-20..t-1, day t excluded, std>0 required).
+             Accumulation = z_t >= +2.0 AND same-day adjusted close-to-close return > 0.
+  Eligible : series EQ, TURNOVER_LACS >= 200, adjusted close >= Rs 20, >= 20 prior
+             eligible days (DELIV_PER-not-NaN folded into the eligibility gate -- see
+             module docstring INTERPRETATION CHOICE).
+  Leak wall: signal computed on day t -> first tradeable action is day t+1 OPEN. Never same-day.
+  Portfolio: weekly, last trading day of week, rank accumulation by z, long top 20 EW,
+             enter next-day open, hold to following rebalance entry open, re-qualifying
+             names held (no cost on held slots).
+  Costs    : zerodha_charges.calculate_charges(buy_v, sell_v, is_intraday=False)['total']
+             (never sum(.values()) -- double-counts) + 0.2%/side slippage both legs.
+  Benchmark: EW daily-rebalanced B&H of the same eligible universe, clip-guarded returns,
+             FRICTIONLESS (no costs/slippage -- deliberately generous to the benchmark).
+  Clip guard: adjusted daily returns clipped +/-25%; HALT if clipping fires on >0.1% of
+             eligible stock-days.
+  Split    : train 2019-10..2023-12, validation 2024-01..2026-07 (or latest data).
+  Verdict  : PRIMARY CONFIG ONLY, pass requires ALL THREE --
+             1) val net CAGR >= B&H val CAGR + 3pp
+             2) train net CAGR >= B&H train CAGR (no sign flip)
+             3) val maxDD <= 1.25x B&H val maxDD (by magnitude)
+  Declared test count: primary + --variant monthly + --variant decile (no verdict weight
+             on the two variants). --short-side is informational only, never a 4th test.
+
+  WARN: failed to read sec_bhavdata_full_08082022.csv: ParserError: Error tokenizing data. C error: Expected 1 fields in line 5, saw 2
+, skipping
+Loaded 1682 files (1 skipped), 3055564 EQ stock-day rows, 3204 symbols, 2019-10-01 -> 2026-07-27
+Corporate-action adjustment applied: 312221 stock-day rows scaled (factor != 1.0), 451 symbols with >=1 valid action.
+
+Clip guard: 246/1539195 eligible stock-days (0.0160%) had |raw return| > 25% (frozen HALT bar: 0.10%).
+Eligible stock-days: 1539195 (50.37% of EQ stock-days). Accumulation signals: 25140. Distribution signals (info only): 40413.
+
+============================================================================================
+RUN: primary (weekly, top-20)
+============================================================================================
+
+Train  (2019-10-01 .. 2023-12-31):
+    strategy              : CAGR  -12.74%   maxDD  -50.03%   days  1049   trades 2134   avg names held  11.1   rebalances 222 (no-next-day 1, fill-misses 178)
+    benchmark B&H         : CAGR  +93.25%   maxDD  -40.49%   days  1049
+Validation (2024-01-01 .. 2026-07-27):
+    strategy              : CAGR  -31.21%   maxDD  -65.17%   days   632   trades 1540   avg names held  13.6   rebalances 135 (no-next-day 1, fill-misses 252)
+    benchmark B&H         : CAGR  +44.59%   maxDD  -21.95%   days   632
+
+Verdict (primary (weekly, top-20)):
+  1. Validation net CAGR >= B&H val CAGR + 3pp : -31.21 >= 47.59  -> FAIL
+  2. Train net CAGR >= B&H train CAGR (no sign flip): -12.74 >= 93.25  -> FAIL
+  3. Validation maxDD <= 1.25x B&H val maxDD    : |-65.17| <= 27.44  -> FAIL
+  OVERALL: FAIL -> dead, recorded, no re-tuning
+
+Distribution (short) leg -- INFORMATION ONLY, no verdict, no cost model -- train window:
+  n signals with computable forward return: 4430
+  mean gross forward return (entry open -> next-rebalance entry open): +0.53%
+  median gross forward return: +0.14%
+  fraction negative (i.e. distribution "worked" as a would-be short): 48.2%
+  Reminder: gross, no slippage/costs/borrow modeled -- not a tradeable verdict either way.
+
+Distribution (short) leg -- INFORMATION ONLY, no verdict, no cost model -- validation window:
+  n signals with computable forward return: 4377
+  mean gross forward return (entry open -> next-rebalance entry open): +0.45%
+  median gross forward return: -0.07%
+  fraction negative (i.e. distribution "worked" as a would-be short): 50.7%
+  Reminder: gross, no slippage/costs/borrow modeled -- not a tradeable verdict either way.

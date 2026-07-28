@@ -93,3 +93,29 @@ variant requires a spec amendment BEFORE it runs.
 ## Decision log
 
 - 2026-07-27: Spec drafted, pending user approval to freeze.
+- 2026-07-28: Frozen (user approved). Sonnet built the 3-script pipeline;
+  reviewer verified leak wall (shift(1) rolling window, t+1-open entries),
+  ['total'] cost calls, clip guard, z-sorted top-20, and the EW benchmark.
+  Two data traps caught pre-run: (a) builder found NSE's archive returns
+  HTTP 200 with the PREVIOUS day's file on some holidays — fixed by
+  validating each file's own DATE1 against the requested date (98 holidays
+  filtered, 6+ stale-content cases caught); (b) reviewer found the 2
+  "unparseable" corp actions were BRITANNIA bonus DEBENTURES (no equity
+  share-count change) — classifier now excludes debentures, 590 adjustment
+  rows, 0 NaN. Download: 1,682/1,780 dates, 0 failures, 1 file skipped on a
+  parse error (2022-08-08, immaterial). Clip guard: 0.016% vs 0.10% bar.
+- 2026-07-28 (results): **FAIL on all three criteria — dead, no re-tuning.**
+  Primary (weekly top-20): train CAGR −12.74% (bench +93.25%), validation
+  CAGR −31.21% (bench +44.59%), val maxDD −65.17% (bar was 27.44%).
+  Declared sensitivities: monthly +15.55%/+2.77% — positive sign but
+  ~78pp/~42pp behind benchmark with worse DD (weekly→monthly gap shows
+  churn+costs are a large part of the bleed, not all of it); decile ≈
+  primary (−13.80%/−30.45%). Short-side info leg: distribution stocks'
+  forward return +0.45% GROSS mean, 50.7% negative — the mirror leg loses
+  even before costs. The signal is dead in both directions: abnormal
+  delivery on an up day buys attention spikes that mean-revert.
+  Honesty note: the frictionless daily-rebalanced EW benchmark is generous
+  (it harvests noise-reversal alpha no one can capture, and 2020-21 was a
+  smallcap supercycle) — irrelevant to the verdict, the strategy is
+  outright negative on its own. Project experiment count: ~132. Delivery
+  data + corp-action table remain on disk as reusable infrastructure.
