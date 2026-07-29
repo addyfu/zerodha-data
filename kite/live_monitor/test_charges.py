@@ -43,24 +43,34 @@ def test_long_intraday_net_of_charges(tmp):
     bug (the dict carries its own 'total' alongside the six components), so a
     doubled charge passed happily. Hand-computed constants below are the only
     thing that catches that class of error.
+
+    2026-07-29: paper fills are now slipped 0.05%/side (paper_slippage_pct),
+    so the buy/sell values charges are computed on are the SLIPPED prices,
+    not the quoted 1000.0/1010.0 handed to the signal. That slip step is
+    mirrored here with the exact formula paper_trader.py uses — this test's
+    job is to isolate the CHARGES formula (its actual purpose), not to
+    re-derive slippage (test_slippage_applied_both_directions owns that).
     """
     t = _trader(tmp, 'long.db')
-    entry, exit_px, qty = 1000.0, 1010.0, 20
-    t.open_position(_Signal('TESTLONG', 'BUY', entry, qty))
-    pos = t.close_position('TESTLONG', exit_px, ExitReason.TAKE_PROFIT)
+    quoted_entry, quoted_exit, qty = 1000.0, 1010.0, 20
+    slip = zerodha_charges.paper_slippage_pct
+    entry = quoted_entry * (1 + slip)   # BUY entry slips up:   1000.5
+    exit_px = quoted_exit * (1 - slip)  # BUY exit slips down:  1009.495
+    t.open_position(_Signal('TESTLONG', 'BUY', quoted_entry, qty))
+    pos = t.close_position('TESTLONG', quoted_exit, ExitReason.TAKE_PROFIT)
 
-    buy_value, sell_value = entry * qty, exit_px * qty              # 20000, 20200
+    buy_value, sell_value = entry * qty, exit_px * qty              # 20010, 20189.9
     # Hand-computed, Zerodha equity INTRADAY (rates verified 2026-07-26):
-    brokerage = min(buy_value * 0.0003, 20) + min(sell_value * 0.0003, 20)   # 12.06
-    stt = sell_value * 0.00025                                               #  5.05
-    exchange = (buy_value + sell_value) * 0.0000297   # NSE Rs 2.97/lakh      #  1.1939
-    sebi = (buy_value + sell_value) * 0.000001        # Rs 10/crore           #  0.0402
-    gst = (brokerage + exchange + sebi) * 0.18        # SEBI is in the base   #  2.3929
-    stamp = buy_value * 0.00003                       # intraday 0.003%       #  0.60
-    expected_chg = brokerage + stt + exchange + gst + sebi + stamp           # 21.337
-    expected_gross = (exit_px - entry) * qty                                 # 200
+    brokerage = min(buy_value * 0.0003, 20) + min(sell_value * 0.0003, 20)   # 12.060
+    stt = sell_value * 0.00025                                               #  5.047
+    exchange = (buy_value + sell_value) * 0.0000297   # NSE Rs 2.97/lakh      #  1.194
+    sebi = (buy_value + sell_value) * 0.000001        # Rs 10/crore           #  0.040
+    gst = (brokerage + exchange + sebi) * 0.18        # SEBI is in the base   #  2.393
+    stamp = buy_value * 0.00003                       # intraday 0.003%       #  0.600
+    expected_chg = brokerage + stt + exchange + gst + sebi + stamp           # 21.335
+    expected_gross = (exit_px - entry) * qty                                 # 179.9
 
-    assert abs(expected_chg - 21.3371) < 0.01, f'test arithmetic drifted: {expected_chg}'
+    assert abs(expected_chg - 21.3348) < 0.01, f'test arithmetic drifted: {expected_chg}'
     assert abs(pos.gross_pnl - expected_gross) < 1e-6, pos.gross_pnl
     assert abs(pos.charges - expected_chg) < 1e-4, (
         f'charges {pos.charges:.4f} != hand-computed {expected_chg:.4f} '
@@ -73,12 +83,16 @@ def test_long_intraday_net_of_charges(tmp):
 def test_short_direction_sign(tmp):
     """A profitable SHORT must still be net-positive-but-reduced, not inverted."""
     t = _trader(tmp, 'short.db')
-    entry, exit_px, qty = 500.0, 490.0, 40
-    t.open_position(_Signal('TESTSHORT', 'SELL', entry, qty))
-    pos = t.close_position('TESTSHORT', exit_px, ExitReason.TAKE_PROFIT)
-    assert abs(pos.gross_pnl - 400.0) < 1e-6, pos.gross_pnl
+    quoted_entry, quoted_exit, qty = 500.0, 490.0, 40
+    slip = zerodha_charges.paper_slippage_pct
+    # SELL entry slips down, SELL exit slips up (2026-07-29 paper_slippage_pct) —
+    # same worsening direction as test_slippage_worsens_never_improves checks directly.
+    expected_gross = (quoted_entry * (1 - slip) - quoted_exit * (1 + slip)) * qty
+    t.open_position(_Signal('TESTSHORT', 'SELL', quoted_entry, qty))
+    pos = t.close_position('TESTSHORT', quoted_exit, ExitReason.TAKE_PROFIT)
+    assert abs(pos.gross_pnl - expected_gross) < 1e-6, (pos.gross_pnl, expected_gross)
     assert 0 < pos.pnl < pos.gross_pnl, (pos.pnl, pos.gross_pnl)
-    return f'short gross +400.00 -> net {pos.pnl:+.2f}'
+    return f'short gross +{expected_gross:.2f} -> net {pos.pnl:+.2f}'
 
 
 def test_delivery_costs_more_than_intraday(tmp):
@@ -268,7 +282,10 @@ def test_daily_summary_backfill(tmp):
     open_value = conn.execute(
         "SELECT COALESCE(SUM(entry_price * quantity), 0) FROM positions "
         "WHERE status = 'open'").fetchone()[0]
-    assert open_value == 5000.0, open_value   # DSHOLD must be counted
+    # DSHOLD must be counted. entry_price is the SLIPPED fill (2026-07-29
+    # paper_slippage_pct), not the quoted 500.0 handed to the signal.
+    expected_open_value = 500.0 * (1 + zerodha_charges.paper_slippage_pct) * 10
+    assert abs(open_value - expected_open_value) < 1e-6, (open_value, expected_open_value)
     expected_capital = initial_capital - open_value + expected_pnl
 
     # Corrupt the row to simulate a gross-era write: net + 500 in both cols.
@@ -297,13 +314,65 @@ def test_daily_summary_backfill(tmp):
             f'(2nd run repaired {repaired_again})')
 
 
+def test_slippage_applied_both_directions(tmp):
+    """2026-07-29: paper fills are slipped 0.05%/side (kite/config.py
+    ZerodhaCharges.paper_slippage_pct) at both open_position and
+    close_position, matching every backtest/expectation card's assumption.
+    Hand-computed expected prices for all four legs: BUY entry/exit and
+    SELL entry/exit.
+    """
+    slip = zerodha_charges.paper_slippage_pct
+    assert abs(slip - 0.0005) < 1e-12, f'test assumes 0.05% — config drifted to {slip}'
+
+    t = _trader(tmp, 'slip_buy.db')
+    quoted_entry, quoted_exit, qty = 1000.0, 1010.0, 20
+    pos = t.open_position(_Signal('SLIPBUY', 'BUY', quoted_entry, qty))
+    expected_entry = quoted_entry * (1 + slip)   # BUY entry worsens UP: 1000.50
+    assert abs(pos.entry_price - expected_entry) < 1e-9, (pos.entry_price, expected_entry)
+    closed = t.close_position('SLIPBUY', quoted_exit, ExitReason.TAKE_PROFIT)
+    expected_exit = quoted_exit * (1 - slip)     # BUY exit worsens DOWN: 1009.495
+    assert abs(closed.exit_price - expected_exit) < 1e-9, (closed.exit_price, expected_exit)
+
+    t2 = _trader(tmp, 'slip_sell.db')
+    quoted_entry_s, quoted_exit_s = 500.0, 490.0
+    pos_s = t2.open_position(_Signal('SLIPSELL', 'SELL', quoted_entry_s, qty))
+    expected_entry_s = quoted_entry_s * (1 - slip)   # SELL entry worsens DOWN: 499.75
+    assert abs(pos_s.entry_price - expected_entry_s) < 1e-9, (pos_s.entry_price, expected_entry_s)
+    closed_s = t2.close_position('SLIPSELL', quoted_exit_s, ExitReason.TAKE_PROFIT)
+    expected_exit_s = quoted_exit_s * (1 + slip)     # SELL exit worsens UP: 490.245
+    assert abs(closed_s.exit_price - expected_exit_s) < 1e-9, (closed_s.exit_price, expected_exit_s)
+
+    return (f'BUY entry {quoted_entry}->{pos.entry_price:.3f}, exit {quoted_exit}->{closed.exit_price:.3f} | '
+            f'SELL entry {quoted_entry_s}->{pos_s.entry_price:.3f}, exit {quoted_exit_s}->{closed_s.exit_price:.3f}')
+
+
+def test_slippage_worsens_never_improves(tmp):
+    """The slipped fill must always be worse than the quoted price for the
+    position holder — never better, in either direction, on either leg."""
+    t = _trader(tmp, 'slip_worse_buy.db')
+    pos = t.open_position(_Signal('WORSEBUY', 'BUY', 1000.0, 10))
+    assert pos.entry_price > 1000.0, 'BUY entry must be slipped UP (pay more), not improved'
+    closed = t.close_position('WORSEBUY', 1050.0, ExitReason.TAKE_PROFIT)
+    assert closed.exit_price < 1050.0, 'BUY exit must be slipped DOWN (receive less), not improved'
+
+    t2 = _trader(tmp, 'slip_worse_sell.db')
+    pos_s = t2.open_position(_Signal('WORSESELL', 'SELL', 1000.0, 10))
+    assert pos_s.entry_price < 1000.0, 'SELL entry must be slipped DOWN (short at a worse price)'
+    closed_s = t2.close_position('WORSESELL', 950.0, ExitReason.TAKE_PROFIT)
+    assert closed_s.exit_price > 950.0, 'SELL exit (buy-to-cover) must be slipped UP (pay more)'
+
+    return (f'BUY entry {pos.entry_price:.2f}>1000, exit {closed.exit_price:.2f}<1050 | '
+            f'SELL entry {pos_s.entry_price:.2f}<1000, exit {closed_s.exit_price:.2f}>950')
+
+
 def main():
     tests = [test_long_intraday_net_of_charges, test_short_direction_sign,
              test_delivery_costs_more_than_intraday, test_dp_charge_delivery_only,
              test_capital_reflects_net,
              test_persisted_columns_roundtrip, test_backfill_idempotent,
              test_dry_run_writes_nothing, test_open_positions_unaffected,
-             test_exit_reason_labels, test_daily_summary_backfill]
+             test_exit_reason_labels, test_daily_summary_backfill,
+             test_slippage_applied_both_directions, test_slippage_worsens_never_improves]
     passed = failed = 0
     print('=' * 78)
     for fn in tests:

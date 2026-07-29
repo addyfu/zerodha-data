@@ -27,7 +27,15 @@ class TradingConfig:
     risk_per_trade: float = 0.02  # 2% risk per trade
     max_positions: int = 5  # Maximum concurrent positions
     max_daily_loss: float = 0.05  # 5% daily loss limit
-    
+
+    # Kill switch: circuit breaker vs runaway-loop bugs (r/algotrading corpus
+    # lesson, Knight-Capital class). Ceilings are generous — ~2x worst observed
+    # day — so they only trip on a genuine malfunction, not a busy session.
+    # EXITS ARE NEVER BLOCKED; only new entries halt for the rest of the day.
+    # Enforced by entry_pipeline.py (the single entry gate).
+    max_entries_per_day_incubator: int = 40
+    max_entries_per_day_main: int = 10
+
     # Position sizing
     use_risk_based_sizing: bool = True
     fixed_quantity: int = 1  # Used if risk_based_sizing is False
@@ -82,8 +90,17 @@ class ZerodhaCharges:
     # (~0.08% on a 19k position vs ~0.01% on a 150k one). Was missing entirely
     # until 2026-07-26; delivery costs were understated by ~36% as a result.
     dp_charge_per_sell: float = 13.5
-    
-    def calculate_charges(self, buy_value: float, sell_value: float, 
+
+    # Paper-trading fill slippage, one side of a round trip (applied at both
+    # open AND close in paper_trader.py, so a round trip eats it twice).
+    # Matches the 0.05%/side assumption in every backtest/expectation card
+    # (measured true NIFTY half-spread ~0.013% — Roll estimator 2026-07-26 —
+    # so this is deliberately conservative for card parity; decision approved
+    # 2026-07-29). Forward-only: does not apply to trades recorded before the
+    # change shipped.
+    paper_slippage_pct: float = 0.0005
+
+    def calculate_charges(self, buy_value: float, sell_value: float,
                          is_intraday: bool = True) -> Dict[str, float]:
         """Calculate all charges for a round-trip trade."""
         charges = {}

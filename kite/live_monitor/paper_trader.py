@@ -323,7 +323,11 @@ class PaperTrader:
             logger.warning(f"Already have position in {signal.symbol}")
             return None
         
-        # Check position fits in a slot and we have enough capital
+        # Check position fits in a slot and we have enough capital — gated on
+        # the signal's QUOTED price. This is the strategy's own sizing
+        # decision (SignalDetector computed quantity against this price); a
+        # few bps of fill slippage below must not spuriously reject a signal
+        # that was sized to fit.
         required_capital = signal.quantity * signal.entry_price
         if required_capital > self.slot_size:
             logger.warning(f"Position too large for {signal.symbol} (need {required_capital:.0f}, slot {self.slot_size:.0f})")
@@ -331,30 +335,43 @@ class PaperTrader:
         if required_capital > self.capital:
             logger.warning(f"Insufficient capital for {signal.symbol} (need {required_capital:.0f}, have {self.capital:.0f})")
             return None
-        
+
+        # Paper slippage — worsen the fill vs the signal's quoted price, matching
+        # every backtest/expectation card's 0.05%/side assumption
+        # (kite/config.py ZerodhaCharges.paper_slippage_pct). Single choke
+        # point: computed once here, after the sizing gates above (which stay
+        # on the quoted price) but before the position is created, so the
+        # stored entry_price and everything downstream (close_position's
+        # gross P&L, capital accounting) all use the actual slipped fill.
+        # FORWARD-ONLY — history keeps its recorded fills; the record through
+        # 2026-07-29 is ~Rs 20/trade under-costed relative to this regime.
+        slip = zerodha_charges.paper_slippage_pct
+        entry_price = signal.entry_price * (1 + slip if signal.direction == 'BUY' else 1 - slip)
+        filled_capital = signal.quantity * entry_price  # actual cash locked at the slipped fill
+
         # Create position
         self.trade_counter += 1
         position = Position(
             id=self.trade_counter,
             symbol=signal.symbol,
             direction=signal.direction,
-            entry_price=signal.entry_price,
+            entry_price=entry_price,
             entry_time=datetime.now(),
             quantity=signal.quantity,
             stop_loss=signal.stop_loss,
             take_profit=signal.take_profit,
             strategy=signal.strategy,
             trade_mode=getattr(signal, 'trade_mode', 'INTRADAY'),
-            highest_price=signal.entry_price if signal.direction == 'BUY' else None,
-            lowest_price=signal.entry_price if signal.direction == 'SELL' else None
+            highest_price=entry_price if signal.direction == 'BUY' else None,
+            lowest_price=entry_price if signal.direction == 'SELL' else None
         )
-        
+
         # Set initial trailing stop
         if self.use_trailing_stop:
             position.trailing_stop = signal.stop_loss
-        
-        # Deduct position value from capital
-        self.capital -= required_capital
+
+        # Deduct position value from capital (slipped — the real cash outlay)
+        self.capital -= filled_capital
 
         # Add to positions
         self.positions[signal.symbol] = position
@@ -363,7 +380,7 @@ class PaperTrader:
         self._save_position(position)
         self._save_state()
 
-        logger.info(f"Opened {position.direction} position in {position.symbol} @ {position.entry_price:.2f} (allocated {required_capital:.0f}, remaining capital {self.capital:.0f})")
+        logger.info(f"Opened {position.direction} position in {position.symbol} @ {position.entry_price:.2f} (allocated {filled_capital:.0f}, remaining capital {self.capital:.0f})")
         
         return position
     
@@ -385,6 +402,15 @@ class PaperTrader:
             return None
         
         position = self.positions[symbol]
+
+        # Paper slippage — worsen the exit fill (same 0.05%/side assumption as
+        # open_position; kite/config.py ZerodhaCharges.paper_slippage_pct).
+        # Single choke point: reassigned before gross P&L / charges are
+        # computed, so everything downstream — and the exit_price stored on
+        # the position — reflects the slipped fill. FORWARD-ONLY, see
+        # open_position's comment.
+        slip = zerodha_charges.paper_slippage_pct
+        exit_price = exit_price * (1 - slip if position.direction == 'BUY' else 1 + slip)
 
         # Gross P&L (price move only)
         if position.direction == 'BUY':

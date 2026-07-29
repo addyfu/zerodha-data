@@ -58,6 +58,7 @@ from kite.live_monitor.db_manager import DBManager
 from kite.live_monitor.momentum_rotation import MomentumRotation
 from kite.live_monitor.announcement_filter import AnnouncementFilter
 from kite.live_monitor.entry_pipeline import EntryPipeline
+from kite.config import zerodha_charges
 
 # NIFTY 50 stocks
 NIFTY_50 = [
@@ -220,6 +221,10 @@ class LiveMonitor:
             trailing_stop_pct=0.02
         )
         logger.info(f"Paper trader initialized with Rs {capital:,.2f}")
+
+        # Slippage is applied at every open_position/close_position fill (paper_trader.py) —
+        # logged once here, at startup, rather than per-trade.
+        logger.info(f"paper slippage active: {zerodha_charges.paper_slippage_pct:.2%}/side")
 
         # Stock list — use NIFTY 50 for fast local scanning
         self.stocks = NIFTY_50
@@ -498,7 +503,7 @@ class LiveMonitor:
                 signal.entry_price = live
                 signal.stop_loss = live * MomentumRotation.DISASTER_SL
                 signal.take_profit = live * 2.0
-            self.entry.try_enter(self.trader, signal, 'ROTATION')
+            self.entry.try_enter(self.trader, signal, 'ROTATION', 'main')
 
     def scan_incubator(self):
         """Scan candidate strategies on 5-min data; trades go to the separate incubator book."""
@@ -518,7 +523,7 @@ class LiveMonitor:
                         continue
                     seen.add(key)
                     signal.trade_mode = "INTRADAY"
-                    self.entry.try_enter(self.incubator, signal, 'INCUBATOR')
+                    self.entry.try_enter(self.incubator, signal, 'INCUBATOR', 'incubator')
                 except Exception as e:
                     logger.error(f"Incubator scan error {symbol}/{detector.strategy_name}: {e}", exc_info=True)
 
@@ -562,7 +567,7 @@ class LiveMonitor:
                     if held:
                         continue
                     signal.trade_mode = "ROTATION"
-                    self.entry.try_enter(self.incubator, signal, 'CANDIDATE')
+                    self.entry.try_enter(self.incubator, signal, 'CANDIDATE', 'incubator')
                 except Exception as e:
                     logger.error(f"Candidate scan error {symbol}/{detector.strategy_name}: {e}", exc_info=True)
 
@@ -692,7 +697,7 @@ class LiveMonitor:
     def process_signals(self, signals: List[TradeSignal]):
         """Route detected signals through the entry pipeline (main book)."""
         for signal in signals:
-            position = self.entry.try_enter(self.trader, signal, 'MAIN', alert=False)
+            position = self.entry.try_enter(self.trader, signal, 'MAIN', 'main', alert=False)
             if position:
                 self.telegram.send_trade_alert(signal.to_dict())
     
