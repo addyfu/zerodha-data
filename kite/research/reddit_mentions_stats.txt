@@ -1,0 +1,134 @@
+REDDIT TICKER-MENTION CORPUS STATS (PHASE 0 -- no price/signal content)
+==============================================================================
+Generated: 2026-07-29T16:28:46.325168+05:30
+FULL CORPUS RUN.
+
+-- Universe / alias / stoplist sizes --
+Core universe (EQ symbols from latest bhavcopy file): 2,408
+Stoplist size: 93
+Bare-token-eligible symbols (core - stoplist): 2,315
+Alias table rows (unique aliases): 195
+Distinct target symbols covered by aliases: 153
+Alias-target symbols NOT in the core universe (legacy/renamed): ['LTIM', 'SPICEJET', 'TATAMOTORS']
+
+-- Corpus coverage --
+Submissions scanned: 110,827
+Comments scanned:    1,330,221
+Total docs scanned:  1,441,048
+Submissions with >=1 ticker match: 16,961 (15.30%)
+Comments with >=1 ticker match:    71,058 (5.34%)
+TOTAL docs with >=1 ticker match:  88,019 (6.11%)
+
+-- Top 30 symbols by total mentions (posts + comments, 1 per doc) --
+rank  symbol         total_mentions   mention_days
+   1  RELIANCE                7,022          1,835
+   2  ITC                     6,662          1,520
+   3  PAYTM                   5,509          1,156
+   4  ETERNAL                 4,751          1,078
+   5  SBIN                    4,287          1,473
+   6  INFY                    2,916          1,179
+   7  TCS                     2,904          1,165
+   8  TATAMOTORS              2,865          1,083
+   9  LICI                    2,814            804
+  10  YESBANK                 2,382            963
+  11  SUZLON                  2,379            792
+  12  HDFCBANK                2,247          1,087
+  13  IRFC                    1,622            600
+  14  SWIGGY                  1,535            553
+  15  ASIANPAINT              1,305            690
+  16  WIPRO                   1,181            652
+  17  HINDUNILVR              1,164            666
+  18  CDSL                    1,162            677
+  19  M&M                     1,159            671
+  20  ANGELONE                1,060            577
+  21  BAJFINANCE              1,057            644
+  22  NIFTYBEES               1,030            630
+  23  IREDA                     966            310
+  24  VEDL                      913            506
+  25  IRCTC                     912            442
+  26  MOTILALOFS                912            624
+  27  HAL                       905            448
+  28  IDEA                      862            475
+  29  DMART                     789            410
+  30  ADANIPORTS                788            423
+
+-- Per-year mention volumes (mention-events, not doc counts) --
+2020:      6,491 mentions across    77,129 docs scanned
+2021:     22,357 mentions across   172,068 docs scanned
+2022:     24,061 mentions across   170,376 docs scanned
+2023:     15,987 mentions across   183,076 docs scanned
+2024:     31,588 mentions across   428,569 docs scanned
+2025:     16,642 mentions across   247,200 docs scanned
+2026:      7,378 mentions across   162,630 docs scanned
+
+-- Mention-day distribution across symbols --
+Symbols with >=1 mention at all:        1,605
+Symbols with >=100 mention-days:         147
+Symbols with >=500 mention-days:         25
+Symbols with >=2000 mention-days:        0
+(mention-day = a calendar day on which the symbol had >=1 mention; this is a corpus-coverage/breadth statistic, not a price statistic.)
+
+-- Top 10 single-day mention spikes (symbol, date, count) -- NO PRICE CONTEXT --
+PAYTM         2024-02-02       145 mentions
+PAYTM         2021-11-18       135 mentions
+SUZLON        2021-01-30       115 mentions
+RELIANCE      2024-10-24        92 mentions
+SUZLON        2021-01-31        86 mentions
+LICI          2025-10-25        83 mentions
+PAYTM         2021-11-19        82 mentions
+PAYTM         2021-11-22        77 mentions
+PAYTM         2024-02-06        70 mentions
+PAYTM         2024-02-01        67 mentions
+
+-- Precision sample (40 random matched examples, reviewer audit) --
+Drawn via reservoir sampling (seed=20260729) from two pools: 'bare_caps_short' (symbol <6 chars, matched via the case-sensitive ALL-CAPS bare-token rule -- the highest false-positive-risk mechanism) and everything else (long lowercase bare-token, cashtag, NSE: prefix, alias phrase). Target: >=10 from bare_caps_short.
+Actual composition: 40 items, 12 from bare_caps_short.
+
+symbol        mechanism         date        kind         snippet
+------------------------------------------------------------------------------
+ITC           bare_caps_short   2024-04-15  comments     Rather buy Defensive stocks such as ITC, Pharma
+BEL           bare_caps_short   2025-05-13  submissions  BEL is up 4% with strong volume worth going long from here?
+POWERGRID     bare_lower_long   2021-12-17  submissions  powergrid - cup and handle
+AUROPHARMA    bare_lower_long   2023-02-22  submissions  ...g are bullish and bearish technical setup Pharma:-bullish:- Auropharma, Glenmark, Abbott Bearish:-Laurus, Granules , Biocon, Lupin...
+PHARMABEES    bare_lower_long   2023-08-31  comments     Not an expert,They are kinda like mutual funds. Pharmabees are made of Pharma stocks,while mam150 etf is made of the t...
+ETERNAL       alias             2026-05-08  comments     ...profitability. Paytm taught the market valuation matters. Zomato taught loss-making companies can still survive if execution...
+NTPC          bare_caps_short   2025-06-15  comments     Like what? ISRO? Brahmos? NPCI? NTPC?
+RELIANCE      bare_lower_long   2025-08-30  comments     Upfront, it adds to revenue of refineries like reliance. In broader picture, it helps everyone, not just in India,...
+HINDUNILVR    alias             2021-07-31  submissions  DCF Model and Sensitivity Analysis on Hindustan Unilever [removed]
+CIPLA         bare_caps_short   2026-02-26  submissions  3 New Entries New Short-Term Entries | 26/2 1) HDFC AMC 2) CIPLA 3) NATIONALUM INDICATORS- 5 AND 25 MA Added fresh positio...
+FEDERALBNK    alias             2022-11-12  comments     I sold PNB for more stake in TATA Power or federal bank has (TATA Power or been doing good) Do you think selling...
+SWIGGY        bare_lower_long   2025-06-11  comments     ...an’t stand for long with someone having 2 billion USD cash. Swiggy cant can big losser here. We all have seen telecom prices w...
+CDSL          bare_caps_short   2021-03-29  comments     ...g term investment per say and will have to be sold timely. CDSL: unlike the above two this is something retail can influenc...
+POLICYBZR     bare_caps_long    2023-06-08  submissions  Portfolio review Pretty sure about PAYTM and POLICYBZR but wanted to get some insights on others to weed out any...
+IRFC          bare_caps_short   2023-09-11  comments     ...sold Wipro last week, held it for almost a year. Sat on the IRFC bandwagon and trust me it seems like the best decision I ma...
+ADANIPOWER    alias             2024-11-21  comments     Nothing ever happens, so I would buy adani power at discount.
+LICI          alias             2024-12-23  comments     Not some people only a couple of youtubers. And LIC 🤣
+NFL           bare_caps_short   2025-04-19  submissions  ...New Ammonia-Urea Complex in Assam Through Joint Venture:** NFL will hold an 18% equity share in the newly incorporated Joi...
+HDFCBANK      alias             2026-06-12  submissions  The Ultimate Video Proof! HDFC Bank's MD Office Acknowledged My Email, Yet They Lied to the RBI...
+TITAN         bare_caps_short   2022-10-17  comments     ...RGE, L&T, CDSL, HDFC AMC, BAJAJ FINSERVE, CDSL, KOTAK BANK, TITAN, DEVYANI INTERNATIONAL, ASIAN PAINTS, UNITED BREWERIES, KP...
+TMPV          bare_caps_short   2026-06-27  comments     Sell TMPV, IRFC
+WIPRO         bare_caps_short   2024-06-07  comments     ...ng the financials of the company. In bluechip IT ( TCS,INFY,WIPRO, ETC.) BANK (HDFC, BANK OF BARODA, AXIS, ETC.) HEALTHCARE M...
+VISHNU        bare_lower_long   2024-08-20  submissions  ...tan Zinc falls to 63.42% after offer for sale (Neutral) *Vishnu chemicals:* Company announced the 100% equity acquisition o...
+YESBANK       alias             2022-12-15  comments     Yes Bank as well
+PAYTM         alias             2021-02-25  submissions  mutual fund transfers I am using paytm money to invest in the mutual funds. i have invested in aro...
+BAJFINANCE    alias             2025-11-10  comments     ...cautious. This week, all eyes will be on numbers from ONGC, Bajaj Finance, Bajaj Finserv, Asian Paints, and Tata Steel. Before the t...
+HAVELLS       bare_lower_long   2021-07-26  comments     ...but price could get stagnant here. I am already invested in Havells which I posted a week ago. For reference just buy 10 or 20...
+TATAPOWER     bare_caps_long    2021-10-13  comments     Holding TATAPOWER for life
+INFY          alias             2024-04-06  comments     ...rwa rha he .. go ask ur fellow classmates who did got into infosys whats the culture ovr there .. macho japan banana he tb tho...
+GLENMARK      bare_lower_long   2023-11-24  comments     surely do. glenmark lifesciences is IMO a hidden gem which a lot of people are...
+GRAVITA       bare_lower_long   2021-02-02  comments     Bought gravita....made a bit
+5PAISA        bare_lower_long   2022-07-29  submissions  ...ack then I was just fascinated by this finance world, had a 5paisa account. Literally exciting. I had yes bank in 2017-2018,...
+ALLCARGO      bare_lower_long   2024-03-22  comments     ...ries - have strong conviction. 40% down right now from ATH -Allcargo Terminals
+GRANULES      bare_lower_long   2021-11-06  comments     My Happiest Minds, Granules and KSCL shares have fell by 15%, 15%,10% respectively. I a...
+TCS           bare_caps_short   2022-03-06  comments     You could take the profit from the buyback and repurchase TCS if you are bullish for the long term. The buyback ratio is...
+PFC           bare_caps_short   2021-03-18  comments     Dude irfc pe is around 8. REC and PFC is around 3. I think it'll go down more. Also, I bought it...
+AEROPLANE     bare_lower_long   2023-03-13  comments     ...government is not with oil companies ? weapon companies ? aeroplane companies ? Chinese government is not with their tech gian...
+ASIANPAINT    alias             2024-04-25  comments     ...erry pick for real some index weightage stocks I didn't say Asian paints in banknifty
+SBIN          alias             2026-02-04  comments     SBI is not a serious bank for holding serious money. Switch to...
+SHANTI        bare_lower_long   2024-12-26  comments     ...coming out of Indian politics, at least in my lifetime. Om Shanti.
+
+-- Timing --
+Submissions pass: 19.0s
+Comments pass:    118.3s
+Total:            137.3s
+

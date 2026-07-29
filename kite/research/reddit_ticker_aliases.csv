@@ -1,0 +1,264 @@
+# reddit_ticker_aliases.csv -- EXPLICIT alias table for build_reddit_mentions.py
+#
+# WHAT THIS FILE DOES
+# --------------------
+# Maps a human-written phrase (case-insensitive, whole-phrase match) to an
+# NSE symbol. This is the ONLY place fuzzy/human-knowledge mapping happens --
+# there is no stemming, no fuzzy string matching, no NLP anywhere else in the
+# pipeline. If a mapping isn't a row here (or covered by the deterministic
+# bare-token / cashtag rules in the script), it is not counted.
+#
+# WHEN AN ALIAS ROW IS ACTUALLY NEEDED (read this before adding more)
+# ---------------------------------------------------------------------
+# The script's bare-token rule already auto-matches a symbol's own spelling
+# as a single token: ALL-CAPS always, and lower/mixed-case too if the symbol
+# is >=6 characters. So e.g. "reliance", "hdfcbank", "paytm" all already
+# match with ZERO alias rows. An alias row is needed only when:
+#   [PHRASE]  the common name is MULTI-WORD (tokenizer only sees single
+#             tokens, so "tata motors" needs an explicit phrase even though
+#             "TATAMOTORS" the single token does not).
+#   [SHORT]   the symbol is <6 chars, so lowercase never auto-matches, AND
+#             the short lowercase form is genuinely common in casual text
+#             (e.g. "tcs", "sbi", "itc"). Skipped for <6-char symbols that
+#             are ALSO common English words -- those go on the stoplist
+#             instead (e.g. ACC, LT, CUB) and get phrase-only aliases.
+#   [SPECIAL-CHAR] the ticker contains '&' or '-' (M&M, BAJAJ-AUTO,
+#             NAM-INDIA, ARE&M), which breaks plain alnum tokenization.
+#   [STOPLISTED-SYMBOL] the symbol is on reddit_ticker_stoplist.csv -- this
+#             is its ONLY path to being counted at all.
+#   [LEGACY]  the symbol does not appear in the single "latest" bhavcopy file
+#             used to build the core universe (corporate action after that
+#             snapshot), but the SYMBOL STRING ITSELF was confirmed present
+#             as a real SYMBOL value in earlier files under
+#             data/bhavcopy_full/ -- so it still satisfies the hard rule
+#             that symbol names come only from the price panel's file
+#             listing, just not the single most-recent snapshot. Used
+#             sparingly, only for names with large confirmed corpus mention
+#             volume (TATAMOTORS: 649 raw hits in submissions alone).
+#   [LEGACY-RENAME] a clean 1:1 rename where the OLD name has no current
+#             ticker but the NEW ticker is a normal, present-day universe
+#             member (Zomato -> Eternal). Not flagged [LEGACY] since the
+#             target symbol (ETERNAL) is a completely ordinary current row.
+#   [FMT]     technically redundant with the auto-match rules above, but
+#             included anyway for reviewer-visible confirmation (either
+#             because the task spec explicitly named the pair, e.g. Paytm,
+#             or to make the space-separated variant of an already-covered
+#             single-token symbol explicit).
+#
+# DECIDED AGAINST (documented rejects, not rows -- reviewer may overrule):
+#   "vi" -> IDEA           2-character token. Even as a case-insensitive
+#                           alias phrase (not a bare-token match) this is
+#                           judged too collision-prone (Roman numeral VI,
+#                           random two-letter fragments/typos in a
+#                           1.3M-comment corpus). "vodafone idea" and
+#                           "vodafone" below cover deliberate mentions.
+#   "united spirits"/"mcdowell" -> ? Historical ticker MCDOWELL-N is absent
+#                           from the current bhavcopy listing and no
+#                           replacement symbol was confirmed within this
+#                           pass (unlike Tata Motors/LTIMindtree/SpiceJet,
+#                           whose historical presence and successor tickers
+#                           were directly verified against bhavcopy files).
+#                           Skipped rather than guess at an unverified
+#                           symbol; documented as a known coverage gap.
+#   "westside" -> TRENT     Trent's retail brand name, but too rare/ambiguous
+#                           a colloquialism to confirm without price/news
+#                           context this pipeline deliberately does not load.
+#
+# Columns: alias, symbol, rationale
+#
+alias,symbol,rationale
+tata motors,TATAMOTORS,"[LEGACY][PHRASE] Tata Motors demerged into TMCV (commercial vehicles) and TMPV (passenger vehicles) ~Jan-2026; TATAMOTORS absent from the 27-Jul-2026 bhavcopy used for the core universe but confirmed present as a normal EQ row in earlier files (e.g. 01-Apr-2024, 01-Oct-2025) covering ~99% of the corpus's date range. One of the most-discussed stocks in the archive (649 raw regex hits in submissions alone). Post-demerger mentions are NOT split between TMCV/TMPV -- all map to legacy TATAMOTORS regardless of date; documented limitation, not a trading signal."
+tatamotors,TATAMOTORS,"[LEGACY][FMT] unspaced variant of the row above."
+ltimindtree,LTIM,"[LEGACY][PHRASE] LTIM absent from the 27-Jul-2026 bhavcopy but confirmed present through at least the 02-Jan-2026 snapshot. Reason for the gap not independently confirmed within this pass (unlike Tata Motors' demerger); kept as legacy alias target given real corpus discussion volume (30 raw hits in submissions)."
+lti mindtree,LTIM,"[LEGACY][PHRASE] spaced variant."
+ltim,LTIM,"[LEGACY][SHORT] bare ticker form, needed since matching for this symbol runs entirely through the alias path (not the core-universe bare-token path)."
+l&t infotech,LTIM,"[LEGACY][SPECIAL-CHAR][PHRASE] pre-merger name (LTI merged with Mindtree Nov-2022 to form LTIMindtree)."
+spicejet,SPICEJET,"[LEGACY][FMT] absent from EQ listings in every recent bhavcopy sampled (last confirmed EQ row was several years back, consistent with the airline's well-known financial distress / trade-to-trade restrictions); confirmed present as a genuine historical SYMBOL value in 884 separate bhavcopy_full files. Real corpus discussion volume (63 raw hits in submissions), often distress/meme-adjacent ('SpiceJet to zero')."
+zomato,ETERNAL,"[LEGACY-RENAME][SHORT] Zomato Ltd renamed to Eternal Ltd in Jul-2024; ticker symbol changed from ZOMATO to ETERNAL. Clean 1:1 rename (unlike Tata Motors' split) -- ETERNAL is a completely ordinary current universe member. NOTE: post 50k-doc self-check, ETERNAL was ADDED to the stoplist (zipf 4.11, common word) -- see that file. This 'zomato' alias is therefore now the PRIMARY match path (not merely a convenience row), and covers the large majority of the corpus's Zomato-era history since it predates the rename. A bare 'eternal' alias was deliberately NOT added -- see the stoplist's ETERNAL row for why (same reasoning as SAIL)."
+paytm,PAYTM,"[FMT] redundant with the auto-lowercase bare-token match (6 chars); included per the task spec's explicit example."
+one97,PAYTM,"[SHORT] listed legal entity name (One97 Communications), occasionally used."
+vodafone idea,IDEA,"[STOPLISTED-SYMBOL][PHRASE] IDEA bare is stoplisted (collides with the English word 'idea'). Full merged-entity name is unambiguous."
+vodafone,IDEA,"[STOPLISTED-SYMBOL][SHORT][RISK] Vodafone Group plc is not itself NSE-listed, so 'vodafone' in an India-stocks subreddit overwhelmingly means Vodafone Idea. Kept, but flagged -- global Vodafone news could occasionally leak in. See header for the rejected 'vi' alias."
+hdfc bank,HDFCBANK,"[PHRASE] two-word common name; HDFCBANK itself already auto-matches lowercase (>=6 chars) but the tokenizer only sees single tokens, so the spaced phrase needs its own row."
+icici bank,ICICIBANK,"[PHRASE] same reasoning as hdfc bank."
+state bank,SBIN,"[PHRASE] common phrase for SBI."
+sbi,SBIN,"[SHORT] 3-char common initialism for State Bank of India, below the 6-char auto-lowercase threshold. Ambiguous vs. SBI Life/SBI Cards, but bare 'sbi' overwhelmingly means the parent bank in retail chat. Not stoplisted (not an English word)."
+sbi cards,SBICARD,"[PHRASE] disambiguates from bare 'sbi' -> SBIN above."
+sbi life,SBILIFE,"[PHRASE] disambiguates from bare 'sbi' -> SBIN above."
+l&t,LT,"[STOPLISTED-SYMBOL][SPECIAL-CHAR] LT is stoplisted (collides with 'LT' = long-term trading slang). '&' also breaks plain tokenization, so alias is the only path either way."
+larsen,LT,"[STOPLISTED-SYMBOL][SHORT] common shorthand for Larsen & Toubro."
+larsen and toubro,LT,"[STOPLISTED-SYMBOL][PHRASE] full name."
+larsen & toubro,LT,"[STOPLISTED-SYMBOL][SPECIAL-CHAR][PHRASE] full name with ampersand."
+hul,HINDUNILVR,"[SHORT] universal shorthand for Hindustan Unilever. Not an English word."
+hindustan unilever,HINDUNILVR,"[PHRASE] full name."
+axis bank,AXISBANK,"[PHRASE] two-word variant; AXISBANK itself already auto-matches lowercase."
+kotak bank,KOTAKBANK,"[PHRASE] two-word variant; KOTAKBANK itself already auto-matches lowercase."
+yes bank,YESBANK,"[PHRASE] 'yes' alone is far too common to ever alias; the full two-word phrase is safe (near-zero false-positive rate as a fixed unit)."
+bank of baroda,BANKBARODA,"[PHRASE] full name."
+punjab national bank,PNB,"[PHRASE] full name."
+pnb,PNB,"[SHORT] 3 chars, not an English word; explicit alias for the extremely common lowercase usage."
+canara bank,CANBK,"[PHRASE] full name; ticker CANBK doesn't spell 'canara' out."
+union bank,UNIONBANK,"[PHRASE] two-word variant; UNIONBANK itself already auto-matches lowercase."
+federal bank,FEDERALBNK,"[PHRASE] two-word variant."
+city union bank,CUB,"[STOPLISTED-SYMBOL][PHRASE] CUB is stoplisted (collides with 'cub' the baby-animal word). Full name captures deliberate mentions."
+idfc first,IDFCFIRSTB,"[PHRASE] common truncation of the full name."
+idfc first bank,IDFCFIRSTB,"[PHRASE] full name."
+indusind bank,INDUSINDBK,"[PHRASE] two-word variant."
+bandhan bank,BANDHANBNK,"[PHRASE] two-word variant."
+au bank,AUBANK,"[PHRASE] bare 'au' (2 chars, periodic-table gold symbol) is far too risky to ever alias; only the 'au bank' phrase is safe."
+bajaj finance,BAJFINANCE,"[PHRASE] full name; ticker drops the second 'a' in 'finance'."
+bajaj finserv,BAJAJFINSV,"[PHRASE] full name; ticker abbreviates 'finserv'."
+bajaj auto,BAJAJ-AUTO,"[SPECIAL-CHAR][PHRASE] ticker contains a literal hyphen (BAJAJ-AUTO); casual writers virtually always drop it, so this space-separated phrase is the reliable match path."
+muthoot finance,MUTHOOTFIN,"[PHRASE] full name."
+cholamandalam,CHOLAFIN,"[SHORT] common shorthand; ticker CHOLAFIN doesn't spell the parent name out."
+shriram finance,SHRIRAMFIN,"[PHRASE] full name."
+lic housing,LICHSGFIN,"[PHRASE] ticker bears no textual resemblance to the common name."
+pnb housing,PNBHOUSING,"[PHRASE] two-word variant."
+lic,LICI,"[SHORT][RISK] 'LIC' (Life Insurance Corporation) is extremely commonly discussed in India as a generic policy/institution, independent of the listed stock -- meaningful false-positive rate expected. Kept because deliberate stock mentions ('LIC stock', 'buy LIC') are also common; reviewer should scrutinise this one closely in the precision sample."
+hdfc life,HDFCLIFE,"[PHRASE] two-word variant."
+icici pru life,ICICIPRULI,"[PHRASE] common shorthand; ticker doesn't spell 'pru'/'life' out."
+icici lombard,ICICIGI,"[PHRASE] ticker ICICIGI (general insurance) bears no resemblance to the common name."
+star health,STARHEALTH,"[PHRASE] bare STAR is a different, stoplisted symbol (unrelated small-cap) -- the full brand name is the only safe path to this one."
+angel one,ANGELONE,"[PHRASE] two-word variant; ANGELONE itself already auto-matches lowercase."
+5paisa,5PAISA,"[FMT] leading digit; ticker already is the common name, included for clarity."
+motilal oswal,MOTILALOFS,"[PHRASE] full name; ticker doesn't spell 'oswal' out."
+iifl,IIFL,"[SHORT] not an English word, low risk."
+tcs,TCS,"[SHORT] 3 chars, below the auto-lowercase threshold. Extremely common lowercase usage; not an English word."
+tata consultancy,TCS,"[PHRASE] full name."
+infosys,INFY,"[SHORT] ticker (INFY) differs from the common name; explicit alias for the full name."
+infy,INFY,"[SHORT] 4 chars, below the auto-lowercase threshold; explicit alias for the common short form."
+hcl tech,HCLTECH,"[PHRASE] two-word variant."
+hcltech,HCLTECH,"[FMT] redundant with the auto-lowercase match (7 chars); included for reviewer clarity."
+tech mahindra,TECHM,"[PHRASE] ticker TECHM doesn't spell 'mahindra' out."
+persistent systems,PERSISTENT,"[STOPLISTED-SYMBOL][PHRASE] PERSISTENT was added to the stoplist post self-check (zipf 3.90, common adjective) -- this full-name phrase is now the PRIMARY match path, not a convenience row."
+mphasis,MPHASIS,"[FMT] redundant with the auto-lowercase match; included for clarity."
+coforge,COFORGE,"[FMT] redundant with the auto-lowercase match (formerly NIIT Technologies pre-rename); included for clarity."
+maruti suzuki,MARUTI,"[PHRASE] full name."
+maruti,MARUTI,"[FMT] redundant with the auto-lowercase match; included for clarity."
+mahindra,M&M,"[SPECIAL-CHAR][SHORT][RISK] ticker is 'M&M' (ampersand breaks tokenization). 'mahindra' alone is somewhat ambiguous -- Mahindra Lifespace / Mahindra Holidays / Tech Mahindra / Mahindra CIE all exist -- but the flagship M&M dominates casual usage. Reviewer should watch this one."
+mahindra and mahindra,M&M,"[SPECIAL-CHAR][PHRASE] full name, unambiguous."
+mahindra & mahindra,M&M,"[SPECIAL-CHAR][PHRASE] full name with ampersand."
+m&m,M&M,"[SPECIAL-CHAR][FMT] exact ticker spelling; needed because tokenization splits on '&'."
+eicher motors,EICHERMOT,"[PHRASE] full name."
+royal enfield,EICHERMOT,"[PHRASE] Eicher Motors' flagship motorcycle brand; very commonly used as the company's colloquial name in retail chat."
+tvs motor,TVSMOTOR,"[PHRASE] two-word variant."
+hero motocorp,HEROMOTOCO,"[PHRASE] two-word variant."
+ashok leyland,ASHOKLEY,"[PHRASE] full name."
+bharat forge,BHARATFORG,"[PHRASE] full name."
+motherson,MOTHERSON,"[FMT] redundant with the auto-lowercase match (Samvardhana Motherson International); included for clarity."
+bosch,BOSCHLTD,"[SHORT] ticker is BOSCHLTD; 'bosch' alone is the common brand/company name."
+exide,EXIDEIND,"[SHORT] ticker is EXIDEIND; 'exide' alone is the common brand name."
+apollo tyres,APOLLOTYRE,"[PHRASE] two-word variant."
+balkrishna industries,BALKRISIND,"[PHRASE] full name."
+bkt tyres,BALKRISIND,"[PHRASE] common brand shorthand (BKT)."
+sun pharma,SUNPHARMA,"[PHRASE] two-word variant."
+dr reddy,DRREDDY,"[PHRASE] common shorthand."
+dr reddys,DRREDDY,"[PHRASE] possessive variant."
+cipla,CIPLA,"[FMT] redundant with the auto-lowercase match; included for clarity."
+divis lab,DIVISLAB,"[PHRASE] common shorthand for the full name."
+divis,DIVISLAB,"[SHORT][RISK] 'divis' is also common Indian/UK retail-investor slang for 'dividends' (""when's the divis coming""). DIVISLAB itself (8 chars) already auto-matches lowercase, but 'divis' is a distinct short truncation, added specifically because that is exactly where the slang collision lives. Reviewer should check the precision sample closely for this one."
+aurobindo,AUROPHARMA,"[SHORT] ticker is AUROPHARMA; common name is the shorter 'Aurobindo'."
+torrent pharma,TORNTPHARM,"[PHRASE] full name; ticker drops vowels."
+zydus,ZYDUSLIFE,"[SHORT] ticker is ZYDUSLIFE; common name is 'Zydus' alone."
+laurus labs,LAURUSLABS,"[FMT] redundant with the auto-lowercase match; included for clarity."
+apollo hospitals,APOLLOHOSP,"[PHRASE] full name."
+alkem labs,ALKEM,"[PHRASE] common shorthand."
+ipca labs,IPCALAB,"[PHRASE] common shorthand."
+asian paints,ASIANPAINT,"[PHRASE] two-word variant."
+britannia,BRITANNIA,"[FMT] redundant with the auto-lowercase match; included for clarity."
+nestle,NESTLEIND,"[SHORT] ticker is NESTLEIND; common name is 'Nestle' alone."
+godrej consumer,GODREJCP,"[PHRASE] full name; ticker abbreviates 'consumer products'."
+colgate,COLPAL,"[SHORT] ticker is COLPAL (Colgate-Palmolive); common name is 'Colgate' alone."
+varun beverages,VBL,"[PHRASE] ticker VBL is an initialism of the full name."
+ril,RELIANCE,"[SHORT] extremely common 3-letter market shorthand for Reliance Industries Ltd. Not an English word."
+reliance industries,RELIANCE,"[PHRASE] full name; RELIANCE itself already auto-matches lowercase but the multi-word phrase needs its own row."
+wipro,WIPRO,"[SHORT] 5 chars, below the auto-lowercase threshold. Not an English word."
+itc,ITC,"[SHORT] 3 chars, below the auto-lowercase threshold. Extremely common lowercase ticker usage; negligible collision risk in this context."
+ntpc,NTPC,"[SHORT] 4 chars, below the auto-lowercase threshold."
+ongc,ONGC,"[SHORT] 4 chars, below the auto-lowercase threshold."
+power grid,POWERGRID,"[PHRASE] two-word variant."
+coal india,COALINDIA,"[PHRASE] two-word variant."
+bpcl,BPCL,"[SHORT] 4 chars, below the auto-lowercase threshold."
+hpcl,HINDPETRO,"[SHORT][RISK] common short name 'HPCL' maps to ticker HINDPETRO, which bears no textual resemblance -- this mapping cannot be discovered by any bare-token rule at all, alias is essential."
+hindustan petroleum,HINDPETRO,"[PHRASE] full name."
+indian oil,IOC,"[PHRASE] common full name for Indian Oil Corporation."
+ioc,IOC,"[SHORT] 3 chars, below the auto-lowercase threshold. Minor ambiguity with 'IOC' = International Olympic Committee in general English; negligible risk on a finance subreddit."
+gail india,GAIL,"[STOPLISTED-SYMBOL][PHRASE] GAIL is stoplisted (collides with the given name 'Gail'). Full company name is unambiguous."
+gas authority,GAIL,"[STOPLISTED-SYMBOL][PHRASE] GAIL India Ltd = Gas Authority of India Ltd, occasionally spelled out."
+dlf,DLF,"[SHORT] 3 chars, below the auto-lowercase threshold. Not an English word."
+mrf,MRF,"[SHORT] 3 chars, below the auto-lowercase threshold. Not an English word."
+srf,SRF,"[SHORT] 3 chars, below the auto-lowercase threshold. Not an English word."
+upl,UPL,"[SHORT] 3 chars, below the auto-lowercase threshold. Not an English word."
+nmdc,NMDC,"[SHORT] 4 chars, below the auto-lowercase threshold."
+concor,CONCOR,"[FMT] redundant with the auto-lowercase match (6 chars); included for clarity."
+irfc,IRFC,"[SHORT] 4 chars, below the auto-lowercase threshold."
+ireda,IREDA,"[SHORT] 5 chars, below the auto-lowercase threshold."
+rvnl,RVNL,"[SHORT] 4 chars, below the auto-lowercase threshold."
+nhpc,NHPC,"[SHORT] 4 chars, below the auto-lowercase threshold."
+sjvn,SJVN,"[SHORT] 4 chars, below the auto-lowercase threshold."
+vedanta,VEDL,"[SHORT] ticker is VEDL; common name is 'Vedanta' (Vedanta Resources / Vedanta Ltd)."
+hindustan zinc,HINDZINC,"[PHRASE] two-word variant; HINDZINC itself already auto-matches lowercase."
+nalco,NATIONALUM,"[SHORT] ticker is NATIONALUM (National Aluminium Co); common short name is 'Nalco'."
+hindustan aeronautics,HAL,"[PHRASE] full name; HAL bare is 3 chars so only the ALL-CAPS form auto-matches -- this phrase adds lowercase/mixed-case recall without aliasing the bare (not stoplisted, but short) ticker itself."
+bharat electronics,BEL,"[PHRASE] same reasoning as hindustan aeronautics above."
+bharat heavy electricals,BHEL,"[PHRASE] full name; adds lowercase recall for the food-homophone-risk ticker (see stoplist header) without aliasing bare 'bhel'."
+ultratech,ULTRACEMCO,"[SHORT] ticker is ULTRACEMCO; common short name is 'Ultratech'."
+ambuja cement,AMBUJACEM,"[PHRASE] two-word variant; AMBUJACEM itself already auto-matches lowercase."
+shree cement,SHREECEM,"[PHRASE] two-word variant."
+dalmia bharat,DALBHARAT,"[PHRASE] full name."
+jk cement,JKCEMENT,"[PHRASE] two-word variant."
+ramco cements,RAMCOCEM,"[PHRASE] full name."
+acc cement,ACC,"[STOPLISTED-SYMBOL][PHRASE] ACC is stoplisted (collides with 'account' abbreviation). Full name is unambiguous."
+acc limited,ACC,"[STOPLISTED-SYMBOL][PHRASE] alternate full-name form."
+bse ltd,BSE,"[STOPLISTED-SYMBOL][PHRASE][LOW-RECALL] BSE is stoplisted (bare 'BSE' overwhelmingly means the exchange/index). Almost nobody writes 'BSE Ltd' colloquially -- this alias will rarely fire; documented recall loss, kept for completeness."
+bse limited,BSE,"[STOPLISTED-SYMBOL][PHRASE][LOW-RECALL] alternate full-name form, same caveat as above."
+cams ltd,CAMS,"[STOPLISTED-SYMBOL][PHRASE][LOW-RECALL] no good short colloquial alternative exists for CAMS -- the bare word is exactly the collision problem. This phrase will rarely fire; documented recall loss."
+steel authority,SAIL,"[STOPLISTED-SYMBOL][PHRASE][LOW-RECALL] SAIL is stoplisted (extremely common English word/verb). Deliberately NOT given a bare-word alias -- that would recreate the exact collision the stoplist exists to prevent. This phrase will rarely fire; SAIL mentions are known to be substantially undercounted."
+mcx ltd,MCX,"[STOPLISTED-SYMBOL][PHRASE][LOW-RECALL] MCX is stoplisted (bare 'MCX' overwhelmingly means the commodity exchange itself). Rarely-fired completeness alias, same caveat as BSE."
+fusion micro finance,FUSION,"[STOPLISTED-SYMBOL][PHRASE] full name for the stoplisted small-cap."
+astral pipes,ASTRAL,"[STOPLISTED-SYMBOL][PHRASE] common brand-plus-product name."
+astral ltd,ASTRAL,"[STOPLISTED-SYMBOL][PHRASE] alternate full-name form."
+sis ltd,SIS,"[STOPLISTED-SYMBOL][PHRASE] SIS is stoplisted (collides with 'sis' = sister slang)."
+security and intelligence services,SIS,"[STOPLISTED-SYMBOL][PHRASE] full legal name."
+action construction,ACE,"[STOPLISTED-SYMBOL][PHRASE] ACE is stoplisted (common English word)."
+rain industries,RAIN,"[STOPLISTED-SYMBOL][PHRASE] RAIN is stoplisted (weather word)."
+irb infra,IRB,"[STOPLISTED-SYMBOL][PHRASE] IRB is stoplisted (collides with Institutional Review Board etc). Full name is unambiguous."
+irb infrastructure,IRB,"[STOPLISTED-SYMBOL][PHRASE] full-name variant."
+dixon technologies,DIXON,"[STOPLISTED-SYMBOL][PHRASE] DIXON is stoplisted (common surname). Full name is unambiguous."
+trident group,TRIDENT,"[STOPLISTED-SYMBOL][PHRASE] TRIDENT is stoplisted (common English word). Full name is still somewhat generic but company-specific enough to be usable."
+trident ltd,TRIDENT,"[STOPLISTED-SYMBOL][PHRASE] alternate full-name form."
+trent ltd,TRENT,"[STOPLISTED-SYMBOL][PHRASE] TRENT is stoplisted (river/surname collision). Tata's fashion retail arm; the full-name phrase is the safer path."
+indigo airlines,INDIGO,"[STOPLISTED-SYMBOL][PHRASE] INDIGO is stoplisted (collides with the colour word). Full brand name is unambiguous."
+interglobe aviation,INDIGO,"[STOPLISTED-SYMBOL][PHRASE] listed legal entity name."
+interglobe,INDIGO,"[STOPLISTED-SYMBOL][SHORT] shorthand for the legal entity name."
+zee entertainment,ZEEL,"[PHRASE] full name."
+zee,ZEEL,"[SHORT][RISK] 'zee' is the common American pronunciation of the letter Z, frequently used in casual/meme text. Moderate collision risk -- kept because it is the dominant colloquial name for the stock in Indian retail chat, but flagged for the precision sample."
+pvr,PVRINOX,"[SHORT] pre-merger legacy brand name (PVR Cinemas), still commonly used post-merger. Current ticker is PVRINOX."
+pvr inox,PVRINOX,"[PHRASE] current full name."
+titan company,TITAN,"[PHRASE][RISK] TITAN is NOT stoplisted (see stoplist header for the full reasoning) despite 'titan' being a fairly common English superlative/mythology word -- kept because Titan Company is one of the most heavily-discussed large-caps in the archive, and TITAN (5 chars) only auto-matches in the case-sensitive ALL-CAPS form, which substantially limits the risk. This row adds the full-name phrase as a safer supplementary path. Single highest-priority 'watch' item for the precision sample."
+adani enterprises,ADANIENT,"[PHRASE] full name; bare 'adani' deliberately has no alias (see below)."
+adani ports,ADANIPORTS,"[PHRASE] full name."
+adani power,ADANIPOWER,"[PHRASE] full name."
+adani green,ADANIGREEN,"[PHRASE] full name."
+adani total gas,ATGL,"[PHRASE] full name; ticker ATGL is an initialism."
+adani gas,ATGL,"[PHRASE] short variant of the row above."
+adani wilmar,AWL,"[PHRASE] full name; ticker AWL is an initialism."
+godrej properties,GODREJPROP,"[PHRASE] full name."
+oberoi realty,OBEROIRLTY,"[PHRASE] full name."
+prestige estates,PRESTIGE,"[STOPLISTED-SYMBOL][PHRASE] PRESTIGE was added to the stoplist post self-check (zipf 3.75, common word) -- this full-name phrase is now the PRIMARY match path, not a convenience row."
+macrotech,LODHA,"[SHORT] listed legal entity name (Macrotech Developers); trades under LODHA, the founding family's brand."
+lodha,LODHA,"[FMT] redundant with the auto-lowercase match; included for clarity."
+phoenix mills,PHOENIXLTD,"[PHRASE] full name; ticker adds 'LTD'."
+dmart,DMART,"[SHORT] 5 chars, below the auto-lowercase threshold. Avenue Supermarts' well-known retail brand, same spelling as the ticker."
+avenue supermarts,DMART,"[PHRASE] listed legal entity name."
+raymond group,RAYMOND,"[STOPLISTED-SYMBOL][PHRASE] RAYMOND is stoplisted post self-check (zipf 3.98, common surname). Full-name phrase for partial recall."
+raymond ltd,RAYMOND,"[STOPLISTED-SYMBOL][PHRASE] alternate full-name form."
+mankind pharma,MANKIND,"[STOPLISTED-SYMBOL][PHRASE] MANKIND is stoplisted post self-check (zipf 3.88, common word). Full-name phrase for partial recall."
+brigade enterprises,BRIGADE,"[STOPLISTED-SYMBOL][PHRASE] BRIGADE is stoplisted post self-check (zipf 3.90, common word). Full-name phrase for partial recall."
+gabriel india,GABRIEL,"[STOPLISTED-SYMBOL][PHRASE] GABRIEL is stoplisted post self-check (zipf 3.92, common given name). Full-name phrase for partial recall."
+safari industries,SAFARI,"[STOPLISTED-SYMBOL][PHRASE] SAFARI is stoplisted post self-check (zipf 3.63, common word / browser-name collision). Full-name phrase for partial recall."
+nucleus software,NUCLEUS,"[STOPLISTED-SYMBOL][PHRASE] NUCLEUS is stoplisted post self-check (zipf 3.59, common science word). Full-name phrase for partial recall."
+metropolis healthcare,METROPOLIS,"[STOPLISTED-SYMBOL][PHRASE] METROPOLIS is stoplisted post self-check (zipf 3.57, common word). Full-name phrase for partial recall."
+intellect design,INTELLECT,"[STOPLISTED-SYMBOL][PHRASE] INTELLECT is stoplisted post self-check (zipf 3.49, common word). Full-name phrase for partial recall."
+stanley lifestyles,STANLEY,"[STOPLISTED-SYMBOL][PHRASE][RISK] STANLEY is stoplisted post self-check (zipf 4.19, common surname/brand). Company identity (Stanley Lifestyles, a 2024 furniture-sector IPO) not independently re-confirmed within this pass -- low-confidence phrase, kept because the cost of a rarely-firing wrong alias is negligible."
+schneider electric,SCHNEIDER,"[STOPLISTED-SYMBOL][PHRASE][RISK] SCHNEIDER is stoplisted post self-check (zipf 3.50, common surname). Company identity not independently re-confirmed within this pass -- low-confidence phrase, kept because the cost of a rarely-firing wrong alias is negligible."

@@ -1,0 +1,213 @@
+# reddit_ticker_stoplist.csv -- symbols EXCLUDED from bare-token matching
+# Used by: build_reddit_mentions.py
+#
+# WHAT THIS FILE DOES
+# --------------------
+# Every symbol listed here is a real NSE EQ ticker (confirmed present in the
+# core universe read from the latest data/bhavcopy_full/*.csv file) that is
+# ALSO a common English word, a common finance/chat abbreviation, or a common
+# proper noun/brand -- meaning bare-token regex matching (both the
+# case-sensitive ALL-CAPS rule and the case-insensitive >=6-char rule) would
+# generate a meaningful false-positive rate against ordinary Reddit prose.
+#
+# A stoplisted symbol NEVER matches via the bare-token path, in either case
+# form. It can ONLY be counted if a phrase from reddit_ticker_aliases.csv
+# matches (see that file's rows tagged [STOPLISTED-SYMBOL]), or via an
+# explicit $CASHTAG / NSE:SYMBOL form (those two forms are considered
+# self-disambiguating regardless of stoplist status -- nobody writes "$idea"
+# to mean the common noun).
+#
+# CONSEQUENCE, STATED LOUDLY: for symbols with no good short colloquial alias
+# (SAIL, BSE, MCX, CAMS in particular), this trades recall for precision on
+# purpose -- true mentions written as the bare word ("SAIL is rallying") are
+# undercounted. That is the intended, documented behaviour, not a bug.
+#
+# METHODOLOGY UPDATE (post 50k-doc self-check)
+# ---------------------------------------------
+# The first 27 rows below (ACC through VALUE) were hand-picked from the task
+# spec's examples plus manual review. A 50k-doc self-check run (per the task's
+# own required step) then showed a SECOND, larger failure mode: several of
+# the top-30 symbols by raw mention count were common English words that
+# happen to be real EQ tickers for small NSE-listed companies (or, in a few
+# cases, sector/thematic index-tracking products that still trade under
+# SERIES=EQ) -- e.g. RETAIL, ENERGY, MOMENTUM, DIVIDEND, WEALTH, DEFENCE,
+# CONSUMER, LIQUID, INTERNET, IT all appeared in the top 30 of a 2k-doc dry
+# run for exactly this reason, none of them a genuine stock mention.
+#
+# To close this systematically rather than by memory alone, every one of the
+# 2,408 EQ symbols was checked against two independent English-word signals:
+#   1. Membership in the `english-words` package's web2 dictionary
+#      (~236k words) -- 166 of 2,408 symbols matched.
+#   2. `wordfreq.zipf_frequency(symbol.lower(), 'en')` -- a corpus-frequency
+#      score (~7 = extremely common word like "the", ~5 = common everyday
+#      word like "idea", ~3 = moderately rare, 0 = effectively unseen).
+# Every dictionary match was then triaged by hand using the zipf score as the
+# primary signal, applying a LOWER bar for symbols >=6 characters (they also
+# carry the case-insensitive bare-token risk, not just the ALL-CAPS one) and
+# a HIGHER bar for symbols <6 characters (already partly protected by the
+# case-sensitive-caps-only rule). A handful of explicit judgment-call
+# exceptions were made in both directions -- see the rows and the "considered
+# and not stoplisted" section below for the reasoning on each.
+#
+# CANDIDATES CONSIDERED AND DELIBERATELY *NOT* STOPLISTED (reviewer may
+# overrule by adding any of these as a row above):
+#   CDSL   -- not an English word, low collision risk. Explicitly confirmed
+#             fine per the task spec.
+#   HAL, BEL -- 3-letter tickers (Hindustan Aeronautics, Bharat Electronics).
+#             Not common standalone English words (HAL is mainly known as the
+#             2001: A Space Odyssey AI, BEL isn't a word at all outside
+#             fragments like "decibel"). Kept bare-token eligible (caps-only,
+#             since both are <6 chars); lowercase recall added via phrase
+#             aliases ('hindustan aeronautics', 'bharat electronics') instead
+#             of aliasing the bare 3-letter forms.
+#   BHEL   -- 4-letter ticker that is also short for "bhel puri", a common
+#             Indian snack. Real collision, but the existing case-sensitive
+#             ALL-CAPS-only rule for <6-char symbols already does most of the
+#             protective work here (nobody writes "BHEL" in caps to mean the
+#             snack); the caps form is judged safe enough to keep bare-token
+#             eligible rather than stoplisted. Watch in the precision sample.
+#   ITI    -- Indian Telephone Industries / also "Industrial Training
+#             Institute" as a generic term, but not common casual-chat
+#             vocabulary. Kept bare-token eligible.
+#   IEX    -- Indian Energy Exchange. Explicitly flagged with a "?" in the
+#             task spec. Possible collisions: IEX Group (a well-known US
+#             stock exchange) and, far less likely on a finance subreddit,
+#             the Elixir language's interactive shell. Kept bare-token
+#             eligible (judged real IEX-India discussion outweighs the risk);
+#             flagged for the precision sample.
+#   TITAN  -- Common English superlative/mythology word ("an absolute
+#             TITAN"), but one of the most heavily-discussed large-caps in
+#             the archive (Titan Company). TITAN is 5 chars, so only the
+#             case-sensitive ALL-CAPS bare form auto-matches (no lowercase
+#             leak) -- kept bare-token eligible on that basis. Flagged as the
+#             single highest-priority "watch" item for the precision sample;
+#             move to the stoplist in a future pass if false positives run
+#             high.
+#   ZEEL   -- ticker itself (ZEEL) is not an English word and is not
+#             stoplisted. The colloquial alias 'zee' (added in the aliases
+#             file) is the risky part -- see that file's rationale, not this
+#             one, since 'zee' is an alias phrase, not the bare ticker.
+#   VEDL, DIVISLAB -- not English words, low bare-token risk. ('divis', the
+#             short colloquial form that DOES collide with dividend slang, is
+#             handled as a flagged alias row, not a bare-token concern, since
+#             DIVISLAB itself is 8 chars and spelled nothing like "divis".)
+#   RELIANCE (zipf 3.81, len 8) -- dictionary-scan flagged this (the noun
+#             "reliance" = dependence). EXPLICIT OVERRIDE: kept off the
+#             stoplist despite a moderate zipf score because (a) it is very
+#             plausibly THE single most-discussed stock in the entire
+#             archive (Reliance Industries) and (b) "reliance" the noun is
+#             judged formal/literary rather than casual-chat vocabulary --
+#             people don't casually type "I have reliance on X" the way they
+#             casually type "just an idea" or "total loss". Flagged as a
+#             precision-sample watch item; revisit if false positives run
+#             high in practice.
+#   FORTIS (zipf 2.49, len 6) -- dictionary-scan flagged this (Fortis
+#             Healthcare). Zipf score is low enough that it did not clear
+#             even the lenient >=6-char bar; kept bare-token eligible.
+#   BRITANNIA (zipf 3.18, len 9) -- flagged, but zipf below the applied
+#             threshold; kept bare-token eligible.
+#   PRAKASH, RUPA, AARON, ELLEN, GAEL, EMIL, AYE, IRIS, NILE, FLAIR --
+#             dictionary/name matches with either low zipf or judged low
+#             realistic collision rate in this specific corpus; left off the
+#             stoplist for scope control. PRAKASH in particular is a very
+#             common Indian given name (real risk) but was not confirmed to
+#             correspond to a heavily-discussed stock, so the cost of
+#             leaving it bare-token eligible was judged low relative to the
+#             review effort of chasing every long-tail case to zero.
+#
+# Columns: symbol, why
+#
+symbol,why
+ACC,"Common finance/chat abbreviation for 'account' (""check your ACC balance""). Also a cement major, so real collisions exist too, but the account-balance sense dominates casual trading chat. Alias-only via 'acc cement' / 'acc limited'."
+ACE,"Plain English word (playing card / superlative, 'you're an ace'). Small-cap (Action Construction Equipment); low cost to exclude."
+ASTRAL,"Plain English word (astral projection/plane). Mid-cap pipes maker; real but secondary discussion volume relative to the collision risk."
+BSE,"Almost always used generically for the exchange/index itself (""BSE Sensex"", ""check BSE""), not the listed BSE Ltd share. Alias-only via 'bse ltd' -- documented as low-recall, most genuine mentions are simply uncountable by this pipeline."
+CAMS,"Plain English word/slang ('cams' = webcams in casual internet usage; also camshafts). Explicitly flagged in the task spec. Alias-only via 'cams ltd' -- also low-recall for the same reason as BSE (no good short safe alias exists)."
+CREST,"Plain English word (wave crest, toothpaste brand, heraldic crest). Small-cap; low cost to exclude."
+CUB,"Plain English word (baby animal). City Union Bank; alias-only via 'city union bank'."
+DIXON,"Common English surname (Dixon Ticonderoga, generic 'Dixon' as a person's name). Explicitly flagged in the task spec. Alias-only via 'dixon technologies'."
+FACT,"Extremely common English word, frequently capitalised for emphasis in casual writing (""FACT:""). Fertilizers and Chemicals Travancore; low relative discussion volume vs. collision risk."
+FUSION,"Plain English word (nuclear fusion, fusion cuisine/music). Small-cap (Fusion Micro Finance); alias-only via 'fusion micro finance'."
+GAIL,"Common English given name (Gail) plus a plausible typo of 'gale'. Explicitly flagged in the task spec. Alias-only via 'gail india' / 'gas authority'."
+GLOBAL,"Extremely common, generic English word. Small-cap by volume in the sampled bhavcopy row; low cost to exclude, no safe short alias identified."
+IDEA,"The single most common English noun on this list. Explicitly flagged in the task spec (Vodafone Idea). Alias-only via 'vodafone idea' / 'vodafone' -- see aliases file for the 'vi' exclusion rationale."
+INDIGO,"Common colour word. Also the airline's popular brand name, which is exactly the ambiguity problem -- 'indigo' the colour vs. IndiGo the airline are indistinguishable as a bare token. Alias-only via 'indigo airlines' / 'interglobe aviation' / 'interglobe'."
+IRB,"Common English/legal/academic abbreviation (Institutional Review Board, Internal Revenue Bureau, International Rugby Board). Explicitly flagged in the task spec. Alias-only via 'irb infra' / 'irb infrastructure'."
+LT,"Extremely common trading-chat abbreviation for 'long term' (""buying for LT"", ""LT hold"") -- this specific collision is expected to be large in a retail trading subreddit. Alias-only via 'l&t' / 'larsen' / 'larsen and toubro' / 'larsen & toubro'."
+MCX,"Almost always used generically for the commodity exchange itself (""check MCX gold price""), not the listed MCX share -- same failure mode as BSE. Alias-only via 'mcx ltd' -- documented as low-recall."
+RACE,"Common English word. Small-cap by volume; low cost to exclude, no safe short alias identified."
+RAIN,"Extremely common English word (weather). Small-cap (Rain Industries); alias-only via 'rain industries'."
+SAIL,"Extremely common English word/verb (to sail; also 'sailing through' as a trading metaphor). Large, heavily-discussed PSU (Steel Authority of India), but the collision risk is judged to dominate. Deliberately NOT given a bare-word alias either (that would just recreate the same collision through a different mechanism) -- alias-only via 'steel authority', which will rarely fire. SAIL mentions are known to be substantially undercounted by this pipeline; documented, not fixed, in Phase 0."
+SILVER,"The precious metal is a constant topic of conversation on a retail trading subreddit, independent of this specific small-cap company's stock. Very high expected collision rate; no safe short alias identified."
+SIS,"Extremely common chat/slang abbreviation ('sis' = sister). Small-cap (SIS Ltd, Security and Intelligence Services); alias-only via 'sis ltd' / 'security and intelligence services'."
+STAR,"Common English word (star rating, star performer, celebrity). Alias-only via 'star health' (STARHEALTH is itself a separate, non-stoplisted symbol -- see aliases file; bare STAR maps to a different, smaller company and is excluded entirely, no alias provided for it)."
+TECH,"Extremely common English word/abbreviation. Small-cap by volume; low cost to exclude, no safe short alias identified."
+TRENT,"Common English proper noun (river Trent, common surname/given name) independent of the 'Trent Ltd' retail company. Alias-only via 'trent ltd'."
+TRIDENT,"Common English word (the weapon/Poseidon's trident; also a chewing-gum brand). Explicitly flagged in the task spec. Alias-only via 'trident group' / 'trident ltd'."
+VALUE,"Extremely common English word, and especially dangerous on a finance subreddit specifically because 'value investing' / 'value stock' is itself a common trading topic unrelated to this particular small-cap ticker. No safe short alias identified."
+IT,"Extremely common short word / abbreviation (the pronoun 'it', and also the generic 'IT sector' abbreviation itself). Directly observed as a top-30 false-positive source in the 2k-doc dry run (""Pretty much all IT stocks rallying""). Ticker is very plausibly a sectoral IT index/ETF product, not a single company."
+TAKE,"Common English verb, zipf 5.92 -- one of the highest scores on this list. No safe short alias identified."
+OIL,"Extremely common commodity/finance word (""oil prices"", crude oil talk). No safe short alias identified; 'indian oil' / 'ioc' are handled as a SEPARATE, unrelated symbol (IOC) and do not apply here."
+CLEAN,"Common English adjective (zipf 4.97). No safe short alias identified."
+BANG,"Common English exclamation/word (zipf 4.32). No safe short alias identified."
+ALPHA,"Finance-jargon collision, not just a general English word: 'generating alpha' / 'seeking alpha' is core trading vocabulary on a subreddit exactly like this one. High risk despite being <6 chars."
+BETA,"Finance-jargon collision: 'high-beta stock' is extremely common trading vocabulary. High risk despite being <6 chars, for the same reason as ALPHA."
+PAR,"Common English word (""trading at par"", ""par for the course""). No safe short alias identified."
+TIL,"Reddit-specific meta-abbreviation (""Today I Learned""), extremely common as a post-title prefix across Reddit generally. Also a plain English/Hindi word ('till', 'til' = sesame). No safe short alias identified."
+DEN,"Common English word (""den of thieves"", ""fox's den""). No safe short alias identified."
+AMBER,"Zipf 3.97 -- moderately common word (color/gem). Amber Enterprises is a real mid-cap but the collision risk was judged to dominate; no safe short alias identified."
+TI,"2-character token -- inherently high collision risk regardless of dictionary status (stray abbreviations, initials, typos). Excluded on length grounds as much as the zipf score (3.85)."
+SHAH,"Extremely common Indian surname/given name -- high realistic collision risk given the user base. No safe short alias identified."
+APEX,"Common English word (""apex predator"", ""apex court""). Zipf 3.71; judged to clear the bar given the word's frequent use as a generic superlative. No safe short alias identified."
+SIGMA,"Explicit override: zipf (3.51) alone would sit near the borderline, but 'sigma' is currently extremely common as internet/youth slang (""sigma male"" etc., 2023-2026 meme cycle) on top of its statistics/Greek-letter senses -- judged high real-world risk despite being <6 chars. No safe short alias identified."
+ENERGY,"Zipf 5.23 -- extremely common sector/topic word. Directly observed as a top-30 false-positive source in the 2k-doc dry run."
+HEALTHY,"Zipf 4.80 -- extremely common adjective."
+SUPREME,"Zipf 4.69 -- common superlative and 'Supreme Court' collision. Note: distinct from SUPREMEIND (Supreme Industries), which is a different, longer, non-stoplisted symbol."
+ADVANCE,"Zipf 4.65 -- common word, also common finance-chat usage (""advance tax"", ""advance/decline ratio""). Directly observed as a top-30 false-positive source in the 2k-doc dry run."
+INCREDIBLE,"Zipf 4.63 -- very common superlative, frequently capitalised for emphasis."
+DOLLAR,"Zipf 4.59 -- currency word, extremely common in any finance discussion (USD/INR chat) unrelated to this specific ticker."
+CHEMICAL,"Zipf 4.57 -- common sector-generic word (""chemical sector stocks"")."
+CONSUMER,"Zipf 4.56 -- common sector-generic word (""consumer stocks""). Directly observed as a top-30 false-positive source in the 2k-doc dry run."
+RETAIL,"Zipf 4.55 -- extremely common word on a RETAIL-trading subreddit specifically (""retail investors"", ""retail participation""). Directly observed as a top-30 false-positive source in the 2k-doc dry run."
+MARINE,"Zipf 4.53 -- common word (military/ocean sense)."
+WEALTH,"Zipf 4.51 -- common finance word (""wealth manager"", ""generational wealth""). Directly observed as a top-30 false-positive source in the 2k-doc dry run."
+DEFENCE,"Zipf 4.51 -- common sector-generic word, and defence-sector news/politics is a frequent generic topic. Directly observed as a top-30 false-positive source in the 2k-doc dry run."
+CAMPUS,"Zipf 4.51 -- common word given the userbase skews toward students/early-career (""campus placements"")."
+LIQUID,"Zipf 4.39 -- common finance word (""liquid fund"", ""liquid cash""); the sampled bhavcopy row (price ~1000, flat) is itself consistent with a money-market/liquid-fund product rather than an operating company."
+RELIABLE,"Zipf 4.29 -- common adjective. Directly observed as a false positive in the 2k-doc dry run (""Someone Reliable with low charges"")."
+CELEBRITY,"Zipf 4.29 -- common word."
+SPECTRUM,"Zipf 4.26 -- common word, and telecom-spectrum news (Vodafone Idea AGR/spectrum stories) is a frequent, unrelated topic on this exact subreddit."
+SIGNATURE,"Zipf 4.25 -- common word (""signature style"", digital signatures)."
+STANLEY,"Zipf 4.19 -- common surname/brand (Stanley tumbler viral trend, Stanley Kubrick, etc). Possible company: Stanley Lifestyles (furniture, 2024 IPO) -- alias provided."
+MARATHON,"Zipf 4.16 -- common word (running events)."
+ETERNAL,"Zipf 4.11 -- common word (""eternal love"", ""eternal debate""), higher than SAIL's own zipf (4.01). This is Zomato's current legal/ticker name post the Jul-2024 rename. Deliberately NOT given a bare 'eternal' alias, for the same reason as SAIL -- that would just recreate the collision through the alias mechanism. Historical mentions are covered by the 'zomato' alias (the overwhelming majority of the corpus's Zomato-era history predates the rename); post-rename bare 'Eternal' mentions are undercounted. Documented, not fixed, in Phase 0."
+SOUTHWEST,"Zipf 4.10 -- common compass-direction word, also a well-known US airline brand that could appear in unrelated travel chat."
+RAINBOW,"Zipf 4.07 -- common word."
+MOMENTUM,"Zipf 4.07 -- finance-jargon collision: 'momentum trading' / 'momentum stocks' is core vocabulary on this exact subreddit. Directly observed as a top-30 false-positive source in the 2k-doc dry run; the sampled bhavcopy row is itself consistent with a momentum-factor index product."
+RAYMOND,"Zipf 3.98 -- common surname, also a well-known Indian textile/realty group. Real company, but the word's general collision risk was judged to dominate; phrase alias 'raymond group' / 'raymond ltd' provided for partial recall."
+PERSISTENT,"Zipf 3.90 -- common adjective (""persistent effort/bug/cough""). Real, well-known IT company (Persistent Systems); phrase alias 'persistent systems' already covers deliberate mentions -- see aliases file (this row changes that alias from a redundant convenience row to the PRIMARY match path)."
+BRIGADE,"Zipf 3.90 -- common word (military unit, generic organisational term). Real realty company (Brigade Enterprises); phrase alias 'brigade enterprises' provided."
+LANDMARK,"Zipf 3.89 -- common word (""landmark decision/event"")."
+MANKIND,"Zipf 3.88 -- common word. Real, well-known pharma company (Mankind Pharma); phrase alias 'mankind pharma' provided."
+GATEWAY,"Zipf 3.83 -- common word (""gateway to...\"" metaphor, and the literal payments-gateway sense is finance-adjacent)."
+DIVIDEND,"Zipf 3.82 -- core finance vocabulary (""when's the dividend"", dividend yield/history discussion completely unrelated to this specific ticker). Directly observed as a top-30 false-positive source in the 2k-doc dry run."
+APOLLO,"Zipf 3.82 -- common word/name (Greek god, Apollo space missions) and, within this exact corpus, also a substring collision risk against the SEPARATE, non-stoplisted tickers APOLLOHOSP and APOLLOTYRE -- directly observed as a false positive in the 2k-doc dry run (""I saw Apollo Tyres on an American 18 wheeler trailer"" matched bare APOLLO, a different, smaller company). No alias provided; company identity of the bare APOLLO ticker not confirmed and not a top-100 name."
+PRESTIGE,"Zipf 3.75 -- common word. Real, well-known realty company (Prestige Estates); phrase alias 'prestige estates' already covers deliberate mentions -- see aliases file (this row changes that alias from a redundant convenience row to the PRIMARY match path)."
+DOLPHIN,"Zipf 3.67 -- common animal word. Small-cap by volume; no alias provided."
+SAFARI,"Zipf 3.63 -- common word, also collides with the Apple Safari web browser. Real company (Safari Industries, luggage); phrase alias 'safari industries' provided."
+NUCLEUS,"Zipf 3.59 -- common science word. Real fintech company (Nucleus Software); phrase alias 'nucleus software' provided."
+METROPOLIS,"Zipf 3.57 -- common word (""metropolis'' generic big-city term, Superman's Metropolis). Real diagnostics-chain company (Metropolis Healthcare); phrase alias 'metropolis healthcare' provided."
+SKIPPER,"Zipf 3.54 -- common word (ship captain, cereal-box mascot). Small-cap by volume; no alias provided."
+SCHNEIDER,"Zipf 3.50 -- common surname, also the (unrelated, larger, non-NSE-primary) global Schneider Electric brand could cause confusion. Phrase alias 'schneider electric' provided."
+INTELLECT,"Zipf 3.49 -- common word. Real fintech company (Intellect Design Arena); phrase alias 'intellect design' provided."
+MAGNUM,"Zipf 3.39 -- common word/brand (Magnum ice cream, gun caliber). Small-cap by volume; no alias provided."
+GRAPHITE,"Zipf 3.35 -- common material word, and specifically finance-adjacent given how often EV/battery-material stocks are discussed on this subreddit. No alias provided."
+STALLION,"Zipf 3.24 -- common word (horse). Small-cap by volume; no alias provided."
+MONARCH,"Zipf 3.69 -- common word (butterfly, royalty). Small-cap by volume; no alias provided."
+GABRIEL,"Zipf 3.92 -- common given name (also archangel Gabriel). Real auto-components company (Gabriel India); phrase alias 'gabriel india' provided."
+FRACTAL,"reviewer-added 2026-07-29: common English adjective (price action is fractal) — clear FP in precision sample; alias-only"
+MNC,"reviewer-added 2026-07-29: ubiquitous abbreviation for multinational company — clear FP in precision sample; alias-only"
+INTERNET,"reviewer-added 2026-07-29: the word internet — clear FP in precision sample; alias-only"
+MIDCAP,"reviewer-added 2026-07-29: segment word (midcap stocks) matched as ETF symbol — rank 13 of top-30 was pure noise; alias-only"
+HEALTHCARE,"reviewer-added 2026-07-29: sector word matched as ETF symbol — alias-only"
+SMALLCAP,"reviewer-added 2026-07-29: segment word matched as ETF symbol — alias-only"
