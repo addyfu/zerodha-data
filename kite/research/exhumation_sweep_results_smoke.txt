@@ -1,0 +1,267 @@
+======================================================================================================================
+EXHUMATION SWEEP -- FINAL AUDIT OF THE STRATEGY ZOO ON THE WIDE NSE PANEL
+PRE-REGISTERED, FROZEN SPEC. Every rule below was fixed before this script ran.
+======================================================================================================================
+Spec        : docs/superpowers/specs/2026-07-29-exhumation-sweep-design.md   (APPROVED & FROZEN 2026-07-29)
+Origin      : user proposal -- "backtest the dead strategies on the widest data and see if
+              anything is worthy". NOT a new-idea hunt: the FINAL audit of the existing zoo.
+              One shot, then the book on price-pattern strategies closes.
+STATED PRIOR (recorded before any result): the zoo died on 48 liquid large caps at 0.05%/side.
+              The wide universe RAISES the cost bar (0.2%/side, smallcap spreads), and the two
+              prior wide-universe tests (breadth momentum, delivery factor) both failed hard on
+              this exact panel. Expected outcome: 137-0 stands.
+
+--- FROZEN DATA RULES ---
+  PANEL     : data/bhavcopy_full/ -- 3,204 NSE stocks, 2019-10-01 .. 2026-07, series EQ.
+  CORP ACTS : back-adjusted via data/corp_actions_adjustments.csv; HALT if any NaN-factor
+              action touches a date the study uses. delivery_factor_study.py convention.
+  CLIP GUARD: adjusted daily returns clipped +/-25%; HALT if that fires on more than
+              0.1% of eligible stock-days (brief rule R9, not a tunable).
+  ELIGIBLE  : series EQ, turnover >= Rs 2 crore, adjusted close >= Rs 20 -- at SIGNAL time.
+  ZOO       : the SAME 67-strategy clean set as consensus_probe / zoo_silence
+              (78 registered - 9 leak-suspects - 2 erroring). Asserted byte-identical.
+
+--- FROZEN EXECUTION MODEL ---
+  SIGNALS   : each strategy's own vectorised generate_signals() per symbol; LONG signals only
+              (multi-day shorts untradeable), counted only on ELIGIBLE stock-days.
+  ENTRY     : next trading day OPEN.
+  EXIT      : the strategy's own SL/TP where defined, gap-aware (fill at the WORSE of stop and
+              open when the bar gaps through; SL wins same-bar ties), else/until the universal
+              10-trading-day time stop -- whichever comes first. ONE convention for the whole zoo.
+  OVERLAP   : one open trade per (strategy, symbol); re-signals ignored while a position is open.
+  COSTS     : Rs 20,000 delivery position; zerodha_charges.calculate_charges(...)["total"]
+              -- the KEY, never sum(.values()) -- plus 0.2%/side slippage.
+  BENCHMARK : per-trade ABNORMAL return = net trade return MINUS the equal-weight
+              eligible-universe return compounded over the identical holding window
+              (frictionless, daily rebalanced; membership lagged one day -- see (2b)).
+
+--- FROZEN SPLIT AND VERDICT (declared test count: 67) ---
+  TRAIN      2019-10-01 .. 2023-12-31  -- reported, informational.
+  VALIDATION 2024-01-01 .. 2026-07-31  -- the verdict era.
+  A strategy is a SURVIVOR only if ALL FOUR hold:
+    1. >= 100 validation trades          (else NODATA: underpowered, recorded, NOT a pass)
+    2. validation mean net ABNORMAL return > 0
+    3. cluster-robust t >= +3.2, clustered by ISO week of the ENTRY date -- the
+       Bonferroni bar for 67 simultaneous tests at alpha=0.05 (0.05/67 -> one-sided
+       z ~ 3.2). This is the resurrection-lottery guard: 67 dead strategies WILL
+       throw ~3 nominal t>=2 passes by chance; the bar is set so chance survivors are
+       expected ~0.05 across the WHOLE sweep.
+    4. train-era mean net abnormal return also > 0 (no sign flip).
+  No per-strategy parameter variation, no timeframe variation, no post-hoc subgroups.
+  "Worked on smallcaps only" = FAIL, recorded at most as an unregistered observation.
+  Survivors (if any): incubator-candidacy DISCUSSION with a fresh phase-2 spec. Never money.
+  Non-survivors: the graveyard verdict becomes FINAL on the widest data available.
+
+--- CAVEATS (stated before results, per spec) ---
+  - The universal 10-day time-stop backstop means strategies whose native exits differ are
+    tested in a HARMONIZED form; a survivor must be re-validated under its own exact exit
+    before candidacy. A -1 signal does NOT close a position here (spec lists SL/TP/time only).
+  - Smallcap slippage of 0.2%/side remains an INFERENCE, not a measurement.
+  - A strategy whose generate_signals() raises on wide-universe data quirks is skipped for
+    that symbol and COUNTED; a strategy that errors on more than 50% of symbols is
+    reported as NODATA (skipped), never as a pass or a fail.
+
+--- IMPLEMENTATION CHOICES THE SPEC DOES NOT FULLY PIN DOWN (flagged, not buried) ---
+  (1) TIME STOP ARITHMETIC: "10-trading-day time stop" is read as at most 10 bars
+      INCLUDING the entry bar -> entry OPEN[p+1], time-stop exit CLOSE[p+10]. The "10 bars
+      AFTER entry" reading (CLOSE[p+11]) is one bar longer and is NOT also computed --
+      computing both would double the declared test count.
+  (2) BENCHMARK WINDOW: the EW leg is compounded over market days [entry_date .. exit_date]
+      inclusive. The EW series is close-to-close, so its first day starts at close(e-1)
+      while the trade starts at open(e): the benchmark carries one extra overnight gap the
+      trade does not. That is the CONSERVATIVE side (overnight drift is positive on average,
+      so abnormal returns are if anything understated). The anti-conservative alignment was
+      available and was not taken.
+  (2b) BENCHMARK MEMBERSHIP IS LAGGED ONE DAY. The spec's same-day eligibility gate is
+      correct for SIGNALS (a day-t signal is only actionable at t+1 open) but is not
+      implementable as index membership: the Rs 20 floor would admit a stock on the very
+      day it jumps over the line and drop it on the day it falls back. MEASURED ON THIS
+      PANEL: same-day membership gives mean EW daily +0.2962% (cum +12,337%); membership
+      decided by the symbol's PREVIOUS bar gives +0.0902% (cum +296%) -- both averaging
+      ~945 names/day, so the gap is pure selection, not coverage. The LAGGED series is
+      used. Note the direction: it is the LOWER benchmark, so it makes abnormal returns
+      LARGER and this sweep HARDER to fail. The inflated benchmark would have handed the
+      stated prior a free win, which a pre-registered audit must not do.
+  (3) TRADEABLE vs BENCHMARK UNIVERSE: the BENCHMARK is the eligible universe exactly as
+      specified. The TRADEABLE universe additionally requires >= 300 EQ bars of history --
+      the universe convention of retest_all / consensus_probe / zoo_silence. It is a
+      data-sufficiency rule, not a performance filter, it is mildly survivorship-flavoured,
+      and the symbols it removes are counted below and listed in the work dir.
+  (4) VOLUME IS CORP-ACTION ADJUSTED (volume / factor), unlike delivery_factor_study which
+      never consumed volume. Without it every 1:1 bonus looks like a 2x volume spike to the
+      volume-breakout strategies. Turnover (a rupee quantity) is untouched.
+  (5) NO artificial warm-up floor is applied (consensus_probe dropped 252 bars; this spec
+      does not ask for it). Indicators warm up naturally inside each symbol's own history.
+
+**********************************************************************************************************************
+*** SMOKE MODE. The numbers below come from a DELIBERATELY INCOMPLETE shard subset run                             ***
+*** with --symbols-limit. They are an end-to-end PLUMBING CHECK and nothing else.                                  ***
+*** No PASS, FAIL, SURVIVOR or NODATA line printed below is evidence about any strategy.                           ***
+*** The real verdict is written by a full 10-shard run to exhumation_sweep_results.txt.                            ***
+**********************************************************************************************************************
+
+--- DATA ACTUALLY USED ---
+  panel               : 3,057,378 EQ stock-days, 3,204 symbols, 2019-10-01 -> 2026-07-27 (1,682 trading days)
+  eligible stock-days : 1,590,597
+  benchmark universe  : 2,772 symbols (>=1 eligible day)
+  tradeable universe  : 2,369 symbols (also >= 300 bars); 403 removed by the history floor
+  clip guard          : 304/1,589,472 eligible stock-days (0.0191%) -- under the 0.1% HALT bar
+  EW benchmark (used) : mean daily +0.0902%, cumulative +295.61% over the panel, 944.7 names/day (lagged membership)
+  [diagnostic, unused]: same-day membership would have been mean daily +0.2962% (+12337%) -- see choice (2b)
+  symbols swept       : 25 of 2,369 (1 of 64 shards)
+  trades recorded     : 21,457
+  exit-reason mix     : {'sl': 6671, 'tp': 4659, 'time': 10127}
+  dropped signals     : {'overlap': 10314, 'incomplete_window': 225, 'bad_entry_price': 0, 'bad_exit_price': 0, 'qty_zero': 0}
+      overlap           = re-signal while a position was already open (by design)
+      incomplete_window = signal too close to the symbol's last bar for a full 10-bar hold
+      qty_zero          = share price above the whole Rs 20,000 position -> no trade possible
+      bad_entry/exit    = non-finite or non-positive adjusted price at the fill bar
+
+======================================================================================================================
+PER-STRATEGY RESULTS -- sorted by validation cluster-robust t (best first)
+======================================================================================================================
+mean_net / mean_abn are PER-TRADE means in percent. abn = net minus the EW eligible-universe
+return over the identical window. t = one-sample t on ISO-WEEK CLUSTER MEANS of validation
+abnormal returns (frozen formula, announcement_drift_confirmation.py::cluster_robust_t).
+
+strategy                      tr_N  tr_net%  tr_abn% |   val_N  val_net%  val_abn%   win%   wks        t  1234  verdict     err
+----------------------------------------------------------------------------------------------------------------------
+rsi_divergence                  91  -0.5958  -0.5123 |     113    0.3072    0.1226   41.6    63    0.708  YY..  FAIL          0
+choppiness_volume               30  -0.2439  -1.0927 |      24    0.4789    1.1345   45.8    20    0.333  ....  NODATA        0
+cci_divergence                  39   0.1544  -1.3877 |      43    1.0935   -0.1217   58.1    30   -0.057  ....  NODATA        0
+multi_timeframe                146   0.1659  -0.6228 |     123    0.1776    0.0487   47.2    68   -0.305  YY..  FAIL          0
+elliott_wave3                  236  -0.3598  -1.1523 |     238   -0.2045   -0.8967   44.1   101   -0.356  Y...  FAIL          0
+candlestick_patterns            49  -2.1773  -2.6732 |      70    0.3555   -0.0143   45.7    46   -0.377  ....  NODATA        0
+trix_zero_line                  23   3.2616   1.7530 |      17    0.0411   -1.1149   41.2    16   -0.447  ....  NODATA        0
+psar_ichimoku                  201   0.1820  -0.9014 |     184   -1.0655   -1.2684   37.5    93   -0.695  Y...  FAIL          0
+cci_zero_cross                 226  -0.7107  -1.8391 |     233   -0.6294   -0.9960   41.2   100   -0.714  Y...  FAIL          0
+choppiness_breakout             16  -1.2230  -3.0943 |      15   -3.0741   -1.5694   33.3    14   -0.798  ....  NODATA        0
+cmf_ichimoku                   156   0.9873   0.0869 |     162   -0.4674   -0.9814   42.0    86   -0.862  Y..Y  FAIL          0
+stochrsi_macd                   65   0.8353  -0.7008 |      66   -0.7336   -1.1193   43.9    48   -0.922  ....  NODATA        0
+cmf_strategy                   201   0.5762  -0.4908 |     209   -0.6941   -0.9972   39.2    95   -0.948  Y...  FAIL          0
+golden_ratio                   101  -0.1892  -1.1854 |      99   -0.1801   -0.4455   38.4    65   -0.961  ....  NODATA        0
+supply_demand                  142   0.3710  -1.4423 |     127   -0.1587   -1.1050   43.3    79   -0.971  Y...  FAIL          0
+macd_ma_filter                 181   0.2129  -1.2854 |     178   -0.8238   -1.0784   36.0    91   -0.987  Y...  FAIL          0
+rsi_trend_confirmation         226  -0.9271  -1.7622 |     217   -1.1243   -0.9623   38.2   100   -0.994  Y...  FAIL          0
+cpr                            168  -1.0124  -1.6492 |     172   -0.5386   -1.0778   33.1    92   -1.220  Y...  FAIL          0
+gmma                           130   0.8126  -0.7667 |     133   -1.3934   -1.3268   34.6    66   -1.222  Y...  FAIL          0
+mcginley_dynamic               251   0.1303  -1.4507 |     252   -0.4984   -1.0895   42.1    96   -1.285  Y...  FAIL          0
+ma_crossover_swing             106   1.0901  -0.2093 |      86   -1.5095   -1.2484   33.7    61   -1.343  ....  NODATA        0
+ttm_squeeze                     82   1.0430  -0.1970 |      85   -0.7145   -0.9842   37.6    56   -1.367  ....  NODATA        0
+ichimoku_ha                    217   0.8378  -0.3096 |     221   -0.5197   -1.0022   38.9    85   -1.409  Y...  FAIL          0
+elliott_abc                     98  -0.7892  -1.6666 |     112   -0.2419   -1.3967   41.1    67   -1.537  Y...  FAIL          0
+kumo_breakout                   55  -0.6184  -1.5588 |      54   -1.4866   -1.4855   35.2    40   -1.561  ....  NODATA        0
+adx_dmi_obv                     48  -1.1786  -2.2075 |      41   -2.5148   -2.4631   36.6    33   -1.565  ....  NODATA        0
+ttm_squeeze_trend               68   1.3214   0.0614 |      70   -1.1404   -1.1286   34.3    51   -1.593  ....  NODATA        0
+choppiness_filter                9  -1.1479  -1.2188 |      13   -2.2850   -3.1929   46.2    11   -1.599  ....  NODATA        0
+bb_mean_reversion               17  -4.8954  -3.8774 |      28   -1.0743   -1.8187   35.7    23   -1.723  ....  NODATA        0
+stochastic_confluence           75   0.8733  -0.6655 |      82   -0.0402   -1.5287   45.1    57   -1.875  ....  NODATA        0
+adx_filter                       2  -4.2873  -4.6668 |       3   -8.5667   -5.1184    0.0     3   -1.889  ....  NODATA        0
+momentum_zero                  179  -0.1121  -1.0617 |     179   -1.6026   -1.5762   35.8    86   -2.046  Y...  FAIL          0
+tdi                            318   0.3628  -1.2484 |     291   -0.5117   -0.9014   43.6   110   -2.259  Y...  FAIL          0
+swing_pivot                    165  -0.1618  -1.0818 |     201   -0.7552   -1.2525   40.3    98   -2.268  Y...  FAIL          0
+ichimoku_trend                  56  -0.6199  -1.0411 |      61   -1.1622   -1.9181   34.4    44   -2.283  ....  NODATA        0
+roc_ma                         243  -0.6238  -1.3605 |     242   -0.6897   -0.9596   40.5    96   -2.307  Y...  FAIL          0
+rsi_centerline                 281  -0.5648  -1.3498 |     305   -0.9130   -1.1255   38.7   111   -2.326  Y...  FAIL          0
+renko_sma_obv                  374   0.6265  -0.7461 |     305   -1.3823   -1.7443   38.4   104   -2.415  Y...  FAIL          0
+ema_3_scalping                 164  -1.3624  -1.6005 |     147   -1.1086   -1.1360   39.5    91   -2.457  Y...  FAIL          0
+bb_squeeze                      75  -0.0063  -1.4666 |      72   -2.7850   -2.0633   23.6    50   -2.484  ....  NODATA        0
+atr_trailing_stop              283   0.8560  -0.5490 |     234   -1.1646   -1.3261   41.5    99   -2.623  Y...  FAIL          0
+hidden_divergence              145   0.7690  -0.4145 |     124   -0.7619   -1.0135   34.7    67   -2.692  Y...  FAIL          0
+atr_breakout                   387  -1.0150  -1.9388 |     342   -0.6919   -0.9211   37.1   109   -2.842  Y...  FAIL          0
+macd_zero_line                  97  -0.6337  -2.2510 |      95   -1.6686   -2.2764   31.6    58   -2.905  ....  NODATA        0
+market_swing                   342  -0.0572  -1.3176 |     369   -0.6650   -1.1016   40.7   117   -2.958  Y...  FAIL          0
+hull_slope                     427   0.4616  -0.3223 |     373   -0.8889   -1.1049   30.0   120   -3.026  Y...  FAIL          0
+renko_sr                       506   0.3350  -1.0743 |     564   -0.6470   -0.8205   39.9   130   -3.085  Y...  FAIL          0
+vwma_sma                        79  -0.9414  -1.9884 |      79   -3.0775   -2.8157   27.8    54   -3.148  ....  NODATA        0
+donchian_turtle                347   0.5327  -0.8018 |     269   -1.4873   -1.6097   38.7   101   -3.249  Y...  FAIL          0
+ha_rsi                         465  -0.0860  -1.3038 |     426   -0.5775   -0.9749   41.3   117   -3.303  Y...  FAIL          0
+fib_confluence                 242   0.2432  -1.0937 |     252   -1.5600   -1.4440   34.1   112   -3.376  Y...  FAIL          0
+ascending_triangle              90  -0.6350  -2.0674 |      73   -2.5695   -2.7691   28.8    56   -3.598  ....  NODATA        0
+alligator                      335   0.8732  -0.0883 |     350   -0.7302   -1.0486   39.1   104   -3.913  Y...  FAIL          0
+chandelier_exit                200  -1.1978  -1.5488 |     181   -0.7979   -1.2525   28.2    89   -4.252  Y...  FAIL          0
+fib_retracement                614  -0.2021  -0.8983 |     551   -0.9119   -1.0360   44.6   122   -4.466  Y...  FAIL          0
+fib_pivot                      515  -0.4051  -1.1007 |     500   -1.1614   -1.1655   32.4   122   -4.980  Y...  FAIL          0
+ma_envelopes                   301  -0.7902  -0.8645 |     248   -0.9452   -1.1890   29.8    94   -5.815  Y...  FAIL          0
+double_bb                      236  -0.7397  -0.9314 |     233   -0.7166   -0.8186    0.4   100   -6.566  Y...  FAIL          0
+ha_trend                         0       --       -- |       0        --        --     --     0       --  ....  NODATA        0
+macd_divergence                  0       --       -- |       0        --        --     --     0       --  ....  NODATA        0
+mfi_divergence                   0       --       -- |       0        --        --     --     0       --  ....  NODATA        0
+regular_divergence               0       --       -- |       0        --        --     --     0       --  ....  NODATA        0
+roc_divergence                   0       --       -- |       0        --        --     --     0       --  ....  NODATA        0
+stochastic_divergence            0       --       -- |       0        --        --     --     0       --  ....  NODATA        0
+trix_divergence                  0       --       -- |       0        --        --     --     0       --  ....  NODATA        0
+wyckoff_accumulation             0       --       -- |       0        --        --     --     0       --  ....  NODATA        0
+wyckoff_distribution             0       --       -- |       0        --        --     --     0       --  ....  NODATA        0
+----------------------------------------------------------------------------------------------------------------------
+flag columns: 1 = >=100 validation trades, 2 = val mean abnormal > 0, 3 = cluster t >= +3.2, 4 = train mean abnormal > 0
+
+======================================================================================================================
+SURVIVORS
+======================================================================================================================
+  (empty)
+
+  NO strategy cleared all four frozen criteria. The stated prior held.
+
+======================================================================================================================
+NODATA (recorded, NOT a pass and NOT a fail)
+======================================================================================================================
+  golden_ratio               99 validation trades < 100
+  macd_zero_line             95 validation trades < 100
+  ma_crossover_swing         86 validation trades < 100
+  ttm_squeeze                85 validation trades < 100
+  stochastic_confluence      82 validation trades < 100
+  vwma_sma                   79 validation trades < 100
+  ascending_triangle         73 validation trades < 100
+  bb_squeeze                 72 validation trades < 100
+  candlestick_patterns       70 validation trades < 100
+  ttm_squeeze_trend          70 validation trades < 100
+  stochrsi_macd              66 validation trades < 100
+  ichimoku_trend             61 validation trades < 100
+  kumo_breakout              54 validation trades < 100
+  cci_divergence             43 validation trades < 100
+  adx_dmi_obv                41 validation trades < 100
+  bb_mean_reversion          28 validation trades < 100
+  choppiness_volume          24 validation trades < 100
+  trix_zero_line             17 validation trades < 100
+  choppiness_breakout        15 validation trades < 100
+  choppiness_filter          13 validation trades < 100
+  adx_filter                 3 validation trades < 100
+  ha_trend                   SILENT -- 0 trades in either era (emits no LONG signal on daily bars)
+  macd_divergence            SILENT -- 0 trades in either era (emits no LONG signal on daily bars)
+  mfi_divergence             SILENT -- 0 trades in either era (emits no LONG signal on daily bars)
+  regular_divergence         SILENT -- 0 trades in either era (emits no LONG signal on daily bars)
+  roc_divergence             SILENT -- 0 trades in either era (emits no LONG signal on daily bars)
+  stochastic_divergence      SILENT -- 0 trades in either era (emits no LONG signal on daily bars)
+  trix_divergence            SILENT -- 0 trades in either era (emits no LONG signal on daily bars)
+  wyckoff_accumulation       SILENT -- 0 trades in either era (emits no LONG signal on daily bars)
+  wyckoff_distribution       SILENT -- 0 trades in either era (emits no LONG signal on daily bars)
+
+  9 of the above are SILENT -- they emit no long signal on daily bars at all,
+  so they cannot be tested and are not a failure of anything measured here. This is a
+  PRE-EXISTING property of the zoo, not a wide-panel artifact: consensus_probe.py
+  recorded 0 long-cells for exactly these names on the 48 NIFTY symbols too
+  (consensus_probe_results.txt, "least-firing strategies"). They are almost certainly
+  intraday-intended strategies whose conditions never fire on daily bars.
+  Effective number of testable strategies is therefore 58, not 67. The
+  Bonferroni bar was pre-registered at 67 tests and is NOT relaxed to match --
+  moving a frozen threshold after seeing which strategies were testable is exactly the
+  move this spec exists to prevent. The bar stays where it was declared (stricter).
+
+======================================================================================================================
+SWEEP SUMMARY
+======================================================================================================================
+  strategies in the clean set            : 67
+  strategies carrying a verdict          : 37
+  strategies recorded NODATA             : 30
+  positive validation mean abnormal      : 2 of 37
+  nominal t >= +2.0 (NOT the bar)        : 0 of 37   [~1.9 expected by chance alone]
+  cleared the Bonferroni bar t >= +3.2    : 0 of 37   [~0.05 expected by chance across the whole sweep]
+  best validation t                      : rsi_divergence at t=+0.708 (val_abn=+0.1226%, N=113)
+
+**********************************************************************************************************************
+*** SMOKE RUN -- NOT THE VERDICT. Partial symbol coverage by construction.                                         ***
+*** Nothing above is evidence about any strategy; this file exists only to prove the                               ***
+*** plumbing runs end to end (prepare -> shard -> partial -> merge -> verdict).                                    ***
+**********************************************************************************************************************
+verdict runtime: 0.0s

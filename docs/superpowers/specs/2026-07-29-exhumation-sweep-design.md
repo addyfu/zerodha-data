@@ -101,3 +101,26 @@ gap-aware fills, cost calls, Bonferroni verdict logic, then launches the
 
 - 2026-07-29: Spec frozen (user approved; user explicitly requested
   same-day parallel execution).
+- 2026-07-29 (build, reviewer-accepted): builder caught and fixed a
+  LOOKAHEAD BIAS in the benchmark itself (same-day eligibility membership
+  inflates the EW benchmark 0.21%/day via the Rs-20 floor admitting stocks
+  the day they jump it; lagged membership used — the HARDER bar), plus a
+  datetime-resolution bug that a blanket except had laundered into "58
+  erroring strategies", plus a resume-corruption path. Hand-verified trade
+  economics to 8dp; 4 gap-fill cases 0 mismatches. 9/67 strategies are
+  structurally SILENT (0 long signals ever, matching the probe). Bonferroni
+  bar NOT relaxed for the effective-58 (frozen means frozen).
+- 2026-07-29 ~23:15 (results): **ZERO SURVIVORS out of 67. The stated
+  prior held — on the widest honest data this project will ever run.**
+  10 shards × 2,369 symbols × 2.84M bars, ~2M simulated trades, full
+  delivery costs + 0.2%/side slippage. The rout is total: even the
+  best-ranked strategy (trix_zero_line) posts NEGATIVE validation
+  abnormal returns (t=−2.64); nothing was even close to the +3.2 bar —
+  nothing was above ZERO at the top of the table. Notable for October
+  context: cci_divergence (live incubator candidate) shows val abnormal
+  −1.05%/trade (t=−4.76) on the wide universe — its incubator trial is
+  on its own 48-stock home turf with its own card, but this number
+  belongs in the October weighing. THE PRICE-PATTERN FAMILY IS NOW
+  CLOSED PERMANENTLY: 48 stocks and 2,369 stocks, 0.05% and 0.2%
+  slippage, 2020-2026 — the answer is the same everywhere. No "but what
+  if wider" remains. Buy-and-hold: 138-0.
