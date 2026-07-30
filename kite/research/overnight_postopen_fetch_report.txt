@@ -1,0 +1,154 @@
+================================================================================================
+OVERNIGHT-INFORMATION POST-OPEN DRIFT STUDY -- FROZEN SPEC (2026-07-30)
+================================================================================================
+Spec  : docs/superpowers/specs/2026-07-30-overnight-postopen-design.md
+Mode  : FETCH ONLY (signals + cache, no regression, no verdict)
+
+Stated prior (before any result): NULL. US overnight anomaly decayed post-2021; our own
+overnight-premium test died at -1.7bp net; India's gap mechanism is well documented.
+Expected findings: 0. Any finding -> phase-2 spec, incubator path only.
+
+Signals (frozen): S&P 500 (^GSPC), front crude (CL=F, fallback BZ=F), USDINR (INR=X, fallback USDINR=X), daily closes 2019-07..today via yfinance (pip-installed, network-
+verified; the spec's stooq fallback returned an anti-bot JS challenge page from this 
+environment, not usable -- documented in the module docstring).
+Mapping (frozen): foreign close of calendar date d -> the NEXT Indian trading day t > d (Indian trading days = the panel's own calendar, from bhavcopy filenames). Signal(t) = 
+log(close_d / close_prev_d), the foreign series' OWN previous close (its own holidays).
+Alignment gate: >= 95% of Indian trading days 2019-10-01..2026-07-31 must receive each signal, else HALT.
+
+Method (frozen): GAP(s,t)=open(s,t)/close(s,t-1)-1; POST(s,t,k)=close(s,t+k-1)/open(s,t)-1, k in {1,3,10}. Market arm: EW eligible-universe means (LAGGED membership -- exhumation 
+lesson), regression POST(t,k)=a+b*SIGNAL(t)+c*GAP(t)+e per (signal,k), cluster-robust by 
+ISO week. ADR arm: INFY/WIT/IBN/HDB overnight ADR returns, pooled across names (week-
+clustered only, name pooling stated), fade hypothesis pre-registered NEGATIVE b, k in {1,3}.
+
+Declared cells: 3 signals x 3 horizons (market) + 2 (ADR, k in {1,3}) = 11.
+Per cell, ALL required for a FINDING: (1) VAL-era cluster-robust |t(b)| >= 2.9 (Bonferroni, 11 cells; ADR arm additionally requires b<0); (2) TRAIN-era b same sign as 
+VAL; (3) tradeability: favorable-signal-tercile days (TRAIN-era breakpoints applied to 
+VALIDATION), Rs 20k slots, delivery costs + 0.2%/side slippage (market) / 0.05% (ADR) -- 
+VAL mean net/trade > 0.
+
+Eras (frozen): TRAIN 2019-10..2023-12, VALIDATION 2024-01..2026-07.
+Deferred (both explicitly non-verdict-bearing per spec): GIFT Nifty robustness line, 
+sector splits (IT/USDINR, OMC-paints/crude) -- information only, not implemented here.
+================================================================================================
+
+--------------------------------------------------------------------------------------------
+SELF-CHECK: cluster-robust OLS (Liang-Zeger / CR1) vs statsmodels, synthetic panel
+--------------------------------------------------------------------------------------------
+  synthetic panel: N=119, G=15 clusters (~5-11 obs/cluster), true beta=[?, 0.5, -0.8], correlated within-cluster errors by construction (seed=42)
+    hand-rolled  const : beta=+0.835248  se=0.383155  t=+2.1799
+    hand-rolled  x1    : beta=+0.546834  se=0.191555  t=+2.8547
+    hand-rolled  x2    : beta=-0.478784  se=0.163209  t=-2.9336
+    statsmodels  const : beta=+0.835248  se=0.383155  t=+2.1799
+    statsmodels  x1    : beta=+0.546834  se=0.191555  t=+2.8547
+    statsmodels  x2    : beta=-0.478784  se=0.163209  t=-2.9336
+  max |diff| beta=9.99e-16  se=3.89e-16  (statsmodels cov_type="cluster", use_correction default True == same CR1 correction)
+  VERIFICATION: PASS
+--------------------------------------------------------------------------------------------
+
+Indian trading calendar (bhavcopy filenames): 1,682 days, 2019-10-01 -> 2026-07-27
+
+============================================================================================
+FETCHING SP500  (primary=^GSPC, fallback=None, close_hour_et=16)
+============================================================================================
+  source used: ^GSPC
+  foreign close series: 1779 rows, 2019-07-01 -> 2026-07-29
+  mapped signal series: 1628 Indian trading days, 2019-10-01 -> 2026-07-27
+  ALIGNMENT: 1628/1682 (96.79%) of Indian trading days 2019-10-01..2026-07-31 covered  (gate 95%: PASS)
+  Sample mappings for SP500 (assert PASSED: close_ist always < indian_open_ist):
+    WEEKEND   2019-10-04 (Friday   ) -> 2019-10-07 (Monday   )  close_ist=2019-10-05 01:30+0530  indian_open_ist=2019-10-07 09:15+0530  log_ret=+0.01412
+    WEEKEND   2019-10-11 (Friday   ) -> 2019-10-14 (Monday   )  close_ist=2019-10-12 01:30+0530  indian_open_ist=2019-10-14 09:15+0530  log_ret=+0.01088
+    WEEKEND   2019-10-18 (Friday   ) -> 2019-10-22 (Tuesday  )  close_ist=2019-10-19 01:30+0530  indian_open_ist=2019-10-22 09:15+0530  log_ret=-0.00393
+    HOLIDAY-GAP 2020-01-21 (Tuesday  ) -> 2020-01-22 (Wednesday)  close_ist=2020-01-22 02:30+0530  indian_open_ist=2020-01-22 09:15+0530  log_ret=-0.00266  (gap 4d since prior foreign close)
+    HOLIDAY-GAP 2020-02-18 (Tuesday  ) -> 2020-02-19 (Wednesday)  close_ist=2020-02-19 02:30+0530  indian_open_ist=2020-02-19 09:15+0530  log_ret=-0.00292  (gap 4d since prior foreign close)
+    HOLIDAY-GAP 2020-04-13 (Monday   ) -> 2020-04-15 (Wednesday)  close_ist=2020-04-14 01:30+0530  indian_open_ist=2020-04-15 09:15+0530  log_ret=-0.01016  (gap 4d since prior foreign close)
+
+============================================================================================
+FETCHING CRUDE  (primary=CL=F, fallback=BZ=F, close_hour_et=17)
+============================================================================================
+  source used: CL=F
+  foreign close series: 1782 rows, 2019-07-01 -> 2026-07-30
+  mapped signal series: 1630 Indian trading days, 2019-10-01 -> 2026-07-27
+  ALIGNMENT: 1630/1682 (96.91%) of Indian trading days 2019-10-01..2026-07-31 covered  (gate 95%: PASS)
+  Sample mappings for CRUDE (assert PASSED: close_ist always < indian_open_ist):
+    WEEKEND   2019-10-04 (Friday   ) -> 2019-10-07 (Monday   )  close_ist=2019-10-05 02:30+0530  indian_open_ist=2019-10-07 09:15+0530  log_ret=+0.00684
+    WEEKEND   2019-10-11 (Friday   ) -> 2019-10-14 (Monday   )  close_ist=2019-10-12 02:30+0530  indian_open_ist=2019-10-14 09:15+0530  log_ret=+0.02125
+    WEEKEND   2019-10-18 (Friday   ) -> 2019-10-22 (Tuesday  )  close_ist=2019-10-19 02:30+0530  indian_open_ist=2019-10-22 09:15+0530  log_ret=-0.00279
+    HOLIDAY-GAP 2020-01-21 (Tuesday  ) -> 2020-01-22 (Wednesday)  close_ist=2020-01-22 03:30+0530  indian_open_ist=2020-01-22 09:15+0530  log_ret=-0.00342  (gap 4d since prior foreign close)
+    HOLIDAY-GAP 2020-02-18 (Tuesday  ) -> 2020-02-19 (Wednesday)  close_ist=2020-02-19 03:30+0530  indian_open_ist=2020-02-19 09:15+0530  log_ret=+0.00000  (gap 4d since prior foreign close)
+    HOLIDAY-GAP 2020-04-13 (Monday   ) -> 2020-04-15 (Wednesday)  close_ist=2020-04-14 02:30+0530  indian_open_ist=2020-04-15 09:15+0530  log_ret=-0.01550  (gap 4d since prior foreign close)
+
+============================================================================================
+FETCHING USDINR  (primary=INR=X, fallback=USDINR=X, close_hour_et=17)
+============================================================================================
+  source used: INR=X
+  foreign close series: 1844 rows, 2019-07-01 -> 2026-07-30
+  mapped signal series: 1679 Indian trading days, 2019-10-01 -> 2026-07-27
+  ALIGNMENT: 1679/1682 (99.82%) of Indian trading days 2019-10-01..2026-07-31 covered  (gate 95%: PASS)
+  Sample mappings for USDINR (assert PASSED: close_ist always < indian_open_ist):
+    WEEKEND   2019-10-04 (Friday   ) -> 2019-10-07 (Monday   )  close_ist=2019-10-05 02:30+0530  indian_open_ist=2019-10-07 09:15+0530  log_ret=-0.00171
+    WEEKEND   2019-10-11 (Friday   ) -> 2019-10-14 (Monday   )  close_ist=2019-10-12 02:30+0530  indian_open_ist=2019-10-14 09:15+0530  log_ret=-0.00604
+    WEEKEND   2019-10-18 (Friday   ) -> 2019-10-22 (Tuesday  )  close_ist=2019-10-19 02:30+0530  indian_open_ist=2019-10-22 09:15+0530  log_ret=-0.00276
+    HOLIDAY-GAP 2025-04-22 (Tuesday  ) -> 2025-04-23 (Wednesday)  close_ist=2025-04-23 02:30+0530  indian_open_ist=2025-04-23 09:15+0530  log_ret=-0.00541  (gap 5d since prior foreign close)
+
+============================================================================================
+FETCHING ADR INFY  (NSE: INFY, close_hour_et=16)
+============================================================================================
+  source used: INFY
+  foreign close series: 1779 rows, 2019-07-01 -> 2026-07-29
+  mapped signal series: 1628 Indian trading days, 2019-10-01 -> 2026-07-27
+  ALIGNMENT: 1628/1682 (96.79%) of Indian trading days 2019-10-01..2026-07-31 covered  (gate 95%: PASS)
+  Sample mappings for ADR-INFY (assert PASSED: close_ist always < indian_open_ist):
+    WEEKEND   2019-10-04 (Friday   ) -> 2019-10-07 (Monday   )  close_ist=2019-10-05 01:30+0530  indian_open_ist=2019-10-07 09:15+0530  log_ret=+0.00536
+    WEEKEND   2019-10-11 (Friday   ) -> 2019-10-14 (Monday   )  close_ist=2019-10-12 01:30+0530  indian_open_ist=2019-10-14 09:15+0530  log_ret=-0.01896
+    WEEKEND   2019-10-18 (Friday   ) -> 2019-10-22 (Tuesday  )  close_ist=2019-10-19 01:30+0530  indian_open_ist=2019-10-22 09:15+0530  log_ret=-0.00189
+    HOLIDAY-GAP 2020-01-21 (Tuesday  ) -> 2020-01-22 (Wednesday)  close_ist=2020-01-22 02:30+0530  indian_open_ist=2020-01-22 09:15+0530  log_ret=-0.00276  (gap 4d since prior foreign close)
+    HOLIDAY-GAP 2020-02-18 (Tuesday  ) -> 2020-02-19 (Wednesday)  close_ist=2020-02-19 02:30+0530  indian_open_ist=2020-02-19 09:15+0530  log_ret=+0.01800  (gap 4d since prior foreign close)
+    HOLIDAY-GAP 2020-04-13 (Monday   ) -> 2020-04-15 (Wednesday)  close_ist=2020-04-14 01:30+0530  indian_open_ist=2020-04-15 09:15+0530  log_ret=-0.00235  (gap 4d since prior foreign close)
+
+============================================================================================
+FETCHING ADR WIT  (NSE: WIPRO, close_hour_et=16)
+============================================================================================
+  source used: WIT
+  foreign close series: 1779 rows, 2019-07-01 -> 2026-07-29
+  mapped signal series: 1628 Indian trading days, 2019-10-01 -> 2026-07-27
+  ALIGNMENT: 1628/1682 (96.79%) of Indian trading days 2019-10-01..2026-07-31 covered  (gate 95%: PASS)
+  Sample mappings for ADR-WIT (assert PASSED: close_ist always < indian_open_ist):
+    WEEKEND   2019-10-04 (Friday   ) -> 2019-10-07 (Monday   )  close_ist=2019-10-05 01:30+0530  indian_open_ist=2019-10-07 09:15+0530  log_ret=+0.01658
+    WEEKEND   2019-10-11 (Friday   ) -> 2019-10-14 (Monday   )  close_ist=2019-10-12 01:30+0530  indian_open_ist=2019-10-14 09:15+0530  log_ret=+0.00823
+    WEEKEND   2019-10-18 (Friday   ) -> 2019-10-22 (Tuesday  )  close_ist=2019-10-19 01:30+0530  indian_open_ist=2019-10-22 09:15+0530  log_ret=+0.00000
+    HOLIDAY-GAP 2020-01-21 (Tuesday  ) -> 2020-01-22 (Wednesday)  close_ist=2020-01-22 02:30+0530  indian_open_ist=2020-01-22 09:15+0530  log_ret=-0.01314  (gap 4d since prior foreign close)
+    HOLIDAY-GAP 2020-02-18 (Tuesday  ) -> 2020-02-19 (Wednesday)  close_ist=2020-02-19 02:30+0530  indian_open_ist=2020-02-19 09:15+0530  log_ret=+0.00000  (gap 4d since prior foreign close)
+    HOLIDAY-GAP 2020-04-13 (Monday   ) -> 2020-04-15 (Wednesday)  close_ist=2020-04-14 01:30+0530  indian_open_ist=2020-04-15 09:15+0530  log_ret=-0.01954  (gap 4d since prior foreign close)
+
+============================================================================================
+FETCHING ADR IBN  (NSE: ICICIBANK, close_hour_et=16)
+============================================================================================
+  source used: IBN
+  foreign close series: 1779 rows, 2019-07-01 -> 2026-07-29
+  mapped signal series: 1628 Indian trading days, 2019-10-01 -> 2026-07-27
+  ALIGNMENT: 1628/1682 (96.79%) of Indian trading days 2019-10-01..2026-07-31 covered  (gate 95%: PASS)
+  Sample mappings for ADR-IBN (assert PASSED: close_ist always < indian_open_ist):
+    WEEKEND   2019-10-04 (Friday   ) -> 2019-10-07 (Monday   )  close_ist=2019-10-05 01:30+0530  indian_open_ist=2019-10-07 09:15+0530  log_ret=-0.02207
+    WEEKEND   2019-10-11 (Friday   ) -> 2019-10-14 (Monday   )  close_ist=2019-10-12 01:30+0530  indian_open_ist=2019-10-14 09:15+0530  log_ret=-0.00337
+    WEEKEND   2019-10-18 (Friday   ) -> 2019-10-22 (Tuesday  )  close_ist=2019-10-19 01:30+0530  indian_open_ist=2019-10-22 09:15+0530  log_ret=+0.00329
+    HOLIDAY-GAP 2020-01-21 (Tuesday  ) -> 2020-01-22 (Wednesday)  close_ist=2020-01-22 02:30+0530  indian_open_ist=2020-01-22 09:15+0530  log_ret=-0.01015  (gap 4d since prior foreign close)
+    HOLIDAY-GAP 2020-02-18 (Tuesday  ) -> 2020-02-19 (Wednesday)  close_ist=2020-02-19 02:30+0530  indian_open_ist=2020-02-19 09:15+0530  log_ret=-0.00133  (gap 4d since prior foreign close)
+    HOLIDAY-GAP 2020-04-13 (Monday   ) -> 2020-04-15 (Wednesday)  close_ist=2020-04-14 01:30+0530  indian_open_ist=2020-04-15 09:15+0530  log_ret=-0.01561  (gap 4d since prior foreign close)
+
+============================================================================================
+FETCHING ADR HDB  (NSE: HDFCBANK, close_hour_et=16)
+============================================================================================
+  source used: HDB
+  foreign close series: 1779 rows, 2019-07-01 -> 2026-07-29
+  mapped signal series: 1628 Indian trading days, 2019-10-01 -> 2026-07-27
+  ALIGNMENT: 1628/1682 (96.79%) of Indian trading days 2019-10-01..2026-07-31 covered  (gate 95%: PASS)
+  Sample mappings for ADR-HDB (assert PASSED: close_ist always < indian_open_ist):
+    WEEKEND   2019-10-04 (Friday   ) -> 2019-10-07 (Monday   )  close_ist=2019-10-05 01:30+0530  indian_open_ist=2019-10-07 09:15+0530  log_ret=-0.04254
+    WEEKEND   2019-10-11 (Friday   ) -> 2019-10-14 (Monday   )  close_ist=2019-10-12 01:30+0530  indian_open_ist=2019-10-14 09:15+0530  log_ret=-0.00676
+    WEEKEND   2019-10-18 (Friday   ) -> 2019-10-22 (Tuesday  )  close_ist=2019-10-19 01:30+0530  indian_open_ist=2019-10-22 09:15+0530  log_ret=-0.01098
+    HOLIDAY-GAP 2020-01-21 (Tuesday  ) -> 2020-01-22 (Wednesday)  close_ist=2020-01-22 02:30+0530  indian_open_ist=2020-01-22 09:15+0530  log_ret=-0.04387  (gap 4d since prior foreign close)
+    HOLIDAY-GAP 2020-02-18 (Tuesday  ) -> 2020-02-19 (Wednesday)  close_ist=2020-02-19 02:30+0530  indian_open_ist=2020-02-19 09:15+0530  log_ret=+0.00017  (gap 4d since prior foreign close)
+    HOLIDAY-GAP 2020-04-13 (Monday   ) -> 2020-04-15 (Wednesday)  close_ist=2020-04-14 01:30+0530  indian_open_ist=2020-04-15 09:15+0530  log_ret=-0.02761  (gap 4d since prior foreign close)
+
+Cache written to D:\study\kite\data\overnight_signals
+Total runtime: 5.2s

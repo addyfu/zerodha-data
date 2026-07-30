@@ -1,0 +1,192 @@
+================================================================================================
+OVERNIGHT-INFORMATION POST-OPEN DRIFT STUDY -- FROZEN SPEC (2026-07-30)
+================================================================================================
+Spec  : docs/superpowers/specs/2026-07-30-overnight-postopen-design.md
+Mode  : SMOKE (~3 recent months -- NO VERDICT WEIGHT)
+
+Stated prior (before any result): NULL. US overnight anomaly decayed post-2021; our own
+overnight-premium test died at -1.7bp net; India's gap mechanism is well documented.
+Expected findings: 0. Any finding -> phase-2 spec, incubator path only.
+
+Signals (frozen): S&P 500 (^GSPC), front crude (CL=F, fallback BZ=F), USDINR (INR=X, fallback USDINR=X), daily closes 2019-07..today via yfinance (pip-installed, network-
+verified; the spec's stooq fallback returned an anti-bot JS challenge page from this 
+environment, not usable -- documented in the module docstring).
+Mapping (frozen): foreign close of calendar date d -> the NEXT Indian trading day t > d (Indian trading days = the panel's own calendar, from bhavcopy filenames). Signal(t) = 
+log(close_d / close_prev_d), the foreign series' OWN previous close (its own holidays).
+Alignment gate: >= 95% of Indian trading days 2019-10-01..2026-07-31 must receive each signal, else HALT.
+
+Method (frozen): GAP(s,t)=open(s,t)/close(s,t-1)-1; POST(s,t,k)=close(s,t+k-1)/open(s,t)-1, k in {1,3,10}. Market arm: EW eligible-universe means (LAGGED membership -- exhumation 
+lesson), regression POST(t,k)=a+b*SIGNAL(t)+c*GAP(t)+e per (signal,k), cluster-robust by 
+ISO week. ADR arm: INFY/WIT/IBN/HDB overnight ADR returns, pooled across names (week-
+clustered only, name pooling stated), fade hypothesis pre-registered NEGATIVE b, k in {1,3}.
+
+Declared cells: 3 signals x 3 horizons (market) + 2 (ADR, k in {1,3}) = 11.
+Per cell, ALL required for a FINDING: (1) VAL-era cluster-robust |t(b)| >= 2.9 (Bonferroni, 11 cells; ADR arm additionally requires b<0); (2) TRAIN-era b same sign as 
+VAL; (3) tradeability: favorable-signal-tercile days (TRAIN-era breakpoints applied to 
+VALIDATION), Rs 20k slots, delivery costs + 0.2%/side slippage (market) / 0.05% (ADR) -- 
+VAL mean net/trade > 0.
+
+Eras (frozen): TRAIN 2019-10..2023-12, VALIDATION 2024-01..2026-07.
+Deferred (both explicitly non-verdict-bearing per spec): GIFT Nifty robustness line, 
+sector splits (IT/USDINR, OMC-paints/crude) -- information only, not implemented here.
+
+************************************************************************************************
+*** SMOKE MODE: panel restricted to the most recent ~3 months of bhavcopy files.    ***
+*** TRAIN era will be EMPTY by construction -> criteria 2 print N/A for every cell.  ***
+*** THIS IS NOT A VERDICT RUN. Self-check plumbing only.                             ***
+************************************************************************************************
+================================================================================================
+
+--------------------------------------------------------------------------------------------
+SELF-CHECK: cluster-robust OLS (Liang-Zeger / CR1) vs statsmodels, synthetic panel
+--------------------------------------------------------------------------------------------
+  synthetic panel: N=119, G=15 clusters (~5-11 obs/cluster), true beta=[?, 0.5, -0.8], correlated within-cluster errors by construction (seed=42)
+    hand-rolled  const : beta=+0.835248  se=0.383155  t=+2.1799
+    hand-rolled  x1    : beta=+0.546834  se=0.191555  t=+2.8547
+    hand-rolled  x2    : beta=-0.478784  se=0.163209  t=-2.9336
+    statsmodels  const : beta=+0.835248  se=0.383155  t=+2.1799
+    statsmodels  x1    : beta=+0.546834  se=0.191555  t=+2.8547
+    statsmodels  x2    : beta=-0.478784  se=0.163209  t=-2.9336
+  max |diff| beta=9.99e-16  se=3.89e-16  (statsmodels cov_type="cluster", use_correction default True == same CR1 correction)
+  VERIFICATION: PASS
+--------------------------------------------------------------------------------------------
+
+Indian trading calendar: 1,682 days, 2019-10-01 -> 2026-07-27
+
+signal SP500   : source=^GSPC [cache]            alignment= 96.79% (1628/1682)  range=2019-10-01..2026-07-27
+signal CRUDE   : source=CL=F [cache]             alignment= 96.91% (1630/1682)  range=2019-10-01..2026-07-27
+signal USDINR  : source=INR=X [cache]            alignment= 99.82% (1679/1682)  range=2019-10-01..2026-07-27
+ADR    INFY    : source=INFY [cache]             alignment= 96.79% (1628/1682)  NSE=INFY
+ADR    WIT     : source=WIT [cache]              alignment= 96.79% (1628/1682)  NSE=WIPRO
+ADR    IBN     : source=IBN [cache]              alignment= 96.79% (1628/1682)  NSE=ICICIBANK
+ADR    HDB     : source=HDB [cache]              alignment= 96.79% (1628/1682)  NSE=HDFCBANK
+
+SMOKE panel window: 2026-04-23 .. 2026-07-27 (~3 months)
+Loaded 65 bhavcopy files (0 skipped), 157,809 EQ stock-day rows, 2,669 symbols, 2026-04-23 -> 2026-07-27
+Corporate-action adjustment applied: 629 stock-day rows scaled, 451 symbols with >=1 valid action.
+MarketPanel built: 65 trading days x 2,669 symbols, 87,010 same-day-eligible stock-days, 85,683 lagged-member stock-days (mean 1318 names/day, EW basket).
+
+================================================================================================
+PER-CELL DETAIL
+================================================================================================
+
+CELL: SP500 k=1  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N/A (n_rows=0 < 10 or <2 week-clusters)
+  VAL    (2024-01-01..2026-07-31): N=61 G=15 weeks  b=0.06926  t(b)=0.347
+  TRADEABILITY: insufficient TRAIN signal obs (0 < 30) for tercile breakpoints  (n_trades=0)
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: SP500 k=3  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N/A (n_rows=0 < 10 or <2 week-clusters)
+  VAL    (2024-01-01..2026-07-31): N=59 G=14 weeks  b=-0.27377  t(b)=-0.834
+  TRADEABILITY: insufficient TRAIN signal obs (0 < 30) for tercile breakpoints  (n_trades=0)
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: SP500 k=10  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N/A (n_rows=0 < 10 or <2 week-clusters)
+  VAL    (2024-01-01..2026-07-31): N=52 G=13 weeks  b=-0.60843  t(b)=-1.259
+  TRADEABILITY: insufficient TRAIN signal obs (0 < 30) for tercile breakpoints  (n_trades=0)
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: CRUDE k=1  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N/A (n_rows=0 < 10 or <2 week-clusters)
+  VAL    (2024-01-01..2026-07-31): N=61 G=15 weeks  b=0.01467  t(b)=0.391
+  TRADEABILITY: insufficient TRAIN signal obs (0 < 30) for tercile breakpoints  (n_trades=0)
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: CRUDE k=3  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N/A (n_rows=0 < 10 or <2 week-clusters)
+  VAL    (2024-01-01..2026-07-31): N=59 G=14 weeks  b=0.04624  t(b)=0.801
+  TRADEABILITY: insufficient TRAIN signal obs (0 < 30) for tercile breakpoints  (n_trades=0)
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: CRUDE k=10  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N/A (n_rows=0 < 10 or <2 week-clusters)
+  VAL    (2024-01-01..2026-07-31): N=52 G=13 weeks  b=0.02433  t(b)=0.323
+  TRADEABILITY: insufficient TRAIN signal obs (0 < 30) for tercile breakpoints  (n_trades=0)
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: USDINR k=1  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N/A (n_rows=0 < 10 or <2 week-clusters)
+  VAL    (2024-01-01..2026-07-31): N=64 G=15 weeks  b=-0.45610  t(b)=-2.263
+  TRADEABILITY: insufficient TRAIN signal obs (0 < 30) for tercile breakpoints  (n_trades=0)
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: USDINR k=3  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N/A (n_rows=0 < 10 or <2 week-clusters)
+  VAL    (2024-01-01..2026-07-31): N=62 G=14 weeks  b=0.24178  t(b)=0.508
+  TRADEABILITY: insufficient TRAIN signal obs (0 < 30) for tercile breakpoints  (n_trades=0)
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: USDINR k=10  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N/A (n_rows=0 < 10 or <2 week-clusters)
+  VAL    (2024-01-01..2026-07-31): N=55 G=13 weeks  b=0.31673  t(b)=0.401
+  TRADEABILITY: insufficient TRAIN signal obs (0 < 30) for tercile breakpoints  (n_trades=0)
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: ADR k=1  [adr arm  (fade: b must be NEGATIVE)]
+  TRAIN  (2019-10-01..2023-12-31): N/A (n_rows=0 < 10 or <2 week-clusters)
+  VAL    (2024-01-01..2026-07-31): N=244 G=15 weeks  b=-0.00041  t(b)=-0.007
+  TRADEABILITY: insufficient TRAIN signal obs (0 < 30) for pooled tercile breakpoints  (n_trades=0)
+  Criterion 1 (VAL |t(b)|>=2.9 AND b<0): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: ADR k=3  [adr arm  (fade: b must be NEGATIVE)]
+  TRAIN  (2019-10-01..2023-12-31): N/A (n_rows=0 < 10 or <2 week-clusters)
+  VAL    (2024-01-01..2026-07-31): N=236 G=14 weeks  b=-0.09078  t(b)=-1.034
+  TRADEABILITY: insufficient TRAIN signal obs (0 < 30) for pooled tercile breakpoints  (n_trades=0)
+  Criterion 1 (VAL |t(b)|>=2.9 AND b<0): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+================================================================================================
+VERDICT (SMOKE -- NOT MEANINGFUL)
+================================================================================================
+0/11 cells are FINDINGS (all 3 criteria PASS).
+Pre-registered expectation: 0. MATCHES prior.
+
+cell           arm     crit1  crit2  crit3  finding 
+SP500 k=1      market  fail   fail   fail   -       
+SP500 k=3      market  fail   fail   fail   -       
+SP500 k=10     market  fail   fail   fail   -       
+CRUDE k=1      market  fail   fail   fail   -       
+CRUDE k=3      market  fail   fail   fail   -       
+CRUDE k=10     market  fail   fail   fail   -       
+USDINR k=1     market  fail   fail   fail   -       
+USDINR k=3     market  fail   fail   fail   -       
+USDINR k=10    market  fail   fail   fail   -       
+ADR k=1        adr     fail   fail   fail   -       
+ADR k=3        adr     fail   fail   fail   -       
+================================================================================================
+
+Total runtime: 15.6s

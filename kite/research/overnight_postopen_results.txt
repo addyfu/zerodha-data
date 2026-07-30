@@ -1,0 +1,185 @@
+================================================================================================
+OVERNIGHT-INFORMATION POST-OPEN DRIFT STUDY -- FROZEN SPEC (2026-07-30)
+================================================================================================
+Spec  : docs/superpowers/specs/2026-07-30-overnight-postopen-design.md
+Mode  : FULL VERDICT RUN
+
+Stated prior (before any result): NULL. US overnight anomaly decayed post-2021; our own
+overnight-premium test died at -1.7bp net; India's gap mechanism is well documented.
+Expected findings: 0. Any finding -> phase-2 spec, incubator path only.
+
+Signals (frozen): S&P 500 (^GSPC), front crude (CL=F, fallback BZ=F), USDINR (INR=X, fallback USDINR=X), daily closes 2019-07..today via yfinance (pip-installed, network-
+verified; the spec's stooq fallback returned an anti-bot JS challenge page from this 
+environment, not usable -- documented in the module docstring).
+Mapping (frozen): foreign close of calendar date d -> the NEXT Indian trading day t > d (Indian trading days = the panel's own calendar, from bhavcopy filenames). Signal(t) = 
+log(close_d / close_prev_d), the foreign series' OWN previous close (its own holidays).
+Alignment gate: >= 95% of Indian trading days 2019-10-01..2026-07-31 must receive each signal, else HALT.
+
+Method (frozen): GAP(s,t)=open(s,t)/close(s,t-1)-1; POST(s,t,k)=close(s,t+k-1)/open(s,t)-1, k in {1,3,10}. Market arm: EW eligible-universe means (LAGGED membership -- exhumation 
+lesson), regression POST(t,k)=a+b*SIGNAL(t)+c*GAP(t)+e per (signal,k), cluster-robust by 
+ISO week. ADR arm: INFY/WIT/IBN/HDB overnight ADR returns, pooled across names (week-
+clustered only, name pooling stated), fade hypothesis pre-registered NEGATIVE b, k in {1,3}.
+
+Declared cells: 3 signals x 3 horizons (market) + 2 (ADR, k in {1,3}) = 11.
+Per cell, ALL required for a FINDING: (1) VAL-era cluster-robust |t(b)| >= 2.9 (Bonferroni, 11 cells; ADR arm additionally requires b<0); (2) TRAIN-era b same sign as 
+VAL; (3) tradeability: favorable-signal-tercile days (TRAIN-era breakpoints applied to 
+VALIDATION), Rs 20k slots, delivery costs + 0.2%/side slippage (market) / 0.05% (ADR) -- 
+VAL mean net/trade > 0.
+
+Eras (frozen): TRAIN 2019-10..2023-12, VALIDATION 2024-01..2026-07.
+Deferred (both explicitly non-verdict-bearing per spec): GIFT Nifty robustness line, 
+sector splits (IT/USDINR, OMC-paints/crude) -- information only, not implemented here.
+================================================================================================
+
+--------------------------------------------------------------------------------------------
+SELF-CHECK: cluster-robust OLS (Liang-Zeger / CR1) vs statsmodels, synthetic panel
+--------------------------------------------------------------------------------------------
+  synthetic panel: N=119, G=15 clusters (~5-11 obs/cluster), true beta=[?, 0.5, -0.8], correlated within-cluster errors by construction (seed=42)
+    hand-rolled  const : beta=+0.835248  se=0.383155  t=+2.1799
+    hand-rolled  x1    : beta=+0.546834  se=0.191555  t=+2.8547
+    hand-rolled  x2    : beta=-0.478784  se=0.163209  t=-2.9336
+    statsmodels  const : beta=+0.835248  se=0.383155  t=+2.1799
+    statsmodels  x1    : beta=+0.546834  se=0.191555  t=+2.8547
+    statsmodels  x2    : beta=-0.478784  se=0.163209  t=-2.9336
+  max |diff| beta=9.99e-16  se=3.89e-16  (statsmodels cov_type="cluster", use_correction default True == same CR1 correction)
+  VERIFICATION: PASS
+--------------------------------------------------------------------------------------------
+
+Indian trading calendar: 1,682 days, 2019-10-01 -> 2026-07-27
+
+signal SP500   : source=^GSPC [cache]            alignment= 96.79% (1628/1682)  range=2019-10-01..2026-07-27
+signal CRUDE   : source=CL=F [cache]             alignment= 96.91% (1630/1682)  range=2019-10-01..2026-07-27
+signal USDINR  : source=INR=X [cache]            alignment= 99.82% (1679/1682)  range=2019-10-01..2026-07-27
+ADR    INFY    : source=INFY [cache]             alignment= 96.79% (1628/1682)  NSE=INFY
+ADR    WIT     : source=WIT [cache]              alignment= 96.79% (1628/1682)  NSE=WIPRO
+ADR    IBN     : source=IBN [cache]              alignment= 96.79% (1628/1682)  NSE=ICICIBANK
+ADR    HDB     : source=HDB [cache]              alignment= 96.79% (1628/1682)  NSE=HDFCBANK
+
+Loaded 1682 bhavcopy files (0 skipped), 3,057,378 EQ stock-day rows, 3,204 symbols, 2019-10-01 -> 2026-07-27
+Corporate-action adjustment applied: 312,489 stock-day rows scaled, 451 symbols with >=1 valid action.
+MarketPanel built: 1,682 trading days x 3,204 symbols, 1,590,597 same-day-eligible stock-days, 1,589,270 lagged-member stock-days (mean 945 names/day, EW basket).
+
+================================================================================================
+PER-CELL DETAIL
+================================================================================================
+
+CELL: SP500 k=1  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N=1,018 G=222 weeks  b=-0.01026  (sign only, no t-stat required)
+  VAL    (2024-01-01..2026-07-31): N=609 G=135 weeks  b=0.02694  t(b)=0.342
+  TRADEABILITY: direction=low  n_favorable_days=169  n_trades=207193  mean_net=-0.9463%  median_net=-1.0837%  hit_rate=+28.3%
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: SP500 k=3  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N=1,018 G=222 weeks  b=0.10604  (sign only, no t-stat required)
+  VAL    (2024-01-01..2026-07-31): N=607 G=134 weeks  b=-0.04122  t(b)=-0.265
+  TRADEABILITY: direction=high  n_favorable_days=194  n_trades=237046  mean_net=-0.7721%  median_net=-1.0331%  hit_rate=+37.3%
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: SP500 k=10  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N=1,018 G=222 weeks  b=0.15731  (sign only, no t-stat required)
+  VAL    (2024-01-01..2026-07-31): N=600 G=133 weeks  b=-0.35595  t(b)=-1.430
+  TRADEABILITY: direction=high  n_favorable_days=194  n_trades=234293  mean_net=-0.5352%  median_net=-1.2244%  hit_rate=+41.7%
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: CRUDE k=1  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N=1,016 G=222 weeks  b=0.02675  (sign only, no t-stat required)
+  VAL    (2024-01-01..2026-07-31): N=611 G=135 weeks  b=0.00748  t(b)=0.358
+  TRADEABILITY: direction=high  n_favorable_days=173  n_trades=215073  mean_net=-0.7978%  median_net=-0.9440%  hit_rate=+30.9%
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): PASS
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: CRUDE k=3  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N=1,016 G=222 weeks  b=0.02030  (sign only, no t-stat required)
+  VAL    (2024-01-01..2026-07-31): N=609 G=134 weeks  b=0.02242  t(b)=0.592
+  TRADEABILITY: direction=high  n_favorable_days=173  n_trades=213265  mean_net=-0.5504%  median_net=-0.9089%  hit_rate=+38.8%
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): PASS
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: CRUDE k=10  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N=1,016 G=222 weeks  b=0.00302  (sign only, no t-stat required)
+  VAL    (2024-01-01..2026-07-31): N=602 G=133 weeks  b=-0.04859  t(b)=-0.737
+  TRADEABILITY: direction=high  n_favorable_days=173  n_trades=206782  mean_net=-0.2677%  median_net=-1.0378%  hit_rate=+43.0%
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: USDINR k=1  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N=1,049 G=222 weeks  b=0.06163  (sign only, no t-stat required)
+  VAL    (2024-01-01..2026-07-31): N=629 G=135 weeks  b=-0.19740  t(b)=-1.557
+  TRADEABILITY: direction=high  n_favorable_days=190  n_trades=233815  mean_net=-0.8818%  median_net=-0.9779%  hit_rate=+29.3%
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): FAIL
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: USDINR k=3  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N=1,049 G=222 weeks  b=-0.00892  (sign only, no t-stat required)
+  VAL    (2024-01-01..2026-07-31): N=627 G=134 weeks  b=-0.31136  t(b)=-1.229
+  TRADEABILITY: direction=low  n_favorable_days=145  n_trades=178875  mean_net=-0.3777%  median_net=-0.7406%  hit_rate=+40.4%
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): PASS
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: USDINR k=10  [market arm]
+  TRAIN  (2019-10-01..2023-12-31): N=1,049 G=222 weeks  b=-0.39319  (sign only, no t-stat required)
+  VAL    (2024-01-01..2026-07-31): N=620 G=133 weeks  b=-0.68760  t(b)=-1.138
+  TRADEABILITY: direction=low  n_favorable_days=145  n_trades=175352  mean_net=+0.2311%  median_net=-0.7047%  hit_rate=+45.0%
+  Criterion 1 (VAL |t(b)|>=2.9): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): PASS
+  Criterion 3 (VAL mean net/trade > 0): PASS
+  => no finding
+
+CELL: ADR k=1  [adr arm  (fade: b must be NEGATIVE)]
+  TRAIN  (2019-10-01..2023-12-31): N=4,072 G=222 weeks  b=0.01526  (sign only, no t-stat required)
+  VAL    (2024-01-01..2026-07-31): N=2,436 G=135 weeks  b=0.00022  t(b)=0.007
+  TRADEABILITY: direction=low (fade, pre-registered)  n_favorable_days=813  n_trades=813  mean_net=-0.4370%  median_net=-0.4688%  hit_rate=+34.2%
+  Criterion 1 (VAL |t(b)|>=2.9 AND b<0): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): PASS
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+CELL: ADR k=3  [adr arm  (fade: b must be NEGATIVE)]
+  TRAIN  (2019-10-01..2023-12-31): N=4,072 G=222 weeks  b=0.04491  (sign only, no t-stat required)
+  VAL    (2024-01-01..2026-07-31): N=2,428 G=134 weeks  b=0.02183  t(b)=0.539
+  TRADEABILITY: direction=low (fade, pre-registered)  n_favorable_days=813  n_trades=810  mean_net=-0.5235%  median_net=-0.5266%  hit_rate=+40.5%
+  Criterion 1 (VAL |t(b)|>=2.9 AND b<0): FAIL
+  Criterion 2 (TRAIN b same sign as VAL b): PASS
+  Criterion 3 (VAL mean net/trade > 0): FAIL
+  => no finding
+
+================================================================================================
+VERDICT
+================================================================================================
+0/11 cells are FINDINGS (all 3 criteria PASS).
+Pre-registered expectation: 0. MATCHES prior.
+
+cell           arm     crit1  crit2  crit3  finding 
+SP500 k=1      market  fail   fail   fail   -       
+SP500 k=3      market  fail   fail   fail   -       
+SP500 k=10     market  fail   fail   fail   -       
+CRUDE k=1      market  fail   PASS   fail   -       
+CRUDE k=3      market  fail   PASS   fail   -       
+CRUDE k=10     market  fail   fail   fail   -       
+USDINR k=1     market  fail   fail   fail   -       
+USDINR k=3     market  fail   PASS   fail   -       
+USDINR k=10    market  fail   PASS   PASS   -       
+ADR k=1        adr     fail   PASS   fail   -       
+ADR k=3        adr     fail   PASS   fail   -       
+================================================================================================
+
+Total runtime: 207.6s

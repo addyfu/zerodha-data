@@ -92,3 +92,19 @@ appended here.
 ## Decision log
 
 - 2026-07-30: Spec frozen (user approved).
+- 2026-07-30 (build, reviewer-accepted): yfinance source (stooq fallback
+  is bot-walled); timezone mapping asserted via zoneinfo with weekend/
+  US-holiday samples verified; alignment 96.8-99.8% all gates passed;
+  builder caught its own cache-dedup bug in smoke; clustered-SE engine
+  verified against statsmodels to 1e-15. Spec's underspecified
+  "favorable tercile" resolved as train-sign-determined (documented).
+- 2026-07-30 (results): **0 FINDINGS out of 11 cells — matches the
+  stated null prior exactly.** No overnight signal (S&P, crude, USDINR)
+  predicts Indian post-open drift after gap control at any horizon
+  (validation |t| all < 1.6); the ADR-fade arm not significant either
+  (t=0.007, 0.539) and its tradeable version loses -0.44 to -0.52% per
+  trade. One cell (USDINR k=10) cleared tradeability without
+  significance — noise, recorded as such. THE OVERNIGHT QUESTION IS NOW
+  CLOSED end-to-end: gap capture (dead at -1.7bp net), gap fade/follow
+  (dead), overnight-info post-open drift (dead), ADR echo (dead).
+  The 09:15 open prices the night. Tombstone #139.
