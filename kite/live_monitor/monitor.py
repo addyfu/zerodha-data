@@ -144,6 +144,8 @@ class LiveMonitor:
         else:
             self.fetcher = ZerodhaDataFetcher(enctoken)
             logger.info("Using LIVE Zerodha data")
+            if enctoken:
+                self._persist_enctoken(enctoken)
 
         # Telegram bot
         self.telegram = TelegramBot(telegram_token, telegram_chat)
@@ -262,6 +264,20 @@ class LiveMonitor:
             logger.error(f"Auto-login failed: {e}")
         return None
 
+    @staticmethod
+    def _persist_enctoken(token: str):
+        """Write the session token to repo-root enctoken.txt (gitignored) so
+        read-only sidecar scripts (report_positions.py) can fetch live quotes
+        by reusing THIS process's session instead of triggering a fresh TOTP
+        login that would invalidate it. Best-effort: the monitor must never
+        die over a sidecar convenience."""
+        try:
+            path = Path(__file__).parent.parent.parent / 'enctoken.txt'
+            path.write_text(token)
+            os.chmod(path, 0o600)
+        except OSError as e:
+            logger.warning(f"Could not persist enctoken to file: {e}")
+
     def _refresh_token_if_needed(self):
         """Re-login and update fetcher token if expired."""
         if self.offline or not hasattr(self.fetcher, 'token_expired') or not self.fetcher.token_expired:
@@ -270,6 +286,7 @@ class LiveMonitor:
         new_token = self._auto_login()
         if new_token:
             self.fetcher.set_enctoken(new_token)
+            self._persist_enctoken(new_token)
             logger.info("Token refreshed successfully")
         else:
             logger.error("Token refresh failed — API calls will continue to fail")

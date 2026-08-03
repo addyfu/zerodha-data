@@ -1,0 +1,21 @@
+[Unit]
+Description=Kite trading -- nightly sync of data/zerodha_data.db from the latest addyfu/zerodha-data GitHub release + minute-bar parquet archive (oneshot, triggered by kite-release-sync.timer)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/projects/kite-monitor
+# sync_release_db.py loads KITE_ROOT/credentials from WorkingDirectory/.env
+# itself (same convention as daily_report.py / parity_monitor.py) -- no
+# EnvironmentFile needed here. The script has its own internal safety gates
+# (market-hours refusal, disk-space floor, pidfile concurrency lock,
+# post-download verification) -- nothing here needs to duplicate them.
+ExecStart=/home/ubuntu/projects/kite-monitor/venv/bin/python kite/live_monitor/sync_release_db.py
+StandardOutput=append:/home/ubuntu/projects/kite-monitor/data/sync_release_db.log
+StandardError=append:/home/ubuntu/projects/kite-monitor/data/sync_release_db.log
+
+# Not enabled directly -- driven by kite-release-sync.timer. No [Install]
+# section; only the timer unit is WantedBy=timers.target (same pattern as
+# daily-report.service).

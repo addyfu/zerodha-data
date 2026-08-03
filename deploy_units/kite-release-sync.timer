@@ -1,0 +1,15 @@
+[Unit]
+Description=Run kite-release-sync.service at 19:45 IST Mon-Fri (well after the 15:20 EOD square-off and 15:35/16:15/16:30 reports -- the monitor is done touching zerodha_data.db for the day)
+
+[Timer]
+# Timezone suffix on the calendar spec (supported since systemd 239) makes
+# this correct regardless of whether the VM's system clock is UTC or IST --
+# avoids hardcoding a UTC offset that would silently drift if the box's TZ
+# changes. Equivalent fixed UTC offset, for reference: 14:15:00 UTC
+# (IST = UTC+5:30, no DST). Matches deploy/daily-report.timer's convention.
+OnCalendar=Mon..Fri 19:45:00 Asia/Kolkata
+Persistent=true
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target
