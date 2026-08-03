@@ -1,0 +1,21 @@
+[Unit]
+Description=Kite trading -- NIFTY options minute-bar forward collector: fetches the two nearest-expiry option chains (+/-1000 pts of spot) and appends to data/options_data.db, self-healing any missed day while the contract still lives (oneshot, triggered by kite-options-collector.timer)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/projects/kite-monitor
+# options_collector.py reads WorkingDirectory/enctoken.txt (the file monitor.py
+# persists at its 09:10 login) or ZERODHA_ENCTOKEN env -- no EnvironmentFile
+# needed here. Never performs a login of its own; a dead token is a hard
+# failure (CRITICAL log, exit 1) per the tripwire discipline in the design
+# spec -- nothing here needs to duplicate that.
+ExecStart=/home/ubuntu/projects/kite-monitor/venv/bin/python options_collector.py
+StandardOutput=append:/home/ubuntu/projects/kite-monitor/data/options_collector.log
+StandardError=append:/home/ubuntu/projects/kite-monitor/data/options_collector.log
+
+# Not enabled directly -- driven by kite-options-collector.timer. No [Install]
+# section; only the timer unit is WantedBy=timers.target (same pattern as
+# kite-release-sync.service).

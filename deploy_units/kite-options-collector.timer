@@ -1,0 +1,15 @@
+[Unit]
+Description=Run kite-options-collector.service at 15:45 IST Mon-Fri -- market closes 15:30 so the day's bars are final, monitor's 09:10 login token is still comfortably fresh (options fetch needs only a few minutes of it), and it lands well before the 19:45 kite-release-sync so the two databases are never touched in the same window
+
+[Timer]
+# Timezone suffix on the calendar spec (supported since systemd 239) makes
+# this correct regardless of whether the VM's system clock is UTC or IST --
+# avoids hardcoding a UTC offset that would silently drift if the box's TZ
+# changes. Equivalent fixed UTC offset, for reference: 10:15:00 UTC
+# (IST = UTC+5:30, no DST). Matches kite-release-sync.timer's convention.
+OnCalendar=Mon..Fri 15:45:00 Asia/Kolkata
+Persistent=true
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target
