@@ -31,7 +31,15 @@ NOTHING here touches the live trial before the October verdict.
 
 ## The shortlist (ranked)
 
-### A. Rotation entry/exit refinement — RESOLVED: all 4 FAIL + data alarm
+### A. FINAL UPDATE (bug-clean re-run, same day): first-run numbers were
+engine-artifact (cash-destruction bug, see spec decision log). Clean
+verdicts: S3/S5/X0 FAIL, XR INVALID (placebo caught it — random ranks
+match its edge). Fragility flag stands (4.85pp). Baseline vindicated at
++4.58%/yr — real but ~5pp behind buy-and-hold. Plain rotation stands;
+no refinement adopted. honest_lab validation restored; live paper_trader
+verified clean.
+
+### A. Rotation entry/exit refinement — superseded first pass (see above)
 (2026-08-04, spec 2026-08-04-rotation-refinement-design.md.) S3/S5
 staggering, X0 no-stop, XR regime brake: every variant FAILS the frozen
 bars vs the replicated live baseline. Date-fragility flag RAISED (12.5pp

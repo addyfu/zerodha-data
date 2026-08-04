@@ -108,3 +108,22 @@ picks recomputed by hand from the panel and matched.
 
 - 2026-08-04: Spec frozen. User approved all three knobs; reviewer wrote
   spec; sonnet builds; reviewer verifies before any commit.
+- 2026-08-04 (first run INVALIDATED): the study engine destroyed the
+  floor-rounding remainder on every buy (cash -= nominal slot instead of
+  actual cost) — Rs 101,611 of simulated capital vaporized over the run.
+  Found by five-round trade-diff forensics (pipeline_reconciliation
+  results, follow-ups #1-#5) after the absolute numbers failed reviewer
+  smell-test. Original results kept as marked appendix. Side effect of
+  the hunt: honest_lab's +3.5-5%/yr validation VINDICATED cross-engine;
+  live paper_trader.py verified clean (deducts real cost).
+- 2026-08-04 (bug-clean verdicts, FINAL): baseline +4.584%/yr net.
+  S3 FAIL (-0.42pp), S5 FAIL (-3.36pp), X0 FAIL (+0.11pp < 0.5pp bar),
+  XR INVALID — best margin (+1.49pp, 2/3 eras) but the placebo control
+  caught it: random ranks produce +1.24pp of the same "edge", so the
+  regime brake's improvement is indistinguishable from noise. Fragility
+  flag RAISED and REAL (date spread 4.85pp, survives the bug fix):
+  rebalance-day choice moves CAGR by ~5pp — a standing caution against
+  over-reading any single rotation backtest. Net conclusion: plain
+  momo_rotation_63 stands; no refinement earned a place; the strategy's
+  true historical rate is ~+3.5-6%/yr — positive, modest, and materially
+  behind buy-and-hold's +9.8%/yr on the same era (regime-exit study).

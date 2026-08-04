@@ -532,7 +532,15 @@ def run_sim(calendar, close_wide, open_wide, mom_df, regime_on, rebalance_dates,
             if qty <= 0:
                 continue
             cost = qty * o
-            cash -= cash_amt
+            # BUG FIX 2026-08-04 (trade-diff forensics, pipeline_reconciliation_results.txt
+            # follow-up #4/#5): was `cash -= cash_amt`, which deducted the FULL nominal
+            # slot and silently destroyed the floor-rounding remainder (up to Rs 8.5k on
+            # a single Rs 11k+ share; Rs 101,611 cumulatively on this panel). Correct
+            # convention: deduct actual share cost + the fee portion; remainder stays
+            # in cash. Moves baseline from -14.56%/yr to +4.58%/yr. All results
+            # produced before this fix are INVALID (kept as appendix in results file).
+            cash -= cost
+            cash -= (cash_amt - investable)
             if sym in positions:
                 p = positions[sym]
                 p['qty'] += qty

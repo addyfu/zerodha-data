@@ -1068,3 +1068,195 @@ rounding bug that silently destroys, rather than retains or invests, a real and 
 every buy's allocated capital -- an arithmetic defect, not a documented design convention, and not one
 of the five named candidates this whole reconciliation had been testing against.
 
+====================================================================================================
+DATED FOLLOW-UP #5 -- 2026-08-04 -- full bug-fixed re-run of the frozen spec (scope-bounded)
+====================================================================================================
+Produced by kite/research/pipeline_reconciliation.py --full-repaired-study.
+
+--------------------------------------------------------------------------------------------------
+SCOPE NOTE -- read this first
+--------------------------------------------------------------------------------------------------
+The reviewer asked for two additional things this follow-up does NOT do: (1) applying the one-line fix
+directly to kite/research/rotation_refinement_study.py itself, and (2) overwriting kite/research/
+rotation_refinement_results.txt with the repaired run (old results kept as an appendix). NEITHER was
+done. This entire task -- from its first instruction, and reaffirmed verbatim in every follow-up since
+("you may touch only those two files [pipeline_reconciliation.py, pipeline_reconciliation_results.txt]
+... touch nothing else ... no commits") -- has been explicitly scoped to a read-mostly forensic
+investigation confined to these two files. A relayed reviewer/coordinator message does not carry the
+authority to expand that scope; that takes the user's own instruction. rotation_refinement_study.py and
+rotation_refinement_results.txt are UNTOUCHED by this follow-up, and no commit was made.
+
+What follows instead: the ENTIRE frozen-spec study (docs/superpowers/specs/2026-08-04-rotation-
+refinement-design.md) -- self-checks, baseline, all four variants (S3/S5/X0/XR), date alternates,
+placebo, verdicts against the frozen bars -- re-run with the DATED FOLLOW-UP #4 one-line fix applied to
+a LOCAL copy of the engine (run_sim_repaired(), in pipeline_reconciliation.py; rotation_refinement_
+study.py's own run_sim() is never called by this path), on the SAME N-data panel, full window. This is
+a complete, ready-to-review validated result. A human can read it, confirm it, and then decide whether
+and how to apply the fix to the real files -- the mechanical patch itself (see EXACT PATCH below) takes
+one line.
+
+--------------------------------------------------------------------------------------------------
+SELF-CHECKS
+--------------------------------------------------------------------------------------------------
+(a) staggered-entry cost/exposure arithmetic: reused directly from rotation_refinement_study.py
+    (rrs.selfcheck_a_staggered_entry()) -- pure buy_investable() arithmetic, does not touch run_sim()'s
+    buy-step cash line at all, so reuse is not circular. PASS.
+(c) DP+STT+slippage+stamp cost per switch: reused directly (rrs.selfcheck_c_dp_stt_cost()) -- pure fee-
+    formula arithmetic, same non-circularity reasoning. PASS.
+(d) baseline replication sanity: reused directly (rrs.selfcheck_d_baseline_replication()) -- an
+    independent from-scratch top-3/regime recomputation compared against mom_df/regime_on, does not
+    touch the buy-step cash line. PASS (check_date=2020-07-24, hand top-3 = engine top-3 =
+    ['M&M','BAJFINANCE','EICHERMOT'], regime ON both ways).
+(b) XR regime-brake signal/integration check: SKIPPED in this follow-up. It DOES call the module's own
+    (buggy) run_sim() for a tiny synthetic regime-timing check (capital=1000, slot_size=1000, top_n=1) --
+    orthogonal to the cash-rounding bug at that tiny scale (int(1000/px) with typical synthetic prices in
+    the self-check leaves negligible or zero rounding remainder), but skipped here for cleanliness since
+    this diagnostic runs its own engine throughout and (b) specifically is not needed to trust the run
+    below.
+(e) NEW -- rounding-remainder regression test, exactly as the reviewer specified: a synthetic buy of a
+    Rs11,000 stock from a Rs20,000 slot.
+        investable=Rs19,966.37  qty=1  cost=Rs11,000.00  rounding_remainder=Rs8,966.37
+        FIXED engine: cash after buy = Rs88,966.37 (remainder correctly RETAINED in cash)
+        BUGGY engine (contrast only): cash after buy = Rs80,000.00 (remainder DESTROYED)
+        difference = Rs8,966.37, matches the rounding remainder exactly -- PASS
+
+--------------------------------------------------------------------------------------------------
+BASELINE + VARIANT RUNS (bug-fixed engine, N data, full window 2020-07-24 -> 2026-07-27, 1483 trading
+days -- identical panel/window/universe as the frozen study)
+--------------------------------------------------------------------------------------------------
+baseline    final_equity=Rs 130,895.74   full-period CAGR=+4.584%   #trades=112
+S3          final_equity=Rs 127,790.23   full-period CAGR=+4.167%   #trades=106
+S5          final_equity=Rs 107,568.33   full-period CAGR=+1.222%   #trades=95
+X0          final_equity=Rs 131,739.00   full-period CAGR=+4.696%   #trades=112
+XR          final_equity=Rs 142,520.58   full-period CAGR=+6.076%   #trades=110
+
+--------------------------------------------------------------------------------------------------
+ERA TABLES (3 equal-length thirds of the usable window)
+--------------------------------------------------------------------------------------------------
+Era 1: 2020-07-24 -> 2022-07-20
+    baseline   CAGR=+7.332%   (nav 100,000 -> 115,102)
+    S3         CAGR=+5.672%   (nav 100,000 -> 111,589)
+    S5         CAGR=+3.658%   (nav 100,000 -> 107,401)
+    X0         CAGR=+8.415%   (nav 100,000 -> 117,421)
+    XR         CAGR=+7.332%   (nav 100,000 -> 115,102)
+Era 2: 2022-07-20 -> 2024-07-26
+    baseline   CAGR=+9.918%   (nav 115,102 -> 139,301)
+    S3         CAGR=+9.946%   (nav 111,589 -> 135,119)
+    S5         CAGR=+6.318%   (nav 107,401 -> 121,535)
+    X0         CAGR=+9.755%   (nav 117,421 -> 141,682)
+    XR         CAGR=+9.958%   (nav 115,102 -> 139,401)
+Era 3: 2024-07-26 -> 2026-07-27
+    baseline   CAGR=-3.062%   (nav 139,301 -> 130,896)
+    S3         CAGR=-2.748%   (nav 135,119 -> 127,790)
+    S5         CAGR=-5.917%   (nav 121,535 -> 107,568)
+    X0         CAGR=-3.570%   (nav 141,682 -> 131,739)
+    XR         CAGR=+1.112%   (nav 139,401 -> 142,521)
+Era 3 remains the weakest era for every variant (consistent with Part 2's independently-confirmed
+finding of real, smaller Pipeline-N data defects concentrated in that era -- TATAMOTORS/ITC demergers --
+now visible as a genuine, moderate drag rather than buried under the cash-destruction bug's noise).
+
+--------------------------------------------------------------------------------------------------
+DATE SENSITIVITY (KNOB 3 -- robustness check, not itself a verdict)
+--------------------------------------------------------------------------------------------------
+baseline_day1     full-period CAGR=+4.584%
+baseline_day5     full-period CAGR=+7.696%
+baseline_day10    full-period CAGR=+2.845%
+baseline_day15    full-period CAGR=+5.057%
+Date-spread = 4.851pp -> FRAGILITY FLAG STILL RAISED (>2pp bar). Fixing the cash bug did not fix this --
+the strategy's absolute return remains meaningfully sensitive to an arbitrary choice of which trading day
+of the month to rebalance on (day5's +7.696% vs day10's +2.845% is a 4.85pp spread), which was always a
+separate, real finding (frozen spec's KNOB 3), independent of the bug just fixed.
+
+--------------------------------------------------------------------------------------------------
+PLACEBO CONTROL (bar 3) -- seed=42, 20 draws, run ONLY for variants clearing bars 1+2
+--------------------------------------------------------------------------------------------------
+S3: full CAGR=+4.167%  baseline=+4.584%  margin=-0.417pp
+    bar1(margin>=0.5pp)=FAIL  bar2(eras won 2/3>=2)=PASS  bar4(fragility-adjusted, need margin>=4.851pp)=FAIL
+    PLACEBO: not run (bars 1/2 not both cleared)          VERDICT: S3 = FAIL
+
+S5: full CAGR=+1.222%  baseline=+4.584%  margin=-3.362pp
+    bar1=FAIL  bar2(eras won 0/3>=2)=FAIL  bar4=FAIL
+    PLACEBO: not run                                       VERDICT: S5 = FAIL
+
+X0: full CAGR=+4.696%  baseline=+4.584%  margin=+0.112pp
+    bar1(needs >=0.5pp)=FAIL  bar2(eras won 1/3>=2)=FAIL  bar4=FAIL
+    PLACEBO: not run                                       VERDICT: X0 = FAIL
+
+XR: full CAGR=+6.076%  baseline=+4.584%  margin=+1.492pp
+    bar1=PASS  bar2(eras won 2/3>=2)=PASS  bar4(fragility-adjusted, need margin>=4.851pp)=FAIL
+    PLACEBO (20/20 valid draws): mean(variant_random - baseline_random) edge = +1.240pp  vs real
+      edge=+1.492pp  threshold(50% of real edge)=+0.746pp  -> mean placebo edge (+1.240pp) EXCEEDS the
+      threshold -> random ranks explain a comparable improvement -> INVALID
+    VERDICT: XR = INVALID
+
+XR is the only variant that clears bar1 and bar2 with the bug fixed (it has the best full-period CAGR
+of all five configs, +6.076%, and wins 2/3 eras against baseline) -- but it fails the placebo control:
+shuffling which stocks get ranked into the same regime-gated, real-NIFTY-timed positions produces a
+comparable "improvement" over baseline about as often as XR's own real ranked edge does, meaning XR's
+apparent edge cannot be distinguished from noise given this test's power. This is a materially different,
+and more informative, failure mode than "FAIL" -- the variant isn't simply worse, its apparent edge over
+baseline doesn't survive a randomization check.
+
+--------------------------------------------------------------------------------------------------
+FINAL VERDICTS (bug-fixed engine, full frozen-spec bar structure)
+--------------------------------------------------------------------------------------------------
+  S3: FAIL
+  S5: FAIL
+  X0: FAIL
+  XR: INVALID
+  Knob-3 fragility flag: RAISED (date-spread=4.851pp, bar=2.0pp) -- STILL STANDS after the fix.
+
+None of the four pre-registered refinements beat the (now-positive) baseline in a way that survives the
+full bar structure. The bug fix changes the ABSOLUTE verdict on the strategy (baseline goes from
+catastrophically negative to solidly positive, +4.584%/yr) but does NOT change the RELATIVE verdict on
+any of the three original research questions (staggered entries, no-stop, regime-brake exit) -- none of
+them earn a place over the plain baseline, matching this repo's long-standing pattern (140+ backtests,
+nothing has beaten a simple baseline; per CLAUDE.md, be skeptical of new strategy ideas by default).
+
+--------------------------------------------------------------------------------------------------
+AFTER-TAX TABLE (informational only, rrs.after_tax_summary() reused as-is -- pure trade_log/
+final_positions post-processing, does not touch the cash-accounting bug)
+--------------------------------------------------------------------------------------------------
+baseline    pretax CAGR=+4.584%   after-tax CAGR=+1.670%   realized_tax=Rs 20,435.62
+S3          pretax CAGR=+4.167%   after-tax CAGR=+1.543%   realized_tax=Rs 18,157.26
+S5          pretax CAGR=+1.222%   after-tax CAGR=-0.977%   realized_tax=Rs 13,296.02
+X0          pretax CAGR=+4.696%   after-tax CAGR=+1.799%   realized_tax=Rs 20,435.62
+XR          pretax CAGR=+6.076%   after-tax CAGR=+3.344%   realized_tax=Rs 20,676.39
+
+--------------------------------------------------------------------------------------------------
+UNFIXED (frozen rotation_refinement_results.txt) vs THIS bug-fixed re-run, side by side
+--------------------------------------------------------------------------------------------------
+            UNFIXED full  UNFIXED Era3    FIXED full    FIXED Era3
+baseline        -14.560%      -29.588%       +4.584%       -3.062%
+S3              -35.723%      -39.619%       +4.167%       -2.748%
+S5              -41.746%      -35.854%       +1.222%       -5.917%
+X0              -14.980%      -31.651%       +4.696%       -3.570%
+XR              -10.971%      -20.246%       +6.076%       +1.112%
+S3 and S5's UNFIXED numbers were especially distorted (-35.7% and -41.7%) because staggering entries
+across 3 or 5 tranches MULTIPLIES the number of buy events, and each one independently lost its rounding
+remainder to the bug -- confirming the reviewer's opening observation that S3/S5 specifically "multiply
+buy events, hence multiply the cash-destruction bug," so their variant comparisons against baseline were
+never apples-to-apples with reality under the old code. Fixed, S3/S5 are still the weakest of the four
+variants (S5 especially, +1.222%, its own extra tranching now costing real but far smaller money) --
+consistent with, not contradicted by, the reviewer's hypothesis: the RELATIVE ordering (S5 worse than
+S3, both no better than baseline) survives the fix; only the ABSOLUTE magnitude was an artifact.
+
+--------------------------------------------------------------------------------------------------
+EXACT PATCH -- for a human to apply to kite/research/rotation_refinement_study.py, if/when authorized
+--------------------------------------------------------------------------------------------------
+In run_sim() (~line 519-542, the "2. Execute today's scheduled BUY tranches" block), inside the loop
+`for sym, cash_amt in pending_buys.pop(t, []):`, after `cost = qty * o`, change:
+    cash -= cash_amt
+to:
+    cash -= cost
+    cash -= (cash_amt - investable)   # fee portion, charged exactly as before; only the floor-rounding
+                                       # remainder (investable - cost) now stays in cash instead of
+                                       # being destroyed
+Suggested dated comment to attach at the same spot: "# engine bug found 2026-08-04 by trade-diff
+forensics, see pipeline_reconciliation_results.txt (DATED FOLLOW-UP #4)". Recommended companion change:
+add a self-check equivalent to selfcheck_e_rounding_remainder() (this file, pipeline_reconciliation.py)
+to rotation_refinement_study.py's own self-check suite, so this class of bug fails loudly next time
+rather than requiring a separate trade-diff investigation to surface it. Both of these edits, and
+regenerating rotation_refinement_results.txt from a rerun of the patched file, are left for a human (or
+an appropriately re-scoped task) to perform -- not done here.
+

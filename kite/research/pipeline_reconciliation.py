@@ -2119,6 +2119,458 @@ def run_trade_diff_diagnostic():
     return out_lines
 
 
+# ===========================================================================
+# REVIEWER FOLLOW-UP DIAGNOSTIC #5 -- appended 2026-08-04, full bug-fixed
+# re-run of the frozen rotation-refinement-study spec.
+#
+# SCOPE NOTE (read this before anything below): the reviewer asked for the
+# one-line fix to be applied DIRECTLY to kite/research/rotation_refinement_
+# study.py itself, and for kite/research/rotation_refinement_results.txt (a
+# DIFFERENT file from this task's two permitted output files) to be
+# overwritten. This whole task has been explicitly scoped, from its very
+# first instruction and reaffirmed verbatim in every follow-up since --
+# "you may touch only those two files [pipeline_reconciliation.py,
+# pipeline_reconciliation_results.txt] ... touch nothing else ... no
+# commits" -- to a read-mostly forensic investigation. A relayed reviewer/
+# coordinator message cannot expand that scope; expanding it takes the
+# user's own instruction. So: NEITHER rotation_refinement_study.py NOR
+# rotation_refinement_results.txt is modified anywhere in this file. What
+# follows instead reproduces the ENTIRE frozen-spec study -- self-checks,
+# baseline, all 4 variants (S3/S5/X0/XR), date alternates, placebo, verdicts
+# against the frozen bars -- with the SAME one-line arithmetic fix applied to
+# a LOCAL copy of the engine (run_sim_repaired below), on the SAME N-data
+# panel (docs/superpowers/specs/2026-08-04-rotation-refinement-design.md's
+# panel, full window). This gives a human everything needed to review the
+# validated output BEFORE anyone patches the real file and overwrites its
+# official results.
+#
+# Run:  python kite/research/pipeline_reconciliation.py --full-repaired-study
+# ===========================================================================
+def run_sim_repaired(calendar, close_wide, open_wide, mom_df, regime_on, rebalance_dates, rrs,
+                      stagger_n=1, use_disaster_stop=True, rank_fn=None,
+                      capital=None, slot_size=None, top_n=None, max_slots=None):
+    """Faithful copy of rotation_refinement_study.py's run_sim(), with the
+    ONE bug fix applied at the buy step: `cash -= cash_amt` (deducts the
+    FULL nominal slot regardless of how much was actually spent on whole
+    shares) is replaced with `cash -= cost` plus the fee portion
+    (cash_amt - investable) charged separately -- matching honest_lab.py's
+    own convention (`cash -= qty * px`). Per the trade-diff forensics
+    finding (pipeline_reconciliation_results.txt, DATED FOLLOW-UP #4,
+    2026-08-04): the original line silently destroyed the floor-rounding
+    remainder on every buy (negligible for cheap stocks, 10-43% of a
+    Rs20,000 slot for expensive NIFTY-50 names), Rs70,587 (70.6% of
+    starting capital) on the Z-data window, Rs101,611 (101.6%) on the
+    N-data window. EVERYTHING ELSE in this function -- sells, disaster-stop
+    check, force-exit-on-disappearance, rebalance/rank logic, staggered-
+    entry tranche splitting, equity recording -- is copied verbatim from
+    run_sim(), calling run_sim()'s OWN helper functions (buy_investable,
+    sell_net_proceeds, DISASTER_SL, _mark_to_market, make_momentum_rank_fn)
+    via the `rrs` module reference."""
+    capital = rrs.CAPITAL if capital is None else capital
+    slot_size = rrs.SLOT_SIZE if slot_size is None else slot_size
+    top_n = rrs.TOP_N if top_n is None else top_n
+    max_slots = rrs.MAX_POSITIONS if max_slots is None else max_slots
+    if rank_fn is None:
+        rank_fn = rrs.make_momentum_rank_fn(mom_df)
+
+    cash = capital
+    positions = {}
+    pending_sells = {}
+    pending_buys = {}
+    trade_log = []
+    equity_curve = {}
+    n = len(calendar)
+
+    def cancel_future_buys(sym, after_idx):
+        for j in range(after_idx + 1, min(after_idx + 1 + max(stagger_n, 1) + 1, n)):
+            fd = calendar[j]
+            if fd in pending_buys:
+                pending_buys[fd] = [b for b in pending_buys[fd] if b[0] != sym]
+
+    for i, t in enumerate(calendar):
+        # 1. SELLS -- verbatim from run_sim()
+        for sym in pending_sells.pop(t, []):
+            if sym not in positions:
+                continue
+            pos = positions.pop(sym)
+            o = open_wide.at[t, sym] if (t in open_wide.index and pd.notna(open_wide.at[t, sym])) else np.nan
+            if pd.isna(o):
+                prior_closes = close_wide[sym].loc[:t].dropna()
+                o = float(prior_closes.iloc[-1]) if len(prior_closes) else pos['cost_basis'] / pos['qty']
+            gross = pos['qty'] * o
+            proceeds = rrs.sell_net_proceeds(gross)
+            cash += proceeds
+            gain = proceeds - pos['cost_basis']
+            hold_days = (t - pos['tranches'][0][0]).days
+            is_ltcg = hold_days > rrs.LTCG_HOLDING_DAYS
+            tax = max(gain, 0.0) * (rrs.LTCG_RATE if is_ltcg else rrs.STCG_RATE)
+            trade_log.append({'symbol': sym, 'entry_date': pos['tranches'][0][0], 'exit_date': t,
+                               'qty': pos['qty'], 'cost_basis': pos['cost_basis'], 'proceeds': proceeds,
+                               'gain': gain, 'tax': tax, 'holding_days': hold_days})
+            cancel_future_buys(sym, i)
+
+        # 2. BUYS -- THE FIX is here, everything else verbatim
+        for sym, cash_amt in pending_buys.pop(t, []):
+            o = open_wide.at[t, sym] if (t in open_wide.index) else np.nan
+            if pd.isna(o):
+                continue
+            if cash_amt > cash:
+                continue  # binary reject, verbatim from run_sim() -- unrelated to the rounding bug
+            investable = rrs.buy_investable(cash_amt)
+            qty = int(investable / o)
+            if qty <= 0:
+                continue
+            cost = qty * o
+            cash -= cost                      # THE FIX (was: cash -= cash_amt)
+            cash -= (cash_amt - investable)    # fee portion, still charged, exactly as before --
+                                                # nothing about fees changes, only the rounding remainder
+                                                # (investable - cost) now correctly stays in cash
+            if sym in positions:
+                p = positions[sym]
+                p['qty'] += qty
+                p['cost_basis'] += cost
+                p['tranches'].append((t, qty, o))
+            else:
+                positions[sym] = {'qty': qty, 'cost_basis': cost, 'tranches': [(t, qty, o)]}
+
+        # 3. Disaster-stop check -- verbatim
+        if use_disaster_stop:
+            stops_today = []
+            for sym, pos in positions.items():
+                c = close_wide.at[t, sym] if (t in close_wide.index) else np.nan
+                if pd.isna(c):
+                    continue
+                avg_price = pos['cost_basis'] / pos['qty']
+                if c <= rrs.DISASTER_SL * avg_price:
+                    stops_today.append(sym)
+            for sym in stops_today:
+                if i + 1 < n:
+                    nd = calendar[i + 1]
+                    pending_sells.setdefault(nd, [])
+                    if sym not in pending_sells[nd]:
+                        pending_sells[nd].append(sym)
+                    cancel_future_buys(sym, i)
+
+        # 3b. Symbol-disappearance safety net -- verbatim
+        for sym in list(positions.keys()):
+            col = close_wide[sym]
+            has_today = t in col.index and pd.notna(col.at[t])
+            future = col.loc[col.index > t]
+            has_future = future.notna().any()
+            if has_today and not has_future and i + 1 < n:
+                nd = calendar[i + 1]
+                pending_sells.setdefault(nd, [])
+                if sym not in pending_sells[nd]:
+                    pending_sells[nd].append(sym)
+                cancel_future_buys(sym, i)
+
+        # 4. Rebalance decision -- verbatim, including staggered-entry tranche splitting
+        if t in rebalance_dates and i + 1 < n:
+            nd_start = i + 1
+            if not regime_on.get(t, False):
+                for s in list(positions.keys()):
+                    nd = calendar[nd_start]
+                    pending_sells.setdefault(nd, [])
+                    if s not in pending_sells[nd]:
+                        pending_sells[nd].append(s)
+                    cancel_future_buys(s, i)
+            else:
+                eligible = [s for s in mom_df.columns if (t in mom_df.index and pd.notna(mom_df.at[t, s]))]
+                ranked = rank_fn(t, eligible)
+                top = ranked[:top_n]
+                exits = [s for s in positions if s not in top]
+                entries = [s for s in top if s not in positions]
+                for s in exits:
+                    nd = calendar[nd_start]
+                    pending_sells.setdefault(nd, [])
+                    if s not in pending_sells[nd]:
+                        pending_sells[nd].append(s)
+                    cancel_future_buys(s, i)
+                fut_dates = calendar[nd_start: nd_start + stagger_n]
+                if len(fut_dates) > 0:
+                    tranche_cash = slot_size / len(fut_dates)
+                    for s in entries:
+                        for fd in fut_dates:
+                            pending_buys.setdefault(fd, []).append((s, tranche_cash))
+
+        # 5. Record equity -- verbatim
+        equity_curve[t] = rrs._mark_to_market(cash, positions, close_wide, t)
+
+    return pd.Series(equity_curve), trade_log, positions, cash
+
+
+def run_variant_repaired(name, cfg, calendar, close_wide, open_wide, mom_df, proxy_regime_on,
+                          real_regime_on, rrs, rank_fn=None):
+    """Mirrors rotation_refinement_study.py's run_variant(), calling
+    run_sim_repaired() (the bug-fixed local engine) instead of the module's
+    own (buggy) run_sim()."""
+    regime_series = proxy_regime_on if cfg['regime'] == 'proxy' else real_regime_on
+    rebalance_dates = set(rrs.build_rebalance_dates(calendar, cfg['day_n']))
+    eq, trades, final_pos, final_cash = run_sim_repaired(
+        calendar, close_wide, open_wide, mom_df, regime_series, rebalance_dates, rrs,
+        stagger_n=cfg['stagger_n'], use_disaster_stop=cfg['use_disaster_stop'], rank_fn=rank_fn)
+    return {'name': name, 'equity': eq, 'trades': trades, 'final_positions': final_pos, 'final_cash': final_cash}
+
+
+def selfcheck_e_rounding_remainder(rrs):
+    """NEW self-check, requested by the reviewer as the regression test for
+    the cash-destruction bug found by trade-diff forensics (DATED FOLLOW-UP
+    #4): a synthetic buy of a Rs11,000 stock from a Rs20,000 slot must leave
+    the rounding remainder IN CASH, not destroy it. Hand-computable, plain
+    asserts, no real data needed."""
+    print('  [e] rounding-remainder regression test (2026-08-04, trade-diff forensics finding)')
+    price = 11_000.0
+    slot = 20_000.0
+    investable = rrs.buy_investable(slot)     # slot after buy-side friction (slippage+STT+stamp+exch/SEBI)
+    qty = int(investable / price)             # floor division -- exactly the scenario that destroyed
+                                               # 70.6%/101.6% of capital in the unfixed engine
+    assert qty == 1, qty                      # 19,966.37 / 11,000 = 1.815 -> floors to 1 share
+    cost = qty * price
+    assert abs(cost - 11_000.0) < 1e-9, cost
+    remainder = investable - cost             # this is the rounding remainder the bug used to destroy
+    assert remainder > 8_000.0, remainder     # ~Rs8,966.37 -- a huge fraction of the slot
+    # THE FIX under test: cash -= cost (+ fee separately), NOT cash -= slot
+    cash_before = 100_000.0
+    fee_portion = slot - investable
+    cash_after_fixed = cash_before - cost - fee_portion
+    cash_after_buggy = cash_before - slot
+    assert abs(cash_after_fixed - (cash_before - investable + remainder - fee_portion)) < 1e-6  # sanity
+    assert cash_after_fixed > cash_after_buggy + 1e-6, (cash_after_fixed, cash_after_buggy)
+    assert abs(cash_after_fixed - cash_after_buggy - remainder) < 1e-6, \
+        (cash_after_fixed - cash_after_buggy, remainder)
+    print(f'        Rs11,000 stock, Rs20,000 slot: investable=Rs{investable:,.2f}  qty={qty}  '
+          f'cost=Rs{cost:,.2f}  rounding_remainder=Rs{remainder:,.2f}')
+    print(f'        FIXED engine: cash after buy = Rs{cash_after_fixed:,.2f} '
+          f'(remainder correctly RETAINED in cash)')
+    print(f'        BUGGY engine (for contrast, NOT what run_sim_repaired does): '
+          f'cash after buy = Rs{cash_after_buggy:,.2f} (remainder DESTROYED)')
+    print(f'        difference = Rs{cash_after_fixed - cash_after_buggy:,.2f}, matches the rounding '
+          f'remainder exactly -- PASS')
+
+
+def run_full_repaired_study():
+    out_lines = []
+
+    def p(msg=''):
+        print(msg, flush=True)
+        out_lines.append(str(msg))
+
+    from kite.research import rotation_refinement_study as rrs
+
+    p('=' * 100)
+    p('REVIEWER FOLLOW-UP #5: full bug-fixed re-run of the frozen rotation-refinement-study spec')
+    p('=' * 100)
+    p('SCOPE NOTE: this reproduces the study with the DATED FOLLOW-UP #4 fix applied to a LOCAL engine '
+      'copy (run_sim_repaired, this file) -- kite/research/rotation_refinement_study.py and '
+      'kite/research/rotation_refinement_results.txt are NOT modified anywhere in this run. See the '
+      'module docstring above run_sim_repaired() for why.')
+    p('')
+
+    p('-' * 100)
+    p('SELF-CHECKS -- (a)/(c)/(d) reused directly from rotation_refinement_study.py (independent of the '
+      'cash-accounting bug: (a) is pure buy_investable() arithmetic, (c) is pure fee-formula arithmetic, '
+      '(d) is a ranking recomputation -- none of these three exercise run_sim()\'s buy-step cash line at '
+      'all, so reusing them as-is is not circular). (b) is skipped here (it DOES call the module\'s own '
+      'run_sim() for a tiny synthetic regime-timing check, capital=1000/slot=1000/top_n=1 -- orthogonal '
+      'to the cash bug, but skipped for cleanliness since this diagnostic has its own engine). (e) is '
+      'NEW, the requested regression test for this specific bug.')
+    p('-' * 100)
+    rrs.selfcheck_a_staggered_entry()
+    rrs.selfcheck_c_dp_stt_cost()
+    selfcheck_e_rounding_remainder(rrs)
+    p('')
+
+    p('-' * 100)
+    p('LOADING N-DATA PANEL (docs/superpowers/specs/2026-08-04-rotation-refinement-design.md\'s panel: '
+      'data/bhavcopy_full + data/corp_actions_adjustments.csv, full window)')
+    p('-' * 100)
+    close_wide, open_wide, universe = rrs.load_universe_panel()
+    nifty_close = rrs.load_real_nifty()
+    mom_df = rrs.compute_momentum(close_wide, rrs.LOOKBACK)
+    _, _, proxy_regime_on_full = rrs.compute_proxy_regime(close_wide, rrs.REGIME_SMA)
+    valid_from = rrs.REGIME_SMA - 1
+    calendar = close_wide.index[valid_from:]
+    global_start, global_end = calendar[0], calendar[-1]
+    proxy_regime_on = pd.Series({d: bool(proxy_regime_on_full.get(d, False)) for d in calendar})
+    real_regime_on = rrs.compute_real_nifty_regime(nifty_close, calendar, rrs.REGIME_SMA)
+    rrs.selfcheck_d_baseline_replication(close_wide, mom_df, proxy_regime_on)
+    p(f'Usable backtest window: {global_start.date()} -> {global_end.date()}  '
+      f'({(global_end - global_start).days / 365.25:.2f} years, {len(calendar)} trading days)')
+    p('')
+
+    p('-' * 100)
+    p('BASELINE + VARIANT RUNS (bug-fixed engine, momentum-ranked, N data)')
+    p('-' * 100)
+    results = {}
+    full_cagr_by_name = {}
+    for name, cfg in rrs.VARIANTS.items():
+        r = run_variant_repaired(name, cfg, calendar, close_wide, open_wide, mom_df,
+                                  proxy_regime_on, real_regime_on, rrs)
+        results[name] = r
+        final_eq = rrs.equity_at(r['equity'], global_end)
+        full_cagr = rrs.cagr(rrs.CAPITAL, final_eq, global_start, global_end)
+        full_cagr_by_name[name] = full_cagr
+        p(f'{name:10s}  final_equity=Rs {final_eq:>12,.2f}  full-period CAGR={rrs.pct(full_cagr)}  '
+          f'#trades={len(r["trades"])}')
+    p('')
+
+    windows = rrs.era_windows(calendar, 3)
+    p('-' * 100)
+    p(f'ERA TABLES (3 equal-length thirds, {global_start.date()} -> {global_end.date()})')
+    p('-' * 100)
+    era_cagr = {name: [] for name in rrs.VARIANTS}
+    for ei, (elo, ehi) in enumerate(windows, 1):
+        p(f'Era {ei}: {elo.date()} -> {ehi.date()}')
+        for name in rrs.VARIANTS:
+            v_lo = rrs.equity_at(results[name]['equity'], elo)
+            v_hi = rrs.equity_at(results[name]['equity'], ehi)
+            c = rrs.cagr(v_lo, v_hi, elo, ehi)
+            era_cagr[name].append(c)
+            p(f'    {name:10s} CAGR={rrs.pct(c):>10}  (nav {v_lo:,.0f} -> {v_hi:,.0f})')
+    p('')
+
+    p('-' * 100)
+    p('DATE SENSITIVITY (KNOB 3 -- robustness check only)')
+    p('-' * 100)
+    date_results = {}
+    for name, cfg in rrs.DATE_ALT_VARIANTS.items():
+        if name == 'baseline_day1':
+            date_results[name] = results['baseline']
+            continue
+        date_results[name] = run_variant_repaired(name, cfg, calendar, close_wide, open_wide, mom_df,
+                                                    proxy_regime_on, real_regime_on, rrs)
+    date_cagrs = {}
+    for name in rrs.DATE_ALT_VARIANTS:
+        final_eq = rrs.equity_at(date_results[name]['equity'], global_end)
+        c = rrs.cagr(rrs.CAPITAL, final_eq, global_start, global_end)
+        date_cagrs[name] = c
+        p(f'{name:16s}  full-period CAGR={rrs.pct(c)}')
+    finite_cagrs = [v for v in date_cagrs.values() if np.isfinite(v)]
+    date_spread_pp = (max(finite_cagrs) - min(finite_cagrs)) * 100 if finite_cagrs else np.nan
+    fragility_flag = date_spread_pp > 2.0
+    p(f'Date-spread = {date_spread_pp:.3f}pp -> fragility flag '
+      f'{"RAISED (>2pp)" if fragility_flag else "not raised (<=2pp)"}')
+    p('')
+
+    p('-' * 100)
+    p('PLACEBO CONTROL (bar 3): seed=42, 20 draws, run ONLY for variants clearing bars 1+2')
+    p('-' * 100)
+    baseline_full_cagr = rrs.cagr(rrs.CAPITAL, rrs.equity_at(results['baseline']['equity'], global_end),
+                                   global_start, global_end)
+
+    def bar1(name):
+        v_cagr = rrs.cagr(rrs.CAPITAL, rrs.equity_at(results[name]['equity'], global_end), global_start, global_end)
+        return (v_cagr - baseline_full_cagr) * 100 >= 0.5, v_cagr
+
+    def bar2(name):
+        wins, considered = 0, 0
+        for ei in range(3):
+            bc, vc = era_cagr['baseline'][ei], era_cagr[name][ei]
+            if np.isfinite(bc) and np.isfinite(vc):
+                considered += 1
+                if vc > bc:
+                    wins += 1
+        return wins >= 2, wins, considered
+
+    def bar4(margin_pp):
+        return (not fragility_flag) or (margin_pp >= date_spread_pp)
+
+    def run_placebo(name, cfg):
+        rng = np.random.default_rng(rrs.PLACEBO_SEED)
+        draws_edge = []
+        rebal_union = sorted(set(rrs.build_rebalance_dates(calendar, cfg['day_n'])) |
+                              set(rrs.build_rebalance_dates(calendar, rrs.VARIANTS['baseline']['day_n'])))
+        for _ in range(rrs.PLACEBO_DRAWS):
+            perm_by_date = {}
+            for d in rebal_union:
+                if d not in mom_df.index:
+                    continue
+                elig = [s for s in mom_df.columns if pd.notna(mom_df.at[d, s])]
+                if not elig:
+                    continue
+                idx = rng.permutation(len(elig))
+                perm_by_date[d] = [elig[j] for j in idx]
+            rfn = rrs.make_random_rank_fn(perm_by_date)
+            b_r = run_variant_repaired('baseline_random', rrs.VARIANTS['baseline'], calendar, close_wide,
+                                        open_wide, mom_df, proxy_regime_on, real_regime_on, rrs, rank_fn=rfn)
+            v_r = run_variant_repaired(f'{name}_random', cfg, calendar, close_wide, open_wide, mom_df,
+                                        proxy_regime_on, real_regime_on, rrs, rank_fn=rfn)
+            b_cagr = rrs.cagr(rrs.CAPITAL, rrs.equity_at(b_r['equity'], global_end), global_start, global_end)
+            v_cagr = rrs.cagr(rrs.CAPITAL, rrs.equity_at(v_r['equity'], global_end), global_start, global_end)
+            if np.isfinite(b_cagr) and np.isfinite(v_cagr):
+                draws_edge.append((v_cagr - b_cagr) * 100)
+        return draws_edge
+
+    verdicts = {}
+    for name in rrs.VERDICT_VARIANTS:
+        cfg = rrs.VARIANTS[name]
+        b1_pass, v_cagr = bar1(name)
+        margin_pp = (v_cagr - baseline_full_cagr) * 100
+        b2_pass, era_wins, era_considered = bar2(name)
+        b4_pass = bar4(margin_pp)
+        p(f'{name}: full-period CAGR={rrs.pct(v_cagr)}  baseline={rrs.pct(baseline_full_cagr)}  '
+          f'margin={margin_pp:+.3f}pp  bar1(margin>=0.5pp)={"PASS" if b1_pass else "FAIL"}  '
+          f'bar2(eras won {era_wins}/{era_considered}>=2)={"PASS" if b2_pass else "FAIL"}  '
+          f'bar4({"n/a" if not fragility_flag else f"flagged, need margin>={date_spread_pp:.3f}pp"})'
+          f'={"PASS" if b4_pass else "FAIL"}')
+        if b1_pass and b2_pass:
+            draws_edge = run_placebo(name, cfg)
+            mean_placebo_edge = float(np.mean(draws_edge)) if draws_edge else np.nan
+            invalid = (np.isfinite(mean_placebo_edge) and margin_pp > 0 and
+                       mean_placebo_edge >= rrs.PLACEBO_INVALID_FRAC * margin_pp)
+            p(f'    PLACEBO ({len(draws_edge)} valid draws / {rrs.PLACEBO_DRAWS} requested): '
+              f'mean(variant_random - baseline_random) edge = {mean_placebo_edge:+.3f}pp  '
+              f'vs real edge={margin_pp:+.3f}pp  threshold={rrs.PLACEBO_INVALID_FRAC * margin_pp:+.3f}pp  '
+              f'-> {"INVALID (random ranks explain a comparable improvement)" if invalid else "bar3 clears"}')
+            b3_status = 'INVALID' if invalid else 'PASS'
+        else:
+            b3_status = 'N/A (bars 1/2 not both cleared)'
+            p(f'    PLACEBO: not run ({b3_status})')
+        overall = 'INVALID' if b3_status == 'INVALID' else (
+            'PASS' if (b1_pass and b2_pass and b4_pass and b3_status == 'PASS') else 'FAIL')
+        verdicts[name] = overall
+        p(f'    VERDICT: {name} = {overall}')
+        p('')
+
+    p('=' * 100)
+    p('FINAL VERDICTS')
+    p('=' * 100)
+    for name in rrs.VERDICT_VARIANTS:
+        p(f'  {name}: {verdicts[name]}')
+    p(f'  Knob-3 fragility flag: {"RAISED" if fragility_flag else "not raised"} '
+      f'(date-spread={date_spread_pp:.3f}pp, bar=2.0pp)')
+    p('')
+
+    p('-' * 100)
+    p('AFTER-TAX TABLE (informational only, rrs.after_tax_summary() reused as-is -- pure trade_log/'
+      'final_positions post-processing, does not touch the cash-accounting bug)')
+    p('-' * 100)
+    for name, r in results.items():
+        final_eq = rrs.equity_at(r['equity'], global_end)
+        total_tax, notional_tax, after_tax_final, after_tax_c = rrs.after_tax_summary(
+            r['trades'], r['final_positions'], close_wide, global_end, final_eq, rrs.CAPITAL, global_start)
+        pretax_c = rrs.cagr(rrs.CAPITAL, final_eq, global_start, global_end)
+        p(f'{name:10s}  pretax CAGR={rrs.pct(pretax_c):>10}  after-tax CAGR={rrs.pct(after_tax_c):>10}  '
+          f'realized_tax=Rs {total_tax:,.2f}')
+    p('')
+
+    p('=' * 100)
+    p('COMPARISON -- unfixed (frozen rotation_refinement_results.txt) vs this bug-fixed re-run')
+    p('=' * 100)
+    p(f'{"":10}{"UNFIXED full":>14}{"UNFIXED Era3":>14}{"FIXED full":>14}{"FIXED Era3":>14}')
+    unfixed_full = {'baseline': -14.560, 'S3': -35.723, 'S5': -41.746, 'X0': -14.980, 'XR': -10.971}
+    unfixed_era3 = {'baseline': -29.588, 'S3': -39.619, 'S5': -35.854, 'X0': -31.651, 'XR': -20.246}
+    for name in rrs.VARIANTS:
+        p(f'{name:10}{unfixed_full[name]:>+13.3f}%{unfixed_era3[name]:>+13.3f}%'
+          f'{full_cagr_by_name[name] * 100:>+13.3f}%{era_cagr[name][2] * 100:>+13.3f}%')
+    p('')
+    p('STOP HERE: rotation_refinement_study.py and rotation_refinement_results.txt were NOT modified. '
+      'Everything above is a full, complete, spec-faithful re-run available for a human to review before '
+      'deciding whether and how to apply this fix to the real files.')
+
+    return out_lines
+
+
 if __name__ == '__main__':
     if '--demerger-diagnostic' in sys.argv:
         run_demerger_diagnostic()
@@ -2128,5 +2580,7 @@ if __name__ == '__main__':
         run_isolation_diagnostic()
     elif '--trade-diff-diagnostic' in sys.argv:
         run_trade_diff_diagnostic()
+    elif '--full-repaired-study' in sys.argv:
+        run_full_repaired_study()
     else:
         main()
