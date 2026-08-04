@@ -86,12 +86,18 @@ Data: NIFTY daily, public. Effort: small.
 
 ## Sequencing
 
-1. Now -> October: nothing. Trial runs untouched. CAS triple-logging is the
-   only permissible addition (data collection, not strategy) and only with
-   explicit user go-ahead.
-2. Post-verdict, in order: B verdict recovery (hours) -> A spec (the main
-   event) -> D quick test (one afternoon, expect funeral) -> C once ~60
-   CAS sessions exist (~late October anyway).
+REVISED 2026-08-04 (user): offline research starts NOW — the October freeze
+binds the LIVE books only (no strategy edits, no gate changes), exactly as
+during July's research wave. Acting on any result still waits for the verdict.
+
+1. Now (parallel, sonnet builders + reviewer verification): B verdict
+   recovery from disk -> D funeral test (spec frozen first) -> C logger
+   built + deployed so sessions accrue from day two of CAS.
+2. A (rotation refinement) next: spec brainstormed WITH the user (knob
+   selection is a judgment call), then built under the same
+   builder/reviewer pattern.
+3. C's ANALYSIS still waits for ~60 logged sessions (~late October) —
+   only the logging starts now.
 
 ## Decision log
 
