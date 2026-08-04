@@ -31,7 +31,21 @@ NOTHING here touches the live trial before the October verdict.
 
 ## The shortlist (ranked)
 
-### A. Rotation entry/exit refinement — best prior
+### A. Rotation entry/exit refinement — RESOLVED: all 4 FAIL + data alarm
+(2026-08-04, spec 2026-08-04-rotation-refinement-design.md.) S3/S5
+staggering, X0 no-stop, XR regime brake: every variant FAILS the frozen
+bars vs the replicated live baseline. Date-fragility flag RAISED (12.5pp
+spread across rebalance days 1/5/10/15). Placebo stage never reached.
+BIGGER FINDING (via refuted-diagnostic honesty loop): the NSE-bhavcopy
+panel and the Zerodha daily-CSV panel disagree violently about this
+strategy's history (-15%/yr vs +3.5-5%/yr, same windows) — sizing
+convention ruled OUT as driver by shipped diagnostic; suspected
+corp-action adjustment divergence between the two pipelines. Until
+reconciled, momo_rotation_63's validation is UNTRUSTED. Reconciliation
+study opened same day. Relative variant verdicts unaffected (same panel
+both sides of every comparison).
+
+### (original A entry, for the record) — best prior
 The monthly momentum rotation (momo_rotation_63) is the one running
 structure fees cannot kill. Untested knobs, entries AND exits:
 - Entry staggering: tranche the monthly buy across 3-5 days vs single shot.
