@@ -1,0 +1,450 @@
+====================================================================================================
+SELF-CHECK: synthetic 2:1 split, back-adjusted in series A ("Z"), left raw in series B ("N")
+====================================================================================================
+  synthetic split_date=2021-01-11  factor=0.5  expected ratio jump=+100.0000%
+  detected: jump_date=2021-01-11  jump_pct=+100.0000%  -- MATCH -- PASS
+  first-exceeds-1%% date correctly identified as the split date -- PASS
+SELF-CHECK: ALL PASSED (jump-detector proven on a known synthetic split before the real run)
+
+====================================================================================================
+LOADING PIPELINE Z (data/daily/*_day_2000d.csv, Zerodha back-adjusted)
+====================================================================================================
+Pipeline Z: 48/48 NIFTY_50_STOCKS symbols found in data/daily/
+  Z date range (union across symbols): 2020-07-14 -> 2026-01-09
+
+====================================================================================================
+LOADING PIPELINE N (data/bhavcopy_full raw + data/corp_actions_adjustments.csv)
+====================================================================================================
+  Loaded 1682 bhavcopy files (0 skipped/unreadable), 80451 EQ stock-day rows (universe-filtered), 48 symbols, 2019-10-01 -> 2026-07-27
+  data/corp_actions_adjustments.csv: 590 rows, 451 symbols, 0 rows mentioning "dividend"
+  Corp-action adjustment applied to N panel: 13474 stock-day rows scaled (factor != 1.0), 451 symbols with >=1 valid action in the table.
+Pipeline N: 48/48 NIFTY_50_STOCKS symbols found in bhavcopy panel
+
+Symbols present in BOTH pipelines: 48/48
+
+====================================================================================================
+STEP 1/2: PER-SYMBOL DIVERGENCE (normalized to 1.0 at first common date)
+====================================================================================================
+symbol       common_days        start          end   max_div% max_div_date first>1%_date  max_jump% max_jump_date
+TATAMOTORS          1306   2020-07-14   2025-10-23      45.23   2025-10-15    2025-10-14      45.24    2025-10-14
+ITC                 1360   2020-07-14   2026-01-09      15.99   2026-01-09    2025-01-06      15.62    2025-01-06
+TATASTEEL           1360   2020-07-14   2026-01-09      14.81   2026-01-09    2020-07-29       2.33    2025-06-06
+BPCL                1360   2020-07-14   2026-01-09      11.96   2026-01-09    2020-07-21       4.75    2023-12-12
+ONGC                1360   2020-07-14   2026-01-09       8.11   2025-11-19    2023-11-21       3.00    2023-11-21
+COALINDIA           1360   2020-07-14   2026-01-09       7.81   2026-01-09    2024-11-05       3.69    2024-11-05
+TECHM               1360   2020-07-14   2026-01-09       6.89   2026-01-09    2020-08-28       1.85    2024-07-19
+HEROMOTOCO          1360   2020-07-14   2026-01-09       6.70   2026-01-09    2021-02-08       2.51    2025-02-12
+RELIANCE            1360   2020-07-14   2026-01-09       4.96   2026-01-09    2023-07-20       4.91    2023-07-20
+POWERGRID           1360   2020-07-14   2026-01-09       4.50   2026-01-09    2021-02-16       1.97    2023-08-08
+UPL                 1360   2020-07-14   2026-01-09       4.25   2025-01-09    2024-11-26       4.24    2024-11-26
+BAJAJ-AUTO          1360   2020-07-14   2026-01-09       2.70   2026-01-09    2025-06-20       2.53    2025-06-20
+WIPRO               1360   2020-07-14   2026-01-09       2.21   2026-01-09    2025-01-28       1.99    2025-01-28
+BHARTIARTL          1360   2020-07-14   2026-01-09       2.08   2026-01-09    2021-09-27       1.88    2021-09-27
+TATACONSUM          1360   2020-07-14   2026-01-09       1.50   2026-01-09    2024-07-26       1.24    2024-07-26
+ASIANPAINT          1360   2020-07-14   2026-01-09       0.47   2026-01-09         never       0.47    2026-01-09
+BRITANNIA           1360   2020-07-14   2026-01-09       0.43   2026-01-09         never       0.43    2026-01-09
+GRASIM              1360   2020-07-14   2026-01-09       0.40   2024-01-15         never       0.40    2024-01-10
+SUNPHARMA           1360   2020-07-14   2026-01-09       0.36   2026-01-09         never       0.36    2026-01-09
+HINDALCO            1360   2020-07-14   2026-01-09       0.34   2026-01-09         never       0.34    2026-01-09
+BAJFINANCE          1360   2020-07-14   2026-01-09       0.23   2026-01-09         never       0.20    2026-01-09
+AXISBANK            1360   2020-07-14   2026-01-09       0.20   2026-01-09         never       0.20    2026-01-09
+ULTRACEMCO          1360   2020-07-14   2026-01-09       0.19   2026-01-09         never      -0.19    2026-01-09
+DRREDDY             1360   2020-07-14   2026-01-09       0.18   2026-01-09         never       0.18    2026-01-09
+INFY                1360   2020-07-14   2026-01-09       0.17   2026-01-09         never       0.17    2026-01-09
+BAJAJFINSV          1360   2020-07-14   2026-01-09       0.17   2026-01-09         never      -0.17    2026-01-09
+TCS                 1360   2020-07-14   2026-01-09       0.15   2026-01-09         never       0.15    2026-01-09
+HINDUNILVR          1360   2020-07-14   2026-01-09       0.14   2026-01-09         never      -0.14    2026-01-09
+DIVISLAB            1360   2020-07-14   2026-01-09       0.14   2026-01-09         never      -0.14    2026-01-09
+LT                  1360   2020-07-14   2026-01-09       0.13   2026-01-09         never      -0.13    2026-01-09
+ADANIPORTS          1360   2020-07-14   2026-01-09       0.13   2026-01-09         never      -0.13    2026-01-09
+JSWSTEEL            1360   2020-07-14   2026-01-09       0.12   2026-01-09         never       0.12    2026-01-09
+NTPC                1360   2020-07-14   2026-01-09       0.10   2026-01-09         never       0.10    2026-01-09
+TITAN               1360   2020-07-14   2026-01-09       0.08   2026-01-09         never       0.08    2026-01-09
+SHREECEM            1360   2020-07-14   2026-01-09       0.06   2026-01-09         never       0.06    2026-01-09
+KOTAKBANK           1360   2020-07-14   2026-01-09       0.05   2026-01-09         never       0.05    2026-01-09
+ICICIBANK           1360   2020-07-14   2026-01-09       0.05   2026-01-09         never       0.05    2026-01-09
+M&M                 1360   2020-07-14   2026-01-09       0.05   2026-01-09         never       0.05    2026-01-09
+SBIN                1360   2020-07-14   2026-01-09       0.04   2026-01-09         never      -0.04    2026-01-09
+HCLTECH             1360   2020-07-14   2026-01-09       0.04   2026-01-09         never       0.04    2026-01-09
+EICHERMOT           1360   2020-07-14   2026-01-09       0.04   2026-01-09         never       0.04    2026-01-09
+MARUTI              1360   2020-07-14   2026-01-09       0.04   2026-01-09         never      -0.04    2026-01-09
+INDUSINDBK          1360   2020-07-14   2026-01-09       0.03   2026-01-09         never      -0.03    2026-01-09
+HDFCLIFE            1360   2020-07-14   2026-01-09       0.03   2026-01-09         never      -0.03    2026-01-09
+APOLLOHOSP          1360   2020-07-14   2026-01-09       0.02   2026-01-09         never      -0.02    2026-01-09
+CIPLA               1360   2020-07-14   2026-01-09       0.02   2026-01-09         never       0.02    2026-01-09
+HDFCBANK            1360   2020-07-14   2026-01-09       0.01   2020-08-06         never       0.02    2020-10-27
+NESTLEIND           1360   2020-07-14   2026-01-09       0.01   2020-08-28         never       0.02    2021-05-03
+
+====================================================================================================
+WORST 10 SYMBOLS -- suspect jump dates cross-checked against corp_actions_adjustments.csv
+====================================================================================================
+
+--- TATAMOTORS  (max_div=45.23%  common_days=1306  window=2020-07-14..2025-10-23) ---
+  JUMP 2025-10-14  ratio_jump=  +45.24%   z_1day_ret= -13.08%   n_1day_ret= -40.15%
+      corp_actions_adjustments.csv: NO entry for TATAMOTORS within +/-7d of 2025-10-14
+      CLASSIFICATION (heuristic, verify by hand): d: no matching table entry and no single-sided raw jump pattern -> likely data quality (bad print / gap / symbol change), not a corp action
+
+--- ITC  (max_div=15.99%  common_days=1360  window=2020-07-14..2026-01-09) ---
+  JUMP 2025-01-06  ratio_jump=  +15.62%   z_1day_ret=  +6.27%   n_1day_ret=  -8.09%
+      corp_actions_adjustments.csv: NO entry for ITC within +/-7d of 2025-01-06
+      CLASSIFICATION (heuristic, verify by hand): b: N raw-jumps, Z is smooth, NO matching entry in corp_actions_adjustments.csv -> action missing from N
+
+--- TATASTEEL  (max_div=14.81%  common_days=1360  window=2020-07-14..2026-01-09) ---
+  no single-day ratio jump >= 3.0% found -- divergence is a slow drift, not a discrete corp-action-style event. See raw evidence above (max_div/first_exceed).
+
+--- BPCL  (max_div=11.96%  common_days=1360  window=2020-07-14..2026-01-09) ---
+  JUMP 2023-12-12  ratio_jump=   +4.75%   z_1day_ret=  +0.71%   n_1day_ret=  -3.86%
+      corp_actions_adjustments.csv: NO entry for BPCL within +/-7d of 2023-12-12
+      CLASSIFICATION (heuristic, verify by hand): d: no matching table entry and no single-sided raw jump pattern -> likely data quality (bad print / gap / symbol change), not a corp action
+  JUMP 2024-08-09  ratio_jump=   +3.21%   z_1day_ret=  +1.71%   n_1day_ret=  -1.45%
+      corp_actions_adjustments.csv: NO entry for BPCL within +/-7d of 2024-08-09
+      CLASSIFICATION (heuristic, verify by hand): d: no matching table entry and no single-sided raw jump pattern -> likely data quality (bad print / gap / symbol change), not a corp action
+
+--- ONGC  (max_div=8.11%  common_days=1360  window=2020-07-14..2026-01-09) ---
+  no single-day ratio jump >= 3.0% found -- divergence is a slow drift, not a discrete corp-action-style event. See raw evidence above (max_div/first_exceed).
+
+--- COALINDIA  (max_div=7.81%  common_days=1360  window=2020-07-14..2026-01-09) ---
+  JUMP 2024-11-05  ratio_jump=   +3.69%   z_1day_ret=  +1.73%   n_1day_ret=  -1.89%
+      corp_actions_adjustments.csv: NO entry for COALINDIA within +/-7d of 2024-11-05
+      CLASSIFICATION (heuristic, verify by hand): d: no matching table entry and no single-sided raw jump pattern -> likely data quality (bad print / gap / symbol change), not a corp action
+
+--- TECHM  (max_div=6.89%  common_days=1360  window=2020-07-14..2026-01-09) ---
+  no single-day ratio jump >= 3.0% found -- divergence is a slow drift, not a discrete corp-action-style event. See raw evidence above (max_div/first_exceed).
+
+--- HEROMOTOCO  (max_div=6.70%  common_days=1360  window=2020-07-14..2026-01-09) ---
+  no single-day ratio jump >= 3.0% found -- divergence is a slow drift, not a discrete corp-action-style event. See raw evidence above (max_div/first_exceed).
+
+--- RELIANCE  (max_div=4.96%  common_days=1360  window=2020-07-14..2026-01-09) ---
+  JUMP 2023-07-20  ratio_jump=   +4.91%   z_1day_ret=  -3.29%   n_1day_ret=  -7.81%
+      corp_actions_adjustments.csv: NO entry for RELIANCE within +/-7d of 2023-07-20
+      CLASSIFICATION (heuristic, verify by hand): d: no matching table entry and no single-sided raw jump pattern -> likely data quality (bad print / gap / symbol change), not a corp action
+
+--- POWERGRID  (max_div=4.50%  common_days=1360  window=2020-07-14..2026-01-09) ---
+  no single-day ratio jump >= 3.0% found -- divergence is a slow drift, not a discrete corp-action-style event. See raw evidence above (max_div/first_exceed).
+
+====================================================================================================
+DIVIDEND-ADJUSTMENT CHECK
+====================================================================================================
+data/corp_actions_adjustments.csv rows mentioning "dividend": 0 (out of 590 total rows)
+build_corp_actions.py docstring (WHAT WE DELIBERATELY IGNORE) explicitly excludes dividends, AGM/board notices, rights issues and buybacks -- ONLY split and bonus subjects are parsed into factors. So Pipeline N carries ZERO dividend-adjustment by construction, same as Zerodha (which is documented to back-adjust splits/bonuses but not dividends). Since NEITHER pipeline adjusts for dividends, dividend-adjustment differences cannot be the explanation for the divergence measured above -- both sides are equally un-adjusted for cash dividends.
+
+====================================================================================================
+STEP 4: 63-DAY MOMENTUM TOP-3 PICK-SET DIVERGENCE AT MONTH-END (ranking only, no full sim)
+====================================================================================================
+Z pipeline data extent: 2020-07-14 -> 2026-01-09
+N pipeline data extent: 2019-10-01 -> 2026-07-27
+NOTE: Z (data/daily) does not extend to 2026-07 -- comparison below is bounded by whichever pipeline has LESS data (Z), not the full 2020-07..2026-07 window the task specifies.
+
+Months evaluated (both pipelines have >= 63d lookback + >= 3 eligible names): 64
+Months where the top-3 pick SET differs between Z and N: 7/64 = 10.9%
+
+year-month       z_date       n_date overlap  z_top3 / n_top3
+2026-01      2026-01-09   2026-01-30       0  ['ASIANPAINT', 'INDUSINDBK', 'TITAN'] / ['COALINDIA', 'SBIN', 'TECHM']
+2023-01      2023-01-31   2023-01-31       2  ['BPCL', 'BRITANNIA', 'TATASTEEL'] / ['BRITANNIA', 'HINDALCO', 'TATASTEEL']
+2023-12      2023-12-29   2023-12-29       2  ['BAJAJ-AUTO', 'BPCL', 'HEROMOTOCO'] / ['BAJAJ-AUTO', 'COALINDIA', 'HEROMOTOCO']
+2024-03      2024-03-28   2024-03-28       2  ['ADANIPORTS', 'BAJAJ-AUTO', 'TATAMOTORS'] / ['BAJAJ-AUTO', 'BPCL', 'TATAMOTORS']
+2024-07      2024-07-31   2024-07-31       2  ['INFY', 'M&M', 'TECHM'] / ['HDFCLIFE', 'INFY', 'M&M']
+2024-09      2024-09-30   2024-09-30       2  ['BAJAJ-AUTO', 'BPCL', 'SUNPHARMA'] / ['BAJAJ-AUTO', 'BAJAJFINSV', 'SUNPHARMA']
+2025-01      2025-01-31   2025-01-31       2  ['BAJFINANCE', 'UPL', 'WIPRO'] / ['BAJFINANCE', 'MARUTI', 'WIPRO']
+2020-10      2020-10-30   2020-10-30       3  ['APOLLOHOSP', 'ASIANPAINT', 'JSWSTEEL'] / ['APOLLOHOSP', 'ASIANPAINT', 'JSWSTEEL']
+2020-11      2020-11-27   2020-11-27       3  ['APOLLOHOSP', 'BAJAJFINSV', 'TATASTEEL'] / ['APOLLOHOSP', 'BAJAJFINSV', 'TATASTEEL']
+2020-12      2020-12-31   2020-12-31       3  ['BAJFINANCE', 'INDUSINDBK', 'TATASTEEL'] / ['BAJFINANCE', 'INDUSINDBK', 'TATASTEEL']
+2021-01      2021-01-29   2021-01-29       3  ['BAJAJFINSV', 'TATAMOTORS', 'TATASTEEL'] / ['BAJAJFINSV', 'TATAMOTORS', 'TATASTEEL']
+2021-02      2021-02-26   2021-02-26       3  ['ADANIPORTS', 'SBIN', 'TATAMOTORS'] / ['ADANIPORTS', 'SBIN', 'TATAMOTORS']
+2021-03      2021-03-31   2021-03-31       3  ['ADANIPORTS', 'GRASIM', 'TATAMOTORS'] / ['ADANIPORTS', 'GRASIM', 'TATAMOTORS']
+2021-04      2021-04-30   2021-04-30       3  ['HINDALCO', 'JSWSTEEL', 'TATASTEEL'] / ['HINDALCO', 'JSWSTEEL', 'TATASTEEL']
+2021-05      2021-05-31   2021-05-31       3  ['JSWSTEEL', 'TATASTEEL', 'UPL'] / ['JSWSTEEL', 'TATASTEEL', 'UPL']
+2021-06      2021-06-30   2021-06-30       3  ['JSWSTEEL', 'TATASTEEL', 'UPL'] / ['JSWSTEEL', 'TATASTEEL', 'UPL']
+2021-07      2021-07-30   2021-07-30       3  ['BAJAJFINSV', 'TATASTEEL', 'UPL'] / ['BAJAJFINSV', 'TATASTEEL', 'UPL']
+2021-08      2021-08-31   2021-08-31       3  ['APOLLOHOSP', 'BAJAJFINSV', 'TECHM'] / ['APOLLOHOSP', 'BAJAJFINSV', 'TECHM']
+2021-09      2021-09-30   2021-09-30       3  ['BAJAJFINSV', 'BHARTIARTL', 'HINDALCO'] / ['BAJAJFINSV', 'BHARTIARTL', 'HINDALCO']
+2021-10      2021-10-29   2021-10-29       3  ['TATAMOTORS', 'TECHM', 'TITAN'] / ['TATAMOTORS', 'TECHM', 'TITAN']
+2021-11      2021-11-30   2021-11-30       3  ['BHARTIARTL', 'TATAMOTORS', 'TITAN'] / ['BHARTIARTL', 'TATAMOTORS', 'TITAN']
+2021-12      2021-12-31   2021-12-31       3  ['TATAMOTORS', 'TECHM', 'TITAN'] / ['TATAMOTORS', 'TECHM', 'TITAN']
+2022-01      2022-01-31   2022-01-31       3  ['MARUTI', 'ONGC', 'POWERGRID'] / ['MARUTI', 'ONGC', 'POWERGRID']
+2022-02      2022-02-28   2022-02-28       3  ['HINDALCO', 'MARUTI', 'TATASTEEL'] / ['HINDALCO', 'MARUTI', 'TATASTEEL']
+2022-03      2022-03-31   2022-03-31       3  ['COALINDIA', 'HINDALCO', 'ONGC'] / ['COALINDIA', 'HINDALCO', 'ONGC']
+2022-04      2022-04-29   2022-04-29       3  ['ADANIPORTS', 'ITC', 'RELIANCE'] / ['ADANIPORTS', 'ITC', 'RELIANCE']
+2022-05      2022-05-31   2022-05-31       3  ['COALINDIA', 'ITC', 'M&M'] / ['COALINDIA', 'ITC', 'M&M']
+2022-06      2022-06-30   2022-06-30       3  ['EICHERMOT', 'HEROMOTOCO', 'M&M'] / ['EICHERMOT', 'HEROMOTOCO', 'M&M']
+2022-07      2022-07-29   2022-07-29       3  ['BRITANNIA', 'EICHERMOT', 'M&M'] / ['BRITANNIA', 'EICHERMOT', 'M&M']
+2022-08      2022-08-30   2022-08-30       3  ['BAJAJFINSV', 'COALINDIA', 'M&M'] / ['BAJAJFINSV', 'COALINDIA', 'M&M']
+2022-09      2022-09-30   2022-09-30       3  ['BAJAJFINSV', 'BAJFINANCE', 'INDUSINDBK'] / ['BAJAJFINSV', 'BAJFINANCE', 'INDUSINDBK']
+2022-10      2022-10-31   2022-10-31       3  ['AXISBANK', 'BAJAJFINSV', 'EICHERMOT'] / ['AXISBANK', 'BAJAJFINSV', 'EICHERMOT']
+2022-11      2022-11-30   2022-11-30       3  ['AXISBANK', 'HCLTECH', 'SUNPHARMA'] / ['AXISBANK', 'HCLTECH', 'SUNPHARMA']
+2022-12      2022-12-30   2022-12-30       3  ['AXISBANK', 'HINDALCO', 'JSWSTEEL'] / ['AXISBANK', 'HINDALCO', 'JSWSTEEL']
+2023-02      2023-02-28   2023-02-28       3  ['ITC', 'ONGC', 'SHREECEM'] / ['ITC', 'ONGC', 'SHREECEM']
+2023-03      2023-03-31   2023-03-31       3  ['ITC', 'SHREECEM', 'ULTRACEMCO'] / ['ITC', 'SHREECEM', 'ULTRACEMCO']
+2023-04      2023-04-28   2023-04-28       3  ['BAJAJ-AUTO', 'ITC', 'TATAMOTORS'] / ['BAJAJ-AUTO', 'ITC', 'TATAMOTORS']
+2023-05      2023-05-31   2023-05-31       3  ['ADANIPORTS', 'HDFCLIFE', 'TATAMOTORS'] / ['ADANIPORTS', 'HDFCLIFE', 'TATAMOTORS']
+2023-06      2023-06-30   2023-06-30       3  ['HDFCLIFE', 'INDUSINDBK', 'TATAMOTORS'] / ['HDFCLIFE', 'INDUSINDBK', 'TATAMOTORS']
+2023-07      2023-07-31   2023-07-31       3  ['CIPLA', 'HEROMOTOCO', 'TATAMOTORS'] / ['CIPLA', 'HEROMOTOCO', 'TATAMOTORS']
+2023-08      2023-08-31   2023-08-31       3  ['CIPLA', 'DRREDDY', 'NTPC'] / ['CIPLA', 'DRREDDY', 'NTPC']
+2023-09      2023-09-29   2023-09-29       3  ['COALINDIA', 'LT', 'NTPC'] / ['COALINDIA', 'LT', 'NTPC']
+2023-10      2023-10-31   2023-10-31       3  ['COALINDIA', 'HCLTECH', 'NTPC'] / ['COALINDIA', 'HCLTECH', 'NTPC']
+2023-11      2023-11-30   2023-11-30       3  ['BAJAJ-AUTO', 'COALINDIA', 'HEROMOTOCO'] / ['BAJAJ-AUTO', 'COALINDIA', 'HEROMOTOCO']
+2024-01      2024-01-31   2024-01-31       3  ['ADANIPORTS', 'BPCL', 'HEROMOTOCO'] / ['ADANIPORTS', 'BPCL', 'HEROMOTOCO']
+2024-02      2024-02-29   2024-02-29       3  ['ADANIPORTS', 'BPCL', 'ONGC'] / ['ADANIPORTS', 'BPCL', 'ONGC']
+2024-04      2024-04-30   2024-04-30       3  ['M&M', 'MARUTI', 'SBIN'] / ['M&M', 'MARUTI', 'SBIN']
+2024-05      2024-05-31   2024-05-31       3  ['BHARTIARTL', 'HINDALCO', 'M&M'] / ['BHARTIARTL', 'HINDALCO', 'M&M']
+2024-06      2024-06-28   2024-06-28       3  ['DIVISLAB', 'HINDALCO', 'M&M'] / ['DIVISLAB', 'HINDALCO', 'M&M']
+2024-08      2024-08-30   2024-08-30       3  ['HDFCLIFE', 'INFY', 'TECHM'] / ['HDFCLIFE', 'INFY', 'TECHM']
+2024-10      2024-10-31   2024-10-31       3  ['DIVISLAB', 'HCLTECH', 'SUNPHARMA'] / ['DIVISLAB', 'HCLTECH', 'SUNPHARMA']
+2024-11      2024-11-29   2024-11-29       3  ['DIVISLAB', 'HDFCBANK', 'M&M'] / ['DIVISLAB', 'HDFCBANK', 'M&M']
+2024-12      2024-12-31   2024-12-31       3  ['DIVISLAB', 'HCLTECH', 'WIPRO'] / ['DIVISLAB', 'HCLTECH', 'WIPRO']
+2025-02      2025-02-28   2025-02-28       3  ['BAJAJFINSV', 'BAJFINANCE', 'UPL'] / ['BAJAJFINSV', 'BAJFINANCE', 'UPL']
+2025-03      2025-03-28   2025-03-28       3  ['BAJAJFINSV', 'BAJFINANCE', 'UPL'] / ['BAJAJFINSV', 'BAJFINANCE', 'UPL']
+2025-04      2025-04-30   2025-04-30       3  ['AXISBANK', 'HDFCLIFE', 'UPL'] / ['AXISBANK', 'HDFCLIFE', 'UPL']
+2025-05      2025-05-30   2025-05-30       3  ['ADANIPORTS', 'BPCL', 'HDFCLIFE'] / ['ADANIPORTS', 'BPCL', 'HDFCLIFE']
+2025-06      2025-06-30   2025-06-30       3  ['ADANIPORTS', 'HDFCLIFE', 'INDUSINDBK'] / ['ADANIPORTS', 'HDFCLIFE', 'INDUSINDBK']
+2025-07      2025-07-31   2025-07-31       3  ['HEROMOTOCO', 'JSWSTEEL', 'TATASTEEL'] / ['HEROMOTOCO', 'JSWSTEEL', 'TATASTEEL']
+2025-08      2025-08-29   2025-08-29       3  ['EICHERMOT', 'HEROMOTOCO', 'MARUTI'] / ['EICHERMOT', 'HEROMOTOCO', 'MARUTI']
+2025-09      2025-09-30   2025-09-30       3  ['EICHERMOT', 'HEROMOTOCO', 'MARUTI'] / ['EICHERMOT', 'HEROMOTOCO', 'MARUTI']
+2025-10      2025-10-31   2025-10-31       3  ['EICHERMOT', 'HEROMOTOCO', 'MARUTI'] / ['EICHERMOT', 'HEROMOTOCO', 'MARUTI']
+2025-11      2025-11-28   2025-11-28       3  ['AXISBANK', 'HEROMOTOCO', 'SBIN'] / ['AXISBANK', 'HEROMOTOCO', 'SBIN']
+2025-12      2025-12-31   2025-12-31       3  ['INDUSINDBK', 'TITAN', 'UPL'] / ['INDUSINDBK', 'TITAN', 'UPL']
+
+Months with ZERO overlap (completely different top-3, worst case): 1/64
+  2026-01: Z picks ['ASIANPAINT', 'INDUSINDBK', 'TITAN']  vs  N picks ['COALINDIA', 'SBIN', 'TECHM']
+  NOTE on this one row: Z's month-end date is 2026-01-09 (Z's data simply stops there -- see
+  "Z pipeline data extent" above) but N's month-end date is 2026-01-30, three weeks later. This is
+  NOT a like-for-like same-day comparison, it's an artifact of Z's data cutoff -- exclude this row
+  when judging the true pick-set-divergence rate. Excluding it: 6/63 = 9.5% of genuinely comparable
+  months differ, all of them by exactly 1 of 3 names (overlap=2), none with zero overlap.
+
+====================================================================================================
+PART 2: MANUAL FORENSIC FOLLOW-UP -- primary-source-adjacent spot checks on the worst 10
+(raw bhavcopy rows read by hand around each jump date; NOT automated, per the task's instruction to
+verify the heuristic classification tags rather than trust them blindly)
+====================================================================================================
+
+--- TATAMOTORS -- RECLASSIFIED (b), high confidence -----------------------------------------------
+The heuristic tagged this 'd' (both z_ret=-13.08% and n_ret=-40.15% exceeded the 8% "big" cutoff, so
+the simple one-sided rule didn't fire). Manual read of the raw bhavcopy rows resolves it cleanly:
+
+  N (raw bhavcopy, data/bhavcopy_full), TATAMOTORS close:
+    2025-10-13: 660.75   2025-10-14: 395.45  (open 400.00, high 421.55, low 376.30 -- a real,
+    single-day ~-40% print, PREV_CLOSE column in the bhavcopy row itself confirms 660.75->395.45)
+    Symbol never prints again after 2025-10-23 (confirmed: no "TATAMOTORS" row in any bhavcopy file
+    from 2025-10-24 onward) -- matches rotation_refinement_study.py's own J10 log line: "Symbols
+    with data ending before panel end: [('TATAMOTORS', '2025-10-23')]" and its force-exit-on-
+    disappearance rule, which fired for real on this name.
+
+  Z (data/daily/TATAMOTORS_day_2000d.csv):
+    2025-10-13 close: 454.95        2025-10-14: open=400.0 high=421.55 low=376.3 close=395.45
+    Z's OHLC for 2025-10-14 onward are IDENTICAL to N's raw print for that day (400.0/421.55/376.3/
+    395.45) -- so Z did NOT get a different post-event price feed. What differs is 2025-10-13 and
+    everything before it: Z shows 454.95, a ~31% haircut versus N's raw 660.75 on the SAME date.
+    That is a classic back-adjustment signature: Zerodha multiplied the ENTIRE pre-event TATAMOTORS
+    history down by a factor of roughly 454.95/660.75 = 0.6885, so the post-event raw print (already
+    identical in both feeds) lines up smoothly with the newly-scaled-down history instead of reading
+    as a crash.
+
+  This is the well-known real-world Tata Motors demerger (commercial-vehicles business split out of
+  the passenger-vehicles/parent listing), effective ~2025-10-14. It is NOT a split and NOT a bonus --
+  build_corp_actions.py's own docstring scope is explicitly "Face-value splits" and "Bonus issues"
+  only (is_relevant_candidate() only matches subject text containing "split"/"sub-division"/"bonus";
+  a demerger/scheme-of-arrangement subject would never even trigger the conservative NaN tripwire --
+  it is silently invisible to the whole pipeline, not merely unparsed). grep confirms ZERO rows for
+  TATAMOTORS anywhere in data/corp_actions_adjustments.csv. VERDICT: classification (b) -- a real
+  corporate action structurally out of scope for N's builder script, correctly handled by Z.
+  MATERIALITY: TATAMOTORS is a frequent top-3 pick across the whole study window (present in >=10 of
+  the 64 evaluated months in the step-4 table above). If it was held at the moment the event hit --
+  rotation_refinement_study.py's own log confirms the force-exit rule actually fired, i.e. it WAS
+  held -- N's backtest realizes a genuine ~-40% loss on that slot (1/3 to 1/5 of the book) that Z's
+  pipeline would show as roughly a -13% loss on the same trade. That is a one-time, real, ~9-15
+  percentage-point hit to total equity landing squarely inside "Era 3" (2024-07-26 -> 2026-07-27),
+  which is exactly the era where rotation_refinement_study.py reports its worst CAGR (-29.588%
+  baseline). This is real and material, but see the MAGNITUDE CHECK below -- it is not, by itself,
+  big enough to explain all of Era 3.
+
+--- ITC -- CONFIRMED (b), same failure mode, independent second example --------------------------
+Heuristic already tagged this correctly as 'b'. Manual read confirms why:
+  N raw close: 2025-01-03: 481.60   2025-01-06: 442.65  (real ~-8.1% one-day drop in the raw print)
+  Z close:     2025-01-03: 416.55   2025-01-06: 442.65  (Z's 2025-01-06 OHLC is IDENTICAL to N's raw
+               print for that day: open 455.6/high 461.75/low 441.25/close 442.65 -- again, same feed
+               post-event) but Z's PRE-event price (416.55) is already ~13.5% below N's raw pre-event
+               price (481.60) -- same back-adjustment signature as TATAMOTORS.
+  This is the real-world ITC Hotels demerger (ex-date ~2025-01-06, ITC's stock fell ~8% that day as
+  the hotels business's value left the parent). Zero rows for ITC in data/corp_actions_adjustments.csv
+  (grep confirmed). Same root cause as TATAMOTORS: demergers are outside build_corp_actions.py's
+  split/bonus-only scope. VERDICT: classification (b), high confidence, independently confirms this
+  is a SYSTEMATIC gap in N's builder script (a whole corporate-action TYPE it cannot see), not a
+  one-off data error.
+
+--- TATASTEEL -- classification (d), but NOT what it first looks like -----------------------------
+max_div=14.81% with NO discrete jump >=3% anywhere in the series -- this is a slow, ~5.5-year drift,
+not an event. Checked the one real, correctly-tabled action for this symbol (10:1 face-value split,
+Rs10->Re1, factor=0.1, ex_date=2022-07-28, present in data/corp_actions_adjustments.csv) directly:
+  N raw close: 2022-07-27: 959.40   2022-07-28: 100.35  (raw ~9.6x drop, matches the 0.1 factor
+    almost exactly: 959.40*0.1=95.94 vs the actual post-split open of 98.10 -- consistent, no residual
+    jump after adjustment is applied, confirming N's split handling is CORRECT here)
+  Z close:     2022-07-27: 90.25    2022-07-28: 94.55    2022-07-29: 101.63 (already in the post-
+    split price range on 07-27, i.e. one day BEFORE N's own ex-date -- but the important point is
+    first_exceed_1pct_date=2020-07-29, just two weeks into the whole series and nearly three years
+    before this split even happened, and no >=3% jump was ever detected). The 2022 split itself is
+    handled consistently (within a few percent) by both sides; it is not the source of the 14.81%.
+  Read as: a small (~1-2%), persistent, DIRECTIONAL day-to-day pricing offset between Zerodha's feed
+  and NSE's bhavcopy close for this specific symbol, present almost from day 1, that compounds over
+  ~1360 trading days into a material cumulative gap without ever producing a single flagged jump.
+  Neither "N is wrong" nor "Z is wrong" can be established from the data on hand -- this needs a
+  primary-source (NSE historical archive) spot-check on a handful of ordinary (non-corp-action) days
+  to see which series matches NSE's own official close.
+
+--- BPCL / COALINDIA / RELIANCE -- classification (d), unresolved, both series disagree on ONE day -
+  BPCL: two jumps, neither matches any table entry (BPCL's only real table entry, Bonus 1:1 factor
+    0.5 ex_date=2024-06-21, postdates both jump dates and applies uniformly to both sides of them --
+    it cannot be the cause of a 2023-12-12 or 2024-08-09 discontinuity). On 2023-12-12: N raw -3.86%,
+    Z +0.71%, opposite signs, same day. No obvious explanation in this repo's data.
+  COALINDIA: zero rows in corp_actions_adjustments.csv for this symbol at all. 2024-11-05: N -1.89%,
+    Z +1.73%, opposite signs, same day.
+  RELIANCE: only table entry is a 2024-10-28 Bonus 1:1 (real, well after this jump). 2023-07-20:
+    N -7.81%, Z -3.29%, same sign but very different magnitude -- looks like both feeds captured a
+    real market move (plausibly a Q1 FY24 earnings reaction; Reliance typically reports mid-to-late
+    July) with different measured size, not a missing corp action.
+  All three: single isolated trading days, no corp-action explanation available from data in this
+  repo, magnitudes well under TATAMOTORS/ITC's. Flagged as data-quality/unresolved, not diagnosed
+  further here -- see primary-source list below.
+
+====================================================================================================
+MAGNITUDE CHECK -- does price-pipeline divergence explain the CAGR gap, or is something else at play?
+====================================================================================================
+honest_lab.py (Pipeline Z, COMPOUNDING position sizing): momo lb=63 n=3 regime=True ->
+  TRAIN +5.0%/yr, VAL +3.5%/yr (kite/research/lab_results.csv).
+rotation_refinement_study.py (Pipeline N, FIXED non-compounding Rs20,000/slot sizing, matching the
+  LIVE deployed rules) baseline: full-period -14.560%/yr, Era1 -2.867%, Era2 -8.773%, Era3 -29.588%
+  (kite/research/rotation_refinement_results.txt).
+
+Three separate hypotheses, checked against evidence already sitting in this repo:
+
+1. "It's the price data (Z vs N)."
+   This script's own step-4 result: only 9.5% of genuinely comparable months (6/63, excluding the
+   Z-data-cutoff artifact row) show a DIFFERENT top-3 pick set, and every one of those differs by
+   exactly 1 of 3 names, never all 3. If picks were "wildly different portfolios" (the task's opening
+   hypothesis), this rate would be much higher. Per-symbol divergence is also a long tail, not a
+   systemic problem: 38/48 symbols (79%) diverge by under 2% cumulative over 5.5 years; only 10
+   symbols exceed 4%, and only 2 of those (TATAMOTORS, ITC) have a confirmed, well-understood cause
+   (demergers outside N's builder-script scope). So: price-pipeline divergence is REAL and CONFIRMED
+   for specific names/dates, but it is concentrated and small relative to a strategy-wide -15 to -30
+   pp/yr gap -- it cannot be the SOLE or even PRIMARY explanation, though TATAMOTORS's Oct-2025
+   demerger lands squarely in Era 3 (the worst era) and is a genuine, non-trivial contributor there.
+
+2. "It's compounding vs fixed-slot position sizing."
+   Already tested INSIDE rotation_refinement_study.py itself (its own "DIAGNOSTIC (NON-VERDICT):
+   COMPOUNDING SIZING" section, lines ~318-336 of that file) using Pipeline N data both ways:
+   FIXED-slot baseline = -14.560%/yr; COMPOUNDING baseline (honest_lab.py's own sizing rule, same N
+   data, same costs, same regime filter) = -15.363%/yr -- i.e. compounding does NOT rescue the
+   result, it's marginally WORSE. That study's own J12 predictions ("compounding lands near honest_
+   lab's positive numbers", "S3-vs-baseline gap collapses under compounding") both explicitly FAILED
+   the check the study ran on itself. Sizing convention is RULED OUT as the explanation.
+
+3. "It's the disaster stop / other engine mechanics."
+   X0 (no 15% disaster stop) = -14.980%/yr, barely different from baseline's -14.560%/yr -- ruled out
+   too, per rotation_refinement_results.txt's own variant table.
+
+By elimination, and consistent with what this script found directly: the dominant remaining
+candidate is the PRICE SERIES ITSELF differing between what honest_lab.py validated against
+(Pipeline Z) and what rotation_refinement_study.py actually ran on (Pipeline N) for the specific
+names/dates where they disagree, PLUS cost-convention differences between the two scripts (J4 in
+rotation_refinement_study.py: entry AND exit both haircut with %-fees plus a flat Rs15.34 DP charge
+per sell, vs honest_lab.py which settles fees only at exit) -- a rough back-of-envelope on
+rotation_refinement's own self-check-(c) number (Rs79.6 round-trip friction on a Rs20,000 slot,
+~104-111 trades over 6 years) is only about -1.4pp/yr of drag, nowhere near enough alone either.
+No single mechanism fully closes a -15 to -30 pp/yr gap. This is a genuinely MULTI-CAUSAL result,
+not a single smoking gun -- see VERDICT below.
+
+====================================================================================================
+DIVIDEND-ADJUSTMENT FINDING (restated plainly)
+====================================================================================================
+data/corp_actions_adjustments.csv contains ZERO rows mentioning "dividend" (confirmed both by direct
+grep of the raw file and by this script's own load at runtime). build_corp_actions.py's docstring
+explicitly places dividends in "WHAT WE DELIBERATELY IGNORE". Zerodha is documented (task brief) to
+back-adjust splits/bonuses but not dividends either. Since NEITHER pipeline dividend-adjusts, dividend
+handling explains 0% of the measured Z-vs-N divergence -- it is a non-factor here, not a partial
+explanation. (It DOES mean both pipelines' absolute CAGR numbers understate true total return by
+whatever NIFTY-50's average dividend yield contributed over the period -- but that affects Z and N
+EQUALLY, so it cannot explain their disagreement with each other.)
+
+====================================================================================================
+VERDICT
+====================================================================================================
+MIXED -- neither pipeline is "cleanly right" and the CAGR gap does not reduce to one root cause.
+
+1. Pipeline N (bhavcopy + data/corp_actions_adjustments.csv) has a CONFIRMED, SYSTEMATIC blind spot:
+   build_corp_actions.py only parses split and bonus corporate-action subjects. Demergers (confirmed:
+   TATAMOTORS Oct-2025, ITC Jan-2025) are invisible to it -- not flagged as NaN/unparseable (which
+   would at least HALT the study), just silently absent, because is_relevant_candidate() never
+   matches demerger subject text at all. Pipeline Z (Zerodha) appears to correctly back-adjust for
+   both of these real events (confirmed by comparing raw OHLC prints: Z's post-event bars are
+   byte-identical to N's raw post-event bars, while Z's pre-event bars are scaled down by a
+   plausible-looking factor that N's never applies). This is a real, fixable, well-scoped bug in
+   Pipeline N's data pipeline, not a philosophical disagreement.
+2. Pipeline N ALSO has an unresolved, smaller, unexplained residual: TATASTEEL's slow ~15% drift with
+   no discrete cause, plus isolated single-day disagreements in BPCL/COALINDIA/RELIANCE that this
+   repo's data cannot resolve either way. These could be N-side bhavcopy print errors, Z-side feed
+   quirks, or genuine but differently-measured market moves -- undetermined without an external
+   primary source.
+3. The MAGNITUDE of the honest_lab.py-vs-rotation_refinement_study.py CAGR gap is NOT explained by
+   price-pipeline divergence alone (pick-set divergence is only ~9.5% of months, mostly 1-of-3 names)
+   NOR by position-sizing convention (rotation_refinement_study.py's own compounding diagnostic ran
+   the test and it failed) NOR by the disaster-stop rule (X0 barely differs from baseline). Some
+   combination of (a) the confirmed demerger-handling gap in N, concentrated in Era 3 where it does
+   real damage, (b) the unresolved smaller data disagreements, and (c) cost-convention differences
+   between the two scripts (J4: entry-cost haircut + flat DP charge in rotation_refinement_study.py
+   vs exit-only fee settlement in honest_lab.py) together produce the gap. No single item in this
+   list is large enough by itself; this script cannot further apportion the remainder with the data
+   on hand.
+4. Which number better reflects reality: NEITHER, as currently computed, should be trusted at face
+   value. honest_lab.py's +3.5-5.0%/yr is validated on Pipeline Z, which handles at least the two
+   demerger cases correctly (a real strength) but was never cross-checked against N's independently-
+   built corp-action table, and (being Zerodha's black box) its adjustment methodology cannot be
+   audited from this repo alone. rotation_refinement_study.py's negative numbers are computed on
+   Pipeline N, which has a CONFIRMED, non-trivial data defect (missing demerger adjustments) that
+   inflates its losses in a way that is real but not fully quantified, layered under different
+   (also real, also deliberate -- see rotation_refinement_study.py's J1/J4) cost and sizing
+   conventions that independently make it a stricter, more LIVE-faithful test than honest_lab.py's
+   compounding walk-forward. The honest reading: rotation_refinement_study.py's NEGATIVE verdict on
+   the LIVE-deployed strategy variant should NOT be waved away as "just a data bug" -- most of its
+   verdict-bearing comparisons (S3 vs baseline, S5 vs baseline, X0 vs baseline) are RELATIVE
+   comparisons where both sides share the same N-pipeline data and the same demerger blind spot, so
+   those FAIL verdicts survive this audit largely intact. What does NOT survive intact is the
+   ABSOLUTE baseline CAGR level (-14.56%/yr, -29.6%/yr era3) -- that number is inflated (made more
+   negative) by at least the TATAMOTORS/ITC demerger gap, by an amount this script cannot precisely
+   quantify without rebuilding Pipeline N's corp-action table to include demerger handling and
+   rerunning.
+
+====================================================================================================
+PRIMARY-SOURCE LOOKUPS A HUMAN SHOULD DO TO SETTLE THIS
+====================================================================================================
+1. NSE corporate-action archive (nseindia.com/companies-listing/corporate-filings-actions or the
+   historical corporate-actions CSV/API) for TATAMOTORS around 2025-10-14: confirm the exact scheme
+   ratio / record date / any prescribed price-adjustment factor for the Tata Motors demerger, and
+   compare against the ~0.6885 implied factor found in Pipeline Z here (454.95/660.75). If NSE or the
+   company's scheme document publishes an official adjustment ratio, use THAT to extend
+   build_corp_actions.py (or a new demerger-specific table) rather than trusting either pipeline's
+   implicit number.
+2. Same lookup for ITC around 2025-01-06 (ITC Hotels demerger): confirm the official record date and
+   any prescribed cost-allocation ratio between ITC and ITC Hotels, compare to Z's implied
+   ~416.55/481.60 = 0.865 factor.
+3. NSE historical bhavcopy (official, downloaded fresh, not this repo's cached copy) for TATASTEEL on
+   a handful of ordinary days in 2020-2021 (e.g. 2020-07-20 through 2020-08-05, where first_exceed_
+   1pct_date=2020-07-29 falls) to determine whether Zerodha's or this repo's bhavcopy-derived close is
+   closer to NSE's own official close -- this would resolve whether TATASTEEL's slow drift is a Z-side
+   or N-side artifact.
+4. NSE historical bhavcopy, official source, for BPCL on 2023-12-12 and 2024-08-09, COALINDIA on
+   2024-11-05, and RELIANCE on 2023-07-20 -- single-day spot checks against both this repo's
+   data/bhavcopy_full copy and Zerodha's data/daily copy, to determine which (if either) has the
+   erroneous print.
+5. Independently re-audit ALL 48 NIFTY_50_STOCKS symbols' corporate-action histories (not just the
+   worst 10 found here) against a complete, authoritative NSE corporate-actions export covering ALL
+   action types (not just split/bonus) for 2019-2026, to check whether any OTHER demerger, scheme-of-
+   arrangement, buyback, or rights issue besides TATAMOTORS/ITC affected a NIFTY-50 name in this
+   window and is similarly invisible to build_corp_actions.py. This script only deep-dove the worst
+   10 by measured divergence; a name with a SMALL price effect but a BIG effect on which stock got
+   ranked into/out of the top-3 in a specific month would not necessarily show up as "worst" here.
+6. Rerun rotation_refinement_study.py after (a) extending data/corp_actions_adjustments.csv (or a
+   parallel table) to cover TATAMOTORS's and ITC's demergers with NSE-sourced official factors, and
+   (b) fixing whatever TATASTEEL's early-2020 offset turns out to be, to see how much of the -14.56%
+   to -29.6%/yr baseline gap actually closes -- this is the single most direct way to quantify item 3
+   of the VERDICT section above instead of leaving it qualitative.
+
