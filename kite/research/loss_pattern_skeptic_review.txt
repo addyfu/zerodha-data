@@ -1,0 +1,259 @@
+======================================================================
+ADVERSARIAL SKEPTIC REVIEW of loss_pattern_autopsy_results.txt
+Default verdict: ARTIFACT unless a claim survives its best attack.
+Read-only review. Independent re-derivation from incubator_trades_snapshot.db
+(positions, status='closed', n=144) plus regime_exit_cache.csv spot-check.
+======================================================================
+
+PERMUTATION-MACHINERY SELF-CHECK (before trusting any p-value below)
+----------------------------------------------------------------------
+Built a synthetic 100-trade / 10-day frame where day-0 losses are 4-6x the
+magnitude of every other day's losses, by construction. top3_day_share() on
+this synthetic frame = 76.8%. Permuting the pnl vector against the fixed
+day-count structure 1000x gives a null with mean=50.6%, p95=60.0%, max=68.9%
+-> real 76.8% has p=0.0000. The machinery correctly flags a known-concentrated
+case as extreme; it is not just returning "significant" for everything (a
+second synthetic leg with no built-in concentration gave observed vs. null
+p=0.030, i.e. unremarkable, not near-zero). Trusted for use below.
+
+======================================================================
+CLAIM 1: "Wednesday underperforms" (n=36, win 33.3% vs 36.1% overall,
+skip-filter saves Rs 1,233 in-sample)
+======================================================================
+ATTACKS RUN:
+1. Multiple-comparisons permutation: shuffled the 5 weekday labels across
+   all 144 trades 1000x (weekday bucket sizes held fixed at their real
+   counts: Tue 46, Wed 36, Mon 28, Thu 20, Fri 14), and asked how often the
+   WORST of the 5 resulting weekday win-rates is <= Wednesday's real 33.3%.
+   Result: P = 0.993. On avg_pnl, same test gives P = 0.945 (null worst-
+   weekday avg_pnl mean=-55.5 vs Wednesday's real -34.2). With 5 weekdays
+   tested, getting a weekday at least this bad by pure chance is close to
+   certain — Wednesday's numbers are not even unusual among 5 random
+   buckets, let alone real evidence of a Wednesday effect.
+
+2. Per-calendar-date drill-down. There are only 2 calendar Wednesdays in
+   the whole 144-trade sample:
+       2026-07-22: n=14, win_rate=42.9%, avg_pnl=+5.05, total_pnl=+70.7
+       2026-07-29: n=22, win_rate=27.3%, avg_pnl=-59.24, total_pnl=-1,303.3
+   The entire "Wednesday" loss (-1,232.7) is more than fully explained by
+   ONE date, 2026-07-29 (-1,303.3); the other Wednesday was net positive.
+
+3. Decisive methodological finding: the autopsy's own split-half stability
+   check for Wednesday reports half1 n=14 (effect -0.2%) / half2 n=22
+   (effect -2.7%), "STABLE (both -)". Those n's are not a random split —
+   they are EXACTLY the trade counts of 2026-07-22 (14) and 2026-07-29 (22)
+   respectively. Verified: chronological half1 = trades 1-72 covers all of
+   07-21/22/23/24 and part of 07-27, i.e. all 14 of 07-22's trades and none
+   of 07-29's; half2 = trades 73-144 contains all 22 of 07-29's trades. With
+   only 2 calendar Wednesdays total, "split-half stability" for this cell is
+   mathematically forced to equal "compare Wednesday-A to Wednesday-B" — it
+   cannot detect instability because there is no other way to split a
+   2-instance sample. The "STABLE (both -)" label is not evidence of a
+   repeatable day-of-week effect; it is a restatement that both of the two
+   available Wednesdays happened to be slightly negative (one barely,
+   -0.2pp; one badly). This is the SAME underlying event (2026-07-29) that
+   also drives claim 4's top-3-worst-days list below — not independent
+   evidence, one bad day counted twice under two different labels.
+
+VERDICT: ARTIFACT. Explained away by (a) 5-way multiple comparisons making
+a weekday this "bad" a near-certainty by chance (P=0.99), and (b) the whole
+effect collapsing to a single calendar date, 2026-07-29, which is not a
+Wednesday-specific phenomenon at all — it is a bad trading day that would
+look identical if it had fallen on any other weekday.
+
+======================================================================
+CLAIM 2: "BUY has stably higher win rate than SELL, but worse avg P&L"
+======================================================================
+ATTACKS RUN:
+1. Permutation test on the win-rate gap itself: shuffled the direction
+   label across all 144 trades 1000x. Real gap = BUY 38.9% - SELL 34.4% =
+   +4.4pp. Null |gap| distribution: mean=6.7pp, p90=13.3pp. Two-sided
+   P = 0.725. The observed 4.4pp gap is unremarkable noise; a same-or-larger
+   gap appears in ~73% of random relabelings.
+
+2. Single-worst-trade fragility: worst BUY trade is id=117, ADANIPORTS,
+   cci_divergence, stop_loss, pnl=-678.6 (over 40% of BUY's total loss
+   deficit vs SELL by itself). Removing it:
+       BUY (all, n=54):      win%=38.9%  avg_pnl=-30.0   (BUY-SELL gap=-18.5)
+       BUY minus 1 (n=53):   win%=39.6%  avg_pnl=-17.8   (gap=-6.2)
+       BUY minus 3 (n=51):   win%=41.2%  avg_pnl=-8.1
+   One trade explains roughly two-thirds of the "worse avg P&L" gap; three
+   trades erase it almost entirely (avg_pnl -8.1 vs SELL's -11.6 — BUY would
+   then look BETTER, not worse). This is not a stable structural payoff
+   difference, it is a couple of large stop-outs.
+
+3. Per-strategy breakdown: the BUY win-rate edge is NOT uniform.
+       bb_mean_reversion:  BUY 40.9% vs SELL 27.8%  (BUY higher)
+       cci_divergence:     BUY 46.7% vs SELL 37.5%  (BUY higher)
+       choppiness_filter:  BUY 33.3% vs SELL 40.0%  (BUY LOWER)
+       adx_filter:         BUY 0.0%  vs SELL 50.0%  (BUY LOWER, n=2 each, noise)
+   Two of four strategies go the opposite direction. The pooled "BUY beats
+   SELL on win rate" is an artifact of aggregating strategies with opposite
+   internal effects, not a market-wide directional bias.
+
+4. Original stability rail itself was weak on inspection: half1 effect was
+   only +0.5pp (essentially zero) and half2 was +6.2pp — "STABLE (both +)"
+   only required same sign, not a meaningful, non-trivial effect in both
+   halves.
+
+Note the claim is also internally self-defeating even if real: "BUY wins
+more often but loses more money" is not an actionable rule (you cannot
+"trade BUY" and expect a P&L edge from it; the payoff direction contradicts
+the win-rate direction).
+
+VERDICT: ARTIFACT. Permutation test says the win-rate gap is indistinguishable
+from chance (P=0.73); the P&L-worse claim is driven by 1-3 outlier stop-outs
+concentrated in one strategy/symbol, not a structural BUY/SELL payoff
+difference; and the win-rate direction itself flips sign across half of the
+four strategies that were pooled to produce it.
+
+======================================================================
+CLAIM 3: "cci_divergence trades that exit end_of_day are winners"
+(n=21, 52.4% win, +14.0 avg_pnl)
+======================================================================
+PRIMARY ATTACK (definitional, stated plainly as instructed):
+exit_reason is determined by the OUTCOME of the trade, not by anything known
+at entry. An end_of_day exit means, by construction: price touched neither
+the stop_loss nor the take_profit level at any point during the entire
+holding period. That is a fact about the trade's ENTIRE forward path,
+resolved only at 15:05 when the position is force-closed. There is no
+entry-time rule that can pre-select "the trades that will not hit their stop
+or target today" — you only learn that a trade qualifies by having already
+lived through the whole session without it happening. Conditioning on
+exit_reason is selecting survivors after the fact. Even if this cell were
+statistically bulletproof, it is not implementable as a trading rule: you
+cannot enter more/fewer end_of_day-exit trades, because "will be an
+end_of_day exit" is not observable at entry.
+
+VERIFICATION (is there ANY entry-time-observable feature that predicts
+which cci_divergence trades become end_of_day exits — if there were, that
+feature, not exit_reason, would be the real candidate signal):
+  - stop-loss distance at entry (% of entry price): end_of_day mean=0.423%
+    (n=21) vs other-exit mean=0.391% (n=26) — corr(is_eod, sl_dist_pct)=0.110,
+    permutation P=0.487.
+  - take-profit distance at entry: end_of_day mean=0.817% vs other=0.759% —
+    corr=0.101, permutation P=0.518.
+  - direction (BUY/SELL) x is_eod cross-tab: BUY 9/15 eod (60%), SELL 12/32
+    eod (37.5%) — a numeric skew exists but was not stability/significance
+    tested further since the primary attack already disqualifies the claim;
+    noted as the one entry-time-adjacent feature worth a closer look if this
+    strategy is ever revisited, but it is direction, which the autopsy
+    already tested as its own (non-stable) slice elsewhere.
+  - entry hour x is_eod: no clean monotonic pattern (9:00=41%, 10:00=29%,
+    11:00=33%, 12:00=50%, 13:00=67%, 14:00=67%, 15:00=50%), all on tiny
+    per-hour n (2-17).
+  None of the entry-time-observable numeric features predict is_eod above
+  noise level.
+
+MULTIPLE-COMPARISONS CONTEXT: the full strategy x exit_reason matrix has 17
+cells (not quite the "~20" estimate in the task, but the same order of
+magnitude). Permutation test: shuffled exit_reason labels globally 1000x,
+looked at the best (highest) avg_pnl among cells with n>=15 (comparable
+scale to this cell's n=21) in each permutation. Real best n>=15 cell
+avg_pnl = +14.0 (this is literally the cci_divergence/end_of_day cell —
+it's the best-performing cell of that size in the real data). Null:
+P(best n>=15 cell avg_pnl >= +14.0) = 0.531; null best-cell avg_pnl mean =
++17.5. In other words, a cell at least this good turns up in the majority of
+random relabelings — completely unremarkable even before the definitional
+problem is considered.
+
+VERDICT: ARTIFACT, and moreover UNUSABLE BY DEFINITION independent of any
+statistical result. exit_reason is an outcome label; no entry-time rule can
+condition on it. The supporting statistics (no predictive entry-time feature
+found, P=0.53 under multiple-comparison permutation) simply confirm there is
+nothing here to salvage even as an indirect signal.
+
+======================================================================
+CLAIM 4: "Top-3 worst days carry 48.8% of gross losses" (loss clustering)
+======================================================================
+ATTACKS RUN:
+1. Permutation test matched to the actual data-generating structure: shuffled
+   the gross_pnl vector against the fixed entry_date vector 1000x (this
+   exactly preserves each day's real trade COUNT — 11 trading days, 4 to 22
+   trades/day — while breaking any link between calendar day and which
+   trades lost). Recomputed top-3-of-11-days gross-loss share each time.
+       Null: mean=48.4%, median=48.3%, p90=54.1%, p95=56.2%, max=60.8%
+       Real observed: 48.75% (confirms the claimed 48.8%)
+       P(null >= real) = 0.455
+   The real value sits essentially AT THE MEDIAN of the permutation null.
+   Given only 11 trading days and per-day trade counts ranging 4-22 (i.e.
+   large variance in how many correlated same-day signals fire together),
+   random assignment alone produces 48%+ top-3 concentration nearly half
+   the time. The claimed "48.8%" is not evidence of clustering beyond what
+   the small-n, correlated-signal structure of this dataset would produce
+   by chance anyway.
+
+2. The original autopsy's own stability check used an "even-spread baseline"
+   of 3/n_days = 27.3% as the null, which is a strawman: it assumes losses
+   would otherwise be uniformly spread across days, ignoring that day-level
+   trade counts vary 4-22 and multiple strategies fire on the same signal on
+   the same day (the actual source of correlation). Against the CORRECT
+   null (permutation preserving real day-level trade-count structure), the
+   effect is not stable evidence of clustering — it is close to the
+   chance-level baseline for this dataset's actual structure.
+
+3. Top-3 day identification and mechanical-vs-idiosyncratic check:
+       2026-07-29: n=22, gross_loss=-1,832.1, win_rate=27.3%,
+                   14 SELL / 8 BUY, strategies choppiness_filter(9)+
+                   cci_divergence(9)+bb_mean_reversion(4)
+       2026-07-21: n=20, gross_loss=-961.2, win_rate=25.0%,
+                   14 SELL / 6 BUY, bb_mean_reversion(10)-dominant
+       2026-08-03: n=11, gross_loss=-920.7, win_rate=18.2%,
+                   8 SELL / 3 BUY, bb_mean_reversion(8)-dominant
+   Cross-checked against regime_exit_cache.csv (NIFTY daily closes):
+       2026-07-21: NIFTY day return = -0.21%
+       2026-07-29: NIFTY day return = +1.10%
+       2026-08-03: NOT IN THE CSV (confirmed data gap, already flagged in
+                   the original autopsy — genuinely unresolvable from this
+                   data source)
+   Neither available day is an extreme index move: the full CSV history has
+   std=1.30%, so -0.21% and +1.10% are both well inside one standard
+   deviation (1.10% is above the 75th percentile of daily moves but nowhere
+   near the tails — median=0.06%, max=17.7%, min=-13.0%). These do not look
+   like "the market crashed" days. 2026-07-29 in particular is a day NIFTY
+   was UP over 1%, while the book was 14-SELL/8-BUY and lost heavily — more
+   consistent with an idiosyncratic, strategy-specific bad day (mean-
+   reversion/momentum SELL signals fighting a broad rally) than a mechanical,
+   unavoidable index-crash loss. 2026-08-03 cannot be checked (CSV gap).
+
+VERDICT: ARTIFACT on the core statistical claim — permutation test puts the
+observed 48.8% concentration at the median of what pure chance produces
+given this dataset's real day-count structure (P=0.455, nowhere near
+significant). The top-3 days are not obviously "mechanical" (large index
+moves) either — 2 of 3 checkable days had unremarkable NIFTY moves, and the
+3rd is unresolvable due to a genuine data gap already flagged in the
+original autopsy.
+
+======================================================================
+OVERALL ASSESSMENT
+======================================================================
+All four "STABLE" candidates fail their designated best attack and are
+downgraded to ARTIFACT. Three of the four failures are decisive and
+independently corroborating: (1) Wednesday's entire effect is one calendar
+date, 2026-07-29, and the autopsy's own "split-half" check for that cell was
+mathematically forced to just compare that date against the only other
+Wednesday in the sample rather than test anything resembling robustness; (4)
+that same date, 2026-07-29, is also the single largest contributor to the
+top-3-worst-days claim, and a correctly-specified permutation test (matching
+the real per-day trade-count structure, not a strawman uniform-spread
+baseline) shows the observed 48.8% concentration is exactly what randomness
+produces given only 11 trading days with 4-22 correlated trades each — so
+claims 1 and 4 are substantially the same underlying event (one bad trading
+day) being counted as two independent "stable patterns." Claim 2 dissolves
+under a standard permutation test (P=0.73 on the win-rate gap) and is
+additionally shown to be driven by 1-3 outlier stop-losses in one
+strategy/symbol rather than a structural BUY/SELL payoff difference. Claim 3
+is the cleanest kill of the four: it fails on logical/definitional grounds
+before any statistics are needed, because exit_reason is resolved by the
+trade's own outcome and cannot be known at entry, so no rule could ever act
+on it even if the correlation were bulletproof (it isn't — P=0.53 under a
+matched multiple-comparison permutation, and no entry-time feature predicts
+it). Combined with the pre-existing base rate of 140+ backtests that have
+never beaten buy-and-hold, none of these four candidates clears the bar for
+further work; the honest reading of this autopsy is that it correctly
+generated hypotheses and its split-half rail correctly flagged most of them
+as UNSTABLE/THIN, but the four that were promoted to STABLE survived only
+because the rail's chronological-half-split and even-spread-baseline
+assumptions happen to be too weak to catch small-calendar-n and correlated-
+signal-clustering effects — exactly the failure modes a permutation test
+against the real data-generating structure is built to catch, and did.

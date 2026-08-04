@@ -1,0 +1,353 @@
+======================================================================
+SELF-CHECK: synthetic 10-trade frame, hand-computed answers
+======================================================================
+[OK] entry-time bucket grouping + win_rate/avg_pnl arithmetic
+[OK] direction grouping (BUY 100% win / SELL 0% win by construction)
+[OK] strategy grouping
+[OK] symbol net P&L, repeat-loser flag (B, >=3 losses), >15%-of-loss flag (B & D)
+[OK] strategy x exit_reason matrix cell counts
+[OK] with-tape/against-tape tagging + win_rate/avg_pnl
+[OK] signal-cluster density bucketing (1-3 vs 4+ trades/day)
+[OK] day-level gross-loss aggregation + top-N share (degenerate 3-day case, share=100%)
+[OK] tercile_rank helper on clean 9-element array + NaN passthrough
+[OK] stability_verdict helper (STABLE/UNSTABLE/THIN incl. n=8 boundary)
+SELF-CHECK: ALL ASSERTS PASSED
+
+======================================================================
+LOSS PATTERN AUTOPSY — 144 closed paper trades (2026-07-21 -> 2026-08-04)
+EXPLORATORY. Candidate hypotheses only. See stability-rail verdicts.
+======================================================================
+
+OVERALL: n=144 win_rate=36.1% avg_pnl=-18.5 total_pnl=-2,661.2
+
+----------------------------------------------------------------------
+NaN-CONTEXT TRADE COUNTS (minute-bar / index-open derived features)
+----------------------------------------------------------------------
+Minute-bar coverage window: 2026-07-28 12:25:00 -> 2026-08-03 13:22:00
+Trades entered AFTER minute-bar cutoff (2026-08-03 13:22): 8
+Trades entered BEFORE minute-bar coverage starts (2026-07-28 12:25): 87
+Trades with NaN entry_gap (slice 7, no valid NIFTY 09:15 bar that day): 112 / 144
+Trades with NaN morning_range_pct (slice 8, no full 09:15-10:15 bars for that symbol/day): 101 / 144
+Trades with NaN nifty_day_return (slice 6, date missing from daily CSV): 11 / 144
+Calendar days with usable entry_gap: [datetime.date(2026, 7, 29), datetime.date(2026, 7, 30), datetime.date(2026, 7, 31)]
+Calendar days with usable morning_range_pct: [datetime.date(2026, 7, 29), datetime.date(2026, 7, 30), datetime.date(2026, 7, 31), datetime.date(2026, 8, 3)]
+DATA GAP: regime_exit_cache.csv has no row for these trade dates that are NOT weekends: [datetime.date(2026, 8, 3)] (out of all missing dates [datetime.date(2026, 8, 3)]). 2026-08-03 is a Monday with 11 trades and full minute-bar coverage, yet is absent from the daily-close CSV — this is a genuine gap in that source file, not a legitimate non-trading day. It removes those 11 trades from slice 6 and blocks slice 7's gap feature for that day even though the NIFTY 50 minute bar has its open.
+
+######################################################################
+SLICE 1: Entry time bucket
+######################################################################
+--- time_bucket ---
+group                   n    win%     avg_pnl     total_pnl
+09:15-10:30            82   36.6%       -12.4      -1,018.1
+10:30-13:00            31   32.3%       -23.9        -740.7
+13:00-15:05            31   38.7%       -29.1        -902.5
+
+[slice1_time_bucket] 09:15-10:30 n=82 win%=36.6% avg_pnl=-12.4  vs other buckets n=62 win%=35.5% avg_pnl=-26.5
+    half1: n=40 win%=40.0% effect(vs rest)=-6.9%   half2: n=42 win%=33.3% effect(vs rest)=10.0%   => UNSTABLE
+[slice1_time_bucket] 10:30-13:00 n=31 win%=32.3% avg_pnl=-23.9  vs other buckets n=113 win%=37.2% avg_pnl=-17.0
+    half1: n=16 win%=43.8% effect(vs rest)=0.9%   half2: n=15 win%=20.0% effect(vs rest)=-11.6%   => UNSTABLE
+[slice1_time_bucket] 13:00-15:05 n=31 win%=38.7% avg_pnl=-29.1  vs other buckets n=113 win%=35.4% avg_pnl=-15.6
+    half1: n=16 win%=50.0% effect(vs rest)=8.9%   half2: n=15 win%=26.7% effect(vs rest)=-3.2%   => UNSTABLE
+
+######################################################################
+SLICE 2: Day of week
+######################################################################
+--- day_of_week ---
+group                   n    win%     avg_pnl     total_pnl
+Tuesday                46   30.4%         5.1         235.2
+Wednesday              36   33.3%       -34.2      -1,232.7
+Monday                 28   35.7%       -33.1        -927.1
+Thursday               20   45.0%       -32.0        -639.5
+Friday                 14   50.0%        -6.9         -97.3
+
+[slice2_day_of_week] Tuesday n=46 win%=30.4% avg_pnl=5.1  vs other days n=98 win%=38.8% avg_pnl=-29.6
+    half1: n=20 win%=25.0% effect(vs rest)=-25.0%   half2: n=26 win%=34.6% effect(vs rest)=8.5%   => UNSTABLE
+[slice2_day_of_week] Wednesday n=36 win%=33.3% avg_pnl=-34.2  vs other days n=108 win%=37.0% avg_pnl=-13.2
+    half1: n=14 win%=42.9% effect(vs rest)=-0.2%   half2: n=22 win%=27.3% effect(vs rest)=-2.7%   => STABLE (both -)
+[slice2_day_of_week] Thursday n=20 win%=45.0% avg_pnl=-32.0  vs other days n=124 win%=34.7% avg_pnl=-16.3
+    half1: n=14 win%=50.0% effect(vs rest)=8.6%   half2: n=6 win%=33.3% effect(vs rest)=4.5%   => THIN
+[slice2_day_of_week] Friday n=14 win%=50.0% avg_pnl=-6.9  vs other days n=130 win%=34.6% avg_pnl=-19.7
+    half1: n=10 win%=50.0% effect(vs rest)=8.1%   half2: n=4 win%=50.0% effect(vs rest)=22.1%   => THIN
+[slice2_day_of_week] Monday n=28 win%=35.7% avg_pnl=-33.1  vs other days n=116 win%=36.2% avg_pnl=-14.9
+    half1: n=14 win%=57.1% effect(vs rest)=17.5%   half2: n=14 win%=14.3% effect(vs rest)=-18.5%   => UNSTABLE
+
+######################################################################
+SLICE 3: Direction (BUY vs SELL), overall and per strategy
+######################################################################
+--- direction (overall) ---
+group                   n    win%     avg_pnl     total_pnl
+SELL                   90   34.4%       -11.6      -1,040.3
+BUY                    54   38.9%       -30.0      -1,621.0
+
+[slice3_direction_overall] BUY n=54 win%=38.9% avg_pnl=-30.0  vs SELL n=90 win%=34.4% avg_pnl=-11.6
+    half1: n=30 win%=43.3% effect(vs rest)=0.5%   half2: n=24 win%=33.3% effect(vs rest)=6.2%   => STABLE (both +)
+NOTE: the stability effect above is a WIN-RATE difference (BUY win% higher than SELL's, consistently in both halves). BUY's avg_pnl and total_pnl are nonetheless WORSE than SELL's (bigger average loss per trade) — classic higher-hit-rate/worse-payoff pattern. Read the win-rate stability and the P&L direction as two separate claims, not one.
+-- strategy=adx_filter (n=4) --
+--- direction within adx_filter ---
+group                   n    win%     avg_pnl     total_pnl
+BUY                     2    0.0%      -114.3        -228.5
+SELL                    2   50.0%       -82.9        -165.7
+
+    BUY vs SELL within adx_filter: half1 n=0 eff=NaN  half2 n=2 eff=NaN => THIN
+-- strategy=bb_mean_reversion (n=58) --
+--- direction within bb_mean_reversion ---
+group                   n    win%     avg_pnl     total_pnl
+SELL                   36   27.8%       -14.8        -533.8
+BUY                    22   40.9%         5.5         121.0
+
+    BUY vs SELL within bb_mean_reversion: half1 n=15 eff=18.6%  half2 n=7 eff=11.0% => THIN
+-- strategy=cci_divergence (n=47) --
+--- direction within cci_divergence ---
+group                   n    win%     avg_pnl     total_pnl
+SELL                   32   37.5%        -5.9        -190.3
+BUY                    15   46.7%       -35.5        -531.8
+
+    BUY vs SELL within cci_divergence: half1 n=7 eff=13.4%  half2 n=8 eff=6.2% => THIN
+-- strategy=choppiness_filter (n=35) --
+--- direction within choppiness_filter ---
+group                   n    win%     avg_pnl     total_pnl
+SELL                   20   40.0%        -7.5        -150.5
+BUY                    15   33.3%       -65.4        -981.7
+
+    BUY vs SELL within choppiness_filter: half1 n=7 eff=-17.1%  half2 n=8 eff=5.0% => THIN
+
+######################################################################
+SLICE 4: Per-symbol net P&L, loss concentration, repeat losers
+######################################################################
+--- symbol net P&L ---
+group                   n    win%     avg_pnl     total_pnl
+ADANIPORTS              9   44.4%       -44.6        -401.2
+ASIANPAINT              8   37.5%      -114.9        -918.9
+BAJAJ-AUTO              7   14.3%       -29.5        -206.3
+BAJAJFINSV              7   28.6%       -37.7        -264.2
+BHARTIARTL              7   42.9%       -23.0        -160.7
+HINDALCO                7   42.9%        10.7          74.9
+APOLLOHOSP              6   66.7%         9.0          54.3
+BPCL                    6   16.7%       -75.5        -452.9
+NESTLEIND               5   60.0%        98.4         491.9
+AXISBANK                4   75.0%        67.9         271.7
+EICHERMOT               4   25.0%       -32.7        -130.9
+GRASIM                  4   50.0%       -32.6        -130.3
+HEROMOTOCO              4   25.0%       -50.9        -203.6
+HINDUNILVR              4   50.0%       351.8       1,407.3
+ULTRACEMCO              4   75.0%        46.1         184.4
+BAJFINANCE              3   33.3%       -33.2         -99.5
+BRITANNIA               3   33.3%       -38.1        -114.4
+CIPLA                   3   33.3%         2.3           6.8
+DIVISLAB                3   33.3%       -81.3        -244.0
+DRREDDY                 3   33.3%         7.1          21.3
+HDFCBANK                3   33.3%        -7.3         -21.8
+INDUSINDBK              3   33.3%       -37.3        -111.8
+ITC                     3    0.0%      -132.9        -398.7
+KOTAKBANK               3    0.0%      -109.3        -328.0
+ONGC                    3   33.3%       -48.7        -146.2
+TITAN                   3   33.3%       -34.2        -102.7
+COALINDIA               2    0.0%       -89.9        -179.8
+HCLTECH                 2    0.0%      -156.0        -312.1
+HDFCLIFE                2   50.0%         2.5           5.0
+LT                      2    0.0%       -33.3         -66.6
+M&M                     2    0.0%       -18.1         -36.3
+MARUTI                  2   50.0%        -7.0         -14.0
+NTPC                    2    0.0%       -63.8        -127.6
+TECHM                   2    0.0%       -51.9        -103.7
+UPL                     2   50.0%        20.8          41.6
+ICICIBANK               1  100.0%        68.1          68.1
+INFY                    1    0.0%      -105.8        -105.8
+POWERGRID               1    0.0%       -69.4         -69.4
+SBIN                    1  100.0%         0.5           0.5
+SUNPHARMA               1  100.0%        98.9          98.9
+TATACONSUM              1  100.0%       144.8         144.8
+TCS                     1    0.0%       -81.2         -81.2
+
+Total (net pnl) losses across all trades: -9,342.0  (sum of pnl<0 trades, magnitude=9,342.0)
+No single symbol contributes >15% of total losses.
+Repeat-loser symbols (>=3 losing trades):
+    BAJAJ-AUTO: 6 losing trades, symbol net_pnl=-206.3
+    ADANIPORTS: 5 losing trades, symbol net_pnl=-401.2
+    ASIANPAINT: 5 losing trades, symbol net_pnl=-918.9
+    BAJAJFINSV: 5 losing trades, symbol net_pnl=-264.2
+    BPCL: 5 losing trades, symbol net_pnl=-452.9
+    BHARTIARTL: 4 losing trades, symbol net_pnl=-160.7
+    HINDALCO: 4 losing trades, symbol net_pnl=74.9
+    EICHERMOT: 3 losing trades, symbol net_pnl=-130.9
+    HEROMOTOCO: 3 losing trades, symbol net_pnl=-203.6
+    ITC: 3 losing trades, symbol net_pnl=-398.7
+    KOTAKBANK: 3 losing trades, symbol net_pnl=-328.0
+    [BAJAJ-AUTO] avg_pnl half1(n=4)=-64.2  half2(n=3)=16.8 => THIN (note: n<8 in per-symbol halves is expected -> THIN by construction)
+    [ADANIPORTS] avg_pnl half1(n=4)=69.4  half2(n=5)=-135.8 => THIN (note: n<8 in per-symbol halves is expected -> THIN by construction)
+    [ASIANPAINT] avg_pnl half1(n=3)=-25.3  half2(n=5)=-168.6 => THIN (note: n<8 in per-symbol halves is expected -> THIN by construction)
+    [BAJAJFINSV] avg_pnl half1(n=5)=-62.1  half2(n=2)=23.3 => THIN (note: n<8 in per-symbol halves is expected -> THIN by construction)
+    [BPCL] avg_pnl half1(n=4)=-88.0  half2(n=2)=-50.4 => THIN (note: n<8 in per-symbol halves is expected -> THIN by construction)
+    [BHARTIARTL] avg_pnl half1(n=3)=-21.7  half2(n=4)=-23.9 => THIN (note: n<8 in per-symbol halves is expected -> THIN by construction)
+    [HINDALCO] avg_pnl half1(n=1)=208.7  half2(n=6)=-22.3 => THIN (note: n<8 in per-symbol halves is expected -> THIN by construction)
+    [EICHERMOT] avg_pnl half1(n=3)=-21.7  half2(n=1)=-65.7 => THIN (note: n<8 in per-symbol halves is expected -> THIN by construction)
+    [HEROMOTOCO] avg_pnl half1(n=1)=5.3  half2(n=3)=-69.6 => THIN (note: n<8 in per-symbol halves is expected -> THIN by construction)
+    [ITC] avg_pnl half1(n=1)=-70.8  half2(n=2)=-163.9 => THIN (note: n<8 in per-symbol halves is expected -> THIN by construction)
+    [KOTAKBANK] avg_pnl half1(n=1)=-125.1  half2(n=2)=-101.5 => THIN (note: n<8 in per-symbol halves is expected -> THIN by construction)
+
+######################################################################
+SLICE 5: Strategy x exit_reason matrix
+######################################################################
+strategy            exit_reason         n    win%     avg_pnl     total_pnl
+adx_filter          trailing_stop       2    0.0%      -151.3        -302.7
+adx_filter          end_of_day          1  100.0%        31.0          31.0
+adx_filter          stop_loss           1    0.0%      -122.6        -122.6
+bb_mean_reversion   trailing_stop      22    9.1%       -66.0      -1,451.4
+bb_mean_reversion   stop_loss          16    0.0%      -105.5      -1,688.3
+bb_mean_reversion   take_profit        14  100.0%       176.7       2,473.5
+bb_mean_reversion   end_of_day          6   50.0%        42.3         253.5
+cci_divergence      end_of_day         21   52.4%        14.0         295.0
+cci_divergence      stop_loss          11    0.0%      -150.5      -1,655.2
+cci_divergence      take_profit         7  100.0%       191.2       1,338.5
+cci_divergence      trailing_stop       7    0.0%      -107.2        -750.5
+cci_divergence      manual              1  100.0%        50.1          50.1
+choppiness_filter   stop_loss          11    0.0%      -173.5      -1,909.0
+choppiness_filter   end_of_day          9   44.4%       -11.1         -99.6
+choppiness_filter   take_profit         8  100.0%       199.9       1,599.5
+choppiness_filter   trailing_stop       6    0.0%      -126.9        -761.6
+choppiness_filter   manual              1  100.0%        38.5          38.5
+
+[slice5_strategy_x_exit] adx_filter/trailing_stop n=2 win%=0.0% avg_pnl=-151.3  vs everything else n=142 win%=36.6% avg_pnl=-16.6
+    half1: n=2 win%=0.0% effect(vs rest)=-44.3%   half2: n=0 win%=NaN effect(vs rest)=NaN   => THIN
+[slice5_strategy_x_exit] adx_filter/end_of_day n=1 win%=100.0% avg_pnl=31.0  vs everything else n=143 win%=35.7% avg_pnl=-18.8
+    half1: n=1 win%=100.0% effect(vs rest)=57.7%   half2: n=0 win%=NaN effect(vs rest)=NaN   => THIN
+[slice5_strategy_x_exit] adx_filter/stop_loss n=1 win%=0.0% avg_pnl=-122.6  vs everything else n=143 win%=36.4% avg_pnl=-17.8
+    half1: n=0 win%=NaN effect(vs rest)=NaN   half2: n=1 win%=0.0% effect(vs rest)=-29.6%   => THIN
+[slice5_strategy_x_exit] bb_mean_reversion/trailing_stop n=22 win%=9.1% avg_pnl=-66.0  vs everything else n=122 win%=41.0% avg_pnl=-9.9
+    half1: n=21 win%=9.5% effect(vs rest)=-47.3%   half2: n=1 win%=0.0% effect(vs rest)=-29.6%   => THIN
+[slice5_strategy_x_exit] bb_mean_reversion/stop_loss n=16 win%=0.0% avg_pnl=-105.5  vs everything else n=128 win%=40.6% avg_pnl=-7.6
+    half1: n=0 win%=NaN effect(vs rest)=NaN   half2: n=16 win%=0.0% effect(vs rest)=-37.5%   => THIN
+[slice5_strategy_x_exit] bb_mean_reversion/take_profit n=14 win%=100.0% avg_pnl=176.7  vs everything else n=130 win%=29.2% avg_pnl=-39.5
+    half1: n=6 win%=100.0% effect(vs rest)=62.1%   half2: n=8 win%=100.0% effect(vs rest)=79.7%   => THIN
+[slice5_strategy_x_exit] bb_mean_reversion/end_of_day n=6 win%=50.0% avg_pnl=42.3  vs everything else n=138 win%=35.5% avg_pnl=-21.1
+    half1: n=1 win%=100.0% effect(vs rest)=57.7%   half2: n=5 win%=40.0% effect(vs rest)=11.6%   => THIN
+[slice5_strategy_x_exit] cci_divergence/end_of_day n=21 win%=52.4% avg_pnl=14.0  vs everything else n=123 win%=33.3% avg_pnl=-24.0
+    half1: n=13 win%=61.5% effect(vs rest)=22.6%   half2: n=8 win%=37.5% effect(vs rest)=9.4%   => STABLE (both +)
+[slice5_strategy_x_exit] cci_divergence/stop_loss n=11 win%=0.0% avg_pnl=-150.5  vs everything else n=133 win%=39.1% avg_pnl=-7.6
+    half1: n=0 win%=NaN effect(vs rest)=NaN   half2: n=11 win%=0.0% effect(vs rest)=-34.4%   => THIN
+[slice5_strategy_x_exit] cci_divergence/take_profit n=7 win%=100.0% avg_pnl=191.2  vs everything else n=137 win%=32.8% avg_pnl=-29.2
+    half1: n=3 win%=100.0% effect(vs rest)=59.4%   half2: n=4 win%=100.0% effect(vs rest)=75.0%   => THIN
+[slice5_strategy_x_exit] cci_divergence/trailing_stop n=7 win%=0.0% avg_pnl=-107.2  vs everything else n=137 win%=38.0% avg_pnl=-13.9
+    half1: n=7 win%=0.0% effect(vs rest)=-47.7%   half2: n=0 win%=NaN effect(vs rest)=NaN   => THIN
+[slice5_strategy_x_exit] cci_divergence/manual n=1 win%=100.0% avg_pnl=50.1  vs everything else n=143 win%=35.7% avg_pnl=-19.0
+    half1: n=1 win%=100.0% effect(vs rest)=57.7%   half2: n=0 win%=NaN effect(vs rest)=NaN   => THIN
+[slice5_strategy_x_exit] choppiness_filter/stop_loss n=11 win%=0.0% avg_pnl=-173.5  vs everything else n=133 win%=39.1% avg_pnl=-5.7
+    half1: n=0 win%=NaN effect(vs rest)=NaN   half2: n=11 win%=0.0% effect(vs rest)=-34.4%   => THIN
+[slice5_strategy_x_exit] choppiness_filter/end_of_day n=9 win%=44.4% avg_pnl=-11.1  vs everything else n=135 win%=35.6% avg_pnl=-19.0
+    half1: n=5 win%=60.0% effect(vs rest)=18.2%   half2: n=4 win%=25.0% effect(vs rest)=-4.4%   => THIN
+[slice5_strategy_x_exit] choppiness_filter/take_profit n=8 win%=100.0% avg_pnl=199.9  vs everything else n=136 win%=32.4% avg_pnl=-31.3
+    half1: n=5 win%=100.0% effect(vs rest)=61.2%   half2: n=3 win%=100.0% effect(vs rest)=73.9%   => THIN
+[slice5_strategy_x_exit] choppiness_filter/trailing_stop n=6 win%=0.0% avg_pnl=-126.9  vs everything else n=138 win%=37.7% avg_pnl=-13.8
+    half1: n=6 win%=0.0% effect(vs rest)=-47.0%   half2: n=0 win%=NaN effect(vs rest)=NaN   => THIN
+[slice5_strategy_x_exit] choppiness_filter/manual n=1 win%=100.0% avg_pnl=38.5  vs everything else n=143 win%=35.7% avg_pnl=-18.9
+    half1: n=1 win%=100.0% effect(vs rest)=57.7%   half2: n=0 win%=NaN effect(vs rest)=NaN   => THIN
+
+######################################################################
+SLICE 6: NIFTY day direction x trade direction (with-tape vs against-tape)
+######################################################################
+(n=133/144 trades have a usable nifty_day_return; 11 NaN)
+--- with-tape (trade direction matches index day direction) vs against-tape ---
+group                   n    win%     avg_pnl     total_pnl
+with-tape              72   37.5%       -12.3        -888.6
+against-tape           61   37.7%       -13.3        -812.1
+
+[slice6_with_tape] with-tape n=72 win%=37.5% avg_pnl=-12.3  vs against-tape n=61 win%=37.7% avg_pnl=-13.3
+    half1: n=38 win%=44.7% effect(vs rest)=5.5%   half2: n=34 win%=29.4% effect(vs rest)=-7.0%   => UNSTABLE
+
+######################################################################
+SLICE 7: Entry-day gap |index_open - prior_close|/prior_close, terciles
+######################################################################
+JUDGMENT CALL: daily CSV has no index-open column; index open approximated
+from the NIFTY 50 minute bar's first 09:15 bar where minute-bar coverage
+includes that day's open. This severely limits usable n (see NaN counts above).
+(n=32/144 trades have a usable gap tercile)
+--- gap_tercile ---
+group                   n    win%     avg_pnl     total_pnl
+T1                     11   36.4%       -81.0        -891.2
+T3                     11   18.2%      -115.9      -1,275.0
+T2                     10   40.0%         3.7          36.8
+
+[slice7_gap_tercile] T1 n=11 win%=36.4% avg_pnl=-81.0  vs other terciles n=21 win%=28.6% avg_pnl=-59.0
+    half1: n=1 win%=0.0% effect(vs rest)=-33.3%   half2: n=10 win%=40.0% effect(vs rest)=23.3%   => THIN
+[slice7_gap_tercile] T2 n=10 win%=40.0% avg_pnl=3.7  vs other terciles n=22 win%=27.3% avg_pnl=-98.5
+    half1: n=10 win%=40.0% effect(vs rest)=23.3%   half2: n=0 win%=NaN effect(vs rest)=NaN   => THIN
+[slice7_gap_tercile] T3 n=11 win%=18.2% avg_pnl=-115.9  vs other terciles n=21 win%=38.1% avg_pnl=-40.7
+    half1: n=5 win%=20.0% effect(vs rest)=-16.4%   half2: n=6 win%=16.7% effect(vs rest)=-23.3%   => THIN
+
+######################################################################
+SLICE 8: Stock's own morning range (09:15-10:15, % of open) terciles at entry
+######################################################################
+(n=43/144 trades have a usable morning-range tercile)
+--- morning_range_tercile ---
+group                   n    win%     avg_pnl     total_pnl
+T1                     15   46.7%       -13.9        -208.7
+T2                     14   28.6%       -61.6        -861.8
+T3                     14    7.1%      -144.2      -2,019.5
+
+[slice8_morning_range_tercile] T1 n=15 win%=46.7% avg_pnl=-13.9  vs other terciles n=28 win%=17.9% avg_pnl=-102.9
+    half1: n=6 win%=50.0% effect(vs rest)=30.0%   half2: n=9 win%=44.4% effect(vs rest)=29.1%   => THIN
+[slice8_morning_range_tercile] T2 n=14 win%=28.6% avg_pnl=-61.6  vs other terciles n=29 win%=27.6% avg_pnl=-76.8
+    half1: n=8 win%=25.0% effect(vs rest)=-5.8%   half2: n=6 win%=33.3% effect(vs rest)=8.3%   => THIN
+[slice8_morning_range_tercile] T3 n=14 win%=7.1% avg_pnl=-144.2  vs other terciles n=29 win%=37.9% avg_pnl=-36.9
+    half1: n=7 win%=14.3% effect(vs rest)=-21.4%   half2: n=7 win%=0.0% effect(vs rest)=-40.0%   => THIN
+
+######################################################################
+SLICE 9: Signal-cluster density (other trades entered same day)
+######################################################################
+--- day_density_bucket ---
+group                   n    win%     avg_pnl     total_pnl
+4+                    144   36.1%       -18.5      -2,661.2
+
+NOTE: every trading day in this dataset had >=4 trades entered (min observed was 4, on 2026-07-31). The '1-3 trades/day' bucket is empty by construction — this slice has no variation to test against this population. Not a code bug; a genuine property of this signal-generation cadence.
+[slice9_density] 1-3 trades/day n=0 win%=NaN avg_pnl=NaN  vs 4+ trades/day n=144 win%=36.1% avg_pnl=-18.5
+    half1: n=0 win%=NaN effect(vs rest)=NaN   half2: n=0 win%=NaN effect(vs rest)=NaN   => THIN
+
+######################################################################
+SLICE 10: Loss clustering — top-3 worst days' share of total gross losses
+######################################################################
+date            gross_loss_sum
+2026-07-29            -1,832.1
+2026-07-21              -961.2
+2026-08-03              -920.7
+2026-07-30              -853.1
+2026-07-28              -726.1
+2026-07-23              -637.3
+2026-07-27              -495.5
+2026-07-22              -416.7
+2026-08-04              -355.6
+2026-07-24              -268.3
+2026-07-31              -151.6
+Total gross loss magnitude (sum over trades with gross_pnl<0, aggregated by day): 7,618.2
+Top-3 worst days: [datetime.date(2026, 7, 29), datetime.date(2026, 7, 21), datetime.date(2026, 8, 3)] -> combined loss 3,714.0 = 48.8% of total gross losses
+Half1 (n=72): top-3-day share=75.2% vs even-spread baseline=60.0% (concentration effect=15.2%)
+Half2 (n=72): top-3-day share=74.3% vs even-spread baseline=42.9% (concentration effect=31.5%)
+=> STABLE (both +)  (ADAPTED stability check: 'effect' = observed top-3-day share minus what an evenly-spread distribution across that half's loss-days would give; n is the half's trade count, not a per-cell count, since this slice describes calendar concentration, not a trade attribute)
+
+======================================================================
+CANDIDATE HYPOTHESES (STABLE patterns only)
+======================================================================
+Every filter's in-sample P&L impact is optimistic by construction (it is
+measured on the same 144 trades that produced the rule). None of this is
+validated out-of-sample. Do not act on this without forward testing.
+
+- [slice2_day_of_week] cell='Wednesday'  n=36 win_rate=33.3% avg_pnl=-34.2  half1_eff=-0.2% half2_eff=-2.7%
+    FILTER RULE: skip trades where [slice2_day_of_week] cell='Wednesday' (removes 36 trades)
+    with filter:  n=108 win_rate=37.0% total_pnl=-1,428.6
+    without filter (baseline): n=144 win_rate=36.1% total_pnl=-2,661.2
+    in-sample impact: total_pnl -2,661.2 -> -1,428.6 (1,232.7 change) — OPTIMISTIC, in-sample only.
+
+- [slice3_direction_overall] cell='BUY'  n=54 win_rate=38.9% avg_pnl=-30.0  half1_eff=0.5% half2_eff=6.2%
+    FILTER RULE: skip trades where [slice3_direction_overall] cell='BUY' (removes 54 trades)
+    with filter:  n=90 win_rate=34.4% total_pnl=-1,040.3
+    without filter (baseline): n=144 win_rate=36.1% total_pnl=-2,661.2
+    in-sample impact: total_pnl -2,661.2 -> -1,040.3 (1,621.0 change) — OPTIMISTIC, in-sample only.
+
+- [slice5_strategy_x_exit] cell='cci_divergence/end_of_day'  n=21 win_rate=52.4% avg_pnl=14.0  half1_eff=22.6% half2_eff=9.4%
+    (positive-avg_pnl cell — no 'skip' rule constructed; this is a keep/lean-into candidate, not a loss-avoidance filter)
+
+- [slice10_loss_clustering] cell='top-3 worst days'  n=144 win_rate=NaN avg_pnl=NaN  half1_eff=15.2% half2_eff=31.5%
+    (not a per-trade cell — no 'skip' filter rule applies; this slice describes a calendar/structural pattern, not a trade attribute to filter on)
+
+======================================================================
+END OF REPORT
+======================================================================
