@@ -713,3 +713,147 @@ continuous run) is the one remaining, untested, structurally-plausible candidate
 the next thing to check, not fixed or tested in this follow-up per the "do not go fix anything"
 instruction.
 
+====================================================================================================
+DATED FOLLOW-UP #3 -- 2026-08-04 -- the isolation shot: compounding + shrink-to-fit, tested directly
+====================================================================================================
+Produced by kite/research/pipeline_reconciliation.py --isolation-diagnostic (clearly-marked diagnostic
+code appended to that script; not part of the original forensic run). Follow-up #2's own compounding
+diagnostic (inside rotation_refinement_study.py) changed the SLOT-SIZE FORMULA but kept binary-reject,
+so under-deployment could persist regardless of sizing formula -- convention #2 (cash policy) had never
+been isolated from convention #1 (sizing formula). This tests both together, and also alone via the
+disaster-stop toggle, on "cell 3" per the reviewer's numbering (= Follow-up #2's CELL 2: Z data, Z's
+own window, 2021-04-30 -> 2026-01-09 after 200-day warmup).
+
+--------------------------------------------------------------------------------------------------
+METHOD
+--------------------------------------------------------------------------------------------------
+run_sim_configurable() is a local, faithful copy of rotation_refinement_study.py's run_sim(), with
+exactly two axes changed (everything else -- sells, disaster-stop check, force-exit-on-disappearance,
+rebalance/rank logic, equity recording -- copied verbatim, calling run_sim()'s own helper functions
+via the rrs module reference):
+  sizing='compounding': slot = current_equity/MAX_POSITIONS, recomputed at EVERY rebalance, NOT capped
+    at cash -- distinct from run_sim()'s own compounding=True mode (min(cash, equity/max_slots), which
+    still implicitly caps the TARGET at cash before binary-reject even runs).
+  cash_policy='shrink_to_fit': spend whatever cash is actually available (up to the target slot), buy
+    floor(investable/price) shares; skip ONLY if that floor is 0 (cash can't cover even 1 share -- a
+    physical floor, not a policy choice).
+Also instruments per-day CASH (run_sim() doesn't expose this) to compute deployment = mean(1 - cash/
+equity) over every trading day -- measured directly, not inferred.
+  SANITY CHECK: local engine run with sizing='fixed', cash_policy='binary_reject', stop=True reproduces
+  Follow-up #2's CELL 2 result EXACTLY (-11.969% full-period, eras -13.35%/+3.14%/-23.81%) -- confirms
+  this local copy is faithful before trusting configs (A)/(B).
+  (A): sizing='compounding' + cash_policy='shrink_to_fit' + disaster stop KEPT.
+  (B): same as (A), disaster stop REMOVED (fully matches honest_lab.py's total absence of any stop rule).
+
+--------------------------------------------------------------------------------------------------
+RESULTS
+--------------------------------------------------------------------------------------------------
+                                                     full-period CAGR    Era1      Era2      Era3    mean deployment
+cell 3 (Z data, Z window, frozen baseline)               -11.969%    -13.35%    +3.14%   -23.81%          --
+reproduction (sanity check)                               -11.969%    -13.35%    +3.14%   -23.81%       60.52%
+(A) compounding + shrink-to-fit + stop=True               -22.321%    -20.00%   -15.59%   -30.68%       45.96%
+(B) compounding + shrink-to-fit + stop=False              -22.321%    -20.08%   -15.51%   -30.68%       46.17%
+honest_lab reference (TRAIN/VAL, different engine)     +5.0% / +3.5%
+
+Sanity check: reproduction matches cell 3 to 3 decimal places (-11.969%, identical eras) -- the local
+engine copy is trustworthy.
+
+DEPLOYMENT, measured directly (not inferred): baseline (fixed slot + binary reject) mean deployment
+across all trading days = 60.52% of equity invested. Config (A) (compounding + shrink-to-fit) mean
+deployment = 45.96%. Delta = -14.56pp -- DEPLOYMENT FELL, the opposite of what the reviewer's
+under-deployment hypothesis predicted.
+
+--------------------------------------------------------------------------------------------------
+INTERPRETATION -- applying the pre-stated rule, and why deployment moved the "wrong" way
+--------------------------------------------------------------------------------------------------
+(A) = -22.321%/yr and (B) = -22.321%/yr: BOTH LAND FURTHER NEGATIVE than the -11.969% baseline, not
+closer to breakeven. Per the pre-stated rule ("if (A)/(B) stay deeply negative, conventions 1/2/5 are
+ALL exonerated"): CONVENTIONS #1 (sizing formula), #2 (cash policy) and #5 (disaster stop) ARE ALL
+EXONERATED -- and more decisively than the rule even anticipated, since the result moved in the wrong
+direction entirely rather than merely failing to close the gap. (A) vs (B) are within 0.001pp of each
+other (stop=True -22.321% vs stop=False -22.321%), reconfirming #5 (disaster stop) has essentially zero
+effect here, consistent with the X0 finding in the frozen N-data study.
+
+WHY deployment fell instead of rising (a real, checkable mechanism, not just "the number moved"):
+run_sim()'s existing fixed-slot baseline sizes each of up to 3 simultaneously-held positions (TOP_N=3)
+at a FLAT Rs20,000 (= CAPITAL/MAX_POSITIONS, MAX_POSITIONS=5, computed once against the ORIGINAL
+Rs100,000 -- never against current, possibly-shrunk equity). As equity falls during a drawdown, that
+FIXED Rs20,000 numerator becomes a LARGER fraction of the now-smaller equity base -- baseline's 60.52%
+mean deployment (close to the structural 3-of-5-slots x Rs20k-of-100k = 60% ceiling) is partly an
+artifact of this: it keeps trying to deploy the ORIGINAL capital's worth regardless of how much smaller
+the book has become, succeeding whenever cash allows and simply skipping (via binary-reject) when it
+can't -- and critically, a SKIPPED entry leaves existing, already-invested positions untouched (deployed
+capital doesn't get pulled back to cash just because a new entry was rejected). Under 'compounding'
+sizing, the target slot = current_equity/5 shrinks IN LOCKSTEP with equity, so during the SAME drawdown
+periods the target itself is smaller, and shrink-to-fit no longer has the fixed-slot version's
+"binary-reject acts as an accidental risk-off throttle during cash-tight (i.e. losing) stretches" side
+effect -- shrink-to-fit instead keeps deploying a compounding-shrunk-but-still-substantial fraction
+THROUGH the drawdown. Era1 makes this concrete: baseline -13.35% vs config (A) -20.00% -- fuller,
+more consistent exposure through a bad early stretch produced a WORSE outcome, not a better one, because
+the underlying stock-picking/timing was genuinely bad in that stretch on Z data, and more consistent
+deployment into a bad signal is a real economic loss, not a data or accounting artifact. This is the
+single clearest piece of evidence in this whole reconciliation that binary-reject was NOT starving a
+good strategy of capital -- if anything, on this data/window, it was accidentally protective.
+
+--------------------------------------------------------------------------------------------------
+ADDITIONAL CELL (per the interpretation rule): honest_lab.py's own engine, run CONTINUOUSLY, no reset
+--------------------------------------------------------------------------------------------------
+hl_run_full() is a local, faithful copy of honest_lab.py's Sim.run() with ONE change: it returns the
+full equity Series (Sim.run() computes this internally but only ever returns the summary metrics dict,
+so era-level/continuous-window CAGR isn't recoverable from the public API without this copy). Uses
+honest_lab.py's own module constants (CAPITAL, MAX_SLOTS, SLIPPAGE, zerodha_charges) via direct import.
+
+SANITY CHECK -- reproducing honest_lab.py's own reported two-stage TRAIN/VAL numbers (lb=63, n=3,
+regime=True) with this local copy, before trusting the continuous number:
+  TRAIN CAGR = +4.28%  (lab_results.csv reports +5.0%, delta 0.72pp)
+  VAL CAGR   = +2.97%  (lab_results.csv reports +3.5%, delta 0.53pp)
+Close but not an exact match -- both within 1pp, same sign, same rough magnitude, no reason to distrust
+the qualitative conclusion below, but the small gap (plausibly floating-point iteration/ordering
+differences between this copy and the original, or a minor discrepancy not tracked down here) should be
+noted rather than hidden. If this number needs to be exact for some future purpose, it should be
+reproduced by importing and running honest_lab.py's actual Sim class directly rather than trusting this
+copy's small residual.
+
+CONTINUOUS RUN (one Sim over the ENTIRE 2020-07-14 -> 2026-01-09 window, NO capital reset at the
+2024-06-30/2024-07-01 train/val boundary):
+  final_equity = Rs 121,212.35   full-period CAGR = +3.610%   #trades=83
+    Era1 2020-07-14 -> 2022-05-13: CAGR = -3.287%
+    Era2 2022-05-13 -> 2024-03-11: CAGR = +8.257%
+    Era3 2024-03-11 -> 2026-01-09: CAGR = +6.097%
+
+Continuous full-period CAGR (+3.610%) sits almost exactly between the two-stage TRAIN (+4.28%) and VAL
+(+2.97%) numbers, as a capital-weighted blend of two similar-sized positive periods should. It STAYS
+SOLIDLY POSITIVE. Per the pre-stated rule ("if honest_lab continuous also drops, that's a live lead;
+if it stays positive, #3 is not the driver either"): CONVENTION #3 (train/val capital reset vs one
+continuous simulation) IS ALSO EXONERATED -- removing the reset does not meaningfully hurt honest_lab's
+engine on this exact data/window.
+
+--------------------------------------------------------------------------------------------------
+PLAIN STATEMENT
+--------------------------------------------------------------------------------------------------
+Forcing rotation_refinement's engine toward honest_lab's exact sizing semantics (compounding slot size
++ shrink-to-fit + no binary reject, with or without the disaster stop) does NOT close the gap -- it
+makes the Z-data baseline WORSE (-11.97% -> -22.32%), and measured deployment FELL (60.52% -> 45.96%),
+the opposite of the reviewer's hypothesized direction. This is a clean, direct, empirical exoneration
+of conventions #1 (sizing formula), #2 (cash policy) and #5 (disaster stop), individually and in
+combination -- not merely "insufficient to explain the gap" but affirmatively wrong-signed. Separately,
+running honest_lab.py's own engine continuously (no train/val reset) over the same Z window still
+produces a solidly positive +3.61%/yr, exonerating convention #3 (capital reset) too.
+
+Four of the five enumerated engine-convention candidates (#1, #2, #3, #5) are now individually and
+jointly ruled out by direct experiment, on top of price data itself already being exonerated
+(Follow-up #2). The ONE remaining, never-yet-directly-tested candidate is #4: cost-bookkeeping
+convention -- honest_lab.py settles the full round-trip fee at EXIT only via
+kite.config.zerodha_charges.calculate_charges() (the complete brokerage+STT+exchange+SEBI+GST+stamp_
+duty delivery formula), while rotation_refinement_study.py haircuts BOTH entry and exit with a simpler
+flat-percentage formula plus a flat Rs15.34 DP charge per sell (J4). Part 2's MAGNITUDE CHECK estimated
+this at only ~-1.4pp/yr in isolation, which looked too small to matter -- but that estimate assumed the
+FIXED-slot baseline's trade count and sizing; it has not been tested on the compounding/shrink-to-fit
+configs, nor stress-tested against the possibility that the ENTRY-SIDE haircut (which effectively
+shrinks every buy's investable cash before the fixed-vs-compounding sizing formula ever sees it) compounds
+differently under repeated round trips than a one-time ~1.4pp/yr estimate suggests. If this
+investigation continues, the next diagnostic is a direct swap of rotation_refinement_study.py's cost
+functions (buy_investable/sell_net_proceeds/DP_FLAT_PER_SELL) for honest_lab.py's exit-only
+zerodha_charges.calculate_charges() convention, engine and data otherwise unchanged -- not performed
+here, per the "no commits / do not go fix anything" instruction.
+

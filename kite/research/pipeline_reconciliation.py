@@ -1034,10 +1034,482 @@ def run_z_engine_diagnostic():
     return out_lines
 
 
+# ===========================================================================
+# REVIEWER FOLLOW-UP DIAGNOSTIC #3 -- appended 2026-08-04, the isolation shot.
+# NOT part of the original forensic run above.
+#
+# Convention #2 (insufficient-cash: binary-reject vs shrink-to-fit) was never
+# isolated -- the earlier compounding diagnostic (run_diagnostic_compounding
+# in rotation_refinement_study.py) changed the SLOT-SIZE FORMULA but kept
+# binary-reject, so under-deployment could persist regardless of which
+# sizing formula was used. This runs two new configs on "cell 3" (the
+# reviewer's numbering: Z data, Z's own window, 2021-04-30 -> 2026-01-09 --
+# same panel as run_z_engine_diagnostic()'s CELL 2), with a LOCAL,
+# instrumented, otherwise-faithful copy of run_sim() (needed because
+# run_sim() itself doesn't expose per-day cash, and its own compounding mode
+# still keeps binary-reject baked in -- see run_sim_configurable()'s
+# docstring for exactly what's copied verbatim vs changed):
+#   (A) sizing=compounding (slot=current_equity/MAX_POSITIONS, NOT capped at
+#       cash) + cash_policy=shrink_to_fit (spend whatever's available, floor
+#       to whole shares, never binary-reject) + disaster stop KEPT.
+#   (B) same as (A), disaster stop REMOVED (matches honest_lab.py's total
+#       absence of any stop-loss rule).
+# Also measures deployment (mean fraction of equity actually invested, i.e.
+# 1 - cash/equity, averaged over every trading day) for both the baseline
+# cell and (A), to test the under-deployment mechanism DIRECTLY instead of
+# inferring it.
+#
+# Run:  python kite/research/pipeline_reconciliation.py --isolation-diagnostic
+# ===========================================================================
+def run_sim_configurable(calendar, close_wide, open_wide, mom_df, regime_on, rebalance_dates, rrs,
+                          sizing='fixed', cash_policy='binary_reject', use_disaster_stop=True,
+                          rank_fn=None, capital=None, slot_size=None, top_n=None, max_slots=None):
+    """Local, faithful copy of rotation_refinement_study.py's run_sim(),
+    parametrized on exactly the two axes this diagnostic needs to isolate
+    (plus the disaster-stop toggle run_sim() already exposes):
+
+      sizing: 'fixed'       -> rrs.SLOT_SIZE constant (matches the live/
+                                frozen baseline, J1).
+              'compounding' -> slot = current_equity / max_slots, recomputed
+                                at EVERY rebalance, NOT capped at cash --
+                                this reviewer's (A)/(B) spec, distinct from
+                                run_sim()'s own compounding=True mode (which
+                                uses min(cash, equity/max_slots) and so still
+                                caps the TARGET at cash even before the
+                                binary-reject check ever runs).
+      cash_policy: 'binary_reject'  -> verbatim from run_sim(): skip the
+                                entry entirely if cash_amt > cash (the live
+                                paper_trader.py rule).
+                   'shrink_to_fit'  -> spend whatever cash is actually
+                                available (up to the target slot), buy
+                                floor(investable/price) shares; skip ONLY if
+                                that floor is 0 (cash can't cover even 1
+                                share -- a physical floor, not a policy
+                                choice). This is the reviewer's "buy as many
+                                shares as cash allows, min 1; never skip"
+                                spec.
+
+    ALL OTHER mechanics -- sells, disaster-stop check (still gated by
+    use_disaster_stop exactly as in run_sim()), force-exit-on-disappearance,
+    rebalance/rank logic, equity recording -- are copied verbatim from
+    run_sim(), calling run_sim()'s OWN helper functions (buy_investable,
+    sell_net_proceeds, DISASTER_SL, _mark_to_market, make_momentum_rank_fn)
+    via the `rrs` module reference, so unchanged mechanics stay byte-
+    identical to the frozen study rather than being reimplemented. Also
+    additionally instruments per-day CASH (run_sim() only returns the
+    equity series, not cash) so a deployment/invested-fraction series can be
+    computed -- the mechanism this diagnostic is meant to measure directly,
+    not infer. stagger_n is fixed at 1 (baseline's own value)."""
+    capital = rrs.CAPITAL if capital is None else capital
+    slot_size = rrs.SLOT_SIZE if slot_size is None else slot_size
+    top_n = rrs.TOP_N if top_n is None else top_n
+    max_slots = rrs.MAX_POSITIONS if max_slots is None else max_slots
+    stagger_n = 1
+    if rank_fn is None:
+        rank_fn = rrs.make_momentum_rank_fn(mom_df)
+
+    cash = capital
+    positions = {}
+    pending_sells = {}
+    pending_buys = {}
+    trade_log = []
+    equity_curve = {}
+    cash_curve = {}
+    n = len(calendar)
+
+    def cancel_future_buys(sym, after_idx):
+        for j in range(after_idx + 1, min(after_idx + 1 + max(stagger_n, 1) + 1, n)):
+            fd = calendar[j]
+            if fd in pending_buys:
+                pending_buys[fd] = [b for b in pending_buys[fd] if b[0] != sym]
+
+    for i, t in enumerate(calendar):
+        # 1. SELLS -- verbatim from run_sim()
+        for sym in pending_sells.pop(t, []):
+            if sym not in positions:
+                continue
+            pos = positions.pop(sym)
+            o = open_wide.at[t, sym] if (t in open_wide.index and pd.notna(open_wide.at[t, sym])) else np.nan
+            if pd.isna(o):
+                prior_closes = close_wide[sym].loc[:t].dropna()
+                o = float(prior_closes.iloc[-1]) if len(prior_closes) else pos['cost_basis'] / pos['qty']
+            gross = pos['qty'] * o
+            proceeds = rrs.sell_net_proceeds(gross)
+            cash += proceeds
+            gain = proceeds - pos['cost_basis']
+            hold_days = (t - pos['tranches'][0][0]).days
+            trade_log.append({'symbol': sym, 'entry_date': pos['tranches'][0][0], 'exit_date': t,
+                               'qty': pos['qty'], 'cost_basis': pos['cost_basis'], 'proceeds': proceeds,
+                               'gain': gain, 'holding_days': hold_days})
+            cancel_future_buys(sym, i)
+
+        # 2. BUYS -- cash_policy determines binary-reject vs shrink-to-fit; everything else verbatim
+        for sym, cash_amt in pending_buys.pop(t, []):
+            o = open_wide.at[t, sym] if (t in open_wide.index) else np.nan
+            if pd.isna(o):
+                continue
+            if cash_policy == 'binary_reject':
+                if cash_amt > cash:
+                    continue
+                spend = cash_amt
+            else:  # shrink_to_fit
+                spend = cash_amt if cash_amt <= cash else cash
+                if spend <= 0:
+                    continue
+            investable = rrs.buy_investable(spend)
+            qty = int(investable / o)
+            if qty <= 0:
+                continue  # true physical floor: can't afford even 1 share
+            cost = qty * o
+            cash -= spend
+            if sym in positions:
+                p = positions[sym]
+                p['qty'] += qty
+                p['cost_basis'] += cost
+                p['tranches'].append((t, qty, o))
+            else:
+                positions[sym] = {'qty': qty, 'cost_basis': cost, 'tranches': [(t, qty, o)]}
+
+        # 3. Disaster-stop check -- verbatim, still gated by use_disaster_stop
+        if use_disaster_stop:
+            stops_today = []
+            for sym, pos in positions.items():
+                c = close_wide.at[t, sym] if (t in close_wide.index) else np.nan
+                if pd.isna(c):
+                    continue
+                avg_price = pos['cost_basis'] / pos['qty']
+                if c <= rrs.DISASTER_SL * avg_price:
+                    stops_today.append(sym)
+            for sym in stops_today:
+                if i + 1 < n:
+                    nd = calendar[i + 1]
+                    pending_sells.setdefault(nd, [])
+                    if sym not in pending_sells[nd]:
+                        pending_sells[nd].append(sym)
+                    cancel_future_buys(sym, i)
+
+        # 3b. Symbol-disappearance safety net -- verbatim
+        for sym in list(positions.keys()):
+            col = close_wide[sym]
+            has_today = t in col.index and pd.notna(col.at[t])
+            future = col.loc[col.index > t]
+            has_future = future.notna().any()
+            if has_today and not has_future and i + 1 < n:
+                nd = calendar[i + 1]
+                pending_sells.setdefault(nd, [])
+                if sym not in pending_sells[nd]:
+                    pending_sells[nd].append(sym)
+                cancel_future_buys(sym, i)
+
+        # 4. Rebalance decision -- verbatim except the sizing branch
+        if t in rebalance_dates and i + 1 < n:
+            nd_start = i + 1
+            if not regime_on.get(t, False):
+                for s in list(positions.keys()):
+                    nd = calendar[nd_start]
+                    pending_sells.setdefault(nd, [])
+                    if s not in pending_sells[nd]:
+                        pending_sells[nd].append(s)
+                    cancel_future_buys(s, i)
+            else:
+                eligible = [s for s in mom_df.columns if (t in mom_df.index and pd.notna(mom_df.at[t, s]))]
+                ranked = rank_fn(t, eligible)
+                top = ranked[:top_n]
+                exits = [s for s in positions if s not in top]
+                entries = [s for s in top if s not in positions]
+                for s in exits:
+                    nd = calendar[nd_start]
+                    pending_sells.setdefault(nd, [])
+                    if s not in pending_sells[nd]:
+                        pending_sells[nd].append(s)
+                    cancel_future_buys(s, i)
+                fut_dates = calendar[nd_start: nd_start + stagger_n]
+                if len(fut_dates) > 0:
+                    if sizing == 'compounding':
+                        equity_now = rrs._mark_to_market(cash, positions, close_wide, t)
+                        this_slot_size = equity_now / max_slots  # NOT capped at cash -- reviewer's (A)/(B) spec
+                    else:
+                        this_slot_size = slot_size
+                    tranche_cash = this_slot_size / len(fut_dates)
+                    for s in entries:
+                        for fd in fut_dates:
+                            pending_buys.setdefault(fd, []).append((s, tranche_cash))
+
+        # 5. Record equity + cash -- verbatim + cash instrumentation added
+        equity_curve[t] = rrs._mark_to_market(cash, positions, close_wide, t)
+        cash_curve[t] = cash
+
+    return pd.Series(equity_curve), pd.Series(cash_curve), trade_log, positions, cash
+
+
+def _report_configurable_run(p, label, rrs, eq, cash_series, trade_log, calendar, global_start, global_end, windows):
+    final_eq = float(rrs.equity_at(eq, global_end))
+    full_cagr = rrs.cagr(rrs.CAPITAL, final_eq, global_start, global_end)
+    era_cagrs = [rrs.cagr(rrs.equity_at(eq, elo), rrs.equity_at(eq, ehi), elo, ehi) for elo, ehi in windows]
+    deployed = (1.0 - (cash_series / eq)).clip(lower=0.0)
+    mean_deployed_pct = float(deployed.mean()) * 100
+    p(f'{label}')
+    p(f'    final_equity=Rs {final_eq:>13,.2f}   full-period CAGR={full_cagr * 100:>+8.3f}%   '
+      f'#trades={len(trade_log)}   mean_deployment={mean_deployed_pct:>6.2f}% of equity invested (avg over all trading days)')
+    for i, (elo, ehi) in enumerate(windows, 1):
+        p(f'    Era{i} {elo.date()} -> {ehi.date()}: CAGR={era_cagrs[i - 1] * 100:>+8.3f}%')
+    return dict(final_equity=final_eq, full_cagr=full_cagr, era_cagrs=era_cagrs, mean_deployed_pct=mean_deployed_pct)
+
+
+def hl_run_full(hl, np_mod, pd_mod, data, dates, strategy):
+    """Local, faithful copy of honest_lab.py's Sim.run(), with ONE change:
+    returns the full equity Series (and trades) instead of just the summary
+    metrics dict. Sim.run() computes the equity curve internally but only
+    ever returns self._metrics(eq, trades) -- era-level / continuous-window
+    CAGR isn't recoverable from honest_lab.py's public API without this.
+    Uses honest_lab.py's OWN module-level constants (CAPITAL, MAX_SLOTS,
+    SLIPPAGE, zerodha_charges) via the `hl` module reference, so the
+    mechanics are byte-identical to the frozen file, not reimplemented."""
+    cash, positions, trades = hl.CAPITAL, {}, []
+    equity_curve = []
+    pending = None
+    for t in dates:
+        if pending:
+            for sym in pending['exits']:
+                if sym not in positions:
+                    continue
+                p_, o = positions.pop(sym), data[sym].open.get(t)
+                if o is None or np_mod.isnan(o):
+                    positions[sym] = p_
+                    continue
+                px = o * (1 - hl.SLIPPAGE)
+                buy_v, sell_v = p_['qty'] * p_['entry'], p_['qty'] * px
+                fees = sum(hl.zerodha_charges.calculate_charges(buy_v, sell_v, is_intraday=False).values())
+                cash += sell_v - fees
+                trades.append({'sym': sym, 'entry_date': p_['entry_date'], 'exit_date': t,
+                                'pnl': sell_v - buy_v - fees})
+            for sym in pending['entries']:
+                if sym in positions or len(positions) >= hl.MAX_SLOTS:
+                    continue
+                o = data[sym].open.get(t)
+                if o is None or np_mod.isnan(o):
+                    continue
+                px = o * (1 + hl.SLIPPAGE)
+                mkt_val = sum(pp['qty'] * data[s].close.get(t, pp['entry']) for s, pp in positions.items())
+                slot = min(cash, (cash + mkt_val) / hl.MAX_SLOTS)
+                qty = int(slot / px)
+                if qty <= 0:
+                    continue
+                cash -= qty * px
+                positions[sym] = {'qty': qty, 'entry': px, 'entry_date': t, 'bars': 0, 'trail': -np_mod.inf}
+            pending = None
+        for p_ in positions.values():
+            p_['bars'] += 1
+        pending = strategy(t, positions)
+        mkt_val = sum(pp['qty'] * data[s].close.get(t, pp['entry']) for s, pp in positions.items())
+        equity_curve.append((t, cash + mkt_val))
+    eq = pd_mod.Series(dict(equity_curve))
+    return eq, trades
+
+
+def run_isolation_diagnostic():
+    out_lines = []
+
+    def p(msg=''):
+        print(msg, flush=True)
+        out_lines.append(str(msg))
+
+    from kite.research import rotation_refinement_study as rrs
+
+    p('=' * 100)
+    p('REVIEWER FOLLOW-UP #3: the isolation shot -- compounding+shrink-to-fit on Z data, Z window')
+    p('=' * 100)
+    p('"Cell 3" per the reviewer\'s numbering (= run_z_engine_diagnostic()\'s CELL 2): Z data '
+      '(data/daily/*_day_2000d.csv), Z\'s own full window. Baseline full-period CAGR on this cell, '
+      'already reported: -11.969%.')
+    p('')
+
+    z_close_wide, z_open_wide, z_universe = load_z_panel()
+    mom_df = rrs.compute_momentum(z_close_wide, rrs.LOOKBACK)
+    _, _, proxy_regime_on_full = rrs.compute_proxy_regime(z_close_wide, rrs.REGIME_SMA)
+    valid_from = rrs.REGIME_SMA - 1
+    calendar = z_close_wide.index[valid_from:]
+    global_start, global_end = calendar[0], calendar[-1]
+    proxy_regime_on = pd.Series({d: bool(proxy_regime_on_full.get(d, False)) for d in calendar})
+    windows = rrs.era_windows(calendar, 3)
+    rebalance_dates = set(rrs.build_rebalance_dates(calendar, 1))
+
+    p('-' * 100)
+    p('SANITY CHECK -- local instrumented engine, sizing=fixed + cash_policy=binary_reject + stop=True, '
+      'must reproduce run_z_engine_diagnostic()\'s CELL 2 result (-11.969%, -13.35%/+3.14%/-23.81%) '
+      'before configs (A)/(B) below are trusted')
+    p('-' * 100)
+    eq_check, cash_check, trades_check, _, _ = run_sim_configurable(
+        calendar, z_close_wide, z_open_wide, mom_df, proxy_regime_on, rebalance_dates, rrs,
+        sizing='fixed', cash_policy='binary_reject', use_disaster_stop=True)
+    cell_check = _report_configurable_run(p, 'REPRODUCTION (fixed slot, binary reject, stop=True):',
+                                           rrs, eq_check, cash_check, trades_check, calendar, global_start, global_end, windows)
+    match = abs(cell_check['full_cagr'] * 100 - (-11.969)) < 0.05
+    p(f'    MATCH vs original run_z_engine_diagnostic() CELL 2 (-11.969%)? {"YES" if match else "NO -- INVESTIGATE, do not trust (A)/(B) below"}')
+    p('')
+
+    p('-' * 100)
+    p('(A) sizing=compounding (slot=current_equity/MAX_POSITIONS, uncapped by cash) + '
+      'cash_policy=shrink_to_fit + disaster stop KEPT')
+    p('-' * 100)
+    eq_a, cash_a, trades_a, _, _ = run_sim_configurable(
+        calendar, z_close_wide, z_open_wide, mom_df, proxy_regime_on, rebalance_dates, rrs,
+        sizing='compounding', cash_policy='shrink_to_fit', use_disaster_stop=True)
+    cell_a = _report_configurable_run(p, 'CONFIG (A):', rrs, eq_a, cash_a, trades_a, calendar, global_start, global_end, windows)
+    p('')
+
+    p('-' * 100)
+    p('(B) same as (A), disaster stop REMOVED (fully matches honest_lab.py\'s sizing semantics: '
+      'compounding, shrink-to-fit, no stop-loss rule at all)')
+    p('-' * 100)
+    eq_b, cash_b, trades_b, _, _ = run_sim_configurable(
+        calendar, z_close_wide, z_open_wide, mom_df, proxy_regime_on, rebalance_dates, rrs,
+        sizing='compounding', cash_policy='shrink_to_fit', use_disaster_stop=False)
+    cell_b = _report_configurable_run(p, 'CONFIG (B):', rrs, eq_b, cash_b, trades_b, calendar, global_start, global_end, windows)
+    p('')
+
+    p('=' * 100)
+    p('SUMMARY TABLE')
+    p('=' * 100)
+    p(f'{"":50}{"full-period CAGR":>18}{"Era1":>10}{"Era2":>10}{"Era3":>10}{"mean deployment":>17}')
+    p(f'{"cell 3 (Z data, Z window, frozen baseline)":50}{-11.969:>+17.3f}%{-13.35:>+9.2f}%{+3.14:>+9.2f}%{-23.81:>+9.2f}%{"(see below)":>17}')
+    p(f'{"reproduction (sanity check)":50}{cell_check["full_cagr"] * 100:>+17.3f}%'
+      f'{cell_check["era_cagrs"][0] * 100:>+9.2f}%{cell_check["era_cagrs"][1] * 100:>+9.2f}%'
+      f'{cell_check["era_cagrs"][2] * 100:>+9.2f}%{cell_check["mean_deployed_pct"]:>16.2f}%')
+    p(f'{"(A) compounding + shrink-to-fit + stop=True":50}{cell_a["full_cagr"] * 100:>+17.3f}%'
+      f'{cell_a["era_cagrs"][0] * 100:>+9.2f}%{cell_a["era_cagrs"][1] * 100:>+9.2f}%'
+      f'{cell_a["era_cagrs"][2] * 100:>+9.2f}%{cell_a["mean_deployed_pct"]:>16.2f}%')
+    p(f'{"(B) compounding + shrink-to-fit + stop=False":50}{cell_b["full_cagr"] * 100:>+17.3f}%'
+      f'{cell_b["era_cagrs"][0] * 100:>+9.2f}%{cell_b["era_cagrs"][1] * 100:>+9.2f}%'
+      f'{cell_b["era_cagrs"][2] * 100:>+9.2f}%{cell_b["mean_deployed_pct"]:>16.2f}%')
+    p(f'{"honest_lab reference (TRAIN/VAL, different engine)":50}{"+5.0% / +3.5%":>18}')
+    p('')
+    deployment_delta = cell_a['mean_deployed_pct'] - cell_check['mean_deployed_pct']
+    p(f'DEPLOYMENT, measured directly: baseline cell mean {cell_check["mean_deployed_pct"]:.2f}% of equity '
+      f'invested vs config (A) mean {cell_a["mean_deployed_pct"]:.2f}% -- delta {deployment_delta:+.2f}pp.')
+    p('')
+
+    p('=' * 100)
+    p('INTERPRETATION -- applying the pre-stated rule')
+    p('=' * 100)
+    both_at_or_above_zero = cell_a['full_cagr'] >= -0.005 and cell_b['full_cagr'] >= -0.005
+    if both_at_or_above_zero:
+        p(f'(A)={cell_a["full_cagr"] * 100:+.3f}%/yr and (B)={cell_b["full_cagr"] * 100:+.3f}%/yr both land at/above '
+          f'~0%/yr -> per the pre-stated rule: THE CONVENTION GAP IS IDENTIFIED. The live paper_trader\'s '
+          f'fixed-slot + binary-reject semantics are the material divergence from validated (honest_lab) '
+          f'behavior. This belongs in the October evidence file (per the reviewer\'s framing) -- NOT '
+          f'written here, per the "no commits / do not go fix anything" instruction; flagged for the human '
+          f'to action.')
+        run_hl_continuous = False
+    else:
+        p(f'(A)={cell_a["full_cagr"] * 100:+.3f}%/yr and (B)={cell_b["full_cagr"] * 100:+.3f}%/yr -- '
+          f'{"both" if cell_a["full_cagr"] < -0.005 and cell_b["full_cagr"] < -0.005 else "at least one"} '
+          f'stay deeply negative -> per the pre-stated rule: CONVENTIONS 1 (sizing), 2 (cash policy) AND 5 '
+          f'(disaster stop) ARE ALL EXONERATED, even in combination and even with deployment demonstrably '
+          f'higher (see DEPLOYMENT line above). Remaining suspects: #3 (train/val capital reset vs one '
+          f'continuous run) and #4 (cost-bookkeeping timing). Running the additional honest_lab-engine-'
+          f'continuous cell now, per the rule\'s instruction.')
+        run_hl_continuous = True
+    p('')
+
+    if run_hl_continuous:
+        p('=' * 100)
+        p('ADDITIONAL CELL (per the interpretation rule): honest_lab.py\'s OWN engine, run CONTINUOUSLY '
+          'over the full Z window, no train/val capital reset')
+        p('=' * 100)
+        from kite.research import honest_lab as hl
+        hl_data = {s: hl.add_indicators(df) for s, df in hl.load_data().items()}
+        hl_all_dates = pd.DatetimeIndex(sorted(set().union(*[df.index for df in hl_data.values()])))
+        hl_idx = pd.DataFrame({s: df.close for s, df in hl_data.items()}).reindex(hl_all_dates)
+        hl_proxy = (hl_idx / hl_idx.iloc[0]).mean(axis=1, skipna=True)
+        hl_regime = (hl_proxy > hl_proxy.rolling(200).mean())
+
+        p(f'  honest_lab.py load_data() date range: {hl_all_dates.min().date()} -> {hl_all_dates.max().date()}  '
+          f'({len(hl_all_dates)} trading days)')
+
+        # sanity check: reproduce honest_lab.py's own reported TRAIN/VAL numbers first (lb=63,n=3,regime=True)
+        hl_train_dates = hl_all_dates[hl_all_dates <= hl.TRAIN_END]
+        hl_val_dates = hl_all_dates[hl_all_dates > hl.TRAIN_END]
+        strat_train = hl.make_momo(hl_data, hl_train_dates, 63, 3, hl_regime)
+        strat_val = hl.make_momo(hl_data, hl_val_dates, 63, 3, hl_regime)
+        eq_train, trades_train = hl_run_full(hl, np, pd, hl_data, hl_train_dates, strat_train)
+        eq_val, trades_val = hl_run_full(hl, np, pd, hl_data, hl_val_dates, strat_val)
+        yrs_train = len(eq_train) / 252
+        yrs_val = len(eq_val) / 252
+        cagr_train = (eq_train.iloc[-1] / eq_train.iloc[0]) ** (1 / yrs_train) - 1 if yrs_train > 0 else float('nan')
+        cagr_val = (eq_val.iloc[-1] / eq_val.iloc[0]) ** (1 / yrs_val) - 1 if yrs_val > 0 else float('nan')
+        p(f'  SANITY CHECK -- reproduction of honest_lab.py\'s own two-stage TRAIN/VAL run (lb=63,n=3,regime=True): '
+          f'TRAIN CAGR={cagr_train * 100:+.2f}% (lab_results.csv: +5.0%)   VAL CAGR={cagr_val * 100:+.2f}% (lab_results.csv: +3.5%)')
+        match_hl = abs(cagr_train * 100 - 5.0) < 1.0 and abs(cagr_val * 100 - 3.5) < 1.0
+        p(f'  MATCH? {"YES" if match_hl else "NO -- INVESTIGATE, do not trust the continuous number below"}')
+        p('')
+
+        # the actual continuous run: ONE Sim over the full date range, no reset at TRAIN_END
+        strat_full = hl.make_momo(hl_data, hl_all_dates, 63, 3, hl_regime)
+        eq_full, trades_full = hl_run_full(hl, np, pd, hl_data, hl_all_dates, strat_full)
+        yrs_full = len(eq_full) / 252
+        cagr_full = (eq_full.iloc[-1] / eq_full.iloc[0]) ** (1 / yrs_full) - 1 if yrs_full > 0 else float('nan')
+        # era breakdown of the SAME continuous curve (no re-simulation, just slicing -- matches
+        # rrs.era_windows' "3 equal thirds of the trading-day window" convention)
+        n_dates = len(hl_all_dates)
+        bounds = [round(n_dates * i / 3) for i in range(4)]
+        bounds[0], bounds[-1] = 0, n_dates - 1
+        era_cagrs_full = []
+        for i in range(3):
+            lo_idx, hi_idx = bounds[i], bounds[i + 1]
+            if hi_idx <= lo_idx:
+                hi_idx = min(lo_idx + 1, n_dates - 1)
+            elo, ehi = hl_all_dates[lo_idx], hl_all_dates[hi_idx]
+            days = (ehi - elo).days
+            v_lo, v_hi = eq_full.get(elo, np.nan), eq_full.get(ehi, np.nan)
+            c = (v_hi / v_lo) ** (365.25 / days) - 1 if days > 0 and v_lo > 0 and v_hi > 0 else float('nan')
+            era_cagrs_full.append((elo, ehi, c))
+
+        p(f'  CONTINUOUS (no train/val reset): final_equity=Rs {eq_full.iloc[-1]:,.2f}   '
+          f'full-period CAGR={cagr_full * 100:+.3f}%   #trades={len(trades_full)}')
+        for i, (elo, ehi, c) in enumerate(era_cagrs_full, 1):
+            p(f'    Era{i} {elo.date()} -> {ehi.date()}: CAGR={c * 100:+.3f}%')
+        p('')
+        p(f'  Continuous full-period CAGR ({cagr_full * 100:+.3f}%) vs honest_lab\'s own reported two-stage '
+          f'TRAIN+VAL ({cagr_train * 100:+.2f}% / {cagr_val * 100:+.2f}%): '
+          f'{"the reset convention (#3) materially matters -- continuous is meaningfully worse, a live lead" if cagr_full * 100 < min(cagr_train, cagr_val) * 100 - 2 else "continuous stays broadly in the same positive neighborhood -- convention #3 (capital reset) is NOT the driver either, leaving #4 (cost-bookkeeping timing) as the main remaining candidate"}.')
+        p('')
+
+    p('=' * 100)
+    p('PLAIN STATEMENT')
+    p('=' * 100)
+    if both_at_or_above_zero:
+        p(f'Forcing rotation_refinement\'s engine to fully deploy capital the way honest_lab does '
+          f'(compounding slot size + shrink-to-fit + no binary reject) turns the Z-data baseline from '
+          f'{-11.969:+.2f}%/yr to (A)={cell_a["full_cagr"] * 100:+.2f}%/yr and (B)={cell_b["full_cagr"] * 100:+.2f}%/yr -- '
+          f'landing at or above breakeven. The live paper_trader\'s fixed-Rs20,000-slot + binary-cash-reject '
+          f'combination is the confirmed, material, ISOLATED driver of the CAGR gap versus honest_lab\'s '
+          f'validated numbers -- not price data (already exonerated), not the disaster stop alone, and not '
+          f'sizing formula alone (already exonerated individually) -- specifically the CASH POLICY, tested '
+          f'here for the first time in isolation from the sizing formula.')
+    else:
+        direction = ('rose, as the under-deployment hypothesis predicted' if deployment_delta > 0
+                     else 'FELL (the opposite of what the under-deployment hypothesis predicted)')
+        outcome = ('an improvement' if cell_a['full_cagr'] > -0.11969 else 'WORSE, not better')
+        p(f'Forcing rotation_refinement\'s engine to fully deploy capital the way honest_lab does '
+          f'(compounding slot size + shrink-to-fit + no binary reject) moves the Z-data baseline from '
+          f'-11.969%/yr to (A)={cell_a["full_cagr"] * 100:+.2f}%/yr and (B)={cell_b["full_cagr"] * 100:+.2f}%/yr -- '
+          f'{outcome}. Measured deployment {direction} (delta {deployment_delta:+.2f}pp: '
+          f'{cell_check["mean_deployed_pct"]:.2f}% baseline vs {cell_a["mean_deployed_pct"]:.2f}% config A). '
+          f'Conventions #1 (sizing formula), #2 (cash policy), and #5 (disaster stop) are collectively '
+          f'exonerated as the explanation, even in full combination -- and if the CAGR moved further '
+          f'negative under fuller deployment, that affirmatively rules out under-deployment as the '
+          f'mechanism rather than merely failing to confirm it. See the additional honest_lab-continuous '
+          f'cell above for the #3-vs-#4 split.')
+    return out_lines
+
+
 if __name__ == '__main__':
     if '--demerger-diagnostic' in sys.argv:
         run_demerger_diagnostic()
     elif '--z-engine-diagnostic' in sys.argv:
         run_z_engine_diagnostic()
+    elif '--isolation-diagnostic' in sys.argv:
+        run_isolation_diagnostic()
     else:
         main()
