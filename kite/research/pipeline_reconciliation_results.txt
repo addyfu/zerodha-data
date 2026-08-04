@@ -857,3 +857,214 @@ functions (buy_investable/sell_net_proceeds/DP_FLAT_PER_SELL) for honest_lab.py'
 zerodha_charges.calculate_charges() convention, engine and data otherwise unchanged -- not performed
 here, per the "no commits / do not go fix anything" instruction.
 
+====================================================================================================
+DATED FOLLOW-UP #4 -- 2026-08-04 -- diff the trades: the actual driver, found and confirmed
+====================================================================================================
+Produced by kite/research/pipeline_reconciliation.py --trade-diff-diagnostic (clearly-marked diagnostic
+code appended to that script). Reviewer's framing: two engines, same Z data, same window, allegedly the
+same rules, produce +3.610% (honest_lab continuous) vs -11.969% (rotation_refinement baseline) -- a
+~15.6pp/yr gap that ~79-83 round trips over 5.5yr cannot plausibly owe to cost formulas alone. Instructed
+to stop testing named conventions and diff the actual trades. This section extracts both engines' full
+trade lists on the identical window, aligns them, and finds a single-line arithmetic bug that explains
+the entire gap -- not a "convention," a bug.
+
+--------------------------------------------------------------------------------------------------
+(1) TRADE EXTRACTION
+--------------------------------------------------------------------------------------------------
+rotation_refinement's baseline trade log used verbatim (rrs.run_variant, direct import, unmodified) --
+already carries symbol/entry_date/exit_date/qty/cost_basis/proceeds/gain/holding_days. honest_lab's
+Sim.run() trade dict only stores {sym,entry_date,exit_date,pnl} -- extended via a local instrumented
+copy (hl_run_full_instrumented(), mechanics otherwise identical to the follow-up #1/#3 copies) to also
+capture qty, entry price, raw entry/exit OPEN prices, and cost_basis/proceeds/gain, so the two logs are
+directly comparable. Both engines re-run fresh in this diagnostic and reproduce their previously-reported
+numbers exactly (RR: -11.969%, 79 trades; HL: +3.610%, 83 trades) -- confirms determinism, no drift.
+
+--------------------------------------------------------------------------------------------------
+(2a) PICK-SET COMPARISON -- month by month, 58 rebalance months in the overlap window (2021-04-30 ->
+2026-01-01)
+--------------------------------------------------------------------------------------------------
+Months where pick sets (including regime on/off) differ: 0/58 (0.0%). CONFIRMED IDENTICAL every month.
+Independently verified the root cause is available and mundane: honest_lab.py computes momentum via
+c.pct_change(63) on each symbol's OWN date index; rotation_refinement computes close_wide.pct_change(63,
+fill_method=None) on a UNION-reindexed wide panel. These would differ if any symbol had interior date
+gaps (a missing trading day mid-series would shift what "63 rows back" means between the two methods) --
+checked directly: 0/48 symbols have interior gaps in the Z data (all missing dates are only at listing
+boundaries), and a direct value-by-value comparison of both computation methods across all 48 symbols and
+1367 dates found 0 mismatches. Ranking is not the driver, and this is not a coincidence -- it is a
+structural non-issue for this specific dataset, verified rather than assumed.
+
+--------------------------------------------------------------------------------------------------
+(2b) FILL COMPARISON -- 79 new-entry fills matched across both engines
+--------------------------------------------------------------------------------------------------
+Fill DATE mismatches: 6/79. Fill PRICE mismatches: 6/79 (same 6 rows -- a date mismatch necessarily
+carries a price mismatch too, since price is read at the entry date). All 6 are JSWSTEEL/TATASTEEL/
+HINDALCO at the VERY FIRST two rebalances in the window (2021-04-30 and 2021-05-03): RR fills 2021-05-03,
+HL fills 2021-05-04 -- a consistent one-day offset. Root cause: RR's calendar is truncated to start at
+2021-04-30 by the 200-day-SMA-warmup requirement (calendar = close_wide.index[199:]), so within RR's
+truncated calendar, "day 1 of the April 2021 group" IS 2021-04-30 itself (the earliest date present),
+not the true first trading day of April 2021 that HL's un-truncated calendar (starting 2020-07-14) sees.
+This is a one-time boundary artifact affecting only the window's opening trades, not a recurring timing
+convention difference -- immaterial to the CAGR gap (3 symbols, one rebalance, ~0.1pp of price delta each
+per (2c)'s later rows for these names is swamped by everything else in the 76-trade sample).
+For the remaining 73/79 fills: IDENTICAL date, IDENTICAL raw open price (both draw from the same Z data).
+Fill-timing convention is CONFIRMED not the driver.
+
+--------------------------------------------------------------------------------------------------
+(2c) MATCHED-TRADE P&L -- 76 trades present in both logs (same symbol, entry date within 5 days)
+--------------------------------------------------------------------------------------------------
+Since entry/exit dates match for these 76 trades, the GROSS market return is identical by construction
+(same raw Z open prices on both sides) -- any residual difference in booked return is cost-formula-only.
+  Mean per-trade return delta (RR - HL): +0.6353pp.  Median: +0.4757pp.  Range: -0.6652pp to +6.1613pp.
+  Only 2/76 matched trades booked a WORSE return under RR's convention than HL's.
+  Compounded sequentially in isolation (as if each of the 76 trades were taken one after another in a
+  single slot, removing portfolio-level sizing/compounding effects entirely): RR compounds to 1.7884x,
+  HL to 1.1154x -- RR's cost/fill convention, taken PER TRADE, is favorable relative to HL's, not
+  unfavorable. This directly falsifies "cost formula (convention #4) explains the gap" -- it points the
+  WRONG DIRECTION. (Full 76-row table of symbol/entry/exit/qty_rr/qty_hl/ret_rr%/ret_hl%/delta_pp is in
+  the diagnostic's stdout output; representative rows: TATASTEEL 2021-05-03->2021-09-02 ret_rr=+37.77% vs
+  ret_hl=+31.61% (delta +6.16pp); HINDALCO 2022-03-03->2022-04-25 ret_rr=-18.33% vs ret_hl=-21.96% (delta
+  +3.64pp) -- RR consistently books BETTER, not worse, on the same trades.)
+
+--------------------------------------------------------------------------------------------------
+(3) EQUITY CURVE COMPARISON -- normalized to 100 at the overlap window's start (2021-04-30)
+--------------------------------------------------------------------------------------------------
+First date where |RR_index - HL_index| exceeds 1pp: 2021-09-02 (RR=106.25, HL=111.29, gap=-5.05pp) --
+i.e. the divergence starts appearing almost immediately, within the first ~4 months, though it does not
+become dominant until later (see the single worst day below).
+Final divergence at window end (2026-01-09): RR_index=54.96, HL_index=121.21, gap=-66.25pp. RR compounds
+to 0.5496x over the window (a LOSS of nearly half the starting capital); HL compounds to 1.2121x (a gain).
+
+--------------------------------------------------------------------------------------------------
+(4) ATTRIBUTION -- picks, fills, cost-formula ruled out one by one; here is what is actually left
+--------------------------------------------------------------------------------------------------
+Total observed divergence: RR/HL equity ratio = 0.4534x (-54.66% cumulative, RR relative to HL).
+  PICK-SET attribution:  0.00pp -- confirmed non-driver, (2a).
+  FILL attribution:      ~0.00pp (6/79 boundary-only mismatches, one-time, at the window's start) --
+                          confirmed non-driver, (2b).
+  COST-FORMULA (per-trade, isolated) attribution: +60.34% cumulative in RR's FAVOR over the 76 matched
+                          trades, (2c) -- confirmed WRONG-SIGNED as an explanation, not merely small.
+Naively dividing the total gap by the cost-formula ratio produces a nonsensical negative "percentage
+explained" (-110.4%) precisely BECAUSE the cost-formula effect points the opposite direction from the
+total gap -- flagged here explicitly as a warning against mechanically trusting a ratio decomposition
+when the sign flips, rather than silently reporting the meaningless number. With picks, fills, and
+per-trade cost formula all cleared, the entire -54.66% cumulative divergence has to live somewhere
+else -- traced mechanically below instead of being labeled "portfolio-level" and left unexplained.
+
+--------------------------------------------------------------------------------------------------
+(5) MECHANISM HUNT -- the actual driver
+--------------------------------------------------------------------------------------------------
+RR's single WORST one-day equity move in the whole window: 2024-10-01 (Rs81,103.13) -> 2024-10-03
+(Rs70,019.03), -13.67% in one trading day -- on the rebalance where INFY/TECHM/HCLTECH were sold and
+BAJAJ-AUTO/SUNPHARMA/BAJAJFINSV were bought (the SAME three names honest_lab bought on the SAME date,
+per (2a)/(2b) above). HL's equity on the identical two dates: Rs119,049.91 -> Rs117,441.94, -1.35% --
+a real but much smaller move. None of the three stocks crashed (checked against raw data/daily OHLC:
+BAJAJ-AUTO -2.9% open-to-open, SUNPHARMA -1.2%, BAJAJFINSV -0.8%, all ordinary index-correction-sized
+moves, not crashes). Tracing the exact buy executed that day:
+    BUY BAJAJ-AUTO: cash_amt=Rs20,000.00  open=Rs11,442.00  qty=int(19,966.37/11,442.00)=1
+                     cost=qty*open=Rs11,442.00
+    then: cash -= cash_amt  (i.e. cash -= 20,000.00, NOT cash -= cost=11,442.00)
+    -> Rs8,524.37 (42.6% of the slot) is deducted from cash but never converted into stock: not in the
+       position (qty=1, cost_basis=Rs11,442 only), not in cash either (cash dropped by the full
+       Rs20,000). It simply VANISHES from the simulation's books.
+
+THE BUG, precisely -- rotation_refinement_study.py's run_sim(), buy step (~line 534-535):
+    investable = buy_investable(cash_amt)
+    qty = int(investable / o)
+    ...
+    cash -= cash_amt          # <-- deducts the FULL nominal slot, not what was actually spent
+honest_lab.py's Sim.run(), the equivalent entry step:
+    qty = int(slot / px)
+    ...
+    cash -= qty * px          # <-- deducts ONLY the actual cost; the floor-rounding remainder
+                               #     correctly stays in cash, available for the next trade
+For cheap stocks the floor-rounding remainder (investable - qty*price) is small change (a few hundred
+rupees out of Rs20,000). For expensive NIFTY-50 names -- and several trade well above Rs20,000/3 =
+~Rs6,667, meaning only 1-4 shares fit a slot at all (BAJAJ-AUTO, MARUTI, DIVISLAB, BRITANNIA, APOLLOHOSP,
+EICHERMOT/HEROMOTOCO all recur in the trade log at 1-6 shares per slot) -- the remainder can be 10-43% of
+the ENTIRE slot, vanishing on a SINGLE buy.
+
+QUANTIFIED, by re-running the sim with per-buy vanish-tracking (computed directly in code, not estimated):
+total capital destroyed this way over the FULL ~5.5yr Z-data backtest = Rs 70,587.31 -- 70.59% of the
+Rs100,000 starting capital. Worst individual incidents:
+    2024-10-03  BAJAJ-AUTO   price=Rs11,442.00  qty=1  vanished=Rs8,524.37 (42.6% of that slot)
+    2025-09-02  MARUTI       price=Rs14,859.00  qty=1  vanished=Rs5,107.37 (25.5% of that slot)
+    2021-09-02  APOLLOHOSP   price=Rs5,039.05   qty=3  vanished=Rs4,849.22 (24.2% of that slot)
+    2022-02-02  MARUTI       price=Rs8,579.70   qty=2  vanished=Rs2,806.97 (14.0% of that slot)
+    2025-08-04  HEROMOTOCO   price=Rs4,315.90   qty=4  vanished=Rs2,702.77 (13.5% of that slot)
+    2023-05-03  BAJAJ-AUTO   price=Rs4,373.50   qty=4  vanished=Rs2,472.37 (12.4% of that slot)
+The 2024-10-03 BAJAJ-AUTO incident alone accounts for essentially the entire -13.66% single-day cliff
+identified above. It is not a market move. It is this bug, on this one date, at this one price level.
+
+--------------------------------------------------------------------------------------------------
+(6) CONFIRMATORY REPAIR RUN -- fix ONLY this one line (a local diagnostic copy; rotation_refinement_
+study.py itself was NOT modified), rerun on the IDENTICAL Z data, IDENTICAL window, nothing else changed
+--------------------------------------------------------------------------------------------------
+                              full-period CAGR      Era1        Era2        Era3
+ORIGINAL (unfixed) Z-data:        -11.969%       -13.35%      +3.14%     -23.81%
+REPAIRED Z-data (this fix):        +5.975%        -1.25%     +17.13%      +2.82%
+honest_lab reference (same data):  +3.610% continuous (or TRAIN +5.0% / VAL +3.5% two-stage)
+
+Changing ONE line -- `cash -= cash_amt` to `cash -= cost` (with the fee portion, cash_amt-investable,
+still charged separately, so no fee is skipped or altered) -- moves the SAME strategy, SAME data, SAME
+window, SAME costs, SAME regime filter, SAME disaster stop, SAME rebalance-day convention from -11.969%
+to +5.975%/yr. This does not partially close the gap to honest_lab's reference -- it EXCEEDS it. Every
+era flips from negative-or-marginal to solidly positive (Era1 -13.35%->-1.25%, Era2 +3.14%->+17.13%,
+Era3 -23.81%->+2.82%).
+
+CLOSING THE LOOP -- the SAME one-line fix applied to the ORIGINAL frozen N-data baseline (Pipeline N,
+bhavcopy + corp_actions_adjustments.csv, the very first number in this whole reconciliation) moves it
+from -14.560%/yr (frozen rotation_refinement_results.txt) to +4.584%/yr, with total vanished capital on
+N data of Rs101,611.43 (101.6% of starting capital -- MORE capital destroyed by this bug alone, over the
+~6.8yr, 104-trade N window, than the strategy started with):
+                              full-period CAGR      Era1        Era2        Era3
+ORIGINAL (unfixed) N-data:        -14.560%        -2.87%      -8.77%     -29.59%
+REPAIRED N-data (this fix):        +4.584%        +7.33%      +9.92%      -3.06%
+This is the number that answers the ORIGINAL question this whole reconciliation started with (is
+honest_lab's +3.5-5.0%/yr or rotation_refinement's -3.4%/-29.4%/yr closer to the truth): with this bug
+fixed, rotation_refinement's OWN engine, on its OWN N data, lands at +4.584%/yr -- inside honest_lab's
+train/val range, not outside it. Era 3 (2024-07-26 -> 2026-07-27) improves from a catastrophic -29.588%
+to a mild -3.062% -- still the weakest era, but no longer a "collapse," which is consistent with (and
+does not contradict) this reconciliation's earlier, independently-confirmed findings that Pipeline N
+carries real, smaller data defects (TATAMOTORS/ITC demergers, Part 2) concentrated in that same era.
+
+RETROACTIVE NOTE on follow-up #3's isolation-diagnostic: run_sim_configurable()'s 'shrink_to_fit' cash
+policy used `cash -= spend` (spend = min(cash_amt, cash)) -- the SAME bug pattern, just relabeled ("spend"
+instead of "cash_amt"). This is very likely WHY forcing more aggressive deployment there made results
+WORSE, not better (-11.97% -> -22.32%): pushing MORE capital through the SAME leaky mechanism wastes MORE
+of it on expensive, low-share-count buys, not less -- shrink-to-fit, far from fixing under-deployment,
+guaranteed that every dollar pushed through the buy step lost its rounding remainder, with none of the
+binary-reject cases that (accidentally) avoided the loss entirely by not buying at all. Follow-up #3's
+conclusion that "conventions #1 (sizing formula) / #2 (cash policy) / #5 (disaster stop) are exonerated"
+is UNAFFECTED as a factual matter -- those three axes really were tested and really did not close the
+gap -- but every configuration in that follow-up (and in follow-up #2's Z-engine diagnostic, and in the
+ORIGINAL frozen study itself) was run on top of this unfixed bug, so none of them were clean tests of
+the NAMED conventions in isolation from it. This bug is not one of the five enumerated "conventions" in
+Part 2's MAGNITUDE CHECK at all -- it is a plain arithmetic bug, found only by diffing actual trades
+against actual cash movements rather than testing named hypotheses one at a time.
+
+--------------------------------------------------------------------------------------------------
+VERDICT
+--------------------------------------------------------------------------------------------------
+NAMED DRIVER, WITH NUMBERS: rotation_refinement_study.py's run_sim(), buy step, line ~535:
+`cash -= cash_amt` should be `cash -= cost` (matching honest_lab.py's Sim.run() convention,
+`cash -= qty * px`). The current code deducts the FULL nominal slot cash on every buy regardless of how
+much was actually spent on whole shares; the floor-rounding remainder (investable - qty*price) is
+neither invested nor retained in cash -- it is destroyed. For cheap, evenly-divisible stocks this is
+negligible (a few hundred rupees per trade). For expensive NIFTY-50 names where a Rs20,000 slot buys only
+1-4 shares (BAJAJ-AUTO, MARUTI, DIVISLAB, BRITANNIA, APOLLOHOSP, HEROMOTOCO), it destroys 10-43% of that
+slot in one transaction. Cumulative effect: Rs70,587 (70.6% of capital) destroyed on Z data, Rs101,611
+(101.6% of capital) on N data, over their respective backtests. Fixing this one line and nothing else
+flips Z-data baseline CAGR from -11.969% to +5.975%/yr (past honest_lab's own reference) and flips the
+ORIGINAL frozen N-data baseline from -14.560% to +4.584%/yr (inside honest_lab's train/val range).
+
+Ranking is not the driver (0/58 pick-set mismatches, verified bit-identical mom63 computation). Fill
+timing is not the driver (73/79 clean, the 6 exceptions a one-time calendar-truncation boundary artifact
+with negligible magnitude). Cost formula is not the driver -- it was tested as a suspect and found to
+point the WRONG DIRECTION (RR's matched-trade returns average +0.64pp BETTER than HL's, compounding to
+1.79x vs 1.12x in isolation). Position-sizing formula and cash policy, tested in follow-up #3, genuinely
+did not close the gap either -- but that test was never bug-clean, since its own buy-execution code
+carried the identical rounding-destruction pattern. The actual driver is a one-line integer-share-
+rounding bug that silently destroys, rather than retains or invests, a real and often large fraction of
+every buy's allocated capital -- an arithmetic defect, not a documented design convention, and not one
+of the five named candidates this whole reconciliation had been testing against.
+

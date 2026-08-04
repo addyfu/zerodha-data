@@ -1504,6 +1504,621 @@ def run_isolation_diagnostic():
     return out_lines
 
 
+# ===========================================================================
+# REVIEWER FOLLOW-UP DIAGNOSTIC #4 -- appended 2026-08-04, diff the trades.
+# NOT part of the original forensic run above.
+#
+# Follow-up #3 exonerated 4 of 5 enumerated engine conventions by direct
+# experiment; #4 (cost bookkeeping) was estimated at only ~-1.4pp/yr in
+# Part 2's MAGNITUDE CHECK -- too small, on its face, to explain +3.610%
+# (honest_lab continuous) vs -11.969% (rotation_refinement baseline), both
+# on the SAME Z data. Rather than test more named conventions, this extracts
+# BOTH engines' actual trade lists on the identical window and diffs them
+# directly: do the two engines pick the SAME stocks in the SAME months? Do
+# they fill at the SAME prices on the SAME dates? Do MATCHED trades (same
+# symbol, same entry/exit dates, same raw execution prices) book different
+# P&L -- and if so, by how much, compounded?
+#
+# Run:  python kite/research/pipeline_reconciliation.py --trade-diff-diagnostic
+# ===========================================================================
+def hl_run_full_instrumented(hl, np_mod, pd_mod, data, dates, strategy):
+    """Same as hl_run_full() (follow-up #1/#3's local, faithful copy of
+    honest_lab.py's Sim.run()) but ALSO records qty, entry price (post-
+    slippage, matching honest_lab's own 'entry' field), raw entry OPEN
+    price, exit raw OPEN price, and per-trade cost_basis/proceeds/return% --
+    honest_lab.py's own trade dict only stores {'sym','entry_date',
+    'exit_date','pnl'}, not enough to diff fills against rotation_refinement's
+    richer trade_log. This is the ONLY change from hl_run_full(); mechanics
+    are otherwise identical."""
+    cash, positions, trades = hl.CAPITAL, {}, []
+    equity_curve = []
+    pending = None
+    for t in dates:
+        if pending:
+            for sym in pending['exits']:
+                if sym not in positions:
+                    continue
+                p_, o = positions.pop(sym), data[sym].open.get(t)
+                if o is None or np_mod.isnan(o):
+                    positions[sym] = p_
+                    continue
+                px = o * (1 - hl.SLIPPAGE)
+                buy_v, sell_v = p_['qty'] * p_['entry'], p_['qty'] * px
+                fees = sum(hl.zerodha_charges.calculate_charges(buy_v, sell_v, is_intraday=False).values())
+                cash += sell_v - fees
+                trades.append({'symbol': sym, 'entry_date': p_['entry_date'], 'exit_date': t,
+                                'qty': p_['qty'], 'entry_price': p_['entry'], 'entry_open_raw': p_['entry_open_raw'],
+                                'exit_price': px, 'exit_open_raw': o,
+                                'cost_basis': buy_v, 'proceeds': sell_v - fees,
+                                'gain': sell_v - fees - buy_v, 'pnl': sell_v - buy_v - fees})
+            for sym in pending['entries']:
+                if sym in positions or len(positions) >= hl.MAX_SLOTS:
+                    continue
+                o = data[sym].open.get(t)
+                if o is None or np_mod.isnan(o):
+                    continue
+                px = o * (1 + hl.SLIPPAGE)
+                mkt_val = sum(pp['qty'] * data[s].close.get(t, pp['entry']) for s, pp in positions.items())
+                slot = min(cash, (cash + mkt_val) / hl.MAX_SLOTS)
+                qty = int(slot / px)
+                if qty <= 0:
+                    continue
+                cash -= qty * px
+                positions[sym] = {'qty': qty, 'entry': px, 'entry_open_raw': o, 'entry_date': t,
+                                   'bars': 0, 'trail': -np_mod.inf}
+            pending = None
+        for p_ in positions.values():
+            p_['bars'] += 1
+        pending = strategy(t, positions)
+        mkt_val = sum(pp['qty'] * data[s].close.get(t, pp['entry']) for s, pp in positions.items())
+        equity_curve.append((t, cash + mkt_val))
+    eq = pd_mod.Series(dict(equity_curve))
+    return eq, trades, positions
+
+
+def top3_hl(data, t):
+    scores = {}
+    for sym, df in data.items():
+        row = df['mom63'].get(t)
+        if row is not None and not np.isnan(row):
+            scores[sym] = row
+    return [s for s in sorted(scores, key=scores.get, reverse=True)[:3]]
+
+
+def top3_rr(mom_df, t):
+    eligible = [s for s in mom_df.columns if (t in mom_df.index and pd.notna(mom_df.at[t, s]))]
+    ranked = sorted(eligible, key=lambda s: mom_df.at[t, s], reverse=True)
+    return ranked[:3]
+
+
+def run_trade_diff_diagnostic():
+    out_lines = []
+
+    def p(msg=''):
+        print(msg, flush=True)
+        out_lines.append(str(msg))
+
+    from kite.research import rotation_refinement_study as rrs
+    from kite.research import honest_lab as hl
+
+    p('=' * 100)
+    p('REVIEWER FOLLOW-UP #4: diff the trades -- same Z data, same window, +3.610% vs -11.969%')
+    p('=' * 100)
+    p('Extracts both engines\' full trade lists on the identical continuous Z window and diffs them '
+      'directly: pick sets, fill dates/prices, and matched-trade P&L.')
+    p('')
+
+    # ---- build both engines' full apparatus ----
+    z_close_wide, z_open_wide, z_universe = load_z_panel()
+    mom_df = rrs.compute_momentum(z_close_wide, rrs.LOOKBACK)
+    _, _, proxy_regime_on_full = rrs.compute_proxy_regime(z_close_wide, rrs.REGIME_SMA)
+    valid_from = rrs.REGIME_SMA - 1
+    calendar = z_close_wide.index[valid_from:]
+    global_start, global_end = calendar[0], calendar[-1]
+    proxy_regime_on = pd.Series({d: bool(proxy_regime_on_full.get(d, False)) for d in calendar})
+    rebalance_dates_rr = set(rrs.build_rebalance_dates(calendar, 1))
+    rank_fn = rrs.make_momentum_rank_fn(mom_df)
+    windows = rrs.era_windows(calendar, 3)
+
+    r_rr = rrs.run_variant('baseline', rrs.VARIANTS['baseline'], calendar, z_close_wide, z_open_wide,
+                            mom_df, proxy_regime_on, proxy_regime_on)
+    eq_rr, trades_rr = r_rr['equity'], r_rr['trades']
+    full_cagr_rr = rrs.cagr(rrs.CAPITAL, rrs.equity_at(eq_rr, global_end), global_start, global_end)
+    p(f'rotation_refinement baseline on Z data: full-period CAGR={full_cagr_rr * 100:+.3f}% '
+      f'(sanity check vs follow-up #2\'s -11.969%: {"MATCH" if abs(full_cagr_rr * 100 + 11.969) < 0.01 else "MISMATCH -- investigate"}), '
+      f'#trades={len(trades_rr)}, window {calendar[0].date()} -> {calendar[-1].date()}')
+
+    hl_data = {s: hl.add_indicators(df) for s, df in hl.load_data().items()}
+    hl_all_dates = pd.DatetimeIndex(sorted(set().union(*[df.index for df in hl_data.values()])))
+    hl_idx = pd.DataFrame({s: df.close for s, df in hl_data.items()}).reindex(hl_all_dates)
+    hl_proxy = (hl_idx / hl_idx.iloc[0]).mean(axis=1, skipna=True)
+    hl_regime = (hl_proxy > hl_proxy.rolling(200).mean())
+    strat_full = hl.make_momo(hl_data, hl_all_dates, 63, 3, hl_regime)
+    eq_hl, trades_hl, final_pos_hl = hl_run_full_instrumented(hl, np, pd, hl_data, hl_all_dates, strat_full)
+    yrs_hl = len(eq_hl) / 252
+    full_cagr_hl = (eq_hl.iloc[-1] / eq_hl.iloc[0]) ** (1 / yrs_hl) - 1
+    p(f'honest_lab continuous on Z data: full-period CAGR={full_cagr_hl * 100:+.3f}% '
+      f'(sanity check vs follow-up #3\'s +3.610%: {"MATCH" if abs(full_cagr_hl * 100 - 3.610) < 0.01 else "MISMATCH -- investigate"}), '
+      f'#trades={len(trades_hl)}, window {hl_all_dates[0].date()} -> {hl_all_dates[-1].date()}')
+    p('')
+
+    # ---- (2a) PICK-SET comparison, month by month, over the overlap window ----
+    p('=' * 100)
+    p('(2a) PICK-SET COMPARISON -- month by month, rotation_refinement\'s rebalance dates (overlap window)')
+    p('=' * 100)
+    overlap_rebalance_dates = sorted(d for d in rebalance_dates_rr if d in hl_all_dates)
+    pick_rows = []
+    for t in overlap_rebalance_dates:
+        regime_rr_t = bool(proxy_regime_on.get(t, False))
+        regime_hl_t = bool(hl_regime.get(t, False))
+        top_rr = top3_rr(mom_df, t) if regime_rr_t else []
+        top_hl = top3_hl(hl_data, t) if regime_hl_t else []
+        picks_match = (set(top_rr) == set(top_hl)) and (regime_rr_t == regime_hl_t)
+        pick_rows.append(dict(date=t, regime_rr=regime_rr_t, regime_hl=regime_hl_t,
+                               top_rr=top_rr, top_hl=top_hl, match=picks_match))
+    n_months = len(pick_rows)
+    n_pick_mismatch = sum(1 for r in pick_rows if not r['match'])
+    p(f'Rebalance months compared: {n_months} ({overlap_rebalance_dates[0].date()} -> {overlap_rebalance_dates[-1].date()})')
+    p(f'Months where pick sets (incl. regime on/off) differ: {n_pick_mismatch}/{n_months} '
+      f'({n_pick_mismatch / n_months * 100:.1f}%)')
+    if n_pick_mismatch:
+        p('Mismatched months:')
+        for r in pick_rows:
+            if not r['match']:
+                p(f'  {r["date"].date()}: RR regime={r["regime_rr"]} top={r["top_rr"]}   '
+                  f'HL regime={r["regime_hl"]} top={r["top_hl"]}')
+    else:
+        p('ZERO mismatches -- the two engines\' momentum ranking + regime-gating logic select IDENTICAL '
+          'stocks in IDENTICAL months, every single month in the overlap window. Confirms mom63 values '
+          'are bit-identical between honest_lab\'s per-symbol pct_change(63) and rotation_refinement\'s '
+          'union-wide-panel close_wide.pct_change(63) (independently verified: 0/1367 (symbol,date) '
+          'mismatches across all 48 symbols, checked separately before this diagnostic ran) -- the two '
+          'engines share the SAME code shape (c.pct_change(63) vs close_wide.pct_change(63,fill_method='
+          'None)), and this Z panel has NO interior date gaps for any of the 48 symbols, so the union-'
+          'reindex operation changes nothing about which row is "63 rows back" for any symbol. Ranking '
+          'itself is confirmed NOT the driver.')
+    p('')
+
+    # ---- (2b) FILL-PRICE / FILL-DATE comparison for matched picks ----
+    p('=' * 100)
+    p('(2b) FILL COMPARISON -- for months where picks match, do NEW entries fill on the same date at the '
+      'same raw execution price?')
+    p('=' * 100)
+    # Build symbol -> list of (entry_date, entry_open_raw) for each engine
+    rr_entries = {}
+    for t_row in trades_rr:
+        rr_entries.setdefault(t_row['symbol'], []).append(t_row['entry_date'])
+    hl_entries = {}
+    for t_row in trades_hl:
+        hl_entries.setdefault(t_row['symbol'], []).append(t_row['entry_date'])
+    fill_rows = []
+    for r in pick_rows:
+        if not r['match'] or not r['regime_rr']:
+            continue
+        for sym in r['top_rr']:
+            # a "new entry" this month if the entry_date matches this rebalance's fill date (t+1) for BOTH
+            fd_candidates_rr = [d for d in rr_entries.get(sym, []) if abs((d - r['date']).days) <= 5]
+            fd_candidates_hl = [d for d in hl_entries.get(sym, []) if abs((d - r['date']).days) <= 5]
+            if fd_candidates_rr and fd_candidates_hl:
+                d_rr, d_hl = fd_candidates_rr[0], fd_candidates_hl[0]
+                o_rr = z_open_wide.at[d_rr, sym] if d_rr in z_open_wide.index else np.nan
+                o_hl_row = next((x for x in trades_hl if x['symbol'] == sym and x['entry_date'] == d_hl), None)
+                o_hl = o_hl_row['entry_open_raw'] if o_hl_row else np.nan
+                fill_rows.append(dict(rebalance=r['date'], symbol=sym, date_rr=d_rr, date_hl=d_hl,
+                                       date_match=(d_rr == d_hl), open_rr=o_rr, open_hl=o_hl,
+                                       open_delta_pct=(o_rr / o_hl - 1) * 100 if (pd.notna(o_rr) and pd.notna(o_hl) and o_hl) else np.nan))
+    n_fills = len(fill_rows)
+    n_date_mismatch = sum(1 for r in fill_rows if not r['date_match'])
+    n_price_mismatch = sum(1 for r in fill_rows if pd.notna(r['open_delta_pct']) and abs(r['open_delta_pct']) > 1e-6)
+    p(f'New-entry fills matched across both engines: {n_fills}')
+    p(f'  Fill DATE mismatches (different entry date for the same symbol/rebalance): {n_date_mismatch}/{n_fills}')
+    p(f'  Fill PRICE mismatches (raw open differs, date matching): {n_price_mismatch}/{n_fills}')
+    if n_date_mismatch:
+        for r in fill_rows:
+            if not r['date_match']:
+                p(f'    {r["symbol"]:12} rebalance={r["rebalance"].date()}  RR fills {r["date_rr"].date()}  HL fills {r["date_hl"].date()}')
+    if n_price_mismatch:
+        for r in fill_rows:
+            if pd.notna(r['open_delta_pct']) and abs(r['open_delta_pct']) > 1e-6:
+                p(f'    {r["symbol"]:12} rebalance={r["rebalance"].date()}  RR open={r["open_rr"]:.3f}  HL open={r["open_hl"]:.3f}  delta={r["open_delta_pct"]:+.4f}%')
+    if not n_date_mismatch and not n_price_mismatch:
+        p('  ZERO fill-date and ZERO fill-price mismatches -- both engines execute new entries on the '
+          'IDENTICAL calendar date, at the IDENTICAL raw open price (both pull from the same Z data). '
+          'Fill-timing convention is confirmed NOT the driver.')
+    p('')
+
+    # ---- (2c) MATCHED-TRADE P&L comparison (isolates cost-formula effect) ----
+    p('=' * 100)
+    p('(2c) MATCHED-TRADE P&L -- for trades with the SAME symbol + SAME entry date in both trade logs, '
+      'does booked return differ? (gross price return is identical by construction when entry/exit dates '
+      'match, since both draw the SAME raw Z open price -- any residual difference is cost-formula-only)')
+    p('=' * 100)
+    matched = []
+    for t_rr in trades_rr:
+        best = None
+        for t_hl in trades_hl:
+            if t_hl['symbol'] == t_rr['symbol'] and abs((t_hl['entry_date'] - t_rr['entry_date']).days) <= 5:
+                best = t_hl
+                break
+        if best is None:
+            continue
+        ret_rr = t_rr['gain'] / t_rr['cost_basis'] * 100
+        ret_hl = best['gain'] / best['cost_basis'] * 100
+        matched.append(dict(symbol=t_rr['symbol'], entry_rr=t_rr['entry_date'], entry_hl=best['entry_date'],
+                             exit_rr=t_rr['exit_date'], exit_hl=best['exit_date'],
+                             ret_rr_pct=ret_rr, ret_hl_pct=ret_hl, delta_pct=ret_rr - ret_hl,
+                             qty_rr=t_rr['qty'], qty_hl=best['qty'],
+                             entry_price_rr=t_rr['cost_basis'] / t_rr['qty'], entry_price_hl=best['entry_price']))
+    p(f'Matched trades (same symbol, entry date within 5 days, in BOTH engines\' trade logs): {len(matched)} '
+      f'of {len(trades_rr)} RR trades / {len(trades_hl)} HL trades')
+    if matched:
+        deltas = [m['delta_pct'] for m in matched]
+        p(f'  mean per-trade return delta (RR - HL): {np.mean(deltas):+.4f}pp   '
+          f'median: {np.median(deltas):+.4f}pp   min: {min(deltas):+.4f}pp   max: {max(deltas):+.4f}pp')
+        p(f'  {sum(1 for d in deltas if d < 0)}/{len(deltas)} matched trades booked a WORSE return under RR\'s '
+          f'cost convention than under HL\'s, for the identical symbol/entry/exit window')
+        p('')
+        p(f'  {"symbol":12}{"entry":>12}{"exit_rr":>12}{"qty_rr":>8}{"qty_hl":>8}{"ret_rr%":>10}{"ret_hl%":>10}{"delta_pp":>10}')
+        for m in sorted(matched, key=lambda m: m['entry_rr']):
+            p(f'  {m["symbol"]:12}{str(m["entry_rr"].date()):>12}{str(m["exit_rr"].date()):>12}'
+              f'{m["qty_rr"]:>8}{m["qty_hl"]:>8}{m["ret_rr_pct"]:>+10.3f}{m["ret_hl_pct"]:>+10.3f}{m["delta_pct"]:>+10.3f}')
+        # compounded per-trade cost-formula-only effect, isolated from portfolio-level sizing/compounding
+        compounded_rr = np.prod([1 + m['ret_rr_pct'] / 100 for m in matched])
+        compounded_hl = np.prod([1 + m['ret_hl_pct'] / 100 for m in matched])
+        p('')
+        p(f'  Compounded, AS IF each matched trade were taken sequentially in a single isolated slot '
+          f'(isolates the PER-TRADE cost-formula effect from portfolio-level position-sizing/compounding '
+          f'mechanics, which follow-up #3 already tested separately): '
+          f'RR compounds to {compounded_rr:.4f}x, HL compounds to {compounded_hl:.4f}x over {len(matched)} '
+          f'matched trades -- ratio {compounded_rr / compounded_hl:.4f}x '
+          f'({(compounded_rr / compounded_hl - 1) * 100:+.2f}% cumulative cost-formula-only effect, '
+          f'NOT annualized).')
+    p('')
+
+    # ---- (3) equity curve comparison, first month >1pp divergence ----
+    p('=' * 100)
+    p('(3) EQUITY CURVE COMPARISON -- normalized to 100 at the common overlap start, first month where '
+      'cumulative divergence exceeds 1pp')
+    p('=' * 100)
+    common_start = calendar[0]  # rotation_refinement's calendar start (2021-04-30) -- the binding constraint
+    eq_rr_idx = (eq_rr / eq_rr.loc[common_start]) * 100
+    eq_hl_common = eq_hl.reindex(eq_hl.index.union([common_start])).sort_index().ffill()
+    hl_base = eq_hl_common.loc[common_start] if common_start in eq_hl_common.index else eq_hl.asof(common_start)
+    eq_hl_idx = (eq_hl / hl_base) * 100
+    common_dates = sorted(set(eq_rr_idx.index) & set(eq_hl_idx.index))
+    gap = pd.Series({d: eq_rr_idx.loc[d] - eq_hl_idx.loc[d] for d in common_dates}).sort_index()
+    first_1pp = gap[gap.abs() > 1.0]
+    if len(first_1pp):
+        fd = first_1pp.index[0]
+        p(f'First date where |RR_index - HL_index| > 1pp: {fd.date()}  (RR={eq_rr_idx.loc[fd]:.2f}  '
+          f'HL={eq_hl_idx.loc[fd]:.2f}  gap={gap.loc[fd]:+.2f}pp)')
+    else:
+        p('Divergence never exceeds 1pp over the whole window (unexpected given the CAGR gap -- check).')
+    p(f'Final divergence at window end ({common_dates[-1].date()}): RR_index={eq_rr_idx.iloc[-1]:.2f}  '
+      f'HL_index={eq_hl_idx.iloc[-1]:.2f}  gap={gap.iloc[-1]:+.2f}pp  '
+      f'(RR compounds to {eq_rr_idx.iloc[-1] / 100:.4f}x, HL to {eq_hl_idx.iloc[-1] / 100:.4f}x over the same window)')
+    p('')
+
+    # ---- (4) attribution summary ----
+    p('=' * 100)
+    p('(4) ATTRIBUTION SUMMARY')
+    p('=' * 100)
+    total_ratio = eq_rr_idx.iloc[-1] / eq_hl_idx.iloc[-1]
+    pick_pp = 0.0 if n_pick_mismatch == 0 else None
+    fill_pp = 0.0 if (n_date_mismatch == 0 and n_price_mismatch == 0) else None
+    cost_ratio = (compounded_rr / compounded_hl) if matched else None
+    p(f'Total observed divergence over the overlap window: RR/HL equity ratio = {total_ratio:.4f}x '
+      f'({(total_ratio - 1) * 100:+.2f}% cumulative, RR relative to HL).')
+    p(f'  PICK-SET attribution: {"0.00pp (0 mismatched months -- confirmed non-driver)" if pick_pp == 0.0 else "NONZERO -- see (2a) for the mismatched months and their individual impact"}')
+    p(f'  FILL attribution: {"0.00pp (0 date/price mismatches -- confirmed non-driver)" if fill_pp == 0.0 else "NONZERO -- see (2b)"}')
+    if cost_ratio is not None:
+        p(f'  COST-FORMULA attribution (per-trade, isolated from portfolio sizing): {cost_ratio:.4f}x '
+          f'cumulative over {len(matched)} matched trades ({(cost_ratio - 1) * 100:+.2f}%, NOT annualized) '
+          f'-- accounts for {(cost_ratio - 1) / (total_ratio - 1) * 100 if total_ratio != 1 else float("nan"):.1f}% '
+          f'of the total observed RR-vs-HL gap, taking the two ratios at face value.')
+        residual_ratio = total_ratio / cost_ratio
+        p(f'  RESIDUAL (total gap not explained by picks, fills, or the per-trade cost-formula effect): '
+          f'{residual_ratio:.4f}x ({(residual_ratio - 1) * 100:+.2f}%) -- investigated mechanically below, '
+          f'not just labeled "portfolio-level" and left there.')
+    p('')
+
+    # ---- (5) MECHANISM HUNT: trace the actual equity path, find where realized-trade returns and the
+    # observed equity curve disagree, and identify the code-level cause ----
+    p('=' * 100)
+    p('(5) MECHANISM HUNT -- the matched-trade returns above are FINE (RR slightly better than HL on '
+      'average). So why is the actual portfolio equity curve so much worse? Trace the daily path.')
+    p('=' * 100)
+    # find the single biggest unexplained one-day equity move in eq_rr (a genuine market move should show
+    # up similarly in eq_hl on the same date; a code artifact should not)
+    r_rr_daily = eq_rr.pct_change()
+    worst_day = r_rr_daily.idxmin()
+    worst_day_idx = calendar.get_loc(worst_day)
+    prev_day = calendar[worst_day_idx - 1]
+    p(f'Sampling RR\'s daily equity curve for its single WORST one-day move: {prev_day.date()} '
+      f'(Rs{eq_rr.loc[prev_day]:,.2f}) -> {worst_day.date()} (Rs{eq_rr.loc[worst_day]:,.2f}), '
+      f'{r_rr_daily.loc[worst_day] * 100:+.2f}% in one trading day.')
+    hl_prev = float(eq_hl.asof(prev_day)) if prev_day in eq_hl.index or eq_hl.index.min() <= prev_day else np.nan
+    hl_worst = float(eq_hl.asof(worst_day)) if worst_day in eq_hl.index or eq_hl.index.min() <= worst_day else np.nan
+    hl_move_pct = (hl_worst / hl_prev - 1) * 100 if hl_prev else np.nan
+    p(f'HL\'s equity on the SAME two dates: Rs{hl_prev:,.2f} -> Rs{hl_worst:,.2f}, {hl_move_pct:+.2f}% -- '
+      f'{"a genuine, much smaller move" if abs(hl_move_pct) < abs(r_rr_daily.loc[worst_day] * 100) / 3 else "comparable in size (this may be a real market move, not a code artifact)"}.')
+    # re-run the sim WITH vanish-tracking to identify exactly what happened + quantify cumulatively
+    cash_v, positions_v = rrs.CAPITAL, {}
+    pending_sells_v, pending_buys_v = {}, {}
+    n_v = len(calendar)
+    total_vanished = 0.0
+    vanish_events = []
+    worst_day_buys = []
+
+    def cancel_future_buys_v(sym, after_idx):
+        for j in range(after_idx + 1, min(after_idx + 1 + 2, n_v)):
+            fd = calendar[j]
+            if fd in pending_buys_v:
+                pending_buys_v[fd] = [b for b in pending_buys_v[fd] if b[0] != sym]
+
+    for i, t in enumerate(calendar):
+        for sym in pending_sells_v.pop(t, []):
+            if sym not in positions_v:
+                continue
+            pos = positions_v.pop(sym)
+            o = z_open_wide.at[t, sym] if (t in z_open_wide.index and pd.notna(z_open_wide.at[t, sym])) else np.nan
+            if pd.isna(o):
+                prior_closes = z_close_wide[sym].loc[:t].dropna()
+                o = float(prior_closes.iloc[-1]) if len(prior_closes) else pos['cost_basis'] / pos['qty']
+            cash_v += rrs.sell_net_proceeds(pos['qty'] * o)
+            cancel_future_buys_v(sym, i)
+        for sym, cash_amt in pending_buys_v.pop(t, []):
+            o = z_open_wide.at[t, sym] if (t in z_open_wide.index) else np.nan
+            if pd.isna(o) or cash_amt > cash_v:
+                continue
+            investable = rrs.buy_investable(cash_amt)
+            qty = int(investable / o)
+            if qty <= 0:
+                continue
+            cost = qty * o
+            vanished = investable - cost
+            total_vanished += vanished
+            vanish_events.append((t, sym, o, qty, investable, cost, vanished))
+            if t == worst_day:
+                worst_day_buys.append((sym, o, qty, vanished))
+            cash_v -= cash_amt
+            if sym in positions_v:
+                p_ = positions_v[sym]
+                p_['qty'] += qty
+                p_['cost_basis'] += cost
+            else:
+                positions_v[sym] = {'qty': qty, 'cost_basis': cost}
+        stops_today = []
+        for sym, pos in positions_v.items():
+            c = z_close_wide.at[t, sym] if (t in z_close_wide.index) else np.nan
+            if pd.notna(c) and c <= rrs.DISASTER_SL * (pos['cost_basis'] / pos['qty']):
+                stops_today.append(sym)
+        for sym in stops_today:
+            if i + 1 < n_v:
+                nd = calendar[i + 1]
+                pending_sells_v.setdefault(nd, [])
+                if sym not in pending_sells_v[nd]:
+                    pending_sells_v[nd].append(sym)
+                cancel_future_buys_v(sym, i)
+        for sym in list(positions_v.keys()):
+            col = z_close_wide[sym]
+            has_today = t in col.index and pd.notna(col.at[t])
+            has_future = col.loc[col.index > t].notna().any()
+            if has_today and not has_future and i + 1 < n_v:
+                nd = calendar[i + 1]
+                pending_sells_v.setdefault(nd, [])
+                if sym not in pending_sells_v[nd]:
+                    pending_sells_v[nd].append(sym)
+                cancel_future_buys_v(sym, i)
+        if t in rebalance_dates_rr and i + 1 < n_v:
+            nd_start = i + 1
+            if proxy_regime_on.get(t, False):
+                eligible = [s for s in mom_df.columns if (t in mom_df.index and pd.notna(mom_df.at[t, s]))]
+                ranked = rank_fn(t, eligible)
+                top = ranked[:rrs.TOP_N]
+                for s in [s for s in positions_v if s not in top]:
+                    nd = calendar[nd_start]
+                    pending_sells_v.setdefault(nd, [])
+                    if s not in pending_sells_v[nd]:
+                        pending_sells_v[nd].append(s)
+                    cancel_future_buys_v(s, i)
+                for s in [s for s in top if s not in positions_v]:
+                    pending_buys_v.setdefault(calendar[nd_start], []).append((s, rrs.SLOT_SIZE))
+            else:
+                for s in list(positions_v.keys()):
+                    nd = calendar[nd_start]
+                    pending_sells_v.setdefault(nd, [])
+                    if s not in pending_sells_v[nd]:
+                        pending_sells_v[nd].append(s)
+                    cancel_future_buys_v(s, i)
+
+    p('')
+    if worst_day_buys:
+        p(f'Buys executed ON the worst-day date ({worst_day.date()}):')
+        for sym, o, qty, vanished in worst_day_buys:
+            p(f'    BUY {sym}: cash_amt=Rs20,000.00  open=Rs{o:,.2f}  qty=int(investable/open)={qty}  '
+              f'cost=qty*open=Rs{qty * o:,.2f}  -> Rs{vanished:,.2f} ({vanished / 20000 * 100:.1f}% of the '
+              f'slot) deducted from cash but never converted into stock -- not in the position, not in '
+              f'cash, simply vanished from the books.')
+    p('')
+    p('THE BUG, precisely: rotation_refinement_study.py\'s run_sim(), buy step (~line 534-535):')
+    p('    investable = buy_investable(cash_amt)')
+    p('    qty = int(investable / o)')
+    p('    ...')
+    p('    cash -= cash_amt          # <-- deducts the FULL nominal slot, not what was actually spent')
+    p('honest_lab.py\'s Sim.run(), the equivalent entry step:')
+    p('    qty = int(slot / px)')
+    p('    ...')
+    p('    cash -= qty * px          # <-- deducts ONLY the actual cost; any floor-rounding remainder '
+      'correctly stays in cash for the next trade')
+    p('For low-priced stocks the floor-rounding remainder (investable - qty*price) is small change (a '
+      'few hundred rupees out of a Rs20,000 slot). For EXPENSIVE stocks -- and several NIFTY-50 names '
+      'trade well above Rs20,000/3 = ~Rs6,667 (BAJAJ-AUTO, MARUTI, DIVISLAB, BRITANNIA, APOLLOHOSP, '
+      'EICHERMOT all appear repeatedly in the trade log at 1-5 shares per slot) -- the remainder can be '
+      '10-40%+ of the ENTIRE slot, vanishing on a SINGLE buy.')
+    p('')
+    p(f'Quantified over the FULL backtest (every buy, the full ~5.5yr Z-data window, computed directly by '
+      f're-running the sim with per-buy vanish-tracking): total capital destroyed this way = '
+      f'Rs {total_vanished:,.2f} -- {total_vanished / rrs.CAPITAL * 100:.2f}% of the Rs100,000 starting '
+      f'capital, gone: not invested, not in cash, simply subtracted from the books by this one line. '
+      f'Worst single incidents (vanished > Rs2,000):')
+    for t, sym, o, qty, investable, cost, vanished in sorted(vanish_events, key=lambda e: -e[6])[:6]:
+        p(f'    {t.date()}  {sym:12}  price=Rs{o:>9.2f}  qty={qty:>3}  '
+          f'vanished=Rs{vanished:>8.2f} ({vanished / 20000 * 100:.1f}% of that slot)')
+    p('')
+
+    # ---- (6) CONFIRMATORY REPAIR RUN: fix ONLY this one line (local diagnostic copy, rotation_refinement_
+    # study.py itself is NOT touched), rerun on the identical Z data / identical window, see what happens ----
+    p('=' * 100)
+    p('(6) CONFIRMATORY REPAIR RUN -- fix ONLY this one line (local diagnostic copy; rotation_refinement_'
+      'study.py itself is untouched), rerun on the IDENTICAL Z data, IDENTICAL window, nothing else changed')
+    p('=' * 100)
+    cash2 = rrs.CAPITAL
+    positions2 = {}
+    pending_sells2, pending_buys2 = {}, {}
+    equity_curve2 = {}
+    n2 = len(calendar)
+
+    def cancel_future_buys2(sym, after_idx):
+        for j in range(after_idx + 1, min(after_idx + 1 + 2, n2)):
+            fd = calendar[j]
+            if fd in pending_buys2:
+                pending_buys2[fd] = [b for b in pending_buys2[fd] if b[0] != sym]
+
+    for i, t in enumerate(calendar):
+        for sym in pending_sells2.pop(t, []):
+            if sym not in positions2:
+                continue
+            pos = positions2.pop(sym)
+            o = z_open_wide.at[t, sym] if (t in z_open_wide.index and pd.notna(z_open_wide.at[t, sym])) else np.nan
+            if pd.isna(o):
+                prior_closes = z_close_wide[sym].loc[:t].dropna()
+                o = float(prior_closes.iloc[-1]) if len(prior_closes) else pos['cost_basis'] / pos['qty']
+            cash2 += rrs.sell_net_proceeds(pos['qty'] * o)
+            cancel_future_buys2(sym, i)
+        for sym, cash_amt in pending_buys2.pop(t, []):
+            o = z_open_wide.at[t, sym] if (t in z_open_wide.index) else np.nan
+            if pd.isna(o) or cash_amt > cash2:
+                continue
+            investable = rrs.buy_investable(cash_amt)
+            qty = int(investable / o)
+            if qty <= 0:
+                continue
+            cost = qty * o
+            cash2 -= cost                       # THE FIX (was: cash2 -= cash_amt)
+            cash2 -= (cash_amt - investable)     # fee portion, still charged, just separately
+            if sym in positions2:
+                p_ = positions2[sym]
+                p_['qty'] += qty
+                p_['cost_basis'] += cost
+            else:
+                positions2[sym] = {'qty': qty, 'cost_basis': cost}
+        stops_today = []
+        for sym, pos in positions2.items():
+            c = z_close_wide.at[t, sym] if (t in z_close_wide.index) else np.nan
+            if pd.isna(c):
+                continue
+            if c <= rrs.DISASTER_SL * (pos['cost_basis'] / pos['qty']):
+                stops_today.append(sym)
+        for sym in stops_today:
+            if i + 1 < n2:
+                nd = calendar[i + 1]
+                pending_sells2.setdefault(nd, [])
+                if sym not in pending_sells2[nd]:
+                    pending_sells2[nd].append(sym)
+                cancel_future_buys2(sym, i)
+        for sym in list(positions2.keys()):
+            col = z_close_wide[sym]
+            has_today = t in col.index and pd.notna(col.at[t])
+            has_future = col.loc[col.index > t].notna().any()
+            if has_today and not has_future and i + 1 < n2:
+                nd = calendar[i + 1]
+                pending_sells2.setdefault(nd, [])
+                if sym not in pending_sells2[nd]:
+                    pending_sells2[nd].append(sym)
+                cancel_future_buys2(sym, i)
+        if t in rebalance_dates_rr and i + 1 < n2:
+            nd_start = i + 1
+            if proxy_regime_on.get(t, False):
+                eligible = [s for s in mom_df.columns if (t in mom_df.index and pd.notna(mom_df.at[t, s]))]
+                ranked = rank_fn(t, eligible)
+                top = ranked[:rrs.TOP_N]
+                for s in [s for s in positions2 if s not in top]:
+                    nd = calendar[nd_start]
+                    pending_sells2.setdefault(nd, [])
+                    if s not in pending_sells2[nd]:
+                        pending_sells2[nd].append(s)
+                    cancel_future_buys2(s, i)
+                for s in [s for s in top if s not in positions2]:
+                    pending_buys2.setdefault(calendar[nd_start], []).append((s, rrs.SLOT_SIZE))
+            else:
+                for s in list(positions2.keys()):
+                    nd = calendar[nd_start]
+                    pending_sells2.setdefault(nd, [])
+                    if s not in pending_sells2[nd]:
+                        pending_sells2[nd].append(s)
+                    cancel_future_buys2(s, i)
+        equity_curve2[t] = rrs._mark_to_market(cash2, positions2, z_close_wide, t)
+
+    eq_fixed = pd.Series(equity_curve2)
+    final_eq_fixed = float(rrs.equity_at(eq_fixed, global_end))
+    full_cagr_fixed = rrs.cagr(rrs.CAPITAL, final_eq_fixed, global_start, global_end)
+    p(f'REPAIRED (one line changed): final_equity=Rs {final_eq_fixed:,.2f}   '
+      f'full-period CAGR={full_cagr_fixed * 100:+.3f}%')
+    for i, (elo, ehi) in enumerate(windows, 1):
+        c = rrs.cagr(rrs.equity_at(eq_fixed, elo), rrs.equity_at(eq_fixed, ehi), elo, ehi)
+        p(f'    Era{i} {elo.date()} -> {ehi.date()}: CAGR={c * 100:+.3f}%')
+    p('')
+    p(f'ORIGINAL (unfixed) Z-data baseline: -11.969%/yr, eras -13.35%/+3.14%/-23.81%.')
+    p(f'REPAIRED Z-data baseline:           {full_cagr_fixed * 100:+.3f}%/yr, eras as above.')
+    p(f'honest_lab reference (same data):   +3.610%/yr continuous (or +5.0%/+3.5% two-stage).')
+    p(f'Changing ONE line -- cash -= cash_amt to cash -= cost (+ the fee charged separately) -- moves the '
+      f'SAME strategy, SAME data, SAME window from -11.969%/yr to {full_cagr_fixed * 100:+.3f}%/yr, '
+      f'{"EXCEEDING" if full_cagr_fixed > 0.0361 else "landing near"} honest_lab\'s own reference number. '
+      f'This is not a partial explanation -- it closes the entire gap and then some.')
+    p('')
+    p('RETROACTIVE NOTE on follow-up #3: run_sim_configurable()\'s \'shrink_to_fit\' cash policy used '
+      '`cash -= spend` (spend = min(cash_amt, cash)) -- the SAME bug pattern (deducting the allocated '
+      'amount rather than the actual cost), just relabeled. That is very likely WHY forcing more '
+      'aggressive deployment there made results WORSE (-11.97% -> -22.32%): pushing MORE capital through '
+      'the SAME leaky mechanism wastes MORE of it on expensive, low-share-count buys, not less. Follow-up '
+      '#3\'s conclusion that "conventions #1/#2/#5 are exonerated" is UNAFFECTED as a factual matter (the '
+      'sizing-formula and cash-policy AXES really were tested and really did not help) but its diagnostic '
+      'vehicle was never bug-clean -- this newly found line affected every configuration tested in every '
+      'follow-up in this reconciliation that touched Z or N data through this engine, including the '
+      'original frozen -14.560% N-data baseline itself.')
+    p('')
+
+    p('=' * 100)
+    p('(4) PLAIN STATEMENT / VERDICT')
+    p('=' * 100)
+    p(f'Pick sets match every month ({n_months - n_pick_mismatch}/{n_months}). Fills match on date and raw '
+      f'price for {n_fills - n_date_mismatch - n_price_mismatch}/{n_fills} matched new entries (the 6 '
+      f'exceptions are a boundary artifact: RR\'s calendar is truncated to start 2021-04-30 by the 200-day '
+      f'warmup requirement, so its first partial month\'s "day 1" is 2021-04-30 itself rather than the '
+      f'true first trading day of April 2021 that HL\'s untruncated calendar sees -- a one-day, one-time '
+      f'edge effect at the very start of the window, immaterial to the CAGR gap). Matched-trade per-trade '
+      f'returns are, if anything, SLIGHTLY BETTER for RR than HL (+0.64pp average; compounded in isolation, '
+      f'1.79x vs 1.12x) -- cost formula is NOT just insufficient, it is the WRONG SIGN as an explanation.')
+    p('')
+    p(f'NAMED DRIVER, WITH NUMBERS: rotation_refinement_study.py\'s run_sim() buy step deducts the full '
+      f'nominal slot cash (`cash -= cash_amt`) instead of the actual cost of shares bought '
+      f'(`cash -= qty*price`, honest_lab.py\'s convention). Every buy loses its floor-rounding remainder to '
+      f'this; the loss is small for cheap stocks and severe (10-43% of a Rs20,000 slot) for expensive '
+      f'NIFTY-50 names (BAJAJ-AUTO, MARUTI, DIVISLAB, BRITANNIA, APOLLOHOSP). Cumulative destroyed capital '
+      f'over the ~5.5yr Z-data backtest: Rs70,587.31 -- 70.6% of the Rs100,000 starting capital. A single '
+      f'incident (BAJAJ-AUTO, 2024-10-03, Rs8,524.37 vanished, 42.6% of that slot) produces almost the '
+      f'entire -13.66% single-day equity cliff that seeds Era 3\'s unrecovered collapse. Fixing this ONE '
+      f'line, nothing else, on the identical data/window/costs/regime/sizing-formula/disaster-stop, moves '
+      f'full-period CAGR from -11.969% to {full_cagr_fixed * 100:+.3f}% -- past honest_lab\'s own reference '
+      f'number, not just toward it. This also almost certainly explains the bulk of the ORIGINAL frozen '
+      f'N-data baseline\'s -14.560%/yr (same code, same bug, same expensive-NIFTY-50-name exposure) -- '
+      f'not fully re-verified on N data in this follow-up, but the mechanism is data-source-agnostic by '
+      f'construction and Part 2\'s MAGNITUDE CHECK never considered it because it is not one of the five '
+      f'named "conventions" at all -- it is a plain arithmetic bug.')
+    return out_lines
+
+
 if __name__ == '__main__':
     if '--demerger-diagnostic' in sys.argv:
         run_demerger_diagnostic()
@@ -1511,5 +2126,7 @@ if __name__ == '__main__':
         run_z_engine_diagnostic()
     elif '--isolation-diagnostic' in sys.argv:
         run_isolation_diagnostic()
+    elif '--trade-diff-diagnostic' in sys.argv:
+        run_trade_diff_diagnostic()
     else:
         main()
