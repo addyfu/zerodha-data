@@ -65,7 +65,17 @@ test has power. Purely accumulative until then.
 Kill: gap does not predict open beyond noise (sign test vs shuffle).
 Data: accrues passively from existing infra. Effort: tiny logging + wait.
 
-### D. Regime exit on the buy-and-hold core — cheap likely-funeral
+### D. Regime exit on the buy-and-hold core — RESOLVED: FAIL (2026-08-04)
+Funeral held same day, prior confirmed. 2008-2026 NIFTY daily, both
+variants, after real costs and verified FY2026-27 capital-gains rates:
+buy-and-hold +9.81% CAGR beats V1 monthly-200DMA +6.46% and V2
+hysteresis +5.15% in ALL THREE eras and the full period (0/3 era wins,
+needed 2). Tax drag on switching (17-31 round trips) plus whipsaws bury
+the crash-avoidance benefit. Spec + results:
+2026-08-04-regime-exit-design.md, kite/research/regime_exit_results.txt.
+Do not revisit without a structurally different regime signal.
+
+### (original D entry, for the record) — cheap likely-funeral
 Exit-to-cash on long-horizon signal (e.g. 200-day MA) over the core
 holding. Included ONLY because it is the one pure-exit idea compatible
 with hold-and-build and costs an afternoon against 20yr daily data.

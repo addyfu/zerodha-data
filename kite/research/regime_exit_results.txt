@@ -1,0 +1,47 @@
+============================================================================================
+SELF-CHECK: core switching / tax / cost / mark-to-market logic vs hand-computed synthetic cases
+============================================================================================
+  [1/3] close_segment()/realize_exit() gain/tax math, round test constants (not the production 
+        rates -- this isolates the FORMULA from the frozen constants, checked separately below)
+        LTCG case: entry_nav=990.000 gross=1089.000 proceeds=1078.110 gain=88.110 tax=8.811 cash_after=1069.299  -- PASS
+        STCG case: same gain=88.110 tax=17.622 cash_after=1060.488  -- PASS
+        Loss case (exit 90 vs entry 100): gain=-107.910 tax=0.000 (no rebate) -- PASS
+        Production constants: BUY_COST_PCT=0.0016817 SELL_COST_PCT=0.0015317 LTCG=0.125 STCG=0.2  -- PASS (matches frozen spec verbatim)
+  [2/3] simulate_hysteresis() switch timing + NAV chaining, hand-traced synthetic series, MA window=3
+        switches: EXIT day4 (100->90, loss, tax=0.000) then RE-ENTER day7 (@105) -- PASS
+        NAV chain: entry_nav=0.990000 -> cash_after_exit=0.882090 -> re-entry entry_nav=0.873269 -- PASS
+  [3/3] simulate_periodic() check-only-at-check-dates + MTM at an open boundary, MA window=3
+        checks only fire at day3/6/9/12 (interim moves on days 4,5,7,10,11 ignored) -- PASS
+        EXIT day6 (100->70 via check, loss, tax=0.000) then RE-ENTER day9 (@70, boundary close==MA -> invested branch, not cash) -- PASS
+        MTM at still-open day12 boundary: entry_nav=0.679209 -> gross=1.358419 -> after_tax_mtm=1.222577 (STCG 20% on unrealized gain) -- PASS
+SELF-CHECK: ALL PASSED
+============================================================================================
+
+============================================================================================
+REGIME EXIT ON THE BUY-AND-HOLD CORE -- FROZEN SPEC (2026-08-04)
+============================================================================================
+Spec: docs/superpowers/specs/2026-08-04-regime-exit-design.md
+Stated prior (shortlist, verbatim): "industry-mined to death ... Expected verdict: FAIL."
+
+Data source: yfinance ^NSEI [fresh fetch]
+Range obtained: 2007-09-17 -> 2026-08-04  (4,630 trading days)
+NOTE: target was 2005-present; actual yfinance ^NSEI history starts 2007-09-17 (~2 yrs short of target). Documented in the frozen spec as a known yfinance limit, not a scraping failure -- stooq re-confirmed non-viable (anti-bot JS challenge).
+
+GLOBAL_START (first 200-day-MA-valid trading day): 2008-07-07  close=4030.00  MA200=5210.72  (below MA)
+GLOBAL_END (last trading day obtained): 2026-08-04  close=24465.75
+
+Switch counts (full period): BH buys=1 sells=1 (the one bookend liquidation)   V1 buys=17 sells=17   V2 buys=31 sells=31
+Realized tax paid, mid-period exits only (full period): V1=0.397369  V2=0.366077  (units of starting capital = 1.0; BH pays its one LTCG bill of 0.631637 only at GLOBAL_END, on a final gain of 5.053095, holding_days=6602)
+
+ERA           WINDOW                       BH CAGR   V1 CAGR   V2 CAGR  V1 switch  V2 switch    V1 tax    V2 tax
+----------------------------------------------------------------------------------------------------------------
+2005-2015     2008-07-07 -> 2015-12-31     +8.572%   +6.782%   +6.048%          6         13   0.13757   0.14452
+2016-2020     2016-01-04 -> 2020-12-31    +11.735%   +4.474%   +2.919%          6         11   0.03712   0.04447
+2021-present  2021-01-01 -> 2026-08-04    +10.115%   +7.786%   +5.939%          5          7   0.22268   0.17709
+FULL PERIOD   2008-07-07 -> 2026-08-04     +9.811%   +6.455%   +5.149%         17         31   0.39737   0.36608
+
+PASS BAR (frozen): V1 or V2 after-tax CAGR strictly exceeds BH after-tax CAGR over the FULL period AND in >=2 of the 3 declared eras (an era missing data cannot be won -- counts against the bar, not around it).
+  V1: full-period beats BH = False   eras won = 0/3 declared (3 had data in both series)   => FAIL
+  V2: full-period beats BH = False   eras won = 0/3 declared (3 had data in both series)   => FAIL
+
+VERDICT: FAIL -- neither variant cleared the frozen bar (matches the shortlist's stated prior).
