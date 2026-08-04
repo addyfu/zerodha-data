@@ -14,11 +14,20 @@ file the monitor persists at every login/refresh (and daily_collector.py's
 long-standing token file).
 This script NEVER imports or calls zerodha_auto_login.get_enctoken /
 LiveMonitor._auto_login. A fresh TOTP login invalidates the currently running
-monitor's Kite session (Zerodha allows one active web session per enctoken) --
-so if no token is found anywhere/stale and the quote call therefore fails,
-this script falls back to the newest available bar in data/zerodha_data.db
-for that symbol and tags the line loudly:
-    (stale DB mark: <timestamp>)
+monitor's Kite session (Zerodha allows one active web session per enctoken).
+
+Marking has three tiers, in order, and each is tagged loudly so a reader can
+never mistake one for another:
+  1. Live quote (/oms/quote, batched) -- tag: [LIVE], no note.
+  2. Chart fallback -- added 2026-08-04 because Zerodha's /oms/quote now 400s
+     unconditionally for enctoken sessions (verified dead that day) while the
+     chart/history endpoint (same token) still works. Same-token reuse, same
+     safety rule -- still never a login. Tag: [CHART], note shows the bar:
+         (chart 1-min close: <timestamp>)
+  3. Stale DB mark -- if the token is missing/stale and both of the above
+     fail, falls back to the newest available bar in data/zerodha_data.db for
+     that symbol. Tag: [STALE], note:
+         (stale DB mark: <timestamp>)
 It never attempts to log in, refresh, or persist a token.
 
 This report NEVER writes to any DB, never refreshes a token, never sends
@@ -257,9 +266,16 @@ def fetch_live_quotes(symbols: List[str], offline: bool) -> Tuple[Dict[str, dict
                         missing/empty -- get_quote() would just
                         warn-and-return-{} anyway; we skip constructing the
                         fetcher (and its instrument-list network call) entirely
-      'quote-failed'   token present but the batched call returned nothing
+      'quote-failed'   token present but neither the batched quote call nor
+                        the per-symbol chart fallback (below) produced anything
                         (expired token, network error, HTTP failure -- all of
-                        which get_quote() already swallows internally)
+                        which get_quote()/get_historical_data() already
+                        swallow internally)
+      'chart'          the batched /oms/quote call returned nothing (as of
+                        2026-08-04 it 400s unconditionally for enctoken
+                        sessions -- dead), but the chart/history endpoint
+                        (same token, still alive) produced a last-minute
+                        close for at least one symbol
       'live'           at least one symbol came back with a live price
     """
     if offline:
@@ -288,22 +304,67 @@ def fetch_live_quotes(symbols: List[str], offline: bool) -> Tuple[Dict[str, dict
     except Exception as e:
         print(f"WARNING: live quote fetch raised {e!r} -- falling back to stale DB marks",
               file=sys.stderr)
+        quotes = {}
+        fetcher = None
+
+    if quotes:
+        return quotes, 'live'
+
+    # Middle fallback tier (added 2026-08-04): Zerodha's /oms/quote endpoint now
+    # 400s unconditionally for enctoken-based sessions -- dead. The chart/history
+    # endpoint still works off the same token (it's how the live monitor itself
+    # prices everything), so try that next, one symbol at a time, before giving
+    # up to the stale-DB fallback below. days=5 (not 1) so a pre-market or
+    # post-holiday run still finds the last session's bars. Per-symbol
+    # try/except so one bad instrument can't take the rest down with it.
+    if fetcher is None:
         return {}, 'quote-failed'
 
-    if not quotes:
-        return {}, 'quote-failed'
-    return quotes, 'live'
+    chart_quotes: Dict[str, dict] = {}
+    for symbol in symbols:
+        try:
+            df = fetcher.get_historical_data(symbol, interval="minute", days=5)
+        except Exception as e:
+            print(f"WARNING: chart-fallback fetch raised {e!r} for {symbol} -- skipping",
+                  file=sys.stderr)
+            continue
+        if df is None or len(df) == 0:
+            continue
+        last_bar = df.iloc[-1]
+        chart_quotes[symbol] = {
+            'last_price': float(last_bar['close']),
+            'timestamp': df.index[-1],
+            'source': 'chart',  # loud tag: mark_open_positions/render use this to
+                                 # label these 'CHART', never silently as 'LIVE'
+        }
+
+    if chart_quotes:
+        return chart_quotes, 'chart'
+    return {}, 'quote-failed'
 
 
 def mark_open_positions(open_rows: List[dict], quotes: Dict[str, dict],
                          zerodha_conn: Optional[sqlite3.Connection]) -> None:
-    """Mutates each row in place: mark_price, mark_source ('LIVE'/'STALE'/'NONE'),
-    mark_note (the loud stale-DB tag, or '(no mark available)'), unrealized."""
+    """Mutates each row in place: mark_price, mark_source ('LIVE'/'CHART'/'STALE'/'NONE'),
+    mark_note (the chart-fallback bar timestamp, the loud stale-DB tag, or
+    '(no mark available)'), unrealized.
+
+    'CHART' marks (quotes dict entries carrying 'source': 'chart', set by
+    fetch_live_quotes' chart fallback) are deliberately never relabeled 'LIVE' --
+    this project treats silently-wrong-looking-right data as the worst failure
+    mode, so a last-minute chart close must stay visibly distinct from a true
+    live tick even though both come from the same 'quotes' dict."""
     for row in open_rows:
         symbol = row.get('symbol')
         q = quotes.get(symbol) if quotes else None
         live_price = q.get('last_price') if q else None
-        if live_price:
+        if live_price and q.get('source') == 'chart':
+            row['mark_price'] = live_price
+            row['mark_source'] = 'CHART'
+            ts = q.get('timestamp')
+            ts_txt = ts.strftime('%Y-%m-%d %H:%M') if hasattr(ts, 'strftime') else str(ts)
+            row['mark_note'] = f"(chart 1-min close: {ts_txt})"
+        elif live_price:
             row['mark_price'] = live_price
             row['mark_source'] = 'LIVE'
             row['mark_note'] = ''
@@ -448,14 +509,17 @@ def build_report(date_str: str, offline: bool) -> str:
     lines.append(f"  Lifetime realized:   {signed_money(combined_lifetime)}")
     lines.append("")
 
-    n_live = sum(1 for s in all_open_symbols if quotes.get(s, {}).get('last_price'))
+    n_marked = sum(1 for s in all_open_symbols if quotes.get(s, {}).get('last_price'))
     status_txt = {
         'offline': '--offline passed -- live quote fetch skipped, all marks forced to stale-DB/none',
         'no-symbols': 'no open positions to mark',
         'no-token': 'no token in env or enctoken.txt -- never attempted login, went straight to stale-DB fallback',
         'quote-failed': 'quote call returned nothing (expired/invalid token or network failure) -- fell back to stale-DB marks',
-        'live': f'{n_live}/{len(all_open_symbols)} open symbol(s) got a live quote'
-                + (f'; {len(all_open_symbols) - n_live} fell back to stale-DB marks' if n_live < len(all_open_symbols) else ''),
+        'chart': f'quote endpoint dead (HTTP 400) -- used chart-API last-minute closes instead '
+                 f'({n_marked}/{len(all_open_symbols)} symbol(s))'
+                 + (f'; {len(all_open_symbols) - n_marked} fell back to stale-DB marks' if n_marked < len(all_open_symbols) else ''),
+        'live': f'{n_marked}/{len(all_open_symbols)} open symbol(s) got a live quote'
+                + (f'; {len(all_open_symbols) - n_marked} fell back to stale-DB marks' if n_marked < len(all_open_symbols) else ''),
     }.get(quote_status, quote_status)
     lines.append(f"Quote source: {status_txt}")
     lines.append("=" * 80)
