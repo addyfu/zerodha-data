@@ -87,6 +87,12 @@ the quintile control, then runs the verdict. Results appended here.
   exact bar (CLOSE[sig+10]); literal alternative in a non-verdict
   appendix. SHREECEM (price > Rs 20k) contributes no net cells under the
   frozen cost model — now loud, effective net universe 47 symbols.
+- 2026-08-04 (correction, verdict unchanged): the entry below cites the
+  APPENDIX horizon's numbers (+0.091%, t=+1.17 — CLOSE[sig+11], explicitly
+  non-verdict-bearing). The PRIMARY verdict-bearing block (H=10,
+  CLOSE[sig+10]) reads mean net +0.0404%, t=+0.939 — OOS shrinkage vs the
+  +0.30% train cell is ~86%, not ~70%. Every block (primary, secondary,
+  appendix) fails C2 and C3 identically; FAIL and Tombstone #137 stand.
 - 2026-07-29 (results): **FAIL — C1 PASS / C2 FAIL / C3 FAIL. Tombstone
   #137.** Validation D=0 (8,276 cells): mean net +0.091% (train cell was
   +0.30% — shrank ~70% OOS), t=+1.17 vs +2.0. C3 was decisive: within

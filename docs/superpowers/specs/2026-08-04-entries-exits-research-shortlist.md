@@ -43,14 +43,15 @@ control mandatory (prime overfit territory — this would be backtest #141).
 Kill: no variant beats plain rotation out-of-sample after fees.
 Data: already on disk. Effort: medium.
 
-### B. Zero-signal ("zombie") long — freshest anomaly
-Stocks on which ALL ~130 zoo strategies are silent drifted +0.30%/10d
-(anti-consensus finding, July 2026). A validation spec (2024-26 window,
-pre-registered kill-switch for mean-reversion decoration) was already in
-flight 2026-07-29. FIRST STEP: recover that run's verdict from disk before
-anything else — do not duplicate or re-run without checking.
-Kill: per the already-frozen zoo-silence spec.
-Data: exists. Effort: small (verdict recovery) then per existing spec.
+### B. Zero-signal ("zombie") long — RESOLVED: FAIL (2026-08-04 recovery)
+The 2026-07-29 validation run had already finished and recorded its
+verdict: **FAIL, Tombstone #137** (C1 PASS +0.0404% / C2 FAIL t=+0.939 /
+C3 FAIL — D=0 underperforms D>=1 in 4 of 5 prior-return quintiles; the
+apparent edge was ordinary short-term reversal, zoo-silence decorative).
+Consensus/ensemble line of inquiry fully closed: voting, K-of-N, and
+silence-as-signal all dead on Indian data. Removed from the queue.
+One citation slip in the spec's decision log corrected 2026-08-04
+(appendix vs primary numbers; verdict unaffected).
 
 ### C. Closing Auction Session (CAS) artifact — novelty monopoly
 SEBI's closing auction went live 2026-08-03. Day one: official close
