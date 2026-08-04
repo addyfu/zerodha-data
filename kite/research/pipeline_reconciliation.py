@@ -519,5 +519,288 @@ def main():
     log(f'Full log written -> {OUT_FILE}')
 
 
+# ===========================================================================
+# REVIEWER FOLLOW-UP DIAGNOSTIC -- appended 2026-08-04, NOT part of the
+# original forensic run above. Does not touch main()/OUT_FILE's log buffer.
+#
+# Question: pick-set-divergence counting (STEP 4 above) is blind to the
+# mechanism where the SAME stock is picked by both pipelines but Pipeline
+# N's missing demerger adjustment turns one holding period into a large
+# FAKE loss (TATAMOTORS ~2025-10-14, ITC ~2025-01-06 -- see the worst-10
+# writeup above). This reruns rotation_refinement_study.py's actual BASELINE
+# sim (imported directly, not reimplemented -- same run_variant/VARIANTS/
+# panel-loading code the frozen study uses, so this is the real thing, not
+# an approximation), reconstructs day-level holdings from its trade log,
+# and surgically neutralizes each event date's fake return to answer: how
+# much of baseline's negative CAGR is this one mechanism worth?
+#
+# Run:  python kite/research/pipeline_reconciliation.py --demerger-diagnostic
+# ===========================================================================
+def reconstruct_holdings(trade_log, final_positions, date):
+    """symbol -> {'qty','cost_basis','entry_date','exit_date','status'} for
+    everything held ON `date`. A closed trade counts as held on `date` if
+    entry_date <= date < exit_date (position is sold AT exit_date's open,
+    so it is not held through that day's close). A still-open final
+    position counts if its first tranche filled on or before `date`."""
+    held = {}
+    for t in trade_log:
+        if t['entry_date'] <= date < t['exit_date']:
+            held[t['symbol']] = {'qty': t['qty'], 'cost_basis': t['cost_basis'],
+                                  'entry_date': t['entry_date'], 'exit_date': t['exit_date'],
+                                  'status': 'later closed'}
+    for sym, pos in final_positions.items():
+        entry_date = pos['tranches'][0][0]
+        if entry_date <= date:
+            held[sym] = {'qty': pos['qty'], 'cost_basis': pos['cost_basis'],
+                          'entry_date': entry_date, 'exit_date': None,
+                          'status': 'still open at study end'}
+    return held
+
+
+def trades_closed_in_week(trade_log, center_date, days_before=3, days_after=4):
+    lo = center_date - pd.Timedelta(days=days_before)
+    hi = center_date + pd.Timedelta(days=days_after)
+    return [t for t in trade_log if lo <= t['exit_date'] <= hi]
+
+
+def surgical_correction(eq_orig, close_wide, events):
+    """events: list of (date, symbol, qty). For each event, compute that
+    symbol's dollar mark-to-market swing on `date` (qty * (close[date] -
+    close[prev_trading_day])), express it as a fraction of the PRIOR day's
+    total equity, and subtract that fraction from that day's portfolio
+    return -- i.e. neutralize that one position's contribution to zero for
+    that one day, leaving every other position/day's return untouched.
+    Then re-chain the whole equity curve forward from CAPITAL using the
+    corrected return series. Events applied in chronological order (each
+    later correction's re-chain naturally sits on top of any earlier one,
+    since we operate in RETURNS space, not dollar space -- percentage
+    contributions compose correctly regardless of order)."""
+    r_orig = eq_orig.pct_change()
+    r_corr = r_orig.copy()
+    notes = []
+    for date, sym, qty in sorted(events, key=lambda e: e[0]):
+        pos = eq_orig.index.get_loc(date)
+        prev_date = eq_orig.index[pos - 1]
+        if sym not in close_wide.columns:
+            notes.append((date, sym, qty, None))
+            continue
+        c_now = close_wide.at[date, sym] if date in close_wide.index else np.nan
+        c_prev = close_wide.at[prev_date, sym] if prev_date in close_wide.index else np.nan
+        if pd.isna(c_now) or pd.isna(c_prev):
+            notes.append((date, sym, qty, None))
+            continue
+        dollar_swing = qty * (c_now - c_prev)
+        prior_equity = float(eq_orig.loc[prev_date])
+        contribution = dollar_swing / prior_equity
+        r_corr.loc[date] = r_orig.loc[date] - contribution
+        notes.append((date, sym, qty, dict(prev_date=prev_date, c_prev=c_prev, c_now=c_now,
+                                            dollar_swing=dollar_swing, prior_equity=prior_equity,
+                                            contribution_pct=contribution * 100,
+                                            r_orig_pct=r_orig.loc[date] * 100,
+                                            r_corr_pct=r_corr.loc[date] * 100)))
+    eq_corr = pd.Series(index=eq_orig.index, dtype=float)
+    eq_corr.iloc[0] = eq_orig.iloc[0]
+    for i in range(1, len(eq_orig)):
+        d = eq_orig.index[i]
+        rc = r_corr.loc[d]
+        eq_corr.iloc[i] = eq_corr.iloc[i - 1] * (1 + (0.0 if pd.isna(rc) else rc))
+    return eq_corr, notes
+
+
+def run_demerger_diagnostic():
+    out_lines = []
+
+    def p(msg=''):
+        print(msg, flush=True)
+        out_lines.append(str(msg))
+
+    from kite.research import rotation_refinement_study as rrs
+
+    p('=' * 100)
+    p('REVIEWER FOLLOW-UP: TATAMOTORS/ITC demerger P&L mechanism, surgical CAGR correction')
+    p('=' * 100)
+    p('Rerunning rotation_refinement_study.py\'s ACTUAL baseline sim (imported directly: '
+      'load_universe_panel/compute_momentum/compute_proxy_regime/run_variant/VARIANTS[\'baseline\']) '
+      '-- deterministic, same code the frozen study used, not a reimplementation.')
+    p('')
+
+    close_wide, open_wide, universe = rrs.load_universe_panel()
+    mom_df = rrs.compute_momentum(close_wide, rrs.LOOKBACK)
+    _, _, proxy_regime_on_full = rrs.compute_proxy_regime(close_wide, rrs.REGIME_SMA)
+    valid_from = rrs.REGIME_SMA - 1
+    calendar = close_wide.index[valid_from:]
+    global_start, global_end = calendar[0], calendar[-1]
+    proxy_regime_on = pd.Series({d: bool(proxy_regime_on_full.get(d, False)) for d in calendar})
+
+    r = rrs.run_variant('baseline', rrs.VARIANTS['baseline'], calendar, close_wide, open_wide,
+                         mom_df, proxy_regime_on, proxy_regime_on)  # real_regime_on unused (regime='proxy')
+    eq_orig, trade_log, final_positions, final_cash = r['equity'], r['trades'], r['final_positions'], r['final_cash']
+
+    orig_full_cagr = rrs.cagr(rrs.CAPITAL, rrs.equity_at(eq_orig, global_end), global_start, global_end)
+    windows = rrs.era_windows(calendar, 3)
+    era3_lo, era3_hi = windows[2]
+    orig_era3_cagr = rrs.cagr(rrs.equity_at(eq_orig, era3_lo), rrs.equity_at(eq_orig, era3_hi), era3_lo, era3_hi)
+    p(f'Sanity check against rotation_refinement_results.txt: this rerun baseline full-period CAGR = '
+      f'{orig_full_cagr * 100:+.3f}%  (frozen results file reports -14.560%)')
+    p(f'This rerun baseline Era-3 CAGR = {orig_era3_cagr * 100:+.3f}%  (frozen results file reports -29.588%, '
+      f'era3 window {era3_lo.date()}..{era3_hi.date()})')
+    p('')
+
+    events_requested = [('TATAMOTORS', pd.Timestamp('2025-10-14')), ('ITC', pd.Timestamp('2025-01-06'))]
+    events_for_correction = []
+
+    for sym, event_date in events_requested:
+        p('-' * 100)
+        p(f'EVENT: {sym} demerger, ~{event_date.date()}')
+        p('-' * 100)
+        held = reconstruct_holdings(trade_log, final_positions, event_date)
+        was_held = sym in held
+        p(f'Was {sym} held by the baseline sim spanning {event_date.date()}? {"YES" if was_held else "NO"}')
+        p(f'ALL holdings in the baseline sim on {event_date.date()} ({len(held)} position(s)):')
+        for s2, info in sorted(held.items()):
+            avg_price = info['cost_basis'] / info['qty'] if info['qty'] else float('nan')
+            c_now = close_wide.at[event_date, s2] if (event_date in close_wide.index and s2 in close_wide.columns) else np.nan
+            mtm_pct = (c_now / avg_price - 1) * 100 if pd.notna(c_now) and avg_price else float('nan')
+            p(f'    {s2:12} qty={info["qty"]:>6}  cost_basis=Rs{info["cost_basis"]:>10,.2f}  '
+              f'avg_price=Rs{avg_price:>9.3f}  entry_date={info["entry_date"].date()}  '
+              f'status={info["status"]}  mark-to-market on {event_date.date()}={mtm_pct:+.2f}%')
+        if not held:
+            p('    (no open positions at all on this date)')
+        p('')
+
+        if was_held:
+            info = held[sym]
+            qty = info['qty']
+            avg_price = info['cost_basis'] / qty
+            trigger_close = 0.85 * avg_price
+            pos_idx = calendar.get_loc(event_date)
+            prev_date = calendar[pos_idx - 1]
+            c_prev = close_wide.at[prev_date, sym] if prev_date in close_wide.index else np.nan
+            c_now = close_wide.at[event_date, sym] if event_date in close_wide.index else np.nan
+            day_ret_pct = (c_now / c_prev - 1) * 100 if pd.notna(c_prev) and pd.notna(c_now) else float('nan')
+            p(f'  DISASTER-STOP CHECK (baseline rule: exit if close <= 0.85*avg_price):')
+            p(f'    avg_price=Rs{avg_price:.3f}  0.85x trigger=Rs{trigger_close:.3f}  '
+              f'close({prev_date.date()})=Rs{c_prev:.3f}  close({event_date.date()})=Rs{c_now:.3f} '
+              f'({day_ret_pct:+.2f}% on the day)')
+            p(f'    close({event_date.date()}) <= trigger? {"YES -- stop condition met on the demerger day" if pd.notna(c_now) and c_now <= trigger_close else "no"}')
+            if info['exit_date'] is not None:
+                closed_trade = next((t for t in trade_log if t['symbol'] == sym and t['exit_date'] == info['exit_date']
+                                      and t['entry_date'] == info['entry_date']), None)
+                if closed_trade:
+                    p(f'  ACTUAL TRADE RECORD: entry_date={closed_trade["entry_date"].date()}  '
+                      f'exit_date={closed_trade["exit_date"].date()}  qty={closed_trade["qty"]}  '
+                      f'cost_basis=Rs{closed_trade["cost_basis"]:,.2f}  proceeds=Rs{closed_trade["proceeds"]:,.2f}  '
+                      f'gain=Rs{closed_trade["gain"]:,.2f} ({closed_trade["gain"]/closed_trade["cost_basis"]*100:+.2f}%)  '
+                      f'holding_days={closed_trade["holding_days"]}')
+                    days_to_exit = (closed_trade['exit_date'] - event_date).days
+                    p(f'    exit came {days_to_exit} day(s) after the demerger date -- consistent with '
+                      f'{"the disaster stop firing on/right after the crash" if days_to_exit <= 3 else "some other exit trigger (rebalance / force-exit-on-disappearance)"}')
+            p('')
+            events_for_correction.append((event_date, sym, qty))
+
+        p(f'Trades CLOSED the week of {event_date.date()} (window -3d/+4d, ALL symbols):')
+        week_trades = trades_closed_in_week(trade_log, event_date)
+        if week_trades:
+            for t in week_trades:
+                p(f'    {t["symbol"]:12} entry={t["entry_date"].date()}  exit={t["exit_date"].date()}  '
+                  f'qty={t["qty"]}  cost_basis=Rs{t["cost_basis"]:,.2f}  proceeds=Rs{t["proceeds"]:,.2f}  '
+                  f'gain=Rs{t["gain"]:,.2f} ({t["gain"]/t["cost_basis"]*100:+.2f}%)')
+        else:
+            p('    (none)')
+        p('')
+
+    p('=' * 100)
+    p('SURGICAL CORRECTION -- method')
+    p('=' * 100)
+    p('For each event date, compute the affected position\'s dollar mark-to-market swing that day '
+      '(qty * (close[event_date] - close[prev_trading_day]), using Pipeline N\'s own close_wide -- the '
+      'SAME price series the baseline sim actually marks equity against), express it as a fraction of '
+      'the PRIOR day\'s total portfolio equity, and subtract exactly that fraction from that day\'s '
+      'portfolio return -- i.e. neutralize ONLY that one position\'s contribution to zero for that one '
+      'day (everything else about that day, and every other day, is left untouched: no re-simulation, '
+      'no changed trading decisions, no changed ranking -- purely a post-hoc equity-curve correction, '
+      'the simplest defensible method, per the reviewer\'s instruction). The corrected daily-return '
+      'series is then re-chained multiplicatively from CAPITAL forward to build a corrected equity '
+      'curve. Applied in RETURNS space (not dollar space) so the two corrections (ITC then TATAMOTORS, '
+      'chronological order) compose correctly regardless of what happens between them.')
+    p('')
+
+    if events_for_correction:
+        eq_corr, notes = surgical_correction(eq_orig, close_wide, events_for_correction)
+        for date, sym, qty, d in notes:
+            if d is None:
+                p(f'  {sym} @ {date.date()}: SKIPPED (missing price data for the day-over-day delta)')
+                continue
+            p(f'  {sym} @ {date.date()}: qty={qty}  close {d["prev_date"].date()}=Rs{d["c_prev"]:.3f} -> '
+              f'{date.date()}=Rs{d["c_now"]:.3f}  dollar_swing=Rs{d["dollar_swing"]:,.2f}  '
+              f'prior_day_equity=Rs{d["prior_equity"]:,.2f}  contribution_to_that_day\'s_return='
+              f'{d["contribution_pct"]:+.3f}pp  (portfolio return that day: actual {d["r_orig_pct"]:+.3f}% '
+              f'-> corrected {d["r_corr_pct"]:+.3f}%)')
+        p('')
+
+        corr_full_cagr = rrs.cagr(rrs.CAPITAL, rrs.equity_at(eq_corr, global_end), global_start, global_end)
+        corr_era3_cagr = rrs.cagr(rrs.equity_at(eq_corr, era3_lo), rrs.equity_at(eq_corr, era3_hi), era3_lo, era3_hi)
+        final_orig = float(rrs.equity_at(eq_orig, global_end))
+        final_corr = float(rrs.equity_at(eq_corr, global_end))
+
+        p('=' * 100)
+        p('RESULT -- baseline CAGR, actual (Pipeline N, as run by the frozen study) vs surgically corrected')
+        p('=' * 100)
+        p(f'{"":28}{"final_equity":>16}{"full-period CAGR":>20}{"Era-3 CAGR":>14}')
+        p(f'{"ACTUAL (uncorrected)":28}{"Rs " + format(final_orig, ",.2f"):>16}'
+          f'{orig_full_cagr * 100:>19.3f}%{orig_era3_cagr * 100:>13.3f}%')
+        p(f'{"SURGICALLY CORRECTED":28}{"Rs " + format(final_corr, ",.2f"):>16}'
+          f'{corr_full_cagr * 100:>19.3f}%{corr_era3_cagr * 100:>13.3f}%')
+        p(f'{"delta (corrected-actual)":28}{"Rs " + format(final_corr - final_orig, ",.2f"):>16}'
+          f'{(corr_full_cagr - orig_full_cagr) * 100:>+19.3f}pp{(corr_era3_cagr - orig_era3_cagr) * 100:>+13.3f}pp')
+        p('')
+        p(f'honest_lab.py (Pipeline Z, compounding) validated momo_rotation_63 at TRAIN +5.0%/yr, '
+          f'VAL +3.5%/yr, i.e. squarely positive throughout.')
+        gap_before = orig_full_cagr * 100 - 3.5
+        gap_after = corr_full_cagr * 100 - 3.5
+        p(f'Gap to honest_lab\'s +3.5%/yr VAL number: {gap_before:+.2f}pp before correction, '
+          f'{gap_after:+.2f}pp after correction '
+          f'({"gap closes materially but a large residual remains" if abs(gap_after) < abs(gap_before) * 0.85 else "correction barely moves the gap -- residual is NOT primarily this mechanism"}).')
+        closes_meaningfully = abs(gap_after) < abs(gap_before) * 0.85
+        p('')
+        p('=' * 100)
+        p('PLAIN STATEMENT')
+        p('=' * 100)
+        p(f'Full-period baseline CAGR moves from {orig_full_cagr*100:+.3f}% to {corr_full_cagr*100:+.3f}% '
+          f'({(corr_full_cagr-orig_full_cagr)*100:+.3f}pp) once the two demerger-day fake losses are '
+          f'surgically zeroed. Era-3 CAGR moves from {orig_era3_cagr*100:+.3f}% to {corr_era3_cagr*100:+.3f}% '
+          f'({(corr_era3_cagr-orig_era3_cagr)*100:+.3f}pp).')
+        if closes_meaningfully:
+            p(f'This is a REAL and non-trivial correction, but the corrected baseline ({corr_full_cagr*100:+.2f}%/yr '
+              f'full-period) is still far short of honest_lab.py\'s +3.5-5.0%/yr -- a large unexplained '
+              f'residual remains. The two demerger artifacts are confirmed contributors, not the primary '
+              f'explanation for why rotation_refinement_study.py\'s baseline is negative while honest_lab.py\'s '
+              f'is positive.')
+        else:
+            p(f'This correction barely moves the full-period or Era-3 number at all. The two demerger fake '
+              f'losses, despite being real and confirmed, are NOT a material driver of baseline\'s negative '
+              f'CAGR -- the -14.56%/yr full-period and -29.588%/yr Era-3 results are overwhelmingly explained '
+              f'by something else entirely (see the MAGNITUDE CHECK section of the main results file: sizing '
+              f'convention and the disaster-stop rule were already ruled out by rotation_refinement_study.py\'s '
+              f'own diagnostics, so the residual is most likely the accumulation of many small pipeline-N '
+              f'price disagreements across the other 46 symbols, plus cost-convention differences vs '
+              f'honest_lab.py -- neither fully diagnosed by this follow-up).')
+    else:
+        p('Neither TATAMOTORS nor ITC was found held by the baseline sim on the requested dates -- '
+          'no correction to apply. (This would itself be a significant, surprising finding -- verify '
+          'the holdings reconstruction above before trusting this branch.)')
+        p('')
+        p('=' * 100)
+        p('PLAIN STATEMENT')
+        p('=' * 100)
+        p('Neither event date coincided with an actual open position in the baseline sim, so this '
+          'mechanism (fake demerger-day loss on a held position) cannot be a contributor to the CAGR '
+          'gap for THESE two specific dates. See the holdings reconstruction above for what WAS held.')
+    return out_lines
+
+
 if __name__ == '__main__':
-    main()
+    if '--demerger-diagnostic' in sys.argv:
+        run_demerger_diagnostic()
+    else:
+        main()

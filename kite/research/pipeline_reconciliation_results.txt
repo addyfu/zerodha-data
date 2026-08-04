@@ -448,3 +448,125 @@ PRIMARY-SOURCE LOOKUPS A HUMAN SHOULD DO TO SETTLE THIS
    to -29.6%/yr baseline gap actually closes -- this is the single most direct way to quantify item 3
    of the VERDICT section above instead of leaving it qualitative.
 
+====================================================================================================
+DATED FOLLOW-UP -- 2026-08-04 -- reviewer-requested P&L mechanism check (TATAMOTORS/ITC demergers)
+====================================================================================================
+Produced by kite/research/pipeline_reconciliation.py --demerger-diagnostic (a clearly-marked
+diagnostic function appended to that script; not part of the original forensic run above). Reruns
+rotation_refinement_study.py's ACTUAL baseline sim by direct import (load_universe_panel /
+compute_momentum / compute_proxy_regime / run_variant / VARIANTS['baseline'] -- the real code the
+frozen study used, not a reimplementation) and reconstructs day-level holdings from its trade log.
+
+CORRECTION TO PART 2, ABOVE: the TATAMOTORS write-up in Part 2 (worst-10 section) states "matches
+rotation_refinement_study.py's own J10 log line ... and its force-exit-on-disappearance rule, which
+fired for real on this name." That inference was WRONG. The J10 log line
+("Symbols with data ending before panel end ... force-exit-on-disappearance rule (J10) applies to
+these: [('TATAMOTORS', '2025-10-23')]") is printed unconditionally by load_universe_panel() for any
+symbol whose price data ends before the panel's global end date -- it is a data-COVERAGE warning,
+not a confirmation that the rule ever actually fired against an open position. It was misread as the
+latter in Part 2. The reconstruction below shows the rule never fired for TATAMOTORS in the baseline
+sim because the sim had already sold out of TATAMOTORS 17 months earlier and never bought it back.
+The raw-price evidence in Part 2 (Z back-adjusts the whole pre-event history down ~31%, N does not)
+remains fully correct and stands -- what's corrected here is ONLY the claim that this data defect
+did anything to the baseline sim's realized P&L. It did not, for these two dates -- see below.
+
+--------------------------------------------------------------------------------------------------
+SANITY CHECK -- this rerun reproduces the frozen study exactly (confirms determinism)
+--------------------------------------------------------------------------------------------------
+Rerun baseline full-period CAGR = -14.560%  (frozen rotation_refinement_results.txt: -14.560%) -- MATCH
+Rerun baseline Era-3 CAGR       = -29.588%  (frozen rotation_refinement_results.txt: -29.588%, era3
+                                              window 2024-07-26 -> 2026-07-27) -- MATCH
+
+--------------------------------------------------------------------------------------------------
+(1) WAS TATAMOTORS HELD ACROSS 2025-10-14? WAS ITC HELD ACROSS 2025-01-06?
+--------------------------------------------------------------------------------------------------
+TATAMOTORS: NO. Full trade history for TATAMOTORS in the baseline sim (all 4 round trips, entire
+6-year study):
+    entry=2021-02-02  exit=2021-05-04  qty=68  cost_basis=Rs19,964.80  proceeds=Rs20,105.59
+        gain=Rs140.79 (+0.71%)  holding_days=91
+    entry=2021-11-02  exit=2022-02-02  qty=39  cost_basis=Rs19,753.50  proceeds=Rs19,789.68
+        gain=Rs36.18 (+0.18%)  holding_days=92
+    entry=2023-06-02  exit=2023-09-04  qty=37  cost_basis=Rs19,869.00  proceeds=Rs22,726.97
+        gain=Rs2,857.97 (+14.38%)  holding_days=94
+    entry=2024-04-02  exit=2024-05-03  qty=19  cost_basis=Rs18,981.00  proceeds=Rs19,676.45
+        gain=Rs695.45 (+3.66%)  holding_days=31
+The LAST TATAMOTORS trade exits 2024-05-03. TATAMOTORS is never bought again for the rest of the
+study (through 2026-07-27) -- it simply never re-qualified for the top-3 monthly momentum pick after
+that. The Oct-2025 demerger therefore lands on a symbol the baseline sim was NOT holding, has not
+held for ~17 months, and would not touch again. Zero direct P&L exposure.
+
+ITC: NO. Full trade history for ITC in the baseline sim -- exactly ONE round trip in the entire
+6-year study:
+    entry=2023-05-03  exit=2023-06-02  qty=47  cost_basis=Rs19,928.00  proceeds=Rs20,632.98
+        gain=Rs704.98 (+3.54%)  holding_days=30
+That one trade closed a year and a half before the Jan-2025 ITC Hotels demerger. Zero direct P&L
+exposure, by an even wider margin than TATAMOTORS.
+
+Holdings actually open on the two event dates (all symbols, both dates included for completeness --
+this is the "list ALL holdings that week" requirement):
+  2025-10-14 (2 open positions, neither is TATAMOTORS):
+    HEROMOTOCO  qty=4  cost_basis=Rs17,263.60  avg_price=Rs4,315.90  entry_date=2025-08-04
+                mark-to-market on 2025-10-14 = +29.09% (later closed at a gain -- unaffected by the
+                TATAMOTORS event)
+    MARUTI      qty=1  cost_basis=Rs14,859.00  avg_price=Rs14,859.00  entry_date=2025-09-02
+                mark-to-market on 2025-10-14 = +9.44% (later closed at a gain -- unaffected)
+  2025-01-06 (0 open positions -- the book was entirely in cash / no positions that week at all)
+No trades CLOSED in either event week (-3d/+4d window) for ANY symbol -- the demerger dates were
+simply quiet weeks for the baseline sim's trade log.
+
+Disaster-stop check: N/A for both events -- the 15% disaster stop (close <= 0.85*avg_price) can only
+fire against an OPEN position, and neither TATAMOTORS nor ITC was one on the relevant date. The
+reviewer's hypothesized "phantom move triggers the disaster stop, converting a paper artifact into a
+realized sim loss plus round-trip costs" mechanism did NOT occur for either of these two events.
+
+--------------------------------------------------------------------------------------------------
+(2) SURGICAL CORRECTION -- method and result
+--------------------------------------------------------------------------------------------------
+Method (as specified): for each event date, compute the affected position's dollar mark-to-market
+swing that day using Pipeline N's own close_wide (the same series the sim marks equity against),
+express it as a fraction of the prior day's total equity, and subtract exactly that fraction from
+that day's portfolio return -- neutralizing that one position's contribution to zero for that one
+day only, then re-chaining the whole equity curve forward from CAPITAL using the corrected return
+series. No re-simulation, no changed trading/ranking decisions -- a pure post-hoc equity-curve
+edit, applied in RETURNS space so multiple corrections compose correctly regardless of order.
+
+Result: since neither TATAMOTORS nor ITC was an open position on its respective event date, there is
+NOTHING to neutralize -- the correction is a no-op by construction. Corrected equity curve is
+IDENTICAL to the actual one:
+                              final_equity   full-period CAGR   Era-3 CAGR
+  ACTUAL (uncorrected)        Rs 38,860.97          -14.560%      -29.588%
+  SURGICALLY CORRECTED        Rs 38,860.97          -14.560%      -29.588%
+  delta (corrected-actual)    Rs 0.00                +0.000pp      +0.000pp
+
+--------------------------------------------------------------------------------------------------
+(3) PLAIN STATEMENT
+--------------------------------------------------------------------------------------------------
+The mechanism the reviewer flagged -- "sim was holding TATAMOTORS/ITC across the demerger, booked a
+fake loss, possibly triggered the disaster stop" -- did NOT happen in rotation_refinement_study.py's
+baseline sim. Both positions had already been closed out (TATAMOTORS 17 months earlier, ITC 19
+months earlier) by the time their respective demergers hit, and neither was ever re-entered. The
+surgical correction is therefore exactly zero: full-period CAGR stays at -14.560%, Era-3 CAGR stays
+at -29.588%, unchanged to three decimal places.
+
+This means the confirmed Pipeline-N data defects (TATAMOTORS and ITC demergers missing from
+build_corp_actions.py's scope -- both still real, still confirmed by the raw-OHLC evidence in Part 2)
+contributed ZERO to rotation_refinement_study.py's baseline CAGR through this specific mechanism.
+They remain real bugs in Pipeline N worth fixing (they WOULD matter to any other backtest, or any
+future run of this same strategy, that happens to hold either name across its demerger date -- and
+Era 3 in particular is where a live-forward-looking version of this strategy risks hitting exactly
+that), but they are NOT part of the explanation for why THIS baseline run is negative. The MAGNITUDE
+CHECK and VERDICT sections in Part 2 above should be read with this correction in mind: cross out any
+reading of "(a) the confirmed demerger-handling gap in N, concentrated in Era 3" as a driver of the
+ACTUAL baseline numbers -- it demonstrably is not, for these two events. The unexplained residual
+between honest_lab.py's +3.5-5.0%/yr and rotation_refinement_study.py's -14.56%/yr baseline is
+LARGER than Part 2 implied, not smaller, and remains almost entirely undiagnosed: not sizing
+convention (ruled out by the study's own compounding diagnostic), not the disaster-stop rule (X0
+barely differs from baseline), and now not these two headline demerger events either. What's left is
+either (a) the accumulated effect of many SMALLER price disagreements across the other ~46 symbols
+and the ~9.5% of months where the two pipelines' top-3 picks differ by one name -- diffuse rather
+than concentrated, and not further decomposed by this follow-up -- or (b) cost/timing-convention
+differences between the two study scripts (J4 in rotation_refinement_study.py) that have nothing to
+do with price data at all. Distinguishing between these two remaining candidates is exactly what
+primary-source lookup #5 in Part 2 (a full 48-symbol corporate-action re-audit) and a controlled
+Z-price-substituted rerun of rotation_refinement_study.py (not performed here) would settle.
+
