@@ -1,0 +1,21 @@
+[Unit]
+Description=Kite trading -- NIFTY closing-auction-session (CAS) daily triple logger: records traded_1529 / auction_close / auction_ts to data/cas_log.db and backfills the previous trading day's open_next, per docs/superpowers/specs/2026-08-04-entries-exits-research-shortlist.md candidate C (oneshot, triggered by kite-cas-logger.timer)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/projects/kite-monitor
+# cas_logger.py reads WorkingDirectory/enctoken.txt (the file monitor.py
+# persists at its 09:10 login) or ZERODHA_ENCTOKEN env -- no EnvironmentFile
+# needed here. Never performs a login of its own; a dead token is a hard
+# failure (CRITICAL log, exit 1) per the same tripwire discipline as
+# options_collector.py -- nothing here needs to duplicate that.
+ExecStart=/home/ubuntu/projects/kite-monitor/venv/bin/python cas_logger.py
+StandardOutput=append:/home/ubuntu/projects/kite-monitor/data/cas_logger.log
+StandardError=append:/home/ubuntu/projects/kite-monitor/data/cas_logger.log
+
+# Not enabled directly -- driven by kite-cas-logger.timer. No [Install]
+# section; only the timer unit is WantedBy=timers.target (same pattern as
+# kite-options-collector.service / kite-release-sync.service).

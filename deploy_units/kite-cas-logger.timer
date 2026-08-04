@@ -1,0 +1,15 @@
+[Unit]
+Description=Run kite-cas-logger.service at 15:55 IST Mon-Fri -- 10 minutes after kite-options-collector's 15:45 run, giving SEBI's closing auction session (order collection + random closure after the 15:30 continuous-market close) time to settle and print before the chart API is asked for the day's last bar; still well before the 19:45 kite-release-sync so no two loggers touch a database in the same window
+
+[Timer]
+# Timezone suffix on the calendar spec (supported since systemd 239) makes
+# this correct regardless of whether the VM's system clock is UTC or IST --
+# avoids hardcoding a UTC offset that would silently drift if the box's TZ
+# changes. Equivalent fixed UTC offset, for reference: 10:25:00 UTC
+# (IST = UTC+5:30, no DST). Matches kite-options-collector.timer's convention.
+OnCalendar=Mon..Fri 15:55:00 Asia/Kolkata
+Persistent=true
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target
