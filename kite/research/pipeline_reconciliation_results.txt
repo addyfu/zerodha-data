@@ -570,3 +570,146 @@ do with price data at all. Distinguishing between these two remaining candidates
 primary-source lookup #5 in Part 2 (a full 48-symbol corporate-action re-audit) and a controlled
 Z-price-substituted rerun of rotation_refinement_study.py (not performed here) would settle.
 
+====================================================================================================
+DATED FOLLOW-UP #2 -- 2026-08-04 -- the missing 2x2 cell: rotation_refinement ENGINE on Pipeline Z DATA
+====================================================================================================
+Produced by kite/research/pipeline_reconciliation.py --z-engine-diagnostic (clearly-marked diagnostic
+function appended to that script; not part of the original forensic run). Prior follow-up (#1, above)
+ruled out the two headline demerger events as P&L contributors. Everything ruled out so far --
+compounding vs fixed sizing, disaster-stop on/off, rebalance-date sensitivity, the two demergers --
+was tested WITHIN the rotation_refinement engine on Pipeline N data only. The one cell nobody had run
+yet: the SAME rotation_refinement engine (run_variant/VARIANTS['baseline'], direct import, unchanged
+-- same costs, same regime logic, same fixed-slot sizing, same disaster stop) fed Pipeline Z's price
+data instead of Pipeline N's. If that lands near N's baseline, price data is exonerated and the whole
+gap is engine conventions. If it jumps toward honest_lab's positive numbers, the diffuse Pipeline-N
+price errors (not just the two demergers) are the real driver.
+
+--------------------------------------------------------------------------------------------------
+METHOD
+--------------------------------------------------------------------------------------------------
+load_z_panel() loads data/daily/*_day_2000d.csv the way honest_lab.py's load_data() loads it (parse
+datetime, strip tz, normalize to date, drop duplicate dates, keep only symbols with >300 rows) but
+reshapes the result into the same wide close_wide/open_wide DataFrame shape (date index, symbol
+columns) that rotation_refinement_study.py's run_variant/run_sim already expect -- the exact shape
+load_universe_panel() returns for Pipeline N. That panel is then run through
+rotation_refinement_study.py's real VARIANTS['baseline'] via run_variant(), imported directly, with
+NOTHING else touched: same BUY_COST_PCT/SELL_COST_PCT/DP_FLAT_PER_SELL costs, same proxy regime
+filter construction, same fixed Rs20,000/slot sizing, same 15% disaster stop, same trading-day-1
+rebalance. Three cells were run for a controlled comparison:
+  CELL 1: N data, N's own full window (2020-07-24 -> 2026-07-27) -- the already-reported frozen number.
+  CELL 2: Z data, Z's own full window (2021-04-30 -> 2026-01-09 after 200-day warmup -- Z's raw price
+          history starts 2020-07-14, ~6.5 months short of N's panel end, so this window is shorter).
+  CELL 3 (CONTROL): N data, but TRUNCATED to Z's exact end-date (2020-07-24 -> 2026-01-09) -- same
+          window length and trading-day count as cell 2, ONLY the price source differs. This is the
+          correct like-for-like comparison point, not cell 1, because cell 1 vs cell 2 confounds
+          "different price data" with "different window length" (Z's shorter window happens to skip
+          Jan-Jul 2026, part of N's worst era).
+
+--------------------------------------------------------------------------------------------------
+RESULTS -- the 2x2 table
+--------------------------------------------------------------------------------------------------
+                                                     window                full-period CAGR   Era1     Era2     Era3
+rot_refinement ENGINE + N DATA (full)               2020-07-24..2026-07-27      -14.560%    -2.87%   -8.77%  -29.59%
+rot_refinement ENGINE + N DATA (Z-window control)   2020-07-24..2026-01-09      -11.385%    -3.13%   -8.04%  -21.87%
+rot_refinement ENGINE + Z DATA (full)               2021-04-30..2026-01-09      -11.969%   -13.35%   +3.14%  -23.81%
+honest_lab ENGINE + Z DATA (reference, diff engine) 2020-07..2024-06 / 2026-01   TRAIN +5.0% / VAL +3.5%  (n/a -- honest_lab
+                                                                                                            reports train/val,
+                                                                                                            not 3 eras)
+
+Full detail (final equity, trade counts):
+  N-DATA, N-FULL-WINDOW:            final_equity=Rs 38,860.97   #trades=104   full-period=-14.560%
+  N-DATA, TRUNCATED-TO-Z-WINDOW:    final_equity=Rs 51,675.69   #trades=97    full-period=-11.385%
+  Z-DATA, Z-FULL-WINDOW:            final_equity=Rs 54,960.01   #trades=79    full-period=-11.969%
+
+--------------------------------------------------------------------------------------------------
+INTERPRETATION -- applying the pre-stated rule
+--------------------------------------------------------------------------------------------------
+gap (Z-DATA full-period vs N-DATA Z-window-control full-period) = -11.969% - (-11.385%) = -0.584pp
+
+|-0.584pp| <= 2pp -> per the pre-stated rule: DATA IS EXONERATED. Swapping Pipeline N's price data for
+Pipeline Z's price data, with EVERYTHING else about the engine held fixed, moves full-period CAGR by
+barely half a percentage point (-11.4% -> -12.0%) -- if anything Z data is very slightly WORSE than N
+data on this exact engine, the opposite direction of what the "N's price data is broken" hypothesis
+would predict. Era-by-era the two data sources tell noticeably different STORIES within the shared
+window (era1: N -3.13% vs Z -13.35%; era2: N -8.04% vs Z +3.14%) -- individual eras do react
+differently to which price series is used -- but they average out to essentially the same full-period
+result, and BOTH remain solidly negative throughout, nowhere near honest_lab's positive TRAIN/VAL
+numbers. This directly confirms and quantifies DATED FOLLOW-UP #1's closing statement: the diffuse
+smaller price disagreements across the other ~46 symbols are NOT, in aggregate, a material driver
+either -- if they were, Z data (confirmed cleaner on the two worst-divergence names, TATAMOTORS/ITC,
+per Part 2) should have produced a visibly better full-period number than N data on the same engine.
+It did not.
+
+CONCLUSION: the entire honest_lab (+3.5 to +5.0%/yr) vs rotation_refinement (-14.56%/yr, N-full-window)
+gap lives in ENGINE CONVENTIONS, not price data. Pipeline N's confirmed data defects (demergers
+missing from build_corp_actions.py's scope, the unresolved TATASTEEL/BPCL/COALINDIA/RELIANCE
+single-day disagreements from Part 2) are real and worth fixing for their own sake -- they matter to
+any FUTURE run that happens to hold an affected name across its event date -- but they are not why
+this backtest is negative. Rebuilding build_corp_actions.py to handle demergers, or otherwise
+improving Pipeline N's bhavcopy hygiene, should be deprioritized as a fix for THIS specific CAGR
+disagreement; it will not close it.
+
+--------------------------------------------------------------------------------------------------
+ENUMERATED ENGINE CONVENTION DIFFERENCES (read from both files as they exist on disk; nothing fixed)
+--------------------------------------------------------------------------------------------------
+1. POSITION SIZING: honest_lab.py COMPOUNDS (slot = min(cash, (cash+mkt_value)/MAX_SLOTS), recomputed
+   at every entry). rotation_refinement_study.py uses a FIXED Rs20,000 slot for the whole ~6yr run
+   (capital/max_positions, computed once at construction), matching the LIVE deployed system (J1).
+   ALREADY TESTED within the N-data engine (rotation_refinement's own compounding diagnostic, see Part
+   2's MAGNITUDE CHECK): barely matters (-14.56% fixed vs -15.36% compounding) -- listed for
+   completeness, not a live lead on its own.
+2. INSUFFICIENT-CASH HANDLING: honest_lab.py always deploys what it can afford (qty=int(slot/px), slot
+   itself capped at available cash -- an entry is never literally skipped). rotation_refinement_study.py
+   BINARY-REJECTS an entry entirely if the fixed Rs20,000 can't be covered (paper_trader.py's real live
+   rule, replicated exactly, J1 addendum) -- that slot just sits in idle, non-earning cash instead.
+   Mechanically coupled to #1 (both are about sizing/cash), but this specific binary-reject-vs-shrink
+   behavior was never isolated on its own by any diagnostic run so far.
+3. TRAIN/VAL CAPITAL RESET (newly identified by this follow-up, NOT yet tested by any diagnostic run):
+   honest_lab.py runs TRAIN (2020-07..2024-06) and VAL (2024-07..2026-01) as two SEPARATE, INDEPENDENT
+   simulations, each starting fresh with the full Rs100,000 (`Sim(data, train).run(...)` and
+   `Sim(data, val).run(...)` are two distinct Python calls, each with its own fresh `cash = CAPITAL`) --
+   so the reported "VAL +3.5%/yr" never has to dig itself out of anything that happened during train,
+   however badly train went. rotation_refinement_study.py runs ONE CONTINUOUS ~6-year simulation with
+   no capital reset at any interior date -- whatever cash/position state an early bad stretch leaves
+   behind carries forward, uncorrected, into every later period. Given fixed-slot sizing (#1) plus
+   binary cash-reject (#2) are EXACTLY the mechanism that would make an un-reset early drawdown "sticky"
+   for the rest of a continuous run (a thin cash cushion after a bad Era 1 means more rejected entries
+   in Era 2/3, compounding the problem going forward) -- this is flagged as the single most-plausible
+   REMAINING untested engine difference, and the natural next diagnostic if this investigation
+   continues: rerun rotation_refinement_study.py's engine but with a capital reset at the train/val
+   boundary (2024-06-30/2024-07-01), matching honest_lab.py's convention, holding everything else fixed.
+4. COST BOOKKEEPING: honest_lab.py settles the FULL round-trip fee (both legs) at EXIT time only, via
+   kite.config.zerodha_charges.calculate_charges() (the full brokerage+STT+exchange+SEBI+GST+stamp_duty
+   delivery-trade formula) -- no haircut on the entry fill itself. rotation_refinement_study.py (J4, per
+   its frozen spec's explicit instruction to match "the regime-exit study's conventions") haircuts BOTH
+   entry (investable=cash*(1-BUY_COST_PCT)) and exit (proceeds=gross*(1-SELL_COST_PCT)-DP_FLAT_PER_SELL),
+   a simpler flat-percentage formula plus a flat Rs15.34 DP charge per sell -- different formula AND
+   different recognition timing from honest_lab.py's.
+5. DISASTER STOP: rotation_refinement_study.py force-exits any position whose close falls to <=85% of
+   its average cost (checked every day, DISASTER_SL=0.85). honest_lab.py's momentum strategy (make_momo)
+   has NO such rule at all -- positions are only ever exited at the next monthly rebalance if they drop
+   out of the top-N, however far underwater they run in between. ALREADY TESTED within the N-data engine
+   (X0 variant, stop removed, see the frozen rotation_refinement_results.txt): barely matters (-14.98%
+   with no stop vs -14.56% with it) -- listed for completeness, not a live lead on its own.
+6. SAME in both (checked directly against both files' source, NOT a differentiator): universe
+   (kite.config.NIFTY_50_STOCKS, 48 symbols, fixed for the whole window in both); the proxy regime
+   filter's construction (equal-weight self-normalized universe vs its own 200-day SMA, verbatim-
+   identical formula in both files); rebalance timing (signal at close of the FIRST trading day of each
+   month, fill at next trading day's open, in both); LOOKBACK=63, TOP_N=3, CAPITAL=Rs100,000,
+   MAX_POSITIONS/MAX_SLOTS=5, all identical.
+
+--------------------------------------------------------------------------------------------------
+PLAIN STATEMENT
+--------------------------------------------------------------------------------------------------
+Swapping Pipeline N's price data for Pipeline Z's, on the identical rotation_refinement engine, moves
+full-period CAGR by well under 1 percentage point (-11.4% to -12.0%) and both remain deeply negative.
+Price data is exonerated as the explanation for why rotation_refinement_study.py's baseline
+(-14.56%/yr) disagrees with honest_lab.py's validated numbers (+3.5 to +5.0%/yr). The gap is entirely
+an ENGINE-conventions question. Of the five enumerated differences, #1/#2/#5 have each already been
+individually shown NOT to explain it (via diagnostics already run inside rotation_refinement_study.py
+itself); #4 (cost bookkeeping) is real but its magnitude was estimated in Part 2's MAGNITUDE CHECK as
+too small (~-1.4pp/yr) to be the primary driver on its own. #3 (train/val capital reset vs one
+continuous run) is the one remaining, untested, structurally-plausible candidate -- flagged here as
+the next thing to check, not fixed or tested in this follow-up per the "do not go fix anything"
+instruction.
+

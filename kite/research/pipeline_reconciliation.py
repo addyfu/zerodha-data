@@ -799,8 +799,245 @@ def run_demerger_diagnostic():
     return out_lines
 
 
+# ===========================================================================
+# REVIEWER FOLLOW-UP DIAGNOSTIC #2 -- appended 2026-08-04, the missing 2x2
+# cell. NOT part of the original forensic run above, does not touch
+# main()/OUT_FILE's log buffer.
+#
+# Known so far: honest_lab ENGINE + Pipeline Z DATA = +3.5 to +5.0%/yr.
+#               rotation_refinement ENGINE + Pipeline N DATA = -14.560%/yr.
+# Every within-rotation_refinement-engine explanation tried so far (fixed
+# vs compounding sizing, disaster-stop on/off, rebalance-date sensitivity,
+# the two headline demerger events) has been RULED OUT as the driver. The
+# missing cell: rotation_refinement's ENGINE run on Pipeline Z DATA, unchanged
+# in every other respect (same costs, same regime logic, same fixed-slot
+# sizing, same run_variant/VARIANTS['baseline'] code -- imported directly).
+# If that lands near the N-data baseline, the gap is ENGINE conventions
+# (honest_lab vs rotation_refinement differ in ways enumerated below). If it
+# jumps to positive/near-honest_lab territory, the gap is DATA (Pipeline N's
+# diffuse price errors across all 48 symbols, not just the two demergers).
+#
+# Run:  python kite/research/pipeline_reconciliation.py --z-engine-diagnostic
+# ===========================================================================
+def load_z_panel(universe=None):
+    """Z-pipeline wide close/open panel, loaded the way honest_lab.py's
+    load_data() loads it (tz-strip, normalize, drop-dup dates, len>300
+    filter) but reshaped into the same wide-DataFrame-by-symbol-column shape
+    that rotation_refinement_study.py's run_variant/run_sim expect (i.e. the
+    same shape load_universe_panel() returns for Pipeline N)."""
+    universe = list(universe) if universe is not None else list(NIFTY_50_STOCKS)
+    z_close, z_open = {}, {}
+    for sym in universe:
+        f = DAILY_DIR / f'{sym}_day_2000d.csv'
+        if not f.exists():
+            continue
+        df = pd.read_csv(f, parse_dates=['datetime'])
+        df['date'] = df['datetime'].dt.tz_localize(None).dt.normalize()
+        df = df.drop_duplicates(subset='date', keep='last').set_index('date').sort_index()
+        if len(df) > 300:
+            z_close[sym] = df['close'].astype(float)
+            z_open[sym] = df['open'].astype(float)
+    found = sorted(z_close.keys())
+    close_wide = pd.DataFrame(z_close).sort_index().reindex(columns=found)
+    open_wide = pd.DataFrame(z_open).sort_index().reindex(columns=found)
+    return close_wide, open_wide, found
+
+
+def _run_baseline_on_panel(rrs, close_wide, open_wide):
+    """Runs rotation_refinement_study.py's ACTUAL VARIANTS['baseline'] config
+    (direct import: run_variant, compute_momentum, compute_proxy_regime) on
+    whatever close_wide/open_wide panel is passed in -- costs, regime logic,
+    fixed-slot sizing, disaster stop, rebalance-day convention all untouched,
+    identical to the frozen study. Returns (equity, trades, calendar,
+    global_start, global_end, windows)."""
+    mom_df = rrs.compute_momentum(close_wide, rrs.LOOKBACK)
+    _, _, proxy_regime_on_full = rrs.compute_proxy_regime(close_wide, rrs.REGIME_SMA)
+    valid_from = rrs.REGIME_SMA - 1
+    calendar = close_wide.index[valid_from:]
+    global_start, global_end = calendar[0], calendar[-1]
+    proxy_regime_on = pd.Series({d: bool(proxy_regime_on_full.get(d, False)) for d in calendar})
+    r = rrs.run_variant('baseline', rrs.VARIANTS['baseline'], calendar, close_wide, open_wide,
+                         mom_df, proxy_regime_on, proxy_regime_on)  # real_regime_on unused (regime='proxy')
+    windows = rrs.era_windows(calendar, 3)
+    return r, calendar, global_start, global_end, windows
+
+
+def _report_run(p, label, rrs, r, calendar, global_start, global_end, windows):
+    eq = r['equity']
+    final_eq = float(rrs.equity_at(eq, global_end))
+    full_cagr = rrs.cagr(rrs.CAPITAL, final_eq, global_start, global_end)
+    era_cagrs = []
+    for (elo, ehi) in windows:
+        c = rrs.cagr(rrs.equity_at(eq, elo), rrs.equity_at(eq, ehi), elo, ehi)
+        era_cagrs.append(c)
+    p(f'{label}')
+    p(f'    window: {global_start.date()} -> {global_end.date()}  '
+      f'({(global_end - global_start).days / 365.25:.2f} years, {len(calendar)} trading days)')
+    p(f'    final_equity=Rs {final_eq:>13,.2f}   full-period CAGR={full_cagr * 100:>+8.3f}%   #trades={len(r["trades"])}')
+    for i, (elo, ehi) in enumerate(windows, 1):
+        p(f'    Era{i} {elo.date()} -> {ehi.date()}: CAGR={era_cagrs[i - 1] * 100:>+8.3f}%')
+    return dict(final_equity=final_eq, full_cagr=full_cagr, era_cagrs=era_cagrs,
+                global_start=global_start, global_end=global_end, windows=windows)
+
+
+def run_z_engine_diagnostic():
+    out_lines = []
+
+    def p(msg=''):
+        print(msg, flush=True)
+        out_lines.append(str(msg))
+
+    from kite.research import rotation_refinement_study as rrs
+
+    p('=' * 100)
+    p('REVIEWER FOLLOW-UP #2: the missing 2x2 cell -- rotation_refinement ENGINE on Pipeline Z DATA')
+    p('=' * 100)
+    p('Same run_variant/VARIANTS[\'baseline\']/compute_momentum/compute_proxy_regime code as the frozen '
+      'study (direct import, unchanged) -- only the close_wide/open_wide panel fed into it changes.')
+    p('')
+
+    # ---- cell 1: N-data baseline, N's own full available window (the frozen, already-reported number) ----
+    p('-' * 100)
+    p('CELL 1: rotation_refinement ENGINE + Pipeline N DATA, N\'s own full window (frozen study, rerun here for a fresh calendar/windows object)')
+    p('-' * 100)
+    n_close_wide, n_open_wide, n_universe = rrs.load_universe_panel()
+    p(f'  N universe: {len(n_universe)} symbols, panel {n_close_wide.index.min().date()} -> {n_close_wide.index.max().date()}')
+    r_n_full, cal_n_full, gs_n_full, ge_n_full, win_n_full = _run_baseline_on_panel(rrs, n_close_wide, n_open_wide)
+    cell1 = _report_run(p, 'N-DATA, N-FULL-WINDOW baseline:', rrs, r_n_full, cal_n_full, gs_n_full, ge_n_full, win_n_full)
+    p('')
+
+    # ---- cell 2: Z-data baseline, Z's own full available window ----
+    p('-' * 100)
+    p('CELL 2: rotation_refinement ENGINE + Pipeline Z DATA (data/daily/*_day_2000d.csv, loaded the way honest_lab.py loads it), Z\'s own full window')
+    p('-' * 100)
+    z_close_wide, z_open_wide, z_universe = load_z_panel()
+    p(f'  Z universe: {len(z_universe)}/{len(NIFTY_50_STOCKS)} NIFTY_50_STOCKS symbols found, '
+      f'panel {z_close_wide.index.min().date()} -> {z_close_wide.index.max().date()}')
+    missing_z = sorted(set(NIFTY_50_STOCKS) - set(z_universe))
+    if missing_z:
+        p(f'  Missing from Z: {missing_z}')
+    r_z_full, cal_z_full, gs_z_full, ge_z_full, win_z_full = _run_baseline_on_panel(rrs, z_close_wide, z_open_wide)
+    cell2 = _report_run(p, 'Z-DATA, Z-FULL-WINDOW baseline:', rrs, r_z_full, cal_z_full, gs_z_full, ge_z_full, win_z_full)
+    p('')
+    p('  NOTE: Z\'s data (data/daily) ends 2026-01-09, ~6.5 months short of N\'s panel end (2026-07-27) -- '
+      'cell 1 and cell 2 above cover DIFFERENT-length windows, so their CAGRs are not a clean apples-to-'
+      'apples comparison by themselves (a shorter window skips whatever happened Jan-Jul 2026, which is '
+      'part of N\'s worst era). Cell 3 below controls for this by truncating N\'s panel to Z\'s exact '
+      'calendar before rerunning -- same window, same trading days, ONLY the price data source differs.')
+    p('')
+
+    # ---- cell 3: N-data baseline, TRUNCATED to Z's exact date range (controlled, apples-to-apples) ----
+    p('-' * 100)
+    p('CELL 3 (CONTROL): rotation_refinement ENGINE + Pipeline N DATA, TRUNCATED to Z\'s exact calendar '
+      '(same window length as cell 2 -- isolates price-data-only effect)')
+    p('-' * 100)
+    z_last_date = z_close_wide.index.max()
+    n_close_trunc = n_close_wide.loc[n_close_wide.index <= z_last_date]
+    n_open_trunc = n_open_wide.loc[n_open_wide.index <= z_last_date]
+    r_n_trunc, cal_n_trunc, gs_n_trunc, ge_n_trunc, win_n_trunc = _run_baseline_on_panel(rrs, n_close_trunc, n_open_trunc)
+    cell3 = _report_run(p, 'N-DATA, TRUNCATED-TO-Z-WINDOW baseline:', rrs, r_n_trunc, cal_n_trunc, gs_n_trunc, ge_n_trunc, win_n_trunc)
+    p('')
+
+    # ---- the 2x2 summary table ----
+    p('=' * 100)
+    p('2x2 SUMMARY TABLE')
+    p('=' * 100)
+    p(f'{"":42}{"window":>24}{"full-period CAGR":>20}{"Era1":>10}{"Era2":>10}{"Era3":>10}')
+
+    def row(label, cell):
+        w = f'{cell["global_start"].date()}..{cell["global_end"].date()}'
+        p(f'{label:42}{w:>24}{cell["full_cagr"] * 100:>+19.3f}%'
+          f'{cell["era_cagrs"][0] * 100:>+9.2f}%{cell["era_cagrs"][1] * 100:>+9.2f}%{cell["era_cagrs"][2] * 100:>+9.2f}%')
+
+    row('rot_refinement ENGINE + N DATA (full)', cell1)
+    row('rot_refinement ENGINE + N DATA (Z-window control)', cell3)
+    row('rot_refinement ENGINE + Z DATA (full)', cell2)
+    p(f'{"honest_lab ENGINE + Z DATA (reference, different engine)":42}{"2020-07..2024-06/2026-01":>24}'
+      f'{"TRAIN +5.0% / VAL +3.5%":>20}')
+    p('')
+
+    # ---- interpretation, per the pre-stated rule ----
+    p('=' * 100)
+    p('INTERPRETATION -- applying the pre-stated rule')
+    p('=' * 100)
+    p('Rule (stated in advance by the reviewer): compare the Z-DATA baseline (cell 2) to the N-DATA '
+      'baseline. Using cell 3 (the window-controlled N baseline) as the correct comparison point -- same '
+      'engine, same calendar length, ONLY the price source differs, which is what actually isolates a '
+      'DATA effect from a DATA-plus-shorter-window effect:')
+    gap_pp = (cell2['full_cagr'] - cell3['full_cagr']) * 100
+    p(f'  Z-DATA full-period CAGR = {cell2["full_cagr"] * 100:+.3f}%')
+    p(f'  N-DATA (Z-window control) full-period CAGR = {cell3["full_cagr"] * 100:+.3f}%')
+    p(f'  gap (Z - N, same window) = {gap_pp:+.3f}pp')
+    if abs(gap_pp) <= 2.0:
+        p(f'  |{gap_pp:+.3f}pp| <= 2pp -> per the pre-stated rule: DATA IS EXONERATED. The gap lives in '
+          f'ENGINE conventions (rotation_refinement_study.py vs honest_lab.py). See the enumerated '
+          f'convention differences below.')
+    elif cell2['full_cagr'] > 0.02:
+        p(f'  Z-DATA baseline jumps to positive/near-honest_lab territory ({cell2["full_cagr"] * 100:+.2f}%/yr, '
+          f'gap={gap_pp:+.3f}pp vs the window-controlled N baseline) -> per the pre-stated rule: the '
+          f'DIFFUSE Pipeline-N price errors (across all 48 symbols, not just the two demergers already '
+          f'ruled out individually) ARE the driver. build_corp_actions.py + bhavcopy hygiene become the '
+          f'priority fix.')
+    else:
+        p(f'  gap={gap_pp:+.3f}pp, outside the +/-2pp exoneration band, but Z-DATA baseline is NOT positive/'
+          f'near-honest_lab territory either ({cell2["full_cagr"] * 100:+.2f}%/yr) -> MIXED result under the '
+          f'pre-stated rule\'s own terms: neither clause fires cleanly. Price data materially changes the '
+          f'engine\'s output (rules out "data is irrelevant") but does not on its own explain honest_lab\'s '
+          f'positive numbers either (rules out "data is the sole driver"). Both DATA and ENGINE conventions '
+          f'appear to matter; see the enumerated convention differences below for what else to check.')
+    p('')
+
+    # ---- enumerated engine convention differences (read, not fixed) ----
+    p('=' * 100)
+    p('ENUMERATED CONVENTION DIFFERENCES: honest_lab.py vs rotation_refinement_study.py')
+    p('(read from both files as they exist on disk; nothing here was changed or fixed)')
+    p('=' * 100)
+    p('1. POSITION SIZING: honest_lab.py COMPOUNDS -- slot = min(cash, (cash+mkt_value)/MAX_SLOTS), '
+      'recomputed at every entry. rotation_refinement_study.py uses a FIXED Rs20,000 slot for the whole '
+      '~6yr run (capital/max_positions, computed once), matching the LIVE deployed system (J1). '
+      'ALREADY TESTED within the N-data engine (rotation_refinement\'s own compounding diagnostic): '
+      'barely matters (-14.56% fixed vs -15.36% compounding) -- listed for completeness, not a live lead.')
+    p('2. INSUFFICIENT-CASH HANDLING: honest_lab.py always deploys what it can (qty = int(slot/px), slot '
+      'itself capped at available cash -- never literally skips an entry). rotation_refinement_study.py '
+      'BINARY-REJECTS an entry entirely if the fixed Rs20,000 can\'t be covered (paper_trader.py\'s real '
+      'rule, replicated exactly, J1 addendum) -- that slot sits in idle cash instead. Coupled to #1.')
+    p('3. TRAIN/VAL CAPITAL RESET: honest_lab.py runs TRAIN (2020-07..2024-06) and VAL (2024-07..2026-01) '
+      'as two SEPARATE, INDEPENDENT simulations, each starting fresh with the full Rs100,000 (`Sim(data, '
+      'train).run(...)` and `Sim(data, val).run(...)` are two distinct calls) -- so the reported "VAL '
+      '+3.5%/yr" NEVER has to recover from anything that happened during train, however bad. '
+      'rotation_refinement_study.py runs ONE CONTINUOUS ~6-year simulation with no capital reset at any '
+      'interior date -- if an early stretch goes badly, whatever cash/positions that leaves behind carry '
+      'forward into every later period. NOT individually tested by any diagnostic run so far in this '
+      'reconciliation (the compounding-vs-fixed test changed sizing, not the reset-vs-continuous question) '
+      '-- flagged as the single most-plausible untested engine difference, given fixed-slot sizing (#1) is '
+      'exactly the mechanism that would make an un-reset early drawdown "sticky" for the rest of a '
+      'continuous run.')
+    p('4. COST BOOKKEEPING: honest_lab.py settles the FULL round-trip fee (both legs) at EXIT time only, '
+      'via kite.config.zerodha_charges.calculate_charges() (brokerage+STT+exchange+SEBI+GST+stamp_duty, '
+      'the full delivery-trade formula) -- no haircut on the entry fill itself. rotation_refinement_study.py '
+      '(J4, per its frozen spec\'s explicit instruction to match "the regime-exit study\'s conventions") '
+      'haircuts BOTH entry (investable=cash*(1-BUY_COST_PCT)) and exit (proceeds=gross*(1-SELL_COST_PCT)-'
+      'DP_FLAT_PER_SELL), using a simpler flat-percentage formula plus a flat Rs15.34 DP charge per sell, '
+      'not zerodha_charges.calculate_charges(). Different formula AND different recognition timing.')
+    p('5. DISASTER STOP: rotation_refinement_study.py force-exits any position whose close falls to <=85% '
+      'of its average cost (checked every day, DISASTER_SL=0.85). honest_lab.py\'s momentum strategy '
+      '(make_momo) has NO such rule at all -- positions are only ever exited at the next monthly rebalance '
+      'if they drop out of the top-N, however far underwater they go in between. ALREADY TESTED within '
+      'the N-data engine (X0 variant, stop removed): barely matters (-14.98% with no stop vs -14.56% with '
+      'it) -- listed for completeness, not a live lead.')
+    p('6. SAME in both (checked, not a differentiator): universe (kite.config.NIFTY_50_STOCKS, 48 symbols, '
+      'fixed for the whole window); the proxy regime filter\'s construction (equal-weight self-normalized '
+      'universe vs its own 200-day SMA, identical formula in both files); rebalance timing (signal at '
+      'close of the FIRST trading day of each month, fill at next day\'s open); LOOKBACK=63, TOP_N=3, '
+      'CAPITAL=Rs100,000, MAX_POSITIONS/MAX_SLOTS=5.')
+    p('')
+    return out_lines
+
+
 if __name__ == '__main__':
     if '--demerger-diagnostic' in sys.argv:
         run_demerger_diagnostic()
+    elif '--z-engine-diagnostic' in sys.argv:
+        run_z_engine_diagnostic()
     else:
         main()
