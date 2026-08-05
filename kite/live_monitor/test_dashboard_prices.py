@@ -20,6 +20,8 @@ import tempfile
 from datetime import datetime, timedelta
 from pathlib import Path
 
+import pandas as pd
+
 _CODE_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(_CODE_ROOT))
 
@@ -33,15 +35,23 @@ _ORIG_MAIN_DB = dashboard.MAIN_DB
 _ORIG_INCUBATOR_DB = dashboard.INCUBATOR_DB
 _ORIG_ZERODHA_DB = dashboard.ZERODHA_DB
 _ORIG_BOOKS = dashboard.BOOKS
+_ORIG_RESOLVE_ENCTOKEN = dashboard._resolve_enctoken
 
 
 def _use_dbs(main_db, incubator_db, zerodha_db):
     """Point dashboard.py's module-level DB paths (and the derived BOOKS
-    list _tier1_prices()/read_book() actually iterate) at test fixtures."""
+    list _tier1_prices()/read_book() actually iterate) at test fixtures.
+    Also stubs _resolve_enctoken to None so the tier-3 live chart-API rung
+    (added 2026-08-05) can never make a real network call from a test that
+    merely wants tiers 1/2 behavior -- on the Oracle deploy target a REAL
+    token file exists and the legacy stale-scenario tests started fetching
+    live data (4/8 failures) the moment tier 3 shipped. Tests exercising
+    tier 3 explicitly override _resolve_enctoken themselves."""
     dashboard.MAIN_DB = Path(main_db)
     dashboard.INCUBATOR_DB = Path(incubator_db)
     dashboard.ZERODHA_DB = Path(zerodha_db)
     dashboard.BOOKS = [("main", dashboard.MAIN_DB), ("incubator", dashboard.INCUBATOR_DB)]
+    dashboard._resolve_enctoken = lambda: None
 
 
 def _restore_dbs():
@@ -49,6 +59,7 @@ def _restore_dbs():
     dashboard.INCUBATOR_DB = _ORIG_INCUBATOR_DB
     dashboard.ZERODHA_DB = _ORIG_ZERODHA_DB
     dashboard.BOOKS = _ORIG_BOOKS
+    dashboard._resolve_enctoken = _ORIG_RESOLVE_ENCTOKEN
 
 
 # ---------------------------------------------------------------------------
@@ -340,6 +351,39 @@ def test_newest_wins_fossil_tier1_loses_to_newer_tier2(tmp):
     return f"fossil tier1 lost to newer tier2 ({p['price']}); fresh tier1 still wins ({p2['price']})"
 
 
+def test_tier3_chart_rescues_still_stale_symbol(tmp):
+    """Reviewer addition (2026-08-05): a symbol stale in tiers 1+2 (e.g. a
+    wide-universe swing name the monitor never saves) gets a live chart-API
+    last-minute close via the cached /chart machinery; a dead token leaves
+    the stale tag standing."""
+    now = datetime(2026, 8, 5, 11, 50, 0)
+    m, i, z = Path(tmp) / 'm.db', Path(tmp) / 'i.db', Path(tmp) / 'z.db'
+    _make_book_db(m)
+    _make_book_db(i)
+    _make_zerodha_db(z, [('AVALON', '2026-08-04 12:23:00+05:30', 1790.0)])
+    _use_dbs(m, i, z)
+
+    fresh_idx = pd.date_range('2026-08-05 11:49', periods=1, freq='1min')
+    fresh_df = pd.DataFrame({'close': [1806.5]}, index=fresh_idx)
+    orig_tok, orig_bars = dashboard._resolve_enctoken, dashboard.get_today_minute_bars
+    dashboard._resolve_enctoken = lambda: 'FAKE_TOKEN'
+    dashboard.get_today_minute_bars = lambda sym, tok: fresh_df
+    try:
+        out = dashboard.latest_prices(['AVALON'], now=now)
+        p = out['AVALON']
+        assert p['source'] == 'chart' and p['price'] == 1806.5 and p['stale'] is False, p
+
+        # dead token: tier-2 stale row stands, honestly tagged
+        dashboard._resolve_enctoken = lambda: None
+        out2 = dashboard.latest_prices(['AVALON'], now=now)
+        p2 = out2['AVALON']
+        assert p2['source'] == 'tier2' and p2['stale'] is True, p2
+    finally:
+        dashboard._resolve_enctoken, dashboard.get_today_minute_bars = orig_tok, orig_bars
+        _restore_dbs()
+    return f"chart rung rescued AVALON at {p['price']} (fresh); dead token -> honest stale ({p2['price']})"
+
+
 def main():
     tests = [
         test_tier1_wins_when_fresh,
@@ -349,6 +393,7 @@ def main():
         test_staleness_boundary_at_exactly_10_minutes,
         test_render_page_offline_shows_ladder_and_header_stamps,
         test_newest_wins_fossil_tier1_loses_to_newer_tier2,
+        test_tier3_chart_rescues_still_stale_symbol,
     ]
     passed = failed = 0
     print('=' * 78)

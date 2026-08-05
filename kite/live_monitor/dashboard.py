@@ -304,6 +304,38 @@ def latest_prices(symbols, now=None):
                     conn.close()
                 except Exception:
                     pass
+
+    # Tier 3 -- LIVE chart-API rung (added 2026-08-05): symbols still stale
+    # after tiers 1+2 get a direct last-minute-close fetch through the same
+    # cached, read-only, never-logs-in machinery the /chart endpoint uses
+    # (get_today_minute_bars, 60s TTL). Exists because the monitor's
+    # latest_prices save never covers wide-universe swing names (AVALON,
+    # DEEPAKFERT, ... -- outside its NIFTY-47 scan), which otherwise wear a
+    # stale-DB tag all day. Newest-wins rule still applies; a dead token
+    # just leaves the stale tag standing.
+    still_stale = [s for s in symbols if s not in out or out[s]["stale"]]
+    if still_stale:
+        token = _resolve_enctoken()
+        if token:
+            for sym in still_stale:
+                try:
+                    df = get_today_minute_bars(sym, token)
+                    if df is None or len(df) == 0:
+                        continue
+                    ts_dt = df.index[-1].to_pydatetime()
+                    cur = out.get(sym)
+                    if cur is not None:
+                        cur_dt = _parse_ts(cur["ts"])
+                        if cur_dt is not None and ts_dt <= cur_dt:
+                            continue
+                    out[sym] = {
+                        "price": float(df["close"].iloc[-1]),
+                        "ts": ts_dt.strftime("%Y-%m-%dT%H:%M:%S"),
+                        "source": "chart",
+                        "stale": not _is_fresh(ts_dt, now),
+                    }
+                except Exception:
+                    continue
     return out
 
 
