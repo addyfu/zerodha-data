@@ -38,6 +38,12 @@ permissions:
   contents: write
 
 env:
+  # The entire codebase assumes the system clock is IST (naive datetime.now()).
+  # GitHub runners are UTC: without this, cloud_collector.py asks Zerodha for
+  # bars only up to the UTC wall-clock time and silently discards the whole
+  # afternoon -- every release 2026-08-03/04 was truncated at exactly the
+  # run's UTC start minute. Fixed 2026-08-05.
+  TZ: Asia/Kolkata
   ZERODHA_USER_ID: ${{ secrets.ZERODHA_USER_ID }}
   ZERODHA_PASSWORD: ${{ secrets.ZERODHA_PASSWORD }}
   ZERODHA_TOTP_SECRET: ${{ secrets.ZERODHA_TOTP_SECRET }}
