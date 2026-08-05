@@ -306,6 +306,40 @@ def test_render_page_offline_shows_ladder_and_header_stamps(tmp):
     return 'render_page(): fresh price bare, stale price tagged, both header stamps present'
 
 
+def test_newest_wins_fossil_tier1_loses_to_newer_tier2(tmp):
+    """Reviewer regression (2026-08-05, HINDALCO incident): a tier-1 row not
+    refreshed for days (symbol untracked between positions) must LOSE to a
+    newer tier-2 close. And a fresh tier-1 row must still beat tier 2."""
+    now = datetime(2026, 8, 5, 10, 53, 0)
+    # fossil tier-1: six days old; tier-2: one day old -- newer than the fossil
+    m1, i1, z1 = Path(tmp) / 'm1.db', Path(tmp) / 'i1.db', Path(tmp) / 'z1.db'
+    _make_book_db(m1, latest_prices=[('HINDALCO', 962.8, '2026-07-30T10:13:45')])
+    _make_book_db(i1)
+    _make_zerodha_db(z1, [('HINDALCO', '2026-08-04 12:23:00+05:30', 1003.0)])
+    _use_dbs(m1, i1, z1)
+    try:
+        out = dashboard.latest_prices(['HINDALCO'], now=now)
+    finally:
+        _restore_dbs()
+    p = out['HINDALCO']
+    assert p['source'] == 'tier2', f"newer tier-2 must win over fossil tier-1, got {p}"
+    assert p['price'] == 1003.0, p
+    assert p['stale'] is True, "a day-old tier-2 price is still stale -- tag stays"
+
+    # control: fresh tier-1 (2 min old) beats the same tier-2
+    m2, i2 = Path(tmp) / 'm2.db', Path(tmp) / 'i2.db'
+    _make_book_db(m2, latest_prices=[('HINDALCO', 999.5, '2026-08-05T10:51:00')])
+    _make_book_db(i2)
+    _use_dbs(m2, i2, z1)
+    try:
+        out2 = dashboard.latest_prices(['HINDALCO'], now=now)
+    finally:
+        _restore_dbs()
+    p2 = out2['HINDALCO']
+    assert p2['source'] == 'tier1' and p2['price'] == 999.5 and p2['stale'] is False, p2
+    return f"fossil tier1 lost to newer tier2 ({p['price']}); fresh tier1 still wins ({p2['price']})"
+
+
 def main():
     tests = [
         test_tier1_wins_when_fresh,
@@ -314,6 +348,7 @@ def main():
         test_newer_of_both_books_wins,
         test_staleness_boundary_at_exactly_10_minutes,
         test_render_page_offline_shows_ladder_and_header_stamps,
+        test_newest_wins_fossil_tier1_loses_to_newer_tier2,
     ]
     passed = failed = 0
     print('=' * 78)

@@ -262,7 +262,8 @@ def latest_prices(symbols, now=None):
     if now is None:
         now = datetime.now()
 
-    for sym, info in _tier1_prices(symbols).items():
+    tier1 = _tier1_prices(symbols)
+    for sym, info in tier1.items():
         out[sym] = {
             "price": info["price"],
             "ts": info["ts"],
@@ -270,21 +271,33 @@ def latest_prices(symbols, now=None):
             "stale": not _is_fresh(info["ts_dt"], now),
         }
 
-    missing = [s for s in symbols if s not in out]
-    if missing:
+    # NEWEST-WINS FIX (2026-08-05): tier 1 must not beat tier 2 on rank
+    # alone. latest_prices rows are only refreshed while the monitor is
+    # tracking a symbol -- a symbol re-entered after a gap surfaces a FOSSIL
+    # tier-1 row (seen live: HINDALCO tier-1 six days old beat a one-day-old
+    # tier-2 close, fabricating +Rs977 unrealized). So consult tier 2 for
+    # EVERY stale-tier-1 symbol too, and let the newer timestamp win.
+    check_t2 = [s for s in symbols if s not in out or out[s]["stale"]]
+    if check_t2:
         conn = _ro_conn(ZERODHA_DB)
         if conn is not None:
             try:
-                for sym in missing:
+                for sym in check_t2:
                     bar = _latest_close(conn, sym)
                     if bar is None:
                         continue
                     price, ts = bar
+                    ts_dt = _parse_ts(ts)
+                    cur = out.get(sym)
+                    if cur is not None:
+                        cur_dt = tier1[sym]["ts_dt"]
+                        if cur_dt is not None and ts_dt is not None and ts_dt <= cur_dt:
+                            continue  # existing tier-1 row is newer -- keep it
                     out[sym] = {
                         "price": price,
                         "ts": ts,
                         "source": "tier2",
-                        "stale": not _is_fresh(_parse_ts(ts), now),
+                        "stale": not _is_fresh(ts_dt, now),
                     }
             finally:
                 try:
