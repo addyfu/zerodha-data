@@ -684,8 +684,12 @@ class LiveMonitor:
         if not current_prices:
             return
 
-        # Save prices for dashboard
+        # Save prices for dashboard -- BOTH books. The incubator's
+        # latest_prices table existed but was never written (found 2026-08-05
+        # while fixing the dashboard's stale-price ladder), so incubator
+        # positions had no fresh tier-1 price source.
         self.trader.save_latest_prices(current_prices)
+        self.incubator.save_latest_prices(current_prices)
 
         # Incubator exits (own book, log-only alerts)
         for position in self.incubator.check_exits(current_prices):

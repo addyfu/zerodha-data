@@ -12,9 +12,26 @@ Data sources
 ------------
   main book       data/paper_trades.db      (positions / account tables)
   incubator book  data/incubator_trades.db  (same PaperTrader schema)
-  live-ish prices data/zerodha_data.db      (ohlcv, interval='minute' -> last close)
+  live-ish prices two-tier ladder (see latest_prices() below):
+                    tier 1 - the `latest_prices` table the live monitor writes
+                             into BOTH book DBs every scan cycle (~1 min)
+                    tier 2 - data/zerodha_data.db (ohlcv, interval='minute')
+                             fallback for symbols tier 1 doesn't have; on the
+                             Oracle deploy target this DB is a nightly-synced
+                             copy, so it can be up to a day stale during
+                             market hours
   parity strip    kite/live_monitor/parity_history.jsonl  (last line)
   filter strip    data/strategies_paused.json  +  data/monitor.log ('AnnouncementFilter:')
+
+Price staleness
+---------------
+Every price rendered in the "Current" column is tagged with WHERE it came
+from and WHEN it was taken -- this project's house rule (see
+report_positions.py's [LIVE]/[CHART]/[STALE] marking convention) is that
+stale data must be loudly labeled, never silently presented as current.
+A price is "fresh" only if it's a tier-1 (monitor-written) price no older
+than STALE_AFTER (10 minutes) as of render time; anything else -- an old
+tier-1 row or any tier-2 fallback -- renders with a visible staleness tag.
 
 Usage
 -----
@@ -29,7 +46,7 @@ import json
 import os
 import re
 import sqlite3
-from datetime import datetime
+from datetime import datetime, timedelta
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
@@ -66,37 +83,173 @@ def _ro_conn(path):
         return None
 
 
+STALE_AFTER = timedelta(minutes=10)
+
+
+def _parse_ts(ts):
+    """Parse a stored timestamp into a naive datetime comparable to
+    datetime.now(). Two shapes show up in this codebase:
+      tier 1 (latest_prices.updated_at) -- 'YYYY-MM-DDTHH:MM:SS.ffffff',
+        naive, written by datetime.now().isoformat().
+      tier 2 (ohlcv.datetime)           -- 'YYYY-MM-DD HH:MM:SS+05:30',
+        tz-aware (IST offset).
+    Every other script in live_monitor (report_positions.py's today_ist(),
+    monitor.py's is_market_hours()) treats the system clock as already IST
+    and compares naive datetimes directly, so any tz offset here is simply
+    dropped rather than converted -- not normalized to UTC. None on any
+    unparsable/missing value.
+    """
+    if not ts:
+        return None
+    try:
+        dt = datetime.fromisoformat(str(ts))
+        if dt.tzinfo is not None:
+            dt = dt.replace(tzinfo=None)
+        return dt
+    except (ValueError, TypeError):
+        return None
+
+
+def _is_fresh(ts_dt, now):
+    """True if a parsed timestamp is within STALE_AFTER of `now`. A missing/
+    unparsable timestamp is never considered fresh -- an untimed price is
+    exactly the kind of thing that must not silently pass as current."""
+    if ts_dt is None:
+        return False
+    return abs(now - ts_dt) <= STALE_AFTER
+
+
 def _latest_close(conn, symbol):
-    """Latest 'minute' close for a symbol from zerodha ohlcv, or None."""
+    """Latest 'minute' (close, datetime) for a symbol from zerodha ohlcv, or
+    None. This is the tier-2 fallback source -- see latest_prices()."""
     try:
         row = conn.execute(
-            "SELECT close FROM ohlcv WHERE symbol=? AND interval='minute' "
+            "SELECT close, datetime FROM ohlcv WHERE symbol=? AND interval='minute' "
             "ORDER BY datetime DESC LIMIT 1",
             (symbol,),
         ).fetchone()
-        return row[0] if row else None
+        return (row[0], row[1]) if row else None
     except Exception:
         return None
 
 
-def latest_prices(symbols):
-    """Return {symbol: last_close} for the given symbols. Missing -> absent."""
+def _book_latest_prices(db_path, symbols):
+    """{symbol: (price, updated_at)} from one book DB's `latest_prices`
+    table (the table the live monitor writes every scan cycle -- see
+    paper_trader.py's save_latest_prices()). Fails soft to {} for a missing
+    DB, a missing table (older DB snapshots may predate it), or any other
+    read error -- this must never be the reason the dashboard 500s."""
     out = {}
     if not symbols:
         return out
-    conn = _ro_conn(ZERODHA_DB)
+    conn = _ro_conn(db_path)
     if conn is None:
         return out
     try:
-        for sym in symbols:
-            price = _latest_close(conn, sym)
-            if price is not None:
-                out[sym] = price
+        placeholders = ",".join("?" * len(symbols))
+        rows = conn.execute(
+            f"SELECT symbol, price, updated_at FROM latest_prices "
+            f"WHERE symbol IN ({placeholders})",
+            tuple(symbols),
+        ).fetchall()
+        for r in rows:
+            out[r["symbol"]] = (r["price"], r["updated_at"])
+    except Exception:
+        return {}
     finally:
         try:
             conn.close()
         except Exception:
             pass
+    return out
+
+
+def _tier1_prices(symbols):
+    """Freshest monitor-written price per symbol across BOTH book DBs'
+    `latest_prices` tables (main + incubator) -- if a symbol appears in
+    both, the newer timestamp wins. {symbol: {'price', 'ts', 'ts_dt'}}."""
+    best = {}
+    for _name, db_path in BOOKS:
+        for sym, (price, ts) in _book_latest_prices(db_path, symbols).items():
+            ts_dt = _parse_ts(ts)
+            cur = best.get(sym)
+            if cur is None:
+                best[sym] = {"price": price, "ts": ts, "ts_dt": ts_dt}
+            elif ts_dt is not None and (cur["ts_dt"] is None or ts_dt > cur["ts_dt"]):
+                best[sym] = {"price": price, "ts": ts, "ts_dt": ts_dt}
+    return best
+
+
+def _zerodha_newest_ts():
+    """Newest 'minute' bar timestamp anywhere in zerodha_data.db -- used as
+    the book-header fallback stamp when a book has no tier-1 price data at
+    all (pre-market, monitor down). None on any failure/missing table."""
+    conn = _ro_conn(ZERODHA_DB)
+    if conn is None:
+        return None
+    try:
+        row = conn.execute("SELECT MAX(datetime) FROM ohlcv WHERE interval='minute'").fetchone()
+        return row[0] if row else None
+    except Exception:
+        return None
+    finally:
+        try:
+            conn.close()
+        except Exception:
+            pass
+
+
+def latest_prices(symbols, now=None):
+    """Price ladder for the given symbols.
+
+    Tier 1: freshest row per symbol from the `latest_prices` table the live
+            monitor writes into BOTH book DBs every scan cycle (~1 min
+            during market hours).
+    Tier 2: for symbols tier 1 doesn't have, the last 'minute' close in
+            zerodha_data.db -- on the Oracle deploy target that DB is a
+            nightly-synced copy, so this fallback can be up to a day stale
+            during market hours.
+
+    Returns {symbol: {'price': float, 'ts': str|None, 'source': 'tier1'|
+    'tier2', 'stale': bool}}. A symbol with no price anywhere is simply
+    absent (callers use .get()). `now` is injectable for deterministic
+    tests; defaults to datetime.now().
+    """
+    out = {}
+    if not symbols:
+        return out
+    if now is None:
+        now = datetime.now()
+
+    for sym, info in _tier1_prices(symbols).items():
+        out[sym] = {
+            "price": info["price"],
+            "ts": info["ts"],
+            "source": "tier1",
+            "stale": not _is_fresh(info["ts_dt"], now),
+        }
+
+    missing = [s for s in symbols if s not in out]
+    if missing:
+        conn = _ro_conn(ZERODHA_DB)
+        if conn is not None:
+            try:
+                for sym in missing:
+                    bar = _latest_close(conn, sym)
+                    if bar is None:
+                        continue
+                    price, ts = bar
+                    out[sym] = {
+                        "price": price,
+                        "ts": ts,
+                        "source": "tier2",
+                        "stale": not _is_fresh(_parse_ts(ts), now),
+                    }
+            finally:
+                try:
+                    conn.close()
+                except Exception:
+                    pass
     return out
 
 
@@ -112,11 +265,16 @@ def _unrealized(direction, entry, qty, current):
         return None
 
 
-def read_book(db_path, today):
+def read_book(db_path, today, now=None):
     """
     Gather one book's state. Returns a dict; every field degrades to a
     fail-soft default (None / [] / 'n/a') so a missing DB never raises.
+
+    `now` is the render-time reference used for price staleness (injectable
+    for deterministic tests; defaults to datetime.now()).
     """
+    if now is None:
+        now = datetime.now()
     book = {
         "available": False,
         "capital": None,
@@ -127,6 +285,8 @@ def read_book(db_path, today):
         "today_realized": None,
         "all_time_realized": None,
         "unrealized_total": None,
+        "prices_as_of": None,  # newest tier-1 price ts for this book's symbols
+        "prices_stale": True,  # True until proven otherwise (no tier-1 data yet)
     }
     conn = _ro_conn(db_path)
     if conn is None:
@@ -186,14 +346,24 @@ def read_book(db_path, today):
         except Exception:
             pass
 
-    # enrich open positions with live-ish current price + unrealized
+    # enrich open positions with live-ish current price (tier-1/tier-2 ladder,
+    # source + timestamp + staleness carried alongside) + unrealized P&L
     syms = sorted({p.get("symbol") for p in book["open"] if p.get("symbol")})
-    prices = latest_prices(syms)
+    prices = latest_prices(syms, now)
     total_unreal = 0.0
     have_unreal = False
+    newest_tier1_ts = None  # (raw str, parsed dt) -- for the book-header stamp
     for p in book["open"]:
-        cur = prices.get(p.get("symbol"))
+        info = prices.get(p.get("symbol"))
+        cur = info["price"] if info else None
         p["current"] = cur
+        p["current_ts"] = info["ts"] if info else None
+        p["current_source"] = info["source"] if info else None
+        p["current_stale"] = info["stale"] if info else None
+        if info and info["source"] == "tier1":
+            ts_dt = _parse_ts(info["ts"])
+            if ts_dt is not None and (newest_tier1_ts is None or ts_dt > newest_tier1_ts[1]):
+                newest_tier1_ts = (info["ts"], ts_dt)
         u = _unrealized(p.get("direction"), p.get("entry_price"),
                         p.get("quantity"), cur)
         p["unrealized"] = u
@@ -201,6 +371,18 @@ def read_book(db_path, today):
             total_unreal += u
             have_unreal = True
     book["unrealized_total"] = total_unreal if have_unreal else None
+
+    # header "prices as of" stamp -- newest tier-1 (monitor-written) price ts
+    # for THIS book's symbols. If this book has no tier-1 data at all (no
+    # open positions, monitor down, pre-market), fall back honestly to the
+    # zerodha_data.db data date, explicitly labeled stale (never presented
+    # as if it were a live stamp).
+    if newest_tier1_ts is not None:
+        book["prices_as_of"] = newest_tier1_ts[0]
+        book["prices_stale"] = False
+    else:
+        book["prices_as_of"] = _zerodha_newest_ts()
+        book["prices_stale"] = True
     return book
 
 
@@ -322,6 +504,23 @@ def short_time(v):
     return esc(s[:16])
 
 
+def price_cell(p):
+    """Render a position's 'Current' price cell: a plain price when it's a
+    fresh tier-1 (monitor-written) price, otherwise the same price with a
+    loud, visible staleness tag carrying its source + timestamp -- this
+    project's house rule is that stale data must never be silently
+    presented as current (see report_positions.py's [LIVE]/[CHART]/[STALE]
+    marking convention, which this mirrors)."""
+    cur = p.get("current")
+    if cur is None:
+        return NA
+    price_txt = money(cur)
+    if not p.get("current_stale"):
+        return price_txt
+    tag = "stale-DB" if p.get("current_source") == "tier2" else "stale"
+    return f'{price_txt} <span class="stale-tag">({tag} {short_time(p.get("current_ts"))})</span>'
+
+
 PARITY_COLOR = {
     "GREEN": "chip-green",
     "RED": "chip-red",
@@ -374,6 +573,17 @@ def render_book_card(name, book):
     unreal = book["unrealized_total"]
     tr = book["today_realized"]
     at = book["all_time_realized"]
+    # Two honest stamps in place of the old single misleading "updated
+    # <account.last_updated>" (that was the last TRADE time, silently
+    # implying prices were that fresh too). "prices as of" is the newest
+    # tier-1 (monitor-written) price timestamp for this book's symbols; if
+    # this book has none at all, it falls back to the zerodha_data.db data
+    # date, explicitly tagged stale-DB rather than left looking current.
+    prices_ts_txt = short_time(book.get("prices_as_of"))
+    if book.get("prices_stale"):
+        prices_line = f'prices as of <span class="stale-tag">{prices_ts_txt} (stale-DB)</span>'
+    else:
+        prices_line = f'prices as of {prices_ts_txt}'
     return f"""
     <div class="bookcard">
       <div class="bookcard-title">{esc(name).upper()} BOOK</div>
@@ -387,7 +597,7 @@ def render_book_card(name, book):
         <div class="stat"><span class="lbl">Today realized</span><span class="val {pnl_class(tr)}">{signed_money(tr)}</span></div>
         <div class="stat"><span class="lbl">All-time realized</span><span class="val {pnl_class(at)}">{signed_money(at)}</span></div>
       </div>
-      <div class="upd">updated {short_time(book['last_updated'])}</div>
+      <div class="upd">{prices_line} &middot; last trade {short_time(book['last_updated'])}</div>
     </div>"""
 
 
@@ -398,12 +608,13 @@ def render_open_table(name, book):
     rows = ""
     for p in book["open"]:
         u = p.get("unrealized")
-        rows += f"""<tr>
+        row_cls = ' class="stale-row"' if p.get("current_stale") else ''
+        rows += f"""<tr{row_cls}>
           <td class="sym">{esc(p.get('symbol'))}</td>
           <td>{side_span(p.get('direction'))}</td>
           <td class="mono">{num(p.get('quantity'))}</td>
           <td class="mono">{money(p.get('entry_price'))}</td>
-          <td class="mono">{money(p.get('current'))}</td>
+          <td class="mono">{price_cell(p)}</td>
           <td class="mono {pnl_class(u)}">{signed_money(u)}</td>
           <td>{badge(p.get('strategy'))}</td>
           <td>{mode_badge(p.get('trade_mode'))}</td>
@@ -541,6 +752,9 @@ body { background:#0b1220; color:#e2e8f0;
 .stat .val { font-size:1.02rem; font-weight:700; color:#f1f5f9; margin-top:2px; }
 .upd { font-size:.66rem; color:#5b6b88; margin-top:4px; }
 .unavail { color:#f59e0b; font-size:.85rem; }
+.stale-tag { color:#fcd34d; font-size:.72rem; font-weight:600; white-space:nowrap; }
+tr.stale-row td { background:rgba(251,191,36,.05); }
+tr.stale-row:hover td { background:rgba(251,191,36,.12); }
 .section { background:#131c2e; border:1px solid #263149; border-radius:10px;
   padding:14px 16px; margin-bottom:16px; }
 .section h2 { font-size:.98rem; color:#f1f5f9; font-weight:600; margin-bottom:12px;
@@ -576,9 +790,10 @@ td.sym { font-weight:600; color:#f8fafc; }
 
 def render_page():
     today = datetime.now().strftime("%Y-%m-%d")
-    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    now_dt = datetime.now()
+    now = now_dt.strftime("%Y-%m-%d %H:%M:%S")
 
-    books = [(name, read_book(path, today)) for name, path in BOOKS]
+    books = [(name, read_book(path, today, now_dt)) for name, path in BOOKS]
     parity = read_parity()
     paused = read_paused()
     ann_count = read_announcement_flags()
