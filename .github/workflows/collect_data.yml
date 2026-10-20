@@ -65,8 +65,8 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install requests pandas pyotp tqdm python-telegram-bot
-      
+          pip install requests pandas pyotp tqdm python-telegram-bot pyarrow
+
       - name: Download existing database
         continue-on-error: true
         run: |
@@ -140,6 +140,22 @@ jobs:
           print(f'Size: {size:.2f} MB')
           "
       
+      - name: Archive + prune
+        run: |
+          rc=0
+          python archive_minute.py --db data/zerodha_data.db --out data/parquet_out || rc=$?
+          if [ "$rc" = "3" ]; then
+            echo "THIN=1" >> "$GITHUB_ENV"
+          elif [ "$rc" != "0" ]; then
+            exit $rc
+          fi
+
+      - name: Upload daily parquet
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          bash upload_minute_parquet.sh data/parquet_out
+
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
@@ -153,9 +169,23 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
+      - name: Notify thin day
+        if: env.THIN == '1'
+        run: |
+          curl -s -o /dev/null -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=⚠ Data collection: thin day(s) in run ${{ github.run_number }} — check symbol counts"
+
       - name: Upload artifact (backup)
         uses: actions/upload-artifact@v4
         with:
           name: zerodha-data-${{ github.run_number }}
           path: data/zerodha_data.db
           retention-days: 30
+
+      - name: Notify failure
+        if: failure()
+        run: |
+          curl -s -o /dev/null -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=❌ Daily Data Collection failed — run ${{ github.run_number }}: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
