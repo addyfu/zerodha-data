@@ -118,6 +118,9 @@ class LiveMonitor:
     # leak-clean, beat B&H 2022-26 with lower DD, but flat pre-2020 — regime-dependent,
     # hence incubator not main book. Trade like the retest sim: own SL/TP, no trailing.
     SWING_CANDIDATES = ['rsi_trend_confirmation', 'cci_divergence']
+    # Incubator PaperTrader(max_positions=5) is shared with intraday; cap swing
+    # entries so they can't starve intraday of slots (2026-10-20 starvation fix).
+    MAX_SWING_SLOTS = 2
 
     def __init__(self,
                  enctoken: str = None,
@@ -241,6 +244,9 @@ class LiveMonitor:
         self.daily_data_cache: Dict[str, pd.DataFrame] = {}
         self.wide_daily_cache: Dict[str, pd.DataFrame] = {}
         self.swing_scanned_today = False
+        self._no_price_alerted: dict = {}  # (symbol, date) -> True; once-per-day no-price Telegram dedupe
+        self._market_open_date = None      # date market_open_today() last confirmed True
+        self._closed_alert_date = None     # date the "market closed" Telegram was sent
         self.history_loaded = False
         self.db = DBManager()
         self._paused_strategies: set = set()  # refreshed once per scan cycle
@@ -438,6 +444,22 @@ class LiveMonitor:
         except Exception as e:
             logger.error(f"Candle update failed: {e}", exc_info=True)
 
+    def market_open_today(self, now: Optional[datetime] = None) -> bool:
+        """Data-driven holiday check (2026-10-20 fix 4): after 09:20 the market
+        counts as open only if some cached NIFTY 50 bar is dated today. `now` is
+        injectable for tests. Offline mode has no live bars -> always True."""
+        now = now or datetime.now()
+        if self.offline or now.time() < dtime(9, 20):
+            return True
+        today = now.date()
+        if self._market_open_date == today:
+            return True
+        if any(df is not None and len(df) > 0 and df.index[-1].date() == today
+               for df in self.data_cache.values()):
+            self._market_open_date = today
+            return True
+        return False
+
     def scan_for_signals(self) -> List[TradeSignal]:
         """Scan cached data for trading signals across all strategies (fast — no API calls)."""
         signals = []
@@ -584,6 +606,12 @@ class LiveMonitor:
                     if held:
                         continue
                     signal.trade_mode = "ROTATION"
+                    n_swing = sum(1 for p in self.incubator.positions.values()
+                                  if p.trade_mode in ('ROTATION', 'SWING'))
+                    if n_swing >= self.MAX_SWING_SLOTS:
+                        logger.info(f"CANDIDATE gate: {symbol} blocked — swing slots full "
+                                    f"({n_swing}/{self.MAX_SWING_SLOTS})")
+                        continue
                     self.entry.try_enter(self.incubator, signal, 'CANDIDATE', 'incubator')
                 except Exception as e:
                     logger.error(f"Candidate scan error {symbol}/{detector.strategy_name}: {e}", exc_info=True)
@@ -669,20 +697,34 @@ class LiveMonitor:
 
         # Get current prices — try quote API first, fall back to cached candle close
         symbols = list(set(self.trader.positions) | set(self.incubator.positions))
-        quotes = self.fetcher.get_quote(symbols)
+        quotes = self.fetcher.get_quote(symbols) or {}
 
-        if quotes:
-            current_prices = {s: q['last_price'] for s, q in quotes.items()}
-        elif self.data_cache:
-            current_prices = {}
-            for s in symbols:
-                if s in self.data_cache and len(self.data_cache[s]) > 0:
-                    current_prices[s] = float(self.data_cache[s].iloc[-1]['close'])
-        else:
-            return
-
-        if not current_prices:
-            return
+        # Price ladder (2026-10-20 starvation fix): every held symbol gets a
+        # price or a loud alert. Each rung only fills what is still missing.
+        current_prices = {s: q['last_price'] for s, q in quotes.items()}
+        for s in symbols:
+            if s not in current_prices and s in self.data_cache and len(self.data_cache[s]) > 0:
+                current_prices[s] = float(self.data_cache[s].iloc[-1]['close'])
+        for s in symbols:
+            if s in current_prices:
+                continue
+            try:  # chart API via the existing fetcher -- never log in here
+                df = self.fetcher.get_historical_data(s, interval="minute", days=5)
+                if df is not None and len(df) > 0:
+                    current_prices[s] = float(df.iloc[-1]['close'])
+            except Exception as e:
+                logger.warning(f"chart-API price fetch failed for {s}: {e}")
+        alerted = self._no_price_alerted
+        today = datetime.now().strftime('%Y-%m-%d')
+        for s in symbols:
+            if s in current_prices:
+                continue
+            book = ' + '.join(b for b, t in (('main', self.trader), ('incubator', self.incubator))
+                              if s in t.positions)
+            logger.warning(f"no price for {s} ({book}) -- stop-loss NOT checked")
+            if (s, today) not in alerted:
+                alerted[(s, today)] = True
+                self.telegram.send_message(f"⚠ no price for {s} ({book}) — stop-loss NOT checked")
 
         # Save prices for dashboard -- BOTH books. The incubator's
         # latest_prices table existed but was never written (found 2026-08-05
@@ -744,6 +786,15 @@ class LiveMonitor:
 
             # Fetch latest 5-min candle and append to cache
             self.update_with_latest_candle()
+
+            # Holiday guard: no bars dated today -> skip every entry path and exit check
+            if not self.market_open_today():
+                today = datetime.now().date()
+                logger.info(f"Market closed today (no bars dated {today}) — skipping")
+                if self._closed_alert_date != today:
+                    self._closed_alert_date = today
+                    self.telegram.send_message(f"Market closed today (no bars dated {today}) — skipping scans")
+                return
 
             # Check open positions first
             self.check_open_positions()

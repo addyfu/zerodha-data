@@ -99,6 +99,7 @@ EXPECTATIONS_DIR = ROOT / 'kite' / 'live_monitor' / 'expectations'
 MONITOR_LOG = ROOT / 'data' / 'monitor.log'
 MOMO_STATE_FILE = ROOT / 'data' / 'momo_rotation_state.json'
 PAUSED_FILE = ROOT / 'data' / 'strategies_paused.json'
+P3_RESET_FILE = ROOT / 'data' / 'p3_reset.json'
 HISTORY_FILE = ROOT / 'kite' / 'live_monitor' / 'parity_history.jsonl'
 DAILY_UNIVERSE_DIR = ROOT / 'data' / 'daily_universe'
 
@@ -542,6 +543,18 @@ def check_p3(strategy: str, book: str, trade_mode: str, card: Optional[dict]) ->
                 'detail': f'{days_live}/10 trading days of live history'}
 
     window_start = _n_trading_days_ago(20)
+    # Optional data/p3_reset.json {"date": "YYYY-MM-DD"}: restart P3's window after a
+    # known-benign gap (2026-10-20 incubator starvation). Missing/corrupt -> ignored.
+    try:
+        reset_date = datetime.strptime(json.loads(P3_RESET_FILE.read_text())['date'], '%Y-%m-%d').date()
+    except (OSError, ValueError, KeyError, TypeError):
+        reset_date = None
+    if reset_date:
+        window_start = max(window_start, reset_date)
+        days_since = trading_days_between(reset_date, _today())
+        if days_since < 10:
+            return {'id': 'P3', 'name': name, 'status': 'WARMING_UP',
+                    'detail': f'{days_since}/10 trading days since P3 reset {reset_date.isoformat()}'}
     window_td = trading_days_between(window_start, _today())
     k = sum(1 for r in all_rows if datetime.fromisoformat(r['entry_time']).date() >= window_start)
     mu = lam_month * (window_td / 21.0)
